@@ -138,7 +138,7 @@
   flex: none; min-height: 36px; padding: 0 var(--s-3);
   border-radius: 999px; border: var(--hair) solid var(--rule-strong);
   background: transparent; font-size: var(--fs-sm); color: var(--ink-2);
-  position: relative;
+  position: relative; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
 }
 .filter::before { content: ""; position: absolute; inset: -4px 0; } /* allarga l'area di tocco a 44pt */
 .filter[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }

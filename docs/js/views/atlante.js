@@ -78,15 +78,33 @@ function detail(d) {
           <div class="check__body"><div class="check__title">${esc(a.name)}</div><div class="check__meta">${esc(a.type)}${a.description ? ' · ' + esc(a.description) : ''}</div></div>
         </div>`; }).join('') : '<p class="muted small">Nessuna attività registrata.</p>'}
     </div>
-    ${d.pois?.length ? `<div class="block prose"><span class="kicker">Punti di interesse</span><ul>${d.pois.map((p) => `<li>${esc(p.name)}${p.kind ? ` <span class="muted">· ${esc(p.kind)}</span>` : ''}</li>`).join('')}</ul></div>` : ''}
+    ${d.subAreas?.length ? `<div class="block"><span class="kicker">Quartieri e zone</span><div class="chips">${d.subAreas.map((a) => `<span class="chip">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div></div>` : ''}
+    ${d.pois?.length ? `<div class="block"><span class="kicker">Luoghi</span>${d.pois.map((p) => `<a class="toc__row" href="#/atlante/${esc(d.id)}/${esc(p.id)}"><span class="toc__num"><svg style="width:18px;height:18px;margin-left:auto" aria-hidden="true"><use href="#i-pin"/></svg></span><span><span class="toc__title">${esc(p.name)}</span><span class="toc__meta">${esc(p.kind || '')}</span></span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>`).join('')}</div>` : ''}
     <p class="source-line">Fonte: ${esc(d.source)}${d.sourceUrl ? ` · <a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">pagina ufficiale</a>` : ''}</p>`;
+}
+
+function poiDetail(d, p) {
+  const chars = vis(db.characters).filter((c) => (p.characterIds || []).includes(c.id));
+  return `
+    ${backLink('/atlante/' + d.id, d.name)}
+    ${runningHead(d.name, p.kind || 'Luogo')}
+    <div class="chips" style="margin-bottom:var(--s-3)">${statusChip(p)}</div>
+    <h1>${esc(p.name)}</h1>
+    ${p.tagline ? `<p class="lede" style="margin-top:var(--s-2)">${esc(p.tagline)}</p>` : ''}
+    ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" style="border-radius:var(--radius);margin:var(--s-3) 0" loading="lazy">` : ''}
+    <hr class="rule">
+    <div class="prose">${spoiler.wrap(p, `<p class="dropcap">${esc(p.description || 'Descrizione in arrivo.')}</p>`)}</div>
+    ${chars.length ? `<div class="block"><span class="kicker">Chi lo frequenta</span><div class="chips">${chars.map((c) => `<a class="chip" href="#/personaggi/${esc(c.id)}">${esc(c.name)}</a>`).join('')}</div></div>` : ''}
+    <p class="source-line">Fonte: ${esc(p.source)}${p.sourceUrl ? ` · <a href="${esc(p.sourceUrl)}" target="_blank" rel="noopener">pagina ufficiale</a>` : ''} · in <a href="#/atlante/${esc(d.id)}">${esc(d.name)}</a></p>`;
 }
 
 export function render(params) {
   const d = params.id ? byId(params.id) : null;
+  const p = d && params.poi ? byId(params.poi) : null;
   if (d) progress.setCurrentDistrict(d.id);
   const left = `${chapterHead(section, { kicker: 'Capitolo terzo', title: 'Atlante' })}${mapSvg(params.id)}<div class="block">${districtList(params.id)}</div>`;
-  return { left, right: detail(d), show: d ? 'right' : 'left', accent: section.accent, title: d?.name || 'Atlante' };
+  const right = p ? poiDetail(d, p) : detail(d);
+  return { left, right, show: d ? 'right' : 'left', accent: section.accent, title: p?.name || d?.name || 'Atlante' };
 }
 
 export function bind(root, rerender) {

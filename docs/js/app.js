@@ -17,8 +17,9 @@ import * as editoriale from './views/editoriale.js';
 import * as diario from './views/diario.js';
 import * as impostazioni from './views/impostazioni.js';
 import * as ricerca from './views/ricerca.js';
+import * as veicoli from './views/veicoli.js';
 
-window.__LEONIDA_VERSION__ = 'v0.1.1';
+window.__LEONIDA_VERSION__ = 'v0.2.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -49,7 +50,7 @@ function navHtml(activePath, forRail) {
 function renderAltro() {
   const left = `<header class="chapter-head"><span class="kicker">Indice generale</span><h1>Altro</h1></header>
     <ol class="toc">${SECTIONS.map((s) => `<li><a class="toc__row ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}"><span class="toc__num">${String(s.num).padStart(2, '0')}</span><span class="toc__title">${esc(s.title)}${s.disabled ? ' <span class="soon">v2</span>' : ''}</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>`).join('')}
-    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">10</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">11</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
     <li><a class="toc__row" href="#/ricerca"><span class="toc__num">—</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
   return { left, right: '', show: 'left', accent: 'magenta', title: 'Altro' };
 }
@@ -57,7 +58,8 @@ function renderAltro() {
 const views = {
   '/': sessione.render,
   '/missioni/:id?': missioni.render,
-  '/atlante/:id?': atlante.render,
+  '/atlante/:id?/:poi?': atlante.render,
+  '/veicoli/:id?': veicoli.render,
   '/collezionabili': collezionabili.render,
   '/personaggi/:id?': editoriale.renderPersonaggi,
   '/cultura/:id?': editoriale.renderCultura,
@@ -114,6 +116,8 @@ function render(match, { dir } = {}) {
 
 function bindGlobal() {
   const root = $('app');
+  // Immagini mancanti: spariscono senza icona rotta
+  document.addEventListener('error', (e) => { if (e.target?.tagName === 'IMG') e.target.remove(); }, true);
   spoiler.bind(root);
   const rerender = () => currentRender?.();
   missioni.bind(root, rerender);
@@ -122,6 +126,7 @@ function bindGlobal() {
   diario.bind(root, rerender);
   impostazioni.bind(root, rerender, { applyTheme, checkUpdate });
   ricerca.bind(root);
+  veicoli.bind(root, rerender);
   root.addEventListener('click', (e) => {
     const a = e.target.closest('[data-action]');
     if (!a) return;

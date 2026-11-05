@@ -5,7 +5,7 @@ import { showSheet, closeSheet } from '../ui/sheet.js';
 import { currentAct } from '../spoiler.js';
 import { opener } from './shared.js';
 
-const section = { id: 'impostazioni', num: 10, title: 'Impostazioni', accent: 'teal' };
+const section = { id: 'impostazioni', num: 11, title: 'Impostazioni', accent: 'teal' };
 
 export function render() {
   const s = progress.settings();

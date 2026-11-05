@@ -9,11 +9,12 @@ export const SECTIONS = [
   { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', tab: true },
   { id: 'atlante', num: 3, title: 'Atlante', path: '/atlante', icon: 'map', accent: 'orange', tab: true },
   { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', tab: true },
-  { id: 'personaggi', num: 5, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
-  { id: 'cultura', num: 6, title: 'Radio e Cultura', path: '/cultura', icon: 'radio', accent: 'orange' },
-  { id: 'prima-ora', num: 7, title: 'Prima ora', path: '/prima-ora', icon: 'bolt', accent: 'teal' },
-  { id: 'diario', num: 8, title: 'Diario', path: '/diario', icon: 'pen', accent: 'magenta' },
-  { id: 'online', num: 9, title: 'Online', path: '/online', icon: 'globe', accent: 'teal', disabled: true },
+  { id: 'veicoli', num: 5, title: 'Veicoli', path: '/veicoli', icon: 'car', accent: 'orange' },
+  { id: 'personaggi', num: 6, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
+  { id: 'cultura', num: 7, title: 'Radio e Cultura', path: '/cultura', icon: 'radio', accent: 'orange' },
+  { id: 'prima-ora', num: 8, title: 'Prima ora', path: '/prima-ora', icon: 'bolt', accent: 'teal' },
+  { id: 'diario', num: 9, title: 'Diario', path: '/diario', icon: 'pen', accent: 'magenta' },
+  { id: 'online', num: 10, title: 'Online', path: '/online', icon: 'globe', accent: 'teal', disabled: true },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

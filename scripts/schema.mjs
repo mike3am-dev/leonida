@@ -36,7 +36,7 @@ export const schema = {
   },
   districts: {
     envelope: { schemaVersion: 'number', items: 'array' },
-    items: { ...common, name: 'string', region: 'string?', tagline: 'string?', description: 'string?', map: 'object?', pois: 'array', activityIds: { refList: 'activities' } },
+    items: { ...common, name: 'string', region: 'string?', tagline: 'string?', description: 'string?', map: 'object?', pois: 'array', subAreas: 'array', activityIds: { refList: 'activities' } },
     idPrefix: 'dis-',
   },
   collectibles: {
@@ -64,6 +64,11 @@ export const schema = {
     envelope: { schemaVersion: 'number', items: 'array' },
     items: { ...common, name: 'string', category: 'string?', description: 'string?' },
     idPrefix: 'brd-',
+  },
+  vehicles: {
+    envelope: { schemaVersion: 'number', items: 'array' },
+    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'super', 'sportiva', 'berlina', 'suv', 'fuoristrada', 'muscle', 'classica', 'moto', 'barca', 'elicottero', 'aereo', 'altro'], description: 'string?', howToGet: 'string?' },
+    idPrefix: 'veh-',
   },
   tips: {
     envelope: { schemaVersion: 'number', items: 'array' },

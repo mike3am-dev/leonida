@@ -1,0 +1,42 @@
+{
+  "_nota": "Immagini ufficiali Rockstar (rockstargames.com) usate dalla guida. Lo script scripts/scarica-immagini.mjs le salva in docs/assets/img con il nome indicato. Materiale protetto da copyright: solo per uso personale, repository privato.",
+  "base": "https://www.rockstargames.com",
+  "suffix": "?akim=1&imdensity=1&imwidth=1920",
+  "items": [
+    { "file": "jason.jpg", "url": "/VI/_next/static/media/mobile.0jzys13fkqnae.jpg", "for": "chr-jason" },
+    { "file": "lucia.jpg", "url": "/VI/_next/static/media/mobile.01e24lvhdu677.jpg", "for": "chr-lucia" },
+    { "file": "cal-hampton.jpg", "url": "/VI/_next/static/media/Hero_BG.0dwp8ucivdr~j.jpg", "for": "chr-cal" },
+    { "file": "boobie-ike.jpg", "url": "/VI/_next/static/media/Hero_BG.0p057ifb~cbkz.jpg", "for": "chr-boobie" },
+    { "file": "drequan-priest.jpg", "url": "/VI/_next/static/media/Hero_BG.00ah9g2acd7jo.jpg", "for": "chr-drequan" },
+    { "file": "real-dimez.jpg", "url": "/VI/_next/static/media/Hero_BG.0vm~96xn2g1_l.jpg", "for": "chr-real-dimez" },
+    { "file": "raul-bautista.jpg", "url": "/VI/_next/static/media/Hero_BG.0xs9poewzot23.jpg", "for": "chr-raul" },
+    { "file": "brian-heder.jpg", "url": "/VI/_next/static/media/Hero_BG.0p-kp~u8~u~-v.jpg", "for": "chr-brian" },
+    { "file": "vice-city.jpg", "url": "/VI/_next/static/media/poster.03hy0_cb3li0-.jpg", "for": "dis-vice-city" },
+    { "file": "leonida-keys.jpg", "url": "/VI/_next/static/media/poster.13r.65m29y5~z.jpg", "for": "dis-keys" },
+    { "file": "grassrivers.jpg", "url": "/VI/_next/static/media/poster.0q6dkw_b2u02f.jpg", "for": "dis-grassrivers" },
+    { "file": "port-gellhorn.jpg", "url": "/VI/_next/static/media/poster.15pqq49m2stxb.jpg", "for": "dis-port-gellhorn" },
+    { "file": "ambrosia.jpg", "url": "/VI/_next/static/media/poster.0cbnc0-35neev.jpg", "for": "dis-ambrosia" },
+    { "file": "mount-kalaga.jpg", "url": "/VI/_next/static/media/poster.17wlh6xi7ljz9.jpg", "for": "dis-mount-kalaga" },
+    { "file": "radio-flash-fm.png", "url": "/VI/_next/static/media/flash-logo.04o~oki.8dgm0.png", "for": "rad-flash-fm" },
+    { "file": "radio-cocoteo.png", "url": "/VI/_next/static/media/cocoteo-logo.0f_q~~9u45zf5.png", "for": "rad-cocoteo" },
+    { "file": "radio-back-country.png", "url": "/VI/_next/static/media/country-logo.0_u9b8toxgaqe.png", "for": "rad-back-country" },
+    { "file": "radio-afro-bank.png", "url": "/VI/_next/static/media/afrobank-logo.0r-.t_v9b~9l_.png", "for": "rad-afro-bank" },
+    { "file": "radio-the-chamber.png", "url": "/VI/_next/static/media/chamber-logo.039x21cy5jsiv.png", "for": "rad-the-chamber" },
+    { "file": "radio-dirty-south.png", "url": "/VI/_next/static/media/dirty-south-logo.0oparlmygi1zd.png", "for": "rad-dirty-south" },
+    { "file": "the-album.jpg", "url": "/VI/_next/static/media/GTAVI_MusicPage_AlbumArt.05qucexa8vzgb.jpg", "for": "brd-the-album" },
+    { "file": "the-score.jpg", "url": "/VI/_next/static/media/Score_CoverArt_1014_1600x1600.0.5dr9slukqhb.jpg", "for": "brd-score-justice" },
+    { "file": "veh-grotti-cheetah.jpg", "url": "/VI/_next/static/media/ULTIMATE_EDITION_GROTTI_CHEETAH_01.0a.wy3s_ogjey.jpg", "for": "veh-grotti-cheetah-95" },
+    { "file": "veh-vapid-stanier.jpg", "url": "/VI/_next/static/media/VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.004m_8d1~qngy.jpg", "for": "veh-vapid-stanier-55" },
+    { "file": "revolvers.jpg", "url": "/VI/_next/static/media/ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_01.0~3pdc~~sing4.jpg", "for": "brd-hawk-little-morgan" },
+    { "file": "vintage-pack.jpg", "url": "/VI/_next/static/media/VINTAGE_VICE_CITY_PACK_01.05zaof7o1uz.3.jpg", "for": "brd-vintage-pack" },
+    { "file": "ultimate-edition.jpg", "url": "/VI/_next/static/media/ULTIMATE_EDITION_02.0q-6.nrtf~jj0.jpg", "for": "brd-ultimate-edition" },
+    { "file": "cover-art.jpg", "url": "/VI/_next/static/media/Official_Cover_Art_landscape.12.uu2irr.2_a.jpg", "for": "copertina (opzionale)" }
+  ],
+  "zip": {
+    "_nota": "Pacchetti ufficiali completi, da scaricare a mano se vuoi tutto: 138 screenshot, artwork, video.",
+    "screenshots": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+    "ultimate": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Ultimate_Edition_Benefits.zip",
+    "vintage": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Vintage_Vice_City_Pack.zip",
+    "artwork": "https://media-rockstargames-com.akamaized.net/VI/downloads/artwork_wallpapers/GTAVI_Artwork_Wallpapers.zip"
+  }
+}

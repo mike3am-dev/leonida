@@ -1,9 +1,22 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.1.0",
+  "dataVersion": "0.2.0",
   "updatedAt": "2026-11-05",
   "releaseDate": "2026-11-19",
+  "mapImage": null,
   "changelog": [
+    {
+      "version": "0.2.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Nuova sezione Veicoli con i mezzi nominati nelle edizioni (Grotti Cheetah '95, Vapid Stanier '55, Vapid Dominator Buggy '67, Shitzu Squalo) e quelli segnalati dalla community.",
+        "Luoghi con scheda propria dentro l'Atlante: cantiere di Brian, casa di Jason, Penitenziario, officine e negozi dell'Ultimate Edition, più un distretto «Da collocare».",
+        "Schede dei personaggi riscritte con tutti i dettagli del sito ufficiale; aggiunti Lori e DWNPLY.",
+        "Radio con i motti ufficiali; Cultura con i due album, le armi e le edizioni; Prima ora con preload, prezzi, bollino e nomi da sapere.",
+        "Attività intraviste negli screenshot di lancio del 5 novembre, marcate «da verificare».",
+        "Preferiti (segnalibro) sulle schede."
+      ]
+    },
     {
       "version": "0.1.0",
       "date": "2026-11-05",

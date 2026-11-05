@@ -70,6 +70,12 @@ export function toggleActivity(id) {
   update((s) => { if (s.activities[id]) delete s.activities[id]; else s.activities[id] = 'completata'; });
 }
 
+/* ---------- Preferiti ---------- */
+export function isFavorite(id) { return !!state.favorites?.[id]; }
+export function toggleFavorite(id) {
+  update((s) => { s.favorites = s.favorites || {}; if (s.favorites[id]) delete s.favorites[id]; else s.favorites[id] = true; });
+}
+
 /* ---------- Appunti ---------- */
 export function addNote({ text, districtId = null, missionId = null }) {
   const note = { id: 'n-' + Date.now().toString(36), ts: new Date().toISOString(), text: text.trim(), districtId, missionId };

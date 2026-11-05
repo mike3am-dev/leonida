@@ -43,9 +43,19 @@ Ogni voce dei JSON ha sempre questi campi:
 | `example` | `true` / `false` | voce finta per vedere il design; il titolo deve contenere «ESEMPIO» |
 | `image` | percorso o `null` | immagine opzionale, per esempio `assets/img/jason.jpg` |
 
-I prefissi degli id: `mis-` missioni, `dis-` distretti, `col-` collezionabili, `act-` attività, `chr-` personaggi, `rad-` radio, `brd-` marchi, `tip-` consigli.
+I prefissi degli id: `mis-` missioni, `dis-` distretti, `poi-` luoghi (dentro i distretti), `col-` collezionabili, `act-` attività, `chr-` personaggi, `rad-` radio, `brd-` marchi e cultura, `veh-` veicoli, `tip-` consigli.
 
 Quando cambi i dati, aggiorna anche `meta.json` (`dataVersion`, `updatedAt`, una riga nel `changelog`).
+
+## Immagini ufficiali
+
+La guida aspetta già le immagini ufficiali Rockstar (personaggi, territori, loghi delle radio, veicoli, copertine). Per scaricarle sul tuo Mac nella cartella giusta:
+
+```bash
+node scripts/scarica-immagini.mjs
+```
+
+L'elenco è in `scripts/immagini.json`. Finché un'immagine manca, l'app la nasconde. Materiale protetto da copyright: solo per uso personale, repository privato.
 
 ## Validare
 

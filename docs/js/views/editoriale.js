@@ -13,7 +13,7 @@ export function renderPersonaggi(params) {
     <span class="toc__num">${x.isProtagonist ? '★' : '·'}</span>
     <span><span class="toc__title">${esc(x.name)}</span><span class="toc__meta">${esc(x.role || '')}</span></span>
     <span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>`;
-  const left = `${chapterHead(secP, { kicker: 'Capitolo quinto', title: 'Personaggi' })}
+  const left = `${chapterHead(secP, { kicker: 'Capitolo sesto', title: 'Personaggi' })}
     <div class="toc__section"><span class="kicker">Protagonisti</span>${chars.filter((x) => x.isProtagonist).map(row).join('')}</div>
     <div class="toc__section"><span class="kicker">Il cast di Leonida</span>${chars.filter((x) => !x.isProtagonist).map(row).join('') || '<p class="muted small">Nessuno ancora.</p>'}</div>`;
   const right = c ? `
@@ -41,7 +41,7 @@ export function renderCultura(params) {
     <span class="toc__num"><svg style="width:18px;height:18px;margin-left:auto" aria-hidden="true"><use href="#${x._type === 'radio' ? 'i-radio' : 'i-star'}"/></svg></span>
     <span><span class="toc__title">${esc(x.name)}</span><span class="toc__meta">${esc(meta)}</span></span>
     <span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>`;
-  const left = `${chapterHead(secC, { kicker: 'Capitolo sesto', title: 'Radio e Cultura' })}
+  const left = `${chapterHead(secC, { kicker: 'Capitolo settimo', title: 'Radio e Cultura' })}
     <div class="toc__section"><span class="kicker">In onda su Leonida</span>${radio.map((r) => row(r, `${r.genre || ''}${r.host ? ' · ' + r.host : ''}`)).join('')}</div>
     <div class="toc__section"><span class="kicker">Marchi, musica, cultura</span>${brands.map((b) => row(b, b.category || '')).join('') || '<p class="muted small">Nulla ancora.</p>'}</div>`;
   const right = it ? `
@@ -66,7 +66,7 @@ export function renderPrimaOra() {
   const tips = vis(db.tips).sort((a, b) => (a.priority ?? 50) - (b.priority ?? 50));
   const cats = [...new Set(tips.map((t) => t.category))];
   const first = tips.filter((t) => t.category === 'prima-ora');
-  const left = `${chapterHead(secT, { kicker: 'Capitolo settimo', title: 'Prima ora', lede: 'Quello che conviene sapere al giorno uno, prima ancora di prendere il pad.' })}
+  const left = `${chapterHead(secT, { kicker: 'Capitolo ottavo', title: 'Prima ora', lede: 'Quello che conviene sapere al giorno uno, prima ancora di prendere il pad.' })}
     ${first.map((t, i) => `<div class="card" style="margin-top:var(--s-3)"><div class="kicker kicker--accent">${String(i + 1).padStart(2, '0')}</div><h2>${esc(t.title)}</h2><div class="prose">${spoiler.wrap(t, `<p>${esc(t.body)}</p>`)}</div>${statusChip(t)}</div>`).join('')}`;
   const others = cats.filter((c) => c !== 'prima-ora');
   const right = others.length ? others.map((c) => `<div class="block"><span class="kicker">${esc(CAT_LABEL[c] || c)}</span>
@@ -78,7 +78,7 @@ export function renderPrimaOra() {
 /* ---------- Online (disattivata) ---------- */
 const secO = sectionOf('online');
 export function renderOnline() {
-  const left = `${chapterHead(secO, { kicker: 'Capitolo nono', title: 'Online' })}
+  const left = `${chapterHead(secO, { kicker: 'Capitolo decimo', title: 'Online' })}
     <div class="placeholder is-disabled"><strong>In arrivo <span class="soon">v2</span></strong>Questa sezione è prevista per la componente online e per il sync dei progressi tra dispositivi (Supabase). Oggi è spenta.</div>`;
   return { left, right: opener(secO, 'Spazio riservato alla versione 2.'), show: 'left', accent: secO.accent, title: 'Online' };
 }

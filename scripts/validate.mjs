@@ -34,7 +34,7 @@ const collections = {
   missions: data.missions.items, acts: data.missions.acts, districts: data.districts.items,
   collectibles: data.collectibles.items, categories: data.collectibles.categories,
   activities: data.activities.items, characters: data.characters.items,
-  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items,
+  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items, vehicles: data.vehicles.items,
 };
 for (const [coll, list] of Object.entries(collections)) {
   ids[coll] = new Set();
@@ -88,7 +88,11 @@ for (const m of data.missions.items) {
 for (const d of data.districts.items) {
   if (d.map && (typeof d.map.x !== 'number' || typeof d.map.y !== 'number')) err('districts', d.id, 'map.x e map.y devono essere numeri (griglia 0–1000)');
   if (d.map && (d.map.x < 0 || d.map.x > 1000 || d.map.y < 0 || d.map.y > 1000)) err('districts', d.id, 'map.x / map.y fuori dalla griglia 0–1000');
-  for (const p of d.pois || []) if (!p?.id || !p?.name) err('districts', d.id, 'ogni POI deve avere id e name');
+  for (const p of d.pois || []) {
+    if (!p?.id || !p?.name) err('districts', d.id, 'ogni POI deve avere id e name');
+    if (p?.id && !p.id.startsWith('poi-')) warn('districts', `${d.id} › ${p.id}`, 'gli id dei POI dovrebbero iniziare con "poi-"');
+    if (p?.id && allIds.has(p.id)) err('districts', d.id, `il POI "${p.id}" ha lo stesso id di un'altra voce`);
+  }
 }
 
 // 5. Riepilogo

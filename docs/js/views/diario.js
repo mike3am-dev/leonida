@@ -13,7 +13,7 @@ export function render(params, query) {
   const groups = new Map();
   for (const n of notes) { const k = fmtDate(n.ts, { weekday: 'long', day: 'numeric', month: 'long' }); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(n); }
 
-  const left = `${chapterHead(section, { kicker: 'Capitolo ottavo', title: 'Diario' })}
+  const left = `${chapterHead(section, { kicker: 'Capitolo nono', title: 'Diario' })}
     <button class="btn-note" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg><div><strong>Appunto rapido</strong><span>Con timestamp, distretto e missione.</span></div></button>
     <div class="block">
       <button class="btn btn--solid btn--block" type="button" data-action="packet" ${notes.length ? '' : 'disabled'}>Pacchetto per Claude${pending.length ? ` · ${pending.length} nuovi` : ''}</button>

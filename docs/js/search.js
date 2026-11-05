@@ -24,7 +24,7 @@ function lev(a, b) {
 }
 
 function fieldsOf(item) {
-  const f = [item.title, item.name, item.summary, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category];
+  const f = [item.title, item.name, item.summary, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet];
   (item.tips || []).forEach((t) => f.push(t));
   (item.secrets || []).forEach((t) => f.push(t));
   (item.pois || []).forEach((p) => f.push(p.name));
@@ -33,7 +33,7 @@ function fieldsOf(item) {
 }
 
 export function buildIndex() {
-  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips];
+  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.pois];
   index = lists.flat().map((item) => {
     const title = item.title || item.name || '';
     const body = fieldsOf(item);
