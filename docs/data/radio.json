@@ -5,32 +5,32 @@
       "id": "rad-flash-fm",
       "name": "Flash FM",
       "genre": "Pop",
-      "host": "Robyn e Alex",
+      "host": "Robyn e Alex (Alex Consani)",
       "description": "Il sito ufficiale la chiama l'istituzione di Vice City. Il pop che esce dai finestrini abbassati lungo la costa, oggi come ai tempi del neon. Se c'è una stazione da lasciare accesa la prima sera, è questa.",
       "highlights": [
         {
           "artist": "Charli xcx",
           "title": "Good Ones",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "MGMT",
           "title": "Electric Feel",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Zara Larsson & PinkPantheress",
           "title": "Midnight Sun (Girls Trip)",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-flash-fm.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -39,38 +39,38 @@
       "id": "rad-cocoteo",
       "name": "Cocoteo",
       "genre": "Latin moderno",
-      "host": "El Martillo e La Gata",
+      "host": "El Martillo (Bad Bunny) e La Gata (RaiNao)",
       "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: ritmi moderni e la voce dei quartieri, da Little Cuba in giù.",
       "highlights": [
         {
           "artist": "Bad Bunny",
           "title": "EoO",
-          "status": "da verificare",
-          "source": "community"
-        },
-        {
-          "artist": "Myke Towers",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Axel Rulay ft. Farruko & El Alfa",
-          "title": "remix",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Si Es Trucho Es Trucho (Remix)",
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Romeo Santos & El Chaval de la Bachata",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Canalla",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Myke Towers",
+          "title": "Girl",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-cocoteo.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -79,20 +79,44 @@
       "id": "rad-back-country",
       "name": "Back Country",
       "genre": "Country ribelle",
-      "host": "MW e Delta Dawne",
+      "host": "MW (Morgan Wallen), Delta Dawne (Lana Del Rey) e Mud Dog Mike (Jeremy Dufrene)",
       "description": "Country fuori dagli schemi, per le strade dritte dell'entroterra e i pick-up con la ruggine sui parafanghi.",
       "highlights": [
         {
-          "artist": "Glen Campbell, George Strait, David Allan Coe, Loretta Lynn, Hank Williams Jr. & Waylon Jennings",
-          "title": "cinque brani segnalati dalla community",
-          "status": "da verificare",
-          "source": "community"
+          "artist": "David Allan Coe",
+          "title": "Need a Little Time Off for Bad Behavior",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Loretta Lynn",
+          "title": "Don't Come Home A-Drinkin'",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Hank Williams Jr. & Waylon Jennings",
+          "title": "The Conversation",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Glen Campbell",
+          "title": "Rhinestone Cowboy",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "George Strait",
+          "title": "The Fireman",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-back-country.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -101,32 +125,32 @@
       "id": "rad-afro-bank",
       "name": "Afro Bank FM",
       "genre": "Amapiano, classici africani, 3-step",
-      "host": "Burna e Palmsy",
+      "host": "Burna (Burna Boy) e Palmsy (Palms Trax)",
       "description": "Amapiano, classici del continente africano e 3-step, con il motto «Turn up the gbedu». La stazione che fa ballare anche in coda al semaforo.",
       "highlights": [
         {
           "artist": "Asake",
           "title": "Joha",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Pat Thomas ft. Ebo Taylor",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Gye Wani",
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "DJ Lag & Robot Boii ft. Kamo Mphela",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Shay'sana",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-afro-bank.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -135,32 +159,32 @@
       "id": "rad-the-chamber",
       "name": "The Chamber",
       "genre": "Metal",
-      "host": "DJ Kerry e DJ Tom",
+      "host": "DJ Kerry (Kerry King) e DJ Tom (Tom Araya)",
       "description": "Metal, senza compromessi. Per le fughe in cui il contagiri non scende mai.",
       "highlights": [
         {
           "artist": "Black Sabbath",
           "title": "I",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Pantera",
           "title": "I'm Broken",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "Slayer",
           "title": "Raining Blood",
-          "status": "da verificare",
-          "source": "community"
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-the-chamber.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -169,32 +193,32 @@
       "id": "rad-dirty-south",
       "name": "Dirty South Classics",
       "genre": "Rap e hip-hop del Sud",
-      "host": "Trick e Trina",
+      "host": "Trick (Trick Daddy) e Trina",
       "description": "I classici del rap e dell'hip-hop regionale, la colonna sonora naturale della scena che Dre'Quan e le Real Dimez vogliono conquistare.",
       "highlights": [
         {
           "artist": "David Banner ft. Lil' Flip",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Like A Pimp",
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "JT Money ft. Solé",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Who Dat",
+          "status": "verificato",
+          "source": "trailer"
         },
         {
           "artist": "DJ Khaled ft. Trick Daddy, Rick Ross & Pitbull",
-          "title": "—",
-          "status": "da verificare",
-          "source": "community"
+          "title": "Born N Raised",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "image": "assets/img/radio-dirty-south.png",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
@@ -204,7 +228,7 @@
       "name": "Altre stazioni e podcast",
       "genre": "Dal classic rock alla talk radio",
       "host": "Da scoprire",
-      "description": "La pagina ufficiale dice che le stazioni vanno «dal Classic Rock alla Talk Radio» e che ci sono podcast su richiesta, ma nomina solo le sei qui sopra. Nella community circolano altri nomi, in parte da leak e quindi da prendere con le pinze: V-Rock, Emotion, Stockyard FM, Symphony FM, CircoLoco Records Radio, Honey FM, Radio On-U, The Wipe, Worldwide FM, Kaleidoscope FM, La Ola. Le conferme le dai tu, una alla volta, girando la manopola.",
+      "description": "La pagina ufficiale dice che le stazioni vanno «dal Classic Rock alla Talk Radio» e che ci sono podcast su richiesta, ma nomina solo le sei qui sopra. Nella community circolano altri nomi, in parte da leak e quindi da prendere con le pinze: V-Rock, Emotion, Stockyard FM, Symphony FM, CircoLoco Records Radio, Honey FM, Radio On-U, The Wipe, Worldwide FM, Kaleidoscope FM, La Ola. Edge dice che le stazioni sono 23 in tutto. Le conferme le dai tu, una alla volta, girando la manopola.",
       "highlights": [],
       "image": null,
       "status": "da verificare",

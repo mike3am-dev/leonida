@@ -60,6 +60,46 @@
         {
           "name": "Bayside",
           "note": "stampa, Extended Look"
+        },
+        {
+          "name": "Little Haiti / La Perle",
+          "note": "enclave haitiana della community; gang San4San, murales S4SLIFE"
+        },
+        {
+          "name": "Rockridge",
+          "note": "community: Fleeca Field, Venture Apartments dell'Extended Look"
+        },
+        {
+          "name": "Crosstown",
+          "note": "community: Jack of Hearts, Rideout Customs, Hoodwinks"
+        },
+        {
+          "name": "Gloriana Key",
+          "note": "isola barriera, leak agosto 2026; raduno di auto nel finale dell'Extended Look"
+        },
+        {
+          "name": "Catalan Key",
+          "note": "isola con l'Oceanarium e il faro"
+        },
+        {
+          "name": "Tequesta Retreat",
+          "note": "isola artificiale con le torri Pegassi"
+        },
+        {
+          "name": "Rialto Islands",
+          "note": "le isole artificiali, Trailer 1"
+        },
+        {
+          "name": "Balsero",
+          "note": "community"
+        },
+        {
+          "name": "Salton",
+          "note": "leak ottobre 2026, partenza di una corsa verso Waning Sands"
+        },
+        {
+          "name": "Vice Decor District",
+          "note": "community"
         }
       ],
       "pois": [
@@ -392,6 +432,323 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
           "image": null
+        },
+        {
+          "id": "poi-sahara-arena-x",
+          "name": "Vice City Narcos (basket)",
+          "kind": "Squadra",
+          "description": "La squadra di basket di casa alla Sahara Arena, modellata sul Kaseya Center.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-the-sumerian",
+          "name": "The Sumerian",
+          "kind": "Hotel",
+          "description": "Hotel di Downtown ispirato al Marriott Biscayne Bay.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-arcadia-towers",
+          "name": "Arcadia Towers",
+          "kind": "Residenziale",
+          "description": "Torri di Downtown ispirate al Vizcayne.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-vice-museum",
+          "name": "Vice Museum of Art",
+          "kind": "Museo",
+          "description": "Il museo d'arte di Downtown.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-lombank",
+          "name": "Lombank",
+          "kind": "Banca",
+          "description": "Sede a Tequesta; la banca torna dalla serie.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-y-vice-city",
+          "name": "Y Vice City",
+          "kind": "Palestra",
+          "description": "La palestra (Y) a Washington Beach / Downtown.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-concert-hall",
+          "name": "Vice City Concert Hall",
+          "kind": "Teatro",
+          "description": "Ispirato alla Knight Concert Hall.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-catalan-blvd",
+          "name": "Catalan Boulevard",
+          "kind": "Strada",
+          "description": "La Biscayne Boulevard di Leonida: attraversa Stockyard, Downtown e Tequesta; sopra ci stanno Archipelago Apartments, il Buckme Building, Megamundo, la Sahara Arena e l'Arts Center. Negozi: Bruiser Skate Shop, The Celtica Hotel, Chariot Empire Suites, Perkins Deli.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-effluvia",
+          "name": "Effluvia",
+          "kind": "Bar sul tetto",
+          "description": "Il rooftop bar di Ocean Beach dove Brian Heder propone il lavoro a Jason nell'Extended Look (10:50): Lucia se ne va, Jason resta con il lavoro e una Pißwasser.",
+          "characterIds": [
+            "chr-brian",
+            "chr-jason",
+            "chr-lucia"
+          ],
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-venture-apartments",
+          "name": "Venture Apartments",
+          "kind": "Residenziale",
+          "description": "A Rockridge: la casa dello spaccio di Raymond, dove si apre l'Extended Look con la retata di Méndez.",
+          "characterIds": [
+            "chr-raymond",
+            "chr-mendez"
+          ],
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-stock-305-x",
+          "name": "Archez, Bohemia, Redford Gallery",
+          "kind": "Negozi di Stockyard",
+          "description": "Boutique e gallerie di Stockyard ricostruite dalla community sugli indirizzi veri di Wynwood.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-vice-vinyl-x",
+          "name": "Vice City Shopping Plaza",
+          "kind": "Centro commerciale",
+          "description": "A Stockyard, con lo Stockyard Art Tours.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-la-perle-market",
+          "name": "La Perle Caribbean Market",
+          "kind": "Mercato",
+          "description": "Nell'enclave haitiana, con Conch King, Vetiver Minimarket, Simon's Tires e il Haitian-American Cultural Center. La metro passa sopraelevata sulla CR 561.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-cipher-mall",
+          "name": "Cipher Mall",
+          "kind": "Centro commerciale",
+          "description": "A Rockridge, vicino al Navaro Shipping Terminal e al Warren Thacker Manor.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-vice-city-pawn",
+          "name": "Vice City Pawn",
+          "kind": "Banco dei pegni",
+          "description": "A Rockridge, con Lou's café, Peewees, Go Postal e Vicycle.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-baller-dealership",
+          "name": "Baller Dealership e Vapid Dealership",
+          "kind": "Concessionari",
+          "description": "Su El Joven Boulevard, Southside: i concessionari dove comprare auto. Accanto, Mami's Grocery Market e A1 Fashions.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-vc-metro",
+          "name": "Vice City Metro",
+          "kind": "Metropolitana",
+          "description": "La rete su rotaia (la Metrorail di Leonida) gestita dalla contea: stazioni a VCIA, Downtown, Arts Center, Crosstown e Waning Sands; sopraelevata sopra La Perle (Trailer 2, 0:45); due treni nel trailer di lancio. Il Metro Mule è il people mover automatico del centro (Crosstown, Arts Center, Downtown).",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-vc-transit",
+          "name": "Autobus Vice City Transit",
+          "kind": "Trasporto pubblico",
+          "description": "Gli autobus urbani (Buster) e i pullman (Dashound). Hooker: «sono ossessionato dal fatto che arrivino sempre», ha memorizzato tutte le linee. Fermate sulla minimappa.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-i97",
+          "name": "Interstate 97, la Sunbelt Highway",
+          "kind": "Autostrada",
+          "description": "Nord-sud attraverso Vice City; svincoli con la I-404 (est-ovest, fino a Port Gellhorn) e la I-397 (spur verso il porto e Catalan Key). Cartelli per Peacock Bay, Waning Sands, North Beaches, Lake Leonida.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-portvicecity",
+          "name": "PortViceCity",
+          "kind": "Porto",
+          "description": "«La capitale mondiale delle crociere» nel testo ufficiale; una nave da crociera accanto al ponte nell'Extended Look; tunnel e I-397.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-vcia-x",
+          "name": "Autograph",
+          "kind": "Aviazione privata",
+          "description": "Gli hangar dell'aviazione privata all'aeroporto, dal cui vetro si vede l'impianto Goliath Global. Cartello «VCI Airport» nell'Extended Look (18:40).",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-coast-guard",
+          "name": "Base della Guardia Costiera",
+          "kind": "Base",
+          "description": "Elencata dalla community a Vice City; Cal Hampton ascolta le sue comunicazioni.",
+          "characterIds": [
+            "chr-cal"
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-peregrine-bay",
+          "name": "Peregrine Bay",
+          "kind": "Baia",
+          "description": "La baia a sud della contea (Turkey Point); cartello a Southside nel leak dell'agosto 2026.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-bluegrass",
+          "name": "Bluegrass",
+          "kind": "Cittadina agricola",
+          "description": "A nord di Hamlet (Redland); il Bluegrass Radio Mast sarebbe la struttura più alta di Leonida. Dal leak.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-pegassi-x",
+          "name": "Akio Hotel",
+          "kind": "Hotel",
+          "description": "Su Tequesta Retreat, accanto alle torri Pegassi.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-oceanarium-x",
+          "name": "Makenzi, l'orca",
+          "kind": "Cartellone",
+          "description": "Il cartellone dell'Oceanarium con l'orca Makenzi nell'Extended Look (15:35). Il parco era «Vice City Seaquarium» nel prototipo del 2014.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-rialto-causeway",
+          "name": "Rialto Causeway e Rivo Bridge",
+          "kind": "Ponti",
+          "description": "La causeway a pedaggio («Vice Pass») verso le isole e il ponte verso la terraferma; Trailer 1 di notte (0:31).",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-malibu",
+          "name": "Malibu Club e Vercetti Estate",
+          "kind": "Ritorni dal passato",
+          "description": "Nomi che i fan elencano come confermati; la community più cauta li chiama rumor.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "rumor",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -417,7 +774,24 @@
         "y": 400,
         "path": "M720 350 L850 340 L880 400 L860 450 L740 460 L700 410 Z"
       },
-      "subAreas": [],
+      "subAreas": [
+        {
+          "name": "Sundown",
+          "note": "comunità residenziale con aeroporto privato, leak"
+        },
+        {
+          "name": "Vinewood Beach",
+          "note": "cartello I-97 nel leak di ottobre 2026"
+        },
+        {
+          "name": "North Beaches",
+          "note": "cartello nel leak 2022"
+        },
+        {
+          "name": "Belville",
+          "note": "distributore Arrow"
+        }
+      ],
       "pois": [
         {
           "id": "poi-evergreen-mall",
@@ -427,6 +801,28 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-sundown-airfield",
+          "name": "Sundown Private Airfield",
+          "kind": "Aeroporto privato",
+          "description": "Nella comunità residenziale di Sundown, a nord; nel menu del leak 2022 e in un cartello del leak 2026.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-ws-metro",
+          "name": "Stazione Waning Sands Metro",
+          "kind": "Stazione",
+          "description": "Capolinea nord della metropolitana, con la Waning Sands PD e la Flamingo Parkway.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
           "image": null
         }
       ],
@@ -453,6 +849,14 @@
       "subAreas": [
         {
           "name": "Key Lento",
+          "note": "community"
+        },
+        {
+          "name": "Goose Key",
+          "note": "base aeronavale e Guardia Costiera; cartello US 1 nel leak"
+        },
+        {
+          "name": "East Key, Bobcat Key, Airward Key",
           "note": "community"
         }
       ],
@@ -515,6 +919,74 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
           "image": null
+        },
+        {
+          "id": "poi-key-lento-house",
+          "name": "La casa su palafitte di Jason (Key Lento)",
+          "kind": "Rifugio",
+          "description": "Key Lento è la Key più popolata (Key Largo): la casa di Jason, di proprietà di Brian, sta qui. Key Lento Development Council e Key Lento PD.",
+          "characterIds": [
+            "chr-jason"
+          ],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-rusty-anchor",
+          "name": "The Rusty Anchor",
+          "kind": "Bar",
+          "description": "Il bar delle Keys nello screenshot della Launch Gallery con l'uomo addormentato sul tavolo da picnic.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-key-lento-shops",
+          "name": "Negozi di Key Lento",
+          "kind": "Negozi",
+          "description": "Key Lento Marina Club, Chip's Body Shop, 24/7 con distributore, Animal Hospital, Hamilton Private Health Clinic, Daiquiri Republic, Whirlwind Insurance, il Donovan Roeder Jr Community Center, The Keys Sign.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-keys-causeway",
+          "name": "Keys Causeway (US 1)",
+          "kind": "Autostrada",
+          "description": "La Overseas Highway di Leonida, da Hamlet alle Keys, con ponti e terrapieni; un ponte ferroviario alla Bahia Honda e uno stradale nuovo.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-goose-key-base",
+          "name": "Base aeronavale di Goose Key",
+          "kind": "Base",
+          "description": "Due piste incrociate e la stazione della Guardia Costiera; il Dodo del Trailer 1 vola sopra i ponti. Nome dal cartello US 1 nel leak.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-goliath-plant",
+          "name": "Goliath Global Plant",
+          "kind": "Cementificio",
+          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph e nel leak «plane.mp4».",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
         }
       ],
       "activityIds": [
@@ -542,8 +1014,51 @@
         "y": 600,
         "path": "M330 520 L560 500 L640 560 L620 680 L520 720 L380 700 L310 620 Z"
       },
-      "subAreas": [],
-      "pois": [],
+      "subAreas": [
+        {
+          "name": "Watson Bay",
+          "note": "nome sulla torre dell'acqua in uno screenshot ufficiale; meta del test coi mezzi pubblici di Hooker"
+        },
+        {
+          "name": "Emerald Springs, Buckskin",
+          "note": "leak 2026"
+        }
+      ],
+      "pois": [
+        {
+          "id": "poi-watson-bay-x",
+          "name": "Watson Bay",
+          "kind": "Cittadina",
+          "description": "Nome sulla torre dell'acqua in uno screenshot ufficiale: la Everglades City di Leonida. Qui il Paradise Garage dell'Ultimate Edition (armadietto e ricettazione) e il ristorante Bite House. Il team di Hooker l'ha raggiunta solo coi mezzi pubblici.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-stilt-house",
+          "name": "Grassrivers Stilt House",
+          "kind": "Palafitta",
+          "description": "Con il Visitor Center e il Sunrise RV Park, da cui si vede lo skyline di Vice City.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-poach",
+          "name": "POACH",
+          "kind": "Guardaparco",
+          "description": "Leonida Protection of Animals & Controlled Hunting: chi controlla caccia e animali.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        }
+      ],
       "activityIds": [
         "act-airboat"
       ],
@@ -569,7 +1084,12 @@
         "y": 400,
         "path": "M190 340 L380 320 L420 400 L380 480 L250 490 L170 420 Z"
       },
-      "subAreas": [],
+      "subAreas": [
+        {
+          "name": "Draper Island",
+          "note": "porto e raffineria oltre la baia, Bocamar Bridge"
+        }
+      ],
       "pois": [
         {
           "id": "poi-bocamar-bridge",
@@ -599,6 +1119,83 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-starlet-motel",
+          "name": "Starlet Motel",
+          "kind": "Motel / rifugio",
+          "description": "Il motel al neon del Trailer 1 e della rissa nel parcheggio del Trailer 2; uno dei rifugi secondo la community.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-delights",
+          "name": "Delights Cabaret",
+          "kind": "Strip club",
+          "description": "Negli screenshot ufficiali di Port Gellhorn.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-hanks-waffles-x",
+          "name": "Hank's Waffles (Port Gellhorn)",
+          "kind": "Ristorante",
+          "description": "La community lo colloca qui, vicino allo svincolo della I-404: rapinato da Jason e Lucia nel flashback dell'Extended Look (11:40).",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-pg-station",
+          "name": "Port Gellhorn Train Station",
+          "kind": "Stazione",
+          "description": "«La stazione ferroviaria di Port Gellhorn», sul sito promozionale.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-draper-island",
+          "name": "Draper Island",
+          "kind": "Porto e raffineria",
+          "description": "Oltre la baia, collegata dal Bocamar Bridge (alla Sunshine Skyway); cartello SR 9 nel Trailer 2.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-pg-shops",
+          "name": "Negozi di Port Gellhorn",
+          "kind": "Negozi",
+          "description": "Port Gellhorn Pawn & Gun e Uncle Jack's Liquor (Trailer 1), Crossroad Park Minimall (Trailer 2), Gellhorn Roadhouse, Lucky Plucker, Mason's Shrimp Shack, Watkins Auto Parts, Game Horde, Burnout Scooters, Easy Inn, La Cascara Motel, Taco Bomb, i distributori Alpha, Arrow, Globe Oil e Gas Stop sulla Historic US 628.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-kelly-prison",
+          "name": "Complesso carcerario (contea di Kelly)",
+          "kind": "Prigione",
+          "description": "Modellato sulla Augusta State Medical Prison, nel leak 2022.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
           "image": null
         }
       ],
@@ -671,6 +1268,50 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
           "image": null
+        },
+        {
+          "id": "poi-thirsty-wolf",
+          "name": "The Thirsty Wolf",
+          "kind": "Bar",
+          "description": "Il bar da cui i Final Chapter MC inseguono Jason, secondo la community.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-xero-gas",
+          "name": "Xero Gas",
+          "kind": "Distributore",
+          "description": "Jason con la polizia alle spalle, nello screenshot.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-ambrosia-shops",
+          "name": "Negozi di Ambrosia",
+          "kind": "Negozi",
+          "description": "Waste Transfer Services, Ted's Pediatric Dentistry, W. Blanco's Cuban Foods, Tucker's Citrus Farms, John Samuels whiskey, Tiny Frank. Sulla US 35.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-henshaw",
+          "name": "Cartelli elettorali di Erin Henshaw",
+          "kind": "Politica",
+          "description": "La candidata sindaca sostenuta dalla Allied Crystal, «la linfa dolce di Ambrosia», sui cartelli in uno screenshot ufficiale.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -696,8 +1337,51 @@
         "y": 200,
         "path": "M380 120 L640 100 L720 190 L680 280 L460 290 L360 220 Z"
       },
-      "subAreas": [],
-      "pois": [],
+      "subAreas": [
+        {
+          "name": "Domed Hills",
+          "note": "community"
+        },
+        {
+          "name": "Yorktown, Millport, Redhill, Lummox County",
+          "note": "leak: contea del nord, non nel materiale ufficiale"
+        }
+      ],
+      "pois": [
+        {
+          "id": "poi-kalaga-canyon",
+          "name": "Canyon, fiume e ponte ferroviario",
+          "kind": "Natura",
+          "description": "Canyon alla Providence Canyon, fiume alla Suwannee, ponte alla Hillman, una cascata con ponte, una miniera di fosfati abbandonata con i silos, la vetta sopra le nuvole.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-millport",
+          "name": "Millport",
+          "kind": "Porto",
+          "description": "Città portuale a nord-est (Fernandina Beach), raggiunta dalla I-297; sulla Forest Route 88 lo screenshot Edge dei Final Chapter MC. Dal leak.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-yorktown",
+          "name": "Yorktown",
+          "kind": "Cittadina",
+          "description": "A nord di Port Gellhorn oltre il Bocamar Bridge, cartello US 2 nel leak 2022.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        }
+      ],
       "activityIds": [
         "act-caccia",
         "act-pesca"
@@ -916,6 +1600,270 @@
       "image": null,
       "status": "segnaposto",
       "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "dis-vice-beach",
+      "name": "Vice Beach",
+      "region": "Contea di Vice-Dale, città sull'isola",
+      "tagline": "La spiaggia più grande della serie.",
+      "description": "Città separata sull'isola barriera di fronte a Vice City (la Miami Beach di Leonida): alberghi art déco di Ocean Beach, Shore Drive, Washington Beach con la sua marina, il golf di Leaf Links, Starfish Island con le ville. Un cartello «Vice Beaches» nell'Extended Look; nel marketing reale di ottobre è comparsa un'insegna «Vice Beach» a Lummus Park. Nome e confini dalla community.",
+      "map": {
+        "x": 900,
+        "y": 590,
+        "path": "M880 480 L910 470 L925 560 L915 680 L885 700 L875 580 Z"
+      },
+      "subAreas": [
+        {
+          "name": "Ocean Beach",
+          "note": "testo ufficiale: alberghi art déco"
+        },
+        {
+          "name": "Washington Beach",
+          "note": "marina dello Shitzu Squalo dell'Ultimate Edition"
+        },
+        {
+          "name": "Starfish Island",
+          "note": "cartello nell'Extended Look"
+        },
+        {
+          "name": "Leaf Links",
+          "note": "golf"
+        }
+      ],
+      "pois": [
+        {
+          "id": "poi-shore-drive",
+          "name": "Shore Drive",
+          "kind": "Strada",
+          "description": "La Ocean Drive di Leonida: Seven Seas Seafood, Bobby Hurricane's, l'Ocean View Hotel.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-fleeca-4th",
+          "name": "Fleeca (SW 4th Street)",
+          "kind": "Banca",
+          "description": "Nominata nelle didascalie della Launch Gallery; accanto Hobbs Milford e la gioielleria Diamond Dawgs.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-the-amalfi",
+          "name": "The Amalfi",
+          "kind": "Ristorante",
+          "description": "A Ocean Beach.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-hotels-vb",
+          "name": "Gli hotel di Vice Beach",
+          "kind": "Hotel",
+          "description": "Atlantis (Trailer 1), Boardwalk, Cordelia, Cortez, Dominion, Dixon, Valetta, Kington, Neptune, Paramour, Seahorse, Seashell, The Clarissa, un resort alla Fontainebleau e un hotel alla Scarface.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-washington-marina",
+          "name": "Washington Beach Marina",
+          "kind": "Marina",
+          "description": "Dove è ormeggiato lo Shitzu Squalo dell'Ultimate Edition, con una cassa di esplosivi.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-leaf-links-club",
+          "name": "Leaf Links Golf Club",
+          "kind": "Golf",
+          "description": "Il golf club del quartiere omonimo.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-vice-beach-pd",
+          "name": "Vice Beach Police Department",
+          "kind": "Polizia",
+          "description": "Su Shorefront Avenue, accanto a Frills & Fancy.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-starfish-bridge",
+          "name": "Star Island Bridge",
+          "kind": "Ponte",
+          "description": "Verso Starfish Island, l'isola ovale delle ville.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-bayfront-heights",
+          "name": "Bayfront Heights",
+          "kind": "Resort",
+          "description": "Con la Vice Beach Marina e un grande parco centrale alla Flamingo Park.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        }
+      ],
+      "activityIds": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Vice_Beach",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "dis-hamlet",
+      "name": "Hamlet",
+      "region": "Contea di Vice-Dale, punta sud della terraferma",
+      "tagline": "La cittadina agricola prima delle Keys.",
+      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, Grassrivers e Bluegrass. Qui la community colloca il Leonida Penitentiary, il salone di Sara, Phil's Ammu-Nation e lo speedway. Cartello «Welcome to Hamlet» nei video.",
+      "map": {
+        "x": 610,
+        "y": 740,
+        "path": "M560 700 L680 690 L700 760 L640 790 L540 780 L520 730 Z"
+      },
+      "subAreas": [],
+      "pois": [
+        {
+          "id": "poi-sara-salon-x",
+          "name": "Sara's Unisex Salon (Hamlet)",
+          "kind": "Parrucchiere",
+          "description": "La community colloca a Hamlet il salone dell'Ultimate Edition: tagli firmati, barba, trucco, unghie.",
+          "characterIds": [],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-phils-ammunation",
+          "name": "Phil's Ammu-Nation",
+          "kind": "Armeria",
+          "description": "L'armeria dello spot con Phil nel Trailer 2.",
+          "characterIds": [
+            "chr-phil"
+          ],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": null
+        },
+        {
+          "id": "poi-boone-speedway",
+          "name": "Boone Speedway",
+          "kind": "Circuito",
+          "description": "Pista a Hamlet.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-american-mania",
+          "name": "American Mania",
+          "kind": "Wrestling da cortile",
+          "description": "Il wrestling da cortile visto nell'Extended Look.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-hamlet-shops",
+          "name": "Negozi di Hamlet",
+          "kind": "Negozi",
+          "description": "Kurt's Barber Shop, LTD gas station, Rattlers, Te Invito, Treasured Trash, Vinylism, Beacon Theater, Hamlet Platinum Plaza, la torre dell'acqua.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        },
+        {
+          "id": "poi-hammer-lady-apt",
+          "name": "Il condominio della Hammer Lady",
+          "kind": "Residenziale",
+          "description": "Dove vive la signora con i due martelli del Trailer 1, secondo la community.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        }
+      ],
+      "activityIds": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Hamlet",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "dis-capri",
+      "name": "Capri",
+      "region": "Contea di Mariana, costa ovest",
+      "tagline": "Grattacieli e un molo sul Golfo.",
+      "description": "Città della costa occidentale (mix di Napoli-Florida, Sebring e Marco Island) con grattacieli, molo sulla spiaggia, lago e stadio dei Capri City Jackals. Compare su cartelli dell'I-404 nell'Extended Look e nei leak del 2026; nel Trailer 1 a 0:52 secondo la community.",
+      "map": {
+        "x": 250,
+        "y": 580,
+        "path": "M200 520 L300 500 L330 580 L290 660 L190 640 L170 570 Z"
+      },
+      "subAreas": [],
+      "pois": [
+        {
+          "id": "poi-capri-stadium",
+          "name": "Capri City Jackals Stadium",
+          "kind": "Stadio",
+          "description": "Lo stadio della città; Capri PD; i minimarket Xero Gas rapinati nel leak «hypercar2».",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null
+        }
+      ],
+      "activityIds": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Capri",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"

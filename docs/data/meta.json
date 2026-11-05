@@ -1,10 +1,21 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.4.0",
+  "dataVersion": "0.5.0",
   "updatedAt": "2026-11-05",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.5.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Nuova sezione Novità: 80 notizie datate, dal Trailer 1 alla Launch Gallery di oggi, con etichetta ufficiale / stampa / rumor / leak / community.",
+        "Trasporti: autobus e treni funzionanti (Edge, 29 ottobre), Ryde Me, Scooter Bros, metro, Metro Mule; categoria «Spostarsi per Leonida» in Prima ora.",
+        "Sistemi di gioco da Edge, IGN, Famitsu, Game Informer, Bloomberg: polizia e calore, Profilo criminale, economia, furto d'auto, corpo, coppia, meteo, capitoli.",
+        "Garage: 220 veicoli e 60 armi/oggetti; Atlante: Vice Beach, Hamlet e Capri, 70 luoghi in più, quartieri e contee; 16 personaggi nuovi; radio con conduttori reali e brani ufficiali; 23 marchi e catene.",
+        "Uscita e tecnica: orari italiani, prezzi, preload, 30 fps, PC 2027 (rumor), embargo (rumor), sindacato, marketing a Miami."
+      ]
+    },
     {
       "version": "0.4.0",
       "date": "2026-11-05",
