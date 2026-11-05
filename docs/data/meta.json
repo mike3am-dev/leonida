@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.3.1",
+  "dataVersion": "0.4.0",
   "updatedAt": "2026-11-05",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.4.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Radio: scalette segnalate dalla community per le sei stazioni ufficiali; le canzoni dei trailer in Cultura.",
+        "Atlante: 27 punti di riferimento dalla mappa della community (torri, ponti, stadio, circuiti, acquario, insegna di Vice City…).",
+        "Gallerie di immagini nelle schede di personaggi, territori e garage."
+      ]
+    },
     {
       "version": "0.3.0",
       "date": "2026-11-05",

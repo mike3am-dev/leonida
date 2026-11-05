@@ -7,7 +7,26 @@
       "genre": "Pop",
       "host": "Robyn e Alex",
       "description": "Il sito ufficiale la chiama l'istituzione di Vice City. Il pop che esce dai finestrini abbassati lungo la costa, oggi come ai tempi del neon. Se c'è una stazione da lasciare accesa la prima sera, è questa.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "Charli xcx",
+          "title": "Good Ones",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "MGMT",
+          "title": "Electric Feel",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Zara Larsson & PinkPantheress",
+          "title": "Midnight Sun (Girls Trip)",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-flash-fm.png",
       "status": "verificato",
       "source": "trailer",
@@ -22,7 +41,32 @@
       "genre": "Latin moderno",
       "host": "El Martillo e La Gata",
       "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: ritmi moderni e la voce dei quartieri, da Little Cuba in giù.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "Bad Bunny",
+          "title": "EoO",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Myke Towers",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Axel Rulay ft. Farruko & El Alfa",
+          "title": "remix",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Romeo Santos & El Chaval de la Bachata",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-cocoteo.png",
       "status": "verificato",
       "source": "trailer",
@@ -37,7 +81,14 @@
       "genre": "Country ribelle",
       "host": "MW e Delta Dawne",
       "description": "Country fuori dagli schemi, per le strade dritte dell'entroterra e i pick-up con la ruggine sui parafanghi.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "Glen Campbell, George Strait, David Allan Coe, Loretta Lynn, Hank Williams Jr. & Waylon Jennings",
+          "title": "cinque brani segnalati dalla community",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-back-country.png",
       "status": "verificato",
       "source": "trailer",
@@ -52,7 +103,26 @@
       "genre": "Amapiano, classici africani, 3-step",
       "host": "Burna e Palmsy",
       "description": "Amapiano, classici del continente africano e 3-step, con il motto «Turn up the gbedu». La stazione che fa ballare anche in coda al semaforo.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "Asake",
+          "title": "Joha",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Pat Thomas ft. Ebo Taylor",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "DJ Lag & Robot Boii ft. Kamo Mphela",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-afro-bank.png",
       "status": "verificato",
       "source": "trailer",
@@ -67,7 +137,26 @@
       "genre": "Metal",
       "host": "DJ Kerry e DJ Tom",
       "description": "Metal, senza compromessi. Per le fughe in cui il contagiri non scende mai.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "Black Sabbath",
+          "title": "I",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Pantera",
+          "title": "I'm Broken",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "Slayer",
+          "title": "Raining Blood",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-the-chamber.png",
       "status": "verificato",
       "source": "trailer",
@@ -82,7 +171,26 @@
       "genre": "Rap e hip-hop del Sud",
       "host": "Trick e Trina",
       "description": "I classici del rap e dell'hip-hop regionale, la colonna sonora naturale della scena che Dre'Quan e le Real Dimez vogliono conquistare.",
-      "highlights": [],
+      "highlights": [
+        {
+          "artist": "David Banner ft. Lil' Flip",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "JT Money ft. Solé",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        },
+        {
+          "artist": "DJ Khaled ft. Trick Daddy, Rick Ross & Pitbull",
+          "title": "—",
+          "status": "da verificare",
+          "source": "community"
+        }
+      ],
       "image": "assets/img/radio-dirty-south.png",
       "status": "verificato",
       "source": "trailer",
@@ -96,11 +204,11 @@
       "name": "Altre stazioni e podcast",
       "genre": "Dal classic rock alla talk radio",
       "host": "Da scoprire",
-      "description": "La pagina ufficiale dice che le stazioni vanno «dal Classic Rock alla Talk Radio» e che ci sono anche podcast in gioco, ma nomina solo le sei qui sopra. Le altre le aggiungi tu, una alla volta, quando le trovi girando la manopola.",
+      "description": "La pagina ufficiale dice che le stazioni vanno «dal Classic Rock alla Talk Radio» e che ci sono podcast su richiesta, ma nomina solo le sei qui sopra. Nella community circolano altri nomi, in parte da leak e quindi da prendere con le pinze: V-Rock, Emotion, Stockyard FM, Symphony FM, CircoLoco Records Radio, Honey FM, Radio On-U, The Wipe, Worldwide FM, Kaleidoscope FM, La Ola. Le conferme le dai tu, una alla volta, girando la manopola.",
       "highlights": [],
       "image": null,
       "status": "da verificare",
-      "source": "trailer",
+      "source": "community",
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,

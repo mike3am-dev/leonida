@@ -212,6 +212,186 @@
           "source": "community",
           "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
           "image": null
+        },
+        {
+          "id": "poi-palaestra-tower",
+          "name": "Palaestra Tower",
+          "kind": "Grattacielo",
+          "description": "Uno dei grattacieli dello skyline. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-galina-opera",
+          "name": "Galina Ballet Opera House",
+          "kind": "Teatro",
+          "description": "Il teatro dell'opera e del balletto. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-sahara-arena",
+          "name": "Sahara Arena",
+          "kind": "Arena",
+          "description": "La grande arena cittadina. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-ferris-wheel",
+          "name": "Vice City Ferris Wheel",
+          "kind": "Ruota panoramica",
+          "description": "La ruota panoramica sul lungomare. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-piker-financial",
+          "name": "Piker Financial Center",
+          "kind": "Grattacielo",
+          "description": "Torre del distretto finanziario. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-shorefront",
+          "name": "ShoreFront",
+          "kind": "Lungomare",
+          "description": "Complesso sul lungomare. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-heath-tower",
+          "name": "Heath Tower",
+          "kind": "Grattacielo",
+          "description": "Torre del centro. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-el-gabeto",
+          "name": "El Gabeto Center",
+          "kind": "Centro",
+          "description": "Centro commerciale o culturale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-fleeca-field",
+          "name": "Fleeca Field",
+          "kind": "Stadio",
+          "description": "Lo stadio sponsorizzato dalla banca Fleeca. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-vice-vinyl",
+          "name": "Vice Vinyl",
+          "kind": "Negozio di dischi",
+          "description": "Negozio di dischi: la cultura musicale della città passa di qui. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-stockyard-walls",
+          "name": "Stockyard Walls",
+          "kind": "Murales",
+          "description": "I muri dipinti di Stockyard, con opere di decine di street artist reali secondo la stampa. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-rivo-bridge",
+          "name": "Rivo Bridge",
+          "kind": "Ponte",
+          "description": "Ponte cittadino. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-star-island-bridge",
+          "name": "Star Island Bridge",
+          "kind": "Ponte",
+          "description": "Ponte verso Vice Beach e le isole. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-port-vice-city",
+          "name": "Port Vice City",
+          "kind": "Porto",
+          "description": "Il porto crocieristico, «capitale mondiale delle crociere» nel testo ufficiale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-pegassi-residences",
+          "name": "Pegassi Residences",
+          "kind": "Torri residenziali",
+          "description": "Due torri residenziali (nord e sud) sulla Gloriana Key. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-oceanarium",
+          "name": "Vice City Oceanarium",
+          "kind": "Acquario",
+          "description": "L'acquario cittadino. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-catalan-lighthouse",
+          "name": "Catalan Key Lighthouse",
+          "kind": "Faro",
+          "description": "Il faro sulla Catalan Key. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-vice-city-sign",
+          "name": "Vice City Sign",
+          "kind": "Insegna",
+          "description": "La grande insegna con il nome della città, inquadrata anche negli screenshot ufficiali. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -238,7 +418,18 @@
         "path": "M720 350 L850 340 L880 400 L860 450 L740 460 L700 410 Z"
       },
       "subAreas": [],
-      "pois": [],
+      "pois": [
+        {
+          "id": "poi-evergreen-mall",
+          "name": "Evergreen Shopping Mall",
+          "kind": "Centro commerciale",
+          "description": "Il centro commerciale ripreso dall'alto nel Trailer 1. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        }
+      ],
       "activityIds": [],
       "image": null,
       "status": "da verificare",
@@ -314,6 +505,16 @@
           "source": "community",
           "sourceUrl": "https://mypandaplay.com/gta-6/guides/launch-trailer-breakdown/",
           "image": null
+        },
+        {
+          "id": "poi-wonder-whale",
+          "name": "Wonder Whale",
+          "kind": "Attrazione",
+          "description": "Attrazione a tema balena nelle Keys. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
         }
       ],
       "activityIds": [
@@ -369,7 +570,38 @@
         "path": "M190 340 L380 320 L420 400 L380 480 L250 490 L170 420 Z"
       },
       "subAreas": [],
-      "pois": [],
+      "pois": [
+        {
+          "id": "poi-bocamar-bridge",
+          "name": "Bocamar Bridge",
+          "kind": "Ponte",
+          "description": "Ponte sulla costa del Golfo. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-gellhorn-roadhouse",
+          "name": "Gellhorn Roadhouse Sign",
+          "kind": "Insegna",
+          "description": "L'insegna del roadhouse. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-gellhorn-raceway",
+          "name": "Gellhorn International Raceway",
+          "kind": "Circuito",
+          "description": "Circuito internazionale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        }
+      ],
       "activityIds": [],
       "image": "assets/img/port-gellhorn.jpg",
       "status": "da verificare",
@@ -418,6 +650,26 @@
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+          "image": null
+        },
+        {
+          "id": "poi-ambrosia-raceway",
+          "name": "Ambrosia Raceway Park",
+          "kind": "Circuito",
+          "description": "Circuito automobilistico. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null
+        },
+        {
+          "id": "poi-thrillbilly",
+          "name": "Thrillbilly Mud Club",
+          "kind": "Club di fango",
+          "description": "Il club delle corse nel fango, visto nel Trailer 1. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
           "image": null
         }
       ],
@@ -647,6 +899,16 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
+          "image": null
+        },
+        {
+          "id": "poi-naval-air-station",
+          "name": "Naval Air Station",
+          "kind": "Base navale",
+          "description": "Base aeronavale a Watson Bay, forse la «base militare» citata altrove. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
           "image": null
         }
       ],

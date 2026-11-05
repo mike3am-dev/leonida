@@ -118,7 +118,7 @@
       "id": "brd-megamundo",
       "name": "Megamundo",
       "category": "Azienda",
-      "description": "La società di Andres De Leon e Petra Navarro. La sua inaugurazione, e la scorta che Jason e Lucia devono garantire, è la spina dorsale di quello che si vede nell'Extended Look, secondo la community.",
+      "description": "La società di Andres De Leon e Petra Navarro. La sua inaugurazione, e la scorta che Jason e Lucia devono garantire, è la spina dorsale di quello che si vede nell'Extended Look, secondo la community. La community la descrive anche come una rete televisiva, con sede nel Megamundo Building.",
       "sourceUrl": "https://gtabase.com/gta-6/characters/"
     },
     {
@@ -263,6 +263,19 @@
       "category": "Bonus di acquisto",
       "description": "Abiti dell'Ultimate Edition, cinque screenshot nella galleria ufficiale.",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots"
+    },
+    {
+      "id": "brd-canzoni-trailer",
+      "name": "Le canzoni dei trailer",
+      "category": "Musica",
+      "description": "Trailer 1 (dicembre 2023): «Love Is a Long Road» di Tom Petty, che nei giorni successivi ha visto gli ascolti esplodere. Trailer 2 (maggio 2025): «Hot Together» dei Pointer Sisters come brano principale, e in sottofondo «Thunder Island» di Jay Ferguson, «Child Support» degli Zenglen, «Everybody Have Fun Tonight» dei Wang Chung dall'autoradio, «Talkin' to Myself Again» di Tammy Wynette, più «I Love Rock 'n' Roll» degli Arrows nello spot di Ammu-Nation. Trailer di lancio (ottobre 2026): «Flower in a Hurricane» dei Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard. Su quale stazione suoneranno, lo scopri tu.",
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gtabase.com/gta-6/radio-stations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     }
   ]
 }
