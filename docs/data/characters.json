@@ -64,7 +64,7 @@
         "chr-jason",
         "chr-brian"
       ],
-      "image": "assets/img/cal-hampton.jpg",
+      "image": "assets/img/ss-cal-hampton-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -72,7 +72,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-cal-hampton-01.jpg"
+        "assets/img/cal-hampton.jpg"
       ]
     },
     {
@@ -88,7 +88,7 @@
         "chr-drequan",
         "chr-real-dimez"
       ],
-      "image": "assets/img/boobie-ike.jpg",
+      "image": "assets/img/ss-boobie-ike-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -96,7 +96,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-boobie-ike-01.jpg"
+        "assets/img/boobie-ike.jpg"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "chr-boobie",
         "chr-real-dimez"
       ],
-      "image": "assets/img/drequan-priest.jpg",
+      "image": "assets/img/ss-drequan-priest-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -120,7 +120,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-drequan-priest-01.jpg"
+        "assets/img/drequan-priest.jpg"
       ]
     },
     {
@@ -137,7 +137,7 @@
         "chr-boobie",
         "chr-dwnply"
       ],
-      "image": "assets/img/real-dimez.jpg",
+      "image": "assets/img/ss-real-dimez-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -145,7 +145,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-real-dimez-01.jpg"
+        "assets/img/real-dimez.jpg"
       ]
     },
     {
@@ -158,7 +158,7 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "image": "assets/img/raul-bautista.jpg",
+      "image": "assets/img/ss-raul-bautista-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -166,7 +166,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-raul-bautista-01.jpg"
+        "assets/img/raul-bautista.jpg"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "chr-cal",
         "chr-lori"
       ],
-      "image": "assets/img/brian-heder.jpg",
+      "image": "assets/img/ss-brian-heder-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -191,7 +191,7 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-brian-heder-01.jpg"
+        "assets/img/brian-heder.jpg"
       ]
     },
     {

@@ -1,7 +1,7 @@
 import { db } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, fmtDate, relTime } from '../ui/dom.js';
-import { chapterHead, stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isOpen } from './shared.js';
+import { sectionHead, stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isOpen } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('sessione');
@@ -41,9 +41,7 @@ export function render() {
   const circ = 2 * Math.PI * 54;
 
   const left = `
-    ${chapterHead(section, { kicker: 'Capitolo primo', title: 'Sessione' })}
-    ${isOpen() ? '' : cover()}
-    <div class="block">
+    <div class="block" style="margin-top:0">
       <button class="btn-note" type="button" data-action="note">
         <svg aria-hidden="true"><use href="#i-pen"/></svg>
         <div><strong>Appunto rapido</strong><span>Scrivi ora, sistemiamo dopo. Finisce nel Diario.</span></div>
@@ -52,7 +50,7 @@ export function render() {
 
     <div class="block">
       <span class="kicker">Completamento</span>
-      <div style="display:flex;gap:var(--s-5);align-items:center;flex-wrap:wrap">
+      <div class="stats--ring">
         <div class="ring">
           <svg viewBox="0 0 120 120" aria-hidden="true">
             <defs><linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient></defs>
@@ -61,9 +59,10 @@ export function render() {
           </svg>
           <div class="ring__label"><b>${s.pct}%</b><small>Globale</small></div>
         </div>
-        <div style="flex:1;min-width:160px">
-          <div class="stat"><div class="stat__value tnum">${s.missions.done}<span class="muted" style="font-size:1rem"> / ${s.missions.total}</span></div><div class="stat__label">Missioni</div></div>
-          <div class="stat"><div class="stat__value tnum">${s.collectibles.done}<span class="muted" style="font-size:1rem"> / ${s.collectibles.total}</span></div><div class="stat__label">Collezionabili</div></div>
+        <div class="stats" style="flex:1;min-width:200px">
+          <div class="card"><div class="stat"><div class="stat__value tnum">${s.missions.done}<span class="muted" style="font-size:1rem"> / ${s.missions.total}</span></div><div class="stat__label">Missioni</div></div></div>
+          <div class="card"><div class="stat"><div class="stat__value tnum">${s.collectibles.done}<span class="muted" style="font-size:1rem"> / ${s.collectibles.total}</span></div><div class="stat__label">Collezionabili</div></div></div>
+          <div class="card"><div class="stat"><div class="stat__value tnum">${s.activities.done}<span class="muted" style="font-size:1rem"> / ${s.activities.total}</span></div><div class="stat__label">Attività</div></div></div>
         </div>
       </div>
     </div>
@@ -104,5 +103,5 @@ export function render() {
       </dl>
     </div>`;
 
-  return { top: isOpen() ? cover() : '', left, right, show: 'left', accent: section.accent, title: 'Sessione' };
+  return { top: cover(), left, right, show: 'left', accent: section.accent, title: 'Sessione' };
 }

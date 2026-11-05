@@ -29,23 +29,24 @@ export function isHidden(item) {
 /** Avvolge un pezzo di HTML in una sfocatura rivelabile con un tocco */
 export function wrap(item, html, label = 'Spoiler: tocca per rivelare') {
   if (!isHidden(item)) return html;
-  return `<div class="spoiler" data-spoiler>
-    <div class="spoiler__content" aria-hidden="true">${html}</div>
-    <button class="spoiler__veil" type="button"><svg aria-hidden="true"><use href="#i-eye"/></svg>${esc(label)} <span class="muted">(atto ${esc(item.spoilerLevel)})</span></button>
+  const lvl = Number(item.spoilerLevel || 0);
+  const why = lvl >= 9 ? 'Rumor o leak sulla trama: può rovinarti il gioco.' : `Contenuto oltre l'atto ${lvl}: leggi solo se sei arrivato lì.`;
+  return `<div class="spoiler-box" data-spoiler>
+    <button class="spoiler-box__btn" type="button" aria-expanded="false"><svg aria-hidden="true"><use href="#i-eye"/></svg><div><b>Attenzione: ${esc(label.replace(': tocca per rivelare', ''))}</b><span>${why} Tocca per mostrare.</span></div></button>
+    <div class="spoiler-box__body" aria-hidden="true">${html}</div>
   </div>`;
 }
 
 /** Testo breve: sostituisce con puntini invece di sfocare */
 export function text(item, str) {
-  return isHidden(item) ? '<span class="muted">• • •</span>' : esc(str);
+  return isHidden(item) ? '<span class="muted">⚠ spoiler</span>' : esc(str);
 }
 
 export function bind(root) {
   root.addEventListener('click', (e) => {
-    const veil = e.target.closest('.spoiler__veil');
-    if (!veil) return;
-    const box = veil.closest('.spoiler');
-    box.classList.add('is-revealed');
-    box.querySelector('.spoiler__content').removeAttribute('aria-hidden');
+    const btn = e.target.closest('.spoiler-box__btn');
+    if (btn) { const box = btn.closest('.spoiler-box'); const open = box.classList.toggle('is-open'); btn.setAttribute('aria-expanded', open); box.querySelector('.spoiler-box__body').setAttribute('aria-hidden', !open); return; }
+    const acc = e.target.closest('.acc__btn');
+    if (acc) { acc.closest('.acc').classList.toggle('is-open'); }
   });
 }

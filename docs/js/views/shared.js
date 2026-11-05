@@ -23,12 +23,7 @@ export function showEx() { return progress.settings().showExamples; }
 export function vis(list) { return visible(list, showEx()); }
 
 export function chapterHead(section, { title, kicker, lede } = {}) {
-  return `<header class="chapter-head">
-    <span class="chapter-num">${pad2(section.num)}</span>
-    ${kicker ? `<span class="kicker">${esc(kicker)}</span>` : ''}
-    <h1>${esc(title || section.title)}</h1>
-    ${lede ? `<p class="lede">${lede}</p>` : ''}
-  </header>`;
+  return `<header class="section-head"><div><span class="kicker">${esc(kicker || 'Capitolo ' + section.num)}</span><h1>${esc(title || section.title)}</h1></div></header>${lede ? `<p class="lede">${lede}</p>` : ''}`;
 }
 
 export function runningHead(left, right = '') {
@@ -97,6 +92,27 @@ export function nextMission() {
 export function missionActLabel(m) {
   const a = db.acts.find((x) => x.id === m.actId);
   return a ? a.title : '';
+}
+export function hero(item, { kicker = '', title = '', lede = '', chips = '' } = {}) {
+  const img = item.image;
+  return `<div class="hero ${img ? '' : 'hero--text'}">
+    ${img ? `<img src="${esc(img)}" alt="">` : ''}
+    ${img ? '<div class="hero__veil"></div>' : ''}
+    ${chips ? `<div class="hero__chips chips">${chips}</div>` : ''}
+    <div class="hero__text">${kicker ? `<span class="kicker">${esc(kicker)}</span>` : ''}<h1>${esc(title)}</h1>${lede ? `<p class="lede">${esc(lede)}</p>` : ''}</div>
+  </div>`;
+}
+export function row({ href, title, meta = '', thumb = '', icon = 'i-arrow', end = '', active = false, done = false, num = null }) {
+  const th = thumb ? `<span class="row__thumb"><img src="${esc(thumb)}" alt="" loading="lazy"></span>`
+    : num !== null ? `<span class="row__thumb row__thumb--num">${esc(num)}</span>`
+    : `<span class="row__thumb"><svg aria-hidden="true"><use href="#${esc(icon)}"/></svg></span>`;
+  return `<a class="row ${done ? 'row--done' : ''}" href="${esc(href)}" ${active ? 'aria-current="page"' : ''}>${th}<span><span class="row__title">${title}</span>${meta ? `<span class="row__meta">${meta}</span>` : ''}</span><span class="row__end">${end}<svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a>`;
+}
+export function acc(title, body, open = false) {
+  return `<div class="acc ${open ? 'is-open' : ''}"><button class="acc__btn" type="button"><span class="kicker">${esc(title)}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><div class="acc__body">${body}</div></div>`;
+}
+export function sectionHead(section, count = '') {
+  return `<header class="section-head"><div><span class="kicker">Capitolo ${section.num}</span><h1>${esc(section.title)}</h1></div><span class="count">${esc(count)}</span></header>`;
 }
 export function galleryHtml(item) {
   const imgs = (item.gallery || []).filter(Boolean);

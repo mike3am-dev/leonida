@@ -35,11 +35,9 @@ export function render(params, query) {
         ${vis(db.districts).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}
       </div>
     </div>
-    ${isOpen() ? '' : checklist(list, st)}`;
+`;
 
-  const right = list.length || cat || dis
-    ? `<div class="chapter-head"><span class="kicker">Checklist</span><h1>${esc(cat ? byId(cat)?.name || '' : dis ? byId(dis)?.name || '' : 'Tutti i collezionabili')}</h1></div>${checklist(list, st)}`
-    : opener(section, 'Un tracker da spuntare, filtrabile per categoria e distretto. Le categorie vere arrivano dopo il 19: oggi vedi solo voci ESEMPIO.');
+  const right = `<span class="kicker" style="display:block;margin-bottom:var(--s-2)">${esc(cat ? byId(cat)?.name || '' : dis ? byId(dis)?.name || '' : 'Tutti')}</span>${checklist(list, st)}`;
 
   return { left, right, show: 'left', accent: section.accent, title: 'Collezionabili' };
 }
