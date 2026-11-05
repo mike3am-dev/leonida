@@ -1,20 +1,27 @@
 /* ==========================================================
-   Layout: due esperienze
-   - CHIUSO (stretto): una colonna, tab bar in basso.
-   - APERTO (largo e alto abbastanza): libro aperto a doppia pagina.
-   Nessuna larghezza fissa di dispositivo, solo soglie fluide.
+   Layout
+   - STRETTO (sotto 600px): una colonna, tab bar in basso.
+   - APERTO (da 600px, Duo aperto in verticale): una pagina
+     impaginata come una rivista: barra a sinistra, testata
+     di pagina, griglia editoriale a due colonne SENZA piega.
+   Nessuna larghezza fissa di dispositivo.
    ========================================================== */
 
-:root { --rail: 0px; --gutter: 0px; --masthead-h: 56px; }
+:root { --rail: 0px; --masthead-h: 56px; }
 
 .app {
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
   height: 100vh;
   height: 100dvh;
   container-type: inline-size;
   container-name: app;
 }
+.masthead { grid-row: 1; }
+.follow-bar { grid-row: 2; }
+.spread { grid-row: 3; }
+.tabbar { grid-row: 4; }
 
 /* ---------- Testata ---------- */
 .masthead {
@@ -27,8 +34,8 @@
   backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   position: relative; z-index: 20;
 }
-.brand { display: flex; align-items: baseline; gap: var(--s-2); text-decoration: none; min-height: var(--tap); align-items: center; }
-.brand__mark { width: 22px; height: 22px; color: var(--magenta); align-self: center; }
+.brand { display: flex; align-items: center; gap: var(--s-2); text-decoration: none; min-height: var(--tap); }
+.brand__mark { width: 22px; height: 22px; color: var(--magenta); }
 .brand__word {
   font-family: var(--font-display); font-size: 1.35rem; font-weight: 500;
   font-style: italic; letter-spacing: -0.01em;
@@ -37,19 +44,14 @@
 .brand__sub { font-size: var(--fs-xs); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
 .masthead__tools { display: flex; gap: var(--s-1); }
 
-/* ---------- Area principale ---------- */
+/* ---------- Area principale (stretto) ---------- */
 .spread {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   min-height: 0;
   outline: none;
 }
-.rail, .gutter { display: none; }
-/* Righe esplicite: così la pagina resta al suo posto anche con la follow-bar nascosta */
-.masthead { grid-row: 1; }
-.follow-bar { grid-row: 2; }
-.spread { grid-row: 3; }
-.tabbar { grid-row: 4; }
+.rail, .gutter, .folio { display: none; }
 
 .page {
   min-height: 0;
@@ -62,12 +64,13 @@
   scroll-padding-top: var(--s-4);
 }
 .page__inner { max-width: 640px; margin: 0 auto; }
+.page--top { display: none; }
 
-/* Chiuso: si vede una sola pagina alla volta */
+/* Stretto: si vede una sola pagina alla volta */
 .spread[data-show="left"]  .page--right { display: none; }
 .spread[data-show="right"] .page--left  { display: none; }
 
-/* ---------- Tab bar (solo chiuso) ---------- */
+/* ---------- Tab bar (solo stretto) ---------- */
 .tabbar {
   display: grid; grid-template-columns: repeat(5, 1fr);
   padding: 0 max(var(--safe-r), var(--s-1)) var(--safe-b) max(var(--safe-l), var(--s-1));
@@ -80,91 +83,99 @@
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 2px; min-height: 54px; padding: 6px 2px;
   text-decoration: none; color: var(--ink-3);
-  font-size: 0.6875rem; letter-spacing: .02em;
+  font-size: 0.6875rem; letter-spacing: .02em; text-align: center;
 }
 .tab svg { width: 22px; height: 22px; }
 .tab[aria-current="page"] { color: var(--ink); }
 .tab[aria-current="page"] svg { color: var(--accent); }
 
 /* ==========================================================
-   APERTO: libro a doppia pagina
-   Soglia: abbastanza larghezza per due pagine leggibili
-   e abbastanza altezza da non essere un telefono ruotato.
+   APERTO: la pagina di una guida impaginata
    ========================================================== */
 @media (min-width: 600px) and (min-height: 520px) {
-  :root { --rail: 64px; --gutter: 48px; }
+  :root { --rail: 92px; --fs-md: 1.0625rem; }
 
   .tabbar { display: none; }
-  .rail, .gutter { display: block; }
+  .rail { display: flex; }
 
-  .spread {
-    grid-template-columns: var(--rail) minmax(0, 1fr) var(--gutter) minmax(0, 1fr);
+  /* La barra a sinistra occupa tutta l'altezza, accanto alla testata */
+  .app {
+    grid-template-columns: var(--rail) minmax(0, 1fr);
+    grid-template-rows: auto auto minmax(0, 1fr);
   }
-  .spread[data-show] .page { display: block; }
+  .rail { grid-column: 1; grid-row: 1 / -1; }
+  .masthead, .follow-bar, .spread { grid-column: 2; }
 
   .rail {
-    display: flex; flex-direction: column; align-items: center;
+    flex-direction: column; align-items: stretch;
     gap: var(--s-1);
-    padding: var(--s-4) 0 calc(var(--safe-b) + var(--s-4)) var(--safe-l);
+    padding: calc(var(--safe-t) + var(--s-3)) var(--s-2) calc(var(--safe-b) + var(--s-4)) max(var(--safe-l), var(--s-2));
     border-right: var(--hair) solid var(--rule);
+    background: color-mix(in srgb, var(--paper) 50%, var(--bg));
     overflow-y: auto;
   }
-  .rail .tab { width: 56px; min-height: 52px; font-size: .625rem; }
-
-  .page--left { padding-left: var(--s-5); padding-right: var(--s-5); }
-  .page--right {
-    padding-left: var(--s-5);
-    padding-right: max(var(--safe-r), var(--s-5));
-    padding-bottom: calc(var(--safe-b) + var(--s-7));
+  .rail__brand {
+    display: grid; place-items: center; gap: 2px;
+    min-height: 64px; margin-bottom: var(--s-3); text-decoration: none;
   }
+  .rail__brand svg { width: 30px; height: 30px; color: var(--magenta); }
+  .rail__brand span { font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--ink); }
+  .rail .tab { min-height: 68px; font-size: .75rem; line-height: 1.15; border-radius: var(--radius-sm); padding: 8px 4px; }
+  .rail .tab svg { width: 28px; height: 28px; }
+  .rail .tab[aria-current="page"] { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .rail__spacer { flex: 1; }
 
-  /* La piega: rilegatura vuota, nessun controllo qui */
-  .gutter {
-    position: relative;
-    background:
-      linear-gradient(90deg,
-        transparent 0%,
-        color-mix(in srgb, #000 22%, transparent) 46%,
-        color-mix(in srgb, #000 30%, transparent) 50%,
-        color-mix(in srgb, #000 22%, transparent) 54%,
-        transparent 100%);
-    pointer-events: none;
-  }
-  :root[data-theme="light"] .gutter {
-    background: linear-gradient(90deg, transparent, rgba(80,50,30,.10) 50%, transparent);
-  }
-  .gutter::after {
-    content: ""; position: absolute; top: 0; bottom: 0; left: 50%;
-    border-left: var(--hair) solid var(--rule);
-  }
+  .masthead .brand__word, .masthead .brand__mark { display: none; }
+  .masthead .brand__sub { font-size: var(--fs-sm); }
 
-  /* Pagina destra leggermente più "carta" per l'effetto libro */
-  .page--right { background: color-mix(in srgb, var(--paper) 40%, transparent); }
-  .page--left  { background: color-mix(in srgb, var(--paper) 20%, transparent); }
-}
-
-/* Piega reale del dispositivo (Viewport Segments, progressive enhancement) */
-@media (min-width: 600px) and (horizontal-viewport-segments: 2) {
+  /* Una sola pagina che scorre; dentro, una griglia editoriale */
   .spread {
-    grid-template-columns:
-      var(--rail)
-      calc(env(viewport-segment-right 0 0, 50vw) - var(--rail) - var(--gutter) / 2)
-      var(--gutter)
-      minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    overflow-y: auto; overflow-x: hidden;
+    -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
+    padding: var(--s-5) max(var(--safe-r), var(--s-5)) calc(var(--safe-b) + var(--s-8)) var(--s-5);
   }
-  :root {
-    --gutter: max(48px, calc(env(viewport-segment-left 1 0, 50vw) - env(viewport-segment-right 0 0, 50vw)));
+  .spread[data-show] .page { display: block; }
+  .page { overflow: visible; padding: 0; height: auto; min-height: 0; }
+  .page__inner { max-width: none; margin: 0; }
+
+  .sheet-page {
+    display: grid;
+    grid-template-columns: minmax(220px, 2fr) minmax(0, 3fr);
+    grid-template-rows: auto auto minmax(0, 1fr);
+    column-gap: var(--s-6);
+    max-width: 1180px; margin: 0 auto;
   }
-}
-/* Piega comunicata via JS (posture.js) quando il CSS non la conosce */
-:root[data-fold="js"] .spread {
-  grid-template-columns: var(--rail) calc(var(--fold-x) - var(--rail) - var(--gutter) / 2) var(--gutter) minmax(0, 1fr);
+  .folio {
+    display: flex; justify-content: space-between; align-items: baseline;
+    grid-column: 1 / -1;
+    padding-bottom: var(--s-3); margin-bottom: var(--s-5);
+    border-bottom: var(--hair) solid var(--rule-strong);
+    font-size: var(--fs-xs); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .folio b { color: var(--ink); font-weight: 600; }
+  .page--top { display: block; grid-column: 1 / -1; margin-bottom: var(--s-6); }
+  .page--top:empty { display: none; }
+  .page--left { grid-column: 1; grid-row: 3; }
+  .page--right {
+    grid-column: 2; grid-row: 3;
+    padding-left: var(--s-6);
+    border-left: var(--hair) solid var(--rule);
+    min-height: 60vh;
+  }
+
+  /* Quando c'è una sola colonna di contenuto (es. Altro), occupa tutto */
+  .sheet-page[data-single="true"] .page--left { grid-column: 1 / -1; max-width: 720px; }
+  .sheet-page[data-single="true"] .page--right { display: none; }
+
+  .back-link.only-closed { display: none; }
+  .chapter-head .chapter-num { font-size: var(--fs-hero); }
 }
 
-/* Molto largo (es. iPad/desktop): margini più generosi */
+/* Molto largo (iPad orizzontale, desktop) */
 @media (min-width: 1100px) and (min-height: 520px) {
-  .page { padding-top: var(--s-7); }
-  .page--left, .page--right { padding-left: var(--s-7); padding-right: var(--s-7); }
+  .spread { padding-left: var(--s-8); padding-right: max(var(--safe-r), var(--s-8)); }
 }
 
 /* ---------- Voltare pagina ---------- */

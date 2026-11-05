@@ -18,7 +18,7 @@ import * as diario from './views/diario.js';
 import * as impostazioni from './views/impostazioni.js';
 import * as ricerca from './views/ricerca.js';
 
-window.__LEONIDA_VERSION__ = 'v0.1.0';
+window.__LEONIDA_VERSION__ = 'v0.1.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -35,8 +35,9 @@ function navHtml(activePath, forRail) {
   const items = forRail ? SECTIONS : SECTIONS.filter((s) => s.tab);
   const tabs = items.map((s) => {
     const active = activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path));
+    const label = forRail ? s.title.replace('Radio e Cultura', 'Radio') : s.title.split(' ')[0];
     return `<a class="tab ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}" ${active ? 'aria-current="page"' : ''} ${s.disabled ? 'aria-disabled="true"' : ''}>
-      <svg aria-hidden="true"><use href="#i-${s.icon}"/></svg><span>${esc(s.title.split(' ')[0])}</span></a>`;
+      <svg aria-hidden="true"><use href="#i-${s.icon}"/></svg><span>${esc(label)}</span></a>`;
   });
   if (!forRail) {
     const moreActive = !SECTIONS.filter((s) => s.tab).some((s) => activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path)));
@@ -90,19 +91,24 @@ function render(match, { dir } = {}) {
 
   left.innerHTML = `<div class="page__inner">${out.left || ''}</div>`;
   right.innerHTML = `<div class="page__inner">${out.right || ''}</div>`;
+  $('page-top').innerHTML = out.top ? `<div class="page__inner">${out.top}</div>` : '';
   spread.dataset.show = out.show || 'left';
+  $('sheet-page').dataset.single = out.right ? 'false' : 'true';
+  const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
+  $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>Leonida · Guida di campo${db.meta?.dataVersion ? ` · dati v${esc(db.meta.dataVersion)}` : ''}</span>`;
 
   // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
   const key = match.path;
   if (key !== lastKey) {
-    const target = isOpen() ? right : (out.show === 'right' ? right : left);
-    target.firstElementChild.classList.add(dir === 'back' ? 'turn-back' : 'turn-in');
+    const target = isOpen() ? $('sheet-page') : (out.show === 'right' ? right : left).firstElementChild;
+    target.classList.remove('turn-in', 'turn-back'); void target.offsetWidth;
+    target.classList.add(dir === 'back' ? 'turn-back' : 'turn-in');
     router.restoreScroll(key);
   }
   lastKey = key;
 
   $('tabbar').innerHTML = navHtml(match.path, false);
-  $('rail').innerHTML = navHtml(match.path, true);
+  $('rail').innerHTML = `<a class="rail__brand" href="#/" aria-label="Leonida, inizio"><svg aria-hidden="true"><use href="#i-sun"/></svg><span>Leonida</span></a>${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar();
 }
 

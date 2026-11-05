@@ -79,8 +79,7 @@ export function render() {
     </div>`;
 
   const right = `
-    ${isOpen() ? cover() : ''}
-    <div class="block">
+    <div class="block" style="margin-top:0">
       <span class="kicker">Missione in corso</span>
       ${cur ? `<a class="card card--link" href="#/missioni/${esc(cur.id)}">
           <div class="card__kicker kicker kicker--accent">${esc(missionActLabel(cur))} · Capitolo ${esc(cur.chapter ?? '—')}</div>
@@ -105,5 +104,5 @@ export function render() {
       </dl>
     </div>`;
 
-  return { left, right, show: 'left', accent: section.accent, title: 'Sessione' };
+  return { top: isOpen() ? cover() : '', left, right, show: 'left', accent: section.accent, title: 'Sessione' };
 }

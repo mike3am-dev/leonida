@@ -227,6 +227,13 @@
 .cover p { color: rgba(246, 239, 230, .82); position: relative; max-width: 34ch; }
 
 .countdown { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-3); margin-top: var(--s-5); position: relative; }
+@media (min-width: 600px) and (min-height: 520px) {
+  .cover { padding: var(--s-6) var(--s-6) var(--s-5); }
+  .cover h1 { font-size: clamp(2.8rem, 1.6rem + 4.5cqi, 5rem); max-width: 12ch; }
+  .cover p { font-size: var(--fs-lg); max-width: 44ch; }
+  .cover .countdown { max-width: 420px; }
+  .cover__sun { width: 300px; height: 300px; right: -50px; top: -70px; }
+}
 .countdown div { border-top: var(--hair) solid rgba(246,239,230,.35); padding-top: var(--s-2); }
 .countdown b { display: block; font-family: var(--font-display); font-size: 2.4rem; font-weight: 300; line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
 .countdown span { font-size: var(--fs-xs); letter-spacing: .12em; text-transform: uppercase; opacity: .7; }
@@ -277,7 +284,7 @@
   /* Aperto: il foglio sta sulla pagina destra, lontano dalla piega */
   .sheet {
     left: auto; right: max(var(--safe-r), var(--s-5)); bottom: auto; top: calc(var(--safe-t) + 72px);
-    width: min(440px, calc(50vw - var(--gutter))); border-radius: 20px;
+    width: min(480px, calc(100vw - var(--rail) - 48px)); border-radius: 20px;
     border-bottom: var(--hair) solid var(--rule-strong);
     max-height: calc(100dvh - var(--safe-t) - var(--safe-b) - 96px);
     animation: fade .2s both;
