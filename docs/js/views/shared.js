@@ -13,8 +13,9 @@ export const SECTIONS = [
   { id: 'personaggi', num: 6, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
   { id: 'cultura', num: 7, title: 'Radio e Cultura', path: '/cultura', icon: 'radio', accent: 'orange' },
   { id: 'prima-ora', num: 8, title: 'Prima ora', path: '/prima-ora', icon: 'bolt', accent: 'teal' },
-  { id: 'diario', num: 9, title: 'Diario', path: '/diario', icon: 'pen', accent: 'magenta' },
-  { id: 'online', num: 10, title: 'Online', path: '/online', icon: 'globe', accent: 'teal', disabled: true },
+  { id: 'novita', num: 9, title: 'Novità', path: '/novita', icon: 'calendar', accent: 'magenta' },
+  { id: 'diario', num: 10, title: 'Diario', path: '/diario', icon: 'pen', accent: 'magenta' },
+  { id: 'online', num: 11, title: 'Online', path: '/online', icon: 'globe', accent: 'teal', disabled: true },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

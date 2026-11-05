@@ -34,7 +34,7 @@ const collections = {
   missions: data.missions.items, acts: data.missions.acts, districts: data.districts.items,
   collectibles: data.collectibles.items, categories: data.collectibles.categories,
   activities: data.activities.items, characters: data.characters.items,
-  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items, vehicles: data.vehicles.items, weapons: data.weapons.items,
+  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items, vehicles: data.vehicles.items, weapons: data.weapons.items, news: data.news.items,
 };
 for (const [coll, list] of Object.entries(collections)) {
   ids[coll] = new Set();
@@ -95,6 +95,10 @@ for (const d of data.districts.items) {
   }
 }
 
+for (const n of data.news.items) {
+  for (const r of n.relatedIds || []) if (!allIds.has(r)) warn('news', n.id, `relatedIds contiene "${r}", che non esiste`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(n.date || '')) err('news', n.id, 'date deve essere AAAA-MM-GG');
+}
 // 5. Riepilogo
 const total = Object.values(collections).reduce((n, l) => n + (l?.length || 0), 0);
 const examples = Object.values(collections).flat().filter((x) => x?.example).length;

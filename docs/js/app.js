@@ -18,8 +18,9 @@ import * as diario from './views/diario.js';
 import * as impostazioni from './views/impostazioni.js';
 import * as ricerca from './views/ricerca.js';
 import * as veicoli from './views/veicoli.js';
+import * as novita from './views/novita.js';
 
-window.__LEONIDA_VERSION__ = 'v0.3.0';
+window.__LEONIDA_VERSION__ = 'v0.5.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -50,7 +51,7 @@ function navHtml(activePath, forRail) {
 function renderAltro() {
   const left = `<header class="chapter-head"><span class="kicker">Indice generale</span><h1>Altro</h1></header>
     <ol class="toc">${SECTIONS.map((s) => `<li><a class="toc__row ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}"><span class="toc__num">${String(s.num).padStart(2, '0')}</span><span class="toc__title">${esc(s.title)}${s.disabled ? ' <span class="soon">v2</span>' : ''}</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>`).join('')}
-    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">11</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">12</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
     <li><a class="toc__row" href="#/ricerca"><span class="toc__num">—</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
   return { left, right: '', show: 'left', accent: 'magenta', title: 'Altro' };
 }
@@ -60,6 +61,7 @@ const views = {
   '/missioni/:id?': missioni.render,
   '/atlante/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
+  '/novita/:id?': novita.render,
   '/collezionabili': collezionabili.render,
   '/personaggi/:id?': editoriale.renderPersonaggi,
   '/cultura/:id?': editoriale.renderCultura,

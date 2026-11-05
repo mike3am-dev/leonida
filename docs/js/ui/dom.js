@@ -30,7 +30,9 @@ export function statusChip(item) {
   const map = { verificato: 'Verificato', 'da verificare': 'Da verificare', segnaposto: 'Segnaposto' };
   const cls = (item.status || 'segnaposto').replace(/\s+/g, '-');
   const ex = item.example ? `<span class="chip chip--esempio">Esempio</span>` : '';
-  return `${ex}<span class="chip chip--${cls}">${esc(map[item.status] || item.status)}</span>`;
+  const src = { stampa: 'Stampa', rumor: 'Rumor', leak: 'Leak', community: 'Community', trailer: 'Ufficiale' }[item.source];
+  const srcChip = src && item.status !== 'verificato' ? `<span class="chip chip--src-${esc(item.source)}">${src}</span>` : (item.source === 'trailer' && item.status === 'verificato' ? '' : '');
+  return `${ex}<span class="chip chip--${cls}">${esc(map[item.status] || item.status)}</span>${srcChip}`;
 }
 export function protagonistChip(p) {
   const label = { jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[p] || p;

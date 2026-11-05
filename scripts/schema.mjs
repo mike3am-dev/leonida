@@ -4,7 +4,7 @@
  * ref: nome del file a cui deve appartenere l'id referenziato.
  */
 export const STATUS = ['segnaposto', 'da verificare', 'verificato'];
-export const SOURCE = ['trailer', 'gioco-mike', 'community'];
+export const SOURCE = ['trailer', 'gioco-mike', 'community', 'stampa', 'rumor', 'leak'];
 
 export const common = {
   id: 'string',
@@ -76,9 +76,14 @@ export const schema = {
     items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'pistola', 'fucile-assalto', 'mitra', 'fucile-pompa', 'cecchino', 'pesante', 'lancio', 'corpo-a-corpo', 'equipaggiamento'], description: 'string?', howToGet: 'string?' },
     idPrefix: 'wpn-',
   },
+  news: {
+    envelope: { schemaVersion: 'number', items: 'array' },
+    items: { ...common, date: 'string', title: 'string', body: 'string', topic: ['enum', 'gameplay', 'mappa', 'personaggi', 'veicoli', 'armi', 'musica', 'uscita', 'tecnica', 'business', 'online', 'community'], outlet: 'string?', relatedIds: 'array?' },
+    idPrefix: 'new-',
+  },
   tips: {
     envelope: { schemaVersion: 'number', items: 'array' },
-    items: { ...common, category: ['enum', 'prima-ora', 'generale', 'combattimento', 'soldi', 'guida', 'esplorazione', 'online'], title: 'string', body: 'string', priority: 'number?' },
+    items: { ...common, category: ['enum', 'prima-ora', 'generale', 'combattimento', 'soldi', 'guida', 'esplorazione', 'online', 'trasporti', 'sistemi', 'tecnica', 'storia'], title: 'string', body: 'string', priority: 'number?' },
     idPrefix: 'tip-',
   },
 };

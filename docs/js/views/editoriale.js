@@ -62,7 +62,7 @@ export function renderCultura(params) {
 
 /* ---------- Prima ora ---------- */
 const secT = sectionOf('prima-ora');
-const CAT_LABEL = { 'prima-ora': 'Prima ora', generale: 'Generale', combattimento: 'Combattimento', soldi: 'Soldi', guida: 'Guida', esplorazione: 'Esplorazione', online: 'Online' };
+const CAT_LABEL = { 'prima-ora': 'Prima ora', generale: 'Generale', combattimento: 'Combattimento', soldi: 'Soldi', guida: 'Guida', esplorazione: 'Esplorazione', online: 'Online', trasporti: 'Spostarsi per Leonida', sistemi: 'Sistemi di gioco', tecnica: 'Tecnica e console', storia: 'Storia (senza spoiler)' };
 export function renderPrimaOra() {
   const tips = vis(db.tips).sort((a, b) => (a.priority ?? 50) - (b.priority ?? 50));
   const cats = [...new Set(tips.map((t) => t.category))];
@@ -79,7 +79,7 @@ export function renderPrimaOra() {
 /* ---------- Online (disattivata) ---------- */
 const secO = sectionOf('online');
 export function renderOnline() {
-  const left = `${chapterHead(secO, { kicker: 'Capitolo decimo', title: 'Online' })}
+  const left = `${chapterHead(secO, { kicker: 'Capitolo undicesimo', title: 'Online' })}
     <div class="placeholder is-disabled"><strong>In arrivo <span class="soon">v2</span></strong>Questa sezione è prevista per la componente online e per il sync dei progressi tra dispositivi (Supabase). Oggi è spenta.</div>`;
   return { left, right: opener(secO, 'Spazio riservato alla versione 2.'), show: 'left', accent: secO.accent, title: 'Online' };
 }

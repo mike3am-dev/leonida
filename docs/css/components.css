@@ -128,6 +128,10 @@
 .chip--da-verificare { color: var(--orange); border-color: color-mix(in srgb, var(--orange) 55%, transparent); }
 .chip--segnaposto { color: var(--ink-3); border-style: dashed; }
 .chip--esempio { color: #160b14; background: var(--orange); border-color: var(--orange); }
+.chip--src-stampa { color: var(--ink-2); }
+.chip--src-rumor { color: var(--orange); border-style: dashed; }
+.chip--src-leak { color: var(--magenta); border-style: dashed; }
+.chip--src-community { color: var(--ink-3); }
 .chip--jason { color: var(--teal); }
 .chip--lucia { color: var(--magenta); }
 .chip--entrambi { color: var(--orange); }
