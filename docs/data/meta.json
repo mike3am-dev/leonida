@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.2.0",
+  "dataVersion": "0.3.0",
   "updatedAt": "2026-11-05",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.3.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Atlante: quartieri di Vice City (Ocean Beach, Little Cuba, Tisha-Wocka, VC Port e altri), Waning Sands, descrizioni ufficiali dei territori riportate dalla stampa, 30 luoghi con scheda.",
+        "Personaggi: 11 nuovi dai trailer e dall'Extended Look (Mendez, Andres De Leon, Petra Navarro, Valentina, Yago, Raymond, Ernesto, Stefanie Gates, Wyman, Camillo, Phil).",
+        "Garage: 39 veicoli e un arsenale di 33 armi ed equipaggiamenti; Dinka Enduro e Crest Kayak promossi a verificati (galleria ufficiale).",
+        "Collezionabili: categoria Fauna con 41 animali dalla lista della community.",
+        "Attività: 14 voci (airboat, caccia, pesca, corse, rapine, sport, base jumping, poligono, zoo, vita notturna…).",
+        "Prima ora e consigli: cambio protagonista, polizia a sei stelle, furto d'auto a livelli, fisico, NPC, rifugio."
+      ]
+    },
     {
       "version": "0.2.0",
       "date": "2026-11-05",

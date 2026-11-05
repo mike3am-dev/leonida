@@ -48,10 +48,11 @@
 .chapter-head h1 { margin-bottom: var(--s-3); }
 .chapter-head .kicker { display: block; margin-bottom: var(--s-2); }
 .running-head {
-  display: flex; justify-content: space-between; align-items: baseline;
+  display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-3);
   padding-bottom: var(--s-2); margin-bottom: var(--s-5);
   border-bottom: var(--hair) solid var(--rule-strong);
 }
+.running-head > :last-child { white-space: nowrap; flex: none; }
 .back-link {
   display: inline-flex; align-items: center; gap: 4px;
   min-height: var(--tap); margin: calc(-1 * var(--s-3)) 0 var(--s-2) -8px; padding: 0 8px;
@@ -324,8 +325,9 @@
 .switch::before { content: ""; position: absolute; inset: -6px; }
 
 .segmented { display: inline-flex; border: var(--hair) solid var(--rule-strong); border-radius: 999px; padding: 2px; }
-.segmented button { min-height: 40px; padding: 0 var(--s-3); border: 0; background: none; border-radius: 999px; font-size: var(--fs-sm); color: var(--ink-2); }
-.segmented button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.segmented button, .segmented a { min-height: 40px; padding: 0 var(--s-4); border: 0; background: none; border-radius: 999px; font-size: var(--fs-sm); color: var(--ink-2); }
+.segmented button[aria-pressed="true"], .segmented a[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.segmented a[aria-pressed="true"] .muted { color: var(--bg); opacity: .6; }
 
 /* ---------- Ricerca ---------- */
 .search-box { position: relative; margin-bottom: var(--s-4); }

@@ -10,10 +10,18 @@
       "bio": "Cresciuto tra truffatori e delinquenti, ha provato a scrollarsi di dosso un'adolescenza turbolenta con un periodo nell'esercito. Poi è finito nelle Keys, a lavorare per i trafficanti locali. Vive senza pagare affitto in una delle proprietà di Brian Heder, in cambio di una mano nelle estorsioni del posto. Vorrebbe solo una vita facile. Rockstar lo dice senza giri di parole: incontrare Lucia potrebbe essere la cosa migliore o la peggiore che gli sia mai capitata.",
       "districtId": "dis-keys",
       "firstMissionId": null,
-      "relations": ["chr-lucia", "chr-cal", "chr-brian"],
+      "relations": [
+        "chr-lucia",
+        "chr-cal",
+        "chr-brian"
+      ],
       "image": "assets/img/jason.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-lucia",
@@ -24,10 +32,16 @@
       "bio": "Suo padre le ha insegnato a battersi fin da bambina. Battersi per la famiglia l'ha portata dritta al Penitenziario di Leonida, da cui è uscita per pura fortuna. Dice di aver imparato la lezione: da ora in poi solo mosse intelligenti. Vuole la vita buona che sua madre sogna dai tempi di Liberty City, e vede in Jason la sua via d'uscita. Appena fuori, è già tutta nel suo piano.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": ["chr-jason"],
+      "relations": [
+        "chr-jason"
+      ],
       "image": "assets/img/lucia.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-cal",
@@ -38,10 +52,17 @@
       "bio": "Amico di Jason e socio di Brian. Si sente al sicuro solo a casa, dove passa il tempo a origliare le comunicazioni della Guardia Costiera con una birra in mano e qualche scheda del browser in modalità privata. Paranoia leggera, ma costante. Rockstar lo descrive come uno che vive alla bassa marea dell'America, e ci sta benissimo.",
       "districtId": "dis-keys",
       "firstMissionId": null,
-      "relations": ["chr-jason", "chr-brian"],
+      "relations": [
+        "chr-jason",
+        "chr-brian"
+      ],
       "image": "assets/img/cal-hampton.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-boobie",
@@ -52,10 +73,17 @@
       "bio": "Una leggenda di Vice City, e si comporta come tale. Ha trasformato la vita di strada in un impero legale fatto di immobili, uno strip club e uno studio di registrazione. Con Dre'Quan Priest è socio in Only Raw Records.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": ["chr-drequan", "chr-real-dimez"],
+      "relations": [
+        "chr-drequan",
+        "chr-real-dimez"
+      ],
       "image": "assets/img/boobie-ike.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-drequan",
@@ -66,10 +94,17 @@
       "bio": "Da sempre più imbonitore che gangster: spacciava per arrivare a fine mese, ma con la testa già sulla musica. Oggi è un giovane aspirante magnate, guida Only Raw Records insieme a Boobie, ha messo sotto contratto le Real Dimez e prenotava artisti per lo strip club di Boobie. Punta alla scena di Vice City. Il sito ufficiale lo affianca a Grassrivers.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": ["chr-boobie", "chr-real-dimez"],
+      "relations": [
+        "chr-boobie",
+        "chr-real-dimez"
+      ],
       "image": "assets/img/drequan-priest.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-real-dimez",
@@ -80,10 +115,18 @@
       "bio": "Bae-Luxe e Roxy, amiche dai tempi del liceo. Hanno fatto i primi soldi taglieggiando gli spacciatori del quartiere, poi con le tracce rap e i social. Il singolo con il rapper locale DWNPLY le ha lanciate; cinque anni dopo sono sotto contratto con Only Raw Records.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": ["chr-drequan", "chr-boobie", "chr-dwnply"],
+      "relations": [
+        "chr-drequan",
+        "chr-boobie",
+        "chr-dwnply"
+      ],
       "image": "assets/img/real-dimez.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-raul",
@@ -96,8 +139,12 @@
       "firstMissionId": null,
       "relations": [],
       "image": "assets/img/raul-bautista.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-brian",
@@ -108,10 +155,18 @@
       "bio": "Un classico trafficante dell'età d'oro del contrabbando nelle Keys. Fa ancora passare la merce dal suo cantiere nautico, con la terza moglie Lori accanto. Preferisce che il lavoro sporco lo facciano gli altri: a Jason lascia una casa senza affitto in cambio di una mano nelle estorsioni locali. Gli piacciono i Mudslide, e la sangria di Lori. Il sito ufficiale lo affianca a Mount Kalaga.",
       "districtId": "dis-keys",
       "firstMissionId": null,
-      "relations": ["chr-jason", "chr-cal", "chr-lori"],
+      "relations": [
+        "chr-jason",
+        "chr-cal",
+        "chr-lori"
+      ],
       "image": "assets/img/brian-heder.jpg",
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-lori",
@@ -122,10 +177,16 @@
       "bio": "Citata nella scheda di Brian come la sua terza moglie, al cantiere con lui. Serve la sangria. Tutto il resto lo scopriremo.",
       "districtId": "dis-keys",
       "firstMissionId": null,
-      "relations": ["chr-brian"],
+      "relations": [
+        "chr-brian"
+      ],
       "image": null,
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
     },
     {
       "id": "chr-dwnply",
@@ -136,10 +197,229 @@
       "bio": "Rapper di zona, citato nella scheda delle Real Dimez come l'autore del singolo che ha dato loro la prima visibilità.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": ["chr-real-dimez"],
+      "relations": [
+        "chr-real-dimez"
+      ],
       "image": null,
-      "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-      "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05"
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-mendez",
+      "name": "Mendez",
+      "role": "Agente del VCPD",
+      "isProtagonist": false,
+      "tagline": "La legge di Vice City, con un nome.",
+      "bio": "Agente della polizia di Vice City riconosciuto dalla community nel Trailer 2 e nel raid dell'Extended Look. Compare anche nel trailer di lancio, secondo alcune analisi.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": null,
+      "relations": [],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-andres",
+      "name": "Andres De Leon",
+      "role": "Uomo d'affari, Megamundo",
+      "isProtagonist": false,
+      "tagline": "Il cliente che vale la scorta.",
+      "bio": "Ricco socio di Megamundo. Nell'Extended Look Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con uomini mascherati e armati, secondo la stampa.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": null,
+      "relations": [
+        "chr-petra",
+        "chr-valentina"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-petra",
+      "name": "Petra Navarro",
+      "role": "COO di Megamundo",
+      "isProtagonist": false,
+      "tagline": "La dirigente.",
+      "bio": "Direttrice operativa di Megamundo, presentata a Jason e Lucia da Valentina, secondo la community.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": null,
+      "relations": [
+        "chr-andres",
+        "chr-valentina"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-valentina",
+      "name": "Valentina",
+      "role": "Intermediaria",
+      "isProtagonist": false,
+      "tagline": "Chi assegna il lavoro.",
+      "bio": "Assume Jason e Lucia per scortare Andres De Leon e li presenta a Petra Navarro, secondo la community.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [
+        "chr-andres",
+        "chr-petra"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-yago",
+      "name": "Yago",
+      "role": "Pilota di corse clandestine",
+      "isProtagonist": false,
+      "tagline": "Un'Annis Elegy e nessuna regola.",
+      "bio": "Corridore di strada visto per la prima volta nell'Extended Look, al volante di una Annis Elegy '90 modificata, secondo la community.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": null,
+      "relations": [],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-raymond",
+      "name": "Raymond",
+      "role": "Gang San4San",
+      "isProtagonist": false,
+      "tagline": "Gestisce una casa dello spaccio.",
+      "bio": "Membro della gang San4San, gestisce una casa dello spaccio e un laboratorio con Ernesto. Nell'Extended Look, secondo la community.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [
+        "chr-ernesto"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-ernesto",
+      "name": "Ernesto",
+      "role": "Gang San4San",
+      "isProtagonist": false,
+      "tagline": "Il socio di Raymond.",
+      "bio": "Membro della gang San4San, gestisce un laboratorio di droga con Raymond, secondo la community.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [
+        "chr-raymond"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-stefanie",
+      "name": "Stefanie Gates",
+      "role": "Assistente sociale del penitenziario",
+      "isProtagonist": false,
+      "tagline": "La prima voce del Trailer 1.",
+      "bio": "Assistente sociale del Leonida Department of Corrections: la sua è la prima voce che si sente nel Trailer 1, mentre parla con Lucia. Il suo ruolo dopo la prigione non è chiaro, dice la community.",
+      "districtId": "dis-da-collocare",
+      "firstMissionId": null,
+      "relations": [
+        "chr-lucia"
+      ],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-wyman",
+      "name": "Wyman",
+      "role": "Meccanico e collezionista",
+      "isProtagonist": false,
+      "tagline": "Auto d'epoca e affari locali.",
+      "bio": "Meccanico, collezionista eccentrico e faccendiere locale, legato allo sfasciacarrozze Wyman's World e alla collezione di auto classiche dell'Ultimate Edition, secondo la community.",
+      "districtId": "dis-da-collocare",
+      "firstMissionId": null,
+      "relations": [],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-camillo",
+      "name": "Camillo",
+      "role": "Livestreamer",
+      "isProtagonist": false,
+      "tagline": "In diretta, anche dal bagagliaio.",
+      "bio": "Streamer di Vice City. La community lo collega alla scena del bagagliaio con la diretta in sovrimpressione dell'Extended Look, e ci vede una parodia di un noto streamer reale.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": null,
+      "relations": [],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "chr-phil",
+      "name": "Phil",
+      "role": "Testimonial Ammu-Nation",
+      "isProtagonist": false,
+      "tagline": "Una pubblicità, un volto noto.",
+      "bio": "Compare in uno spot di Ammu-Nation nel Trailer 2. La community ci vede una reinterpretazione di un vecchio personaggio della serie.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "sourceUrl": "https://gtabase.com/gta-6/characters/"
     }
   ]
 }

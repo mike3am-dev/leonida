@@ -19,7 +19,7 @@ import * as impostazioni from './views/impostazioni.js';
 import * as ricerca from './views/ricerca.js';
 import * as veicoli from './views/veicoli.js';
 
-window.__LEONIDA_VERSION__ = 'v0.2.0';
+window.__LEONIDA_VERSION__ = 'v0.3.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;

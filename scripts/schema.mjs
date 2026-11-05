@@ -67,8 +67,13 @@ export const schema = {
   },
   vehicles: {
     envelope: { schemaVersion: 'number', items: 'array' },
-    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'super', 'sportiva', 'berlina', 'suv', 'fuoristrada', 'muscle', 'classica', 'moto', 'barca', 'elicottero', 'aereo', 'altro'], description: 'string?', howToGet: 'string?' },
+    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'super', 'sportiva', 'berlina', 'suv', 'fuoristrada', 'muscle', 'classica', 'coupe', 'moto', 'barca', 'elicottero', 'aereo', 'servizio', 'industriale', 'militare', 'furgone', 'altro'], description: 'string?', howToGet: 'string?' },
     idPrefix: 'veh-',
+  },
+  weapons: {
+    envelope: { schemaVersion: 'number', items: 'array' },
+    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'pistola', 'fucile-assalto', 'mitra', 'fucile-pompa', 'cecchino', 'pesante', 'lancio', 'corpo-a-corpo', 'equipaggiamento'], description: 'string?', howToGet: 'string?' },
+    idPrefix: 'wpn-',
   },
   tips: {
     envelope: { schemaVersion: 'number', items: 'array' },
