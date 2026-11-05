@@ -21,7 +21,11 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-jason-duval-11.jpg",
+        "assets/img/ss-jason-lucia-14.jpg"
+      ]
     },
     {
       "id": "chr-lucia",
@@ -41,7 +45,11 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-lucia-caminos-11.jpg",
+        "assets/img/ss-jason-lucia-14.jpg"
+      ]
     },
     {
       "id": "chr-cal",
@@ -62,7 +70,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-cal-hampton-01.jpg"
+      ]
     },
     {
       "id": "chr-boobie",
@@ -83,7 +94,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-boobie-ike-01.jpg"
+      ]
     },
     {
       "id": "chr-drequan",
@@ -104,7 +118,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-drequan-priest-01.jpg"
+      ]
     },
     {
       "id": "chr-real-dimez",
@@ -126,7 +143,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-real-dimez-01.jpg"
+      ]
     },
     {
       "id": "chr-raul",
@@ -144,7 +164,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-raul-bautista-01.jpg"
+      ]
     },
     {
       "id": "chr-brian",
@@ -166,7 +189,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ss-brian-heder-01.jpg"
+      ]
     },
     {
       "id": "chr-lori",

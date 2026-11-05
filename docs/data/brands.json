@@ -77,7 +77,10 @@
       "sourceUrl": "https://store.rockstargames.com/game/buy-gta-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "gallery": [
+        "assets/img/ultimate-edition-01.jpg"
+      ]
     },
     {
       "id": "brd-classic-car-collection",

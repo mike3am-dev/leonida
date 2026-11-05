@@ -393,3 +393,7 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
   .facts { grid-template-columns: 1fr; }
   .facts dt { border-bottom: 0; padding-bottom: 0; }
 }
+
+/* ---------- Galleria ---------- */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--s-2); margin: var(--s-4) 0; }
+.gallery img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-sm); border: var(--hair) solid var(--rule); }

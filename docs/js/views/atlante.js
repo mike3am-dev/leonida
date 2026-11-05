@@ -1,7 +1,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { chapterHead, runningHead, backLink, opener, vis, sectionOf, districtStats } from './shared.js';
+import { galleryHtml, chapterHead, runningHead, backLink, opener, vis, sectionOf, districtStats } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('atlante');
@@ -53,6 +53,7 @@ function detail(d) {
     <h1>${esc(d.name)}</h1>
     ${d.tagline ? `<p class="lede" style="margin-top:var(--s-2)">${esc(d.tagline)}</p>` : ''}
     ${d.image ? `<img src="${esc(d.image)}" alt="" style="border-radius:var(--radius);margin:var(--s-3) 0" loading="lazy">` : ''}
+    ${galleryHtml(d)}
     ${s.total ? `<div class="card" style="margin-top:var(--s-4)">
       <div class="stat" style="border:0;padding-top:0"><div class="stat__value">${s.missing === 0 ? 'Completata' : `Mancano ${s.missing}`}</div><div class="stat__label">per completare questa zona</div></div>
       <div class="progress"><i style="--p:${s.pct}%"></i></div>

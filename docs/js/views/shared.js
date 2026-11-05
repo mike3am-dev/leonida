@@ -97,4 +97,9 @@ export function missionActLabel(m) {
   const a = db.acts.find((x) => x.id === m.actId);
   return a ? a.title : '';
 }
+export function galleryHtml(item) {
+  const imgs = (item.gallery || []).filter(Boolean);
+  if (!imgs.length) return '';
+  return `<div class="gallery">${imgs.map((src, i) => `<img src="${esc(src)}" alt="${esc(item.name || item.title || '')} ${i + 1}" loading="lazy">`).join('')}</div>`;
+}
 export { isOpen, actNum };

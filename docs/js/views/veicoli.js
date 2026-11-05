@@ -1,7 +1,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { chapterHead, runningHead, backLink, opener, vis, sectionOf } from './shared.js';
+import { galleryHtml, chapterHead, runningHead, backLink, opener, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('veicoli');
@@ -44,6 +44,7 @@ export function render(params, query) {
     <h1>${esc(it.name)}</h1>
     ${it.manufacturer ? `<p class="lede" style="margin-top:var(--s-2)">${esc(it.manufacturer)}</p>` : ''}
     ${it.image ? `<img src="${esc(it.image)}" alt="${esc(it.name)}" style="border-radius:var(--radius);margin:var(--s-3) 0" loading="lazy">` : ''}
+    ${galleryHtml(it)}
     <div class="btn-row" style="margin:var(--s-4) 0">
       <button class="btn ${favs[it.id] ? 'btn--accent' : ''}" type="button" data-fav="${esc(it.id)}"><svg aria-hidden="true"><use href="#i-bookmark"/></svg>${favs[it.id] ? 'Nei preferiti' : 'Preferito'}</button>
     </div>

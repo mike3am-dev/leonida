@@ -1,7 +1,7 @@
 /** Personaggi, Radio e Cultura, Prima ora: le pagine "da rivista". */
 import { db, byId } from '../data.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { chapterHead, runningHead, backLink, opener, vis, sectionOf } from './shared.js';
+import { galleryHtml, chapterHead, runningHead, backLink, opener, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 /* ---------- Personaggi ---------- */
@@ -23,6 +23,7 @@ export function renderPersonaggi(params) {
     <h1>${esc(c.name)}</h1>
     ${c.tagline ? `<p class="lede" style="margin-top:var(--s-2)"><em>${esc(c.tagline)}</em></p>` : ''}
     ${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" style="border-radius:var(--radius);margin:var(--s-3) 0" loading="lazy">` : ''}
+    ${galleryHtml(c)}
     <hr class="rule">
     <div class="prose">${spoiler.wrap(c, `<p class="dropcap">${esc(c.bio || 'Scheda in arrivo: la scrivi dopo averlo incontrato.')}</p>`)}</div>
     ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="chips">${c.relations.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#/personaggi/${esc(id)}">${esc(r.name)}</a>` : ''; }).join('')}</div></div>` : ''}

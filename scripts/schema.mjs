@@ -15,6 +15,7 @@ export const common = {
   updatedAt: 'string?',
   sourceUrl: 'string?',
   image: 'string?',
+  gallery: 'array?',
 };
 
 export const schema = {
