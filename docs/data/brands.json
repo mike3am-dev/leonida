@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "brd-only-raw", "name": "Only Raw Records", "category": "Etichetta discografica", "description": "L'etichetta di Boobie Ike e Dre'Quan Priest, che ha messo sotto contratto le Real Dimez.", "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "brd-score-justice", "name": "Grand Theft Auto VI: Original Score", "category": "Colonna sonora", "description": "La colonna sonora originale firmata dai Justice (Gaspard Augé e Xavier de Rosnay), 30 tracce, in uscita l'11 dicembre. Singoli annunciati: «Flower in a Hurricane» e «Pusher».", "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "brd-the-album", "name": "Grand Theft Auto VI: The Album", "category": "Colonna sonora", "description": "34 brani originali, in uscita il 19 novembre insieme al gioco. Tra gli artisti annunciati: Travis Scott, Cardi B, Yung Lean con Future e Metro Boomin, Morgan Wallen, Fuerza Regida, Rauw Alejandro, Keith Richards.", "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" }
+  ]
+}

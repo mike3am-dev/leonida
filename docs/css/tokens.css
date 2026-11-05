@@ -1,0 +1,103 @@
+/* ==========================================================
+   LEONIDA — Token di design
+   Vice City al tramonto: neri profondi, accenti con misura.
+   ========================================================== */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces-normal.woff2") format("woff2");
+  font-weight: 300 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces-italic.woff2") format("woff2");
+  font-weight: 300 800; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-normal.woff2") format("woff2");
+  font-weight: 400 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-italic.woff2") format("woff2");
+  font-weight: 400 700; font-style: italic; font-display: swap;
+}
+
+:root {
+  /* Tipografia */
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino", Georgia, serif;
+  --font-text: "Inter Tight", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.1875rem;
+  --fs-xl: clamp(1.5rem, 1.2rem + 1.5cqi, 2rem);
+  --fs-2xl: clamp(2rem, 1.4rem + 3cqi, 3rem);
+  --fs-hero: clamp(2.6rem, 1.6rem + 6cqi, 4.6rem);
+
+  /* Spazi */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+
+  --tap: 44px;              /* tap target minimo */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --hair: 0.5px;            /* filetto sottile */
+
+  /* Accenti — invariati fra i temi */
+  --magenta: #ff3d8b;
+  --teal: #2ec4b6;
+  --orange: #ff8a3d;
+
+  /* Safe area: lati gestiti separatamente (non sono simmetriche) */
+  --safe-t: env(safe-area-inset-top, 0px);
+  --safe-r: env(safe-area-inset-right, 0px);
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-l: env(safe-area-inset-left, 0px);
+
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --dur: 220ms;
+}
+
+/* Tema scuro (predefinito) */
+:root,
+:root[data-theme="dark"] {
+  --bg: #0b0a0f;
+  --bg-2: #13111a;
+  --paper: #16131d;
+  --paper-2: #1d1926;
+  --ink: #f3ede4;
+  --ink-2: #c9c0b5;
+  --ink-3: #8d8496;
+  --rule: rgba(243, 237, 228, 0.16);
+  --rule-strong: rgba(243, 237, 228, 0.32);
+  --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 20px 40px -20px rgba(0,0,0,.6);
+  --grain-opacity: .07;
+  --sunset: linear-gradient(180deg, #ff8a3d 0%, #ff3d8b 55%, #6b2bd9 100%);
+  color-scheme: dark;
+}
+
+/* Tema chiaro: carta calda */
+:root[data-theme="light"] {
+  --bg: #efe8dc;
+  --bg-2: #e6ddcf;
+  --paper: #f8f3ea;
+  --paper-2: #f1eadf;
+  --ink: #1a1520;
+  --ink-2: #463e4c;
+  --ink-3: #776e7c;
+  --rule: rgba(26, 21, 32, 0.16);
+  --rule-strong: rgba(26, 21, 32, 0.34);
+  --shadow: 0 20px 40px -24px rgba(60, 40, 30, .35);
+  --grain-opacity: .05;
+  --sunset: linear-gradient(180deg, #ff8a3d 0%, #e62f78 60%, #5a22b8 100%);
+  color-scheme: light;
+}
+
+/* Accento per sezione: un solo colore per pagina */
+[data-accent="magenta"] { --accent: var(--magenta); }
+[data-accent="teal"]    { --accent: var(--teal); }
+[data-accent="orange"]  { --accent: var(--orange); }
+:root { --accent: var(--magenta); }

@@ -1,0 +1,11 @@
+{
+  "name": "leonida",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guida di campo personale per GTA VI, vanilla JS, GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "serve": "python3 -m http.server 8080 --directory docs"
+  }
+}

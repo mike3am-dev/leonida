@@ -1,0 +1,183 @@
+/* ==========================================================
+   Layout: due esperienze
+   - CHIUSO (stretto): una colonna, tab bar in basso.
+   - APERTO (largo e alto abbastanza): libro aperto a doppia pagina.
+   Nessuna larghezza fissa di dispositivo, solo soglie fluide.
+   ========================================================== */
+
+:root { --rail: 0px; --gutter: 0px; --masthead-h: 56px; }
+
+.app {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  height: 100vh;
+  height: 100dvh;
+  container-type: inline-size;
+  container-name: app;
+}
+
+/* ---------- Testata ---------- */
+.masthead {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--s-3);
+  min-height: calc(var(--masthead-h) + var(--safe-t));
+  padding: var(--safe-t) max(var(--safe-r), var(--s-3)) 0 max(var(--safe-l), var(--s-4));
+  border-bottom: var(--hair) solid var(--rule);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  position: relative; z-index: 20;
+}
+.brand { display: flex; align-items: baseline; gap: var(--s-2); text-decoration: none; min-height: var(--tap); align-items: center; }
+.brand__mark { width: 22px; height: 22px; color: var(--magenta); align-self: center; }
+.brand__word {
+  font-family: var(--font-display); font-size: 1.35rem; font-weight: 500;
+  font-style: italic; letter-spacing: -0.01em;
+  font-variation-settings: "opsz" 72, "SOFT" 100;
+}
+.brand__sub { font-size: var(--fs-xs); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+.masthead__tools { display: flex; gap: var(--s-1); }
+
+/* ---------- Area principale ---------- */
+.spread {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 0;
+  outline: none;
+}
+.rail, .gutter { display: none; }
+/* Righe esplicite: così la pagina resta al suo posto anche con la follow-bar nascosta */
+.masthead { grid-row: 1; }
+.follow-bar { grid-row: 2; }
+.spread { grid-row: 3; }
+.tabbar { grid-row: 4; }
+
+.page {
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  padding: var(--s-5) max(var(--safe-r), var(--s-4)) var(--s-7) max(var(--safe-l), var(--s-4));
+  container-type: inline-size;
+  scroll-padding-top: var(--s-4);
+}
+.page__inner { max-width: 640px; margin: 0 auto; }
+
+/* Chiuso: si vede una sola pagina alla volta */
+.spread[data-show="left"]  .page--right { display: none; }
+.spread[data-show="right"] .page--left  { display: none; }
+
+/* ---------- Tab bar (solo chiuso) ---------- */
+.tabbar {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  padding: 0 max(var(--safe-r), var(--s-1)) var(--safe-b) max(var(--safe-l), var(--s-1));
+  border-top: var(--hair) solid var(--rule);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  z-index: 20;
+}
+.tab {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px; min-height: 54px; padding: 6px 2px;
+  text-decoration: none; color: var(--ink-3);
+  font-size: 0.6875rem; letter-spacing: .02em;
+}
+.tab svg { width: 22px; height: 22px; }
+.tab[aria-current="page"] { color: var(--ink); }
+.tab[aria-current="page"] svg { color: var(--accent); }
+
+/* ==========================================================
+   APERTO: libro a doppia pagina
+   Soglia: abbastanza larghezza per due pagine leggibili
+   e abbastanza altezza da non essere un telefono ruotato.
+   ========================================================== */
+@media (min-width: 600px) and (min-height: 520px) {
+  :root { --rail: 64px; --gutter: 48px; }
+
+  .tabbar { display: none; }
+  .rail, .gutter { display: block; }
+
+  .spread {
+    grid-template-columns: var(--rail) minmax(0, 1fr) var(--gutter) minmax(0, 1fr);
+  }
+  .spread[data-show] .page { display: block; }
+
+  .rail {
+    display: flex; flex-direction: column; align-items: center;
+    gap: var(--s-1);
+    padding: var(--s-4) 0 calc(var(--safe-b) + var(--s-4)) var(--safe-l);
+    border-right: var(--hair) solid var(--rule);
+    overflow-y: auto;
+  }
+  .rail .tab { width: 56px; min-height: 52px; font-size: .625rem; }
+
+  .page--left { padding-left: var(--s-5); padding-right: var(--s-5); }
+  .page--right {
+    padding-left: var(--s-5);
+    padding-right: max(var(--safe-r), var(--s-5));
+    padding-bottom: calc(var(--safe-b) + var(--s-7));
+  }
+
+  /* La piega: rilegatura vuota, nessun controllo qui */
+  .gutter {
+    position: relative;
+    background:
+      linear-gradient(90deg,
+        transparent 0%,
+        color-mix(in srgb, #000 22%, transparent) 46%,
+        color-mix(in srgb, #000 30%, transparent) 50%,
+        color-mix(in srgb, #000 22%, transparent) 54%,
+        transparent 100%);
+    pointer-events: none;
+  }
+  :root[data-theme="light"] .gutter {
+    background: linear-gradient(90deg, transparent, rgba(80,50,30,.10) 50%, transparent);
+  }
+  .gutter::after {
+    content: ""; position: absolute; top: 0; bottom: 0; left: 50%;
+    border-left: var(--hair) solid var(--rule);
+  }
+
+  /* Pagina destra leggermente più "carta" per l'effetto libro */
+  .page--right { background: color-mix(in srgb, var(--paper) 40%, transparent); }
+  .page--left  { background: color-mix(in srgb, var(--paper) 20%, transparent); }
+}
+
+/* Piega reale del dispositivo (Viewport Segments, progressive enhancement) */
+@media (min-width: 600px) and (horizontal-viewport-segments: 2) {
+  .spread {
+    grid-template-columns:
+      var(--rail)
+      calc(env(viewport-segment-right 0 0, 50vw) - var(--rail) - var(--gutter) / 2)
+      var(--gutter)
+      minmax(0, 1fr);
+  }
+  :root {
+    --gutter: max(48px, calc(env(viewport-segment-left 1 0, 50vw) - env(viewport-segment-right 0 0, 50vw)));
+  }
+}
+/* Piega comunicata via JS (posture.js) quando il CSS non la conosce */
+:root[data-fold="js"] .spread {
+  grid-template-columns: var(--rail) calc(var(--fold-x) - var(--rail) - var(--gutter) / 2) var(--gutter) minmax(0, 1fr);
+}
+
+/* Molto largo (es. iPad/desktop): margini più generosi */
+@media (min-width: 1100px) and (min-height: 520px) {
+  .page { padding-top: var(--s-7); }
+  .page--left, .page--right { padding-left: var(--s-7); padding-right: var(--s-7); }
+}
+
+/* ---------- Voltare pagina ---------- */
+.turn-in { animation: turn-in var(--dur) var(--ease) both; }
+@keyframes turn-in {
+  from { opacity: 0; transform: translateX(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.turn-back { animation: turn-back var(--dur) var(--ease) both; }
+@keyframes turn-back {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .turn-in, .turn-back { animation: none; }
+}

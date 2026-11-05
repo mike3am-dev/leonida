@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "act-ex-001",
+      "type": "attività",
+      "name": "ESEMPIO — Attività secondaria",
+      "districtId": "dis-keys",
+      "description": "Voce di esempio per vedere il design delle attività nelle pagine dei distretti.",
+      "requirements": [],
+      "rewards": [],
+      "steps": [],
+      "image": null,
+      "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true, "updatedAt": "2026-11-05"
+    }
+  ]
+}

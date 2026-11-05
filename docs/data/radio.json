@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "rad-flash-fm", "name": "Flash FM", "genre": "Pop", "host": "Robyn e Alex", "description": "Un'istituzione di Vice City, secondo il sito ufficiale. Il pop che suona dai finestrini abbassati lungo la costa.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "rad-cocoteo", "name": "Cocoteo", "genre": "Latin moderno", "host": "El Martillo e La Gata", "description": "La stazione latina di Leonida: ritmi moderni e voce dei quartieri.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "rad-back-country", "name": "Back Country", "genre": "Country", "host": "MW e Delta Dawne", "description": "Country per le strade dritte dell'entroterra.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "rad-afro-bank", "name": "Afro Bank FM", "genre": "Amapiano e classici africani", "host": "Burna e Palmsy", "description": "Amapiano e classici del continente africano.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "rad-the-chamber", "name": "The Chamber", "genre": "Metal", "host": "DJ Kerry e DJ Tom", "description": "Metal, senza compromessi.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "rad-dirty-south", "name": "Dirty South Classics", "genre": "Rap e hip-hop del Sud", "host": "Trick e Trina", "description": "I classici del rap e dell'hip-hop regionale.", "highlights": [], "image": null, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/VI/music", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" }
+  ]
+}

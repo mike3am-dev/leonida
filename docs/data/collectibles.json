@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    { "id": "cat-ex-a", "name": "ESEMPIO — Categoria A", "icon": "star", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true },
+    { "id": "cat-ex-b", "name": "ESEMPIO — Categoria B", "icon": "bolt", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true }
+  ],
+  "items": [
+    {
+      "id": "col-ex-001",
+      "categoryId": "cat-ex-a",
+      "name": "ESEMPIO — Oggetto 1",
+      "districtId": "dis-vice-city",
+      "directions": "Indicazioni di esempio. Qui scriverai come trovarlo, con punti di riferimento.",
+      "reward": "Ricompensa di esempio",
+      "image": null,
+      "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true, "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "col-ex-002",
+      "categoryId": "cat-ex-a",
+      "name": "ESEMPIO — Oggetto 2",
+      "districtId": "dis-vice-city",
+      "directions": "Indicazioni di esempio.",
+      "reward": null,
+      "image": null,
+      "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true, "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "col-ex-003",
+      "categoryId": "cat-ex-b",
+      "name": "ESEMPIO — Oggetto 3",
+      "districtId": "dis-keys",
+      "directions": "Indicazioni di esempio.",
+      "reward": null,
+      "image": null,
+      "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true, "updatedAt": "2026-11-05"
+    }
+  ]
+}

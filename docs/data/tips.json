@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    { "id": "tip-preload", "category": "prima-ora", "title": "Preload dal 10 novembre", "body": "Il download anticipato parte il 10 novembre: su PS5 a mezzanotte ora locale, su Xbox alle 00:00 GMT. Il file può arrivare fino a 212 GB a seconda della console: libera spazio con largo anticipo.", "priority": 1, "status": "verificato", "source": "trailer", "sourceUrl": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "tip-editions", "category": "prima-ora", "title": "Edizioni e bonus", "body": "Standard Edition e Ultimate Edition, quest'ultima con una raccolta di oggetti legati alla storia di Jason e Lucia. Chi acquista prima del 20 novembre riceve il Vintage Vice City Pack; i preordini digitali includono un mese di GTA+.", "priority": 2, "status": "da verificare", "source": "community", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "tip-spoiler", "category": "prima-ora", "title": "Imposta lo scudo spoiler", "body": "Nelle Impostazioni lo scudo è attivo per impostazione predefinita: i contenuti con un livello spoiler superiore all'atto in cui ti trovi restano sfocati finché non li tocchi. Segna le missioni come in corso e la guida si allinea da sola.", "priority": 3, "status": "verificato", "source": "gioco-mike", "spoilerLevel": 0, "example": false, "updatedAt": "2026-11-05" },
+    { "id": "tip-ex-1", "category": "generale", "title": "ESEMPIO — Consiglio di gioco", "body": "Voce di esempio. Qui finiranno i consigli veri che raccogli giocando: combattimento, soldi, guida, esplorazione.", "priority": 9, "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": true, "updatedAt": "2026-11-05" }
+  ]
+}

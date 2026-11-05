@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "0.1.0",
+  "updatedAt": "2026-11-05",
+  "releaseDate": "2026-11-19",
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Scheletro della guida con i soli fatti confermati dal sito ufficiale Rockstar (rockstargames.com/VI).",
+        "Sei territori di Leonida, personaggi presentati, sei stazioni radio, date di preload e uscita.",
+        "Dati ESEMPIO chiaramente marcati per vedere il design popolato."
+      ]
+    }
+  ]
+}
