@@ -3,7 +3,7 @@ import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, vis, sectionOf, districtStats } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats } from './shared.js';
 import * as mapboard from './mapboard.js';
 import * as spoiler from '../spoiler.js';
 
@@ -161,6 +161,7 @@ function detail(d) {
     <div class="block prose">${spoiler.wrap(d, `<p class="dropcap">${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
     ${places.length ? `<div class="block"><span class="kicker">Schede dei luoghi (${places.length})</span><div class="placegrid">${places.map(luogoCard).join('')}</div></div>` : ''}
     ${galleryHtml(d)}
+    ${d.insight ? `<div class="block">${acc('Approfondimento (vice-central.com)', `<div class="prose prose--guide">${d.inspiration ? `<p><b>Ispirato a:</b> ${esc(d.inspiration)}</p>` : ''}${insightHtml(d.insight)}${d.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(d.toSee) ? d.toSee.join(' · ') : d.toSee)}</p>` : ''}${d.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(d.whoYouMeet) ? d.whoYouMeet.join(', ') : d.whoYouMeet)}</p>` : ''}${d.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${d.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(d.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
     ${d.subAreas?.length ? `<div class="block"><span class="kicker">Quartieri e zone</span><div class="chips" style="margin-top:var(--s-2)">${d.subAreas.map((a) => `<span class="chip" title="${esc(typeof a === 'string' ? '' : a.note || '')}">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div></div>` : ''}
     ${chars.length ? `<div class="block"><span class="kicker">Chi ci vive</span><div class="chips" style="margin-top:var(--s-2)">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div></div>` : ''}
     <div class="block">
@@ -179,6 +180,7 @@ function poiDetail(d, p) {
     ${hero(p, { kicker: `${d.name} · ${p.kind || 'Luogo'}`, title: p.name, lede: p.tagline || '', chips: statusChip(p) })}
     <div class="whats" style="margin-bottom:var(--s-4)">${whatThere(p)}</div>
     <div class="prose">${spoiler.wrap(p, `<p class="dropcap">${esc(p.description || 'Descrizione in arrivo.')}</p>`)}</div>
+    ${p.insight ? `<div class="block">${acc('Approfondimento (vice-central.com)', `<div class="prose prose--guide">${p.inspiration ? `<p><b>Ispirato a:</b> ${esc(p.inspiration)}</p>` : ''}${insightHtml(p.insight)}${p.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(p.toSee) ? p.toSee.join(' · ') : p.toSee)}</p>` : ''}${p.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(p.whoYouMeet) ? p.whoYouMeet.join(', ') : p.whoYouMeet)}</p>` : ''}${p.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${p.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(p.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
     ${chars.length ? `<div class="block"><span class="kicker">Chi lo frequenta</span><div class="chips" style="margin-top:var(--s-2)">${chars.map((c) => `<a class="chip" href="#/personaggi/${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</a>`).join('')}</div></div>` : ''}
     <div class="actions"><button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto su questo luogo</button></div>
     <p class="source-line">Fonte: ${esc(p.source)}${p.sourceUrl ? ` · <a href="${esc(p.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''} · in <a href="#/mappa/${esc(d.id)}">${esc(d.name)}</a></p>`;

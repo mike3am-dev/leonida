@@ -1064,3 +1064,20 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .radio-logo { display: block; max-width: 260px; margin: 0 auto var(--s-4); }
 
 .section-head--img .count { background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+
+/* ---------- Tavolo delle teorie: post-it per stato ---------- */
+.tboard { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-4); padding: var(--s-4); border-radius: var(--radius); background: linear-gradient(180deg, #2a1f1a, #1a1410); box-shadow: inset 0 0 60px rgba(0,0,0,.5); }
+.tboard__col { display: grid; gap: var(--s-4); align-content: start; }
+.tboard__head { font-family: var(--font-gta); font-size: 1.3rem; color: #f3ede4; text-transform: lowercase; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--tcol); padding-bottom: 4px; }
+.tboard__head .count { color: var(--tcol); font-size: 1rem; }
+.tboard__col--ok { --tcol: #2fbf71; --tpaper: #e7f6e3; } .tboard__col--viola { --tcol: #a15cff; --tpaper: #ece4f8; } .tboard__col--giallo { --tcol: #f2c14e; --tpaper: #fff6c7; } .tboard__col--rosa { --tcol: #ff3d8b; --tpaper: #fde2ec; }
+.tnote { position: relative; padding: var(--s-4) var(--s-3) var(--s-3); background: var(--tpaper); color: #1b1024; border-radius: 2px; box-shadow: 3px 6px 14px rgba(0,0,0,.45); transform: rotate(var(--rot)); }
+.tnote__pin { position: absolute; left: 50%; top: -8px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #fff, var(--tcol) 45%, color-mix(in srgb, var(--tcol) 60%, #000)); box-shadow: 0 3px 4px rgba(0,0,0,.4); }
+.tnote h4 { font-family: var(--font-hand); font-size: 1.35rem; line-height: 1.05; margin: 0 0 6px; color: #1b1024; }
+.tnote p { color: #3a2f44; margin: 0 0 var(--s-2); }
+.tnote .acc { border-top-color: rgba(0,0,0,.15); }
+.tnote .acc__btn { color: #1b1024; min-height: 40px; }
+.tnote .acc__btn .kicker { color: #5a4a6a; }
+.tnote .prose, .tnote .prose p, .tnote .prose li { color: #2a2230; }
+.tnote .source-line a { color: #7c3aed; }
+@container (max-width: 520px) { .tboard { grid-template-columns: 1fr; } }

@@ -184,7 +184,34 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/characters/",
-          "image": "assets/img/luoghi/bayside-bayfront/landmark-l208.webp"
+          "image": "assets/img/luoghi/bayside-bayfront/landmark-l208.webp",
+          "insight": "Megamundo è un'imponente torre aziendale di Vice City, vista durante l'Extended Look di GTA VI trasmesso su Netflix il 27 agosto 2026.\n\nLA SEDE DI UN'AZIENDA DIRETTA DA PETRA NAVARRO. La torre Megamundo, riconoscibile di notte grazie all'insegna colorata in cima, fa da cornice a una scena mondana che si trasforma in dramma: l'inaugurazione della sua primissima sede americana. È direttamente legata al personaggio di Petra Navarro, presentata come codirettrice dell'azienda, oltre che ad Andrés de León, anch'egli legato a Megamundo, e a Valentina, la dipendente che recluta Jason e Lucia come agenti di sicurezza privata per la serata.\n\nGIÀ INDIVIDUATA SULLA MAPPA DELLA COMMUNITY. La mappa interattiva State of Leonida ha già piazzato un segnaposto per la torre Megamundo, sulla base delle immagini dell'Extended Look.\n\nLA TORRE IN IMMAGINI. L'Extended Look mostra la torre di notte da due angolazioni: dalla strada, sopra la metropolitana sopraelevata di Vice City, con l'insegna Megamundo ai piedi dell'edificio, poi vista dall'alto, coronata da un grande logo arcobaleno luminoso. All'interno, la serata d'inaugurazione si tiene in saloni decorati con palloncini luminosi, prima che un commando armato interrompa la festa. Il ruolo esatto dell'azienda nella storia resta sconosciuto, ma le schede di Valentina e di Andrés de León dettagliano la missione affidata a Jason e Lucia quella sera.",
+          "insightUrl": "https://vice-central.com/lieux/megamundo/",
+          "keyFacts": [
+            {
+              "label": "Tipo",
+              "value": "Torre di uffici di Vice City, logo arcobaleno",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Evento mostrato",
+              "value": "Inaugurazione della prima sede americana, interrotta da un commando",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Dirigente",
+              "value": "Petra Navarro (direttrice operativa secondo GTABase)",
+              "reliability": "Riportato"
+            },
+            {
+              "label": "Attività dell'azienda",
+              "value": "Non precisata",
+              "reliability": "Sconosciuto"
+            }
+          ],
+          "toSee": "L'insegna e il logo arcobaleno in cima, la metropolitana sopraelevata ai piedi della torre",
+          "whoYouMeet": "Petra Navarro, Andrés de León, Valentina",
+          "updatedAt": "2026-11-06"
         },
         {
           "id": "poi-sinfrontera",
@@ -534,7 +561,34 @@
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": "assets/img/luoghi/ocean-beach/landmark-l104.webp"
+          "image": "assets/img/luoghi/ocean-beach/landmark-l104.webp",
+          "insight": "Effluvia è un ristorante-bar in terrazza di Vice City, rivelato durante l'Extended Look di GTA VI trasmesso su Netflix il 27 agosto 2026. Il suo nome, leggibile sull'insegna del bar, è una piccola presa in giro tipica di Rockstar: in inglese «effluvia» indica delle esalazioni, il più delle volte un cattivo odore. Un nome ironico per uno degli indirizzi più chic di Vice City.\n\nUN PRANZO DI FAMIGLIA CHE DIVENTA AMBIGUO. Jason e Lucia vi ritrovano Brian Heder e Lori per un pranzo in terrazza. L'atmosfera, all'inizio calorosa, cambia quando a tavola si avvia una conversazione a mezze parole su un «lavoro» che qualcuno vuole «discreto, una sola persona», prima che il pasto riprenda il suo corso normale. Il nome «Effluvia» appare chiaramente sull'insegna del ristorante sullo schermo. Tra i cinque nuovi luoghi rivelati durante l'Extended Look, Effluvia è il solo a non figurare ancora tra i punti piazzati sulla mappa interattiva State of Leonida, per mancanza di elementi sufficienti a localizzarlo con precisione.\n\nIL PRANZO IN IMMAGINI. La scena dell'Extended Look è una delle sequenze tranquille più lunghe della presentazione. Vi si vede il duo attraversare il bar sul tetto mano nella mano (un'azione proposta sullo schermo da un tasto), salutare Brian e Lori al bancone, poi sedersi a un tavolo in pieno sole, cocktail e fiori sul tavolo, con la skyline di Vice City sullo sfondo. La stampa anglofona colloca il bar nel quartiere di Vice Beach.",
+          "insightUrl": "https://vice-central.com/lieux/efflavia/",
+          "keyFacts": [
+            {
+              "label": "Nome",
+              "value": "Effluvia, leggibile sull'insegna",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Tipo",
+              "value": "Bar-ristorante su un tetto-terrazza di Vice City",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Scena",
+              "value": "Pranzo di Jason e Lucia con Brian e Lori",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Quartiere",
+              "value": "Vice Beach, secondo la stampa anglofona",
+              "reliability": "Riportato"
+            }
+          ],
+          "toSee": "La terrazza sul tetto con la skyline di Vice City, l'insegna ironica",
+          "whoYouMeet": "Brian Heder, Lori, Jason Duval, Lucia Caminos",
+          "updatedAt": "2026-11-06"
         },
         {
           "id": "poi-venture-apartments",
@@ -758,10 +812,52 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-vice-city-27.jpg"
-      ]
+      ],
+      "insight": "Vice City è tornata, nel cuore di Leonida, lo Stato immaginario ispirato alla Florida che fa da scenario a Grand Theft Auto VI. Città balneare sfavillante ispirata a Miami, resta fedele alla sua identità al neon e pastello pur essendo interamente ricostruita per questa nuova generazione.\n\nLA VICE CITY PIÙ VASTA MAI CONCEPITA. Dalle immagini mostrate finora la mappa si annuncia come la più vasta e la più densamente popolata mai concepita per la serie, con quartieri contrastanti che vanno dai viali turistici scintillanti alle zone più provate della periferia, passando per le distese naturali delle Everglades leonidiane. Diversi creator invitati alle anteprime a Rockstar North hanno dato ordini di grandezza: secondo TGG, Vice City sarebbe circa due volte più grande di Los Santos in GTA V, e la zona urbana fuori dalla città undici volte più vasta del suo equivalente in quel gioco. Lo streamer El Rubius, dal suo lato, stima la mappa completa di Leonida circa tre volte più grande di quella di Red Dead Redemption II. Il sinossi ufficiale la definisce «una reinterpretazione del più grande e immersivo mondo aperto mai creato da Rockstar Games».\n\nUNA CITTÀ INTERAMENTE ESPLORABILE DALL'INIZIO. Secondo le anteprime raccolte dalla stampa internazionale dopo l'Extended Look, Vice City si esplora liberamente fin dalle prime ore di gioco, senza ponti bloccati né isole rese inaccessibili dalla progressione della trama. Dettaglio geografico notevole: le strade della città sarebbero circa il 15% più strette di quelle di Los Santos in GTA V, il che renderebbe la guida più tecnica, soprattutto nel traffico. L'atmosfera e il comportamento dei passanti cambiano anche a seconda dei quartieri: girare in città con un fucile a pompa in vista desta i sospetti degli abitanti, mentre la stessa tenuta passa del tutto inosservata nelle distese selvagge delle Everglades. Rockstar conferma inoltre un grande lavoro sulla cultura automobilistica e la personalizzazione, con il ritorno delle armerie Ammu-Nation che offrono armi esclusive e opzioni di personalizzazione inedite, e una polizia presentata come nettamente più tenace rispetto agli episodi precedenti.\n\nIL PUNTO DI PARTENZA DI UNA COSPIRAZIONE DI STATO. È in questa città che Lucia Caminos e Jason Duval vedono il loro colpo, che doveva essere semplice, andare storto, trascinandoli in una cospirazione che coinvolge tutto lo Stato di Leonida. Vice City non è un semplice sfondo: è il punto d'ancoraggio narrativo attorno al quale ruotano la maggior parte dei personaggi e delle fazioni del gioco.\n\nVICE CITY E MIAMI: UN'ISPIRAZIONE REALE FINO AL MARKETING. L'ispirazione dalla vera Miami non si limita all'estetica: arriva fino alla campagna marketing. Il comune di Miami ha studiato un progetto di cartelloni pubblicitari giganti per il gioco nel proprio centro in vista dell'uscita. Si tratta ovviamente di un'iniziativa condotta nella Miami reale, da non confondere con Vice City, che resta un luogo interamente fittizio.\n\nBAYSIDE DISTRICT, UN QUARTIERE ANCORA POCO DOCUMENTATO (riportato). Bayside District è un quartiere di Vice City individuato nell'Extended Look del 27 agosto 2026 grazie a una battuta di dialogo che colloca l'azione, durante un'analisi fotogramma per fotogramma di GameRant. Nessuna immagine ufficiale isolata del quartiere è stata pubblicata: solo una breve sequenza permette di collocarlo, nel seguito della missione di sicurezza in cui un vigilante confisca le armi di Jason e Lucia, costringendoli a continuare disarmati. Il nome suggerisce un quartiere costiero o rivierasco; diversi siti della community lo descrivono come un settore commerciale sull'acqua nella contea fittizia di Vice-Dale e parlano di un possibile alloggio sbloccato automaticamente in questo quartiere nel corso della storia. Nessuno di questi dettagli è confermato da Rockstar: la posizione esatta va trattata con prudenza.\n\nLA CARTOLINA UFFICIALE: «TUTTO NELL'ECCESSO». Rockstar ha presentato ogni grande regione di Leonida con una cartolina e un breve testo. Quello di Vice City sta in tre frasi, ma cita luoghi precisi che si ritroveranno nel gioco: la spiaggia di Ocean Beach, il quartiere di Little Cuba, un mercato delle pulci e il porto. «Siamo ben lontani dagli anni 80, ma Vice City resta la capitale americana del sole e della festa. Il glamour, l'arte di arrangiarsi e la sete di guadagno dell'America, riuniti in una sola città. Ogni quartiere ha qualcosa da offrire, dagli hotel art déco pastello e dalla sabbia bianca di Ocean Beach alle panaderías animate di Little Cuba e alle contraffazioni del mercato delle pulci di Tisha-Wocka, fino al porto di Vice City, capitale mondiale delle crociere.»\n\nQUARTIERI E PUNTI DI RIFERIMENTO IDENTIFICATI. Diversi nomi sono già certi perché li ha dati Rockstar stessa. Vice City è il capoluogo della contea di Vice-Dale, trasparente richiamo alla contea di Miami-Dade. Ocean Beach riprende South Beach e i suoi hotel art déco, Little Cuba ricorda Little Havana, e il porto di Vice City fa eco al porto di Miami, primo porto crocieristico del mondo. Sulla skyline pubblicata da Game Informer, la Sahara Arena in riva alla baia somiglia in tutto al Kaseya Center, l'arena dei Miami Heat, il cui tetto porta ora un'insegna «Welcome to Vice City» reale. Altri quartieri sono stati rilevati dalla community sui cartelli stradali e nelle scenografie dei video ufficiali, come Little Haiti, Stockyard (l'equivalente di Wynwood e dei suoi murales), Washington Beach o Catalan Key, oltre all'aeroporto internazionale. Questi nomi restano da confermare da parte di Rockstar.",
+      "insightUrl": "https://vice-central.com/lieux/vice-city/",
+      "keyFacts": [
+        {
+          "label": "Ispirazione",
+          "value": "Miami e la contea di Miami-Dade",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Contea",
+          "value": "Vice-Dale",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Luoghi citati da Rockstar",
+          "value": "Ocean Beach, Little Cuba, mercato di Tisha-Wocka, porto di Vice City",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Sahara Arena",
+          "value": "Equivalente del Kaseya Center, secondo la skyline ufficiale",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Altri quartieri",
+          "value": "Little Haiti, Stockyard, Washington Beach, Catalan Key…",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Dimensioni",
+          "value": "Circa due volte Los Santos secondo le anteprime",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Bayside District",
+          "value": "Quartiere citato in un dialogo dell'Extended Look",
+          "reliability": "Riportato"
+        }
+      ],
+      "toSee": "Ocean Drive, Vice Beaches, la torre Megamundo e il tetto dell'Effluvia",
+      "whoYouMeet": "Lucia Caminos, Jason Duval",
+      "inspiration": "Miami, Florida (contea di Miami-Dade)"
     },
     {
       "id": "dis-waning-sands",
@@ -998,10 +1094,47 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-leonida-keys-07.jpg"
-      ]
+      ],
+      "insight": "Prolungamento insulare di Vice City verso sud, le Leonida Keys sono uno degli scenari confermati di GTA VI. È in questo arcipelago che Jason Duval si ricostruisce una vita al ritorno dall'esercito, accanto a Brian Heder e Cal Hampton.\n\nLA PORTA D'INGRESSO DEL PARADISO. Rockstar presenta le Keys come una vera porta verso il paradiso: spiagge, stile di vita rilassato e turismo di lusso convivono in un'atmosfera direttamente ispirata alle vere Florida Keys americane, tra palme, acque turchesi e resort di alta gamma.\n\nIL TURISMO NASCONDE UN PASSATO TORBIDO. Dietro la cartolina, le Keys hanno anche una storia più oscura: la regione ha vissuto la sua «età dell'oro della droga», e trafficanti come Brian Heder continuano a operarvi, oggi riconvertito nella gestione di un porticciolo. Turismo di lusso e storia criminale condividono così le stesse strade strette, un contrasto che Rockstar ha sempre amato nella costruzione dei suoi scenari.\n\nUNA BASE MILITARE AI CONFINI DELL'ARCIPELAGO. Secondo i creator invitati alle anteprime a Rockstar North dopo l'Extended Look, in fondo alle Leonida Keys ci sarebbe un'importante base militare: un dettaglio coerente con il passato di Jason Duval, ex militare originario di questa stessa regione.\n\nLA CARTOLINA UFFICIALE: «LA PORTA DEL PARADISO». «Il dress code è rilassato, i bar sono pieni. La vita in questo arcipelago tropicale non ha niente di sfarzoso, ma è facile. Prendete un drink e sistematevi su una sdraio, ma attenzione: siete alle porte di alcune delle acque più belle e più pericolose di tutta l'America.»\n\nCOSA MOSTRANO I VIDEO. Le Keys sono la prima regione che si vede nel Trailer 2: un'isola vista dal cielo, le sue case in riva all'acqua, poi una casa su palafitte in legno davanti alla quale Brian Heder fa la predica a Jason. È lì che Jason vive all'inizio del gioco, alloggiato gratis da Brian in cambio di qualche favore. Il Trailer 1 mostrava già un lungo ponte tra due isole, sorvolato da un idrovolante, immagine diretta dei ponti che collegano le vere Florida Keys.\n\nLE VERE FLORIDA KEYS. L'arcipelago riprende le Florida Keys, la collana di isole collegate da ponti che corre dalla punta della Florida fino a Key West. I fan vi hanno individuato una ripresa di Rain Barrel Village, una sosta turistica di Islamorada celebre per la sua aragosta gigante, Betsy, sostituita nel gioco da un'altra statua gigante. Il database GTABase collega le Keys a una contea di Mariana, equivalente della contea di Monroe, e cita un'isola di Key Lento, strizzata d'occhio a Key Largo. Game Informer ha anche pubblicato un idrovolante sopra le isole sotto un cielo di tempesta.",
+      "insightUrl": "https://vice-central.com/lieux/leonida-keys/",
+      "keyFacts": [
+        {
+          "label": "Tipo",
+          "value": "Arcipelago tropicale a sud di Leonida",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Le Florida Keys",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Personaggi",
+          "value": "Jason, Brian Heder, Lori, Cal Hampton",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Contea",
+          "value": "Mariana, secondo GTABase",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Key Lento",
+          "value": "Equivalente di Key Largo, secondo GTABase",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Base militare",
+          "value": "In fondo all'arcipelago, secondo le anteprime",
+          "reliability": "Riportato"
+        }
+      ],
+      "toSee": "Isole collegate dalla strada, marine e acque turchesi",
+      "whoYouMeet": "Jason Duval, Brian Heder, Cal Hampton",
+      "inspiration": "Florida Keys"
     },
     {
       "id": "dis-grassrivers",
@@ -1068,10 +1201,42 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-grassrivers-07.jpg"
-      ]
+      ],
+      "insight": "Grassrivers è la versione immaginata da Rockstar Games delle celebri Everglades della Florida, il cui nome è direttamente ispirato al soprannome reale della zona umida: «river of grass». È una delle regioni confermate dello Stato immaginario di Leonida in GTA VI.\n\nUNA VASTA ZONA UMIDA SUBTROPICALE. Lo scenario promette paludi, acquitrini, fiumi a corrente lenta e foreste di cipressi, punteggiati da comunità rurali isolate. Un contrasto totale con la frenesia urbana di Vice City. Il testo ufficiale: «Grassrivers è la versione immaginata da Rockstar delle Everglades della Florida, una vasta zona umida subtropicale che copre buona parte del sud di Leonida. Vi si trovano paludi, acquitrini, fiumi a corrente lenta, foreste di cipressi e comunità rurali isolate.»\n\nCACCIA, PESCA E FAUNA SELVATICA. Le anteprime raccolte dopo l'Extended Look descrivono attività all'aria aperta probabilmente ancorate a questo tipo di scenario: la pesca è possibile ma le prede vanno rilasciate, mentre la caccia può rendere denaro tramite un contatto di Jason. La fauna osservabile includerebbe anche i pavoni, individuati dalla rivista giapponese Famitsu tra le specie presenti a Leonida. Dettaglio divertente rilevato dalla stampa: il comportamento dei passanti cambia a seconda della zona: portare un'arma lunga in vista desta sospetti in piena città, ma passa del tutto inosservato nelle distese selvagge delle Everglades.\n\nUN TERRENO PROPIZIO ALL'ISOLAMENTO. Come spesso nella serie GTA, le zone naturali isolate servono da rifugio ad attività che la luce delle città non tollera. Grassrivers potrebbe così diventare teatro di traffici, nascondigli o incontri discreti lontano dagli sguardi, in una cornice naturale spettacolare.\n\nLA CARTOLINA UFFICIALE: «BENVENUTI NELLE PALUDI». «Il gioiello indomabile della corona di Leonida. Non si sa mai cosa si nasconde sotto la superficie di questa distesa primitiva. Gli alligatori sono forse l'attrazione più celebre, ma ci sono predatori ben più pericolosi e scoperte più strane in mezzo alle mangrovie.»\n\nLE EVERGLADES, FIN NEL NOME. Grassrivers riprende il soprannome delle Everglades, «River of Grass», reso popolare nel 1947 dal libro della giornalista Marjory Stoneman Douglas, che ha contribuito a proteggere la zona. I video ufficiali ne riprendono tutti i codici: distese di erbe alte, mangrovie, capanne isolate, idroscivolanti e colonie di uccelli. Il Trailer 1 vi si sofferma fin dai primi secondi, con un idroscivolante in una foschia dorata e una colonia di fenicotteri rosa. Rockstar è andata a vedere l'originale da vicino: nel numero 27 di LOVE Magazine (ottobre 2026), Aaron Garbut, codirettore di Rockstar North, racconta che il team ha passato ore a sorvolare le Everglades durante i viaggi di ricognizione in Florida, oltre a incontri con abitanti, poliziotti e membri di gang.\n\nUNA FAUNA TRA LE PIÙ RICCHE DEL GIOCO. Il dossier di Game Informer ha confermato più di 170 specie animali nel gioco, tra cui oltre 60 specie di uccelli e più di 30 mammiferi terrestri, senza contare pesci e rettili. Le paludi ne concentrano buona parte: alligatori, cervi, garzette e, secondo gli appassionati, fino ai pitoni introdotti che hanno colonizzato le vere Everglades. La rivista ha anche mostrato una capanna delle paludi al calar della notte.",
+      "insightUrl": "https://vice-central.com/lieux/grassrivers/",
+      "keyFacts": [
+        {
+          "label": "Tipo",
+          "value": "Zona umida subtropicale del sud di Leonida",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Le Everglades",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Fauna",
+          "value": "Alligatori e predatori «più pericolosi», oltre 170 specie nel gioco",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Contea",
+          "value": "Contea di Mariana, rilevata sui cartelli stradali",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Pesca e caccia",
+          "value": "Descritte dalle anteprime",
+          "reliability": "Riportato"
+        }
+      ],
+      "toSee": "Paludi, fiumi lenti, foreste di cipressi, comunità rurali isolate",
+      "whoYouMeet": null,
+      "inspiration": "Everglades (Florida)"
     },
     {
       "id": "dis-port-gellhorn",
@@ -1206,10 +1371,47 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-port-gellhorn-07.jpg"
-      ]
+      ],
+      "insight": "Port Gellhorn è una delle regioni confermate dello Stato di Leonida in GTA VI, presentata da Rockstar Games come un territorio in forte declino, all'opposto totale dello splendore turistico di Vice City o delle Leonida Keys.\n\nUNA REGIONE ALL'ABBANDONO. Lo scenario promette un paesaggio segnato dalla precarietà: dal cabaret «Delights» allo Starlet Motel, passando per centri commerciali deserti e attrazioni abbandonate, Port Gellhorn non ha più molto per attirare i turisti. Il testo ufficiale: «Port Gellhorn è in forte declino, e la vita è dura in questa regione fatiscente di Leonida. Dal cabaret “Delights” e dallo Starlet Motel ai centri commerciali ormai deserti e alle attrazioni abbandonate, c'è poco qui per attirare i turisti, ma una nuova economia emerge per far vivere gli abitanti. Il traffico di droga vi si è saldamente installato.»\n\nUNA NUOVA ECONOMIA, ILLEGALE. Di fronte al declino del turismo, Rockstar è diretta: è il traffico di droga ad aver preso il posto di motore economico della regione. Un contesto che fa di Port Gellhorn un terreno probabile per missioni legate al crimine organizzato, lontano dai lustrini di Vice City.\n\nLA CARTOLINA UFFICIALE: «VIVERE ALLA DURA». La cartolina pubblicata in seguito da Rockstar va oltre la prima descrizione: descrive la nuova economia della città, e non ha niente di turistico. «Ecco la costa dimenticata di Leonida. I motel a buon mercato, le attrazioni chiuse e i centri commerciali vuoti non faranno tornare i turisti, ma una nuova economia è nata in questa località un tempo molto frequentata. Va a birra forte, antidolorifici e bevande energetiche degli autogrill. Salite su una moto da cross e tenete stretto il portafoglio.» La menzione degli antidolorifici non è un caso: rimanda alla crisi degli oppioidi, che ha colpito duramente le piccole città americane, tra cui diverse località balneari della Florida in perdita di velocità.\n\nLA «FORGOTTEN COAST» DELLA VERA FLORIDA. «Forgotten Coast» è il vero soprannome turistico di una porzione del litorale del nord-ovest della Florida, sul Golfo del Messico, tra Mexico Beach e St. Marks. Proprio accanto c'è Panama City Beach, località balneare la cui architettura ricorda quella di Port Gellhorn secondo diversi confronti dei giocatori. Altri vi vedono Fort Myers o altre città della costa occidentale. GTABase collega la città a Kelly County, nel nord-ovest di Leonida. Lo Starlet Motel citato da Rockstar potrebbe avere un ruolo nella storia: GTABase lo classifica tra i nascondigli di Jason e Lucia. Rockstar non lo ha confermato.",
+      "insightUrl": "https://vice-central.com/lieux/port-gellhorn/",
+      "keyFacts": [
+        {
+          "label": "Tipo",
+          "value": "Località balneare in declino, «costa dimenticata» di Leonida",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Luoghi citati",
+          "value": "Cabaret Delights, Starlet Motel, centri commerciali vuoti",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Economia",
+          "value": "Traffici, birra forte, antidolorifici",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Contea",
+          "value": "Kelly County, secondo GTABase",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Panama City e la Forgotten Coast",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Nascondiglio allo Starlet Motel",
+          "value": "Secondo GTABase",
+          "reliability": "Rumor"
+        }
+      ],
+      "toSee": "Cabaret «Delights», Starlet Motel, centri commerciali deserti",
+      "whoYouMeet": null,
+      "inspiration": "Panhandle della Florida, costa del Golfo del Messico (Panama City e la «Forgotten Coast»)"
     },
     {
       "id": "dis-ambrosia",
@@ -1321,10 +1523,42 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-ambrosia-06.jpg"
-      ]
+      ],
+      "insight": "Ambrosia fa parte delle regioni confermate dello Stato immaginario di Leonida in GTA VI. Nonostante il nome evochi dolcezza, Rockstar presenta questa località come un concentrato di industria all'antica, lontano dalle spiagge soleggiate di Vice City.\n\nUNA CITTÀ COSTRUITA ATTORNO ALLO ZUCCHERO. Il cuore economico di Ambrosia è la raffineria Allied Crystal, principale datore di lavoro della regione. Questa identità industriale ricorda le vere città dello zucchero del sud della Florida, da cui Rockstar si ispira ancora una volta per costruire la geografia satirica di Leonida. Il testo ufficiale: «C'è poca dolcezza ad Ambrosia, a parte la produzione della raffineria di zucchero Allied Crystal, che fa vivere tutta la regione. È l'incarnazione stessa dell'industria all'americana, dove i valori all'antica restano in vigore, imposti dalla gang di motociclisti locale che controlla la regione.»\n\nUN TERRITORIO SOTTO CONTROLLO. Rockstar è esplicita sul clima locale: i «valori all'antica» sono imposti da una gang di motociclisti che tiene la regione. Un territorio rurale dove il potere informale prevale largamente sull'autorità ufficiale, un terreno di gioco propizio a missioni criminali lontane dall'agitazione urbana di Vice City. Ambrosia completa così il mosaico delle contee rurali di Leonida, accanto a Kelly County e alle zone umide di Grassrivers.\n\nLA CARTOLINA UFFICIALE: «TENERE LEONIDA DOLCE». Rockstar ha poi presentato Ambrosia con una cartolina e un nuovo testo, più preciso sulla divisione del potere: la raffineria fa vivere gli abitanti, i biker si occupano del resto. «La battaglia per la salute e la ricchezza di Leonida comincia qui. Nel cuore di Leonida, l'industria americana e i valori di un tempo regnano ancora sovrani, costi quel che costi. La raffineria di zucchero Allied Crystal fornisce i posti di lavoro, e la gang di biker locale fornisce più o meno tutto il resto.»\n\nLA VERA FLORIDA DIETRO AMBROSIA. Il paragone più frequente è con Clewiston, cittadina sulle rive del lago Okeechobee che si definisce «America's Sweetest Town» e ospita la sede della U.S. Sugar Corporation: la sagoma della raffineria vista nel materiale ufficiale somiglia molto alla sua. Clewiston si trova nella contea di Hendry, e il database GTABase rileva proprio una «contea di Ambrosia» sui cartelli stradali del gioco, al centro di Leonida, con un grande lago, il lago Leonida, che farebbe le veci del lago Okeechobee.\n\nIL PAESE DEI BIKER. Il dossier pubblicato da Game Informer a settembre mostra due scene che corrispondono perfettamente alla descrizione di Ambrosia, anche se la rivista non precisa dove si svolgono: un bar di biker immerso nei neon, e un motociclista armato in mezzo alle galline. Le gang di motociclisti sono una figura della serie fin da The Lost and Damned, l'espansione di GTA IV.",
+      "insightUrl": "https://vice-central.com/lieux/ambrosia/",
+      "keyFacts": [
+        {
+          "label": "Attività",
+          "value": "Raffineria di zucchero Allied Crystal",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Potere locale",
+          "value": "Una gang di biker",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Clewiston e la cintura dello zucchero del lago Okeechobee",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Contea",
+          "value": "Contea di Ambrosia, rilevata sui cartelli stradali",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Lago Leonida",
+          "value": "Grande lago centrale, equivalente del lago Okeechobee",
+          "reliability": "Riportato"
+        }
+      ],
+      "toSee": "Raffineria di zucchero Allied Crystal",
+      "whoYouMeet": "Chi comanda in città: una gang di biker locale",
+      "inspiration": "Città dello zucchero del lago Okeechobee (Clewiston)"
     },
     {
       "id": "dis-mount-kalaga",
@@ -1392,10 +1626,42 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-06",
       "gallery": [
         "assets/img/ss-mount-kalaga-01.jpg"
-      ]
+      ],
+      "insight": "Il Mount Kalaga National Park è una delle regioni confermate di GTA VI e segna il limite nord dello Stato immaginario di Leonida. Rockstar Games lo descrive sobriamente come una vasta distesa selvaggia da esplorare, lontano dall'agitazione urbana di Vice City.\n\nLA FRONTIERA NORD DI LEONIDA. Situato ai confini dello Stato, questo parco nazionale disegna un limite naturale alla mappa di GTA VI, una funzione simile a quella delle zone montuose o boschive nei precedenti episodi della serie, come il monte Chiliad in GTA V. Il testo ufficiale: «Il Mount Kalaga National Park forma la frontiera nord dello Stato e offre un'immensa distesa selvaggia da esplorare.»\n\nUN TERRENO ANCORA LARGAMENTE MISTERIOSO. Rockstar resta molto discreta sul contenuto preciso di questa regione. Dato lo spazio dedicato ai grandi spazi naturali nei trailer e nelle anteprime, soprattutto attorno a caccia, pesca e osservazione della fauna già evocate per altre zone naturali come Grassrivers, questo parco potrebbe proporre attività simili.\n\nLA CARTOLINA UFFICIALE: «UN PAESE SELVAGGIO». Rockstar ha poi dato molti più dettagli sul parco, con una cartolina e un testo che ne fa il grande terreno di gioco all'aria aperta di Leonida, ma anche il rifugio di personaggi poco raccomandabili. «Spazio per respirare, ai confini nord dello Stato. Sito naturale nazionale addossato alla frontiera nord, Mount Kalaga offre terreni di caccia, angoli di pesca e piste fuoristrada di prima scelta. Nell'entroterra verdeggiante che lo circonda, mistici di campagna e radicali paranoici vivono lontano dagli sguardi indiscreti del governo.»\n\nCACCIA, PESCA E TREKKING. Le immagini ufficiali confermano il programma: caccia, barca, moto da cross. Il dossier di Game Informer aggiunge un cacciatore in quad nei boschi, fucile in spalla, e Jason e Lucia in escursione vicino a una cascata, una delle attività da fare in due. Secondo GTABase, il parco mescola foreste, canyon e fiumi sinuosi, e ospita cervi, puma e volpi.\n\nUNA MONTAGNA CHE LA FLORIDA NON HA. È la più grande libertà presa da Rockstar con la geografia: il punto più alto della vera Florida, Britton Hill, non supera i 105 metri. I confronti puntano piuttosto alle grandi foreste nazionali del nord dello Stato, come quelle di Ocala o di Apalachicola, e alla vicina Georgia: GTABase avvicina il canyon del parco al Providence Canyon, nel sud-ovest di quello Stato. Come il monte Chiliad in GTA V, questo rilievo serve prima di tutto il gioco.",
+      "insightUrl": "https://vice-central.com/lieux/mount-kalaga-national-park/",
+      "keyFacts": [
+        {
+          "label": "Posizione",
+          "value": "Frontiera nord di Leonida",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Attività",
+          "value": "Caccia, pesca, piste fuoristrada, trekking",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Abitanti",
+          "value": "Mistici di campagna e radicali paranoici",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Fauna",
+          "value": "Cervi, puma, volpi secondo GTABase",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Foreste del nord della Florida, Providence Canyon in Georgia",
+          "reliability": "Rumor"
+        }
+      ],
+      "toSee": "Terreni di caccia, angoli di pesca, piste fuoristrada, la cascata del trekking di coppia",
+      "whoYouMeet": "Mistici di campagna e radicali paranoici (testo ufficiale)",
+      "inspiration": "Grandi foreste nazionali del nord della Florida (Ocala, Apalachicola) e Providence Canyon in Georgia"
     },
     {
       "id": "dis-da-collocare",
@@ -1741,7 +2007,39 @@
       "sourceUrl": "https://gta.wiki/w/Vice_Beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-06",
+      "insight": "Vice Beaches indica il lungomare e i quartieri balneari di Vice City in GTA VI. Strisce di sabbia, passeggiate e grattacieli sullo sfondo compongono uno degli scenari ricorrenti dei trailer e dell'Extended Look.\n\nOCEAN BEACH, LA STRISCIA BALNEARE EMBLEMATICA. All'interno di Vice Beaches, Rockstar Games mette particolarmente in evidenza Ocean Beach, descritta nel materiale promozionale ufficiale per i suoi hotel art déco dalle tinte pastello e la sabbia di un bianco abbagliante, omaggio diretto a Ocean Drive e South Beach a Miami. Vi si ritrova l'estetica al neon caratteristica della serie, tra facciate colorate di giorno e luci vibranti una volta scesa la notte.\n\nUN TERRENO DI GIOCO PER LE ATTIVITÀ SECONDARIE. È attorno a questo litorale che Rockstar colloca buona parte del montaggio di attività secondarie mostrato nell'Extended Look del 27 agosto 2026: moto d'acqua tra amici al tramonto, corsa che finisce nell'oceano in mezzo ai delfini, immersioni subacquee e scene di relax in riva al mare. La mappa interattiva della community State of Leonida censisce già diversi punti d'interesse individuati in questo settore, tra cui hotel e un molo lungo il lungomare.\n\nCOSA DICE LA CARTOLINA DI VICE CITY. Il testo ufficiale di Vice City cita la spiaggia per prima: «hotel art déco pastello e sabbia bianca di Ocean Beach». I video confermano l'atmosfera: spiagge affollate, ombrelloni a perdita d'occhio, culturisti e turisti, e un viale sul mare al neon che ricorda Ocean Drive, già al centro di GTA Vice City nel 2002. Game Informer ha anche pubblicato una spiaggia di Vice City dove, secondo la rivista, ogni passante ha la propria silhouette, segno del lavoro fatto sulla varietà degli abitanti.\n\nLA VERA MIAMI BEACH. Vice Beaches riprende Miami Beach, e Ocean Beach il suo quartiere storico di South Beach, uno degli scenari più fotografati della Florida. Il legame va oltre l'estetica: la città di Miami Beach ha votato a favore di una partnership attorno al gioco, nonostante le critiche. Il bar sul tetto dove Jason e Lucia ritrovano Brian e Lori, l'Effluvia, si troverebbe anch'esso nel quartiere secondo la stampa anglofona.",
+      "insightUrl": "https://vice-central.com/lieux/vice-beaches/",
+      "keyFacts": [
+        {
+          "label": "Tipo",
+          "value": "Lungomare e quartieri balneari di Vice City",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Ocean Beach",
+          "value": "Hotel art déco pastello e sabbia bianca",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Miami Beach, South Beach, Ocean Drive",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Attività",
+          "value": "Moto d'acqua, immersioni, corsa, relax (Extended Look)",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Effluvia nel quartiere",
+          "value": "Secondo la stampa anglofona",
+          "reliability": "Riportato"
+        }
+      ],
+      "toSee": "Ocean Beach e i suoi hotel art déco, il molo, il lungomare al neon",
+      "whoYouMeet": null,
+      "inspiration": "Miami Beach, South Beach e Ocean Drive"
     },
     {
       "id": "dis-hamlet",
@@ -1832,7 +2130,39 @@
       "sourceUrl": "https://gta.wiki/w/Hamlet",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-06",
+      "insight": "Kelly County è una delle contee rurali dello Stato immaginario di Leonida, la regione che ospita Vice City in GTA VI. Completa il mosaico di territori rurali già identificati attorno alla metropoli, accanto a zone come Grassrivers o Ambrosia. Come il resto della mappa, Kelly County illustra la volontà di Rockstar di proporre uno Stato completo e vario piuttosto che una sola città: strade di campagna, aziende agricole e paesaggi naturali contrastano con la densità urbana di Vice City.\n\nPUNTI D'INTERESSE GIÀ INDIVIDUATI. La mappa interattiva della community State of Leonida, costruita a partire dai trailer e dall'Extended Look, censisce già diversi punti d'interesse precisi in questa contea: una stazione di servizio, una torre ferroviaria e una prigione. Questi riferimenti disegnano un territorio tipicamente rurale, lontano dall'agitazione urbana, ma non del tutto privo di infrastrutture.\n\nPORT GELLHORN, LA SUA CITTÀ PRINCIPALE. Secondo il database GTABase, che si basa sui cartelli stradali visibili nei video, Kelly County occupa il nord-ovest di Leonida e ha come città principale Port Gellhorn, la località balneare in declino che Rockstar chiama «la costa dimenticata di Leonida». La contea sarebbe una delle sei identificate finora, con Vice-Dale (Vice City), Leonard, Ambrosia e Mariana (Keys e Grassrivers).\n\nQUALE ISPIRAZIONE REALE? I pareri divergono. GTABase avvicina la contea a quelle di Collier e di Lee, sulla costa sud-ovest della Florida (Naples, Fort Myers), mentre il paragone di Port Gellhorn con Panama City tira piuttosto verso il nord-ovest dello Stato. Rockstar non conferma mai questi accostamenti.",
+      "insightUrl": "https://vice-central.com/lieux/kelly-county/",
+      "keyFacts": [
+        {
+          "label": "Tipo",
+          "value": "Contea rurale di Leonida",
+          "reliability": "Confermato"
+        },
+        {
+          "label": "Posizione",
+          "value": "Nord-ovest dello Stato",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Città principale",
+          "value": "Port Gellhorn",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Punti d'interesse",
+          "value": "Stazione di servizio, torre ferroviaria, prigione (mappa della community)",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Ispirazione",
+          "value": "Contee di Collier e Lee, oppure nord-ovest della Florida",
+          "reliability": "Rumor"
+        }
+      ],
+      "toSee": "Stazione di servizio, torre ferroviaria, prigione",
+      "whoYouMeet": null,
+      "inspiration": "Nord-ovest della Florida (oppure contee di Collier e Lee secondo GTABase)"
     },
     {
       "id": "dis-capri",

@@ -1,7 +1,7 @@
 /** News: notiziario editoriale (notizie con foto) + guide (articoli), in formato rivista */
 import { db, byId, TYPE_ROUTE } from '../data.js';
 import { esc, statusChip, fmtDate } from '../ui/dom.js';
-import { sectionHead, backLink, hero, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, acc, vis, sectionOf } from './shared.js';
 import { img } from './atlante.js';
 import * as spoiler from '../spoiler.js';
 
@@ -16,6 +16,7 @@ const CAT_IMG = { 'prima-ora': 'assets/img/ultimate-edition.jpg', generale: 'ass
 /** Immagine di una notizia o guida: la sua, altrimenti quella della voce collegata, altrimenti per tema */
 export function newsImage(n) {
   if (n.image) return n.image;
+  if (n.imageUrl) return n.imageUrl;
   if (n._type === 'guida') { const b = (n.blocks || []).find((x) => x.t === 'img'); return b ? (b.local || b.src) : 'assets/img/mappa-leonida.jpg'; }
   for (const id of n.relatedIds || []) { const r = byId(id); if (r?.image) return r.image; if (r?.hero?.src) return r.hero.local || r.hero.src; }
   return n._type === 'tip' ? (CAT_IMG[n.category] || 'assets/img/ss-vice-city-27.jpg') : (TOPIC_IMG[n.topic] || 'assets/img/cover-art.jpg');
@@ -37,6 +38,24 @@ function guideBody(g) {
   }
   flushList(); flushTable();
   return out;
+}
+
+const segmented = (tipo) => `<div class="segmented" role="group" aria-label="Tipo" style="margin-bottom:var(--s-4)">
+      ${[['tutto', 'Tutto'], ['notizie', 'Notizie'], ['guide', 'Guide'], ['teorie', 'Teorie']].map(([k, l]) => `<a role="button" aria-pressed="${tipo === k}" href="#/news${k === 'tutto' ? '' : '?tipo=' + k}">${l}</a>`).join('')}
+    </div>`;
+
+/** Il tavolo delle teorie: post-it per stato, con puntina colorata */
+const TSTATUS = { confermata: ['Confermate', 'ok'], aperta: ['In discussione', 'viola'], rumor: ['Rumor', 'giallo'], smentita: ['Smentite', 'rosa'] };
+function teorieBoard() {
+  const all = db.teorie || [];
+  if (!all.length) return '<div class="placeholder"><strong>Nessuna teoria</strong></div>';
+  return `<p class="lede">Le teorie della community, valutate da vice-central.com e tradotte: cosa le sostiene, cosa le indebolisce, com'è finita.</p>
+    <div class="tboard">${Object.entries(TSTATUS).map(([k, [label, col]]) => { const list = all.filter((t) => t.status === k); return `<section class="tboard__col tboard__col--${col}"><h3 class="tboard__head">${esc(label)} <span class="count">${list.length}</span></h3>
+      ${list.map((t, i) => `<article class="tnote" style="--rot:${((i * 5) % 7) - 3}deg"><span class="tnote__pin"></span>
+        <h4>${esc(t.title)}</h4>
+        <p class="small">${esc((t.summary || '').slice(0, 260))}${(t.summary || '').length > 260 ? '…' : ''}</p>
+        ${acc('Prove e dettagli', `<div class="prose small">${t.origin ? `<p><b>Origine:</b> ${esc(t.origin)}</p>` : ''}${t.concerns ? `<p><b>Riguarda:</b> ${esc(t.concerns)}</p>` : ''}<p>${esc(t.summary || '')}</p>${t.evidence?.length ? `<ul>${t.evidence.map((e) => `<li>${esc(typeof e === 'string' ? e : e.text || JSON.stringify(e))}</li>`).join('')}</ul>` : ''}${t.statusNote ? `<p class="muted">${esc(t.statusNote)}</p>` : ''}<p class="source-line"><a href="${esc(t.sourceUrl || '')}" target="_blank" rel="noopener">vice-central.com</a>${t.updatedAt ? ' · ' + esc(t.updatedAt) : ''}</p></div>`)}
+      </article>`).join('') || '<p class="small muted">Nessuna.</p>'}</section>`; }).join('')}</div>`;
 }
 
 function article(it) {
@@ -71,7 +90,8 @@ export function render(params, query) {
   const it = params.id ? byId(params.id) : null;
   if (it) return { left: '', right: article(it), show: 'right', accent: section.accent, title: it.title };
 
-  const tipo = query.tipo || 'tutto';           // tutto | notizie | guide
+  const tipo = query.tipo || 'tutto';           // tutto | notizie | guide | teorie
+  if (tipo === 'teorie') return { left: `${sectionHead(section, `${(db.teorie || []).length} teorie`)}${segmented(tipo)}${teorieBoard()}`, right: '', show: 'left', accent: section.accent, title: 'Teorie' };
   const src = query.fonte || '';
   const topic = query.tema || '';
   const news = vis(db.news), tips = vis(db.tips).sort((a, b) => (a.priority ?? 50) - (b.priority ?? 50));
@@ -100,9 +120,7 @@ export function render(params, query) {
         ${items.map(newsRow).join('')}`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
   }
   const left = `${sectionHead(section, `${news.length} notizie · ${tips.length + guides.length} guide`)}
-    <div class="segmented" role="group" aria-label="Tipo" style="margin-bottom:var(--s-4)">
-      ${[['tutto', 'Tutto'], ['notizie', 'Notizie'], ['guide', 'Guide']].map(([k, l]) => `<a role="button" aria-pressed="${tipo === k}" href="#/news${k === 'tutto' ? '' : '?tipo=' + k}">${l}</a>`).join('')}
-    </div>
+    ${segmented(tipo)}
     <div class="cards cards--feat">${featured.map((x, i) => card(x, i === 0)).join('')}</div>
     ${body}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'News' };
