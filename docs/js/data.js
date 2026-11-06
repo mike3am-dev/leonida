@@ -37,7 +37,7 @@ export async function loadAll() {
   db.news = (raw.news.items || []).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   // Schede dei luoghi e guide (gtasixmap.com, tradotte): id derivato dallo slug
   db.luoghi = (raw.luoghi.items || []).map((l) => ({ ...l, id: 'luogo-' + l.slug, name: l.name, status: /Confermato/.test((l.badges || []).join(' ')) ? 'verificato' : 'da-verificare', source: 'community', spoilerLevel: 0, example: false }));
-  db.teorie = (raw.teorie?.items || []).map((t) => ({ ...t, status: 'da verificare' }));
+  db.teorie = (raw.teorie?.items || []).map((t) => ({ ...t, verdict: t.status, status: 'da verificare' }));
   db.guide = (raw.luoghi.guides || []).map((g) => ({ ...g, id: 'guida-' + g.slug, status: 'da-verificare', source: 'community', spoilerLevel: 0, example: false }));
   db.pois = db.districts.flatMap((d) => (d.pois || []).map((p) => ({ ...p, districtId: d.id, status: p.status || d.status, source: p.source || d.source, spoilerLevel: p.spoilerLevel ?? 0, example: p.example ?? d.example })));
 

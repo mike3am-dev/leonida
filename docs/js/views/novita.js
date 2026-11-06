@@ -50,7 +50,7 @@ function teorieBoard() {
   const all = db.teorie || [];
   if (!all.length) return '<div class="placeholder"><strong>Nessuna teoria</strong></div>';
   return `<p class="lede">Le teorie della community, valutate da vice-central.com e tradotte: cosa le sostiene, cosa le indebolisce, com'è finita.</p>
-    <div class="tboard">${Object.entries(TSTATUS).map(([k, [label, col]]) => { const list = all.filter((t) => t.status === k); return `<section class="tboard__col tboard__col--${col}"><h3 class="tboard__head">${esc(label)} <span class="count">${list.length}</span></h3>
+    <div class="tboard">${Object.entries(TSTATUS).map(([k, [label, col]]) => { const list = all.filter((t) => t.verdict === k); return `<section class="tboard__col tboard__col--${col}"><h3 class="tboard__head">${esc(label)} <span class="count">${list.length}</span></h3>
       ${list.map((t, i) => `<article class="tnote" style="--rot:${((i * 5) % 7) - 3}deg"><span class="tnote__pin"></span>
         <h4>${esc(t.title)}</h4>
         <p class="small">${esc((t.summary || '').slice(0, 260))}${(t.summary || '').length > 260 ? '…' : ''}</p>
