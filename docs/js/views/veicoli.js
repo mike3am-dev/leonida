@@ -43,9 +43,12 @@ export function render(params, query) {
       <a class="filter" role="button" aria-pressed="${!cls}" href="${q('')}">Tutti</a>
       ${classes.map((c) => `<a class="filter" role="button" aria-pressed="${cls === c}" href="${q(c)}">${esc(CLASS_LABEL[c] || c)} <span class="muted">${all.filter((x) => x.class === c).length}</span></a>`).join('')}
     </div>
-    ${list.length ? list.map((x) => row({ href: `#/veicoli/${x.id}?tipo=${tipo}${cls ? '&classe=' + esc(cls) : ''}`, thumb: x.image, thumbFallback: x.imageUrl, icon: tipo === 'armi' ? 'i-bolt' : 'i-car',
-        title: esc(x.name), meta: `${esc(x.manufacturer || '')}${x.manufacturer ? ' · ' : ''}${esc(CLASS_LABEL[x.class] || x.class)}${x.status !== 'verificato' ? ' · ' + (SRC[x.source] || 'da verificare') : ''}`,
-        end: favs[x.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-bookmark"/></svg>' : '' })).join('')
+    ${(() => { const mine = all.filter((x) => favs[x.id]); return mine.length && !cls ? `<div class="block"><span class="kicker">Le tue chiavi (${mine.length})</span><div class="keys">${mine.map((x) => `<a class="key" href="#/veicoli/${x.id}"><span class="key__ring"></span>${esc(x.name)}</a>`).join('')}</div></div>` : ''; })()}
+    ${list.length ? `<div class="dealer">${list.map((x) => `<a class="dcard ${x.image ? '' : 'dcard--noimg'}" href="#/veicoli/${x.id}?tipo=${tipo}${cls ? '&classe=' + esc(cls) : ''}">
+        <span class="dcard__img">${x.image ? `<img src="${esc(x.image)}" ${x.imageUrl ? `data-fallback="${esc(x.imageUrl)}"` : ''} alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
+        <span class="dcard__brand">${esc(x.manufacturer || '')}</span>
+        ${favs[x.id] ? '<span class="dcard__fav"><svg aria-hidden="true"><use href="#i-bookmark"/></svg></span>' : ''}
+        <span class="dcard__body"><span class="dcard__name">${esc(x.name)}</span><span class="plate">${esc(CLASS_LABEL[x.class] || x.class)}</span>${x.status !== 'verificato' ? `<span class="dcard__src">${esc(SRC[x.source] || 'da verificare')}</span>` : ''}</span></a>`).join('')}</div>`
       : '<div class="placeholder"><strong>Niente qui</strong>Le schede arrivano dai dati.</div>'}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Garage' };
 }

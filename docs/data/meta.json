@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.9.0",
+  "dataVersion": "0.9.1",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.9.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Garage come concessionario (card con foto, marca e targa, «le tue chiavi»); News come prima pagina con timbro; Trofei con lo scaffale delle coppe e la «prossima coppa alla portata»; legami dei personaggi come fili tra i ritratti."
+      ]
+    },
     {
       "version": "0.9.0",
       "date": "2026-11-06",

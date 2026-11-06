@@ -79,6 +79,11 @@ export function newsImgTag(x) {
   const src = newsImage(x); const fb = x._type === 'guida' ? (x.blocks || []).find((b) => b.t === 'img')?.src : null;
   return `<img src="${esc(src)}" ${fb && fb !== src ? `data-fallback="${esc(fb)}"` : ''} alt="" loading="lazy">`;
 }
+/** Apertura da prima pagina: foto grande, titolo enorme, timbro inclinato */
+const frontpage = (x) => `<a class="frontpage" href="#/news/${esc(x.id)}">
+    ${newsImgTag(x)}<span class="frontpage__veil"></span>
+    <span class="stamp">${(statusChip(x).match(/>([^<]+)</) || [])[1] || ''}</span>
+    <span class="frontpage__text"><span class="frontpage__kicker">${x._type === 'news' ? esc(fmtDate(x.date, { weekday: 'long', day: 'numeric', month: 'long' })) : 'Guida'}${x.outlet ? ' · ' + esc(x.outlet) : ''}</span><span class="frontpage__title">${spoiler.isHidden(x) ? '⚠ Contiene spoiler' : esc(x.title)}</span><span class="frontpage__excerpt">${spoiler.isHidden(x) ? '' : esc((x.body || x.lead || '').slice(0, 180))}…</span></span></a>`;
 const card = (x, wide = false) => `<a class="cardx ${wide ? 'cardx--wide' : ''}" href="#/news/${esc(x.id)}">
     <div class="cardx__img">${newsImgTag(x)}<span class="cardx__badge chips">${statusChip(x)}</span></div>
     <div class="cardx__body"><div class="cardx__kicker">${x._type === 'news' ? esc(fmtDate(x.date, { day: 'numeric', month: 'long' })) : 'Guida'}${x.outlet ? ' · ' + esc(x.outlet) : ''}${x._type === 'tip' ? ' · ' + esc(CAT_LABEL[x.category] || x.category) : ''}</div><div class="cardx__title">${spoiler.isHidden(x) ? '⚠ Contiene spoiler' : esc(x.title)}</div>${wide ? `<div class="cardx__excerpt">${spoiler.isHidden(x) ? '' : esc((x.body || x.lead || '').slice(0, 160))}…</div>` : ''}</div></a>`;
@@ -117,11 +122,12 @@ export function render(params, query) {
       <div class="filters"><a class="filter" role="button" aria-pressed="${!src}" href="${link('fonte', '')}">Tutte</a>${['trailer', 'stampa', 'rumor', 'leak', 'community'].filter((s) => cs[s]).map((s) => `<a class="filter" role="button" aria-pressed="${src === s}" href="${link('fonte', s)}">${SRC_LABEL[s]} <span class="muted">${cs[s]}</span></a>`).join('')}</div>
       <div class="filters"><a class="filter" role="button" aria-pressed="${!topic}" href="${link('tema', '')}">Tutti i temi</a>${Object.keys(TOPIC_LABEL).filter((t) => news.some((n) => n.topic === t)).map((t) => `<a class="filter" role="button" aria-pressed="${topic === t}" href="${link('tema', t)}">${TOPIC_LABEL[t]}</a>`).join('')}</div>
       ${[...groups].map(([day, items]) => `<div class="dayhead"><span class="kicker">${esc(fmtDate(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</span></div>
-        ${items.map(newsRow).join('')}`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
+        <div class="newscols">${items.map(newsRow).join('')}</div>`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
   }
   const left = `${sectionHead(section, `${news.length} notizie · ${tips.length + guides.length} guide`)}
     ${segmented(tipo)}
-    <div class="cards cards--feat">${featured.map((x, i) => card(x, i === 0)).join('')}</div>
+    ${featured[0] ? frontpage(featured[0]) : ''}
+    <div class="cards cards--feat">${featured.slice(1).map((x) => card(x)).join('')}</div>
     ${body}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'News' };
 }
