@@ -8,7 +8,7 @@ import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('home');
-const HERO_IMGS = ['assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
+const HERO_IMGS = ['assets/img/sfondi/keyart.jpg', 'assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
 const dayIndex = () => Math.floor(Date.now() / 86400000);
 
 function countdown() {

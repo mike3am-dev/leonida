@@ -109,3 +109,7 @@
 @font-face { font-family: "Permanent Marker"; src: url("../fonts/PermanentMarker.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 @font-face { font-family: "Caveat"; src: url("../fonts/Caveat.woff2") format("woff2"); font-weight: 600; font-display: swap; }
 :root { --font-marker: "Permanent Marker", "Marker Felt", "Comic Sans MS", cursive; --font-hand: "Caveat", "Bradley Hand", cursive; }
+
+/* Il carattere di GTA (Pricedown, licenza desktop Typodermic: uso privato di Mike) */
+@font-face { font-family: "Pricedown"; src: url("../fonts/Pricedown.otf") format("opentype"); font-weight: 400; font-display: swap; }
+:root { --font-gta: "Pricedown", "Impact", "Arial Black", sans-serif; }

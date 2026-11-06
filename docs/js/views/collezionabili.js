@@ -4,6 +4,7 @@ import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
 import { sectionHead, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { showSheet } from '../ui/sheet.js';
 
 const section = sectionOf('collezionabili');
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
@@ -38,8 +39,27 @@ export function render(params, query) {
       ${vis(db.districts).filter((d) => all.some((c) => c.districtId === d.id)).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}
     </div>
     <span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-2)">${esc(active ? active.name : 'Tutti i collezionabili')} · ${done} / ${list.length}</span>
-    ${checklist(list, st)}`;
+    ${active && list.filter((c) => c.image).length >= Math.max(6, list.length * 0.4) ? album(list, st, active) : checklist(list, st)}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Collezionabili' };
+}
+
+/** Album di figurine: grigie finché non le trovi, a colori quando le spunti */
+function album(list, st, cat) {
+  const found = list.filter((c) => st.collectibles[c.id]).length;
+  return `<div class="album-head"><div class="album-head__num">${found}<small> / ${list.length}</small></div><div><b>${esc(cat.name)}</b><div class="small muted">Tocca la figurina quando l'hai vista: si colora. La «i» apre la scheda.</div><div class="progress" style="margin-top:8px"><i style="--p:${list.length ? Math.round(found / list.length * 100) : 0}%"></i></div></div></div>
+    <div class="album">${list.map((c, i) => { const ok = !!st.collectibles[c.id]; return `<button type="button" class="sticker ${ok ? 'is-found' : ''}" data-collect="${esc(c.id)}" aria-pressed="${ok}" aria-label="${esc(c.name)}">
+      <span class="sticker__num">${String(i + 1).padStart(2, '0')}</span><span class="sticker__tick"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
+      <span class="sticker__img">${c.image ? `<img src="${esc(c.image)}" ${c.imageUrl ? `data-fallback="${esc(c.imageUrl)}"` : ''} alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-star"/></svg>'}</span>
+      <span class="sticker__name">${esc(c.name)}${c.uncertain ? ' ?' : ''}</span>
+      <span class="sticker__info" data-sticker-info="${esc(c.id)}" role="button" aria-label="Scheda">i</span></button>`; }).join('')}</div>`;
+}
+
+function stickerSheet(c) {
+  const body = document.createElement('div');
+  body.innerHTML = `${c.image ? `<img class="pop__img" src="${esc(c.image)}" ${c.imageUrl ? `data-fallback="${esc(c.imageUrl)}"` : ''} alt="">` : ''}
+    <div class="chips" style="margin:var(--s-2) 0">${statusChip(c)}${c.districtId ? `<a class="chip" href="#/mappa?zona=${esc(c.districtId)}">${esc(byId(c.districtId)?.name || '')}</a>` : ''}</div>
+    <p class="small">${spoiler.text(c, c.directions || 'Nessun dettaglio ancora.')}</p>${c.reward ? `<p class="small muted">Ricompensa: ${esc(c.reward)}</p>` : ''}`;
+  showSheet({ title: c.name, body });
 }
 
 function checklist(list, st) {
@@ -59,6 +79,8 @@ function checklist(list, st) {
 
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
+    const info = e.target.closest('[data-sticker-info]');
+    if (info) { e.stopPropagation(); const c = byId(info.dataset.stickerInfo); if (c) stickerSheet(c); return; }
     const c = e.target.closest('[data-collect]');
     if (c) { progress.toggleCollected(c.dataset.collect); rerender(); }
   });

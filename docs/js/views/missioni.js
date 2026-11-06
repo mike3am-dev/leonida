@@ -27,7 +27,7 @@ function index(activeId, filterAct) {
       const open = a === activeAct;
       return `<div class="acc chapter ${open ? 'is-open' : ''} ${d === list.length ? 'chapter--done' : ''}">
         <button class="acc__btn chapter__btn" type="button" aria-expanded="${open}">
-          <span class="chapter__text"><span class="chapter__title">${esc(a.title)}</span><span class="chapter__meta">${d} / ${list.length}${d === list.length ? ' · completato' : ''}</span><span class="progress"><i style="--p:${p}%"></i></span></span>
+          <span class="chapter__num" aria-hidden="true">${String(acts.indexOf(a) + 1).padStart(2, '0')}</span><span class="chapter__text"><span class="chapter__title">${esc(a.title)}</span><span class="chapter__meta">${d} / ${list.length}${d === list.length ? ' · completato' : ''}</span><span class="progress"><i style="--p:${p}%"></i></span></span>
           <span class="chapter__pct">${p}%</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
         <div class="acc__body">${list.map((m, i) => {
           const s = st.missions[m.id]?.state;

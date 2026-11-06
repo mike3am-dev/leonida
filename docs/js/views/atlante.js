@@ -104,7 +104,7 @@ function luogoDetail(l) {
 }
 
 /* ---------- Schede dei territori ---------- */
-function zoneCard(d, expanded) {
+function zoneCard(d, expanded, num = 0) {
   const b = zoneBreakdown(d);
   const chars = vis(db.characters).filter((c) => c.districtId === d.id);
   const pois = d.pois || [];
@@ -123,7 +123,7 @@ function zoneCard(d, expanded) {
           <span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>` : ''}
       <div class="actions"><a class="btn btn--solid" href="#/mappa/${esc(d.id)}">Scheda completa</a><button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>
     </div>`;
-  return `<article class="zone ${expanded ? 'is-open' : ''}" id="zona-${esc(d.id)}">
+  return `<article class="zone ${expanded ? 'is-open' : ''}" id="zona-${esc(d.id)}">${num ? `<span class="bignum-over zone__num" aria-hidden="true">${String(num).padStart(2, '0')}</span>` : ''}
     <button class="zone__head" type="button" data-zone-toggle="${esc(d.id)}" aria-expanded="${expanded}">
       <span class="zone__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-map"/></svg>'}</span>
       <span class="zone__text"><span class="zone__name">${esc(d.name)}</span><span class="zone__meta">${esc(d.region || '')}${places.length ? ` · ${places.length} schede` : ''}${pois.length ? ` · ${pois.length} punti` : ''}${b.total ? ` · ${b.missing ? 'mancano ' + b.missing : 'completa'}` : ''}</span><span class="chips">${statusChip(d)}</span></span>
@@ -141,7 +141,7 @@ function index(zona, q) {
   return `${sectionHead(section, `${ds.length} territori · ${all.length} luoghi`)}
     ${mapboard.boardHtml(ds)}
     <p class="atlas-note">Trascina e pizzica per muoverti. Tocca un numero o una foto-pin per aprire; le Polaroid in basso portano la mappa sul territorio. Con lo zoom alto le tessere di dettaglio arrivano da gtasixmap (serve la connessione).</p>
-    <div class="zones">${ds.map((d) => zoneCard(d, d.id === zona)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
+    <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
     ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Schede dei luoghi</span><h2>Tutti i luoghi</h2></div><span class="count">${list.length}</span></header>
       <input class="input" type="search" placeholder="Cerca un luogo…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin-bottom:var(--s-3)">
       <div class="placegrid">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div></div>` : ''}`;

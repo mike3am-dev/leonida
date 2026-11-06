@@ -53,7 +53,7 @@ export function renderPersonaggi(params) {
   const rest = chars.filter((x) => !x.isProtagonist && !used.has(x.id));
   const left = `${sectionHead(secP, `${chars.length} schede`)}
     <div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
-    <div class="cards cards--2 cards--big">${chars.filter((x) => x.isProtagonist).map(card).join('')}</div>
+    <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="bignum-over castboard__num" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
     ${groupHtml}
     ${rest.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">👥</span><div><h2>Altri</h2></div></div><div class="cards">${rest.map(card).join('')}</div>` : ''}`;
   return { left, right: '', show: 'left', accent: secP.accent, title: 'Personaggi' };
