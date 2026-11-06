@@ -3,7 +3,7 @@
  * viewport: il riquadro fisso; content: l'elemento che si sposta e si ingrandisce.
  * Le coordinate "di contenuto" sono in pixel del contenuto a scala 1.
  */
-export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.35, onChange } = {}) {
+export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.12, onChange } = {}) {
   let x = 0, y = 0, s = 1;
   let cw = content.offsetWidth, ch = content.offsetHeight;
   const pointers = new Map();
