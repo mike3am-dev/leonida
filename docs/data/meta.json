@@ -1,10 +1,21 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.6.0",
+  "dataVersion": "0.7.0",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.7.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Mappa: immagine della community con i segnaposto dei territori, schermo intero e mappa interattiva di gtasixmap.com dentro l'app.",
+        "Luoghi: 44 schede tradotte da gtasixmap.com (in breve, com'è, cosa fare, come arrivare, il posto reale, punti di riferimento da trovare con foto e spunta, consigli, screenshot, domande frequenti, dintorni).",
+        "Guide: 8 articoli di gtasixmap.com (tutti i luoghi, regioni, luoghi reali, bonus delle edizioni, attività, casa di Jason e Lucia, veicoli) in News → Guide.",
+        "Garage: 134 veicoli con foto dal GTA Wiki (crop dai trailer e dagli screenshot ufficiali).",
+        "Trofei: bacheca in stile PSN; la lista ufficiale non è ancora uscita."
+      ]
+    },
     {
       "version": "0.6.0",
       "date": "2026-11-06",

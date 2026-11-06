@@ -6,6 +6,7 @@
   <title>Leonida — Guida di campo</title>
   <meta name="description" content="Guida di campo personale e non ufficiale per GTA VI.">
   <meta name="theme-color" content="#0b0a0f" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbf4f6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0b0a0f">
   <meta name="color-scheme" content="dark light">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,7 +27,7 @@
     // Applica il tema prima del primo disegno, per evitare lampi bianchi.
     try {
       const s = JSON.parse(localStorage.getItem('leonida:progress:v1') || '{}').settings || {};
-      const t = s.theme || 'dark';
+      const t = s.theme || 'auto';
       document.documentElement.dataset.theme =
         t === 'auto' ? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark') : t;
     } catch (e) {}
@@ -38,7 +39,7 @@
 
   <div class="app" id="app">
     <header class="masthead" id="masthead">
-      <a class="brand" href="#/" aria-label="Leonida, torna all'inizio">
+      <a class="brand" href="#/" aria-label="Home">
         <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><use href="#i-sun"/></svg>
         <span class="brand__word">Leonida</span>
         <span class="brand__sub">Home</span>

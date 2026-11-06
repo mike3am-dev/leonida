@@ -21,14 +21,14 @@ import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 
-window.__LEONIDA_VERSION__ = 'v0.8.0';
+window.__LEONIDA_VERSION__ = 'v0.9.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
 let lastKey = '';
 
 function applyTheme() {
-  const t = progress.settings().theme || 'dark';
+  const t = progress.settings().theme || 'auto';
   const resolved = t === 'auto' ? (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark') : t;
   document.documentElement.dataset.theme = resolved;
   document.querySelector('meta[name="theme-color"]:not([media])')?.setAttribute('content', resolved === 'light' ? '#efe8dc' : '#0b0a0f');
@@ -39,8 +39,9 @@ function navHtml(activePath, forRail) {
   const tabs = items.map((s) => {
     const active = activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path));
     const label = s.title;
-    return `<a class="tab ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}" ${active ? 'aria-current="page"' : ''} ${s.disabled ? 'aria-disabled="true"' : ''}>
-      <svg aria-hidden="true"><use href="#i-${s.icon}"/></svg><span>${esc(label)}</span></a>`;
+    const home = s.path === '/';
+    return `<a class="tab ${home ? 'tab--home' : ''} ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}" ${active ? 'aria-current="page"' : ''} ${s.disabled ? 'aria-disabled="true"' : ''}>
+      <svg aria-hidden="true"><use href="#i-${home ? 'sun' : s.icon}"/></svg><span>${esc(label)}</span></a>`;
   });
   if (!forRail) {
     const moreActive = !SECTIONS.filter((s) => s.tab).some((s) => activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path)));
@@ -86,16 +87,18 @@ function followBar() {
 }
 
 const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
-function render(match, { dir } = {}) {
+function render(match, { dir, refresh } = {}) {
   if (!match) {
     const raw = location.hash.replace(/^#/, '');
     const hit = Object.keys(REDIRECT).find((k) => raw === k || raw.startsWith(k + '/') || raw.startsWith(k + '?'));
     router.go(hit ? raw.replace(hit, REDIRECT[hit]) : '/', { replace: true }); return;
   }
-  currentRender = () => render(match, {});
+  currentRender = () => render(router.parse() || match, { refresh: true });
   const out = match.route.handler(match.params, match.query);
   const spread = $('main');
   const left = $('page-left'), right = $('page-right');
+  // Aggiornamento della stessa pagina (spunta, interruttore…): la pagina resta ferma dov'era
+  const keepScroll = refresh ? spread.scrollTop : null;
   document.documentElement.dataset.accent = out.accent || 'magenta';
   document.title = `${out.title ? out.title + ' — ' : ''}Leonida`;
 
@@ -108,7 +111,7 @@ function render(match, { dir } = {}) {
   spread.dataset.show = out.show || 'left';
   const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
   $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>Leonida · Guida di campo</span>`;
-  spread.scrollTop = 0;
+  spread.scrollTop = keepScroll !== null ? keepScroll : 0;
   const sub = document.querySelector('.brand__sub'); if (sub) sub.textContent = sec ? sec.title : (out.title || 'Leonida');
 
   // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
@@ -121,7 +124,7 @@ function render(match, { dir } = {}) {
   lastKey = key;
 
   $('tabbar').innerHTML = navHtml(match.path, false);
-  $('rail').innerHTML = `<a class="rail__brand" href="#/" aria-label="Leonida, inizio"><svg aria-hidden="true"><use href="#i-sun"/></svg><span>Leonida</span></a>${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
+  $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar();
 }
 
@@ -129,7 +132,12 @@ function bindGlobal() {
   const root = $('app');
   const ver = document.createElement('span'); ver.className = 'masthead__ver'; ver.textContent = window.__LEONIDA_VERSION__; document.querySelector('.masthead__tools').prepend(ver);
   // Immagini mancanti: spariscono senza icona rotta
-  document.addEventListener('error', (e) => { if (e.target?.tagName === 'IMG') e.target.remove(); }, true);
+  // (se ha un'alternativa online in data-fallback, prima prova quella)
+  document.addEventListener('error', (e) => {
+    const im = e.target; if (im?.tagName !== 'IMG') return;
+    if (im.dataset.fallback && im.src !== im.dataset.fallback) { im.src = im.dataset.fallback; delete im.dataset.fallback; return; }
+    im.closest('figure, .placecard__img, .nearcard__img, .lmk__photo')?.classList.add('is-empty'); im.remove();
+  }, true);
   spoiler.bind(root);
   const rerender = () => currentRender?.();
   missioni.bind(root, rerender);
@@ -153,14 +161,17 @@ function bindGlobal() {
       diario.openNoteSheet(ctx);
     }
   });
-  // Swipe dal bordo sinistro verso destra = indietro (tutta l'app)
-  let sx = null, sy = null, st = 0;
-  addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); }, { passive: true });
+  // Swipe verso destra, da qualsiasi punto della pagina = indietro (tutta l'app).
+  // Si ignora se il dito parte da un elemento che scorre in orizzontale (gallerie, filtri, mappa).
+  let sx = null, sy = null, st = 0, sOk = false;
+  const scrollsX = (el) => { for (let n = el; n && n !== document.body; n = n.parentElement) { if (n.scrollWidth > n.clientWidth + 4 && /auto|scroll/.test(getComputedStyle(n).overflowX)) return true; } return false; };
+  addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); sOk = !scrollsX(e.target) && !e.target.closest('input,textarea,select,.map-full,.map-frame'); }, { passive: true });
   addEventListener('touchend', (e) => {
     if (sx === null) return; const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = Math.abs(t.clientY - sy);
-    const edge = sx < 60 || (isOpen() && sx < 160);
-    if (edge && dx > 90 && dy < 70 && Date.now() - st < 700 && !document.querySelector('.sheet')) {
-      const back = document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/') history.back();
+    if (sOk && dx > 80 && dy < 60 && dx > dy * 2 && Date.now() - st < 800) {
+      const sheet = document.querySelector('.sheet-backdrop');
+      if (sheet) { sheet.click(); }
+      else { const back = document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') history.back(); }
     }
     sx = null;
   }, { passive: true });

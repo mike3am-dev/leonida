@@ -79,20 +79,23 @@
   color-scheme: dark;
 }
 
-/* Tema chiaro: carta calda */
+/* Tema chiaro: bianco rosato, schede bianche (come gtasixmap) */
 :root[data-theme="light"] {
-  --bg: #efe8dc;
-  --bg-2: #e6ddcf;
-  --paper: #f8f3ea;
-  --paper-2: #f1eadf;
-  --ink: #1a1520;
-  --ink-2: #463e4c;
-  --ink-3: #776e7c;
-  --rule: rgba(26, 21, 32, 0.16);
-  --rule-strong: rgba(26, 21, 32, 0.34);
-  --shadow: 0 20px 40px -24px rgba(60, 40, 30, .35);
-  --grain-opacity: .05;
+  --bg: #fbf4f6;
+  --bg-2: #f4eaee;
+  --paper: #ffffff;
+  --paper-2: #fdf7f9;
+  --ink: #1b1024;
+  --ink-2: #4a3d55;
+  --ink-3: #7d7186;
+  --rule: rgba(27, 16, 36, 0.10);
+  --rule-strong: rgba(27, 16, 36, 0.26);
+  --shadow: 0 1px 2px rgba(27, 16, 36, .04), 0 12px 30px -18px rgba(120, 40, 80, .25);
+  --grain-opacity: 0;
   --sunset: linear-gradient(180deg, #ff8a3d 0%, #e62f78 60%, #5a22b8 100%);
+  --magenta: #e4306f;
+  --teal: #11a394;
+  --orange: #e8712a;
   color-scheme: light;
 }
 

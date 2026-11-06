@@ -1,24 +1,71 @@
-/** News: notizie (pillole) + guide (articoli), in formato rivista */
+/** News: notiziario editoriale (notizie con foto) + guide (articoli), in formato rivista */
 import { db, byId, TYPE_ROUTE } from '../data.js';
 import { esc, statusChip, fmtDate } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, vis, sectionOf } from './shared.js';
+import { img } from './atlante.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('news');
 export const SRC_LABEL = { trailer: 'Ufficiale', stampa: 'Stampa', rumor: 'Rumor', leak: 'Leak', community: 'Community', 'gioco-mike': 'Mike' };
 export const TOPIC_LABEL = { gameplay: 'Gameplay', mappa: 'Mappa', personaggi: 'Personaggi', veicoli: 'Veicoli', armi: 'Armi', musica: 'Musica', uscita: 'Uscita', tecnica: 'Tecnica', business: 'Business', online: 'Online', community: 'Community' };
-const CAT_LABEL = { 'prima-ora': 'Prima ora', generale: 'Da sapere', combattimento: 'Combattimento', soldi: 'Soldi', guida: 'Guida e veicoli', esplorazione: 'Esplorazione', online: 'Online', trasporti: 'Spostarsi', sistemi: 'Sistemi di gioco', tecnica: 'Console', storia: 'Storia' };
+const CAT_LABEL = { 'prima-ora': 'Prima ora', generale: 'Da sapere', combattimento: 'Combattimento', soldi: 'Soldi', guida: 'Guida e veicoli', esplorazione: 'Esplorazione', online: 'Online', trasporti: 'Spostarsi', sistemi: 'Sistemi di gioco', tecnica: 'Console', storia: 'Storia', mappa: 'Mappa e luoghi' };
+// Foto di ripiego per tema, dalle immagini ufficiali già nella guida
+const TOPIC_IMG = { gameplay: 'assets/img/ss-vice-city-27.jpg', mappa: 'assets/img/mappa-leonida.jpg', personaggi: 'assets/img/ss-jason-lucia-14.jpg', veicoli: 'assets/img/veh-grotti-cheetah.jpg', armi: 'assets/img/revolvers.jpg', musica: 'assets/img/the-album.jpg', uscita: 'assets/img/cover-art.jpg', tecnica: 'assets/img/ultimate-edition-01.jpg', business: 'assets/img/ss-port-gellhorn-07.jpg', online: 'assets/img/ss-ambrosia-06.jpg', community: 'assets/img/ss-grassrivers-07.jpg' };
+const CAT_IMG = { 'prima-ora': 'assets/img/ultimate-edition.jpg', generale: 'assets/img/ss-vice-city-27.jpg', combattimento: 'assets/img/revolvers.jpg', soldi: 'assets/img/ss-raul-bautista-01.jpg', guida: 'assets/img/veh-vapid-stanier.jpg', esplorazione: 'assets/img/ss-mount-kalaga-01.jpg', trasporti: 'assets/img/ss-port-gellhorn-07.jpg', sistemi: 'assets/img/ss-jason-duval-11.jpg', tecnica: 'assets/img/ultimate-edition-01.jpg', storia: 'assets/img/ss-lucia-caminos-11.jpg', online: 'assets/img/ss-ambrosia-06.jpg' };
+
+/** Immagine di una notizia o guida: la sua, altrimenti quella della voce collegata, altrimenti per tema */
+export function newsImage(n) {
+  if (n.image) return n.image;
+  if (n._type === 'guida') { const b = (n.blocks || []).find((x) => x.t === 'img'); return b ? (b.local || b.src) : 'assets/img/mappa-leonida.jpg'; }
+  for (const id of n.relatedIds || []) { const r = byId(id); if (r?.image) return r.image; if (r?.hero?.src) return r.hero.local || r.hero.src; }
+  return n._type === 'tip' ? (CAT_IMG[n.category] || 'assets/img/ss-vice-city-27.jpg') : (TOPIC_IMG[n.topic] || 'assets/img/cover-art.jpg');
+}
+
+function guideBody(g) {
+  let out = '', list = [], table = [];
+  const flushList = () => { if (list.length) { out += `<ul>${list.map((t) => `<li>${t}</li>`).join('')}</ul>`; list = []; } };
+  const flushTable = () => { if (table.length) { out += `<div class="table-wrap"><table>${table.map((r, i) => `<tr>${r.map((c) => `<${i === 0 ? 'th' : 'td'}>${esc(c)}</${i === 0 ? 'th' : 'td'}>`).join('')}</tr>`).join('')}</table></div>`; table = []; } };
+  const linkify = (b) => { let t = esc(b.text); for (const l of b.links || []) { const slug = l.split('/').pop(); const p = (db.luoghi || []).find((x) => x.slug === slug); if (p && t.includes(esc(p.name))) t = t.replace(esc(p.name), `<a href="#/mappa/luogo/${esc(slug)}">${esc(p.name)}</a>`); } return t; };
+  for (const b of g.blocks || []) {
+    if (b.t !== 'li') flushList(); if (b.t !== 'tr') flushTable();
+    if (b.t === 'h2') out += `<h2>${esc(b.text)}</h2>`;
+    else if (b.t === 'h3') out += `<h3>${esc(b.text)}</h3>`;
+    else if (b.t === 'p') out += `<p>${linkify(b)}</p>`;
+    else if (b.t === 'li') list.push(linkify(b));
+    else if (b.t === 'tr') table.push(b.cells);
+    else if (b.t === 'img') out += `<figure>${img(b.local, b.src, '', b.alt)}${b.alt ? `<figcaption>${esc(b.alt)}</figcaption>` : ''}</figure>`;
+  }
+  flushList(); flushTable();
+  return out;
+}
 
 function article(it) {
-  const isTip = it._type === 'tip';
-  const kicker = isTip ? `Guida · ${CAT_LABEL[it.category] || it.category}` : `${fmtDate(it.date, { day: 'numeric', month: 'long', year: 'numeric' })} · ${TOPIC_LABEL[it.topic] || it.topic}${it.outlet ? ' · ' + it.outlet : ''}`;
+  const isTip = it._type === 'tip', isGuide = it._type === 'guida';
+  const kicker = isGuide ? 'Guida · gtasixmap.com' : isTip ? `Guida · ${CAT_LABEL[it.category] || it.category}` : `${fmtDate(it.date, { day: 'numeric', month: 'long', year: 'numeric' })} · ${TOPIC_LABEL[it.topic] || it.topic}${it.outlet ? ' · ' + it.outlet : ''}`;
+  const im = newsImage(it);
+  const fb = isGuide ? (it.blocks || []).find((x) => x.t === 'img')?.src : null;
   return `
     ${backLink('/news', 'News')}
-    ${hero(it, { kicker, title: it.title, chips: statusChip(it) })}
-    <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.body)}</p>`, 'Questa notizia contiene spoiler')}</div>
+    <div class="hero">${im ? `<img src="${esc(im)}" ${fb && fb !== im ? `data-fallback="${esc(fb)}"` : ''} alt=""><div class="hero__veil"></div>` : ''}
+      <div class="hero__chips chips">${statusChip(it)}</div>
+      <div class="hero__text"><span class="kicker">${esc(kicker)}</span><h1>${esc(it.title)}</h1>${isGuide && it.lead ? `<p class="lede">${esc(it.lead)}</p>` : ''}</div></div>
+    ${isGuide ? `<div class="prose prose--guide">${guideBody(it)}</div><p class="source-line">Tradotto da <a href="${esc(it.url)}" target="_blank" rel="noopener">gtasixmap.com</a>. Screenshot © Rockstar Games.</p>`
+      : `<div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.body)}</p>`, 'Questa notizia contiene spoiler')}</div>`}
     ${it.relatedIds?.length ? `<div class="block"><span class="kicker">Nella guida</span><div class="chips" style="margin-top:var(--s-2)">${it.relatedIds.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#${TYPE_ROUTE[r._type]?.(r) || '/'}">${esc(r.name || r.title)}</a>` : ''; }).join('')}</div></div>` : ''}
     <div class="actions">${it.sourceUrl ? `<a class="btn btn--solid" href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">Leggi la fonte</a>` : ''}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>`;
 }
+
+/** <img> con ripiego online per le guide le cui foto non sono ancora state scaricate */
+export function newsImgTag(x) {
+  const src = newsImage(x); const fb = x._type === 'guida' ? (x.blocks || []).find((b) => b.t === 'img')?.src : null;
+  return `<img src="${esc(src)}" ${fb && fb !== src ? `data-fallback="${esc(fb)}"` : ''} alt="" loading="lazy">`;
+}
+const card = (x, wide = false) => `<a class="cardx ${wide ? 'cardx--wide' : ''}" href="#/news/${esc(x.id)}">
+    <div class="cardx__img">${newsImgTag(x)}<span class="cardx__badge chips">${statusChip(x)}</span></div>
+    <div class="cardx__body"><div class="cardx__kicker">${x._type === 'news' ? esc(fmtDate(x.date, { day: 'numeric', month: 'long' })) : 'Guida'}${x.outlet ? ' · ' + esc(x.outlet) : ''}${x._type === 'tip' ? ' · ' + esc(CAT_LABEL[x.category] || x.category) : ''}</div><div class="cardx__title">${spoiler.isHidden(x) ? '⚠ Contiene spoiler' : esc(x.title)}</div>${wide ? `<div class="cardx__excerpt">${spoiler.isHidden(x) ? '' : esc((x.body || x.lead || '').slice(0, 160))}…</div>` : ''}</div></a>`;
+const newsRow = (n) => `<a class="newsrow" href="#/news/${esc(n.id)}">
+    <span class="newsrow__img">${newsImgTag(n)}</span>
+    <span class="newsrow__body"><span class="newsrow__kicker">${esc(SRC_LABEL[n.source] || '')} · ${esc(TOPIC_LABEL[n.topic] || n.topic)}${n.outlet ? ' · ' + esc(n.outlet) : ''}</span><span class="newsrow__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</span><span class="newsrow__excerpt">${spoiler.isHidden(n) ? '' : esc((n.body || '').slice(0, 110))}…</span></span></a>`;
 
 export function render(params, query) {
   const it = params.id ? byId(params.id) : null;
@@ -28,21 +75,19 @@ export function render(params, query) {
   const src = query.fonte || '';
   const topic = query.tema || '';
   const news = vis(db.news), tips = vis(db.tips).sort((a, b) => (a.priority ?? 50) - (b.priority ?? 50));
+  const guides = db.guide || [];
   const link = (k, v) => { const p = new URLSearchParams(); if (tipo !== 'tutto') p.set('tipo', tipo); if (src) p.set('fonte', src); if (topic) p.set('tema', topic); if (v) p.set(k, v); else p.delete(k); return `#/news${p.toString() ? '?' + p : ''}`; };
 
-  // In evidenza: l'ultima ufficiale, la guida più importante, la notizia più letta per tema
-  const featured = tipo === 'guide' ? tips.slice(0, 3) : tipo === 'notizie' ? news.slice(0, 3) : [news.find((n) => n.source === 'trailer') || news[0], tips[0], tips[1]].filter(Boolean);
-  const card = (x) => `<a class="cardx ${x === featured[0] ? 'cardx--wide' : ''}" href="#/news/${esc(x.id)}">
-      <div class="cardx__img ${x.image ? '' : 'cardx__img--text'}">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : `<span class="cardx__big">${esc(x._type === 'tip' ? (CAT_LABEL[x.category] || 'Guida') : (TOPIC_LABEL[x.topic] || 'News'))}</span>`}<span class="cardx__badge chips">${statusChip(x)}</span></div>
-      <div class="cardx__body"><div class="cardx__title">${spoiler.isHidden(x) ? '⚠ Contiene spoiler' : esc(x.title)}</div><div class="cardx__meta">${x._type === 'tip' ? 'Guida' : esc(fmtDate(x.date, { day: 'numeric', month: 'long' }))}${x.outlet ? ' · ' + esc(x.outlet) : ''}</div></div></a>`;
+  const featured = tipo === 'guide' ? [...guides.slice(0, 1), ...tips.slice(0, 2)] : tipo === 'notizie' ? news.slice(0, 3) : [news.find((n) => n.source === 'trailer') || news[0], news[1], guides[0] || tips[0]].filter(Boolean);
 
   let body = '';
   if (tipo !== 'notizie') {
     const cats = [...new Set(tips.map((t) => t.category))];
     body += `<div class="block"><span class="kicker" style="display:block;margin-bottom:var(--s-2)">Guide da leggere</span>
-      <div class="filters">${cats.map((c) => `<a class="filter" role="button" aria-pressed="${topic === c}" href="${link('tema', topic === c ? '' : c)}">${esc(CAT_LABEL[c] || c)} <span class="muted">${tips.filter((t) => t.category === c).length}</span></a>`).join('')}</div>
-      ${tips.filter((t) => !topic || t.category === topic).slice(0, topic ? 99 : 8).map((t) => row({ href: `#/news/${t.id}`, icon: 'i-bolt', title: esc(t.title), meta: `${esc(CAT_LABEL[t.category] || t.category)} · ${esc(t.body.slice(0, 90))}…` })).join('')}
-      ${!topic && tips.length > 8 ? `<a class="btn btn--ghost btn--block" href="${link('tipo', 'guide')}" style="margin-top:var(--s-3)">Tutte le ${tips.length} guide</a>` : ''}</div>`;
+      <div class="filters">${guides.length ? `<a class="filter" role="button" aria-pressed="${topic === 'mappa'}" href="${link('tema', topic === 'mappa' ? '' : 'mappa')}">Mappa e luoghi <span class="muted">${guides.length}</span></a>` : ''}${cats.map((c) => `<a class="filter" role="button" aria-pressed="${topic === c}" href="${link('tema', topic === c ? '' : c)}">${esc(CAT_LABEL[c] || c)} <span class="muted">${tips.filter((t) => t.category === c).length}</span></a>`).join('')}</div>
+      ${(topic === 'mappa' || !topic) && guides.length ? `<div class="cards">${(topic ? guides : guides.slice(0, 2)).map((g) => card(g)).join('')}</div>` : ''}
+      ${topic !== 'mappa' ? `<div class="cards">${tips.filter((t) => !topic || t.category === topic).slice(0, topic ? 99 : 4).map((t) => card(t)).join('')}</div>` : ''}
+      ${!topic && tips.length > 4 ? `<a class="btn btn--ghost btn--block" href="${link('tipo', 'guide')}" style="margin-top:var(--s-3)">Tutte le ${tips.length + guides.length} guide</a>` : ''}</div>`;
   }
   if (tipo !== 'guide') {
     const list = news.filter((n) => (!src || n.source === src) && (!topic || n.topic === topic));
@@ -51,14 +96,14 @@ export function render(params, query) {
     body += `<div class="block"><span class="kicker" style="display:block;margin-bottom:var(--s-2)">Notizie, giorno per giorno</span>
       <div class="filters"><a class="filter" role="button" aria-pressed="${!src}" href="${link('fonte', '')}">Tutte</a>${['trailer', 'stampa', 'rumor', 'leak', 'community'].filter((s) => cs[s]).map((s) => `<a class="filter" role="button" aria-pressed="${src === s}" href="${link('fonte', s)}">${SRC_LABEL[s]} <span class="muted">${cs[s]}</span></a>`).join('')}</div>
       <div class="filters"><a class="filter" role="button" aria-pressed="${!topic}" href="${link('tema', '')}">Tutti i temi</a>${Object.keys(TOPIC_LABEL).filter((t) => news.some((n) => n.topic === t)).map((t) => `<a class="filter" role="button" aria-pressed="${topic === t}" href="${link('tema', t)}">${TOPIC_LABEL[t]}</a>`).join('')}</div>
-      ${[...groups].map(([day, items]) => `<span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-1)">${esc(fmtDate(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</span>
-        ${items.map((n) => row({ href: `#/news/${n.id}`, thumb: n.image, num: (SRC_LABEL[n.source] || '').slice(0, 3).toUpperCase(), title: spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title), meta: `${esc(TOPIC_LABEL[n.topic] || n.topic)}${n.outlet ? ' · ' + esc(n.outlet) : ''}` })).join('')}`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
+      ${[...groups].map(([day, items]) => `<div class="dayhead"><span class="kicker">${esc(fmtDate(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</span></div>
+        ${items.map(newsRow).join('')}`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
   }
-  const left = `${sectionHead(section, `${news.length} notizie · ${tips.length} guide`)}
+  const left = `${sectionHead(section, `${news.length} notizie · ${tips.length + guides.length} guide`)}
     <div class="segmented" role="group" aria-label="Tipo" style="margin-bottom:var(--s-4)">
       ${[['tutto', 'Tutto'], ['notizie', 'Notizie'], ['guide', 'Guide']].map(([k, l]) => `<a role="button" aria-pressed="${tipo === k}" href="#/news${k === 'tutto' ? '' : '?tipo=' + k}">${l}</a>`).join('')}
     </div>
-    <div class="cards">${featured.map(card).join('')}</div>
+    <div class="cards cards--feat">${featured.map((x, i) => card(x, i === 0)).join('')}</div>
     ${body}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'News' };
 }

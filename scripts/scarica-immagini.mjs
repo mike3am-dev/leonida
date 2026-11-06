@@ -18,8 +18,10 @@ await mkdir(outDir, { recursive: true });
 let ok = 0, skipped = 0, failed = 0;
 for (const it of manifest.items) {
   const dest = path.join(outDir, it.file);
-  try { await access(dest); skipped++; console.log(`· ${it.file} (già presente)`); continue; } catch {}
-  const url = (it.url.startsWith('http') ? it.url : manifest.base + it.url) + (it.url.endsWith('.png') ? '' : manifest.suffix);
+  try { await access(dest); skipped++; continue; } catch {}
+  await mkdir(path.dirname(dest), { recursive: true });
+  // URL relativi = sito Rockstar (con il suffisso di ridimensionamento); URL assoluti = così come sono
+  const url = it.url.startsWith('http') ? it.url : manifest.base + it.url + (it.url.endsWith('.png') ? '' : manifest.suffix);
   try {
     const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh) Safari/605.1.15', Accept: 'image/*' } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);

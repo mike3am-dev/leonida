@@ -11,23 +11,26 @@ const fonte = (x) => `<p class="source-line">Fonte: ${esc(x.source)}${x.sourceUr
 /* ---------- Personaggi ---------- */
 const secP = sectionOf('personaggi');
 const GROUPS = [
-  ['Le Keys: la famiglia di Jason', ['chr-brian', 'chr-lori', 'chr-cal']],
-  ['Vice City: la scena musicale', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
-  ['Il colpo grosso', ['chr-raul']],
-  ['Megamundo', ['chr-andres', 'chr-petra', 'chr-valentina', 'chr-cesar']],
-  ['Strada, gang e corse', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee']],
-  ['La legge e lo Stato', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw']],
-  ['Affari e mezzi', ['chr-wyman', 'chr-randy', 'chr-billy']],
-  ['Voci, schermi e cult', ['chr-camillo', 'chr-n3on', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
-  ['Dai leak (da verificare)', ['chr-kai', 'chr-shanese', 'chr-leak-names']],
+  ['🌴', 'Le Keys: la famiglia di Jason', 'Contrabbando, barche e vita di provincia tra le isole.', ['chr-brian', 'chr-lori', 'chr-cal']],
+  ['🎤', 'Vice City: la scena musicale', 'Rapper, produttori e leggende dei club.', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
+  ['💰', 'Il colpo grosso', 'Chi vive di rapine.', ['chr-raul']],
+  ['🏢', 'Megamundo', 'Soldi, potere e sorrisi di plastica.', ['chr-andres', 'chr-petra', 'chr-valentina', 'chr-cesar']],
+  ['🏁', 'Strada, gang e corse', 'San4San, corse clandestine e quartieri caldi.', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee']],
+  ['🚔', 'La legge e lo Stato', 'Polizia, penitenziario e politica.', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw']],
+  ['🔧', 'Affari e mezzi', 'Meccanici, ricettatori e club di fango.', ['chr-wyman', 'chr-randy', 'chr-billy']],
+  ['📺', 'Voci, schermi e cult', 'Streamer, mascotte, comparse diventate meme.', ['chr-camillo', 'chr-n3on', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
+  ['🕵️', 'Dai leak (da verificare)', 'Nomi emersi dal leak del 2022: prendili con le pinze.', ['chr-kai', 'chr-shanese', 'chr-leak-names']],
 ];
+const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
+const monogram = (x) => { const h = HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length]; const ini = x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join(''); return `<span class="monogram" style="--h:${h}">${esc(ini.toUpperCase())}</span>`; };
 export function renderPersonaggi(params) {
   const chars = vis(db.characters);
   const c = params.id ? byId(params.id) : null;
   if (c) {
     const right = `
       ${backLink('/personaggi', 'Personaggi')}
-      ${hero(c, { kicker: `${c.role || 'Personaggio'}${c.districtId ? ' · ' + (byId(c.districtId)?.name || '') : ''}`, title: c.name, lede: c.tagline || '', chips: statusChip(c) })}
+      ${c.image ? hero(c, { kicker: `${c.role || 'Personaggio'}${c.districtId ? ' · ' + (byId(c.districtId)?.name || '') : ''}`, title: c.name, lede: c.tagline || '', chips: statusChip(c) })
+        : `<div class="hero hero--mono">${monogram(c)}<div class="hero__text"><span class="kicker">${esc(c.role || 'Personaggio')}${c.districtId ? ' · ' + esc(byId(c.districtId)?.name || '') : ''}</span><h1>${esc(c.name)}</h1>${c.tagline ? `<p class="lede">${esc(c.tagline)}</p>` : ''}<div class="chips">${statusChip(c)}</div></div></div>`}
       <div class="prose">${spoiler.wrap(c, `<p class="dropcap">${esc(c.bio || 'Scheda in arrivo.')}</p>`)}</div>
       ${galleryHtml(c)}
       ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="chips" style="margin-top:var(--s-2)">${c.relations.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#/personaggi/${esc(id)}">${esc(r.name)}</a>` : ''; }).join('')}</div></div>` : ''}
@@ -35,22 +38,22 @@ export function renderPersonaggi(params) {
       ${fonte(c)}`;
     return { left: '', right, show: 'right', accent: secP.accent, title: c.name };
   }
-  const card = (x) => `<a class="cardx" href="#/personaggi/${esc(x.id)}">
-    <div class="cardx__img cardx__img--face">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-person"/></svg>'}</div>
+  const card = (x) => `<a class="cardx cardx--person" href="#/personaggi/${esc(x.id)}">
+    <div class="cardx__img cardx__img--face">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : monogram(x)}</div>
     <div class="cardx__body"><div class="cardx__title">${esc(x.name)}</div><div class="cardx__meta">${esc(x.role || '')}${srcNote(x)}</div></div></a>`;
   const used = new Set();
-  const groupHtml = GROUPS.map(([title, ids]) => {
+  const groupHtml = GROUPS.map(([emoji, title, sub, ids]) => {
     const list = ids.map((id) => chars.find((x) => x.id === id)).filter(Boolean);
     list.forEach((x) => used.add(x.id));
     if (!list.length) return '';
-    return `<span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">${esc(title)}</span><div class="cards">${list.map(card).join('')}</div>`;
+    return `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${emoji}</span><div><h2>${esc(title)}</h2><p>${esc(sub)}</p></div><span class="count">${list.length}</span></div><div class="cards">${list.map(card).join('')}</div>`;
   }).join('');
   const rest = chars.filter((x) => !x.isProtagonist && !used.has(x.id));
   const left = `${sectionHead(secP, `${chars.length} schede`)}
-    <span class="kicker" style="display:block;margin-bottom:var(--s-2)">Protagonisti</span>
-    <div class="cards cards--2">${chars.filter((x) => x.isProtagonist).map(card).join('')}</div>
+    <div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
+    <div class="cards cards--2 cards--big">${chars.filter((x) => x.isProtagonist).map(card).join('')}</div>
     ${groupHtml}
-    ${rest.length ? `<span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Altri</span><div class="cards">${rest.map(card).join('')}</div>` : ''}`;
+    ${rest.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">👥</span><div><h2>Altri</h2></div></div><div class="cards">${rest.map(card).join('')}</div>` : ''}`;
   return { left, right: '', show: 'left', accent: secP.accent, title: 'Personaggi' };
 }
 

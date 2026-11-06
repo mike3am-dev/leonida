@@ -47,6 +47,6 @@ export function bind(root) {
     const btn = e.target.closest('.spoiler-box__btn');
     if (btn) { const box = btn.closest('.spoiler-box'); const open = box.classList.toggle('is-open'); btn.setAttribute('aria-expanded', open); box.querySelector('.spoiler-box__body').setAttribute('aria-hidden', !open); return; }
     const acc = e.target.closest('.acc__btn');
-    if (acc) { acc.closest('.acc').classList.toggle('is-open'); }
+    if (acc) { const open = acc.closest('.acc').classList.toggle('is-open'); acc.setAttribute('aria-expanded', open); }
   });
 }

@@ -14,16 +14,28 @@ function index(activeId, filterAct) {
   if (!missions.length) {
     return `${sectionHead(section)}<div class="placeholder"><strong>Nessuna missione ancora</strong>Dopo il 19 novembre: gioca, prendi appunti, passa il Pacchetto a Claude e questo indice si riempie da solo.</div>`;
   }
+  const pct = missions.length ? Math.round(done / missions.length * 100) : 0;
+  // Capitolo «attivo»: quello con la missione in corso, altrimenti il primo con missioni da fare
+  const curId = st.current.missionId;
+  const activeAct = acts.find((a) => missions.some((m) => m.actId === a.id && m.id === curId)) || acts.find((a) => missions.some((m) => m.actId === a.id && st.missions[m.id]?.state !== 'completata')) || acts[0];
   return `${sectionHead(section, `${done} / ${missions.length}`)}
-    <div class="progress" style="margin-bottom:var(--s-5)"><i style="--p:${missions.length ? Math.round(done / missions.length * 100) : 0}%"></i></div>
-    ${acts.map((a) => `<div class="block" style="margin-top:var(--s-4)"><span class="kicker" style="display:block;margin-bottom:var(--s-2)">${esc(a.title)}</span>
-      ${missions.filter((m) => m.actId === a.id).map((m, i) => {
-        const s = st.missions[m.id]?.state;
-        const end = s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : '';
-        return row({ href: `#/missioni/${m.id}`, num: pad2(i + 1), active: m.id === activeId, done: s === 'completata', end,
-          title: spoiler.isHidden(m) && !s ? '<span class="muted">⚠ Spoiler</span>' : esc(m.title),
-          meta: `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${m.example ? ' · Esempio' : ''}` });
-      }).join('')}</div>`).join('')}`;
+    <div class="card card--progress"><div class="stat"><div class="stat__value">${pct}%</div><div class="stat__label">${done === missions.length ? 'Storia completata' : `${missions.length - done} missioni da fare`}${curId && byId(curId) ? ` · in corso: <a href="#/missioni/${esc(curId)}">${esc(byId(curId).title)}</a>` : ''}</div></div><div class="progress" style="margin-top:var(--s-2)"><i style="--p:${pct}%"></i></div></div>
+    <div class="chapters">${acts.map((a) => {
+      const list = missions.filter((m) => m.actId === a.id);
+      const d = list.filter((m) => st.missions[m.id]?.state === 'completata').length;
+      const p = list.length ? Math.round(d / list.length * 100) : 0;
+      const open = a === activeAct;
+      return `<div class="acc chapter ${open ? 'is-open' : ''} ${d === list.length ? 'chapter--done' : ''}">
+        <button class="acc__btn chapter__btn" type="button" aria-expanded="${open}">
+          <span class="chapter__text"><span class="chapter__title">${esc(a.title)}</span><span class="chapter__meta">${d} / ${list.length}${d === list.length ? ' · completato' : ''}</span><span class="progress"><i style="--p:${p}%"></i></span></span>
+          <span class="chapter__pct">${p}%</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="acc__body">${list.map((m, i) => {
+          const s = st.missions[m.id]?.state;
+          const end = s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : '';
+          return row({ href: `#/missioni/${m.id}`, num: pad2(i + 1), active: m.id === activeId, done: s === 'completata', end,
+            title: spoiler.isHidden(m) && !s ? '<span class="muted">⚠ Spoiler</span>' : esc(m.title),
+            meta: `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${m.example ? ' · Esempio' : ''}` });
+        }).join('')}</div></div>`; }).join('')}</div>`;
 }
 
 function detail(m) {

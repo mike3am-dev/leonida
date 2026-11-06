@@ -55,7 +55,11 @@ La guida aspetta già le immagini ufficiali Rockstar (personaggi, territori, log
 node scripts/scarica-immagini.mjs
 ```
 
-L'elenco è in `scripts/immagini.json`. Finché un'immagine manca, l'app la nasconde. Materiale protetto da copyright: solo per uso personale, repository privato.
+L'elenco è in `scripts/immagini.json` (immagini Rockstar, foto dei luoghi e dei punti di riferimento da gtasixmap.com, foto dei veicoli dal GTA Wiki). Lo script salta i file già presenti e crea da solo le sottocartelle `luoghi/` e `veicoli/`. Finché un'immagine manca, l'app prova a mostrarla dall'indirizzo originale online; se non ci riesce la nasconde. Materiale protetto da copyright: solo per uso personale, repository privato.
+
+## Luoghi (gtasixmap.com)
+
+`docs/data/luoghi.json` contiene le 44 schede dei luoghi e le 8 guide di gtasixmap.com, tradotte in italiano con la stessa struttura del sito (in breve, com'è, cose da fare, come arrivare, il posto reale, punti di riferimento da trovare, consigli, screenshot, domande frequenti, dintorni). Si vedono in **Mappa → Tutti i luoghi** e in **News → Guide**. La mappa interattiva del sito si apre dentro l'app (serve la connessione). Le foto dei punti di riferimento sono di Rockstar, ritagliate e abbinate da gtadb.org e collaboratori (CC BY 4.0).
 
 ## Validare
 

@@ -29,11 +29,15 @@ function fieldsOf(item) {
   (item.secrets || []).forEach((t) => f.push(t));
   (item.pois || []).forEach((p) => f.push(p.name));
   (item.highlights || []).forEach((h) => f.push(typeof h === 'string' ? h : h.title));
+  if (item.lead) f.push(item.lead);
+  (item.landmarks || []).forEach((k) => f.push(k.name, k.real));
+  (item.sections || []).forEach((s) => f.push(s.title, ...(s.paragraphs || [])));
+  (item.blocks || []).forEach((b) => b.text && f.push(b.text));
   return f.filter(Boolean).join(' • ');
 }
 
 export function buildIndex() {
-  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.trophies, db.pois];
+  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.trophies, db.pois, db.luoghi, db.guide];
   index = lists.flat().map((item) => {
     const title = item.title || item.name || '';
     const body = fieldsOf(item);

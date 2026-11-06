@@ -53,13 +53,15 @@
       "class": "barca",
       "description": "Motoscafo dell'Ultimate Edition, quattro screenshot nella galleria ufficiale.",
       "howToGet": "Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-shitzu-squalo.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/89/Squalo-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-dinka-enduro",
@@ -68,13 +70,15 @@
       "class": "moto",
       "description": "Moto da enduro dell'Ultimate Edition, titolata «Dinka Enduro Motorcycle» nella galleria ufficiale. La stampa parla di una livrea ispirata alle mimetiche militari. Lo store la elenca tra i veicoli del rifugio di Jason.",
       "howToGet": "Ultimate Edition, nel rifugio di Jason.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-enduro.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/GTAVI-Dinka-Enduro.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-crest-kayak",
@@ -83,13 +87,15 @@
       "class": "barca",
       "description": "Kayak dell'Ultimate Edition, titolato così nella galleria ufficiale. Nel rifugio di Jason.",
       "howToGet": "Ultimate Edition, nel rifugio di Jason.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-crest-kayak.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/UnnamedKayak-GTAVI-OfficalScreenshot-MountKalaga06.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-ganado-retro-build",
@@ -98,13 +104,15 @@
       "class": "altro",
       "description": "Voce dell'Ultimate Edition titolata così nella galleria ufficiale: una preparazione in stile retrò. La stampa la chiama «Vapid Ganado». Che tipo di mezzo sia, lo scopriamo giocando.",
       "howToGet": "Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-ganado-retro-build.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/60/GTAVI-Vapid-Ganado-Safehouse.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-classic-collection",
@@ -128,13 +136,15 @@
       "class": "sportiva",
       "description": "Identificata dalla stampa in uno degli screenshot di lancio del 5 novembre: Jason la guida sfuggendo alla polizia.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-principe-alvino-v1.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c4/OfficialScreenshots-GTAVI-PromotionalWebsite-JasonDuval-SS1.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-annis-elegy-90",
@@ -143,13 +153,15 @@
       "class": "sportiva",
       "description": "La sportiva modificata di Yago, il pilota di corse clandestine dell'Extended Look, secondo la community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-annis-elegy-90.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/18/ElegyRetroCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-progen-emerus",
@@ -533,12 +545,14 @@
       "class": "barca",
       "description": "La barca a elica delle paludi, immagine simbolo di Grassrivers nei trailer. Nome del modello in gioco ancora sconosciuto.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-airboat.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d9/Airboat09-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "id": "veh-water-taxi",
@@ -586,7 +600,7 @@
       "updatedAt": "2026-11-05"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-obey-8f-drafter.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -598,10 +612,12 @@
       "class": "sportiva",
       "description": "Ispirata all'Audi RS5. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/09/8FDrafter-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-banshee.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -613,10 +629,12 @@
       "class": "sportiva",
       "description": "La roadster alla Dodge Viper, storica della serie. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/64/Banshee-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -628,10 +646,12 @@
       "class": "sportiva",
       "description": "La piccola Honda CRX. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/79/BlistaCompact-GTAVI-OfficialScreenshot-PortGellhornPostcard.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-buffalo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -643,10 +663,12 @@
       "class": "sportiva",
       "description": "Alla Dodge Charger. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/70/Buffalo-GTAVI-Trailer1-1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-grotti-carbonizzare.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -658,10 +680,12 @@
       "class": "sportiva",
       "description": "Mix tra Ferrari 458 e 612. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/83/Carbonizzare-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pfister-comet-retro-custom.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -673,10 +697,12 @@
       "class": "sportiva",
       "description": "La Porsche 930 in stile RWB. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/99/CometRetroCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pfister-comet-s2-cabrio.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -688,10 +714,12 @@
       "class": "sportiva",
       "description": "Alla 911 Turbo S Cabriolet, con capote funzionante. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c2/CometS2Cabrio-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-invetero-coquette.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -703,10 +731,12 @@
       "class": "sportiva",
       "description": "La Corvette C7. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/62/Coquette-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-invetero-coquette-d10.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -718,10 +748,12 @@
       "class": "sportiva",
       "description": "La Corvette C8. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/40/CoquetteD10-GTAVI-OfficialScreenshot-JasonDuval04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bermacht-cypher.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -733,10 +765,12 @@
       "class": "sportiva",
       "description": "Alla BMW M2. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/ff/Cypher-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-futo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -748,10 +782,12 @@
       "class": "sportiva",
       "description": "La Toyota AE86 della serie. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9d/Futo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pfister-growler.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -763,10 +799,12 @@
       "class": "sportiva",
       "description": "Alla Porsche 718 Cayman. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/Growler-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-grotti-itali-gto.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -778,7 +816,9 @@
       "class": "sportiva",
       "description": "Alla Ferrari 812 Superfast. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e6/ItaliGTO-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -796,7 +836,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-ocelot-jugular.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -808,7 +848,9 @@
       "class": "sportiva",
       "description": "Alla Jaguar XE Project 8. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e4/Jugular-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -826,7 +868,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-enus-paragon-r.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -838,10 +880,12 @@
       "class": "sportiva",
       "description": "Alla Bentley Continental GT. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/11/ParagonR-GTAVI-WebsiteAnimation.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -853,7 +897,9 @@
       "class": "sportiva",
       "description": "Tra Eclipse e Audi TT. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bb/Penumbra-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -871,7 +917,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-sugoi.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -883,10 +929,12 @@
       "class": "sportiva",
       "description": "Alla Civic Type R. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/Sugoi-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-sultan.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -898,10 +946,12 @@
       "class": "sportiva",
       "description": "Tra Lexus IS e Lancer Evo. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/18/Sultan-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-v-str.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -913,10 +963,12 @@
       "class": "sportiva",
       "description": "Alla Cadillac CTS-V. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/66/VSTR-GTAVI-OfficialScreenshot-AmbrosiaPostcard.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-emperor-vectre.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -928,7 +980,9 @@
       "class": "sportiva",
       "description": "Alla Lexus RC F. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/Vectre-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -976,7 +1030,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-grotti-furia.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -988,10 +1042,12 @@
       "class": "super",
       "description": "Mix 488 Pista / SF90. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e8/Furia-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1003,10 +1059,12 @@
       "class": "super",
       "description": "Tra Huracán e Centenario. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/Tempesta-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1018,7 +1076,9 @@
       "class": "super",
       "description": "Alla Italdesign Zerouno. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/Zorrusso-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1036,7 +1096,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-buccaneer.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1048,10 +1108,12 @@
       "class": "muscle",
       "description": "La Buick Riviera, anche in versione lowrider Custom. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e6/Buccaneer-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-buffalo-stx.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1063,10 +1125,12 @@
       "class": "muscle",
       "description": "La Charger moderna, anche in livrea polizia Pursuit. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9f/BuffaloSTX-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-chino.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1078,7 +1142,9 @@
       "class": "muscle",
       "description": "Alla Lincoln Continental '65. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4e/Chino-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1096,7 +1162,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-dominator.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1108,10 +1174,12 @@
       "class": "muscle",
       "description": "La Mustang, in più varianti: ASP, GT (cabrio) e GTX widebody. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/38/Dominator-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-gauntlet-classic.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1123,10 +1191,12 @@
       "class": "muscle",
       "description": "La Challenger di prima generazione; anche la Hellfire alla Demon. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/91/GauntletClassicCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-impaler-80.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1138,10 +1208,12 @@
       "class": "muscle",
       "description": "La Impala anni Ottanta; anche la SZ del '94-96. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/87/ImpalerSZ-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-imponte-phoenix.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1153,10 +1225,12 @@
       "class": "muscle",
       "description": "La Firebird seconda serie. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5a/Phoenix-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-imponte-ruiner.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1168,7 +1242,9 @@
       "class": "muscle",
       "description": "La Trans Am. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/76/Ruiner-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1186,7 +1262,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-slamvan.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1198,10 +1274,12 @@
       "class": "muscle",
       "description": "Il rat rod su base F-Series. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Slamvan-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-tulip.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1213,7 +1291,9 @@
       "class": "muscle",
       "description": "La Chevelle '72 dell'inquadratura finale del Trailer 2: probabile auto simbolo dei protagonisti. Esiste anche la Tulip M-100 alla Malibu. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/ce/Tulip-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1231,7 +1311,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-vigero-zx-convertible.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1243,10 +1323,12 @@
       "class": "muscle",
       "description": "La Camaro cabrio. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6c/VigeroZXConvertible-GTAVI-OfficialScreenshot-ViceCity09.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-ganado-70.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1258,10 +1340,12 @@
       "class": "muscle",
       "description": "Il pickup alla Ford Ranchero, veicolo di Jason; il «Ganado Retro Build» dell'Ultimate Edition è il suo kit di preparazione retrò. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f9/GTAVI-Vapid-Ganado.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1273,7 +1357,9 @@
       "class": "classica",
       "description": "La Lamborghini Diablo; gialla nella corsa notturna del trailer di lancio. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/10/InfernusClassic-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1306,7 +1392,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1318,7 +1404,9 @@
       "class": "classica",
       "description": "La BMW E30 M3 cabrio rossa guidata da Jason. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/UnnamedSentinelClassicCabriolet-GTAVI-WebsiteAnimation.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1366,7 +1454,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bermacht-zion.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1378,10 +1466,12 @@
       "class": "coupe",
       "description": "Alla M6; anche la Zion Cabrio nell'Extended Look. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/eb/Zion-GTAVI-Artwork-JasonAndLucia02.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-asterope-gz.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1393,10 +1483,12 @@
       "class": "berlina",
       "description": "Alla Camry. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e0/AsteropeGZ-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-emperor.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1408,7 +1500,9 @@
       "class": "berlina",
       "description": "Alla Cadillac Brougham. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/51/Emperor-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1426,7 +1520,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-intruder.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1438,7 +1532,9 @@
       "class": "berlina",
       "description": "Alla Infiniti Q45. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f0/Intruder-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1456,7 +1552,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-schyster-pmp-700.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1468,10 +1564,12 @@
       "class": "berlina",
       "description": "Alla Chrysler 300. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f3/PMP700-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-primo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1483,10 +1581,12 @@
       "class": "berlina",
       "description": "Alla Pontiac Bonneville. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/Primo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-benefactor-schafter-v12.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1498,7 +1598,9 @@
       "class": "berlina",
       "description": "L'auto dell'inseguimento di Lucia nell'Extended Look. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/71/SchafterV12-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1516,7 +1618,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-zirconium-stratum.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1528,10 +1630,12 @@
       "class": "berlina",
       "description": "Station wagon alla Accord. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b5/Stratum-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-obey-tailgater.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1543,7 +1647,9 @@
       "class": "berlina",
       "description": "Alla Audi A6; anche la Tailgater S alla RS3. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9a/Tailgater-GTAVI-Trailer1-1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1606,7 +1712,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-aleutian.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1618,10 +1724,12 @@
       "class": "suv",
       "description": "Alla Ford Expedition. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/29/Aleutian-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pfister-astron.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1633,10 +1741,12 @@
       "class": "suv",
       "description": "Alla Macan. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Astron-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-gallivanter-baller-ii.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1648,7 +1758,9 @@
       "class": "suv",
       "description": "La Range Rover; nel Trailer 2 ne brucia una accanto a Jason. Anche la ST-D. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bf/Baller2-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1666,7 +1778,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-contender.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1678,10 +1790,12 @@
       "class": "suv",
       "description": "Alla Ford Raptor (il produttore è disputato tra Karin e Vapid). Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/59/Contender-GTAVI-OfficialScreenshot-AmbrosiaPostcard.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-dorado.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1693,10 +1807,12 @@
       "class": "suv",
       "description": "La Durango prima serie. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/86/Dorado-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-benefactor-dubsta.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1708,10 +1824,12 @@
       "class": "suv",
       "description": "La G-Class; nella rissa su Ocean Drive dell'Extended Look. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/19/Dubsta-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-granger.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1723,10 +1841,12 @@
       "class": "suv",
       "description": "La Suburban; anche 3600LX, taxi e polizia. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6b/Granger-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-jubilee.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1738,10 +1858,12 @@
       "class": "suv",
       "description": "Alla Rolls-Royce Cullinan; nel convoglio all'aeroporto. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ec/Jubilee-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1753,10 +1875,12 @@
       "class": "suv",
       "description": "Alla Lincoln Navigator; anche polizia. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9f/LandstalkerXL-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-canis-mesa.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1768,7 +1892,9 @@
       "class": "suv",
       "description": "La Wrangler. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/Mesa-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1831,7 +1957,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-toros.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1843,7 +1969,9 @@
       "class": "suv",
       "description": "Alla Urus. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1a/Toros-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1876,7 +2004,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-bison-900-95-monster-truck.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1888,10 +2016,12 @@
       "class": "fuoristrada",
       "description": "Il monster truck su base Ram. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a7/UnnamedBravadoMonsterTruck-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-blazer.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1903,10 +2033,12 @@
       "class": "fuoristrada",
       "description": "Il quad, nella clip Dirt-Bike Dirt-Bags. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/07/Blazer-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-caracara.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1918,10 +2050,12 @@
       "class": "fuoristrada",
       "description": "F-150 6x6; la 4x4 anche in livrea bagnino. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/85/Caracara4x4-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-annis-hellion.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1933,10 +2067,12 @@
       "class": "fuoristrada",
       "description": "Alla Nissan Patrol. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6e/Hellion-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-canis-kamacho.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1948,7 +2084,9 @@
       "class": "fuoristrada",
       "description": "Alla Jeep Crew Chief. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/85/Kamacho-GTAVI-Artwork-JasonAndLucia02.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -1966,7 +2104,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-maibatsu-manchez.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1978,10 +2116,12 @@
       "class": "moto",
       "description": "Alla KTM 500. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/Manchez-GTAVI-OfficialScreenshot-MountKalaga01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1993,10 +2133,12 @@
       "class": "fuoristrada",
       "description": "Side-by-side alla Can-Am Maverick. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Outlaw-GTAVI-OfficialScreenshot-ViceCity09.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-rancher.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2008,10 +2150,12 @@
       "class": "fuoristrada",
       "description": "La Suburban a due porte. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/76/Rancher-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-rebel.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2023,7 +2167,9 @@
       "class": "fuoristrada",
       "description": "Alla Hilux. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/75/Rebel-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2041,7 +2187,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2053,10 +2199,12 @@
       "class": "moto",
       "description": "La moto da cross di sempre. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0a/Sanchez-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2068,10 +2216,12 @@
       "class": "fuoristrada",
       "description": "Alla Super Duty. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/SandkingXL-GTAVI-Trailer1-1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-verus.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2083,10 +2233,12 @@
       "class": "fuoristrada",
       "description": "ATV alla Polaris Sportsman. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Verus-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-walton-l35.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2098,10 +2250,12 @@
       "class": "fuoristrada",
       "description": "Alla S-10. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/WaltonL35-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-yosemite-1500.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2113,10 +2267,12 @@
       "class": "fuoristrada",
       "description": "La Silverado prima serie. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Yosemite1500-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-swamp-buggy.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2128,10 +2284,12 @@
       "class": "fuoristrada",
       "description": "Il buggy da palude di Palm Beach; nome in gioco sconosciuto. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/dc/UnnamedSwampBuggy-GTAVI-Trailer1-2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-lcc-avarus.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2143,7 +2301,9 @@
       "class": "moto",
       "description": "Chopper. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/Avarus-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2161,7 +2321,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-carbon-rs.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2173,10 +2333,12 @@
       "class": "moto",
       "description": "Alla Ducati 1199. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a5/UnnamedCarbonRSStockMotorcycle-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-double-t.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2188,10 +2350,12 @@
       "class": "moto",
       "description": "Alla Honda CBR. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/44/DoubleT-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-faggio.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2203,7 +2367,9 @@
       "class": "moto",
       "description": "La Vespa. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/93/Faggio-GTAVI-Videos-JasonLucia01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2221,7 +2387,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-sovereign.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2233,10 +2399,12 @@
       "class": "moto",
       "description": "Alla Road King; anche la 107 della polizia nel leak. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/UnnamedSovereignStockMotorcycle-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-zombie-chopper.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2248,10 +2416,12 @@
       "class": "moto",
       "description": "Alla Fat Bob. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f3/ZombieChopper-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bmx.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2263,10 +2433,12 @@
       "class": "altro",
       "description": "Bicicletta BMX. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/68/BMX-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-cruiser.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2278,7 +2450,9 @@
       "class": "altro",
       "description": "Bici da spiaggia. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/Cruiser-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2296,7 +2470,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-scorcher.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2308,10 +2482,12 @@
       "class": "altro",
       "description": "Mountain bike. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/74/Scorcher-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-clarion.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2323,10 +2499,12 @@
       "class": "barca",
       "description": "Offshore alla Cigarette 38 Top Gun. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/UnnamedCigarette38TopGunBoat-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-dinghy.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2338,7 +2516,9 @@
       "class": "barca",
       "description": "Il gommone. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c2/Dinghy-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2356,7 +2536,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-lure-predator-l35p.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2368,10 +2548,12 @@
       "class": "barca",
       "description": "Alla Contender 25T; anche in versione polizia. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/34/UnnamedLurePredatorBoat-GTAVI-OfficialScreenshot-LeonidaKeys05.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dinka-marquis.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2383,10 +2565,12 @@
       "class": "barca",
       "description": "Lo yacht a vela. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6a/Marquis-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-lure-predator-s23.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2398,10 +2582,12 @@
       "class": "barca",
       "description": "Alla Contender 25 Bay. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5e/S23-GTAVI-OfficialScreenshot-LeonidaKeys05.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-speedophile-seashark.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2413,7 +2599,9 @@
       "class": "barca",
       "description": "La moto d'acqua. Vista nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/33/Seashark-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2446,7 +2634,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nave-da-crociera.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2458,10 +2646,12 @@
       "class": "barca",
       "description": "Alla Royal Caribbean Voyager; probabilmente non guidabile. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/24/UnnamedCruiseShip-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dirigibile.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2473,10 +2663,12 @@
       "class": "aereo",
       "description": "Il dirigibile alla Goodyear. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/37/UnnamedTetheredAerostatRadarSystemAircraft-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-mammoth-dodo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2488,10 +2680,12 @@
       "class": "aereo",
       "description": "Idrovolante alla DHC-2 Beaver. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/df/Dodo-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-company-duster.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2503,10 +2697,12 @@
       "class": "aereo",
       "description": "L'aereo agricolo. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Duster-GTAVI-OfficialScreenshot-Ambrosia04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jet-di-linea.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2518,7 +2714,9 @@
       "class": "aereo",
       "description": "Alla Boeing 747. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Jet-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2536,7 +2734,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jobuilt-mammatus.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2548,10 +2746,12 @@
       "class": "aereo",
       "description": "Alla Cessna 172. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bc/Mammatus-GTAVI-Artwork-LeonidaKeys.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-nimbus.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2563,10 +2763,12 @@
       "class": "aereo",
       "description": "Jet privato alla Citation X. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cd/Nimbus-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-shamal.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2578,7 +2780,9 @@
       "class": "aereo",
       "description": "Jet privato alla Learjet; il lavoro di scorta dell'Extended Look. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Shamal-GTAVI-OfficialScreenshot-ViceCity01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2596,7 +2800,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-buzzard.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2608,10 +2812,12 @@
       "class": "elicottero",
       "description": "L'elicottero d'attacco; anche la versione Police Buzzard. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/91/BuzzardAttackChopper-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-maverick.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2623,10 +2829,12 @@
       "class": "elicottero",
       "description": "Alla Bell 206; la Police Maverick è nell'Extended Look. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6a/Maverick-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-sea-sparrow.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2638,10 +2846,12 @@
       "class": "elicottero",
       "description": "Alla Sikorsky S-300, anche in copertina. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/SeaSparrow-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-supervolito.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2653,10 +2863,12 @@
       "class": "elicottero",
       "description": "Alla EC145. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4b/SuperVolito-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-swift.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2668,7 +2880,9 @@
       "class": "elicottero",
       "description": "Alla AW109. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4a/Swift-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2686,7 +2900,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-bison-1800-police.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2698,7 +2912,9 @@
       "class": "servizio",
       "description": "Pickup della polizia su base Ram. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a6/UnnamedBison2ndGenPoliceTruck-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2716,7 +2932,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-police-buffalo-stx-pursuit.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2728,10 +2944,12 @@
       "class": "servizio",
       "description": "La volante più comune, su base Charger. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b1/BuffaloSTXPursuit-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-police-gauntlet-interceptor.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2743,10 +2961,12 @@
       "class": "servizio",
       "description": "Interceptor su base Challenger Demon. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/GauntletInterceptor-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-police-ghost.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2758,10 +2978,12 @@
       "class": "servizio",
       "description": "La Stanier senza insegne. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/16/UnnamedVapidGhostPoliceCar-GTAVI-Trailer2-2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-police-riot.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2773,7 +2995,9 @@
       "class": "servizio",
       "description": "Il blindato alla Lenco BEAR. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4f/PoliceRiot-GTAVI-Trailer2-1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2806,7 +3030,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dashound.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2818,10 +3042,12 @@
       "class": "servizio",
       "description": "Il pullman alla Greyhound. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1a/Dashound-GTAVI-Postcard-LeonidaKeys.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-treno-merci.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2833,10 +3059,12 @@
       "class": "servizio",
       "description": "Locomotiva alla GE AC4400CW. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e7/FreightTrain-GTAVI-OfficialScreenshot-MountKalagaNationalPark06.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-treno-passeggeri-amloco.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2848,10 +3076,12 @@
       "class": "servizio",
       "description": "Locomotiva alla GE Genesis. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/17/UnnamedGEGenesisLocomotive-GTAVI-Postcard-PortGellhorn.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vice-city-metro.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2863,7 +3093,9 @@
       "class": "servizio",
       "description": "I treni blu e argento in stile Hitachi della metropolitana; due treni nel trailer di lancio. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/UnnamedVCMMTrain-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2881,7 +3113,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-rental-shuttle-bus.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2893,10 +3125,12 @@
       "class": "servizio",
       "description": "Navetta. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/87/UnnamedBurritoShuttleBus-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-tow-truck.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2908,7 +3142,9 @@
       "class": "servizio",
       "description": "Il carro attrezzi anni Ottanta. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/8b/TowTruck-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -2971,7 +3207,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jobuilt-flatbed.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2983,7 +3219,9 @@
       "class": "industriale",
       "description": "Pianale. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/84/UnnamedFordFSeriesFlatbedTruck-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -3001,7 +3239,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jobuilt-rubble.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3013,7 +3251,9 @@
       "class": "industriale",
       "description": "Camion per macerie. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/Rubble-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -3091,7 +3331,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-mtl-packer.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3103,10 +3343,12 @@
       "class": "industriale",
       "description": "Bisarca. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/57/Packer-GTAVI-OfficialScreenshot-AmbrosiaPostcard.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jobuilt-phantom.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3118,7 +3360,9 @@
       "class": "industriale",
       "description": "La motrice dell'inquadratura iniziale del Trailer 1; anche la Custom. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Phantom-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,
@@ -3136,7 +3380,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-bison.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3148,10 +3392,12 @@
       "class": "furgone",
       "description": "Il pickup Ram; anche 1800 e 900 '95. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9d/Bison-GTAVI-OfficialScreenshot-Grassrivers04.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-bobcat-xl.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3163,10 +3409,12 @@
       "class": "furgone",
       "description": "Pickup. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/73/BobcatXL-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-boxville.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3178,10 +3426,12 @@
       "class": "furgone",
       "description": "Furgone. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c7/Boxville-GTAVI-OfficialScreenshot-Ambrosia02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-burrito.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3193,10 +3443,12 @@
       "class": "furgone",
       "description": "Il furgone. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/89/Burrito-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-camper.png",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -3208,10 +3460,12 @@
       "class": "furgone",
       "description": "Camper. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/27/UnnamedClassAMotorhome-GTAVI-OfficialScreenshot-RaulBautista03.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-zirconium-journey.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3223,10 +3477,12 @@
       "class": "furgone",
       "description": "Il camper. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/07/JourneyII-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-minivan.png",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -3238,10 +3494,12 @@
       "class": "furgone",
       "description": "Monovolume. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7e/UnnamedFifthGenChryslerTownCountryMinivan-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-rumpo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3253,10 +3511,12 @@
       "class": "furgone",
       "description": "Furgone; anche Custom nel leak. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b8/UnnamedThirdGenRamProMasterVan-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-speedo.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3268,10 +3528,12 @@
       "class": "furgone",
       "description": "Furgone. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f5/Speedo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bravado-youga-classic.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3283,7 +3545,9 @@
       "class": "furgone",
       "description": "Il furgone anni Settanta. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4f/YougaClassic-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
       "image": null,

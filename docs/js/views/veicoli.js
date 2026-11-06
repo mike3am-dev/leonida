@@ -47,7 +47,7 @@ export function render(params, query) {
       <a class="filter" role="button" aria-pressed="${!cls}" href="${q('')}">Tutti</a>
       ${classes.map((c) => `<a class="filter" role="button" aria-pressed="${cls === c}" href="${q(c)}">${esc(CLASS_LABEL[c] || c)} <span class="muted">${all.filter((x) => x.class === c).length}</span></a>`).join('')}
     </div>
-    ${list.length ? list.map((x) => row({ href: `#/veicoli/${x.id}?tipo=${tipo}${cls ? '&classe=' + esc(cls) : ''}`, thumb: x.image, icon: tipo === 'armi' ? 'i-bolt' : 'i-car',
+    ${list.length ? list.map((x) => row({ href: `#/veicoli/${x.id}?tipo=${tipo}${cls ? '&classe=' + esc(cls) : ''}`, thumb: x.image, thumbFallback: x.imageUrl, icon: tipo === 'armi' ? 'i-bolt' : 'i-car',
         title: esc(x.name), meta: `${esc(x.manufacturer || '')}${x.manufacturer ? ' · ' : ''}${esc(CLASS_LABEL[x.class] || x.class)}${x.status !== 'verificato' ? ' · ' + (SRC[x.source] || 'da verificare') : ''}`,
         end: favs[x.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-bookmark"/></svg>' : '' })).join('')
       : '<div class="placeholder"><strong>Niente qui</strong>Le schede arrivano dai dati.</div>'}`;

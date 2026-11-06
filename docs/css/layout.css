@@ -67,6 +67,9 @@
 .tab svg { width: 22px; height: 22px; }
 .tab[aria-current="page"] { color: var(--ink); }
 .tab[aria-current="page"] svg { color: var(--accent); }
+/* Home = il logo di Leonida, più grande */
+.tab--home svg { width: 30px; height: 30px; color: var(--magenta); margin-top: -3px; }
+.tab--home span { font-family: var(--font-display); font-style: italic; font-size: .8rem; }
 
 /* ==========================================================
    APERTO: barra laterale + colonna unica
@@ -86,11 +89,11 @@
     background: color-mix(in srgb, var(--paper) 50%, var(--bg));
     overflow-y: auto; scrollbar-width: none;
   }
-  .rail__brand { display: grid; place-items: center; gap: 2px; min-height: 64px; margin-bottom: var(--s-3); text-decoration: none; }
-  .rail__brand svg { width: 30px; height: 30px; color: var(--magenta); }
-  .rail__brand span { font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--ink); }
   .rail .tab { min-height: 66px; font-size: .72rem; line-height: 1.15; border-radius: var(--radius-sm); padding: 8px 4px; }
   .rail .tab svg { width: 26px; height: 26px; }
+  .rail .tab--home { min-height: 92px; margin-bottom: var(--s-3); }
+  .rail .tab--home svg { width: 44px; height: 44px; margin-top: 0; }
+  .rail .tab--home span { font-size: 1rem; }
   .rail .tab[aria-current="page"] { background: color-mix(in srgb, var(--accent) 14%, transparent); }
   .rail__spacer { flex: 1; }
 

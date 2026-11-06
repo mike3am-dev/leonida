@@ -1,18 +1,21 @@
-/** Home: la plancia di comando */
+/** Home: la plancia di comando, con il carattere di Leonida */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, fmtDate, relTime, statusChip } from '../ui/dom.js';
-import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, row, acc, hero } from './shared.js';
+import { esc, fmtDate, relTime } from '../ui/dom.js';
+import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel } from './shared.js';
+import { newsImgTag } from './novita.js';
+import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('home');
+const HERO_IMGS = ['assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
+const dayIndex = () => Math.floor(Date.now() / 86400000);
 
-function countdownPill() {
+function countdown() {
   const rel = new Date(db.meta.releaseDate + 'T00:00:00');
   const ms = rel - Date.now();
-  if (ms <= 0) return '';
-  const d = Math.floor(ms / 86400000), h = Math.floor((ms % 86400000) / 3600000);
-  return `<div class="pill-row"><span class="pill pill--accent"><b>${d}</b> giorni <b>${h}</b> ore al lancio</span><span class="pill">19 novembre · PS5 · Ultimate Edition</span></div>`;
+  if (ms <= 0) return { after: true, days: Math.floor(-ms / 86400000) + 1 };
+  return { after: false, days: Math.floor(ms / 86400000), hours: Math.floor((ms % 86400000) / 3600000) };
 }
 
 export function render() {
@@ -24,75 +27,78 @@ export function render() {
   const districts = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
   const zones = districts.map((d) => ({ d, s: districtStats(d.id) })).sort((a, b) => (b.s.total - b.s.done) - (a.s.total - a.s.done));
   const met = vis(db.characters).filter((c) => c.firstMissionId && st.missions[c.firstMissionId]?.state);
+  const cast = (met.length ? met : vis(db.characters).filter((c) => c.image)).slice(0, 12);
   const lastDistrict = st.current.districtId ? byId(st.current.districtId) : null;
   const latestNews = vis(db.news).slice(0, 3);
-  const notes = st.notes.slice(0, 2);
-  const trophies = Object.keys(st.trophies || {}).length;
+  const trophies = Object.keys(st.trophies || {}).length, trophyTotal = (db.trophies || []).length;
+  const tpct = trophyTotal ? Math.round(trophies / trophyTotal * 100) : 0;
+  const cd = countdown();
+  const di = dayIndex();
+  const heroImg = cur?.image || HERO_IMGS[di % HERO_IMGS.length];
+  const tips = vis(db.tips); const tip = tips.length ? tips[di % tips.length] : null;
+  const radios = vis(db.radio); const radio = radios.length ? radios[di % radios.length] : null;
   const circ = 2 * Math.PI * 54;
+  const luoghi = db.luoghi || [];
 
   const left = `
-    ${countdownPill()}
+    <section class="home-hero">
+      <img src="${esc(heroImg)}" alt="">
+      <div class="home-hero__veil"></div>
+      <div class="home-hero__text">
+        <span class="kicker">Leonida · Guida di campo</span>
+        ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>`
+          : cd.after ? `<span class="home-hero__eyebrow">Giorno ${cd.days} a Leonida</span><h1 class="home-hero__title">${next ? esc(next.title) : 'Benvenuto a Leonida'}</h1>${next ? `<a class="btn btn--accent" href="#/missioni/${esc(next.id)}">Comincia da qui</a>` : ''}`
+          : `<span class="home-hero__eyebrow">Mancano</span><div class="countdown"><b>${cd.days}</b><span>giorni</span><b>${cd.hours}</b><span>ore</span></div><span class="home-hero__sub">al 19 novembre · PS5 · Ultimate Edition</span>`}
+      </div>
+    </section>
 
-    ${cur ? `<a class="card card--link card--now" href="#/missioni/${esc(cur.id)}">
-        <div class="kicker kicker--accent"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</div>
-        <h2>${esc(cur.title)}</h2>
-        <p class="muted small">${spoiler.text(cur, cur.summary || '')}</p>
-        <div class="btn-row"><span class="btn btn--accent">Apri la missione</span></div>
-      </a>`
-      : `<div class="card card--now">
-        <div class="kicker kicker--accent">Da dove si comincia</div>
-        <h2>${next ? esc(next.title) : 'Nessuna missione in corso'}</h2>
-        <p class="muted small">${next ? 'Apri la missione e tocca «Inizio adesso»: la guida ti seguirà.' : 'Quando arrivano le missioni vere, qui vedrai sempre quella che stai facendo.'}</p>
-        <div class="btn-row">${next ? `<a class="btn btn--solid" href="#/missioni/${esc(next.id)}">Apri la missione</a>` : ''}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button></div>
-      </div>`}
-
-    <div class="block">
-      <span class="kicker">Avanzamento</span>
-      <div class="dash">
+    <section class="profile">
+      <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di Leonida</span></div>
+      <div class="profile__grid">
         <div class="ring">
           <svg viewBox="0 0 120 120" aria-hidden="true">
             <defs><linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient></defs>
-            <circle class="ring__track" cx="60" cy="60" r="54" fill="none" stroke-width="6"/>
-            <circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="6" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - s.pct / 100)}"/>
+            <circle class="ring__track" cx="60" cy="60" r="54" fill="none" stroke-width="7"/>
+            <circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="7" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - s.pct / 100)}"/>
           </svg>
           <div class="ring__label"><b>${s.pct}%</b><small>Totale</small></div>
         </div>
-        <div class="tiles">
-          <a class="tile" href="#/missioni"><b>${s.missions.done}<span>/${s.missions.total}</span></b><small>Missioni</small></a>
-          <a class="tile" href="#/collezionabili"><b>${s.collectibles.done}<span>/${s.collectibles.total}</span></b><small>Collezionabili</small></a>
-          <a class="tile" href="#/trofei"><b>${trophies}<span>/${db.trophies?.length || '?'}</span></b><small>Trofei</small></a>
-          <a class="tile" href="#/mappa"><b>${s.activities.done}<span>/${s.activities.total}</span></b><small>Attività</small></a>
+        <div class="tiles tiles--neon">
+          <a class="tile tile--teal" href="#/missioni"><svg aria-hidden="true"><use href="#i-flag"/></svg><b>${s.missions.done}<span>/${s.missions.total}</span></b><small>Missioni</small><i class="progress"><i style="--p:${s.missions.total ? s.missions.done / s.missions.total * 100 : 0}%"></i></i></a>
+          <a class="tile tile--orange" href="#/collezionabili"><svg aria-hidden="true"><use href="#i-star"/></svg><b>${s.collectibles.done}<span>/${s.collectibles.total}</span></b><small>Collezionabili</small><i class="progress"><i style="--p:${s.collectibles.total ? s.collectibles.done / s.collectibles.total * 100 : 0}%"></i></i></a>
+          <a class="tile tile--gold" href="#/trofei">${cup('oro', 22)}<b>${trophies}<span>/${trophyTotal || '?'}</span></b><small>Trofei</small><i class="progress"><i style="--p:${tpct}%"></i></i></a>
+          <a class="tile tile--magenta" href="#/mappa"><svg aria-hidden="true"><use href="#i-map"/></svg><b>${s.activities.done}<span>/${s.activities.total}</span></b><small>Attività</small><i class="progress"><i style="--p:${s.activities.total ? s.activities.done / s.activities.total * 100 : 0}%"></i></i></a>
         </div>
       </div>
-    </div>
-
-    <div class="block">
-      <span class="kicker">Dove ero rimasto</span>
-      <dl class="facts">
-        <dt>Sessione</dt><dd>${lastSession ? `${fmtDate(lastSession.start, { weekday: 'long', day: 'numeric', month: 'long' })} · ${relTime(lastSession.end)}` : 'Nessuna ancora'}</dd>
-        <dt>Zona</dt><dd>${lastDistrict ? `<a href="#/mappa/${esc(lastDistrict.id)}">${esc(lastDistrict.name)}</a>` : '—'}</dd>
-        <dt>Prossimo</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
-        <dt>Appunti</dt><dd>${st.notes.length ? `${st.notes.length}, ${st.notes.filter((n) => !n.exported).length} da passare a Claude · <a href="#/diario">apri</a>` : 'nessuno · <a href="#/diario">scrivi</a>'}</dd>
+      <dl class="facts facts--row">
+        <dt>Zona</dt><dd>${lastDistrict ? `<a href="#/mappa?zona=${esc(lastDistrict.id)}">${esc(lastDistrict.name)}</a>` : '—'}</dd>
+        <dt>Prossima</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
+        <dt>Appunti</dt><dd>${st.notes.length ? `<a href="#/diario">${st.notes.length}${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare` : ''}</a>` : '<a href="#/diario">scrivi il primo</a>'}</dd>
       </dl>
-      ${notes.length ? `<div class="notes-mini">${notes.map((n) => `<div class="note-mini"><span class="note__time">${relTime(n.ts)}</span>${esc(n.text.slice(0, 120))}${n.text.length > 120 ? '…' : ''}</div>`).join('')}</div>` : ''}
+    </section>
+
+    <section class="block">
+      <div class="block__head"><span class="kicker">${met.length ? 'Personaggi incontrati' : 'Il cast'}</span><a class="small" href="#/personaggi">Tutti</a></div>
+      <div class="stories">${cast.map((c) => `<a class="story ${met.includes(c) ? 'is-met' : ''}" href="#/personaggi/${esc(c.id)}"><span class="story__ring"><img src="${esc(c.image)}" alt="" loading="lazy"></span><span class="story__name">${esc(c.name.split(' ')[0])}</span></a>`).join('')}</div>
+      ${met.length ? '' : '<p class="small muted" style="margin-top:var(--s-2)">Quando completi la missione in cui li incontri, qui restano solo quelli conosciuti davvero.</p>'}
+    </section>
+
+    <section class="block">
+      <div class="block__head"><span class="kicker">Territori</span><a class="small" href="#/mappa">Mappa</a></div>
+      <div class="zonestrip">${zones.map(({ d, s: z }) => `<a class="zcard" href="#/mappa?zona=${esc(d.id)}">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}<span class="zcard__veil"></span><span class="zcard__text"><b>${esc(d.name.replace(' National Park', ''))}</b><small>${z.total ? `${z.done} / ${z.total}` : `${luoghi.filter((l) => l.districtId === d.id).length || (d.pois || []).length} luoghi`}</small><i class="progress"><i style="--p:${z.pct}%"></i></i></span></a>`).join('')}</div>
+    </section>
+
+    <div class="duo">
+      ${tip ? `<a class="card card--tip" href="#/news/${esc(tip.id)}"><span class="kicker kicker--accent">Lo sapevi?</span><h3>${esc(tip.title)}</h3><p class="small">${spoiler.isHidden(tip) ? '⚠ Contiene spoiler' : esc(tip.body.slice(0, 140))}…</p></a>` : ''}
+      ${radio ? `<a class="card card--radio" href="#/cultura/${esc(radio.id)}"><span class="vinyl vinyl--mini"><span class="vinyl__disc"></span>${radio.image ? `<img class="vinyl__label" src="${esc(radio.image)}" alt="">` : ''}</span><span><span class="kicker kicker--accent">In onda oggi</span><h3>${esc(radio.name)}</h3><p class="small muted">${esc(radio.genre || '')}${radio.host ? ' · ' + esc(radio.host) : ''}</p></span></a>` : ''}
     </div>
 
-    <div class="block">
-      <span class="kicker">Zone da completare</span>
-      ${zones.slice(0, 3).map(({ d, s }) => `<a class="progress-row" href="#/mappa/${esc(d.id)}"><span>${esc(d.name)}</span><span class="small muted tnum">${s.total ? `${s.done} / ${s.total}` : 'nessun dato'}</span><div class="progress"><i style="--p:${s.pct}%"></i></div></a>`).join('')}
-      ${zones.length > 3 ? acc('Tutte le zone', zones.slice(3).map(({ d, s }) => `<a class="progress-row" href="#/mappa/${esc(d.id)}"><span>${esc(d.name)}</span><span class="small muted tnum">${s.total ? `${s.done} / ${s.total}` : 'nessun dato'}</span><div class="progress"><i style="--p:${s.pct}%"></i></div></a>`).join('')) : ''}
-    </div>
+    <section class="block">
+      <div class="block__head"><span class="kicker">Ultime news</span><a class="small" href="#/news">Tutte</a></div>
+      <div class="cards cards--feat">${latestNews.map((n, i) => `<a class="cardx ${i === 0 ? 'cardx--wide' : ''}" href="#/news/${esc(n.id)}"><div class="cardx__img">${newsImgTag(n)}</div><div class="cardx__body"><div class="cardx__kicker">${esc(fmtDate(n.date, { day: 'numeric', month: 'long' }))}${n.outlet ? ' · ' + esc(n.outlet) : ''}</div><div class="cardx__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</div></div></a>`).join('')}</div>
+    </section>
 
-    <div class="block">
-      <span class="kicker">Personaggi incontrati</span>
-      ${met.length ? `<div class="chips" style="margin-top:var(--s-2)">${met.map((c) => `<a class="chip" href="#/personaggi/${esc(c.id)}">${esc(c.name)}</a>`).join('')}</div>` : `<p class="muted small">Nessuno ancora: compaiono qui quando completi la missione in cui li incontri. Nel frattempo, <a href="#/personaggi">il cast</a>.</p>`}
-    </div>
-
-    <div class="block">
-      <span class="kicker">Ultime news</span>
-      ${latestNews.map((n) => row({ href: `#/news/${n.id}`, thumb: n.image, num: fmtDate(n.date, { day: 'numeric', month: 'short' }), title: spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title), meta: esc(n.outlet || '') })).join('')}
-      <a class="btn btn--ghost btn--block" href="#/news" style="margin-top:var(--s-3)">Tutte le news</a>
-    </div>`;
+    <div class="actions actions--home"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
 
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }

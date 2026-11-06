@@ -3,7 +3,7 @@
  * Ogni voce porta lo stato dalla versione N alla N+1.
  * Quando cambi il formato: alza CURRENT_VERSION e aggiungi una funzione.
  */
-export const CURRENT_VERSION = 1;
+export const CURRENT_VERSION = 2;
 
 export function emptyState() {
   return {
@@ -17,7 +17,7 @@ export function emptyState() {
     sessions: [],      // { start, end }
     current: { missionId: null, districtId: null },
     settings: {
-      theme: 'dark',
+      theme: 'auto',       // segue il sistema, come Safari
       spoilerShield: true,
       manualAct: null,     // null = segue la progressione
       showExamples: false,
@@ -27,7 +27,8 @@ export function emptyState() {
 }
 
 const steps = {
-  // 1: (s) => { ...; s.version = 2; return s; },
+  // 1 → 2: il tema predefinito diventa «auto» (segue il sistema); chi aveva lasciato «scuro» passa ad auto.
+  1: (s) => { if (s.settings && (s.settings.theme === 'dark' || !s.settings.theme)) s.settings.theme = 'auto'; s.version = 2; return s; },
 };
 
 export function migrate(state) {
