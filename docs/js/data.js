@@ -2,12 +2,12 @@
  * Carica i JSON dei contenuti e li mette in relazione.
  * L'interfaccia legge da qui e basta: nessun contenuto vive nel codice.
  */
-const FILES = ['meta', 'missions', 'districts', 'collectibles', 'activities', 'characters', 'radio', 'brands', 'tips', 'vehicles', 'weapons', 'news'];
+const FILES = ['meta', 'missions', 'districts', 'collectibles', 'activities', 'characters', 'radio', 'brands', 'tips', 'vehicles', 'weapons', 'news', 'trophies'];
 
 export const db = {
   meta: null,
   acts: [], missions: [], districts: [], collectibles: [], collectibleCategories: [],
-  activities: [], characters: [], radio: [], brands: [], tips: [], vehicles: [], weapons: [], news: [], pois: [],
+  activities: [], characters: [], radio: [], brands: [], tips: [], vehicles: [], weapons: [], news: [], trophies: [], pois: [],
   byId: new Map(),
   ready: false,
 };
@@ -33,6 +33,7 @@ export async function loadAll() {
   db.tips = raw.tips.items || [];
   db.vehicles = raw.vehicles.items || [];
   db.weapons = raw.weapons.items || [];
+  db.trophies = raw.trophies.items || [];
   db.news = (raw.news.items || []).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   db.pois = db.districts.flatMap((d) => (d.pois || []).map((p) => ({ ...p, districtId: d.id, status: p.status || d.status, source: p.source || d.source, spoilerLevel: p.spoilerLevel ?? 0, example: p.example ?? d.example })));
 
@@ -40,7 +41,7 @@ export async function loadAll() {
   const tag = (list, type) => list.forEach((it) => { it._type = type; db.byId.set(it.id, it); });
   tag(db.acts, 'act'); tag(db.missions, 'mission'); tag(db.districts, 'district');
   tag(db.collectibles, 'collectible'); tag(db.activities, 'activity'); tag(db.characters, 'character');
-  tag(db.radio, 'radio'); tag(db.brands, 'brand'); tag(db.tips, 'tip'); tag(db.collectibleCategories, 'category'); tag(db.vehicles, 'vehicle'); tag(db.weapons, 'weapon'); tag(db.news, 'news'); tag(db.pois, 'poi');
+  tag(db.radio, 'radio'); tag(db.brands, 'brand'); tag(db.tips, 'tip'); tag(db.collectibleCategories, 'category'); tag(db.vehicles, 'vehicle'); tag(db.weapons, 'weapon'); tag(db.news, 'news'); tag(db.trophies, 'trophy'); tag(db.pois, 'poi');
 
   db.missions.sort((a, b) => actNum(a.actId) - actNum(b.actId) || (a.chapter || 0) - (b.chapter || 0) || (a.order || 0) - (b.order || 0));
   db.ready = true;
@@ -57,13 +58,13 @@ export function visible(list, showExamples) {
 
 export const TYPE_LABEL = {
   mission: 'Missione', district: 'Distretto', collectible: 'Collezionabile', activity: 'Attività',
-  character: 'Personaggio', radio: 'Radio', brand: 'Marchio', tip: 'Consiglio', act: 'Atto', category: 'Categoria', vehicle: 'Veicolo', weapon: 'Arma', poi: 'Luogo', news: 'Novità',
+  character: 'Personaggio', radio: 'Radio', brand: 'Marchio', tip: 'Consiglio', act: 'Atto', category: 'Categoria', vehicle: 'Veicolo', weapon: 'Arma', poi: 'Luogo', news: 'Novità', trophy: 'Trofeo',
 };
 export const TYPE_ROUTE = {
   mission: (it) => `/missioni/${it.id}`, district: (it) => `/atlante/${it.id}`,
   collectible: (it) => `/collezionabili?cat=${it.categoryId}&q=${encodeURIComponent(it.name)}`,
   activity: (it) => `/atlante/${it.districtId || ''}`, character: (it) => `/personaggi/${it.id}`,
-  radio: (it) => `/cultura/${it.id}`, brand: (it) => `/cultura/${it.id}`, tip: () => `/prima-ora`,
+  radio: (it) => `/cultura/${it.id}`, brand: (it) => `/cultura/${it.id}`, tip: (it) => `/news?tipo=guide#${it.id}`,
   act: (it) => `/missioni?atto=${it.id}`, category: (it) => `/collezionabili?cat=${it.id}`,
   vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/veicoli/${it.id}?tipo=armi`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
 };

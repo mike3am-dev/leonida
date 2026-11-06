@@ -1,14 +1,26 @@
-/** Personaggi, Radio e Cultura, Prima ora, Online */
+/** Personaggi, Radio, Mondo */
 import { db, byId } from '../data.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, opener, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 const srcNote = (x) => x.status !== 'verificato' ? ' · ' + (SRC[x.source] || 'da verificare') : '';
+const fonte = (x) => `<p class="source-line">Fonte: ${esc(x.source)}${x.sourceUrl ? ` · <a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
 
 /* ---------- Personaggi ---------- */
 const secP = sectionOf('personaggi');
+const GROUPS = [
+  ['Le Keys: la famiglia di Jason', ['chr-brian', 'chr-lori', 'chr-cal']],
+  ['Vice City: la scena musicale', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
+  ['Il colpo grosso', ['chr-raul']],
+  ['Megamundo', ['chr-andres', 'chr-petra', 'chr-valentina', 'chr-cesar']],
+  ['Strada, gang e corse', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee']],
+  ['La legge e lo Stato', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw']],
+  ['Affari e mezzi', ['chr-wyman', 'chr-randy', 'chr-billy']],
+  ['Voci, schermi e cult', ['chr-camillo', 'chr-n3on', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
+  ['Dai leak (da verificare)', ['chr-kai', 'chr-shanese', 'chr-leak-names']],
+];
 export function renderPersonaggi(params) {
   const chars = vis(db.characters);
   const c = params.id ? byId(params.id) : null;
@@ -20,64 +32,73 @@ export function renderPersonaggi(params) {
       ${galleryHtml(c)}
       ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="chips" style="margin-top:var(--s-2)">${c.relations.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#/personaggi/${esc(id)}">${esc(r.name)}</a>` : ''; }).join('')}</div></div>` : ''}
       ${c.firstMissionId ? `<div class="block"><span class="kicker">Prima apparizione</span><a class="btn" href="#/missioni/${esc(c.firstMissionId)}">${esc(byId(c.firstMissionId)?.title || c.firstMissionId)}</a></div>` : ''}
-      <p class="source-line">Fonte: ${esc(c.source)}${c.sourceUrl ? ` · <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
+      ${fonte(c)}`;
     return { left: '', right, show: 'right', accent: secP.accent, title: c.name };
   }
-  const prot = chars.filter((x) => x.isProtagonist), cast = chars.filter((x) => !x.isProtagonist);
-  const card = (x, wide) => `<a class="cardx ${wide ? 'cardx--wide' : ''}" href="#/personaggi/${esc(x.id)}">
-    <div class="cardx__img">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-person"/></svg>'}</div>
+  const card = (x) => `<a class="cardx" href="#/personaggi/${esc(x.id)}">
+    <div class="cardx__img cardx__img--face">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-person"/></svg>'}</div>
     <div class="cardx__body"><div class="cardx__title">${esc(x.name)}</div><div class="cardx__meta">${esc(x.role || '')}${srcNote(x)}</div></div></a>`;
+  const used = new Set();
+  const groupHtml = GROUPS.map(([title, ids]) => {
+    const list = ids.map((id) => chars.find((x) => x.id === id)).filter(Boolean);
+    list.forEach((x) => used.add(x.id));
+    if (!list.length) return '';
+    return `<span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">${esc(title)}</span><div class="cards">${list.map(card).join('')}</div>`;
+  }).join('');
+  const rest = chars.filter((x) => !x.isProtagonist && !used.has(x.id));
   const left = `${sectionHead(secP, `${chars.length} schede`)}
     <span class="kicker" style="display:block;margin-bottom:var(--s-2)">Protagonisti</span>
-    <div class="cards" style="grid-template-columns:repeat(2,1fr)">${prot.map((x) => card(x)).join('')}</div>
-    <span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Il cast di Leonida</span>
-    <div class="cards">${cast.filter((x) => x.image).map((x) => card(x)).join('')}</div>
-    <div class="block">${cast.filter((x) => !x.image).map((x) => row({ href: `#/personaggi/${x.id}`, icon: 'i-person', title: esc(x.name), meta: `${esc(x.role || '')}${srcNote(x)}` })).join('')}</div>`;
+    <div class="cards cards--2">${chars.filter((x) => x.isProtagonist).map(card).join('')}</div>
+    ${groupHtml}
+    ${rest.length ? `<span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Altri</span><div class="cards">${rest.map(card).join('')}</div>` : ''}`;
   return { left, right: '', show: 'left', accent: secP.accent, title: 'Personaggi' };
 }
 
-/* ---------- Radio e Cultura ---------- */
-const secC = sectionOf('cultura');
+/* ---------- Radio ---------- */
+const secR = sectionOf('radio');
+const MUSIC_CATS = ['Colonna sonora', 'Musica'];
+const appleSearch = (q) => `https://music.apple.com/it/search?term=${encodeURIComponent(q)}`;
 export function renderCultura(params) {
-  const radio = vis(db.radio), brands = vis(db.brands);
+  const radio = vis(db.radio), music = vis(db.brands).filter((b) => MUSIC_CATS.includes(b.category));
   const it = params.id ? byId(params.id) : null;
   if (it) {
+    const tracks = (it.highlights || []).map((h) => typeof h === 'string' ? { title: h } : h);
     const right = `
-      ${backLink('/cultura', 'Radio e Cultura')}
-      ${hero(it, { kicker: it._type === 'radio' ? `Stazione radio${it.genre ? ' · ' + it.genre : ''}` : it.category || 'Cultura', title: it.name, lede: it.host ? `Con ${it.host}` : '', chips: statusChip(it) })}
+      ${backLink('/cultura', 'Radio')}
+      ${it._type === 'radio' ? `<div class="vinyl-wrap"><div class="vinyl"><div class="vinyl__disc"></div>${it.image ? `<img class="vinyl__label" src="${esc(it.image)}" alt="">` : ''}</div>
+          <div><span class="kicker kicker--accent">Stazione radio · ${esc(it.genre || '')}</span><h1>${esc(it.name)}</h1>${it.host ? `<p class="lede">Con ${esc(it.host)}</p>` : ''}<div class="chips">${statusChip(it)}</div></div></div>`
+        : hero(it, { kicker: it.category || 'Musica', title: it.name, chips: statusChip(it) })}
       <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Descrizione in arrivo.')}</p>`)}</div>
-      ${it.highlights?.length ? `<div class="block"><span class="kicker">In scaletta</span>${it.highlights.map((h) => row({ href: '#/cultura/' + it.id, icon: 'i-radio', title: esc(typeof h === 'string' ? h : h.title === '—' ? h.artist : h.title), meta: typeof h === 'string' ? '' : (h.title === '—' ? '' : esc(h.artist)) + (h.status === 'verificato' ? '' : ' · community') })).join('')}</div>` : (it._type === 'radio' ? '<p class="muted small">La scaletta la compili tu, un brano alla volta.</p>' : '')}
-      <p class="source-line">Fonte: ${esc(it.source)}${it.sourceUrl ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
-    return { left: '', right, show: 'right', accent: secC.accent, title: it.name };
+      ${tracks.length ? `<div class="block"><span class="kicker">In scaletta</span>
+        ${tracks.map((h) => `<div class="track"><span class="track__icon"><svg aria-hidden="true"><use href="#i-radio"/></svg></span><span><span class="track__title">${esc(h.title === '—' ? h.artist : h.title)}</span><span class="track__meta">${esc(h.title === '—' ? '' : h.artist || '')}${h.status === 'verificato' ? '' : ' · community'}</span></span><a class="btn btn--ghost track__btn" href="${appleSearch((h.artist || '') + ' ' + (h.title === '—' ? '' : h.title || ''))}" target="_blank" rel="noopener">Apple Music</a></div>`).join('')}</div>`
+        : (it._type === 'radio' ? '<p class="muted small">La scaletta la compili tu, un brano alla volta, quando lo riconosci alla radio.</p>' : '')}
+      ${it._type !== 'radio' ? `<div class="actions"><a class="btn btn--solid" href="${appleSearch(it.name)}" target="_blank" rel="noopener">Cerca su Apple Music</a></div>` : ''}
+      ${fonte(it)}`;
+    return { left: '', right, show: 'right', accent: secR.accent, title: it.name };
+  }
+  const left = `${sectionHead(secR, `${radio.length} stazioni`)}
+    <div class="cards">${radio.map((r) => `<a class="cardx" href="#/cultura/${esc(r.id)}"><div class="cardx__img cardx__img--logo">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-radio"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(r.name)}</div><div class="cardx__meta">${esc(r.genre || '')}${r.host ? ' · ' + esc(r.host) : ''}</div></div></a>`).join('')}</div>
+    <span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Dischi e canzoni</span>
+    <div class="cards">${music.map((b) => `<a class="cardx" href="#/cultura/${esc(b.id)}"><div class="cardx__img cardx__img--logo">${b.image ? `<img src="${esc(b.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-star"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(b.name)}</div><div class="cardx__meta">${esc(b.category || '')}</div></div></a>`).join('')}</div>`;
+  return { left, right: '', show: 'left', accent: secR.accent, title: 'Radio' };
+}
+
+/* ---------- Mondo: marchi, app, fazioni, TV ---------- */
+const secM = sectionOf('mondo');
+export function renderMondo(params) {
+  const all = vis(db.brands).filter((b) => !MUSIC_CATS.includes(b.category));
+  const it = params.id ? byId(params.id) : null;
+  if (it) {
+    const right = `${backLink('/mondo', 'Mondo')}${hero(it, { kicker: it.category || 'Mondo', title: it.name, chips: statusChip(it) })}
+      <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || '')}</p>`)}</div>${galleryHtml(it)}${fonte(it)}`;
+    return { left: '', right, show: 'right', accent: secM.accent, title: it.name };
   }
   const groups = {};
-  for (const b of brands) (groups[b.category || 'Altro'] ||= []).push(b);
-  const left = `${sectionHead(secC, `${radio.length} radio · ${brands.length} voci`)}
-    <span class="kicker" style="display:block;margin-bottom:var(--s-2)">In onda su Leonida</span>
-    <div class="cards">${radio.map((r) => `<a class="cardx" href="#/cultura/${esc(r.id)}"><div class="cardx__img cardx__img--logo">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-radio"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(r.name)}</div><div class="cardx__meta">${esc(r.genre || '')}</div></div></a>`).join('')}</div>
-    ${Object.entries(groups).map(([cat, list]) => `<div class="block">${acc(`${cat} (${list.length})`, list.map((b) => row({ href: `#/cultura/${b.id}`, thumb: b.image, icon: 'i-star', title: esc(b.name), meta: `${esc(b.category || '')}${srcNote(b)}` })).join(''), ['Colonna sonora', 'Edizione', 'Bonus di acquisto', 'App'].includes(cat))}</div>`).join('')}`;
-  return { left, right: '', show: 'left', accent: secC.accent, title: 'Radio e Cultura' };
-}
-
-/* ---------- Prima ora ---------- */
-const secT = sectionOf('prima-ora');
-const CAT_LABEL = { 'prima-ora': 'Prima ora', generale: 'Generale', combattimento: 'Combattimento', soldi: 'Soldi', guida: 'Guida e veicoli', esplorazione: 'Esplorazione', online: 'Online', trasporti: 'Spostarsi per Leonida', sistemi: 'Sistemi di gioco', tecnica: 'Tecnica e console', storia: 'Storia (senza spoiler)' };
-export function renderPrimaOra() {
-  const tips = vis(db.tips).sort((a, b) => (a.priority ?? 50) - (b.priority ?? 50));
-  const cats = [...new Set(tips.map((t) => t.category))];
-  const tipCard = (t, i) => `<div class="card" style="margin-top:var(--s-3)">${i !== undefined ? `<div class="kicker kicker--accent">${String(i + 1).padStart(2, '0')}</div>` : ''}<h2 style="font-size:1.3rem">${esc(t.title)}</h2><div class="prose">${spoiler.wrap(t, `<p>${esc(t.body)}</p>`)}</div><div class="chips">${statusChip(t)}</div></div>`;
-  const first = tips.filter((t) => t.category === 'prima-ora');
-  const left = `${sectionHead(secT, `${tips.length} consigli`)}
-    <p class="lede">Quello che conviene sapere al giorno uno, prima ancora di prendere il pad.</p>
-    ${first.map((t, i) => tipCard(t, i)).join('')}
-    ${cats.filter((c) => c !== 'prima-ora').map((c) => `<div class="block">${acc(`${CAT_LABEL[c] || c} (${tips.filter((t) => t.category === c).length})`, tips.filter((t) => t.category === c).map((t) => tipCard(t)).join(''), c === 'trasporti')}</div>`).join('')}`;
-  return { left, right: '', show: 'left', accent: secT.accent, title: 'Prima ora' };
-}
-
-/* ---------- Online (disattivata) ---------- */
-const secO = sectionOf('online');
-export function renderOnline() {
-  const left = `${sectionHead(secO, 'v2')}
-    <div class="placeholder is-disabled"><strong>In arrivo</strong>Rockstar chiama GTA VI «un'esperienza single player»: l'online è atteso nel 2027. Questa sezione ospiterà anche il sync dei progressi tra dispositivi.</div>`;
-  return { left, right: '', show: 'left', accent: secO.accent, title: 'Online' };
+  for (const b of all) (groups[b.category || 'Altro'] ||= []).push(b);
+  const order = ['Edizione', 'Bonus di acquisto', 'App', 'Gang', "Forze dell'ordine", 'Azienda', 'Etichetta discografica', 'TV', 'Pubblicità', 'Arma', 'Abbonamento'];
+  const keys = [...new Set([...order.filter((k) => groups[k]), ...Object.keys(groups)])];
+  const left = `${sectionHead(secM, `${all.length} voci`)}
+    <p class="lede">Marchi, app, gang, polizia, TV: tutto ciò che fa Leonida un posto vero.</p>
+    ${keys.map((k, i) => `<div class="block">${acc(`${k} (${groups[k].length})`, groups[k].map((b) => row({ href: `#/mondo/${b.id}`, thumb: b.image, icon: 'i-globe', title: esc(b.name), meta: `${esc(b.description.slice(0, 90))}…${srcNote(b)}` })).join(''), i < 3)}</div>`).join('')}`;
+  return { left, right: '', show: 'left', accent: secM.accent, title: 'Mondo' };
 }

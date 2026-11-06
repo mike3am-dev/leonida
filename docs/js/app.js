@@ -19,8 +19,9 @@ import * as impostazioni from './views/impostazioni.js';
 import * as ricerca from './views/ricerca.js';
 import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
+import * as trofei from './views/trofei.js';
 
-window.__LEONIDA_VERSION__ = 'v0.6.2';
+window.__LEONIDA_VERSION__ = 'v0.7.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -37,7 +38,7 @@ function navHtml(activePath, forRail) {
   const items = forRail ? SECTIONS : SECTIONS.filter((s) => s.tab);
   const tabs = items.map((s) => {
     const active = activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path));
-    const label = forRail ? s.title.replace('Radio e Cultura', 'Radio') : s.title.split(' ')[0];
+    const label = s.title;
     return `<a class="tab ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}" ${active ? 'aria-current="page"' : ''} ${s.disabled ? 'aria-disabled="true"' : ''}>
       <svg aria-hidden="true"><use href="#i-${s.icon}"/></svg><span>${esc(label)}</span></a>`;
   });
@@ -59,14 +60,12 @@ function renderAltro() {
 const views = {
   '/': sessione.render,
   '/missioni/:id?': missioni.render,
-  '/atlante/:id?/:poi?': atlante.render,
+  '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
-  '/novita/:id?': novita.render,
+  '/news/:id?': novita.render,
   '/collezionabili': collezionabili.render,
   '/personaggi/:id?': editoriale.renderPersonaggi,
   '/cultura/:id?': editoriale.renderCultura,
-  '/prima-ora': editoriale.renderPrimaOra,
-  '/online': editoriale.renderOnline,
   '/diario': diario.render,
   '/impostazioni': impostazioni.render,
   '/ricerca': ricerca.render,
@@ -84,8 +83,13 @@ function followBar() {
     <button class="icon-btn" type="button" data-action="note" aria-label="Appunto rapido"><svg aria-hidden="true"><use href="#i-pen"/></svg></button>`;
 }
 
+const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
 function render(match, { dir } = {}) {
-  if (!match) { router.go('/', { replace: true }); return; }
+  if (!match) {
+    const raw = location.hash.replace(/^#/, '');
+    const hit = Object.keys(REDIRECT).find((k) => raw === k || raw.startsWith(k + '/') || raw.startsWith(k + '?'));
+    router.go(hit ? raw.replace(hit, REDIRECT[hit]) : '/', { replace: true }); return;
+  }
   currentRender = () => render(match, {});
   const out = match.route.handler(match.params, match.query);
   const spread = $('main');
@@ -103,6 +107,7 @@ function render(match, { dir } = {}) {
   const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
   $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>App ${esc(window.__LEONIDA_VERSION__)}${db.meta?.dataVersion ? ` · dati v${esc(db.meta.dataVersion)}` : ''}</span>`;
   spread.scrollTop = 0;
+  const sub = document.querySelector('.brand__sub'); if (sub) sub.textContent = sec ? sec.title : (out.title || 'Leonida');
 
   // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
   const key = match.path;
@@ -132,6 +137,7 @@ function bindGlobal() {
   impostazioni.bind(root, rerender, { applyTheme, checkUpdate });
   ricerca.bind(root);
   veicoli.bind(root, rerender);
+  trofei.bind(root, rerender);
   root.addEventListener('click', (e) => {
     const a = e.target.closest('[data-action]');
     if (!a) return;
@@ -141,10 +147,21 @@ function bindGlobal() {
       const ctx = { onSaved: rerender };
       if (a.dataset.missionCtx) ctx.missionId = a.dataset.missionCtx;
       else if (m?.path.startsWith('/missioni/') && m.params.id) ctx.missionId = m.params.id;
-      if (m?.path.startsWith('/atlante/') && m.params.id) ctx.districtId = m.params.id;
+      if (m?.path.startsWith('/mappa/') && m.params.id) ctx.districtId = m.params.id;
       diario.openNoteSheet(ctx);
     }
   });
+  // Swipe dal bordo sinistro verso destra = indietro (tutta l'app)
+  let sx = null, sy = null, st = 0;
+  addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); }, { passive: true });
+  addEventListener('touchend', (e) => {
+    if (sx === null) return; const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = Math.abs(t.clientY - sy);
+    const edge = sx < 60 || (isOpen() && sx < 160);
+    if (edge && dx > 90 && dy < 70 && Date.now() - st < 700 && !document.querySelector('.sheet')) {
+      const back = document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/') history.back();
+    }
+    sx = null;
+  }, { passive: true });
   // Cambio di postura (apri/chiudi il Duo): ridisegna conservando pagina e scroll
   let wasOpen = isOpen();
   addEventListener('resize', () => { const now = isOpen(); if (now !== wasOpen) { wasOpen = now; rerender(); } });

@@ -1,34 +1,18 @@
-import { db } from '../data.js';
+/** Home: la plancia di comando */
+import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, fmtDate, relTime } from '../ui/dom.js';
-import { sectionHead, stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isOpen } from './shared.js';
+import { esc, fmtDate, relTime, statusChip } from '../ui/dom.js';
+import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, row, acc, hero } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
-const section = sectionOf('sessione');
+const section = sectionOf('home');
 
-function countdown() {
+function countdownPill() {
   const rel = new Date(db.meta.releaseDate + 'T00:00:00');
   const ms = rel - Date.now();
   if (ms <= 0) return '';
-  const d = Math.floor(ms / 86400000), h = Math.floor((ms % 86400000) / 3600000), m = Math.floor((ms % 3600000) / 60000);
-  return `<div class="countdown" aria-label="Conto alla rovescia all'uscita">
-    <div><b>${d}</b><span>giorni</span></div><div><b>${h}</b><span>ore</span></div><div><b>${m}</b><span>minuti</span></div>
-  </div>`;
-}
-
-export function cover() {
-  const released = new Date(db.meta.releaseDate + 'T00:00:00') <= Date.now();
-  return `<section class="cover">
-    <svg class="cover__sun" viewBox="0 0 200 200" aria-hidden="true">
-      <defs><linearGradient id="sun-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb347"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient></defs>
-      <circle cx="100" cy="100" r="80" fill="url(#sun-g)" opacity=".9"/>
-      <g stroke="#0b0a0f" stroke-width="7"><line x1="10" y1="118" x2="190" y2="118"/><line x1="10" y1="138" x2="190" y2="138"/><line x1="10" y1="158" x2="190" y2="158"/></g>
-    </svg>
-    <span class="kicker">Guida di campo · Stato di Leonida</span>
-    <h1>Vice City<br>al tramonto</h1>
-    <p>${released ? 'Il gioco è uscito. Segna la missione in corso e la guida ti segue.' : 'Il 19 novembre 2026 su PS5 e Xbox Series X|S. Nel frattempo: studia il territorio, impara i nomi, prepara la console.'}</p>
-    ${countdown()}
-  </section>`;
+  const d = Math.floor(ms / 86400000), h = Math.floor((ms % 86400000) / 3600000);
+  return `<div class="pill-row"><span class="pill pill--accent"><b>${d}</b> giorni <b>${h}</b> ore al lancio</span><span class="pill">19 novembre · PS5 · Ultimate Edition</span></div>`;
 }
 
 export function render() {
@@ -37,71 +21,78 @@ export function render() {
   const next = nextMission();
   const st = progress.get();
   const lastSession = st.sessions[0];
-  const districts = vis(db.districts);
+  const districts = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
+  const zones = districts.map((d) => ({ d, s: districtStats(d.id) })).sort((a, b) => (b.s.total - b.s.done) - (a.s.total - a.s.done));
+  const met = vis(db.characters).filter((c) => c.firstMissionId && st.missions[c.firstMissionId]?.state);
+  const lastDistrict = st.current.districtId ? byId(st.current.districtId) : null;
+  const latestNews = vis(db.news).slice(0, 3);
+  const notes = st.notes.slice(0, 2);
+  const trophies = Object.keys(st.trophies || {}).length;
   const circ = 2 * Math.PI * 54;
 
   const left = `
-    <div class="block" style="margin-top:0">
-      <button class="btn-note" type="button" data-action="note">
-        <svg aria-hidden="true"><use href="#i-pen"/></svg>
-        <div><strong>Appunto rapido</strong><span>Scrivi ora, sistemiamo dopo. Finisce nel Diario.</span></div>
-      </button>
-    </div>
+    ${countdownPill()}
+
+    ${cur ? `<a class="card card--link card--now" href="#/missioni/${esc(cur.id)}">
+        <div class="kicker kicker--accent"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</div>
+        <h2>${esc(cur.title)}</h2>
+        <p class="muted small">${spoiler.text(cur, cur.summary || '')}</p>
+        <div class="btn-row"><span class="btn btn--accent">Apri la missione</span></div>
+      </a>`
+      : `<div class="card card--now">
+        <div class="kicker kicker--accent">Da dove si comincia</div>
+        <h2>${next ? esc(next.title) : 'Nessuna missione in corso'}</h2>
+        <p class="muted small">${next ? 'Apri la missione e tocca «Inizio adesso»: la guida ti seguirà.' : 'Quando arrivano le missioni vere, qui vedrai sempre quella che stai facendo.'}</p>
+        <div class="btn-row">${next ? `<a class="btn btn--solid" href="#/missioni/${esc(next.id)}">Apri la missione</a>` : ''}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button></div>
+      </div>`}
 
     <div class="block">
-      <span class="kicker">Completamento</span>
-      <div class="stats--ring">
+      <span class="kicker">Avanzamento</span>
+      <div class="dash">
         <div class="ring">
           <svg viewBox="0 0 120 120" aria-hidden="true">
             <defs><linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient></defs>
             <circle class="ring__track" cx="60" cy="60" r="54" fill="none" stroke-width="6"/>
             <circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="6" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - s.pct / 100)}"/>
           </svg>
-          <div class="ring__label"><b>${s.pct}%</b><small>Globale</small></div>
+          <div class="ring__label"><b>${s.pct}%</b><small>Totale</small></div>
         </div>
-        <div class="stats" style="flex:1;min-width:200px">
-          <div class="card"><div class="stat"><div class="stat__value tnum">${s.missions.done}<span class="muted" style="font-size:1rem"> / ${s.missions.total}</span></div><div class="stat__label">Missioni</div></div></div>
-          <div class="card"><div class="stat"><div class="stat__value tnum">${s.collectibles.done}<span class="muted" style="font-size:1rem"> / ${s.collectibles.total}</span></div><div class="stat__label">Collezionabili</div></div></div>
-          <div class="card"><div class="stat"><div class="stat__value tnum">${s.activities.done}<span class="muted" style="font-size:1rem"> / ${s.activities.total}</span></div><div class="stat__label">Attività</div></div></div>
+        <div class="tiles">
+          <a class="tile" href="#/missioni"><b>${s.missions.done}<span>/${s.missions.total}</span></b><small>Missioni</small></a>
+          <a class="tile" href="#/collezionabili"><b>${s.collectibles.done}<span>/${s.collectibles.total}</span></b><small>Collezionabili</small></a>
+          <a class="tile" href="#/trofei"><b>${trophies}<span>/${db.trophies?.length || '?'}</span></b><small>Trofei</small></a>
+          <a class="tile" href="#/mappa"><b>${s.activities.done}<span>/${s.activities.total}</span></b><small>Attività</small></a>
         </div>
       </div>
     </div>
 
     <div class="block">
-      <span class="kicker">Per zona</span>
-      ${districts.map((d) => { const ds = districtStats(d.id); return `
-        <a class="progress-row" href="#/atlante/${esc(d.id)}">
-          <span>${esc(d.name)}</span>
-          <span class="small muted tnum">${ds.total ? `${ds.done} / ${ds.total}` : 'nessun dato'}</span>
-          <div class="progress"><i style="--p:${ds.pct}%"></i></div>
-        </a>`; }).join('')}
-    </div>`;
-
-  const right = `
-    <div class="block" style="margin-top:0">
-      <span class="kicker">Missione in corso</span>
-      ${cur ? `<a class="card card--link" href="#/missioni/${esc(cur.id)}">
-          <div class="card__kicker kicker kicker--accent">${esc(missionActLabel(cur))} · Capitolo ${esc(cur.chapter ?? '—')}</div>
-          <h2>${esc(cur.title)}</h2>
-          <p class="muted small">${spoiler.text(cur, cur.summary || '')}</p>
-        </a>`
-        : `<div class="placeholder"><strong>Nessuna missione in corso</strong>Apri una missione e tocca «Inizio adesso»: la guida comincerà a seguirti.</div>`}
-    </div>
-    <div class="block">
-      <span class="kicker">Prossimo obiettivo</span>
-      ${next ? `<a class="card card--link" href="#/missioni/${esc(next.id)}">
-          <div class="card__kicker kicker kicker--accent">${esc(missionActLabel(next))}</div>
-          <h2>${esc(next.title)}</h2>
-        </a>` : `<div class="placeholder"><strong>Niente in coda</strong>Quando aggiungi missioni ai dati, qui compare la prossima da fare.</div>`}
-    </div>
-    <div class="block">
-      <span class="kicker">Ultima sessione</span>
+      <span class="kicker">Dove ero rimasto</span>
       <dl class="facts">
-        <dt>Quando</dt><dd>${lastSession ? `${fmtDate(lastSession.start, { weekday: 'long', day: 'numeric', month: 'long' })} · ${relTime(lastSession.end)}` : '—'}</dd>
-        <dt>Appunti</dt><dd>${st.notes.length} in tutto${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare a Claude` : ''}</dd>
-        <dt>Dati guida</dt><dd>v${esc(db.meta.dataVersion)} · ${fmtDate(db.meta.updatedAt, { day: 'numeric', month: 'long', year: 'numeric' })}</dd>
+        <dt>Sessione</dt><dd>${lastSession ? `${fmtDate(lastSession.start, { weekday: 'long', day: 'numeric', month: 'long' })} · ${relTime(lastSession.end)}` : 'Nessuna ancora'}</dd>
+        <dt>Zona</dt><dd>${lastDistrict ? `<a href="#/mappa/${esc(lastDistrict.id)}">${esc(lastDistrict.name)}</a>` : '—'}</dd>
+        <dt>Prossimo</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
+        <dt>Appunti</dt><dd>${st.notes.length ? `${st.notes.length}, ${st.notes.filter((n) => !n.exported).length} da passare a Claude · <a href="#/diario">apri</a>` : 'nessuno · <a href="#/diario">scrivi</a>'}</dd>
       </dl>
+      ${notes.length ? `<div class="notes-mini">${notes.map((n) => `<div class="note-mini"><span class="note__time">${relTime(n.ts)}</span>${esc(n.text.slice(0, 120))}${n.text.length > 120 ? '…' : ''}</div>`).join('')}</div>` : ''}
+    </div>
+
+    <div class="block">
+      <span class="kicker">Zone da completare</span>
+      ${zones.slice(0, 3).map(({ d, s }) => `<a class="progress-row" href="#/mappa/${esc(d.id)}"><span>${esc(d.name)}</span><span class="small muted tnum">${s.total ? `${s.done} / ${s.total}` : 'nessun dato'}</span><div class="progress"><i style="--p:${s.pct}%"></i></div></a>`).join('')}
+      ${zones.length > 3 ? acc('Tutte le zone', zones.slice(3).map(({ d, s }) => `<a class="progress-row" href="#/mappa/${esc(d.id)}"><span>${esc(d.name)}</span><span class="small muted tnum">${s.total ? `${s.done} / ${s.total}` : 'nessun dato'}</span><div class="progress"><i style="--p:${s.pct}%"></i></div></a>`).join('')) : ''}
+    </div>
+
+    <div class="block">
+      <span class="kicker">Personaggi incontrati</span>
+      ${met.length ? `<div class="chips" style="margin-top:var(--s-2)">${met.map((c) => `<a class="chip" href="#/personaggi/${esc(c.id)}">${esc(c.name)}</a>`).join('')}</div>` : `<p class="muted small">Nessuno ancora: compaiono qui quando completi la missione in cui li incontri. Nel frattempo, <a href="#/personaggi">il cast</a>.</p>`}
+    </div>
+
+    <div class="block">
+      <span class="kicker">Ultime news</span>
+      ${latestNews.map((n) => row({ href: `#/news/${n.id}`, thumb: n.image, num: fmtDate(n.date, { day: 'numeric', month: 'short' }), title: spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title), meta: esc(n.outlet || '') })).join('')}
+      <a class="btn btn--ghost btn--block" href="#/news" style="margin-top:var(--s-3)">Tutte le news</a>
     </div>`;
 
-  return { top: cover(), left, right, show: 'left', accent: section.accent, title: 'Sessione' };
+  return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }

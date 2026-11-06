@@ -13,6 +13,7 @@ export function emptyState() {
     activities: {},    // id -> 'completata'
     notes: [],         // { id, ts, text, districtId, missionId }
     favorites: {},     // id -> true (segnalibri)
+    trophies: {},      // id -> ISO date
     sessions: [],      // { start, end }
     current: { missionId: null, districtId: null },
     settings: {

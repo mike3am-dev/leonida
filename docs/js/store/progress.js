@@ -76,6 +76,11 @@ export function toggleFavorite(id) {
   update((s) => { s.favorites = s.favorites || {}; if (s.favorites[id]) delete s.favorites[id]; else s.favorites[id] = true; });
 }
 
+/* ---------- Trofei ---------- */
+export function toggleTrophy(id) {
+  update((s) => { s.trophies = s.trophies || {}; if (s.trophies[id]) delete s.trophies[id]; else s.trophies[id] = new Date().toISOString(); });
+}
+
 /* ---------- Appunti ---------- */
 export function addNote({ text, districtId = null, missionId = null }) {
   const note = { id: 'n-' + Date.now().toString(36), ts: new Date().toISOString(), text: text.trim(), districtId, missionId };

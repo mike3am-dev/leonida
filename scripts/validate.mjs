@@ -34,7 +34,7 @@ const collections = {
   missions: data.missions.items, acts: data.missions.acts, districts: data.districts.items,
   collectibles: data.collectibles.items, categories: data.collectibles.categories,
   activities: data.activities.items, characters: data.characters.items,
-  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items, vehicles: data.vehicles.items, weapons: data.weapons.items, news: data.news.items,
+  radio: data.radio.items, brands: data.brands.items, tips: data.tips.items, vehicles: data.vehicles.items, weapons: data.weapons.items, news: data.news.items, trophies: data.trophies.items,
 };
 for (const [coll, list] of Object.entries(collections)) {
   ids[coll] = new Set();

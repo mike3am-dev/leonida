@@ -4,7 +4,7 @@ import { esc, statusChip } from '../ui/dom.js';
 import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
-const section = sectionOf('veicoli');
+const section = sectionOf('garage');
 export const CLASS_LABEL = {
   super: 'Super', sportiva: 'Sportive', berlina: 'Berline', suv: 'SUV', fuoristrada: 'Fuoristrada', muscle: 'Muscle', classica: 'Classiche', coupe: 'Coupé',
   moto: 'Moto', barca: 'Barche', elicottero: 'Elicotteri', aereo: 'Aerei', servizio: 'Servizio', industriale: 'Industriali', militare: 'Militari', furgone: 'Furgoni', altro: 'Altro',

@@ -15,7 +15,7 @@
         "chr-cal",
         "chr-brian"
       ],
-      "image": "assets/img/jason.jpg",
+      "image": "assets/img/ss-jason-duval-11.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -23,8 +23,8 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-jason-duval-11.jpg",
-        "assets/img/ss-jason-lucia-14.jpg"
+        "assets/img/ss-jason-lucia-14.jpg",
+        "assets/img/jason.jpg"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "relations": [
         "chr-jason"
       ],
-      "image": "assets/img/lucia.jpg",
+      "image": "assets/img/ss-lucia-caminos-11.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
@@ -47,8 +47,8 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "gallery": [
-        "assets/img/ss-lucia-caminos-11.jpg",
-        "assets/img/ss-jason-lucia-14.jpg"
+        "assets/img/ss-jason-lucia-14.jpg",
+        "assets/img/lucia.jpg"
       ]
     },
     {

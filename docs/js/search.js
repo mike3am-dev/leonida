@@ -33,7 +33,7 @@ function fieldsOf(item) {
 }
 
 export function buildIndex() {
-  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.pois];
+  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.trophies, db.pois];
   index = lists.flat().map((item) => {
     const title = item.title || item.name || '';
     const body = fieldsOf(item);

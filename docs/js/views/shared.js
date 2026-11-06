@@ -5,17 +5,17 @@ import { esc, pad2 } from '../ui/dom.js';
 import { isOpen } from '../posture.js';
 
 export const SECTIONS = [
-  { id: 'sessione', num: 1, title: 'Sessione', path: '/', icon: 'home', accent: 'magenta', tab: true },
+  { id: 'home', num: 1, title: 'Home', path: '/', icon: 'home', accent: 'magenta', tab: true },
   { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', tab: true },
-  { id: 'atlante', num: 3, title: 'Atlante', path: '/atlante', icon: 'map', accent: 'orange', tab: true },
+  { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', tab: true },
   { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', tab: true },
-  { id: 'veicoli', num: 5, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange' },
-  { id: 'personaggi', num: 6, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
-  { id: 'cultura', num: 7, title: 'Radio e Cultura', path: '/cultura', icon: 'radio', accent: 'orange' },
-  { id: 'prima-ora', num: 8, title: 'Prima ora', path: '/prima-ora', icon: 'bolt', accent: 'teal' },
-  { id: 'novita', num: 9, title: 'Novità', path: '/novita', icon: 'calendar', accent: 'magenta' },
-  { id: 'diario', num: 10, title: 'Diario', path: '/diario', icon: 'pen', accent: 'magenta' },
-  { id: 'online', num: 11, title: 'Online', path: '/online', icon: 'globe', accent: 'teal', disabled: true },
+  { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange' },
+  { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange' },
+  { id: 'personaggi', num: 7, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
+  { id: 'radio', num: 8, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange' },
+  { id: 'mondo', num: 9, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal' },
+  { id: 'news', num: 10, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta' },
+  { id: 'diario', num: 11, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta' },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

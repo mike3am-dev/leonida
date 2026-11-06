@@ -49,7 +49,7 @@ function checklist(list, st) {
       <button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
       <div class="check__body">
         <div class="check__title">${esc(c.name)}</div>
-        <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · <a href="#/atlante/${esc(c.districtId || '')}">${esc(byId(c.districtId)?.name || 'zona sconosciuta')}</a></div>
+        <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · <a href="#/mappa/${esc(c.districtId || '')}">${esc(byId(c.districtId)?.name || 'zona sconosciuta')}</a></div>
         ${c.directions ? `<div class="small" style="margin-top:4px">${spoiler.text(c, c.directions)}</div>` : ''}
         ${c.reward ? `<div class="small muted">Ricompensa: ${esc(c.reward)}</div>` : ''}
       </div>

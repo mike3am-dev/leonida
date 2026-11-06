@@ -81,6 +81,11 @@ export const schema = {
     items: { ...common, date: 'string', title: 'string', body: 'string', topic: ['enum', 'gameplay', 'mappa', 'personaggi', 'veicoli', 'armi', 'musica', 'uscita', 'tecnica', 'business', 'online', 'community'], outlet: 'string?', relatedIds: 'array?' },
     idPrefix: 'new-',
   },
+  trophies: {
+    envelope: { schemaVersion: 'number', items: 'array' },
+    items: { ...common, name: 'string', description: 'string?', tier: ['enum', 'platino', 'oro', 'argento', 'bronzo'], category: ['enum', 'storia', 'completamento', 'collezionabili', 'attivita', 'mondo', 'online'], guide: 'string?' },
+    idPrefix: 'tro-',
+  },
   tips: {
     envelope: { schemaVersion: 'number', items: 'array' },
     items: { ...common, category: ['enum', 'prima-ora', 'generale', 'combattimento', 'soldi', 'guida', 'esplorazione', 'online', 'trasporti', 'sistemi', 'tecnica', 'storia'], title: 'string', body: 'string', priority: 'number?' },

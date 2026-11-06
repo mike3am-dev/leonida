@@ -27,12 +27,12 @@ export function relTime(iso) {
   return fmtDate(iso);
 }
 export function statusChip(item) {
-  const map = { verificato: 'Verificato', 'da verificare': 'Da verificare', segnaposto: 'Segnaposto' };
-  const cls = (item.status || 'segnaposto').replace(/\s+/g, '-');
+  // Una sola etichetta: Ufficiale (verificato) | Stampa | Community | Rumor | Leak | Da verificare | Segnaposto
   const ex = item.example ? `<span class="chip chip--esempio">Esempio</span>` : '';
-  const src = { stampa: 'Stampa', rumor: 'Rumor', leak: 'Leak', community: 'Community', trailer: 'Ufficiale' }[item.source];
-  const srcChip = src && item.status !== 'verificato' ? `<span class="chip chip--src-${esc(item.source)}">${src}</span>` : (item.source === 'trailer' && item.status === 'verificato' ? '' : '');
-  return `${ex}<span class="chip chip--${cls}">${esc(map[item.status] || item.status)}</span>${srcChip}`;
+  if (item.status === 'verificato') return `${ex}<span class="chip chip--verificato">Ufficiale</span>`;
+  if (item.status === 'segnaposto') return `${ex}<span class="chip chip--segnaposto">Segnaposto</span>`;
+  const m = { stampa: ['Stampa', 'src-stampa'], rumor: ['Rumor', 'src-rumor'], leak: ['Leak', 'src-leak'], community: ['Community', 'src-community'] }[item.source];
+  return `${ex}<span class="chip chip--${m ? m[1] : 'da-verificare'}">${m ? m[0] : 'Da verificare'}</span>`;
 }
 export function protagonistChip(p) {
   const label = { jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[p] || p;
