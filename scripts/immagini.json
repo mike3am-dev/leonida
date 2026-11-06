@@ -2292,6 +2292,761 @@
       "file": "luoghi/emerald-springs-crystal-river/landmark-l1778.webp",
       "url": "https://www.gtasixmap.com/images/locations/emerald-springs-crystal-river/landmark-l1778.webp",
       "for": "luogo-emerald-springs-crystal-river"
+    },
+    {
+      "file": "vice/armi/wpn-mustang-357.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-mustang357.webp",
+      "for": "wpn-mustang-357"
+    },
+    {
+      "file": "vice/armi/wpn-girardi-es9.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-girardi-es9.webp",
+      "for": "wpn-girardi-es9"
+    },
+    {
+      "file": "vice/armi/wpn-heavy-pistol.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-heavy-pistol.webp",
+      "for": "wpn-heavy-pistol"
+    },
+    {
+      "file": "vice/armi/wpn-klose-k17.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-klose-k17.webp",
+      "for": "wpn-klose-k17"
+    },
+    {
+      "file": "vice/armi/wpn-nipper-38.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-nipper-38.webp",
+      "for": "wpn-nipper-38"
+    },
+    {
+      "file": "vice/armi/wpn-duke-556.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-service-carbine.webp",
+      "for": "wpn-duke-556"
+    },
+    {
+      "file": "vice/armi/wpn-duke-ar15.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle-mk-ii.webp",
+      "for": "wpn-duke-ar15"
+    },
+    {
+      "file": "vice/armi/wpn-micro-draco.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-compact-rifle.webp",
+      "for": "wpn-micro-draco"
+    },
+    {
+      "file": "vice/armi/wpn-vom-feuer-carbine.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle.webp",
+      "for": "wpn-vom-feuer-carbine"
+    },
+    {
+      "file": "vice/armi/wpn-scar.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-scar-assault-rifle.webp",
+      "for": "wpn-scar"
+    },
+    {
+      "file": "vice/armi/wpn-combat-mg.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-combat-mg.webp",
+      "for": "wpn-combat-mg"
+    },
+    {
+      "file": "vice/armi/wpn-mp5.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-smg.webp",
+      "for": "wpn-mp5"
+    },
+    {
+      "file": "vice/armi/wpn-mac11.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-mac-11.webp",
+      "for": "wpn-mac11"
+    },
+    {
+      "file": "vice/armi/wpn-dw9.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-dw9.webp",
+      "for": "wpn-dw9"
+    },
+    {
+      "file": "vice/armi/wpn-mp9.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-spp-mp9.webp",
+      "for": "wpn-mp9"
+    },
+    {
+      "file": "vice/armi/wpn-double-barrel.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-double-barrel-shotgun.webp",
+      "for": "wpn-double-barrel"
+    },
+    {
+      "file": "vice/armi/wpn-moreland-850.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-moreland-850.webp",
+      "for": "wpn-moreland-850"
+    },
+    {
+      "file": "vice/armi/wpn-bolt-sniper.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-bolt-action-sniper.webp",
+      "for": "wpn-bolt-sniper"
+    },
+    {
+      "file": "vice/armi/wpn-ruger-1022.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-ruger-10-22-sniper.webp",
+      "for": "wpn-ruger-1022"
+    },
+    {
+      "file": "vice/armi/wpn-m1a.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-springfield-armory-m1a-sniper.webp",
+      "for": "wpn-m1a"
+    },
+    {
+      "file": "vice/armi/wpn-grenade-launcher.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-grenadelauncher.webp",
+      "for": "wpn-grenade-launcher"
+    },
+    {
+      "file": "vice/armi/wpn-jerry-can.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-jerry-can.webp",
+      "for": "wpn-jerry-can"
+    },
+    {
+      "file": "vice/armi/wpn-bat.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-baseballbat-scaled.webp",
+      "for": "wpn-bat"
+    },
+    {
+      "file": "vice/armi/wpn-hammer.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-hammer.webp",
+      "for": "wpn-hammer"
+    },
+    {
+      "file": "vice/armi/wpn-knuckles.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-knuckle-dusters.webp",
+      "for": "wpn-knuckles"
+    },
+    {
+      "file": "vice/armi/wpn-pool-cue.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-poolcue-scaled.webp",
+      "for": "wpn-pool-cue"
+    },
+    {
+      "file": "vice/armi/wpn-mini-golf-club.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-minigolfclub.webp",
+      "for": "wpn-mini-golf-club"
+    },
+    {
+      "file": "vice/fauna/col-fauna-cani.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg",
+      "for": "col-fauna-cani"
+    },
+    {
+      "file": "vice/fauna/col-fauna-iguana.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
+      "for": "col-fauna-iguana"
+    },
+    {
+      "file": "vice/fauna/col-fauna-gatto.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg",
+      "for": "col-fauna-gatto"
+    },
+    {
+      "file": "vice/fauna/col-fauna-serpente-del-grano.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg",
+      "for": "col-fauna-serpente-del-grano"
+    },
+    {
+      "file": "vice/fauna/col-fauna-staffordshire.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-jason-caresse-chien.jpg",
+      "for": "col-fauna-staffordshire"
+    },
+    {
+      "file": "vice/fauna/col-fauna-pastore-tedesco-k9.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-berger-australien.jpg",
+      "for": "col-fauna-pastore-tedesco-k9"
+    },
+    {
+      "file": "vice/fauna/col-fauna-airone.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-herons.jpg",
+      "for": "col-fauna-airone"
+    },
+    {
+      "file": "vice/fauna/col-fauna-pellicano.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/pelicans.jpg",
+      "for": "col-fauna-pellicano"
+    },
+    {
+      "file": "vice/fauna/col-fauna-anhinga.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-anhinga.jpg",
+      "for": "col-fauna-anhinga"
+    },
+    {
+      "file": "vice/fauna/col-fauna-anatra.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-canards-marbres.jpg",
+      "for": "col-fauna-anatra"
+    },
+    {
+      "file": "vice/fauna/col-fauna-fenicottero.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/flamingos.jpg",
+      "for": "col-fauna-fenicottero"
+    },
+    {
+      "file": "vice/fauna/col-fauna-cormorano.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-cormorans.jpg",
+      "for": "col-fauna-cormorano"
+    },
+    {
+      "file": "vice/fauna/col-fauna-corvo.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg",
+      "for": "col-fauna-corvo"
+    },
+    {
+      "file": "vice/fauna/col-fauna-oca.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-oies-sauvages.jpg",
+      "for": "col-fauna-oca"
+    },
+    {
+      "file": "vice/fauna/col-fauna-gabbiano.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg",
+      "for": "col-fauna-gabbiano"
+    },
+    {
+      "file": "vice/fauna/col-fauna-piccione.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-chien-pigeon.jpg",
+      "for": "col-fauna-piccione"
+    },
+    {
+      "file": "vice/fauna/col-fauna-moretta.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg",
+      "for": "col-fauna-moretta"
+    },
+    {
+      "file": "vice/fauna/col-fauna-canarino.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/sanglier-lapin-canari-gta-6-1024x573-1.jpg",
+      "for": "col-fauna-canarino"
+    },
+    {
+      "file": "vice/fauna/col-fauna-tartaruga-marina.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg",
+      "for": "col-fauna-tartaruga-marina"
+    },
+    {
+      "file": "vice/fauna/col-fauna-delfino.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/dolphins.jpg",
+      "for": "col-fauna-delfino"
+    },
+    {
+      "file": "vice/fauna/col-fauna-squalo.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg",
+      "for": "col-fauna-squalo"
+    },
+    {
+      "file": "vice/fauna/col-fauna-alligatore.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/alligator.jpg",
+      "for": "col-fauna-alligatore"
+    },
+    {
+      "file": "vice/fauna/col-fauna-pesci-esotici.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-plongee-hd.jpg",
+      "for": "col-fauna-pesci-esotici"
+    },
+    {
+      "file": "vice/fauna/col-fauna-anguilla.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/eel.jpg",
+      "for": "col-fauna-anguilla"
+    },
+    {
+      "file": "vice/fauna/col-fauna-lamantino.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-lamantin.jpg",
+      "for": "col-fauna-lamantino"
+    },
+    {
+      "file": "vice/fauna/col-fauna-manta.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta-6-raie.jpg",
+      "for": "col-fauna-manta"
+    },
+    {
+      "file": "vice/fauna/col-fauna-cervo.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/deer.jpg",
+      "for": "col-fauna-cervo"
+    },
+    {
+      "file": "vice/fauna/col-fauna-procione.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/raccoons.jpg",
+      "for": "col-fauna-procione"
+    },
+    {
+      "file": "vice/fauna/col-fauna-puma.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/cougar.jpg",
+      "for": "col-fauna-puma"
+    },
+    {
+      "file": "vice/fauna/col-fauna-volpe.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg",
+      "for": "col-fauna-volpe"
+    },
+    {
+      "file": "vice/fauna/col-fauna-scoiattolo.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg",
+      "for": "col-fauna-scoiattolo"
+    },
+    {
+      "file": "vice/fauna/col-fauna-ratto.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-rats.jpg",
+      "for": "col-fauna-ratto"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-lucia-parking-prison.jpg",
+      "for": "chr-jason-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-canape.jpg",
+      "for": "chr-jason-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-moto.jpg",
+      "for": "chr-jason-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-brian-cigare.jpg",
+      "for": "chr-jason-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-masque-fuite.jpg",
+      "for": "chr-jason-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-love-magazine-jason-lucia-diner.jpg",
+      "for": "chr-jason-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g7.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-game-informer-382-03-jason-batte-boutique-hd.webp",
+      "for": "chr-jason-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-jason-g8.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/jason_duval-gallery-01-scaled.jpg",
+      "for": "chr-jason-g8"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-prison-fenetre.jpg",
+      "for": "chr-lucia-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-tenue-detenue.jpg",
+      "for": "chr-lucia-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-sortie-penitencier.jpg",
+      "for": "chr-lucia-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g4.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-game-informer-382-04-lucia-fusil-bandana-hd.webp",
+      "for": "chr-lucia-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-love-magazine-jason-lucia-moto.jpg",
+      "for": "chr-lucia-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-lucia-boite-de-nuit-recherche-floride.jpg",
+      "for": "chr-lucia-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g7.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/lucia_caminos-gallery-01-scaled.jpg",
+      "for": "chr-lucia-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-lucia-g8.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/lucia_caminos-gallery-02-scaled.jpg",
+      "for": "chr-lucia-g8"
+    },
+    {
+      "file": "vice/personaggi/chr-ernesto.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
+      "for": "chr-ernesto"
+    },
+    {
+      "file": "vice/personaggi/chr-ernesto-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
+      "for": "chr-ernesto-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-mendez.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/mendez.jpg",
+      "for": "chr-mendez"
+    },
+    {
+      "file": "vice/personaggi/chr-mendez-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-mendez-trailer-2.jpg",
+      "for": "chr-mendez-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-mendez-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-mendez-insigne.jpg",
+      "for": "chr-mendez-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-raymond.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/raymond.jpg",
+      "for": "chr-raymond"
+    },
+    {
+      "file": "vice/personaggi/chr-raymond-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-atelier.jpg",
+      "for": "chr-raymond-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-raymond-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
+      "for": "chr-raymond-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-andres.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/andres-de-leon.jpg",
+      "for": "chr-andres"
+    },
+    {
+      "file": "vice/personaggi/chr-andres-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-andres-de-leon-soiree.jpg",
+      "for": "chr-andres-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-andres-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
+      "for": "chr-andres-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-01-scaled.jpg",
+      "for": "chr-boobie-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-atelier.jpg",
+      "for": "chr-boobie-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-02-scaled.jpg",
+      "for": "chr-boobie-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-03-scaled.jpg",
+      "for": "chr-boobie-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-04-scaled.jpg",
+      "for": "chr-boobie-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-boobie-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-boobie-ike.jpg",
+      "for": "chr-boobie-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-jason-chantier.jpg",
+      "for": "chr-brian-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-efflavia.jpg",
+      "for": "chr-brian-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-brian-cigare.jpg",
+      "for": "chr-brian-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g4.webp",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/brian-heder-truck-scene-gta-vi.webp",
+      "for": "chr-brian-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-01-scaled.jpg",
+      "for": "chr-brian-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-02-scaled.jpg",
+      "for": "chr-brian-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g7.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-03-scaled.jpg",
+      "for": "chr-brian-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-brian-g8.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-04-scaled.jpg",
+      "for": "chr-brian-g8"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-cal-chantier-brian.jpg",
+      "for": "chr-cal-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-cal-hampton-piscine-style.jpg",
+      "for": "chr-cal-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-peche-hd.jpg",
+      "for": "chr-cal-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-billard-hd.jpg",
+      "for": "chr-cal-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-01-scaled.jpg",
+      "for": "chr-cal-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-02-scaled.jpg",
+      "for": "chr-cal-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g7.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-03-scaled.jpg",
+      "for": "chr-cal-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-cal-g8.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-04-scaled.jpg",
+      "for": "chr-cal-g8"
+    },
+    {
+      "file": "vice/personaggi/chr-camillo.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/camilo.jpg",
+      "for": "chr-camillo"
+    },
+    {
+      "file": "vice/personaggi/chr-camillo-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-camilo-selfie-lucia.jpg",
+      "for": "chr-camillo-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-camillo-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-camilo-live-coffre.jpg",
+      "for": "chr-camillo-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-camillo-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-camilo-gros-plan.jpg",
+      "for": "chr-camillo-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-drequan-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-01-scaled.jpg",
+      "for": "chr-drequan-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-drequan-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-02-scaled.jpg",
+      "for": "chr-drequan-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-drequan-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-03-scaled.jpg",
+      "for": "chr-drequan-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-drequan-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-04-scaled.jpg",
+      "for": "chr-drequan-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-lori.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/lori.jpg",
+      "for": "chr-lori"
+    },
+    {
+      "file": "vice/personaggi/chr-lori-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-jason-chantier.jpg",
+      "for": "chr-lori-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-lori-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-efflavia.jpg",
+      "for": "chr-lori-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-lori-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-efflavia-dejeuner.jpg",
+      "for": "chr-lori-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-petra.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/petra-navarro.jpg",
+      "for": "chr-petra"
+    },
+    {
+      "file": "vice/personaggi/chr-petra-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-petra-navarro-soiree.jpg",
+      "for": "chr-petra-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-petra-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
+      "for": "chr-petra-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-phil.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/phil.jpg",
+      "for": "chr-phil"
+    },
+    {
+      "file": "vice/personaggi/chr-phil-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-phil-pub-ammu-nation.jpg",
+      "for": "chr-phil-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-phil-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-phil-enseigne-ammu-nation.jpg",
+      "for": "chr-phil-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-voiture.jpg",
+      "for": "chr-raul-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-gros-plan.jpg",
+      "for": "chr-raul-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-camionnette.jpg",
+      "for": "chr-raul-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-arme-raul-pistolet-1911.jpg",
+      "for": "chr-raul-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-01-scaled.jpg",
+      "for": "chr-raul-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-02-scaled.jpg",
+      "for": "chr-raul-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g7.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-03-scaled.jpg",
+      "for": "chr-raul-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-raul-g8.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-04-scaled.jpg",
+      "for": "chr-raul-g8"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-bae-luxe-real-dimez.jpg",
+      "for": "chr-real-dimez-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-bae-luxe.jpg",
+      "for": "chr-real-dimez-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-roxy.jpg",
+      "for": "chr-real-dimez-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-01-scaled.jpg",
+      "for": "chr-real-dimez-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g5.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-02-scaled.jpg",
+      "for": "chr-real-dimez-g5"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g6.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-03-scaled.jpg",
+      "for": "chr-real-dimez-g6"
+    },
+    {
+      "file": "vice/personaggi/chr-real-dimez-g7.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-04-scaled.jpg",
+      "for": "chr-real-dimez-g7"
+    },
+    {
+      "file": "vice/personaggi/chr-stefanie.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/stefanie-gates.jpg",
+      "for": "chr-stefanie"
+    },
+    {
+      "file": "vice/personaggi/chr-stefanie-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-stefanie-gates-bureau.jpg",
+      "for": "chr-stefanie-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-stefanie-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-tenue-detenue.jpg",
+      "for": "chr-stefanie-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-valentina.jpg",
+      "url": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/valentina.jpg",
+      "for": "chr-valentina"
+    },
+    {
+      "file": "vice/personaggi/chr-valentina-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-valentina-aeroport.jpg",
+      "for": "chr-valentina-g1"
+    },
+    {
+      "file": "vice/personaggi/chr-valentina-g2.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
+      "for": "chr-valentina-g2"
+    },
+    {
+      "file": "vice/personaggi/chr-valentina-g3.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-valentina-gros-plan.jpg",
+      "for": "chr-valentina-g3"
+    },
+    {
+      "file": "vice/personaggi/chr-valentina-g4.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-andres-de-leon-soiree.jpg",
+      "for": "chr-valentina-g4"
+    },
+    {
+      "file": "vice/personaggi/chr-wyman.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/ue-wyman-collection-scaled.jpg",
+      "for": "chr-wyman"
+    },
+    {
+      "file": "vice/personaggi/chr-wyman-g1.jpg",
+      "url": "https://vice-central.com/wp-content/uploads/2026/08/ue-wyman-collection-scaled.jpg",
+      "for": "chr-wyman-g1"
     }
   ],
   "zip": {

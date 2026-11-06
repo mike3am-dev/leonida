@@ -47,9 +47,9 @@ function checklist(list, st) {
   return list.map((c) => { const done = !!st.collectibles[c.id]; return `
     <div class="check check--rich" data-done="${done}">
       <button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
-      ${c.image ? `<img class="check__img" src="${esc(c.image)}" alt="" loading="lazy">` : ''}
+      ${c.image ? `<img class="check__img" src="${esc(c.image)}" ${c.imageUrl ? `data-fallback="${esc(c.imageUrl)}"` : ''} alt="" loading="lazy">` : ''}
       <div class="check__body">
-        <div class="check__title">${esc(c.name)}</div>
+        <div class="check__title">${esc(c.name)}${c.uncertain ? ' <span class="chip chip--src-rumor">da confermare</span>' : ''}</div>
         <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · ${c.districtId ? `<a href="#/mappa/${esc(c.districtId)}">${esc(byId(c.districtId)?.name || '')}</a>` : 'zona da scoprire'}${c.status !== 'verificato' ? ' · ' + (SRC[c.source] || 'da verificare') : ''}</div>
         ${c.directions ? `<div class="small" style="margin-top:4px">${spoiler.text(c, c.directions)}</div>` : ''}
         ${c.reward ? `<div class="small muted">Ricompensa: ${esc(c.reward)}</div>` : ''}

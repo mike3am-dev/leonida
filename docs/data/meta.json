@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.8.0",
+  "dataVersion": "0.8.1",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.8.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Da vice-central.com: 28 armi con foto, modello reale e dove sono state viste (più la mazza da minigolf); 41 animali con foto e punto di avvistamento, 10 specie nuove; 11 personaggi finalmente con la foto, gallerie con didascalia, approfondimenti e tabelle «cosa ricordare»."
+      ]
+    },
     {
       "version": "0.8.0",
       "date": "2026-11-06",

@@ -1,7 +1,7 @@
 /** Personaggi, Radio, Mondo */
 import { db, byId } from '../data.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
@@ -32,7 +32,9 @@ export function renderPersonaggi(params) {
       ${c.image ? hero(c, { kicker: `${c.role || 'Personaggio'}${c.districtId ? ' · ' + (byId(c.districtId)?.name || '') : ''}`, title: c.name, lede: c.tagline || '', chips: statusChip(c) })
         : `<div class="hero hero--mono">${monogram(c)}<div class="hero__text"><span class="kicker">${esc(c.role || 'Personaggio')}${c.districtId ? ' · ' + esc(byId(c.districtId)?.name || '') : ''}</span><h1>${esc(c.name)}</h1>${c.tagline ? `<p class="lede">${esc(c.tagline)}</p>` : ''}<div class="chips">${statusChip(c)}</div></div></div>`}
       <div class="prose">${spoiler.wrap(c, `<p class="dropcap">${esc(c.bio || 'Scheda in arrivo.')}</p>`)}</div>
+      ${c.idCard?.length ? `<dl class="facts">${c.idCard.map((f) => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd>`).join('')}${c.firstSeen ? `<dt>Prima apparizione</dt><dd>${esc(c.firstSeen)}</dd>` : ''}</dl>` : ''}
       ${galleryHtml(c)}
+      ${c.insight ? `<div class="block">${acc('Approfondimento (vice-central.com)', `<div class="prose prose--guide">${spoiler.wrap(c, insightHtml(c.insight))}${tableHtml(c.summaryTable)}<p class="source-line">Tradotto da <a href="${esc(c.insightUrl || 'https://vice-central.com/personnages/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
       ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="chips" style="margin-top:var(--s-2)">${c.relations.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#/personaggi/${esc(id)}">${esc(r.name)}</a>` : ''; }).join('')}</div></div>` : ''}
       ${c.firstMissionId ? `<div class="block"><span class="kicker">Prima apparizione</span><a class="btn" href="#/missioni/${esc(c.firstMissionId)}">${esc(byId(c.firstMissionId)?.title || c.firstMissionId)}</a></div>` : ''}
       ${fonte(c)}`;

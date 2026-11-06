@@ -54,7 +54,8 @@ function detail(it) {
       <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
-    ${it.realModel ? `<dl class="facts"><dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}</dl>` : ''}
+    ${it.realModel || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}${it.ultimate ? '<dt>Edizione</dt><dd>Bonus Ultimate Edition</dd>' : ''}</dl>` : ''}
+    ${it.insight ? `<div class="prose small"><p>${esc(it.insight)}</p><p class="source-line">Da <a href="https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/" target="_blank" rel="noopener">vice-central.com</a>.</p></div>` : ''}
     ${galleryHtml(it)}
     ${it.howToGet ? `<div class="block"><span class="kicker">Come ottenerla</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
     <p class="source-line">Fonte: ${esc(it.source)}${it.sourceUrl ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;

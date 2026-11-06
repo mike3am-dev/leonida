@@ -117,8 +117,17 @@ export function sectionHead(section, count = '') {
   return `<header class="section-head section-head--band" style="--hue:${section.hue || 335}"><svg class="section-head__icon" aria-hidden="true"><use href="#i-${esc(section.icon)}"/></svg><div><h1>${esc(section.title)}</h1><span class="section-head__tag">${esc(section.tagline || '')}</span></div><span class="count">${esc(count)}</span></header>`;
 }
 export function galleryHtml(item) {
-  const imgs = (item.gallery || []).filter(Boolean);
+  const imgs = [...(item.gallery || []).filter(Boolean).map((src) => ({ src })), ...(item.galleryX || [])];
   if (!imgs.length) return '';
-  return `<div class="gallery">${imgs.map((src, i) => `<img src="${esc(src)}" alt="${esc(item.name || item.title || '')} ${i + 1}" loading="lazy">`).join('')}</div>`;
+  return `<div class="gallery ${imgs.some((g) => g.caption) ? 'gallery--cap' : ''}">${imgs.map((g, i) => `<figure><img src="${esc(g.src)}" ${g.url ? `data-fallback="${esc(g.url)}"` : ''} alt="${esc(g.caption || `${item.name || item.title || ''} ${i + 1}`)}" loading="lazy">${g.caption ? `<figcaption>${esc(g.caption)}</figcaption>` : ''}</figure>`).join('')}</div>`;
+}
+/** Approfondimento in stile articolo: righe «## Titolo» diventano sottotitoli */
+export function insightHtml(text) {
+  if (!text) return '';
+  return text.split(/\n{2,}|\n(?=## )/).map((b) => b.trim()).filter(Boolean).map((b) => b.startsWith('## ') ? `<h3>${esc(b.slice(3))}</h3>` : b.startsWith('# ') ? `<h3>${esc(b.slice(2))}</h3>` : `<p>${esc(b)}</p>`).join('');
+}
+export function tableHtml(rows) {
+  if (!rows?.length) return '';
+  return `<div class="table-wrap"><table>${rows.map((r, i) => `<tr>${r.map((c) => `<${i ? 'td' : 'th'}>${esc(c)}</${i ? 'td' : 'th'}>`).join('')}</tr>`).join('')}</table></div>`;
 }
 export { isOpen, actNum };
