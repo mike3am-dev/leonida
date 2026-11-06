@@ -831,3 +831,68 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .vinyl--mini .vinyl__label { width: 34px; height: 34px; margin: -17px; padding: 4px; }
 .actions--home { margin-top: var(--s-6); }
 @container (max-width: 460px) { .duo { grid-template-columns: 1fr; } .cards--feat { grid-template-columns: 1fr 1fr; } }
+
+/* ==========================================================
+   v0.9.1 — testate a banda, post-it sulla mappa, coppe nitide, dettagli vivi
+   ========================================================== */
+/* Testata di sezione: una banda colorata (ogni sezione il suo colore), titolo una volta sola */
+.section-head--band {
+  position: relative; align-items: center; gap: var(--s-3); margin: 0 0 var(--s-5); padding: var(--s-4) var(--s-4) var(--s-4) var(--s-5);
+  border-radius: var(--radius); overflow: hidden; color: #fff;
+  background: linear-gradient(100deg, hsl(var(--hue) 78% 46%) 0%, hsl(calc(var(--hue) + 28) 85% 52%) 62%, hsl(calc(var(--hue) + 50) 80% 60%) 100%);
+  box-shadow: 0 14px 30px -18px hsl(var(--hue) 80% 40% / .8);
+}
+.section-head--band::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 7px; background: repeating-linear-gradient(135deg, #fff 0 8px, transparent 8px 16px); opacity: .9; }
+.section-head--band::after { content: ""; position: absolute; right: -40px; top: -60px; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.35), transparent 60%); pointer-events: none; }
+.section-head--band h1 { color: #fff; font-size: var(--fs-2xl); line-height: 1; font-style: italic; text-shadow: 0 2px 10px rgba(0,0,0,.25); }
+.section-head--band .kicker, .section-head__tag { display: block; color: rgba(255,255,255,.85); font-size: var(--fs-sm); letter-spacing: .02em; text-transform: none; margin-top: 4px; }
+.section-head--band .kicker { margin: 0 0 4px; }
+.section-head__icon { width: 34px; height: 34px; flex: none; color: #fff; opacity: .95; }
+.section-head--band .count { color: #fff; margin-left: auto; font-size: 1.2rem; opacity: .95; }
+.section-head--band > div { flex: 1; min-width: 0; }
+:root[data-theme="light"] .section-head--band { box-shadow: 0 14px 30px -16px hsl(var(--hue) 80% 40% / .55); }
+
+/* Post-it sulla mappa: foglietto attaccato con lo scotch, scritto a pennarello */
+.mpin { gap: 0; padding: 0; margin: 0; }
+.mpin__dot { width: 12px; height: 12px; border: 2.5px solid #0b0a0f; background: #ff3d8b; box-shadow: 0 2px 6px rgba(0,0,0,.6), inset 0 -2px 0 rgba(0,0,0,.25); }
+.mpin__note {
+  position: absolute; display: block; padding: 6px 10px 5px; min-width: 64px; text-align: center;
+  font-family: var(--font-marker); font-size: clamp(11px, 2.3cqi, 17px); line-height: 1.05; color: #1a1020; white-space: nowrap; text-shadow: none;
+  background: linear-gradient(180deg, #fff59b, #ffe95a); border-radius: 2px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,.45), 0 0 0 .5px rgba(0,0,0,.25);
+  transform: rotate(var(--rot)); transform-origin: 50% 0; transition: transform .25s var(--ease), background .2s;
+}
+.mpin__tape { position: absolute; left: 50%; top: -6px; width: 34px; height: 11px; margin-left: -17px; background: rgba(255,255,255,.55); border-left: 1px dashed rgba(0,0,0,.15); border-right: 1px dashed rgba(0,0,0,.15); transform: rotate(-3deg); }
+.mpin--r .mpin__note { left: 14px; top: -14px; }
+.mpin--l .mpin__note { right: 14px; top: -14px; }
+.mpin--b .mpin__note { left: 50%; top: 12px; transform: translateX(-50%) rotate(var(--rot)); }
+.mpin:hover .mpin__note, .mpin:focus-visible .mpin__note { transform: rotate(0deg) scale(1.08); }
+.mpin--b:hover .mpin__note { transform: translateX(-50%) rotate(0deg) scale(1.08); }
+.mpin.is-active .mpin__note { background: linear-gradient(180deg, #ffc2d9, #ff9cc2); }
+.mpin.is-active .mpin__dot { background: #fff; transform: none; }
+.mpin.is-active .mpin__note::after { content: ""; position: absolute; left: 6px; right: 6px; bottom: 5px; height: 3px; background: #ff3d8b; opacity: .8; transform: rotate(-1deg); border-radius: 2px; }
+.mpin__note { animation: note-in .5s var(--ease) both; animation-delay: calc(var(--i, 0) * 60ms); }
+@keyframes note-in { from { opacity: 0; transform: rotate(var(--rot)) translateY(-8px) scale(.8); } }
+.mpin--b .mpin__note { animation-name: note-in-b; }
+@keyframes note-in-b { from { opacity: 0; transform: translateX(-50%) rotate(var(--rot)) translateY(-8px) scale(.8); } }
+.atlas-img--full .mpin__note { font-size: 20px; }
+
+/* Coppe: nitide anche quando non prese (grigie, non trasparenti) */
+.trophy:not(.is-done) .cup { opacity: 1; filter: none; --cup-hi: #b9bac2; --cup-lo: #666a74; }
+.trophy { gap: var(--s-3); }
+.trophy.is-done .cup svg { animation: shine 2.4s ease-in-out infinite; }
+@keyframes shine { 0%, 100% { filter: drop-shadow(0 0 2px rgba(255,220,120,.2)); } 50% { filter: drop-shadow(0 0 10px rgba(255,220,120,.9)); } }
+
+/* Dettagli vivi (si spengono con «riduci movimento») */
+.check__box[aria-checked="true"] i { animation: pop .3s var(--ease); }
+@keyframes pop { 0% { transform: scale(.6); } 60% { transform: scale(1.18); } 100% { transform: scale(1); } }
+.home-hero .countdown b { animation: neon 4s ease-in-out infinite; }
+@keyframes neon { 0%, 100% { text-shadow: 0 0 18px rgba(255,61,139,.9), 0 0 40px rgba(255,61,139,.5); } 50% { text-shadow: 0 0 10px rgba(255,61,139,.6), 0 0 24px rgba(255,61,139,.3); } 92% { text-shadow: 0 0 2px rgba(255,61,139,.3); } }
+.story.is-met .story__ring { animation: ringspin 6s linear infinite; }
+@keyframes ringspin { to { filter: hue-rotate(360deg); } }
+.cardx__img img, .zcard img, .placecard__img img, .newsrow__img img { transition: transform .6s var(--ease); }
+.cardx:hover .cardx__img img, .zcard:hover img, .placecard:hover .placecard__img img, .newsrow:hover .newsrow__img img { transform: scale(1.05); }
+.zone__arrow { transition: transform .25s var(--ease); }
+.tile:active, .catcard:active, .placecard:active, .zcard:active { transform: scale(.98); }
+.steps { padding-left: 1.3em; margin: var(--s-2) 0; } .steps li { margin: var(--s-2) 0; color: var(--ink-2); } .steps b { color: var(--ink); }
+@media (prefers-reduced-motion: reduce) { .mpin__note, .trophy.is-done .cup svg, .check__box i, .home-hero .countdown b, .story__ring { animation: none !important; } }

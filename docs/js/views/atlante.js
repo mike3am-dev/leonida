@@ -236,7 +236,7 @@ export function bind(root, rerender) {
       document.body.append(ov); const sc = ov.querySelector('.map-full__scroll'); sc.scrollLeft = (sc.scrollWidth - sc.clientWidth) / 2; sc.scrollTop = (sc.scrollHeight - sc.clientHeight) / 3;
       return;
     }
-    const c = e.target.closest('[data-collect]'); if (c) { progress.toggleCollected(c.dataset.collect); rerender(); return; }
+    // [data-collect] lo gestisce collezionabili.bind (una sola volta, altrimenti la spunta si annulla da sola)
     const a = e.target.closest('[data-activity]'); if (a) { progress.toggleActivity(a.dataset.activity); rerender(); }
   });
   let t = null;

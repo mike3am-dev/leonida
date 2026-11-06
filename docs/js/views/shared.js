@@ -4,18 +4,19 @@ import * as progress from '../store/progress.js';
 import { esc, pad2 } from '../ui/dom.js';
 import { isOpen } from '../posture.js';
 
+// hue = colore della banda di testata (ogni sezione il suo), tagline = sottotitolo
 export const SECTIONS = [
-  { id: 'home', num: 1, title: 'Home', path: '/', icon: 'home', accent: 'magenta', tab: true },
-  { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', tab: true },
-  { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', tab: true },
-  { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', tab: true },
-  { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange' },
-  { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange' },
-  { id: 'personaggi', num: 7, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta' },
-  { id: 'radio', num: 8, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange' },
-  { id: 'mondo', num: 9, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal' },
-  { id: 'news', num: 10, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta' },
-  { id: 'diario', num: 11, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta' },
+  { id: 'home', num: 1, title: 'Home', path: '/', icon: 'home', accent: 'magenta', hue: 335, tagline: 'La tua plancia di comando', tab: true },
+  { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', hue: 172, tagline: 'La storia, capitolo per capitolo', tab: true },
+  { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, territorio per territorio', tab: true },
+  { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', tab: true },
+  { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino' },
+  { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'Veicoli e arsenale' },
+  { id: 'personaggi', num: 7, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida' },
+  { id: 'radio', num: 8, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora' },
+  { id: 'mondo', num: 9, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV' },
+  { id: 'news', num: 10, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno' },
+  { id: 'diario', num: 11, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco' },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }
@@ -23,7 +24,7 @@ export function showEx() { return progress.settings().showExamples; }
 export function vis(list) { return visible(list, showEx()); }
 
 export function chapterHead(section, { title, kicker, lede } = {}) {
-  return `<header class="section-head"><div><span class="kicker">${esc(kicker || 'Guida di campo')}</span><h1>${esc(title || section.title)}</h1></div></header>${lede ? `<p class="lede">${lede}</p>` : ''}`;
+  return `<header class="section-head section-head--band" style="--hue:${section.hue || 335}"><div><span class="kicker">${esc(kicker || section.tagline || '')}</span><h1>${esc(title || section.title)}</h1></div></header>${lede ? `<p class="lede">${lede}</p>` : ''}`;
 }
 
 export function runningHead(left, right = '') {
@@ -112,7 +113,7 @@ export function acc(title, body, open = false) {
   return `<div class="acc ${open ? 'is-open' : ''}"><button class="acc__btn" type="button"><span class="kicker">${esc(title)}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><div class="acc__body">${body}</div></div>`;
 }
 export function sectionHead(section, count = '') {
-  return `<header class="section-head"><div><span class="kicker">Guida di campo</span><h1>${esc(section.title)}</h1></div><span class="count">${esc(count)}</span></header>`;
+  return `<header class="section-head section-head--band" style="--hue:${section.hue || 335}"><svg class="section-head__icon" aria-hidden="true"><use href="#i-${esc(section.icon)}"/></svg><div><h1>${esc(section.title)}</h1><span class="section-head__tag">${esc(section.tagline || '')}</span></div><span class="count">${esc(count)}</span></header>`;
 }
 export function galleryHtml(item) {
   const imgs = (item.gallery || []).filter(Boolean);

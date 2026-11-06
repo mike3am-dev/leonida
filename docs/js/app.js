@@ -21,7 +21,7 @@ import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 
-window.__LEONIDA_VERSION__ = 'v0.9.0';
+window.__LEONIDA_VERSION__ = 'v0.9.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -110,9 +110,7 @@ function render(match, { dir, refresh } = {}) {
   right.innerHTML = detail ? `<div class="page__inner">${out.right || ''}</div>` : (isOpener(out.right) ? '' : `<div class="page__inner">${out.right}</div>`);
   spread.dataset.show = out.show || 'left';
   const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
-  $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>Leonida · Guida di campo</span>`;
   spread.scrollTop = keepScroll !== null ? keepScroll : 0;
-  const sub = document.querySelector('.brand__sub'); if (sub) sub.textContent = sec ? sec.title : (out.title || 'Leonida');
 
   // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
   const key = match.path;

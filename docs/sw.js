@@ -5,7 +5,7 @@
  *   se sei offline usa l'ultima copia salvata.
  * A OGNI RELEASE: alza VERSION. La cache vecchia viene cancellata.
  */
-const VERSION = 'v0.9.0';
+const VERSION = 'v0.9.1';
 const SHELL = `leonida-shell-${VERSION}`;
 const DATA = `leonida-data-${VERSION}`;
 
@@ -17,7 +17,7 @@ const SHELL_FILES = [
   'js/ui/dom.js', 'js/ui/sheet.js',
   'js/views/shared.js', 'js/views/sessione.js', 'js/views/missioni.js', 'js/views/atlante.js',
   'js/views/collezionabili.js', 'js/views/editoriale.js', 'js/views/diario.js', 'js/views/impostazioni.js', 'js/views/ricerca.js', 'js/views/veicoli.js', 'js/views/novita.js', 'js/views/trofei.js', 'js/views/mapsvg.js',
-  'fonts/Fraunces-normal.woff2', 'fonts/Fraunces-italic.woff2', 'fonts/InterTight-normal.woff2', 'fonts/InterTight-italic.woff2',
+  'fonts/Fraunces-normal.woff2', 'fonts/Fraunces-italic.woff2', 'fonts/InterTight-normal.woff2', 'fonts/InterTight-italic.woff2', 'fonts/PermanentMarker.woff2', 'fonts/Caveat.woff2',
   'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png',
 ];
 

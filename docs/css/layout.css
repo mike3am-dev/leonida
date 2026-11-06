@@ -98,17 +98,8 @@
   .rail__spacer { flex: 1; }
 
   .masthead { min-height: calc(48px + var(--safe-t)); }
-  .masthead .brand__word, .masthead .brand__mark { display: none; }
-  .masthead .brand__sub { font-size: var(--fs-sm); }
 
   .sheet-page { padding: var(--s-5) max(var(--safe-r), var(--s-6)) calc(var(--safe-b) + var(--s-8)) var(--s-6); }
-  .folio {
-    display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-3);
-    max-width: var(--col); margin: 0 auto var(--s-5);
-    padding-bottom: var(--s-3); border-bottom: var(--hair) solid var(--rule-strong);
-    font-size: var(--fs-xs); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3);
-  }
-  .folio b { color: var(--ink); font-weight: 600; }
   .back-link.only-closed { display: inline-flex; }
 }
 

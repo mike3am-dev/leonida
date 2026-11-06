@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.7.0",
+  "dataVersion": "0.7.1",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.7.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Copertine per Vice Beach, Hamlet, Capri e Waning Sands e foto per 33 punti d'interesse, dalle schede di gtasixmap.",
+        "Testate a banda colorata, una per sezione; «Guida di gioco» al posto di «Guida di campo».",
+        "Mappa: territori come post-it a pennarello; immagine alla qualità originale."
+      ]
+    },
     {
       "version": "0.7.0",
       "date": "2026-11-06",

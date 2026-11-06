@@ -45,7 +45,7 @@ export function render() {
       <img src="${esc(heroImg)}" alt="">
       <div class="home-hero__veil"></div>
       <div class="home-hero__text">
-        <span class="kicker">Leonida · Guida di campo</span>
+        <span class="kicker">Leonida · Guida di gioco</span>
         ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>`
           : cd.after ? `<span class="home-hero__eyebrow">Giorno ${cd.days} a Leonida</span><h1 class="home-hero__title">${next ? esc(next.title) : 'Benvenuto a Leonida'}</h1>${next ? `<a class="btn btn--accent" href="#/missioni/${esc(next.id)}">Comincia da qui</a>` : ''}`
           : `<span class="home-hero__eyebrow">Mancano</span><div class="countdown"><b>${cd.days}</b><span>giorni</span><b>${cd.hours}</b><span>ore</span></div><span class="home-hero__sub">al 19 novembre · PS5 · Ultimate Edition</span>`}

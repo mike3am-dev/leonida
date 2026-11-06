@@ -104,3 +104,8 @@
 [data-accent="teal"]    { --accent: var(--teal); }
 [data-accent="orange"]  { --accent: var(--orange); }
 :root { --accent: var(--magenta); }
+
+/* Pennarello e corsivo a mano, per i post-it della mappa e qualche dettaglio */
+@font-face { font-family: "Permanent Marker"; src: url("../fonts/PermanentMarker.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Caveat"; src: url("../fonts/Caveat.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+:root { --font-marker: "Permanent Marker", "Marker Felt", "Comic Sans MS", cursive; --font-hand: "Caveat", "Bradley Hand", cursive; }
