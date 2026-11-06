@@ -33,7 +33,7 @@ function detail(m) {
   const list = (arr, empty) => arr?.length ? `<ul>${arr.map((t) => `<li>${esc(typeof t === 'string' ? t : t.label || t.title || JSON.stringify(t))}</li>`).join('')}</ul>` : `<p class="muted small">${esc(empty)}</p>`;
   return `
     ${backLink('/missioni', 'Missioni')}
-    ${hero(m, { kicker: `${missionActLabel(m)}${m.chapter ? ` · Capitolo ${m.chapter}` : ''}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
+    ${hero(m, { kicker: `${missionActLabel(m)}${m.chapter && !/capitolo/i.test(missionActLabel(m)) ? ` · Capitolo ${m.chapter}` : ''}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
     <div class="prose">${spoiler.wrap(m, `<p class="lede">${esc(m.summary || 'Nessun riassunto ancora.')}</p>`)}</div>
     <div class="actions">
       ${state === 'in-corso'

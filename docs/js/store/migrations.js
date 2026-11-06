@@ -20,7 +20,7 @@ export function emptyState() {
       theme: 'dark',
       spoilerShield: true,
       manualAct: null,     // null = segue la progressione
-      showExamples: true,
+      showExamples: false,
       sfx: false,
     },
   };
