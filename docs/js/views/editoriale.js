@@ -82,6 +82,7 @@ export function renderCultura(params) {
     return { left: '', right, show: 'right', accent: secR.accent, title: it.name };
   }
   const left = `${sectionHead(secR, `${radio.length} stazioni`)}
+    <img class="radio-logo" src="assets/img/sfondi/vice-city-logo.png" alt="Vice City">
     <div class="cards">${radio.map((r) => `<a class="cardx" href="#/cultura/${esc(r.id)}"><div class="cardx__img cardx__img--logo">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-radio"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(r.name)}</div><div class="cardx__meta">${esc(r.genre || '')}${r.host ? ' · ' + esc(r.host) : ''}</div></div></a>`).join('')}</div>
     <span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Dischi e canzoni</span>
     <div class="cards">${music.map((b) => `<a class="cardx" href="#/cultura/${esc(b.id)}"><div class="cardx__img cardx__img--logo">${b.image ? `<img src="${esc(b.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-star"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(b.name)}</div><div class="cardx__meta">${esc(b.category || '')}</div></div></a>`).join('')}</div>`;

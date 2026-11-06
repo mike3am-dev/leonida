@@ -1007,7 +1007,7 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 
 /* Testate con lo sfondo ufficiale dietro */
 .section-head--img { background: var(--band-img) center / cover no-repeat; }
-.section-head--img::after { display: block; content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--bg) 92%, transparent) 30%, color-mix(in srgb, var(--bg) 55%, transparent) 70%, color-mix(in srgb, var(--bg) 35%, transparent)); border-radius: 0; width: auto; height: auto; top: 0; right: 0; }
+.section-head--img::after { display: block; content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, color-mix(in srgb, var(--bg) 94%, transparent) 35%, color-mix(in srgb, var(--bg) 72%, transparent) 75%, color-mix(in srgb, var(--bg) 55%, transparent)); border-radius: 0; width: auto; height: auto; top: 0; right: 0; }
 .section-head--img > * { position: relative; z-index: 1; }
 
 /* Numeri giganti in gradiente GTA, sovrapposti alle foto */
@@ -1060,3 +1060,7 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 @keyframes sticker-pop { 0% { transform: rotateY(90deg); } 100% { transform: none; } }
 .sticker__info { position: absolute; right: 6px; bottom: 6px; width: 26px; height: 26px; border-radius: 50%; border: 0; background: color-mix(in srgb, var(--ink) 10%, transparent); color: var(--ink-2); font-size: 12px; font-weight: 700; display: grid; place-items: center; }
 @media (prefers-reduced-motion: reduce) { .sticker.is-found { animation: none; } .castboard__panel { transition: none; } }
+.home-hero__logo { position: absolute; right: var(--s-4); top: var(--s-4); width: clamp(72px, 18cqi, 150px); height: auto; filter: drop-shadow(0 4px 14px rgba(0,0,0,.5)); }
+.radio-logo { display: block; max-width: 260px; margin: 0 auto var(--s-4); }
+
+.section-head--img .count { background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }

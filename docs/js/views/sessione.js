@@ -8,7 +8,7 @@ import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('home');
-const HERO_IMGS = ['assets/img/sfondi/keyart.jpg', 'assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
+const HERO_IMGS = ['assets/img/sfondi/keyart.jpg', 'assets/img/sfondi/oceanview-notte.jpg', 'assets/img/sfondi/stripclub.jpg', 'assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
 const dayIndex = () => Math.floor(Date.now() / 86400000);
 
 function countdown() {
@@ -44,6 +44,7 @@ export function render() {
     <section class="home-hero">
       <img src="${esc(heroImg)}" alt="">
       <div class="home-hero__veil"></div>
+      <img class="home-hero__logo" src="assets/img/sfondi/logo-vi.png" alt="Grand Theft Auto VI">
       <div class="home-hero__text">
         <span class="kicker">Leonida · Guida di gioco</span>
         ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>`
