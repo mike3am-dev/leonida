@@ -546,3 +546,60 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .track__meta { display: block; font-size: var(--fs-sm); color: var(--ink-3); }
 .track__btn { min-height: 36px; font-size: var(--fs-xs); padding: 0 var(--s-3); }
 .chip--platino { color: #cfd8e3; } .chip--oro { color: #f2c14e; } .chip--argento { color: #b9c0c8; } .chip--bronzo { color: #c98a5a; }
+
+/* ---------- Mappa illustrata ---------- */
+.atlas--full { background: #082a40; }
+.leonida-map { width: 100%; height: auto; display: block; font-family: var(--font-text); }
+.leonida-map .water-label { font-family: var(--font-display); font-style: italic; font-size: 22px; fill: rgba(243,237,228,.55); letter-spacing: .08em; }
+.leonida-map .water-label--sm { font-size: 15px; fill: rgba(243,237,228,.8); }
+.leonida-map .map-title { font-family: var(--font-display); font-style: italic; font-size: 34px; fill: #f3ede4; }
+.leonida-map .map-sub { font-size: 13px; fill: rgba(243,237,228,.6); letter-spacing: .06em; }
+.leonida-map .pin { cursor: pointer; color: #0b0a0f; }
+.leonida-map .pin__hit { fill: transparent; }
+.leonida-map .pin__dot { fill: #f3ede4; stroke: #0b0a0f; stroke-width: 2.5; filter: drop-shadow(0 3px 4px rgba(0,0,0,.5)); transition: transform .15s; }
+.leonida-map .pin:hover .pin__dot, .leonida-map .pin:focus .pin__dot { fill: #fff; }
+.leonida-map .pin--active .pin__dot { fill: #ff3d8b; stroke: #fff; }
+.leonida-map .pin--active { color: #fff; }
+.leonida-map .pin__label { font-family: var(--font-display); font-style: italic; font-size: 24px; fill: #fff; paint-order: stroke; stroke: rgba(8,42,64,.85); stroke-width: 6px; stroke-linejoin: round; pointer-events: none; }
+.leonida-map .pin__label--sm { font-size: 18px; }
+.atlas__full { position: absolute; right: var(--s-3); bottom: var(--s-3); min-height: 40px; font-size: var(--fs-xs); padding: 0 var(--s-3); }
+.map-full { position: fixed; inset: 0; z-index: 90; background: #082a40; }
+.map-full__scroll { position: absolute; inset: 0; overflow: auto; -webkit-overflow-scrolling: touch; touch-action: pan-x pan-y pinch-zoom; }
+.map-full__scroll .leonida-map { width: 1600px; max-width: none; }
+.map-full__close { position: absolute; top: calc(var(--safe-t) + 12px); right: calc(var(--safe-r) + 12px); z-index: 2; background: rgba(0,0,0,.5); color: #fff; }
+
+/* Schede dei territori, espandibili in pagina */
+.zones { display: grid; gap: var(--s-3); margin-top: var(--s-4); }
+.zone { border: var(--hair) solid var(--rule); border-radius: var(--radius); background: var(--paper); overflow: hidden; box-shadow: var(--shadow); }
+.zone.is-open { border-color: color-mix(in srgb, var(--accent) 55%, transparent); }
+.zone__head { display: grid; grid-template-columns: 120px minmax(0, 1fr) 28px; gap: var(--s-3); align-items: center; text-decoration: none; min-height: 96px; }
+.zone__img { height: 100%; min-height: 96px; background: var(--paper-2); display: grid; place-items: center; color: var(--ink-3); }
+.zone__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.zone__img svg { width: 28px; height: 28px; opacity: .5; }
+.zone__text { padding: var(--s-2) 0; display: grid; gap: 3px; }
+.zone__name { font-family: var(--font-display); font-size: 1.45rem; line-height: 1.1; }
+.zone__meta { font-size: var(--fs-sm); color: var(--ink-3); }
+.zone__arrow { width: 22px; height: 22px; color: var(--ink-3); margin-right: var(--s-2); transition: transform .2s; }
+.zone.is-open .zone__arrow { transform: rotate(90deg); }
+.zone.is-open .zone__head { grid-template-columns: minmax(0, 1fr) 28px; }
+.zone.is-open .zone__img { display: none; }
+.zone.is-open .zone__text { padding: var(--s-3) var(--s-4); }
+.zone__body { padding: 0 var(--s-4) var(--s-4); border-top: var(--hair) solid var(--rule); }
+.zone__body .lede { margin: var(--s-3) 0 var(--s-2); }
+@media (min-width: 600px) and (min-height: 520px) { .zone__head { grid-template-columns: 160px minmax(0, 1fr) 28px; } }
+
+/* Luoghi e popover */
+.pois { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: var(--s-2); margin: var(--s-2) 0 var(--s-4); }
+.poi { display: grid; grid-template-columns: 52px minmax(0, 1fr); grid-template-rows: auto auto auto; gap: 2px var(--s-2); align-items: center; text-align: left; padding: var(--s-2); border: var(--hair) solid var(--rule-strong); border-radius: var(--radius-sm); background: var(--bg-2); color: var(--ink); min-height: 64px; }
+.poi__thumb { grid-row: 1 / -1; width: 52px; height: 52px; border-radius: 8px; overflow: hidden; background: var(--paper-2); display: grid; place-items: center; color: var(--ink-3); }
+.poi__thumb img { width: 100%; height: 100%; object-fit: cover; }
+.poi__thumb svg { width: 20px; height: 20px; opacity: .6; }
+.poi__name { font-weight: 600; font-size: var(--fs-sm); line-height: 1.2; }
+.poi__kind { font-size: var(--fs-xs); color: var(--ink-3); }
+.whats { display: flex; flex-wrap: wrap; gap: 6px; }
+.what { display: inline-flex; align-items: center; gap: 4px; font-size: var(--fs-xs); color: var(--ink-2); padding: 2px 8px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.what svg { width: 12px; height: 12px; }
+.whats--mini .what { padding: 1px 6px; }
+.chip--btn { cursor: pointer; background: var(--bg-2); }
+.chip img { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; margin: -4px 2px -4px -6px; }
+.pop__img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: 50% 25%; border-radius: var(--radius-sm); }
