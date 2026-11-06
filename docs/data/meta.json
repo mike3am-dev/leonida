@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.9.1",
+  "dataVersion": "0.9.2",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.9.2",
+      "date": "2026-11-06",
+      "changes": [
+        "Giro di aggiornamento news del 6 novembre: 23 notizie (orari di sblocco, upgrade alla Ultimate, Take-Two prima dei risultati del 9, Zelnick al WSJ, maglie Vice City dei Miami Heat, Black Friday, Launch Gallery letta dalla community). Nel Garage il superyacht Yakuruna. Lista trofei: ancora non pubblicata."
+      ]
+    },
     {
       "version": "0.9.1",
       "date": "2026-11-06",

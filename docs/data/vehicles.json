@@ -3563,6 +3563,21 @@
       "description": "Pickup pesante. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+    },
+    {
+      "id": "veh-yakuruna",
+      "name": "Yakuruna (superyacht)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Il superyacht in stile Riva dei trailer ha un nome: «Yakuruna», letto sulla fiancata in uno screenshot della Launch Gallery del 5 novembre. Avvistato già nel Trailer 1 e nel trailer di lancio.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Yakuruna",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-06"
     }
   ]
 }
