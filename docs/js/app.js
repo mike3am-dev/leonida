@@ -21,7 +21,7 @@ import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 
-window.__LEONIDA_VERSION__ = 'v0.7.0';
+window.__LEONIDA_VERSION__ = 'v0.7.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;

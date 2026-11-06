@@ -1,10 +1,12 @@
+/** Collezionabili: categorie come schede, checklist che aggiorna il contatore */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc } from '../ui/dom.js';
-import { chapterHead, opener, vis, sectionOf, isOpen } from './shared.js';
+import { esc, statusChip } from '../ui/dom.js';
+import { sectionHead, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('collezionabili');
+const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 
 export function render(params, query) {
   const st = progress.get();
@@ -15,45 +17,44 @@ export function render(params, query) {
   const q = (query.q || '').toLowerCase();
   const list = all.filter((c) => (!cat || c.categoryId === cat) && (!dis || c.districtId === dis) && (!q || c.name.toLowerCase().includes(q)));
   const done = list.filter((c) => st.collectibles[c.id]).length;
-  const pct = list.length ? Math.round((done / list.length) * 100) : 0;
-  const link = (k, v) => { const p = new URLSearchParams({ cat, dis }); if (v) p.set(k, v); else p.delete(k); for (const [kk, vv] of [...p]) if (!vv) p.delete(kk); return `#/collezionabili${p.toString() ? '?' + p : ''}`; };
+  const totalDone = all.filter((c) => st.collectibles[c.id]).length;
+  const link = (k, v) => { const p = new URLSearchParams(); if (cat) p.set('cat', cat); if (dis) p.set('dis', dis); if (v) p.set(k, v); else p.delete(k); return `#/collezionabili${p.toString() ? '?' + p : ''}`; };
+  const active = cat ? byId(cat) : null;
 
-  const left = `
-    ${chapterHead(section, { kicker: 'Capitolo quarto', title: 'Collezionabili' })}
-    <div class="card">
-      <div class="stat" style="border:0;padding-top:0"><div class="stat__value tnum">${done} <span class="muted" style="font-size:1rem">/ ${list.length}</span></div><div class="stat__label">${cat || dis ? 'nella selezione' : 'in tutto'}</div></div>
-      <div class="progress"><i style="--p:${pct}%"></i></div>
+  const catCard = (c) => { const items = all.filter((x) => x.categoryId === c.id); const d = items.filter((x) => st.collectibles[x.id]).length; return `
+    <a class="catcard ${cat === c.id ? 'is-active' : ''}" href="${cat === c.id ? '#/collezionabili' : link('cat', c.id)}">
+      <span class="catcard__icon"><svg aria-hidden="true"><use href="#i-${esc(c.icon || 'star')}"/></svg></span>
+      <span class="catcard__name">${esc(c.name.replace('ESEMPIO — ', ''))}</span>
+      <span class="catcard__count">${items.length ? `${d} / ${items.length}` : 'da scoprire'}</span>
+      <span class="progress"><i style="--p:${items.length ? Math.round(d / items.length * 100) : 0}%"></i></span>
+    </a>`; };
+
+  const left = `${sectionHead(section, `${totalDone} / ${all.length}`)}
+    <div class="progress" style="margin-bottom:var(--s-4)"><i style="--p:${all.length ? Math.round(totalDone / all.length * 100) : 0}%"></i></div>
+    <div class="catgrid">${cats.map(catCard).join('')}</div>
+    ${active ? `<div class="card" style="margin-top:var(--s-4)"><span class="kicker kicker--accent">${esc(active.name)}</span><p class="small" style="margin:var(--s-2) 0 0">${esc(active.description || '')}</p><div class="chips" style="margin-top:var(--s-2)">${statusChip(active)}</div></div>` : ''}
+    <div class="filters" style="margin-top:var(--s-4)">
+      <a class="filter" role="button" aria-pressed="${!dis}" href="${link('dis', '')}">Tutte le zone</a>
+      ${vis(db.districts).filter((d) => all.some((c) => c.districtId === d.id)).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}
     </div>
-    <div class="block"><span class="kicker">Categoria</span>
-      <div class="filters" role="group">
-        <a class="filter" role="button" aria-pressed="${!cat}" href="${link('cat', '')}">Tutte</a>
-        ${cats.map((c) => `<a class="filter" role="button" aria-pressed="${cat === c.id}" href="${link('cat', c.id)}">${esc(c.name.replace('ESEMPIO — ', ''))}</a>`).join('')}
-      </div>
-      <span class="kicker">Distretto</span>
-      <div class="filters" role="group">
-        <a class="filter" role="button" aria-pressed="${!dis}" href="${link('dis', '')}">Tutti</a>
-        ${vis(db.districts).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}
-      </div>
-    </div>
-`;
-
-  const right = `<span class="kicker" style="display:block;margin-bottom:var(--s-2)">${esc(cat ? byId(cat)?.name || '' : dis ? byId(dis)?.name || '' : 'Tutti')}</span>${checklist(list, st)}`;
-
-  return { left, right, show: 'left', accent: section.accent, title: 'Collezionabili' };
+    <span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-2)">${esc(active ? active.name : 'Tutti i collezionabili')} · ${done} / ${list.length}</span>
+    ${checklist(list, st)}`;
+  return { left, right: '', show: 'left', accent: section.accent, title: 'Collezionabili' };
 }
 
 function checklist(list, st) {
-  if (!list.length) return `<div class="placeholder" style="margin-top:var(--s-4)"><strong>Nessun collezionabile</strong>Niente corrisponde ai filtri, oppure i dati non sono ancora stati inseriti.</div>`;
-  return `<div class="block">${list.map((c) => { const done = !!st.collectibles[c.id]; return `
-    <div class="check" data-done="${done}">
+  if (!list.length) return `<div class="placeholder"><strong>Niente qui</strong>Niente corrisponde ai filtri, oppure questa categoria aspetta ancora i dati. Le voci arrivano giocando: Appunti → Pacchetto per Claude.</div>`;
+  return list.map((c) => { const done = !!st.collectibles[c.id]; return `
+    <div class="check check--rich" data-done="${done}">
       <button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
+      ${c.image ? `<img class="check__img" src="${esc(c.image)}" alt="" loading="lazy">` : ''}
       <div class="check__body">
         <div class="check__title">${esc(c.name)}</div>
-        <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · <a href="#/mappa/${esc(c.districtId || '')}">${esc(byId(c.districtId)?.name || 'zona sconosciuta')}</a></div>
+        <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · ${c.districtId ? `<a href="#/mappa/${esc(c.districtId)}">${esc(byId(c.districtId)?.name || '')}</a>` : 'zona da scoprire'}${c.status !== 'verificato' ? ' · ' + (SRC[c.source] || 'da verificare') : ''}</div>
         ${c.directions ? `<div class="small" style="margin-top:4px">${spoiler.text(c, c.directions)}</div>` : ''}
         ${c.reward ? `<div class="small muted">Ricompensa: ${esc(c.reward)}</div>` : ''}
       </div>
-    </div>`; }).join('')}</div>`;
+    </div>`; }).join('');
 }
 
 export function bind(root, rerender) {

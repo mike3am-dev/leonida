@@ -603,3 +603,15 @@ mark { background: color-mix(in srgb, var(--accent) 35%, transparent); color: in
 .chip--btn { cursor: pointer; background: var(--bg-2); }
 .chip img { width: 22px; height: 22px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; margin: -4px 2px -4px -6px; }
 .pop__img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: 50% 25%; border-radius: var(--radius-sm); }
+
+/* ---------- Collezionabili: categorie ---------- */
+.catgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-2); }
+.catcard { display: grid; gap: 4px; padding: var(--s-3); border-radius: var(--radius-sm); background: var(--paper); border: var(--hair) solid var(--rule); text-decoration: none; min-height: 100px; }
+.catcard.is-active { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--paper)); }
+.catcard__icon { width: 28px; height: 28px; color: var(--accent); }
+.catcard__icon svg { width: 28px; height: 28px; }
+.catcard__name { font-family: var(--font-display); font-size: 1.1rem; line-height: 1.15; }
+.catcard__count { font-size: var(--fs-xs); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.check--rich { grid-template-columns: var(--tap) auto minmax(0, 1fr); }
+.check--rich:not(:has(.check__img)) { grid-template-columns: var(--tap) minmax(0, 1fr); }
+.check__img { width: 64px; height: 48px; object-fit: cover; border-radius: 8px; }

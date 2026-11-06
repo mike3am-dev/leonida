@@ -406,6 +406,57 @@
       "rewards": [],
       "steps": [],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "act-pesca-dettagli",
+      "name": "Pesca: cattura e rilascio",
+      "type": "attività",
+      "districtId": "dis-keys",
+      "description": "«Dettagliata come in RDR2» ma non tieni il pesce: niente da vendere o mangiare, «non stava in questo gioco» (Nelson). Sfide e collezionabili legati. Gambit Bay è il primo luogo nominato. Una barca con Brian Heder fa pensare al minigioco.",
+      "requirements": [],
+      "rewards": [],
+      "steps": [],
+      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/"
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "act-caccia-dettagli",
+      "name": "Caccia: un contatto di Jason",
+      "type": "attività",
+      "districtId": "dis-mount-kalaga",
+      "description": "La introduce un personaggio che conosce già Jason; «usi quello che prendi per fare soldi». Niente pelli o carne confermate. POACH, i guardaparco, vigilano: uccidere animali in zona protetta potrebbe funzionare come un livello di ricercato (community).",
+      "requirements": [],
+      "rewards": [],
+      "steps": [],
+      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/"
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "act-zoo-dettagli",
+      "name": "Lo zoo, anche come appuntamento",
+      "type": "attività",
+      "districtId": "dis-vice-city",
+      "description": "Confermato: si visita, si studiano gli animali, e Nelson lo chiama «tempo di qualità» per Jason e Lucia.",
+      "requirements": [],
+      "rewards": [],
+      "steps": [],
+      "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
     }
   ]
 }

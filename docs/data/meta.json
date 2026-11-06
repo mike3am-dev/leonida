@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.5.0",
+  "dataVersion": "0.6.0",
   "updatedAt": "2026-11-05",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.6.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Collezionabili: 9 categorie (fauna, pesci, relitti, riviste, salti, murales, collezione di Wyman, negozi esclusivi, rifugi e garage) e schede della fauna complete.",
+        "Trofei: schema di 32 trofei ricostruito da GTA V e RDR2, in attesa della lista ufficiale.",
+        "Missioni: il prologo nelle Keys, l'uscita di Lucia e le quattro sequenze dell'Extended Look, più Hank's Waffles dal leak (spoiler).",
+        "News e guide su fauna, pesca, caccia, trofei."
+      ]
+    },
     {
       "version": "0.5.0",
       "date": "2026-11-05",

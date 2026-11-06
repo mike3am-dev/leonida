@@ -1247,6 +1247,75 @@
       "outlet": "VGC / TheGamer",
       "relatedIds": [],
       "sourceUrl": "https://www.videogameschronicle.com/news/dan-houser-still-hasnt-seen-gta-6-i-will-try-and-avoid-it/"
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "new-20260929-fauna",
+      "date": "2026-09-29",
+      "title": "Game Informer: oltre 170 specie, tre livelli di rarità, invasive comprese",
+      "body": "60+ uccelli, 30+ mammiferi, squali, balene, razze, tartarughe, meduse con animazioni proprie; pelo che si bagna e si sporca; iridescenze e bioluminescenza. Animali Rari, Scopribili e Leggendari (identità segrete). Nativi: fenicotteri, lamantini, pellicani, alligatori. Invasivi: iguane verdi, rospi delle canne, gatti selvatici, macachi reso.",
+      "topic": "gameplay",
+      "outlet": "Game Informer",
+      "relatedIds": [
+        "cat-fauna"
+      ],
+      "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "new-20260903-pesca",
+      "date": "2026-09-03",
+      "title": "Nelson: pesca «come in RDR2» ma solo cattura e rilascio; la caccia paga",
+      "body": "Niente pesce da tenere, vendere o mangiare: «non stava in questo gioco». Sfide e collezionabili legati alla pesca. La caccia la introduce un personaggio che conosce Jason, e rende soldi.",
+      "topic": "gameplay",
+      "outlet": "GameRant / TGG",
+      "relatedIds": [
+        "cat-pesci",
+        "act-caccia-dettagli"
+      ],
+      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "new-20261105-trofei",
+      "date": "2026-11-05",
+      "title": "Due settimane al lancio e la lista dei trofei non c'è: Rockstar rompe la tradizione",
+      "body": "GTA V l'aveva pubblicata 30 giorni prima, RDR2 15 giorni prima (52 trofei). Xbox conferma solo che gli obiettivi esistono; PS Store tace. Le liste da «57 trofei» che girano sono invenzioni. Nel frattempo la guida usa uno schema ricostruito da GTA V e RDR2.",
+      "topic": "community",
+      "outlet": "GTAVice.net",
+      "relatedIds": [],
+      "sourceUrl": "https://www.gtavice.net/news/gta-6-breaks-rockstar-tradition-as-achievement-list-remains-hidden-just-two-weeks-before-launch"
+    },
+    {
+      "image": null,
+      "status": "da verificare",
+      "source": "rumor",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05",
+      "id": "new-20261028-missioni-rumor",
+      "date": "2026-10-28",
+      "title": "Rumor: «201 missioni principali in nove capitoli, due prologhi e un epilogo»",
+      "body": "Lo scrive un utente su X senza fonti; Notebookcheck lo giudica improbabile. Quello che è ufficiale: capitoli come RDR2 e circa 80 ore per Nelson.",
+      "topic": "personaggi",
+      "outlet": "Notebookcheck",
+      "relatedIds": [],
+      "sourceUrl": "https://www.notebookcheck.net/GTA-6-may-feature-over-200-main-story-missions-as-leaker-shares-break-down.1436564.0.html"
     }
   ]
 }

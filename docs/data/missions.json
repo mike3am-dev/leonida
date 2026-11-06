@@ -1,10 +1,42 @@
 {
   "schemaVersion": 1,
   "acts": [
-    { "id": "act-0", "number": 0, "title": "Prologo", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": false },
-    { "id": "act-1", "number": 1, "title": "Atto I", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": false },
-    { "id": "act-2", "number": 2, "title": "Atto II", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": false },
-    { "id": "act-3", "number": 3, "title": "Atto III", "status": "segnaposto", "source": "gioco-mike", "spoilerLevel": 0, "example": false }
+    {
+      "id": "act-0",
+      "number": 0,
+      "title": "Prologo: le Keys",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false
+    },
+    {
+      "id": "act-1",
+      "number": 1,
+      "title": "Capitolo 1: Vice City",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false
+    },
+    {
+      "id": "act-2",
+      "number": 2,
+      "title": "Atto II",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false
+    },
+    {
+      "id": "act-3",
+      "number": 3,
+      "title": "Atto III",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false
+    }
   ],
   "items": [
     {
@@ -17,13 +49,33 @@
       "districtId": "dis-keys",
       "summary": "Voce di esempio per vedere il design. Non è una missione reale: la sostituirai con la prima missione vera dopo il 19 novembre.",
       "prerequisites": [],
-      "unlocks": [{ "type": "mission", "ref": "mis-ex-002", "label": "Missione successiva (esempio)" }],
-      "rewards": [{ "type": "denaro", "label": "Ricompensa di esempio", "amount": 0 }],
-      "extraObjectives": [
-        { "id": "obj-ex-1", "label": "Obiettivo extra di esempio n. 1" },
-        { "id": "obj-ex-2", "label": "Obiettivo extra di esempio n. 2" }
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-ex-002",
+          "label": "Missione successiva (esempio)"
+        }
       ],
-      "tips": ["Consiglio di esempio: qui scriverai i trucchi che scopri giocando."],
+      "rewards": [
+        {
+          "type": "denaro",
+          "label": "Ricompensa di esempio",
+          "amount": 0
+        }
+      ],
+      "extraObjectives": [
+        {
+          "id": "obj-ex-1",
+          "label": "Obiettivo extra di esempio n. 1"
+        },
+        {
+          "id": "obj-ex-2",
+          "label": "Obiettivo extra di esempio n. 2"
+        }
+      ],
+      "tips": [
+        "Consiglio di esempio: qui scriverai i trucchi che scopri giocando."
+      ],
       "secrets": [],
       "image": null,
       "status": "segnaposto",
@@ -41,17 +93,216 @@
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
       "summary": "Seconda voce di esempio, in un atto successivo, per provare lo scudo spoiler: i suoi segreti si rivelano solo quando raggiungi l'Atto I.",
-      "prerequisites": ["mis-ex-001"],
+      "prerequisites": [
+        "mis-ex-001"
+      ],
       "unlocks": [],
       "rewards": [],
-      "extraObjectives": [{ "id": "obj-ex-3", "label": "Obiettivo extra di esempio" }],
+      "extraObjectives": [
+        {
+          "id": "obj-ex-3",
+          "label": "Obiettivo extra di esempio"
+        }
+      ],
       "tips": [],
-      "secrets": ["Segreto di esempio: questo testo è protetto dallo scudo spoiler finché non arrivi all'Atto I."],
+      "secrets": [
+        "Segreto di esempio: questo testo è protetto dallo scudo spoiler finché non arrivi all'Atto I."
+      ],
       "image": null,
       "status": "segnaposto",
       "source": "gioco-mike",
       "spoilerLevel": 1,
       "example": true,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-prologo-keys",
+      "title": "La vita nelle Keys (apertura)",
+      "actId": "act-0",
+      "chapter": 1,
+      "order": 1,
+      "protagonist": "jason",
+      "districtId": "dis-keys",
+      "summary": "Si comincia in fondo alla mappa, nella casetta su palafitte di Jason a Key Lento: lavoretti per Brian alla marina, Cal che origlia la Guardia Costiera. Poi la chiamata a carico del destinatario «da Lucia Caminos» dal penitenziario (trailer di lancio). Dopo l'apertura, dice Rockstar, la mappa si apre quasi tutta.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "Fai pratica con la guida subito: le strade sono strette e il traffico denso.",
+        "Il carburante c'è: fai il pieno prima di partire dalle Keys."
+      ],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://www.resetera.com/threads/troiscouleurs-exclusive-interview-with-rob-nelson-and-more-gta-6-details-from-hands-on.1641235/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-prologo-lucia",
+      "title": "Lucia esce dal penitenziario",
+      "actId": "act-0",
+      "chapter": 1,
+      "order": 2,
+      "protagonist": "lucia",
+      "districtId": "dis-da-collocare",
+      "summary": "«Lucia, sai perché sei qui?» «Sfortuna, direi.» Il Trailer 1 si apre con il colloquio con Stefanie Gates; nel Trailer 2 Lucia esce dal Leonida Penitentiary con il braccialetto alla caviglia, «parte della narrazione» secondo Nelson. Un colpo facile che va storto manda i due in fuga verso Vice City.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "Il braccialetto non ha effetti sul gameplay, dice la stampa: non ti blocca."
+      ],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-el-stash-house",
+      "title": "Il ritiro ai Venture Apartments",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 1,
+      "protagonist": "entrambi",
+      "districtId": "dis-vice-city",
+      "summary": "Dall'Extended Look: Jason e Lucia vanno a ritirare droga per Boobie Ike alla casa dello spaccio di Raymond, ai Venture Apartments di Rockridge. Ernesto avvisa che arriva la task force di Méndez; retata, sparatoria, fuga dall'ascensore e dalla finestra di Aunt Tee, auto in fiamme e via in furgone.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [
+        {
+          "id": "obj-stash-1",
+          "label": "Esci senza che Méndez ti veda in faccia (cambia outfit dopo)"
+        }
+      ],
+      "tips": [
+        "Méndez spara a chi si arrende: non aspettare di trattare.",
+        "La fuga a piedi per le scale funziona meglio dell'auto a tre stelle (Nelson)."
+      ],
+      "secrets": [
+        "Il cane nel cortile ti salta addosso durante la retata."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-el-effluvia",
+      "title": "L'incontro all'Effluvia",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 2,
+      "protagonist": "jason",
+      "districtId": "dis-vice-beach",
+      "summary": "Dal rifugio di Bayside, per la Rialto Causeway e il Rivo Bridge, fino al rooftop bar Effluvia a Ocean Beach. Brian Heder propone un lavoro, ma il suo contatto vuole uno solo dei due: Lucia se ne va (10:50 dell'Extended Look) e Jason resta con il lavoro e una Pißwasser. Brian racconta la storia della giostra: sapere quando scendere.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "Scena solo per Jason: alcune missioni sono bloccate su un protagonista."
+      ],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-el-raul",
+      "title": "Autista per Raul Bautista",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 3,
+      "protagonist": "lucia",
+      "districtId": "dis-vice-beach",
+      "summary": "Lucia guida la Schafter di Raul sull'Admiral Causeway dopo una rapina a Vice Beach: inseguimento, molotov sull'auto, cambio sul Burrito alle Rialto Islands, pagamento a Downtown. È il primo lavoro con il rapinatore che poi insegnerà i colpi grossi.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "Lucia è una pilota migliore di Jason (Famitsu): usala per le fughe.",
+        "Cambiare auto cancella la prova «veicolo» dal calore della polizia."
+      ],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-el-megamundo",
+      "title": "La festa di Megamundo",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 4,
+      "protagonist": "entrambi",
+      "districtId": "dis-vice-city",
+      "summary": "Valentina li assume all'aeroporto come scorta di Andrés de León; Petra Navarro, COO, presenta l'inaugurazione della prima sede americana. Uomini armati travestiti da manutentori prendono ostaggi: walkie-talkie, C4 come diversivo, salvataggio al 26° piano, caduta nel vano ascensore con Phil Collins in sottofondo.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "La missione nel grattacielo è bloccata su Jason (Famitsu).",
+        "Il Focus evidenzia i punti deboli: rosso letale, giallo per incapacitare."
+      ],
+      "secrets": [
+        "Nell'ascensore suona «Against All Odds» di Phil Collins."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "mis-leak-hanks",
+      "title": "Hank's Waffles (dal leak)",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 5,
+      "protagonist": "entrambi",
+      "districtId": "dis-port-gellhorn",
+      "summary": "Dal leak del 2022 e dal flashback dell'Extended Look: la rapina al diner Hank's Waffles vicino alla I-404, a Port Gellhorn. Lucia sceglie chi rapinare, un testimone può chiamare, la polizia arriva con un timer. Secondo un leak non verificato, la scena nasconde un passato di Lucia.",
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "tips": [
+        "Svuota il locale prima: provoca i clienti finché non escono, poi scusati (il trucco di Hooker)."
+      ],
+      "secrets": [
+        "Un clip trapelato parla di un bambino lasciato al diner prima di una rapina in banca: non verificato."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://www.gtabites.com/missions",
+      "spoilerLevel": 9,
+      "example": false,
       "updatedAt": "2026-11-05"
     }
   ]
