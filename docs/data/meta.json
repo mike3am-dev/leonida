@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.7.1",
+  "dataVersion": "0.8.0",
   "updatedAt": "2026-11-06",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.8.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Mappa nuova: la mappa vera della community (YANIS v16) con pan e zoom, livelli territori/luoghi/foto, giorno e notte, Polaroid con il filo rosso, tessere di dettaglio da gtasixmap.",
+        "Armi: sezione a sé con la ruota delle armi, otto categorie come nel gioco.",
+        "Spunte al neon in tutte le liste; testate ridisegnate come insegne."
+      ]
+    },
     {
       "version": "0.7.1",
       "date": "2026-11-06",

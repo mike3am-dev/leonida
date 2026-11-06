@@ -39,10 +39,6 @@ export function render(params, query) {
   }
 
   const left = `${sectionHead(section, `${list.length} ${tipo}`)}
-    <div class="segmented" role="group" aria-label="Tipo" style="margin-bottom:var(--s-3)">
-      <a role="button" aria-pressed="${tipo === 'veicoli'}" href="#/veicoli">Veicoli <span class="muted">${vis(db.vehicles).length}</span></a>
-      <a role="button" aria-pressed="${tipo === 'armi'}" href="#/veicoli?tipo=armi">Arsenale <span class="muted">${vis(db.weapons).length}</span></a>
-    </div>
     <div class="filters" role="group" aria-label="Classe">
       <a class="filter" role="button" aria-pressed="${!cls}" href="${q('')}">Tutti</a>
       ${classes.map((c) => `<a class="filter" role="button" aria-pressed="${cls === c}" href="${q(c)}">${esc(CLASS_LABEL[c] || c)} <span class="muted">${all.filter((x) => x.class === c).length}</span></a>`).join('')}
@@ -57,6 +53,6 @@ export function render(params, query) {
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
     const f = e.target.closest('[data-fav]');
-    if (f) { progress.toggleFavorite(f.dataset.fav); rerender(); }
+    if (f && location.hash.startsWith('#/veicoli')) { progress.toggleFavorite(f.dataset.fav); rerender(); }
   });
 }

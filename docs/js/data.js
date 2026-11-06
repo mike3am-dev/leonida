@@ -69,6 +69,6 @@ export const TYPE_ROUTE = {
   activity: (it) => `/atlante/${it.districtId || ''}`, character: (it) => `/personaggi/${it.id}`,
   radio: (it) => `/cultura/${it.id}`, brand: (it) => `/cultura/${it.id}`, tip: (it) => `/news?tipo=guide#${it.id}`,
   act: (it) => `/missioni?atto=${it.id}`, category: (it) => `/collezionabili?cat=${it.id}`,
-  vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/veicoli/${it.id}?tipo=armi`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
+  vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
   luogo: (it) => `/mappa/luogo/${it.slug}`, guida: (it) => `/news/${it.id}`,
 };

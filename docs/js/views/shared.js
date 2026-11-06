@@ -11,12 +11,13 @@ export const SECTIONS = [
   { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, territorio per territorio', tab: true },
   { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', tab: true },
   { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino' },
-  { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'Veicoli e arsenale' },
-  { id: 'personaggi', num: 7, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida' },
-  { id: 'radio', num: 8, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora' },
-  { id: 'mondo', num: 9, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV' },
-  { id: 'news', num: 10, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno' },
-  { id: 'diario', num: 11, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco' },
+  { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'I veicoli di Leonida' },
+  { id: 'armi', num: 7, title: 'Armi', path: '/armi', icon: 'crosshair', accent: 'magenta', hue: 0, tagline: 'La ruota delle armi' },
+  { id: 'personaggi', num: 8, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida' },
+  { id: 'radio', num: 9, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora' },
+  { id: 'mondo', num: 10, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV' },
+  { id: 'news', num: 11, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno' },
+  { id: 'diario', num: 12, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco' },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

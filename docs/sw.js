@@ -5,7 +5,7 @@
  *   se sei offline usa l'ultima copia salvata.
  * A OGNI RELEASE: alza VERSION. La cache vecchia viene cancellata.
  */
-const VERSION = 'v0.9.1';
+const VERSION = 'v0.10.0';
 const SHELL = `leonida-shell-${VERSION}`;
 const DATA = `leonida-data-${VERSION}`;
 
@@ -14,9 +14,9 @@ const SHELL_FILES = [
   'css/tokens.css', 'css/base.css', 'css/layout.css', 'css/components.css',
   'js/app.js', 'js/router.js', 'js/data.js', 'js/search.js', 'js/spoiler.js', 'js/posture.js',
   'js/store/adapter.js', 'js/store/local-adapter.js', 'js/store/migrations.js', 'js/store/progress.js',
-  'js/ui/dom.js', 'js/ui/sheet.js',
+  'js/ui/dom.js', 'js/ui/sheet.js', 'js/ui/panzoom.js',
   'js/views/shared.js', 'js/views/sessione.js', 'js/views/missioni.js', 'js/views/atlante.js',
-  'js/views/collezionabili.js', 'js/views/editoriale.js', 'js/views/diario.js', 'js/views/impostazioni.js', 'js/views/ricerca.js', 'js/views/veicoli.js', 'js/views/novita.js', 'js/views/trofei.js', 'js/views/mapsvg.js',
+  'js/views/collezionabili.js', 'js/views/editoriale.js', 'js/views/diario.js', 'js/views/impostazioni.js', 'js/views/ricerca.js', 'js/views/veicoli.js', 'js/views/novita.js', 'js/views/trofei.js', 'js/views/mapsvg.js', 'js/views/mapboard.js', 'js/views/armi.js',
   'fonts/Fraunces-normal.woff2', 'fonts/Fraunces-italic.woff2', 'fonts/InterTight-normal.woff2', 'fonts/InterTight-italic.woff2', 'fonts/PermanentMarker.woff2', 'fonts/Caveat.woff2',
   'icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png',
 ];

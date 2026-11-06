@@ -4,7 +4,7 @@ import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
 import { sectionHead, backLink, hero, row, acc, galleryHtml, vis, sectionOf, districtStats } from './shared.js';
-import { mapImg, MAP_IMAGE } from './mapsvg.js';
+import * as mapboard from './mapboard.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('mappa');
@@ -139,9 +139,8 @@ function index(zona, q) {
   const needle = (q || '').toLowerCase();
   const list = needle ? all.filter((l) => (l.name + ' ' + (l.lead || '')).toLowerCase().includes(needle)) : all;
   return `${sectionHead(section, `${ds.length} territori · ${all.length} luoghi`)}
-    <div class="atlas atlas--img">${mapImg(ds, zona)}
-      <div class="atlas__tools"><button class="btn btn--solid" type="button" data-map-full>Schermo intero</button><button class="btn btn--solid" type="button" data-gsm="">Mappa interattiva</button></div></div>
-    <p class="atlas-note">Mappa disegnata dalla community (non ufficiale): le posizioni dei segnaposto sono indicative. La mappa interattiva è quella di gtasixmap.com e richiede la connessione.</p>
+    ${mapboard.boardHtml(ds)}
+    <p class="atlas-note">Trascina e pizzica per muoverti. Tocca un numero o una foto-pin per aprire; le Polaroid in basso portano la mappa sul territorio. Con lo zoom alto le tessere di dettaglio arrivano da gtasixmap (serve la connessione).</p>
     <div class="zones">${ds.map((d) => zoneCard(d, d.id === zona)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
     ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Schede dei luoghi</span><h2>Tutti i luoghi</h2></div><span class="count">${list.length}</span></header>
       <input class="input" type="search" placeholder="Cerca un luogo…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin-bottom:var(--s-3)">
@@ -206,7 +205,10 @@ function openGsm(marker) {
   document.body.append(ov);
 }
 
+export function afterRender(root) { mapboard.mount(root); }
+
 export function bind(root, rerender) {
+  mapboard.bind(root);
   root.addEventListener('click', (e) => {
     const pop = e.target.closest('[data-pop]'); if (pop) { popover(pop.dataset.pop); return; }
     const tg = e.target.closest('[data-zone-toggle]');
@@ -215,27 +217,19 @@ export function bind(root, rerender) {
       // Un territorio alla volta: chiudo gli altri, la pagina resta ferma
       root.querySelectorAll('.zone.is-open').forEach((o) => { if (o !== z) { o.classList.remove('is-open'); o.querySelector('[data-zone-toggle]')?.setAttribute('aria-expanded', 'false'); } });
       z.classList.toggle('is-open', open); tg.setAttribute('aria-expanded', open);
-      root.querySelectorAll('.mpin').forEach((p) => p.classList.toggle('is-active', open && p.dataset.zoneGo === tg.dataset.zoneToggle));
       scrolledZona = open ? tg.dataset.zoneToggle : null;
       history.replaceState(null, '', open ? `#/mappa?zona=${tg.dataset.zoneToggle}` : '#/mappa');
       return;
     }
     const go = e.target.closest('[data-zone-go]');
     if (go) {
-      document.querySelector('.map-full:not(.map-frame)')?.remove();
+      const full = document.querySelector('.mapboard.is-full'); if (full) full.querySelector('[data-mb-tool="full"]')?.click();
       const z = document.getElementById('zona-' + go.dataset.zoneGo); if (!z) return;
       if (!z.classList.contains('is-open')) z.querySelector('[data-zone-toggle]')?.click();
       z.scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
     }
     const g = e.target.closest('[data-gsm]'); if (g) { openGsm(g.dataset.gsm); return; }
-    if (e.target.closest('[data-map-full]')) {
-      const ov = document.createElement('div'); ov.className = 'map-full';
-      ov.innerHTML = `<button class="icon-btn map-full__close" type="button" aria-label="Chiudi"><svg aria-hidden="true"><use href="#i-close"/></svg></button><div class="map-full__scroll">${mapImg(vis(db.districts), null, { full: true })}</div>`;
-      ov.querySelector('.map-full__close').onclick = () => ov.remove();
-      document.body.append(ov); const sc = ov.querySelector('.map-full__scroll'); sc.scrollLeft = (sc.scrollWidth - sc.clientWidth) / 2; sc.scrollTop = (sc.scrollHeight - sc.clientHeight) / 3;
-      return;
-    }
     // [data-collect] lo gestisce collezionabili.bind (una sola volta, altrimenti la spunta si annulla da sola)
     const a = e.target.closest('[data-activity]'); if (a) { progress.toggleActivity(a.dataset.activity); rerender(); }
   });

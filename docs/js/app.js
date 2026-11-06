@@ -20,8 +20,9 @@ import * as ricerca from './views/ricerca.js';
 import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
+import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.9.1';
+window.__LEONIDA_VERSION__ = 'v0.10.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -63,6 +64,7 @@ const views = {
   '/missioni/:id?': missioni.render,
   '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
+  '/armi/:id?': armi.render,
   '/news/:id?': novita.render,
   '/mondo/:id?': editoriale.renderMondo,
   '/trofei': trofei.render,
@@ -121,6 +123,7 @@ function render(match, { dir, refresh } = {}) {
   }
   lastKey = key;
 
+  if (match.path.startsWith('/mappa')) atlante.afterRender($('app'));
   $('tabbar').innerHTML = navHtml(match.path, false);
   $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar();
@@ -146,6 +149,7 @@ function bindGlobal() {
   ricerca.bind(root);
   veicoli.bind(root, rerender);
   trofei.bind(root, rerender);
+  armi.bind(root, rerender);
   root.addEventListener('click', (e) => {
     const a = e.target.closest('[data-action]');
     if (!a) return;
@@ -163,7 +167,7 @@ function bindGlobal() {
   // Si ignora se il dito parte da un elemento che scorre in orizzontale (gallerie, filtri, mappa).
   let sx = null, sy = null, st = 0, sOk = false;
   const scrollsX = (el) => { for (let n = el; n && n !== document.body; n = n.parentElement) { if (n.scrollWidth > n.clientWidth + 4 && /auto|scroll/.test(getComputedStyle(n).overflowX)) return true; } return false; };
-  addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); sOk = !scrollsX(e.target) && !e.target.closest('input,textarea,select,.map-full,.map-frame'); }, { passive: true });
+  addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); sOk = !scrollsX(e.target) && !e.target.closest('input,textarea,select,.map-full,.map-frame,.mapboard,.wheel'); }, { passive: true });
   addEventListener('touchend', (e) => {
     if (sx === null) return; const t = e.changedTouches[0]; const dx = t.clientX - sx, dy = Math.abs(t.clientY - sy);
     if (sOk && dx > 80 && dy < 60 && dx > dy * 2 && Date.now() - st < 800) {
