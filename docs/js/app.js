@@ -20,7 +20,7 @@ import * as ricerca from './views/ricerca.js';
 import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 
-window.__LEONIDA_VERSION__ = 'v0.6.1';
+window.__LEONIDA_VERSION__ = 'v0.6.2';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -101,7 +101,7 @@ function render(match, { dir } = {}) {
   right.innerHTML = detail ? `<div class="page__inner">${out.right || ''}</div>` : (isOpener(out.right) ? '' : `<div class="page__inner">${out.right}</div>`);
   spread.dataset.show = out.show || 'left';
   const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
-  $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>Leonida · Guida di campo${db.meta?.dataVersion ? ` · dati v${esc(db.meta.dataVersion)}` : ''}</span>`;
+  $('folio').innerHTML = `<span>${sec ? `<b>${String(sec.num).padStart(2, '0')}</b> · ${esc(sec.title)}` : `<b>${esc(out.title || '')}</b>`}</span><span>App ${esc(window.__LEONIDA_VERSION__)}${db.meta?.dataVersion ? ` · dati v${esc(db.meta.dataVersion)}` : ''}</span>`;
   spread.scrollTop = 0;
 
   // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
@@ -120,6 +120,7 @@ function render(match, { dir } = {}) {
 
 function bindGlobal() {
   const root = $('app');
+  const ver = document.createElement('span'); ver.className = 'masthead__ver'; ver.textContent = window.__LEONIDA_VERSION__; document.querySelector('.masthead__tools').prepend(ver);
   // Immagini mancanti: spariscono senza icona rotta
   document.addEventListener('error', (e) => { if (e.target?.tagName === 'IMG') e.target.remove(); }, true);
   spoiler.bind(root);
