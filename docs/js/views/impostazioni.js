@@ -40,8 +40,7 @@ export function render() {
     </div>
     <div class="block"><span class="kicker">Informazioni</span>
       <dl class="facts">
-        <dt>App</dt><dd>Leonida ${esc(window.__LEONIDA_VERSION__ || '')}</dd>
-        <dt>Dati</dt><dd>v${esc(db.meta.dataVersion)} · ${esc(db.meta.updatedAt)}</dd>
+        <dt>Versione</dt><dd>${esc(window.__LEONIDA_VERSION__ || '')} · contenuti aggiornati il ${esc(db.meta.updatedAt)}</dd>
         <dt>Memoria</dt><dd>schema progressi v${progress.info.version}</dd>
       </dl>
       <button class="btn btn--ghost" type="button" data-check-update style="margin-top:var(--s-3)">Cerca aggiornamenti</button>
