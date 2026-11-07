@@ -140,4 +140,14 @@ export function tableHtml(rows) {
   if (!rows?.length) return '';
   return `<div class="table-wrap"><table>${rows.map((r, i) => `<tr>${r.map((c) => `<${i ? 'td' : 'th'}>${esc(c)}</${i ? 'td' : 'th'}>`).join('')}</tr>`).join('')}</table></div>`;
 }
+/** Seconda etichetta: informazioni non ufficiali dentro una scheda ufficiale (riquadro con la sua etichetta) */
+const XLAB = { community: 'Community', rumor: 'Rumor', leak: 'Leak', stampa: 'Stampa' };
+export function extrasHtml(item) {
+  if (!item?.extras?.length) return '';
+  return item.extras.map((e) => `<aside class="xnote xnote--${esc(e.source)}"><span class="chip chip--src-${esc(e.source)}">${esc(XLAB[e.source] || 'Da verificare')}</span><p>${esc(e.text)}</p></aside>`).join('');
+}
+export function extraChips(item) {
+  const set = [...new Set((item?.extras || []).map((e) => e.source))];
+  return set.map((s) => `<span class="chip chip--src-${esc(s)}">${esc(XLAB[s] || '')}</span>`).join('');
+}
 export { isOpen, actNum };

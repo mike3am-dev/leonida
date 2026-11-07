@@ -1672,3 +1672,12 @@ h1, h2, h4, .hero__text h1, .group-head h2 { font-optical-sizing: auto; font-var
 .spec__todo { margin: 0; padding: 6px 14px 12px; font-size: var(--fs-xs); color: rgba(243,237,228,.5); }
 .spec__up { padding: 0 14px 12px; } .spec__up summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .spec__up table { width: 100%; font-size: var(--fs-sm); border-collapse: collapse; } .spec__up td { padding: 4px 6px; border-top: 1px solid rgba(255,255,255,.1); }
+
+/* Doppia etichetta: riquadro con le informazioni non ufficiali dentro una scheda */
+.xnote { margin: var(--s-3) 0; padding: 10px 12px; border-radius: var(--radius-sm); border: 1px dashed var(--rule-strong); background: color-mix(in srgb, var(--paper-2) 70%, transparent); }
+.xnote .chip { margin-bottom: 6px; }
+.xnote p { margin: 0; font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.45; }
+/* Sinossi ufficiale in cima alle Missioni */
+.synopsis { margin: 0 0 var(--s-4); padding: var(--s-4); border-radius: var(--radius); background: var(--paper); border-left: 4px solid var(--accent); box-shadow: var(--shadow); }
+.synopsis p { margin: 6px 0 8px; font-family: var(--font-display); font-style: italic; font-size: 1.12rem; line-height: 1.45; }
+.chapter__num { font-family: var(--font-display) !important; font-style: italic; font-weight: 800; letter-spacing: -.01em; }

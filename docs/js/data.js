@@ -23,6 +23,7 @@ export async function loadAll() {
   db.meta = raw.meta;
   db.acts = raw.missions.acts || [];
   db.actsNote = raw.missions.actsNote || '';
+  db.synopsis = raw.missions.synopsis || '';
   db.missions = raw.missions.items || [];
   db.districts = raw.districts.items || [];
   db.collectibleCategories = raw.collectibles.categories || [];

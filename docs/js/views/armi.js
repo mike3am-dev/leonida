@@ -2,7 +2,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf , extrasHtml} from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { specSheet } from './specs.js';
 
@@ -64,6 +64,7 @@ function detail(it) {
       <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
+    ${extrasHtml(it)}
     ${specSheet(it, 'weapon')}
     ${it.ultimate ? '<p class="small muted">Bonus della Ultimate Edition.</p>' : ''}
     ${it.insight ? `<div class="prose small"><p>${esc(it.insight)}</p><p class="source-line">Da <a href="https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/" target="_blank" rel="noopener">vice-central.com</a>.</p></div>` : ''}

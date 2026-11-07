@@ -208,7 +208,7 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike alla casa dello spaccio di Raymond, ai Venture Apartments di Rockridge. Ernesto avvisa che arriva la task force di Méndez; retata, sparatoria, fuga dall'ascensore e dalla finestra di Aunt Tee, auto in fiamme e via in furgone.",
+      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike da Raymond, in un condominio popolare: il socio di Raymond è sparito. Una telefonata avverte che arriva la task force; irruzione armata, sparatoria, fuga dalla finestra e poi in auto. Dall'edificio ci sono più vie d'uscita.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -231,7 +231,13 @@
       "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il condominio sono i Venture Apartments di Rockridge; chi avverte al telefono è Ernesto, e la task force è quella del detective Méndez."
+        }
+      ]
     },
     {
       "id": "mis-el-effluvia",
@@ -340,5 +346,6 @@
       "updatedAt": "2026-11-05"
     }
   ],
-  "actsNote": "La storia è divisa in capitoli, ma non si sa ancora quanti: dal 2 in poi sono segnaposto, nome e numero arrivano giocando."
+  "actsNote": "La storia è divisa in capitoli, ma non si sa ancora quanti: dal 2 in poi sono segnaposto, nome e numero arrivano giocando.",
+  "synopsis": "Vice City, USA. Jason e Lucia hanno sempre saputo che le carte erano truccate contro di loro. Ma quando un colpo facile va storto, si ritrovano nel lato più oscuro del posto più soleggiato d'America, nel mezzo di una cospirazione criminale che attraversa tutto lo stato di Leonida, costretti a contare l'uno sull'altra più che mai se vogliono uscirne vivi."
 }

@@ -1,7 +1,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf , extrasHtml} from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { specSheet } from './specs.js';
 
@@ -33,6 +33,7 @@ export function render(params, query) {
         <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
       </div>
       <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
+      ${extrasHtml(it)}
       ${specSheet(it, 'vehicle')}
       ${galleryHtml(it)}
       ${it.howToGet && !/^Da verificare\.?$/.test(it.howToGet.trim()) ? `<div class="block"><span class="kicker">Come ottenerlo</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}

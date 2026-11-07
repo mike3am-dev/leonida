@@ -1,7 +1,7 @@
 /** News: notiziario editoriale (notizie con foto) + guide (articoli), in formato rivista */
 import { db, byId, TYPE_ROUTE } from '../data.js';
 import { esc, statusChip, fmtDate } from '../ui/dom.js';
-import { sectionHead, backLink, hero, acc, vis, sectionOf } from './shared.js';
+import { sectionHead, backLink, hero, acc, vis, sectionOf, extrasHtml } from './shared.js';
 import { img } from './atlante.js';
 import * as spoiler from '../spoiler.js';
 
@@ -69,7 +69,7 @@ function article(it) {
       <div class="hero__chips chips">${statusChip(it)}</div>
       <div class="hero__text"><span class="kicker">${esc(kicker)}</span><h1>${esc(it.title)}</h1>${isGuide && it.lead ? `<p class="lede">${esc(it.lead)}</p>` : ''}</div></div>
     ${isGuide ? `<div class="prose prose--guide">${guideBody(it)}</div><p class="source-line">Tradotto da <a href="${esc(it.url)}" target="_blank" rel="noopener">gtasixmap.com</a>. Screenshot © Rockstar Games.</p>`
-      : `<div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.body)}</p>`, 'Questa notizia contiene spoiler')}</div>`}
+      : `<div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.body)}</p>`, 'Questa notizia contiene spoiler')}</div>${extrasHtml(it)}`}
     ${it.relatedIds?.length ? `<div class="block"><span class="kicker">Nella guida</span><div class="chips" style="margin-top:var(--s-2)">${it.relatedIds.map((id) => { const r = byId(id); return r ? `<a class="chip" href="#${TYPE_ROUTE[r._type]?.(r) || '/'}">${esc(r.name || r.title)}</a>` : ''; }).join('')}</div></div>` : ''}
     <div class="actions">${it.sourceUrl ? `<a class="btn btn--solid" href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">Leggi la fonte</a>` : ''}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>`;
 }

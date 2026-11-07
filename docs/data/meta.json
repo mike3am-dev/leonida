@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.15.0",
+  "dataVersion": "0.16.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.16.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Verifica sulle fonti primarie: sinossi ufficiale in Missioni; Profilo criminale da Professional a Irredeemable; Jason senza «forze speciali»; Stephen Root e i doppiatori spostati in note Community; relazione a quattro livelli; polizia con le parti non confermate in nota Rumor; etichette Ufficiale per l'Extended Look e le interviste Edge/IGN."
+      ]
+    },
     {
       "version": "0.15.0",
       "date": "2026-11-07",

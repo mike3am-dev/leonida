@@ -106,8 +106,8 @@
     },
     {
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05",
@@ -115,8 +115,14 @@
       "category": "combattimento",
       "title": "Polizia: sei stelle e un profilo criminale",
       "priority": 12,
-      "body": "Sei livelli di ricercato. La polizia riconosce vestiti, aspetto e veicolo: per seminarla cambia tutti e tre. C'è anche un Profilo criminale («Criminal Profile») che tiene traccia di quello che combini.",
-      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
+      "body": "Sei livelli di ricercato. Sotto le stelle, delle icone mostrano cosa sa la polizia: il tuo aspetto, se eri solo o in coppia, i vestiti, l'auto, l'arma, le telecamere. Ogni elemento si cancella a parte: separati dal partner, cambiati, abbandona l'auto, butta l'arma. Stelle vuote vogliono dire che non sanno chi sei: allontanati dalla zona.",
+      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+      "extras": [
+        {
+          "source": "rumor",
+          "text": "Stella piena: ti vedono. Lampeggiante: contatto perso. Rossa: sei fuggito ma sei ancora nell'area di ricerca. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
+        }
+      ]
     },
     {
       "image": null,
@@ -363,14 +369,20 @@
       "id": "tip-profilo",
       "category": "sistemi",
       "title": "Il Profilo criminale ricorda tutto",
-      "body": "Non c'è una barra: ci sono stati con un nome, da Professional a Psycho. Spari per difesa? Nessuna penalità. Escali senza motivo? Sì. Accarezzare un cane o buttare la spazzatura nel cestino conta. Oltre Psycho non si torna indietro, e la storia ne tiene conto.",
+      "body": "Il Profilo criminale va da Professional a Irredeemable, con un angelo e un diavolo. Spari per difenderti? Nessuna penalità. Esageri senza motivo? Sì. Anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino, contano. E la storia ne tiene conto.",
       "priority": 26,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Gli stati intermedi sarebbero Aggressive, Violent e Psycho; oltre l'ultimo l'icona si crepa e si rompe per sempre in quella partita. Jason e Lucia avrebbero profili separati."
+        }
+      ]
     },
     {
       "id": "tip-soldi-1",

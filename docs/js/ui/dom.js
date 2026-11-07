@@ -27,7 +27,13 @@ export function relTime(iso) {
   return fmtDate(iso);
 }
 export function statusChip(item) {
-  // Una sola etichetta: Ufficiale (verificato) | Stampa | Community | Rumor | Leak | Da verificare | Segnaposto
+  // Etichetta principale: Ufficiale (verificato) | Stampa | Community | Rumor | Leak | Da verificare | Segnaposto
+  // Se la scheda contiene anche informazioni non ufficiali (campo extras) compare una seconda etichetta.
+  const XL = { community: 'Community', rumor: 'Rumor', leak: 'Leak', stampa: 'Stampa' };
+  const second = [...new Set((item.extras || []).map((e) => e.source))].filter((s) => !(item.status !== 'verificato' && s === item.source)).map((s) => `<span class="chip chip--src-${s}">${XL[s] || ''}</span>`).join('');
+  return statusChip1(item) + second;
+}
+function statusChip1(item) {
   const ex = item.example ? `<span class="chip chip--esempio">Esempio</span>` : '';
   if (item.status === 'verificato') return `${ex}<span class="chip chip--verificato">Ufficiale</span>`;
   if (item.status === 'segnaposto') return `${ex}<span class="chip chip--segnaposto">Segnaposto</span>`;

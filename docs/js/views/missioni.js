@@ -6,7 +6,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, protagonistChip, pad2 } from '../ui/dom.js';
-import { sectionHead, backLink, row, acc, hero, vis, sectionOf, missionActLabel } from './shared.js';
+import { sectionHead, backLink, row, acc, hero, vis, sectionOf, missionActLabel , extrasHtml} from './shared.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('missioni');
@@ -55,6 +55,7 @@ function index() {
   const shield = progress.settings().spoilerShield;
 
   return `${sectionHead(section, `${totalDone} fatte`)}
+    ${db.synopsis ? `<blockquote class="synopsis"><span class="kicker kicker--accent">La storia</span><p>${esc(db.synopsis)}</p><span class="chips">${statusChip({ status: 'verificato' })}</span></blockquote>` : ''}
     <div class="storyboard"><div class="storyboard__ring">${ringHtml(chapterPct, curLabel, '')}</div>
       <div class="storyboard__text"><span class="kicker kicker--accent">${esc(curLabel)}${cs.started ? ' · ' + esc(cur.title) : ''}</span>
         <h2>${cs.list.length ? (cs.complete ? 'Capitolo completato' : `${cs.list.length - cs.done} mission${cs.list.length - cs.done === 1 ? 'e' : 'i'} da fare`) : 'In arrivo'}</h2>
@@ -115,6 +116,7 @@ function detail(m) {
     ${backLink('/missioni', 'Missioni')}
     ${hero(m, { kicker: `${esc(actLabel)} · Missione ${pad2(idx)}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
     <div class="prose">${spoiler.wrap(m, `<p class="lede">${esc(m.summary || 'Nessun riassunto ancora.')}</p>`)}</div>
+    ${extrasHtml(m)}
     ${blocked ? blockedHtml : ''}
     <div class="actions">
       ${state === 'in-corso'
