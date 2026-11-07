@@ -24,7 +24,7 @@ import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 
-window.__LEONIDA_VERSION__ = 'v0.22.0';
+window.__LEONIDA_VERSION__ = 'v0.23.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -55,9 +55,9 @@ function navHtml(activePath, forRail) {
 
 function renderAltro() {
   const left = `<header class="chapter-head"><span class="kicker">Indice generale</span><h1>Altro</h1></header>
-    <ol class="toc">${SECTIONS.map((s) => `<li><a class="toc__row ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}"><span class="toc__num">${String(s.num).padStart(2, '0')}</span><span class="toc__title">${esc(s.title)}${s.disabled ? ' <span class="soon">v2</span>' : ''}</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>`).join('')}
-    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">12</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
-    <li><a class="toc__row" href="#/ricerca"><span class="toc__num">—</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
+    <ol class="toc">${SECTIONS.map((s, i) => `<li><a class="toc__row ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}"><span class="toc__num">${String(i + 1).padStart(2, '0')}</span><span class="toc__title">${esc(s.title)}${s.disabled ? ' <span class="soon">v2</span>' : ''}</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>`).join('')}
+    <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">${String(SECTIONS.length + 1).padStart(2, '0')}</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+    <li><a class="toc__row" href="#/ricerca"><span class="toc__num">${String(SECTIONS.length + 2).padStart(2, '0')}</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
   return { left, right: '', show: 'left', accent: 'magenta', title: 'Altro' };
 }
 
@@ -306,3 +306,20 @@ async function checkUpdate() {
   router.start(render);
   registerSW();
 })();
+
+/* Legenda delle etichette: toccando un'etichetta (fuori dai link) si spiega cosa significa */
+const LEGEND = [
+  ['chip--verificato', 'Ufficiale', 'Viene da Rockstar: trailer, sito, Extended Look o dichiarazioni dirette degli sviluppatori. Dopo il 19, anche quello che hai confermato tu giocando.'],
+  ['chip--src-stampa', 'Stampa', 'Riportato da giornali e siti di videogiochi che hanno visto o provato il gioco.'],
+  ['chip--src-community', 'Community', 'Ricostruito dai giocatori analizzando trailer e immagini: di solito affidabile, ma non confermato.'],
+  ['chip--src-rumor', 'Rumor', 'Voce che circola senza prove solide. Può rivelarsi vera o no.'],
+  ['chip--src-leak', 'Leak', 'Materiale trapelato prima del tempo: spesso vero, ma può essere vecchio o cambiato nella versione finale.'],
+  ['chip--da-verificare', 'Da verificare', 'Informazione ancora da controllare nel gioco.'],
+  ['chip--segnaposto', 'Segnaposto', 'Spazio pronto: si riempie con quello che scopri giocando.'],
+];
+document.addEventListener('click', (e) => {
+  const c = e.target.closest('.chip');
+  if (!c || c.closest('a, button, .legend')) return;
+  if (!LEGEND.some(([k]) => c.classList.contains(k))) return;
+  import('./ui/sheet.js').then(({ showSheet }) => showSheet({ title: 'Cosa vogliono dire le etichette', body: `<div class="legend">${LEGEND.map(([k, l, d]) => `<div class="legend__row${c.classList.contains(k) ? ' is-on' : ''}"><span class="chip ${k}">${l}</span><p class="small">${d}</p></div>`).join('')}</div>` }));
+});

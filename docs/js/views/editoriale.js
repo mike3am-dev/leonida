@@ -27,8 +27,14 @@ const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
 const monogram = (x) => { const h = HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length]; const ini = x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join(''); return `<span class="monogram" style="--h:${h}">${esc(ini.toUpperCase())}</span>`; };
 export function renderPersonaggi(params, query = {}) {
   const q = (query.q || '').toLowerCase().trim();
-  const chars = vis(db.characters).filter((x) => !q || (x.name + ' ' + (x.role || '')).toLowerCase().includes(q));
+  // Modalità vergine: chi non hai ancora incontrato non compare
+  const hidden = (x) => spoiler.virgin() && !x.isProtagonist && !isMet(x) && !progress.get().discovered?.[x.id];
+  const nHidden = vis(db.characters).filter(hidden).length;
+  const chars = vis(db.characters).filter((x) => !hidden(x) && (!q || (x.name + ' ' + (x.role || '')).toLowerCase().includes(q)));
   const c = params.id ? byId(params.id) : null;
+  if (c && hidden(c)) {
+    return { left: '', right: `${backLink('/personaggi', 'Personaggi')}<div class="empty"><p><b>Non ancora incontrato.</b></p><p class="muted small">La modalità vergine tiene nascosti i personaggi finché non li incontri nel gioco. Puoi spegnerla in Impostazioni.</p></div>`, show: 'right', accent: secP.accent, title: 'Personaggi' };
+  }
   if (c) {
     const right = `
       ${backLink('/personaggi', 'Personaggi')}
@@ -57,6 +63,7 @@ export function renderPersonaggi(params, query = {}) {
   }).join('');
   const rest = chars.filter((x) => !x.isProtagonist && !used.has(x.id));
   const left = `${sectionHead(secP, `${chars.length} schede`)}
+    ${nHidden ? `<p class="muted small">${nHidden} ${nHidden === 1 ? 'personaggio nascosto' : 'personaggi nascosti'} finché non li incontri (modalità vergine).</p>` : ''}
     <input class="input" type="search" placeholder="Cerca un personaggio…" value="${esc(q)}" data-char-q aria-label="Cerca un personaggio" style="margin-bottom:var(--s-3)">
     ${q ? `<div class="cards">${chars.map(card).join('') || '<p class="muted small">Nessuno.</p>'}</div>` : `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
     <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel castboard__panel--static" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
@@ -121,7 +128,7 @@ export function renderMondo(params, query = {}) {
     const keys = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'it'));
     body = keys.map((k) => `<div class="acc mondo-cat"><button class="acc__btn mondo-cat__btn" type="button"><span class="group-head__emoji" aria-hidden="true">${EMOJI[k] || '•'}</span><span class="mondo-cat__text"><b>${esc(k)}</b></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><div class="acc__body"><div class="brandgrid brandgrid--compact">${[...groups[k]].sort(byName).map(brandCard).join('')}</div></div></div>`).join('');
   }
-  const left = `${sectionHead(secM)}
+  const left = `${sectionHead(secM, `${all.length} voci`)}
     <p class="lede">Marchi, app, gang, polizia, TV: tutto ciò che fa di Leonida un posto vero.</p>
     <input class="input" type="search" placeholder="Cerca un marchio, un locale, un'app…" value="${esc(query.q || '')}" data-mondo-q aria-label="Cerca nel Mondo" style="margin-bottom:var(--s-3)">
     ${body}`;

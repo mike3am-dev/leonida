@@ -297,8 +297,8 @@
         },
         {
           "id": "poi-vc-arts-center",
-          "name": "Vice City Arts Center (metro)",
-          "kind": "Stazione",
+          "name": "Vice City Arts Center (stazione)",
+          "kind": "Stazione · Metro e Metro Mule",
           "description": "Fermata della metropolitana: la città ha un sistema di trasporto su rotaia funzionante.",
           "status": "da verificare",
           "source": "community",
@@ -970,7 +970,7 @@
         },
         {
           "id": "poi-rialto-causeway",
-          "name": "Rialto Causeway e Rivo Bridge",
+          "name": "Rialto Causeway",
           "kind": "Ponti",
           "description": "La causeway a pedaggio («Vice Pass») verso le isole e il ponte verso la terraferma.",
           "characterIds": [],
@@ -1792,24 +1792,6 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
-        },
-        {
-          "id": "poi-st-vice-city-arts-center-metro-station",
-          "name": "Vice City Arts Center Station",
-          "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Su NE 9th Street, collegata all'Arts Center da una passerella di vetro. Già presente come poi-vc-arts-center.",
-          "xy": [
-            3394,
-            -131
-          ],
-          "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07",
-          "image": "assets/img/poi/poi-st-vice-city-arts-center-metro-station.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L441,ig.jpg"
         },
         {
           "id": "poi-st-crosstown-mover-station",
@@ -2945,7 +2927,7 @@
           "id": "poi-st-port-gellhorn-train-station",
           "name": "Port Gellhorn Train Station",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Ex stazione in legno (ricalca Waldo, Florida), nel video-cartolina di Port Gellhorn sul sito. Già presente come poi-pg-station.",
+          "description": "Ex stazione in legno (ricalca Waldo, Florida), nel video-cartolina di Port Gellhorn sul sito.",
           "xy": [
             -55,
             1500
@@ -3396,24 +3378,6 @@
         }
       ],
       "pois": [
-        {
-          "id": "poi-penitenziario",
-          "name": "Leonida Penitentiary",
-          "kind": "Penitenziario",
-          "description": "Il carcere di stato dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Da qui arriva una chiamata a carico del destinatario «da Lucia Caminos». È noto anche come Leonida Department of Corrections.",
-          "characterIds": [
-            "chr-lucia",
-            "chr-stefanie"
-          ],
-          "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
-          "image": "assets/img/luoghi/hamlet/landmark-l1129.webp",
-          "xy": [
-            2183,
-            -2257
-          ]
-        },
         {
           "id": "poi-rideout-customs",
           "name": "Rideout Customs Mod Shop",
@@ -4257,6 +4221,24 @@
           "updatedAt": "2026-11-07",
           "image": "assets/img/poi/poi-hamlet-pd.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L3252,ig.jpg"
+        },
+        {
+          "id": "poi-penitenziario",
+          "name": "Leonida Penitentiary",
+          "kind": "Penitenziario",
+          "description": "Il carcere di stato dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Da qui arriva una chiamata a carico del destinatario «da Lucia Caminos». È noto anche come Leonida Department of Corrections.",
+          "characterIds": [
+            "chr-lucia",
+            "chr-stefanie"
+          ],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+          "image": "assets/img/luoghi/hamlet/landmark-l1129.webp",
+          "xy": [
+            2183,
+            -2257
+          ]
         }
       ],
       "activityIds": [],

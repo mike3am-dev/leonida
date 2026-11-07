@@ -2,7 +2,7 @@ import { TYPE_ROUTE } from '../data.js';
 import { esc } from '../ui/dom.js';
 import { search, highlight } from '../search.js';
 import * as spoiler from '../spoiler.js';
-import { showEx, opener } from './shared.js';
+import { showEx, opener, isMet } from './shared.js';
 
 const section = { id: 'ricerca', num: 0, title: 'Ricerca', accent: 'magenta' };
 
@@ -21,8 +21,11 @@ export function render(params, query) {
 function resultsHtml(results, q) {
   if (!q) return '<p class="muted small">Scrivi almeno due lettere.</p>';
   if (!results.length) return `<div class="placeholder"><strong>Nessun risultato</strong>Niente per «${esc(q)}». Prova con un'altra parola.</div>`;
-  return results.map((r) => {
+  const virgin = spoiler.virgin();
+  return results.filter((r) => !(virgin && r.item._type === 'character' && !isMet(r.item))).map((r) => {
     const hidden = spoiler.isHidden(r.item);
+    // in modalità vergine si vedono solo i titoli: gli estratti possono raccontare la trama
+    if (virgin && !hidden) r = { ...r, snippet: '' };
     return `<a class="result" href="#${TYPE_ROUTE[r.item._type]?.(r.item) || '/'}">
       <div class="result__type">${esc(r.type)}${r.item.example ? ' · Esempio' : ''}</div>
       <div class="result__title">${hidden ? '<span class="muted">• • • (spoiler)</span>' : highlight(esc(r.title), q)}</div>
@@ -38,5 +41,6 @@ export function bind(root) {
     history.replaceState(history.state, '', '#/ricerca' + (q ? '?q=' + encodeURIComponent(q) : ''));
     root.querySelector('[data-results]').innerHTML = resultsHtml(q ? search(q, { showExamples: showEx() }) : [], q);
   });
+  root.addEventListener('focusin', (e) => { const inp = e.target.closest('[data-search-form] input'); if (inp && inp.value) setTimeout(() => inp.select(), 0); });
   root.addEventListener('submit', (e) => { if (e.target.closest('[data-search-form]')) { e.preventDefault(); e.target.querySelector('input').blur(); } });
 }

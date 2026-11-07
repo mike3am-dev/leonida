@@ -24,7 +24,7 @@ function lev(a, b) {
 }
 
 function fieldsOf(item) {
-  const f = [item.title, item.name, item.summary, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet, item.outlet, item.topic];
+  const f = [item.title, item.name, item.summary, item.short, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet, item.outlet, item.topic];
   if (item.short) f.push(item.short);
   (item.steps || []).forEach((t) => f.push(t));
   (item.tips || []).forEach((t) => f.push(t));
@@ -39,7 +39,7 @@ function fieldsOf(item) {
 }
 
 export function buildIndex() {
-  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.trophies, db.pois, db.luoghi, db.guide, db.meccaniche || []];
+  const lists = [db.missions, db.districts, db.collectibles, db.activities, db.characters, db.radio, db.brands, db.tips, db.vehicles, db.weapons, db.news, db.trophies, db.pois, db.luoghi, db.guide, db.meccaniche || [], db.teorie || []];
   index = lists.flat().map((item) => {
     const title = item.title || item.name || '';
     const body = fieldsOf(item);

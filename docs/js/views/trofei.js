@@ -4,6 +4,8 @@ import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
 import { sectionHead, acc, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { showSheet } from '../ui/sheet.js';
+import { byId } from '../data.js';
 
 const section = sectionOf('trofei');
 const TIER = { platino: 'Platino', oro: 'Oro', argento: 'Argento', bronzo: 'Bronzo' };
@@ -34,7 +36,7 @@ export function render(params, query = {}) {
     </div>
     ${(() => { const next = all.find((t) => !st[t.id] && t.tier === 'bronzo' && t.category === 'storia') || all.find((t) => !st[t.id]); return next ? `<a class="card card--link nexttrophy" href="#/trofei"><span class="kicker kicker--accent">Prossima coppa alla portata</span><span class="nexttrophy__row">${cup(next.tier, 40)}<span><b>${esc(next.name)}</b><span class="small muted"> · ${spoiler.text(next, next.description || '')}</span></span></span></a>` : ''; })()}
     <div class="showcase"><div class="showcase__head"><span class="kicker">La tua bacheca</span><span class="small muted">${done ? `${done} coppe esposte` : 'Vuota: tocca una coppa per esporla'}</span></div>
-      ${['platino', 'oro', 'argento', 'bronzo'].map((tier) => { const l = all.filter((t) => t.tier === tier); return l.length ? `<div class="shelf shelf--${tier}"><div class="shelf__cups">${l.map((t) => `<button type="button" class="shelfcup ${st[t.id] ? 'is-lit' : ''}" data-trophy="${esc(t.id)}" aria-pressed="${!!st[t.id]}" aria-label="${esc(t.name)}">${cup(tier, tier === 'platino' ? 52 : 36)}<span class="shelfcup__name">${esc(t.name)}</span></button>`).join('')}</div><span class="shelf__glass"></span><span class="shelf__label">${TIER[tier]} · ${l.filter((t) => st[t.id]).length}/${l.length}</span></div>` : ''; }).join('')}</div>
+      ${['platino', 'oro', 'argento', 'bronzo'].map((tier) => { const l = all.filter((t) => t.tier === tier); return l.length ? `<div class="shelf shelf--${tier}"><div class="shelf__cups">${l.map((t) => `<button type="button" class="shelfcup ${st[t.id] ? 'is-lit' : ''}" data-trophy-open="${esc(t.id)}" aria-pressed="${!!st[t.id]}" aria-label="${esc(t.name)}">${cup(tier, tier === 'platino' ? 52 : 36)}<span class="shelfcup__name">${esc(t.name)}</span></button>`).join('')}</div><span class="shelf__glass"></span><span class="shelf__label">${TIER[tier]} · ${l.filter((t) => st[t.id]).length}/${l.length}</span></div>` : ''; }).join('')}</div>
     <input class="input" type="search" placeholder="Cerca un trofeo per nome…" value="${esc(q)}" data-trophy-q aria-label="Cerca un trofeo" style="margin:var(--s-4) 0">
     ${official ? '' : `<div class="callout callout--warn"><strong>Lista ufficiale non ancora pubblicata.</strong> Rockstar la rilascia di solito a ridosso del lancio (per GTA V arrivò pochi giorni prima). Questo è uno schema ricostruito da GTA V e RDR2 per prepararti: nomi e requisiti cambieranno. Appena esce la lista vera, la sostituisco e i tuoi spunti restano.</div>`}
     ${cats.map((c) => { const list = all.filter((t) => t.category === c); const d = list.filter((t) => st[t.id]).length; return `<div class="block">${acc(`${CAT[c] || c} · ${d}/${list.length}`, list.map((t) => { const ok = !!st[t.id]; return `
@@ -49,10 +51,21 @@ export function render(params, query = {}) {
   return { left, right: '', show: 'left', accent: section.accent, title: 'Trofei' };
 }
 
+function trophySheet(t, rerender) {
+  const ok = !!(progress.get().trophies || {})[t.id];
+  const body = document.createElement('div');
+  body.innerHTML = `<div style="display:flex;gap:var(--s-3);align-items:center;margin-bottom:var(--s-3)">${cup(t.tier, 56)}<div><span class="chip chip--${esc(t.tier)}">${esc(TIER[t.tier] || t.tier)}</span> ${statusChip(t)}</div></div>
+    <p>${spoiler.text(t, t.description || '')}</p>${t.guide ? `<p class="small muted">${esc(t.guide)}</p>` : ''}
+    <button type="button" class="btn ${ok ? 'btn--accent' : 'btn--solid'} found-btn" data-trophy-toggle="${esc(t.id)}">${ok ? 'Ottenuto ✓' : 'Segna come ottenuto'}</button>`;
+  body.addEventListener('click', (e) => { const b = e.target.closest('[data-trophy-toggle]'); if (!b) return; progress.toggleTrophy(t.id); document.querySelector('.sheet-backdrop')?.click(); rerender(); });
+  showSheet({ title: t.name, body });
+}
 export function bind(root, rerender) {
   let t = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-trophy-q]'); if (!q) return; clearTimeout(t); t = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/trofei?q=${encodeURIComponent(v)}` : '#/trofei'); rerender(); const n = document.querySelector('[data-trophy-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   root.addEventListener('click', (e) => {
+    const o = e.target.closest('[data-trophy-open]');
+    if (o) { const t = (db.trophies || []).find((x) => x.id === o.dataset.trophyOpen); if (t) trophySheet(t, rerender); return; }
     const b = e.target.closest('[data-trophy]');
     if (b) { progress.toggleTrophy(b.dataset.trophy); rerender(); }
   });

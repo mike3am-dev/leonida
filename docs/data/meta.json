@@ -1,10 +1,26 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.18.0",
+  "dataVersion": "0.23.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.23.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Giro dei 10 giocatori: barra in basso con «Altro» su una riga, conto alla rovescia che non si spezza, icona Impostazioni nuova, mappa a tutto schermo che funziona.",
+        "Modalità vergine (Impostazioni): nasconde i personaggi non ancora incontrati, le teorie e gli estratti della ricerca.",
+        "Spoiler: teorie sulla trama e leak sulla struttura della storia dietro l'avviso; a missione in corso si legge solo l'inizio del riassunto.",
+        "Missione completata: avviso con «Vai alla prossima».",
+        "Etichette: tocca «Ufficiale», «Leak»… per sapere cosa vogliono dire; negli elenchi una sola etichetta.",
+        "Mappa: icone diverse per polizia, armi, cibo, stazioni, hotel, negozi; la ricerca trova anche i punti, con «Mostra sulla mappa»; conferma quando segni un punto trovato.",
+        "Completamento: i punti di riferimento contano nelle regioni e nel totale.",
+        "Trofei apribili dalla vetrina, collezionabili e attività apribili dalla ricerca, «Apri la regione» sistemato, Zona attuale presa dalla missione in corso.",
+        "iPhone: titoli lunghi delle news non escono più dalla copertina.",
+        "Strumenti del curatore (Pacchetto per Claude) attivabili in Impostazioni: spenti per i nuovi amici, accesi per te."
+      ]
+    },
     {
       "version": "0.18.0",
       "date": "2026-11-07",

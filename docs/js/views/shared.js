@@ -47,6 +47,12 @@ export function opener(section, text) {
 }
 
 /* ---------- Calcoli di completamento ---------- */
+/** Punti di riferimento (luoghi.json) come voci da trovare: contano nel completamento */
+export function landmarkIds(districtId) {
+  const out = [];
+  for (const l of db.luoghi || []) if (!districtId || l.districtId === districtId) (l.landmarks || []).forEach((k, i) => out.push(`lmk-${l.slug}-${i + 1}`));
+  return out;
+}
 export function stats() {
   const st = progress.get();
   const missions = vis(db.missions);
@@ -55,13 +61,15 @@ export function stats() {
   const mDone = missions.filter((m) => st.missions[m.id]?.state === 'completata').length;
   const cDone = cols.filter((c) => st.collectibles[c.id]).length;
   const aDone = acts.filter((a) => st.activities[a.id] === 'completata').length;
-  const total = missions.length + cols.length + acts.length;
-  const done = mDone + cDone + aDone;
+  const lmk = landmarkIds(), lDone = lmk.filter((id) => st.collectibles[id]).length;
+  const total = missions.length + cols.length + acts.length + lmk.length;
+  const done = mDone + cDone + aDone + lDone;
   return {
     pct: total ? Math.round((done / total) * 100) : 0,
     missions: { done: mDone, total: missions.length },
     collectibles: { done: cDone, total: cols.length },
     activities: { done: aDone, total: acts.length },
+    landmarks: { done: lDone, total: lmk.length },
   };
 }
 
@@ -71,6 +79,7 @@ export function districtStats(districtId) {
     ...vis(db.missions).filter((m) => m.districtId === districtId).map((m) => ({ done: st.missions[m.id]?.state === 'completata' })),
     ...vis(db.collectibles).filter((c) => c.districtId === districtId).map((c) => ({ done: !!st.collectibles[c.id] })),
     ...vis(db.activities).filter((a) => a.districtId === districtId).map((a) => ({ done: st.activities[a.id] === 'completata' })),
+    ...landmarkIds(districtId).map((id) => ({ done: !!st.collectibles[id] })),
   ];
   const done = items.filter((i) => i.done).length;
   return { done, total: items.length, missing: items.length - done, pct: items.length ? Math.round((done / items.length) * 100) : 0 };

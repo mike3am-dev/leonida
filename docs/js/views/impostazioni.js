@@ -12,7 +12,7 @@ export function render() {
   const sw = (key, label, desc) => `<div class="switch-row"><div><div>${esc(label)}</div>${desc ? `<p>${esc(desc)}</p>` : ''}</div>
     <button class="switch" role="switch" aria-checked="${!!s[key]}" data-switch="${key}" aria-label="${esc(label)}"></button></div>`;
 
-  const left = `<header class="chapter-head"><span class="kicker">Colophon</span><h1>Impostazioni</h1></header>
+  const left = `<header class="chapter-head"><span class="kicker">La tua guida</span><h1>Impostazioni</h1></header>
     <div class="block"><span class="kicker">Aspetto</span>
       <div class="switch-row"><div>Tema</div>
         <div class="segmented" role="group" aria-label="Tema">
@@ -20,7 +20,8 @@ export function render() {
         </div></div>
     </div>
     <div class="block"><span class="kicker">Spoiler</span>
-      ${sw('spoilerShield', 'Scudo spoiler', 'Sfoca i contenuti oltre la tua progressione. Si rivelano con un tocco.')}
+      ${sw('spoilerShield', 'Scudo spoiler', 'Nasconde le missioni che non hai ancora iniziato e sfoca i contenuti oltre il punto della storia in cui sei. Si rivelano con un tocco.')}
+      ${sw('virginMode', 'Modalità vergine', 'Per chi non ha visto i trailer: nasconde anche i personaggi che non hai ancora incontrato, le teorie e gli estratti della ricerca.')}
       <div class="switch-row"><div><div>Atto raggiunto</div><p>Per impostazione predefinita segue le missioni che segni. Oggi: atto ${currentAct()}.</p></div>
         <select class="select" style="width:auto" data-manual-act aria-label="Atto raggiunto">
           <option value="" ${s.manualAct === null ? 'selected' : ''}>Automatico</option>
@@ -28,26 +29,26 @@ export function render() {
         </select></div>
     </div>
     <div class="block"><span class="kicker">Contenuti</span>
-      ${sw('showExamples', 'Mostra i dati ESEMPIO', 'Voci finte per vedere il design popolato. Spegnile quando hai contenuti veri.')}
+      ${sw('creatorTools', 'Strumenti del curatore', 'Mostra il «Pacchetto per Claude» negli Appunti: serve solo a chi aggiorna la guida.')}
+      ${sw('showExamples', 'Mostra le voci di prova', 'Voci finte per vedere la grafica piena. Lasciale spente.')}
     </div>
     <div class="block"><span class="kicker">Progressi</span>
       <p class="small muted">Salvati su: ${esc(progress.info.adapterName)}. Su iPhone la web app installata ha una memoria separata da Safari: fai un backup ogni tanto.</p>
       <div class="btn-row">
-        <button class="btn btn--solid" type="button" data-export>Esporta backup (.json)</button>
-        <label class="btn" style="cursor:pointer">Importa backup<input type="file" accept="application/json,.json" data-import hidden></label>
+        <button class="btn btn--solid" type="button" data-export>Salva una copia dei progressi</button>
+        <label class="btn" style="cursor:pointer">Ripristina una copia<input type="file" accept="application/json,.json" data-import hidden></label>
         <button class="btn btn--ghost" type="button" data-reset style="color:var(--orange)">Azzera tutto</button>
       </div>
     </div>
     <div class="block"><span class="kicker">Informazioni</span>
       <dl class="facts">
         <dt>Versione</dt><dd>${esc(window.__LEONIDA_VERSION__ || '')} · contenuti aggiornati il ${esc(db.meta.updatedAt)}</dd>
-        <dt>Memoria</dt><dd>schema progressi v${progress.info.version}</dd>
       </dl>
       <button class="btn btn--ghost" type="button" data-check-update style="margin-top:var(--s-3)">Cerca aggiornamenti</button>
     </div>`;
 
-  const right = `<div class="chapter-head"><span class="kicker">Novità nei dati</span><h1>Changelog</h1></div>
-    ${(db.meta.changelog || []).map((c) => `<div class="card"><div class="kicker kicker--accent">v${esc(c.version)} · ${esc(c.date)}</div><ul class="prose small" style="margin:var(--s-2) 0 0">${c.changes.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('')}
+  const right = `<div class="chapter-head"><span class="kicker">Cosa è cambiato</span><h1>Novità</h1></div>
+    ${(db.meta.changelog || []).map((c) => `<div class="card"><div class="kicker kicker--accent">${esc(c.date)}</div><ul class="prose small" style="margin:var(--s-2) 0 0">${c.changes.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>`).join('')}
     <div class="block prose small muted"><p>Leonida è una guida personale, non ufficiale e non affiliata a Rockstar Games o Take-Two Interactive. Grand Theft Auto è un marchio dei rispettivi proprietari.</p></div>`;
 
   return { left, right, show: 'left', accent: section.accent, title: 'Impostazioni' };

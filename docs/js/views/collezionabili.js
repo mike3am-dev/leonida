@@ -1,7 +1,7 @@
 /** Collezionabili: categorie come schede, checklist che aggiorna il contatore */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, statusChip } from '../ui/dom.js';
+import { esc, statusChip, toast } from '../ui/dom.js';
 import { sectionHead, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { showSheet } from '../ui/sheet.js';
@@ -43,6 +43,7 @@ export function render(params, query) {
     </div>
     ${active.id === 'cat-fauna' || list.filter((c) => c.image || c.emoji).length >= Math.max(6, list.length * 0.4) ? album(list, st, active) : `<span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-2)">${esc(active.name)} · ${done} / ${list.length}</span>${checklist(list, st)}`}`
     : `<p class="small muted" style="margin-top:var(--s-4)">Tocca una categoria per vedere l'album.</p>`}`;
+  if (query.apri) { const it = byId(query.apri); if (it) setTimeout(() => { history.replaceState(history.state, '', location.hash.replace(/[?&]apri=[^&]*/, '')); stickerSheet(it); }, 60); }
   return { left, right: '', show: 'left', accent: section.accent, title: 'Collezionabili' };
 }
 
@@ -119,7 +120,9 @@ function refreshAlbum(id) {
   const bar = document.querySelector('[data-album-bar]'); if (bar) bar.style.setProperty('--p', `${all.length ? Math.round(n / all.length * 100) : 0}%`);
   return true;
 }
+let dirty = false, rerenderRef = null;
 export function bind(root, rerender) {
+  rerenderRef = rerender;
   root.addEventListener('click', (e) => {
     const open = e.target.closest('[data-col-open]');
     if (open) { const c = byId(open.dataset.colOpen); if (c) stickerSheet(c); return; }
@@ -137,6 +140,7 @@ export function bind(root, rerender) {
     b.classList.toggle('btn--accent', on); b.classList.toggle('btn--solid', !on);
     b.querySelector('span').textContent = on ? 'Trovato' : 'Segna come trovato';
     b.querySelector('use').setAttribute('href', on ? '#i-check' : '#i-eye');
-    if (!refreshAlbum(id)) rerender();
+    dirty = true; refreshAlbum(id);
+    toast(on ? `${byId(id)?.name || 'Trovato'}: segnato come trovato` : 'Tolto dai trovati');
   });
 }

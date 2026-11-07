@@ -3,7 +3,7 @@
  * Ogni voce porta lo stato dalla versione N alla N+1.
  * Quando cambi il formato: alza CURRENT_VERSION e aggiungi una funzione.
  */
-export const CURRENT_VERSION = 3;
+export const CURRENT_VERSION = 4;
 
 export function emptyState() {
   return {
@@ -23,6 +23,8 @@ export function emptyState() {
       manualAct: null,     // null = segue la progressione
       showExamples: false,
       sfx: false,
+      virginMode: false,
+      creatorTools: false,
     },
   };
 }
@@ -31,6 +33,8 @@ const steps = {
   // 1 → 2: il tema predefinito diventa «auto» (segue il sistema); chi aveva lasciato «scuro» passa ad auto.
   1: (s) => { if (s.settings && (s.settings.theme === 'dark' || !s.settings.theme)) s.settings.theme = 'auto'; s.version = 2; return s; },
   2: (s) => { s.discovered = s.discovered || {}; s.version = 3; return s; },
+  // 3 → 4: chi aveva già la guida installata (Mike) tiene gli strumenti del curatore; i nuovi amici no
+  3: (s) => { s.settings = s.settings || {}; if (s.settings.creatorTools === undefined) s.settings.creatorTools = true; if (s.settings.virginMode === undefined) s.settings.virginMode = false; s.version = 4; return s; },
 };
 
 export function migrate(state) {

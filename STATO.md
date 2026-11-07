@@ -95,6 +95,14 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Animali: campi `scientificName`, `temperament` (innocuo/territoriale/aggressivo/predatore, dedotto dalla specie reale), `habitat`, `districtIds`, `protectedReal`. Attività: campo `group` per i filtri in Come si gioca. Missioni: `actsExtras` (nota Leak sui capitoli).
 - Stazioni = POI con id `poi-st-*`; fermate bus solo nella scheda `mec-rete-trasporti` (34, non sulla mappa per non affollarla).
 
+## 4k. v0.23 — giro 1.0 (feedback dei 10 giocatori, 7/11)
+- Backup prima del giro: ramo `backup-duo-v0.22.0` su GitHub (il Duo aperto in verticale, ~703×1000, è il riferimento: non va cambiato; le correzioni per iPhone stanno sotto `@media (max-width: 599px)`).
+- Impostazioni nuove: `virginMode` (Modalità vergine: nasconde personaggi non incontrati, teorie, estratti ricerca) e `creatorTools` (Pacchetto per Claude; migrazione v4: acceso per chi aveva già dati, spento per i nuovi).
+- Teorie con spoilerLevel 9 dietro avviso; actsExtras dietro avviso; riassunto missione in corso: solo la prima frase.
+- Legenda delle etichette al tocco (app.js, LEGEND); srcBadge negli elenchi = solo etichetta principale.
+- Mappa: `poiIcon()` in mapboard.js; ricerca sotto la mappa include POI e landmark; i landmark contano in stats()/districtStats/zoneBreakdown (`landmarkIds()` in shared.js).
+- Rimandati alla fine: schermata di benvenuto, supporto orizzontale.
+
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).
 - **Mappa**: le Polaroid appese sono a posizioni fisse (CSS `nth-child`): se le regioni cambiano numero vanno ricalcolate. Il «Tu sei qui» prima del 19 punta al penitenziario di Hamlet. Le tessere di dettaglio vengono da `tiles.gtasixmap.com` (servizio terzo, può sparire).

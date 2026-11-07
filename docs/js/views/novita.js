@@ -52,9 +52,9 @@ function teorieBoard() {
   return `<p class="lede">Le teorie della community, valutate da vice-central.com e tradotte: cosa le sostiene, cosa le indebolisce, com'è finita.</p>
     <div class="tboard">${Object.entries(TSTATUS).map(([k, [label, col]]) => { const list = all.filter((t) => t.verdict === k); return `<section class="tboard__col tboard__col--${col}"><h3 class="tboard__head">${esc(label)} <span class="count">${list.length}</span></h3>
       ${list.map((t, i) => `<article class="tnote" style="--rot:${((i * 5) % 7) - 3}deg"><span class="tnote__pin"></span>
-        <h4>${esc(t.title)}</h4>
+        ${spoiler.wrap(t, `<h4>${esc(t.title)}</h4>
         <p class="small">${esc((t.summary || '').slice(0, 260))}${(t.summary || '').length > 260 ? '…' : ''}</p>
-        ${acc('Prove e dettagli', `<div class="prose small">${t.origin ? `<p><b>Origine:</b> ${esc(t.origin)}</p>` : ''}${t.concerns ? `<p><b>Riguarda:</b> ${esc(t.concerns)}</p>` : ''}<p>${esc(t.summary || '')}</p>${t.evidence?.length ? `<ul>${t.evidence.map((e) => `<li>${esc(typeof e === 'string' ? e : e.text || JSON.stringify(e))}</li>`).join('')}</ul>` : ''}${t.statusNote ? `<p class="muted">${esc(t.statusNote)}</p>` : ''}<p class="source-line"><a href="${esc(t.sourceUrl || '')}" target="_blank" rel="noopener">vice-central.com</a>${t.updatedAt ? ' · ' + esc(t.updatedAt) : ''}</p></div>`)}
+        ${acc('Prove e dettagli', `<div class="prose small">${t.origin ? `<p><b>Origine:</b> ${esc(t.origin)}</p>` : ''}${t.concerns ? `<p><b>Riguarda:</b> ${esc(t.concerns)}</p>` : ''}<p>${esc(t.summary || '')}</p>${t.evidence?.length ? `<ul>${t.evidence.map((e) => `<li>${esc(typeof e === 'string' ? e : e.text || JSON.stringify(e))}</li>`).join('')}</ul>` : ''}${t.statusNote ? `<p class="muted">${esc(t.statusNote)}</p>` : ''}<p class="source-line"><a href="${esc(t.sourceUrl || '')}" target="_blank" rel="noopener">vice-central.com</a>${t.updatedAt ? ' · ' + esc(t.updatedAt) : ''}</p></div>`)}`, 'Teoria sulla trama')}
       </article>`).join('') || '<p class="small muted">Nessuna.</p>'}</section>`; }).join('')}</div>`;
 }
 

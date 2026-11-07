@@ -20,7 +20,10 @@ export function currentAct() {
   return max;
 }
 
+/** Modalità vergine: nasconde anche i personaggi non ancora incontrati, le teorie e i dettagli di trama nella ricerca */
+export function virgin() { return !!progress.settings().virginMode; }
 export function isHidden(item) {
+  if (virgin() && item?._type === 'teoria') return true;
   if (!progress.settings().spoilerShield) return false;
   const lvl = Number(item?.spoilerLevel || 0);
   return lvl > currentAct();

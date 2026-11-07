@@ -26,7 +26,7 @@ export function specSheet(it, kind) {
   const missing = rows.filter(([, v]) => v === undefined || v === null || v === '').map(([k]) => k);
   const showBars = !(kind === 'weapon' && it.class === 'equipaggiamento');
   return `<section class="spec">
-    <header class="spec__head"><span>Scheda tecnica</span>${real ? '' : '<em>Esempio · dati veri dal 19</em>'}</header>
+    <header class="spec__head"><span>Scheda tecnica</span>${real ? '' : (Date.now() < Date.UTC(2026, 10, 19) ? '<em>Esempio · dati veri dal 19</em>' : '<em>Esempio · in attesa dei dati dal gioco</em>')}</header>
     ${showBars ? bars(axes, values, !real) : ''}
     ${filled.length ? `<dl class="spec__facts">${filled.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(String(v))}</dd>`).join('')}</dl>` : ''}
     ${missing.length ? `<p class="spec__todo">In arrivo: ${esc(missing.join(' · ').toLowerCase())}</p>` : ''}

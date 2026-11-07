@@ -83,7 +83,7 @@ export function render() {
         </div>
       </div>
       <dl class="facts facts--row">
-        <dt>Zona attuale</dt><dd>${st.current.districtId && byId(st.current.districtId) ? esc(byId(st.current.districtId).name) : '—'}</dd>
+        <dt>Zona attuale</dt><dd>${(() => { const zid = (st.current.districtId && byId(st.current.districtId)) ? st.current.districtId : currentMission()?.districtId; return zid && byId(zid) ? esc(byId(zid).name) : '—'; })()}</dd>
         <dt>Prossima missione</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${progress.settings().spoilerShield ? esc(`${(() => { const a = db.acts.find((x) => x.id === next.actId); return a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''; })()} · bloccata`) : esc(next.title)}</a>` : '—'}</dd>
         <dt>Giorni di gioco</dt><dd>${Date.now() < rel ? 'dal 19 novembre' : `${playDays}${playSessions[0] ? ` · ultima volta ${esc(relTime(playSessions[0].end || playSessions[0].start))}` : ''}`}</dd>
         <dt>Appunti</dt><dd>${st.notes.length ? `<a href="#/diario">${st.notes.length}${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare` : ''}</a>` : '<a href="#/diario">scrivi il primo</a>'}</dd>
@@ -92,7 +92,7 @@ export function render() {
 
     <section class="block">
       <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span></div>
-      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring"><img src="${esc(c.image)}" alt="" loading="lazy"></span><span class="story__name">${esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
+      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring">${!ok && spoiler.virgin() ? '<span class="story__unknown" aria-hidden="true">?</span>' : `<img src="${esc(c.image)}" alt="" loading="lazy">`}</span><span class="story__name">${!ok && spoiler.virgin() ? '???' : esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
     </section>
 
     <section class="block">
@@ -135,7 +135,7 @@ function whereCard(st) {
 function notesCard(st) {
   const notes = st.notes || []; const pending = notes.filter((n) => !n.exported);
   return `<section class="notesbox"><div class="block__head"><span class="kicker">Appunti${notes.length ? ` · ${notes.length}` : ''}</span><button type="button" class="info-btn" data-home-notes-info aria-label="Come funzionano gli appunti">i</button></div>
-    <div class="actions" style="margin:0 0 var(--s-3)"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Nuovo appunto</button><a class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" href="#/diario${notes.length ? '?pacchetto=1' : ''}">Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</a></div>
+    <div class="actions" style="margin:0 0 var(--s-3)"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Nuovo appunto</button>${progress.settings().creatorTools ? `<a class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" href="#/diario${notes.length ? '?pacchetto=1' : ''}">Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</a>` : ''}</div>
     ${notes.slice(0, 3).map((n) => `<div class="note-mini"><span class="note__time">${esc(relTime(n.ts))}</span>${esc(n.text.slice(0, 110))}${n.text.length > 110 ? '…' : ''}</div>`).join('') || '<p class="small muted">Scrivi mentre giochi: posti, trucchi, domande con «?». Poi il pacchetto li porta a Claude e diventano guida.</p>'}
     ${notes.length > 3 ? `<a class="small" href="#/diario">Tutti gli appunti</a>` : ''}</section>`;
 }
@@ -189,7 +189,7 @@ export function bind(root) {
   });
   root.addEventListener('click', (e) => {
     if (e.target.closest('[data-home-notes-info]')) { notesInfoSheet(); return; }
-    const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c) charSheet(c); return; }
+    const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c && spoiler.virgin() && !isMet(c)) { import('../ui/dom.js').then(({ toast }) => toast('Lo scopri quando lo incontri')); return; } if (c) charSheet(c); return; }
     const z = e.target.closest('[data-home-zone]'); if (z) { const d = byId(z.dataset.homeZone); if (d) zoneSheet(d, z.classList.contains('is-found')); return; }
     const t = e.target.closest('[data-home-tip]'); if (t) { const tip = byId(t.dataset.homeTip); if (tip) articleSheet(tip); return; }
     const n = e.target.closest('[data-home-news]'); if (n) { const it = byId(n.dataset.homeNews); if (it) articleSheet(it); }

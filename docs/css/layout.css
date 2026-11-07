@@ -51,7 +51,7 @@
 
 /* ---------- Tab bar (solo stretto) ---------- */
 .tabbar {
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  display: grid; grid-template-columns: repeat(6, minmax(0, 1fr));
   padding: 0 max(var(--safe-r), var(--s-1)) var(--safe-b) max(var(--safe-l), var(--s-1));
   border-top: var(--hair) solid var(--rule);
   background: color-mix(in srgb, var(--bg) 92%, transparent);

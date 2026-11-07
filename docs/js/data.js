@@ -66,14 +66,14 @@ export function visible(list, showExamples) {
 
 export const TYPE_LABEL = {
   mission: 'Missione', district: 'Distretto', collectible: 'Collezionabile', activity: 'Attività',
-  character: 'Personaggio', radio: 'Radio', brand: 'Marchio', tip: 'Consiglio', act: 'Atto', category: 'Categoria', vehicle: 'Veicolo', weapon: 'Arma', poi: 'Luogo', news: 'Novità', trophy: 'Trofeo', luogo: 'Scheda luogo', guida: 'Guida', teoria: 'Teoria',
+  character: 'Personaggio', radio: 'Radio', brand: 'Marchio', tip: 'Consiglio', act: 'Atto', category: 'Categoria', vehicle: 'Veicolo', weapon: 'Arma', poi: 'Luogo', news: 'Novità', trophy: 'Trofeo', luogo: 'Scheda luogo', guida: 'Guida', teoria: 'Teoria', mechanic: 'Come si gioca',
 };
 export const TYPE_ROUTE = {
   mission: (it) => `/missioni/${it.id}`, district: (it) => `/atlante/${it.id}`,
-  collectible: (it) => `/collezionabili?cat=${it.categoryId}&q=${encodeURIComponent(it.name)}`,
-  activity: (it) => `/atlante/${it.districtId || ''}`, character: (it) => `/personaggi/${it.id}`,
-  radio: (it) => `/cultura/${it.id}`, brand: (it) => (['Colonna sonora', 'Musica'].includes(it.category) ? `/cultura/${it.id}` : `/mondo/${it.id}`), tip: (it) => `/news?tipo=guide#${it.id}`,
+  collectible: (it) => (it.id.startsWith('lmk-') ? '/mappa' : `/collezionabili?cat=${it.categoryId}&apri=${it.id}`),
+  activity: (it) => `/meccaniche?att=${it.id}`, character: (it) => `/personaggi/${it.id}`,
+  radio: (it) => `/cultura/${it.id}`, brand: (it) => (['Colonna sonora', 'Musica'].includes(it.category) ? `/cultura/${it.id}` : `/mondo/${it.id}`), tip: (it) => `/news/${it.id}`,
   act: (it) => `/missioni?atto=${it.id}`, category: (it) => `/collezionabili?cat=${it.id}`,
-  mechanic: (it) => `/meccaniche/${it.id}`, vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
+  mechanic: (it) => `/meccaniche/${it.id}`, vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/mappa?punto=${encodeURIComponent('poi:' + it.id)}`,
   luogo: (it) => `/mappa/luogo/${it.slug}`, guida: (it) => `/news/${it.id}`, teoria: (it) => `/news?tipo=teorie`,
 };

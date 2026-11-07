@@ -8,25 +8,26 @@ import { sectionHead, acc, vis, sectionOf, currentMission } from './shared.js';
 const section = sectionOf('diario');
 
 export function render(params, query) {
+  const creator = !!progress.settings().creatorTools;
   const st = progress.get();
   const notes = st.notes;
   const pending = notes.filter((n) => !n.exported);
   const open = notes.filter((n) => /\?/.test(n.text) && !n.exported);
   const groups = new Map();
   for (const n of notes) { const k = fmtDate(n.ts, { weekday: 'long', day: 'numeric', month: 'long' }); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(n); }
-  const left = `${sectionHead(section, `${notes.length} appunti`)}
-    <p class="lede">Il taccuino da gioco. Scrivi mentre giochi, qui ritrovi tutto con missione e zona; poi lo passi a Claude e diventa guida.</p>
+  const left = `${sectionHead(section, `${notes.length} appunt${notes.length === 1 ? "o" : "i"}`)}
+    <p class="lede">Il taccuino da gioco. Scrivi mentre giochi: qui ritrovi tutto, con missione e zona già segnate.</p>
     <div class="actions">
       <button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Nuovo appunto</button>
-      <button class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" type="button" data-action="packet" ${notes.length ? '' : 'disabled'}>Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</button>
+ ${creator ? `<button class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" type="button" data-action="packet" ${notes.length ? '' : 'disabled'}>Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</button>` : ''}
     </div>
-    ${query.pacchetto === '1' && notes.length ? packetPage(notes) : ''}
-    <div class="block">${acc('Come funziona il Pacchetto per Claude', `<ol class="steps">
+    ${creator && query.pacchetto === '1' && notes.length ? packetPage(notes) : ''}
+    ${creator ? `<div class="block">${acc('Come funziona il Pacchetto per Claude', `<ol class="steps">
       <li><b>Giochi e scrivi.</b> Un appunto per ogni cosa che scopri: una missione, un posto, un collezionabile, un trucco. Metti un «?» se è da verificare. L’appunto si aggancia da solo alla missione in corso e alla zona.</li>
       <li><b>Tocchi «Pacchetto per Claude».</b> L’app impacchetta gli appunti non ancora inviati in un testo già formattato, con le istruzioni e gli id della guida.</li>
       <li><b>Copi e incolli in chat con Claude.</b> Claude trasforma gli appunti in schede vere: missioni, luoghi, collezionabili, consigli. Non inventa nulla: solo quello che hai scritto tu, con etichetta «da verificare».</li>
       <li><b>Claude aggiorna la guida e fa il push.</b> Alla riapertura dell’app i tuoi appunti sono diventati contenuto. Poi tocchi «Segna come inviati» e il contatore torna a zero.</li>
-    </ol>`, !notes.length)}</div>
+    </ol>`, !notes.length)}</div>` : ''}
     <div class="stats">
       <div class="card"><div class="stat"><div class="stat__value tnum">${pending.length}</div><div class="stat__label">da passare a Claude</div></div></div>
       <div class="card"><div class="stat"><div class="stat__value tnum">${open.length}</div><div class="stat__label">domande aperte (con «?»)</div></div></div>

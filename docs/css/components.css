@@ -1709,3 +1709,44 @@ h1, h2, h4, .hero__text h1, .group-head h2 { font-optical-sizing: auto; font-var
 .chip--temp-aggressivo { color: var(--orange); border-color: var(--orange); }
 .chip--temp-predatore { color: #ff4d5e; border-color: #ff4d5e; }
 .actchip[hidden] { display: none !important; }
+
+/* ---------- v0.23 (giro 1.0) — solo telefono stretto: il Duo aperto non cambia ---------- */
+@media (max-width: 599px) {
+  .tabbar .tab--home:not([aria-current="page"]) svg { color: var(--ink-3); }
+  .tabbar .tab--home:not([aria-current="page"]) span { font-style: normal; font-family: var(--font-text); font-size: .6875rem; }
+  .tabbar .tab span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  .home-hero .countdown { flex-wrap: wrap; row-gap: 0; }
+  .home-hero .countdown b { font-size: clamp(2.6rem, 1rem + 9vw, 4rem); }
+  .home-hero .countdown b + span { margin-right: 10px; }
+}
+/* Schermo intero della mappa: nessun antenato deve «catturare» il position: fixed (transform, container, contain) */
+body.has-map-full .sheet-page, body.has-map-full .page, body.has-map-full .app, body.has-map-full #main, body.has-map-full .page__inner { transform: none !important; animation: none !important; container-type: normal !important; contain: none !important; filter: none !important; }
+body.has-map-full .mapboard.is-full { z-index: 1000; }
+body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follow-bar { visibility: hidden; }
+/* Punti d'interesse: icona per tipo */
+.mb-pin--poi { background: #1d1726; }
+.mb-pin__ico { font-size: 13px; line-height: 1; }
+.mapboard[data-z="lo"] .mb-pin--poi { width: 14px; height: 14px; background: #1d1726; border-width: 1px; }
+.mapboard[data-z="lo"] .mb-pin--poi > .mb-pin__ico { display: block !important; font-size: 8px; }
+.story__unknown { display: grid; place-items: center; width: 100%; height: 100%; font: 700 1.4rem var(--font-display, inherit); color: var(--ink-3); background: var(--paper-2, rgba(127,127,127,.12)); border-radius: 50%; }
+.spoiler-more { margin-top: var(--s-2); font-size: .9375rem; }
+.spoiler-more summary { cursor: pointer; color: var(--ink-3); font-weight: 600; }
+.chip[class*="chip--src-"], .chip--verificato, .chip--da-verificare, .chip--segnaposto { cursor: help; }
+.legend { display: grid; gap: var(--s-3); }
+.legend__row { display: grid; grid-template-columns: 7.5rem 1fr; gap: var(--s-3); align-items: start; padding: var(--s-2); border-radius: 10px; }
+.legend__row.is-on { background: rgba(127,127,127,.12); }
+.legend__row p { margin: 0; }
+.ptlist { display: grid; gap: 6px; margin-bottom: var(--s-4); }
+.ptrow { display: grid; grid-template-columns: 2rem 1fr auto; gap: var(--s-2); align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--card, rgba(127,127,127,.08)); color: inherit; text-decoration: none; }
+.ptrow__ico { font-size: 1.2rem; text-align: center; }
+.ptrow__body { display: grid; min-width: 0; } .ptrow__body b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .ptrow__body small { color: var(--ink-3); }
+.ptrow__go { font-size: .75rem; font-weight: 600; color: var(--accent, inherit); white-space: nowrap; }
+.section-head .count:empty { display: none; }
+/* iPhone: titoli lunghi nelle copertine non escono più dall'immagine né coprono l'etichetta */
+@media (max-width: 599px) {
+  .hero:not(.hero--text):not(.hero--mono), .frontpage { aspect-ratio: auto; max-height: none; min-height: calc((100vw - 32px) * 9 / 16); display: flex; flex-direction: column; justify-content: flex-end; }
+  .hero:not(.hero--text):not(.hero--mono) > img, .frontpage > img { position: absolute; inset: 0; }
+  .hero:not(.hero--text):not(.hero--mono) .hero__text, .frontpage__text { position: relative; left: auto; right: auto; bottom: auto; padding: 3.25rem var(--s-4) var(--s-4); }
+  .frontpage__excerpt { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
+.hero__chips { z-index: 2; }

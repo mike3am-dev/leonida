@@ -77,6 +77,16 @@ function regionOpen(id) {
   if (!id) return false; const d = byId(id); if (d && isFound(d)) return true;
   return currentMission()?.districtId === id;
 }
+/** Icona del punto d'interesse in base al tipo: così sulla mappa si distinguono polizia, armi, cibo… */
+export function poiIcon(p) {
+  const k = ((p.kind || '') + ' ' + (p.name || '')).toLowerCase();
+  const R = [[/polizia|police|sceriff|pd\b|penitenz|carcer|prigion/, '🚓'], [/ammu|armer|armi\b|gun/, '🔫'], [/stazion|metro|mover|train|treno|fermata/, '🚇'], [/aeroport|airport|airfield|aerodrom/, '✈️'], [/hotel|motel|resort|cabins/, '🏨'],
+    [/officin|garage|custom|carrozz|gomm|tire|body shop|pay|autolavag|car wash/, '🔧'], [/banca|bank|fleeca|atm|lombank/, '🏦'], [/ristor|diner|fast food|burger|waffle|cafe|caff|bar\b|deli|food|grill|pizz|taco|shrimp/, '🍔'],
+    [/club|strip|locale|disco|nightclub|cabaret|lounge/, '🍸'], [/negoz|store|market|shop|mall|minimarket|abbigliam|moda|fashion|gallery|pawn|pegni/, '🛍️'], [/marina|porto|cantiere|barca|boat|molo/, '⚓'],
+    [/ponte|bridge|causeway|strada|autostrada/, '🌉'], [/stadio|arena|field|raceway|speedway|autodromo|golf/, '🏟️'], [/ospedal|hospital/, '🏥'], [/parco|park|spiaggia|beach|isola|riserva/, '🌴'], [/rifugio|casa|apartment|appartam/, '🏠']];
+  for (const [re, e] of R) if (re.test(k)) return e;
+  return '📍';
+}
 const KIND_LABEL = { luogo: 'Luogo', poi: "Punto d'interesse", lmk: 'Punto di riferimento' };
 const prefs = () => { try { return JSON.parse(localStorage.getItem('leonida:mappa') || '{}'); } catch { return {}; } };
 const savePref = (k, v) => { const p = prefs(); p[k] = v; localStorage.setItem('leonida:mappa', JSON.stringify(p)); };
@@ -94,7 +104,7 @@ export function boardHtml(districts) {
   const here = youAreHere();
   const hereHtml = here ? `<div class="mb-here" style="left:${here.x}px;top:${here.y}px" title="Tu sei qui"><span class="mb-here__pulse"></span><span class="mb-here__dot"></span><span class="mb-here__label">Tu sei qui</span></div>` : '';
   const pts = mapPoints();
-  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (q.seen ? 'is-seen' : regionOpen(q.districtId) ? 'is-unseen' : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${!q.img[0] && !q.img[1] ? `<svg aria-hidden="true"><use href="#i-${q.kind === 'lmk' ? 'eye' : 'pin'}"/></svg>` : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
+  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (q.seen ? 'is-seen' : regionOpen(q.districtId) ? 'is-unseen' : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${q.kind === 'poi' ? `<span class="mb-pin__ico" aria-hidden="true">${poiIcon(q.ref)}</span>` : !q.img[0] && !q.img[1] ? `<svg aria-hidden="true"><use href="#i-${q.kind === 'lmk' ? 'eye' : 'pin'}"/></svg>` : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
   const pins = pts.filter((q) => q.kind === 'luogo').map(pinOf).join('');
   const poiPins = pts.filter((q) => q.kind === 'poi').map(pinOf).join('');
   const lmkPins = pts.filter((q) => q.kind === 'lmk').map(pinOf).join('');
@@ -233,6 +243,8 @@ export function bind(root) {
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-mb-seen]'); if (!b) return;
     if (b.dataset.seenCollect) progress.toggleCollected(b.dataset.seenCollect); else progress.toggleDiscovered(b.dataset.seenDiscover);
+    const on = b.dataset.seenCollect ? !!progress.get().collectibles[b.dataset.seenCollect] : !!progress.get().discovered?.[b.dataset.seenDiscover];
+    import('../ui/dom.js').then(({ toast }) => toast(on ? 'Segnato come trovato' : 'Tolto dai trovati'));
     document.querySelector('.sheet-backdrop')?.click(); document.dispatchEvent(new CustomEvent('leonida:rerender'));
   });
   root.addEventListener('click', (e) => {

@@ -5,7 +5,7 @@
  */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, statusChip, protagonistChip, pad2 } from '../ui/dom.js';
+import { esc, statusChip, protagonistChip, pad2, toast } from '../ui/dom.js';
 import { sectionHead, backLink, row, acc, hero, vis, sectionOf, missionActLabel , extrasHtml} from './shared.js';
 import * as spoiler from '../spoiler.js';
 
@@ -63,7 +63,7 @@ function index() {
         ${cs.list.length ? `<div class="storyboard__dots">${cs.list.map((m) => `<i class="dot ${st.missions[m.id]?.state === 'completata' ? 'is-done' : st.missions[m.id]?.state === 'in-corso' ? 'is-cur' : ''}"></i>`).join('')}</div>` : ''}
       </div></div>
     ${shield ? '' : '<p class="callout callout--warn small">Scudo spoiler spento: vedi tutti i nomi. Riaccendilo in Impostazioni.</p>'}
-    ${extrasHtml({ extras: db.actsExtras })}
+    ${db.actsExtras?.length ? spoiler.wrap({ spoilerLevel: 9 }, extrasHtml({ extras: db.actsExtras }), 'Leak sulla struttura della storia') : ''}
     <div class="chapters">${acts.map((a) => {
       const c = chapterState(a, missions);
       const isCur = a === cur;
@@ -116,7 +116,13 @@ function detail(m) {
   return `
     ${backLink('/missioni', 'Missioni')}
     ${hero(m, { kicker: `${esc(actLabel)} · Missione ${pad2(idx)}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
-    <div class="prose">${spoiler.wrap(m, `<p class="lede">${esc(m.summary || 'Nessun riassunto ancora.')}</p>`)}</div>
+    <div class="prose">${(() => {
+      const sum = m.summary || 'Nessun riassunto ancora.';
+      // Missione in corso: si legge solo l'inizio, il resto sta dietro l'avviso
+      const cut = state === 'in-corso' ? sum.search(/[.!?](\s|$)/) : -1;
+      if (cut > 0 && cut < sum.length - 2) return spoiler.wrap(m, `<p class="lede">${esc(sum.slice(0, cut + 1))}</p>`) + `<details class="spoiler-more"><summary>Come va a finire (spoiler)</summary><p>${esc(sum.slice(cut + 1).trim())}</p></details>`;
+      return spoiler.wrap(m, `<p class="lede">${esc(sum)}</p>`);
+    })()}</div>
     ${extrasHtml(m)}
     ${blocked ? blockedHtml : ''}
     <div class="actions">
@@ -154,7 +160,15 @@ export function render(params) {
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
     const b = e.target.closest('[data-mission][data-set]');
-    if (b) { progress.setMissionState(b.dataset.mission, b.dataset.set || null); rerender(); return; }
+    if (b) {
+      progress.setMissionState(b.dataset.mission, b.dataset.set || null); rerender();
+      if (b.dataset.set === 'completata') {
+        const list = vis(db.missions), i = list.findIndex((x) => x.id === b.dataset.mission);
+        const nx = list.slice(i + 1).find((x) => !progress.get().missions[x.id]?.state);
+        toast('Missione completata', nx ? { action: 'Vai alla prossima', ms: 7000, onAction: () => { location.hash = `#/missioni/${nx.id}`; } } : {});
+      }
+      return;
+    }
     const x = e.target.closest('[data-extra]');
     if (x) { progress.toggleExtra(x.dataset.mission, x.dataset.extra); rerender(); }
   });

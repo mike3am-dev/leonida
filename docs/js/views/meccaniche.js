@@ -49,6 +49,7 @@ function detail(m) {
 export function render(params, query = {}) {
   const m = params.id ? byId(params.id) : null;
   if (m) return { left: '', right: detail(m), show: 'right', accent: section.accent, title: m.title };
+  if (query.att) { const a = byId(query.att); if (a) setTimeout(() => { history.replaceState(history.state, '', '#/meccaniche'); document.querySelector('[data-act-filters]')?.scrollIntoView({ block: 'start' }); actSheet(a); }, 80); }
   return { left: index(query.q), right: '', show: 'left', accent: section.accent, title: 'Come si gioca' };
 }
 

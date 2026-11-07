@@ -3,7 +3,7 @@ import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound, landmarkIds } from './shared.js';
 import * as mapboard from './mapboard.js';
 import * as spoiler from '../spoiler.js';
 
@@ -26,8 +26,9 @@ function zoneBreakdown(d) {
   const mm = m.filter((x) => st.missions[x.id]?.state !== 'completata').length; if (m.length) parts.push(`${mm} mission${mm === 1 ? 'e' : 'i'}`);
   const cm = c.filter((x) => !st.collectibles[x.id]).length; if (c.length) parts.push(`${cm} collezionabil${cm === 1 ? 'e' : 'i'}`);
   const am = a.filter((x) => st.activities[x.id] !== 'completata').length; if (a.length) parts.push(`${am} attività`);
+  const lk = landmarkIds(d.id), lm = lk.filter((id) => !st.collectibles[id]).length; if (lk.length) parts.push(`${lm} punt${lm === 1 ? 'o' : 'i'} da trovare`);
   const pct = (done, tot) => tot ? Math.round(done / tot * 100) : 0;
-  return { total: m.length + c.length + a.length, missing: mm + cm + am, text: parts.join(' · '), bars: [['Missioni', m.length - mm, m.length], ['Collezionabili', c.length - cm, c.length], ['Attività', a.length - am, a.length]].filter((b) => b[2]).map(([l, d, t]) => ({ l, d, t, p: pct(d, t) })) };
+  return { total: m.length + c.length + a.length + lk.length, missing: mm + cm + am + lm, text: parts.join(' · '), bars: [['Missioni', m.length - mm, m.length], ['Collezionabili', c.length - cm, c.length], ['Attività', a.length - am, a.length], ['Punti di riferimento', lk.length - lm, lk.length]].filter((b) => b[2]).map(([l, d, t]) => ({ l, d, t, p: pct(d, t) })) };
 }
 
 function whatThere(p) {
@@ -107,7 +108,7 @@ function luogoDetail(l) {
 /** Completamento della regione: percentuale, cosa manca (a parole) e la prossima cosa da trovare */
 function zoneStats(b, d) {
   const pct = b.total ? Math.round((b.total - b.missing) / b.total * 100) : 0;
-  const plural = { Missioni: ['missione', 'missioni'], Collezionabili: ['collezionabile', 'collezionabili'], 'Attività': ['attività', 'attività'] };
+  const plural = { Missioni: ['missione', 'missioni'], Collezionabili: ['collezionabile', 'collezionabili'], 'Attività': ['attività', 'attività'], 'Punti di riferimento': ['punto di riferimento', 'punti di riferimento'] };
   const left = b.bars.filter((x) => x.t - x.d > 0).map((x) => `<b>${x.t - x.d}</b> ${plural[x.l][x.t - x.d === 1 ? 0 : 1]}`);
   // prossima cosa: il primo punto di riferimento della regione non ancora trovato
   const st = progress.get();
@@ -176,7 +177,12 @@ function index(zona, q) {
     <p class="map-hint"><svg aria-hidden="true"><use href="#i-lock"/></svg><span>La mappa è <b>bloccata</b> e la pagina scorre. Tocca «Tocca per esplorare» per muoverla e ingrandirla; quando hai finito, «Blocca la mappa».</span></p>
     ${mapboard.boardHtml(ds)}
     <input class="input" type="search" placeholder="Cerca un luogo o un quartiere…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin:var(--s-4) 0 var(--s-3)">
-    ${needle ? `<div class="placegrid" style="margin-bottom:var(--s-4)">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>` : ''}
+    ${needle ? (() => {
+      // Anche i punti d'interesse e i punti di riferimento, con «Mostra sulla mappa»
+      const pts = mapboard.mapPoints().filter((x) => x.kind !== 'luogo' && x.name.toLowerCase().includes(needle)).slice(0, 30);
+      const ptsHtml = pts.length ? `<div class="ptlist">${pts.map((x) => `<a class="ptrow" href="#/mappa?punto=${esc(x.key)}"><span class="ptrow__ico" aria-hidden="true">${x.kind === 'poi' ? mapboard.poiIcon(x.ref) : '👁️'}</span><span class="ptrow__body"><b>${esc(x.name)}</b><small>${esc(byId(x.districtId)?.name || '')}${x.seen ? ' · trovato ✓' : ''}</small></span><span class="ptrow__go">Mostra sulla mappa</span></a>`).join('')}</div>` : '';
+      return list.length || pts.length ? `${list.length ? `<div class="placegrid" style="margin-bottom:var(--s-4)">${list.map(luogoCard).join('')}</div>` : ''}${ptsHtml}` : '<p class="muted small">Nessun luogo con questo nome.</p>';
+    })() : ''}
     <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>`;
 }
 
@@ -228,6 +234,16 @@ export function afterRender(root, { remount = true } = {}) {
 
 export function bind(root, rerender) {
   mapboard.bind(root);
+  document.addEventListener('click', (e) => {
+    const go = e.target.closest('[data-zone-go]');
+      if (go) {
+        const full = document.querySelector('.mapboard.is-full'); if (full) full.querySelector('[data-mb-tool="full"]')?.click();
+        const z = document.getElementById('zona-' + go.dataset.zoneGo); if (!z) return;
+        if (!z.classList.contains('is-open')) z.querySelector('[data-zone-toggle]')?.click();
+        z.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+  });
   root.addEventListener('click', (e) => {
     const pop = e.target.closest('[data-pop]'); if (pop) { popover(pop.dataset.pop); return; }
     const tg = e.target.closest('[data-zone-toggle]');
@@ -240,14 +256,7 @@ export function bind(root, rerender) {
       history.replaceState(history.state, '', open ? `#/mappa?zona=${tg.dataset.zoneToggle}` : '#/mappa');
       return;
     }
-    const go = e.target.closest('[data-zone-go]');
-    if (go) {
-      const full = document.querySelector('.mapboard.is-full'); if (full) full.querySelector('[data-mb-tool="full"]')?.click();
-      const z = document.getElementById('zona-' + go.dataset.zoneGo); if (!z) return;
-      if (!z.classList.contains('is-open')) z.querySelector('[data-zone-toggle]')?.click();
-      z.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      return;
-    }
+
     const g = e.target.closest('[data-gsm]'); if (g) { openGsm(g.dataset.gsm); return; }
     // [data-collect] lo gestisce collezionabili.bind (una sola volta, altrimenti la spunta si annulla da sola)
     const a = e.target.closest('[data-activity]'); if (a) { progress.toggleActivity(a.dataset.activity); rerender(); }
