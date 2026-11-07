@@ -75,7 +75,7 @@
       "title": "Relazione tra Jason e Lucia",
       "emoji": "💞",
       "group": "Personaggi",
-      "short": "Il legame tra Jason e Lucia ha quattro livelli e sale con il tempo passato insieme. La coppia non si scioglie mai, ma il romanticismo è facoltativo: è tuo da tenere o da perdere.",
+      "short": "Il legame tra Jason e Lucia ha quattro livelli e sale con il tempo passato insieme. Il romanticismo è facoltativo, ma restano sempre complici: la relazione è tua da tenere o da perdere.",
       "steps": [
         "Scrivi o chiama l'altro in qualsiasi momento, anche per invitarlo a raggiungerti.",
         "Rispondi ai suoi messaggi: se torna a casa mentre sei fuori, ti scrive per sapere come stai.",
@@ -517,6 +517,10 @@
         {
           "title": "Armi in vista",
           "text": "Un'arma lunga in spalla non fa scattare la ricerca; imbracciata davanti alla gente sì, e i passanti reagiscono. Puoi metterla via prima che arrivi la polizia."
+        },
+        {
+          "title": "Chiodi, cani ed elicotteri",
+          "text": "La polizia stende strisce chiodate difficili da vedere di notte: una moto bucata sbalza chi la guida. I cani poliziotto ti inseguono a piedi e ti bloccano a terra; gli elicotteri ti cercano col faro. Se hai un'arma in mano, gli agenti possono prima intimarti di posarla."
         }
       ],
       "tips": [
@@ -529,18 +533,6 @@
         {
           "source": "rumor",
           "text": "Stella lampeggiante: hanno perso il contatto. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
-        },
-        {
-          "source": "stampa",
-          "text": "La polizia stende strisce chiodate difficili da vedere di notte: una moto bucata sbalza chi la guida."
-        },
-        {
-          "source": "stampa",
-          "text": "I cani poliziotto ti inseguono a piedi e ti bloccano a terra; gli elicotteri ti cercano col faro."
-        },
-        {
-          "source": "stampa",
-          "text": "Se hai un'arma in mano, gli agenti possono prima intimarti di posarla."
         },
         {
           "source": "stampa",
@@ -1118,10 +1110,6 @@
           "text": "Autobus e treni funzionano davvero e arrivano sempre. Si può raggiungere Watson Bay solo con i mezzi pubblici. Ci sono anche tram e taxi."
         },
         {
-          "title": "Bus come nascondiglio",
-          "text": "Se la polizia non ti ha visto salire, non perquisisce l'autobus. Con le stelle addosso, un bus può essere la tua uscita."
-        },
-        {
           "title": "Barche e aerei",
           "text": "Le barche sentono le onde: nei canali riparati l'acqua è calma, al largo vieni sballottato. Aerei ed elicotteri soffrono la turbolenza nei temporali, e se ci resti dentro subisci piccoli danni."
         },
@@ -1132,11 +1120,14 @@
       ],
       "tips": [
         "Usa Ryde Me per i tragitti lunghi e noiosi: è il viaggio rapido del gioco.",
-        "Se sei ricercato e non ti hanno visto, sali su un autobus.",
         "Evita il mare aperto e i cieli quando arriva una tempesta.",
         "Il 19 scarica la mappa di Leonida gratuita: si stampa."
       ],
       "extras": [
+        {
+          "source": "rumor",
+          "text": "Se la polizia non ti ha visto salire, non perquisisce l'autobus: con le stelle addosso un bus può essere la tua uscita."
+        },
         {
           "source": "stampa",
           "text": "Ci sono monopattini elettrici da guidare, con l'opzione del casco."
