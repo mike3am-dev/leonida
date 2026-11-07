@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.13.1",
+  "dataVersion": "0.14.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.14.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Giro news: 24 notizie (conti Take-Two il 9 alle 22:30, supporto Rockstar sulle edizioni, codici a blocco regionale su PS5, mappa gratis e poster, Selfridges, Xbox 225 GB…), 7 marchi nuovi, 13 posti nuovi da gtasixmap sulla mappa."
+      ]
+    },
     {
       "version": "0.13.1",
       "date": "2026-11-07",

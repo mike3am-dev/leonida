@@ -987,6 +987,86 @@
           "source": "rumor",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
           "image": null
+        },
+        {
+          "id": "poi-gsm-rockrige-store",
+          "name": "Rockrige Store",
+          "kind": "Minimarket",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            2939.369140625,
+            -108.125
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-stockyard-clothing",
+          "name": "Stockyard Clothing",
+          "kind": "Abbigliamento",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            3526,
+            444
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-la-perle-automotive-shop",
+          "name": "La Perle Automotive Shop",
+          "kind": "Officina",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            3000.892578125,
+            110.869140625
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-rockrige-ammu-nation",
+          "name": "Rockridge Ammu Nation",
+          "kind": "Armeria",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            2997,
+            -206
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-vc-airport",
+          "name": "Vice City International Airport",
+          "kind": "Aeroporto",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            2097,
+            -938
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [],
@@ -1307,6 +1387,22 @@
             992,
             -1112
           ]
+        },
+        {
+          "id": "poi-gsm-key-lento-store",
+          "name": "Key Lento Store",
+          "kind": "Minimarket",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            2502,
+            -3735
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [
@@ -1418,6 +1514,22 @@
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
           "image": null
+        },
+        {
+          "id": "poi-gsm-cedar-key-airport",
+          "name": "Cedar Key Airport",
+          "kind": "Aeroporto",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            386,
+            -1972
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [
@@ -1630,6 +1742,86 @@
             826,
             476
           ]
+        },
+        {
+          "id": "poi-gsm-mount-waffles",
+          "name": "Mount Waffles",
+          "kind": "Collina",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            709,
+            2619
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-ammu-nation-gellhorn",
+          "name": "Ammu Nation Gellhorn",
+          "kind": "Armeria",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            92,
+            1344
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-port-gellhorn-car-wash",
+          "name": "Port Gellhorn Car Wash",
+          "kind": "Autolavaggio",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            152,
+            1951
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-easy-hill",
+          "name": "Easy Hill",
+          "kind": "Collina",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            384,
+            1851
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-gsm-gellhorn-raceway",
+          "name": "Gellhorn International Raceway",
+          "kind": "Autodromo",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            -156,
+            761
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [],
@@ -2374,6 +2566,22 @@
             4872,
             20
           ]
+        },
+        {
+          "id": "poi-gsm-mount-sinai",
+          "name": "Mount Sinai Hospital Complex",
+          "kind": "Ospedale",
+          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "xy": [
+            4303,
+            660
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtasixmap.com/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [],

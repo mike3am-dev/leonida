@@ -1517,6 +1517,90 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-chichic",
+      "name": "ChiChic",
+      "category": "Negozi",
+      "description": "Marca di cosmetici: due flaconi ChiChic sulla toeletta di un camerino in uno screenshot della Launch Gallery. Il nome unisce «chic» e «chichi», parola dello slang messicano. Altre marche di bellezza già note: Bombon, Le Foutre, Lustré, Boufon, Eclipse, Day.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/ChiChic",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-beige-shapewear",
+      "name": "Beige Shapewear",
+      "category": "Moda",
+      "description": "Marca di intimo modellante, parodia di Skims: la sua pubblicità compare sulla fiancata di un bus turistico usato per la campagna reale a Miami, parcheggiato al Miami Dade College.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Beige_Shapewear",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-ricardo-s-tires",
+      "name": "Ricardo's Tires",
+      "category": "Servizi",
+      "description": "Gommista e officina a La Perle, sulla Vice-Dale County Road 561, visto nella Launch Gallery; ricalca Al's Auto & Tire di Miami Gardens.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Ricardo%27s_Tires",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-v-rock-caf",
+      "name": "V-Rock Café",
+      "category": "Luoghi di ritrovo",
+      "description": "Locale a tema della radio V-Rock in Downtown Vice City, vicino alla Sahara Arena, allo Shoreline Market e alla ruota panoramica; ricalca l'Hard Rock Cafe di 401 Biscayne Boulevard, chiuso il 19 agosto 2026.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/V-Rock_Caf%C3%A9",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-apollo-aggregates",
+      "name": "Apollo Aggregates",
+      "category": "Azienda",
+      "description": "Cementificio con due ciminiere altissime a Balsero, tra il Vice River e un lago, tagliato in due da Westbrook Drive; si vede dal leak del 2022 e nella cartolina di Vice City sul sito ufficiale.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Apollo_Aggregates_Plant",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-schlott-construction",
+      "name": "Schlott Construction",
+      "category": "Azienda",
+      "description": "Impresa edile già vista negli sponsor di GTA Online; in GTA VI ha un magazzino a Port Gellhorn di fronte a Hank's Waffles (leak 2022, Extended Look al minuto 11:40).",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Schlott_Construction",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "brd-capri-police-department",
+      "name": "Capri Police Department",
+      "category": "Forze dell'ordine",
+      "description": "Polizia della città di Capri; scheda aperta sulla GTA Wiki di Fandom il 1° novembre 2026, ancora senza dettagli.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.fandom.com/wiki/Capri_Police_Department",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
     }
   ]
 }
