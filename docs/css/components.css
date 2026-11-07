@@ -994,9 +994,16 @@ body.has-map-full { overflow: hidden; }
 /* ==========================================================
    v0.11 — Pricedown, sfondi ufficiali, numeri giganti, cast board, album della fauna
    ========================================================== */
-.section-head--band h1, .home-hero__title, .bignum, .trophy-board__pct, .ring__label b, .tile b, .wheel__total, .wheel-panel__title, .chapter__title, .home-hero .countdown b { font-family: var(--font-gta); font-style: normal; font-weight: 400; letter-spacing: .01em; }
-.section-head--band h1 { font-size: clamp(2.2rem, 1.6rem + 3cqi, 3.2rem); line-height: .95; text-transform: lowercase; }
-.home-hero__title { text-transform: lowercase; }
+.section-head--band h1, .bignum, .trophy-board__pct, .ring__label b, .tile b, .wheel__total, .home-hero .countdown b { font-family: var(--font-gta); font-style: normal; font-weight: 400; letter-spacing: .01em; }
+/* Le frasi restano in Fraunces: Pricedown solo per numeri e titoloni di sezione */
+.home-hero__title, .wheel-panel__title, .chapter__title, .castboard__name, .cardx--person .cardx__title, .tboard__head, .dcard__name, .frontpage__title, .shelf__label, .showcase .shelf__label, .where__text b, .storyboard__text h2, .hero--locked h1, .tl-month span { font-family: var(--font-display) !important; text-transform: none !important; font-weight: 500; font-style: italic; }
+.chapter__title { font-style: normal; }
+.cardx--person .cardx__title, .dcard__name { font-style: normal; font-size: 1.15rem !important; }
+.castboard__name { font-size: clamp(1.5rem, 1rem + 3cqi, 2.4rem) !important; line-height: 1 !important; }
+.frontpage__title { font-size: clamp(1.5rem, 1rem + 3cqi, 2.4rem) !important; line-height: 1.1 !important; }
+.wheel-panel__title .bignum { font-family: var(--font-gta); font-style: normal; }
+.section-head--band h1 { font-size: clamp(2.2rem, 1.6rem + 3cqi, 3.2rem); line-height: .95; text-transform: uppercase; letter-spacing: .03em; }
+
 .home-hero .countdown b { font-style: normal; }
 .gta-word { font-family: var(--font-gta); text-transform: lowercase; background: linear-gradient(180deg, #ffd166, #ff8a3d 35%, #ff3d8b 70%, #a15cff); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
@@ -1394,3 +1401,17 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .tl-item__src--trailer { color: var(--teal); border-color: var(--teal); } .tl-item__src--rumor, .tl-item__src--leak { color: var(--orange); border-color: var(--orange); border-style: dashed; }
 .tl-count { font-size: var(--fs-xs); color: var(--ink-3); }
 @media (min-width: 600px) and (min-height: 520px) { .tl-rest { grid-template-columns: 1fr 1fr; column-gap: var(--s-4); } }
+
+/* ---------- Dove sei: avanzamento fatta · in corso · prossima ---------- */
+.where { grid-template-columns: 1fr !important; }
+.steps3 { display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 8px; align-items: stretch; margin-top: var(--s-2); }
+.step3 { position: relative; display: grid; gap: 4px; align-content: center; padding: 10px 12px; border-radius: 12px; background: var(--paper); border: var(--hair) solid var(--rule); min-height: 72px; text-align: center; }
+.step3 small { font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.step3 b { font-family: var(--font-display); font-weight: 500; font-size: 1rem; line-height: 1.15; }
+.step3--done { border-color: color-mix(in srgb, var(--teal) 55%, transparent); } .step3--done small { color: var(--teal); }
+.step3--cur { border-color: var(--magenta); box-shadow: 0 0 14px rgba(255,61,139,.45); background: linear-gradient(180deg, color-mix(in srgb, var(--magenta) 18%, var(--paper)), var(--paper)); }
+.step3--cur small { color: var(--magenta); } .step3--cur b { font-size: 1.2rem; }
+.step3--next { opacity: .75; border-style: dashed; }
+.step3__arrow { position: absolute; right: -10px; top: 50%; width: 14px; height: 14px; margin-top: -7px; color: var(--ink-3); z-index: 1; }
+.where .actions { margin: var(--s-3) 0 0; }
+@container (max-width: 460px) { .steps3 { grid-template-columns: 1fr; } .step3__arrow { display: none; } }

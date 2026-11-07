@@ -113,16 +113,22 @@ export function render() {
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }
 
-/** Dove sei nella storia: lo dici tu, e la guida sblocca il resto */
+/** Dove sei nella storia: fatta · in corso · prossima, con un pulsante per avanzare */
 function whereCard(st) {
-  const missions = vis(db.missions); const act = currentAct(missions);
-  const cur = missions.find((m) => st.missions[m.id]?.state === 'in-corso');
+  const missions = vis(db.missions);
+  const curIdx = missions.findIndex((m) => st.missions[m.id]?.state === 'in-corso');
+  const lastDoneIdx = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
+  const cur = curIdx >= 0 ? missions[curIdx] : null;
+  const prev = cur ? missions.slice(0, curIdx).reverse().find((m) => st.missions[m.id]?.state === 'completata') : (lastDoneIdx >= 0 ? missions[lastDoneIdx] : null);
+  const next = cur ? missions[curIdx + 1] : missions[lastDoneIdx + 1];
   const shield = progress.settings().spoilerShield;
-  const label = (m) => { const a = db.acts.find((x) => x.id === m.actId); const i = missions.filter((x) => x.actId === m.actId).indexOf(m) + 1; const base = `${a ? (a.number === 0 ? 'Prologo' : 'Cap. ' + a.number) : ''} · ${String(i).padStart(2, '0')}`; return (st.missions[m.id]?.state || !shield) ? `${base} · ${m.title}` : `${base} · (bloccata)`; };
+  const lab = (m) => { const a = db.acts.find((x) => x.id === m.actId); const i = missions.filter((x) => x.actId === m.actId).indexOf(m) + 1; return `${a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''} · ${String(i).padStart(2, '0')}`; };
+  const name = (m) => (st.missions[m.id]?.state || !shield) ? esc(m.title) : 'Missione bloccata';
+  const step = (m, kind, label) => `<div class="step3 step3--${kind}"><small>${label}</small>${m ? `<b>${name(m)}</b><span class="small muted">${esc(lab(m))}</span>` : '<b class="muted">—</b>'}${kind !== 'next' ? '<svg class="step3__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>' : ''}</div>`;
   return `<section class="where"><div class="where__text"><span class="kicker kicker--accent">Dove sei nella storia</span>
-      <b>${cur ? esc(cur.title) : `${act.number === 0 ? 'Prologo' : 'Capitolo ' + act.number}${st.missions && Object.keys(st.missions).length ? '' : ' · non hai ancora iniziato'}`}</b>
-      <p class="small muted">Scegli la missione che stai facendo: la guida accende personaggi, regioni e consigli fino a lì. Le missioni future restano bloccate.</p></div>
-    <select class="select" data-where aria-label="Missione in corso"><option value="">— scegli —</option>${missions.map((m) => `<option value="${esc(m.id)}" ${cur?.id === m.id ? 'selected' : ''}>${esc(label(m))}</option>`).join('')}</select></section>`;
+      <p class="small muted">La guida accende personaggi, regioni e consigli fino alla missione in corso. Il resto resta bloccato.</p></div>
+    <div class="steps3">${step(prev, 'done', 'Fatta')}${step(cur, 'cur', cur ? 'In corso' : 'Nessuna in corso')}${step(next, 'next', 'Prossima')}</div>
+    <div class="actions">${cur ? `<button class="btn btn--accent" type="button" data-where-done="${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-check"/></svg>Completata${next ? ', passo alla prossima' : ''}</button><a class="btn btn--ghost" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : next ? `<button class="btn btn--solid" type="button" data-where-start="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizio la prossima</button>` : '<span class="small muted">Storia completata.</span>'}</div></section>`;
 }
 
 /* ---------- Fogli davanti alla Home ---------- */
@@ -159,7 +165,10 @@ function articleSheet(n) {
 
 let timer = null;
 export function bind(root) {
-  root.addEventListener('change', (e) => { const w = e.target.closest('[data-where]'); if (w && w.value) { progress.setMissionState(w.value, 'in-corso'); location.hash = '#/'; document.dispatchEvent(new CustomEvent('leonida:rerender')); } });
+  root.addEventListener('click', (e) => {
+    const d = e.target.closest('[data-where-done]'); if (d) { const ms = vis(db.missions); const i = ms.findIndex((m) => m.id === d.dataset.whereDone); progress.setMissionState(d.dataset.whereDone, 'completata'); if (ms[i + 1]) progress.setMissionState(ms[i + 1].id, 'in-corso'); document.dispatchEvent(new CustomEvent('leonida:rerender')); return; }
+    const s = e.target.closest('[data-where-start]'); if (s) { progress.setMissionState(s.dataset.whereStart, 'in-corso'); document.dispatchEvent(new CustomEvent('leonida:rerender')); }
+  });
   root.addEventListener('click', (e) => {
     const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c) charSheet(c); return; }
     const z = e.target.closest('[data-home-zone]'); if (z) { const d = byId(z.dataset.homeZone); if (d) zoneSheet(d, z.classList.contains('is-found')); return; }
