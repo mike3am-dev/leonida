@@ -1578,3 +1578,6 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .mapboard[data-z="lo"] .mb-pin--lmk { background: #2ec4b6; border-color: #fff; }
 .mapboard[data-z="lo"] .mb-pin--poi > *, .mapboard[data-z="lo"] .mb-pin--lmk > * { display: none !important; }
 .mapboard[data-z="lo"] .mb-pin.is-target { width: 16px; height: 16px; }
+/* Contatori piccoli: lo «0» del Pricedown sembra un blocco pieno → corsivo leggibile */
+.tile b, .ring__label b, .ring--story .ring__label b, .tiercount b, .trophy-board__pct, .catcard__count b { font-family: var(--font-display) !important; font-style: italic; font-weight: 800; letter-spacing: -.01em; }
+.sticker__name { padding-right: 34px; }

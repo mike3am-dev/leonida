@@ -95,6 +95,9 @@ for (const d of data.districts.items) {
   }
 }
 
+// I POI vivono dentro le regioni: anche loro sono destinazioni valide per relatedIds
+for (const d of data.districts.items) for (const p of d.pois || []) if (p?.id) allIds.add(p.id);
+
 for (const n of data.news.items) {
   for (const r of n.relatedIds || []) if (!allIds.has(r)) warn('news', n.id, `relatedIds contiene "${r}", che non esiste`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(n.date || '')) err('news', n.id, 'date deve essere AAAA-MM-GG');
