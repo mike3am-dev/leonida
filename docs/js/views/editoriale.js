@@ -53,7 +53,7 @@ export function renderPersonaggi(params) {
   const rest = chars.filter((x) => !x.isProtagonist && !used.has(x.id));
   const left = `${sectionHead(secP, `${chars.length} schede`)}
     <div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
-    <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="bignum-over castboard__num" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
+    <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel castboard__panel--static" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="bignum-over castboard__num" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
     ${groupHtml}
     ${rest.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">👥</span><div><h2>Altri</h2></div></div><div class="cards">${rest.map(card).join('')}</div>` : ''}`;
   return { left, right: '', show: 'left', accent: secP.accent, title: 'Personaggi' };
@@ -101,10 +101,13 @@ export function renderMondo(params) {
   }
   const groups = {};
   for (const b of all) (groups[b.category || 'Altro'] ||= []).push(b);
-  const order = ['Edizione', 'Bonus di acquisto', 'App', 'Gang', "Forze dell'ordine", 'Azienda', 'Etichetta discografica', 'TV', 'Pubblicità', 'Arma', 'Abbonamento'];
+  const META = { 'Edizione': ['🎁', 'Cosa c’è nelle edizioni'], 'Bonus di acquisto': ['🎟️', 'Bonus di preordine e Ultimate'], 'App': ['📱', 'Le app del telefono di Jason e Lucia'], 'Gang': ['🔫', 'Chi comanda le strade'], "Forze dell'ordine": ['🚔', 'Polizia, sceriffi, guardie'], 'Azienda': ['🏢', 'Marchi e corporation'], 'Etichetta discografica': ['💿', 'La musica di Vice City'], 'TV': ['📺', 'Canali e show'], 'Pubblicità': ['🪧', 'Cartelloni e spot'], 'Arma': ['🎯', 'Marchi d’armi'], 'Abbonamento': ['💳', 'GTA+ e servizi'], 'Banche': ['🏦', 'Dove stanno i soldi'], 'Distributori': ['⛽', 'Benzina e minimarket'], 'Fast food': ['🍔', 'Dove si mangia'] };
+  const order = ['Edizione', 'Bonus di acquisto', 'App', 'Gang', "Forze dell'ordine", 'Azienda', 'Etichetta discografica', 'TV', 'Pubblicità', 'Arma', 'Abbonamento', 'Banche', 'Distributori', 'Fast food'];
   const keys = [...new Set([...order.filter((k) => groups[k]), ...Object.keys(groups)])];
+  const brandCard = (b) => `<a class="brandcard" href="#/mondo/${esc(b.id)}"><span class="brandcard__img">${b.image ? `<img src="${esc(b.image)}" alt="" loading="lazy">` : monogram(b)}</span><span class="brandcard__body"><span class="brandcard__name">${esc(b.name)}</span><span class="brandcard__meta">${esc((b.description || '').slice(0, 70))}…</span></span></a>`;
   const left = `${sectionHead(secM, `${all.length} voci`)}
-    <p class="lede">Marchi, app, gang, polizia, TV: tutto ciò che fa Leonida un posto vero.</p>
-    ${keys.map((k, i) => `<div class="block">${acc(`${k} (${groups[k].length})`, groups[k].map((b) => row({ href: `#/mondo/${b.id}`, thumb: b.image, icon: 'i-globe', title: esc(b.name), meta: `${esc(b.description.slice(0, 90))}…${srcNote(b)}` })).join(''), i < 3)}</div>`).join('')}`;
+    <p class="lede">Marchi, app, gang, polizia, TV: tutto ciò che fa di Leonida un posto vero.</p>
+    <div class="filters">${keys.map((k) => `<a class="filter" href="#mondo-${esc(k.replace(/[^a-z]/gi, '').toLowerCase())}">${esc(META[k]?.[0] || '•')} ${esc(k)}</a>`).join('')}</div>
+    ${keys.map((k) => `<div class="group-head" id="mondo-${esc(k.replace(/[^a-z]/gi, '').toLowerCase())}"><span class="group-head__emoji" aria-hidden="true">${META[k]?.[0] || '•'}</span><div><h2>${esc(k)}</h2><p>${esc(META[k]?.[1] || '')}</p></div><span class="count">${groups[k].length}</span></div><div class="brandgrid">${groups[k].map(brandCard).join('')}</div>`).join('')}`;
   return { left, right: '', show: 'left', accent: secM.accent, title: 'Mondo' };
 }

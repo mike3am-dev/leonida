@@ -17,11 +17,9 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
   const clamp = () => {
     const vw = viewport.clientWidth, vh = viewport.clientHeight;
     const w = cw * s, h = ch * s;
-    const mx = vw * margin, my = vh * margin;
-    // il contenuto può uscire dal riquadro, ma non sparire del tutto
-    x = Math.min(vw - mx, Math.max(mx - w, x));
-    y = Math.min(vh - my, Math.max(my - h, y));
-    if (w <= vw) x = (vw - w) / 2;
+    // il contenuto copre sempre il riquadro: se è più piccolo sta al centro
+    x = w <= vw ? (vw - w) / 2 : Math.min(0, Math.max(vw - w, x));
+    y = h <= vh ? (vh - h) / 2 : Math.min(0, Math.max(vh - h, y));
   };
   const state = () => ({ x, y, s });
   const zoomAt = (px, py, ns) => {
@@ -33,7 +31,7 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
   const fit = ({ animate = false } = {}) => {
     cw = content.offsetWidth; ch = content.offsetHeight;
     const vw = viewport.clientWidth, vh = viewport.clientHeight;
-    s = Math.min(vw / cw, vh / ch); if (vw / cw > vh / ch) s = vw / cw; // riempi in larghezza
+    s = Math.max(vw / cw, vh / ch); // copri il riquadro
     s = Math.max(minScale, Math.min(maxScale, s));
     x = (vw - cw * s) / 2; y = Math.min(0, (vh - ch * s) / 2); clamp();
     if (animate) animateTo(x, y, s); else apply();

@@ -38,9 +38,9 @@ export function wheel(counts, active, favs) {
     <defs><radialGradient id="wheel-bg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="rgba(255,255,255,.06)"/><stop offset="1" stop-color="rgba(0,0,0,.35)"/></radialGradient></defs>
     <circle cx="${cx}" cy="${cy}" r="${R + 4}" class="wheel__ring"/>
     ${slices}
-    <circle cx="${cx}" cy="${cy}" r="${r - 4}" class="wheel__hub"/>
+    <a class="wheel__all" href="#/armi" aria-label="Tutte le armi"><circle cx="${cx}" cy="${cy}" r="${r - 4}" class="wheel__hub"/>
     <text x="${cx}" y="${cy + 3}" text-anchor="middle" class="wheel__total">${total}</text>
-    <text x="${cx}" y="${cy + 16}" text-anchor="middle" class="wheel__sub">armi</text>
+    <text x="${cx}" y="${cy + 16}" text-anchor="middle" class="wheel__sub">${active ? 'tutte' : 'armi'}</text></a>
   </svg>`;
 }
 
@@ -77,7 +77,7 @@ export function render(params, query) {
   const left = `${sectionHead(section, `${all.length} voci`)}
     <p class="lede">Scegli uno spicchio, come nel gioco. Le armi che segni tra i preferiti riempiono lo spicchio.</p>
     <div class="wheel-wrap">
-      ${wheel(counts, cat, fc)}
+      <div class="wheel-stage">${wheel(counts, cat, fc)}<p class="small muted wheel-hint">${cat ? 'Tocca il centro per tornare a tutte' : 'Tocca uno spicchio'}</p></div>
       <div class="wheel-panel">
         <span class="kicker kicker--accent">${cat ? `Categoria ${idx + 1} / ${SLICES.length}` : 'Tutte le categorie'}</span>
         <h2 class="wheel-panel__title">${esc(label)} <span class="bignum">${weapons.length}</span></h2>

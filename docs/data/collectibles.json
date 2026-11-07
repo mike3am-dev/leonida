@@ -92,9 +92,9 @@
     },
     {
       "id": "cat-rifugi",
-      "name": "Rifugi, garage e veicoli",
-      "icon": "car",
-      "description": "I rifugi arrivano con la storia (come gli accampamenti di RDR2); i garage si comprano; si parte con tre posti auto. Entrambi i protagonisti costruiscono la loro collezione.",
+      "name": "Rifugi e garage",
+      "icon": "home",
+      "description": "I rifugi arrivano con la storia (come gli accampamenti di RDR2); i garage si comprano; si parte con tre posti auto. Entrambi i protagonisti costruiscono la loro collezione. I veicoli stanno nel Garage: qui solo i posti dove dormire e dove parcheggiare.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,

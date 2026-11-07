@@ -9,7 +9,7 @@ const section = sectionOf('missioni');
 function index(activeId, filterAct) {
   const st = progress.get();
   const missions = vis(db.missions).filter((m) => !filterAct || m.actId === filterAct);
-  const acts = db.acts.filter((a) => missions.some((m) => m.actId === a.id));
+  const acts = db.acts;
   const done = missions.filter((m) => st.missions[m.id]?.state === 'completata').length;
   if (!missions.length) {
     return `${sectionHead(section)}<div class="placeholder"><strong>Nessuna missione ancora</strong>Dopo il 19 novembre: gioca, prendi appunti, passa il Pacchetto a Claude e questo indice si riempie da solo.</div>`;
@@ -25,11 +25,12 @@ function index(activeId, filterAct) {
       const d = list.filter((m) => st.missions[m.id]?.state === 'completata').length;
       const p = list.length ? Math.round(d / list.length * 100) : 0;
       const open = a === activeAct;
-      return `<div class="acc chapter ${open ? 'is-open' : ''} ${d === list.length ? 'chapter--done' : ''}">
+      const off = !list.length;
+      return `<div class="acc chapter ${open ? 'is-open' : ''} ${!off && d === list.length ? 'chapter--done' : ''} ${off ? 'chapter--off' : ''} ${a === activeAct ? 'chapter--current' : ''}">
         <button class="acc__btn chapter__btn" type="button" aria-expanded="${open}">
-          <span class="chapter__num" aria-hidden="true">${String(acts.indexOf(a) + 1).padStart(2, '0')}</span><span class="chapter__text"><span class="chapter__title">${esc(a.title)}</span><span class="chapter__meta">${d} / ${list.length}${d === list.length ? ' · completato' : ''}</span><span class="progress"><i style="--p:${p}%"></i></span></span>
-          <span class="chapter__pct">${p}%</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-        <div class="acc__body">${list.map((m, i) => {
+          <span class="chapter__num" aria-hidden="true">${String(a.number).padStart(2, '0')}</span><span class="chapter__text"><span class="chapter__title">${esc(a.title)}</span><span class="chapter__meta">${off ? 'in arrivo · nome e missioni quando ci arrivi' : `${d} / ${list.length}${d === list.length ? ' · completato' : ''}`}</span>${off ? '' : `<span class="progress"><i style="--p:${p}%"></i></span>`}</span>
+          <span class="chapter__pct">${off ? '' : p + '%'}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <div class="acc__body">${off ? `<p class="small muted" style="padding:var(--s-2) 0 var(--s-3)">${esc(db.actsNote || 'Capitolo segnaposto.')}</p>` : ''}${list.map((m, i) => {
           const s = st.missions[m.id]?.state;
           const end = s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : '';
           return row({ href: `#/missioni/${m.id}`, num: pad2(i + 1), active: m.id === activeId, done: s === 'completata', end,

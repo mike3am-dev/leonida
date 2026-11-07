@@ -1,55 +1,63 @@
-/** Home: la plancia di comando, con il carattere di Leonida */
-import { db, byId } from '../data.js';
+/** Home: la plancia del tuo avanzamento. Da qui non si cambia mai tab: tutto si apre in un foglio davanti. */
+import { db, byId, actNum } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, fmtDate, relTime } from '../ui/dom.js';
+import { esc, fmtDate, relTime, statusChip } from '../ui/dom.js';
+import { showSheet } from '../ui/sheet.js';
 import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel } from './shared.js';
 import { newsImgTag } from './novita.js';
 import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('home');
-const HERO_IMGS = ['assets/img/sfondi/keyart.jpg', 'assets/img/sfondi/oceanview-notte.jpg', 'assets/img/sfondi/stripclub.jpg', 'assets/img/ss-jason-lucia-14.jpg', 'assets/img/ss-vice-city-27.jpg', 'assets/img/cover-art.jpg', 'assets/img/ss-leonida-keys-07.jpg', 'assets/img/ss-lucia-caminos-11.jpg', 'assets/img/ss-jason-duval-11.jpg', 'assets/img/ss-grassrivers-07.jpg'];
+const HERO = 'assets/img/sfondi/keyart.jpg';
 const dayIndex = () => Math.floor(Date.now() / 86400000);
 
 function countdown() {
-  const rel = new Date(db.meta.releaseDate + 'T00:00:00');
-  const ms = rel - Date.now();
+  const ms = new Date(db.meta.releaseDate + 'T00:00:00') - Date.now();
   if (ms <= 0) return { after: true, days: Math.floor(-ms / 86400000) + 1 };
-  return { after: false, days: Math.floor(ms / 86400000), hours: Math.floor((ms % 86400000) / 3600000) };
+  return { after: false, d: Math.floor(ms / 86400000), h: Math.floor((ms % 86400000) / 3600000), m: Math.floor((ms % 3600000) / 60000), s: Math.floor((ms % 60000) / 1000) };
 }
+const two = (n) => String(n).padStart(2, '0');
+function countdownHtml() {
+  const c = countdown();
+  if (c.after) return `<span class="home-hero__eyebrow">Giorno ${c.days} a Leonida</span>`;
+  return `<span class="home-hero__eyebrow">Mancano</span><div class="countdown" data-countdown><b>${c.d}</b><span>giorni</span><b>${two(c.h)}</b><span>ore</span><b>${two(c.m)}</b><span>min</span><b class="countdown__sec">${two(c.s)}</b><span>sec</span></div>`;
+}
+
+/** Ordine di incontro nella storia: la missione in cui compare il personaggio, poi il resto */
+function storyOrder(items, firstMission) {
+  const order = new Map(vis(db.missions).map((m, i) => [m.id, i]));
+  return [...items].sort((a, b) => (order.get(firstMission(a)) ?? 999) - (order.get(firstMission(b)) ?? 999));
+}
+function firstMissionOfDistrict(d) { return vis(db.missions).find((m) => m.districtId === d.id)?.id; }
 
 export function render() {
   const s = stats();
   const cur = currentMission();
   const next = nextMission();
   const st = progress.get();
-  const lastSession = st.sessions[0];
   const districts = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
-  const zones = districts.map((d) => ({ d, s: districtStats(d.id) })).sort((a, b) => (b.s.total - b.s.done) - (a.s.total - a.s.done));
-  const met = vis(db.characters).filter((c) => c.firstMissionId && st.missions[c.firstMissionId]?.state);
-  const cast = (met.length ? met : vis(db.characters).filter((c) => c.image)).slice(0, 12);
-  const lastDistrict = st.current.districtId ? byId(st.current.districtId) : null;
+  const zones = storyOrder(districts, firstMissionOfDistrict).map((d) => ({ d, s: districtStats(d.id), found: st.current.districtId === d.id || vis(db.missions).some((m) => m.districtId === d.id && st.missions[m.id]?.state) }));
+  const chars = storyOrder(vis(db.characters).filter((c) => c.image), (c) => c.firstMissionId);
+  const met = (c) => !!(c.firstMissionId && st.missions[c.firstMissionId]?.state);
+  const lockLabel = (c) => { const m = c.firstMissionId ? byId(c.firstMissionId) : null; const a = m ? db.acts.find((x) => x.id === m.actId) : null; return a ? (a.number === 0 ? 'Prologo' : `Cap. ${a.number}`) : '?'; };
   const latestNews = vis(db.news).slice(0, 3);
   const trophies = Object.keys(st.trophies || {}).length, trophyTotal = (db.trophies || []).length;
   const tpct = trophyTotal ? Math.round(trophies / trophyTotal * 100) : 0;
-  const cd = countdown();
   const di = dayIndex();
-  const heroImg = cur?.image || HERO_IMGS[di % HERO_IMGS.length];
   const tips = vis(db.tips); const tip = tips.length ? tips[di % tips.length] : null;
   const radios = vis(db.radio); const radio = radios.length ? radios[di % radios.length] : null;
   const circ = 2 * Math.PI * 54;
-  const luoghi = db.luoghi || [];
+  const metCount = chars.filter(met).length, foundCount = zones.filter((z) => z.found).length;
 
   const left = `
     <section class="home-hero">
-      <img src="${esc(heroImg)}" alt="">
+      <img src="${HERO}" alt="">
       <div class="home-hero__veil"></div>
       <img class="home-hero__logo" src="assets/img/sfondi/logo-vi.png" alt="Grand Theft Auto VI">
       <div class="home-hero__text">
         <span class="kicker">Leonida · Guida di gioco</span>
-        ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>`
-          : cd.after ? `<span class="home-hero__eyebrow">Giorno ${cd.days} a Leonida</span><h1 class="home-hero__title">${next ? esc(next.title) : 'Benvenuto a Leonida'}</h1>${next ? `<a class="btn btn--accent" href="#/missioni/${esc(next.id)}">Comincia da qui</a>` : ''}`
-          : `<span class="home-hero__eyebrow">Mancano</span><div class="countdown"><b>${cd.days}</b><span>giorni</span><b>${cd.hours}</b><span>ore</span></div><span class="home-hero__sub">al 19 novembre · PS5 · Ultimate Edition</span>`}
+        ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : countdownHtml()}
       </div>
     </section>
 
@@ -72,34 +80,82 @@ export function render() {
         </div>
       </div>
       <dl class="facts facts--row">
-        <dt>Zona</dt><dd>${lastDistrict ? `<a href="#/mappa?zona=${esc(lastDistrict.id)}">${esc(lastDistrict.name)}</a>` : '—'}</dd>
-        <dt>Prossima</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
+        <dt>Zona attuale</dt><dd>${st.current.districtId && byId(st.current.districtId) ? esc(byId(st.current.districtId).name) : '—'}</dd>
+        <dt>Prossima missione</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
         <dt>Appunti</dt><dd>${st.notes.length ? `<a href="#/diario">${st.notes.length}${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare` : ''}</a>` : '<a href="#/diario">scrivi il primo</a>'}</dd>
       </dl>
     </section>
 
     <section class="block">
-      <div class="block__head"><span class="kicker">${met.length ? 'Personaggi incontrati' : 'Il cast'}</span><a class="small" href="#/personaggi">Tutti</a></div>
-      <div class="stories">${cast.map((c) => `<a class="story ${met.includes(c) ? 'is-met' : ''}" href="#/personaggi/${esc(c.id)}"><span class="story__ring"><img src="${esc(c.image)}" alt="" loading="lazy"></span><span class="story__name">${esc(c.name.split(' ')[0])}</span></a>`).join('')}</div>
-      ${met.length ? '' : '<p class="small muted" style="margin-top:var(--s-2)">Quando completi la missione in cui li incontri, qui restano solo quelli conosciuti davvero.</p>'}
+      <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span><span class="small muted">in ordine di storia</span></div>
+      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring"><img src="${esc(c.image)}" alt="" loading="lazy"></span><span class="story__name">${esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
     </section>
 
     <section class="block">
-      <div class="block__head"><span class="kicker">Territori</span><a class="small" href="#/mappa">Mappa</a></div>
-      <div class="zonestrip">${zones.map(({ d, s: z }) => `<a class="zcard" href="#/mappa?zona=${esc(d.id)}">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}<span class="zcard__veil"></span><span class="zcard__text"><b>${esc(d.name.replace(' National Park', ''))}</b><small>${z.total ? `${z.done} / ${z.total}` : `${luoghi.filter((l) => l.districtId === d.id).length || (d.pois || []).length} luoghi`}</small><i class="progress"><i style="--p:${z.pct}%"></i></i></span></a>`).join('')}</div>
+      <div class="block__head"><span class="kicker">Territori scoperti · ${foundCount} / ${zones.length}</span><span class="small muted">si accendono quando ci arrivi</span></div>
+      <div class="zonestrip">${zones.map(({ d, s: z, found }) => `<button type="button" class="zcard ${found ? 'is-found' : 'is-locked'}" data-home-zone="${esc(d.id)}">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}<span class="zcard__veil"></span><span class="zcard__text"><b>${esc(d.name.replace(' National Park', ''))}</b><small>${found ? (z.total ? `${z.done} / ${z.total} fatti` : 'scoperto') : 'da scoprire'}</small>${found ? `<i class="progress"><i style="--p:${z.pct}%"></i></i>` : ''}</span></button>`).join('')}</div>
     </section>
 
     <div class="duo">
-      ${tip ? `<a class="card card--tip" href="#/news/${esc(tip.id)}"><span class="kicker kicker--accent">Lo sapevi?</span><h3>${esc(tip.title)}</h3><p class="small">${spoiler.isHidden(tip) ? '⚠ Contiene spoiler' : esc(tip.body.slice(0, 140))}…</p></a>` : ''}
+      ${tip ? `<button type="button" class="card card--tip" data-home-tip="${esc(tip.id)}"><span class="kicker kicker--accent">Lo sapevi?</span><h3>${esc(tip.title)}</h3><p class="small">${spoiler.isHidden(tip) ? '⚠ Contiene spoiler' : esc(tip.body.slice(0, 140))}…</p></button>` : ''}
       ${radio ? `<a class="card card--radio" href="#/cultura/${esc(radio.id)}"><span class="vinyl vinyl--mini"><span class="vinyl__disc"></span>${radio.image ? `<img class="vinyl__label" src="${esc(radio.image)}" alt="">` : ''}</span><span><span class="kicker kicker--accent">In onda oggi</span><h3>${esc(radio.name)}</h3><p class="small muted">${esc(radio.genre || '')}${radio.host ? ' · ' + esc(radio.host) : ''}</p></span></a>` : ''}
     </div>
 
     <section class="block">
       <div class="block__head"><span class="kicker">Ultime news</span><a class="small" href="#/news">Tutte</a></div>
-      <div class="cards cards--feat">${latestNews.map((n, i) => `<a class="cardx ${i === 0 ? 'cardx--wide' : ''}" href="#/news/${esc(n.id)}"><div class="cardx__img">${newsImgTag(n)}</div><div class="cardx__body"><div class="cardx__kicker">${esc(fmtDate(n.date, { day: 'numeric', month: 'long' }))}${n.outlet ? ' · ' + esc(n.outlet) : ''}</div><div class="cardx__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</div></div></a>`).join('')}</div>
+      <div class="cards cards--feat">${latestNews.map((n, i) => `<button type="button" class="cardx ${i === 0 ? 'cardx--wide' : ''}" data-home-news="${esc(n.id)}"><div class="cardx__img">${newsImgTag(n)}</div><div class="cardx__body"><div class="cardx__kicker">${esc(fmtDate(n.date, { day: 'numeric', month: 'long' }))}${n.outlet ? ' · ' + esc(n.outlet) : ''}</div><div class="cardx__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</div></div></button>`).join('')}</div>
     </section>
 
     <div class="actions actions--home"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
 
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
+}
+
+/* ---------- Fogli davanti alla Home ---------- */
+function charSheet(c) {
+  const st = progress.get(); const ok = c.firstMissionId && st.missions[c.firstMissionId]?.state;
+  const m = c.firstMissionId ? byId(c.firstMissionId) : null;
+  const body = document.createElement('div');
+  body.innerHTML = `${c.image ? `<img class="pop__img ${ok ? '' : 'is-locked'}" src="${esc(c.image)}" alt="">` : ''}
+    <div class="chips" style="margin:var(--s-2) 0">${statusChip(c)}${c.role ? `<span class="chip">${esc(c.role)}</span>` : ''}</div>
+    <p class="small">${ok ? esc((c.tagline || c.bio || '').slice(0, 220)) : (m ? `Lo incontri in <b>${esc(m.title)}</b> (${esc(missionActLabel(m))}). Si accende quando la giochi.` : 'Non sappiamo ancora quando lo incontri.')}</p>
+    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/personaggi/${esc(c.id)}">Scheda completa</a>${m ? `<a class="btn btn--ghost" href="#/missioni/${esc(m.id)}">La missione</a>` : ''}</div>`;
+  body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
+  showSheet({ title: c.name, body });
+}
+function zoneSheet(d, found) {
+  const z = districtStats(d.id); const body = document.createElement('div');
+  body.innerHTML = `${d.image ? `<img class="pop__img ${found ? '' : 'is-locked'}" src="${esc(d.image)}" alt="">` : ''}
+    <p class="small" style="margin:var(--s-2) 0">${found ? esc(d.tagline || '') : 'Ancora da scoprire: si accende quando una missione ti porta qui, o quando lo apri dalla Mappa.'}</p>
+    ${found && z.total ? `<div class="progress"><i style="--p:${z.pct}%"></i></div><p class="small muted">${z.done} / ${z.total} fatti</p>` : ''}
+    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/mappa?zona=${esc(d.id)}">Vai sulla mappa</a><a class="btn btn--ghost" href="#/mappa/${esc(d.id)}">Scheda completa</a></div>`;
+  body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
+  showSheet({ title: d.name, body });
+}
+function articleSheet(n) {
+  const body = document.createElement('div');
+  body.innerHTML = `<div class="pop__imgwrap">${newsImgTag(n)}</div>
+    <div class="chips" style="margin:var(--s-2) 0">${statusChip(n)}${n.outlet ? `<span class="chip">${esc(n.outlet)}</span>` : ''}${n.date ? `<span class="chip">${esc(fmtDate(n.date, { day: 'numeric', month: 'long' }))}</span>` : ''}</div>
+    <div class="prose small">${spoiler.wrap(n, `<p>${esc(n.body || '')}</p>`)}</div>
+    <div class="actions" style="margin-bottom:0">${n.sourceUrl ? `<a class="btn btn--solid" href="${esc(n.sourceUrl)}" target="_blank" rel="noopener">Leggi la fonte</a>` : ''}<a class="btn btn--ghost" href="#/news/${esc(n.id)}">Apri in News</a></div>`;
+  body.addEventListener('click', (e) => { if (e.target.closest('a[href^="#"]')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
+  showSheet({ title: n.title, body });
+}
+
+let timer = null;
+export function bind(root) {
+  root.addEventListener('click', (e) => {
+    const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c) charSheet(c); return; }
+    const z = e.target.closest('[data-home-zone]'); if (z) { const d = byId(z.dataset.homeZone); if (d) zoneSheet(d, z.classList.contains('is-found')); return; }
+    const t = e.target.closest('[data-home-tip]'); if (t) { const tip = byId(t.dataset.homeTip); if (tip) articleSheet(tip); return; }
+    const n = e.target.closest('[data-home-news]'); if (n) { const it = byId(n.dataset.homeNews); if (it) articleSheet(it); }
+  });
+  // Conto alla rovescia vivo, secondo per secondo
+  clearInterval(timer);
+  timer = setInterval(() => {
+    const el = document.querySelector('[data-countdown]'); if (!el) return;
+    const c = countdown(); if (c.after) { el.outerHTML = countdownHtml(); return; }
+    const bs = el.querySelectorAll('b'); if (bs.length < 4) return;
+    bs[0].textContent = c.d; bs[1].textContent = two(c.h); bs[2].textContent = two(c.m); bs[3].textContent = two(c.s);
+  }, 1000);
 }

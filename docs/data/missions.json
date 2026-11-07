@@ -8,7 +8,8 @@
       "status": "segnaposto",
       "source": "gioco-mike",
       "spoilerLevel": 0,
-      "example": false
+      "example": false,
+      "placeholder": false
     },
     {
       "id": "act-1",
@@ -17,25 +18,58 @@
       "status": "segnaposto",
       "source": "gioco-mike",
       "spoilerLevel": 0,
-      "example": false
+      "example": false,
+      "placeholder": false
     },
     {
       "id": "act-2",
       "number": 2,
-      "title": "Atto II",
+      "title": "Capitolo 2",
       "status": "segnaposto",
       "source": "gioco-mike",
       "spoilerLevel": 0,
-      "example": false
+      "example": false,
+      "placeholder": true
     },
     {
       "id": "act-3",
       "number": 3,
-      "title": "Atto III",
+      "title": "Capitolo 3",
       "status": "segnaposto",
       "source": "gioco-mike",
       "spoilerLevel": 0,
-      "example": false
+      "example": false,
+      "placeholder": true
+    },
+    {
+      "id": "act-4",
+      "number": 4,
+      "title": "Capitolo 4",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false,
+      "placeholder": true
+    },
+    {
+      "id": "act-5",
+      "number": 5,
+      "title": "Capitolo 5",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false,
+      "placeholder": true
+    },
+    {
+      "id": "act-6",
+      "number": 6,
+      "title": "Capitolo 6",
+      "status": "segnaposto",
+      "source": "gioco-mike",
+      "spoilerLevel": 0,
+      "example": false,
+      "placeholder": true
     }
   ],
   "items": [
@@ -305,5 +339,6 @@
       "example": false,
       "updatedAt": "2026-11-05"
     }
-  ]
+  ],
+  "actsNote": "Rockstar ha confermato che la storia è divisa in capitoli (Game Informer, settembre 2026) ma non quanti: da 2 in poi sono segnaposto, nome e numero arrivano giocando."
 }

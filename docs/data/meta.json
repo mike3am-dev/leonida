@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.9.2",
-  "updatedAt": "2026-11-06",
+  "dataVersion": "0.10.0",
+  "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.10.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Schede che si aprono come un fascicolo sopra la pagina (la pagina sotto resta dov'era, swipe a destra per chiudere).",
+        "Home come dashboard di avanzamento: conto alla rovescia al secondo, cast e territori in scala di grigi che si accendono quando li incontri, in ordine di storia; tutto si apre in un foglio davanti, senza cambiare tab.",
+        "Missioni: tutti i capitoli, spenti quelli ancora da scoprire.",
+        "Mappa: si blocca finché non la tocchi (così la pagina scorre), Polaroid intorno alla mappa col filo rosso, etichette sui tasti, «Da fare» con tre barre, luoghi catalogati per territorio senza doppioni, via la modalità notte.",
+        "Collezionabili: figurine senza spunta, numero acceso; «Rifugi e garage» senza veicoli (stanno nel Garage).",
+        "Trofei: coppe toccabili, bacheca con i nomi.",
+        "Armi: ruota grande con sfondo, centro per tornare a tutte.",
+        "Mondo: griglia per categoria.",
+        "News di vice-central con il testo completo."
+      ]
+    },
     {
       "version": "0.9.2",
       "date": "2026-11-06",

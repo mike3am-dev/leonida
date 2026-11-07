@@ -26,7 +26,8 @@ function zoneBreakdown(d) {
   const mm = m.filter((x) => st.missions[x.id]?.state !== 'completata').length; if (m.length) parts.push(`${mm} mission${mm === 1 ? 'e' : 'i'}`);
   const cm = c.filter((x) => !st.collectibles[x.id]).length; if (c.length) parts.push(`${cm} collezionabil${cm === 1 ? 'e' : 'i'}`);
   const am = a.filter((x) => st.activities[x.id] !== 'completata').length; if (a.length) parts.push(`${am} attività`);
-  return { total: m.length + c.length + a.length, missing: mm + cm + am, text: parts.join(' · ') };
+  const pct = (done, tot) => tot ? Math.round(done / tot * 100) : 0;
+  return { total: m.length + c.length + a.length, missing: mm + cm + am, text: parts.join(' · '), bars: [['Missioni', m.length - mm, m.length], ['Collezionabili', c.length - cm, c.length], ['Attività', a.length - am, a.length]].filter((b) => b[2]).map(([l, d, t]) => ({ l, d, t, p: pct(d, t) })) };
 }
 
 function whatThere(p) {
@@ -103,17 +104,26 @@ function luogoDetail(l) {
     <p class="source-line">Scheda tradotta da <a href="${esc(l.url)}" target="_blank" rel="noopener">gtasixmap.com</a>${l.updated ? ` · aggiornata il ${esc(l.updated)}` : ''}. Fonti: ${(l.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</p>`;
 }
 
+function zoneStats(b) {
+  return `<div class="card zonestats"><div class="zonestats__head"><span class="kicker kicker--accent">${b.missing === 0 ? 'Territorio completato' : `Da fare qui: ${b.missing}`}</span><span class="small muted">${b.total - b.missing} / ${b.total} fatti</span></div>
+    <div class="zonestats__bars">${b.bars.map((x) => `<div class="zonestats__bar"><span>${esc(x.l)}</span><b>${x.d}<small>/${x.t}</small></b><i class="progress"><i style="--p:${x.p}%"></i></i></div>`).join('')}</div></div>`;
+}
+const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
+
 /* ---------- Schede dei territori ---------- */
 function zoneCard(d, expanded, num = 0) {
   const b = zoneBreakdown(d);
   const chars = vis(db.characters).filter((c) => c.districtId === d.id);
   const pois = d.pois || [];
-  const places = luoghi().filter((l) => l.districtId === d.id);
+  const mainSlug = Object.keys(TERRITORY_SLUGS).find((k) => TERRITORY_SLUGS[k] === d.id);
+  const main = mainSlug ? luoghi().find((l) => l.slug === mainSlug) : null;
+  const places = luoghi().filter((l) => l.districtId === d.id && l.slug !== mainSlug);
   const body = `<div class="zone__body">
       ${d.tagline ? `<p class="lede">${esc(d.tagline)}</p>` : ''}
       <div class="prose">${spoiler.wrap(d, `<p>${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
-      ${b.total ? `<div class="card" style="margin:var(--s-3) 0"><div class="stat"><div class="stat__value">${b.missing === 0 ? 'Zona completa' : `Mancano ${b.missing}`}</div><div class="stat__label">${esc(b.text)}</div></div><div class="progress" style="margin-top:var(--s-2)"><i style="--p:${Math.round((b.total - b.missing) / b.total * 100)}%"></i></div></div>` : ''}
-      ${places.length ? `<span class="kicker">Schede dei luoghi (${places.length})</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
+      ${b.total ? zoneStats(b) : ''}
+      ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida del territorio</span><b>${esc(main.name)}: ${esc((main.lead || '').slice(0, 90))}…</b><span class="small muted">${main.landmarks?.length || 0} punti da trovare · domande frequenti · dintorni</span></span></a>` : ''}
+      ${places.length ? `<span class="kicker">Luoghi e quartieri (${places.length})</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
       ${galleryHtml(d)}
       ${d.subAreas?.length ? `<span class="kicker">Quartieri e zone</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${d.subAreas.map((a) => `<span class="chip" title="${esc(typeof a === 'string' ? '' : a.note || '')}">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div>` : ''}
       ${chars.length ? `<span class="kicker">Chi ci vive</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div>` : ''}
@@ -142,10 +152,14 @@ function index(zona, q) {
     ${mapboard.boardHtml(ds)}
     <p class="atlas-note">Trascina e pizzica per muoverti. Tocca un numero o una foto-pin per aprire; le Polaroid in basso portano la mappa sul territorio. Con lo zoom alto le tessere di dettaglio arrivano da gtasixmap (serve la connessione).</p>
     <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
-    ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Schede dei luoghi</span><h2>Tutti i luoghi</h2></div><span class="count">${list.length}</span></header>
+    ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Catalogo</span><h2>Luoghi e quartieri</h2></div><span class="count">${list.length}</span></header>
+      <p class="small muted">I territori stanno sopra, nelle schede. Qui sotto i luoghi dentro ogni territorio: quartieri, isole, paesi, punti famosi. Ognuno con la sua guida.</p>
       <input class="input" type="search" placeholder="Cerca un luogo…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin-bottom:var(--s-3)">
-      <div class="placegrid">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div></div>` : ''}`;
+      ${needle ? `<div class="placegrid">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>`
+        : ds.map((d) => { const inZone = list.filter((l) => l.districtId === d.id && TERRITORY_SLUGS[l.slug] !== d.id); return inZone.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${ZONE_EMOJI[d.id] || '📍'}</span><div><h2>${esc(d.name)}</h2><p>${esc(d.region || '')}</p></div><span class="count">${inZone.length}</span></div><div class="placegrid">${inZone.map(luogoCard).join('')}</div>` : ''; }).join('')}</div>` : ''}`;
 }
+
+const ZONE_EMOJI = { 'dis-vice-city': '🌆', 'dis-vice-beach': '🏖️', 'dis-keys': '🌴', 'dis-grassrivers': '🐊', 'dis-port-gellhorn': '⚓', 'dis-ambrosia': '🌾', 'dis-mount-kalaga': '⛰️', 'dis-waning-sands': '🏘️', 'dis-hamlet': '🚜', 'dis-capri': '🚤' };
 
 function detail(d) {
   const b = zoneBreakdown(d);
@@ -157,7 +171,7 @@ function detail(d) {
   return `
     ${backLink('/mappa?zona=' + d.id, 'Mappa')}
     ${hero(d, { kicker: d.region || 'Leonida', title: d.name, lede: d.tagline || '', chips: statusChip(d) })}
-    ${b.total ? `<div class="card"><div class="stat"><div class="stat__value">${b.missing === 0 ? 'Zona completa' : `Mancano ${b.missing}`}</div><div class="stat__label">${esc(b.text)}</div></div><div class="progress" style="margin-top:var(--s-2)"><i style="--p:${Math.round((b.total - b.missing) / b.total * 100)}%"></i></div></div>` : ''}
+    ${b.total ? zoneStats(b) : ''}
     <div class="block prose">${spoiler.wrap(d, `<p class="dropcap">${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
     ${places.length ? `<div class="block"><span class="kicker">Schede dei luoghi (${places.length})</span><div class="placegrid">${places.map(luogoCard).join('')}</div></div>` : ''}
     ${galleryHtml(d)}
@@ -193,7 +207,7 @@ export function render(params, query) {
   }
   const d = params.id ? byId(params.id) : null;
   const p = d && params.poi ? byId(params.poi) : null;
-  if (d) progress.setCurrentDistrict(d.id);
+  if (d) { progress.setCurrentDistrict(d.id); scrolledZona = null; }
   const right = p ? poiDetail(d, p) : d ? detail(d) : '';
   return { left: d ? '' : index(query.zona, query.q), right, show: d ? 'right' : 'left', accent: section.accent, title: p?.name || d?.name || 'Mappa' };
 }

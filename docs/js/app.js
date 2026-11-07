@@ -22,7 +22,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.12.1';
+window.__LEONIDA_VERSION__ = 'v0.13.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -89,6 +89,31 @@ function followBar() {
 }
 
 const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
+let lastMatch = null, dossierPath = null;
+const sectionOfPath = (p) => SECTIONS.find((s) => p === s.path || (s.path !== '/' && p.startsWith(s.path)));
+
+/* ---------- Fascicolo: la scheda scivola da destra sopra l'indice, che resta dov'è ---------- */
+function openDossier(html, { replace = false } = {}) {
+  let d = $('dossier');
+  if (!d) {
+    d = document.createElement('aside'); d.id = 'dossier'; d.className = 'dossier';
+    d.innerHTML = `<div class="dossier__backdrop"></div><div class="dossier__panel" role="dialog" aria-modal="true"><div class="dossier__inner page__inner"></div></div>`;
+    d.querySelector('.dossier__backdrop').addEventListener('click', () => history.back());
+    $('app').append(d);
+  }
+  const inner = d.querySelector('.dossier__inner');
+  const keep = replace ? d.querySelector('.dossier__panel').scrollTop : 0;
+  inner.innerHTML = html;
+  const panel = d.querySelector('.dossier__panel'); panel.scrollTop = keep;
+  if (!replace) { d.classList.remove('is-closing'); void d.offsetWidth; d.classList.add('is-open'); }
+  document.body.classList.add('has-dossier');
+}
+function closeDossier() {
+  const d = $('dossier'); if (!d) return;
+  d.classList.add('is-closing'); d.classList.remove('is-open'); document.body.classList.remove('has-dossier');
+  setTimeout(() => { if (!d.classList.contains('is-open')) d.remove(); }, 280);
+}
+
 function render(match, { dir, refresh } = {}) {
   if (!match) {
     const raw = location.hash.replace(/^#/, '');
@@ -99,31 +124,41 @@ function render(match, { dir, refresh } = {}) {
   const out = match.route.handler(match.params, match.query);
   const spread = $('main');
   const left = $('page-left'), right = $('page-right');
-  // Aggiornamento della stessa pagina (spunta, interruttore…): la pagina resta ferma dov'era
-  const keepScroll = refresh ? spread.scrollTop : null;
   document.documentElement.dataset.accent = out.accent || 'magenta';
   document.title = `${out.title ? out.title + ' — ' : ''}Leonida`;
-
-  // Una sola colonna: in dettaglio mostro solo la scheda; in indice mostro top + indice (+ contenuto extra, mai le "aperture" vuote)
-  const isOpener = (h) => !h || /class="opener"/.test(h);
+  const sec = sectionOfPath(match.path);
   const detail = out.show === 'right';
+  const prevSec = lastMatch ? sectionOfPath(lastMatch.path) : null;
+  const indexBeneath = !!left.innerHTML.trim() && prevSec && sec && prevSec.id === sec.id && sec.path !== '/';
+
+  // Scheda aperta come fascicolo sopra l'indice della stessa sezione
+  if (detail && (dossierPath || indexBeneath) && !refresh) {
+    openDossier(`<div class="page__inner">${out.right || ''}</div>`, { replace: !!dossierPath });
+    dossierPath = match.path; lastMatch = match; followBar(); return;
+  }
+  if (detail && refresh && dossierPath) { openDossier(`<div class="page__inner">${out.right || ''}</div>`, { replace: true }); followBar(); return; }
+
+  // Si torna all'indice da un fascicolo: lo chiudo e l'indice resta fermo dov'era (ridisegnato per i progressi)
+  const closing = !detail && dossierPath;
+  if (closing) { closeDossier(); dossierPath = null; }
+  const keepScroll = (refresh || closing) ? spread.scrollTop : null;
+
+  const isOpener = (h) => !h || /class="opener"/.test(h);
   $('page-top').innerHTML = !detail && out.top ? `<div class="page__inner">${out.top}</div>` : '';
   left.innerHTML = !detail ? `<div class="page__inner">${out.left || ''}</div>` : '';
   right.innerHTML = detail ? `<div class="page__inner">${out.right || ''}</div>` : (isOpener(out.right) ? '' : `<div class="page__inner">${out.right}</div>`);
   spread.dataset.show = out.show || 'left';
-  const sec = SECTIONS.find((s) => match.path === s.path || (s.path !== '/' && match.path.startsWith(s.path)));
   spread.scrollTop = keepScroll !== null ? keepScroll : 0;
 
-  // Animazione "voltare pagina" solo quando cambia pagina, non su ogni refresh
   const key = match.path;
-  if (key !== lastKey) {
+  if (key !== lastKey && !closing) {
     const target = $('sheet-page');
     target.classList.remove('turn-in', 'turn-back'); void target.offsetWidth;
     target.classList.add(dir === 'back' ? 'turn-back' : 'turn-in');
   }
-  lastKey = key;
+  lastKey = key; lastMatch = match;
 
-  if (match.path.startsWith('/mappa')) atlante.afterRender($('app'));
+  if (match.path.startsWith('/mappa') && !detail) atlante.afterRender($('app'));
   $('tabbar').innerHTML = navHtml(match.path, false);
   $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar();
@@ -141,6 +176,7 @@ function bindGlobal() {
   }, true);
   spoiler.bind(root);
   const rerender = () => currentRender?.();
+  sessione.bind(root);
   missioni.bind(root, rerender);
   atlante.bind(root, rerender);
   collezionabili.bind(root, rerender);
@@ -173,13 +209,14 @@ function bindGlobal() {
     if (sOk && dx > 80 && dy < 60 && dx > dy * 2 && Date.now() - st < 800) {
       const sheet = document.querySelector('.sheet-backdrop');
       if (sheet) { sheet.click(); }
-      else { const back = document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') history.back(); }
+      else { const back = document.querySelector('#dossier .back-link') || document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') history.back(); }
     }
     sx = null;
   }, { passive: true });
   // Cambio di postura (apri/chiudi il Duo): ridisegna conservando pagina e scroll
   let wasOpen = isOpen();
   addEventListener('resize', () => { const now = isOpen(); if (now !== wasOpen) { wasOpen = now; rerender(); } });
+  addEventListener('keydown', (e) => { if (e.key === 'Escape' && dossierPath) history.back(); });
   matchMedia('(prefers-color-scheme: light)').addEventListener('change', applyTheme);
   progress.subscribe(followBar);
   // Tocco di sessione
