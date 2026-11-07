@@ -66,7 +66,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Nelle news la testata sta nel campo `outlet`, non nel testo.
 - Collezionabili: si tocca la figurina/riga e si apre la scheda; il tasto «Segna come trovato» sta nella scheda (niente «i», niente spunte cliccabili fuori).
 - Le foto compaiono solo a caricamento completo (classe `is-loaded`, rete di sicurezza a 3 s).
-- Da sistemare nei dati: l'`insight` di Hamlet parla di Kelly County/Port Gellhorn (già così prima); `mis-leak-hanks` ha «(dal leak)» nel titolo.
+- Sistemato: tolto da Hamlet l'approfondimento che parlava di Kelly County; «Hank's Waffles» senza «(dal leak)» (l'etichetta Leak basta).
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

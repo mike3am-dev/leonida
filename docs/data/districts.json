@@ -2731,38 +2731,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "insight": "Kelly County è una delle contee rurali di Leonida, accanto a zone come Grassrivers e Ambrosia. Strade di campagna, aziende agricole e paesaggi naturali fanno da contrasto alla densità di Vice City: Leonida è uno stato intero e vario, non una sola città.\n\nPUNTI D'INTERESSE. Nella contea ci sono una stazione di servizio, una torre ferroviaria e una prigione: un territorio tipicamente rurale, ma non privo di infrastrutture.\n\nPORT GELLHORN, LA CITTÀ PRINCIPALE. Kelly County occupa il nord-ovest di Leonida e la sua città principale è Port Gellhorn, la località balneare in declino che Rockstar chiama «la costa dimenticata di Leonida». È una delle sei contee note, con Vice-Dale (Vice City), Leonard, Ambrosia e Mariana (Keys e Grassrivers).\n\nQUALE ISPIRAZIONE REALE? Due ipotesi: le contee di Collier e Lee, sulla costa sud-ovest della Florida (Naples, Fort Myers), oppure il nord-ovest dello stato, se si guarda al paragone tra Port Gellhorn e Panama City.",
-      "insightUrl": "https://vice-central.com/lieux/kelly-county/",
-      "keyFacts": [
-        {
-          "label": "Tipo",
-          "value": "Contea rurale di Leonida",
-          "reliability": "Confermato"
-        },
-        {
-          "label": "Posizione",
-          "value": "Nord-ovest dello Stato",
-          "reliability": "Riportato"
-        },
-        {
-          "label": "Città principale",
-          "value": "Port Gellhorn",
-          "reliability": "Riportato"
-        },
-        {
-          "label": "Punti d'interesse",
-          "value": "Stazione di servizio, torre ferroviaria, prigione",
-          "reliability": "Riportato"
-        },
-        {
-          "label": "Ispirazione",
-          "value": "Contee di Collier e Lee, oppure nord-ovest della Florida",
-          "reliability": "Rumor"
-        }
-      ],
       "toSee": "Stazione di servizio, torre ferroviaria, prigione",
-      "whoYouMeet": null,
-      "inspiration": "Nord-ovest della Florida (oppure contee di Collier e Lee)"
+      "whoYouMeet": null
     },
     {
       "id": "dis-capri",
