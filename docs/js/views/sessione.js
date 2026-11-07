@@ -57,7 +57,7 @@ export function render() {
       <img src="${HERO}" alt="">
       <div class="home-hero__veil"></div>
       <div class="home-hero__text">
-        <span class="kicker">Leonida · Guida di gioco</span>
+        <span class="kicker">GTA VI · Guida di gioco</span>
         ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : countdownHtml()}
       </div>
     </section>
@@ -65,7 +65,7 @@ export function render() {
     ${whereCard(st)}
 
     <section class="profile">
-      <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di Leonida</span></div>
+      <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di GTA VI</span></div>
       <div class="profile__grid">
         <div class="ring">
           <svg viewBox="0 0 120 120" aria-hidden="true">

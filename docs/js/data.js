@@ -71,7 +71,7 @@ export const TYPE_ROUTE = {
   mission: (it) => `/missioni/${it.id}`, district: (it) => `/atlante/${it.id}`,
   collectible: (it) => `/collezionabili?cat=${it.categoryId}&q=${encodeURIComponent(it.name)}`,
   activity: (it) => `/atlante/${it.districtId || ''}`, character: (it) => `/personaggi/${it.id}`,
-  radio: (it) => `/cultura/${it.id}`, brand: (it) => `/cultura/${it.id}`, tip: (it) => `/news?tipo=guide#${it.id}`,
+  radio: (it) => `/cultura/${it.id}`, brand: (it) => (['Colonna sonora', 'Musica'].includes(it.category) ? `/cultura/${it.id}` : `/mondo/${it.id}`), tip: (it) => `/news?tipo=guide#${it.id}`,
   act: (it) => `/missioni?atto=${it.id}`, category: (it) => `/collezionabili?cat=${it.id}`,
   mechanic: (it) => `/meccaniche/${it.id}`, vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
   luogo: (it) => `/mappa/luogo/${it.slug}`, guida: (it) => `/news/${it.id}`, teoria: (it) => `/news?tipo=teorie`,

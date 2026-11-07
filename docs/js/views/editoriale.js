@@ -72,6 +72,8 @@ const appleSearch = (q) => `https://music.apple.com/it/search?term=${encodeURICo
 export function renderCultura(params) {
   const radio = vis(db.radio), music = vis(db.brands).filter((b) => MUSIC_CATS.includes(b.category));
   const it = params.id ? byId(params.id) : null;
+  // Un marchio che non è musica si apre nel Mondo, non nella Radio
+  if (it && it._type === 'brand' && !MUSIC_CATS.includes(it.category)) return renderMondo(params);
   if (it) {
     const tracks = (it.highlights || []).map((h) => typeof h === 'string' ? { title: h } : h);
     const right = `
