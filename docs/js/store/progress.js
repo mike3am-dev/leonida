@@ -77,6 +77,10 @@ export function toggleFavorite(id) {
 }
 
 /* ---------- Trofei ---------- */
+export function isDiscovered(id) { return !!state.discovered?.[id]; }
+export function toggleDiscovered(id) {
+  update((s) => { s.discovered = s.discovered || {}; if (s.discovered[id]) delete s.discovered[id]; else s.discovered[id] = new Date().toISOString(); });
+}
 export function toggleTrophy(id) {
   update((s) => { s.trophies = s.trophies || {}; if (s.trophies[id]) delete s.trophies[id]; else s.trophies[id] = new Date().toISOString(); });
 }

@@ -3,7 +3,8 @@ import { db, byId, actNum } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, fmtDate, relTime, statusChip } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel } from './shared.js';
+import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isMet, isFound } from './shared.js';
+import { currentAct } from './missioni.js';
 import { newsImgTag } from './novita.js';
 import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
@@ -37,9 +38,9 @@ export function render() {
   const next = nextMission();
   const st = progress.get();
   const districts = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
-  const zones = storyOrder(districts, firstMissionOfDistrict).map((d) => ({ d, s: districtStats(d.id), found: st.current.districtId === d.id || vis(db.missions).some((m) => m.districtId === d.id && st.missions[m.id]?.state) }));
+  const zones = storyOrder(districts, firstMissionOfDistrict).map((d) => ({ d, s: districtStats(d.id), found: isFound(d) }));
   const chars = storyOrder(vis(db.characters).filter((c) => c.image), (c) => c.firstMissionId);
-  const met = (c) => !!(c.firstMissionId && st.missions[c.firstMissionId]?.state);
+  const met = isMet;
   const lockLabel = (c) => { const m = c.firstMissionId ? byId(c.firstMissionId) : null; const a = m ? db.acts.find((x) => x.id === m.actId) : null; return a ? (a.number === 0 ? 'Prologo' : `Cap. ${a.number}`) : '?'; };
   const latestNews = vis(db.news).slice(0, 3);
   const trophies = Object.keys(st.trophies || {}).length, trophyTotal = (db.trophies || []).length;
@@ -54,12 +55,13 @@ export function render() {
     <section class="home-hero">
       <img src="${HERO}" alt="">
       <div class="home-hero__veil"></div>
-      <img class="home-hero__logo" src="assets/img/sfondi/logo-vi.png" alt="Grand Theft Auto VI">
       <div class="home-hero__text">
         <span class="kicker">Leonida · Guida di gioco</span>
         ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : countdownHtml()}
       </div>
     </section>
+
+    ${whereCard(st)}
 
     <section class="profile">
       <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di Leonida</span></div>
@@ -87,12 +89,12 @@ export function render() {
     </section>
 
     <section class="block">
-      <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span><span class="small muted">in ordine di storia</span></div>
+      <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span></div>
       <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring"><img src="${esc(c.image)}" alt="" loading="lazy"></span><span class="story__name">${esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
     </section>
 
     <section class="block">
-      <div class="block__head"><span class="kicker">Territori scoperti · ${foundCount} / ${zones.length}</span><span class="small muted">si accendono quando ci arrivi</span></div>
+      <div class="block__head"><span class="kicker">Regioni scoperte · ${foundCount} / ${zones.length}</span></div>
       <div class="zonestrip">${zones.map(({ d, s: z, found }) => `<button type="button" class="zcard ${found ? 'is-found' : 'is-locked'}" data-home-zone="${esc(d.id)}">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}<span class="zcard__veil"></span><span class="zcard__text"><b>${esc(d.name.replace(' National Park', ''))}</b><small>${found ? (z.total ? `${z.done} / ${z.total} fatti` : 'scoperto') : 'da scoprire'}</small>${found ? `<i class="progress"><i style="--p:${z.pct}%"></i></i>` : ''}</span></button>`).join('')}</div>
     </section>
 
@@ -111,15 +113,28 @@ export function render() {
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }
 
+/** Dove sei nella storia: lo dici tu, e la guida sblocca il resto */
+function whereCard(st) {
+  const missions = vis(db.missions); const act = currentAct(missions);
+  const cur = missions.find((m) => st.missions[m.id]?.state === 'in-corso');
+  const shield = progress.settings().spoilerShield;
+  const label = (m) => { const a = db.acts.find((x) => x.id === m.actId); const i = missions.filter((x) => x.actId === m.actId).indexOf(m) + 1; const base = `${a ? (a.number === 0 ? 'Prologo' : 'Cap. ' + a.number) : ''} · ${String(i).padStart(2, '0')}`; return (st.missions[m.id]?.state || !shield) ? `${base} · ${m.title}` : `${base} · (bloccata)`; };
+  return `<section class="where"><div class="where__text"><span class="kicker kicker--accent">Dove sei nella storia</span>
+      <b>${cur ? esc(cur.title) : `${act.number === 0 ? 'Prologo' : 'Capitolo ' + act.number}${st.missions && Object.keys(st.missions).length ? '' : ' · non hai ancora iniziato'}`}</b>
+      <p class="small muted">Scegli la missione che stai facendo: la guida accende personaggi, regioni e consigli fino a lì. Le missioni future restano bloccate.</p></div>
+    <select class="select" data-where aria-label="Missione in corso"><option value="">— scegli —</option>${missions.map((m) => `<option value="${esc(m.id)}" ${cur?.id === m.id ? 'selected' : ''}>${esc(label(m))}</option>`).join('')}</select></section>`;
+}
+
 /* ---------- Fogli davanti alla Home ---------- */
+const discoverBtnLocal = (it, l, dl) => { const on = !!progress.get().discovered?.[it.id]; return `<button class="btn ${on ? 'btn--accent' : 'btn--ghost'}" type="button" data-discover="${esc(it.id)}"><svg aria-hidden="true"><use href="#i-${on ? 'check' : 'eye'}"/></svg>${esc(on ? dl : l)}</button>`; };
 function charSheet(c) {
   const st = progress.get(); const ok = c.firstMissionId && st.missions[c.firstMissionId]?.state;
   const m = c.firstMissionId ? byId(c.firstMissionId) : null;
   const body = document.createElement('div');
   body.innerHTML = `${c.image ? `<img class="pop__img ${ok ? '' : 'is-locked'}" src="${esc(c.image)}" alt="">` : ''}
     <div class="chips" style="margin:var(--s-2) 0">${statusChip(c)}${c.role ? `<span class="chip">${esc(c.role)}</span>` : ''}</div>
-    <p class="small">${ok ? esc((c.tagline || c.bio || '').slice(0, 220)) : (m ? `Lo incontri in <b>${esc(m.title)}</b> (${esc(missionActLabel(m))}). Si accende quando la giochi.` : 'Non sappiamo ancora quando lo incontri.')}</p>
-    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/personaggi/${esc(c.id)}">Scheda completa</a>${m ? `<a class="btn btn--ghost" href="#/missioni/${esc(m.id)}">La missione</a>` : ''}</div>`;
+    <p class="small">${ok ? esc((c.tagline || c.bio || '').slice(0, 220)) : (m ? `Lo incontri in una missione del ${esc(missionActLabel(m).replace(/:.*$/, ''))}. Si accende da solo quando la inizi, oppure segnalo tu.` : 'Non sappiamo ancora quando lo incontri: segnalo tu quando succede.')}</p>
+    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/personaggi/${esc(c.id)}">Scheda completa</a>${ok && c.firstMissionId && st.missions[c.firstMissionId]?.state ? '' : discoverBtnLocal(c, 'Incontrato', 'Incontrato ✓')}</div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: c.name, body });
 }
@@ -128,7 +143,7 @@ function zoneSheet(d, found) {
   body.innerHTML = `${d.image ? `<img class="pop__img ${found ? '' : 'is-locked'}" src="${esc(d.image)}" alt="">` : ''}
     <p class="small" style="margin:var(--s-2) 0">${found ? esc(d.tagline || '') : 'Ancora da scoprire: si accende quando una missione ti porta qui, o quando lo apri dalla Mappa.'}</p>
     ${found && z.total ? `<div class="progress"><i style="--p:${z.pct}%"></i></div><p class="small muted">${z.done} / ${z.total} fatti</p>` : ''}
-    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/mappa?zona=${esc(d.id)}">Vai sulla mappa</a><a class="btn btn--ghost" href="#/mappa/${esc(d.id)}">Scheda completa</a></div>`;
+    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/mappa?zona=${esc(d.id)}">Vai sulla mappa</a>${discoverBtnLocal(d, 'Scoperta', 'Scoperta ✓')}</div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: d.name, body });
 }
@@ -144,6 +159,7 @@ function articleSheet(n) {
 
 let timer = null;
 export function bind(root) {
+  root.addEventListener('change', (e) => { const w = e.target.closest('[data-where]'); if (w && w.value) { progress.setMissionState(w.value, 'in-corso'); location.hash = '#/'; document.dispatchEvent(new CustomEvent('leonida:rerender')); } });
   root.addEventListener('click', (e) => {
     const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c) charSheet(c); return; }
     const z = e.target.closest('[data-home-zone]'); if (z) { const d = byId(z.dataset.homeZone); if (d) zoneSheet(d, z.classList.contains('is-found')); return; }

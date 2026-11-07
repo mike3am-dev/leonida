@@ -3,13 +3,13 @@
   "categories": [
     {
       "id": "cat-fauna",
-      "name": "Fauna",
+      "name": "Animali",
       "icon": "star",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "description": "Oltre 170 specie (Game Informer): si studiano come in RDR2 e finiscono in una checklist, senza doverle uccidere. Tre livelli: Rare, Scopribili, Leggendarie (identità segrete). Le invasive, iguane, rospi, gatti selvatici, macachi, ci sono per davvero."
+      "description": "Oltre 170 specie (Game Informer): si studiano come in RDR2 e finiscono in una checklist, senza doverle uccidere. Tre livelli: Rare, Scopribili, Leggendarie (identità segrete). Le invasive, iguane, rospi, gatti selvatici, macachi, ci sono per davvero. Pesca compresa."
     },
     {
       "id": "cat-ex-a",
@@ -19,16 +19,6 @@
       "source": "gioco-mike",
       "spoilerLevel": 0,
       "example": true
-    },
-    {
-      "id": "cat-pesci",
-      "name": "Pesci e pesca",
-      "icon": "star",
-      "description": "La pesca è «dettagliata come in RDR2», con sfide e collezionabili legati (Rob Nelson). Solo cattura e rilascio: niente da vendere o mangiare. Unico luogo nominato finora: Gambit Bay. Le specie le scopri tu.",
-      "status": "verificato",
-      "source": "trailer",
-      "spoilerLevel": 0,
-      "example": false
     },
     {
       "id": "cat-relitti",
@@ -116,7 +106,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/alligator.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/alligator.jpg",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-iguana",
@@ -132,7 +123,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-cervo",
@@ -148,7 +140,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/deer.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/deer.jpg",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-puma",
@@ -164,7 +157,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/cougar.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/cougar.jpg",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-volpe",
@@ -180,7 +174,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-orso-nero",
@@ -195,7 +190,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-cinghiale",
@@ -210,7 +206,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-lince",
@@ -225,7 +222,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-armadillo",
@@ -240,7 +238,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-castoro",
@@ -255,7 +254,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-lontra",
@@ -270,7 +270,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-procione",
@@ -286,7 +287,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/raccoons.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/raccoons.jpg",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-opossum",
@@ -301,7 +303,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-moffetta",
@@ -316,7 +319,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-macaco",
@@ -331,7 +335,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-rospo",
@@ -346,7 +351,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-serpente",
@@ -361,7 +367,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-tartaruga",
@@ -376,7 +383,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-scoiattolo",
@@ -392,7 +400,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-ratto",
@@ -408,7 +417,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-rats.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-rats.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-mucca",
@@ -423,7 +433,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-cani",
@@ -439,7 +450,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-gatto",
@@ -455,7 +467,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-fenicottero",
@@ -471,7 +484,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/flamingos.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/flamingos.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-pellicano",
@@ -488,7 +502,8 @@
       "example": false,
       "updatedAt": "2026-11-06",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/pelicans.jpg",
-      "uncertain": true
+      "uncertain": true,
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-airone",
@@ -505,7 +520,8 @@
       "example": false,
       "updatedAt": "2026-11-06",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-herons.jpg",
-      "uncertain": true
+      "uncertain": true,
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-spatola",
@@ -520,7 +536,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-gru",
@@ -535,7 +552,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-picchio",
@@ -550,7 +568,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-anatra",
@@ -566,7 +585,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-canards-marbres.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-canards-marbres.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-gabbiano",
@@ -582,7 +602,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-piccione",
@@ -598,7 +619,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-chien-pigeon.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-chien-pigeon.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-delfino",
@@ -614,7 +636,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/dolphins.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/dolphins.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-lamantino",
@@ -630,7 +653,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-lamantin.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-lamantin.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-squalo-martello",
@@ -645,7 +669,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "marini"
     },
     {
       "id": "col-fauna-squalo",
@@ -661,7 +686,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-manta",
@@ -677,7 +703,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta-6-raie.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta-6-raie.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-tartaruga-marina",
@@ -693,7 +720,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-medusa",
@@ -708,7 +736,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "marini"
     },
     {
       "id": "col-fauna-anguilla",
@@ -724,7 +753,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/eel.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/eel.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-gambero",
@@ -739,7 +769,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-balena",
@@ -754,7 +785,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "marini"
     },
     {
       "id": "col-ex-001",
@@ -778,12 +810,13 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "id": "col-pesca-gambit-bay",
-      "categoryId": "cat-pesci",
+      "categoryId": "cat-fauna",
       "name": "Punto di pesca: Gambit Bay",
       "districtId": null,
       "directions": "L'unico luogo di pesca nominato da Rockstar finora. Cattura e rilascio, con sfide.",
       "reward": null,
-      "sourceUrl": "https://gta6-life.com/en/guides/gta-6-fishing/"
+      "sourceUrl": "https://gta6-life.com/en/guides/gta-6-fishing/",
+      "group": "pesci"
     },
     {
       "image": null,
@@ -798,7 +831,8 @@
       "districtId": "dis-keys",
       "directions": "Famitsu l'ha incontrato mentre pescava. Un avvistamento da confermare.",
       "reward": null,
-      "sourceUrl": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english"
+      "sourceUrl": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
+      "group": "uccelli"
     },
     {
       "image": null,
@@ -813,7 +847,8 @@
       "districtId": null,
       "directions": "Red Bull: «una gita in kayak potrebbe essere interrotta da un coccodrillo». Da distinguere dall'alligatore.",
       "reward": null,
-      "sourceUrl": "https://www.redbull.com/int-en/gta-6-wildlife"
+      "sourceUrl": "https://www.redbull.com/int-en/gta-6-wildlife",
+      "group": "paludi"
     },
     {
       "image": null,
@@ -979,7 +1014,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg",
+      "group": "paludi"
     },
     {
       "id": "col-fauna-staffordshire",
@@ -995,7 +1031,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-jason-caresse-chien.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-jason-caresse-chien.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-pastore-tedesco-k9",
@@ -1011,7 +1048,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-berger-australien.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-berger-australien.jpg",
+      "group": "domestici"
     },
     {
       "id": "col-fauna-anhinga",
@@ -1027,7 +1065,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-anhinga.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-anhinga.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-cormorano",
@@ -1043,7 +1082,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-cormorans.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-cormorans.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-corvo",
@@ -1059,7 +1099,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-oca",
@@ -1075,7 +1116,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-oies-sauvages.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-oies-sauvages.jpg",
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-moretta",
@@ -1092,7 +1134,8 @@
       "example": false,
       "updatedAt": "2026-11-06",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg",
-      "uncertain": true
+      "uncertain": true,
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-canarino",
@@ -1109,7 +1152,8 @@
       "example": false,
       "updatedAt": "2026-11-06",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/sanglier-lapin-canari-gta-6-1024x573-1.jpg",
-      "uncertain": true
+      "uncertain": true,
+      "group": "uccelli"
     },
     {
       "id": "col-fauna-pesci-esotici",
@@ -1125,7 +1169,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-plongee-hd.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-plongee-hd.jpg",
+      "group": "marini"
     },
     {
       "id": "col-fauna-bisonti",
@@ -1140,7 +1185,8 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-06",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-conigli",
@@ -1155,7 +1201,8 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-06",
+      "group": "foresta"
     },
     {
       "id": "col-fauna-pitoni-delle-everglades",
@@ -1170,7 +1217,8 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-06",
+      "group": "altri"
     }
   ]
 }

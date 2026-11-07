@@ -8,7 +8,7 @@ import { isOpen } from '../posture.js';
 export const SECTIONS = [
   { id: 'home', num: 1, title: 'Home', path: '/', icon: 'home', accent: 'magenta', hue: 335, tagline: 'La tua plancia di comando', tab: true },
   { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', hue: 172, tagline: 'La storia, capitolo per capitolo', tab: true, bg: 'rapina.jpg' },
-  { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, territorio per territorio', tab: true, bg: 'molo.jpg' },
+  { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, regione per regione', tab: true, bg: 'molo.jpg' },
   { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', tab: true, bg: 'palme.jpg' },
   { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino', bg: 'palme.jpg' },
   { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'I veicoli di Leonida', bg: 'oceandrive.jpg' },
@@ -75,6 +75,16 @@ export function districtStats(districtId) {
   return { done, total: items.length, missing: items.length - done, pct: items.length ? Math.round((done / items.length) * 100) : 0 };
 }
 
+/** Un personaggio è «incontrato» se la sua prima missione è iniziata/completata, o se Mike l'ha segnato a mano */
+export function isMet(c) { const st = progress.get(); return !!(c.firstMissionId && st.missions[c.firstMissionId]?.state) || !!st.discovered?.[c.id]; }
+/** Una regione è «scoperta» se una sua missione è iniziata/completata, o se segnata a mano */
+export function isFound(d) { const st = progress.get(); return vis(db.missions).some((m) => m.districtId === d.id && st.missions[m.id]?.state) || !!st.discovered?.[d.id]; }
+/** Bottone «Scoperto / Incontrato» per le schede */
+export function discoverBtn(item, { label = 'Scoperto', doneLabel = 'Scoperto ✓', auto = false } = {}) {
+  const on = !!progress.get().discovered?.[item.id];
+  if (auto) return `<span class="btn btn--ghost is-static"><svg aria-hidden="true"><use href="#i-check"/></svg>${esc(doneLabel)} (dalla storia)</span>`;
+  return `<button class="btn ${on ? 'btn--accent' : 'btn--ghost'}" type="button" data-discover="${esc(item.id)}"><svg aria-hidden="true"><use href="#i-${on ? 'check' : 'eye'}"/></svg>${esc(on ? doneLabel : label)}</button>`;
+}
 export function currentMission() {
   const id = progress.get().current.missionId;
   return id ? byId(id) : null;

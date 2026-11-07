@@ -22,7 +22,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.13.0';
+window.__LEONIDA_VERSION__ = 'v0.14.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -67,9 +67,9 @@ const views = {
   '/armi/:id?': armi.render,
   '/news/:id?': novita.render,
   '/mondo/:id?': editoriale.renderMondo,
-  '/trofei': trofei.render,
+  '/trofei': (p, q) => trofei.render(p, q),
   '/collezionabili': collezionabili.render,
-  '/personaggi/:id?': editoriale.renderPersonaggi,
+  '/personaggi/:id?': (p, q) => editoriale.renderPersonaggi(p, q),
   '/cultura/:id?': editoriale.renderCultura,
   '/diario': diario.render,
   '/impostazioni': impostazioni.render,
@@ -141,7 +141,8 @@ function render(match, { dir, refresh } = {}) {
   // Si torna all'indice da un fascicolo: lo chiudo e l'indice resta fermo dov'era (ridisegnato per i progressi)
   const closing = !detail && dossierPath;
   if (closing) { closeDossier(); dossierPath = null; }
-  const keepScroll = (refresh || closing) ? spread.scrollTop : null;
+  const samePage = lastMatch && lastMatch.path === match.path && !detail;
+  const keepScroll = (refresh || closing || samePage) ? spread.scrollTop : null;
 
   const isOpener = (h) => !h || /class="opener"/.test(h);
   $('page-top').innerHTML = !detail && out.top ? `<div class="page__inner">${out.top}</div>` : '';
@@ -186,7 +187,10 @@ function bindGlobal() {
   veicoli.bind(root, rerender);
   trofei.bind(root, rerender);
   armi.bind(root, rerender);
+  let qt = null;
+  root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(null, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   root.addEventListener('click', (e) => {
+    const d = e.target.closest('[data-discover]'); if (d) { progress.toggleDiscovered(d.dataset.discover); rerender(); return; }
     const a = e.target.closest('[data-action]');
     if (!a) return;
     if (a.dataset.action === 'search') { router.go('/ricerca'); }
@@ -219,6 +223,7 @@ function bindGlobal() {
   addEventListener('keydown', (e) => { if (e.key === 'Escape' && dossierPath) history.back(); });
   matchMedia('(prefers-color-scheme: light)').addEventListener('change', applyTheme);
   progress.subscribe(followBar);
+  document.addEventListener('leonida:rerender', rerender);
   // Tocco di sessione
   progress.touchSession();
   addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') progress.touchSession(); });

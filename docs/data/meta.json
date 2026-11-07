@@ -1,10 +1,24 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.10.0",
+  "dataVersion": "0.11.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.11.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Missioni senza spoiler: si vede solo ciò che stai facendo o hai fatto; capitoli e missioni future restano «bloccati» finché non tocchi «Inizio adesso».",
+        "Home: «Dove sei nella storia» per dire alla guida a che punto sei; cast e regioni si accendono dalla storia o con «Incontrato / Scoperta» sulle schede.",
+        "Mappa: tasto Esplora (la pagina scorre finché non lo tocchi), Polaroid appese sulla mappa, «Tu sei qui» collegato alla storia, via poster e modalità notte, regioni e punti d’interesse senza doppioni, ordine di storia.",
+        "Collezionabili: album solo dopo aver scelto la categoria; Animali con habitat (domestici, uccelli, marini, paludi, foresta, pesci) e regioni.",
+        "Trofei: bacheca allineata, bagliore solo sulla coppa, ricerca per nome.",
+        "Armi: etichette dentro gli spicchi, la pagina non salta più.",
+        "Personaggi: ricerca, niente numeri; Mondo in ordine alfabetico con categorie chiuse; News a timeline con «la scottante» del giorno.",
+        "Scheda-fascicolo che arriva come un foglio sulla scrivania, dentro i margini dell’interfaccia."
+      ]
+    },
     {
       "version": "0.10.0",
       "date": "2026-11-07",

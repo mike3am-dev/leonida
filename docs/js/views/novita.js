@@ -87,6 +87,26 @@ const frontpage = (x) => `<a class="frontpage" href="#/news/${esc(x.id)}">
 const card = (x, wide = false) => `<a class="cardx ${wide ? 'cardx--wide' : ''}" href="#/news/${esc(x.id)}">
     <div class="cardx__img">${newsImgTag(x)}<span class="cardx__badge chips">${statusChip(x)}</span></div>
     <div class="cardx__body"><div class="cardx__kicker">${x._type === 'news' ? esc(fmtDate(x.date, { day: 'numeric', month: 'long' })) : 'Guida'}${x.outlet ? ' · ' + esc(x.outlet) : ''}${x._type === 'tip' ? ' · ' + esc(CAT_LABEL[x.category] || x.category) : ''}</div><div class="cardx__title">${spoiler.isHidden(x) ? '⚠ Contiene spoiler' : esc(x.title)}</div>${wide ? `<div class="cardx__excerpt">${spoiler.isHidden(x) ? '' : esc((x.body || x.lead || '').slice(0, 160))}…</div>` : ''}</div></a>`;
+/** La notizia più «scottante» del giorno: ufficiale > stampa > community > rumor > leak, poi la più lunga */
+const HOT = { trailer: 0, stampa: 1, community: 2, rumor: 3, leak: 4 };
+const hottest = (items) => [...items].sort((a, b) => (HOT[a.source] ?? 9) - (HOT[b.source] ?? 9) || (b.body || '').length - (a.body || '').length)[0];
+const MONTHS = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
+/** Timeline: un nodo per giorno, la scottante in evidenza, le altre come titoli da aprire */
+function timeline(groups) {
+  let lastMonth = '';
+  return [...groups].map(([day, items]) => {
+    const d = new Date(day + 'T00:00:00'); const mk = `${d.getFullYear()}-${d.getMonth()}`;
+    const monthHead = mk !== lastMonth ? `<div class="tl-month"><span>${esc(d.toLocaleDateString('it-IT', { month: 'long', year: 'numeric' }))}</span></div>` : ''; lastMonth = mk;
+    const hot = hottest(items); const rest = items.filter((n) => n !== hot);
+    return `${monthHead}<section class="tl-day">
+      <div class="tl-node"><b>${d.getDate()}</b><small>${MONTHS[d.getMonth()]}</small><i></i></div>
+      <div class="tl-body">
+        <a class="tl-hot" href="#/news/${esc(hot.id)}"><span class="tl-hot__img">${newsImgTag(hot)}</span><span class="tl-hot__text"><span class="tl-hot__kicker">🔥 La scottante · ${esc(SRC_LABEL[hot.source] || '')}${hot.outlet ? ' · ' + esc(hot.outlet) : ''}</span><span class="tl-hot__title">${spoiler.isHidden(hot) ? '⚠ Contiene spoiler' : esc(hot.title)}</span></span></a>
+        ${rest.length ? `<div class="tl-rest">${rest.map((n) => `<a class="tl-item" href="#/news/${esc(n.id)}"><span class="tl-item__src tl-item__src--${esc(n.source)}">${esc((SRC_LABEL[n.source] || '').slice(0, 3))}</span><span>${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</span></a>`).join('')}</div>` : ''}
+        <span class="tl-count">${items.length} notizi${items.length === 1 ? 'a' : 'e'}</span>
+      </div></section>`;
+  }).join('');
+}
 const newsRow = (n) => `<a class="newsrow" href="#/news/${esc(n.id)}">
     <span class="newsrow__img">${newsImgTag(n)}</span>
     <span class="newsrow__body"><span class="newsrow__kicker">${esc(SRC_LABEL[n.source] || '')} · ${esc(TOPIC_LABEL[n.topic] || n.topic)}${n.outlet ? ' · ' + esc(n.outlet) : ''}</span><span class="newsrow__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</span><span class="newsrow__excerpt">${spoiler.isHidden(n) ? '' : esc((n.body || '').slice(0, 110))}…</span></span></a>`;
@@ -121,8 +141,7 @@ export function render(params, query) {
     body += `<div class="block"><span class="kicker" style="display:block;margin-bottom:var(--s-2)">Notizie, giorno per giorno</span>
       <div class="filters"><a class="filter" role="button" aria-pressed="${!src}" href="${link('fonte', '')}">Tutte</a>${['trailer', 'stampa', 'rumor', 'leak', 'community'].filter((s) => cs[s]).map((s) => `<a class="filter" role="button" aria-pressed="${src === s}" href="${link('fonte', s)}">${SRC_LABEL[s]} <span class="muted">${cs[s]}</span></a>`).join('')}</div>
       <div class="filters"><a class="filter" role="button" aria-pressed="${!topic}" href="${link('tema', '')}">Tutti i temi</a>${Object.keys(TOPIC_LABEL).filter((t) => news.some((n) => n.topic === t)).map((t) => `<a class="filter" role="button" aria-pressed="${topic === t}" href="${link('tema', t)}">${TOPIC_LABEL[t]}</a>`).join('')}</div>
-      ${[...groups].map(([day, items]) => `<div class="dayhead"><span class="kicker">${esc(fmtDate(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</span></div>
-        <div class="newscols">${items.map(newsRow).join('')}</div>`).join('') || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
+      ${timeline(groups) || '<div class="placeholder"><strong>Niente qui</strong>Nessuna notizia corrisponde ai filtri.</div>'}</div>`;
   }
   const left = `${sectionHead(section, `${news.length} notizie · ${tips.length + guides.length} guide`)}
     ${segmented(tipo)}

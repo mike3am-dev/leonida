@@ -3,7 +3,7 @@ import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound } from './shared.js';
 import * as mapboard from './mapboard.js';
 import * as spoiler from '../spoiler.js';
 
@@ -108,7 +108,7 @@ function zoneStats(b) {
   return `<div class="card zonestats"><div class="zonestats__head"><span class="kicker kicker--accent">${b.missing === 0 ? 'Territorio completato' : `Da fare qui: ${b.missing}`}</span><span class="small muted">${b.total - b.missing} / ${b.total} fatti</span></div>
     <div class="zonestats__bars">${b.bars.map((x) => `<div class="zonestats__bar"><span>${esc(x.l)}</span><b>${x.d}<small>/${x.t}</small></b><i class="progress"><i style="--p:${x.p}%"></i></i></div>`).join('')}</div></div>`;
 }
-const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
+export const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
 
 /* ---------- Schede dei territori ---------- */
 function zoneCard(d, expanded, num = 0) {
@@ -122,8 +122,8 @@ function zoneCard(d, expanded, num = 0) {
       ${d.tagline ? `<p class="lede">${esc(d.tagline)}</p>` : ''}
       <div class="prose">${spoiler.wrap(d, `<p>${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
       ${b.total ? zoneStats(b) : ''}
-      ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida del territorio</span><b>${esc(main.name)}: ${esc((main.lead || '').slice(0, 90))}…</b><span class="small muted">${main.landmarks?.length || 0} punti da trovare · domande frequenti · dintorni</span></span></a>` : ''}
-      ${places.length ? `<span class="kicker">Luoghi e quartieri (${places.length})</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
+      ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida della regione</span><b>${esc(main.name)}: ${esc((main.lead || '').slice(0, 90))}…</b><span class="small muted">${main.landmarks?.length || 0} punti da trovare · domande frequenti · dintorni</span></span></a>` : ''}
+      ${places.length ? `<span class="kicker">Luoghi e quartieri</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
       ${galleryHtml(d)}
       ${d.subAreas?.length ? `<span class="kicker">Quartieri e zone</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${d.subAreas.map((a) => `<span class="chip" title="${esc(typeof a === 'string' ? '' : a.note || '')}">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div>` : ''}
       ${chars.length ? `<span class="kicker">Chi ci vive</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div>` : ''}
@@ -136,27 +136,29 @@ function zoneCard(d, expanded, num = 0) {
   return `<article class="zone ${expanded ? 'is-open' : ''}" id="zona-${esc(d.id)}">${num ? `<span class="bignum-over zone__num" aria-hidden="true">${String(num).padStart(2, '0')}</span>` : ''}
     <button class="zone__head" type="button" data-zone-toggle="${esc(d.id)}" aria-expanded="${expanded}">
       <span class="zone__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-map"/></svg>'}</span>
-      <span class="zone__text"><span class="zone__name">${esc(d.name)}</span><span class="zone__meta">${esc(d.region || '')}${places.length ? ` · ${places.length} schede` : ''}${pois.length ? ` · ${pois.length} punti` : ''}${b.total ? ` · ${b.missing ? 'mancano ' + b.missing : 'completa'}` : ''}</span><span class="chips">${statusChip(d)}</span></span>
+      <span class="zone__text"><span class="zone__name">${esc(d.name)}</span><span class="zone__meta">${esc(d.region || '')}${b.total ? ` · ${b.missing ? 'da fare: ' + b.missing : 'completa'}` : ''}</span><span class="chips">${statusChip(d)}</span></span>
       <svg class="zone__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
     </button>${body}</article>`;
 }
 
 function index(zona, q) {
-  const ds = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
+  const order = new Map(vis(db.missions).map((m, i) => [m.id, i]));
+  const firstM = (d) => order.get(vis(db.missions).find((m) => m.districtId === d.id)?.id) ?? 999;
+  const ds = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare').sort((a, b) => firstM(a) - firstM(b));
   const extra = vis(db.districts).find((d) => d.id === 'dis-da-collocare');
   if (zona && zona !== scrolledZona) { scrolledZona = zona; setTimeout(() => document.getElementById('zona-' + zona)?.scrollIntoView({ block: 'start' }), 30); }
   const all = luoghi();
   const needle = (q || '').toLowerCase();
   const list = needle ? all.filter((l) => (l.name + ' ' + (l.lead || '')).toLowerCase().includes(needle)) : all;
-  return `${sectionHead(section, `${ds.length} territori · ${all.length} luoghi`)}
+  return `${sectionHead(section, `${ds.length} regioni · ${all.length} luoghi`)}
     ${mapboard.boardHtml(ds)}
-    <p class="atlas-note">Trascina e pizzica per muoverti. Tocca un numero o una foto-pin per aprire; le Polaroid in basso portano la mappa sul territorio. Con lo zoom alto le tessere di dettaglio arrivano da gtasixmap (serve la connessione).</p>
+    <p class="atlas-note">«Esplora» sblocca la mappa (trascina e pizzica); i numeri sono le regioni, le foto-pin i punti d’interesse, le Polaroid volano sulla regione. Con lo zoom alto arrivano le tessere di dettaglio da gtasixmap (serve la connessione). Mappa della community: YANIS v16, GTA VI Mapping Community via gtasixmap.com.</p>
     <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
     ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Catalogo</span><h2>Luoghi e quartieri</h2></div><span class="count">${list.length}</span></header>
-      <p class="small muted">I territori stanno sopra, nelle schede. Qui sotto i luoghi dentro ogni territorio: quartieri, isole, paesi, punti famosi. Ognuno con la sua guida.</p>
+      <p class="small muted">Le regioni sono sopra. Qui sotto i luoghi dentro ogni regione: quartieri, isole, paesi, punti famosi, in ordine di storia. Ognuno con la sua guida.</p>
       <input class="input" type="search" placeholder="Cerca un luogo…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin-bottom:var(--s-3)">
       ${needle ? `<div class="placegrid">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>`
-        : ds.map((d) => { const inZone = list.filter((l) => l.districtId === d.id && TERRITORY_SLUGS[l.slug] !== d.id); return inZone.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${ZONE_EMOJI[d.id] || '📍'}</span><div><h2>${esc(d.name)}</h2><p>${esc(d.region || '')}</p></div><span class="count">${inZone.length}</span></div><div class="placegrid">${inZone.map(luogoCard).join('')}</div>` : ''; }).join('')}</div>` : ''}`;
+        : ds.map((d) => { const inZone = list.filter((l) => l.districtId === d.id && TERRITORY_SLUGS[l.slug] !== d.id); return inZone.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${ZONE_EMOJI[d.id] || '📍'}</span><div><h2>${esc(d.name)}</h2><p>${esc(d.region || '')}</p></div></div><div class="placegrid">${inZone.map(luogoCard).join('')}</div>` : ''; }).join('')}</div>` : ''}`;
 }
 
 const ZONE_EMOJI = { 'dis-vice-city': '🌆', 'dis-vice-beach': '🏖️', 'dis-keys': '🌴', 'dis-grassrivers': '🐊', 'dis-port-gellhorn': '⚓', 'dis-ambrosia': '🌾', 'dis-mount-kalaga': '⛰️', 'dis-waning-sands': '🏘️', 'dis-hamlet': '🚜', 'dis-capri': '🚤' };
@@ -171,6 +173,7 @@ function detail(d) {
   return `
     ${backLink('/mappa?zona=' + d.id, 'Mappa')}
     ${hero(d, { kicker: d.region || 'Leonida', title: d.name, lede: d.tagline || '', chips: statusChip(d) })}
+    <div class="actions">${discoverBtn(d, { label: 'Scoperta', doneLabel: 'Scoperta ✓', auto: isFound(d) && !progress.get().discovered?.[d.id] })}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>
     ${b.total ? zoneStats(b) : ''}
     <div class="block prose">${spoiler.wrap(d, `<p class="dropcap">${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
     ${places.length ? `<div class="block"><span class="kicker">Schede dei luoghi (${places.length})</span><div class="placegrid">${places.map(luogoCard).join('')}</div></div>` : ''}

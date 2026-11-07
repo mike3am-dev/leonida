@@ -22,6 +22,7 @@ export function showSheet({ title, body, side = 'right', onClose }) {
   root.append(backdrop, sheet);
   const close = () => { backdrop.remove(); sheet.remove(); open = null; onClose?.(); };
   backdrop.onclick = close;
+  sheet.addEventListener('click', (e) => { const d = e.target.closest('[data-discover]'); if (d) { import('../store/progress.js').then((p) => { p.toggleDiscovered(d.dataset.discover); close(); document.dispatchEvent(new CustomEvent('leonida:rerender')); }); } });
   sheet.querySelector('[data-close]').onclick = close;
   const onKey = (e) => { if (e.key === 'Escape') { close(); removeEventListener('keydown', onKey); } };
   addEventListener('keydown', onKey);

@@ -8,8 +8,8 @@ import * as spoiler from '../spoiler.js';
 const section = sectionOf('armi');
 // Ordine della ruota (in senso orario dall'alto): come la ruota delle armi di GTA
 export const SLICES = [
-  ['corpo-a-corpo', 'Corpo a corpo'], ['pistola', 'Pistole'], ['fucile-assalto', 'Assalto'], ['mitra', 'Mitra'],
-  ['fucile-pompa', 'Pompa'], ['cecchino', 'Precisione'], ['pesante', 'Pesanti'], ['lancio', 'Da lancio'],
+  ['corpo-a-corpo', 'Corpo a corpo', 'Mischia'], ['pistola', 'Pistole', 'Pistole'], ['fucile-assalto', 'Assalto', 'Assalto'], ['mitra', 'Mitra', 'Mitra'],
+  ['fucile-pompa', 'Pompa', 'Pompa'], ['cecchino', 'Precisione', 'Precisione'], ['pesante', 'Pesanti', 'Pesanti'], ['lancio', 'Da lancio', 'Lancio'],
 ];
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 
@@ -22,7 +22,7 @@ export function wheel(counts, active, favs) {
     const big = a1 - a0 > Math.PI ? 1 : 0;
     return `M${x0} ${y0} A${ro} ${ro} 0 ${big} 1 ${x1} ${y1} L${x2} ${y2} A${ri} ${ri} 0 ${big} 0 ${x3} ${y3} Z`;
   };
-  const slices = SLICES.map(([k, label], i) => {
+  const slices = SLICES.map(([k, label, short], i) => {
     const a0 = (i / n) * 2 * Math.PI - Math.PI / n + gap, a1 = ((i + 1) / n) * 2 * Math.PI - Math.PI / n - gap;
     const am = (a0 + a1) / 2, lr = (R + r) / 2 + 7;
     const lx = cx + lr * Math.sin(am), ly = cy - lr * Math.cos(am);
@@ -30,7 +30,7 @@ export function wheel(counts, active, favs) {
     return `<a class="wheel__slice ${active === k ? 'is-active' : ''} ${c ? '' : 'is-empty'}" href="#/armi${active === k ? '' : '?cat=' + k}" aria-label="${esc(label)}: ${c} armi">
       <path d="${arc(a0, a1, R, r)}"/>
       ${f ? `<path class="wheel__fill" d="${arc(a0, a1, r + (R - r) * Math.min(1, f / Math.max(1, c)), r)}"/>` : ''}
-      <text x="${lx}" y="${ly - 5}" text-anchor="middle" class="wheel__label">${esc(label)}</text>
+      <text x="${lx}" y="${ly - 6}" text-anchor="middle" class="wheel__label">${esc(short || label)}</text>
       <text x="${lx}" y="${ly + 10}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
   }).join('');
   const total = Object.values(counts).reduce((a, b) => a + b, 0);
