@@ -1,4 +1,414 @@
 {
   "schemaVersion": 1,
-  "items": []
+  "items": [
+    {
+      "id": "mec-cambiare-protagonista",
+      "title": "Cambiare protagonista",
+      "emoji": "🔁",
+      "group": "Personaggi",
+      "short": "Passi da Jason a Lucia e viceversa mentre giri per Leonida e, quando la storia lo consente, anche a metà di un inseguimento. Chi lasci continua a vivere la sua giornata.",
+      "steps": [
+        "Premi il comando di cambio per passare all'altro protagonista.",
+        "Se siete lontani, ritrovi l'altro dov'è in quel momento: al rifugio o in giro per conto suo.",
+        "Se siete in auto insieme, cambiando posto passi da guidatore a passeggero.",
+        "Da passeggero l'altro guida da solo e tu pensi a sparare agli inseguitori.",
+        "In alcuni momenti della storia il cambio è bloccato.",
+        "Alcune missioni sono di uno solo dei due: una missione in un grattacielo è riservata a Jason."
+      ],
+      "details": [
+        {
+          "title": "Una vita propria",
+          "text": "Il protagonista che non controlli segue la sua routine: esce, fa le sue cose, torna a casa. Puoi trovarlo sotto la doccia o fuori città."
+        },
+        {
+          "title": "L'IA del partner",
+          "text": "Il partner guida bene, all'antica: puoi lasciargli il volante per seminare la polizia, anche nelle rapine improvvisate in mondo aperto. In viaggio può indicarti occasioni vicine, come un'auto da rubare."
+        },
+        {
+          "title": "Cosa condividete",
+          "text": "Jason e Lucia si passano le armi. Le armi acquistate sono sempre disponibili nel retro del veicolo personale."
+        }
+      ],
+      "tips": [
+        "Nelle fughe in auto lascia guidare il partner e usa il passeggero come tiratore.",
+        "Dividervi durante una fuga confonde la polizia: le prove sul complice saltano.",
+        "Se non trovi l'altro protagonista, chiamalo o scrivigli per darvi appuntamento."
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il cambio si fa premendo giù sulla croce direzionale."
+        },
+        {
+          "source": "community",
+          "text": "Conto in banca e arsenale sono condivisi tra i due."
+        },
+        {
+          "source": "stampa",
+          "text": "Da passeggero puoi dare comandi a chi guida, come accelerare o seminare gli inseguitori."
+        },
+        {
+          "source": "stampa",
+          "text": "In un colpo fatto insieme, se uno dei due muore, la missione fallisce per entrambi."
+        },
+        {
+          "source": "stampa",
+          "text": "Se uno dei due viene arrestato, l'altro resta libero e gli scrive per sapere se va tutto bene."
+        }
+      ],
+      "relatedIds": [
+        "tip-switch",
+        "new-20261007-doccia",
+        "new-20261029-coppia-edge",
+        "new-20260909-famitsu",
+        "new-20260827-identita"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "mec-relazione",
+      "title": "Relazione tra Jason e Lucia",
+      "emoji": "💞",
+      "group": "Personaggi",
+      "short": "Il legame tra Jason e Lucia ha quattro livelli e sale con il tempo passato insieme. La coppia non si scioglie mai, ma il romanticismo è facoltativo: è tuo da tenere o da perdere.",
+      "steps": [
+        "Scrivi o chiama l'altro in qualsiasi momento, anche per invitarlo a raggiungerti.",
+        "Rispondi ai suoi messaggi: se torna a casa mentre sei fuori, ti scrive per sapere come stai.",
+        "Passate del tempo insieme fuori dalle missioni: è questo che fa salire il livello.",
+        "Scegli gli appuntamenti: zoo, kayak, spiaggia, bici, palestra, escursioni, immersioni, paracadute.",
+        "Fate rapine insieme: anche un colpo riuscito in due conta.",
+        "Usa i piccoli gesti: mano nella mano, baci, tenere la porta, la buonanotte."
+      ],
+      "details": [
+        {
+          "title": "Quattro livelli",
+          "text": "Non c'è un misuratore: la vicinanza ha quattro gradini. Il tempo insieme li fa salire, la trascuratezza li fa scendere."
+        },
+        {
+          "title": "Cosa non puoi fare",
+          "text": "Non puoi abbandonare la coppia né smettere di fare il criminale. Puoi però decidere se restare amici stretti o diventare una coppia."
+        },
+        {
+          "title": "Effetti",
+          "text": "La relazione, insieme al Profilo criminale, può cambiare come si svolge la storia. Rapinare insieme migliora la coordinazione nei colpi."
+        }
+      ],
+      "tips": [
+        "Non ignorare i messaggi: ignorarli a ripetizione rovina un po' il rapporto.",
+        "La palestra in due allena entrambi e conta come tempo insieme.",
+        "In auto uno guida e l'altro usa il telefono: anche i giri in macchina contano.",
+        "Lo zoo è un appuntamento comodo dentro Vice City."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Lo stato della relazione si legge nel menu del personaggio, accanto al Profilo criminale."
+        },
+        {
+          "source": "stampa",
+          "text": "Tenersi per mano si fa con R2; mano e baci si sbloccano salendo di livello."
+        },
+        {
+          "source": "stampa",
+          "text": "Il romanticismo non dà vantaggi di gioco: cambia racconto e interpretazione, non le statistiche."
+        },
+        {
+          "source": "stampa",
+          "text": "Anche fare shopping e cambiare look insieme rafforza il legame."
+        }
+      ],
+      "relatedIds": [
+        "new-20261029-coppia-edge",
+        "act-appuntamenti",
+        "act-zoo-dettagli",
+        "tip-coppia",
+        "teo-un-sistema-di-relazione-tra-jason-e-luci",
+        "new-20261014-bloomberg"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "mec-profilo-criminale",
+      "title": "Profilo criminale",
+      "emoji": "😇",
+      "group": "Personaggi",
+      "short": "Il Profilo criminale registra come commetti i crimini, non quanti. Va da Professional a Irredeemable, con un angelo e un diavolo, e la storia ne tiene conto.",
+      "steps": [
+        "Apri il menu del personaggio per vedere il profilo: non c'è una barra fissa a schermo.",
+        "Fai i colpi in modo pulito: rapinare senza ferire nessuno ti tiene verso Professional.",
+        "Metti fuori combattimento invece di uccidere, intimidisci invece di sparare.",
+        "Sparare per difenderti non ti penalizza; sparare per primo ti lega alla violenza.",
+        "La violenza gratuita e la distruzione inutile spingono verso Irredeemable.",
+        "Contano anche i piccoli gesti, come sfamare un randagio o buttare la spazzatura nel cestino."
+      ],
+      "details": [
+        {
+          "title": "Non è un giudizio morale",
+          "text": "Non divide le azioni in buone e cattive: descrive che tipo di criminali siete. È l'erede dell'Onore di Red Dead Redemption 2."
+        },
+        {
+          "title": "Effetti",
+          "text": "Il profilo influenza come si svolge la storia. La violenza richiesta dalle missioni non lo rovina."
+        }
+      ],
+      "tips": [
+        "Per una partita «pulita», sgonfia le gomme delle volanti invece di colpire gli agenti.",
+        "Nelle rapine svuota il negozio con calma prima di minacciare: meno feriti, profilo migliore.",
+        "Non esiste un modo giusto di giocare: il profilo racconta il tuo."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Gli stati sono nominati: Professional, Aggressive, Violent, Psycho e oltre. Superato Psycho l'icona si crepa e si rompe per sempre in quella partita."
+        },
+        {
+          "source": "stampa",
+          "text": "Jason e Lucia hanno profili separati."
+        },
+        {
+          "source": "stampa",
+          "text": "Il profilo cambia l'ostilità dei passanti e la durezza della polizia."
+        },
+        {
+          "source": "stampa",
+          "text": "Le notifiche del profilo si possono spegnere."
+        }
+      ],
+      "relatedIds": [
+        "new-20260902-profilo",
+        "tip-profilo",
+        "tip-wanted",
+        "new-20260902-ricercato",
+        "new-20261029-hooker-rapina",
+        "tip-comb-1"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "mec-fisico-salute",
+      "title": "Fisico e salute",
+      "emoji": "💪",
+      "group": "Personaggi",
+      "short": "Il corpo di Jason e Lucia cambia con quello che fanno: la palestra li rende più forti e muscolosi, mangiare troppo li fa ingrassare. Cibo e bevande danno salute e bonus.",
+      "steps": [
+        "Compra l'abbonamento al bancone di una palestra: senza non puoi allenarti.",
+        "Allenati: tapis roulant e sacco per il fiato, pesi per la forza.",
+        "Allenatevi in due: con il partner alzate le statistiche di entrambi in una volta.",
+        "Mangia per recuperare salute: un pasto ne ridà parecchia.",
+        "Bevi un caffè per la resistenza, un frullato proteico per un bonus salute.",
+        "Non esagerare con il cibo: si ingrassa. Se smetti di allenarti, perdi muscoli."
+      ],
+      "details": [
+        {
+          "title": "Cosa si compra",
+          "text": "Snack, bevande, caffè, frullati, birra e sigarette. Servono a gestire le statistiche del personaggio."
+        },
+        {
+          "title": "A casa",
+          "text": "Al rifugio puoi mangiare. Non c'è una spesa obbligatoria da fare."
+        }
+      ],
+      "tips": [
+        "Una gomma o uno snack comprati in un negozio mentre ti nascondi danno un piccolo bonus salute.",
+        "La palestra è facoltativa, ma una salute più alta aiuta negli scontri.",
+        "Antidolorifici e Zombix funzionano meno se ne abusi."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Le statistiche sono salute, cardio, forma, resistenza, forza, calorie e massa grassa."
+        },
+        {
+          "source": "stampa",
+          "text": "La forza sale con tre giorni di pesi consecutivi; in palestra un indicatore circolare segna tre esercizi, a tempo sui grilletti. Andare troppo veloci consuma resistenza."
+        },
+        {
+          "source": "stampa",
+          "text": "Il sonno è tracciato: essere riposati cambia come si rigenerano alcune statistiche."
+        },
+        {
+          "source": "stampa",
+          "text": "Le sigarette si fumano camminando e ricaricano il Focus; l'allenamento migliora un po' anche il Focus."
+        },
+        {
+          "source": "stampa",
+          "text": "Barrette proteiche ed energy drink dai distributori della palestra aumentano i risultati e la resistenza."
+        },
+        {
+          "source": "stampa",
+          "text": "Sotto sforzo, per esempio ballando in discoteca, Jason e Lucia sudano."
+        }
+      ],
+      "relatedIds": [
+        "new-20260905-fisico",
+        "tip-fisico",
+        "act-sport",
+        "brd-ajax-gym",
+        "wpn-cigarettes",
+        "wpn-zombix",
+        "new-20261015-sistema-di-sudore",
+        "new-20261107-gta-wiki-palestre-refurtiva-armadietti"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "mec-aspetto",
+      "title": "Aspetto",
+      "emoji": "💇",
+      "group": "Personaggi",
+      "short": "Vestiti, capelli, barba, trucco e tatuaggi si cambiano nei negozi e al rifugio. Ogni negozio e ogni salone ha articoli suoi, e cambiare look aiuta a sparire alla polizia.",
+      "steps": [
+        "A casa puoi accorciare o radere capelli e barba.",
+        "Per un taglio nuovo o capelli più lunghi vai dal barbiere o al salone.",
+        "Compra vestiti nei negozi: ognuno ha capi che altrove non trovi.",
+        "Tieni un outfit di scorta nel bagagliaio del veicolo personale per cambiarti lontano da casa.",
+        "Dopo un crimine cambia outfit: quello visto dalla polizia è bruciato.",
+        "Raccogli e indossa oggetti trovati in giro, come gli occhiali di un passante."
+      ],
+      "details": [
+        {
+          "title": "Capelli",
+          "text": "I capelli non crescono da soli: per allungarli serve il salone. Un taglio dal barbiere cancella la descrizione che ha la polizia."
+        },
+        {
+          "title": "Trucco e tatuaggi",
+          "text": "Lucia ha trucco e unghie, Jason la barba; i tatuaggi sono per entrambi. La personalizzazione non è legata alle edizioni speciali: alcuni capi si sbloccano con le missioni."
+        },
+        {
+          "title": "Ultimate Edition",
+          "text": "Sara's Unisex Salon a Hamlet ha tagli, barba, trucco e unghie esclusivi; Electric Fang Tattoo a Stockyard ha tatuaggi esclusivi."
+        }
+      ],
+      "tips": [
+        "Cappello e occhiali non bastano a farti dimenticare: serve un outfit completo o un taglio nuovo.",
+        "Esplora i negozi di zone diverse: i capi esclusivi cambiano da posto a posto.",
+        "Una maschera usata nel colpo e poi buttata nasconde il volto anche alle telecamere."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La ruota degli outfit cambia al volo vestiti, cappelli, occhiali e coperture del volto."
+        },
+        {
+          "source": "stampa",
+          "text": "I passanti commentano come sei vestito."
+        },
+        {
+          "source": "stampa",
+          "text": "Per Lucia ci sono rossetti, eyeliner, fard e finiture lucide; ci sono anche piercing e smalto."
+        },
+        {
+          "source": "community",
+          "text": "Electric Fang Tattoo offre oltre 50 tatuaggi esclusivi disegnati dal collettivo FAILE."
+        },
+        {
+          "source": "community",
+          "text": "Al rifugio si possono salvare outfit da richiamare."
+        }
+      ],
+      "relatedIds": [
+        "new-20260827-capelli",
+        "new-20260827-identita",
+        "brd-sara-s-unisex-salon",
+        "brd-electric-fang-tattoo",
+        "brd-moda",
+        "brd-a1-fashions",
+        "wpn-mask",
+        "tip-wanted"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "mec-rifugi-casa",
+      "title": "Rifugi e casa",
+      "emoji": "🏠",
+      "group": "Personaggi",
+      "short": "I rifugi non si comprano: arrivano con la storia e funzionano come gli accampamenti di Red Dead Redemption 2. I garage invece si comprano, per avere più posti auto.",
+      "steps": [
+        "Sblocca i rifugi andando avanti nella storia.",
+        "Al rifugio mangi, butti la spazzatura e ti radi allo specchio.",
+        "È lì che spesso trovi il partner, ed è lì che uno dei due torna per la notte.",
+        "Compra un garage per tenere più veicoli personali.",
+        "Metti un'auto rubata in garage per tenerla prima di registrarla.",
+        "Chiama il veicolo personale quando vuoi: dentro trovi tutte le armi comprate."
+      ],
+      "details": [
+        {
+          "title": "I rifugi",
+          "text": "La casa di Brian nelle Keys, Bayside a Vice City e lo Starlet Motel a Port Gellhorn. Jason e Lucia condividono la casa, e altri personaggi vanno e vengono."
+        },
+        {
+          "title": "Garage e bottino",
+          "text": "Lo spazio nei veicoli conta anche per quanto bottino puoi portare. La refurtiva va al ricettatore, e intanto puoi lasciarla in garage."
+        }
+      ],
+      "tips": [
+        "Le auto abbandonate in una fuga possono finire sotto sequestro: recuperarle costa di più.",
+        "Con Scooter Bros ti fai consegnare il veicolo personale in pochi secondi.",
+        "Il primo garage serve presto: i posti auto iniziali sono pochi."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "All'inizio hai tre posti auto: per aggiungere un veicolo ne vendi uno o compri un garage."
+        },
+        {
+          "source": "stampa",
+          "text": "Ogni garage ha un armadietto delle armi, per scegliere cosa tenere nella ruota, e un deposito per la merce rubata."
+        },
+        {
+          "source": "stampa",
+          "text": "Le auto rubate non registrate prima o poi spariscono."
+        },
+        {
+          "source": "community",
+          "text": "Paradise Garage a Watson Bay (Ultimate Edition) e Shore Court Garage (Vintage Vice City Pack) servono come depositi; i veicoli bonus stanno al rifugio."
+        },
+        {
+          "source": "stampa",
+          "text": "Su PS5 i salvataggi su cloud passano da PS Plus; non c'è progressione condivisa tra piattaforme."
+        }
+      ],
+      "relatedIds": [
+        "new-20260827-rifugi",
+        "tip-rifugio",
+        "tip-garage-slot",
+        "brd-paradise-garage",
+        "brd-starlet-motel",
+        "new-20261107-gta-wiki-palestre-refurtiva-armadietti",
+        "tip-salvataggi"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    }
+  ]
 }
