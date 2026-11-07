@@ -2,12 +2,12 @@
  * Carica i JSON dei contenuti e li mette in relazione.
  * L'interfaccia legge da qui e basta: nessun contenuto vive nel codice.
  */
-const FILES = ['meta', 'missions', 'districts', 'collectibles', 'activities', 'characters', 'radio', 'brands', 'tips', 'vehicles', 'weapons', 'news', 'trophies', 'luoghi', 'teorie'];
+const FILES = ['meta', 'missions', 'districts', 'collectibles', 'activities', 'characters', 'radio', 'brands', 'tips', 'vehicles', 'weapons', 'news', 'trophies', 'luoghi', 'teorie', 'meccaniche'];
 
 export const db = {
   meta: null,
   acts: [], missions: [], districts: [], collectibles: [], collectibleCategories: [],
-  activities: [], characters: [], radio: [], brands: [], tips: [], vehicles: [], weapons: [], news: [], trophies: [], pois: [], luoghi: [], guide: [], teorie: [],
+  activities: [], characters: [], radio: [], brands: [], tips: [], vehicles: [], weapons: [], news: [], trophies: [], pois: [], luoghi: [], guide: [], teorie: [], meccaniche: [],
   byId: new Map(),
   ready: false,
 };
@@ -43,11 +43,12 @@ export async function loadAll() {
   db.guide = (raw.luoghi.guides || []).map((g) => ({ ...g, id: 'guida-' + g.slug, status: 'da-verificare', source: 'community', spoilerLevel: 0, example: false }));
   db.pois = db.districts.flatMap((d) => (d.pois || []).map((p) => ({ ...p, districtId: d.id, status: p.status || d.status, source: p.source || d.source, spoilerLevel: p.spoilerLevel ?? 0, example: p.example ?? d.example })));
 
+  db.meccaniche = raw.meccaniche?.items || [];
   db.byId.clear();
   const tag = (list, type) => list.forEach((it) => { it._type = type; db.byId.set(it.id, it); });
   tag(db.acts, 'act'); tag(db.missions, 'mission'); tag(db.districts, 'district');
   tag(db.collectibles, 'collectible'); tag(db.activities, 'activity'); tag(db.characters, 'character');
-  tag(db.radio, 'radio'); tag(db.brands, 'brand'); tag(db.tips, 'tip'); tag(db.collectibleCategories, 'category'); tag(db.vehicles, 'vehicle'); tag(db.weapons, 'weapon'); tag(db.news, 'news'); tag(db.trophies, 'trophy'); tag(db.pois, 'poi'); tag(db.luoghi, 'luogo'); tag(db.guide, 'guida'); tag(db.teorie, 'teoria');
+  tag(db.radio, 'radio'); tag(db.brands, 'brand'); tag(db.tips, 'tip'); tag(db.collectibleCategories, 'category'); tag(db.vehicles, 'vehicle'); tag(db.weapons, 'weapon'); tag(db.news, 'news'); tag(db.trophies, 'trophy'); tag(db.pois, 'poi'); tag(db.luoghi, 'luogo'); tag(db.guide, 'guida'); tag(db.teorie, 'teoria'); tag(db.meccaniche, 'mechanic');
 
   db.missions.sort((a, b) => actNum(a.actId) - actNum(b.actId) || (a.chapter || 0) - (b.chapter || 0) || (a.order || 0) - (b.order || 0));
   db.ready = true;
@@ -72,6 +73,6 @@ export const TYPE_ROUTE = {
   activity: (it) => `/atlante/${it.districtId || ''}`, character: (it) => `/personaggi/${it.id}`,
   radio: (it) => `/cultura/${it.id}`, brand: (it) => `/cultura/${it.id}`, tip: (it) => `/news?tipo=guide#${it.id}`,
   act: (it) => `/missioni?atto=${it.id}`, category: (it) => `/collezionabili?cat=${it.id}`,
-  vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
+  mechanic: (it) => `/meccaniche/${it.id}`, vehicle: (it) => `/veicoli/${it.id}`, weapon: (it) => `/armi/${it.id}`, news: (it) => `/novita/${it.id}`, poi: (it) => `/atlante/${it.districtId}/${it.id}`,
   luogo: (it) => `/mappa/luogo/${it.slug}`, guida: (it) => `/news/${it.id}`, teoria: (it) => `/news?tipo=teorie`,
 };

@@ -22,8 +22,9 @@ import * as veicoli from './views/veicoli.js';
 import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
+import * as meccaniche from './views/meccaniche.js';
 
-window.__LEONIDA_VERSION__ = 'v0.20.1';
+window.__LEONIDA_VERSION__ = 'v0.20.2';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -63,6 +64,7 @@ function renderAltro() {
 const views = {
   '/': sessione.render,
   '/missioni/:id?': missioni.render,
+  '/meccaniche/:id?': (p, q) => meccaniche.render(p, q),
   '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
   '/armi/:id?': armi.render,
@@ -217,6 +219,7 @@ function bindGlobal() {
   veicoli.bind(root, rerender);
   trofei.bind(root, rerender);
   armi.bind(root, rerender);
+  meccaniche.bind(root, rerender);
   let qt = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   let mq = null;
