@@ -12,7 +12,7 @@ import { img, TERRITORY_SLUGS } from './atlante.js';
 import { currentMission, isFound } from './shared.js';
 
 const BASES = {
-  giorno: { src: 'assets/img/mappa/leonida-giorno.jpg', w: 2896, h: 3700, geo: true, tiles: 'standard' },
+  giorno: { src: 'assets/img/mappa/leonida-giorno-media.jpg', w: 2896, h: 3700, geo: true, tiles: 'standard' },
   poster: { src: 'assets/img/mappa-leonida.jpg', w: 1640, h: 2048, geo: false },
 };
 const WORLD = 4096, X0 = 1200, Y0 = 260;        // ritaglio fatto sulla mappa intera a zoom 3 (@2x)
@@ -77,7 +77,7 @@ export function boardHtml(districts) {
   const here = youAreHere();
   const hereHtml = here ? `<div class="mb-here" style="left:${here.x}px;top:${here.y}px" title="Tu sei qui"><span class="mb-here__pulse"></span><span class="mb-here__dot"></span><span class="mb-here__label">Tu sei qui</span></div>` : '';
   const pts = mapPoints();
-  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (regionOpen(q.districtId) ? (q.seen ? 'is-seen' : 'is-unseen') : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${q.kind === 'poi' && !q.img[0] ? '<svg aria-hidden="true"><use href="#i-pin"/></svg>' : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
+  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (regionOpen(q.districtId) ? (q.seen ? 'is-seen' : 'is-unseen') : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${!q.img[0] && !q.img[1] ? `<svg aria-hidden="true"><use href="#i-${q.kind === 'lmk' ? 'eye' : 'pin'}"/></svg>` : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
   const pins = pts.filter((q) => q.kind === 'luogo').map(pinOf).join('');
   const poiPins = pts.filter((q) => q.kind === 'poi').map(pinOf).join('');
   const lmkPins = pts.filter((q) => q.kind === 'lmk').map(pinOf).join('');
@@ -92,8 +92,7 @@ export function boardHtml(districts) {
   return `<div class="mapboard ${base.geo ? '' : 'is-poster'} is-locked" data-mode="${mode}" data-z="lo" data-style="${style}" data-layers="${Object.entries(layers).filter(([, v]) => v).map(([k]) => k).join(' ')}">
     <div class="mapboard__viewport">
       <div class="mapboard__content" style="width:${base.w}px;height:${base.h}px">
-        <img class="mapboard__base" src="${base.geo ? 'assets/img/mappa/leonida-giorno-anteprima.jpg' : base.src}" alt="Mappa di Leonida" draggable="false" width="${base.w}" height="${base.h}">
-        ${base.geo ? `<div class="mapboard__quads" aria-hidden="true">${[0, 1, 2, 3].map((i) => `<img src="assets/img/mappa/leonida-giorno-${i}.jpg" alt="" draggable="false" decoding="async">`).join('')}</div>` : ''}
+        <img class="mapboard__base" src="${base.src}" alt="Mappa di Leonida" draggable="false" width="${base.w}" height="${base.h}">
         <div class="mapboard__tiles" aria-hidden="true"></div>
         <div class="mapboard__layer mapboard__layer--foto"><svg class="mb-threads" width="${base.w}" height="${base.h}" viewBox="0 0 ${base.w} ${base.h}" aria-hidden="true">${threads}</svg>${photoHtml}</div>
         <div class="mapboard__layer mapboard__layer--lmk">${lmkPins}</div>
@@ -102,7 +101,8 @@ export function boardHtml(districts) {
         <div class="mapboard__layer mapboard__layer--territori">${badges}</div>
         <div class="mapboard__layer mapboard__layer--here">${hereHtml}</div>
       </div>
-      <button type="button" class="mb-explore" data-mb-tool="explore"><svg aria-hidden="true"><use href="#i-expand"/></svg><span>Esplora</span></button>
+      <div class="mb-banner" aria-live="polite">Stai esplorando: trascina e pizzica per muoverti</div>
+      <button type="button" class="mb-explore" data-mb-tool="explore"><svg aria-hidden="true"><use href="#i-lock"/></svg><span>Tocca per esplorare la mappa</span></button>
     </div>
     <div class="mapboard__tools">
       <div class="mb-mode" role="group" aria-label="Cosa mostrare"><button type="button" data-mb-mode="anteprima" aria-pressed="${mode === 'anteprima'}">Anteprima</button><button type="button" data-mb-mode="gioco" aria-pressed="${mode === 'gioco'}">Gioco</button></div>
@@ -115,26 +115,27 @@ export function boardHtml(districts) {
 }
 
 let pz = null, board = null;
-function lock(on) { if (!board) return; board.classList.toggle('is-locked', on); const b = board.querySelector('.mb-explore'); if (b) { b.querySelector('span').textContent = on ? 'Esplora' : 'Fine'; b.querySelector('use').setAttribute('href', on ? '#i-expand' : '#i-check'); } }
+function lock(on) { if (!board) return; board.classList.toggle('is-locked', on); const b = board.querySelector('.mb-explore'); if (b) { b.querySelector('span').textContent = on ? 'Tocca per esplorare la mappa' : 'Blocca la mappa'; b.querySelector('use').setAttribute('href', on ? '#i-lock' : '#i-check'); } }
 /** Tessere a zoom alto (z5) scaricate al volo da gtasixmap quando ti avvicini */
 function updateTiles() {
   if (!board || !pz) return;
   const base = BASES[board.dataset.style]; const layer = board.querySelector('.mapboard__tiles');
   if (!base?.geo) { layer.innerHTML = ''; return; }
   const { s } = pz.state();
-  if (s < 2.2 || !navigator.onLine) { layer.innerHTML = ''; return; }
+  // La base è leggera (metà risoluzione: Safari la disegna sempre intera); i dettagli arrivano a quadratini appena ingrandisci
+  if (s < 0.45 || !navigator.onLine) { layer.innerHTML = ''; return; }
   const vp = board.querySelector('.mapboard__viewport');
   const tl = pz.toContent(0, 0), br = pz.toContent(vp.clientWidth, vp.clientHeight);
-  const Z = 5, T = 512, F = (T * 2 ** Z) / WORLD;           // 4: i pixel a z5 sono 4 volte quelli della base
-  const size = T / F;                                        // 128px di base per tessera
+  const Z = s < 0.95 ? 3 : s < 1.9 ? 4 : 5, T = 512;
+  const size = WORLD / 2 ** Z;                               // pixel di base coperti da una tessera
   const x0 = Math.max(0, Math.floor((tl.x + X0) / size)), x1 = Math.min(2 ** Z - 1, Math.floor((br.x + X0) / size));
   const y0 = Math.max(0, Math.floor((tl.y + Y0) / size)), y1 = Math.min(2 ** Z - 1, Math.floor((br.y + Y0) / size));
   const want = new Set();
-  for (let tx = x0; tx <= x1; tx++) for (let ty = y0; ty <= y1; ty++) want.add(`${tx},${ty}`);
+  for (let tx = x0; tx <= x1; tx++) for (let ty = y0; ty <= y1; ty++) want.add(`${Z},${tx},${ty}`);
   for (const el of [...layer.children]) if (!want.has(el.dataset.t)) el.remove();
   for (const key of want) {
     if (layer.querySelector(`[data-t="${key}"]`)) continue;
-    const [tx, ty] = key.split(',').map(Number);
+    const [, tx, ty] = key.split(',').map(Number);
     const im = document.createElement('img'); im.dataset.t = key; im.decoding = 'async'; im.referrerPolicy = 'no-referrer'; im.draggable = false;
     im.style.cssText = `left:${tx * size - X0}px;top:${ty * size - Y0}px;width:${size}px;height:${size}px`;
     im.src = `${TILE_HOST}/${base.tiles}/${Z}/${tx}/${ty}@2x.webp?v=13`;
@@ -186,12 +187,12 @@ export function focusPoint(key) {
 export function mount(root) {
   board = root.querySelector('.mapboard'); if (!board) { pz = null; return; }
   const vp = board.querySelector('.mapboard__viewport'), content = board.querySelector('.mapboard__content');
-  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: (st) => { updateTiles(); if (board) board.dataset.z = st.s > 0.55 ? 'hi' : st.s > 0.32 ? 'mid' : 'lo'; } });
+  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: (st) => { updateTiles(); if (board) board.dataset.z = st.s > 1 ? 'hi' : st.s > 0.55 ? 'mid' : 'lo'; } });
   const baseImg = board.querySelector('.mapboard__base');
   const start = () => { pz.fit(); const p = prefs(); if (p.view && board.dataset.style !== 'poster') { pz.flyTo(p.view.cx, p.view.cy, p.view.s, { animate: false }); } };
   // Blocco: finché è bloccata, il dito scorre la pagina; un tocco la sblocca, un tocco fuori la riblocca
   document.addEventListener('pointerdown', (e) => { if (board && !board.contains(e.target) && !board.classList.contains('is-full') && !e.target.closest('.sheet, .sheet-backdrop, #dossier')) lock(true); }, { passive: true });
-  if (baseImg.complete) start(); else baseImg.addEventListener('load', start, { once: true });
+  start(); // la misura del contenuto è nello stile: non serve aspettare l'immagine
   // ricorda dove eri
   let t = null; vp.addEventListener('pointerup', () => { clearTimeout(t); t = setTimeout(() => { const st = pz.state(); const c = pz.toContent(vp.clientWidth / 2, vp.clientHeight / 2); savePref('view', { cx: c.x, cy: c.y, s: st.s }); }, 400); });
 }

@@ -157,7 +157,7 @@ function index(zona, q) {
   const needle = (q || '').toLowerCase();
   const list = needle ? all.filter((l) => (l.name + ' ' + (l.lead || '')).toLowerCase().includes(needle)) : all;
   return `${sectionHead(section, `${ds.length} regioni`)}
-    <p class="map-hint"><svg aria-hidden="true"><use href="#i-expand"/></svg><span>La mappa è ferma e la pagina scorre. Tocca <b>Esplora</b> per spostarla e ingrandirla.</span></p>
+    <p class="map-hint"><svg aria-hidden="true"><use href="#i-lock"/></svg><span>La mappa è <b>bloccata</b> e la pagina scorre. Tocca «Tocca per esplorare» per muoverla e ingrandirla; quando hai finito, «Blocca la mappa».</span></p>
     ${mapboard.boardHtml(ds)}
     <input class="input" type="search" placeholder="Cerca un luogo o un quartiere…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin:var(--s-4) 0 var(--s-3)">
     ${needle ? `<div class="placegrid" style="margin-bottom:var(--s-4)">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>` : ''}
