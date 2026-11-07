@@ -110,6 +110,12 @@ export function render() {
 
 /** Dove sei nella storia: fatta · in corso · prossima, con un pulsante per avanzare */
 function whereCard(st) {
+  // Prima dell'uscita: bloccata sotto un lucchetto
+  if (new Date(db.meta.releaseDate + 'T00:00:00') > Date.now()) {
+    return `<section class="where where--locked"><div class="where__text"><span class="kicker">Dove sei nella storia</span>
+      <b><svg class="where__lockico" aria-hidden="true"><use href="#i-lock"/></svg> Si sblocca il 19 novembre</b>
+      <p class="small muted">Da quel giorno segni qui la missione in corso e la guida accende personaggi, regioni e consigli fino a lì.</p></div></section>`;
+  }
   const missions = vis(db.missions);
   const curIdx = missions.findIndex((m) => st.missions[m.id]?.state === 'in-corso');
   const lastDoneIdx = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);

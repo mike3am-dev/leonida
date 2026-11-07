@@ -22,7 +22,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.14.3';
+window.__LEONIDA_VERSION__ = 'v0.14.4';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;

@@ -1415,3 +1415,9 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .step3__arrow { position: absolute; right: -10px; top: 50%; width: 14px; height: 14px; margin-top: -7px; color: var(--ink-3); z-index: 1; }
 .where .actions { margin: var(--s-3) 0 0; }
 @container (max-width: 460px) { .steps3 { grid-template-columns: 1fr; } .step3__arrow { display: none; } }
+
+/* Dove sei: bloccata fino all'uscita */
+.where--locked { background: var(--paper-2); border-color: var(--rule); filter: grayscale(1); opacity: .75; }
+.where--locked .kicker { color: var(--ink-3); }
+.where--locked b { display: flex; align-items: center; gap: 8px; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 1.2rem; margin: 6px 0; }
+.where__lockico { width: 22px; height: 22px; color: var(--ink-3); }
