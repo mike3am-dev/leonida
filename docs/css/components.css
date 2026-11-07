@@ -1621,3 +1621,14 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .sticker { grid-template-columns: 1fr !important; }
 .found-btn { width: 100%; justify-content: center; margin-bottom: var(--s-3); }
 .srcbadge { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--rule-strong); font-size: .66rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-3); vertical-align: 1px; white-space: nowrap; }
+/* Titoli: il Fraunces sceglie da solo la variante giusta per la dimensione (prima era forzato a «manifesto» e i titoli piccoli venivano stretti e sottili) */
+h1, h2, h4, .hero__text h1, .group-head h2 { font-optical-sizing: auto; font-variation-settings: "SOFT" 30, "WONK" 0 !important; letter-spacing: 0; }
+/* Niente capolettera: staccato dal resto della parola si leggeva «G ruppo» */
+.dropcap::first-letter { float: none !important; font: inherit !important; color: inherit !important; padding: 0 !important; line-height: inherit !important; }
+.mb-explore.is-nudge { animation: explore-nudge 1.2s cubic-bezier(.36,.07,.19,.97) both !important; }
+@keyframes explore-nudge {
+  0% { transform: translateX(-50%) scale(1); } 12% { transform: translateX(-50%) scale(1.18); box-shadow: 0 0 0 10px rgba(255,61,139,.35), 0 0 30px var(--magenta); }
+  24% { transform: translateX(calc(-50% - 8px)) scale(1.12); } 36% { transform: translateX(calc(-50% + 8px)) scale(1.12); }
+  48% { transform: translateX(calc(-50% - 6px)) scale(1.08); } 60% { transform: translateX(calc(-50% + 6px)) scale(1.06); }
+  80% { transform: translateX(-50%) scale(1.04); } 100% { transform: translateX(-50%) scale(1); }
+}

@@ -209,6 +209,11 @@ export function mount(root) {
   const start = () => { pz.fit(); const p = prefs(); if (p.view && board.dataset.style !== 'poster') { pz.flyTo(p.view.cx, p.view.cy, p.view.s, { animate: false }); } };
   // Blocco: finché è bloccata, il dito scorre la pagina; un tocco la sblocca, un tocco fuori la riblocca
   document.addEventListener('pointerdown', (e) => { if (board && !board.contains(e.target) && !board.classList.contains('is-full') && !e.target.closest('.sheet, .sheet-backdrop, #dossier')) lock(true); }, { passive: true });
+  // Pizzico con due dita sulla mappa bloccata: il tasto «Tocca per esplorare» sobbalza per farsi notare (la pagina non si blocca)
+  const nudge = () => { if (!board?.classList.contains('is-locked')) return; const b = board.querySelector('.mb-explore'); if (!b || b.classList.contains('is-nudge')) return; b.classList.add('is-nudge'); setTimeout(() => b.classList.remove('is-nudge'), 1300); };
+  vp.addEventListener('touchstart', (e) => { if (e.touches.length >= 2) nudge(); }, { passive: true });
+  vp.addEventListener('gesturestart', nudge, { passive: true });
+  vp.addEventListener('wheel', (e) => { if (e.ctrlKey) nudge(); }, { passive: true });
   start(); // la misura del contenuto è nello stile: non serve aspettare l'immagine
   // ricorda dove eri
   let t = null; vp.addEventListener('pointerup', () => { clearTimeout(t); t = setTimeout(() => { const st = pz.state(); const c = pz.toContent(vp.clientWidth / 2, vp.clientHeight / 2); savePref('view', { cx: c.x, cy: c.y, s: st.s }); }, 400); });

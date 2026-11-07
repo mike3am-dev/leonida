@@ -23,7 +23,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.18.1';
+window.__LEONIDA_VERSION__ = 'v0.19.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -90,7 +90,7 @@ function followBar() {
 }
 
 const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
-let lastMatch = null, dossierPath = null;
+let lastMatch = null, dossierPath = null, lastLeftHtml = '';
 /* Posizione di ogni voce nella cronologia: serve a chiudere TUTTO il fascicolo con un tocco fuori,
    anche dopo aver navigato dentro (si torna all'indice da cui l'avevi aperto, non alla scheda prima). */
 let curPos = 0, dossierStart = 0;
@@ -156,7 +156,10 @@ function render(match, { dir, refresh } = {}) {
 
   const isOpener = (h) => !h || /class="opener"/.test(h);
   $('page-top').innerHTML = !detail && out.top ? `<div class="page__inner">${out.top}</div>` : '';
-  left.innerHTML = !detail ? `<div class="page__inner">${out.left || ''}</div>` : '';
+  // Se l'indice sotto non è cambiato (chiusura di una scheda senza modifiche) non lo ridisegno: niente lampo delle foto
+  const newLeft = !detail ? `<div class="page__inner">${out.left || ''}</div>` : '';
+  const leftChanged = newLeft !== lastLeftHtml || !left.innerHTML;
+  if (leftChanged) { left.innerHTML = newLeft; lastLeftHtml = newLeft; }
   right.innerHTML = detail ? `<div class="page__inner">${out.right || ''}</div>` : (isOpener(out.right) ? '' : `<div class="page__inner">${out.right}</div>`);
   spread.dataset.show = out.show || 'left';
   spread.scrollTop = keepScroll !== null ? keepScroll : 0;
@@ -169,7 +172,7 @@ function render(match, { dir, refresh } = {}) {
   }
   lastKey = key; lastMatch = match;
 
-  if (match.path.startsWith('/mappa') && !detail) atlante.afterRender($('app'));
+  if (match.path.startsWith('/mappa') && !detail && (leftChanged || /[?&]punto=/.test(location.hash))) atlante.afterRender($('app'), { remount: leftChanged });
   $('tabbar').innerHTML = navHtml(match.path, false);
   $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar(); kickImages();

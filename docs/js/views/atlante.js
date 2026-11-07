@@ -203,8 +203,8 @@ function openGsm(marker) {
 }
 
 let pending = null;
-export function afterRender(root) {
-  mapboard.mount(root);
+export function afterRender(root, { remount = true } = {}) {
+  if (remount) mapboard.mount(root);
   // «Mostra sulla mappa»: il punto resta in attesa qualche secondo, così sopravvive a un eventuale secondo disegno della pagina
   const punto = new URLSearchParams(location.hash.split('?')[1] || '').get('punto');
   if (punto) { pending = { key: punto, t: Date.now() }; history.replaceState(history.state, '', '#/mappa'); }

@@ -2165,7 +2165,6 @@
       "imageCredit": "Frame dell'Extended Look (discorso all'inaugurazione Megamundo, scheda «Unnamed Businessman») via GTA Wiki (gta.fandom.com)"
     },
     {
-      "image": "assets/img/vice/personaggi/chr-aunt-tee.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2182,9 +2181,7 @@
       "relations": [
         "chr-raymond"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/06/GTAVI-Aunt-Tee.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "Frame dell'Extended Look via GTA Wiki (gta.fandom.com)"
+      "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
       "image": null,
@@ -2285,7 +2282,6 @@
       "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
-      "image": "assets/img/vice/personaggi/chr-shanese.png",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -2300,9 +2296,7 @@
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "imageUrl": "https://gta.wiki/images/Shanese-GTAVI-Trailer1-SnapmaticProfilePicture.png",
-      "imageCredit": "Foto profilo Snapmatic @Shaneycee, frame del Trailer 1 via GTA Wiki (gta.wiki)"
+      "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
       "image": "assets/img/vice/personaggi/chr-hammer-lady.png",
@@ -2705,7 +2699,6 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "image": "assets/img/vice/personaggi/chr-kenny-brewster.png",
       "gallery": [],
       "status": "da verificare",
       "source": "community",
@@ -2713,7 +2706,6 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/KennyBrewster-GTAVI-OfficialScreenshot-BrianHeder03.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false
     },
     {
@@ -2725,7 +2717,6 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "image": "assets/img/vice/personaggi/chr-gutless-wonders.png",
       "gallery": [],
       "status": "da verificare",
       "source": "community",
@@ -2733,7 +2724,6 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/GutlessWonders-GTAVI-OfficialScreenshot-CalHampton02.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false
     },
     {

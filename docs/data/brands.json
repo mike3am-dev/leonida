@@ -305,7 +305,6 @@
       "imageCredit": "Logo Sinfrontera National Bank (SNB) dal trailer 2; solo una delle banche della voce, da GTA Wiki"
     },
     {
-      "image": "assets/img/mondo/brd-catene-benzina.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -315,9 +314,7 @@
       "name": "Alpha, Arrow, Xero, Globe Oil, Gas Stop, LTD",
       "category": "Distributori",
       "description": "Le catene di carburante, con tre stazioni note. Tra i marchi c'è Globe Oil.",
-      "sourceUrl": "https://gta6locations.com/locations/",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/53/XeroGas-GTAVI-OfficialScreenshot-Ambrosia01.jpg/revision/latest?cb=20250518203032",
-      "imageCredit": "Distributore Xero dallo screenshot ufficiale di Ambrosia; solo una delle catene della voce, da GTA Wiki"
+      "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
       "image": null,
@@ -417,7 +414,6 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": "assets/img/mondo/brd-shipping.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -427,9 +423,7 @@
       "name": "Bilgeco, Boxtrax, Jetsam, Lando-Corp, Navitrak",
       "category": "Logistica",
       "description": "Le compagnie di spedizione sui container del porto.",
-      "sourceUrl": "https://gta6locations.com/locations/",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ea/Bilgeco-GTAV-Logo.png/revision/latest?cb=20170915101727",
-      "imageCredit": "Logo Bilgeco di GTA V (serie); una delle aziende della voce, da GTA Wiki"
+      "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
       "image": "assets/img/mondo/brd-poach.png",
@@ -619,15 +613,12 @@
       "name": "Peekhole",
       "category": "App",
       "description": "Piattaforma di abbonamento che parodia OnlyFans: il logo con QR code è su un manifesto all'ingresso del Jack of Hearts, lo strip club di Vice City. Il QR code funziona e rimanda al sito ufficiale di GTA VI. Il suo ruolo nel gioco non è ancora noto.",
-      "image": "assets/img/mondo/brd-peekhole.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-peekhole-parodie-onlyfans",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-peekhole-qr-code.jpg",
-      "imageCredit": "Fotogramma (sfocato) del logo Peekhole con QR code, da vice-central.com"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "brd-jack-of-hearts",
@@ -909,15 +900,12 @@
       "name": "Delights",
       "category": "Vita notturna",
       "description": "Club cabaret di Port Gellhorn sulla Interstate 404, con il parcheggio affollato di notte. Ricalca il Bambi's Dollhouse di Panama City.",
-      "image": "assets/img/mondo/brd-delights.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/2e/Delights-GTAVI-Trailer1.png/revision/latest?cb=20250927053551",
-      "imageCredit": "Insegna Delights dal trailer 1 (sfocata), da GTA Wiki"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "brd-starlet-motel",
