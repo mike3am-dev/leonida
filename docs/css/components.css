@@ -1427,3 +1427,88 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .notesbox .block__head { align-items: center; }
 .info-btn { width: 28px; height: 28px; border-radius: 50%; border: 1.5px solid var(--rule-strong); background: none; color: var(--ink-2); font-weight: 700; font-size: .85rem; cursor: pointer; }
 .notesbox .note-mini { margin-bottom: 6px; }
+
+/* ==========================================================
+   v0.16 — mappa ferma finché non tocchi Esplora, Polaroid sul mare col filo
+   ========================================================== */
+.mapboard.is-locked .mapboard__viewport { touch-action: pan-y; cursor: default; }
+.mapboard.is-locked .mapboard__content, .mapboard.is-locked .mapboard__content * { pointer-events: none !important; }
+.mapboard:not(.is-locked) .mapboard__viewport { touch-action: none; }
+.map-hint { display: flex; align-items: center; gap: 8px; margin: 0 0 var(--s-2); font-size: var(--fs-sm); color: var(--ink-2); }
+.map-hint b { color: var(--magenta); }
+.map-hint svg { width: 16px; height: 16px; flex: none; color: var(--magenta); }
+.mapboard:not([data-layers~="foto"]) .mapboard__layer--foto { display: none; }
+.mb-threads { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.mb-threads path { fill: none; stroke: #e5243b; stroke-width: 2.5px; vector-effect: non-scaling-stroke; stroke-linecap: round; filter: drop-shadow(0 2px 2px rgba(0,0,0,.45)); }
+.mb-thread__end { fill: #e5243b; stroke: #fff; stroke-width: 2px; vector-effect: non-scaling-stroke; }
+.mb-photo { position: absolute; padding: 14px 14px 0; background: #fbf7ee; border: 0; border-radius: 4px; box-shadow: 0 14px 30px rgba(0,0,0,.55); transform: rotate(var(--rot)); transform-origin: 50% 0; cursor: pointer; text-align: center; transition: box-shadow .2s; }
+.mb-photo__img { display: block; aspect-ratio: 1; background: #ddd; overflow: hidden; }
+.mb-photo__img img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(1.1) contrast(1.05); }
+.mb-photo__cap { display: block; padding: 10px 4px 16px; font-family: var(--font-hand); font-size: 46px; line-height: 1; color: #2a2230; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* puntina da bacheca di sughero */
+.mb-photo__pin { position: absolute; left: 50%; top: -14px; width: 40px; height: 40px; margin-left: -20px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ff8a8a 0 18%, #e5243b 40%, #8f0f1f 100%); box-shadow: 0 6px 8px rgba(0,0,0,.5); z-index: 1; }
+.mb-photo.is-active { box-shadow: 0 0 0 10px #e5243b, 0 18px 36px rgba(0,0,0,.6); }
+
+/* Ruota delle armi: numeri grandi con il gradiente dei numeri delle regioni */
+.wheel__count { font-family: var(--font-gta); font-size: 21px; fill: url(#wheel-num) !important; stroke: rgba(11,10,15,.85); stroke-width: 2.4px; paint-order: stroke; letter-spacing: .04em; }
+.wheel__slice.is-empty .wheel__count { fill: var(--ink-3) !important; }
+.wheel__label { font-size: 7.4px; }
+/* Da fare qui: numeri leggibili */
+.zonestats__bar b { font-family: var(--font-gta); font-size: 2rem; line-height: .9; letter-spacing: .03em; background: linear-gradient(180deg, #ff8a3d, #ff3d8b 60%, #ff5a5f); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.zonestats__bar b small { font-family: var(--font-text); font-size: .85rem; -webkit-text-fill-color: var(--ink-3); margin-left: 2px; }
+
+/* Scheda regione: chi e cosa c'è, in alto */
+.zone__who { display: grid; gap: var(--s-3); margin: var(--s-3) 0 var(--s-2); padding: var(--s-3); border-radius: var(--radius-sm); background: var(--paper-2); }
+.zone__who .chips { margin-top: 6px; }
+.zone__body > .kicker { display: block; margin: var(--s-4) 0 var(--s-2); }
+.zone__photos { display: flex; gap: var(--s-2); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; margin-bottom: var(--s-3); scrollbar-width: none; }
+.zone__photos figure { flex: none; width: min(78%, 360px); margin: 0; scroll-snap-align: start; }
+.zone__photos img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-sm); display: block; }
+.zone__photos figcaption { font-size: var(--fs-xs); color: var(--ink-3); margin-top: 4px; }
+.guidelink { grid-template-columns: 96px minmax(0, 1fr) auto; }
+.guidelink b { font-family: var(--font-display); font-size: 1.25rem; }
+.guidelink__arrow { width: 20px; height: 20px; color: var(--accent); margin-right: 6px; }
+.source-line { display: none; }
+.callout--lock { display: flex; gap: 10px; align-items: flex-start; border-color: var(--magenta); }
+.callout--lock svg { width: 20px; height: 20px; flex: none; color: var(--magenta); margin-top: 2px; }
+
+/* Figurine e schede degli animali */
+.sticker__emoji { font-size: 3rem; line-height: 1; filter: grayscale(1) opacity(.55); transition: filter .5s var(--ease); }
+.sticker.is-found .sticker__emoji { filter: none; }
+.sticker__img { position: relative; }
+.fhead { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: var(--s-3); align-items: start; margin-bottom: var(--s-3); }
+.fhead__img { aspect-ratio: 1; border-radius: 12px; overflow: hidden; display: grid; place-items: center; background: linear-gradient(135deg, var(--paper-2), var(--bg-2)); }
+.fhead__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fhead__img .sticker__emoji { filter: none; font-size: 3.4rem; }
+.fhead__short { font-family: var(--font-display); font-style: italic; font-size: 1.1rem; line-height: 1.35; margin: 0 0 var(--s-2); }
+.fsec { padding: var(--s-3) 0; border-top: var(--hair) solid var(--rule); }
+.fsec__t { margin: 0 0 6px; font-size: var(--fs-xs); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-family: var(--font-text); }
+.fsec p { margin: 0; line-height: 1.45; }
+.flist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.flist li { display: grid; gap: 1px; line-height: 1.35; }
+.flist li b { font-weight: 600; }
+.flist li span { color: var(--ink-2); font-size: var(--fs-sm); }
+.flist--tips li { padding-left: 18px; position: relative; font-size: var(--fs-sm); }
+.flist--tips li::before { content: "💡"; position: absolute; left: 0; font-size: .8rem; }
+.fphotos { display: flex; gap: var(--s-2); overflow-x: auto; }
+.fphotos figure { flex: none; width: 130px; margin: 0; }
+.fphotos figure > span { display: block; aspect-ratio: 1; overflow: hidden; border-radius: 8px; }
+.fphotos img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fphotos figcaption { font-size: var(--fs-xs); color: var(--ink-3); margin-top: 3px; }
+.chip--act { background: color-mix(in srgb, var(--teal) 14%, transparent); border-color: color-mix(in srgb, var(--teal) 50%, transparent); }
+.chip--danger-0, .chip--danger-1 { color: var(--teal); }
+.chip--danger-2 { color: var(--orange); border-color: var(--orange); }
+.chip--danger-3 { color: #ff4d5e; border-color: #ff4d5e; }
+/* Legenda sotto la mappa: la mappa resta libera, le Polaroid di sinistra si vedono */
+.mapboard { display: flex !important; flex-direction: column; }
+.mapboard__tools { position: static !important; display: flex !important; flex-wrap: wrap; gap: 6px; padding: 8px; background: rgba(11,10,15,.92); order: 2; }
+.mapboard__tools .mb-tool { height: 36px; min-width: 0; border-radius: 18px; grid-template-columns: 34px auto; padding-right: 12px; }
+.mapboard__tools .mb-tool svg { width: 17px; height: 17px; }
+.mapboard__tools .mb-tool__label { font-size: .72rem; }
+.mapboard__tools .mb-tool__sep { width: 1px; height: auto; margin: 4px 2px; }
+.mapboard.is-full .mapboard__viewport { flex: 1; }
+.mapboard.is-full .mapboard__tools { padding-bottom: calc(var(--safe-b) + 8px); }
+.mb-explore { right: auto !important; left: 12px; }
+.mb-threads path { stroke-width: 3px; }
+.zonestats__bar b { font-family: var(--font-display); font-style: italic; font-weight: 700; font-size: 1.7rem; letter-spacing: 0; }
+.album-head__num { font-family: var(--font-display); font-style: italic; font-weight: 800; letter-spacing: -.02em; }

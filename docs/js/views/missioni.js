@@ -91,7 +91,17 @@ function detail(m) {
   const list = (arr, empty) => arr?.length ? `<ul>${arr.map((t) => `<li>${esc(typeof t === 'string' ? t : t.label || t.title || JSON.stringify(t))}</li>`).join('')}</ul>` : `<p class="muted small">${esc(empty)}</p>`;
   const idx = vis(db.missions).filter((x) => x.actId === m.actId).indexOf(m) + 1;
   const actLabel = (() => { const a = db.acts.find((x) => x.id === m.actId); return a ? (a.number === 0 ? 'Prologo' : `Capitolo ${a.number}`) : ''; })();
+  // Niente paradossi: si comincia solo se la missione prima è completata
+  const all = vis(db.missions); const pi = all.indexOf(m); const prevM = pi > 0 ? all[pi - 1] : null;
+  const blocked = !state && prevM && st.missions[prevM.id]?.state !== 'completata';
+  const prevLabel = prevM ? (() => { const a = db.acts.find((x) => x.id === prevM.actId); const i = all.filter((x) => x.actId === prevM.actId).indexOf(prevM) + 1; return `${a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''} · Missione ${pad2(i)}`; })() : '';
+  const blockedHtml = `<div class="callout callout--lock"><svg aria-hidden="true"><use href="#i-lock"/></svg><span><b>Prima finisci quella precedente.</b> Questa si sblocca quando segni come completata la ${esc(prevLabel)}.</span></div>
+    <div class="actions"><a class="btn btn--ghost" href="#/missioni/${esc(prevM?.id || '')}">Vai alla missione precedente</a></div>`;
   if (!shown) {
+    if (blocked) return `
+    ${backLink('/missioni', 'Missioni')}
+    <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(actLabel)} · Missione ${pad2(idx)}</span><h1>Bloccata</h1><p class="lede">Nome, luogo e personaggi restano nascosti finché non la cominci. Niente spoiler.</p></div></div>
+    ${blockedHtml}`;
     return `
     ${backLink('/missioni', 'Missioni')}
     <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(actLabel)} · Missione ${pad2(idx)}</span><h1>Bloccata</h1><p class="lede">Nome, luogo e personaggi restano nascosti finché non la cominci. Niente spoiler.</p></div></div>
@@ -105,12 +115,14 @@ function detail(m) {
     ${backLink('/missioni', 'Missioni')}
     ${hero(m, { kicker: `${esc(actLabel)} · Missione ${pad2(idx)}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
     <div class="prose">${spoiler.wrap(m, `<p class="lede">${esc(m.summary || 'Nessun riassunto ancora.')}</p>`)}</div>
+    ${blocked ? blockedHtml : ''}
     <div class="actions">
       ${state === 'in-corso'
         ? `<button class="btn btn--accent" data-mission="${esc(m.id)}" data-set="completata"><svg aria-hidden="true"><use href="#i-check"/></svg>Completata</button>
            <button class="btn btn--ghost" data-mission="${esc(m.id)}" data-set="">Interrompi</button>`
         : state === 'completata'
         ? `<button class="btn btn--ghost" data-mission="${esc(m.id)}" data-set="in-corso">Rigioco</button><button class="btn btn--ghost" data-mission="${esc(m.id)}" data-set="">Segna non completata</button>`
+        : blocked ? ''
         : `<button class="btn btn--solid" data-mission="${esc(m.id)}" data-set="in-corso"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizio adesso</button>
            <button class="btn btn--ghost" data-mission="${esc(m.id)}" data-set="completata">Già fatta</button>`}
       <button class="btn btn--ghost" data-action="note" data-mission-ctx="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
@@ -127,7 +139,7 @@ function detail(m) {
       ${acc('Consigli', `<div class="prose">${list(m.tips, 'Nessun consiglio ancora: aggiungili dopo averla giocata.')}</div>`)}
       ${acc('Segreti', m.secrets?.length ? spoiler.wrap(m, `<div class="prose">${list(m.secrets)}</div>`, 'Segreti') : '<p class="muted small">Nessun segreto registrato.</p>')}
     </div>
-    <p class="source-line">Fonte: ${esc(m.source)} · aggiornato ${esc(m.updatedAt || '—')}</p>`;
+`;
 }
 
 export function render(params) {

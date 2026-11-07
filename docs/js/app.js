@@ -8,6 +8,7 @@ import { buildIndex } from './search.js';
 import * as spoiler from './spoiler.js';
 import { startPosture, isOpen } from './posture.js';
 import { esc, toast } from './ui/dom.js';
+import { closeSheet } from './ui/sheet.js';
 import { SECTIONS } from './views/shared.js';
 import * as sessione from './views/sessione.js';
 import * as missioni from './views/missioni.js';
@@ -22,7 +23,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.15.0';
+window.__LEONIDA_VERSION__ = 'v0.16.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -66,7 +67,7 @@ const views = {
   '/veicoli/:id?': veicoli.render,
   '/armi/:id?': armi.render,
   '/news/:id?': novita.render,
-  '/mondo/:id?': editoriale.renderMondo,
+  '/mondo/:id?': (p, q) => editoriale.renderMondo(p, q),
   '/trofei': (p, q) => trofei.render(p, q),
   '/collezionabili': collezionabili.render,
   '/personaggi/:id?': (p, q) => editoriale.renderPersonaggi(p, q),
@@ -90,6 +91,14 @@ function followBar() {
 
 const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
 let lastMatch = null, dossierPath = null;
+/* Posizione di ogni voce nella cronologia: serve a chiudere TUTTO il fascicolo con un tocco fuori,
+   anche dopo aver navigato dentro (si torna all'indice da cui l'avevi aperto, non alla scheda prima). */
+let curPos = 0, dossierStart = 0;
+function trackPos() {
+  if (history.state && typeof history.state.pos === 'number') curPos = history.state.pos;
+  else { curPos += 1; history.replaceState({ ...(history.state || {}), pos: curPos }, '', location.href); }
+}
+function closeAllDossier() { const n = curPos - dossierStart + 1; if (n >= 1) history.go(-n); else history.back(); }
 const sectionOfPath = (p) => SECTIONS.find((s) => p === s.path || (s.path !== '/' && p.startsWith(s.path)));
 
 /* ---------- Fascicolo: la scheda scivola da destra sopra l'indice, che resta dov'è ---------- */
@@ -98,14 +107,14 @@ function openDossier(html, { replace = false } = {}) {
   if (!d) {
     d = document.createElement('aside'); d.id = 'dossier'; d.className = 'dossier';
     d.innerHTML = `<div class="dossier__backdrop"></div><div class="dossier__panel" role="dialog" aria-modal="true"><div class="dossier__inner page__inner"></div></div>`;
-    d.querySelector('.dossier__backdrop').addEventListener('click', () => history.back());
+    d.querySelector('.dossier__backdrop').addEventListener('click', closeAllDossier);
     $('app').append(d);
   }
   const inner = d.querySelector('.dossier__inner');
   const keep = replace ? d.querySelector('.dossier__panel').scrollTop : 0;
   inner.innerHTML = html;
   const panel = d.querySelector('.dossier__panel'); panel.scrollTop = keep;
-  if (!replace) { d.classList.remove('is-closing'); void d.offsetWidth; d.classList.add('is-open'); }
+  if (!replace) { dossierStart = curPos; d.classList.remove('is-closing'); void d.offsetWidth; d.classList.add('is-open'); }
   document.body.classList.add('has-dossier');
 }
 function closeDossier() {
@@ -120,6 +129,7 @@ function render(match, { dir, refresh } = {}) {
     const hit = Object.keys(REDIRECT).find((k) => raw === k || raw.startsWith(k + '/') || raw.startsWith(k + '?'));
     router.go(hit ? raw.replace(hit, REDIRECT[hit]) : '/', { replace: true }); return;
   }
+  if (!refresh) { trackPos(); closeSheet(); }
   currentRender = () => render(router.parse() || match, { refresh: true });
   const out = match.route.handler(match.params, match.query);
   const spread = $('main');
@@ -188,7 +198,9 @@ function bindGlobal() {
   trofei.bind(root, rerender);
   armi.bind(root, rerender);
   let qt = null;
-  root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(null, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
+  root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
+  let mq = null;
+  root.addEventListener('input', (e) => { const q = e.target.closest('[data-mondo-q]'); if (!q) return; clearTimeout(mq); mq = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/mondo?q=${encodeURIComponent(v)}` : '#/mondo'); rerender(); const n = document.querySelector('[data-mondo-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   root.addEventListener('click', (e) => {
     const d = e.target.closest('[data-discover]'); if (d) { progress.toggleDiscovered(d.dataset.discover); rerender(); return; }
     const a = e.target.closest('[data-action]');
@@ -220,7 +232,7 @@ function bindGlobal() {
   // Cambio di postura (apri/chiudi il Duo): ridisegna conservando pagina e scroll
   let wasOpen = isOpen();
   addEventListener('resize', () => { const now = isOpen(); if (now !== wasOpen) { wasOpen = now; rerender(); } });
-  addEventListener('keydown', (e) => { if (e.key === 'Escape' && dossierPath) history.back(); });
+  addEventListener('keydown', (e) => { if (e.key === 'Escape' && dossierPath && !document.querySelector('.sheet')) closeAllDossier(); });
   matchMedia('(prefers-color-scheme: light)').addEventListener('change', applyTheme);
   progress.subscribe(followBar);
   document.addEventListener('leonida:rerender', rerender);

@@ -35,7 +35,7 @@ export function parse(hash = location.hash) {
 
 export function go(path, { replace = false } = {}) {
   const h = '#' + path;
-  if (replace) history.replaceState(null, '', h); else location.hash = path;
+  if (replace) history.replaceState(history.state, '', h); else location.hash = path;
   if (replace) dispatch();
 }
 

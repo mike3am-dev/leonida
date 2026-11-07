@@ -45,13 +45,13 @@ export function render(params, query = {}) {
           <div class="trophy__desc">${spoiler.text(t, t.description || '')}</div>
           ${t.guide ? `<div class="small muted">${esc(t.guide)}</div>` : ''}
           <div class="chips" style="margin-top:4px">${statusChip(t)}</div></div>
-      </div>`; }).join(''), true)}</div>`; }).join('')}`;
+      </div>`; }).join(''), false)}</div>`; }).join('')}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Trofei' };
 }
 
 export function bind(root, rerender) {
   let t = null;
-  root.addEventListener('input', (e) => { const q = e.target.closest('[data-trophy-q]'); if (!q) return; clearTimeout(t); t = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(null, '', v ? `#/trofei?q=${encodeURIComponent(v)}` : '#/trofei'); rerender(); const n = document.querySelector('[data-trophy-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
+  root.addEventListener('input', (e) => { const q = e.target.closest('[data-trophy-q]'); if (!q) return; clearTimeout(t); t = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/trofei?q=${encodeURIComponent(v)}` : '#/trofei'); rerender(); const n = document.querySelector('[data-trophy-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   root.addEventListener('click', (e) => {
     const b = e.target.closest('[data-trophy]');
     if (b) { progress.toggleTrophy(b.dataset.trophy); rerender(); }

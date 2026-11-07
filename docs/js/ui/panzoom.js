@@ -3,7 +3,10 @@
  * viewport: il riquadro fisso; content: l'elemento che si sposta e si ingrandisce.
  * Le coordinate "di contenuto" sono in pixel del contenuto a scala 1.
  */
-export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.12, onChange } = {}) {
+export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.12, onChange, enabled = () => true, cover = false } = {}) {
+  const minS0 = minScale;
+  /** Con cover: non si rimpicciolisce oltre il punto in cui la mappa riempie il riquadro */
+  const updateMin = () => { if (cover && cw && ch) minScale = Math.max(minS0, viewport.clientWidth / cw, viewport.clientHeight / ch); };
   let x = 0, y = 0, s = 1;
   let cw = content.offsetWidth, ch = content.offsetHeight;
   const pointers = new Map();
@@ -15,6 +18,7 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
     if (!raf) raf = requestAnimationFrame(() => { raf = null; onChange?.(state()); });
   };
   const clamp = () => {
+    updateMin(); if (s < minScale) s = minScale;
     const vw = viewport.clientWidth, vh = viewport.clientHeight;
     const w = cw * s, h = ch * s;
     // il contenuto copre sempre il riquadro: se è più piccolo sta al centro
@@ -29,12 +33,13 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
     clamp(); apply();
   };
   const fit = ({ animate = false } = {}) => {
-    cw = content.offsetWidth; ch = content.offsetHeight;
+    cw = content.offsetWidth; ch = content.offsetHeight; updateMin();
     const vw = viewport.clientWidth, vh = viewport.clientHeight;
-    s = Math.max(vw / cw, vh / ch); // copri il riquadro
+    const [px, py, ps] = [x, y, s];
+    s = Math.max(vw / cw, vh / ch); // copri il riquadro, centrata
     s = Math.max(minScale, Math.min(maxScale, s));
-    x = (vw - cw * s) / 2; y = Math.min(0, (vh - ch * s) / 2); clamp();
-    if (animate) animateTo(x, y, s); else apply();
+    x = (vw - cw * s) / 2; y = (vh - ch * s) / 2; clamp();
+    if (animate) { const [tx, ty, ts] = [x, y, s]; x = px; y = py; s = ps; animateTo(tx, ty, ts); } else apply();
   };
   let anim = null;
   const animateTo = (tx, ty, ts, ms = 600) => {
@@ -57,6 +62,7 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
 
   const pos = (e) => { const r = viewport.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
   viewport.addEventListener('pointerdown', (e) => {
+    if (!enabled()) return;
     if (e.button !== 0 && e.pointerType === 'mouse') return;
     cancelAnimationFrame(anim);
     viewport.setPointerCapture(e.pointerId);
@@ -85,8 +91,8 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
     }
   };
   viewport.addEventListener('pointerup', up); viewport.addEventListener('pointercancel', up);
-  viewport.addEventListener('wheel', (e) => { e.preventDefault(); const p = pos(e); zoomAt(p.x, p.y, s * (e.deltaY < 0 ? 1.15 : 1 / 1.15)); }, { passive: false });
-  viewport.addEventListener('dblclick', (e) => { const p = pos(e); zoomAt(p.x, p.y, s * 2); });
+  viewport.addEventListener('wheel', (e) => { if (!enabled()) return; e.preventDefault(); const p = pos(e); zoomAt(p.x, p.y, s * (e.deltaY < 0 ? 1.15 : 1 / 1.15)); }, { passive: false });
+  viewport.addEventListener('dblclick', (e) => { if (!enabled()) return; const p = pos(e); zoomAt(p.x, p.y, s * 2); });
   const ro = new ResizeObserver(() => { clamp(); apply(); });
   ro.observe(viewport);
 

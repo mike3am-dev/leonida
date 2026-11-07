@@ -19,6 +19,13 @@ const WORLD = 4096, X0 = 1200, Y0 = 260;        // ritaglio fatto sulla mappa in
 const TILE_HOST = 'https://tiles.gtasixmap.com/tiles';
 export const toPx = (x, y) => ({ x: WORLD * (x + 6000) / 12000 - X0, y: WORLD * (6000 - y) / 12000 - Y0 });
 
+/** Dove stanno le Polaroid: sul mare, vicino alla regione (pixel della mappa base 2896×3700) */
+const PHOTO_POS = {
+  'dis-mount-kalaga': [2440, 450], 'dis-port-gellhorn': [300, 640], 'dis-ambrosia': [270, 1330], 'dis-waning-sands': [2690, 1020],
+  'dis-capri': [250, 1980], 'dis-vice-city': [2720, 1600], 'dis-vice-beach': [2720, 2180], 'dis-grassrivers': [380, 2640],
+  'dis-hamlet': [2380, 2820], 'dis-keys': [2330, 3300],
+};
+const PW = 340, PH = 410;
 const luoghi = () => (db.luoghi || []).filter((l) => l.xy);
 const subPlaces = () => luoghi().filter((l) => !TERRITORY_SLUGS[l.slug]);
 /** Dove sei: la regione della missione in corso; prima dell'inizio, il penitenziario di Hamlet */
@@ -51,47 +58,36 @@ export function boardHtml(districts) {
   const here = youAreHere();
   const hereHtml = here ? `<div class="mb-here" style="left:${here.x}px;top:${here.y}px" title="Tu sei qui"><span class="mb-here__pulse"></span><span class="mb-here__dot"></span><span class="mb-here__label">Tu sei qui</span></div>` : '';
   const pins = subPlaces().map((l) => { const c = toPx(l.xy[0], l.xy[1]); return `<button type="button" class="mb-pin" style="left:${c.x}px;top:${c.y}px" data-mb-luogo="${esc(l.slug)}" aria-label="${esc(l.name)}">${img(l.hero?.local, l.hero?.src)}</button>`; }).join('');
-  const polaroidsArr = ds.map((d, i) => `<button type="button" class="polaroid" style="--rot:${((i * 7) % 11) - 5}deg;--i:${i}" data-mb-fly="${esc(d.id)}"><span class="polaroid__tape"></span><span class="polaroid__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}</span><span class="polaroid__cap">${esc(d.name.replace(' National Park', ''))}</span></button>`);
+  // Polaroid appiccicate sul mare, con il filo rosso fino al centro della regione (coordinate della mappa)
+  const photos = ds.filter((d) => PHOTO_POS[d.id]).map((d, i) => {
+    const [px, py] = PHOTO_POS[d.id], c = centers[d.id];
+    return { d, i, px, py, c, rot: ((i * 7) % 11) - 5 };
+  });
+  const threads = photos.map(({ px, py, c }) => { const ax = px, ay = py - PH / 2 + 18; const mx = (ax + c.x) / 2, my = Math.max(ay, c.y) + 90; return `<path d="M${ax} ${ay} Q${mx} ${my} ${c.x} ${c.y}"/><circle class="mb-thread__end" cx="${c.x}" cy="${c.y}" r="11"/>`; }).join('');
+  const photoHtml = photos.map(({ d, px, py, rot }) => `<button type="button" class="mb-photo" style="left:${px - PW / 2}px;top:${py - PH / 2}px;width:${PW}px;--rot:${rot}deg" data-mb-fly="${esc(d.id)}" aria-label="${esc(d.name)}"><span class="mb-photo__pin"></span><span class="mb-photo__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}</span><span class="mb-photo__cap">${esc(d.name.replace(' National Park', ''))}</span></button>`).join('');
   const tool = (k, icon, label, on) => `<button type="button" class="mb-tool ${on ? 'is-on' : ''}" data-mb-tool="${k}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}"><svg aria-hidden="true"><use href="#i-${icon}"/></svg><span class="mb-tool__label">${esc(label)}</span></button>`;
   return `<div class="mapboard ${base.geo ? '' : 'is-poster'} is-locked" data-style="${style}" data-layers="${Object.entries(layers).filter(([, v]) => v).map(([k]) => k).join(' ')}">
     <div class="mapboard__viewport">
       <div class="mapboard__content" style="width:${base.w}px;height:${base.h}px">
         <img class="mapboard__base" src="${base.src}" alt="Mappa di Leonida" draggable="false" width="${base.w}" height="${base.h}">
         <div class="mapboard__tiles" aria-hidden="true"></div>
-        <div class="mapboard__layer mapboard__layer--territori">${badges}</div>
+        <div class="mapboard__layer mapboard__layer--foto"><svg class="mb-threads" width="${base.w}" height="${base.h}" viewBox="0 0 ${base.w} ${base.h}" aria-hidden="true">${threads}</svg>${photoHtml}</div>
         <div class="mapboard__layer mapboard__layer--luoghi">${pins}</div>
+        <div class="mapboard__layer mapboard__layer--territori">${badges}</div>
         <div class="mapboard__layer mapboard__layer--here">${hereHtml}</div>
       </div>
-      <div class="mapboard__photos">${polaroidsArr.join('')}</div>
-      <svg class="mapboard__string" aria-hidden="true"><path d=""/><circle r="5"/><circle r="5"/></svg>
       <button type="button" class="mb-explore" data-mb-tool="explore"><svg aria-hidden="true"><use href="#i-expand"/></svg><span>Esplora</span></button>
     </div>
     <div class="mapboard__tools">
       ${tool('territori', 'map', 'Regioni', layers.territori)}${tool('luoghi', 'pin', 'Punti d’interesse', layers.luoghi)}${tool('foto', 'photo', 'Foto', layers.foto)}
       <span class="mb-tool__sep"></span>
-      ${tool('here', 'target', 'Tu sei qui', false)}${tool('full', 'expand', 'Schermo intero', false)}
+      ${tool('here', 'target', 'Tu sei qui', false)}${tool('fit', 'map', 'Centra', false)}${tool('full', 'expand', 'Schermo intero', false)}
     </div>
   </div>`;
 }
 
-let pz = null, board = null, stringFrom = null;
+let pz = null, board = null;
 function lock(on) { if (!board) return; board.classList.toggle('is-locked', on); const b = board.querySelector('.mb-explore'); if (b) { b.querySelector('span').textContent = on ? 'Esplora' : 'Fine'; b.querySelector('use').setAttribute('href', on ? '#i-expand' : '#i-check'); } }
-function drawString() {
-  if (!board) return;
-  const svg = board.querySelector('.mapboard__string');
-  if (!stringFrom || !pz) { svg.classList.remove('is-on'); return; }
-  const vp = board.querySelector('.mapboard__viewport'); const r = vp.getBoundingClientRect();
-  const pol = board.querySelector(`[data-mb-fly="${stringFrom.id}"]`); if (!pol) return;
-  const pr = pol.getBoundingClientRect();
-  const a = { x: pr.left + pr.width / 2 - r.left, y: pr.top + 6 - r.top };
-  const b = pz.toScreen(stringFrom.x, stringFrom.y);
-  b.x = Math.max(6, Math.min(r.width - 6, b.x)); b.y = Math.max(6, Math.min(r.height - 6, b.y));
-  const cx = (a.x + b.x) / 2, cy = Math.min(a.y, b.y) - 30;
-  svg.querySelector('path').setAttribute('d', `M${a.x} ${a.y} Q${cx} ${cy} ${b.x} ${b.y}`);
-  const [c1, c2] = svg.querySelectorAll('circle'); c1.setAttribute('cx', a.x); c1.setAttribute('cy', a.y); c2.setAttribute('cx', b.x); c2.setAttribute('cy', b.y);
-  svg.classList.add('is-on');
-}
-
 /** Tessere a zoom alto (z5) scaricate al volo da gtasixmap quando ti avvicini */
 function updateTiles() {
   if (!board || !pz) return;
@@ -125,7 +121,7 @@ function districtSheet(d) {
   body.innerHTML = `${d.image ? `<img class="pop__img" src="${esc(d.image)}" alt="">` : ''}
     <p class="small" style="margin:var(--s-2) 0">${esc(d.tagline || d.description?.slice(0, 160) || '')}</p>
     ${places.length ? `<div class="chips" style="margin-bottom:var(--s-3)">${places.slice(0, 6).map((l) => `<a class="chip" href="#/mappa/luogo/${esc(l.slug)}">${esc(l.name)}</a>`).join('')}${places.length > 6 ? `<span class="chip">+${places.length - 6}</span>` : ''}</div>` : ''}
-    <div class="actions" style="margin-bottom:0"><button class="btn btn--solid" type="button" data-zone-go="${esc(d.id)}">Apri il territorio</button><a class="btn btn--ghost" href="#/mappa/${esc(d.id)}">Scheda completa</a></div>`;
+    <div class="actions" style="margin-bottom:0"><button class="btn btn--solid" type="button" data-zone-go="${esc(d.id)}">Apri la regione</button></div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a, [data-zone-go]')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: d.name, body });
 }
@@ -143,8 +139,7 @@ function luogoSheet(l) {
 export function mount(root) {
   board = root.querySelector('.mapboard'); if (!board) { pz = null; return; }
   const vp = board.querySelector('.mapboard__viewport'), content = board.querySelector('.mapboard__content');
-  stringFrom = null;
-  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, onChange: () => { drawString(); updateTiles(); } });
+  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: () => { updateTiles(); } });
   const baseImg = board.querySelector('.mapboard__base');
   const start = () => { pz.fit(); const p = prefs(); if (p.view && board.dataset.style !== 'poster') { pz.flyTo(p.view.cx, p.view.cy, p.view.s, { animate: false }); } };
   // Blocco: finché è bloccata, il dito scorre la pagina; un tocco la sblocca, un tocco fuori la riblocca
@@ -158,7 +153,7 @@ function setStyle(style) {
   const base = BASES[style]; const content = board.querySelector('.mapboard__content'), im = board.querySelector('.mapboard__base');
   board.dataset.style = style; board.classList.toggle('is-poster', !base.geo);
   content.style.width = base.w + 'px'; content.style.height = base.h + 'px'; im.src = base.src; im.width = base.w; im.height = base.h;
-  pz.setContentSize(base.w, base.h); pz.fit({ animate: true }); stringFrom = null; drawString(); updateTiles();
+  pz.setContentSize(base.w, base.h); pz.fit({ animate: true }); updateTiles();
   const pb = board.querySelector('[data-mb-tool="poster"]'); pb.classList.toggle('is-on', !base.geo); pb.setAttribute('aria-pressed', !base.geo);
   savePref('style', style);
 }
@@ -172,21 +167,21 @@ export function bind(root) {
       if (['territori', 'luoghi', 'foto'].includes(k)) {
         const on = !tool.classList.contains('is-on'); tool.classList.toggle('is-on', on); tool.setAttribute('aria-pressed', on);
         const set = new Set(board.dataset.layers.split(' ').filter(Boolean)); on ? set.add(k) : set.delete(k); board.dataset.layers = [...set].join(' '); savePref(k, on);
-        if (k === 'foto' && !on) { stringFrom = null; drawString(); }
       } else if (k === 'stile') { setStyle(board.dataset.style === 'notte' ? 'giorno' : 'notte'); }
       else if (k === 'explore') { lock(!board.classList.contains('is-locked')); }
-      else if (k === 'here') { const h = youAreHere(); if (h) { lock(false); stringFrom = null; drawString(); const vw = board.querySelector('.mapboard__viewport').clientWidth; pz.flyTo(h.x, h.y, Math.max(pz.state().s, (vw / 2896) * 2.6)); } }
-      else if (k === 'full') { const on = board.classList.toggle('is-full'); document.body.classList.toggle('has-map-full', on); tool.querySelector('use').setAttribute('href', on ? '#i-close' : '#i-expand'); tool.querySelector('.mb-tool__label').textContent = on ? 'Chiudi' : 'Schermo intero'; lock(!on); setTimeout(() => { pz.fit(); drawString(); }, 50); }
+      else if (k === 'fit') { pz.fit({ animate: true }); }
+      else if (k === 'here') { const h = youAreHere(); if (h) { const vw = board.querySelector('.mapboard__viewport').clientWidth; pz.flyTo(h.x, h.y, Math.max(pz.state().s, (vw / 2896) * 2.6)); } }
+      else if (k === 'full') { const on = board.classList.toggle('is-full'); document.body.classList.toggle('has-map-full', on); tool.querySelector('use').setAttribute('href', on ? '#i-close' : '#i-expand'); tool.querySelector('.mb-tool__label').textContent = on ? 'Chiudi' : 'Schermo intero'; lock(!on); setTimeout(() => { pz.fit(); }, 50); }
       return;
     }
     if (pz?.wasDragging()) return;
     const fly = e.target.closest('[data-mb-fly]');
     if (fly) {
       const c = districtCenters()[fly.dataset.mbFly]; if (!c) return;
-      board.querySelectorAll('.polaroid.is-active').forEach((p) => p.classList.remove('is-active')); fly.classList.add('is-active');
+      board.querySelectorAll('.mb-photo.is-active').forEach((p) => p.classList.remove('is-active')); fly.classList.add('is-active');
       board.querySelectorAll('.mb-badge.is-active').forEach((p) => p.classList.remove('is-active')); board.querySelector(`[data-mb-district="${fly.dataset.mbFly}"]`)?.classList.add('is-active');
       const vw = board.querySelector('.mapboard__viewport').clientWidth; const target = Math.max(pz.state().s, (vw / 2896) * 2.6);
-      stringFrom = { id: fly.dataset.mbFly, ...c }; pz.flyTo(c.x, c.y, target); return;
+      pz.flyTo(c.x, c.y, target); return;
     }
     const bd = e.target.closest('[data-mb-district]'); if (bd) { const d = byId(bd.dataset.mbDistrict); if (d) districtSheet(d); return; }
     const pin = e.target.closest('[data-mb-luogo]'); if (pin) { const l = (db.luoghi || []).find((x) => x.slug === pin.dataset.mbLuogo); if (l) luogoSheet(l); }

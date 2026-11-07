@@ -95,13 +95,12 @@ function luogoDetail(l) {
     <div class="block">${(l.sections || []).map((s, i) => acc(s.title, `<div class="prose">${(s.paragraphs || []).map((p) => `<p>${esc(p)}</p>`).join('')}${s.bullets?.length ? `<ul>${s.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>` : ''}</div>`, i === 0)).join('')}</div>
     ${l.landmarks?.length ? `<div class="block"><header class="section-head section-head--sub"><div><span class="kicker">Da trovare</span><h2>Punti di riferimento</h2></div><span class="count">${found} / ${l.landmarks.length}</span></header>
       <p class="small muted">Posti identificati nei video ufficiali. I nomi vengono dalle insegne; gli abbinamenti con il mondo reale sono ricerca della community. Spunta quelli che hai trovato.</p>
-      ${landmarkRows(l)}<p class="source-line">Foto: Rockstar Games, ritagliate e abbinate da gtadb.org e collaboratori (CC BY 4.0).</p></div>` : ''}
+      ${landmarkRows(l)}</div>` : ''}
     ${l.tips?.length ? `<div class="callout callout--tips"><span class="kicker">Consigli dell'esploratore</span><ul>${l.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
     ${l.gallery?.length ? `<div class="block"><span class="kicker">Screenshot ufficiali</span><div class="gallery gallery--cap">${l.gallery.map((g) => `<figure>${img(g.local, g.src)}<figcaption>${esc(g.alt)}</figcaption></figure>`).join('')}</div></div>` : ''}
     ${l.faq?.length ? `<div class="block">${acc('Domande frequenti', `<div class="faq">${l.faq.map((f) => `<div class="faq__item"><b>${esc(f.q)}</b><p>${esc(f.a)}</p></div>`).join('')}</div>`, true)}</div>` : ''}
     ${near ? `<div class="block"><span class="kicker">Nei dintorni</span><div class="nearrow">${near}</div></div>` : ''}
-    ${l.note ? `<p class="small muted">${esc(l.note)}</p>` : ''}
-    <p class="source-line">Scheda tradotta da <a href="${esc(l.url)}" target="_blank" rel="noopener">gtasixmap.com</a>${l.updated ? ` · aggiornata il ${esc(l.updated)}` : ''}. Fonti: ${(l.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')}</p>`;
+    ${l.note ? `<p class="small muted">${esc(l.note)}</p>` : ''}`;
 }
 
 function zoneStats(b) {
@@ -110,7 +109,9 @@ function zoneStats(b) {
 }
 export const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
 
-/* ---------- Schede dei territori ---------- */
+/* ---------- Schede delle regioni ----------
+   Ordine pensato per chi gioca: chi e cosa c'è (in alto, subito) → cosa mi resta da fare → la guida → i posti. */
+const chipLink = (name, places) => { const l = places.find((x) => x.name.toLowerCase().startsWith(name.toLowerCase().split(/[,(]/)[0].trim())); return l ? `<a class="chip chip--btn" href="#/mappa/luogo/${esc(l.slug)}">${esc(name)}</a>` : `<span class="chip">${esc(name)}</span>`; };
 function zoneCard(d, expanded, num = 0) {
   const b = zoneBreakdown(d);
   const chars = vis(db.characters).filter((c) => c.districtId === d.id);
@@ -118,20 +119,25 @@ function zoneCard(d, expanded, num = 0) {
   const mainSlug = Object.keys(TERRITORY_SLUGS).find((k) => TERRITORY_SLUGS[k] === d.id);
   const main = mainSlug ? luoghi().find((l) => l.slug === mainSlug) : null;
   const places = luoghi().filter((l) => l.districtId === d.id && l.slug !== mainSlug);
+  const subs = (d.subAreas || []).map((a) => typeof a === 'string' ? a : a.name);
+  const photos = [...(d.gallery || []).filter(Boolean).map((src) => ({ src })), ...(d.galleryX || [])];
   const body = `<div class="zone__body">
+      ${subs.length || chars.length ? `<div class="zone__who">
+        ${subs.length ? `<div><span class="kicker">Quartieri e zone</span><div class="chips">${subs.map((n) => chipLink(n, luoghi().filter((l) => l.districtId === d.id))).join('')}</div></div>` : ''}
+        ${chars.length ? `<div><span class="kicker">Chi ci vive</span><div class="chips">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div></div>` : ''}
+      </div>` : ''}
       ${d.tagline ? `<p class="lede">${esc(d.tagline)}</p>` : ''}
       <div class="prose">${spoiler.wrap(d, `<p>${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
       ${b.total ? zoneStats(b) : ''}
-      ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida della regione</span><b>${esc(main.name)}: ${esc((main.lead || '').slice(0, 90))}…</b><span class="small muted">${main.landmarks?.length || 0} punti da trovare · domande frequenti · dintorni</span></span></a>` : ''}
-      ${places.length ? `<span class="kicker">Luoghi e quartieri</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
-      ${galleryHtml(d)}
-      ${d.subAreas?.length ? `<span class="kicker">Quartieri e zone</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${d.subAreas.map((a) => `<span class="chip" title="${esc(typeof a === 'string' ? '' : a.note || '')}">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div>` : ''}
-      ${chars.length ? `<span class="kicker">Chi ci vive</span><div class="chips" style="margin:var(--s-2) 0 var(--s-4)">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div>` : ''}
+      ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
           <span class="poi__thumb">${p.image ? `<img src="${esc(p.image)}" alt="">` : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
           <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${p.status !== 'verificato' ? ' · ' + (SRC[p.source] || 'da verificare') : ''}</span>
           <span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>` : ''}
-      <div class="actions"><a class="btn btn--solid" href="#/mappa/${esc(d.id)}">Scheda completa</a><button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>
+      ${places.length ? `<span class="kicker">Luoghi con la loro guida</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
+      ${photos.length ? `<span class="kicker">Foto</span><div class="zone__photos">${photos.map((g) => `<figure><img src="${esc(g.src)}" ${g.url ? `data-fallback="${esc(g.url)}"` : ''} alt="" loading="lazy">${g.caption ? `<figcaption>${esc(g.caption)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}
+      ${d.insight ? acc('Approfondimento', `<div class="prose prose--guide">${d.inspiration ? `<p><b>Ispirato a:</b> ${esc(d.inspiration)}</p>` : ''}${insightHtml(d.insight)}${d.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${d.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}</div>`) : ''}
+      <div class="actions">${discoverBtn(d, { label: 'Scoperta', doneLabel: 'Scoperta ✓', auto: isFound(d) && !progress.get().discovered?.[d.id] })}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>
     </div>`;
   return `<article class="zone ${expanded ? 'is-open' : ''}" id="zona-${esc(d.id)}">${num ? `<span class="bignum-over zone__num" aria-hidden="true">${String(num).padStart(2, '0')}</span>` : ''}
     <button class="zone__head" type="button" data-zone-toggle="${esc(d.id)}" aria-expanded="${expanded}">
@@ -150,57 +156,27 @@ function index(zona, q) {
   const all = luoghi();
   const needle = (q || '').toLowerCase();
   const list = needle ? all.filter((l) => (l.name + ' ' + (l.lead || '')).toLowerCase().includes(needle)) : all;
-  return `${sectionHead(section, `${ds.length} regioni · ${all.length} luoghi`)}
+  return `${sectionHead(section, `${ds.length} regioni`)}
+    <p class="map-hint"><svg aria-hidden="true"><use href="#i-expand"/></svg><span>La mappa è ferma e la pagina scorre. Tocca <b>Esplora</b> per spostarla e ingrandirla.</span></p>
     ${mapboard.boardHtml(ds)}
-    <p class="atlas-note">«Esplora» sblocca la mappa (trascina e pizzica); i numeri sono le regioni, le foto-pin i punti d’interesse, le Polaroid volano sulla regione. Con lo zoom alto arrivano le tessere di dettaglio da gtasixmap (serve la connessione). Mappa della community: YANIS v16, GTA VI Mapping Community via gtasixmap.com.</p>
-    <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>
-    ${all.length ? `<div class="block" id="luoghi"><header class="section-head section-head--sub"><div><span class="kicker">Catalogo</span><h2>Luoghi e quartieri</h2></div><span class="count">${list.length}</span></header>
-      <p class="small muted">Le regioni sono sopra. Qui sotto i luoghi dentro ogni regione: quartieri, isole, paesi, punti famosi, in ordine di storia. Ognuno con la sua guida.</p>
-      <input class="input" type="search" placeholder="Cerca un luogo…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin-bottom:var(--s-3)">
-      ${needle ? `<div class="placegrid">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>`
-        : ds.map((d) => { const inZone = list.filter((l) => l.districtId === d.id && TERRITORY_SLUGS[l.slug] !== d.id); return inZone.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${ZONE_EMOJI[d.id] || '📍'}</span><div><h2>${esc(d.name)}</h2><p>${esc(d.region || '')}</p></div></div><div class="placegrid">${inZone.map(luogoCard).join('')}</div>` : ''; }).join('')}</div>` : ''}`;
+    <input class="input" type="search" placeholder="Cerca un luogo o un quartiere…" value="${esc(q || '')}" data-luogo-q aria-label="Cerca un luogo" style="margin:var(--s-4) 0 var(--s-3)">
+    ${needle ? `<div class="placegrid" style="margin-bottom:var(--s-4)">${list.map(luogoCard).join('') || '<p class="muted small">Nessun luogo con questo nome.</p>'}</div>` : ''}
+    <div class="zones">${ds.map((d, i) => zoneCard(d, d.id === zona, i + 1)).join('')}${extra ? zoneCard(extra, extra.id === zona) : ''}</div>`;
 }
 
 const ZONE_EMOJI = { 'dis-vice-city': '🌆', 'dis-vice-beach': '🏖️', 'dis-keys': '🌴', 'dis-grassrivers': '🐊', 'dis-port-gellhorn': '⚓', 'dis-ambrosia': '🌾', 'dis-mount-kalaga': '⛰️', 'dis-waning-sands': '🏘️', 'dis-hamlet': '🚜', 'dis-capri': '🚤' };
 
-function detail(d) {
-  const b = zoneBreakdown(d);
-  const chars = vis(db.characters).filter((c) => c.districtId === d.id);
-  const pois = d.pois || [];
-  const st = progress.get();
-  const places = luoghi().filter((l) => l.districtId === d.id);
-  const missions = vis(db.missions).filter((m) => m.districtId === d.id), cols = vis(db.collectibles).filter((c) => c.districtId === d.id), acts = vis(db.activities).filter((a) => a.districtId === d.id);
-  return `
-    ${backLink('/mappa?zona=' + d.id, 'Mappa')}
-    ${hero(d, { kicker: d.region || 'Leonida', title: d.name, lede: d.tagline || '', chips: statusChip(d) })}
-    <div class="actions">${discoverBtn(d, { label: 'Scoperta', doneLabel: 'Scoperta ✓', auto: isFound(d) && !progress.get().discovered?.[d.id] })}<button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>
-    ${b.total ? zoneStats(b) : ''}
-    <div class="block prose">${spoiler.wrap(d, `<p class="dropcap">${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
-    ${places.length ? `<div class="block"><span class="kicker">Schede dei luoghi (${places.length})</span><div class="placegrid">${places.map(luogoCard).join('')}</div></div>` : ''}
-    ${galleryHtml(d)}
-    ${d.insight ? `<div class="block">${acc('Approfondimento (vice-central.com)', `<div class="prose prose--guide">${d.inspiration ? `<p><b>Ispirato a:</b> ${esc(d.inspiration)}</p>` : ''}${insightHtml(d.insight)}${d.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(d.toSee) ? d.toSee.join(' · ') : d.toSee)}</p>` : ''}${d.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(d.whoYouMeet) ? d.whoYouMeet.join(', ') : d.whoYouMeet)}</p>` : ''}${d.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${d.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(d.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
-    ${d.subAreas?.length ? `<div class="block"><span class="kicker">Quartieri e zone</span><div class="chips" style="margin-top:var(--s-2)">${d.subAreas.map((a) => `<span class="chip" title="${esc(typeof a === 'string' ? '' : a.note || '')}">${esc(typeof a === 'string' ? a : a.name)}</span>`).join('')}</div></div>` : ''}
-    ${chars.length ? `<div class="block"><span class="kicker">Chi ci vive</span><div class="chips" style="margin-top:var(--s-2)">${chars.map((c) => `<button class="chip chip--btn" type="button" data-pop="${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</button>`).join('')}</div></div>` : ''}
-    <div class="block">
-      ${pois.length ? acc(`Punti d'interesse (${pois.length})`, `<div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}"><span class="poi__thumb">${p.image ? `<img src="${esc(p.image)}" alt="">` : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span><span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}</span><span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>`, true) : ''}
-      ${acc(`Missioni qui (${missions.length})`, missions.length ? missions.map((m, i) => row({ href: `#/missioni/${m.id}`, num: String(i + 1).padStart(2, '0'), title: esc(m.title), done: st.missions[m.id]?.state === 'completata' })).join('') : '<p class="muted small">Nessuna missione registrata.</p>')}
-      ${acc(`Collezionabili qui (${cols.length})`, cols.length ? cols.map((c) => { const done = !!st.collectibles[c.id]; return `<div class="check" data-done="${done}"><button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button><div class="check__body"><div class="check__title">${esc(c.name)}</div><div class="check__meta">${esc(byId(c.categoryId)?.name || '')}</div></div></div>`; }).join('') : '<p class="muted small">Nessun collezionabile registrato.</p>')}
-      ${acc(`Attività (${acts.length})`, acts.length ? acts.map((a) => { const done = st.activities[a.id] === 'completata'; return `<div class="check" data-done="${done}"><button class="check__box" role="checkbox" aria-checked="${done}" data-activity="${esc(a.id)}" aria-label="${esc(a.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button><div class="check__body"><div class="check__title">${esc(a.name)}</div><div class="check__meta">${esc(a.description || '')}</div></div></div>`; }).join('') : '<p class="muted small">Nessuna attività registrata.</p>')}
-    </div>
-    <p class="source-line">Fonte: ${esc(d.source)}${d.sourceUrl ? ` · <a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
-}
-
 function poiDetail(d, p) {
   const chars = vis(db.characters).filter((c) => (p.characterIds || []).includes(c.id));
   return `
-    ${backLink('/mappa/' + d.id, d.name)}
+    ${backLink('/mappa?zona=' + d.id, d.name)}
     ${hero(p, { kicker: `${d.name} · ${p.kind || 'Luogo'}`, title: p.name, lede: p.tagline || '', chips: statusChip(p) })}
     <div class="whats" style="margin-bottom:var(--s-4)">${whatThere(p)}</div>
     <div class="prose">${spoiler.wrap(p, `<p class="dropcap">${esc(p.description || 'Descrizione in arrivo.')}</p>`)}</div>
-    ${p.insight ? `<div class="block">${acc('Approfondimento (vice-central.com)', `<div class="prose prose--guide">${p.inspiration ? `<p><b>Ispirato a:</b> ${esc(p.inspiration)}</p>` : ''}${insightHtml(p.insight)}${p.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(p.toSee) ? p.toSee.join(' · ') : p.toSee)}</p>` : ''}${p.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(p.whoYouMeet) ? p.whoYouMeet.join(', ') : p.whoYouMeet)}</p>` : ''}${p.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${p.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(p.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
+    ${p.insight ? `<div class="block">${acc('Approfondimento', `<div class="prose prose--guide">${p.inspiration ? `<p><b>Ispirato a:</b> ${esc(p.inspiration)}</p>` : ''}${insightHtml(p.insight)}${p.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(p.toSee) ? p.toSee.join(' · ') : p.toSee)}</p>` : ''}${p.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(p.whoYouMeet) ? p.whoYouMeet.join(', ') : p.whoYouMeet)}</p>` : ''}${p.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${p.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(p.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
     ${chars.length ? `<div class="block"><span class="kicker">Chi lo frequenta</span><div class="chips" style="margin-top:var(--s-2)">${chars.map((c) => `<a class="chip" href="#/personaggi/${esc(c.id)}">${c.image ? `<img src="${esc(c.image)}" alt="">` : ''}${esc(c.name)}</a>`).join('')}</div></div>` : ''}
     <div class="actions"><button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto su questo luogo</button></div>
-    <p class="source-line">Fonte: ${esc(p.source)}${p.sourceUrl ? ` · <a href="${esc(p.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''} · in <a href="#/mappa/${esc(d.id)}">${esc(d.name)}</a></p>`;
+`;
 }
 
 export function render(params, query) {
@@ -210,9 +186,10 @@ export function render(params, query) {
   }
   const d = params.id ? byId(params.id) : null;
   const p = d && params.poi ? byId(params.poi) : null;
-  if (d) { progress.setCurrentDistrict(d.id); scrolledZona = null; }
-  const right = p ? poiDetail(d, p) : d ? detail(d) : '';
-  return { left: d ? '' : index(query.zona, query.q), right, show: d ? 'right' : 'left', accent: section.accent, title: p?.name || d?.name || 'Mappa' };
+  if (p) { progress.setCurrentDistrict(d.id); return { left: '', right: poiDetail(d, p), show: 'right', accent: section.accent, title: p.name }; }
+  // La «scheda completa» della regione non esiste più: è la scheda aperta nella pagina della Mappa
+  if (d) { progress.setCurrentDistrict(d.id); history.replaceState(history.state, '', `#/mappa?zona=${d.id}`); return { left: index(d.id, ''), right: '', show: 'left', accent: section.accent, title: d.name }; }
+  return { left: index(query.zona, query.q), right: '', show: 'left', accent: section.accent, title: 'Mappa' };
 }
 
 /** Mappa interattiva di gtasixmap, a tutto schermo, dentro l'app */
@@ -237,7 +214,7 @@ export function bind(root, rerender) {
       root.querySelectorAll('.zone.is-open').forEach((o) => { if (o !== z) { o.classList.remove('is-open'); o.querySelector('[data-zone-toggle]')?.setAttribute('aria-expanded', 'false'); } });
       z.classList.toggle('is-open', open); tg.setAttribute('aria-expanded', open);
       scrolledZona = open ? tg.dataset.zoneToggle : null;
-      history.replaceState(null, '', open ? `#/mappa?zona=${tg.dataset.zoneToggle}` : '#/mappa');
+      history.replaceState(history.state, '', open ? `#/mappa?zona=${tg.dataset.zoneToggle}` : '#/mappa');
       return;
     }
     const go = e.target.closest('[data-zone-go]');
@@ -255,6 +232,6 @@ export function bind(root, rerender) {
   let t = null;
   root.addEventListener('input', (e) => {
     const q = e.target.closest('[data-luogo-q]'); if (!q) return;
-    clearTimeout(t); t = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(null, '', v ? `#/mappa?q=${encodeURIComponent(v)}` : '#/mappa'); rerender(); const n = document.querySelector('[data-luogo-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250);
+    clearTimeout(t); t = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/mappa?q=${encodeURIComponent(v)}` : '#/mappa'); rerender(); const n = document.querySelector('[data-luogo-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250);
   });
 }

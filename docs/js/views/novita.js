@@ -111,6 +111,31 @@ const newsRow = (n) => `<a class="newsrow" href="#/news/${esc(n.id)}">
     <span class="newsrow__img">${newsImgTag(n)}</span>
     <span class="newsrow__body"><span class="newsrow__kicker">${esc(SRC_LABEL[n.source] || '')} · ${esc(TOPIC_LABEL[n.topic] || n.topic)}${n.outlet ? ' · ' + esc(n.outlet) : ''}</span><span class="newsrow__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</span><span class="newsrow__excerpt">${spoiler.isHidden(n) ? '' : esc((n.body || '').slice(0, 110))}…</span></span></a>`;
 
+/** Fonti e ringraziamenti: un posto solo, invece della riga «Fonte» in fondo a ogni scheda */
+const CREDITS = [
+  ['Rockstar Games', 'rockstargames.com', 'Trailer, screenshot, artwork e testi ufficiali di GTA VI.'],
+  ['GTA VI Mapping Community · YANIS v16', 'gtasixmap.com', 'La mappa di Leonida, le 44 schede dei luoghi, le tessere di dettaglio.'],
+  ['gtadb.org e collaboratori', 'gtadb.org', 'Punti di riferimento ritagliati e abbinati al mondo reale (CC BY 4.0).'],
+  ['Vice Central', 'vice-central.com', 'Personaggi, ruota delle armi, fauna, luoghi, teorie e analisi.'],
+  ['GTA6Bible', 'gta6bible.com', 'Veicoli, personaggi, armi e attività.'],
+  ['GTA Wiki', 'gta.fandom.com', 'Schede, scalette radio, foto dei veicoli.'],
+  ['GTABase', 'gtabase.com', 'Animali, armi e veicoli identificati dalla community.'],
+  ['La stampa', '', 'Game Informer, IGN, GameSpot, Eurogamer, PC Gamer, VG247, Push Square, Kotaku, Insider Gaming, Edge, Bloomberg, Multiplayer.it, Everyeye, Spaziogames.'],
+  ['La community', '', 'r/GTA6, GTAForums e il Discord dei mappatori: rumor e leak sono sempre etichettati.'],
+];
+function creditsHtml() {
+  const count = new Map();
+  const add = (u) => { try { const h = new URL(u).hostname.replace(/^www\./, ''); count.set(h, (count.get(h) || 0) + 1); } catch {} };
+  for (const k of ['missions', 'districts', 'collectibles', 'activities', 'characters', 'radio', 'brands', 'tips', 'vehicles', 'weapons', 'news', 'trophies', 'teorie']) for (const x of db[k] || []) if (x.sourceUrl) add(x.sourceUrl);
+  for (const l of db.luoghi || []) { if (l.url) add(l.url); for (const so of l.sources || []) add(so.url); }
+  const top = [...count.entries()].sort((a, b) => b[1] - a[1]).slice(0, 40);
+  return `<section class="block credits" id="fonti"><header class="section-head section-head--sub"><div><span class="kicker">In fondo, ma prima di tutto</span><h2>Fonti e ringraziamenti</h2></div></header>
+    <p class="small muted">Questa guida esiste grazie al lavoro di altri. Qui c'è chi ringraziare, una volta sola, invece di una riga in fondo a ogni scheda.</p>
+    <ul class="flist credits__list">${CREDITS.map(([n, h, t]) => `<li><b>${h ? `<a href="https://${h}" target="_blank" rel="noopener">${esc(n)}</a>` : esc(n)}</b><span>${esc(t)}</span></li>`).join('')}</ul>
+    ${acc('Tutti i siti citati', `<div class="chips">${top.map(([h, n]) => `<a class="chip" href="https://${esc(h)}" target="_blank" rel="noopener">${esc(h)} · ${n}</a>`).join('')}</div>`)}
+  </section>`;
+}
+
 export function render(params, query) {
   const it = params.id ? byId(params.id) : null;
   if (it) return { left: '', right: article(it), show: 'right', accent: section.accent, title: it.title };
@@ -147,6 +172,7 @@ export function render(params, query) {
     ${segmented(tipo)}
     ${featured[0] ? frontpage(featured[0]) : ''}
     <div class="cards cards--feat">${featured.slice(1).map((x) => card(x)).join('')}</div>
-    ${body}`;
+    ${body}
+    ${creditsHtml()}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'News' };
 }

@@ -35,7 +35,7 @@ export function bind(root) {
     const inp = e.target.closest('[data-search-form] input');
     if (!inp) return;
     const q = inp.value;
-    history.replaceState(null, '', '#/ricerca' + (q ? '?q=' + encodeURIComponent(q) : ''));
+    history.replaceState(history.state, '', '#/ricerca' + (q ? '?q=' + encodeURIComponent(q) : ''));
     root.querySelector('[data-results]').innerHTML = resultsHtml(q ? search(q, { showExamples: showEx() }) : [], q);
   });
   root.addEventListener('submit', (e) => { if (e.target.closest('[data-search-form]')) { e.preventDefault(); e.target.querySelector('input').blur(); } });

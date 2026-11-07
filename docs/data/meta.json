@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.11.1",
+  "dataVersion": "0.12.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.12.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Animali riscritti a sezioni (comportamento, cosa puoi fare, pericolo, razze, dove visto, lo sapevi); Cani, Serpenti, Squali e Anatre accorpati; foto inquadrate sull'animale o emoji se la foto non c'entra.",
+        "Mondo senza «Edizione»; fonti raccolte in News › Fonti e ringraziamenti."
+      ]
+    },
     {
       "version": "0.11.1",
       "date": "2026-11-07",

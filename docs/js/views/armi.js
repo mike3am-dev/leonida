@@ -30,12 +30,12 @@ export function wheel(counts, active, favs) {
     return `<a class="wheel__slice ${active === k ? 'is-active' : ''} ${c ? '' : 'is-empty'}" href="#/armi${active === k ? '' : '?cat=' + k}" aria-label="${esc(label)}: ${c} armi">
       <path d="${arc(a0, a1, R, r)}"/>
       ${f ? `<path class="wheel__fill" d="${arc(a0, a1, r + (R - r) * Math.min(1, f / Math.max(1, c)), r)}"/>` : ''}
-      <text x="${lx}" y="${ly - 6}" text-anchor="middle" class="wheel__label">${esc(short || label)}</text>
-      <text x="${lx}" y="${ly + 10}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
+      <text x="${lx}" y="${ly - 9}" text-anchor="middle" class="wheel__label">${esc(short || label)}</text>
+      <text x="${lx}" y="${ly + 13}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
   }).join('');
   const total = Object.values(counts).reduce((a, b) => a + b, 0);
   return `<svg class="wheel" viewBox="0 0 220 220" role="group" aria-label="Ruota delle armi">
-    <defs><radialGradient id="wheel-bg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="rgba(255,255,255,.06)"/><stop offset="1" stop-color="rgba(0,0,0,.35)"/></radialGradient></defs>
+    <defs><linearGradient id="wheel-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd166"/><stop offset=".45" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient><radialGradient id="wheel-bg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="rgba(255,255,255,.06)"/><stop offset="1" stop-color="rgba(0,0,0,.35)"/></radialGradient></defs>
     <circle cx="${cx}" cy="${cy}" r="${R + 4}" class="wheel__ring"/>
     ${slices}
     <a class="wheel__all" href="#/armi" aria-label="Tutte le armi"><circle cx="${cx}" cy="${cy}" r="${r - 4}" class="wheel__hub"/>
@@ -54,7 +54,7 @@ function detail(it) {
       <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
-    ${it.realModel || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}${it.ultimate ? '<dt>Edizione</dt><dd>Bonus Ultimate Edition</dd>' : ''}</dl>` : ''}
+    ${it.realModel || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}${it.ultimate ? '<dt>Bonus</dt><dd>Ultimate Edition</dd>' : ''}</dl>` : ''}
     ${it.insight ? `<div class="prose small"><p>${esc(it.insight)}</p><p class="source-line">Da <a href="https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/" target="_blank" rel="noopener">vice-central.com</a>.</p></div>` : ''}
     ${galleryHtml(it)}
     ${it.howToGet ? `<div class="block"><span class="kicker">Come ottenerla</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}

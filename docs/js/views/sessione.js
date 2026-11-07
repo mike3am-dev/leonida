@@ -46,8 +46,9 @@ export function render() {
   const trophies = Object.keys(st.trophies || {}).length, trophyTotal = (db.trophies || []).length;
   const tpct = trophyTotal ? Math.round(trophies / trophyTotal * 100) : 0;
   const di = dayIndex();
-  const tips = vis(db.tips); const tip = tips.length ? tips[di % tips.length] : null;
-  const radios = vis(db.radio); const radio = radios.length ? radios[di % radios.length] : null;
+  const rel = new Date(db.meta.releaseDate + 'T00:00:00');
+  const playSessions = (st.sessions || []).filter((x) => new Date(x.start) >= rel);
+  const playDays = new Set(playSessions.map((x) => x.start.slice(0, 10))).size;
   const circ = 2 * Math.PI * 54;
   const metCount = chars.filter(met).length, foundCount = zones.filter((z) => z.found).length;
 
@@ -83,7 +84,8 @@ export function render() {
       </div>
       <dl class="facts facts--row">
         <dt>Zona attuale</dt><dd>${st.current.districtId && byId(st.current.districtId) ? esc(byId(st.current.districtId).name) : '—'}</dd>
-        <dt>Prossima missione</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${esc(next.title)}</a>` : '—'}</dd>
+        <dt>Prossima missione</dt><dd>${next ? `<a href="#/missioni/${esc(next.id)}">${progress.settings().spoilerShield ? esc(`${(() => { const a = db.acts.find((x) => x.id === next.actId); return a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''; })()} · bloccata`) : esc(next.title)}</a>` : '—'}</dd>
+        <dt>Giorni di gioco</dt><dd>${Date.now() < rel ? 'dal 19 novembre' : `${playDays}${playSessions[0] ? ` · ultima volta ${esc(relTime(playSessions[0].end || playSessions[0].start))}` : ''}`}</dd>
         <dt>Appunti</dt><dd>${st.notes.length ? `<a href="#/diario">${st.notes.length}${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare` : ''}</a>` : '<a href="#/diario">scrivi il primo</a>'}</dd>
       </dl>
     </section>
@@ -97,11 +99,6 @@ export function render() {
       <div class="block__head"><span class="kicker">Regioni scoperte · ${foundCount} / ${zones.length}</span></div>
       <div class="zonestrip">${zones.map(({ d, s: z, found }) => `<button type="button" class="zcard ${found ? 'is-found' : 'is-locked'}" data-home-zone="${esc(d.id)}">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}<span class="zcard__veil"></span><span class="zcard__text"><b>${esc(d.name.replace(' National Park', ''))}</b><small>${found ? (z.total ? `${z.done} / ${z.total} fatti` : 'scoperto') : 'da scoprire'}</small>${found ? `<i class="progress"><i style="--p:${z.pct}%"></i></i>` : ''}</span></button>`).join('')}</div>
     </section>
-
-    <div class="duo">
-      ${tip ? `<button type="button" class="card card--tip" data-home-tip="${esc(tip.id)}"><span class="kicker kicker--accent">Lo sapevi?</span><h3>${esc(tip.title)}</h3><p class="small">${spoiler.isHidden(tip) ? '⚠ Contiene spoiler' : esc(tip.body.slice(0, 140))}…</p></button>` : ''}
-      ${radio ? `<a class="card card--radio" href="#/cultura/${esc(radio.id)}"><span class="vinyl vinyl--mini"><span class="vinyl__disc"></span>${radio.image ? `<img class="vinyl__label" src="${esc(radio.image)}" alt="">` : ''}</span><span><span class="kicker kicker--accent">In onda oggi</span><h3>${esc(radio.name)}</h3><p class="small muted">${esc(radio.genre || '')}${radio.host ? ' · ' + esc(radio.host) : ''}</p></span></a>` : ''}
-    </div>
 
     ${notesCard(st)}
 

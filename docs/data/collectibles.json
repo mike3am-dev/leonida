@@ -105,9 +105,45 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/alligator.jpg",
-      "group": "paludi"
+      "group": "paludi",
+      "emoji": "🐊",
+      "short": "L'animale simbolo di Leonida: è perfino sullo stemma dello Stato, mentre azzanna qualcuno.",
+      "behavior": "Vive nelle paludi ma sconfina: nel Trailer 1 finisce in una piscina e dentro un minimarket.",
+      "actions": [
+        "Cacciare"
+      ],
+      "danger": 2,
+      "dangerNote": "Red Bull dice che «può essere pericoloso». Non affrontarlo a mani nude.",
+      "seen": [
+        {
+          "where": "Everglades",
+          "what": "Trailer 1: due alligatori aspettano il pasto"
+        },
+        {
+          "where": "Una piscina",
+          "what": "Trailer 1: un addetto POACH lo tira fuori"
+        },
+        {
+          "where": "Un minimarket",
+          "what": "Trailer 1: ci entra, come nel caso Walmart del 2022"
+        },
+        {
+          "where": "Su un airboat",
+          "what": "Screenshot: tre cacciatori infangati posano con un alligatore morto"
+        }
+      ],
+      "trivia": [
+        "Specie nativa, nominata da Game Informer.",
+        "La scena della piscina richiama i post social di «OfficialPOACH».",
+        "L'arma migliore per cacciarlo è ancora da verificare."
+      ],
+      "imageFocus": [
+        50,
+        55,
+        1.4
+      ]
     },
     {
       "id": "col-fauna-iguana",
@@ -122,9 +158,31 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
-      "group": "domestici"
+      "group": "domestici",
+      "emoji": "🦎",
+      "short": "Specie invasiva nominata da Game Informer: la trovi in città e nelle Keys.",
+      "behavior": "Prende il sole sulle rocce e attraversa strade e parcheggi.",
+      "seen": [
+        {
+          "where": "Ocean Beach",
+          "what": "Trailer 1: sulla spalla di un senzatetto che chiede l'elemosina"
+        },
+        {
+          "where": "Leonida Keys",
+          "what": "Screenshot: al sole su una roccia e in un parcheggio"
+        },
+        {
+          "where": "Trailer di lancio",
+          "what": "Compare per un istante"
+        }
+      ],
+      "imageFocus": [
+        45,
+        75,
+        1.4
+      ]
     },
     {
       "id": "col-fauna-cervo",
@@ -139,9 +197,41 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/deer.jpg",
-      "group": "foresta"
+      "group": "foresta",
+      "emoji": "🦌",
+      "short": "La preda principale della caccia, un'attività che rende soldi.",
+      "behavior": "Beve agli abbeveratoi e attraversa i torrenti; si muove in branco.",
+      "actions": [
+        "Cacciare"
+      ],
+      "seen": [
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: beve all'abbeveratoio, un puma insegue il branco"
+        },
+        {
+          "where": "Grassrivers",
+          "what": "Attraversa un torrente"
+        },
+        {
+          "where": "Everglades",
+          "what": "Trailer 1: cervi che bevono in uno stagno sullo sfondo"
+        },
+        {
+          "where": "Dal quad",
+          "what": "Screenshot ufficiale: Jason lo osserva col fucile"
+        }
+      ],
+      "trivia": [
+        "La caccia te la fa scoprire un personaggio che conosce già Jason."
+      ],
+      "imageFocus": [
+        60,
+        50,
+        1.3
+      ]
     },
     {
       "id": "col-fauna-puma",
@@ -156,9 +246,31 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/cougar.jpg",
-      "group": "foresta"
+      "group": "foresta",
+      "emoji": "🐆",
+      "short": "Il grande felino di Mount Kalaga, un predatore che caccia i cervi.",
+      "behavior": "Caccia: insegue un branco di cervi e si apposta nelle paludi.",
+      "seen": [
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: passa accanto ai cervi, poi su una collina sopra una strada"
+        },
+        {
+          "where": "Una palude",
+          "what": "Screenshot: pronto a cacciare"
+        }
+      ],
+      "trivia": [
+        "Red Bull lo chiama pantera della Florida.",
+        "Game Informer non lo nomina."
+      ],
+      "imageFocus": [
+        40,
+        45,
+        1.3
+      ]
     },
     {
       "id": "col-fauna-volpe",
@@ -173,9 +285,25 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg",
-      "group": "foresta"
+      "group": "foresta",
+      "emoji": "🦊",
+      "short": "Citata nel testo ufficiale di Mount Kalaga insieme a cervi e puma.",
+      "seen": [
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: tra i cespugli, corre su un sentiero vicino a delle moto"
+        }
+      ],
+      "trivia": [
+        "Nessun avvistamento confermato nei video."
+      ],
+      "imageFocus": [
+        22,
+        58,
+        1.8
+      ]
     },
     {
       "id": "col-fauna-orso-nero",
@@ -190,8 +318,20 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐻",
+      "short": "Una sagoma sfocata che potrebbe essere un orso: tutta da confermare.",
+      "seen": [
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: sagoma sfocata"
+        },
+        {
+          "where": "Trailer 2",
+          "what": "A 0:30, ma la specie non si distingue"
+        }
+      ]
     },
     {
       "id": "col-fauna-cinghiale",
@@ -206,8 +346,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐗",
+      "short": "Elencato dalla community, ma la prova è dubbia.",
+      "seen": [
+        {
+          "where": "Spot TV dell'Extended Look",
+          "what": "Cinghiali e cervi in un'inquadratura"
+        }
+      ],
+      "trivia": [
+        "Secondo GTAVice quelle immagini vengono da RDR2."
+      ]
     },
     {
       "id": "col-fauna-lince",
@@ -222,8 +373,20 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐈",
+      "short": "Un «gatto selvatico» visto morto accanto a dei cacciatori: forse una lince.",
+      "seen": [
+        {
+          "where": "Grassrivers",
+          "what": "Screenshot: morta sulla panca accanto ai cacciatori"
+        }
+      ],
+      "trivia": [
+        "L'identificazione come lince rossa è della community.",
+        "GTA Intel l'ha tolta dalla lista dei confermati."
+      ]
     },
     {
       "id": "col-fauna-armadillo",
@@ -238,8 +401,13 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🦔",
+      "short": "L'armadillo a nove fasce, elencato da Red Bull e dalla community.",
+      "trivia": [
+        "Nessun avvistamento confermato."
+      ]
     },
     {
       "id": "col-fauna-castoro",
@@ -254,8 +422,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🦫",
+      "short": "Segnalato dalla community, non ancora visto."
     },
     {
       "id": "col-fauna-lontra",
@@ -270,8 +440,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🦦",
+      "short": "Segnalata dalla community, non ancora vista."
     },
     {
       "id": "col-fauna-procione",
@@ -280,15 +452,27 @@
       "districtId": null,
       "directions": "Fruga in un bidone nel Trailer 2, corre accanto ai motociclisti a Mount Kalaga; Red Bull dice che ha un suo modo di muoversi. Rovista in un bidone all'inizio del Trailer 2, poi individuato di nuovo in uno screenshot di Mount Kalaga. Dove: Vice City (Trailer 2); Mount Kalaga (screenshot).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-procione.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/raccoons.jpg",
-      "group": "foresta"
+      "group": "foresta",
+      "emoji": "🦝",
+      "short": "Il ladro di rifiuti: lo trovi sia in città sia nei boschi.",
+      "behavior": "Rovista nei bidoni; Red Bull dice che ha un suo modo di muoversi.",
+      "seen": [
+        {
+          "where": "Vice City",
+          "what": "Trailer 2: fruga in un bidone all'inizio del video"
+        },
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: corre accanto ai motociclisti"
+        }
+      ]
     },
     {
       "id": "col-fauna-opossum",
@@ -303,8 +487,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐀",
+      "short": "Segnalato dalla community, non ancora visto."
     },
     {
       "id": "col-fauna-moffetta",
@@ -319,8 +505,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🦨",
+      "short": "Segnalata dalla community, non ancora vista."
     },
     {
       "id": "col-fauna-macaco",
@@ -335,8 +523,13 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐒",
+      "short": "Specie invasiva nominata da Game Informer, non ancora vista.",
+      "trivia": [
+        "In Florida le colonie di macachi reso esistono davvero."
+      ]
     },
     {
       "id": "col-fauna-rospo",
@@ -351,24 +544,69 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "paludi"
+      "updatedAt": "2026-11-07",
+      "group": "paludi",
+      "emoji": "🐸",
+      "short": "Specie invasiva nominata da Game Informer, non ancora vista."
     },
     {
       "id": "col-fauna-serpente",
       "categoryId": "cat-fauna",
-      "name": "Serpente",
+      "name": "Serpenti",
       "districtId": "dis-keys",
       "directions": "Nel Trailer 2 un serpente nella casa di Jason, forse come animale domestico.",
       "reward": null,
-      "image": null,
+      "image": "assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "paludi"
+      "updatedAt": "2026-11-07",
+      "group": "paludi",
+      "emoji": "🐍",
+      "short": "Ci sono sia in casa, come animali domestici, sia in natura tra le specie invasive.",
+      "varieties": [
+        {
+          "name": "Serpente del grano",
+          "note": "Nell'acquario della casa di Jason e Lucia, Trailer 2"
+        },
+        {
+          "name": "Pitone delle Everglades",
+          "note": "Specie introdotta citata da Game Informer; non ancora visto"
+        }
+      ],
+      "seen": [
+        {
+          "where": "Casa di Jason e Lucia",
+          "what": "Trailer 2: un serpente nell'acquario, forse un animale domestico"
+        }
+      ],
+      "trivia": [
+        "Game Informer (n. 382): ci sono animali nativi e non, come i pitoni che hanno colonizzato le Everglades."
+      ],
+      "mergedIds": [
+        "col-fauna-serpente-del-grano",
+        "col-fauna-pitoni-delle-everglades"
+      ],
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg",
+      "imageFocus": [
+        85,
+        70,
+        2
+      ],
+      "photos": [
+        {
+          "src": "assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
+          "url": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg",
+          "caption": "Serpente del grano",
+          "focus": [
+            85,
+            70,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "col-fauna-tartaruga",
@@ -383,8 +621,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "paludi"
+      "updatedAt": "2026-11-07",
+      "group": "paludi",
+      "emoji": "🐢",
+      "short": "Segnalata dalla community, non ancora vista."
     },
     {
       "id": "col-fauna-scoiattolo",
@@ -393,15 +633,23 @@
       "districtId": null,
       "directions": "Segnalato dalla community. Si arrampica su un albero in un altro screenshot di Mount Kalaga. Dove: Mount Kalaga (screenshot).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-scoiattolo.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg",
-      "group": "foresta"
+      "group": "foresta",
+      "emoji": "🐿️",
+      "short": "Segnalato dalla community e intravisto nei boschi.",
+      "behavior": "Si arrampica sugli alberi.",
+      "seen": [
+        {
+          "where": "Mount Kalaga",
+          "what": "Screenshot: si arrampica su un albero"
+        }
+      ]
     },
     {
       "id": "col-fauna-ratto",
@@ -410,15 +658,22 @@
       "districtId": null,
       "directions": "Segnalato dalla community. Visto sotto un distributore automatico nell'Extended Look del 27 agosto, mentre Jason mangia un pacchetto di patatine davanti a un minimarket. Dove: Sotto un distributore automatico (Extended Look).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-ratto.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-rats.jpg",
-      "group": "domestici"
+      "group": "domestici",
+      "emoji": "🐀",
+      "short": "Il classico ratto di città, segnalato dalla community.",
+      "seen": [
+        {
+          "where": "Davanti a un minimarket",
+          "what": "Extended Look: sotto un distributore mentre Jason mangia patatine"
+        }
+      ]
     },
     {
       "id": "col-fauna-mucca",
@@ -433,13 +688,18 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "domestici"
+      "updatedAt": "2026-11-07",
+      "group": "domestici",
+      "emoji": "🐄",
+      "short": "Segnalata dalla community, non ancora vista.",
+      "trivia": [
+        "Il posto più probabile per trovarla sono i campi di Ambrosia."
+      ]
     },
     {
       "id": "col-fauna-cani",
       "categoryId": "cat-fauna",
-      "name": "Cani (Pastore tedesco, Labrador, Doberman, Rottweiler, Chihuahua, Pastore australiano)",
+      "name": "Cani",
       "districtId": null,
       "directions": "Nell'Extended Look Jason si avvicina a un pitbull: tieni R1 per Accarezzare, Sgridare o Studiare; una campanella e un'icona d'angelo quando lo accarezzi (conta per il Profilo criminale). Razze viste: Doberman, Chihuahua, Pastore australiano e tedesco, Rottweiler, Labrador, più Border Collie, Pitbull, Barboncino, meticci. Nel trailer di lancio un cane con gli occhialoni in elicottero e uno vestito. Avere un cane tuo: non confermato. Chihuahua: Il primissimo animale della serie, visto mentre fa jogging sulla spiaggia di Vice City fin dal Trailer 1. Secondo Engadget, il montaggio finale dell'Extended Look mostra un piccolo chihuahua con un tutù viola e ali da fata. Dove: Spiaggia di Vice City (Trailer 1). Dobermann: Seduto accanto al padrone alla fine del Trailer 2, una razza inedita per la serie GTA. Dove: Fine del Trailer 2. Rottweiler: Individuato in uno screenshot di Vice City condiviso il 6 maggio 2025. Dove: Vice City (screenshot del 6 maggio 2025). Pastore australiano: Visto nelle Leonida Keys, portato a spasso da un abitante in bicicletta. Dove: Leonida Keys (screenshot). Cane (razza indeterminata): Fotografato da un'abitante a Port Gellhorn, razza non identificata a oggi. Dove: Port Gellhorn (screenshot). Labrador: Passeggia sulla spiaggia accanto alla padrona nell'Extended Look del 27 agosto. Dove: Spiaggia (Extended Look).",
       "reward": null,
@@ -449,9 +709,107 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg",
-      "group": "domestici"
+      "group": "domestici",
+      "emoji": "🐕",
+      "short": "Ce ne sono di tante razze e ci puoi interagire: accarezzarli conta per il Profilo criminale.",
+      "behavior": "Passeggiano con i padroni in città e sulle spiagge. I cani poliziotto partecipano agli inseguimenti.",
+      "actions": [
+        "Accarezzare (tieni R1)",
+        "Sgridare (tieni R1)",
+        "Studiare (tieni R1)"
+      ],
+      "danger": 2,
+      "dangerNote": "I cani K-9 della polizia possono atterrare Jason.",
+      "varieties": [
+        {
+          "name": "Chihuahua",
+          "note": "Fa jogging sulla spiaggia di Vice City nel Trailer 1"
+        },
+        {
+          "name": "Dobermann",
+          "note": "Seduto accanto al padrone alla fine del Trailer 2"
+        },
+        {
+          "name": "Rottweiler",
+          "note": "Screenshot di Vice City del 6 maggio 2025"
+        },
+        {
+          "name": "Pastore australiano",
+          "note": "Leonida Keys, al guinzaglio di un ciclista"
+        },
+        {
+          "name": "Labrador",
+          "note": "Sulla spiaggia con la padrona, Extended Look"
+        },
+        {
+          "name": "Pastore tedesco (K-9)",
+          "note": "Cane poliziotto, visto da Edge nella demo da Rockstar North"
+        },
+        {
+          "name": "Staffordshire Terrier",
+          "note": "Il cane che Jason accarezza nell'Extended Look"
+        },
+        {
+          "name": "Altre razze",
+          "note": "Border Collie, Pitbull, Barboncino e meticci"
+        },
+        {
+          "name": "Razza non identificata",
+          "note": "Fotografato da un'abitante a Port Gellhorn"
+        }
+      ],
+      "seen": [
+        {
+          "where": "Spiaggia di Vice City",
+          "what": "Trailer 1: un chihuahua che corre"
+        },
+        {
+          "where": "Extended Look (27 agosto 2026)",
+          "what": "Jason accarezza uno Staffordshire / pitbull"
+        },
+        {
+          "where": "Trailer di lancio",
+          "what": "Un cane con gli occhialoni in elicottero e uno vestito"
+        }
+      ],
+      "trivia": [
+        "Il chihuahua è il primissimo animale mostrato della serie.",
+        "Engadget: a fine Extended Look un chihuahua con tutù viola e ali da fata.",
+        "Accarezzare fa suonare una campanella e compare un'icona d'angelo."
+      ],
+      "mergedIds": [
+        "col-fauna-staffordshire",
+        "col-fauna-pastore-tedesco-k9"
+      ],
+      "imageFocus": [
+        30,
+        62,
+        2.2
+      ],
+      "photos": [
+        {
+          "src": "assets/img/vice/fauna/col-fauna-staffordshire.jpg",
+          "url": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-jason-caresse-chien.jpg",
+          "caption": "Staffordshire Terrier",
+          "focus": [
+            45,
+            60,
+            1.6
+          ]
+        },
+        {
+          "src": "assets/img/vice/fauna/col-fauna-pastore-tedesco-k9.jpg",
+          "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-berger-australien.jpg",
+          "caption": "Pastore tedesco (cane poliziotto)",
+          "focus": [
+            37,
+            75,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "col-fauna-gatto",
@@ -466,9 +824,29 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg",
-      "group": "domestici"
+      "group": "domestici",
+      "emoji": "🐈",
+      "short": "Randagi e domestici in città; i gatti selvatici sono tra le specie invasive.",
+      "seen": [
+        {
+          "where": "Minimarket di Vice City",
+          "what": "Trailer 2: si lava sopra un bancomat"
+        },
+        {
+          "where": "Grassrivers",
+          "what": "Screenshot: un gatto morto"
+        }
+      ],
+      "trivia": [
+        "Game Informer li conta tra le specie invasive."
+      ],
+      "imageFocus": [
+        48,
+        40,
+        1.8
+      ]
     },
     {
       "id": "col-fauna-fenicottero",
@@ -483,9 +861,23 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/flamingos.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🦩",
+      "short": "Specie nativa nominata da Game Informer: per Rockstar è una novità.",
+      "behavior": "«Ciondola nelle lagune» e vive in grandi colonie.",
+      "seen": [
+        {
+          "where": "Everglades",
+          "what": "Trailer 1: una vasta colonia, diversi esemplari in volo"
+        }
+      ],
+      "imageFocus": [
+        50,
+        50,
+        1.1
+      ]
     },
     {
       "id": "col-fauna-pellicano",
@@ -500,10 +892,28 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/pelicans.jpg",
       "uncertain": true,
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Specie nativa nominata da Game Informer, comune sulla costa.",
+      "behavior": "Vola in stormi sopra le spiagge.",
+      "seen": [
+        {
+          "where": "Spiaggia di Vice City",
+          "what": "Trailer 1: uno stormo di una quindicina"
+        },
+        {
+          "where": "Leonida Keys",
+          "what": "Screenshot: vola sopra l'iguana"
+        }
+      ],
+      "imageFocus": [
+        40,
+        50,
+        1.6
+      ]
     },
     {
       "id": "col-fauna-airone",
@@ -512,16 +922,23 @@
       "districtId": "dis-grassrivers",
       "directions": "Ha un suo pattern di movimento (Red Bull). Uccello delle paludi. Aironi della Florida: Visti nei primissimi secondi del Trailer 1, identificazione non certa. Dove: Cielo di Vice City all'alba (Trailer 1).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-airone.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-herons.jpg",
       "uncertain": true,
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🪶",
+      "short": "Uccello delle paludi con un suo modo di muoversi, secondo Red Bull.",
+      "seen": [
+        {
+          "where": "Cielo di Vice City all'alba",
+          "what": "Primissimi secondi del Trailer 1, identificazione incerta"
+        }
+      ]
     },
     {
       "id": "col-fauna-spatola",
@@ -536,8 +953,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "uccelli"
+      "updatedAt": "2026-11-07",
+      "group": "uccelli",
+      "emoji": "🦩",
+      "short": "Uccello delle paludi di Grassrivers.",
+      "behavior": "Guada nell'acqua bassa.",
+      "seen": [
+        {
+          "where": "Grassrivers",
+          "what": "Screenshot: guada con una gru e una cicogna"
+        }
+      ]
     },
     {
       "id": "col-fauna-gru",
@@ -552,8 +978,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "uccelli"
+      "updatedAt": "2026-11-07",
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "La gru dello screenshot di Grassrivers.",
+      "seen": [
+        {
+          "where": "Grassrivers",
+          "what": "Screenshot: con una spatola e una cicogna"
+        }
+      ],
+      "trivia": [
+        "Che sia proprio la gru americana è un'ipotesi dei fan."
+      ]
     },
     {
       "id": "col-fauna-picchio",
@@ -568,13 +1005,15 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "uccelli"
+      "updatedAt": "2026-11-07",
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Segnalato dalla community, non ancora visto."
     },
     {
       "id": "col-fauna-anatra",
       "categoryId": "cat-fauna",
-      "name": "Anatra",
+      "name": "Anatre",
       "districtId": null,
       "directions": "Segnalata dalla community. Anatre marmorizzate: Individuate nel parco nazionale delle Everglades, Trailer 1, in mezzo ai fenicotteri. Dove: Parco nazionale delle Everglades (Trailer 1).",
       "reward": null,
@@ -584,9 +1023,39 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-canards-marbres.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🦆",
+      "short": "Anatre selvatiche delle paludi, in mezzo ai fenicotteri.",
+      "varieties": [
+        {
+          "name": "Anatra marmorizzata",
+          "note": "Nelle Everglades in mezzo ai fenicotteri, Trailer 1"
+        },
+        {
+          "name": "Moretta americana minore",
+          "note": "In uno spot TV dell'Extended Look, identificazione incerta"
+        }
+      ],
+      "seen": [
+        {
+          "where": "Parco nazionale delle Everglades",
+          "what": "Trailer 1: anatre marmorizzate tra i fenicotteri"
+        },
+        {
+          "where": "Spot TV dell'Extended Look",
+          "what": "Una moretta"
+        }
+      ],
+      "mergedIds": [
+        "col-fauna-moretta"
+      ],
+      "imageFocus": [
+        43,
+        48,
+        2
+      ]
     },
     {
       "id": "col-fauna-gabbiano",
@@ -595,15 +1064,22 @@
       "districtId": null,
       "directions": "Segnalato dalla community. Gabbiani reali: Visibili nel cielo nella stessa sequenza del pontile, Trailer 2. Dove: Pontile al tramonto (Trailer 2).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-gabbiano.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Il gabbiano reale delle coste, segnalato dalla community.",
+      "seen": [
+        {
+          "where": "Pontile al tramonto",
+          "what": "Trailer 2: nel cielo"
+        }
+      ]
     },
     {
       "id": "col-fauna-piccione",
@@ -612,15 +1088,26 @@
       "districtId": "dis-vice-city",
       "directions": "In città, con i gabbiani sulle ringhiere delle barche negli screenshot dell'Ultimate Edition. Il grande ritorno del «topo volante», visto all'inizio dell'Extended Look del 27 agosto. Dove: Strada di Vice City (Extended Look).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-piccione.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-chien-pigeon.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Il grande ritorno del «topo volante» di città.",
+      "seen": [
+        {
+          "where": "Strada di Vice City",
+          "what": "Extended Look: all'inizio del video"
+        },
+        {
+          "where": "Ringhiere delle barche",
+          "what": "Screenshot dell'Ultimate Edition, con i gabbiani"
+        }
+      ]
     },
     {
       "id": "col-fauna-delfino",
@@ -635,9 +1122,30 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/dolphins.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🐬",
+      "short": "Secondo Red Bull è tra la fauna marina con cui puoi interagire.",
+      "behavior": "Nuota in gruppo e affiora accanto alle barche.",
+      "actions": [
+        "Interagire"
+      ],
+      "seen": [
+        {
+          "where": "Al largo di Vice City",
+          "what": "Trailer 1: quattro delfini vicino a uno squalo"
+        },
+        {
+          "where": "Accanto a una barca",
+          "what": "Screenshot dell'Ultimate Edition: affiora in superficie"
+        }
+      ],
+      "imageFocus": [
+        38,
+        45,
+        2.2
+      ]
     },
     {
       "id": "col-fauna-lamantino",
@@ -646,36 +1154,39 @@
       "districtId": null,
       "directions": "Nativo, nominato da Game Informer. Lo incontri immergendoti e in natura, anche a Grassrivers (Red Bull). È la mascotte di Leonida su magliette e cappellini: Chunkee. Lamantini: Nuotano placidamente nelle Everglades, confermati nell'Extended Look del 27 agosto. La specie più emblematica, coerente con l'ispirazione diretta alla Florida, uno degli ultimi habitat naturali del lamantino nel mondo reale. Dove: Everglades (Extended Look).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-lamantino.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-lamantin.jpg",
-      "group": "marini"
-    },
-    {
-      "id": "col-fauna-squalo-martello",
-      "categoryId": "cat-fauna",
-      "name": "Squalo martello",
-      "districtId": null,
-      "directions": "Game Informer parla di «diversi tipi di squalo»; che ci sia il martello lo dicono i fan. Pericolosità sconosciuta.",
-      "reward": null,
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/animals/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🦭",
+      "short": "La specie più emblematica di Leonida: è la mascotte Chunkee su magliette e cappellini.",
+      "behavior": "Nuota placido nelle acque interne.",
+      "actions": [
+        "Incontrarlo in immersione"
+      ],
+      "seen": [
+        {
+          "where": "Everglades",
+          "what": "Extended Look: lamantini che nuotano"
+        },
+        {
+          "where": "Grassrivers",
+          "what": "In natura, secondo Red Bull"
+        }
+      ],
+      "trivia": [
+        "Specie nativa, nominata da Game Informer.",
+        "La Florida è uno degli ultimi habitat naturali del lamantino."
+      ]
     },
     {
       "id": "col-fauna-squalo",
       "categoryId": "cat-fauna",
-      "name": "Squalo",
+      "name": "Squali",
       "districtId": null,
       "directions": "«Diversi tipi di squalo» (Game Informer), ognuno con le sue animazioni. Brian Heder «si muove come un grande squalo bianco», dice la sua scheda. Quanto siano pericolosi, lo scopri in acqua. Squali: Due esemplari individuati vicino alla spiaggia nel Trailer 1, tra cui uno squalo tigre identificato in seguito. Gli squali tigre, già presenti nelle acque di GTA V, sono presentati come pericolosi per il giocatore in caso di incontro ravvicinato. Dove: Vicino alla spiaggia (Trailer 1).",
       "reward": null,
@@ -685,9 +1196,41 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🦈",
+      "short": "Game Informer parla di «diversi tipi di squalo», ognuno con le sue animazioni.",
+      "danger": 2,
+      "dangerNote": "Gli squali tigre sono pericolosi da vicino. Quanto, lo scopri in acqua.",
+      "varieties": [
+        {
+          "name": "Squalo tigre",
+          "note": "Identificato tra i due squali del Trailer 1"
+        },
+        {
+          "name": "Squalo martello",
+          "note": "Lo dicono i fan; pericolosità sconosciuta"
+        }
+      ],
+      "seen": [
+        {
+          "where": "Vicino alla spiaggia",
+          "what": "Trailer 1: due esemplari"
+        }
+      ],
+      "trivia": [
+        "Gli squali tigre c'erano già nelle acque di GTA V.",
+        "La scheda di Brian Heder dice che «si muove come un grande squalo bianco»."
+      ],
+      "mergedIds": [
+        "col-fauna-squalo-martello"
+      ],
+      "imageFocus": [
+        45,
+        60,
+        2.4
+      ]
     },
     {
       "id": "col-fauna-manta",
@@ -702,9 +1245,22 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta-6-raie.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🐟",
+      "short": "Le razze nominate da Game Informer: le incontri durante le immersioni.",
+      "seen": [
+        {
+          "where": "Acque di Leonida",
+          "what": "Extended Look: i sub passano accanto alle mante"
+        }
+      ],
+      "imageFocus": [
+        37,
+        15,
+        2.6
+      ]
     },
     {
       "id": "col-fauna-tartaruga-marina",
@@ -719,9 +1275,26 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🐢",
+      "short": "Una delle prime creature mostrate: nuota sulla barriera corallina delle Keys.",
+      "seen": [
+        {
+          "where": "Al largo di Vice City",
+          "what": "Trailer 1: tre esemplari, nella primissima sequenza"
+        },
+        {
+          "where": "Barriera corallina delle Keys",
+          "what": "Screenshot ufficiale: accanto ai sub, con una murena e pesci tropicali"
+        }
+      ],
+      "imageFocus": [
+        40,
+        58,
+        1.4
+      ]
     },
     {
       "id": "col-fauna-medusa",
@@ -736,8 +1309,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "marini"
+      "updatedAt": "2026-11-07",
+      "group": "marini",
+      "emoji": "🪼",
+      "short": "Nominata da Game Informer: traslucida e bioluminescente."
     },
     {
       "id": "col-fauna-anguilla",
@@ -752,9 +1327,25 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/eel.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🐍",
+      "short": "Abita i fondali corallini delle Keys.",
+      "seen": [
+        {
+          "where": "Fondali delle Keys",
+          "what": "Screenshot del 6 maggio 2025, sulla barriera corallina"
+        }
+      ],
+      "trivia": [
+        "L'identificazione è di gta-zone."
+      ],
+      "imageFocus": [
+        65,
+        45,
+        1.6
+      ]
     },
     {
       "id": "col-fauna-gambero",
@@ -769,8 +1360,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "paludi"
+      "updatedAt": "2026-11-07",
+      "group": "paludi",
+      "emoji": "🦞",
+      "short": "Segnalato dalla community, non ancora visto."
     },
     {
       "id": "col-fauna-balena",
@@ -785,8 +1378,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "marini"
+      "updatedAt": "2026-11-07",
+      "group": "marini",
+      "emoji": "🐋",
+      "short": "Nominata da Game Informer: nuota al largo."
     },
     {
       "id": "col-ex-001",
@@ -808,7 +1403,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "col-pesca-gambit-bay",
       "categoryId": "cat-fauna",
       "name": "Punto di pesca: Gambit Bay",
@@ -816,7 +1411,13 @@
       "directions": "L'unico luogo di pesca nominato da Rockstar finora. Cattura e rilascio, con sfide.",
       "reward": null,
       "sourceUrl": "https://gta6-life.com/en/guides/gta-6-fishing/",
-      "group": "pesci"
+      "group": "pesci",
+      "emoji": "🎣",
+      "short": "L'unico luogo di pesca nominato da Rockstar finora.",
+      "actions": [
+        "Pescare (cattura e rilascio)",
+        "Sfide di pesca"
+      ]
     },
     {
       "image": null,
@@ -824,7 +1425,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "col-pesca-pavone",
       "categoryId": "cat-fauna",
       "name": "Pavone",
@@ -832,7 +1433,9 @@
       "directions": "Famitsu l'ha incontrato mentre pescava. Un avvistamento da confermare.",
       "reward": null,
       "sourceUrl": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🦚",
+      "short": "Famitsu l'ha incontrato mentre pescava: avvistamento da confermare."
     },
     {
       "image": null,
@@ -840,7 +1443,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "col-fauna-coccodrillo",
       "categoryId": "cat-fauna",
       "name": "Coccodrillo",
@@ -848,7 +1451,11 @@
       "directions": "Red Bull: «una gita in kayak potrebbe essere interrotta da un coccodrillo». Da distinguere dall'alligatore.",
       "reward": null,
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-wildlife",
-      "group": "paludi"
+      "group": "paludi",
+      "emoji": "🐊",
+      "short": "Da non confondere con l'alligatore: Red Bull lo cita in una gita in kayak.",
+      "danger": 2,
+      "dangerNote": "Secondo Red Bull può interrompere una gita in kayak."
     },
     {
       "image": null,
@@ -1001,72 +1608,28 @@
       "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/"
     },
     {
-      "id": "col-fauna-serpente-del-grano",
-      "categoryId": "cat-fauna",
-      "name": "Serpente del grano",
-      "districtId": "dis-vice-city",
-      "directions": "Visibile nell'acquario della casa di Jason e Lucia, nel Trailer 2. Dove: Acquario in casa di Jason e Lucia (Trailer 2).",
-      "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-animaux-domestiques",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/petsnake.jpg",
-      "group": "paludi"
-    },
-    {
-      "id": "col-fauna-staffordshire",
-      "categoryId": "cat-fauna",
-      "name": "Staffordshire Terrier",
-      "districtId": "dis-vice-city",
-      "directions": "Una nuova razza individuata durante la presentazione Netflix del 27 agosto 2026: è il cane che Jason accarezza, con un'icona di interazione sullo schermo. Dove: Extended Look (27 agosto 2026).",
-      "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-staffordshire.jpg",
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-animaux-domestiques",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-jason-caresse-chien.jpg",
-      "group": "domestici"
-    },
-    {
-      "id": "col-fauna-pastore-tedesco-k9",
-      "categoryId": "cat-fauna",
-      "name": "Pastore tedesco (cane poliziotto)",
-      "districtId": "dis-vice-city",
-      "directions": "Visto in azione dalla rivista Edge durante una dimostrazione da Rockstar North: le unità cinofile K-9 della polizia partecipano agli inseguimenti e il cane può atterrare Jason. Dove: Demo giocata vista da Edge (Rockstar North).",
-      "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-pastore-tedesco-k9.jpg",
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-animaux-domestiques",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-berger-australien.jpg",
-      "group": "domestici"
-    },
-    {
       "id": "col-fauna-anhinga",
       "categoryId": "cat-fauna",
       "name": "Anhinga americana",
       "districtId": "dis-grassrivers",
       "directions": "Diversi esemplari si alzano in volo nelle Everglades, Trailer 1. Dove: Everglades (Trailer 1).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-anhinga.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-anhinga.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Uccello acquatico delle Everglades.",
+      "seen": [
+        {
+          "where": "Everglades",
+          "what": "Trailer 1: diversi esemplari si alzano in volo"
+        }
+      ]
     },
     {
       "id": "col-fauna-cormorano",
@@ -1081,9 +1644,22 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-cormorans.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦",
+      "short": "Uccelli acquatici delle Everglades.",
+      "seen": [
+        {
+          "where": "Everglades",
+          "what": "Trailer 1: accanto ai fenicotteri rosa"
+        }
+      ],
+      "imageFocus": [
+        50,
+        40,
+        1.1
+      ]
     },
     {
       "id": "col-fauna-corvo",
@@ -1092,15 +1668,22 @@
       "districtId": "dis-grassrivers",
       "directions": "Volano sopra il penitenziario all'inizio del Trailer 2, quando Jason viene a prendere Lucia. Dove: Penitenziario (Trailer 2).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-corvo.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg",
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐦‍⬛",
+      "short": "Compaiono in una delle scene più note del Trailer 2.",
+      "seen": [
+        {
+          "where": "Penitenziario",
+          "what": "Trailer 2: volano sopra mentre Jason va a prendere Lucia"
+        }
+      ]
     },
     {
       "id": "col-fauna-oca",
@@ -1109,33 +1692,22 @@
       "districtId": "dis-grassrivers",
       "directions": "Viste sull'acqua durante il tramonto sul pontile, Trailer 2. Dove: Pontile al tramonto (Trailer 2).",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-oca.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-oies-sauvages.jpg",
-      "group": "uccelli"
-    },
-    {
-      "id": "col-fauna-moretta",
-      "categoryId": "cat-fauna",
-      "name": "Moretta americana minore",
-      "districtId": "dis-grassrivers",
-      "directions": "Una specie di anatra vista in una pubblicità televisiva dell'Extended Look, identificazione incerta. Dove: Spot TV nell'Extended Look.",
-      "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-moretta.jpg",
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg",
-      "uncertain": true,
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🪿",
+      "short": "Uccelli d'acqua visti al tramonto.",
+      "seen": [
+        {
+          "where": "Pontile al tramonto",
+          "what": "Trailer 2: sull'acqua"
+        }
+      ]
     },
     {
       "id": "col-fauna-canarino",
@@ -1144,16 +1716,23 @@
       "districtId": "dis-grassrivers",
       "directions": "Visibile in primo piano in uno spot TV, nella stessa sequenza dell'Extended Look. Dove: Spot TV nell'Extended Look.",
       "reward": null,
-      "image": "assets/img/vice/fauna/col-fauna-canarino.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/sanglier-lapin-canari-gta-6-1024x573-1.jpg",
       "uncertain": true,
-      "group": "uccelli"
+      "group": "uccelli",
+      "emoji": "🐤",
+      "short": "Visto solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "seen": [
+        {
+          "where": "Spot TV dell'Extended Look",
+          "what": "In primo piano"
+        }
+      ]
     },
     {
       "id": "col-fauna-pesci-esotici",
@@ -1168,9 +1747,22 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-le-monde-marin",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-activite-plongee-hd.jpg",
-      "group": "marini"
+      "group": "marini",
+      "emoji": "🐠",
+      "short": "I pesci colorati della barriera corallina, da vedere in immersione.",
+      "seen": [
+        {
+          "where": "Fondali delle Keys",
+          "what": "Screenshot del 6 maggio 2025, durante un'immersione"
+        }
+      ],
+      "imageFocus": [
+        50,
+        50,
+        1
+      ]
     },
     {
       "id": "col-fauna-bisonti",
@@ -1185,8 +1777,19 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
-      "group": "foresta"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🦬",
+      "short": "Visti solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "seen": [
+        {
+          "where": "Spot TV dell'Extended Look",
+          "what": "Unica apparizione"
+        }
+      ],
+      "trivia": [
+        "In GTA V i cavalli comparivano negli spot ma non a Los Santos."
+      ]
     },
     {
       "id": "col-fauna-conigli",
@@ -1201,24 +1804,16 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
-      "group": "foresta"
-    },
-    {
-      "id": "col-fauna-pitoni-delle-everglades",
-      "categoryId": "cat-fauna",
-      "name": "Pitoni delle Everglades",
-      "districtId": null,
-      "directions": "Game Informer (n. 382) precisa che gli animali sono «nativi o non»: anche le specie introdotte, come i pitoni che hanno colonizzato le Everglades, sono rappresentate. Solo segnalato, non ancora visto.",
-      "reward": null,
-      "image": null,
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "group": "altri"
+      "updatedAt": "2026-11-07",
+      "group": "foresta",
+      "emoji": "🐇",
+      "short": "Visti solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "seen": [
+        {
+          "where": "Spot TV dell'Extended Look",
+          "what": "Unica apparizione"
+        }
+      ]
     }
   ]
 }

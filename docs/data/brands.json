@@ -6,13 +6,15 @@
       "name": "Only Raw Records",
       "category": "Etichetta discografica",
       "description": "L'etichetta di Boobie Ike e Dre'Quan Priest: la mossa con cui un imbonitore di strada prova a diventare magnate della musica. Ha messo sotto contratto le Real Dimez e passa dallo studio di registrazione di Boobie.",
-      "image": null,
+      "image": "assets/img/mondo/brd-only-raw.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ef/OnlyRawRecords-GTAVI-OfficialScreenshot-DreQuanPriest04.png/revision/latest?cb=20250516072526",
+      "imageCredit": "Insegna Only Raw Records in uno screenshot ufficiale (Dre'Quan Priest), da GTA Wiki"
     },
     {
       "id": "brd-the-album",
@@ -100,16 +102,18 @@
       "name": "GTA+",
       "category": "Abbonamento",
       "description": "I preordini digitali includono un mese gratuito di GTA+, riscattabile subito e utilizzabile anche su GTA Online e sui titoli classici della GTA+ Games Library.",
-      "image": null,
+      "image": "assets/img/mondo/brd-gta-plus.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/24/GTA%2B-Logo.png/revision/latest?cb=20220325165123",
+      "imageCredit": "Logo GTA+ (servizio esistente in GTA Online, serie), da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-megamundo.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -119,10 +123,12 @@
       "name": "Megamundo",
       "category": "Azienda",
       "description": "La società di Andres De Leon e Petra Navarro. La sua inaugurazione, e la scorta che Jason e Lucia devono garantire, è la spina dorsale di quello che si vede nell'Extended Look, secondo la community. La community la descrive anche come una rete televisiva, con sede nel Megamundo Building.",
-      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c7/GTAVI-Megamundo-Building-Exterior.jpg/revision/latest?cb=20260924095655",
+      "imageCredit": "Edificio con insegna Megamundo, GTA VI, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-allied-crystal.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -132,7 +138,9 @@
       "name": "Allied Crystal",
       "category": "Azienda",
       "description": "La raffineria di zucchero di Ambrosia, nominata nel testo ufficiale della regione riportato dalla stampa.",
-      "sourceUrl": "https://consequence.net/2025/05/gta-6-trailer-characters-story-details/"
+      "sourceUrl": "https://consequence.net/2025/05/gta-6-trailer-characters-story-details/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/46/AlliedCrystal-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest?cb=20250928071254",
+      "imageCredit": "Cartello elettorale con logo Allied Crystal (screenshot ufficiale Ambrosia), da GTA Wiki"
     },
     {
       "image": null,
@@ -148,7 +156,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/characters/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-noose.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -158,7 +166,9 @@
       "name": "NOOSE",
       "category": "Forze dell'ordine",
       "description": "Il National Office of Security Enforcement, la squadra speciale della serie: la stampa riconosce i suoi blindati con mitragliatrici nel trailer di lancio.",
-      "sourceUrl": "https://vgtimes.com/articles/171224-launch-trailer-gta6-breakdown.html"
+      "sourceUrl": "https://vgtimes.com/articles/171224-launch-trailer-gta6-breakdown.html",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0a/NOOSE-GTAV-Logo.png/revision/latest?cb=20190409192026",
+      "imageCredit": "Logo NOOSE di GTA V (serie), da GTA Wiki"
     },
     {
       "image": null,
@@ -213,7 +223,7 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-angstipan.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -223,7 +233,9 @@
       "name": "Angstipan",
       "category": "Pubblicità",
       "description": "L'antidepressivo con spot nell'Extended Look. La satira farmaceutica, un classico.",
-      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
+      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4b/Phix-GTAVI-Trailer1.png/revision/latest?cb=20250513080715",
+      "imageCredit": "Cartellone Angstipan dal trailer 1, da GTA Wiki"
     },
     {
       "image": null,
@@ -278,7 +290,7 @@
       "updatedAt": "2026-11-05"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-catene-banche.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -288,10 +300,12 @@
       "name": "Fleeca, Lombank, Hobbs Milford, Sinfrontera",
       "category": "Banche",
       "description": "Le banche di Leonida secondo la community: cinque filiali sulla mappa dei fan.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/83/SinfronteraNationalBank-GTAVI-Trailer2-Logo.png/revision/latest?cb=20250812034513",
+      "imageCredit": "Logo Sinfrontera National Bank (SNB) dal trailer 2; solo una delle banche della voce, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-catene-benzina.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -301,7 +315,9 @@
       "name": "Alpha, Arrow, Xero, Globe Oil, Gas Stop, LTD",
       "category": "Distributori",
       "description": "Le catene di carburante: tre stazioni sulla mappa della community. Globe Oil ha l'insegna nel trailer di lancio.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/53/XeroGas-GTAVI-OfficialScreenshot-Ambrosia01.jpg/revision/latest?cb=20250518203032",
+      "imageCredit": "Distributore Xero dallo screenshot ufficiale di Ambrosia; solo una delle catene della voce, da GTA Wiki"
     },
     {
       "image": null,
@@ -330,7 +346,7 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-weazel.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -340,10 +356,12 @@
       "name": "Weazel News, Megamundo, Mega Noticias, MeTV, CNT",
       "category": "TV",
       "description": "Le reti televisive; Megamundo è anche l'azienda di Andres De Leon. Weazel News è comparsa sui bus di Miami.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-weazel-news-borne-wynwood.jpg",
+      "imageCredit": "Pubblicità reale di GTA VI a Miami con logo Weazel News, foto di vice-central.com"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-bevande.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -353,7 +371,9 @@
       "name": "Pißwasser, Patriot, eCola, Sprunk",
       "category": "Bevande",
       "description": "Birre e bibite della serie: le etichette Pißwasser e Patriot sono state approvate per davvero negli USA.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c1/Pisswasser-GTAV-LogoLabel.png/revision/latest?cb=20190708141509",
+      "imageCredit": "Logo Pißwasser di GTA V (serie); solo una delle bevande della voce, da GTA Wiki"
     },
     {
       "image": null,
@@ -369,7 +389,7 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-sport.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -379,7 +399,9 @@
       "name": "Vice City Mambas, Manatees, Narcos, Flamingos, Capri City Jackals",
       "category": "Squadre sportive",
       "description": "Football al Fleeca Field, basket alla Sahara Arena, baseball; Capri ha i Jackals.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1f/ViceCityNarcos-GTAVI-OfficialScreenshot-ViceCity08-Logo.jpg/revision/latest?cb=20250521225732",
+      "imageCredit": "Logo Vice City Narcos su un maxischermo (screenshot ufficiale); una delle squadre della voce, da GTA Wiki"
     },
     {
       "image": null,
@@ -395,7 +417,7 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-shipping.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -405,10 +427,12 @@
       "name": "Bilgeco, Boxtrax, Jetsam, Lando-Corp, Navitrak",
       "category": "Logistica",
       "description": "Le compagnie di spedizione sui container del porto.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ea/Bilgeco-GTAV-Logo.png/revision/latest?cb=20170915101727",
+      "imageCredit": "Logo Bilgeco di GTA V (serie); una delle aziende della voce, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-poach.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -418,10 +442,12 @@
       "name": "POACH",
       "category": "Ente",
       "description": "Leonida Protection of Animals & Controlled Hunting: i guardaparco che vigilano su caccia e fauna.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/68/POACH-GTAVI-Logo.png/revision/latest?cb=20231205112845",
+      "imageCredit": "Logo POACH dal trailer 1, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-lpl.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -431,10 +457,12 @@
       "name": "LPL, Leonida Lottery, Visit Leonida, Leonida Marine Center",
       "category": "Servizi",
       "description": "L'azienda elettrica, la lotteria, l'ente del turismo e il centro nautico.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6d/LeonidaLottery-GTAVI-Trailer2.png/revision/latest?cb=20250828071442",
+      "imageCredit": "Logo Leonida Lottery dal trailer 2; una delle voci del gruppo, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-vault.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -444,7 +472,9 @@
       "name": "Vault Nightclub, NINE1NINE, Big Chug, Y Hotel",
       "category": "Vita notturna",
       "description": "Locali nella pubblicità in-universe apparsa a Miami; E11EVEN è diventato NINE1NINE dal 6 novembre al 6 dicembre.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/31/NINE1NINE-GTAVI-Trailer2-Exterior.png/revision/latest?cb=20250813085632",
+      "imageCredit": "Interno del NINE1NINE con insegna, trailer 2; uno dei locali della voce, da GTA Wiki"
     },
     {
       "image": null,
@@ -460,7 +490,7 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-goodtime-state.jpg",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -470,10 +500,12 @@
       "name": "The Goodtime State (show TV)",
       "category": "TV",
       "description": "Lo show di Leonida con Macca the Gator, da cui la capsule Goodtime Gear e il cofanetto.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2a49ook82o57/cbdf4fc342bfca94c789a887244c3b70283047ae.jpg",
+      "imageCredit": "Grafica ufficiale «The Goodtime State – Vice City» (Newswire Rockstar, Vice City Collection)"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-final-chapter.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -483,10 +515,12 @@
       "name": "Final Chapter MC",
       "category": "Gang",
       "description": "Il motorcycle club di Ambrosia: colori neri, i revolver Mustang .357 negli screenshot; inseguono Jason dal Thirsty Wolf. Fondato nel 1982 secondo le toppe dei gilet; toppa di grado «Enforcer» su un membro barbuto con cappellino Liberty City Cycles; emblema: teschio incappucciato sopra un libro aperto con le lettere M e C, mani scheletriche sulle pagine, nero/bianco/oro; una donna del club porta un revolver.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/12/Final_Chapter_MC_promo_4.png/revision/latest?cb=20261030064921",
+      "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-ptt-youngins.jpg",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -496,7 +530,9 @@
       "name": "PTT Youngin$",
       "category": "Gang",
       "description": "Gang di Southside; il loro negozio di merce illegale, con una missione esclusiva, è nell'Ultimate Edition.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/PTT-Youngins-Illegal-Goods-Store.jpg/revision/latest?cb=20261103133127",
+      "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza"
     },
     {
       "image": null,
@@ -551,7 +587,7 @@
       "sourceUrl": "https://gta6locations.com/locations/"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-lifeinvader.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -561,7 +597,9 @@
       "name": "Lifeinvader (feed livestream)",
       "category": "App",
       "description": "Il feed di dirette che si apre con R3 nell'Extended Look: il nome è un'etichetta dei fan. Take-Two ha registrato domini come Bleeter, Fruit Pay, LeonidaGov.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Lifeinvader-GTAV-Logo.png/revision/latest?cb=20260930174240",
+      "imageCredit": "Logo Lifeinvader di GTA V (serie), da GTA Wiki"
     },
     {
       "image": null,
@@ -581,78 +619,90 @@
       "name": "Peekhole",
       "category": "App",
       "description": "Piattaforma di abbonamento che parodia OnlyFans: logo con QR code su un manifesto all'ingresso del Jack of Hearts, lo strip club di Vice City, verso 17:31 dell'Extended Look. Il QR code funziona e rimanda al sito ufficiale di GTA VI; documentato da gta.wiki, ripreso da PlayStation LifeStyle e ComicBook. Rockstar non ha detto nulla sul suo ruolo in gioco.",
-      "image": null,
+      "image": "assets/img/mondo/brd-peekhole.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-peekhole-parodie-onlyfans",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-peekhole-qr-code.jpg",
+      "imageCredit": "Fotogramma (sfocato) del logo Peekhole con QR code, da vice-central.com"
     },
     {
       "id": "brd-jack-of-hearts",
       "name": "Jack of Hearts",
       "category": "Vita notturna",
       "description": "Strip club di Vice City visto nell'Extended Look, con il manifesto di Peekhole all'ingresso. Travis Scott dice di aver «registrato dal vivo al J.O.H.» il brano «RHYNO» di The Album. All'ingresso: età minima 21 anni e account Snapmatic @JACKOFHEARTS. Poster interno «Make It Rain Mondays». Cartellone del trailer di lancio «She'll let you HOLD 'EM» letto come possibile allusione al poker (non confermato). Attività condivisa Jason+Lucia.",
-      "image": null,
+      "image": "assets/img/mondo/brd-jack-of-hearts.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-peekhole-parodie-onlyfans",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fd/JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png/revision/latest?cb=20250509112212",
+      "imageCredit": "Logo Jack of Hearts (screenshot ufficiale Boobie Ike), da GTA Wiki"
     },
     {
       "id": "brd-vice-city-fm",
       "name": "Vice City FM",
       "category": "Radio",
       "description": "Stazione radio pubblicizzata sui totem digitali di Wynwood a Miami (foto di Joel Franco, 19 ottobre 2026, via @videotech), mai annunciata ufficialmente da Rockstar per GTA VI. Il nome viene da GTA IV (2008).",
-      "image": null,
+      "image": "assets/img/mondo/brd-vice-city-fm.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-vice-city-fm-v-rock-radios-miami",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-vice-city-fm-borne-wynwood.jpg",
+      "imageCredit": "Pubblicità reale di GTA VI a Miami per Vice City FM, foto di vice-central.com"
     },
     {
       "id": "brd-v-rock",
       "name": "V-Rock",
       "category": "Radio",
       "description": "Stazione rock pubblicizzata sui totem digitali di Wynwood accanto a Vice City FM, non presente tra le sei stazioni annunciate da Rockstar. Storica radio di GTA Vice City (2002).",
-      "image": null,
+      "image": "assets/img/mondo/brd-v-rock.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-vice-city-fm-v-rock-radios-miami",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023",
+      "imageCredit": "Maglietta con logo V-Rock in un video ufficiale di Jason, da GTA Wiki"
     },
     {
       "id": "brd-burger-shot",
       "name": "Burger Shot",
       "category": "Fast food",
       "description": "Catena di fast food dell'universo GTA tornata nella campagna di Miami: chiosco nel Kaseya Center gestito da Skinny Louie's, che da novembre al 31 dicembre 2026 trasforma tutti i suoi ristoranti della Florida in Burger Shot con packaging completo.",
-      "image": null,
+      "image": "assets/img/mondo/brd-burger-shot.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/gta-vi-burger-shot-skinny-louie-floride",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-skinny-louie-burger-shot-affiche.jpg",
+      "imageCredit": "Locandina Burger Shot / Skinny Louie con logo GTA VI, da vice-central.com"
     },
     {
       "id": "brd-cluckin-bell",
       "name": "Cluckin' Bell",
       "category": "Fast food",
       "description": "Catena di pollo fritto dell'universo GTA, aperta come chiosco dentro il Kaseya Center di Miami con personale in divisa GTA per la campagna «Welcome to Vice City».",
-      "image": null,
+      "image": "assets/img/mondo/brd-cluckin-bell.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-is-quietly-transforming-the-real-miami-into-gta-6s-vice-city/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/da/CluckinBell-GTAO-Logo.png/revision/latest?cb=20241115114850",
+      "imageCredit": "Logo Cluckin' Bell di GTA Online (serie), da GTA Wiki"
     },
     {
       "id": "brd-fruit",
@@ -672,39 +722,45 @@
       "name": "Coil",
       "category": "Azienda",
       "description": "Costruttore di auto elettriche dell'universo GTA (parodia di Tesla) con pubblicità in-universe nella campagna di Miami documentata da VGC, accanto a Weazel News, Fruit, eCola e Vault Nightclub.",
-      "image": null,
+      "image": "assets/img/mondo/brd-coil.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-is-quietly-transforming-the-real-miami-into-gta-6s-vice-city/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3f/Coil-GTAO-Logo.png/revision/latest?cb=20240514201608",
+      "imageCredit": "Logo Coil di GTA Online (serie), da GTA Wiki"
     },
     {
       "id": "brd-hotel-dixon",
       "name": "Hotel Dixon",
       "category": "Hotel",
       "description": "Alto hotel Art Déco con insegna al neon verticale su Shore Drive, a Ocean Beach. CBS News Miami lo ha riconosciuto come il Victor Hotel, con il nome che omaggia l'architetto L. Murray Dixon; la scheda GTADB lo abbina allo stesso edificio.",
-      "image": null,
+      "image": "assets/img/mondo/brd-hotel-dixon.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/gta-vi-cbs-miami-vice-city-vraies-rues",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1a/HotelDixon-GTAVI-Trailer1.png/revision/latest?cb=20250316102337",
+      "imageCredit": "Insegna Hotel Dixon dal trailer 1, da GTA Wiki"
     },
     {
       "id": "brd-zombix",
       "name": "Zombix",
       "category": "Pubblicità",
       "description": "Farmaco dell'universo di gioco: antidolorifici e Zombix danno bonus ma perdono efficacia se se ne abusa, secondo le anteprime post Extended Look. Rientra nel sistema di statistiche fisiche.",
-      "image": null,
+      "image": "assets/img/mondo/brd-zombix.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/05/Zombix-GTAVee-Billboard.png/revision/latest?cb=20260126174156",
+      "imageCredit": "Cartellone Zombix di GTA V (serie), da GTA Wiki"
     },
     {
       "id": "brd-pay-n-spray",
@@ -724,52 +780,60 @@
       "name": "Effluvia",
       "category": "Vita notturna",
       "description": "Rooftop bar di Ocean Beach con vista sull'oceano, dove Brian Heder incontra Jason nell'Extended Look. GTADB lo abbina al Juvia di Lincoln Road a Miami Beach.",
-      "image": null,
+      "image": "assets/img/mondo/brd-effluvia.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/af/GTAVI-Effluvia-Sign.jpg/revision/latest?cb=20260924113447",
+      "imageCredit": "Insegna Effluvia, GTA VI, da GTA Wiki"
     },
     {
       "id": "brd-macca-the-gator",
       "name": "Macca the Gator",
       "category": "TV",
       "description": "Alligatore mascotte dello show in-game «The Goodtime State», da cui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $. Compare anche su tote bag e adesivi inviati ai creator.",
-      "image": null,
+      "image": "assets/img/mondo/brd-macca-the-gator.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest?cb=20260925150653",
+      "imageCredit": "Macca the Gator, GTA VI, da GTA Wiki"
     },
     {
       "id": "brd-sahara",
       "name": "Sahara",
       "category": "Azienda",
       "description": "Marchio che firma la Sahara Arena su Catalan Boulevard (l'arena con linee al neon abbinata al Kaseya Center, casa dei Vice City Narcos) e la torre di uffici Sahara HQ nel distretto finanziario di Tequesta, vista dietro Jason nei filmati ufficiali.",
-      "image": null,
+      "image": "assets/img/mondo/brd-sahara.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bayside-bayfront",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/SaharaArena-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251211020457",
+      "imageCredit": "Insegna Sahara Arena (screenshot ufficiale Vice City), da GTA Wiki"
     },
     {
       "id": "brd-diamond-casino-resort",
       "name": "Diamond Casino & Resort",
       "category": "Luoghi di ritrovo",
       "description": "Casinò di GTA Online citato dalla teoria dei fan secondo cui Manni L. Perez, indicata come voce di Lucia, darebbe dal 2019 la voce a una croupier anonima del casinò. Nessun casinò risulta nelle classificazioni PEGI/ESRB di GTA VI.",
-      "image": null,
+      "image": "assets/img/mondo/brd-diamond-casino-resort.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://vice-central.com/gta-vi-vous-avez-peut-etre-deja-entendu-la-voix-de-lucia-dans-gta-online",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d2/TheDiamondCasino%26Resort-GTAO-PosterOfficial.jpg/revision/latest?cb=20190724194110",
+      "imageCredit": "Poster ufficiale The Diamond Casino & Resort di GTA Online (serie), da GTA Wiki"
     },
     {
       "id": "brd-euroform-automotive",
@@ -815,39 +879,45 @@
       "name": "Uncle Jack's Liquor",
       "category": "Negozi",
       "description": "Il liquor store di Port Gellhorn che Jason e Lucia rapinano con le bandane sul volto alla fine del Trailer 1. GTADB lo abbina a un negozio del Callaway Village Square sulla Tyndall Parkway di Panama City.",
-      "image": null,
+      "image": "assets/img/mondo/brd-uncle-jack-s-liquor.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/UncleJacksLiquor-GTAVI-Trailer1.png/revision/latest?cb=20251014091454",
+      "imageCredit": "Vetrina con logo Uncle Jack's dal trailer 1, da GTA Wiki"
     },
     {
       "id": "brd-port-gellhorn-pawn-gun",
       "name": "Port Gellhorn Pawn & Gun",
       "category": "Negozi",
       "description": "Banco dei pegni e armeria nella polverosa fila di negozi davanti a cui sfreccia la muscle car rossa nel Trailer 1, accanto a Uncle Jack's Liquor a Port Gellhorn.",
-      "image": null,
+      "image": "assets/img/mondo/brd-port-gellhorn-pawn-gun.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cf/PortGellhornPawnGun-GTAVI-Trailer1-Sign.png/revision/latest?cb=20250322052647",
+      "imageCredit": "Insegna Port Gellhorn Pawn & Gun dal trailer 1, da GTA Wiki"
     },
     {
       "id": "brd-delights",
       "name": "Delights",
       "category": "Vita notturna",
       "description": "Club cabaret di Port Gellhorn sulla Interstate 404, con il parcheggio affollato di notte negli screenshot ufficiali. GTADB lo abbina al Bambi's Dollhouse di Panama City.",
-      "image": null,
+      "image": "assets/img/mondo/brd-delights.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/2e/Delights-GTAVI-Trailer1.png/revision/latest?cb=20250927053551",
+      "imageCredit": "Insegna Delights dal trailer 1 (sfocata), da GTA Wiki"
     },
     {
       "id": "brd-starlet-motel",
@@ -867,13 +937,15 @@
       "name": "Gellhorn Roadhouse",
       "category": "Luoghi di ritrovo",
       "description": "Tavola calda con una grande insegna al neon rossa ai margini di Port Gellhorn, segnalata da gtasixmap come sosta per un caffè.",
-      "image": null,
+      "image": "assets/img/mondo/brd-gellhorn-roadhouse.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/64/GellhornRoadhouse-GTAVI-Trailer2.png/revision/latest?cb=20251001132932",
+      "imageCredit": "Insegna al neon Gellhorn Roadhouse dal trailer 2, da GTA Wiki"
     },
     {
       "id": "brd-mason-s-shrimp-shack",
@@ -1049,13 +1121,15 @@
       "name": "Thrillbilly Mud Park",
       "category": "Luoghi di ritrovo",
       "description": "Il parco per il fango a ovest di Ambrosia dove si svolge la festa nel fango del Trailer 1 (circa 0:55) e di uno screenshot ufficiale; abbinato al Redneck Mud Park della Florida. Il Mud Club dà il nome alla Dominator Buggy dell'Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/mondo/brd-thrillbilly-mud-park.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bridge-ridge",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/15/ThrillbillyMudClub-GTAVI-Trailer1Logo.png/revision/latest?cb=20231205175335",
+      "imageCredit": "Logo Thrillbilly Mud Club dal trailer 1, da GTA Wiki"
     },
     {
       "id": "brd-paradise-garage",
@@ -1075,13 +1149,15 @@
       "name": "Bite House",
       "category": "Luoghi di ritrovo",
       "description": "Ristorante di pesce in legno consumato sul lungomare di Watson Bay, una delle poche insegne leggibili nei filmati ufficiali tra i locali su palafitte di Dock Street.",
-      "image": null,
+      "image": "assets/img/mondo/brd-bite-house.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/watson-bay",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fc/BiteHouse-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest?cb=20250813214430",
+      "imageCredit": "Bite House sul pontile (screenshot ufficiale Grassrivers), da GTA Wiki"
     },
     {
       "id": "brd-calle-creativa",
@@ -1127,13 +1203,15 @@
       "name": "The Rusty Anchor",
       "category": "Luoghi di ritrovo",
       "description": "Bar sulla spiaggia di Key Lento stipato di gente, con veranda e tavoli da picnic, dagli screenshot ufficiali delle Leonida Keys (uno svenuto tra le bottiglie vuote). Nella Launch Gallery vi ricompare la vicina che grida «Hi Jason» nel Trailer 2.",
-      "image": null,
+      "image": "assets/img/mondo/brd-the-rusty-anchor.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/key-lento-key-largo",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/OfficialScreenshots-GTAVI-PromotionalWebsite-LeonidaKeys-SS3.jpg/revision/latest?cb=20250506164234",
+      "imageCredit": "Insegna The Rusty Anchor (screenshot ufficiale Leonida Keys), da GTA Wiki"
     },
     {
       "id": "brd-brian-s-marina",
@@ -1153,13 +1231,15 @@
       "name": "Chip's Body Shop",
       "category": "Servizi",
       "description": "Officina da bordo strada con insegna dipinta a mano sulla Route 1 a Key Lento, accanto alla scultura Wonder Whale, in uno screenshot ufficiale.",
-      "image": null,
+      "image": "assets/img/mondo/brd-chip-s-body-shop.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/key-lento-key-largo",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/41/ChipsBodyShop-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest?cb=20251013055347",
+      "imageCredit": "Cartellone Chip's Body Shop (screenshot ufficiale Leonida Keys), da GTA Wiki"
     },
     {
       "id": "brd-blue-crab-bar-grill",
@@ -1205,26 +1285,30 @@
       "name": "Stock 305",
       "category": "Moda",
       "description": "Negozio di streetwear di Stockyard, aperto solo con l'Ultimate Edition: look esclusivi per Jason e Lucia, coperto di murales dentro e fuori. Citato anche tra le etichette di moda della cover story di Dazed.",
-      "image": null,
+      "image": "assets/img/mondo/brd-stock-305.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/60/GTAVI-stock-305-logo.jpg/revision/latest?cb=20261103163331",
+      "imageCredit": "Insegna Stock 305, GTA VI, da GTA Wiki"
     },
     {
       "id": "brd-electric-fang-tattoo",
       "name": "Electric Fang Tattoo",
       "category": "Servizi",
       "description": "Studio di tatuaggi di Stockyard con insegna al neon a forma di lupo, aperto con l'Ultimate Edition: oltre 50 tatuaggi esclusivi disegnati dal collettivo FAILE. La GTA Wiki gli ha dedicato una pagina il 5-6 novembre 2026.",
-      "image": null,
+      "image": "assets/img/mondo/brd-electric-fang-tattoo.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b7/GTAVI-Electric-Fang-Tattoo-Parlor.jpg/revision/latest?cb=20261106172025",
+      "imageCredit": "Insegne Electric Fang Tattoo, GTA VI, da GTA Wiki"
     },
     {
       "id": "brd-the-hub-gallery",

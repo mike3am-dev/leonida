@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.15.0** (dati 0.11.1). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 7 novembre 2026, versione live **v0.16.0** (dati 0.12.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -29,14 +29,24 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
 ## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.15.0**: Mike lo farà; aspettare la lista.
+1. **Giro di impressioni sulla v0.16.0**: Mike lo farà; aspettare la lista.
 2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
 3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
 4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
 5. **Supabase** (opzionale): Mike ha chiesto se i progressi «si salvano». Oggi solo localStorage; `docs/js/store/adapter.js` è pronto per un adapter remoto. Serve un progetto Supabase gratuito e la chiave; sincronizzerebbe iPhone e Mac.
 6. **Foto mancanti**: DWNPLY, Randy, Kai, N3on, Mud Dog Mike (nessuna fonte); 4 pin di regione senza luoghi gtasixmap (Waning Sands e Vice Beach hanno il badge solo se un luogo ci cade dentro).
 
+## 4b. Cosa è cambiato nella v0.16.0
+- Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
+- Missioni: non si può iniziare una missione se la precedente non è completata.
+- Mappa: ferma finché non tocchi Esplora (`panzoom` con `enabled`), zoom minimo = riempie il riquadro (`cover`), tasto «Centra», legenda sotto la mappa, Polaroid dentro la mappa sul mare (`PHOTO_POS` in `mapboard.js`) con filo e puntina fino al badge della regione.
+- Regioni: quartieri e «Chi ci vive» in alto, guida alla regione come scheda, foto in striscia, niente «Scheda completa» (`/mappa/:id` reindirizza a `?zona=`), catalogo dei luoghi sostituito da una ricerca.
+- Fascicolo: un tocco fuori chiude tutta la pila (posizione in `history.state.pos`); i fogli si chiudono a ogni cambio di pagina. Righe «Fonte» nascoste ovunque: tutto in News › Fonti e ringraziamenti.
+- Animali: campi `short, behavior, actions, danger, dangerNote, varieties, seen, trivia, emoji, imageFocus, photos`; Cani/Serpenti/Squali/Anatre accorpati (le voci assorbite sono sparite). Figurine che si accendono senza ridisegnare la pagina.
+- Mondo: niente numeri/filtri/«Edizione», categorie alfabetiche, ricerca; 42 foto nuove (GTA Wiki, vice-central) in `scripts/immagini.json`, cartella `mondo/`.
+
 ## 5. Aree da tenere d'occhio / debito
+- **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).
 - **Mappa**: le Polaroid appese sono a posizioni fisse (CSS `nth-child`): se le regioni cambiano numero vanno ricalcolate. Il «Tu sei qui» prima del 19 punta al penitenziario di Hamlet. Le tessere di dettaglio vengono da `tiles.gtasixmap.com` (servizio terzo, può sparire).
 - **Spoiler**: tutto ruota su `progress.settings().spoilerShield` e sullo stato delle missioni; `spoilerLevel` 9 = rumor/leak di trama. Non mostrare MAI nomi di missioni future.
 - **Dati da verificare**: 669 voci «da verificare» su 859; solo 144 «verificato» (ufficiali). Dopo il 19 molte cose andranno confermate o cancellate (es. capitoli segnaposto, trofei, missioni dal leak `mis-leak-hanks`).

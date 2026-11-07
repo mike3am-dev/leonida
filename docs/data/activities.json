@@ -469,7 +469,11 @@
       "sourceUrl": "https://gta6bible.com/activities/jet-skiing/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "type": "attività",
+      "requirements": [],
+      "rewards": [],
+      "steps": []
     },
     {
       "id": "act-kayak",
@@ -482,7 +486,11 @@
       "sourceUrl": "https://gta6bible.com/activities/kayaking/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "type": "attività",
+      "requirements": [],
+      "rewards": [],
+      "steps": []
     },
     {
       "id": "act-immersioni-con-bombole-scuba",
@@ -495,7 +503,11 @@
       "sourceUrl": "https://gta6bible.com/activities/scuba-diving/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "type": "attività",
+      "requirements": [],
+      "rewards": [],
+      "steps": []
     },
     {
       "id": "act-combattimenti-in-gabbia",
@@ -508,7 +520,11 @@
       "sourceUrl": "https://gta6bible.com/activities/cage-fighting/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "type": "attività",
+      "requirements": [],
+      "rewards": [],
+      "steps": []
     },
     {
       "id": "act-football-americano",
@@ -521,7 +537,11 @@
       "sourceUrl": "https://gta6bible.com/activities/american-football/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "type": "attività",
+      "requirements": [],
+      "rewards": [],
+      "steps": []
     }
   ]
 }

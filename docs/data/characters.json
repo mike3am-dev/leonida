@@ -2480,7 +2480,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+      "imageUrl": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-sam-mud-club",
@@ -2499,7 +2500,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Sam-MudClub-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+      "imageUrl": "https://gta.wiki/images/Sam-MudClub-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-brittney",
@@ -2518,7 +2520,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Brittney-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+      "imageUrl": "https://gta.wiki/images/Brittney-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-ej",
@@ -2536,7 +2539,8 @@
       "sourceUrl": "https://gta.wiki/w/EJ",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-ian",
@@ -2554,7 +2558,8 @@
       "sourceUrl": "https://gta.wiki/w/Ian",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-sparky-malarky",
@@ -2572,7 +2577,8 @@
       "sourceUrl": "https://gta.wiki/w/Sparky_Malarky",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-krever",
@@ -2590,7 +2596,8 @@
       "sourceUrl": "https://gta.wiki/w/Krever",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-monalisa",
@@ -2609,7 +2616,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Monali%24a-GTAVI-Portrait.png"
+      "imageUrl": "https://gta.wiki/images/Monali%24a-GTAVI-Portrait.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-chunkee-the-manatee",
@@ -2628,7 +2636,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png"
+      "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-pinche-the-crab",
@@ -2647,7 +2656,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/Macca%26Friends-PincheTheCrab-GTAVI-CE-Artwork.png"
+      "imageUrl": "https://gta.wiki/images/Macca%26Friends-PincheTheCrab-GTAVI-CE-Artwork.png",
+      "isProtagonist": false
     },
     {
       "id": "chr-jimmy-canto",
@@ -2665,7 +2675,8 @@
       "sourceUrl": "https://gta.wiki/w/Jimmy_Canto",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-lil-ricky-sawdust",
@@ -2683,7 +2694,8 @@
       "sourceUrl": "https://gta.wiki/w/Lil_Ricky_Sawdust",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "isProtagonist": false
     },
     {
       "id": "chr-kenny-brewster",
@@ -2702,7 +2714,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/KennyBrewster-GTAVI-OfficialScreenshot-BrianHeder03.png/revision/latest/scale-to-width-down/1000"
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/KennyBrewster-GTAVI-OfficialScreenshot-BrianHeder03.png/revision/latest/scale-to-width-down/1000",
+      "isProtagonist": false
     },
     {
       "id": "chr-gutless-wonders",
@@ -2721,7 +2734,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/GutlessWonders-GTAVI-OfficialScreenshot-CalHampton02.png/revision/latest/scale-to-width-down/1000"
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/GutlessWonders-GTAVI-OfficialScreenshot-CalHampton02.png/revision/latest/scale-to-width-down/1000",
+      "isProtagonist": false
     },
     {
       "id": "chr-the-hummers-the-strummers",
@@ -2740,7 +2754,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/TheHummers%26TheStrummers-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000"
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/TheHummers%26TheStrummers-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
+      "isProtagonist": false
     },
     {
       "id": "chr-dolls-of-destruction",
@@ -2759,7 +2774,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000"
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000",
+      "isProtagonist": false
     }
   ]
 }
