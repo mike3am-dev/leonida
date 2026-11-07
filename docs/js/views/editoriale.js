@@ -1,12 +1,12 @@
 /** Personaggi, Radio, Mondo */
 import { db, byId } from '../data.js';
-import { esc, statusChip } from '../ui/dom.js';
+import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet } from './shared.js';
 import * as progress from '../store/progress.js';
 import * as spoiler from '../spoiler.js';
 
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
-const srcNote = (x) => x.status !== 'verificato' ? ' · ' + (SRC[x.source] || 'da verificare') : '';
+const srcNote = (x) => srcBadge(x);
 const fonte = (x) => `<p class="source-line">Fonte: ${esc(x.source)}${x.sourceUrl ? ` · <a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
 
 /* ---------- Personaggi ---------- */

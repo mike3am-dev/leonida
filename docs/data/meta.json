@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.14.0",
+  "dataVersion": "0.15.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.15.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Revisione di tutti i testi (circa 850 voci): scritti come una guida, senza «secondo la community», «visto nel trailer», «la stampa dice». L'affidabilità la dice solo l'etichetta."
+      ]
+    },
     {
       "version": "0.14.0",
       "date": "2026-11-07",

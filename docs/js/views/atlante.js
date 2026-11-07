@@ -1,7 +1,7 @@
 /** Mappa: immagine della community + schede dei territori (si aprono sul posto) + luoghi di gtasixmap + popover */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, statusChip } from '../ui/dom.js';
+import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
 import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound } from './shared.js';
 import * as mapboard from './mapboard.js';
@@ -85,8 +85,9 @@ function luogoDetail(l) {
   return `
     ${backLink('/mappa', 'Mappa')}
     <div class="hero ${heroImg ? '' : 'hero--text'}">${heroImg ? `<img src="${esc(l.hero.local || l.hero.src)}" ${l.hero.local ? `data-fallback="${esc(l.hero.src)}"` : ''} alt=""><div class="hero__veil"></div>` : ''}
-      <div class="hero__chips chips">${(l.badges || []).map((b) => `<span class="chip ${/Confermato/.test(b) ? 'chip--ok' : ''}">${esc(b)}</span>`).join('')}</div>
-      <div class="hero__text"><span class="kicker">${esc(d ? d.name : 'Leonida')}${facts.Regione ? ' · ' + esc(facts.Regione) : ''}</span><h1>${esc(l.name)}</h1><p class="lede">${esc(l.lead || '')}</p></div></div>
+      <div class="hero__chips chips">${statusChip(l)}</div>
+      <div class="hero__text"><span class="kicker">${esc(d ? d.name : 'Leonida')}</span><h1>${esc(l.name)}</h1></div></div>
+    ${l.lead ? `<p class="lede">${esc(l.lead)}</p>` : ''}
     ${l.hero?.caption ? `<p class="caption">${esc(l.hero.caption)} <span class="muted">${esc(l.hero.credit || '')}</span></p>` : ''}
     <div class="card card--glance"><span class="kicker kicker--accent">In breve</span><p>${esc(l.summary || '')}</p>
       <dl class="facts">${Object.entries(facts).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
@@ -132,7 +133,7 @@ function zoneCard(d, expanded, num = 0) {
       ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
           <span class="poi__thumb">${p.image ? `<img src="${esc(p.image)}" alt="">` : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
-          <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${p.status !== 'verificato' ? ' · ' + (SRC[p.source] || 'da verificare') : ''}</span>
+          <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${srcBadge(p)}</span>
           <span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>` : ''}
       ${places.length ? `<span class="kicker">Luoghi con la loro guida</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
       ${photos.length ? `<span class="kicker">Foto</span><div class="zone__photos">${photos.map((g) => `<figure><img src="${esc(g.src)}" ${g.url ? `data-fallback="${esc(g.url)}"` : ''} alt="" loading="lazy">${g.caption ? `<figcaption>${esc(g.caption)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}

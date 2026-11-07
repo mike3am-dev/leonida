@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.17.5** (dati 0.14.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 7 novembre 2026, versione live **v0.18.0** (dati 0.15.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -29,7 +29,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
 ## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.17.5**: Mike lo farà; aspettare la lista.
+1. **Giro di impressioni sulla v0.18.0**: Mike lo farà; aspettare la lista.
 2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
 3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
 4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
@@ -60,6 +60,13 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Immagini «lazy» che Safari non carica: `kickImages()` in app.js le forza quando entrano nello schermo.
 - Il service worker ricarica la pagina solo agli aggiornamenti, non alla prima installazione (prima faceva perdere «Mostra sulla mappa»).
 - Collezionabili: le schede delle categorie non si portano dietro i filtri della categoria precedente (era la causa dei «0/0»).
+
+## 4e. v0.18 — stile dei testi (REGOLA per tutto ciò che si scrive d'ora in poi)
+- I testi sono scritti come una guida ufficiale: si afferma il fatto. NIENTE «secondo la community», «la stampa dice», «visto nel Trailer 2», «identificato da…», «(Edge)», minutaggi dei video, commenti sul lavoro della guida. L'affidabilità la dice SOLO l'etichetta (statusChip / srcBadge negli elenchi). Il trailer si cita solo se è il contenuto (es. data di uscita di un trailer).
+- Nelle news la testata sta nel campo `outlet`, non nel testo.
+- Collezionabili: si tocca la figurina/riga e si apre la scheda; il tasto «Segna come trovato» sta nella scheda (niente «i», niente spunte cliccabili fuori).
+- Le foto compaiono solo a caricamento completo (classe `is-loaded`, rete di sicurezza a 3 s).
+- Da sistemare nei dati: l'`insight` di Hamlet parla di Kelly County/Port Gellhorn (già così prima); `mis-leak-hanks` ha «(dal leak)» nel titolo.
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

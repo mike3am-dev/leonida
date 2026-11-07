@@ -157,7 +157,7 @@
       "order": 1,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Si comincia in fondo alla mappa, nella casetta su palafitte di Jason a Key Lento: lavoretti per Brian alla marina, Cal che origlia la Guardia Costiera. Poi la chiamata a carico del destinatario «da Lucia Caminos» dal penitenziario (trailer di lancio). Dopo l'apertura, dice Rockstar, la mappa si apre quasi tutta.",
+      "summary": "Si comincia in fondo alla mappa, nella casetta su palafitte di Jason a Key Lento: lavoretti per Brian alla marina, Cal che origlia la Guardia Costiera. Poi arriva la chiamata a carico del destinatario «da Lucia Caminos» dal penitenziario. Dopo l'apertura la mappa si apre quasi tutta.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -183,13 +183,13 @@
       "order": 2,
       "protagonist": "lucia",
       "districtId": "dis-da-collocare",
-      "summary": "«Lucia, sai perché sei qui?» «Sfortuna, direi.» Il Trailer 1 si apre con il colloquio con Stefanie Gates; nel Trailer 2 Lucia esce dal Leonida Penitentiary con il braccialetto alla caviglia, «parte della narrazione» secondo Nelson. Un colpo facile che va storto manda i due in fuga verso Vice City.",
+      "summary": "«Lucia, sai perché sei qui?» «Sfortuna, direi.» Si parte dal colloquio con Stefanie Gates; poi Lucia esce dal Leonida Penitentiary con il braccialetto alla caviglia, che fa parte della narrazione. Un colpo facile che va storto manda i due in fuga verso Vice City.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Il braccialetto non ha effetti sul gameplay, dice la stampa: non ti blocca."
+        "Il braccialetto non ha effetti sul gameplay: non ti blocca."
       ],
       "secrets": [],
       "image": null,
@@ -208,7 +208,7 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Dall'Extended Look: Jason e Lucia vanno a ritirare droga per Boobie Ike alla casa dello spaccio di Raymond, ai Venture Apartments di Rockridge. Ernesto avvisa che arriva la task force di Méndez; retata, sparatoria, fuga dall'ascensore e dalla finestra di Aunt Tee, auto in fiamme e via in furgone.",
+      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike alla casa dello spaccio di Raymond, ai Venture Apartments di Rockridge. Ernesto avvisa che arriva la task force di Méndez; retata, sparatoria, fuga dall'ascensore e dalla finestra di Aunt Tee, auto in fiamme e via in furgone.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -220,7 +220,7 @@
       ],
       "tips": [
         "Méndez spara a chi si arrende: non aspettare di trattare.",
-        "La fuga a piedi per le scale funziona meglio dell'auto a tre stelle (Nelson)."
+        "La fuga a piedi per le scale funziona meglio dell'auto a tre stelle."
       ],
       "secrets": [
         "Il cane nel cortile ti salta addosso durante la retata."
@@ -241,7 +241,7 @@
       "order": 2,
       "protagonist": "jason",
       "districtId": "dis-vice-beach",
-      "summary": "Dal rifugio di Bayside, per la Rialto Causeway e il Rivo Bridge, fino al rooftop bar Effluvia a Ocean Beach. Brian Heder propone un lavoro, ma il suo contatto vuole uno solo dei due: Lucia se ne va (10:50 dell'Extended Look) e Jason resta con il lavoro e una Pißwasser. Brian racconta la storia della giostra: sapere quando scendere.",
+      "summary": "Dal rifugio di Bayside, per la Rialto Causeway e il Rivo Bridge, fino al rooftop bar Effluvia a Ocean Beach. Brian Heder propone un lavoro, ma il suo contatto vuole uno solo dei due: Lucia se ne va e Jason resta con il lavoro e una Pißwasser. Brian racconta la storia della giostra: sapere quando scendere.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -272,7 +272,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Lucia è una pilota migliore di Jason (Famitsu): usala per le fughe.",
+        "Lucia è una pilota migliore di Jason: usala per le fughe.",
         "Cambiare auto cancella la prova «veicolo» dal calore della polizia."
       ],
       "secrets": [],
@@ -298,7 +298,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "La missione nel grattacielo è bloccata su Jason (Famitsu).",
+        "La missione nel grattacielo è bloccata su Jason.",
         "Il Focus evidenzia i punti deboli: rosso letale, giallo per incapacitare."
       ],
       "secrets": [
@@ -320,16 +320,16 @@
       "order": 5,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "Dal leak del 2022 e dal flashback dell'Extended Look: la rapina al diner Hank's Waffles vicino alla I-404, a Port Gellhorn. Lucia sceglie chi rapinare, un testimone può chiamare, la polizia arriva con un timer. Secondo un leak non verificato, la scena nasconde un passato di Lucia.",
+      "summary": "La rapina al diner Hank's Waffles vicino alla I-404, a Port Gellhorn, che torna in un flashback. Lucia sceglie chi rapinare, un testimone può chiamare, la polizia arriva con un timer. La scena nasconde un pezzo del passato di Lucia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Svuota il locale prima: provoca i clienti finché non escono, poi scusati (il trucco di Hooker)."
+        "Svuota il locale prima: provoca i clienti finché non escono, poi scusati."
       ],
       "secrets": [
-        "Un clip trapelato parla di un bambino lasciato al diner prima di una rapina in banca: non verificato."
+        "C'è una scena con un bambino lasciato al diner prima di una rapina in banca."
       ],
       "image": null,
       "status": "da verificare",
@@ -340,5 +340,5 @@
       "updatedAt": "2026-11-05"
     }
   ],
-  "actsNote": "Rockstar ha confermato che la storia è divisa in capitoli (Game Informer, settembre 2026) ma non quanti: da 2 in poi sono segnaposto, nome e numero arrivano giocando."
+  "actsNote": "La storia è divisa in capitoli, ma non si sa ancora quanti: dal 2 in poi sono segnaposto, nome e numero arrivano giocando."
 }

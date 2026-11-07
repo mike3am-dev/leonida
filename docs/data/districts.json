@@ -6,7 +6,7 @@
       "name": "Vice City",
       "region": "Contea di Vice-Dale, costa sud-est",
       "tagline": "Il lato più oscuro del posto più soleggiato d'America.",
-      "description": "La metropoli di Leonida e il cuore della storia: Rockstar la presenta come la città dove Jason e Lucia finiscono dentro una cospirazione criminale che si allarga a tutto lo stato, tra strade al neon e una scena musicale che pulsa. Il testo ufficiale riportato dalla stampa dice che ogni quartiere ha qualcosa da offrire: la spiaggia di Ocean Beach con gli alberghi art déco color pastello, le panaderie di Little Cuba, il mercatino delle pulci Tisha-Wocka, il porto crocieristico di VC Port. Qui Boobie Ike ha trasformato la strada in un impero legale, Dre'Quan Priest punta a conquistare la scena con Only Raw Records, e da qui trasmette Flash FM. Nella galleria ufficiale ha 27 screenshot: è la zona più mostrata.",
+      "description": "La metropoli di Leonida e il cuore della storia: la città dove Jason e Lucia finiscono dentro una cospirazione criminale che si allarga a tutto lo stato, tra strade al neon e una scena musicale che pulsa. Ogni quartiere ha qualcosa da offrire: la spiaggia di Ocean Beach con gli alberghi art déco color pastello, le panaderie di Little Cuba, il mercatino delle pulci Tisha-Wocka, il porto crocieristico di VC Port. Qui Boobie Ike ha trasformato la strada in un impero legale, Dre'Quan Priest punta a conquistare la scena con Only Raw Records, e da qui trasmette Flash FM.",
       "map": {
         "x": 760,
         "y": 560,
@@ -15,67 +15,67 @@
       "subAreas": [
         {
           "name": "Ocean Beach",
-          "note": "testo ufficiale riportato dalla stampa"
+          "note": "spiaggia e alberghi art déco color pastello"
         },
         {
           "name": "Little Cuba",
-          "note": "testo ufficiale riportato dalla stampa"
+          "note": "le panaderie"
         },
         {
           "name": "Tisha-Wocka",
-          "note": "mercatino delle pulci, testo ufficiale riportato dalla stampa"
+          "note": "mercatino delle pulci"
         },
         {
           "name": "VC Port",
-          "note": "testo ufficiale riportato dalla stampa"
+          "note": "porto crocieristico"
         },
         {
           "name": "Vice Beach",
-          "note": "città costiera nell'area metropolitana, dal testo delle edizioni"
+          "note": "città costiera nell'area metropolitana"
         },
         {
           "name": "Downtown",
-          "note": "stampa"
+          "note": "il centro"
         },
         {
           "name": "Stockyard",
-          "note": "raduno di auto nel Trailer 1; murales"
+          "note": "raduni di auto e murales"
         },
         {
           "name": "Southside",
-          "note": "cartello autostradale nel Trailer 2"
+          "note": "indicata sui cartelli autostradali"
         },
         {
           "name": "Peacock Bay",
-          "note": "cartello autostradale nel Trailer 2"
+          "note": "indicata sui cartelli autostradali"
         },
         {
           "name": "Tequesta",
-          "note": "cartello in uno screenshot ufficiale"
+          "note": "indicata sui cartelli stradali"
         },
         {
           "name": "Venetian Islands",
-          "note": "stampa"
+          "note": "isole sulla baia"
         },
         {
           "name": "Bayside",
-          "note": "stampa, Extended Look"
+          "note": "quartiere sull'acqua, con un rifugio"
         },
         {
           "name": "Little Haiti / La Perle",
-          "note": "enclave haitiana della community; gang San4San, murales S4SLIFE"
+          "note": "enclave haitiana; gang San4San, murales S4SLIFE"
         },
         {
           "name": "Rockridge",
-          "note": "community: Fleeca Field, Venture Apartments dell'Extended Look"
+          "note": "Fleeca Field, Venture Apartments"
         },
         {
           "name": "Crosstown",
-          "note": "community: Jack of Hearts, Rideout Customs, Hoodwinks"
+          "note": "Jack of Hearts, Rideout Customs, Hoodwinks"
         },
         {
           "name": "Gloriana Key",
-          "note": "isola barriera, leak agosto 2026; raduno di auto nel finale dell'Extended Look"
+          "note": "isola barriera, teatro di un raduno di auto"
         },
         {
           "name": "Catalan Key",
@@ -87,19 +87,19 @@
         },
         {
           "name": "Rialto Islands",
-          "note": "le isole artificiali, Trailer 1"
+          "note": "le isole artificiali"
         },
         {
           "name": "Balsero",
-          "note": "community"
+          "note": "quartiere di Vice City"
         },
         {
           "name": "Salton",
-          "note": "leak ottobre 2026, partenza di una corsa verso Waning Sands"
+          "note": "partenza di una corsa verso Waning Sands"
         },
         {
           "name": "Vice Decor District",
-          "note": "community"
+          "note": "quartiere di Vice City"
         }
       ],
       "pois": [
@@ -107,7 +107,7 @@
           "id": "poi-jack-of-hearts",
           "name": "Jack of Hearts",
           "kind": "Strip club",
-          "description": "Lo strip club di Boobie Ike, parte del suo impero insieme a immobili e studio di registrazione. Il nome è riportato dalla stampa come testo ufficiale della scheda di Boobie; sul sito, nella versione che ho letto, il locale non ha nome. Dre'Quan ci prenotava artisti prima di mettersi in proprio.",
+          "description": "Lo strip club di Boobie Ike, parte del suo impero insieme a immobili e studio di registrazione. Dre'Quan ci prenotava artisti prima di mettersi in proprio.",
           "characterIds": [
             "chr-boobie",
             "chr-drequan"
@@ -140,7 +140,7 @@
           "id": "poi-electric-fang",
           "name": "Electric Fang Tattoo",
           "kind": "Studio di tatuaggi",
-          "description": "Studio di tatuaggi dell'Ultimate Edition, con disegni firmati dal collettivo FAILE secondo la stampa. La community lo colloca a Stockyard.",
+          "description": "Studio di tatuaggi dell'Ultimate Edition, con disegni firmati dal collettivo FAILE. Si trova a Stockyard.",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -154,7 +154,7 @@
           "id": "poi-stock-305",
           "name": "Stock 305 Clothing Store",
           "kind": "Abbigliamento",
-          "description": "Negozio di abbigliamento dell'Ultimate Edition. La stampa lo colloca a Stockyard.",
+          "description": "Negozio di abbigliamento dell'Ultimate Edition, a Stockyard.",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -168,7 +168,7 @@
           "id": "poi-shore-court",
           "name": "Shore Court",
           "kind": "Garage",
-          "description": "Il garage personale vicino a Ocean Beach che, secondo il testo delle edizioni riportato dalla stampa, ospita la '55 Vapid Stanier del Vintage Vice City Pack.",
+          "description": "Il garage personale vicino a Ocean Beach che ospita la '55 Vapid Stanier del Vintage Vice City Pack.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/",
@@ -178,7 +178,7 @@
           "id": "poi-vc-airport",
           "name": "Vice City International Airport",
           "kind": "Aeroporto",
-          "description": "L'aeroporto della città. Nell'Extended Look Jason e Lucia incontrano Andres De Leon in un aeroporto, secondo la stampa.",
+          "description": "L'aeroporto della città. È qui che Jason e Lucia incontrano Andres De Leon.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
@@ -192,7 +192,7 @@
           "id": "poi-megamundo",
           "name": "Megamundo",
           "kind": "Sede aziendale",
-          "description": "La sede della società di Andres De Leon e Petra Navarro, la cui inaugurazione compare nell'Extended Look secondo la community.",
+          "description": "La sede della società di Andres De Leon e Petra Navarro, che qui inaugura la sua prima sede americana.",
           "characterIds": [
             "chr-andres",
             "chr-petra"
@@ -201,7 +201,7 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/characters/",
           "image": "assets/img/luoghi/bayside-bayfront/landmark-l208.webp",
-          "insight": "Megamundo è un'imponente torre aziendale di Vice City, vista durante l'Extended Look di GTA VI trasmesso su Netflix il 27 agosto 2026.\n\nLA SEDE DI UN'AZIENDA DIRETTA DA PETRA NAVARRO. La torre Megamundo, riconoscibile di notte grazie all'insegna colorata in cima, fa da cornice a una scena mondana che si trasforma in dramma: l'inaugurazione della sua primissima sede americana. È direttamente legata al personaggio di Petra Navarro, presentata come codirettrice dell'azienda, oltre che ad Andrés de León, anch'egli legato a Megamundo, e a Valentina, la dipendente che recluta Jason e Lucia come agenti di sicurezza privata per la serata.\n\nGIÀ INDIVIDUATA SULLA MAPPA DELLA COMMUNITY. La mappa interattiva State of Leonida ha già piazzato un segnaposto per la torre Megamundo, sulla base delle immagini dell'Extended Look.\n\nLA TORRE IN IMMAGINI. L'Extended Look mostra la torre di notte da due angolazioni: dalla strada, sopra la metropolitana sopraelevata di Vice City, con l'insegna Megamundo ai piedi dell'edificio, poi vista dall'alto, coronata da un grande logo arcobaleno luminoso. All'interno, la serata d'inaugurazione si tiene in saloni decorati con palloncini luminosi, prima che un commando armato interrompa la festa. Il ruolo esatto dell'azienda nella storia resta sconosciuto, ma le schede di Valentina e di Andrés de León dettagliano la missione affidata a Jason e Lucia quella sera.",
+          "insight": "Megamundo è un'imponente torre aziendale di Vice City, riconoscibile di notte per l'insegna colorata in cima.\n\nLA SEDE DI UN'AZIENDA DIRETTA DA PETRA NAVARRO. La torre fa da cornice a una serata mondana che diventa un dramma: l'inaugurazione della primissima sede americana dell'azienda. È legata a Petra Navarro, codirettrice, ad Andrés de León, anche lui legato a Megamundo, e a Valentina, la dipendente che recluta Jason e Lucia come agenti di sicurezza privata per la serata.\n\nLA TORRE. Di notte la vedi dalla strada, sopra la metropolitana sopraelevata, con l'insegna Megamundo ai piedi dell'edificio; dall'alto è coronata da un grande logo arcobaleno luminoso. Dentro, la festa si tiene in saloni decorati con palloncini luminosi, finché un commando armato non la interrompe. Il ruolo dell'azienda nella storia non è ancora noto; la missione affidata a Jason e Lucia quella sera è nelle schede di Valentina e di Andrés de León.",
           "insightUrl": "https://vice-central.com/lieux/megamundo/",
           "keyFacts": [
             {
@@ -216,7 +216,7 @@
             },
             {
               "label": "Dirigente",
-              "value": "Petra Navarro (direttrice operativa secondo GTABase)",
+              "value": "Petra Navarro (direttrice operativa)",
               "reliability": "Riportato"
             },
             {
@@ -237,7 +237,7 @@
           "id": "poi-sinfrontera",
           "name": "Sinfrontera National Bank",
           "kind": "Banca",
-          "description": "Banca di Downtown dove, secondo un'analisi del Trailer 2, si vede una rapina in piena regola.",
+          "description": "Banca di Downtown, teatro di una rapina in piena regola.",
           "status": "da verificare",
           "source": "community",
           "image": null
@@ -246,7 +246,7 @@
           "id": "poi-nine1nine",
           "name": "NINE1NINE",
           "kind": "Nightclub",
-          "description": "Locale notturno citato da un'analisi del Trailer 2.",
+          "description": "Locale notturno di Vice City.",
           "status": "da verificare",
           "source": "community",
           "image": "assets/img/luoghi/bayside-bayfront/landmark-l190.webp",
@@ -259,7 +259,7 @@
           "id": "poi-ocean-view-hotel",
           "name": "Ocean View Hotel",
           "kind": "Hotel",
-          "description": "Albergo sul lungomare di Ocean Beach, riconosciuto dalla stampa nel Trailer 2. Un nome che i veterani della serie ricordano bene.",
+          "description": "Albergo sul lungomare di Ocean Beach. Un nome che i veterani della serie ricordano bene.",
           "status": "da verificare",
           "source": "community",
           "image": "assets/img/luoghi/ocean-beach/landmark-l36.webp",
@@ -272,7 +272,7 @@
           "id": "poi-ammu-nation",
           "name": "Ammu-Nation",
           "kind": "Armeria",
-          "description": "La catena di armerie della serie. Nel Trailer 2 compare in una pubblicità con un certo Phil, secondo la community. La mappa della community ne conta due.",
+          "description": "La catena di armerie della serie, con uno spot pubblicitario che ha per protagonista un certo Phil. In città se ne conoscono due.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -282,7 +282,7 @@
           "id": "poi-leaf-links",
           "name": "Leaf Links",
           "kind": "Golf club",
-          "description": "Il golf club di Vice City, segnalato dalla community. Altro nome che torna dal passato della serie.",
+          "description": "Il golf club di Vice City. Altro nome che torna dal passato della serie.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -296,7 +296,7 @@
           "id": "poi-vc-arts-center",
           "name": "Vice City Arts Center (metro)",
           "kind": "Stazione",
-          "description": "Fermata della metropolitana segnalata dalla community: la città avrebbe un sistema di trasporto su rotaia funzionante.",
+          "description": "Fermata della metropolitana: la città ha un sistema di trasporto su rotaia funzionante.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -310,7 +310,7 @@
           "id": "poi-zoo",
           "name": "Lo zoo",
           "kind": "Zoo",
-          "description": "Uno zoo interamente esplorabile, citato dalle anteprime della stampa dopo l'Extended Look. Posizione non nota.",
+          "description": "Uno zoo interamente esplorabile. Posizione non ancora nota.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
@@ -320,7 +320,7 @@
           "id": "poi-palaestra-tower",
           "name": "Palaestra Tower",
           "kind": "Grattacielo",
-          "description": "Uno dei grattacieli dello skyline. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Uno dei grattacieli dello skyline.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -334,7 +334,7 @@
           "id": "poi-galina-opera",
           "name": "Galina Ballet Opera House",
           "kind": "Teatro",
-          "description": "Il teatro dell'opera e del balletto. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Il teatro dell'opera e del balletto.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -348,7 +348,7 @@
           "id": "poi-sahara-arena",
           "name": "Sahara Arena",
           "kind": "Arena",
-          "description": "La grande arena cittadina. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "La grande arena cittadina.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -362,7 +362,7 @@
           "id": "poi-ferris-wheel",
           "name": "Vice City Ferris Wheel",
           "kind": "Ruota panoramica",
-          "description": "La ruota panoramica sul lungomare. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "La ruota panoramica sul lungomare.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -372,7 +372,7 @@
           "id": "poi-piker-financial",
           "name": "Piker Financial Center",
           "kind": "Grattacielo",
-          "description": "Torre del distretto finanziario. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Torre del distretto finanziario.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -386,7 +386,7 @@
           "id": "poi-shorefront",
           "name": "ShoreFront",
           "kind": "Lungomare",
-          "description": "Complesso sul lungomare. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Complesso sul lungomare.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -400,7 +400,7 @@
           "id": "poi-heath-tower",
           "name": "Heath Tower",
           "kind": "Grattacielo",
-          "description": "Torre del centro. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Torre del centro.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -414,7 +414,7 @@
           "id": "poi-el-gabeto",
           "name": "El Gabeto Center",
           "kind": "Centro",
-          "description": "Centro commerciale o culturale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Centro commerciale o culturale.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -428,7 +428,7 @@
           "id": "poi-fleeca-field",
           "name": "Fleeca Field",
           "kind": "Stadio",
-          "description": "Lo stadio sponsorizzato dalla banca Fleeca. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Lo stadio sponsorizzato dalla banca Fleeca.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -442,7 +442,7 @@
           "id": "poi-vice-vinyl",
           "name": "Vice Vinyl",
           "kind": "Negozio di dischi",
-          "description": "Negozio di dischi: la cultura musicale della città passa di qui. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Negozio di dischi: la cultura musicale della città passa di qui.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -456,7 +456,7 @@
           "id": "poi-stockyard-walls",
           "name": "Stockyard Walls",
           "kind": "Murales",
-          "description": "I muri dipinti di Stockyard, con opere di decine di street artist reali secondo la stampa. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "I muri dipinti di Stockyard, con opere di decine di street artist reali.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -466,7 +466,7 @@
           "id": "poi-rivo-bridge",
           "name": "Rivo Bridge",
           "kind": "Ponte",
-          "description": "Ponte cittadino. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Ponte cittadino.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -480,7 +480,7 @@
           "id": "poi-star-island-bridge",
           "name": "Star Island Bridge",
           "kind": "Ponte",
-          "description": "Ponte verso Vice Beach e le isole. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Ponte verso Vice Beach e le isole.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -494,7 +494,7 @@
           "id": "poi-port-vice-city",
           "name": "Port Vice City",
           "kind": "Porto",
-          "description": "Il porto crocieristico, «capitale mondiale delle crociere» nel testo ufficiale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Il porto crocieristico, «capitale mondiale delle crociere».",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -508,7 +508,7 @@
           "id": "poi-pegassi-residences",
           "name": "Pegassi Residences",
           "kind": "Torri residenziali",
-          "description": "Due torri residenziali (nord e sud) sulla Gloriana Key. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Due torri residenziali (nord e sud) sulla Gloriana Key.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -522,7 +522,7 @@
           "id": "poi-oceanarium",
           "name": "Vice City Oceanarium",
           "kind": "Acquario",
-          "description": "L'acquario cittadino. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "L'acquario cittadino.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -536,7 +536,7 @@
           "id": "poi-catalan-lighthouse",
           "name": "Catalan Key Lighthouse",
           "kind": "Faro",
-          "description": "Il faro sulla Catalan Key. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Il faro sulla Catalan Key.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -550,7 +550,7 @@
           "id": "poi-vice-city-sign",
           "name": "Vice City Sign",
           "kind": "Insegna",
-          "description": "La grande insegna con il nome della città, inquadrata anche negli screenshot ufficiali. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "La grande insegna con il nome della città.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -680,7 +680,7 @@
           "id": "poi-effluvia",
           "name": "Effluvia",
           "kind": "Bar sul tetto",
-          "description": "Il rooftop bar di Ocean Beach dove Brian Heder propone il lavoro a Jason nell'Extended Look (10:50): Lucia se ne va, Jason resta con il lavoro e una Pißwasser.",
+          "description": "Il rooftop bar di Ocean Beach dove Brian Heder propone il lavoro a Jason: Lucia se ne va, Jason resta con il lavoro e una Pißwasser.",
           "characterIds": [
             "chr-brian",
             "chr-jason",
@@ -690,7 +690,7 @@
           "source": "stampa",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
           "image": "assets/img/luoghi/ocean-beach/landmark-l104.webp",
-          "insight": "Effluvia è un ristorante-bar in terrazza di Vice City, rivelato durante l'Extended Look di GTA VI trasmesso su Netflix il 27 agosto 2026. Il suo nome, leggibile sull'insegna del bar, è una piccola presa in giro tipica di Rockstar: in inglese «effluvia» indica delle esalazioni, il più delle volte un cattivo odore. Un nome ironico per uno degli indirizzi più chic di Vice City.\n\nUN PRANZO DI FAMIGLIA CHE DIVENTA AMBIGUO. Jason e Lucia vi ritrovano Brian Heder e Lori per un pranzo in terrazza. L'atmosfera, all'inizio calorosa, cambia quando a tavola si avvia una conversazione a mezze parole su un «lavoro» che qualcuno vuole «discreto, una sola persona», prima che il pasto riprenda il suo corso normale. Il nome «Effluvia» appare chiaramente sull'insegna del ristorante sullo schermo. Tra i cinque nuovi luoghi rivelati durante l'Extended Look, Effluvia è il solo a non figurare ancora tra i punti piazzati sulla mappa interattiva State of Leonida, per mancanza di elementi sufficienti a localizzarlo con precisione.\n\nIL PRANZO IN IMMAGINI. La scena dell'Extended Look è una delle sequenze tranquille più lunghe della presentazione. Vi si vede il duo attraversare il bar sul tetto mano nella mano (un'azione proposta sullo schermo da un tasto), salutare Brian e Lori al bancone, poi sedersi a un tavolo in pieno sole, cocktail e fiori sul tavolo, con la skyline di Vice City sullo sfondo. La stampa anglofona colloca il bar nel quartiere di Vice Beach.",
+          "insight": "Effluvia è un bar-ristorante su una terrazza di Vice City, uno degli indirizzi più chic della città. Il nome, leggibile sull'insegna, è una tipica presa in giro di Rockstar: in inglese «effluvia» indica delle esalazioni, il più delle volte un cattivo odore.\n\nUN PRANZO DI FAMIGLIA CHE DIVENTA AMBIGUO. Jason e Lucia ci ritrovano Brian Heder e Lori per un pranzo in terrazza. L'atmosfera, all'inizio calorosa, cambia quando a tavola si parla a mezze parole di un «lavoro» che qualcuno vuole «discreto, una sola persona»; poi il pranzo riprende come se niente fosse.\n\nIL PRANZO. È una delle scene tranquille più lunghe mostrate finora. Jason e Lucia attraversano il bar sul tetto mano nella mano (un'azione che si fa con un tasto), salutano Brian e Lori al bancone e si siedono a un tavolo in pieno sole, cocktail e fiori in tavola, con lo skyline di Vice City sullo sfondo. Il bar si trova nel quartiere di Vice Beach; il punto esatto non è ancora noto.",
           "insightUrl": "https://vice-central.com/lieux/efflavia/",
           "keyFacts": [
             {
@@ -710,7 +710,7 @@
             },
             {
               "label": "Quartiere",
-              "value": "Vice Beach, secondo la stampa anglofona",
+              "value": "Vice Beach",
               "reliability": "Riportato"
             }
           ],
@@ -726,7 +726,7 @@
           "id": "poi-venture-apartments",
           "name": "Venture Apartments",
           "kind": "Residenziale",
-          "description": "A Rockridge: la casa dello spaccio di Raymond, dove si apre l'Extended Look con la retata di Méndez.",
+          "description": "A Rockridge: la casa dello spaccio di Raymond, dove scatta la retata di Méndez.",
           "characterIds": [
             "chr-raymond",
             "chr-mendez"
@@ -744,7 +744,7 @@
           "id": "poi-stock-305-x",
           "name": "Archez, Bohemia, Redford Gallery",
           "kind": "Negozi di Stockyard",
-          "description": "Boutique e gallerie di Stockyard ricostruite dalla community sugli indirizzi veri di Wynwood.",
+          "description": "Boutique e gallerie di Stockyard, ricalcate sugli indirizzi veri di Wynwood.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -830,7 +830,7 @@
           "id": "poi-vc-metro",
           "name": "Vice City Metro",
           "kind": "Metropolitana",
-          "description": "La rete su rotaia (la Metrorail di Leonida) gestita dalla contea: stazioni a VCIA, Downtown, Arts Center, Crosstown e Waning Sands; sopraelevata sopra La Perle (Trailer 2, 0:45); due treni nel trailer di lancio. Il Metro Mule è il people mover automatico del centro (Crosstown, Arts Center, Downtown).",
+          "description": "La rete su rotaia (la Metrorail di Leonida) gestita dalla contea: stazioni a VCIA, Downtown, Arts Center, Crosstown e Waning Sands; il tratto sopraelevato passa sopra La Perle. Il Metro Mule è il people mover automatico del centro (Crosstown, Arts Center, Downtown).",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -841,7 +841,7 @@
           "id": "poi-vc-transit",
           "name": "Autobus Vice City Transit",
           "kind": "Trasporto pubblico",
-          "description": "Gli autobus urbani (Buster) e i pullman (Dashound). Hooker: «sono ossessionato dal fatto che arrivino sempre», ha memorizzato tutte le linee. Fermate sulla minimappa.",
+          "description": "Gli autobus urbani (Buster) e i pullman (Dashound) passano davvero, su linee vere, e puoi usarli per spostarti. Le fermate sono sulla minimappa.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -863,7 +863,7 @@
           "id": "poi-portvicecity",
           "name": "PortViceCity",
           "kind": "Porto",
-          "description": "«La capitale mondiale delle crociere» nel testo ufficiale; una nave da crociera accanto al ponte nell'Extended Look; tunnel e I-397.",
+          "description": "«La capitale mondiale delle crociere»: navi da crociera accanto al ponte, il tunnel e la I-397.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -878,7 +878,7 @@
           "id": "poi-vcia-x",
           "name": "Autograph",
           "kind": "Aviazione privata",
-          "description": "Gli hangar dell'aviazione privata all'aeroporto, dal cui vetro si vede l'impianto Goliath Global. Cartello «VCI Airport» nell'Extended Look (18:40).",
+          "description": "Gli hangar dell'aviazione privata all'aeroporto, dal cui vetro si vede l'impianto Goliath Global. All'ingresso, il cartello «VCI Airport».",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -893,7 +893,7 @@
           "id": "poi-coast-guard",
           "name": "Base della Guardia Costiera",
           "kind": "Base",
-          "description": "Elencata dalla community a Vice City; Cal Hampton ascolta le sue comunicazioni.",
+          "description": "La base della Guardia Costiera a Vice City; Cal Hampton ascolta le sue comunicazioni.",
           "characterIds": [
             "chr-cal"
           ],
@@ -910,7 +910,7 @@
           "id": "poi-peregrine-bay",
           "name": "Peregrine Bay",
           "kind": "Baia",
-          "description": "La baia a sud della contea (Turkey Point); cartello a Southside nel leak dell'agosto 2026.",
+          "description": "La baia a sud della contea (Turkey Point), indicata da un cartello a Southside.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -925,7 +925,7 @@
           "id": "poi-bluegrass",
           "name": "Bluegrass",
           "kind": "Cittadina agricola",
-          "description": "A nord di Hamlet (Redland); il Bluegrass Radio Mast sarebbe la struttura più alta di Leonida. Dal leak.",
+          "description": "A nord di Hamlet (Redland); il Bluegrass Radio Mast è la struttura più alta di Leonida.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -955,7 +955,7 @@
           "id": "poi-oceanarium-x",
           "name": "Makenzi, l'orca",
           "kind": "Cartellone",
-          "description": "Il cartellone dell'Oceanarium con l'orca Makenzi nell'Extended Look (15:35). Il parco era «Vice City Seaquarium» nel prototipo del 2014.",
+          "description": "Il cartellone dell'Oceanarium con l'orca Makenzi. Nel prototipo del 2014 il parco si chiamava «Vice City Seaquarium».",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -966,7 +966,7 @@
           "id": "poi-rialto-causeway",
           "name": "Rialto Causeway e Rivo Bridge",
           "kind": "Ponti",
-          "description": "La causeway a pedaggio («Vice Pass») verso le isole e il ponte verso la terraferma; Trailer 1 di notte (0:31).",
+          "description": "La causeway a pedaggio («Vice Pass») verso le isole e il ponte verso la terraferma.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -981,7 +981,7 @@
           "id": "poi-malibu",
           "name": "Malibu Club e Vercetti Estate",
           "kind": "Ritorni dal passato",
-          "description": "Nomi che i fan elencano come confermati; la community più cauta li chiama rumor.",
+          "description": "Due nomi storici di GTA Vice City. La loro presenza non è ancora confermata.",
           "characterIds": [],
           "status": "da verificare",
           "source": "rumor",
@@ -992,7 +992,7 @@
           "id": "poi-gsm-rockrige-store",
           "name": "Rockrige Store",
           "kind": "Minimarket",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             2939.369140625,
             -108.125
@@ -1008,7 +1008,7 @@
           "id": "poi-gsm-stockyard-clothing",
           "name": "Stockyard Clothing",
           "kind": "Abbigliamento",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             3526,
             444
@@ -1024,7 +1024,7 @@
           "id": "poi-gsm-la-perle-automotive-shop",
           "name": "La Perle Automotive Shop",
           "kind": "Officina",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             3000.892578125,
             110.869140625
@@ -1040,7 +1040,7 @@
           "id": "poi-gsm-rockrige-ammu-nation",
           "name": "Rockridge Ammu Nation",
           "kind": "Armeria",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             2997,
             -206
@@ -1056,7 +1056,7 @@
           "id": "poi-gsm-vc-airport",
           "name": "Vice City International Airport",
           "kind": "Aeroporto",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             2097,
             -938
@@ -1080,7 +1080,7 @@
       "gallery": [
         "assets/img/ss-vice-city-27.jpg"
       ],
-      "insight": "Vice City è tornata, nel cuore di Leonida, lo Stato immaginario ispirato alla Florida che fa da scenario a Grand Theft Auto VI. Città balneare sfavillante ispirata a Miami, resta fedele alla sua identità al neon e pastello pur essendo interamente ricostruita per questa nuova generazione.\n\nLA VICE CITY PIÙ VASTA MAI CONCEPITA. Dalle immagini mostrate finora la mappa si annuncia come la più vasta e la più densamente popolata mai concepita per la serie, con quartieri contrastanti che vanno dai viali turistici scintillanti alle zone più provate della periferia, passando per le distese naturali delle Everglades leonidiane. Diversi creator invitati alle anteprime a Rockstar North hanno dato ordini di grandezza: secondo TGG, Vice City sarebbe circa due volte più grande di Los Santos in GTA V, e la zona urbana fuori dalla città undici volte più vasta del suo equivalente in quel gioco. Lo streamer El Rubius, dal suo lato, stima la mappa completa di Leonida circa tre volte più grande di quella di Red Dead Redemption II. Il sinossi ufficiale la definisce «una reinterpretazione del più grande e immersivo mondo aperto mai creato da Rockstar Games».\n\nUNA CITTÀ INTERAMENTE ESPLORABILE DALL'INIZIO. Secondo le anteprime raccolte dalla stampa internazionale dopo l'Extended Look, Vice City si esplora liberamente fin dalle prime ore di gioco, senza ponti bloccati né isole rese inaccessibili dalla progressione della trama. Dettaglio geografico notevole: le strade della città sarebbero circa il 15% più strette di quelle di Los Santos in GTA V, il che renderebbe la guida più tecnica, soprattutto nel traffico. L'atmosfera e il comportamento dei passanti cambiano anche a seconda dei quartieri: girare in città con un fucile a pompa in vista desta i sospetti degli abitanti, mentre la stessa tenuta passa del tutto inosservata nelle distese selvagge delle Everglades. Rockstar conferma inoltre un grande lavoro sulla cultura automobilistica e la personalizzazione, con il ritorno delle armerie Ammu-Nation che offrono armi esclusive e opzioni di personalizzazione inedite, e una polizia presentata come nettamente più tenace rispetto agli episodi precedenti.\n\nIL PUNTO DI PARTENZA DI UNA COSPIRAZIONE DI STATO. È in questa città che Lucia Caminos e Jason Duval vedono il loro colpo, che doveva essere semplice, andare storto, trascinandoli in una cospirazione che coinvolge tutto lo Stato di Leonida. Vice City non è un semplice sfondo: è il punto d'ancoraggio narrativo attorno al quale ruotano la maggior parte dei personaggi e delle fazioni del gioco.\n\nVICE CITY E MIAMI: UN'ISPIRAZIONE REALE FINO AL MARKETING. L'ispirazione dalla vera Miami non si limita all'estetica: arriva fino alla campagna marketing. Il comune di Miami ha studiato un progetto di cartelloni pubblicitari giganti per il gioco nel proprio centro in vista dell'uscita. Si tratta ovviamente di un'iniziativa condotta nella Miami reale, da non confondere con Vice City, che resta un luogo interamente fittizio.\n\nBAYSIDE DISTRICT, UN QUARTIERE ANCORA POCO DOCUMENTATO (riportato). Bayside District è un quartiere di Vice City individuato nell'Extended Look del 27 agosto 2026 grazie a una battuta di dialogo che colloca l'azione, durante un'analisi fotogramma per fotogramma di GameRant. Nessuna immagine ufficiale isolata del quartiere è stata pubblicata: solo una breve sequenza permette di collocarlo, nel seguito della missione di sicurezza in cui un vigilante confisca le armi di Jason e Lucia, costringendoli a continuare disarmati. Il nome suggerisce un quartiere costiero o rivierasco; diversi siti della community lo descrivono come un settore commerciale sull'acqua nella contea fittizia di Vice-Dale e parlano di un possibile alloggio sbloccato automaticamente in questo quartiere nel corso della storia. Nessuno di questi dettagli è confermato da Rockstar: la posizione esatta va trattata con prudenza.\n\nLA CARTOLINA UFFICIALE: «TUTTO NELL'ECCESSO». Rockstar ha presentato ogni grande regione di Leonida con una cartolina e un breve testo. Quello di Vice City sta in tre frasi, ma cita luoghi precisi che si ritroveranno nel gioco: la spiaggia di Ocean Beach, il quartiere di Little Cuba, un mercato delle pulci e il porto. «Siamo ben lontani dagli anni 80, ma Vice City resta la capitale americana del sole e della festa. Il glamour, l'arte di arrangiarsi e la sete di guadagno dell'America, riuniti in una sola città. Ogni quartiere ha qualcosa da offrire, dagli hotel art déco pastello e dalla sabbia bianca di Ocean Beach alle panaderías animate di Little Cuba e alle contraffazioni del mercato delle pulci di Tisha-Wocka, fino al porto di Vice City, capitale mondiale delle crociere.»\n\nQUARTIERI E PUNTI DI RIFERIMENTO IDENTIFICATI. Diversi nomi sono già certi perché li ha dati Rockstar stessa. Vice City è il capoluogo della contea di Vice-Dale, trasparente richiamo alla contea di Miami-Dade. Ocean Beach riprende South Beach e i suoi hotel art déco, Little Cuba ricorda Little Havana, e il porto di Vice City fa eco al porto di Miami, primo porto crocieristico del mondo. Sulla skyline pubblicata da Game Informer, la Sahara Arena in riva alla baia somiglia in tutto al Kaseya Center, l'arena dei Miami Heat, il cui tetto porta ora un'insegna «Welcome to Vice City» reale. Altri quartieri sono stati rilevati dalla community sui cartelli stradali e nelle scenografie dei video ufficiali, come Little Haiti, Stockyard (l'equivalente di Wynwood e dei suoi murales), Washington Beach o Catalan Key, oltre all'aeroporto internazionale. Questi nomi restano da confermare da parte di Rockstar.",
+      "insight": "Vice City torna come cuore di Leonida, lo stato immaginario ispirato alla Florida. È una città balneare sfavillante ispirata a Miami, fedele alla sua identità al neon e pastello ma interamente ricostruita per questa generazione.\n\nLA VICE CITY PIÙ VASTA MAI VISTA. È la mappa più grande e più densamente popolata della serie, con quartieri che vanno dai viali turistici scintillanti alle periferie più provate, fino alle distese naturali delle Everglades leonidiane. Vice City è circa due volte Los Santos di GTA V, e la zona urbana fuori città è undici volte più vasta del suo equivalente in quel gioco; Leonida nel suo insieme è circa tre volte la mappa di Red Dead Redemption 2. La sinossi ufficiale la definisce «una reinterpretazione del più grande e immersivo mondo aperto mai creato da Rockstar Games».\n\nTUTTA DA ESPLORARE FIN DALL'INIZIO. Vice City si gira liberamente dalle prime ore, senza ponti bloccati né isole chiuse dalla trama. Le strade sono circa il 15% più strette di quelle di Los Santos: la guida è più tecnica, soprattutto nel traffico. I passanti reagiscono in base al quartiere: un fucile a pompa in vista in città desta sospetti, mentre nelle Everglades nessuno ci fa caso. Grande spazio alla cultura automobilistica e alla personalizzazione; tornano le armerie Ammu-Nation, con armi esclusive e personalizzazioni inedite, e la polizia è molto più tenace che in passato.\n\nIL PUNTO DI PARTENZA DI UNA COSPIRAZIONE. È qui che il colpo facile di Lucia Caminos e Jason Duval va storto e li trascina in una cospirazione che coinvolge tutto lo stato. Vice City non è un semplice sfondo: quasi tutti i personaggi e le fazioni del gioco ruotano intorno a lei.\n\nVICE CITY E MIAMI. L'ispirazione arriva fino al marketing: il comune di Miami ha studiato cartelloni giganti per il gioco nel proprio centro in vista dell'uscita. È un'iniziativa nella Miami reale: Vice City resta un luogo di fantasia.\n\nBAYSIDE DISTRICT. Quartiere di Vice City nominato in una battuta di dialogo, nel seguito della missione di sicurezza in cui un vigilante confisca le armi a Jason e Lucia e li costringe a proseguire disarmati. Il nome indica un quartiere sull'acqua: un settore commerciale affacciato sulla baia, nella contea di Vice-Dale, con un possibile alloggio che si sblocca da solo durante la storia. La posizione esatta non è ancora nota.\n\nLA CARTOLINA UFFICIALE: «TUTTO NELL'ECCESSO». Tre frasi che citano luoghi precisi del gioco: la spiaggia di Ocean Beach, il quartiere di Little Cuba, un mercato delle pulci e il porto. «Siamo ben lontani dagli anni 80, ma Vice City resta la capitale americana del sole e della festa. Il glamour, l'arte di arrangiarsi e la sete di guadagno dell'America, riuniti in una sola città. Ogni quartiere ha qualcosa da offrire, dagli hotel art déco pastello e dalla sabbia bianca di Ocean Beach alle panaderías animate di Little Cuba e alle contraffazioni del mercato delle pulci di Tisha-Wocka, fino al porto di Vice City, capitale mondiale delle crociere.»\n\nQUARTIERI E PUNTI DI RIFERIMENTO. Vice City è il capoluogo della contea di Vice-Dale, chiaro richiamo a Miami-Dade. Ocean Beach riprende South Beach e i suoi hotel art déco, Little Cuba ricorda Little Havana, il porto di Vice City fa eco al porto di Miami, primo porto crocieristico del mondo. La Sahara Arena in riva alla baia è il Kaseya Center, l'arena dei Miami Heat, che oggi ha sul tetto una vera insegna «Welcome to Vice City». Sui cartelli stradali compaiono altri quartieri: Little Haiti, Stockyard (l'equivalente di Wynwood e dei suoi murales), Washington Beach, Catalan Key, oltre all'aeroporto internazionale.",
       "insightUrl": "https://vice-central.com/lieux/vice-city/",
       "keyFacts": [
         {
@@ -1100,7 +1100,7 @@
         },
         {
           "label": "Sahara Arena",
-          "value": "Equivalente del Kaseya Center, secondo la skyline ufficiale",
+          "value": "Equivalente del Kaseya Center",
           "reliability": "Riportato"
         },
         {
@@ -1110,12 +1110,12 @@
         },
         {
           "label": "Dimensioni",
-          "value": "Circa due volte Los Santos secondo le anteprime",
+          "value": "Circa due volte Los Santos",
           "reliability": "Riportato"
         },
         {
           "label": "Bayside District",
-          "value": "Quartiere citato in un dialogo dell'Extended Look",
+          "value": "Quartiere nominato in un dialogo",
           "reliability": "Riportato"
         }
       ],
@@ -1128,7 +1128,7 @@
       "name": "Waning Sands",
       "region": "Contea di Leonard, a nord di Vice City",
       "tagline": "La città dei centri commerciali, appena fuori dalla metropoli.",
-      "description": "Città separata a nord di Vice City, riconosciuta dalla community su un cartello stradale e in un'inquadratura dall'alto di un centro commerciale nel Trailer 1. Non è tra i sei territori nominati da Rockstar: potrebbe far parte dell'area di Vice City.",
+      "description": "Città separata a nord di Vice City, indicata sui cartelli stradali, con un grande centro commerciale. Non è tra i sei territori ufficiali: non è ancora chiaro se faccia parte dell'area di Vice City.",
       "map": {
         "x": 790,
         "y": 400,
@@ -1137,15 +1137,15 @@
       "subAreas": [
         {
           "name": "Sundown",
-          "note": "comunità residenziale con aeroporto privato, leak"
+          "note": "comunità residenziale con aeroporto privato"
         },
         {
           "name": "Vinewood Beach",
-          "note": "cartello I-97 nel leak di ottobre 2026"
+          "note": "indicata sui cartelli della I-97"
         },
         {
           "name": "North Beaches",
-          "note": "cartello nel leak 2022"
+          "note": "indicata sui cartelli stradali"
         },
         {
           "name": "Belville",
@@ -1157,7 +1157,7 @@
           "id": "poi-evergreen-mall",
           "name": "Evergreen Shopping Mall",
           "kind": "Centro commerciale",
-          "description": "Il centro commerciale ripreso dall'alto nel Trailer 1. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Il grande centro commerciale di Waning Sands.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1171,7 +1171,7 @@
           "id": "poi-sundown-airfield",
           "name": "Sundown Private Airfield",
           "kind": "Aeroporto privato",
-          "description": "Nella comunità residenziale di Sundown, a nord; nel menu del leak 2022 e in un cartello del leak 2026.",
+          "description": "Nella comunità residenziale di Sundown, a nord.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -1208,7 +1208,7 @@
       "name": "Leonida Keys",
       "region": "Contea di Mariana, arcipelago meridionale",
       "tagline": "La bassa marea dell'America.",
-      "description": "La catena di isole a sud dello stato, casa di Jason: un arcipelago tropicale di bar e moli che il testo ufficiale riportato dalla stampa chiama la porta del paradiso. È qui che, dopo l'esercito, Jason ha finito per lavorare per i trafficanti locali, e qui vive in una proprietà di Brian Heder, che fa ancora passare la merce dal suo cantiere. Cal Hampton passa le giornate sul divano ad ascoltare le comunicazioni della Guardia Costiera. Il trailer di lancio si apre proprio qui, con il cartello «Welcome to The Keys». Sette screenshot nella galleria ufficiale.",
+      "description": "La catena di isole a sud dello stato, casa di Jason: un arcipelago tropicale di bar e moli, la porta del paradiso. Qui, dopo l'esercito, Jason ha finito per lavorare per i trafficanti locali, e vive in una proprietà di Brian Heder, che fa ancora passare la merce dal suo cantiere. Cal Hampton passa le giornate sul divano ad ascoltare le comunicazioni della Guardia Costiera. All'ingresso ti accoglie il cartello «Welcome to The Keys».",
       "map": {
         "x": 600,
         "y": 830,
@@ -1217,15 +1217,15 @@
       "subAreas": [
         {
           "name": "Key Lento",
-          "note": "community"
+          "note": "la Key più popolata, casa di Jason"
         },
         {
           "name": "Goose Key",
-          "note": "base aeronavale e Guardia Costiera; cartello US 1 nel leak"
+          "note": "base aeronavale e Guardia Costiera, sulla US 1"
         },
         {
           "name": "East Key, Bobcat Key, Airward Key",
-          "note": "community"
+          "note": "altre isole dell'arcipelago"
         }
       ],
       "pois": [
@@ -1233,7 +1233,7 @@
           "id": "poi-brian-boat-yard",
           "name": "Brian's Boat Works & Marina",
           "kind": "Cantiere nautico",
-          "description": "Il cantiere da cui Brian Heder continua a far passare la merce, con la terza moglie Lori a servire sangria. Il nome compare sull'insegna sul tetto nel trailer di lancio («Brian's Marina») e, secondo la stampa, nella scheda ufficiale come «Brian's Boat Works & Marina». Jason ci lavora.",
+          "description": "Il cantiere da cui Brian Heder continua a far passare la merce, con la terza moglie Lori a servire sangria. Sull'insegna sul tetto c'è scritto «Brian's Marina»; il nome completo è «Brian's Boat Works & Marina». Jason ci lavora.",
           "characterIds": [
             "chr-brian",
             "chr-lori",
@@ -1252,7 +1252,7 @@
           "id": "poi-jason-home",
           "name": "La casa di Jason",
           "kind": "Rifugio",
-          "description": "Una delle proprietà di Brian, dove Jason vive senza pagare affitto in cambio di una mano nelle estorsioni locali. Lo store la chiama «Jason's Safehouse» quando elenca i veicoli bonus che ci si trovano: una Dinka Enduro e un kayak Crest. La stampa dice che Jason e Lucia condividono un rifugio che funziona come l'accampamento di Red Dead Redemption 2: frigo, TV, oggetti personali.",
+          "description": "Una delle proprietà di Brian, dove Jason vive senza pagare affitto in cambio di una mano nelle estorsioni locali. È la «Jason's Safehouse» dei veicoli bonus: qui trovi una Dinka Enduro e un kayak Crest. Jason e Lucia condividono un rifugio che funziona come l'accampamento di Red Dead Redemption 2: frigo, TV, oggetti personali.",
           "characterIds": [
             "chr-jason",
             "chr-brian"
@@ -1270,7 +1270,7 @@
           "id": "poi-globe-oil",
           "name": "Globe Oil",
           "kind": "Distributore",
-          "description": "Distributore di benzina con insegna ben visibile nel trailer di lancio (0:26), secondo le analisi della stampa.",
+          "description": "Distributore di benzina con l'insegna ben visibile.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://mypandaplay.com/gta-6/guides/launch-trailer-breakdown/",
@@ -1280,7 +1280,7 @@
           "id": "poi-rent-a-rack",
           "name": "Rent a Rack",
           "kind": "Noleggio",
-          "description": "Striscione nel trailer di lancio, con tanto di numero di telefono (786-555-0109).",
+          "description": "Noleggio con uno striscione e tanto di numero di telefono (786-555-0109).",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://mypandaplay.com/gta-6/guides/launch-trailer-breakdown/",
@@ -1290,7 +1290,7 @@
           "id": "poi-wonder-whale",
           "name": "Wonder Whale",
           "kind": "Attrazione",
-          "description": "Attrazione a tema balena nelle Keys. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Attrazione a tema balena nelle Keys.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1321,7 +1321,7 @@
           "id": "poi-rusty-anchor",
           "name": "The Rusty Anchor",
           "kind": "Bar",
-          "description": "Il bar delle Keys nello screenshot della Launch Gallery con l'uomo addormentato sul tavolo da picnic.",
+          "description": "Il bar delle Keys con l'uomo addormentato sul tavolo da picnic.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1362,7 +1362,7 @@
           "id": "poi-goose-key-base",
           "name": "Base aeronavale di Goose Key",
           "kind": "Base",
-          "description": "Due piste incrociate e la stazione della Guardia Costiera; il Dodo del Trailer 1 vola sopra i ponti. Nome dal cartello US 1 nel leak.",
+          "description": "Due piste incrociate e la stazione della Guardia Costiera; un Dodo vola sopra i ponti. Il nome è sul cartello della US 1.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -1377,7 +1377,7 @@
           "id": "poi-goliath-plant",
           "name": "Goliath Global Plant",
           "kind": "Cementificio",
-          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph e nel leak «plane.mp4».",
+          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -1392,7 +1392,7 @@
           "id": "poi-gsm-key-lento-store",
           "name": "Key Lento Store",
           "kind": "Minimarket",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             2502,
             -3735
@@ -1418,7 +1418,7 @@
       "gallery": [
         "assets/img/ss-leonida-keys-07.jpg"
       ],
-      "insight": "Prolungamento insulare di Vice City verso sud, le Leonida Keys sono uno degli scenari confermati di GTA VI. È in questo arcipelago che Jason Duval si ricostruisce una vita al ritorno dall'esercito, accanto a Brian Heder e Cal Hampton.\n\nLA PORTA D'INGRESSO DEL PARADISO. Rockstar presenta le Keys come una vera porta verso il paradiso: spiagge, stile di vita rilassato e turismo di lusso convivono in un'atmosfera direttamente ispirata alle vere Florida Keys americane, tra palme, acque turchesi e resort di alta gamma.\n\nIL TURISMO NASCONDE UN PASSATO TORBIDO. Dietro la cartolina, le Keys hanno anche una storia più oscura: la regione ha vissuto la sua «età dell'oro della droga», e trafficanti come Brian Heder continuano a operarvi, oggi riconvertito nella gestione di un porticciolo. Turismo di lusso e storia criminale condividono così le stesse strade strette, un contrasto che Rockstar ha sempre amato nella costruzione dei suoi scenari.\n\nUNA BASE MILITARE AI CONFINI DELL'ARCIPELAGO. Secondo i creator invitati alle anteprime a Rockstar North dopo l'Extended Look, in fondo alle Leonida Keys ci sarebbe un'importante base militare: un dettaglio coerente con il passato di Jason Duval, ex militare originario di questa stessa regione.\n\nLA CARTOLINA UFFICIALE: «LA PORTA DEL PARADISO». «Il dress code è rilassato, i bar sono pieni. La vita in questo arcipelago tropicale non ha niente di sfarzoso, ma è facile. Prendete un drink e sistematevi su una sdraio, ma attenzione: siete alle porte di alcune delle acque più belle e più pericolose di tutta l'America.»\n\nCOSA MOSTRANO I VIDEO. Le Keys sono la prima regione che si vede nel Trailer 2: un'isola vista dal cielo, le sue case in riva all'acqua, poi una casa su palafitte in legno davanti alla quale Brian Heder fa la predica a Jason. È lì che Jason vive all'inizio del gioco, alloggiato gratis da Brian in cambio di qualche favore. Il Trailer 1 mostrava già un lungo ponte tra due isole, sorvolato da un idrovolante, immagine diretta dei ponti che collegano le vere Florida Keys.\n\nLE VERE FLORIDA KEYS. L'arcipelago riprende le Florida Keys, la collana di isole collegate da ponti che corre dalla punta della Florida fino a Key West. I fan vi hanno individuato una ripresa di Rain Barrel Village, una sosta turistica di Islamorada celebre per la sua aragosta gigante, Betsy, sostituita nel gioco da un'altra statua gigante. Il database GTABase collega le Keys a una contea di Mariana, equivalente della contea di Monroe, e cita un'isola di Key Lento, strizzata d'occhio a Key Largo. Game Informer ha anche pubblicato un idrovolante sopra le isole sotto un cielo di tempesta.",
+      "insight": "Prolungamento insulare di Vice City verso sud, le Leonida Keys sono una delle regioni di GTA VI. In questo arcipelago Jason Duval si ricostruisce una vita dopo l'esercito, accanto a Brian Heder e Cal Hampton.\n\nLA PORTA DEL PARADISO. Spiagge, vita rilassata e turismo di lusso convivono in un'atmosfera ispirata alle vere Florida Keys, tra palme, acque turchesi e resort di alta gamma.\n\nIL TURISMO NASCONDE UN PASSATO TORBIDO. Dietro la cartolina, le Keys hanno vissuto la loro «età dell'oro della droga», e trafficanti come Brian Heder, oggi riciclato nella gestione di un porticciolo, ci operano ancora. Turismo di lusso e storia criminale condividono le stesse strade strette.\n\nUNA BASE MILITARE IN FONDO ALL'ARCIPELAGO. In fondo alle Keys c'è un'importante base militare, coerente con il passato di Jason, ex militare originario proprio di questa zona.\n\nLA CARTOLINA UFFICIALE: «LA PORTA DEL PARADISO». «Il dress code è rilassato, i bar sono pieni. La vita in questo arcipelago tropicale non ha niente di sfarzoso, ma è facile. Prendete un drink e sistematevi su una sdraio, ma attenzione: siete alle porte di alcune delle acque più belle e più pericolose di tutta l'America.»\n\nCOSA SI VEDE. Un'isola dall'alto, le case in riva all'acqua, poi una casa su palafitte in legno davanti alla quale Brian fa la predica a Jason: è lì che Jason vive all'inizio del gioco, ospite gratis di Brian in cambio di qualche favore. Un lungo ponte tra due isole, sorvolato da un idrovolante, ricalca i ponti delle vere Florida Keys; c'è anche un idrovolante sopra le isole sotto un cielo di tempesta.\n\nLE VERE FLORIDA KEYS. L'arcipelago riprende la collana di isole collegate da ponti che va dalla punta della Florida a Key West. C'è una versione di Rain Barrel Village, la sosta turistica di Islamorada famosa per l'aragosta gigante Betsy, qui sostituita da un'altra statua gigante. Le Keys stanno nella contea di Mariana, equivalente della contea di Monroe, e l'isola di Key Lento strizza l'occhio a Key Largo.",
       "insightUrl": "https://vice-central.com/lieux/leonida-keys/",
       "keyFacts": [
         {
@@ -1438,17 +1438,17 @@
         },
         {
           "label": "Contea",
-          "value": "Mariana, secondo GTABase",
+          "value": "Mariana",
           "reliability": "Riportato"
         },
         {
           "label": "Key Lento",
-          "value": "Equivalente di Key Largo, secondo GTABase",
+          "value": "Equivalente di Key Largo",
           "reliability": "Riportato"
         },
         {
           "label": "Base militare",
-          "value": "In fondo all'arcipelago, secondo le anteprime",
+          "value": "In fondo all'arcipelago",
           "reliability": "Riportato"
         }
       ],
@@ -1461,7 +1461,7 @@
       "name": "Grassrivers",
       "region": "Contea di Mariana, entroterra umido",
       "tagline": "Benvenuti nelle paludi.",
-      "description": "Le zone umide di Leonida: mangrovie, canali lenti, alligatori e, dice il testo ufficiale riportato dalla stampa, predatori ben più pericolosi. Gli airboat che sfrecciano tra le erbe sono una delle immagini ricorrenti dei trailer. Il sito ufficiale lo affianca alla scheda di Dre'Quan Priest. Otto screenshot nella galleria ufficiale.",
+      "description": "Le zone umide di Leonida: mangrovie, canali lenti, alligatori e predatori ben più pericolosi. Gli airboat che sfrecciano tra le erbe sono una delle immagini simbolo di Leonida.",
       "map": {
         "x": 470,
         "y": 600,
@@ -1470,11 +1470,11 @@
       "subAreas": [
         {
           "name": "Watson Bay",
-          "note": "nome sulla torre dell'acqua in uno screenshot ufficiale; meta del test coi mezzi pubblici di Hooker"
+          "note": "il nome è sulla torre dell'acqua; ci si arriva anche solo con i mezzi pubblici"
         },
         {
           "name": "Emerald Springs, Buckskin",
-          "note": "leak 2026"
+          "note": "altre località delle paludi"
         }
       ],
       "pois": [
@@ -1482,7 +1482,7 @@
           "id": "poi-watson-bay-x",
           "name": "Watson Bay",
           "kind": "Cittadina",
-          "description": "Nome sulla torre dell'acqua in uno screenshot ufficiale: la Everglades City di Leonida. Qui il Paradise Garage dell'Ultimate Edition (armadietto e ricettazione) e il ristorante Bite House. Il team di Hooker l'ha raggiunta solo coi mezzi pubblici.",
+          "description": "Il nome è sulla torre dell'acqua: è la Everglades City di Leonida. Qui ci sono il Paradise Garage dell'Ultimate Edition (armadietto e ricettazione) e il ristorante Bite House. Ci si arriva anche solo con i mezzi pubblici.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1519,7 +1519,7 @@
           "id": "poi-gsm-cedar-key-airport",
           "name": "Cedar Key Airport",
           "kind": "Aeroporto",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             386,
             -1972
@@ -1545,7 +1545,7 @@
       "gallery": [
         "assets/img/ss-grassrivers-07.jpg"
       ],
-      "insight": "Grassrivers è la versione immaginata da Rockstar Games delle celebri Everglades della Florida, il cui nome è direttamente ispirato al soprannome reale della zona umida: «river of grass». È una delle regioni confermate dello Stato immaginario di Leonida in GTA VI.\n\nUNA VASTA ZONA UMIDA SUBTROPICALE. Lo scenario promette paludi, acquitrini, fiumi a corrente lenta e foreste di cipressi, punteggiati da comunità rurali isolate. Un contrasto totale con la frenesia urbana di Vice City. Il testo ufficiale: «Grassrivers è la versione immaginata da Rockstar delle Everglades della Florida, una vasta zona umida subtropicale che copre buona parte del sud di Leonida. Vi si trovano paludi, acquitrini, fiumi a corrente lenta, foreste di cipressi e comunità rurali isolate.»\n\nCACCIA, PESCA E FAUNA SELVATICA. Le anteprime raccolte dopo l'Extended Look descrivono attività all'aria aperta probabilmente ancorate a questo tipo di scenario: la pesca è possibile ma le prede vanno rilasciate, mentre la caccia può rendere denaro tramite un contatto di Jason. La fauna osservabile includerebbe anche i pavoni, individuati dalla rivista giapponese Famitsu tra le specie presenti a Leonida. Dettaglio divertente rilevato dalla stampa: il comportamento dei passanti cambia a seconda della zona: portare un'arma lunga in vista desta sospetti in piena città, ma passa del tutto inosservato nelle distese selvagge delle Everglades.\n\nUN TERRENO PROPIZIO ALL'ISOLAMENTO. Come spesso nella serie GTA, le zone naturali isolate servono da rifugio ad attività che la luce delle città non tollera. Grassrivers potrebbe così diventare teatro di traffici, nascondigli o incontri discreti lontano dagli sguardi, in una cornice naturale spettacolare.\n\nLA CARTOLINA UFFICIALE: «BENVENUTI NELLE PALUDI». «Il gioiello indomabile della corona di Leonida. Non si sa mai cosa si nasconde sotto la superficie di questa distesa primitiva. Gli alligatori sono forse l'attrazione più celebre, ma ci sono predatori ben più pericolosi e scoperte più strane in mezzo alle mangrovie.»\n\nLE EVERGLADES, FIN NEL NOME. Grassrivers riprende il soprannome delle Everglades, «River of Grass», reso popolare nel 1947 dal libro della giornalista Marjory Stoneman Douglas, che ha contribuito a proteggere la zona. I video ufficiali ne riprendono tutti i codici: distese di erbe alte, mangrovie, capanne isolate, idroscivolanti e colonie di uccelli. Il Trailer 1 vi si sofferma fin dai primi secondi, con un idroscivolante in una foschia dorata e una colonia di fenicotteri rosa. Rockstar è andata a vedere l'originale da vicino: nel numero 27 di LOVE Magazine (ottobre 2026), Aaron Garbut, codirettore di Rockstar North, racconta che il team ha passato ore a sorvolare le Everglades durante i viaggi di ricognizione in Florida, oltre a incontri con abitanti, poliziotti e membri di gang.\n\nUNA FAUNA TRA LE PIÙ RICCHE DEL GIOCO. Il dossier di Game Informer ha confermato più di 170 specie animali nel gioco, tra cui oltre 60 specie di uccelli e più di 30 mammiferi terrestri, senza contare pesci e rettili. Le paludi ne concentrano buona parte: alligatori, cervi, garzette e, secondo gli appassionati, fino ai pitoni introdotti che hanno colonizzato le vere Everglades. La rivista ha anche mostrato una capanna delle paludi al calar della notte.",
+      "insight": "Grassrivers è la versione Rockstar delle Everglades della Florida, e il nome viene dal loro soprannome reale, «river of grass». È una delle regioni di Leonida.\n\nUNA VASTA ZONA UMIDA SUBTROPICALE. Paludi, acquitrini, fiumi lenti e foreste di cipressi, punteggiati da comunità rurali isolate: l'opposto della frenesia di Vice City. Il testo ufficiale: «Grassrivers è la versione immaginata da Rockstar delle Everglades della Florida, una vasta zona umida subtropicale che copre buona parte del sud di Leonida. Vi si trovano paludi, acquitrini, fiumi a corrente lenta, foreste di cipressi e comunità rurali isolate.»\n\nCACCIA, PESCA E FAUNA. La pesca si fa, ma le prede vanno rilasciate; la caccia invece rende soldi grazie a un contatto di Jason. Tra le specie di Leonida ci sono anche i pavoni. I passanti reagiscono in base alla zona: un'arma lunga in vista desta sospetti in piena città, ma nelle paludi nessuno ci fa caso.\n\nUN TERRENO PER CHI VUOLE SPARIRE. Come spesso nella serie, le zone naturali isolate fanno da rifugio alle attività che in città non si possono fare: Grassrivers, con il suo scenario spettacolare, è il posto adatto per traffici, nascondigli e incontri lontano dagli sguardi.\n\nLA CARTOLINA UFFICIALE: «BENVENUTI NELLE PALUDI». «Il gioiello indomabile della corona di Leonida. Non si sa mai cosa si nasconde sotto la superficie di questa distesa primitiva. Gli alligatori sono forse l'attrazione più celebre, ma ci sono predatori ben più pericolosi e scoperte più strane in mezzo alle mangrovie.»\n\nLE EVERGLADES, FIN NEL NOME. «River of Grass» è il soprannome reso popolare nel 1947 dal libro della giornalista Marjory Stoneman Douglas, che ha contribuito a proteggere la zona. Ci sono tutti i codici delle Everglades: distese di erbe alte, mangrovie, capanne isolate, idroscivolanti nella foschia dorata, colonie di uccelli e fenicotteri rosa. Il team di Rockstar North ha passato ore a sorvolare le vere Everglades durante i viaggi di ricognizione in Florida, e ha incontrato abitanti, poliziotti e membri di gang.\n\nUNA FAUNA TRA LE PIÙ RICCHE. Nel gioco ci sono più di 170 specie animali, tra cui oltre 60 di uccelli e più di 30 mammiferi terrestri, senza contare pesci e rettili. Le paludi ne concentrano buona parte: alligatori, cervi, garzette. Resta da scoprire se ci siano anche i pitoni introdotti che hanno colonizzato le vere Everglades.",
       "insightUrl": "https://vice-central.com/lieux/grassrivers/",
       "keyFacts": [
         {
@@ -1565,12 +1565,12 @@
         },
         {
           "label": "Contea",
-          "value": "Contea di Mariana, rilevata sui cartelli stradali",
+          "value": "Contea di Mariana",
           "reliability": "Riportato"
         },
         {
           "label": "Pesca e caccia",
-          "value": "Descritte dalle anteprime",
+          "value": "Pesca con rilascio, caccia per fare soldi",
           "reliability": "Riportato"
         }
       ],
@@ -1583,7 +1583,7 @@
       "name": "Port Gellhorn",
       "region": "Contea di Kelly, costa del Golfo",
       "tagline": "Live Hard.",
-      "description": "La costa dimenticata di Leonida: motel economici, attrazioni chiuse, centri commerciali semivuoti e moto da cross sulla sabbia. Così la descrive il testo ufficiale riportato dalla stampa. Sette screenshot nella galleria ufficiale.",
+      "description": "La costa dimenticata di Leonida: motel economici, attrazioni chiuse, centri commerciali semivuoti e moto da cross sulla sabbia.",
       "map": {
         "x": 300,
         "y": 400,
@@ -1600,7 +1600,7 @@
           "id": "poi-bocamar-bridge",
           "name": "Bocamar Bridge",
           "kind": "Ponte",
-          "description": "Ponte sulla costa del Golfo. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Ponte sulla costa del Golfo.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1614,7 +1614,7 @@
           "id": "poi-gellhorn-roadhouse",
           "name": "Gellhorn Roadhouse Sign",
           "kind": "Insegna",
-          "description": "L'insegna del roadhouse. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "L'insegna del roadhouse.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1628,7 +1628,7 @@
           "id": "poi-gellhorn-raceway",
           "name": "Gellhorn International Raceway",
           "kind": "Circuito",
-          "description": "Circuito internazionale. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Circuito internazionale.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1642,7 +1642,7 @@
           "id": "poi-starlet-motel",
           "name": "Starlet Motel",
           "kind": "Motel / rifugio",
-          "description": "Il motel al neon del Trailer 1 e della rissa nel parcheggio del Trailer 2; uno dei rifugi secondo la community.",
+          "description": "Il motel al neon con la rissa nel parcheggio; è uno dei rifugi.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1657,7 +1657,7 @@
           "id": "poi-delights",
           "name": "Delights Cabaret",
           "kind": "Strip club",
-          "description": "Negli screenshot ufficiali di Port Gellhorn.",
+          "description": "Il cabaret «Delights», uno dei simboli del declino di Port Gellhorn.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1672,7 +1672,7 @@
           "id": "poi-hanks-waffles-x",
           "name": "Hank's Waffles (Port Gellhorn)",
           "kind": "Ristorante",
-          "description": "La community lo colloca qui, vicino allo svincolo della I-404: rapinato da Jason e Lucia nel flashback dell'Extended Look (11:40).",
+          "description": "Vicino allo svincolo della I-404: Jason e Lucia lo rapinano in un flashback.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1687,7 +1687,7 @@
           "id": "poi-pg-station",
           "name": "Port Gellhorn Train Station",
           "kind": "Stazione",
-          "description": "«La stazione ferroviaria di Port Gellhorn», sul sito promozionale.",
+          "description": "La stazione ferroviaria di Port Gellhorn.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -1702,7 +1702,7 @@
           "id": "poi-draper-island",
           "name": "Draper Island",
           "kind": "Porto e raffineria",
-          "description": "Oltre la baia, collegata dal Bocamar Bridge (alla Sunshine Skyway); cartello SR 9 nel Trailer 2.",
+          "description": "Oltre la baia, collegata dal Bocamar Bridge (alla Sunshine Skyway), con il cartello della SR 9.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -1717,7 +1717,7 @@
           "id": "poi-pg-shops",
           "name": "Negozi di Port Gellhorn",
           "kind": "Negozi",
-          "description": "Port Gellhorn Pawn & Gun e Uncle Jack's Liquor (Trailer 1), Crossroad Park Minimall (Trailer 2), Gellhorn Roadhouse, Lucky Plucker, Mason's Shrimp Shack, Watkins Auto Parts, Game Horde, Burnout Scooters, Easy Inn, La Cascara Motel, Taco Bomb, i distributori Alpha, Arrow, Globe Oil e Gas Stop sulla Historic US 628.",
+          "description": "Port Gellhorn Pawn & Gun, Uncle Jack's Liquor, Crossroad Park Minimall, Gellhorn Roadhouse, Lucky Plucker, Mason's Shrimp Shack, Watkins Auto Parts, Game Horde, Burnout Scooters, Easy Inn, La Cascara Motel, Taco Bomb, i distributori Alpha, Arrow, Globe Oil e Gas Stop sulla Historic US 628.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -1732,7 +1732,7 @@
           "id": "poi-kelly-prison",
           "name": "Complesso carcerario (contea di Kelly)",
           "kind": "Prigione",
-          "description": "Modellato sulla Augusta State Medical Prison, nel leak 2022.",
+          "description": "Modellato sulla Augusta State Medical Prison.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -1747,7 +1747,7 @@
           "id": "poi-gsm-mount-waffles",
           "name": "Mount Waffles",
           "kind": "Collina",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             709,
             2619
@@ -1763,7 +1763,7 @@
           "id": "poi-gsm-ammu-nation-gellhorn",
           "name": "Ammu Nation Gellhorn",
           "kind": "Armeria",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             92,
             1344
@@ -1779,7 +1779,7 @@
           "id": "poi-gsm-port-gellhorn-car-wash",
           "name": "Port Gellhorn Car Wash",
           "kind": "Autolavaggio",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             152,
             1951
@@ -1795,7 +1795,7 @@
           "id": "poi-gsm-easy-hill",
           "name": "Easy Hill",
           "kind": "Collina",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             384,
             1851
@@ -1811,7 +1811,7 @@
           "id": "poi-gsm-gellhorn-raceway",
           "name": "Gellhorn International Raceway",
           "kind": "Autodromo",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             -156,
             761
@@ -1835,7 +1835,7 @@
       "gallery": [
         "assets/img/ss-port-gellhorn-07.jpg"
       ],
-      "insight": "Port Gellhorn è una delle regioni confermate dello Stato di Leonida in GTA VI, presentata da Rockstar Games come un territorio in forte declino, all'opposto totale dello splendore turistico di Vice City o delle Leonida Keys.\n\nUNA REGIONE ALL'ABBANDONO. Lo scenario promette un paesaggio segnato dalla precarietà: dal cabaret «Delights» allo Starlet Motel, passando per centri commerciali deserti e attrazioni abbandonate, Port Gellhorn non ha più molto per attirare i turisti. Il testo ufficiale: «Port Gellhorn è in forte declino, e la vita è dura in questa regione fatiscente di Leonida. Dal cabaret “Delights” e dallo Starlet Motel ai centri commerciali ormai deserti e alle attrazioni abbandonate, c'è poco qui per attirare i turisti, ma una nuova economia emerge per far vivere gli abitanti. Il traffico di droga vi si è saldamente installato.»\n\nUNA NUOVA ECONOMIA, ILLEGALE. Di fronte al declino del turismo, Rockstar è diretta: è il traffico di droga ad aver preso il posto di motore economico della regione. Un contesto che fa di Port Gellhorn un terreno probabile per missioni legate al crimine organizzato, lontano dai lustrini di Vice City.\n\nLA CARTOLINA UFFICIALE: «VIVERE ALLA DURA». La cartolina pubblicata in seguito da Rockstar va oltre la prima descrizione: descrive la nuova economia della città, e non ha niente di turistico. «Ecco la costa dimenticata di Leonida. I motel a buon mercato, le attrazioni chiuse e i centri commerciali vuoti non faranno tornare i turisti, ma una nuova economia è nata in questa località un tempo molto frequentata. Va a birra forte, antidolorifici e bevande energetiche degli autogrill. Salite su una moto da cross e tenete stretto il portafoglio.» La menzione degli antidolorifici non è un caso: rimanda alla crisi degli oppioidi, che ha colpito duramente le piccole città americane, tra cui diverse località balneari della Florida in perdita di velocità.\n\nLA «FORGOTTEN COAST» DELLA VERA FLORIDA. «Forgotten Coast» è il vero soprannome turistico di una porzione del litorale del nord-ovest della Florida, sul Golfo del Messico, tra Mexico Beach e St. Marks. Proprio accanto c'è Panama City Beach, località balneare la cui architettura ricorda quella di Port Gellhorn secondo diversi confronti dei giocatori. Altri vi vedono Fort Myers o altre città della costa occidentale. GTABase collega la città a Kelly County, nel nord-ovest di Leonida. Lo Starlet Motel citato da Rockstar potrebbe avere un ruolo nella storia: GTABase lo classifica tra i nascondigli di Jason e Lucia. Rockstar non lo ha confermato.",
+      "insight": "Port Gellhorn è una delle regioni di Leonida: un territorio in forte declino, l'opposto dello splendore turistico di Vice City e delle Leonida Keys.\n\nUNA REGIONE ALL'ABBANDONO. Dal cabaret «Delights» allo Starlet Motel, tra centri commerciali deserti e attrazioni abbandonate, a Port Gellhorn resta poco per attirare i turisti. Il testo ufficiale: «Port Gellhorn è in forte declino, e la vita è dura in questa regione fatiscente di Leonida. Dal cabaret “Delights” e dallo Starlet Motel ai centri commerciali ormai deserti e alle attrazioni abbandonate, c'è poco qui per attirare i turisti, ma una nuova economia emerge per far vivere gli abitanti. Il traffico di droga vi si è saldamente installato.»\n\nUNA NUOVA ECONOMIA, ILLEGALE. Con il turismo in crisi, il motore economico della regione è diventato il traffico di droga: un terreno naturale per le missioni legate al crimine organizzato, lontano dai lustrini di Vice City.\n\nLA CARTOLINA UFFICIALE: «VIVERE ALLA DURA». La cartolina va oltre la prima descrizione e racconta la nuova economia della città, che non ha niente di turistico. «Ecco la costa dimenticata di Leonida. I motel a buon mercato, le attrazioni chiuse e i centri commerciali vuoti non faranno tornare i turisti, ma una nuova economia è nata in questa località un tempo molto frequentata. Va a birra forte, antidolorifici e bevande energetiche degli autogrill. Salite su una moto da cross e tenete stretto il portafoglio.» Gli antidolorifici non sono un caso: rimandano alla crisi degli oppioidi, che ha colpito duro le piccole città americane, comprese diverse località balneari della Florida in declino.\n\nLA «FORGOTTEN COAST» DELLA VERA FLORIDA. «Forgotten Coast» è il soprannome turistico di un tratto del litorale nord-ovest della Florida, sul Golfo del Messico, tra Mexico Beach e St. Marks. Lì accanto c'è Panama City Beach, la località a cui più somiglia l'architettura di Port Gellhorn; altri confronti puntano a Fort Myers o ad altre città della costa occidentale. La città sta nella contea di Kelly, nel nord-ovest di Leonida. Lo Starlet Motel è uno dei nascondigli di Jason e Lucia.",
       "insightUrl": "https://vice-central.com/lieux/port-gellhorn/",
       "keyFacts": [
         {
@@ -1855,7 +1855,7 @@
         },
         {
           "label": "Contea",
-          "value": "Kelly County, secondo GTABase",
+          "value": "Kelly County",
           "reliability": "Riportato"
         },
         {
@@ -1865,7 +1865,7 @@
         },
         {
           "label": "Nascondiglio allo Starlet Motel",
-          "value": "Secondo GTABase",
+          "value": "Uno dei nascondigli di Jason e Lucia",
           "reliability": "Rumor"
         }
       ],
@@ -1878,7 +1878,7 @@
       "name": "Ambrosia",
       "region": "Contea di Ambrosia, entroterra centrale",
       "tagline": "Zucchero, campi e una banda di motociclisti.",
-      "description": "Regione agricola e industriale attorno alla raffineria di zucchero Allied Crystal, che dà lavoro a mezza contea, secondo il testo ufficiale riportato dalla stampa. Una banda di motociclisti locale completa il quadro. Sei screenshot nella galleria ufficiale.",
+      "description": "Regione agricola e industriale attorno alla raffineria di zucchero Allied Crystal, che dà lavoro a mezza contea. Una banda di motociclisti locale completa il quadro.",
       "map": {
         "x": 560,
         "y": 380,
@@ -1887,7 +1887,7 @@
       "subAreas": [
         {
           "name": "Lake Leonida",
-          "note": "dal testo delle edizioni riportato dalla stampa"
+          "note": "il grande lago centrale"
         }
       ],
       "pois": [
@@ -1895,7 +1895,7 @@
           "id": "poi-allied-crystal",
           "name": "Allied Crystal",
           "kind": "Raffineria di zucchero",
-          "description": "La raffineria che tiene in piedi l'economia di Ambrosia, nominata nel testo ufficiale della regione riportato dalla stampa.",
+          "description": "La raffineria che tiene in piedi l'economia di Ambrosia.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://consequence.net/2025/05/gta-6-trailer-characters-story-details/",
@@ -1909,7 +1909,7 @@
           "id": "poi-one-eyed-willie",
           "name": "One-Eyed Willie's Mod Shop",
           "kind": "Officina",
-          "description": "Officina dell'Ultimate Edition. Secondo la stampa si trova a Lake Leonida.",
+          "description": "Officina dell'Ultimate Edition, a Lake Leonida.",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -1919,7 +1919,7 @@
           "id": "poi-ambrosia-raceway",
           "name": "Ambrosia Raceway Park",
           "kind": "Circuito",
-          "description": "Circuito automobilistico. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Circuito automobilistico.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1933,7 +1933,7 @@
           "id": "poi-thrillbilly",
           "name": "Thrillbilly Mud Club",
           "kind": "Club di fango",
-          "description": "Il club delle corse nel fango, visto nel Trailer 1. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Il club delle corse nel fango.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -1947,7 +1947,7 @@
           "id": "poi-thirsty-wolf",
           "name": "The Thirsty Wolf",
           "kind": "Bar",
-          "description": "Il bar da cui i Final Chapter MC inseguono Jason, secondo la community.",
+          "description": "Il bar da cui i Final Chapter MC inseguono Jason.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -1958,7 +1958,7 @@
           "id": "poi-xero-gas",
           "name": "Xero Gas",
           "kind": "Distributore",
-          "description": "Jason con la polizia alle spalle, nello screenshot.",
+          "description": "Il distributore dove Jason si ritrova la polizia alle spalle.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -1988,7 +1988,7 @@
           "id": "poi-henshaw",
           "name": "Cartelli elettorali di Erin Henshaw",
           "kind": "Politica",
-          "description": "La candidata sindaca sostenuta dalla Allied Crystal, «la linfa dolce di Ambrosia», sui cartelli in uno screenshot ufficiale.",
+          "description": "La candidata sindaca sostenuta dalla Allied Crystal, «la linfa dolce di Ambrosia»: i suoi cartelli sono in giro per la città.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -2007,7 +2007,7 @@
       "gallery": [
         "assets/img/ss-ambrosia-06.jpg"
       ],
-      "insight": "Ambrosia fa parte delle regioni confermate dello Stato immaginario di Leonida in GTA VI. Nonostante il nome evochi dolcezza, Rockstar presenta questa località come un concentrato di industria all'antica, lontano dalle spiagge soleggiate di Vice City.\n\nUNA CITTÀ COSTRUITA ATTORNO ALLO ZUCCHERO. Il cuore economico di Ambrosia è la raffineria Allied Crystal, principale datore di lavoro della regione. Questa identità industriale ricorda le vere città dello zucchero del sud della Florida, da cui Rockstar si ispira ancora una volta per costruire la geografia satirica di Leonida. Il testo ufficiale: «C'è poca dolcezza ad Ambrosia, a parte la produzione della raffineria di zucchero Allied Crystal, che fa vivere tutta la regione. È l'incarnazione stessa dell'industria all'americana, dove i valori all'antica restano in vigore, imposti dalla gang di motociclisti locale che controlla la regione.»\n\nUN TERRITORIO SOTTO CONTROLLO. Rockstar è esplicita sul clima locale: i «valori all'antica» sono imposti da una gang di motociclisti che tiene la regione. Un territorio rurale dove il potere informale prevale largamente sull'autorità ufficiale, un terreno di gioco propizio a missioni criminali lontane dall'agitazione urbana di Vice City. Ambrosia completa così il mosaico delle contee rurali di Leonida, accanto a Kelly County e alle zone umide di Grassrivers.\n\nLA CARTOLINA UFFICIALE: «TENERE LEONIDA DOLCE». Rockstar ha poi presentato Ambrosia con una cartolina e un nuovo testo, più preciso sulla divisione del potere: la raffineria fa vivere gli abitanti, i biker si occupano del resto. «La battaglia per la salute e la ricchezza di Leonida comincia qui. Nel cuore di Leonida, l'industria americana e i valori di un tempo regnano ancora sovrani, costi quel che costi. La raffineria di zucchero Allied Crystal fornisce i posti di lavoro, e la gang di biker locale fornisce più o meno tutto il resto.»\n\nLA VERA FLORIDA DIETRO AMBROSIA. Il paragone più frequente è con Clewiston, cittadina sulle rive del lago Okeechobee che si definisce «America's Sweetest Town» e ospita la sede della U.S. Sugar Corporation: la sagoma della raffineria vista nel materiale ufficiale somiglia molto alla sua. Clewiston si trova nella contea di Hendry, e il database GTABase rileva proprio una «contea di Ambrosia» sui cartelli stradali del gioco, al centro di Leonida, con un grande lago, il lago Leonida, che farebbe le veci del lago Okeechobee.\n\nIL PAESE DEI BIKER. Il dossier pubblicato da Game Informer a settembre mostra due scene che corrispondono perfettamente alla descrizione di Ambrosia, anche se la rivista non precisa dove si svolgono: un bar di biker immerso nei neon, e un motociclista armato in mezzo alle galline. Le gang di motociclisti sono una figura della serie fin da The Lost and Damned, l'espansione di GTA IV.",
+      "insight": "Ambrosia è una delle regioni di Leonida. Il nome evoca dolcezza, ma è un concentrato di industria all'antica, lontano dalle spiagge soleggiate di Vice City.\n\nUNA CITTÀ COSTRUITA ATTORNO ALLO ZUCCHERO. Il cuore economico è la raffineria Allied Crystal, il principale datore di lavoro della regione, come nelle vere città dello zucchero del sud della Florida. Il testo ufficiale: «C'è poca dolcezza ad Ambrosia, a parte la produzione della raffineria di zucchero Allied Crystal, che fa vivere tutta la regione. È l'incarnazione stessa dell'industria all'americana, dove i valori all'antica restano in vigore, imposti dalla gang di motociclisti locale che controlla la regione.»\n\nUN TERRITORIO SOTTO CONTROLLO. I «valori all'antica» li impone una gang di motociclisti che tiene la regione: un territorio rurale dove il potere informale conta più dell'autorità ufficiale, terreno ideale per missioni criminali lontane da Vice City. Ambrosia completa il mosaico delle contee rurali di Leonida, accanto a Kelly County e alle paludi di Grassrivers.\n\nLA CARTOLINA UFFICIALE: «TENERE LEONIDA DOLCE». La cartolina è più precisa sulla divisione del potere: la raffineria dà lavoro, i biker si occupano del resto. «La battaglia per la salute e la ricchezza di Leonida comincia qui. Nel cuore di Leonida, l'industria americana e i valori di un tempo regnano ancora sovrani, costi quel che costi. La raffineria di zucchero Allied Crystal fornisce i posti di lavoro, e la gang di biker locale fornisce più o meno tutto il resto.»\n\nLA VERA FLORIDA DIETRO AMBROSIA. Il paragone più vicino è Clewiston, cittadina sulle rive del lago Okeechobee che si definisce «America's Sweetest Town» e ospita la sede della U.S. Sugar Corporation: la sagoma della raffineria somiglia molto alla sua. Clewiston è nella contea di Hendry; nel gioco i cartelli stradali indicano una «contea di Ambrosia», al centro di Leonida, con un grande lago, il lago Leonida, al posto del lago Okeechobee.\n\nIL PAESE DEI BIKER. Due scene corrispondono in pieno ad Ambrosia, anche se il luogo non è precisato: un bar di biker immerso nei neon e un motociclista armato in mezzo alle galline. Le gang di motociclisti sono di casa nella serie fin da The Lost and Damned, l'espansione di GTA IV.",
       "insightUrl": "https://vice-central.com/lieux/ambrosia/",
       "keyFacts": [
         {
@@ -2045,7 +2045,7 @@
       "name": "Mount Kalaga National Park",
       "region": "Contea di Lummox, nord",
       "tagline": "Il tetto di Leonida.",
-      "description": "Il parco nazionale a nord: foreste aspre, canyon, sentieri da fuoristrada, caccia e pesca. Cervi, puma e volpi tra gli alberi, secondo il testo ufficiale riportato dalla stampa. Il nome completo compare nella galleria ufficiale, con sei screenshot. Il sito lo affianca alla scheda di Brian Heder.",
+      "description": "Il parco nazionale a nord: foreste aspre, canyon, sentieri da fuoristrada, caccia e pesca. Cervi, puma e volpi tra gli alberi.",
       "map": {
         "x": 520,
         "y": 200,
@@ -2054,11 +2054,11 @@
       "subAreas": [
         {
           "name": "Domed Hills",
-          "note": "community"
+          "note": "zona collinare del nord"
         },
         {
           "name": "Yorktown, Millport, Redhill, Lummox County",
-          "note": "leak: contea del nord, non nel materiale ufficiale"
+          "note": "località della contea di Lummox, a nord"
         }
       ],
       "pois": [
@@ -2081,7 +2081,7 @@
           "id": "poi-millport",
           "name": "Millport",
           "kind": "Porto",
-          "description": "Città portuale a nord-est (Fernandina Beach), raggiunta dalla I-297; sulla Forest Route 88 lo screenshot Edge dei Final Chapter MC. Dal leak.",
+          "description": "Città portuale a nord-est (Fernandina Beach), raggiunta dalla I-297; sulla Forest Route 88 passano i Final Chapter MC.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -2096,7 +2096,7 @@
           "id": "poi-yorktown",
           "name": "Yorktown",
           "kind": "Cittadina",
-          "description": "A nord di Port Gellhorn oltre il Bocamar Bridge, cartello US 2 nel leak 2022.",
+          "description": "A nord di Port Gellhorn oltre il Bocamar Bridge, sulla US 2.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -2122,7 +2122,7 @@
       "gallery": [
         "assets/img/ss-mount-kalaga-01.jpg"
       ],
-      "insight": "Il Mount Kalaga National Park è una delle regioni confermate di GTA VI e segna il limite nord dello Stato immaginario di Leonida. Rockstar Games lo descrive sobriamente come una vasta distesa selvaggia da esplorare, lontano dall'agitazione urbana di Vice City.\n\nLA FRONTIERA NORD DI LEONIDA. Situato ai confini dello Stato, questo parco nazionale disegna un limite naturale alla mappa di GTA VI, una funzione simile a quella delle zone montuose o boschive nei precedenti episodi della serie, come il monte Chiliad in GTA V. Il testo ufficiale: «Il Mount Kalaga National Park forma la frontiera nord dello Stato e offre un'immensa distesa selvaggia da esplorare.»\n\nUN TERRENO ANCORA LARGAMENTE MISTERIOSO. Rockstar resta molto discreta sul contenuto preciso di questa regione. Dato lo spazio dedicato ai grandi spazi naturali nei trailer e nelle anteprime, soprattutto attorno a caccia, pesca e osservazione della fauna già evocate per altre zone naturali come Grassrivers, questo parco potrebbe proporre attività simili.\n\nLA CARTOLINA UFFICIALE: «UN PAESE SELVAGGIO». Rockstar ha poi dato molti più dettagli sul parco, con una cartolina e un testo che ne fa il grande terreno di gioco all'aria aperta di Leonida, ma anche il rifugio di personaggi poco raccomandabili. «Spazio per respirare, ai confini nord dello Stato. Sito naturale nazionale addossato alla frontiera nord, Mount Kalaga offre terreni di caccia, angoli di pesca e piste fuoristrada di prima scelta. Nell'entroterra verdeggiante che lo circonda, mistici di campagna e radicali paranoici vivono lontano dagli sguardi indiscreti del governo.»\n\nCACCIA, PESCA E TREKKING. Le immagini ufficiali confermano il programma: caccia, barca, moto da cross. Il dossier di Game Informer aggiunge un cacciatore in quad nei boschi, fucile in spalla, e Jason e Lucia in escursione vicino a una cascata, una delle attività da fare in due. Secondo GTABase, il parco mescola foreste, canyon e fiumi sinuosi, e ospita cervi, puma e volpi.\n\nUNA MONTAGNA CHE LA FLORIDA NON HA. È la più grande libertà presa da Rockstar con la geografia: il punto più alto della vera Florida, Britton Hill, non supera i 105 metri. I confronti puntano piuttosto alle grandi foreste nazionali del nord dello Stato, come quelle di Ocala o di Apalachicola, e alla vicina Georgia: GTABase avvicina il canyon del parco al Providence Canyon, nel sud-ovest di quello Stato. Come il monte Chiliad in GTA V, questo rilievo serve prima di tutto il gioco.",
+      "insight": "Il Mount Kalaga National Park è il confine nord dello stato di Leonida: una vasta distesa selvaggia da esplorare, lontano dalla confusione di Vice City.\n\nLA FRONTIERA NORD DI LEONIDA. Il parco chiude la mappa con un limite naturale, come le zone di montagna e di bosco nei capitoli precedenti della serie, per esempio il monte Chiliad in GTA V. Il testo ufficiale: «Il Mount Kalaga National Park forma la frontiera nord dello Stato e offre un'immensa distesa selvaggia da esplorare.»\n\nLA CARTOLINA UFFICIALE: «UN PAESE SELVAGGIO». Il grande terreno di gioco all'aria aperta di Leonida, ma anche il rifugio di personaggi poco raccomandabili. «Spazio per respirare, ai confini nord dello Stato. Sito naturale nazionale addossato alla frontiera nord, Mount Kalaga offre terreni di caccia, angoli di pesca e piste fuoristrada di prima scelta. Nell'entroterra verdeggiante che lo circonda, mistici di campagna e radicali paranoici vivono lontano dagli sguardi indiscreti del governo.»\n\nCACCIA, PESCA E TREKKING. Caccia, barca, moto da cross; un cacciatore in quad nei boschi con il fucile in spalla; Jason e Lucia in escursione vicino a una cascata, una delle attività da fare in coppia. Il parco mescola foreste, canyon e fiumi sinuosi, con cervi, puma e volpi.\n\nUNA MONTAGNA CHE LA FLORIDA NON HA. È la libertà più grande che Rockstar si è presa con la geografia: il punto più alto della vera Florida, Britton Hill, non supera i 105 metri. I modelli sono piuttosto le grandi foreste nazionali del nord dello stato, come Ocala e Apalachicola, e la vicina Georgia: il canyon del parco ricorda il Providence Canyon, nel sud-ovest della Georgia. Come il monte Chiliad in GTA V, questo rilievo serve prima di tutto al gioco.",
       "insightUrl": "https://vice-central.com/lieux/mount-kalaga-national-park/",
       "keyFacts": [
         {
@@ -2142,7 +2142,7 @@
         },
         {
           "label": "Fauna",
-          "value": "Cervi, puma, volpi secondo GTABase",
+          "value": "Cervi, puma, volpi",
           "reliability": "Riportato"
         },
         {
@@ -2152,7 +2152,7 @@
         }
       ],
       "toSee": "Terreni di caccia, angoli di pesca, piste fuoristrada, la cascata del trekking di coppia",
-      "whoYouMeet": "Mistici di campagna e radicali paranoici (testo ufficiale)",
+      "whoYouMeet": "Mistici di campagna e radicali paranoici",
       "inspiration": "Grandi foreste nazionali del nord della Florida (Ocala, Apalachicola) e Providence Canyon in Georgia"
     },
     {
@@ -2160,12 +2160,12 @@
       "name": "Da collocare",
       "region": "Leonida, zona non ancora nota",
       "tagline": "Luoghi nominati, ma senza un indirizzo.",
-      "description": "Qui parcheggiamo i luoghi che Rockstar, lo store o i trailer hanno nominato senza dire dove stanno. Quando li trovi giocando, spostali nel distretto giusto.",
+      "description": "Qui trovi i luoghi nominati senza un indirizzo preciso. Quando li trovi giocando, spostali nel distretto giusto.",
       "map": null,
       "subAreas": [
         {
           "name": "Watson Bay",
-          "note": "dal testo delle edizioni riportato dalla stampa"
+          "note": "sede del Paradise Garage"
         }
       ],
       "pois": [
@@ -2173,7 +2173,7 @@
           "id": "poi-penitenziario",
           "name": "Leonida Penitentiary",
           "kind": "Penitenziario",
-          "description": "Il carcere di stato dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Nel trailer di lancio una chiamata a carico del destinatario arriva «da Lucia Caminos». La community lo chiama anche Leonida Department of Corrections.",
+          "description": "Il carcere di stato dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Da qui arriva una chiamata a carico del destinatario «da Lucia Caminos». È noto anche come Leonida Department of Corrections.",
           "characterIds": [
             "chr-lucia",
             "chr-stefanie"
@@ -2191,7 +2191,7 @@
           "id": "poi-rideout-customs",
           "name": "Rideout Customs Mod Shop",
           "kind": "Officina",
-          "description": "Officina per modifiche dell'Ultimate Edition, con tre screenshot nella galleria ufficiale.",
+          "description": "Officina per modifiche dell'Ultimate Edition.",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -2205,7 +2205,7 @@
           "id": "poi-sara-salon",
           "name": "Sara's Unisex Salon",
           "kind": "Parrucchiere",
-          "description": "Salone dell'Ultimate Edition, tre screenshot nella galleria ufficiale. La stampa dice che ci si può tagliare i capelli anche a casa.",
+          "description": "Salone dell'Ultimate Edition. Ci si può tagliare i capelli anche a casa.",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -2219,7 +2219,7 @@
           "id": "poi-ptt-compound",
           "name": "PTT Youngin$ Illegal Goods Store",
           "kind": "Negozio clandestino",
-          "description": "Nella galleria ufficiale è titolato «PTT YOUNGIN$ Illegal Goods Store»: un negozio di merce illegale, contenuto dell'Ultimate Edition. Lo store lo chiama «Compound».",
+          "description": "Un negozio di merce illegale, contenuto dell'Ultimate Edition. Il nome completo è «PTT YOUNGIN$ Illegal Goods Store»; nell'elenco dello store compare come «Compound».",
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
@@ -2233,7 +2233,7 @@
           "id": "poi-paradise-garage",
           "name": "Paradise Garage",
           "kind": "Garage",
-          "description": "Garage a Watson Bay citato dalla stampa nel testo delle edizioni.",
+          "description": "Garage a Watson Bay, incluso nelle edizioni.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
@@ -2247,7 +2247,7 @@
           "id": "poi-wyman-salvage",
           "name": "Wyman's World Auto Salvage Co.",
           "kind": "Sfasciacarrozze",
-          "description": "Lo sfasciacarrozze di Wyman, collezionista eccentrico e faccendiere locale, legato alla collezione di auto classiche dell'Ultimate Edition secondo la community.",
+          "description": "Lo sfasciacarrozze di Wyman, collezionista eccentrico e faccendiere locale, legato alla collezione di auto classiche dell'Ultimate Edition.",
           "characterIds": [
             "chr-wyman"
           ],
@@ -2260,7 +2260,7 @@
           "id": "poi-hanks-waffles",
           "name": "Hank's Waffles",
           "kind": "Ristorante",
-          "description": "Locale di waffle che compare in una sequenza di rapina, secondo un'analisi del Trailer 2. Nell'Extended Look si vede rapinare un ristorante di waffle.",
+          "description": "Locale di waffle che compare in una sequenza di rapina: Jason e Lucia lo rapinano.",
           "status": "da verificare",
           "source": "community",
           "image": null,
@@ -2273,7 +2273,7 @@
           "id": "poi-uncle-jacks",
           "name": "Uncle Jack's Liquor",
           "kind": "Liquori",
-          "description": "Negozio di liquori in una sequenza di rapina, secondo un'analisi del Trailer 2.",
+          "description": "Negozio di liquori che compare in una sequenza di rapina.",
           "status": "da verificare",
           "source": "community",
           "image": "assets/img/luoghi/port-gellhorn/landmark-l313.webp",
@@ -2286,7 +2286,7 @@
           "id": "poi-fleeca",
           "name": "Fleeca Bank",
           "kind": "Banca",
-          "description": "La banca della serie, segnalata dalla community sulla 4th Street.",
+          "description": "La banca della serie, sulla 4th Street.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2300,7 +2300,7 @@
           "id": "poi-hoodwinks",
           "name": "Hoodwinks",
           "kind": "Bar",
-          "description": "Bar segnalato dalla community.",
+          "description": "Bar di Crosstown.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2314,7 +2314,7 @@
           "id": "poi-jeudys",
           "name": "Jeudy's Food Depot",
           "kind": "Alimentari",
-          "description": "Negozio di alimentari segnalato dalla community.",
+          "description": "Negozio di alimentari.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2328,7 +2328,7 @@
           "id": "poi-diamond-dawgs",
           "name": "Diamond Dawgs",
           "kind": "Gioielleria",
-          "description": "Gioielleria segnalata dalla community. Le gioiellerie, nella serie, hanno una certa tradizione.",
+          "description": "Gioielleria. Le gioiellerie, nella serie, hanno una certa tradizione.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2342,7 +2342,7 @@
           "id": "poi-zekes",
           "name": "Zeke's Gadgets",
           "kind": "Negozio di telefoni",
-          "description": "Negozio di elettronica segnalato dalla community.",
+          "description": "Negozio di elettronica.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2356,7 +2356,7 @@
           "id": "poi-love-magazine",
           "name": "Love Magazine Diner",
           "kind": "Diner",
-          "description": "Tavola calda segnalata dalla community.",
+          "description": "Tavola calda.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -2366,7 +2366,7 @@
           "id": "poi-gambit-bay",
           "name": "Gambit Bay",
           "kind": "Baia",
-          "description": "Località costiera citata dalla community, legata a pesca e navigazione. Non confermata da Rockstar.",
+          "description": "Località costiera legata a pesca e navigazione.",
           "status": "da verificare",
           "source": "community",
           "image": null
@@ -2375,7 +2375,7 @@
           "id": "poi-base-militare",
           "name": "Base militare",
           "kind": "Base",
-          "description": "Una grande base militare segnalata dalla community tra i punti di riferimento. Dove, non si sa.",
+          "description": "Una grande base militare tra i punti di riferimento di Leonida. La posizione non è ancora nota.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
@@ -2385,7 +2385,7 @@
           "id": "poi-anfiteatro",
           "name": "Anfiteatro",
           "kind": "Anfiteatro",
-          "description": "Un enorme anfiteatro segnalato dalla community tra i punti di riferimento.",
+          "description": "Un enorme anfiteatro tra i punti di riferimento di Leonida.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
@@ -2395,7 +2395,7 @@
           "id": "poi-naval-air-station",
           "name": "Naval Air Station",
           "kind": "Base navale",
-          "description": "Base aeronavale a Watson Bay, forse la «base militare» citata altrove. Segnalato dalla mappa della community, ricostruita dai trailer: posizione e nome da verificare.",
+          "description": "Base aeronavale a Watson Bay. Non è ancora chiaro se sia la stessa «Base militare» qui sopra.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -2419,7 +2419,7 @@
       "name": "Vice Beach",
       "region": "Contea di Vice-Dale, città sull'isola",
       "tagline": "La spiaggia più grande della serie.",
-      "description": "Città separata sull'isola barriera di fronte a Vice City (la Miami Beach di Leonida): alberghi art déco di Ocean Beach, Shore Drive, Washington Beach con la sua marina, il golf di Leaf Links, Starfish Island con le ville. Un cartello «Vice Beaches» nell'Extended Look; nel marketing reale di ottobre è comparsa un'insegna «Vice Beach» a Lummus Park. Nome e confini dalla community.",
+      "description": "Città separata sull'isola barriera di fronte a Vice City (la Miami Beach di Leonida): alberghi art déco di Ocean Beach, Shore Drive, Washington Beach con la sua marina, il golf di Leaf Links, Starfish Island con le ville. Un cartello indica «Vice Beaches»; nel marketing reale di ottobre è comparsa un'insegna «Vice Beach» a Lummus Park.",
       "map": {
         "x": 900,
         "y": 590,
@@ -2428,7 +2428,7 @@
       "subAreas": [
         {
           "name": "Ocean Beach",
-          "note": "testo ufficiale: alberghi art déco"
+          "note": "alberghi art déco"
         },
         {
           "name": "Washington Beach",
@@ -2436,7 +2436,7 @@
         },
         {
           "name": "Starfish Island",
-          "note": "cartello nell'Extended Look"
+          "note": "l'isola ovale delle ville"
         },
         {
           "name": "Leaf Links",
@@ -2459,7 +2459,7 @@
           "id": "poi-fleeca-4th",
           "name": "Fleeca (SW 4th Street)",
           "kind": "Banca",
-          "description": "Nominata nelle didascalie della Launch Gallery; accanto Hobbs Milford e la gioielleria Diamond Dawgs.",
+          "description": "Accanto ci sono Hobbs Milford e la gioielleria Diamond Dawgs.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -2489,7 +2489,7 @@
           "id": "poi-hotels-vb",
           "name": "Gli hotel di Vice Beach",
           "kind": "Hotel",
-          "description": "Atlantis (Trailer 1), Boardwalk, Cordelia, Cortez, Dominion, Dixon, Valetta, Kington, Neptune, Paramour, Seahorse, Seashell, The Clarissa, un resort alla Fontainebleau e un hotel alla Scarface.",
+          "description": "Atlantis, Boardwalk, Cordelia, Cortez, Dominion, Dixon, Valetta, Kington, Neptune, Paramour, Seahorse, Seashell, The Clarissa, un resort alla Fontainebleau e un hotel alla Scarface.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -2571,7 +2571,7 @@
           "id": "poi-gsm-mount-sinai",
           "name": "Mount Sinai Hospital Complex",
           "kind": "Ospedale",
-          "description": "Segnaposto della community su gtasixmap: posizione nota, dettagli da scoprire in gioco.",
+          "description": "Posizione nota, dettagli da scoprire in gioco.",
           "xy": [
             4303,
             660
@@ -2592,7 +2592,7 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "insight": "Vice Beaches indica il lungomare e i quartieri balneari di Vice City in GTA VI. Strisce di sabbia, passeggiate e grattacieli sullo sfondo compongono uno degli scenari ricorrenti dei trailer e dell'Extended Look.\n\nOCEAN BEACH, LA STRISCIA BALNEARE EMBLEMATICA. All'interno di Vice Beaches, Rockstar Games mette particolarmente in evidenza Ocean Beach, descritta nel materiale promozionale ufficiale per i suoi hotel art déco dalle tinte pastello e la sabbia di un bianco abbagliante, omaggio diretto a Ocean Drive e South Beach a Miami. Vi si ritrova l'estetica al neon caratteristica della serie, tra facciate colorate di giorno e luci vibranti una volta scesa la notte.\n\nUN TERRENO DI GIOCO PER LE ATTIVITÀ SECONDARIE. È attorno a questo litorale che Rockstar colloca buona parte del montaggio di attività secondarie mostrato nell'Extended Look del 27 agosto 2026: moto d'acqua tra amici al tramonto, corsa che finisce nell'oceano in mezzo ai delfini, immersioni subacquee e scene di relax in riva al mare. La mappa interattiva della community State of Leonida censisce già diversi punti d'interesse individuati in questo settore, tra cui hotel e un molo lungo il lungomare.\n\nCOSA DICE LA CARTOLINA DI VICE CITY. Il testo ufficiale di Vice City cita la spiaggia per prima: «hotel art déco pastello e sabbia bianca di Ocean Beach». I video confermano l'atmosfera: spiagge affollate, ombrelloni a perdita d'occhio, culturisti e turisti, e un viale sul mare al neon che ricorda Ocean Drive, già al centro di GTA Vice City nel 2002. Game Informer ha anche pubblicato una spiaggia di Vice City dove, secondo la rivista, ogni passante ha la propria silhouette, segno del lavoro fatto sulla varietà degli abitanti.\n\nLA VERA MIAMI BEACH. Vice Beaches riprende Miami Beach, e Ocean Beach il suo quartiere storico di South Beach, uno degli scenari più fotografati della Florida. Il legame va oltre l'estetica: la città di Miami Beach ha votato a favore di una partnership attorno al gioco, nonostante le critiche. Il bar sul tetto dove Jason e Lucia ritrovano Brian e Lori, l'Effluvia, si troverebbe anch'esso nel quartiere secondo la stampa anglofona.",
+      "insight": "Vice Beaches sono il lungomare e i quartieri balneari di Vice City: strisce di sabbia, passeggiate e grattacieli sullo sfondo.\n\nOCEAN BEACH, LA STRISCIA SIMBOLO. La spiaggia più in vista è Ocean Beach, con gli hotel art déco dalle tinte pastello e la sabbia di un bianco abbagliante, omaggio a Ocean Drive e South Beach a Miami. Facciate colorate di giorno, luci al neon quando scende la notte.\n\nIL POSTO DELLE ATTIVITÀ SECONDARIE. Su questo litorale si concentrano tante attività secondarie: moto d'acqua tra amici al tramonto, una corsa che finisce in mare tra i delfini, immersioni, relax in riva al mare. Lungo il lungomare ci sono hotel e un molo.\n\nCOSA DICE LA CARTOLINA DI VICE CITY. Il testo ufficiale di Vice City cita per prima la spiaggia: «hotel art déco pastello e sabbia bianca di Ocean Beach». Spiagge affollate, ombrelloni a perdita d'occhio, culturisti e turisti, e un viale sul mare al neon che ricorda Ocean Drive, già al centro di GTA Vice City nel 2002. Ogni passante ha la sua silhouette: la varietà degli abitanti è curatissima.\n\nLA VERA MIAMI BEACH. Vice Beaches riprende Miami Beach, e Ocean Beach il suo quartiere storico di South Beach, uno degli scenari più fotografati della Florida. Il legame va oltre l'estetica: la città di Miami Beach ha votato a favore di una partnership intorno al gioco, nonostante le critiche. Anche l'Effluvia, il bar sul tetto dove Jason e Lucia ritrovano Brian e Lori, si trova nel quartiere.",
       "insightUrl": "https://vice-central.com/lieux/vice-beaches/",
       "keyFacts": [
         {
@@ -2612,12 +2612,12 @@
         },
         {
           "label": "Attività",
-          "value": "Moto d'acqua, immersioni, corsa, relax (Extended Look)",
+          "value": "Moto d'acqua, immersioni, corsa, relax",
           "reliability": "Confermato"
         },
         {
           "label": "Effluvia nel quartiere",
-          "value": "Secondo la stampa anglofona",
+          "value": "Il bar sul tetto di Brian e Lori",
           "reliability": "Riportato"
         }
       ],
@@ -2630,7 +2630,7 @@
       "name": "Hamlet",
       "region": "Contea di Vice-Dale, punta sud della terraferma",
       "tagline": "La cittadina agricola prima delle Keys.",
-      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, Grassrivers e Bluegrass. Qui la community colloca il Leonida Penitentiary, il salone di Sara, Phil's Ammu-Nation e lo speedway. Cartello «Welcome to Hamlet» nei video.",
+      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, Grassrivers e Bluegrass. Qui si trovano il Leonida Penitentiary, il salone di Sara, Phil's Ammu-Nation e lo speedway. All'ingresso, il cartello «Welcome to Hamlet».",
       "map": {
         "x": 610,
         "y": 740,
@@ -2642,7 +2642,7 @@
           "id": "poi-sara-salon-x",
           "name": "Sara's Unisex Salon (Hamlet)",
           "kind": "Parrucchiere",
-          "description": "La community colloca a Hamlet il salone dell'Ultimate Edition: tagli firmati, barba, trucco, unghie.",
+          "description": "Il salone dell'Ultimate Edition: tagli firmati, barba, trucco, unghie.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -2657,7 +2657,7 @@
           "id": "poi-phils-ammunation",
           "name": "Phil's Ammu-Nation",
           "kind": "Armeria",
-          "description": "L'armeria dello spot con Phil nel Trailer 2.",
+          "description": "L'armeria dello spot con Phil.",
           "characterIds": [
             "chr-phil"
           ],
@@ -2689,7 +2689,7 @@
           "id": "poi-american-mania",
           "name": "American Mania",
           "kind": "Wrestling da cortile",
-          "description": "Il wrestling da cortile visto nell'Extended Look.",
+          "description": "Il wrestling da cortile.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -2715,7 +2715,7 @@
           "id": "poi-hammer-lady-apt",
           "name": "Il condominio della Hammer Lady",
           "kind": "Residenziale",
-          "description": "Dove vive la signora con i due martelli del Trailer 1, secondo la community.",
+          "description": "Dove vive la signora con i due martelli.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
@@ -2731,7 +2731,7 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-06",
-      "insight": "Kelly County è una delle contee rurali dello Stato immaginario di Leonida, la regione che ospita Vice City in GTA VI. Completa il mosaico di territori rurali già identificati attorno alla metropoli, accanto a zone come Grassrivers o Ambrosia. Come il resto della mappa, Kelly County illustra la volontà di Rockstar di proporre uno Stato completo e vario piuttosto che una sola città: strade di campagna, aziende agricole e paesaggi naturali contrastano con la densità urbana di Vice City.\n\nPUNTI D'INTERESSE GIÀ INDIVIDUATI. La mappa interattiva della community State of Leonida, costruita a partire dai trailer e dall'Extended Look, censisce già diversi punti d'interesse precisi in questa contea: una stazione di servizio, una torre ferroviaria e una prigione. Questi riferimenti disegnano un territorio tipicamente rurale, lontano dall'agitazione urbana, ma non del tutto privo di infrastrutture.\n\nPORT GELLHORN, LA SUA CITTÀ PRINCIPALE. Secondo il database GTABase, che si basa sui cartelli stradali visibili nei video, Kelly County occupa il nord-ovest di Leonida e ha come città principale Port Gellhorn, la località balneare in declino che Rockstar chiama «la costa dimenticata di Leonida». La contea sarebbe una delle sei identificate finora, con Vice-Dale (Vice City), Leonard, Ambrosia e Mariana (Keys e Grassrivers).\n\nQUALE ISPIRAZIONE REALE? I pareri divergono. GTABase avvicina la contea a quelle di Collier e di Lee, sulla costa sud-ovest della Florida (Naples, Fort Myers), mentre il paragone di Port Gellhorn con Panama City tira piuttosto verso il nord-ovest dello Stato. Rockstar non conferma mai questi accostamenti.",
+      "insight": "Kelly County è una delle contee rurali di Leonida, accanto a zone come Grassrivers e Ambrosia. Strade di campagna, aziende agricole e paesaggi naturali fanno da contrasto alla densità di Vice City: Leonida è uno stato intero e vario, non una sola città.\n\nPUNTI D'INTERESSE. Nella contea ci sono una stazione di servizio, una torre ferroviaria e una prigione: un territorio tipicamente rurale, ma non privo di infrastrutture.\n\nPORT GELLHORN, LA CITTÀ PRINCIPALE. Kelly County occupa il nord-ovest di Leonida e la sua città principale è Port Gellhorn, la località balneare in declino che Rockstar chiama «la costa dimenticata di Leonida». È una delle sei contee note, con Vice-Dale (Vice City), Leonard, Ambrosia e Mariana (Keys e Grassrivers).\n\nQUALE ISPIRAZIONE REALE? Due ipotesi: le contee di Collier e Lee, sulla costa sud-ovest della Florida (Naples, Fort Myers), oppure il nord-ovest dello stato, se si guarda al paragone tra Port Gellhorn e Panama City.",
       "insightUrl": "https://vice-central.com/lieux/kelly-county/",
       "keyFacts": [
         {
@@ -2751,7 +2751,7 @@
         },
         {
           "label": "Punti d'interesse",
-          "value": "Stazione di servizio, torre ferroviaria, prigione (mappa della community)",
+          "value": "Stazione di servizio, torre ferroviaria, prigione",
           "reliability": "Riportato"
         },
         {
@@ -2762,14 +2762,14 @@
       ],
       "toSee": "Stazione di servizio, torre ferroviaria, prigione",
       "whoYouMeet": null,
-      "inspiration": "Nord-ovest della Florida (oppure contee di Collier e Lee secondo GTABase)"
+      "inspiration": "Nord-ovest della Florida (oppure contee di Collier e Lee)"
     },
     {
       "id": "dis-capri",
       "name": "Capri",
       "region": "Contea di Mariana, costa ovest",
       "tagline": "Grattacieli e un molo sul Golfo.",
-      "description": "Città della costa occidentale (mix di Napoli-Florida, Sebring e Marco Island) con grattacieli, molo sulla spiaggia, lago e stadio dei Capri City Jackals. Compare su cartelli dell'I-404 nell'Extended Look e nei leak del 2026; nel Trailer 1 a 0:52 secondo la community.",
+      "description": "Città della costa occidentale (mix di Napoli-Florida, Sebring e Marco Island) con grattacieli, molo sulla spiaggia, lago e stadio dei Capri City Jackals. Compare sui cartelli della I-404.",
       "map": {
         "x": 250,
         "y": 580,
@@ -2781,7 +2781,7 @@
           "id": "poi-capri-stadium",
           "name": "Capri City Jackals Stadium",
           "kind": "Stadio",
-          "description": "Lo stadio della città; Capri PD; i minimarket Xero Gas rapinati nel leak «hypercar2».",
+          "description": "Lo stadio della città; in zona ci sono il Capri PD e i minimarket Xero Gas, bersaglio di rapine.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",

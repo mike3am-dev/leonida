@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "items": [
     {
       "id": "chr-jason",
@@ -7,7 +6,7 @@
       "role": "Protagonista",
       "isProtagonist": true,
       "tagline": "Vuole una vita facile. Ha scelto quella difficile.",
-      "bio": "Cresciuto tra truffatori e delinquenti, ha provato a scrollarsi di dosso un'adolescenza turbolenta con un periodo nell'esercito. Poi è finito nelle Keys, a lavorare per i trafficanti locali. Vive senza pagare affitto in una delle proprietà di Brian Heder, in cambio di una mano nelle estorsioni del posto. Vorrebbe solo una vita facile. Rockstar lo dice senza giri di parole: incontrare Lucia potrebbe essere la cosa migliore o la peggiore che gli sia mai capitata. Famitsu lo chiama «ex forze speciali»; una missione nel grattacielo è solo sua. LOVE Magazine: Jason è «il freno», Lucia «il motore». Nel trailer di lancio lavora alla marina di Brian. Doppiatore non accreditato: i fan indicano Dylan Rourke.",
+      "bio": "Cresciuto tra truffatori e delinquenti, ha provato a scrollarsi di dosso un'adolescenza turbolenta con un periodo nell'esercito, nelle forze speciali. Poi è finito nelle Keys, a lavorare per i trafficanti locali. Vive senza pagare affitto in una delle proprietà di Brian Heder, in cambio di una mano nelle estorsioni del posto, e lavora alla marina di Brian. Vorrebbe solo una vita facile, ma incontrare Lucia potrebbe essere la cosa migliore o la peggiore che gli sia mai capitata. Nel duo Jason è «il freno», Lucia «il motore». Una missione nel grattacielo è solo sua. Il doppiatore non è accreditato: il nome più citato è Dylan Rourke.",
       "districtId": "dis-keys",
       "firstMissionId": null,
       "relations": [
@@ -30,45 +29,45 @@
         {
           "src": "assets/img/vice/personaggi/chr-jason-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-lucia-parking-prison.jpg",
-          "caption": "Jason aspetta Lucia all'uscita del penitenziario, davanti a una vecchia auto turchese (Trailer 2)."
+          "caption": "Jason aspetta Lucia all'uscita del penitenziario, davanti a una vecchia auto turchese."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-canape.jpg",
-          "caption": "Una scena di vita a due: Jason addormentato sul divano, Lucia con il gilet arancione (Trailer 2)."
+          "caption": "Una scena di vita a due: Jason addormentato sul divano, Lucia con il gilet arancione."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-moto.jpg",
-          "caption": "Jason su una moto chopper, un idrovolante sullo sfondo (Trailer 2)."
+          "caption": "Jason su una moto chopper, un idrovolante sullo sfondo."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g4.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-brian-cigare.jpg",
-          "caption": "Jason accende il sigaro di Brian Heder su un tetto di Vice City (Extended Look)."
+          "caption": "Jason accende il sigaro di Brian Heder su un tetto di Vice City."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-masque-fuite.jpg",
-          "caption": "Jason, mascherato, durante la fuga dopo la rapina, Raul Bautista sul sedile posteriore (Extended Look)."
+          "caption": "Jason, mascherato, durante la fuga dopo la rapina, Raul Bautista sul sedile posteriore."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-love-magazine-jason-lucia-diner.jpg",
-          "caption": "Jason e Lucia in un diner, una delle immagini pubblicate da LOVE Magazine."
+          "caption": "Jason e Lucia in un diner."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g7.webp",
           "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-game-informer-382-03-jason-batte-boutique-hd.webp",
-          "caption": "Jason, mazza in mano, in uno dei 12 screenshot pubblicati da Game Informer."
+          "caption": "Jason, mazza in mano, in un negozio."
         },
         {
           "src": "assets/img/vice/personaggi/chr-jason-g8.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/jason_duval-gallery-01-scaled.jpg",
-          "caption": "Jason Duval, immagine ufficiale n. 1"
+          "caption": "Jason Duval, immagine n. 1"
         }
       ],
-      "insight": "Insieme a Lucia Caminos, Jason Duval è uno dei due protagonisti giocabili di Grand Theft Auto VI. Rockstar Games lo presenta come un uomo che vorrebbe una vita semplice e a cui tutto resiste: cresciuto in mezzo ai truffatori, passato per l'esercito, quando la storia comincia si guadagna da vivere nelle Leonida Keys lavorando per dei trafficanti. L'incontro con Lucia fa precipitare la sua quotidianità in una cospirazione criminale che si estende a tutto lo Stato di Leonida.\n\nDal primo trailer Rockstar ha mostrato molto Jason: due trailer, una presentazione di 26 minuti (l'Extended Look del 27 agosto 2026), copertine di riviste e decine di screenshot. Questa scheda raccoglie tutto ciò che si sa del personaggio, separando quanto è ufficiale da quanto resta una voce.\n\n## Cosa dice la sua biografia ufficiale\n\nIl ritratto pubblicato da Rockstar sul suo sito sta in poche righe, ma ogni frase conta. Jason è cresciuto circondato da imbroglioni e piccoli delinquenti. Si è arruolato nell'esercito per lasciarsi alle spalle un'adolescenza difficile, poi si è ritrovato nelle Keys a fare ciò che sa fare meglio: lavorare per i trafficanti locali. Il testo si chiude su un'esitazione che riassume bene il personaggio: forse è ora di provare qualcos'altro.\n\n«Jason vuole una vita facile, ma tutto diventa sempre più complicato. Jason è cresciuto circondato da imbroglioni e truffatori. Dopo un periodo nell'esercito per chiudere con un'adolescenza turbolenta, si è ritrovato nelle Keys a fare quello che sa fare meglio: lavorare per i trafficanti locali. Forse è ora di provare qualcos'altro. Incontrare Lucia potrebbe essere la cosa migliore o la peggiore che gli sia mai capitata. Jason sa come vorrebbe che finisse, ma per ora è difficile dirlo.»\n\nLa biografia di Brian Heder completa il quadro: questo vecchio trafficante delle Keys ospita Jason gratis in una delle sue proprietà, a patto che lo aiuti a recuperare soldi dalla gente del posto e che passi ogni tanto a bere la sangria di sua moglie Lori. L'amico Cal Hampton, anch'egli socio di Brian, è descritto come l'opposto di Jason: felice di non cambiare nulla, mentre Jason «vede più in grande».\n\n## Cosa mostrano i trailer\n\nIl Trailer 2 (6 maggio 2025) si apre su di lui. Lo si vede a torso nudo sul tetto di una casa su palafitte delle Keys, mentre Brian gli fa la predica davanti a un pick-up, poi al volante, nella palestra all'aria aperta e nella rimessa per barche di Brian. Il trailer lo mostra soprattutto in attesa di Lucia nel parcheggio del penitenziario, davanti a una vecchia auto turchese: è il primo momento del duo sullo schermo.\n\nLo stesso trailer infila momenti più leggeri, che dicono molto del tono del gioco: Jason addormentato su un divano a motivi tropicali, due bottiglie davanti a lui mentre Lucia passa con un gilet da cantiere, oppure lanciato a tutta velocità su una moto chopper nelle Keys, con un idrovolante giallo sullo sfondo.\n\n## Cosa mostra l'Extended Look\n\nLa presentazione del 27 agosto 2026 ha offerto per la prima volta lunghe sequenze giocate con Jason. Lo si vede prima accompagnare Lucia da Raymond, capo di una piccola gang che confeziona droga, per recuperare soldi per conto di Boobie Ike. La visita finisce in sparatoria quando la polizia fa irruzione: Jason alterna pistola e fucile a pompa, si mette al riparo, e il duo finisce per saltare da una finestra per fuggire.\n\nPiù avanti ritrova Brian e Lori sulla terrazza del ristorante Effluvia, poi accende il sigaro di Brian su un tetto con vista su Vice City. Secondo i resoconti della presentazione, Brian gli confida che in questo mestiere il segreto è sapere quando fermarsi.\n\nJason è anche al centro della sequenza di fuga che segue una rapina in banca organizzata da Raul Bautista. Con il volto coperto da una bandana, spara agli inseguitori mentre Lucia guida, con quattro stelle di ricercato e un elicottero alle spalle. La presentazione si chiude con una missione di protezione all'inaugurazione della torre Megamundo, dove Jason, in completo, scorta Andrés de León prima che uomini armati facciano irruzione.\n\n## Un personaggio travolto dalle circostanze\n\nGli sceneggiatori di Rockstar hanno approfondito il personaggio nel numero 27 di LOVE Magazine (ottobre 2026). La loro lettura è netta: Lucia decide, Jason subisce. Viene spesso travolto da situazioni che non ha scelto, ed è su questo contrasto che si regge il duo. La sceneggiatrice Elizabeth Gauvey-Kern spiega che il team voleva due eroi al tempo stesso vulnerabili e solidi, che a volte hanno ragione e a volte torto, e che imparano l'uno dall'altra.\n\nNel numero cartaceo, Rupert Humphries, vicepresidente responsabile della narrazione, precisa cosa spinge Jason. Se arriva al traffico di droga o alle rapine in banca, dice, è per la sua situazione materiale. Ma spetta in gran parte al giocatore decidere se vi è costretto o se fa questa scelta perché è «cablato in modo diverso» dagli altri.\n\nGame Informer (n. 382, settembre 2026) ha mostrato invece Jason con una mazza da baseball in mano in un negozio, e ha ricordato che si può passare da Jason a Lucia quasi in qualsiasi momento, dato che i due lavorano spesso insieme durante le missioni.\n\n## Cosa cambia nel modo di giocarlo\n\nIl comportamento di Jason è seguito da un sistema inedito per la serie, il Profilo Criminale. Invece di una barra dell'onore alla Red Dead Redemption 2, si conoscono quattro stati: Professionale, Aggressivo, Violento e Psicopatico. Riflettono il modo in cui i crimini vengono commessi, più che il loro numero. Jason ha il proprio profilo, indipendente da quello di Lucia: uno può restare Professionale mentre l'altra precipita.\n\nLa relazione con Lucia è lasciata al giocatore. Secondo Game Informer, Jason e Lucia possono restare amici stretti o diventare una coppia, e piccoli gesti alimentano il legame: tenersi per mano, tenere la porta, restare in contatto, passare del tempo insieme (shopping, palestra, zoo, kayak). Ignorare questa storia d'amore non rompe mai il duo. Il sistema ha fatto discutere ben oltre i giocatori.\n\nSul fronte equipaggiamento, l'Ultimate Edition include una pistola personalizzata a suo nome, la Girardi ES9 di Jason, cromata e incisa. Diverse banche dati dei fan associano inoltre a Jason una Ganado del 1970 turchese, l'auto visibile dietro di lui all'uscita della prigione, senza che Rockstar l'abbia presentata come il suo veicolo personale.\n\n## Chi doppia Jason Duval?\n\nRockstar Games non ha confermato alcun attore per Jason. Il nome più citato è quello di Dylan Rourke, ripreso dalle principali banche dati dei fan, e circola anche quello di Gregory Connors da quando sul suo portfolio è comparso un credito come ruolo principale di GTA VI. Nessuno dei due è stato confermato da Rockstar o dagli attori. Un solo ruolo secondario ha ricevuto una conferma diretta: Stephen Root, che doppia Brian Heder.\n\nUna teoria dei fan più vecchia attribuisce a Jason un passato da agente infiltrato. Nulla di ciò che Rockstar ha mostrato finora va in questa direzione.",
+      "insight": "Insieme a Lucia Caminos, Jason Duval è uno dei due protagonisti giocabili di Grand Theft Auto VI. Vorrebbe una vita semplice, ma tutto gli resiste: cresciuto in mezzo ai truffatori, passato per l'esercito, quando la storia comincia si guadagna da vivere nelle Leonida Keys lavorando per dei trafficanti. L'incontro con Lucia trascina la sua quotidianità in una cospirazione criminale che si estende a tutto lo Stato di Leonida.\n\n## Chi è\n\nJason vuole una vita facile, ma tutto diventa sempre più complicato. È cresciuto circondato da imbroglioni e truffatori. Dopo un periodo nell'esercito per chiudere con un'adolescenza turbolenta, si è ritrovato nelle Keys a fare quello che sa fare meglio: lavorare per i trafficanti locali. Forse è ora di provare qualcos'altro. Incontrare Lucia potrebbe essere la cosa migliore o la peggiore che gli sia mai capitata. Jason sa come vorrebbe che finisse, ma per ora è difficile dirlo.\n\nBrian Heder, vecchio trafficante delle Keys, lo ospita gratis in una delle sue proprietà, a patto che lo aiuti a recuperare soldi dalla gente del posto e che passi ogni tanto a bere la sangria di sua moglie Lori. L'amico Cal Hampton, anche lui socio di Brian, è l'opposto di Jason: felice di non cambiare nulla, mentre Jason «vede più in grande».\n\n## Le prime scene\n\nJason ripara a torso nudo il tetto di una casa su palafitte delle Keys mentre Brian gli fa la predica davanti a un pick-up; lo si vede poi al volante, nella palestra all'aria aperta e nella rimessa per barche di Brian. Soprattutto, aspetta Lucia nel parcheggio del penitenziario, davanti a una vecchia auto turchese: è il primo momento del duo insieme.\n\nNon mancano i momenti leggeri, che dicono molto del tono del gioco: Jason addormentato su un divano a motivi tropicali, due bottiglie davanti a lui mentre Lucia passa con un gilet da cantiere, oppure lanciato a tutta velocità su una moto chopper nelle Keys, con un idrovolante giallo sullo sfondo.\n\n## Le missioni mostrate\n\nJason accompagna Lucia da Raymond, capo di una piccola gang che confeziona droga, per recuperare soldi per conto di Boobie Ike. La visita finisce in sparatoria quando la polizia fa irruzione: Jason alterna pistola e fucile a pompa, si mette al riparo, e il duo salta da una finestra per fuggire.\n\nPiù avanti ritrova Brian e Lori sulla terrazza del ristorante Effluvia, poi accende il sigaro di Brian su un tetto con vista su Vice City. Brian gli confida che in questo mestiere il segreto è sapere quando fermarsi.\n\nDopo una rapina in banca organizzata da Raul Bautista, Jason, con il volto coperto da una bandana, spara agli inseguitori mentre Lucia guida, con quattro stelle di ricercato e un elicottero alle spalle. All'inaugurazione della torre Megamundo, in completo, scorta Andrés de León prima che uomini armati facciano irruzione.\n\n## Un personaggio travolto dalle circostanze\n\nPer gli sceneggiatori di Rockstar la lettura è netta: Lucia decide, Jason subisce. Viene spesso travolto da situazioni che non ha scelto, ed è su questo contrasto che si regge il duo. La sceneggiatrice Elizabeth Gauvey-Kern spiega che il team voleva due eroi al tempo stesso vulnerabili e solidi, che a volte hanno ragione e a volte torto, e che imparano l'uno dall'altra.\n\nRupert Humphries, vicepresidente responsabile della narrazione, precisa cosa spinge Jason: se arriva al traffico di droga o alle rapine in banca è per la sua situazione materiale. Ma spetta in gran parte al giocatore decidere se vi è costretto o se fa questa scelta perché è «cablato in modo diverso» dagli altri.\n\nPuoi passare da Jason a Lucia quasi in qualsiasi momento, dato che i due lavorano spesso insieme durante le missioni.\n\n## Cosa cambia nel modo di giocarlo\n\nIl comportamento di Jason è seguito da un sistema inedito per la serie, il Profilo Criminale. Invece di una barra dell'onore alla Red Dead Redemption 2, ci sono quattro stati noti: Professionale, Aggressivo, Violento e Psicopatico. Riflettono il modo in cui commetti i crimini, più che il loro numero. Jason ha il proprio profilo, indipendente da quello di Lucia: uno può restare Professionale mentre l'altra precipita.\n\nLa relazione con Lucia la decidi tu. Jason e Lucia possono restare amici stretti o diventare una coppia, e piccoli gesti alimentano il legame: tenersi per mano, tenere la porta, restare in contatto, passare del tempo insieme (shopping, palestra, zoo, kayak). Ignorare questa storia d'amore non rompe mai il duo.\n\nL'Ultimate Edition include una pistola personalizzata a suo nome, la Girardi ES9 di Jason, cromata e incisa. A Jason viene associata anche una Ganado del 1970 turchese, l'auto dietro di lui all'uscita della prigione, ma non è stata presentata come il suo veicolo personale.\n\n## Chi doppia Jason Duval?\n\nIl doppiatore di Jason non è stato annunciato. Il nome più citato è Dylan Rourke; circola anche quello di Gregory Connors, che sul suo portfolio ha un credito come ruolo principale di GTA VI. Nessuno dei due ha confermato. L'unico interprete confermato del cast è Stephen Root, che doppia Brian Heder.\n\nLa teoria che Jason sia un agente infiltrato non trova riscontro in nulla di quanto mostrato finora.",
       "firstSeen": "Trailer 1 (dicembre 2023); apre il Trailer 2 (maggio 2025); giocato nell'Extended Look (27 agosto 2026)",
       "idCard": [
         {
@@ -93,7 +92,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games"
+          "v": "Personaggio ufficiale"
         }
       ],
       "summaryTable": [
@@ -144,12 +143,12 @@
         ],
         [
           "Auto personale",
-          "Ganado del 1970 turchese secondo le banche dati dei fan",
+          "Ganado del 1970 turchese, associata a Jason",
           "Riportato"
         ],
         [
           "Doppiatore",
-          "Dylan Rourke secondo i fan",
+          "Dylan Rourke",
           "Voce"
         ]
       ],
@@ -161,7 +160,7 @@
       "role": "Protagonista",
       "isProtagonist": true,
       "tagline": "Suo padre le ha insegnato a combattere. Lo stato le ha insegnato il resto.",
-      "bio": "Suo padre le ha insegnato a battersi fin da bambina. Battersi per la famiglia l'ha portata dritta al Penitenziario di Leonida, da cui è uscita per pura fortuna. Dice di aver imparato la lezione: da ora in poi solo mosse intelligenti. Vuole la vita buona che sua madre sogna dai tempi di Liberty City, e vede in Jason la sua via d'uscita. Appena fuori, è già tutta nel suo piano. Città natale: Liberty City (LOVE Magazine). Porta un braccialetto elettronico alla caviglia destra nei primi materiali, sparito a metà del Trailer 2: «è parte della narrazione e del modo in cui uniamo Jason e Lucia», dice Nelson. Guida benissimo. Doppiatrice non accreditata: i fan indicano Manni L. Perez.",
+      "bio": "Suo padre le ha insegnato a battersi fin da bambina. Battersi per la famiglia l'ha portata dritta al Penitenziario di Leonida, da cui è uscita per pura fortuna. Dice di aver imparato la lezione: da ora in poi solo mosse intelligenti. Vuole la vita buona che sua madre sogna dai tempi di Liberty City, la sua città natale, e vede in Jason la sua via d'uscita. Appena fuori, è già tutta nel suo piano. All'inizio porta un braccialetto elettronico alla caviglia destra, che poi sparisce: fa parte della storia che unisce Jason e Lucia. Guida benissimo. La doppiatrice non è accreditata: il nome più citato è Manni L. Perez.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -187,40 +186,40 @@
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-tenue-detenue.jpg",
-          "caption": "Lucia in tuta da detenuta, di fronte all'assistente sociale Stefanie Gates (Trailer 1)."
+          "caption": "Lucia in tuta da detenuta, di fronte all'assistente sociale Stefanie Gates."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-sortie-penitencier.jpg",
-          "caption": "Lucia varca i cancelli del penitenziario all'uscita di prigione (Trailer 2)."
+          "caption": "Lucia varca i cancelli del penitenziario all'uscita di prigione."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g4.webp",
           "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-game-informer-382-04-lucia-fusil-bandana-hd.webp",
-          "caption": "Lucia, bandana sul volto e fucile in mano, in uno degli screenshot di Game Informer."
+          "caption": "Lucia, bandana sul volto e fucile in mano."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-love-magazine-jason-lucia-moto.jpg",
-          "caption": "Lucia passa davanti a Jason, seduto su una moto (LOVE Magazine)"
+          "caption": "Lucia passa davanti a Jason, seduto su una moto."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-lucia-boite-de-nuit-recherche-floride.jpg",
-          "caption": "Lucia in una discoteca di Vice City, una delle immagini ufficiali del gioco."
+          "caption": "Lucia in una discoteca di Vice City."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g7.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/lucia_caminos-gallery-01-scaled.jpg",
-          "caption": "Lucia Caminos, immagine ufficiale n. 1"
+          "caption": "Lucia Caminos, immagine n. 1"
         },
         {
           "src": "assets/img/vice/personaggi/chr-lucia-g8.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/lucia_caminos-gallery-02-scaled.jpg",
-          "caption": "Lucia Caminos, immagine ufficiale n. 2"
+          "caption": "Lucia Caminos, immagine n. 2"
         }
       ],
-      "insight": "Lucia Caminos è, con Jason Duval, una dei due protagonisti giocabili di Grand Theft Auto VI. È la prima eroina giocabile di un GTA principale moderno, e la prima ad avere una propria voce, un passato dettagliato e un vero ruolo di primo piano nei dialoghi. Quando la storia comincia, esce dal penitenziario di Leonida, decisa a fare solo «colpi intelligenti».\n\nApre il Trailer 1, esce di prigione nel Trailer 2, guida l'auto della fuga di una rapina nell'Extended Look e posa sulla copertina di LOVE Magazine. Ecco tutto ciò che si sa di lei, dal più certo al più incerto.\n\n## Cosa dice la sua biografia ufficiale\n\nIl suo ritratto ufficiale insiste su tre cose: la lotta, la famiglia e la voglia di tirarsi fuori. Suo padre le ha insegnato a battersi da quando ha imparato a camminare. È lottando per la sua famiglia che è finita nel penitenziario di Leonida, ed è un colpo di fortuna che l'ha fatta uscire. La sua famiglia viene da Liberty City, e Lucia vuole offrire alla madre la bella vita che sogna da quei tempi.\n\n«Il padre di Lucia le ha insegnato a battersi da quando ha imparato a camminare. Da allora la vita non ha smesso di colpirla. È lottando per la sua famiglia che si è ritrovata nel penitenziario di Leonida. È la pura fortuna che l'ha fatta uscire. Lucia ha imparato la lezione: da ora in avanti, solo colpi intelligenti. Più di ogni altra cosa, Lucia vuole la bella vita che sua madre sogna dagli anni di Liberty City, ma invece di vaghe fantasie è pronta a prendere in mano la situazione.»\n\n## La prigione, punto di partenza della sua storia\n\nIl Trailer 1 (dicembre 2023) comincia con lei. In tuta arancione da detenuta, Lucia guarda il cortile attraverso una finestra con le sbarre, poi parla con Stefanie Gates, l'assistente sociale della prigione: è la sua voce la prima che si sente in GTA VI. Il loro scambio, ripreso da vicino in un ufficio ingombro di fascicoli, inquadra in pochi secondi il personaggio e il suo passato.\n\nIl Trailer 2 mostra il seguito: Lucia varca i cancelli del penitenziario con una maglietta logora addosso e ritrova Jason che l'aspetta nel parcheggio. Diverse immagini ufficiali la mostrano anche con un braccialetto elettronico alla caviglia, segno che resta sotto sorveglianza dopo la scarcerazione.\n\n## Cosa mostra l'Extended Look\n\nNella presentazione del 27 agosto 2026 Lucia è in tutte le sequenze. Accompagna Jason da Raymond per recuperare soldi per conto di Boobie Ike, pranza con Brian e Lori sulla terrazza dell'Effluvia, poi prende il volante dell'auto della fuga dopo una rapina in banca organizzata da Raul Bautista. Secondo i resoconti della presentazione, è lei a guidare mentre Jason spara, prima di incendiare l'auto abbandonata con una molotov per cancellare le tracce.\n\nIl montaggio delle attività la mostra anche alla panca piana, con un sistema di pressione alternata sui grilletti, in immersione o in moto d'acqua. La presentazione si chiude con la serata di inaugurazione della torre Megamundo, dove Lucia, in abito da sera, si ritrova separata da Jason quando uomini armati interrompono la festa.\n\n## Quella che decide\n\nGli sceneggiatori di Rockstar l'hanno descritta in LOVE Magazine (ottobre 2026): Lucia è determinata a costruirsi una vita migliore e non lascia che nulla le sbarri la strada. È lei a prendere le decisioni, mentre Jason si lascia piuttosto trasportare dagli eventi. La sceneggiatrice Alexa D'Agostino spiega che, perché un personaggio sia credibile, bisogna dargli desideri chiari e personali invece di cancellarne i difetti.\n\nNel numero cartaceo (5 ottobre), Alexa D'Agostino racconta di aver scritto Lucia pensando alla propria madre, un'immigrata cresciuta a Newark, a due passi dall'equivalente reale di Liberty City: una donna «turbolenta, gentile, ma che non si faceva mettere i piedi in testa». Voleva un personaggio capace di reggere il confronto con Arthur Morgan e Niko Bellic. Elizabeth Gauvey-Kern aggiunge che l'attrice che la interpreta «ha dato moltissimo al personaggio».\n\n## Cosa cambia nel modo di giocarla\n\nCome Jason, Lucia ha il proprio Profilo Criminale, che sostituisce la barra dell'onore con quattro stati noti (Professionale, Aggressivo, Violento e Psicopatico) a seconda di come commette i suoi crimini. Il suo profilo è indipendente da quello di Jason.\n\nLa relazione con Jason è lasciata al giocatore: secondo Game Informer, i due possono restare amici stretti o diventare una coppia, e gesti semplici (tenersi per mano, tenere la porta, restare in contatto, passare del tempo insieme) fanno evolvere il legame. Ignorare troppo a lungo i suoi messaggi può rovinarlo, senza mai spezzare il duo. Il sistema ha fatto discutere, e la teoria di un sistema di relazioni alla Red Dead Redemption 2 è tornata in primo piano.\n\n## Chi doppia Lucia Caminos?\n\nRockstar non ha confermato alcuna attrice. La pista più seria è quella di Manni L. Perez, attrice americano-portoricana che aveva prestato la voce a una croupier del Diamond Casino in GTA Online nel 2019: la somiglianza tra le due voci è stata notata dai fan. Né Rockstar né l'attrice l'hanno confermato, e un falso account a suo nome aveva ingannato più di 50.000 follower prima di essere sospeso.",
+      "insight": "Lucia Caminos è, con Jason Duval, una dei due protagonisti giocabili di Grand Theft Auto VI. È la prima eroina giocabile di un GTA principale moderno, e la prima ad avere una propria voce, un passato dettagliato e un vero ruolo di primo piano nei dialoghi. Quando la storia comincia, esce dal penitenziario di Leonida, decisa a fare solo «colpi intelligenti».\n\n## Chi è\n\nSuo padre le ha insegnato a battersi da quando ha imparato a camminare, e da allora la vita non ha smesso di colpirla. È lottando per la sua famiglia che si è ritrovata nel penitenziario di Leonida, ed è la pura fortuna che l'ha fatta uscire. Lucia ha imparato la lezione: da ora in avanti, solo colpi intelligenti. La sua famiglia viene da Liberty City, e più di ogni altra cosa Lucia vuole la bella vita che sua madre sogna da quegli anni: invece di vaghe fantasie, è pronta a prendere in mano la situazione.\n\n## La prigione, punto di partenza della sua storia\n\nIn tuta arancione da detenuta, Lucia guarda il cortile attraverso una finestra con le sbarre, poi parla con Stefanie Gates, l'assistente sociale della prigione: la sua è la prima voce che si sente nel Trailer 1 (dicembre 2023). Il colloquio, in un ufficio ingombro di fascicoli, inquadra in pochi secondi il personaggio e il suo passato.\n\nPoi Lucia varca i cancelli del penitenziario con una maglietta logora addosso e ritrova Jason che l'aspetta nel parcheggio. Porta un braccialetto elettronico alla caviglia, segno che resta sotto sorveglianza dopo la scarcerazione.\n\n## Le missioni mostrate\n\nLucia è in tutte le missioni presentate. Accompagna Jason da Raymond per recuperare soldi per conto di Boobie Ike, pranza con Brian e Lori sulla terrazza dell'Effluvia, poi guida l'auto della fuga dopo una rapina in banca organizzata da Raul Bautista: è lei al volante mentre Jason spara, e alla fine incendia l'auto abbandonata con una molotov per cancellare le tracce.\n\nLa si vede anche alla panca piana, con un sistema di pressione alternata sui grilletti, in immersione o in moto d'acqua. All'inaugurazione della torre Megamundo, in abito da sera, si ritrova separata da Jason quando uomini armati interrompono la festa.\n\n## Quella che decide\n\nLucia è determinata a costruirsi una vita migliore e non lascia che nulla le sbarri la strada. È lei a prendere le decisioni, mentre Jason si lascia piuttosto trasportare dagli eventi. La sceneggiatrice Alexa D'Agostino spiega che, perché un personaggio sia credibile, bisogna dargli desideri chiari e personali invece di cancellarne i difetti.\n\nD'Agostino ha scritto Lucia pensando alla propria madre, un'immigrata cresciuta a Newark, a due passi dall'equivalente reale di Liberty City: una donna «turbolenta, gentile, ma che non si faceva mettere i piedi in testa». Voleva un personaggio capace di reggere il confronto con Arthur Morgan e Niko Bellic. Per la sceneggiatrice Elizabeth Gauvey-Kern, l'attrice che la interpreta «ha dato moltissimo al personaggio».\n\n## Cosa cambia nel modo di giocarla\n\nCome Jason, Lucia ha il proprio Profilo Criminale, che sostituisce la barra dell'onore con quattro stati noti (Professionale, Aggressivo, Violento e Psicopatico) a seconda di come commette i suoi crimini. Il suo profilo è indipendente da quello di Jason.\n\nLa relazione con Jason la decidi tu: i due possono restare amici stretti o diventare una coppia, e gesti semplici (tenersi per mano, tenere la porta, restare in contatto, passare del tempo insieme) fanno evolvere il legame. Se ignori troppo a lungo i suoi messaggi il legame si incrina, ma il duo non si spezza mai.\n\n## Chi doppia Lucia Caminos?\n\nLa doppiatrice non è stata annunciata. La pista più seria è Manni L. Perez, attrice americano-portoricana che nel 2019 aveva prestato la voce a una croupier del Diamond Casino in GTA Online: le due voci si somigliano molto. Né Rockstar né l'attrice l'hanno confermato. Un falso account a suo nome aveva ingannato più di 50.000 follower prima di essere sospeso.",
       "firstSeen": "Apre il Trailer 1 (dicembre 2023); esce di prigione nel Trailer 2; guida l'auto della fuga nell'Extended Look",
       "idCard": [
         {
@@ -245,7 +244,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermata ufficialmente da Rockstar Games"
+          "v": "Personaggio ufficiale"
         }
       ],
       "summaryTable": [
@@ -291,12 +290,12 @@
         ],
         [
           "Braccialetto elettronico",
-          "Visibile in immagini ufficiali",
+          "Alla caviglia, dopo la scarcerazione",
           "Riportato"
         ],
         [
           "Doppiatrice",
-          "Manni L. Perez secondo i fan",
+          "Manni L. Perez",
           "Voce"
         ]
       ],
@@ -308,7 +307,7 @@
       "role": "Amico di Jason",
       "isProtagonist": false,
       "tagline": "Ascolta la Guardia Costiera dal divano.",
-      "bio": "Amico di Jason e socio di Brian. Si sente al sicuro solo a casa, dove passa il tempo a origliare le comunicazioni della Guardia Costiera con una birra in mano e qualche scheda del browser in modalità privata. Paranoia leggera, ma costante. Rockstar lo descrive come uno che vive alla bassa marea dell'America, e ci sta benissimo. I fan ci sentono Bobby Moynihan, non confermato.",
+      "bio": "Amico di Jason e socio di Brian. Si sente al sicuro solo a casa, dove passa il tempo a origliare le comunicazioni della Guardia Costiera con una birra in mano e qualche scheda del browser in modalità privata. Paranoia leggera, ma costante. Vive alla bassa marea dell'America, e ci sta benissimo. Il doppiatore non è annunciato: il nome più citato è Bobby Moynihan.",
       "districtId": "dis-keys",
       "firstMissionId": null,
       "relations": [
@@ -329,12 +328,12 @@
         {
           "src": "assets/img/vice/personaggi/chr-cal-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-cal-chantier-brian.jpg",
-          "caption": "Cal balla nella rimessa del cantiere nautico di Brian, birra in mano (Trailer 2)."
+          "caption": "Cal balla nella rimessa del cantiere nautico di Brian, birra in mano."
         },
         {
           "src": "assets/img/vice/personaggi/chr-cal-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/09/gta-vi-cal-hampton-piscine-style.jpg",
-          "caption": "Cal sul suo gonfiabile a fenicottero rosa, una delle immagini ufficiali del gioco."
+          "caption": "Cal sul suo gonfiabile a fenicottero rosa."
         },
         {
           "src": "assets/img/vice/personaggi/chr-cal-g3.jpg",
@@ -349,26 +348,26 @@
         {
           "src": "assets/img/vice/personaggi/chr-cal-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-01-scaled.jpg",
-          "caption": "Cal Hampton, immagine ufficiale n. 1"
+          "caption": "Cal Hampton, immagine n. 1"
         },
         {
           "src": "assets/img/vice/personaggi/chr-cal-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-02-scaled.jpg",
-          "caption": "Cal Hampton, immagine ufficiale n. 2"
+          "caption": "Cal Hampton, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-cal-g7.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-03-scaled.jpg",
-          "caption": "Cal Hampton, immagine ufficiale n. 3"
+          "caption": "Cal Hampton, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-cal-g8.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/cal_hampton-gallery-04-scaled.jpg",
-          "caption": "Cal Hampton, immagine ufficiale n. 4"
+          "caption": "Cal Hampton, immagine n. 4"
         }
       ],
-      "insight": "Cal Hampton è il migliore amico di Jason Duval in GTA VI, e probabilmente il personaggio più apertamente comico del cast svelato finora. Socio di Brian Heder nelle Leonida Keys, si gode la sua piccola vita, birra in mano, mentre Jason sogna di andarsene.\n\n## Cosa dice la sua biografia ufficiale\n\nRockstar gli dedica uno dei ritratti più divertenti del gioco. Cal si sente al sicuro a casa sua, dove passa il tempo ad ascoltare le comunicazioni della Guardia Costiera con qualche birra e delle schede di navigazione in incognito aperte. La formula dello studio, «Cal è la bassa marea dell'America, e lì è felice», riassume un personaggio che non si aspetta nulla di più. La sua paranoia rilassata ama la compagnia, dice ancora il testo, ma Jason ha progetti più grandi.\n\n«Amico di Jason e anch'egli socio di Brian, Cal non si sente mai così al sicuro come a casa sua, a spiare le comunicazioni della Guardia Costiera con qualche birra e qualche scheda di navigazione in incognito aperta. Cal è la bassa marea dell'America, e lì è felice. La paranoia rilassata ama la compagnia, ma il suo amico Jason ha progetti più grandi.»\n\nQuesto ritratto mette Cal a specchio di Jason: stesso ambiente, stesse frequentazioni, stesso capo, ma nessuna ambizione. È una figura classica dei GTA, l'amico d'infanzia o di quartiere che fa da punto d'ancoraggio all'eroe, sulla scia di un Lamar o di un Brucie.\n\n## Nel Trailer 2\n\nIl Trailer 2 lo mostra nella rimessa del cantiere nautico di Brian, birra in mano e maglietta «Brian's» addosso, mentre balla e qualcuno salda in fondo all'officina. Un'immagine ufficiale lo mostra anche sdraiato su un gonfiabile a forma di fenicottero rosa in mezzo a una piscina: il Cal della biografia, insomma.\n\n## Il compagno delle attività di Jason\n\nDiverse immagini ufficiali mostrano Cal accanto a Jason durante attività secondarie, il che fa pensare che sarà uno degli amici con cui passare il tempo, come i compagni di GTA IV. Lo si vede pescare con Jason da una barca, giocare a biliardo in un bar e maneggiare una mazza su un percorso di minigolf decorato con un coccodrillo gigante.\n\n## Chi doppia Cal Hampton?\n\nRockstar non ha confermato alcun attore. Le banche dati dei fan avanzano il nome di Bobby Moynihan, ex del Saturday Night Live, senza conferma né di Rockstar né dell'attore.",
-      "firstSeen": "Biografia ufficiale e Trailer 2 (maggio 2025); screenshot ufficiali (piscina, pesca, biliardo, minigolf)",
+      "insight": "Cal Hampton è il migliore amico di Jason Duval in GTA VI, e probabilmente il personaggio più apertamente comico del cast. Socio di Brian Heder nelle Leonida Keys, si gode la sua piccola vita, birra in mano, mentre Jason sogna di andarsene.\n\n## Chi è\n\nCal non si sente mai così al sicuro come a casa sua, a spiare le comunicazioni della Guardia Costiera con qualche birra e qualche scheda di navigazione in incognito aperta. «Cal è la bassa marea dell'America, e lì è felice»: non si aspetta nulla di più. La sua paranoia rilassata ama la compagnia, ma il suo amico Jason ha progetti più grandi.\n\nCal è lo specchio di Jason: stesso ambiente, stesse frequentazioni, stesso capo, ma nessuna ambizione. È una figura classica dei GTA, l'amico che fa da punto d'ancoraggio all'eroe, sulla scia di un Lamar o di un Brucie.\n\n## Al cantiere di Brian\n\nLo trovi nella rimessa del cantiere nautico di Brian, birra in mano e maglietta «Brian's» addosso, mentre balla e qualcuno salda in fondo all'officina. Lo si vede anche sdraiato su un gonfiabile a forma di fenicottero rosa in mezzo a una piscina: il Cal della biografia, insomma.\n\n## Il compagno delle attività di Jason\n\nCal accompagna Jason in diverse attività secondarie: è uno degli amici con cui passare il tempo, come i compagni di GTA IV. Pesca con Jason da una barca, gioca a biliardo in un bar e maneggia una mazza su un percorso di minigolf decorato con un coccodrillo gigante.\n\n## Chi doppia Cal Hampton?\n\nIl doppiatore non è stato annunciato. Il nome più citato è Bobby Moynihan, ex del Saturday Night Live, senza conferma né di Rockstar né dell'attore.",
+      "firstSeen": "Biografia ufficiale e Trailer 2 (maggio 2025); immagini ufficiali (piscina, pesca, biliardo, minigolf)",
       "idCard": [
         {
           "k": "Nome",
@@ -392,7 +391,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games, visto nel Trailer 2"
+          "v": "Personaggio ufficiale"
         }
       ],
       "summaryTable": [
@@ -418,17 +417,17 @@
         ],
         [
           "Apparizioni",
-          "Trailer 2 (cantiere nautico), immagini ufficiali (piscina, pesca, biliardo, minigolf)",
+          "Cantiere nautico di Brian, piscina, pesca, biliardo, minigolf",
           "Confermato"
         ],
         [
           "Amico per le attività",
-          "Dedotto dalle immagini ufficiali",
+          "Lo accompagna a pesca, a biliardo e al minigolf",
           "Riportato"
         ],
         [
           "Doppiatore",
-          "Bobby Moynihan secondo i fan",
+          "Bobby Moynihan",
           "Voce"
         ]
       ],
@@ -466,30 +465,30 @@
         {
           "src": "assets/img/vice/personaggi/chr-boobie-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-atelier.jpg",
-          "caption": "Raymond nel suo laboratorio, dove operaie con guanti gialli confezionano la merce (Extended Look)."
+          "caption": "Raymond nel suo laboratorio, dove operaie con guanti gialli confezionano la merce."
         },
         {
           "src": "assets/img/vice/personaggi/chr-boobie-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-02-scaled.jpg",
-          "caption": "Boobie Ike, immagine ufficiale n. 2"
+          "caption": "Boobie Ike, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-boobie-g4.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-03-scaled.jpg",
-          "caption": "Boobie Ike, immagine ufficiale n. 3"
+          "caption": "Boobie Ike, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-boobie-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/boobie_ike-gallery-04-scaled.jpg",
-          "caption": "Boobie Ike, immagine ufficiale n. 4"
+          "caption": "Boobie Ike, immagine n. 4"
         },
         {
           "src": "assets/img/vice/personaggi/chr-boobie-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-boobie-ike.jpg",
-          "caption": "Ritratto di Boobie Ike pubblicato da Dazed"
+          "caption": "Boobie Ike in un ritratto fotografico."
         }
       ],
-      "insight": "Boobie Ike è uno degli uomini forti di Vice City in GTA VI. Ex ragazzo di strada diventato uomo d'affari, possiede palazzi, uno strip club e uno studio di registrazione, ed è per lui che Jason e Lucia lavorano nella prima missione dell'Extended Look. Un capo sorridente, finché non si parla di soldi.\n\n## Cosa dice la sua biografia ufficiale\n\nIl suo ritratto si apre con un gioco di parole sul suo club, il Jack of Hearts (il fante di cuori): da Boobie è tutta una questione di cuore. Rockstar lo descrive come una leggenda locale che si comporta come tale, uno dei pochi ad aver trasformato gli anni di strada in un impero legale, dall'immobiliare alla musica. È tutto sorrisi fino al momento di parlare d'affari.\n\n«È tutta una questione di cuore, il fante di cuori. Boobie è una leggenda di Vice City, e si comporta come tale. Uno dei pochi ad aver trasformato gli anni di strada in un impero legale, tra immobiliare, strip club e studio di registrazione, Boobie è tutto sorrisi fino al momento di parlare d'affari. Può sembrare che pensi solo a sé, ma è nella sua società con il giovane e ambizioso Dre'Quan, per la Only Raw Records, che si impegna di più. Gli manca solo un successo.»\n\nLa fine del testo è la più importante per la storia: dietro l'uomo d'affari, Boobie ha scommesso sulla musica. La sua etichetta, Only Raw Records, è nata con Dre'Quan Priest e ha appena messo sotto contratto il duo Real Dimez. Le tre schede formano un piccolo clan, quello della scena rap di Vice City.\n\n## Il capo di Jason e Lucia nell'Extended Look\n\nBoobie non compare sullo schermo nella presentazione del 27 agosto 2026, ma ne avvia la trama. La prima missione mostrata è un giro di riscossione per suo conto: Jason e Lucia vanno a recuperare soldi da Raymond, capo di una piccola gang che confeziona droga in un palazzo fatiscente. La visita finisce male quando la polizia fa irruzione.\n\nQuesto dettaglio dice molto della posizione del duo all'inizio del gioco: Jason e Lucia non sono ancora criminali indipendenti, eseguono gli incarichi delle figure affermate di Vice City. Boobie, con il suo impero mezzo legale, è una di queste.",
+      "insight": "Boobie Ike è uno degli uomini forti di Vice City in GTA VI. Ex ragazzo di strada diventato uomo d'affari, possiede palazzi, uno strip club e uno studio di registrazione, ed è per lui che Jason e Lucia lavorano nella prima missione mostrata. Un capo sorridente, finché non si parla di soldi.\n\n## Chi è\n\nDa Boobie è tutta una questione di cuore, come il nome del suo club, il Jack of Hearts (il fante di cuori). È una leggenda di Vice City, e si comporta come tale: uno dei pochi ad aver trasformato gli anni di strada in un impero legale, tra immobiliare, strip club e studio di registrazione. È tutto sorrisi fino al momento di parlare d'affari. Può sembrare che pensi solo a sé, ma è nella società con il giovane e ambizioso Dre'Quan, per la Only Raw Records, che si impegna di più. Gli manca solo un successo.\n\nDietro l'uomo d'affari, Boobie ha scommesso sulla musica. La sua etichetta, Only Raw Records, è nata con Dre'Quan Priest e ha appena messo sotto contratto il duo Real Dimez. Insieme formano il piccolo clan della scena rap di Vice City.\n\n## Il capo di Jason e Lucia\n\nBoobie non compare sullo schermo, ma avvia la storia: la prima missione mostrata è un giro di riscossione per suo conto. Jason e Lucia vanno a recuperare soldi da Raymond, capo di una piccola gang che confeziona droga in un palazzo fatiscente. La visita finisce male quando la polizia fa irruzione.\n\nQuesto dettaglio dice molto della posizione del duo all'inizio del gioco: Jason e Lucia non sono ancora criminali indipendenti, eseguono gli incarichi delle figure affermate di Vice City. Boobie, con il suo impero mezzo legale, è una di queste.",
       "firstSeen": "Biografia e immagini ufficiali (maggio 2025); committente della prima missione dell'Extended Look, senza apparire sullo schermo",
       "idCard": [
         {
@@ -514,7 +513,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games, citato nell'Extended Look"
+          "v": "Personaggio ufficiale, committente della prima missione mostrata"
         }
       ],
       "summaryTable": [
@@ -545,7 +544,7 @@
         ],
         [
           "Legame con il duo",
-          "Committente della riscossione da Raymond (Extended Look)",
+          "Committente della riscossione da Raymond",
           "Confermato"
         ],
         [
@@ -562,7 +561,7 @@
       "role": "Aspirante magnate della musica",
       "isProtagonist": false,
       "tagline": "Più imbonitore che gangster.",
-      "bio": "Da sempre più imbonitore che gangster: spacciava per arrivare a fine mese, ma con la testa già sulla musica. Oggi è un giovane aspirante magnate, guida Only Raw Records insieme a Boobie, ha messo sotto contratto le Real Dimez e prenotava artisti per lo strip club di Boobie. Punta alla scena di Vice City. Il sito ufficiale lo affianca a Grassrivers.",
+      "bio": "Da sempre più imbonitore che gangster: spacciava per arrivare a fine mese, ma con la testa già sulla musica. Oggi è un giovane aspirante magnate, guida Only Raw Records insieme a Boobie, ha messo sotto contratto le Real Dimez e prenotava artisti per lo strip club di Boobie. Punta alla scena di Vice City. È legato alla zona di Grassrivers.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -588,20 +587,20 @@
         {
           "src": "assets/img/vice/personaggi/chr-drequan-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-02-scaled.jpg",
-          "caption": "Dre'Quan Priest, immagine ufficiale n. 2"
+          "caption": "Dre'Quan Priest, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-drequan-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-03-scaled.jpg",
-          "caption": "Dre'Quan Priest, immagine ufficiale n. 3"
+          "caption": "Dre'Quan Priest, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-drequan-g4.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/drequan_priest-gallery-04-scaled.jpg",
-          "caption": "Dre'Quan Priest, immagine ufficiale n. 4"
+          "caption": "Dre'Quan Priest, immagine n. 4"
         }
       ],
-      "insight": "Dre'Quan Priest (talvolta scritto DreQuan) è l'apprendista magnate della musica di GTA VI. Socio di Boobie Ike, dirige con lui l'etichetta Only Raw Records e vi ha appena messo sotto contratto il duo di rapper Real Dimez. In un cast popolato di trafficanti e rapinatori, è uno dei rari personaggi la cui ambizione principale è legale.\n\n## Cosa dice la sua biografia ufficiale\n\nRockstar lo presenta come uno che si arrangia più che come un gangster. Anche quando spacciava in strada per sbarcare il lunario, il suo obiettivo restava sfondare nella musica. Oggi, con la firma delle Real Dimez, potrebbe presto chiudere con la programmazione di artisti nello strip club di Boobie per puntare più in alto: l'intera scena musicale di Vice City.\n\n«Only Raw… Records. Dre'Quan è sempre stato più uno che si arrangia che un gangster. Anche quando spacciava in strada per sbarcare il lunario, sfondare nella musica restava l'obiettivo. Ora che ha messo sotto contratto le Real Dimez, i suoi giorni a programmare artisti nello strip club di Boobie potrebbero essere contati: adesso punta a tutta la scena di Vice City.»\n\nLa biografia di Boobie Ike completa il quadro: è nella società con «il giovane e ambizioso Dre'Quan» che Boobie si impegna di più, e gli manca solo un successo. Dre'Quan è dunque al tempo stesso il socio e la scommessa di Boobie, e quella delle Real Dimez: la loro carriera e la sua dipendono dallo stesso successo.\n\n## Un personaggio al centro della musica del gioco\n\nLa musica ha un posto a parte in GTA VI: Rockstar ha pubblicato «GTA VI: The Album» prima del gioco e promette una nuova evoluzione delle radio. Dre'Quan, la sua etichetta e le sue artiste sono la controparte fittizia di questa scena, una satira dell'industria rap nell'era dei social. È facile prevedere che le sue missioni ruoteranno attorno alla ricerca di quel famoso successo, tra studio, club e regolamenti di conti.\n\nDre'Quan non compare nelle sequenze dell'Extended Look, ma Rockstar gli ha dedicato una serie di immagini ufficiali, in club e in studio, pubblicate con il Trailer 2.",
+      "insight": "Dre'Quan Priest (talvolta scritto DreQuan) è l'apprendista magnate della musica di GTA VI. Socio di Boobie Ike, dirige con lui l'etichetta Only Raw Records e vi ha appena messo sotto contratto il duo di rapper Real Dimez. In un cast popolato di trafficanti e rapinatori, è uno dei rari personaggi la cui ambizione principale è legale.\n\n## Chi è\n\nDre'Quan è sempre stato più uno che si arrangia che un gangster. Anche quando spacciava in strada per sbarcare il lunario, sfondare nella musica restava l'obiettivo. Ora che ha messo sotto contratto le Real Dimez, i suoi giorni a programmare artisti nello strip club di Boobie potrebbero essere contati: adesso punta a tutta la scena di Vice City.\n\nBoobie Ike si impegna soprattutto nella società con «il giovane e ambizioso Dre'Quan», e gli manca solo un successo. Dre'Quan è dunque al tempo stesso il socio e la scommessa di Boobie, e quella delle Real Dimez: la loro carriera e la sua dipendono dallo stesso successo.\n\n## Un personaggio al centro della musica del gioco\n\nLa musica ha un posto a parte in GTA VI: «GTA VI: The Album» è uscito prima del gioco e le radio fanno un nuovo passo avanti. Dre'Quan, la sua etichetta e le sue artiste sono la controparte fittizia di questa scena, una satira dell'industria rap nell'era dei social.\n\nDre'Quan non compare nelle missioni mostrate finora; lo si vede in una serie di immagini ufficiali, in club e in studio.",
       "firstSeen": "Biografia e immagini ufficiali pubblicate con il Trailer 2 (maggio 2025); assente dall'Extended Look",
       "idCard": [
         {
@@ -626,7 +625,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games"
+          "v": "Personaggio ufficiale"
         }
       ],
       "summaryTable": [
@@ -696,40 +695,40 @@
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-bae-luxe-real-dimez.jpg",
-          "caption": "Bae-Luxe, riconoscibile dal ciondolo «BL», nel Trailer 2."
+          "caption": "Bae-Luxe, riconoscibile dal ciondolo «BL»."
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-bae-luxe.jpg",
-          "caption": "Bae-Luxe nel reportage pubblicato dalla rivista Dazed nell'agosto 2026."
+          "caption": "Bae-Luxe in un servizio fotografico dell'agosto 2026."
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/dazed-roxy.jpg",
-          "caption": "Roxy, l'altra metà del duo, nello stesso reportage."
+          "caption": "Roxy, l'altra metà del duo, nello stesso servizio."
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g4.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-01-scaled.jpg",
-          "caption": "Real Dimez, immagine ufficiale n. 1"
+          "caption": "Real Dimez, immagine n. 1"
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-02-scaled.jpg",
-          "caption": "Real Dimez, immagine ufficiale n. 2"
+          "caption": "Real Dimez, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-03-scaled.jpg",
-          "caption": "Real Dimez, immagine ufficiale n. 3"
+          "caption": "Real Dimez, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-real-dimez-g7.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/real_dimez-gallery-04-scaled.jpg",
-          "caption": "Real Dimez, immagine ufficiale n. 4"
+          "caption": "Real Dimez, immagine n. 4"
         }
       ],
-      "insight": "Real Dimez è il duo rap formato da Bae-Luxe e Roxy in GTA VI. Amiche dal liceo, hanno avuto un primo successo, poi anni difficili, prima di firmare con la Only Raw Records, l'etichetta di Boobie Ike e Dre'Quan Priest. Incarnano la satira di Rockstar sul rap nell'era dei social.\n\n## Cosa dice la loro biografia ufficiale\n\nIl ritratto pubblicato da Rockstar ripercorre il loro percorso in poche tappe. Amiche dal liceo, hanno prima taglieggiato i piccoli spacciatori della zona, poi hanno trasformato quell'epoca in denaro grazie a brani rap «piccanti» e a una presenza accanita sui social. Un primo successo con il rapper locale DWNPLY le ha fatte decollare. Cinque anni e molti guai dopo, firmano con la Only Raw Records sperando che il fulmine colpisca due volte.\n\n«Bae-Luxe e Roxy, alias Real Dimez, sono amiche dal liceo: due ragazze abbastanza sveglie da trasformare gli anni passati a taglieggiare i piccoli spacciatori della zona in contanti, grazie a brani rap piccanti e a una presenza accanita sui social. Un primo successo con il rapper locale DWNPLY le ha portate in alto. Oggi, dopo cinque anni e molti guai, hanno firmato con la Only Raw Records, sperando che il fulmine colpisca due volte.»\n\nLa loro firma cambia anche la vita di Dre'Quan: secondo la sua biografia, è con loro che conta di lasciare lo strip club di Boobie per conquistare la scena di Vice City. I tre personaggi condividono dunque lo stesso obiettivo, quel famoso secondo successo.\n\n## Nel Trailer 2\n\nIl Trailer 2 mostra Bae-Luxe in piedi in una decappottabile, occhiali da sole sul naso e ciondolo «BL» al collo, mentre canta sotto una superstrada. Le due rapper compaiono anche in club e in studio nella serie di immagini ufficiali pubblicata con il trailer.\n\n## Una satira del rap e dei social\n\nCon le Real Dimez, Rockstar prolunga un tema presente in tutti i suoi trailer: la vita online, i video virali e la corsa all'attenzione. Il loro passato di racket, il successo virale e poi i «guai» fanno pensare che il passato le raggiungerà nel corso della storia. I loro brani, come tutta la musica del gioco, restano in inglese.",
+      "insight": "Real Dimez è il duo rap formato da Bae-Luxe e Roxy in GTA VI. Amiche dal liceo, hanno avuto un primo successo, poi anni difficili, prima di firmare con la Only Raw Records, l'etichetta di Boobie Ike e Dre'Quan Priest. Incarnano la satira di Rockstar sul rap nell'era dei social.\n\n## Chi sono\n\nBae-Luxe e Roxy, alias Real Dimez, sono amiche dal liceo: abbastanza sveglie da trasformare gli anni passati a taglieggiare i piccoli spacciatori della zona in contanti, grazie a brani rap piccanti e a una presenza accanita sui social. Un primo successo con il rapper locale DWNPLY le ha portate in alto. Oggi, dopo cinque anni e molti guai, hanno firmato con la Only Raw Records, sperando che il fulmine colpisca due volte.\n\nLa loro firma cambia anche la vita di Dre'Quan: è con loro che conta di lasciare lo strip club di Boobie per conquistare la scena di Vice City. I tre personaggi condividono lo stesso obiettivo, quel famoso secondo successo.\n\n## In scena\n\nBae-Luxe canta in piedi in una decappottabile sotto una superstrada, occhiali da sole sul naso e ciondolo «BL» al collo. Le due rapper si vedono anche in club e in studio.\n\n## Una satira del rap e dei social\n\nCon le Real Dimez, Rockstar riprende un tema presente in tutti i suoi trailer: la vita online, i video virali e la corsa all'attenzione. I loro brani, come tutta la musica del gioco, restano in inglese.",
       "firstSeen": "Biografia e immagini ufficiali con il Trailer 2 (maggio 2025); Bae-Luxe canta in piedi su una decappottabile nel Trailer 2",
       "idCard": [
         {
@@ -754,7 +753,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games, viste nel Trailer 2"
+          "v": "Personaggi ufficiali"
         }
       ],
       "summaryTable": [
@@ -802,7 +801,7 @@
       "role": "Rapinatore di banche",
       "isProtagonist": false,
       "tagline": "Sicurezza, fascino e astuzia. E nessun freno.",
-      "bio": "Rapinatore esperto: sicurezza, fascino e astuzia. Va a caccia di talenti disposti a rischiare, perché i colpi che ha in mente non sono per tutti. È spericolato, e la sua squadra prima o poi dovrà decidere se raddoppiare la posta o ritirare le fiches. LOVE Magazine: il mentore che insegna i colpi grossi ai due giovani quando arrivano a Vice City, «la Miami cool che sa». Nel trailer di lancio compare in un interrogatorio, secondo la stampa.",
+      "bio": "Rapinatore esperto: sicurezza, fascino e astuzia. Va a caccia di talenti disposti a rischiare, perché i colpi che ha in mente non sono per tutti. È spericolato, e la sua squadra prima o poi dovrà decidere se raddoppiare la posta o ritirare le fiches. È il mentore che insegna i colpi grossi ai due giovani quando arrivano a Vice City, «la Miami cool che sa». Lo si vede anche in un interrogatorio.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -820,17 +819,17 @@
         {
           "src": "assets/img/vice/personaggi/chr-raul-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-voiture.jpg",
-          "caption": "Raul si sporge tra i sedili durante la fuga dopo la rapina (Extended Look)."
+          "caption": "Raul si sporge tra i sedili durante la fuga dopo la rapina."
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-gros-plan.jpg",
-          "caption": "Raul in primo piano, occhiali scuri e foulard al collo (Extended Look)."
+          "caption": "Raul in primo piano, occhiali scuri e foulard al collo."
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raul-camionnette.jpg",
-          "caption": "Al furgone, Raul divide il bottino con Jason e Lucia (Extended Look)."
+          "caption": "Al furgone, Raul divide il bottino con Jason e Lucia."
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g4.jpg",
@@ -840,25 +839,25 @@
         {
           "src": "assets/img/vice/personaggi/chr-raul-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-01-scaled.jpg",
-          "caption": "Raul Bautista, immagine ufficiale n. 1"
+          "caption": "Raul Bautista, immagine n. 1"
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-02-scaled.jpg",
-          "caption": "Raul Bautista, immagine ufficiale n. 2"
+          "caption": "Raul Bautista, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g7.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-03-scaled.jpg",
-          "caption": "Raul Bautista, immagine ufficiale n. 3"
+          "caption": "Raul Bautista, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-raul-g8.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/raul_bautista-gallery-04-scaled.jpg",
-          "caption": "Raul Bautista, immagine ufficiale n. 4"
+          "caption": "Raul Bautista, immagine n. 4"
         }
       ],
-      "insight": "Raul Bautista è il rapinatore professionista del cast di GTA VI. Capelli lunghi brizzolati, occhiali scuri, giacca di pelle e foulard al collo, è il primo «capo» di rapina che si è visto lavorare con Jason e Lucia: l'Extended Look lo ha mostrato in piena fuga dopo il colpo in una banca. Un ruolo che ricorda Lester in GTA V, ma più temerario.\n\n## Cosa dice la sua biografia ufficiale\n\nRockstar lo presenta in due tempi. Prima le sue qualità: l'esperienza, la fiducia, il fascino e l'astuzia di un rapinatore navigato, sempre a caccia di talenti pronti a correre i rischi più grandi per le ricompense più grandi. Poi il suo difetto: la sua imprudenza alza la posta a ogni colpo, e prima o poi la sua squadra dovrà scegliere tra raddoppiare o ritirarsi. In altre parole, lavorare con Raul rende molto, ma costa caro.\n\n«L'esperienza conta. Fiducia, fascino e astuzia: Raul è un rapinatore di banche navigato, sempre all'erta per talenti pronti a correre i rischi che rendono di più. La sua imprudenza alza la posta a ogni colpo. Prima o poi la sua squadra dovrà raddoppiare o alzarsi dal tavolo.»\n\nLa sua pagina ufficiale gli attribuisce anche una battuta che calza a pennello: «La vita è piena di sorprese, amico mio. Faremmo tutti bene a ricordarcelo.»\n\n## Il mentore che conosce Vice City\n\nRockstar ha precisato il suo ruolo nel numero 27 di LOVE Magazine, uscito il 5 ottobre 2026. Rupert Humphries, vicepresidente responsabile della narrazione, parte dallo slancio del duo: c'è, dice, «qualcosa di pieno di speranza e di ingenuo» nel darsi alla fuga e spingere una serie di reati fino al limite senza curarsi delle conseguenze. Lo studio aveva dunque bisogno di «un mentore più anziano» per trascinarli verso le grandi rapine e le scene d'azione di una grande saga criminale. Raul incarna anche Vice City, con tutta la conoscenza locale e criminale che manca a Jason e Lucia quando vi arrivano. È dunque lui a introdurre il duo nel mondo delle rapine.\n\n## La rapina dell'Extended Look\n\nLa presentazione del 27 agosto 2026 lo ha mostrato in missione. Dopo il colpo in una banca, Raul si sistema sul sedile posteriore dell'auto della fuga, Lucia al volante e Jason, mascherato, davanti. Con quattro stelle di ricercato, auto di pattuglia e un elicottero alle calcagna, Raul mantiene la calma e approfitta dell'inseguimento per dare a Lucia un consiglio su come diventare una criminale «professionale».\n\nUna volta persi gli inseguitori, il trio abbandona l'auto, che Lucia incendia con una molotov, e raggiunge un furgone. Secondo i resoconti della presentazione, lì Raul divide il bottino e lascia intendere che il colpo era un test, superato, e l'inizio di una collaborazione.\n\n## La sua arma\n\nIn uno screenshot ufficiale, Raul tiene una pistola ispirata alla Colt 1911, un'arma d'altri tempi che si abbina bene al suo look da rapinatore della vecchia scuola.\n\n## Cosa non si sa ancora\n\nRockstar non ha confermato alcun interprete. L'attore spagnolo Oscar Jaenada ha condiviso in una storia Instagram una foto in cui porta una maglietta con l'effigie di Raul, il che ha fatto partire la voce; alcune banche dati di fan propongono invece Manny Perez. Nessuno dei due è confermato. Alcuni siti di fan affermano anche che Raul sarebbe un ex compagno di cella di Brian Heder e un ex membro dei servizi segreti dominicani: non abbiamo trovato alcuna fonte ufficiale a sostegno.",
+      "insight": "Raul Bautista è il rapinatore professionista del cast di GTA VI. Capelli lunghi brizzolati, occhiali scuri, giacca di pelle e foulard al collo, è il primo capo di rapina che lavora con Jason e Lucia: lo si vede in piena fuga dopo il colpo in una banca. Un ruolo che ricorda Lester in GTA V, ma più temerario.\n\n## Chi è\n\nL'esperienza conta. Fiducia, fascino e astuzia: Raul è un rapinatore di banche navigato, sempre all'erta per talenti pronti a correre i rischi che rendono di più. La sua imprudenza però alza la posta a ogni colpo, e prima o poi la sua squadra dovrà raddoppiare o alzarsi dal tavolo. Lavorare con Raul rende molto, ma costa caro.\n\nUna sua battuta lo riassume: «La vita è piena di sorprese, amico mio. Faremmo tutti bene a ricordarcelo.»\n\n## Il mentore che conosce Vice City\n\nRupert Humphries, vicepresidente di Rockstar responsabile della narrazione, parte dallo slancio del duo: c'è «qualcosa di pieno di speranza e di ingenuo» nel darsi alla fuga e spingere una serie di reati fino al limite senza curarsi delle conseguenze. Serviva quindi «un mentore più anziano» per trascinarli verso le grandi rapine e le scene d'azione di una grande saga criminale. Raul incarna anche Vice City, con tutta la conoscenza locale e criminale che manca a Jason e Lucia quando vi arrivano: è lui a introdurre il duo nel mondo delle rapine.\n\n## La rapina in banca\n\nDopo il colpo in una banca, Raul si sistema sul sedile posteriore dell'auto della fuga, Lucia al volante e Jason, mascherato, davanti. Con quattro stelle di ricercato, auto di pattuglia e un elicottero alle calcagna, mantiene la calma e approfitta dell'inseguimento per dare a Lucia un consiglio su come diventare una criminale «professionale».\n\nPersi gli inseguitori, il trio abbandona l'auto, che Lucia incendia con una molotov, e raggiunge un furgone. Lì Raul divide il bottino e lascia intendere che il colpo era un test, superato, e l'inizio di una collaborazione.\n\n## La sua arma\n\nRaul usa una pistola ispirata alla Colt 1911, un'arma d'altri tempi che si abbina bene al suo look da rapinatore della vecchia scuola.\n\n## Cosa non si sa ancora\n\nL'interprete non è stato annunciato. L'attore spagnolo Oscar Jaenada ha pubblicato in una storia Instagram una foto con una maglietta con l'effigie di Raul; l'altro nome che circola è Manny Perez. Nessuno dei due è confermato. Circola anche l'idea che Raul sia un ex compagno di cella di Brian Heder e un ex membro dei servizi segreti dominicani, senza alcun riscontro ufficiale.",
       "firstSeen": "Biografia e immagini ufficiali (maggio 2025); giocato in missione nell'Extended Look (27 agosto 2026)",
       "idCard": [
         {
@@ -883,7 +882,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games; giocato in missione nell'Extended Look del 27 agosto 2026"
+          "v": "Personaggio ufficiale, giocato in missione"
         }
       ],
       "summaryTable": [
@@ -909,7 +908,7 @@
         ],
         [
           "Un «test» superato",
-          "Secondo i resoconti dell'Extended Look",
+          "Il colpo in banca era una prova per il duo",
           "Riportato"
         ],
         [
@@ -919,12 +918,12 @@
         ],
         [
           "Passato con Brian Heder",
-          "Ex compagno di cella secondo siti di fan",
+          "Ex compagno di cella",
           "Voce"
         ],
         [
           "Interprete",
-          "Oscar Jaenada o Manny Perez secondo i fan",
+          "Oscar Jaenada o Manny Perez",
           "Voce"
         ]
       ],
@@ -936,7 +935,7 @@
       "role": "Contrabbandiere della vecchia scuola",
       "isProtagonist": false,
       "tagline": "I bei tempi del contrabbando nelle Keys, per lui, non sono mai finiti.",
-      "bio": "Un classico trafficante dell'età d'oro del contrabbando nelle Keys. Fa ancora passare la merce dal suo cantiere nautico, con la terza moglie Lori accanto. Preferisce che il lavoro sporco lo facciano gli altri: a Jason lascia una casa senza affitto in cambio di una mano nelle estorsioni locali. Gli piacciono i Mudslide, e la sangria di Lori. Il sito ufficiale lo affianca a Mount Kalaga. Unico membro del cast confermato: Stephen Root (King of the Hill, Barry) ha detto all'AP «sì, mi vedrete». Nell'Extended Look propone il lavoro sul tetto dell'Effluvia. Il cantiere si chiama Brian's Boat Works & Marina.",
+      "bio": "Un classico trafficante dell'età d'oro del contrabbando nelle Keys. Fa ancora passare la merce dal suo cantiere nautico, il Brian's Boat Works & Marina, con la terza moglie Lori accanto. Preferisce che il lavoro sporco lo facciano gli altri: a Jason lascia una casa senza affitto in cambio di una mano nelle estorsioni locali. Gli piacciono i Mudslide, e la sangria di Lori. È legato alla zona di Mount Kalaga. Sul tetto dell'Effluvia propone un lavoro a Jason e Lucia. Lo interpreta Stephen Root (King of the Hill, Barry), unico membro del cast confermato: «sì, mi vedrete».",
       "districtId": "dis-keys",
       "firstMissionId": null,
       "relations": [
@@ -958,45 +957,45 @@
         {
           "src": "assets/img/vice/personaggi/chr-brian-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-jason-chantier.jpg",
-          "caption": "Brian, con la bandana, parla con Jason nella sua rimessa per barche; Lori è dietro di loro (Trailer 2)."
+          "caption": "Brian, con la bandana, parla con Jason nella sua rimessa per barche; Lori è dietro di loro."
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-efflavia.jpg",
-          "caption": "Brian e Lori di fronte a Jason e Lucia, sulla terrazza dell'Effluvia (Extended Look)."
+          "caption": "Brian e Lori di fronte a Jason e Lucia, sulla terrazza dell'Effluvia."
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-jason-brian-cigare.jpg",
-          "caption": "Jason accende il sigaro di Brian Heder su un tetto di Vice City (Extended Look)."
+          "caption": "Jason accende il sigaro di Brian Heder su un tetto di Vice City."
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g4.webp",
           "url": "https://vice-central.com/wp-content/uploads/2026/09/brian-heder-truck-scene-gta-vi.webp",
-          "caption": "Brian davanti al suo pick-up, la scena che apre il Trailer 2."
+          "caption": "Brian davanti al suo pick-up."
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g5.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-01-scaled.jpg",
-          "caption": "Brian Heder, immagine ufficiale n. 1"
+          "caption": "Brian Heder, immagine n. 1"
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g6.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-02-scaled.jpg",
-          "caption": "Brian Heder, immagine ufficiale n. 2"
+          "caption": "Brian Heder, immagine n. 2"
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g7.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-03-scaled.jpg",
-          "caption": "Brian Heder, immagine ufficiale n. 3"
+          "caption": "Brian Heder, immagine n. 3"
         },
         {
           "src": "assets/img/vice/personaggi/chr-brian-g8.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/brian_heder-gallery-04-scaled.jpg",
-          "caption": "Brian Heder, immagine ufficiale n. 4"
+          "caption": "Brian Heder, immagine n. 4"
         }
       ],
-      "insight": "Brian Heder è il primo personaggio che si vede nel Trailer 2 di GTA VI, e uno dei più importanti dell'inizio della storia. Vecchio trafficante delle Leonida Keys, dà lavoro a Jason Duval, lo ospita e gli fa da mentore. È anche l'unico personaggio con un nome del gioco il cui interprete ha confermato il ruolo: l'attore americano Stephen Root.\n\n## Cosa dice la sua biografia ufficiale\n\nRockstar lo descrive con un'immagine che riassume il personaggio: ha l'aria di un innocuo bagnante, ma si muove come un grande squalo bianco. Trafficante «classico» dell'età d'oro del contrabbando nelle Keys, fa ancora passare merce dal suo cantiere nautico, con la terza moglie Lori. È nel giro da abbastanza tempo per lasciare che siano gli altri a fare il lavoro sporco al posto suo.\n\n«Sembra un bagnante di Leonida, ma si muove come un grande squalo bianco. Brian è un trafficante classico dell'età d'oro del contrabbando nelle Keys. Fa ancora passare merce dal suo cantiere nautico con la terza moglie Lori, ed è nel giro da abbastanza tempo per lasciare che gli altri facciano il lavoro sporco. Brian lascia che Jason viva gratis in una delle sue proprietà, purché lo aiuti a fare pressione sulla gente del posto e passi ogni tanto a bere la sangria di Lori.»\n\nQuest'ultimo punto spiega la situazione di Jason all'inizio del gioco: non è un uomo libero, ripaga il tetto rendendo servizi. Brian è anche il socio di Cal Hampton, l'amico di Jason, il che lo rende il centro del piccolo giro delle Keys.\n\n## Cosa mostra il Trailer 2\n\nIl Trailer 2 si apre su di lui: in camicia hawaiana e occhiali da sole, Brian fa la predica a Jason davanti a un pick-up grigio, mentre Jason ripara il tetto di una casa su palafitte. Lo si ritrova più avanti nella sua rimessa per barche, bandana in testa, Lori dietro di lui. L'insegna «Brian's» compare sulla rimessa, e Cal porta una maglietta con lo stesso nome.\n\n## Cosa mostra l'Extended Look\n\nNell'Extended Look del 27 agosto 2026, Jason e Lucia ritrovano Brian e Lori per un pranzo sulla terrazza dell'Effluvia, un ristorante sul tetto di Vice City. L'accoglienza è calorosa, Lori lascia cadere che Brian «faceva girare la testa, ai tempi», poi la conversazione devia a mezze parole verso un «lavoro» che un committente vorrebbe discreto. I resoconti della presentazione ricordano anche una frase di Brian: in questo mestiere il segreto è sapere quando fermarsi.\n\nLa scena prosegue su un tetto, dove Jason accende il sigaro di Brian con vista sulle torri di Vice City. Il contrasto è eloquente: il vecchio contrabbandiere delle Keys si sente a suo agio nei quartieri alti quanto sul suo pontile.\n\n## Stephen Root, la sua voce confermata\n\nIl 14 settembre 2026 l'attore Stephen Root ha confermato di persona, in un'intervista all'agenzia Associated Press al BAFTA TV Tea Party, di interpretare Brian Heder: «Sì, mi vedrete lì dentro. Sono così felice di farne parte.» È la prima volta che un attore conferma lui stesso un personaggio con un nome di GTA VI, dato che Rockstar non ha mai pubblicato il cast. A 74 anni, Root è noto per Milton in Office Space, la serie NewsRadio, diversi film dei fratelli Coen e le voci di Bill Dauterive e Buck Strickland in King of the Hill.",
+      "insight": "Brian Heder è il primo personaggio che si vede nel Trailer 2 di GTA VI, e uno dei più importanti dell'inizio della storia. Vecchio trafficante delle Leonida Keys, dà lavoro a Jason Duval, lo ospita e gli fa da mentore. È anche l'unico personaggio con un nome il cui interprete ha confermato il ruolo: l'attore americano Stephen Root.\n\n## Chi è\n\nSembra un bagnante di Leonida, ma si muove come un grande squalo bianco. Brian è un trafficante classico dell'età d'oro del contrabbando nelle Keys. Fa ancora passare merce dal suo cantiere nautico con la terza moglie Lori, ed è nel giro da abbastanza tempo per lasciare che gli altri facciano il lavoro sporco. Lascia che Jason viva gratis in una delle sue proprietà, purché lo aiuti a fare pressione sulla gente del posto e passi ogni tanto a bere la sangria di Lori.\n\nQuest'ultimo punto spiega la situazione di Jason all'inizio del gioco: non è un uomo libero, ripaga il tetto rendendo servizi. Brian è anche il socio di Cal Hampton, l'amico di Jason, il che lo rende il centro del piccolo giro delle Keys.\n\n## Al cantiere\n\nIn camicia hawaiana e occhiali da sole, Brian fa la predica a Jason davanti a un pick-up grigio, mentre Jason ripara il tetto di una casa su palafitte. Lo ritrovi nella sua rimessa per barche, bandana in testa, Lori dietro di lui. L'insegna «Brian's» compare sulla rimessa, e Cal porta una maglietta con lo stesso nome.\n\n## Il pranzo all'Effluvia\n\nJason e Lucia ritrovano Brian e Lori per un pranzo sulla terrazza dell'Effluvia, un ristorante sul tetto di Vice City. L'accoglienza è calorosa, Lori lascia cadere che Brian «faceva girare la testa, ai tempi», poi la conversazione devia a mezze parole verso un «lavoro» che un committente vorrebbe discreto. Brian ricorda che in questo mestiere il segreto è sapere quando fermarsi.\n\nLa scena prosegue su un tetto, dove Jason accende il sigaro di Brian con vista sulle torri di Vice City. Il contrasto è eloquente: il vecchio contrabbandiere delle Keys si sente a suo agio nei quartieri alti quanto sul suo pontile.\n\n## Stephen Root, la sua voce confermata\n\nIl 14 settembre 2026, al BAFTA TV Tea Party, Stephen Root ha confermato di interpretare Brian Heder: «Sì, mi vedrete lì dentro. Sono così felice di farne parte.» È la prima volta che un attore conferma lui stesso un personaggio con un nome di GTA VI, dato che Rockstar non ha mai pubblicato il cast. A 74 anni, Root è noto per Milton in Office Space, la serie NewsRadio, diversi film dei fratelli Coen e le voci di Bill Dauterive e Buck Strickland in King of the Hill.",
       "firstSeen": "Apre il Trailer 2 (maggio 2025); Extended Look (pranzo all'Effluvia, tetto)",
       "idCard": [
         {
@@ -1021,7 +1020,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games; interprete confermato, Stephen Root"
+          "v": "Personaggio ufficiale; interprete Stephen Root"
         }
       ],
       "summaryTable": [
@@ -1062,7 +1061,7 @@
         ],
         [
           "Passato comune con Raul Bautista",
-          "Ex compagni di cella secondo alcuni siti di fan",
+          "Ex compagni di cella",
           "Voce"
         ]
       ],
@@ -1074,7 +1073,7 @@
       "role": "Terza moglie di Brian",
       "isProtagonist": false,
       "tagline": "La sangria è sua.",
-      "bio": "Citata nella scheda di Brian come la sua terza moglie, al cantiere con lui. Serve la sangria. Tutto il resto lo scopriremo.",
+      "bio": "Terza moglie di Brian, al cantiere con lui. Serve la sangria. Tutto il resto è ancora da scoprire.",
       "districtId": "dis-keys",
       "firstMissionId": null,
       "relations": [
@@ -1092,25 +1091,25 @@
         {
           "src": "assets/img/vice/personaggi/chr-lori-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-jason-chantier.jpg",
-          "caption": "Brian, con la bandana, parla con Jason nella sua rimessa per barche; Lori è dietro di loro (Trailer 2)."
+          "caption": "Brian, con la bandana, parla con Jason nella sua rimessa per barche; Lori è dietro di loro."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lori-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-brian-lori-efflavia.jpg",
-          "caption": "Brian e Lori di fronte a Jason e Lucia, sulla terrazza dell'Effluvia (Extended Look)."
+          "caption": "Brian e Lori di fronte a Jason e Lucia, sulla terrazza dell'Effluvia."
         },
         {
           "src": "assets/img/vice/personaggi/chr-lori-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-efflavia-dejeuner.jpg",
-          "caption": "Il pranzo all'Effluvia con Jason, Lucia e Lori (Extended Look)"
+          "caption": "Il pranzo all'Effluvia con Jason, Lucia e Lori."
         }
       ],
-      "insight": "Lori è la terza moglie di Brian Heder, il vecchio trafficante delle Leonida Keys che impiega e ospita Jason Duval. Rockstar non le ha dedicato una biografia a parte, ma è citata in quella del marito, compare nel Trailer 2 e ha un vero ruolo in una delle scene più commentate dell'Extended Look.\n\n## Cosa dice Rockstar\n\nLa biografia ufficiale di Brian la presenta con due dettagli. Primo, Brian «fa ancora passare merce dal suo cantiere nautico con la terza moglie Lori»: non è dunque una semplice moglie tenuta in disparte, ma una socia della sua attività. Secondo, Jason è ospitato gratis a condizione, tra l'altro, di passare ogni tanto a bere «la sangria di Lori». Un dettaglio leggero che dice molto dell'atmosfera familiare e falsamente tranquilla del clan Heder.\n\nSecondo la banca dati GTABase, immagini ufficiali la mostrano anche con un'arma in mano, fucile d'assalto o pistola, il che fa pensare che sappia difendersi. Rockstar non l'ha commentato.\n\n## Nel Trailer 2\n\nLori compare brevemente nel Trailer 2, con un top rosa e i capelli biondi, in fondo alla rimessa per barche dove Brian, bandana in testa, parla d'affari con Jason. È lì, in disparte, come parte della scenografia del cantiere.\n\n## Il pranzo all'Effluvia\n\nNell'Extended Look del 27 agosto 2026, Jason e Lucia ritrovano la coppia sulla terrazza dell'Effluvia, un ristorante sul tetto di Vice City. Lori, in camicetta a fiori e occhiali da sole, accoglie il duo con calore («Ciao, Lori. Un piacere, Brian.») e stuzzica il marito: «Brian faceva girare la testa, ai tempi.» La conversazione devia poi a mezze parole verso un «lavoro» che un committente vorrebbe discreto, «una sola persona», prima che il pasto riprenda («Buon appetito a tutti. Ci vediamo per il dolce.»).\n\nLa scena gioca su un contrasto tipico di Rockstar: un pranzo di famiglia sotto il sole, cocktail e fiori sul tavolo, e in mezzo una discussione su un colpo da preparare.",
+      "insight": "Lori è la terza moglie di Brian Heder, il vecchio trafficante delle Leonida Keys che impiega e ospita Jason Duval. Non ha una biografia tutta sua, ma la trovi al cantiere di Brian e ha un vero ruolo in una delle scene più commentate: il pranzo all'Effluvia.\n\n## Chi è\n\nBrian «fa ancora passare merce dal suo cantiere nautico con la terza moglie Lori»: non è dunque una moglie tenuta in disparte, ma una socia della sua attività. E Jason è ospitato gratis a condizione, tra l'altro, di passare ogni tanto a bere «la sangria di Lori». Un dettaglio leggero che dice molto dell'atmosfera familiare e falsamente tranquilla del clan Heder.\n\nLori si vede anche con un'arma in mano, fucile d'assalto o pistola: sa difendersi.\n\n## Al cantiere\n\nTop rosa e capelli biondi, Lori sta in fondo alla rimessa per barche dove Brian, bandana in testa, parla d'affari con Jason. È lì, in disparte, come parte della scenografia del cantiere.\n\n## Il pranzo all'Effluvia\n\nJason e Lucia ritrovano la coppia sulla terrazza dell'Effluvia, un ristorante sul tetto di Vice City. Lori, in camicetta a fiori e occhiali da sole, accoglie il duo con calore («Ciao, Lori. Un piacere, Brian.») e stuzzica il marito: «Brian faceva girare la testa, ai tempi.» La conversazione devia poi a mezze parole verso un «lavoro» che un committente vorrebbe discreto, «una sola persona», prima che il pasto riprenda («Buon appetito a tutti. Ci vediamo per il dolce.»).\n\nLa scena gioca su un contrasto tipico di Rockstar: un pranzo di famiglia sotto il sole, cocktail e fiori sul tavolo, e in mezzo una discussione su un colpo da preparare.",
       "firstSeen": "Trailer 2 (maggio 2025, in fondo alla rimessa); Extended Look (pranzo all'Effluvia)",
       "idCard": [
         {
           "k": "Nome",
-          "v": "Lori (cognome non confermato)"
+          "v": "Lori (cognome non noto)"
         },
         {
           "k": "Ruolo",
@@ -1130,7 +1129,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermata ufficialmente da Rockstar Games, vista nel Trailer 2 e nell'Extended Look"
+          "v": "Personaggio ufficiale"
         }
       ],
       "summaryTable": [
@@ -1156,7 +1155,7 @@
         ],
         [
           "Uso delle armi",
-          "Vista con un fucile d'assalto e una pistola secondo GTABase",
+          "Vista con un fucile d'assalto e una pistola",
           "Riportato"
         ],
         [
@@ -1173,7 +1172,7 @@
       "role": "Rapper locale",
       "isProtagonist": false,
       "tagline": "Il featuring che ha lanciato le Real Dimez.",
-      "bio": "Rapper di zona, citato nella scheda delle Real Dimez come l'autore del singolo che ha dato loro la prima visibilità.",
+      "bio": "Rapper di zona, autore del singolo con le Real Dimez che ha dato loro la prima visibilità.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -1199,7 +1198,7 @@
       "role": "Agente del VCPD",
       "isProtagonist": false,
       "tagline": "La legge di Vice City, con un nome.",
-      "bio": "Agente della polizia di Vice City riconosciuto dalla community nel Trailer 2 e nel raid dell'Extended Look. Compare anche nel trailer di lancio, secondo alcune analisi. Nell'Extended Look guida la task force antidroga che fa irruzione alla casa di Raymond e spara a un sospetto che si arrende: la stampa lo legge come poliziotto corrotto e possibile antagonista.",
+      "bio": "Agente della polizia di Vice City. Guida la task force antidroga che fa irruzione alla casa di Raymond e spara a un sospetto che si arrende: ha i modi del poliziotto corrotto ed è un possibile antagonista. Compare anche nel trailer di lancio.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
@@ -1209,15 +1208,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-mendez-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-mendez-trailer-2.jpg",
-          "caption": "Méndez con il giubbotto antiproiettile, nel Trailer 2."
+          "caption": "Méndez con il giubbotto antiproiettile."
         },
         {
           "src": "assets/img/vice/personaggi/chr-mendez-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-mendez-insigne.jpg",
-          "caption": "Méndez, distintivo alla cintura, in una stanza buia (Trailer 2)."
+          "caption": "Méndez, distintivo alla cintura, in una stanza buia."
         }
       ],
-      "insight": "Méndez è un poliziotto di Vice City, e per ora il volto più nitido della legge in GTA VI. Occhiali, baffi, camicia e distintivo alla cintura, compare brevemente nel Trailer 2, poi nell'Extended Look del 27 agosto 2026, dove Jason e Lucia si nascondono appena lo riconoscono.\n\n## Nel Trailer 2\n\nIl Trailer 2 lo mostra due volte. Prima con un giubbotto antiproiettile «POLICE», in un corridoio buio, con l'aria contrariata; poi in camicia, distintivo alla cintura, di fronte a un uomo in una stanza poco illuminata. Non viene detto nulla, ma l'immagine basta a presentarlo come una minaccia per il duo.\n\n## Nell'Extended Look\n\nNella prima missione della presentazione, Jason e Lucia sono da Raymond per una riscossione quando la polizia fa irruzione, senza preavviso. Secondo GTABase e diverse analisi fotogramma per fotogramma, è Méndez a guidare il raid, con metodi particolarmente brutali: un poliziotto abbatte un membro della gang che si stava arrendendo. Ancora più eloquente, Jason e Lucia lasciano intendere che Méndez sa chi sono e si nascondono per non farsi vedere, il che suggerisce un passato comune precedente all'inizio della storia.\n\nIl nuovo sistema di polizia di GTA VI (ricercato a sei stelle, riconoscimento del volto, dell'abbigliamento e del veicolo) potrebbe avere in Méndez il suo volto ricorrente, come i poliziotti corrotti degli episodi precedenti.",
+      "insight": "Méndez è un poliziotto di Vice City, e per ora il volto più nitido della legge in GTA VI. Occhiali, baffi, camicia e distintivo alla cintura: quando Jason e Lucia lo riconoscono, si nascondono.\n\n## Le prime apparizioni\n\nLo si vede due volte nel Trailer 2: prima con un giubbotto antiproiettile «POLICE», in un corridoio buio, con l'aria contrariata; poi in camicia, distintivo alla cintura, di fronte a un uomo in una stanza poco illuminata. Non dice nulla, ma basta l'immagine a presentarlo come una minaccia per il duo.\n\n## Il raid da Raymond\n\nJason e Lucia sono da Raymond per una riscossione quando la polizia fa irruzione, senza preavviso. È Méndez a guidare il raid, con metodi particolarmente brutali: un poliziotto abbatte un membro della gang che si stava arrendendo. Jason e Lucia lasciano intendere che Méndez sa chi sono e si nascondono per non farsi vedere: tra loro c'è un passato comune, precedente all'inizio della storia.\n\nIl sistema di polizia di GTA VI prevede fino a sei stelle di ricercato e il riconoscimento di volto, abbigliamento e veicolo.",
       "firstSeen": "Trailer 2 (maggio 2025), poi Extended Look (27 agosto 2026)",
       "idCard": [
         {
@@ -1238,11 +1237,11 @@
         },
         {
           "k": "Tratto distintivo",
-          "v": "Metodi brutali, sembra conoscere il duo"
+          "v": "Metodi brutali, conosce il duo"
         },
         {
           "k": "Stato",
-          "v": "Visto nel Trailer 2 e poi nell'Extended Look"
+          "v": "Compare nel Trailer 2 e nel raid da Raymond"
         }
       ],
       "summaryTable": [
@@ -1263,7 +1262,7 @@
         ],
         [
           "Capo del raid da Raymond",
-          "Secondo GTABase e analisi fotogramma per fotogramma",
+          "Guida l'irruzione",
           "Riportato"
         ],
         [
@@ -1273,7 +1272,7 @@
         ],
         [
           "Poliziotto corrotto",
-          "Ipotesi dei fan",
+          "Ipotesi",
           "Voce"
         ],
         [
@@ -1296,7 +1295,7 @@
       "role": "Uomo d'affari, Megamundo",
       "isProtagonist": false,
       "tagline": "Il cliente che vale la scorta.",
-      "bio": "Ricco socio di Megamundo. Nell'Extended Look Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con uomini mascherati e armati, secondo la stampa.",
+      "bio": "Ricco socio di Megamundo. Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con l'irruzione di uomini mascherati e armati.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -1309,15 +1308,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-andres-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-andres-de-leon-soiree.jpg",
-          "caption": "Andrés de León fa il suo ingresso alla serata Megamundo (Extended Look)."
+          "caption": "Andrés de León fa il suo ingresso alla serata Megamundo."
         },
         {
           "src": "assets/img/vice/personaggi/chr-andres-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
-          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro (Extended Look)."
+          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro."
         }
       ],
-      "insight": "Andrés de León è l'uomo che Jason e Lucia devono proteggere nell'ultima missione dell'Extended Look di GTA VI. Cappello, occhiali e giacca scura su una camicia aperta, incarna la Vice City dei soldi e delle feste private, all'opposto dei palazzi fatiscenti della prima missione.\n\n## Cosa mostra l'Extended Look\n\nSecondo GTABase, Andrés è un ricco socio d'affari di Megamundo e una conoscenza di Valentina. È lei a ingaggiare Jason e Lucia per scortarlo all'inaugurazione della prima sede americana dell'azienda. La sequenza lo mostra arrivare di notte in jet privato, poi fare il suo ingresso nella torre Megamundo, a braccia aperte, accanto a un uomo in giacca rossa.\n\nI resoconti della presentazione lo descrivono come un personaggio espansivo, che abbraccia tutti, e che si ritrova più tardi al piano di sopra in piena festa privata con gli amici. È Petra Navarro, la dirigente di Megamundo, a chiedere a Jason di andarlo a cercare per il discorso di apertura. Poco dopo, uomini armati e mascherati interrompono la serata.\n\n## Alleato, cliente o bersaglio?\n\nNulla permette per ora di dire se Andrés sia un semplice cliente, un futuro alleato o il bersaglio dell'attacco. La sua presenza al centro di una serata aziendale che finisce in tragedia, e il fatto che per proteggerlo si ingaggino dei criminali invece di una società di sicurezza, fanno pensare che i suoi affari non siano tutti puliti.",
+      "insight": "Andrés de León è l'uomo che Jason e Lucia devono proteggere all'inaugurazione della torre Megamundo. Cappello, occhiali e giacca scura su una camicia aperta, incarna la Vice City dei soldi e delle feste private, all'opposto dei palazzi fatiscenti della prima missione.\n\n## La serata Megamundo\n\nAndrés è un ricco socio d'affari di Megamundo e una conoscenza di Valentina. È lei a ingaggiare Jason e Lucia per scortarlo all'inaugurazione della prima sede americana dell'azienda. Arriva di notte in jet privato, poi fa il suo ingresso nella torre Megamundo, a braccia aperte, accanto a un uomo in giacca rossa.\n\nÈ un tipo espansivo, che abbraccia tutti, e più tardi lo si ritrova al piano di sopra in piena festa privata con gli amici. Petra Navarro, la dirigente di Megamundo, chiede a Jason di andarlo a cercare per il discorso di apertura. Poco dopo, uomini armati e mascherati interrompono la serata.\n\n## Alleato, cliente o bersaglio?\n\nNon è ancora noto se Andrés sia un semplice cliente, un futuro alleato o il bersaglio dell'attacco. Di certo, per proteggerlo si ingaggiano dei criminali invece di una società di sicurezza, e la sua serata aziendale finisce in tragedia.",
       "firstSeen": "Extended Look (27 agosto 2026), ultima missione mostrata",
       "idCard": [
         {
@@ -1342,7 +1341,7 @@
         },
         {
           "k": "Stato",
-          "v": "Visto nell'Extended Look del 27 agosto 2026"
+          "v": "Compare all'inaugurazione della torre Megamundo"
         }
       ],
       "summaryTable": [
@@ -1353,7 +1352,7 @@
         ],
         [
           "Apparizione",
-          "Extended Look, arrivo in jet privato e serata Megamundo",
+          "Arrivo in jet privato e serata Megamundo",
           "Confermato"
         ],
         [
@@ -1386,7 +1385,7 @@
       "role": "COO di Megamundo",
       "isProtagonist": false,
       "tagline": "La dirigente.",
-      "bio": "Direttrice operativa di Megamundo, presentata a Jason e Lucia da Valentina, secondo la community.",
+      "bio": "Direttrice operativa di Megamundo, presentata a Jason e Lucia da Valentina.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -1399,15 +1398,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-petra-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-petra-navarro-soiree.jpg",
-          "caption": "Petra Navarro alla serata di inaugurazione di Megamundo (Extended Look)."
+          "caption": "Petra Navarro alla serata di inaugurazione di Megamundo."
         },
         {
           "src": "assets/img/vice/personaggi/chr-petra-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
-          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro (Extended Look)."
+          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro."
         }
       ],
-      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata che chiude l'Extended Look del 27 agosto 2026, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nGTABase la presenta come direttrice operativa (COO) di Megamundo; altri resoconti della presentazione la descrivono come la padrona dell'azienda. In ogni caso, è lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo vi appare come il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Secondo i resoconti, Petra chiede a Jason di andare a cercare Andrés, che è andato a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame esatto tra Petra, Megamundo e la trama di Jason e Lucia non è precisato. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, fanno pensare che Megamundo abbia dei nemici.",
+      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata di inaugurazione, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nPetra è la direttrice operativa (COO) di Megamundo; in alcune descrizioni è la padrona dell'azienda. È lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo è il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Petra chiede a Jason di andare a cercare Andrés, salito a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame tra Petra, Megamundo e la storia di Jason e Lucia non è ancora noto. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, dicono che Megamundo ha dei nemici.",
       "firstSeen": "Extended Look (27 agosto 2026), serata Megamundo",
       "idCard": [
         {
@@ -1432,7 +1431,7 @@
         },
         {
           "k": "Stato",
-          "v": "Vista nell'Extended Look del 27 agosto 2026"
+          "v": "Compare all'inaugurazione della torre Megamundo"
         }
       ],
       "summaryTable": [
@@ -1443,12 +1442,12 @@
         ],
         [
           "Funzione",
-          "Dirigente di Megamundo (COO secondo GTABase)",
+          "Dirigente di Megamundo (COO)",
           "Riportato"
         ],
         [
           "Apparizione",
-          "Serata di inaugurazione della torre Megamundo (Extended Look)",
+          "Serata di inaugurazione della torre Megamundo",
           "Confermato"
         ],
         [
@@ -1481,7 +1480,7 @@
       "role": "Intermediaria",
       "isProtagonist": false,
       "tagline": "Chi assegna il lavoro.",
-      "bio": "Assume Jason e Lucia per scortare Andres De Leon e li presenta a Petra Navarro, secondo la community.",
+      "bio": "Assume Jason e Lucia per scortare Andrés de León e li presenta a Petra Navarro.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [
@@ -1494,25 +1493,25 @@
         {
           "src": "assets/img/vice/personaggi/chr-valentina-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-valentina-aeroport.jpg",
-          "caption": "Valentina nella lounge dell'aeroporto, un jet privato dietro la vetrata (Extended Look)."
+          "caption": "Valentina nella lounge dell'aeroporto, un jet privato dietro la vetrata."
         },
         {
           "src": "assets/img/vice/personaggi/chr-valentina-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-megamundo-ascenseur.jpg",
-          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro (Extended Look)."
+          "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro."
         },
         {
           "src": "assets/img/vice/personaggi/chr-valentina-g3.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-valentina-gros-plan.jpg",
-          "caption": "Valentina in primo piano (Extended Look)"
+          "caption": "Valentina in primo piano."
         },
         {
           "src": "assets/img/vice/personaggi/chr-valentina-g4.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-andres-de-leon-soiree.jpg",
-          "caption": "Andrés de León fa il suo ingresso alla serata Megamundo (Extended Look)."
+          "caption": "Andrés de León fa il suo ingresso alla serata Megamundo."
         }
       ],
-      "insight": "Valentina è la donna che apre l'ultima grande sequenza dell'Extended Look di GTA VI. Chignon biondo, abito a fascia e collana dorata, aspetta Jason e Lucia nella lounge di un terminal dell'aeroporto di Vice City, con vista sui jet privati, per affidare loro un lavoro molto diverso dalle riscossioni di strada: fare le guardie del corpo nel mondo degli affari.\n\n## La missione Megamundo\n\nSecondo GTABase, Valentina ingaggia Jason e Lucia per scortare Andrés de León, ricco socio d'affari di Megamundo, fino all'inaugurazione della prima sede americana dell'azienda, in una torre di Vice City. Alcuni resoconti della presentazione la descrivono come l'assistente di Andrés, che riceve il duo a champagne prima di mandarlo dal suo capo. Il seguito si svolge di notte: Andrés arriva in jet privato, il gruppo raggiunge la torre Megamundo, e Valentina presenta Jason e Lucia a Petra Navarro, la dirigente dell'azienda.\n\nLa serata finisce male: uomini armati e mascherati interrompono la festa, Jason deve combattere negli uffici e Lucia si ritrova intrappolata altrove nell'edificio. Il ruolo esatto di Valentina in ciò che accade quella sera non è precisato.\n\n## Un legame con GTA Online?\n\nAlcuni giocatori hanno accostato Valentina a un personaggio minore con lo stesso nome comparso nell'aggiornamento «Money Fronts» di GTA Online nel 2025, una pista rilanciata da GameRant. Se si confermasse, sarebbe uno dei primi legami diretti tra GTA Online e GTA VI. Rockstar non ha confermato nulla.",
+      "insight": "Valentina apre la missione Megamundo. Chignon biondo, abito a fascia e collana dorata, aspetta Jason e Lucia nella lounge di un terminal dell'aeroporto di Vice City, con vista sui jet privati, per affidare loro un lavoro molto diverso dalle riscossioni di strada: fare le guardie del corpo nel mondo degli affari.\n\n## La missione Megamundo\n\nValentina ingaggia Jason e Lucia per scortare Andrés de León, ricco socio d'affari di Megamundo, fino all'inaugurazione della prima sede americana dell'azienda, in una torre di Vice City. In alcune descrizioni è l'assistente di Andrés: riceve il duo a champagne prima di mandarlo dal suo capo. Il seguito si svolge di notte: Andrés arriva in jet privato, il gruppo raggiunge la torre Megamundo, e Valentina presenta Jason e Lucia a Petra Navarro, la dirigente dell'azienda.\n\nLa serata finisce male: uomini armati e mascherati interrompono la festa, Jason deve combattere negli uffici e Lucia si ritrova intrappolata altrove nell'edificio. Il ruolo di Valentina in ciò che accade quella sera non è ancora noto.\n\n## Un legame con GTA Online?\n\nUn personaggio minore con lo stesso nome compare nell'aggiornamento «Money Fronts» di GTA Online del 2025. Se fosse lei, sarebbe uno dei primi legami diretti tra GTA Online e GTA VI. Il collegamento non è confermato.",
       "firstSeen": "Extended Look (27 agosto 2026), lounge dell'aeroporto e serata Megamundo",
       "idCard": [
         {
@@ -1537,7 +1536,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermata dall'Extended Look del 27 agosto 2026"
+          "v": "Compare all'aeroporto e alla serata Megamundo"
         }
       ],
       "summaryTable": [
@@ -1548,7 +1547,7 @@
         ],
         [
           "Apparizione",
-          "Extended Look, lounge dell'aeroporto e serata Megamundo",
+          "Lounge dell'aeroporto e serata Megamundo",
           "Confermato"
         ],
         [
@@ -1558,7 +1557,7 @@
         ],
         [
           "Legame con Andrés",
-          "La sua assistente secondo alcuni resoconti",
+          "La sua assistente, in alcune descrizioni",
           "Riportato"
         ],
         [
@@ -1586,7 +1585,7 @@
       "role": "Pilota di corse clandestine",
       "isProtagonist": false,
       "tagline": "Un'Annis Elegy e nessuna regola.",
-      "bio": "Corridore di strada visto per la prima volta nell'Extended Look, al volante di una Annis Elegy '90 modificata, secondo la community.",
+      "bio": "Corridore di strada, al volante di una Annis Elegy '90 modificata.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
@@ -1606,7 +1605,7 @@
       "role": "Gang San4San",
       "isProtagonist": false,
       "tagline": "Gestisce una casa dello spaccio.",
-      "bio": "Membro della gang San4San, gestisce una casa dello spaccio e un laboratorio con Ernesto. Nell'Extended Look, secondo la community.",
+      "bio": "Membro della gang San4San, gestisce una casa dello spaccio e un laboratorio con Ernesto.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [
@@ -1618,15 +1617,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-raymond-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-atelier.jpg",
-          "caption": "Raymond nel suo laboratorio, dove operaie con guanti gialli confezionano la merce (Extended Look)."
+          "caption": "Raymond nel suo laboratorio, dove operaie con guanti gialli confezionano la merce."
         },
         {
           "src": "assets/img/vice/personaggi/chr-raymond-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
-          "caption": "Raymond, telefono in mano, accanto a un membro della sua gang (Extended Look)."
+          "caption": "Raymond, telefono in mano, accanto a un membro della sua gang."
         }
       ],
-      "insight": "Raymond è il primo personaggio che Jason e Lucia incontrano nell'Extended Look di GTA VI, trasmesso il 27 agosto 2026. Dreadlock, torso tatuato e catene d'oro, dirige una piccola gang riconoscibile dalla sigla «S4S» e un laboratorio dove si confeziona droga. La visita del duo a casa sua apre la presentazione, e degenera molto in fretta in una sparatoria.\n\n## Una gang e un laboratorio\n\nLa gang di Raymond si riconosce da un ciondolo d'oro con la sigla «S4S», che le banche dati dei fan sviluppano in San4San. Il suo covo è un palazzo fatiscente di Vice City: si entra da un atrio pieno di graffiti, si salgono corridoi bui e si arriva in un appartamento trasformato in laboratorio, dove operaie in biancheria intima e guanti gialli confezionano la merce su lunghi tavoli. Il sito Postmode vi ha individuato diversi marchi fittizi, tra cui una scatola di veleno per topi Bugstars, strizzata d'occhio a GTA V.\n\nSecondo GTABase, Raymond gestisce questa produzione con un socio, Ernesto, anch'egli membro della gang.\n\n## Una riscossione per Boobie Ike che finisce male\n\nJason e Lucia vanno da Raymond per recuperare soldi per conto di Boobie Ike. L'atmosfera è tesa fin dall'inizio: al telefono, Raymond lascia cadere un enigmatico «Ho sempre rispettato le regole», prima che uno dei suoi uomini gli passi una chiamata più urgente, quella del socio Ernesto, soprannominato «Nesto».\n\n«Non vi sembra strano? […] Finché non capisco dov'è e cosa sta succedendo…»\n\nDa questa telefonata Raymond capisce che la polizia sta arrivando. Pochi secondi dopo gli agenti sfondano la porta e aprono il fuoco. Jason e Lucia si ritrovano in mezzo alla sparatoria: pistola poi fucile a pompa, coperture, rallenty, e una fuga da una finestra. Diverse analisi fotogramma per fotogramma identificano Méndez, poliziotto di Vice City, tra gli agenti del raid, senza conferma di Rockstar. La sorte di Raymond non viene mostrata.",
+      "insight": "Raymond è il primo personaggio che Jason e Lucia incontrano nelle missioni mostrate. Dreadlock, torso tatuato e catene d'oro, dirige una piccola gang riconoscibile dalla sigla «S4S» e un laboratorio dove si confeziona droga. La visita del duo a casa sua degenera molto in fretta in una sparatoria.\n\n## Una gang e un laboratorio\n\nLa gang di Raymond si riconosce da un ciondolo d'oro con la sigla «S4S», cioè San4San. Il suo covo è un palazzo fatiscente di Vice City: si entra da un atrio pieno di graffiti, si salgono corridoi bui e si arriva in un appartamento trasformato in laboratorio, dove operaie in biancheria intima e guanti gialli confezionano la merce su lunghi tavoli. Tra i marchi fittizi sul posto c'è una scatola di veleno per topi Bugstars, strizzata d'occhio a GTA V.\n\nRaymond gestisce questa produzione con un socio, Ernesto, anche lui membro della gang.\n\n## Una riscossione per Boobie Ike che finisce male\n\nJason e Lucia vanno da Raymond per recuperare soldi per conto di Boobie Ike. L'atmosfera è tesa fin dall'inizio: al telefono, Raymond lascia cadere un enigmatico «Ho sempre rispettato le regole», prima che uno dei suoi uomini gli passi una chiamata più urgente, quella del socio Ernesto, soprannominato «Nesto».\n\n«Non vi sembra strano? […] Finché non capisco dov'è e cosa sta succedendo…»\n\nDa questa telefonata Raymond capisce che la polizia sta arrivando. Pochi secondi dopo gli agenti sfondano la porta e aprono il fuoco. Jason e Lucia si ritrovano in mezzo alla sparatoria: pistola poi fucile a pompa, coperture, rallenty, e una fuga da una finestra. Tra gli agenti del raid c'è Méndez, poliziotto di Vice City. La sorte di Raymond non è nota.",
       "firstSeen": "Extended Look (27 agosto 2026), prima missione mostrata",
       "idCard": [
         {
@@ -1639,7 +1638,7 @@
         },
         {
           "k": "Gang",
-          "v": "S4S (San4San secondo le banche dati dei fan)"
+          "v": "S4S (San4San)"
         },
         {
           "k": "Legato a",
@@ -1651,7 +1650,7 @@
         },
         {
           "k": "Stato",
-          "v": "Visto nell'Extended Look del 27 agosto 2026"
+          "v": "Compare nella prima missione mostrata"
         }
       ],
       "summaryTable": [
@@ -1672,7 +1671,7 @@
         ],
         [
           "Nome completo della gang",
-          "San4San secondo le banche dati dei fan",
+          "San4San",
           "Riportato"
         ],
         [
@@ -1687,7 +1686,7 @@
         ],
         [
           "Méndez nel raid",
-          "Identificato da analisi fotogramma per fotogramma",
+          "Tra gli agenti dell'irruzione",
           "Riportato"
         ],
         [
@@ -1710,7 +1709,7 @@
       "role": "Gang San4San",
       "isProtagonist": false,
       "tagline": "Il socio di Raymond.",
-      "bio": "Membro della gang San4San, gestisce un laboratorio di droga con Raymond, secondo la community.",
+      "bio": "Membro della gang San4San, gestisce un laboratorio di droga con Raymond.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [
@@ -1722,11 +1721,11 @@
         {
           "src": "assets/img/vice/personaggi/chr-ernesto-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
-          "caption": "Raymond, telefono in mano, accanto a un membro della sua gang (Extended Look)."
+          "caption": "Raymond, telefono in mano, accanto a un membro della sua gang."
         }
       ],
-      "insight": "Ernesto, soprannominato «Nesto», è il socio di Raymond nella piccola gang S4S di GTA VI. Non lo si vede chiaramente nell'Extended Look, ma ha un ruolo chiave nella primissima missione della presentazione: è la sua telefonata ad annunciare l'arrivo della polizia.\n\n## La telefonata che fa scattare tutto\n\nJason e Lucia sono da Raymond per recuperare soldi per conto di Boobie Ike. In piena discussione, uno degli uomini di Raymond gli passa il telefono: è Nesto, e la chiamata è urgente. Raymond capisce che la polizia sta arrivando al laboratorio. Pochi secondi dopo gli agenti sfondano la porta, e il duo deve farsi strada fino a una finestra per fuggire.\n\nSecondo GTABase, anche Ernesto appartiene alla gang S4S e gestisce con Raymond il laboratorio di droga mostrato nella presentazione. Cosa sapesse del raid, e come, resta un mistero: informatore, semplice vedetta o complice della polizia, nulla permette di stabilirlo.",
-      "firstSeen": "Citato (solo per telefono) nell'Extended Look del 27 agosto 2026; aspetto non confermato",
+      "insight": "Ernesto, soprannominato «Nesto», è il socio di Raymond nella piccola gang S4S di GTA VI. Non lo si vede chiaramente, ma ha un ruolo chiave nella prima missione mostrata: è la sua telefonata ad annunciare l'arrivo della polizia.\n\n## La telefonata che fa scattare tutto\n\nJason e Lucia sono da Raymond per recuperare soldi per conto di Boobie Ike. In piena discussione, uno degli uomini di Raymond gli passa il telefono: è Nesto, e la chiamata è urgente. Raymond capisce che la polizia sta arrivando al laboratorio. Pochi secondi dopo gli agenti sfondano la porta, e il duo deve farsi strada fino a una finestra per fuggire.\n\nAnche Ernesto appartiene alla gang S4S e gestisce con Raymond il laboratorio di droga. Cosa sapesse del raid, e come, resta un mistero: informatore, semplice vedetta o complice della polizia, non è ancora noto.",
+      "firstSeen": "Citato (solo per telefono) nell'Extended Look del 27 agosto 2026; aspetto non ancora mostrato",
       "idCard": [
         {
           "k": "Nome",
@@ -1738,7 +1737,7 @@
         },
         {
           "k": "Gang",
-          "v": "S4S (San4San secondo le banche dati dei fan)"
+          "v": "S4S (San4San)"
         },
         {
           "k": "Legato a",
@@ -1750,7 +1749,7 @@
         },
         {
           "k": "Stato",
-          "v": "Citato nell'Extended Look del 27 agosto 2026, aspetto non confermato"
+          "v": "Citato per telefono, aspetto non ancora mostrato"
         }
       ],
       "summaryTable": [
@@ -1765,13 +1764,13 @@
           "Confermato"
         ],
         [
-          "Ruolo nell'Extended Look",
+          "Ruolo nella prima missione",
           "La sua chiamata avverte Raymond dell'arrivo della polizia",
           "Confermato"
         ],
         [
           "Gang e attività",
-          "S4S, laboratorio di droga con Raymond, secondo GTABase",
+          "S4S, laboratorio di droga con Raymond",
           "Riportato"
         ],
         [
@@ -1794,7 +1793,7 @@
       "role": "Assistente sociale del penitenziario",
       "isProtagonist": false,
       "tagline": "La prima voce del Trailer 1.",
-      "bio": "Assistente sociale del Leonida Department of Corrections: la sua è la prima voce che si sente nel Trailer 1, mentre parla con Lucia. Il suo ruolo dopo la prigione non è chiaro, dice la community.",
+      "bio": "Assistente sociale del Leonida Department of Corrections: la sua è la prima voce che si sente nel Trailer 1, mentre parla con Lucia. Il suo ruolo dopo l'uscita di Lucia dalla prigione non è ancora noto.",
       "districtId": "dis-da-collocare",
       "firstMissionId": null,
       "relations": [
@@ -1806,15 +1805,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-stefanie-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-stefanie-gates-bureau.jpg",
-          "caption": "Stefanie Gates nel suo ufficio, di fronte a Lucia in tuta da detenuta (Trailer 1)."
+          "caption": "Stefanie Gates nel suo ufficio, di fronte a Lucia in tuta da detenuta."
         },
         {
           "src": "assets/img/vice/personaggi/chr-stefanie-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-lucia-tenue-detenue.jpg",
-          "caption": "Lucia in tuta da detenuta, di fronte all'assistente sociale Stefanie Gates (Trailer 1)."
+          "caption": "Lucia in tuta da detenuta, di fronte all'assistente sociale Stefanie Gates."
         }
       ],
-      "insight": "Stefanie Gates è l'assistente sociale del penitenziario di Leonida in GTA VI. Il suo ruolo sullo schermo dura pochi secondi, ma sono i primi secondi del gioco così come Rockstar l'ha presentato al mondo: è la sua voce la prima che si sente nel Trailer 1 di dicembre 2023, di fronte a Lucia Caminos, allora detenuta.\n\n## Cosa mostra il Trailer 1\n\nIl Trailer 1 si apre su Lucia, in tuta arancione, che guarda il cortile della prigione attraverso una finestra con le sbarre. La scena successiva la mostra seduta in un piccolo ufficio ingombro di fascicoli, di fronte a una donna con occhiali, capelli ricci e gilet verde: Stefanie Gates. Tiene un fascicolo aperto davanti a sé e interroga Lucia sulla sua situazione. Questo colloquio fa da filo conduttore all'inizio del trailer.\n\n## Un ruolo da seguire\n\nSecondo GTABase, Stefanie lavora per il dipartimento penitenziario di Leonida («Leonida Department of Corrections») come assistente sociale. Il suo ruolo nel seguito della storia non è noto. Lucia esce di prigione all'inizio del gioco, grazie a un «puro colpo di fortuna» secondo la sua biografia ufficiale, e le immagini ufficiali la mostrano con un braccialetto elettronico: un'assistente sociale o un agente di sorveglianza potrebbero quindi continuare a seguirla dopo la scarcerazione. È un'ipotesi, non un'informazione.\n\nIl nome di Stefanie Gates non compare nelle biografie pubblicate da Rockstar: è ripreso dalle banche dati dei fan, che lo hanno rilevato nel materiale del gioco. Lo segnaliamo quindi come riportato.",
+      "insight": "Stefanie Gates è l'assistente sociale del penitenziario di Leonida in GTA VI. Il suo ruolo sullo schermo dura pochi secondi, ma sono i primi secondi del gioco così come Rockstar l'ha presentato al mondo: la sua è la prima voce che si sente nel Trailer 1 di dicembre 2023, di fronte a Lucia Caminos, allora detenuta.\n\n## Il colloquio con Lucia\n\nLucia, in tuta arancione, guarda il cortile della prigione attraverso una finestra con le sbarre. Poi è seduta in un piccolo ufficio ingombro di fascicoli, di fronte a una donna con occhiali, capelli ricci e gilet verde: Stefanie Gates. Tiene un fascicolo aperto davanti a sé e interroga Lucia sulla sua situazione. Questo colloquio fa da filo conduttore all'inizio del Trailer 1.\n\n## Un ruolo da seguire\n\nStefanie lavora come assistente sociale per il dipartimento penitenziario di Leonida («Leonida Department of Corrections»). Il suo ruolo nel seguito della storia non è noto. Lucia esce di prigione all'inizio del gioco, per un «puro colpo di fortuna», e porta un braccialetto elettronico: è possibile che un'assistente sociale o un agente di sorveglianza continui a seguirla dopo la scarcerazione.\n\nIl nome di Stefanie Gates non compare nelle biografie ufficiali: viene dal materiale del gioco.",
       "firstSeen": "Apertura del Trailer 1 (dicembre 2023)",
       "idCard": [
         {
@@ -1839,7 +1838,7 @@
         },
         {
           "k": "Stato",
-          "v": "Vista nel Trailer 1, nome rilevato dalle banche dati dei fan"
+          "v": "Compare nel Trailer 1; nome non ufficiale"
         }
       ],
       "summaryTable": [
@@ -1860,7 +1859,7 @@
         ],
         [
           "Nome",
-          "Stefanie Gates, secondo le banche dati dei fan",
+          "Stefanie Gates",
           "Riportato"
         ],
         [
@@ -1888,7 +1887,7 @@
       "role": "Meccanico e collezionista",
       "isProtagonist": false,
       "tagline": "Auto d'epoca e affari locali.",
-      "bio": "Meccanico, collezionista eccentrico e faccendiere locale, legato allo sfasciacarrozze Wyman's World e alla collezione di auto classiche dell'Ultimate Edition, secondo la community. Nel leak 2022 era un complottista in un motel vicino a Port Gellhorn, legato a Shanese.",
+      "bio": "Meccanico, collezionista eccentrico e faccendiere locale, legato allo sfasciacarrozze Wyman's World e alla collezione di auto classiche dell'Ultimate Edition. Nella versione del 2022 era un complottista che viveva in un motel vicino a Port Gellhorn, legato a Shanese.",
       "districtId": "dis-da-collocare",
       "firstMissionId": null,
       "relations": [],
@@ -1898,10 +1897,10 @@
         {
           "src": "assets/img/vice/personaggi/chr-wyman-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/08/ue-wyman-collection-scaled.jpg",
-          "caption": "La collezione di Wyman, immagine ufficiale dell'Ultimate Edition."
+          "caption": "La collezione di Wyman (Ultimate Edition)."
         }
       ],
-      "insight": "Wyman è un meccanico appassionato di auto che gestisce un autodemolitore, Wyman's World Auto Salvage, in GTA VI. Rockstar lo presenta come un «collezionista eccentrico e fixer locale». Non compare né nei trailer né nell'Extended Look: lo si conosce dalla descrizione dei contenuti dell'Ultimate Edition, di cui è uno dei bonus.\n\n## L'incarico di Wyman\n\nSecondo la presentazione ufficiale dell'Ultimate Edition, Wyman affida al giocatore una missione speciale: ritrovare auto classiche e progetti abbandonati, dispersi in tutto lo Stato di Leonida, e restaurarli per restituire loro la gloria passata. Questa «collezione di Wyman» è esclusiva dell'Ultimate Edition, con la Grotti Cheetah del 1995, il motoscafo Shitzu Squalo e il buggy Vapid Dominator del 1967.\n\nIl principio ricorda le missioni di collezione dei vecchi GTA, come la lista di auto da consegnare al garage Import/Export di San Andreas o i furti d'auto commissionati da Stevie in GTA IV, ma con in più una dimensione di restauro.",
+      "insight": "Wyman è un meccanico appassionato di auto che gestisce un autodemolitore, Wyman's World Auto Salvage, in GTA VI: un «collezionista eccentrico e fixer locale». È legato ai contenuti dell'Ultimate Edition e non è ancora apparso nei video del gioco.\n\n## L'incarico di Wyman\n\nWyman ti affida una missione speciale: ritrovare auto classiche e progetti abbandonati, dispersi in tutto lo Stato di Leonida, e restaurarli per restituire loro la gloria passata. Questa «collezione di Wyman» è esclusiva dell'Ultimate Edition, con la Grotti Cheetah del 1995, il motoscafo Shitzu Squalo e il buggy Vapid Dominator del 1967.\n\nIl principio ricorda le missioni di collezione dei vecchi GTA, come la lista di auto da consegnare al garage Import/Export di San Andreas o i furti d'auto commissionati da Stevie in GTA IV, ma con in più una dimensione di restauro.",
       "firstSeen": "Descrizione ufficiale dei contenuti dell'Ultimate Edition (agosto 2026); mai apparso in trailer o Extended Look",
       "idCard": [
         {
@@ -1926,7 +1925,7 @@
         },
         {
           "k": "Stato",
-          "v": "Confermato ufficialmente da Rockstar Games (contenuto dell'Ultimate Edition)"
+          "v": "Personaggio ufficiale (Ultimate Edition)"
         }
       ],
       "summaryTable": [
@@ -1975,7 +1974,7 @@
       "role": "Livestreamer",
       "isProtagonist": false,
       "tagline": "In diretta, anche dal bagagliaio.",
-      "bio": "Streamer di Vice City. La community lo collega alla scena del bagagliaio con la diretta in sovrimpressione dell'Extended Look, e ci vede una parodia di un noto streamer reale. Nell'Extended Look fa la «Trunk Challenge» dal bagagliaio di una Buffalo quando Lucia la ruba, e continua la diretta durante l'inseguimento su Shore Drive. N3on, lo streamer parodiato, ha reagito in diretta e ha rifatto la scena dal vivo.",
+      "bio": "Streamer di Vice City, parodia di un noto streamer reale. Fa la «Trunk Challenge» dal bagagliaio di una Buffalo quando Lucia la ruba, e continua la diretta, con la chat in sovrimpressione, durante l'inseguimento su Shore Drive. N3on, lo streamer parodiato, ha reagito in diretta e ha rifatto la scena dal vivo.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
@@ -1985,12 +1984,12 @@
         {
           "src": "assets/img/vice/personaggi/chr-camillo-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-camilo-selfie-lucia.jpg",
-          "caption": "Camilo si filma accanto a Lucia (Extended Look)."
+          "caption": "Camilo si filma accanto a Lucia."
         },
         {
           "src": "assets/img/vice/personaggi/chr-camillo-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-camilo-live-coffre.jpg",
-          "caption": "La diretta di Camilo, filmata dal bagagliaio in pieno inseguimento (Extended Look)."
+          "caption": "La diretta di Camilo, filmata dal bagagliaio in pieno inseguimento."
         },
         {
           "src": "assets/img/vice/personaggi/chr-camillo-g3.jpg",
@@ -1998,7 +1997,7 @@
           "caption": "Camilo, telefono in mano, sotto lo sguardo di Lucia."
         }
       ],
-      "insight": "Camilo è uno streamer di Vice City visto nell'Extended Look di GTA VI. Capelli decolorati, occhiali da sole, felpa grigia e telefono teso a braccio, incarna un bersaglio preferito di Rockstar da diversi episodi: la corsa all'attenzione sui social, qui spinta fino all'assurdo.\n\n## Una diretta dal bagagliaio\n\nLa scena si svolge in una strada soleggiata di Vice City. Camilo si filma con il telefono accanto a Lucia, davanti al bagagliaio aperto di un'auto. Il seguito è mostrato attraverso la sua stessa diretta: secondo i resoconti della presentazione, trasmette dal bagagliaio di un'auto rubata lanciata in un inseguimento, con un contatore di spettatori («LIVE 53k») e un flusso di messaggi che scorre, dove si legge tra l'altro «King of trunk!!!» e «first stream!!!».\n\n## Una parodia di N3on?\n\nSecondo GTABase, l'acconciatura, gli occhiali e i modi di Camilo ricordano lo streamer americano N3on, noto per le sue dirette in esterna. Rockstar non ha mai confermato un modello reale: la serie preferisce parodiare tipi di personaggi piuttosto che persone precise. Non è l'unico riferimento al mondo dello streaming: il Trailer 2 mostra anche un videomaker che si filma in discoteca, e i social del gioco occupano un posto importante in entrambi i trailer.",
+      "insight": "Camilo è uno streamer di Vice City. Capelli decolorati, occhiali da sole, felpa grigia e telefono teso a braccio, incarna un bersaglio preferito di Rockstar da diversi episodi: la corsa all'attenzione sui social, qui spinta fino all'assurdo.\n\n## Una diretta dal bagagliaio\n\nLa scena si svolge in una strada soleggiata di Vice City. Camilo si filma con il telefono accanto a Lucia, davanti al bagagliaio aperto di un'auto. Poi trasmette dal bagagliaio dell'auto rubata, lanciata in un inseguimento, con un contatore di spettatori («LIVE 53k») e un flusso di messaggi che scorre, tra cui «King of trunk!!!» e «first stream!!!».\n\n## Una parodia di N3on\n\nL'acconciatura, gli occhiali e i modi di Camilo ricordano lo streamer americano N3on, noto per le sue dirette in esterna. Rockstar non dichiara mai un modello reale: la serie preferisce parodiare tipi di personaggi piuttosto che persone precise. Non è l'unico riferimento al mondo dello streaming: un videomaker si filma in discoteca, e i social del gioco occupano un posto importante in entrambi i trailer.",
       "firstSeen": "Extended Look (27 agosto 2026)",
       "idCard": [
         {
@@ -2023,7 +2022,7 @@
         },
         {
           "k": "Stato",
-          "v": "Visto nell'Extended Look del 27 agosto 2026"
+          "v": "Compare con Lucia, in diretta dal bagagliaio"
         }
       ],
       "summaryTable": [
@@ -2034,7 +2033,7 @@
         ],
         [
           "Apparizione",
-          "Extended Look, con Lucia",
+          "Con Lucia, nella diretta dal bagagliaio",
           "Confermato"
         ],
         [
@@ -2044,12 +2043,12 @@
         ],
         [
           "Nome",
-          "Camilo, dalla chat della sua diretta e da GTABase",
+          "Camilo, dalla chat della sua diretta",
           "Riportato"
         ],
         [
           "Ispirazione",
-          "Lo streamer N3on, secondo GTABase",
+          "Lo streamer N3on",
           "Voce"
         ]
       ],
@@ -2067,7 +2066,7 @@
       "role": "Testimonial Ammu-Nation",
       "isProtagonist": false,
       "tagline": "Una pubblicità, un volto noto.",
-      "bio": "Compare in uno spot di Ammu-Nation nel Trailer 2. La community ci vede una reinterpretazione di un vecchio personaggio della serie.",
+      "bio": "Compare in uno spot televisivo di Ammu-Nation. Ricorda Phil Cassidy, vecchio personaggio della serie.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2077,15 +2076,15 @@
         {
           "src": "assets/img/vice/personaggi/chr-phil-g1.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-phil-pub-ammu-nation.jpg",
-          "caption": "Phil nella sua pubblicità Ammu-Nation, in televisione (Trailer 2)."
+          "caption": "Phil nella sua pubblicità Ammu-Nation, in televisione."
         },
         {
           "src": "assets/img/vice/personaggi/chr-phil-g2.jpg",
           "url": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-phil-enseigne-ammu-nation.jpg",
-          "caption": "L'insegna «Phil's Ammu-Nation» che chiude la pubblicità (Trailer 2)."
+          "caption": "L'insegna «Phil's Ammu-Nation» che chiude la pubblicità."
         }
       ],
-      "insight": "Phil è il protagonista di una pubblicità dell'armeria Ammu-Nation, trasmessa in televisione nel Trailer 2 di GTA VI. La scena dura pochi secondi: in un salotto, mentre Jason dorme sul divano, la TV mostra un uomo barbuto in canottiera che brandisce armi davanti a una parete di fucili, circondato da manichini, poi l'insegna del negozio: «Phil's Ammu-Nation».\n\n## Il ritorno di Phil Cassidy?\n\nIl nome ha fatto subito pensare a Phil Cassidy, il trafficante d'armi ed ex militare che torna in diversi episodi della serie: GTA III, Vice City (dove gestisce un poligono e perde un braccio in un'esplosione), Liberty City Stories e Vice City Stories. Il collegamento sarebbe logico, visto che Phil Cassidy viveva proprio a Vice City. Ma il Phil del Trailer 2 è più giovane e ha entrambe le braccia, come nota GTABase: potrebbe trattarsi di una reinterpretazione, di una strizzata d'occhio o di un personaggio diverso.\n\nAmmu-Nation, la catena di armerie della serie da GTA III, è il luogo dove si compreranno la maggior parte delle armi.",
+      "insight": "Phil è il protagonista di una pubblicità dell'armeria Ammu-Nation che passa in televisione. La scena dura pochi secondi: in un salotto, mentre Jason dorme sul divano, la TV mostra un uomo barbuto in canottiera che brandisce armi davanti a una parete di fucili, circondato da manichini, poi l'insegna del negozio: «Phil's Ammu-Nation».\n\n## Il ritorno di Phil Cassidy?\n\nIl nome richiama subito Phil Cassidy, il trafficante d'armi ed ex militare che torna in diversi episodi della serie: GTA III, Vice City (dove gestisce un poligono e perde un braccio in un'esplosione), Liberty City Stories e Vice City Stories. Il collegamento sarebbe logico, visto che Phil Cassidy viveva proprio a Vice City. Ma questo Phil è più giovane e ha entrambe le braccia: può essere una reinterpretazione, una strizzata d'occhio o un personaggio diverso.\n\nAmmu-Nation, la catena di armerie della serie da GTA III, è il posto dove comprerai la maggior parte delle armi.",
       "firstSeen": "Trailer 2 (maggio 2025), spot televisivo Ammu-Nation",
       "idCard": [
         {
@@ -2110,7 +2109,7 @@
         },
         {
           "k": "Stato",
-          "v": "Visto nel Trailer 2"
+          "v": "Compare in uno spot televisivo"
         }
       ],
       "summaryTable": [
@@ -2121,7 +2120,7 @@
         ],
         [
           "Apparizione",
-          "Pubblicità televisiva nel Trailer 2",
+          "Pubblicità televisiva",
           "Confermato"
         ],
         [
@@ -2131,7 +2130,7 @@
         ],
         [
           "Legame con Phil Cassidy",
-          "Ipotesi dei fan, aspetto diverso",
+          "Ipotesi, aspetto diverso",
           "Voce"
         ],
         [
@@ -2154,7 +2153,7 @@
       "role": "Dirigente Megamundo",
       "isProtagonist": false,
       "tagline": "Il discorso della «prima sede americana».",
-      "bio": "Probabile CEO di Megamundo, l'uomo del discorso all'inaugurazione nell'Extended Look. Con lui Gustavo, Elonzo e un'assistente senza nome. Il nome Cesar compariva anche nel leak 2022.",
+      "bio": "CEO di Megamundo, l'uomo del discorso all'inaugurazione della torre. Con lui Gustavo, Elonzo e un'assistente senza nome. Il nome Cesar compariva già nella versione del 2022.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -2177,7 +2176,7 @@
       "role": "Residente dei Venture Apartments",
       "isProtagonist": false,
       "tagline": "La zia di Raymond.",
-      "bio": "Vive nei Venture Apartments a Rockridge; la community la indica come zia di Raymond.",
+      "bio": "Vive nei Venture Apartments a Rockridge. È la zia di Raymond.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
@@ -2199,7 +2198,7 @@
       "role": "Ricettatore d'auto",
       "isProtagonist": false,
       "tagline": "Se trovi l'auto che vuole, portagliela.",
-      "bio": "Nominato da Rob Nelson a Famitsu: «se trovi un veicolo che un ricettatore d'auto di nome Randy vuole, puoi rubarlo e consegnarglielo».",
+      "bio": "Ricettatore d'auto: se trovi un veicolo che Randy vuole, puoi rubarlo e consegnarglielo.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2237,7 +2236,7 @@
       "role": "Candidata sindaca di Ambrosia",
       "isProtagonist": false,
       "tagline": "Sostenuta dallo zucchero.",
-      "bio": "Sui cartelli elettorali in uno screenshot ufficiale, appoggiata dalla raffineria Allied Crystal. Non è detto che compaia di persona.",
+      "bio": "Candidata a sindaco: compare sui cartelli elettorali, appoggiata dalla raffineria Allied Crystal. Non è ancora noto se si veda di persona.",
       "districtId": "dis-ambrosia",
       "firstMissionId": null,
       "relations": [],
@@ -2257,7 +2256,7 @@
       "role": "Thrillbilly Mud Club",
       "isProtagonist": false,
       "tagline": "Fango, motori e un nome nel menu del 2022.",
-      "bio": "Presunto proprietario del Thrillbilly Mud Club e pilota da fuoristrada, presentato da Wyman secondo l'anteprima di Edge letta dai fan. Il suo nome nel menu di sviluppo del 2022, con Kai, aveva fatto nascere il rumor dei quattro protagonisti. La community gli assegna una squadra: Ricky, Sam, Ian, Brittney, EJ.",
+      "bio": "Proprietario del Thrillbilly Mud Club e pilota da fuoristrada, presentato da Wyman. Il suo nome era nel menu di sviluppo trapelato nel 2022, con Kai, e aveva fatto nascere il rumor dei quattro protagonisti. La sua squadra: Ricky, Sam, Ian, Brittney, EJ.",
       "districtId": "dis-ambrosia",
       "firstMissionId": null,
       "relations": [
@@ -2279,7 +2278,7 @@
       "role": "Nome nel menu di sviluppo",
       "isProtagonist": false,
       "tagline": "Il quarto protagonista che non c'è.",
-      "bio": "Nome nel menu trapelato nel 2022, forse il «Gold Chain Guy» del Trailer 1. Rockstar ha confermato di aver considerato quattro protagonisti e di averli scartati.",
+      "bio": "Nome nel menu di sviluppo trapelato nel 2022, associato al «Gold Chain Guy» del Trailer 1. Rockstar ha considerato quattro protagonisti, poi li ha scartati.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2297,7 +2296,7 @@
       "role": "Profilo social",
       "isProtagonist": false,
       "tagline": "Commenta le dirette di strada.",
-      "bio": "Compare come profilo social nel Trailer 1 su una diretta di un raduno; nei menu del 2022; i fan la dicono amica di Lucia.",
+      "bio": "Profilo social che commenta la diretta di un raduno nel Trailer 1; il nome compare anche nei menu del 2022. È un'amica di Lucia.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
@@ -2317,7 +2316,7 @@
       "role": "Comparsa",
       "isProtagonist": false,
       "tagline": "Due martelli, nessuna paura.",
-      "bio": "Figura cult del Trailer 1, con due martelli in mano; nell'Extended Look parla con Jason. La community la colloca in un condominio di Hamlet.",
+      "bio": "Figura cult del Trailer 1, con due martelli in mano; parla anche con Jason. Vive in un condominio di Hamlet.",
       "districtId": "dis-hamlet",
       "firstMissionId": null,
       "relations": [],
@@ -2337,7 +2336,7 @@
       "role": "Comparsa",
       "isProtagonist": false,
       "tagline": "«RIP Rudi».",
-      "bio": "Lo stuntman in auto del Trailer 1 che i fan danno per morto.",
+      "bio": "Lo stuntman in auto del Trailer 1, dato per morto.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2377,7 +2376,7 @@
       "role": "Riferimento reale",
       "isProtagonist": false,
       "tagline": "«Felice e benedetto di essere visto così».",
-      "bio": "Lo streamer di Kick parodiato da Camillo, secondo la stampa: ha reagito in diretta. Anche IShowSpeed, Kai Cenat, Jynxzi e Adin Ross hanno commentato.",
+      "bio": "Lo streamer di Kick parodiato da Camilo: ha reagito in diretta. Hanno commentato anche IShowSpeed, Kai Cenat, Jynxzi e Adin Ross.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [
@@ -2396,8 +2395,8 @@
       "name": "Kodak Black",
       "role": "Cameo",
       "isProtagonist": false,
-      "tagline": "Nella Launch Gallery, con un drink in mano.",
-      "bio": "TheGamer riconosce il rapper in uno screenshot della Launch Gallery, tra due donne. È anche nelle canzoni dell'Extended Look («Skrilla»).",
+      "tagline": "Un drink in mano, tra due donne.",
+      "bio": "Il rapper compare in un'immagine della Launch Gallery, tra due donne, con un drink in mano. La sua «Skrilla» è tra le canzoni dell'Extended Look.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
@@ -2417,7 +2416,7 @@
       "role": "Cameo possibile",
       "isProtagonist": false,
       "tagline": "«RHYNO» registrata «dal vivo al J.O.H.».",
-      "bio": "Dice di aver registrato il suo brano al Jack of Hearts; Rockstar non conferma che appaia in gioco.",
+      "bio": "Ha registrato il suo brano «RHYNO» al Jack of Hearts. Non è ancora noto se appaia in gioco.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [
@@ -2457,7 +2456,7 @@
       "role": "Elenco",
       "isProtagonist": false,
       "tagline": "Vicki, Iris, Zach, Kolt, RB Shaw, Kenny Brewster, Dale, Chester, Danny, Donnie, Dre, Tit, YJ.",
-      "bio": "Nomi dai menu di sviluppo trapelati: Iris (Iris Laundry, contatto per la ricettazione), Kolt (missioni di carico), RB Shaw («nuovi contatti»), Sam (habitué del Jack of Hearts), Chester (Chester's Music), Dale (Dale's Shopwell), Dre (manager di un nightclub), Tit (DJ), DJ Clipse. Jay Norris di Lifeinvader citato in un dialogo. Tutto da verificare.",
+      "bio": "Nomi dai menu di sviluppo trapelati: Iris (Iris Laundry, contatto per la ricettazione), Kolt (missioni di carico), RB Shaw («nuovi contatti»), Sam (habitué del Jack of Hearts), Chester (Chester's Music), Dale (Dale's Shopwell), Dre (manager di un nightclub), Tit (DJ), DJ Clipse. Jay Norris di Lifeinvader è citato in un dialogo.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2468,7 +2467,7 @@
       "name": "Ricky",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Membro del Thrillbilly Mud Club e vecchio amico di Billy: dice che si conoscono dal primo spinello, nell'ora di ginnastica di terza media. Compare nello screenshot ufficiale pubblicato da Edge con gli altri soci del club. Nel leak «An Extended Leek» di ottobre 2026 è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
+      "bio": "Membro del Thrillbilly Mud Club e vecchio amico di Billy: dice che si conoscono dal primo spinello, nell'ora di ginnastica di terza media. Compare in un'immagine ufficiale con gli altri soci del club ed è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2488,7 +2487,7 @@
       "name": "Sam (Mud Club)",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Socia storica del Thrillbilly Mud Club. È nello screenshot ufficiale di Edge con gli altri membri e in uno screenshot in cui fugge in Sanchez con Jason e Billy attraverso Gator Plaza. Nel leak di ottobre 2026 gareggia contro Jason e Lucia sulla pista del club.",
+      "bio": "Socia storica del Thrillbilly Mud Club. Compare con gli altri membri del club, fugge in Sanchez con Jason e Billy attraverso Gator Plaza e gareggia contro Jason e Lucia sulla pista del club.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2508,7 +2507,7 @@
       "name": "Brittney",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Nuova arrivata nel Thrillbilly Mud Club. Compare nello screenshot ufficiale di Edge insieme agli altri membri. Nel leak «An Extended Leek» di ottobre 2026 è tra gli avversari della gara fuoristrada organizzata da Billy.",
+      "bio": "Nuova arrivata nel Thrillbilly Mud Club. Compare con gli altri membri del club ed è tra gli avversari della gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2528,7 +2527,7 @@
       "name": "EJ",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Membro del Thrillbilly Mud Club, trattato dal giro di Billy come «quello lento». Visto solo nel leak «An Extended Leek» di ottobre 2026, tra gli avversari della gara fuoristrada. Nessuna immagine ufficiale.",
+      "bio": "Membro del Thrillbilly Mud Club, trattato dal giro di Billy come «quello lento». È tra gli avversari della gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2547,7 +2546,7 @@
       "name": "Ian",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Membro del Thrillbilly Mud Club. Nel leak di ottobre 2026 è presentato, con gli altri soci, come avversario nella gara di iniziazione in dirt bike di Jason organizzata da Billy. Nessuna immagine ufficiale.",
+      "bio": "Membro del Thrillbilly Mud Club. Con gli altri soci è avversario di Jason nella gara di iniziazione in dirt bike organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2566,7 +2565,7 @@
       "name": "Sparky Malarky",
       "role": "Meccanico del Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Il meccanico del Thrillbilly Mud Club. Compare nel video «An Extended Leek» del leak di ottobre 2026. Nessuna immagine ufficiale.",
+      "bio": "Il meccanico del Thrillbilly Mud Club.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2585,7 +2584,7 @@
       "name": "Krever",
       "role": "Candidato sindaco di Ambrosia",
       "tagline": "",
-      "bio": "Il rivale di Erin Henshaw nella corsa a sindaco di Ambrosia. I suoi cartelli elettorali comparivano, parzialmente coperti, in uno screenshot ufficiale uscito col Trailer 2; il nome completo è stato letto nel leak di agosto 2026.",
+      "bio": "Il rivale di Erin Henshaw nella corsa a sindaco di Ambrosia. I suoi cartelli elettorali sono affissi in città, in parte coperti.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2624,7 +2623,7 @@
       "name": "Chunkee the Manatee",
       "role": "Personaggio di Macca & Friends",
       "tagline": "",
-      "bio": "Uno dei protagonisti del cartone Macca & Friends, insieme a Macca the Gator. Appare sulle pubblicità dello show (chioschi digitali, cartellone vicino all'arena) e sul crop top di Lucia nella sezione Ultimate Edition del sito ufficiale. Ha anche collezionabili reali nella Vice City Collection.",
+      "bio": "Uno dei protagonisti del cartone Macca & Friends, insieme a Macca the Gator. È sulle pubblicità dello show (chioschi digitali, cartellone vicino all'arena) e su un crop top di Lucia. Ha anche collezionabili reali nella Vice City Collection.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2644,7 +2643,7 @@
       "name": "Pinche the Crab",
       "role": "Personaggio di Macca & Friends",
       "tagline": "",
-      "bio": "Granchio del cartone Macca & Friends, visto per la prima volta in un artwork animato della sezione Vice City Collection del sito ufficiale. Compare nelle pubblicità dello show sparse per Vice City.",
+      "bio": "Granchio del cartone Macca & Friends. Compare nelle pubblicità dello show sparse per Vice City e in un artwork animato della Vice City Collection.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2664,7 +2663,7 @@
       "name": "Jimmy Canto",
       "role": "Amico d'infanzia di Brian Heder (citato)",
       "tagline": "",
-      "bio": "Amico d'infanzia di Brian Heder, citato nella scena sul tetto dell'Effluvia nell'Extended Look. Brian racconta di quando, ragazzini, si intrufolarono in un luna park e fecero partire una giostra: lui saltò giù in tempo, Jimmy si spaccò la testa e morì quella notte. Brian usa la storia per mettere in guardia Jason e Lucia.",
+      "bio": "Amico d'infanzia di Brian Heder, di cui Brian parla sul tetto dell'Effluvia. Da ragazzini si intrufolarono in un luna park e fecero partire una giostra: Brian saltò giù in tempo, Jimmy si spaccò la testa e morì quella notte. Brian usa la storia per mettere in guardia Jason e Lucia.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2683,7 +2682,7 @@
       "name": "Lil Ricky Sawdust",
       "role": "Musicista (poster al Rusty Anchor)",
       "tagline": "",
-      "bio": "Musicista noto solo da un poster nel bagno degli uomini del Rusty Anchor, visto nel leak di agosto 2026: concerto venerdì 21 agosto, dalle 20 alle 22, in memoria del suo cane Hector. Avrebbe un album intitolato Dog Day Hits.",
+      "bio": "Musicista noto da un poster nel bagno degli uomini del Rusty Anchor: concerto venerdì 21 agosto, dalle 20 alle 22, in memoria del suo cane Hector. Ha un album intitolato Dog Day Hits.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2702,7 +2701,7 @@
       "name": "Kenny Brewster",
       "role": "Musicista (sulla maglietta di Brian)",
       "tagline": "",
-      "bio": "Presunto cantante country: il suo nome in corsivo rosso compare sulla maglietta di Brian Heder in uno screenshot ufficiale, con quello che sembra il titolo di un disco o di una canzone, «I Gotta Big Truck With Your Face On It!». Parodia di un cantautore americano.",
+      "bio": "Cantante country: il suo nome in corsivo rosso compare sulla maglietta di Brian Heder, con il titolo di un disco o di una canzone, «I Gotta Big Truck With Your Face On It!». Parodia di un cantautore americano.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2722,7 +2721,7 @@
       "name": "Gutless Wonders",
       "role": "Band",
       "tagline": "",
-      "bio": "Gruppo musicale citato per la prima volta nel leak del 2022, su un volantino nel Jack of Hearts che annuncia un concerto al Rusty Anchor il 21 novembre, biglietti 10 $. Lo stesso volantino è visibile nello screenshot ufficiale in cui Cal e Jason giocano a biliardo.",
+      "bio": "Gruppo musicale annunciato da un volantino nel Jack of Hearts: concerto al Rusty Anchor il 21 novembre, biglietti 10 $. Lo stesso volantino si vede nel bar dove Cal e Jason giocano a biliardo.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2742,7 +2741,7 @@
       "name": "The Hummers & The Strummers",
       "role": "Band",
       "tagline": "",
-      "bio": "Band annunciata da un volantino nel Jack of Hearts (leak 2022) per un concerto al Rusty Anchor il 24 agosto. Lo stesso volantino si vede nel Trailer 2 dentro il Rusty Anchor, con lo slogan dello spettacolo.",
+      "bio": "Band annunciata da un volantino nel Jack of Hearts per un concerto al Rusty Anchor il 24 agosto. Lo stesso volantino è appeso dentro il Rusty Anchor, con lo slogan dello spettacolo.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2762,7 +2761,7 @@
       "name": "Dolls of Destruction",
       "role": "Band",
       "tagline": "",
-      "bio": "Gruppo che esiste solo sul retro della maglietta di un NPC nel Jack of Hearts, nel Trailer 1: una t-shirt da tour con nome della band e lista di città e date dei concerti (tra cui Liberty City).",
+      "bio": "Gruppo che esiste solo sul retro della maglietta di un passante nel Jack of Hearts: una t-shirt da tour con nome della band e lista di città e date dei concerti (tra cui Liberty City).",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2777,5 +2776,6 @@
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false
     }
-  ]
+  ],
+  "schemaVersion": 1
 }

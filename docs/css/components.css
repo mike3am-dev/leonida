@@ -1620,3 +1620,4 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .check__go { width: 18px; height: 18px; color: var(--ink-3); flex: none; }
 .sticker { grid-template-columns: 1fr !important; }
 .found-btn { width: 100%; justify-content: center; margin-bottom: var(--s-3); }
+.srcbadge { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--rule-strong); font-size: .66rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-3); vertical-align: 1px; white-space: nowrap; }

@@ -34,6 +34,8 @@ export function statusChip(item) {
   const m = { stampa: ['Stampa', 'src-stampa'], rumor: ['Rumor', 'src-rumor'], leak: ['Leak', 'src-leak'], community: ['Community', 'src-community'] }[item.source];
   return `${ex}<span class="chip chip--${m ? m[1] : 'da-verificare'}">${m ? m[0] : 'Da verificare'}</span>`;
 }
+/** Etichetta piccola per gli elenchi (al posto di «· community» scritto nel testo) */
+export function srcBadge(item) { return item.status === 'verificato' ? '' : ` <span class="srcbadge">${statusChip({ ...item, example: false }).replace(/<[^>]+>/g, '')}</span>`; }
 export function protagonistChip(p) {
   const label = { jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[p] || p;
   return p ? `<span class="chip chip--${esc(p)}">${esc(label)}</span>` : '';

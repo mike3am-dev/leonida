@@ -9,7 +9,7 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "description": "Oltre 170 specie (Game Informer): si studiano come in RDR2 e finiscono in una checklist, senza doverle uccidere. Tre livelli: Rare, Scopribili, Leggendarie (identità segrete). Le invasive, iguane, rospi, gatti selvatici, macachi, ci sono per davvero. Pesca compresa."
+      "description": "Oltre 170 specie: si studiano come in RDR2 e finiscono in una checklist, senza doverle uccidere. Tre livelli: Rare, Scopribili, Leggendarie (identità segrete). Ci sono anche le specie invasive: iguane, rospi, gatti selvatici, macachi. Pesca compresa."
     },
     {
       "id": "cat-ex-a",
@@ -24,7 +24,7 @@
       "id": "cat-relitti",
       "name": "Relitti e tesori sommersi",
       "icon": "star",
-      "description": "«Wreck diving» nell'Extended Look e tesori sottomarini citati da Nelson a Flow Games. Immersioni con bombola e capacità polmonare.",
+      "description": "Immersioni tra i relitti («wreck diving») e tesori sottomarini, con bombola e capacità polmonare.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -34,7 +34,7 @@
       "id": "cat-riviste",
       "name": "Riviste e fumetti",
       "icon": "star",
-      "description": "Collezionabili citati da Nelson a Flow Games: riviste e fumetti sparsi per Leonida. Quanti, dove, cosa sbloccano: da scoprire.",
+      "description": "Riviste e fumetti sparsi per Leonida. Non è ancora noto quanti siano, dove si trovino e cosa sblocchino.",
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -44,7 +44,7 @@
       "id": "cat-salti",
       "name": "Salti acrobatici",
       "icon": "bolt",
-      "description": "Nel trailer di lancio Jason salta una rampa in moto da cross (0:48). Gli stunt jump non sono confermati, ma la serie non li ha mai saltati.",
+      "description": "Con la moto da cross si saltano le rampe. Non è ancora noto se tornino gli stunt jump, ma la serie non li ha mai saltati.",
       "status": "da verificare",
       "source": "rumor",
       "spoilerLevel": 0,
@@ -54,7 +54,7 @@
       "id": "cat-murales",
       "name": "Murales e street art",
       "icon": "star",
-      "description": "Più di 50 street artist veri hanno dipinto i muri di Stockyard e non solo. Non è confermato come collezionabile, ma un tour dei murales è già un'attività (Stockyard Art Tours sulla mappa).",
+      "description": "Più di 50 street artist veri hanno dipinto i muri di Stockyard e non solo. Non è noto se siano collezionabili, ma il tour dei murales è già un'attività (Stockyard Art Tours sulla mappa).",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -64,7 +64,7 @@
       "id": "cat-wyman",
       "name": "La collezione di Wyman",
       "icon": "car",
-      "description": "«Rintraccia auto da restaurare e riportale in vita» (Ultimate Edition): la commissione di Wyman per la Classic Car Collection. La community dice che la Mamba GT si ottiene solo così.",
+      "description": "«Rintraccia auto da restaurare e riportale in vita» (Ultimate Edition): la commissione di Wyman per la Classic Car Collection. La Mamba GT si ottiene solo così.",
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -74,7 +74,7 @@
       "id": "cat-negozi",
       "name": "Capi e tagli esclusivi per zona",
       "icon": "star",
-      "description": "Ogni negozio di abbigliamento e ogni salone ha articoli che trovi solo lì (Nelson a IGN). Per il completista: un giro di tutti i negozi. Idem per le armi: certe branche di Ammu-Nation hanno pezzi esclusivi.",
+      "description": "Ogni negozio di abbigliamento e ogni salone ha articoli che trovi solo lì. Per il completista: un giro di tutti i negozi. Idem per le armi: certe branche di Ammu-Nation hanno pezzi esclusivi.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -97,7 +97,7 @@
       "categoryId": "cat-fauna",
       "name": "Alligatore americano",
       "districtId": "dis-grassrivers",
-      "directions": "Nativo, nominato da Game Informer. Nel Trailer 1 un addetto POACH lo tira fuori da una piscina (post social «OfficialPOACH»); entra in un minimarket citando il caso Walmart del 2022; è sullo stemma dello Stato mentre azzanna qualcuno. Red Bull: «può essere pericoloso», quanto non si sa. In uno screenshot tre tipi coperti di fango posano su un airboat con un alligatore morto: la caccia c'è. Arma consigliata: da verificare; di sicuro non a mani nude. Alligatori: Due alligatori aspettano il pasto nelle Everglades fin dal Trailer 1, l'animale emblematico di Leonida. Dove: Everglades (Trailer 1).",
+      "directions": "Vive nelle paludi delle Everglades ed è l'animale emblematico di Leonida, ma sconfina: finisce nelle piscine (un addetto POACH lo tira fuori da una) e perfino dentro un minimarket, come nel caso Walmart del 2022. È sullo stemma dello Stato mentre azzanna qualcuno. Si caccia: tre cacciatori infangati posano su un airboat con un alligatore morto. Può essere pericoloso: non affrontarlo a mani nude.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-alligatore.jpg",
       "status": "da verificare",
@@ -110,34 +110,34 @@
       "group": "paludi",
       "emoji": "🐊",
       "short": "L'animale simbolo di Leonida: è perfino sullo stemma dello Stato, mentre azzanna qualcuno.",
-      "behavior": "Vive nelle paludi ma sconfina: nel Trailer 1 finisce in una piscina e dentro un minimarket.",
+      "behavior": "Vive nelle paludi ma sconfina: finisce in piscina e perfino dentro un minimarket.",
       "actions": [
         "Cacciare"
       ],
       "danger": 2,
-      "dangerNote": "Red Bull dice che «può essere pericoloso». Non affrontarlo a mani nude.",
+      "dangerNote": "Può essere pericoloso. Non affrontarlo a mani nude.",
       "seen": [
         {
           "where": "Everglades",
-          "what": "Trailer 1: due alligatori aspettano il pasto"
+          "what": "Due alligatori aspettano il pasto"
         },
         {
           "where": "Una piscina",
-          "what": "Trailer 1: un addetto POACH lo tira fuori"
+          "what": "Un addetto POACH lo tira fuori"
         },
         {
           "where": "Un minimarket",
-          "what": "Trailer 1: ci entra, come nel caso Walmart del 2022"
+          "what": "Ci entra, come nel caso Walmart del 2022"
         },
         {
           "where": "Su un airboat",
-          "what": "Screenshot: tre cacciatori infangati posano con un alligatore morto"
+          "what": "Tre cacciatori infangati posano con un alligatore morto"
         }
       ],
       "trivia": [
-        "Specie nativa, nominata da Game Informer.",
+        "Specie nativa di Leonida.",
         "La scena della piscina richiama i post social di «OfficialPOACH».",
-        "L'arma migliore per cacciarlo è ancora da verificare."
+        "L'arma migliore per cacciarlo non è ancora nota."
       ],
       "imageFocus": [
         50,
@@ -150,7 +150,7 @@
       "categoryId": "cat-fauna",
       "name": "Iguana verde",
       "districtId": "dis-keys",
-      "directions": "Specie invasiva nominata da Game Informer. Sulla spalla di un senzatetto su Ocean Drive nel Trailer 1, al sole su una roccia e in mezzo alla strada negli screenshot delle Keys, un istante nel trailer di lancio. Iguana: Appoggiata sulla schiena di una persona che chiede l'elemosina a Ocean Beach, nel Trailer 1. Uno screenshot ufficiale mostra un'iguana verde che attraversa un parcheggio delle Leonida Keys. Dove: Ocean Beach (Trailer 1); parcheggio nelle Leonida Keys (screenshot).",
+      "directions": "Specie invasiva. In città sta sulla spalla di un senzatetto che chiede l'elemosina a Ocean Beach; nelle Leonida Keys prende il sole sulle rocce e attraversa strade e parcheggi.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-iguana.jpg",
       "status": "da verificare",
@@ -162,16 +162,16 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
       "group": "domestici",
       "emoji": "🦎",
-      "short": "Specie invasiva nominata da Game Informer: la trovi in città e nelle Keys.",
+      "short": "Specie invasiva: la trovi in città e nelle Keys.",
       "behavior": "Prende il sole sulle rocce e attraversa strade e parcheggi.",
       "seen": [
         {
           "where": "Ocean Beach",
-          "what": "Trailer 1: sulla spalla di un senzatetto che chiede l'elemosina"
+          "what": "Sulla spalla di un senzatetto che chiede l'elemosina"
         },
         {
           "where": "Leonida Keys",
-          "what": "Screenshot: al sole su una roccia e in un parcheggio"
+          "what": "Al sole su una roccia e in un parcheggio"
         },
         {
           "where": "Trailer di lancio",
@@ -189,7 +189,7 @@
       "categoryId": "cat-fauna",
       "name": "Cervo",
       "districtId": "dis-mount-kalaga",
-      "directions": "Beve all'abbeveratoio a Mount Kalaga, attraversa un torrente a Grassrivers; Jason lo osserva col fucile dal quad in uno screenshot ufficiale. Un puma lo insegue nel branco. La caccia la introduce un personaggio che conosce già Jason e rende soldi. Cervi delle Keys: Bevono tranquillamente in uno stagno sullo sfondo della sequenza delle Everglades, Trailer 1. Dove: Stagno nelle Everglades (Trailer 1).",
+      "directions": "Beve agli abbeveratoi di Mount Kalaga, attraversa i torrenti di Grassrivers e si abbevera negli stagni delle Everglades. Si muove in branco, con il puma alle calcagna. Jason lo osserva col fucile dal quad: la caccia te la fa scoprire un personaggio che conosce già Jason, e rende soldi.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-cervo.jpg",
       "status": "da verificare",
@@ -209,7 +209,7 @@
       "seen": [
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: beve all'abbeveratoio, un puma insegue il branco"
+          "what": "Beve all'abbeveratoio, un puma insegue il branco"
         },
         {
           "where": "Grassrivers",
@@ -217,11 +217,11 @@
         },
         {
           "where": "Everglades",
-          "what": "Trailer 1: cervi che bevono in uno stagno sullo sfondo"
+          "what": "Cervi che bevono in uno stagno"
         },
         {
           "where": "Dal quad",
-          "what": "Screenshot ufficiale: Jason lo osserva col fucile"
+          "what": "Jason lo osserva col fucile"
         }
       ],
       "trivia": [
@@ -238,7 +238,7 @@
       "categoryId": "cat-fauna",
       "name": "Puma (pantera della Florida)",
       "districtId": "dis-mount-kalaga",
-      "directions": "Il grosso felino che passa accanto ai cervi nello screenshot di Mount Kalaga; Red Bull lo chiama pantera della Florida. Game Informer non lo nomina. Puma: Visto due volte a Mount Kalaga: su una collina che domina una strada, poi pronto a cacciare in una palude. Dove: Mount Kalaga (screenshot).",
+      "directions": "Il grosso felino di Mount Kalaga, la pantera della Florida: passa accanto ai cervi, domina una strada da una collina e si apposta in una palude, pronto a cacciare.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-puma.jpg",
       "status": "da verificare",
@@ -255,16 +255,15 @@
       "seen": [
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: passa accanto ai cervi, poi su una collina sopra una strada"
+          "what": "Passa accanto ai cervi, poi su una collina sopra una strada"
         },
         {
           "where": "Una palude",
-          "what": "Screenshot: pronto a cacciare"
+          "what": "Pronto a cacciare"
         }
       ],
       "trivia": [
-        "Red Bull lo chiama pantera della Florida.",
-        "Game Informer non lo nomina."
+        "È la pantera della Florida."
       ],
       "imageFocus": [
         40,
@@ -277,7 +276,7 @@
       "categoryId": "cat-fauna",
       "name": "Volpe",
       "districtId": "dis-mount-kalaga",
-      "directions": "Nel testo ufficiale di Mount Kalaga: cervi, puma e volpi. Nessun avvistamento confermato nei video. Individuata tra i cespugli in uno screenshot di Mount Kalaga, mentre corre su un sentiero vicino a delle moto. Dove: Mount Kalaga (screenshot).",
+      "directions": "Vive a Mount Kalaga insieme a cervi e puma: corre tra i cespugli su un sentiero, vicino a delle moto.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-volpe.jpg",
       "status": "da verificare",
@@ -289,16 +288,14 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg",
       "group": "foresta",
       "emoji": "🦊",
-      "short": "Citata nel testo ufficiale di Mount Kalaga insieme a cervi e puma.",
+      "short": "Abita Mount Kalaga insieme a cervi e puma.",
       "seen": [
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: tra i cespugli, corre su un sentiero vicino a delle moto"
+          "what": "Tra i cespugli, corre su un sentiero vicino a delle moto"
         }
       ],
-      "trivia": [
-        "Nessun avvistamento confermato nei video."
-      ],
+      "trivia": [],
       "imageFocus": [
         22,
         58,
@@ -310,7 +307,7 @@
       "categoryId": "cat-fauna",
       "name": "Orso nero",
       "districtId": "dis-mount-kalaga",
-      "directions": "Una sagoma sfocata nello screenshot di Mount Kalaga e a 0:30 del Trailer 2; «la specie non si distingue». Da confermare sul posto.",
+      "directions": "Una sagoma sfocata a Mount Kalaga: la specie non si distingue. Non è ancora certo che l'orso ci sia.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -321,15 +318,15 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐻",
-      "short": "Una sagoma sfocata che potrebbe essere un orso: tutta da confermare.",
+      "short": "Una sagoma sfocata a Mount Kalaga: non è ancora certo che sia un orso.",
       "seen": [
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: sagoma sfocata"
+          "what": "Sagoma sfocata"
         },
         {
           "where": "Trailer 2",
-          "what": "A 0:30, ma la specie non si distingue"
+          "what": "A 0:30: la specie non si distingue"
         }
       ]
     },
@@ -338,7 +335,7 @@
       "categoryId": "cat-fauna",
       "name": "Cinghiale",
       "districtId": null,
-      "directions": "Elencato dalla community; nello spot TV dell'Extended Look ci sono cinghiali e cervi, ma GTAVice dice che quelle immagini vengono da RDR2.",
+      "directions": "Cinghiali e cervi compaiono in uno spot TV, ma quelle immagini vengono da RDR2: non è ancora certo che ci siano nel mondo aperto.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -349,7 +346,7 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐗",
-      "short": "Elencato dalla community, ma la prova è dubbia.",
+      "short": "Compare solo in uno spot TV con immagini di RDR2.",
       "seen": [
         {
           "where": "Spot TV dell'Extended Look",
@@ -357,7 +354,7 @@
         }
       ],
       "trivia": [
-        "Secondo GTAVice quelle immagini vengono da RDR2."
+        "Le immagini dello spot vengono da RDR2."
       ]
     },
     {
@@ -365,7 +362,7 @@
       "categoryId": "cat-fauna",
       "name": "Lince rossa",
       "districtId": "dis-grassrivers",
-      "directions": "Un «gatto selvatico» morto sulla panca accanto ai cacciatori nello screenshot di Grassrivers; la community dice lince rossa. GTA Intel l'ha tolta dalla lista dei confermati.",
+      "directions": "Un «gatto selvatico» morto sulla panca accanto ai cacciatori di Grassrivers, forse una lince rossa.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -380,12 +377,12 @@
       "seen": [
         {
           "where": "Grassrivers",
-          "what": "Screenshot: morta sulla panca accanto ai cacciatori"
+          "what": "Morta sulla panca accanto ai cacciatori"
         }
       ],
       "trivia": [
-        "L'identificazione come lince rossa è della community.",
-        "GTA Intel l'ha tolta dalla lista dei confermati."
+        "L'identificazione come lince rossa è incerta.",
+        "Non figura tra le specie confermate."
       ]
     },
     {
@@ -393,7 +390,7 @@
       "categoryId": "cat-fauna",
       "name": "Armadillo",
       "districtId": null,
-      "directions": "Il nove-bande, elencato da Red Bull e dalla community; nessun avvistamento confermato.",
+      "directions": "L'armadillo a nove fasce. Non ancora avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -404,7 +401,7 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦔",
-      "short": "L'armadillo a nove fasce, elencato da Red Bull e dalla community.",
+      "short": "L'armadillo a nove fasce, non ancora avvistato.",
       "trivia": [
         "Nessun avvistamento confermato."
       ]
@@ -414,7 +411,7 @@
       "categoryId": "cat-fauna",
       "name": "Castoro",
       "districtId": null,
-      "directions": "Segnalato dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stato avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -425,14 +422,14 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦫",
-      "short": "Segnalato dalla community, non ancora visto."
+      "short": "Non ancora avvistato."
     },
     {
       "id": "col-fauna-lontra",
       "categoryId": "cat-fauna",
       "name": "Lontra",
       "districtId": null,
-      "directions": "Segnalata dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stata avvistata.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -443,14 +440,14 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦦",
-      "short": "Segnalata dalla community, non ancora vista."
+      "short": "Non ancora avvistata."
     },
     {
       "id": "col-fauna-procione",
       "categoryId": "cat-fauna",
       "name": "Procione",
       "districtId": null,
-      "directions": "Fruga in un bidone nel Trailer 2, corre accanto ai motociclisti a Mount Kalaga; Red Bull dice che ha un suo modo di muoversi. Rovista in un bidone all'inizio del Trailer 2, poi individuato di nuovo in uno screenshot di Mount Kalaga. Dove: Vice City (Trailer 2); Mount Kalaga (screenshot).",
+      "directions": "Lo trovi in città, dove fruga nei bidoni di Vice City, e nei boschi di Mount Kalaga, dove corre accanto ai motociclisti. Ha un suo modo di muoversi.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -462,15 +459,15 @@
       "group": "foresta",
       "emoji": "🦝",
       "short": "Il ladro di rifiuti: lo trovi sia in città sia nei boschi.",
-      "behavior": "Rovista nei bidoni; Red Bull dice che ha un suo modo di muoversi.",
+      "behavior": "Rovista nei bidoni e ha un suo modo di muoversi.",
       "seen": [
         {
           "where": "Vice City",
-          "what": "Trailer 2: fruga in un bidone all'inizio del video"
+          "what": "Fruga in un bidone"
         },
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: corre accanto ai motociclisti"
+          "what": "Corre accanto ai motociclisti"
         }
       ]
     },
@@ -479,7 +476,7 @@
       "categoryId": "cat-fauna",
       "name": "Opossum",
       "districtId": null,
-      "directions": "Segnalato dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stato avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -490,14 +487,14 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐀",
-      "short": "Segnalato dalla community, non ancora visto."
+      "short": "Non ancora avvistato."
     },
     {
       "id": "col-fauna-moffetta",
       "categoryId": "cat-fauna",
       "name": "Moffetta",
       "districtId": null,
-      "directions": "Segnalata dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stata avvistata.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -508,14 +505,14 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦨",
-      "short": "Segnalata dalla community, non ancora vista."
+      "short": "Non ancora avvistata."
     },
     {
       "id": "col-fauna-macaco",
       "categoryId": "cat-fauna",
       "name": "Macaco reso",
       "districtId": null,
-      "directions": "Invasivo, nominato da Game Informer. In Florida le colonie di macachi reso esistono davvero. Non ancora visto.",
+      "directions": "Specie invasiva: in Florida le colonie di macachi reso esistono davvero. Non ancora avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -526,7 +523,7 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐒",
-      "short": "Specie invasiva nominata da Game Informer, non ancora vista.",
+      "short": "Specie invasiva, non ancora avvistata.",
       "trivia": [
         "In Florida le colonie di macachi reso esistono davvero."
       ]
@@ -536,7 +533,7 @@
       "categoryId": "cat-fauna",
       "name": "Rospo delle canne",
       "districtId": null,
-      "directions": "Invasivo, nominato da Game Informer. Non ancora visto.",
+      "directions": "Specie invasiva, non ancora avvistata.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -547,14 +544,14 @@
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🐸",
-      "short": "Specie invasiva nominata da Game Informer, non ancora vista."
+      "short": "Specie invasiva, non ancora avvistata."
     },
     {
       "id": "col-fauna-serpente",
       "categoryId": "cat-fauna",
       "name": "Serpenti",
       "districtId": "dis-keys",
-      "directions": "Nel Trailer 2 un serpente nella casa di Jason, forse come animale domestico.",
+      "directions": "Nella casa di Jason e Lucia c'è un serpente del grano nell'acquario, forse un animale domestico. In natura c'è il pitone delle Everglades, specie introdotta, non ancora avvistato.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
       "status": "da verificare",
@@ -569,21 +566,21 @@
       "varieties": [
         {
           "name": "Serpente del grano",
-          "note": "Nell'acquario della casa di Jason e Lucia, Trailer 2"
+          "note": "Nell'acquario della casa di Jason e Lucia"
         },
         {
           "name": "Pitone delle Everglades",
-          "note": "Specie introdotta citata da Game Informer; non ancora visto"
+          "note": "Specie introdotta che ha colonizzato le Everglades; non ancora avvistato"
         }
       ],
       "seen": [
         {
           "where": "Casa di Jason e Lucia",
-          "what": "Trailer 2: un serpente nell'acquario, forse un animale domestico"
+          "what": "Un serpente nell'acquario, forse un animale domestico"
         }
       ],
       "trivia": [
-        "Game Informer (n. 382): ci sono animali nativi e non, come i pitoni che hanno colonizzato le Everglades."
+        "A Leonida ci sono animali nativi e non, come i pitoni che hanno colonizzato le Everglades."
       ],
       "mergedIds": [
         "col-fauna-serpente-del-grano",
@@ -613,7 +610,7 @@
       "categoryId": "cat-fauna",
       "name": "Tartaruga di terra",
       "districtId": null,
-      "directions": "Segnalata dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stata avvistata.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -624,14 +621,14 @@
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🐢",
-      "short": "Segnalata dalla community, non ancora vista."
+      "short": "Non ancora avvistata."
     },
     {
       "id": "col-fauna-scoiattolo",
       "categoryId": "cat-fauna",
       "name": "Scoiattolo",
       "districtId": null,
-      "directions": "Segnalato dalla community. Si arrampica su un albero in un altro screenshot di Mount Kalaga. Dove: Mount Kalaga (screenshot).",
+      "directions": "Si arrampica sugli alberi nei boschi di Mount Kalaga.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -642,12 +639,12 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg",
       "group": "foresta",
       "emoji": "🐿️",
-      "short": "Segnalato dalla community e intravisto nei boschi.",
+      "short": "Vive nei boschi di Mount Kalaga.",
       "behavior": "Si arrampica sugli alberi.",
       "seen": [
         {
           "where": "Mount Kalaga",
-          "what": "Screenshot: si arrampica su un albero"
+          "what": "Si arrampica su un albero"
         }
       ]
     },
@@ -656,7 +653,7 @@
       "categoryId": "cat-fauna",
       "name": "Ratto",
       "districtId": null,
-      "directions": "Segnalato dalla community. Visto sotto un distributore automatico nell'Extended Look del 27 agosto, mentre Jason mangia un pacchetto di patatine davanti a un minimarket. Dove: Sotto un distributore automatico (Extended Look).",
+      "directions": "Il ratto di città: si infila sotto i distributori automatici davanti ai minimarket. Uno sbuca mentre Jason mangia un pacchetto di patatine.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -667,11 +664,11 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-faune-rats.jpg",
       "group": "domestici",
       "emoji": "🐀",
-      "short": "Il classico ratto di città, segnalato dalla community.",
+      "short": "Il classico ratto di città.",
       "seen": [
         {
           "where": "Davanti a un minimarket",
-          "what": "Extended Look: sotto un distributore mentre Jason mangia patatine"
+          "what": "Sotto un distributore mentre Jason mangia patatine"
         }
       ]
     },
@@ -680,7 +677,7 @@
       "categoryId": "cat-fauna",
       "name": "Mucca",
       "districtId": "dis-ambrosia",
-      "directions": "Segnalata dalla community. I campi di Ambrosia sono il posto più probabile.",
+      "directions": "Non ancora avvistata. Il posto più probabile per trovarla sono i campi di Ambrosia.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -691,7 +688,7 @@
       "updatedAt": "2026-11-07",
       "group": "domestici",
       "emoji": "🐄",
-      "short": "Segnalata dalla community, non ancora vista.",
+      "short": "Non ancora avvistata.",
       "trivia": [
         "Il posto più probabile per trovarla sono i campi di Ambrosia."
       ]
@@ -701,7 +698,7 @@
       "categoryId": "cat-fauna",
       "name": "Cani",
       "districtId": null,
-      "directions": "Nell'Extended Look Jason si avvicina a un pitbull: tieni R1 per Accarezzare, Sgridare o Studiare; una campanella e un'icona d'angelo quando lo accarezzi (conta per il Profilo criminale). Razze viste: Doberman, Chihuahua, Pastore australiano e tedesco, Rottweiler, Labrador, più Border Collie, Pitbull, Barboncino, meticci. Nel trailer di lancio un cane con gli occhialoni in elicottero e uno vestito. Avere un cane tuo: non confermato. Chihuahua: Il primissimo animale della serie, visto mentre fa jogging sulla spiaggia di Vice City fin dal Trailer 1. Secondo Engadget, il montaggio finale dell'Extended Look mostra un piccolo chihuahua con un tutù viola e ali da fata. Dove: Spiaggia di Vice City (Trailer 1). Dobermann: Seduto accanto al padrone alla fine del Trailer 2, una razza inedita per la serie GTA. Dove: Fine del Trailer 2. Rottweiler: Individuato in uno screenshot di Vice City condiviso il 6 maggio 2025. Dove: Vice City (screenshot del 6 maggio 2025). Pastore australiano: Visto nelle Leonida Keys, portato a spasso da un abitante in bicicletta. Dove: Leonida Keys (screenshot). Cane (razza indeterminata): Fotografato da un'abitante a Port Gellhorn, razza non identificata a oggi. Dove: Port Gellhorn (screenshot). Labrador: Passeggia sulla spiaggia accanto alla padrona nell'Extended Look del 27 agosto. Dove: Spiaggia (Extended Look).",
+      "directions": "Avvicinati a un cane e tieni R1 per Accarezzare, Sgridare o Studiare. Quando lo accarezzi suona una campanella e compare un'icona d'angelo: conta per il Profilo criminale. Razze: Chihuahua (fa jogging sulla spiaggia di Vice City), Dobermann (seduto accanto al padrone, una razza inedita per la serie), Rottweiler (a Vice City), Pastore australiano (nelle Keys, al guinzaglio di un ciclista), Labrador (sulla spiaggia con la padrona), Pastore tedesco, Pitbull, Border Collie, Barboncino e meticci, più un cane di razza non identificata a Port Gellhorn. In giro ci sono anche un chihuahua con tutù viola e ali da fata, un cane con gli occhialoni in elicottero e uno vestito. Non è ancora noto se si possa avere un cane tutto tuo.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-cani.jpg",
       "status": "da verificare",
@@ -725,15 +722,15 @@
       "varieties": [
         {
           "name": "Chihuahua",
-          "note": "Fa jogging sulla spiaggia di Vice City nel Trailer 1"
+          "note": "Fa jogging sulla spiaggia di Vice City"
         },
         {
           "name": "Dobermann",
-          "note": "Seduto accanto al padrone alla fine del Trailer 2"
+          "note": "Seduto accanto al padrone"
         },
         {
           "name": "Rottweiler",
-          "note": "Screenshot di Vice City del 6 maggio 2025"
+          "note": "A Vice City"
         },
         {
           "name": "Pastore australiano",
@@ -741,15 +738,15 @@
         },
         {
           "name": "Labrador",
-          "note": "Sulla spiaggia con la padrona, Extended Look"
+          "note": "Sulla spiaggia con la padrona"
         },
         {
           "name": "Pastore tedesco (K-9)",
-          "note": "Cane poliziotto, visto da Edge nella demo da Rockstar North"
+          "note": "Cane poliziotto"
         },
         {
           "name": "Staffordshire Terrier",
-          "note": "Il cane che Jason accarezza nell'Extended Look"
+          "note": "Il cane che Jason accarezza"
         },
         {
           "name": "Altre razze",
@@ -757,13 +754,13 @@
         },
         {
           "name": "Razza non identificata",
-          "note": "Fotografato da un'abitante a Port Gellhorn"
+          "note": "A Port Gellhorn, fotografato da un'abitante"
         }
       ],
       "seen": [
         {
           "where": "Spiaggia di Vice City",
-          "what": "Trailer 1: un chihuahua che corre"
+          "what": "Un chihuahua che corre"
         },
         {
           "where": "Extended Look (27 agosto 2026)",
@@ -776,7 +773,7 @@
       ],
       "trivia": [
         "Il chihuahua è il primissimo animale mostrato della serie.",
-        "Engadget: a fine Extended Look un chihuahua con tutù viola e ali da fata.",
+        "In giro c'è un chihuahua con tutù viola e ali da fata.",
         "Accarezzare fa suonare una campanella e compare un'icona d'angelo."
       ],
       "mergedIds": [
@@ -816,7 +813,7 @@
       "categoryId": "cat-fauna",
       "name": "Gatto",
       "districtId": "dis-vice-city",
-      "directions": "I gatti selvatici sono tra le specie invasive (Game Informer). Nel Trailer 2 uno si lava su un bancomat nel negozio da cui esce Jason. Randagi e domestici in città. Visto mentre si lava sopra un bancomat all'inizio del Trailer 2. Un gatto morto è stato notato anche in uno screenshot di Grassrivers. Dove: Minimarket di Vice City (Trailer 2); Grassrivers (screenshot).",
+      "directions": "Randagi e domestici in città; i gatti selvatici sono tra le specie invasive. Uno si lava sopra il bancomat di un minimarket di Vice City; un altro giace morto a Grassrivers.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-gatto.jpg",
       "status": "da verificare",
@@ -832,15 +829,15 @@
       "seen": [
         {
           "where": "Minimarket di Vice City",
-          "what": "Trailer 2: si lava sopra un bancomat"
+          "what": "Si lava sopra un bancomat"
         },
         {
           "where": "Grassrivers",
-          "what": "Screenshot: un gatto morto"
+          "what": "Un gatto morto"
         }
       ],
       "trivia": [
-        "Game Informer li conta tra le specie invasive."
+        "I gatti selvatici sono una specie invasiva."
       ],
       "imageFocus": [
         48,
@@ -853,7 +850,7 @@
       "categoryId": "cat-fauna",
       "name": "Fenicottero",
       "districtId": null,
-      "directions": "Nativo, nominato da Game Informer. «Ciondola nelle lagune», nuovo per Rockstar. Fenicotteri rosa: Una vasta colonia osservata nelle Everglades fin dal Trailer 1, con diversi esemplari in pieno volo. Dove: Everglades (Trailer 1).",
+      "directions": "Specie nativa, una novità per Rockstar: «ciondola nelle lagune». Nelle Everglades trovi una vasta colonia, con diversi esemplari in volo.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-fenicottero.jpg",
       "status": "da verificare",
@@ -865,12 +862,12 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/flamingos.jpg",
       "group": "uccelli",
       "emoji": "🦩",
-      "short": "Specie nativa nominata da Game Informer: per Rockstar è una novità.",
+      "short": "Specie nativa: per Rockstar è una novità.",
       "behavior": "«Ciondola nelle lagune» e vive in grandi colonie.",
       "seen": [
         {
           "where": "Everglades",
-          "what": "Trailer 1: una vasta colonia, diversi esemplari in volo"
+          "what": "Una vasta colonia, diversi esemplari in volo"
         }
       ],
       "imageFocus": [
@@ -884,7 +881,7 @@
       "categoryId": "cat-fauna",
       "name": "Pellicano",
       "districtId": "dis-keys",
-      "directions": "Nativo, nominato da Game Informer. Vola sopra l'iguana nello screenshot delle Keys. Pellicani bruni: Uno stormo di una quindicina di uccelli sorvola la spiaggia di Vice City nel Trailer 1. Dove: Spiaggia di Vice City (Trailer 1).",
+      "directions": "Il pellicano bruno, specie nativa: stormi di una quindicina sorvolano la spiaggia di Vice City, e lo trovi anche sopra le Leonida Keys.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-pellicano.jpg",
       "status": "da verificare",
@@ -897,16 +894,16 @@
       "uncertain": true,
       "group": "uccelli",
       "emoji": "🐦",
-      "short": "Specie nativa nominata da Game Informer, comune sulla costa.",
+      "short": "Specie nativa, comune sulla costa.",
       "behavior": "Vola in stormi sopra le spiagge.",
       "seen": [
         {
           "where": "Spiaggia di Vice City",
-          "what": "Trailer 1: uno stormo di una quindicina"
+          "what": "Uno stormo di una quindicina"
         },
         {
           "where": "Leonida Keys",
-          "what": "Screenshot: vola sopra l'iguana"
+          "what": "Vola sopra l'iguana"
         }
       ],
       "imageFocus": [
@@ -920,7 +917,7 @@
       "categoryId": "cat-fauna",
       "name": "Airone",
       "districtId": "dis-grassrivers",
-      "directions": "Ha un suo pattern di movimento (Red Bull). Uccello delle paludi. Aironi della Florida: Visti nei primissimi secondi del Trailer 1, identificazione non certa. Dove: Cielo di Vice City all'alba (Trailer 1).",
+      "directions": "Uccello delle paludi con un suo modo di muoversi. Ne passano nel cielo di Vice City all'alba, ma l'identificazione è incerta.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -932,11 +929,11 @@
       "uncertain": true,
       "group": "uccelli",
       "emoji": "🪶",
-      "short": "Uccello delle paludi con un suo modo di muoversi, secondo Red Bull.",
+      "short": "Uccello delle paludi con un suo modo di muoversi.",
       "seen": [
         {
           "where": "Cielo di Vice City all'alba",
-          "what": "Primissimi secondi del Trailer 1, identificazione incerta"
+          "what": "All'alba, identificazione incerta"
         }
       ]
     },
@@ -945,7 +942,7 @@
       "categoryId": "cat-fauna",
       "name": "Spatola rosata",
       "districtId": "dis-grassrivers",
-      "directions": "Guada nello screenshot di Grassrivers, con una gru e una cicogna.",
+      "directions": "Guada nell'acqua bassa di Grassrivers, con una gru e una cicogna.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -961,7 +958,7 @@
       "seen": [
         {
           "where": "Grassrivers",
-          "what": "Screenshot: guada con una gru e una cicogna"
+          "what": "Guada con una gru e una cicogna"
         }
       ]
     },
@@ -970,7 +967,7 @@
       "categoryId": "cat-fauna",
       "name": "Gru americana",
       "districtId": "dis-grassrivers",
-      "directions": "La «gru» nello screenshot di Grassrivers: che sia la gru americana è un'identificazione dei fan.",
+      "directions": "Vive nelle paludi di Grassrivers, accanto a una spatola e una cicogna. Non è certo che sia proprio la gru americana.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -981,15 +978,15 @@
       "updatedAt": "2026-11-07",
       "group": "uccelli",
       "emoji": "🐦",
-      "short": "La gru dello screenshot di Grassrivers.",
+      "short": "La gru delle paludi di Grassrivers.",
       "seen": [
         {
           "where": "Grassrivers",
-          "what": "Screenshot: con una spatola e una cicogna"
+          "what": "Con una spatola e una cicogna"
         }
       ],
       "trivia": [
-        "Che sia proprio la gru americana è un'ipotesi dei fan."
+        "Non è certo che sia proprio la gru americana."
       ]
     },
     {
@@ -997,7 +994,7 @@
       "categoryId": "cat-fauna",
       "name": "Picchio",
       "districtId": null,
-      "directions": "Segnalato dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stato avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1008,14 +1005,14 @@
       "updatedAt": "2026-11-07",
       "group": "uccelli",
       "emoji": "🐦",
-      "short": "Segnalato dalla community, non ancora visto."
+      "short": "Non ancora avvistato."
     },
     {
       "id": "col-fauna-anatra",
       "categoryId": "cat-fauna",
       "name": "Anatre",
       "districtId": null,
-      "directions": "Segnalata dalla community. Anatre marmorizzate: Individuate nel parco nazionale delle Everglades, Trailer 1, in mezzo ai fenicotteri. Dove: Parco nazionale delle Everglades (Trailer 1).",
+      "directions": "Anatre selvatiche delle paludi: le anatre marmorizzate stanno nel parco nazionale delle Everglades, in mezzo ai fenicotteri.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-anatra.jpg",
       "status": "da verificare",
@@ -1031,17 +1028,17 @@
       "varieties": [
         {
           "name": "Anatra marmorizzata",
-          "note": "Nelle Everglades in mezzo ai fenicotteri, Trailer 1"
+          "note": "Nelle Everglades in mezzo ai fenicotteri"
         },
         {
           "name": "Moretta americana minore",
-          "note": "In uno spot TV dell'Extended Look, identificazione incerta"
+          "note": "In uno spot TV, identificazione incerta"
         }
       ],
       "seen": [
         {
           "where": "Parco nazionale delle Everglades",
-          "what": "Trailer 1: anatre marmorizzate tra i fenicotteri"
+          "what": "Anatre marmorizzate tra i fenicotteri"
         },
         {
           "where": "Spot TV dell'Extended Look",
@@ -1062,7 +1059,7 @@
       "categoryId": "cat-fauna",
       "name": "Gabbiano",
       "districtId": null,
-      "directions": "Segnalato dalla community. Gabbiani reali: Visibili nel cielo nella stessa sequenza del pontile, Trailer 2. Dove: Pontile al tramonto (Trailer 2).",
+      "directions": "Il gabbiano reale: lo trovi nel cielo sopra il pontile al tramonto.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -1073,11 +1070,11 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg",
       "group": "uccelli",
       "emoji": "🐦",
-      "short": "Il gabbiano reale delle coste, segnalato dalla community.",
+      "short": "Il gabbiano reale delle coste.",
       "seen": [
         {
           "where": "Pontile al tramonto",
-          "what": "Trailer 2: nel cielo"
+          "what": "Nel cielo"
         }
       ]
     },
@@ -1086,7 +1083,7 @@
       "categoryId": "cat-fauna",
       "name": "Piccione",
       "districtId": "dis-vice-city",
-      "directions": "In città, con i gabbiani sulle ringhiere delle barche negli screenshot dell'Ultimate Edition. Il grande ritorno del «topo volante», visto all'inizio dell'Extended Look del 27 agosto. Dove: Strada di Vice City (Extended Look).",
+      "directions": "Il grande ritorno del «topo volante»: per le strade della città e sulle ringhiere delle barche, insieme ai gabbiani.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -1101,11 +1098,11 @@
       "seen": [
         {
           "where": "Strada di Vice City",
-          "what": "Extended Look: all'inizio del video"
+          "what": "Per strada"
         },
         {
           "where": "Ringhiere delle barche",
-          "what": "Screenshot dell'Ultimate Edition, con i gabbiani"
+          "what": "Con i gabbiani"
         }
       ]
     },
@@ -1114,7 +1111,7 @@
       "categoryId": "cat-fauna",
       "name": "Delfino",
       "districtId": "dis-keys",
-      "directions": "Affiora accanto alla barca negli screenshot dell'Ultimate Edition; Red Bull: «tra la fauna marina con cui puoi interagire». Delfini: Un gruppo di quattro delfini nuota vicino a uno squalo al largo delle coste di Vice City, Trailer 1. Dove: Al largo di Vice City (Trailer 1).",
+      "directions": "Nuota in gruppo al largo di Vice City, anche vicino agli squali, e affiora accanto alle barche. È tra la fauna marina con cui puoi interagire.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-delfino.jpg",
       "status": "da verificare",
@@ -1126,7 +1123,7 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/dolphins.jpg",
       "group": "marini",
       "emoji": "🐬",
-      "short": "Secondo Red Bull è tra la fauna marina con cui puoi interagire.",
+      "short": "È tra la fauna marina con cui puoi interagire.",
       "behavior": "Nuota in gruppo e affiora accanto alle barche.",
       "actions": [
         "Interagire"
@@ -1134,11 +1131,11 @@
       "seen": [
         {
           "where": "Al largo di Vice City",
-          "what": "Trailer 1: quattro delfini vicino a uno squalo"
+          "what": "Quattro delfini vicino a uno squalo"
         },
         {
           "where": "Accanto a una barca",
-          "what": "Screenshot dell'Ultimate Edition: affiora in superficie"
+          "what": "Affiora in superficie"
         }
       ],
       "imageFocus": [
@@ -1152,7 +1149,7 @@
       "categoryId": "cat-fauna",
       "name": "Lamantino",
       "districtId": null,
-      "directions": "Nativo, nominato da Game Informer. Lo incontri immergendoti e in natura, anche a Grassrivers (Red Bull). È la mascotte di Leonida su magliette e cappellini: Chunkee. Lamantini: Nuotano placidamente nelle Everglades, confermati nell'Extended Look del 27 agosto. La specie più emblematica, coerente con l'ispirazione diretta alla Florida, uno degli ultimi habitat naturali del lamantino nel mondo reale. Dove: Everglades (Extended Look).",
+      "directions": "Specie nativa, la più emblematica di Leonida. Nuota placido nelle Everglades e a Grassrivers: lo incontri in natura e immergendoti. È la mascotte Chunkee su magliette e cappellini. La Florida è uno degli ultimi habitat naturali del lamantino.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
@@ -1171,15 +1168,15 @@
       "seen": [
         {
           "where": "Everglades",
-          "what": "Extended Look: lamantini che nuotano"
+          "what": "Lamantini che nuotano"
         },
         {
           "where": "Grassrivers",
-          "what": "In natura, secondo Red Bull"
+          "what": "In natura"
         }
       ],
       "trivia": [
-        "Specie nativa, nominata da Game Informer.",
+        "Specie nativa di Leonida.",
         "La Florida è uno degli ultimi habitat naturali del lamantino."
       ]
     },
@@ -1188,7 +1185,7 @@
       "categoryId": "cat-fauna",
       "name": "Squali",
       "districtId": null,
-      "directions": "«Diversi tipi di squalo» (Game Informer), ognuno con le sue animazioni. Brian Heder «si muove come un grande squalo bianco», dice la sua scheda. Quanto siano pericolosi, lo scopri in acqua. Squali: Due esemplari individuati vicino alla spiaggia nel Trailer 1, tra cui uno squalo tigre identificato in seguito. Gli squali tigre, già presenti nelle acque di GTA V, sono presentati come pericolosi per il giocatore in caso di incontro ravvicinato. Dove: Vicino alla spiaggia (Trailer 1).",
+      "directions": "Ci sono diversi tipi di squalo, ognuno con le sue animazioni. Vicino alla spiaggia girano anche squali tigre, già presenti nelle acque di GTA V: da vicino sono pericolosi. Quanto, lo scopri in acqua.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-squalo.jpg",
       "status": "da verificare",
@@ -1200,28 +1197,28 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg",
       "group": "marini",
       "emoji": "🦈",
-      "short": "Game Informer parla di «diversi tipi di squalo», ognuno con le sue animazioni.",
+      "short": "Ci sono diversi tipi di squalo, ognuno con le sue animazioni.",
       "danger": 2,
       "dangerNote": "Gli squali tigre sono pericolosi da vicino. Quanto, lo scopri in acqua.",
       "varieties": [
         {
           "name": "Squalo tigre",
-          "note": "Identificato tra i due squali del Trailer 1"
+          "note": "Uno dei due squali avvistati vicino alla spiaggia"
         },
         {
           "name": "Squalo martello",
-          "note": "Lo dicono i fan; pericolosità sconosciuta"
+          "note": "Pericolosità sconosciuta"
         }
       ],
       "seen": [
         {
           "where": "Vicino alla spiaggia",
-          "what": "Trailer 1: due esemplari"
+          "what": "Due esemplari"
         }
       ],
       "trivia": [
         "Gli squali tigre c'erano già nelle acque di GTA V.",
-        "La scheda di Brian Heder dice che «si muove come un grande squalo bianco»."
+        "Brian Heder «si muove come un grande squalo bianco»."
       ],
       "mergedIds": [
         "col-fauna-squalo-martello"
@@ -1237,7 +1234,7 @@
       "categoryId": "cat-fauna",
       "name": "Manta",
       "districtId": "dis-keys",
-      "directions": "Game Informer nomina «razze»; i sub passano accanto alle mante nell'Extended Look secondo la community. Razze: Osservabili nelle acque di Leonida durante le immersioni, confermate nell'Extended Look. Dove: Acque di Leonida, immersioni (Extended Look).",
+      "directions": "Le razze nuotano nelle acque di Leonida: le incontri durante le immersioni, accanto ai sub.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-manta.jpg",
       "status": "da verificare",
@@ -1249,11 +1246,11 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta-6-raie.jpg",
       "group": "marini",
       "emoji": "🐟",
-      "short": "Le razze nominate da Game Informer: le incontri durante le immersioni.",
+      "short": "Le incontri durante le immersioni.",
       "seen": [
         {
           "where": "Acque di Leonida",
-          "what": "Extended Look: i sub passano accanto alle mante"
+          "what": "I sub passano accanto alle mante"
         }
       ],
       "imageFocus": [
@@ -1267,7 +1264,7 @@
       "categoryId": "cat-fauna",
       "name": "Tartaruga marina",
       "districtId": "dis-keys",
-      "directions": "Nuota accanto ai sub sulla barriera corallina delle Keys in uno screenshot ufficiale, con una murena e pesci tropicali. Tartarughe marine: Tre esemplari nuotano tranquillamente al largo, fin dalla primissima sequenza del Trailer 1. Dove: Al largo di Vice City (Trailer 1).",
+      "directions": "Nuota al largo di Vice City e sulla barriera corallina delle Keys, accanto ai sub, con murene e pesci tropicali.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-tartaruga-marina.jpg",
       "status": "da verificare",
@@ -1279,15 +1276,15 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg",
       "group": "marini",
       "emoji": "🐢",
-      "short": "Una delle prime creature mostrate: nuota sulla barriera corallina delle Keys.",
+      "short": "Nuota al largo e sulla barriera corallina delle Keys.",
       "seen": [
         {
           "where": "Al largo di Vice City",
-          "what": "Trailer 1: tre esemplari, nella primissima sequenza"
+          "what": "Tre esemplari"
         },
         {
           "where": "Barriera corallina delle Keys",
-          "what": "Screenshot ufficiale: accanto ai sub, con una murena e pesci tropicali"
+          "what": "Accanto ai sub, con una murena e pesci tropicali"
         }
       ],
       "imageFocus": [
@@ -1301,7 +1298,7 @@
       "categoryId": "cat-fauna",
       "name": "Medusa",
       "districtId": null,
-      "directions": "Nominata da Game Informer: traslucida, con la bioluminescenza.",
+      "directions": "Traslucida e bioluminescente.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1312,14 +1309,14 @@
       "updatedAt": "2026-11-07",
       "group": "marini",
       "emoji": "🪼",
-      "short": "Nominata da Game Informer: traslucida e bioluminescente."
+      "short": "Traslucida e bioluminescente."
     },
     {
       "id": "col-fauna-anguilla",
       "categoryId": "cat-fauna",
       "name": "Murena",
       "districtId": "dis-keys",
-      "directions": "Una murena nello screenshot della barriera corallina, secondo gta-zone. Murena: Vista sugli stessi fondali marini delle Keys, screenshot del 6 maggio 2025. Dove: Fondali delle Keys (screenshot del 6 maggio 2025).",
+      "directions": "La murena abita i fondali corallini delle Keys.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-anguilla.jpg",
       "status": "da verificare",
@@ -1335,12 +1332,10 @@
       "seen": [
         {
           "where": "Fondali delle Keys",
-          "what": "Screenshot del 6 maggio 2025, sulla barriera corallina"
+          "what": "Sulla barriera corallina"
         }
       ],
-      "trivia": [
-        "L'identificazione è di gta-zone."
-      ],
+      "trivia": [],
       "imageFocus": [
         65,
         45,
@@ -1352,7 +1347,7 @@
       "categoryId": "cat-fauna",
       "name": "Gambero di fiume",
       "districtId": null,
-      "directions": "Segnalato dalla community.",
+      "directions": "Fa parte della fauna di Leonida, ma non è ancora stato avvistato.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1363,14 +1358,14 @@
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🦞",
-      "short": "Segnalato dalla community, non ancora visto."
+      "short": "Non ancora avvistato."
     },
     {
       "id": "col-fauna-balena",
       "categoryId": "cat-fauna",
       "name": "Balena",
       "districtId": null,
-      "directions": "Nominata da Game Informer: nuota al largo.",
+      "directions": "Nuota al largo.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1381,7 +1376,7 @@
       "updatedAt": "2026-11-07",
       "group": "marini",
       "emoji": "🐋",
-      "short": "Nominata da Game Informer: nuota al largo."
+      "short": "Nuota al largo."
     },
     {
       "id": "col-ex-001",
@@ -1408,12 +1403,12 @@
       "categoryId": "cat-fauna",
       "name": "Punto di pesca: Gambit Bay",
       "districtId": null,
-      "directions": "L'unico luogo di pesca nominato da Rockstar finora. Cattura e rilascio, con sfide.",
+      "directions": "L'unico luogo di pesca noto finora. Cattura e rilascio, con sfide.",
       "reward": null,
       "sourceUrl": "https://gta6-life.com/en/guides/gta-6-fishing/",
       "group": "pesci",
       "emoji": "🎣",
-      "short": "L'unico luogo di pesca nominato da Rockstar finora.",
+      "short": "L'unico luogo di pesca noto finora.",
       "actions": [
         "Pescare (cattura e rilascio)",
         "Sfide di pesca"
@@ -1430,12 +1425,12 @@
       "categoryId": "cat-fauna",
       "name": "Pavone",
       "districtId": "dis-keys",
-      "directions": "Famitsu l'ha incontrato mentre pescava. Un avvistamento da confermare.",
+      "directions": "Può capitare di incontrarlo mentre peschi.",
       "reward": null,
       "sourceUrl": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
       "group": "uccelli",
       "emoji": "🦚",
-      "short": "Famitsu l'ha incontrato mentre pescava: avvistamento da confermare."
+      "short": "Può capitare di incontrarlo mentre peschi."
     },
     {
       "image": null,
@@ -1448,14 +1443,14 @@
       "categoryId": "cat-fauna",
       "name": "Coccodrillo",
       "districtId": null,
-      "directions": "Red Bull: «una gita in kayak potrebbe essere interrotta da un coccodrillo». Da distinguere dall'alligatore.",
+      "directions": "Può interrompere una gita in kayak. Da non confondere con l'alligatore.",
       "reward": null,
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-wildlife",
       "group": "paludi",
       "emoji": "🐊",
-      "short": "Da non confondere con l'alligatore: Red Bull lo cita in una gita in kayak.",
+      "short": "Da non confondere con l'alligatore: può interrompere una gita in kayak.",
       "danger": 2,
-      "dangerNote": "Secondo Red Bull può interrompere una gita in kayak."
+      "dangerNote": "Può interrompere una gita in kayak."
     },
     {
       "image": null,
@@ -1483,7 +1478,7 @@
       "categoryId": "cat-wyman",
       "name": "Declasse Mamba GT",
       "districtId": null,
-      "directions": "La Daytona Coupe negli screenshot: secondo la community si ottiene solo con le missioni della collezione di Wyman.",
+      "directions": "La Daytona Coupe: si ottiene solo con le missioni della collezione di Wyman.",
       "reward": "Auto rara",
       "sourceUrl": "https://www.gosugamers.net/entertainment/news/78674-rockstar-reveals-gta-vi-ultimate-edition-and-pre-order-bonuses-here-s-everything-you-need-to-know"
     },
@@ -1558,7 +1553,7 @@
       "categoryId": "cat-rifugi",
       "name": "Rifugio di Bayside",
       "districtId": "dis-vice-city",
-      "directions": "L'appartamento su Catalan Boulevard visto nell'Extended Look.",
+      "directions": "L'appartamento su Catalan Boulevard.",
       "reward": null,
       "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look"
     },
@@ -1573,7 +1568,7 @@
       "categoryId": "cat-rifugi",
       "name": "Starlet Motel",
       "districtId": "dis-port-gellhorn",
-      "directions": "Il motel al neon: rifugio di Port Gellhorn secondo la community.",
+      "directions": "Il motel al neon: il rifugio di Port Gellhorn.",
       "reward": null,
       "sourceUrl": "https://www.gtabase.com/gta-6/properties/"
     },
@@ -1612,7 +1607,7 @@
       "categoryId": "cat-fauna",
       "name": "Anhinga americana",
       "districtId": "dis-grassrivers",
-      "directions": "Diversi esemplari si alzano in volo nelle Everglades, Trailer 1. Dove: Everglades (Trailer 1).",
+      "directions": "Diversi esemplari si alzano in volo nelle Everglades.",
       "reward": null,
       "status": "da verificare",
       "source": "stampa",
@@ -1627,7 +1622,7 @@
       "seen": [
         {
           "where": "Everglades",
-          "what": "Trailer 1: diversi esemplari si alzano in volo"
+          "what": "Diversi esemplari si alzano in volo"
         }
       ]
     },
@@ -1636,7 +1631,7 @@
       "categoryId": "cat-fauna",
       "name": "Cormorani",
       "districtId": "dis-grassrivers",
-      "directions": "Visibili accanto ai fenicotteri rosa nella sequenza delle Everglades, Trailer 1. Dove: Everglades (Trailer 1).",
+      "directions": "Stanno accanto ai fenicotteri rosa nelle Everglades.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-cormorano.jpg",
       "status": "da verificare",
@@ -1652,7 +1647,7 @@
       "seen": [
         {
           "where": "Everglades",
-          "what": "Trailer 1: accanto ai fenicotteri rosa"
+          "what": "Accanto ai fenicotteri rosa"
         }
       ],
       "imageFocus": [
@@ -1666,7 +1661,7 @@
       "categoryId": "cat-fauna",
       "name": "Corvi",
       "districtId": "dis-grassrivers",
-      "directions": "Volano sopra il penitenziario all'inizio del Trailer 2, quando Jason viene a prendere Lucia. Dove: Penitenziario (Trailer 2).",
+      "directions": "Volano sopra il penitenziario quando Jason viene a prendere Lucia.",
       "reward": null,
       "status": "da verificare",
       "source": "stampa",
@@ -1677,11 +1672,11 @@
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg",
       "group": "uccelli",
       "emoji": "🐦‍⬛",
-      "short": "Compaiono in una delle scene più note del Trailer 2.",
+      "short": "Volano sopra il penitenziario.",
       "seen": [
         {
           "where": "Penitenziario",
-          "what": "Trailer 2: volano sopra mentre Jason va a prendere Lucia"
+          "what": "Volano sopra mentre Jason va a prendere Lucia"
         }
       ]
     },
@@ -1690,7 +1685,7 @@
       "categoryId": "cat-fauna",
       "name": "Oche selvatiche",
       "districtId": "dis-grassrivers",
-      "directions": "Viste sull'acqua durante il tramonto sul pontile, Trailer 2. Dove: Pontile al tramonto (Trailer 2).",
+      "directions": "Sull'acqua, al tramonto, vicino al pontile.",
       "reward": null,
       "status": "da verificare",
       "source": "stampa",
@@ -1705,7 +1700,7 @@
       "seen": [
         {
           "where": "Pontile al tramonto",
-          "what": "Trailer 2: sull'acqua"
+          "what": "Sull'acqua"
         }
       ]
     },
@@ -1714,7 +1709,7 @@
       "categoryId": "cat-fauna",
       "name": "Canarino",
       "districtId": "dis-grassrivers",
-      "directions": "Visibile in primo piano in uno spot TV, nella stessa sequenza dell'Extended Look. Dove: Spot TV nell'Extended Look.",
+      "directions": "Compare in primo piano in uno spot TV.",
       "reward": null,
       "status": "da verificare",
       "source": "stampa",
@@ -1726,7 +1721,7 @@
       "uncertain": true,
       "group": "uccelli",
       "emoji": "🐤",
-      "short": "Visto solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "short": "Compare solo in una pubblicità TV, non ancora nel mondo aperto.",
       "seen": [
         {
           "where": "Spot TV dell'Extended Look",
@@ -1739,7 +1734,7 @@
       "categoryId": "cat-fauna",
       "name": "Pesci esotici",
       "districtId": null,
-      "directions": "Visibili sui fondali marini delle Keys negli screenshot del 6 maggio 2025, durante un'immersione. Dove: Fondali delle Keys (screenshot del 6 maggio 2025).",
+      "directions": "Colorano i fondali corallini delle Keys: li vedi in immersione.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-pesci-esotici.jpg",
       "status": "da verificare",
@@ -1755,7 +1750,7 @@
       "seen": [
         {
           "where": "Fondali delle Keys",
-          "what": "Screenshot del 6 maggio 2025, durante un'immersione"
+          "what": "Durante un'immersione"
         }
       ],
       "imageFocus": [
@@ -1769,7 +1764,7 @@
       "categoryId": "cat-fauna",
       "name": "Bisonti",
       "districtId": null,
-      "directions": "Visti solo in una pubblicità televisiva trasmessa durante l'Extended Look, non ancora nel mondo aperto. Rockstar ha già usato questo espediente: i cavalli comparivano nelle pubblicità di GTA V senza essere mai presenti a Los Santos. Solo segnalato, non ancora visto.",
+      "directions": "Compaiono solo in una pubblicità televisiva, non nel mondo aperto. Rockstar ha già usato questo espediente: in GTA V i cavalli comparivano negli spot senza essere mai presenti a Los Santos.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1780,7 +1775,7 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦬",
-      "short": "Visti solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "short": "Compaiono solo in una pubblicità TV, non ancora nel mondo aperto.",
       "seen": [
         {
           "where": "Spot TV dell'Extended Look",
@@ -1796,7 +1791,7 @@
       "categoryId": "cat-fauna",
       "name": "Conigli",
       "districtId": null,
-      "directions": "Visti solo in una pubblicità televisiva dell'Extended Look, non nel mondo aperto. Solo segnalato, non ancora visto.",
+      "directions": "Compaiono solo in una pubblicità televisiva, non nel mondo aperto.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1807,7 +1802,7 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐇",
-      "short": "Visti solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "short": "Compaiono solo in una pubblicità TV, non ancora nel mondo aperto.",
       "seen": [
         {
           "where": "Spot TV dell'Extended Look",

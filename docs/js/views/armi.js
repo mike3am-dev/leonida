@@ -1,7 +1,7 @@
 /** Armi: la ruota delle armi, otto spicchi come nel gioco; l'equipaggiamento sotto */
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
-import { esc, statusChip } from '../ui/dom.js';
+import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
 
@@ -84,7 +84,7 @@ export function render(params, query) {
   const gear = all.filter((w) => w.class === 'equipaggiamento');
   const label = cat ? (SLICES.find(([k]) => k === cat) || [])[1] : 'Tutte le armi';
   const idx = SLICES.findIndex(([k]) => k === cat);
-  const list = (arr) => arr.map((w) => row({ href: `#/armi/${w.id}`, thumb: w.image, thumbFallback: w.imageUrl, icon: 'i-crosshair', title: esc(w.name), meta: `${esc(w.manufacturer || (SLICES.find(([k]) => k === w.class) || [])[1] || '')}${w.realModel ? ' · ' + esc(w.realModel) : ''}${w.status !== 'verificato' ? ' · ' + (SRC[w.source] || 'da verificare') : ''}`, end: favs[w.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-bookmark"/></svg>' : '' })).join('');
+  const list = (arr) => arr.map((w) => row({ href: `#/armi/${w.id}`, thumb: w.image, thumbFallback: w.imageUrl, icon: 'i-crosshair', title: esc(w.name), meta: `${esc(w.manufacturer || (SLICES.find(([k]) => k === w.class) || [])[1] || '')}${w.realModel ? ' · ' + esc(w.realModel) : ''}${srcBadge(w)}`, end: favs[w.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-bookmark"/></svg>' : '' })).join('');
   const left = `${sectionHead(section, `${all.length} voci`)}
     <p class="lede">Scegli uno spicchio, come nel gioco. Le armi che segni tra i preferiti riempiono lo spicchio.</p>
     <div class="wheel-wrap">
