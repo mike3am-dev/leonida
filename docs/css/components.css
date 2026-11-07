@@ -1600,3 +1600,23 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .mb-here { z-index: 4; }
 .mb-here__label { top: auto; bottom: 16px; padding: 1px 7px; border-radius: 6px; background: #2ec4b6; color: #08201d; text-shadow: none; font-size: 12px; }
 .mapboard__layer--here { z-index: 6; }
+
+/* ---------- v0.18 ---------- */
+/* Conto alla rovescia: luce fissa, non lampeggia */
+.home-hero .countdown b { animation: none !important; }
+/* Ruota: bollini più piccoli e proporzionati */
+.wheel__count { font-size: 10.5px !important; }
+.wheel__bubble { stroke-width: 1px; }
+/* Foto: compaiono intere, con una dissolvenza; dopo 3 secondi si vedono comunque */
+#app img:not(.is-loaded) { opacity: 0; animation: img-safety 0s 3s forwards; }
+#app img.is-loaded { opacity: 1; transition: opacity .25s ease; }
+@keyframes img-safety { to { opacity: 1; } }
+/* Collezionabili: si tocca la scheda, il «Trovato» sta dentro */
+.check--open { width: 100%; font: inherit; color: inherit; text-align: left; background: none; border: 0; border-bottom: var(--hair) solid var(--rule); cursor: pointer; }
+.check--open .check__box { pointer-events: none; }
+.check--open .check__box i { display: grid; place-items: center; }
+.check--open[data-done="true"] .check__box i { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); box-shadow: 0 0 6px var(--ok); }
+.check--open:not([data-done="true"]) .check__box svg { opacity: 0; }
+.check__go { width: 18px; height: 18px; color: var(--ink-3); flex: none; }
+.sticker { grid-template-columns: 1fr !important; }
+.found-btn { width: 100%; justify-content: center; margin-bottom: var(--s-3); }

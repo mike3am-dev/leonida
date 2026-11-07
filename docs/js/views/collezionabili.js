@@ -49,12 +49,11 @@ export function render(params, query) {
 /** Album di figurine: grigie finché non le trovi, a colori quando le spunti */
 function album(list, st, cat) {
   const found = list.filter((c) => st.collectibles[c.id]).length;
-  return `<div class="album-head"><div class="album-head__num" data-album-num>${found}<small> / ${list.length}</small></div><div><b>${esc(cat.name)}</b><div class="small muted">Tocca la figurina quando l'hai vista: si colora. La «i» apre la scheda.</div><div class="progress" style="margin-top:8px"><i data-album-bar style="--p:${list.length ? Math.round(found / list.length * 100) : 0}%"></i></div></div></div>
-    <div class="album">${list.map((c, i) => { const ok = !!st.collectibles[c.id]; return `<button type="button" class="sticker ${ok ? 'is-found' : ''}" data-collect="${esc(c.id)}" aria-pressed="${ok}" aria-label="${esc(c.name)}">
+  return `<div class="album-head"><div class="album-head__num" data-album-num>${found}<small> / ${list.length}</small></div><div><b>${esc(cat.name)}</b><div class="small muted">Tocca una figurina per aprire la scheda; da lì la segni come trovata e si colora.</div><div class="progress" style="margin-top:8px"><i data-album-bar style="--p:${list.length ? Math.round(found / list.length * 100) : 0}%"></i></div></div></div>
+    <div class="album">${list.map((c, i) => { const ok = !!st.collectibles[c.id]; return `<button type="button" class="sticker ${ok ? 'is-found' : ''}" data-col-open="${esc(c.id)}" aria-label="${esc(c.name)}">
       <span class="sticker__tick"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
       <span class="sticker__img">${stickerImg(c)}</span>
-      <span class="sticker__name">${esc(c.name)}${c.uncertain ? ' ?' : ''}</span>
-      <span class="sticker__info" data-sticker-info="${esc(c.id)}" role="button" aria-label="Scheda">i</span></button>`; }).join('')}</div>`;
+      <span class="sticker__name">${esc(c.name)}${c.uncertain ? ' ?' : ''}</span></button>`; }).join('')}</div>`;
 }
 
 /** Foto inquadrata sull'animale (imageFocus = [x%, y%, zoom]); se la foto non c'è, l'emoji della specie */
@@ -71,7 +70,9 @@ function stickerSheet(c) {
   const regions = [c.districtId].filter(Boolean).map((id) => byId(id)).filter(Boolean);
   const sec = (title, html) => html ? `<section class="fsec"><h3 class="fsec__t">${esc(title)}</h3>${html}</section>` : '';
   const hasStruct = c.short || c.behavior || c.seen?.length;
-  body.innerHTML = `<div class="fhead"><span class="fhead__img">${stickerImg(c)}</span>
+  const found = !!progress.get().collectibles[c.id];
+  body.innerHTML = `<button type="button" class="btn ${found ? 'btn--accent' : 'btn--solid'} found-btn" data-sheet-collect="${esc(c.id)}"><svg aria-hidden="true"><use href="#i-${found ? 'check' : 'eye'}"/></svg><span>${found ? 'Trovato' : 'Segna come trovato'}</span></button>
+    <div class="fhead"><span class="fhead__img">${stickerImg(c)}</span>
       <div class="fhead__facts">
         ${c.short ? `<p class="fhead__short">${esc(c.short)}</p>` : ''}
         <div class="chips">${statusChip(c)}${c.group ? `<span class="chip">${esc(HABITAT[c.group] || c.group)}</span>` : ''}${regions.map((d) => `<a class="chip chip--btn" href="#/mappa?zona=${esc(d.id)}">${esc(d.name)}</a>`).join('')}${typeof c.danger === 'number' ? `<span class="chip chip--danger chip--danger-${c.danger}">${'●'.repeat(c.danger + 1)} ${DANGER[c.danger]}</span>` : ''}</div>
@@ -94,33 +95,45 @@ function stickerSheet(c) {
 function checklist(list, st) {
   if (!list.length) return `<div class="placeholder"><strong>Ancora nessuna voce</strong>Di questa categoria non si sa ancora dove siano i pezzi: la lista si riempie giocando (Appunti → Pacchetto per Claude).</div>`;
   return list.map((c) => { const done = !!st.collectibles[c.id]; return `
-    <div class="check check--rich" data-done="${done}">
-      <button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
+    <button type="button" class="check check--rich check--open" data-done="${done}" data-col-open="${esc(c.id)}">
+      <span class="check__box" aria-hidden="true"><i><svg><use href="#i-check"/></svg></i></span>
       ${c.image ? `<img class="check__img" src="${esc(c.image)}" ${c.imageUrl ? `data-fallback="${esc(c.imageUrl)}"` : ''} alt="" loading="lazy">` : ''}
       <div class="check__body">
         <div class="check__title">${esc(c.name)}${c.uncertain ? ' <span class="chip chip--src-rumor">da confermare</span>' : ''}</div>
-        <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · ${c.districtId ? `<a href="#/mappa/${esc(c.districtId)}">${esc(byId(c.districtId)?.name || '')}</a>` : 'zona da scoprire'}${c.status !== 'verificato' ? ' · ' + (SRC[c.source] || 'da verificare') : ''}</div>
+        <div class="check__meta">${c.districtId ? esc(byId(c.districtId)?.name || '') : 'Zona da scoprire'}</div>
       </div>
-      ${c.directions || c.short || c.reward ? `<button type="button" class="info-btn" data-sticker-info="${esc(c.id)}" aria-label="Scheda">i</button>` : ''}
-    </div>`; }).join('');
+      <svg class="check__go" aria-hidden="true"><use href="#i-arrow"/></svg>
+    </button>`; }).join('');
 }
 
+/** Aggiorna figurina, contatore e barra dell'album senza ridisegnare la pagina (niente lampo) */
+function refreshAlbum(id) {
+  const on = !!progress.get().collectibles[id];
+  document.querySelectorAll(`[data-col-open="${CSS.escape(id)}"]`).forEach((el) => { el.classList.toggle('is-found', on); el.dataset.done = on; });
+  const all = [...document.querySelectorAll('.album .sticker')]; if (!all.length) return false;
+  const n = all.filter((x) => x.classList.contains('is-found')).length;
+  const num = document.querySelector('[data-album-num]'); if (num) num.firstChild.textContent = n;
+  const bar = document.querySelector('[data-album-bar]'); if (bar) bar.style.setProperty('--p', `${all.length ? Math.round(n / all.length * 100) : 0}%`);
+  return true;
+}
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
-    const info = e.target.closest('[data-sticker-info]');
-    if (info) { e.stopPropagation(); const c = byId(info.dataset.stickerInfo); if (c) stickerSheet(c); return; }
+    const open = e.target.closest('[data-col-open]');
+    if (open) { const c = byId(open.dataset.colOpen); if (c) stickerSheet(c); return; }
+    // Spunte dei punti di riferimento nelle guide dei luoghi
     const c = e.target.closest('[data-collect]');
     if (!c) return;
     progress.toggleCollected(c.dataset.collect);
-    // Figurina: si accende sul posto, senza ridisegnare la pagina (niente lampo sulle altre)
-    if (c.classList.contains('sticker')) {
-      const on = !!progress.get().collectibles[c.dataset.collect];
-      c.classList.toggle('is-found', on); c.setAttribute('aria-pressed', on);
-      const all = [...document.querySelectorAll('.album .sticker')]; const n = all.filter((x) => x.classList.contains('is-found')).length;
-      const num = document.querySelector('[data-album-num]'); if (num) num.firstChild.textContent = n;
-      const bar = document.querySelector('[data-album-bar]'); if (bar) bar.style.setProperty('--p', `${all.length ? Math.round(n / all.length * 100) : 0}%`);
-      return;
-    }
     rerender();
+  });
+  // Tasto «Trovato» dentro la scheda (il foglio vive fuori da #app)
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-sheet-collect]'); if (!b) return;
+    const id = b.dataset.sheetCollect; progress.toggleCollected(id);
+    const on = !!progress.get().collectibles[id];
+    b.classList.toggle('btn--accent', on); b.classList.toggle('btn--solid', !on);
+    b.querySelector('span').textContent = on ? 'Trovato' : 'Segna come trovato';
+    b.querySelector('use').setAttribute('href', on ? '#i-check' : '#i-eye');
+    if (!refreshAlbum(id)) rerender();
   });
 }

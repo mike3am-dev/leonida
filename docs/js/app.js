@@ -23,7 +23,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.17.5';
+window.__LEONIDA_VERSION__ = 'v0.17.6';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -180,6 +180,7 @@ function render(match, { dir, refresh } = {}) {
 let kickT = null;
 function kickImages() {
   clearTimeout(kickT); kickT = setTimeout(() => {
+    for (const im of document.querySelectorAll('img:not(.is-loaded)')) if (im.complete && im.naturalWidth) im.classList.add('is-loaded');
     const H = innerHeight, W = innerWidth;
     for (const im of document.querySelectorAll('img[loading="lazy"]')) {
       if (im.complete && im.naturalWidth) continue;
@@ -194,6 +195,8 @@ function bindGlobal() {
   const ver = document.createElement('span'); ver.className = 'masthead__ver'; ver.textContent = window.__LEONIDA_VERSION__; document.querySelector('.masthead__tools').prepend(ver);
   // Immagini mancanti: spariscono senza icona rotta
   // (se ha un'alternativa online in data-fallback, prima prova quella)
+  // Le foto compaiono solo quando sono arrivate per intero (Safari altrimenti ne lascia disegnata solo una parte)
+  document.addEventListener('load', (e) => { if (e.target?.tagName === 'IMG') e.target.classList.add('is-loaded'); }, true);
   document.addEventListener('error', (e) => {
     const im = e.target; if (im?.tagName !== 'IMG') return;
     if (im.dataset.fallback && im.src !== im.dataset.fallback) { im.src = im.dataset.fallback; delete im.dataset.fallback; return; }
