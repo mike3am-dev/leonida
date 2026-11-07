@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.11.0",
+  "dataVersion": "0.11.1",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.11.1",
+      "date": "2026-11-07",
+      "changes": [
+        "Da gta6bible: modello reale, posti e trazione per 108 veicoli, «Pugni» nella ruota, 5 attività (moto d'acqua, poligono, basket, scuba, mud), dettagli su Wyman, Jack of Hearts, Final Chapter MC, San4San."
+      ]
+    },
     {
       "version": "0.11.0",
       "date": "2026-11-07",

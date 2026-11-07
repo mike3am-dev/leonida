@@ -457,6 +457,71 @@
       "rewards": [],
       "steps": [],
       "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
+    },
+    {
+      "id": "act-moto-d-acqua-jet-ski",
+      "name": "Moto d'acqua (jet ski)",
+      "description": "Nell'Extended Look Lucia guida una Seashark con altri due piloti vicini ma senza HUD di gara; a fine Trailer 2 Jason guida con Lucia dietro, quindi probabilmente attività condivisa. Il sito ipotizza sfide o gare come in GTA Online. Da noi è solo dentro «Vita in barca».",
+      "districtId": null,
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta6bible.com/activities/jet-skiing/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "act-kayak",
+      "name": "Kayak",
+      "description": "Screenshot ufficiale di Mount Kalaga con un uomo in kayak sotto un ponte ferroviario, accanto a un idrometro (il sito ci legge un indizio di piene/meteo dinamico). Edge conferma che pagaiare insieme alza il legame Jason–Lucia. Da noi esiste solo il veicolo Crest Kayak.",
+      "districtId": null,
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta6bible.com/activities/kayaking/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "act-immersioni-con-bombole-scuba",
+      "name": "Immersioni con bombole (scuba)",
+      "description": "Nell'Extended Look compare un indicatore O₂ in alto a sinistra durante l'immersione con attrezzatura, diverso dalla barra della capacità polmonare in apnea. Screenshot ufficiali: barriera corallina delle Keys con tartaruga marina. Ricompense ipotizzate dal sito: tesori, contanti, equipaggiamento, collezionabili.",
+      "districtId": null,
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta6bible.com/activities/scuba-diving/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "act-combattimenti-in-gabbia",
+      "name": "Combattimenti in gabbia",
+      "description": "Nel Trailer 2 Lucia calcia un avversario dentro una gabbia; in più screenshot porta una collana con un guantone da boxe. Ritorno possibile dopo The Ballad of Gay Tony. Da noi rientra in «Vita notturna: club, strip club, fight club».",
+      "districtId": null,
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta6bible.com/activities/cage-fighting/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "act-football-americano",
+      "name": "Football americano",
+      "description": "Solo indizi: un pallone da football nel bagagliaio di Jason (sito ufficiale), NPC che se lo lanciano sulla spiaggia nello screenshot Vice City 05, la federazione AFF e i Manatees. Nessuna conferma che sia giocabile.",
+      "districtId": null,
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta6bible.com/activities/american-football/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
     }
   ]
 }

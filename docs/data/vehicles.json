@@ -14,7 +14,10 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "realModel": "Ferrari Testarossa",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-vapid-dominator-buggy-67",
@@ -29,9 +32,12 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-vapid-buggy-01-468.jpg",
-      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
+      "realModel": "Unknown",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-vapid-stanier-55",
@@ -61,9 +67,12 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/89/Squalo-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chris-Craft Stinger 390x",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-dinka-enduro",
@@ -78,9 +87,12 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/GTAVI-Dinka-Enduro.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Honda XL350",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-crest-kayak",
@@ -95,9 +107,12 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/UnnamedKayak-GTAVI-OfficalScreenshot-MountKalaga06.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Crescent Kayak",
+      "seats": 1,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-ganado-retro-build",
@@ -146,9 +161,13 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c4/OfficialScreenshots-GTAVI-PromotionalWebsite-JasonDuval-SS1.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Ducati Panigale V2",
+      "seats": 2,
+      "drivetrain": "RWD",
+      "seenIn": "Vice City 09"
     },
     {
       "id": "veh-annis-elegy-90",
@@ -214,9 +233,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/neon-2.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Porsche Mission E",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-vysser-neo",
@@ -248,9 +270,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/penumbra-ff.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Mitsubishi Eclipse",
+      "seats": 1,
+      "drivetrain": "FWD"
     },
     {
       "id": "veh-declasse-stallion",
@@ -452,9 +477,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/lectro.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Ducati Streetfighter S",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-declasse-granger-police",
@@ -469,9 +497,11 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-police.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Chevrolet Suburban (Tenth Generation)",
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-mtl-wastelander",
@@ -665,7 +695,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-obey-8f-drafter",
       "name": "Obey 8F Drafter",
       "manufacturer": "Obey",
@@ -674,7 +704,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/09/8FDrafter-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Audi RS5 Coupé B9 (F5)",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-banshee.png",
@@ -682,7 +715,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-banshee",
       "name": "Bravado Banshee",
       "manufacturer": "Bravado",
@@ -691,7 +724,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/64/Banshee-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Dodge Viper",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
@@ -699,7 +735,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-dinka-blista-compact",
       "name": "Dinka Blista Compact",
       "manufacturer": "Dinka",
@@ -708,7 +744,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/79/BlistaCompact-GTAVI-OfficialScreenshot-PortGellhornPostcard.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Honda CR-X",
+      "seats": 2,
+      "drivetrain": "FWD"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo.png",
@@ -716,7 +755,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-buffalo",
       "name": "Bravado Buffalo",
       "manufacturer": "Bravado",
@@ -725,7 +764,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/70/Buffalo-GTAVI-Trailer1-1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Dodge Charger (6th Generation)",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-carbonizzare.png",
@@ -733,7 +775,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-grotti-carbonizzare",
       "name": "Grotti Carbonizzare",
       "manufacturer": "Grotti",
@@ -742,7 +784,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/83/Carbonizzare-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Aston Martin V12 Zagato",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-pfister-comet-retro-custom.png",
@@ -767,7 +812,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pfister-comet-s2-cabrio",
       "name": "Pfister Comet S2 Cabrio",
       "manufacturer": "Pfister",
@@ -776,7 +821,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c2/CometS2Cabrio-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Porsche 911 Carrera Cabriolet",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette.png",
@@ -784,7 +832,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-invetero-coquette",
       "name": "Invetero Coquette",
       "manufacturer": "Invetero",
@@ -793,7 +841,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/62/Coquette-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet Corvette C7",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette-d10.png",
@@ -801,7 +852,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-invetero-coquette-d10",
       "name": "Invetero Coquette D10",
       "manufacturer": "Invetero",
@@ -810,7 +861,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/40/CoquetteD10-GTAVI-OfficialScreenshot-JasonDuval04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet Corvette C8",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-cypher.png",
@@ -818,7 +872,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bermacht-cypher",
       "name": "Übermacht Cypher",
       "manufacturer": "Übermacht",
@@ -827,7 +881,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/ff/Cypher-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "BMW M2",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-futo.png",
@@ -852,7 +909,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pfister-growler",
       "name": "Pfister Growler",
       "manufacturer": "Pfister",
@@ -861,7 +918,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/Growler-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Porsche 718 Cayman",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-itali-gto.png",
@@ -886,7 +946,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-grotti-itali-rsx",
       "name": "Grotti Itali RSX",
       "manufacturer": "Grotti",
@@ -895,7 +955,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/itali-rsx-screen.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Ferrari SF90 Stradale",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
@@ -937,7 +1000,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-enus-paragon-r",
       "name": "Enus Paragon R",
       "manufacturer": "Enus",
@@ -946,7 +1009,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/11/ParagonR-GTAVI-WebsiteAnimation.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Bentley Continental GT",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
@@ -988,7 +1054,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-dinka-sugoi",
       "name": "Dinka Sugoi",
       "manufacturer": "Dinka",
@@ -997,7 +1063,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/Sugoi-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Honda Civic Type R FK8",
+      "seats": 4,
+      "drivetrain": "FWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-sultan.png",
@@ -1005,7 +1074,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-karin-sultan",
       "name": "Karin Sultan",
       "manufacturer": "Karin",
@@ -1014,7 +1083,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/18/Sultan-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Subaru Impreza WRX STI",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-albany-v-str.png",
@@ -1022,7 +1094,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-albany-v-str",
       "name": "Albany V-STR",
       "manufacturer": "Albany",
@@ -1031,7 +1103,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/66/VSTR-GTAVI-OfficialScreenshot-AmbrosiaPostcard.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Cadillac CTS-V",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-emperor-vectre.png",
@@ -1039,7 +1114,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-emperor-vectre",
       "name": "Emperor Vectre",
       "manufacturer": "Emperor",
@@ -1048,7 +1123,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/Vectre-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lexus RC F",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-albany-alpha.jpg",
@@ -1090,7 +1168,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-fathom-fr36",
       "name": "Fathom FR36",
       "manufacturer": "Fathom",
@@ -1099,7 +1177,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/fr36.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Infiniti G35 Coupe (V35)",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-furia.png",
@@ -1107,7 +1188,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-grotti-furia",
       "name": "Grotti Furia",
       "manufacturer": "Grotti",
@@ -1116,7 +1197,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e8/Furia-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Pininfarina Battista",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
@@ -1124,7 +1208,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pegassi-tempesta",
       "name": "Pegassi Tempesta",
       "manufacturer": "Pegassi",
@@ -1133,7 +1217,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/Tempesta-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lamborghini Huracan",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
@@ -1141,7 +1228,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pegassi-zorrusso",
       "name": "Pegassi Zorrusso",
       "manufacturer": "Pegassi",
@@ -1150,7 +1237,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/Zorrusso-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Italdesign Zerouno Duerta",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
@@ -1158,7 +1248,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-truffade-thrax",
       "name": "Truffade Thrax",
       "manufacturer": "Truffade",
@@ -1167,7 +1257,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/thrax-screen.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Bugatti Divo",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-albany-buccaneer.png",
@@ -1175,7 +1268,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-albany-buccaneer",
       "name": "Albany Buccaneer",
       "manufacturer": "Albany",
@@ -1184,7 +1277,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e6/Buccaneer-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Buick Riviera",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo-stx.png",
@@ -1192,7 +1288,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-buffalo-stx",
       "name": "Bravado Buffalo STX",
       "manufacturer": "Bravado",
@@ -1201,7 +1297,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9f/BuffaloSTX-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Dodge Charger (2015 - 2023)",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-chino.png",
@@ -1226,7 +1325,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-schyster-deviant",
       "name": "Schyster Deviant",
       "manufacturer": "Schyster",
@@ -1235,7 +1334,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-06-1080.jpg",
-      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
+      "realModel": "AMC Javelin AMX",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-dominator.png",
@@ -1294,7 +1396,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-imponte-phoenix",
       "name": "Imponte Phoenix",
       "manufacturer": "Imponte",
@@ -1303,7 +1405,9 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5a/Phoenix-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-imponte-ruiner.png",
@@ -1311,7 +1415,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-imponte-ruiner",
       "name": "Imponte Ruiner",
       "manufacturer": "Imponte",
@@ -1320,7 +1424,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/76/Ruiner-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet Camaro and Pontiac Firebird",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-sabre-turbo.jpg",
@@ -1345,7 +1452,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-vapid-slamvan",
       "name": "Vapid Slamvan",
       "manufacturer": "Vapid",
@@ -1354,7 +1461,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/aa/Slamvan-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Ford F Series",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tulip.png",
@@ -1362,7 +1472,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-tulip",
       "name": "Declasse Tulip",
       "manufacturer": "Declasse",
@@ -1371,7 +1481,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/ce/Tulip-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "1972 Chevrolet Chevelle Malibu",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vamos.jpg",
@@ -1396,7 +1509,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-vigero-zx-convertible",
       "name": "Declasse Vigero ZX Convertible",
       "manufacturer": "Declasse",
@@ -1405,7 +1518,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6c/VigeroZXConvertible-GTAVI-OfficialScreenshot-ViceCity09.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet Camaro (Modern)",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-ganado-70.jpg",
@@ -1413,7 +1529,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-vapid-ganado-70",
       "name": "Vapid Ganado '70",
       "manufacturer": "Vapid",
@@ -1422,7 +1538,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f9/GTAVI-Vapid-Ganado.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Ford Ranchero 5th generation",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
@@ -1430,7 +1549,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pegassi-infernus-classic",
       "name": "Pegassi Infernus Classic",
       "manufacturer": "Pegassi",
@@ -1439,7 +1558,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/10/InfernusClassic-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lamborghini Diablo",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
@@ -1464,7 +1586,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-albany-manana",
       "name": "Albany Manana",
       "manufacturer": "Albany",
@@ -1473,7 +1595,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/Albany-Manana.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Cadillac Eldorado",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
@@ -1481,7 +1606,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bermacht-sentinel-classic",
       "name": "Übermacht Sentinel Classic",
       "manufacturer": "Übermacht",
@@ -1490,7 +1615,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/UnnamedSentinelClassicCabriolet-GTAVI-WebsiteAnimation.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "BMW E30 M3",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tornado.jpg",
@@ -1583,7 +1711,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-albany-emperor",
       "name": "Albany Emperor",
       "manufacturer": "Albany",
@@ -1592,7 +1720,9 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/51/Emperor-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Cadillac Sedan de Ville, Cadillac Fleetwood Brougham",
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-feroci.jpg",
@@ -1600,7 +1730,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-karin-feroci",
       "name": "Karin Feroci",
       "manufacturer": "Karin",
@@ -1609,7 +1739,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/feroci.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "1993 Toyota Aristo",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-intruder.png",
@@ -1617,7 +1750,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-karin-intruder",
       "name": "Karin Intruder",
       "manufacturer": "Karin",
@@ -1626,7 +1759,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f0/Intruder-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Infiniti Q45",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-lowline.jpg",
@@ -1685,7 +1821,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-benefactor-schafter-v12",
       "name": "Benefactor Schafter V12",
       "manufacturer": "Benefactor",
@@ -1694,7 +1830,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/71/SchafterV12-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Brabus SV12 R",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
@@ -1821,7 +1960,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-vapid-aleutian",
       "name": "Vapid Aleutian",
       "manufacturer": "Vapid",
@@ -1830,7 +1969,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/29/Aleutian-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Ford Expedition",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-pfister-astron.png",
@@ -1838,7 +1980,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pfister-astron",
       "name": "Pfister Astron",
       "manufacturer": "Pfister",
@@ -1847,7 +1989,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Astron-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Porsche Macan",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-gallivanter-baller-ii.png",
@@ -1855,7 +2000,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-gallivanter-baller-ii",
       "name": "Gallivanter Baller II",
       "manufacturer": "Gallivanter",
@@ -1864,7 +2009,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bf/Baller2-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Land Rover Range Rover Sport (L494)",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-albany-cavalcade-xl.jpg",
@@ -1889,7 +2037,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-vapid-contender",
       "name": "Vapid Contender",
       "manufacturer": "Vapid",
@@ -1898,7 +2046,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/59/Contender-GTAVI-OfficialScreenshot-AmbrosiaPostcard.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Toyota Tundra Devolro",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-dorado.png",
@@ -1906,7 +2057,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-dorado",
       "name": "Bravado Dorado",
       "manufacturer": "Bravado",
@@ -1915,7 +2066,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/86/Dorado-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "First Generation Dodge Durango",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-dubsta.png",
@@ -1923,7 +2077,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-benefactor-dubsta",
       "name": "Benefactor Dubsta",
       "manufacturer": "Benefactor",
@@ -1932,7 +2086,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/19/Dubsta-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Mercedes-Benz G-Class",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-granger.png",
@@ -1957,7 +2114,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-buckingham-jubilee",
       "name": "Buckingham Jubilee",
       "manufacturer": "Buckingham",
@@ -1966,7 +2123,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ec/Jubilee-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Rolls-Royce Cullinan",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
@@ -1974,7 +2134,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-dundreary-landstalker-xl",
       "name": "Dundreary Landstalker XL",
       "manufacturer": "Dundreary",
@@ -1983,7 +2143,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9f/LandstalkerXL-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lincoln Navigator",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-canis-mesa.png",
@@ -1991,7 +2154,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-canis-mesa",
       "name": "Canis Mesa",
       "manufacturer": "Canis",
@@ -2000,7 +2163,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/Mesa-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Jeep Wrangler",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-montagne.jpg",
@@ -2076,7 +2242,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pegassi-toros",
       "name": "Pegassi Toros",
       "manufacturer": "Pegassi",
@@ -2085,7 +2251,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1a/Toros-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lamborghini Urus",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
@@ -2127,7 +2296,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-bison-900-95-monster-truck",
       "name": "Bravado Bison 900 '95 Monster Truck",
       "manufacturer": "Bravado",
@@ -2136,7 +2305,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a7/UnnamedBravadoMonsterTruck-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Dodge Ram Quad Cab",
+      "seats": 6,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-blazer.png",
@@ -2144,7 +2316,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-nagasaki-blazer",
       "name": "Nagasaki Blazer",
       "manufacturer": "Nagasaki",
@@ -2153,7 +2325,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/07/Blazer-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Yamaha YFZ450r",
+      "seats": 1,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-caracara.png",
@@ -2178,7 +2353,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-annis-hellion",
       "name": "Annis Hellion",
       "manufacturer": "Annis",
@@ -2187,7 +2362,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6e/Hellion-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Nissan Patrol Safari Y6",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-canis-kamacho.jpg",
@@ -2195,7 +2373,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-canis-kamacho",
       "name": "Canis Kamacho",
       "manufacturer": "Canis",
@@ -2204,7 +2382,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/85/Kamacho-GTAVI-Artwork-JasonAndLucia02.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Jeep Crew Chief 715",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-liberator.jpg",
@@ -2229,7 +2410,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-maibatsu-manchez",
       "name": "Maibatsu Manchez",
       "manufacturer": "Maibatsu",
@@ -2238,7 +2419,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/Manchez-GTAVI-OfficialScreenshot-MountKalaga01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Armstrong MT500",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
@@ -2246,7 +2430,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-nagasaki-outlaw",
       "name": "Nagasaki Outlaw",
       "manufacturer": "Nagasaki",
@@ -2255,7 +2439,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Outlaw-GTAVI-OfficialScreenshot-ViceCity09.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Can-Am Maverick X3 Turbo",
+      "seats": 2,
+      "drivetrain": "AWD",
+      "seenIn": "Vice City 09, Ambrosia 06"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-rancher.png",
@@ -2263,7 +2451,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-rancher",
       "name": "Declasse Rancher",
       "manufacturer": "Declasse",
@@ -2272,7 +2460,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/76/Rancher-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet K5 Blazer",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-karin-rebel.png",
@@ -2280,7 +2471,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-karin-rebel",
       "name": "Karin Rebel",
       "manufacturer": "Karin",
@@ -2289,7 +2480,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/75/Rebel-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Fourth Generation Toyota Hilux",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-reclaimer.jpg",
@@ -2314,7 +2508,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-maibatsu-sanchez",
       "name": "Maibatsu Sanchez",
       "manufacturer": "Maibatsu",
@@ -2323,7 +2517,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0a/Sanchez-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Yamaha YZ450F",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
@@ -2348,7 +2545,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-dinka-verus",
       "name": "Dinka Verus",
       "manufacturer": "Dinka",
@@ -2357,7 +2554,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Verus-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Honda FourTrax Rancher",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-walton-l35.png",
@@ -2365,7 +2565,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-walton-l35",
       "name": "Declasse Walton L35",
       "manufacturer": "Declasse",
@@ -2374,7 +2574,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/WaltonL35-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet S-10 Tahoe",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-yosemite-1500.png",
@@ -2382,7 +2585,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-yosemite-1500",
       "name": "Declasse Yosemite 1500",
       "manufacturer": "Declasse",
@@ -2391,7 +2594,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Yosemite1500-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet Silverado",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-swamp-buggy.png",
@@ -2450,7 +2656,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-nagasaki-carbon-rs",
       "name": "Nagasaki Carbon RS",
       "manufacturer": "Nagasaki",
@@ -2459,7 +2665,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a5/UnnamedCarbonRSStockMotorcycle-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Ducati 1199 Panigale",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-double-t.png",
@@ -2467,7 +2676,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-dinka-double-t",
       "name": "Dinka Double-T",
       "manufacturer": "Dinka",
@@ -2476,7 +2685,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/44/DoubleT-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Honda CBR1000RR",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-faggio.png",
@@ -2484,7 +2696,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-pegassi-faggio",
       "name": "Pegassi Faggio",
       "manufacturer": "Pegassi",
@@ -2493,7 +2705,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/93/Faggio-GTAVI-Videos-JasonLucia01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Piaggio Vespa",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-western-nightblade.jpg",
@@ -2586,7 +2801,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-endurex-race-bike",
       "name": "Endurex Race Bike",
       "manufacturer": "Endurex",
@@ -2595,7 +2810,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/endurex-race-bike.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Pinarello Dogma",
+      "seats": 1,
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-scorcher.png",
@@ -2671,7 +2889,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-lure-predator-l35p",
       "name": "Lure Predator L35P",
       "manufacturer": "Lure",
@@ -2680,7 +2898,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/34/UnnamedLurePredatorBoat-GTAVI-OfficialScreenshot-LeonidaKeys05.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Contendor 25T",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-marquis.png",
@@ -2722,7 +2943,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-speedophile-seashark",
       "name": "Speedophile Seashark",
       "manufacturer": "Speedophile",
@@ -2731,7 +2952,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/33/Seashark-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Sea-Doo RXT-X",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-speeder.jpg",
@@ -2807,7 +3031,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-mammoth-dodo",
       "name": "Mammoth Dodo",
       "manufacturer": "Mammoth",
@@ -2816,7 +3040,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/df/Dodo-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "DHC-2 Beaver",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-western-company-duster.png",
@@ -2824,7 +3051,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-western-company-duster",
       "name": "Western Company Duster",
       "manufacturer": "Western Company",
@@ -2833,7 +3060,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Duster-GTAVI-OfficialScreenshot-Ambrosia04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Boeing-Stearman Model 75",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-jet-di-linea.png",
@@ -2841,7 +3071,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-jet-di-linea",
       "name": "Jet di linea",
       "manufacturer": null,
@@ -2850,7 +3080,9 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Jet-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Boeing 747",
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-western-company-mallard.jpg",
@@ -2875,7 +3107,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-jobuilt-mammatus",
       "name": "JoBuilt Mammatus",
       "manufacturer": "JoBuilt",
@@ -2884,7 +3116,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bc/Mammatus-GTAVI-Artwork-LeonidaKeys.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Cessna 172",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-nimbus.png",
@@ -2892,7 +3127,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-buckingham-nimbus",
       "name": "Buckingham Nimbus",
       "manufacturer": "Buckingham",
@@ -2901,7 +3136,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cd/Nimbus-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Cessna Citation X",
+      "seats": 8,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-shamal.png",
@@ -2909,7 +3147,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-buckingham-shamal",
       "name": "Buckingham Shamal",
       "manufacturer": "Buckingham",
@@ -2918,7 +3156,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Shamal-GTAVI-OfficialScreenshot-ViceCity01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Learjet 45",
+      "seats": 10,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-mammoth-streamer216.jpg",
@@ -2977,7 +3218,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-sea-sparrow",
       "name": "Sea Sparrow",
       "manufacturer": null,
@@ -2986,7 +3227,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/SeaSparrow-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Bell H-13 Sioux",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-supervolito.png",
@@ -2994,7 +3238,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-buckingham-supervolito",
       "name": "Buckingham SuperVolito",
       "manufacturer": "Buckingham",
@@ -3003,7 +3247,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4b/SuperVolito-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Eurocopter EC145",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-swift.png",
@@ -3011,7 +3258,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-buckingham-swift",
       "name": "Buckingham Swift",
       "manufacturer": "Buckingham",
@@ -3020,7 +3267,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4a/Swift-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "AgustaWestland AW109S Grand",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-brute-ambulance.jpg",
@@ -3079,7 +3329,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-bravado-police-buffalo-stx-pursuit",
       "name": "Bravado Police Buffalo STX Pursuit",
       "manufacturer": "Bravado",
@@ -3088,7 +3338,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b1/BuffaloSTXPursuit-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Dodge Charger Pursuit (2015)",
+      "seats": 4,
+      "drivetrain": "RWD",
+      "seenIn": "Vice City 06, Jason and Lucia 09, Lucia Caminos 07"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-police-gauntlet-interceptor.png",
@@ -3130,7 +3384,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-brute-police-riot",
       "name": "Brute Police Riot",
       "manufacturer": "Brute",
@@ -3139,7 +3393,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4f/PoliceRiot-GTAVI-Trailer2-1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Lenco BEAR",
+      "seats": 8,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-airport-bus.jpg",
@@ -3504,7 +3761,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-mtl-packer",
       "name": "MTL Packer",
       "manufacturer": "MTL",
@@ -3513,7 +3770,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/57/Packer-GTAVI-OfficialScreenshot-AmbrosiaPostcard.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "International 4000 series",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-phantom.png",
@@ -3521,7 +3781,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-jobuilt-phantom",
       "name": "JoBuilt Phantom",
       "manufacturer": "JoBuilt",
@@ -3530,7 +3790,10 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Phantom-GTAVI-OfficialScreenshot-LeonidaKeys01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Peterbilt",
+      "seats": 2,
+      "drivetrain": "FWD"
     },
     {
       "image": "assets/img/veicoli/veh-brute-stockade.jpg",
@@ -3572,7 +3835,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-declasse-bobcat-xl",
       "name": "Declasse Bobcat XL",
       "manufacturer": "Declasse",
@@ -3581,7 +3844,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/73/BobcatXL-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "Chevrolet C/K",
+      "seats": 2,
+      "drivetrain": "RWD",
+      "seenIn": "Ambrosia 04, Grassrivers 02, Leonida Keys 01, Port Gellhorn 05"
     },
     {
       "image": "assets/img/veicoli/veh-brute-boxville.png",
@@ -3589,7 +3856,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "veh-brute-boxville",
       "name": "Brute Boxville",
       "manufacturer": "Brute",
@@ -3598,7 +3865,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c7/Boxville-GTAVI-OfficialScreenshot-Ambrosia02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "realModel": "GMC Value Van, Chevrolet Step Van",
+      "seats": 4,
+      "drivetrain": "RWD",
+      "seenIn": "Ambrosia 02"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-burrito.png",
@@ -4007,7 +4278,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg",
+      "realModel": "2018 Dodge Challenger SRT Demon",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-bravado-police-cruiser-buffalo",
@@ -4071,7 +4345,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-maverick-2.png"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-maverick-2.png",
+      "realModel": "Airbus H125",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-camion-medio-stile-chevrolet-kodiak",
@@ -4279,7 +4556,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg",
+      "realModel": "Chevrolet Impala SS (1994-1996)",
+      "seats": 3,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-declasse-moonbeam",
@@ -4311,7 +4591,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg",
+      "realModel": "1980 Chevrolet Malibu Coupe",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-dundreary-police-landstalker-xl",
@@ -4407,7 +4690,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg",
+      "realModel": "Range Rover L460",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     {
       "id": "veh-gommone-stile-highfield-sport-900",
@@ -4679,7 +4965,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg",
+      "realModel": "Audi RS 3 (3rd Generation)",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-offshore-stile-skater-388",
@@ -5031,7 +5320,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-asp-2.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-asp-2.jpg",
+      "realModel": "Ford Mustang SVT Cobra R",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     {
       "id": "veh-vapid-dominator-gt",
