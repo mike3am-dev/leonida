@@ -86,6 +86,10 @@
       ],
       "details": [
         {
+          "title": "Il punto di partenza",
+          "text": "«All'inizio vogliono stare insieme e dare un'altra possibilità alla loro relazione. Ma, man mano che il gioco va avanti, è tua da tenere o da perdere.» Giocare la storia insieme non basta a tenerli uniti: serve il tempo passato insieme."
+        },
+        {
           "title": "Quattro livelli",
           "text": "Non c'è un misuratore: la vicinanza ha quattro gradini. Il tempo insieme li fa salire, la trascuratezza li fa scendere."
         },
@@ -231,6 +235,10 @@
       "extras": [
         {
           "source": "stampa",
+          "text": "Se passi tanto tempo lontano dal letto, in fuga dalla polizia o in giorni di eccessi, si vede: viso e corpo portano i segni delle tue abitudini."
+        },
+        {
+          "source": "stampa",
           "text": "Le statistiche sono salute, cardio, forma, resistenza, forza, calorie e massa grassa."
         },
         {
@@ -348,13 +356,14 @@
       "title": "Rifugi e casa",
       "emoji": "🏠",
       "group": "Personaggi",
-      "short": "I rifugi non si comprano: arrivano con la storia e funzionano come gli accampamenti di Red Dead Redemption 2. I garage invece si comprano, per avere più posti auto.",
+      "short": "I rifugi non si comprano: arrivano con la storia e sono più vicini agli accampamenti di Red Dead Redemption 2 che ai vecchi rifugi di GTA, interattivi e vissuti come casa. I garage invece si comprano, per avere più posti auto.",
       "steps": [
-        "Sblocca i rifugi andando avanti nella storia.",
-        "Al rifugio mangi, butti la spazzatura e ti radi allo specchio.",
-        "È lì che spesso trovi il partner, ed è lì che uno dei due torna per la notte.",
+        "Sblocca i rifugi andando avanti nella storia: non sono casa tua, sei ospite in casa d'altri.",
+        "Apri il frigo: bevi qualcosa, prendi un caffè per la resistenza o un frullato proteico per la salute.",
+        "Mangia per recuperare salute e butta la spazzatura.",
+        "Sistemati i capelli: a casa puoi solo accorciarli o rasarli; per un taglio nuovo serve il barbiere.",
+        "Cerca il partner: a volte è al rifugio, a volte è fuori per le sue cose.",
         "Compra un garage per tenere più veicoli personali.",
-        "Metti un'auto rubata in garage per tenerla prima di registrarla.",
         "Chiama il veicolo personale quando vuoi: dentro trovi tutte le armi comprate."
       ],
       "details": [
@@ -365,6 +374,10 @@
         {
           "title": "Garage e bottino",
           "text": "Lo spazio nei veicoli conta anche per quanto bottino puoi portare. La refurtiva va al ricettatore, e intanto puoi lasciarla in garage."
+        },
+        {
+          "title": "Niente spesa",
+          "text": "Il frigo non va riempito: il sistema della spesa è stato provato e poi tolto per non appesantire il gioco."
         }
       ],
       "tips": [
