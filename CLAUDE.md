@@ -1,5 +1,7 @@
 # LEONIDA — istruzioni per Claude
 
+**Prima cosa da fare in una sessione nuova: leggere `STATO.md`** (dove siamo, prossimi passi, come lavora Mike, cose da tenere d'occhio).
+
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition) di Mike, installata come web app sul suo iPhone. Si parla **in italiano**. Mike non è un tecnico: quando deve fare qualcosa nel Terminale, dagli i comandi uno alla volta, in blocchi separati.
 
 ## Regole fisse
