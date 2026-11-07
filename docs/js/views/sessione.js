@@ -103,11 +103,6 @@ export function render() {
       ${radio ? `<a class="card card--radio" href="#/cultura/${esc(radio.id)}"><span class="vinyl vinyl--mini"><span class="vinyl__disc"></span>${radio.image ? `<img class="vinyl__label" src="${esc(radio.image)}" alt="">` : ''}</span><span><span class="kicker kicker--accent">In onda oggi</span><h3>${esc(radio.name)}</h3><p class="small muted">${esc(radio.genre || '')}${radio.host ? ' · ' + esc(radio.host) : ''}</p></span></a>` : ''}
     </div>
 
-    <section class="block">
-      <div class="block__head"><span class="kicker">Ultime news</span><a class="small" href="#/news">Tutte</a></div>
-      <div class="cards cards--feat">${latestNews.map((n, i) => `<button type="button" class="cardx ${i === 0 ? 'cardx--wide' : ''}" data-home-news="${esc(n.id)}"><div class="cardx__img">${newsImgTag(n)}</div><div class="cardx__body"><div class="cardx__kicker">${esc(fmtDate(n.date, { day: 'numeric', month: 'long' }))}${n.outlet ? ' · ' + esc(n.outlet) : ''}</div><div class="cardx__title">${spoiler.isHidden(n) ? '⚠ Contiene spoiler' : esc(n.title)}</div></div></button>`).join('')}</div>
-    </section>
-
     <div class="actions actions--home"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
 
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
