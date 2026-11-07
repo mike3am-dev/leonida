@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.19.0** (dati 0.15.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 7 novembre 2026, versione live **v0.19.1** (dati 0.15.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -29,7 +29,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
 ## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.19.0**: Mike lo farà; aspettare la lista.
+1. **Giro di impressioni sulla v0.19.1**: Mike lo farà; aspettare la lista.
 2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
 3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
 4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
@@ -73,6 +73,12 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Chiudendo un fascicolo l'indice sotto NON si ridisegna se l'HTML è identico (`lastLeftHtml` in app.js): niente lampo delle foto.
 - Pizzico a due dita sulla mappa bloccata → il tasto «Tocca per esplorare» sobbalza (`is-nudge`).
 - Tolte 11 foto senza senso (Shanese, Aunt Tee, Gutless Wonders, Kenny Brewster; Shipping, Benzinai, Peekhole, Delights; Pegassi X, canyon del Kalaga, ponte di Bocamar): ora iniziali o icona.
+
+## 4g. Scheda tecnica (armi e veicoli)
+- `docs/js/views/specs.js`: barre Danno/Cadenza/Precisione/Gittata (armi) e Velocità/Frenata/Accelerazione/Aderenza (veicoli). Valori veri nel campo `stats` (0–10: armi `damage, rate, accuracy, range`; veicoli `speed, braking, accel, traction`). Finché manca, barre grigie tratteggiate con profilo di esempio per classe e scritta «Esempio · dati veri dal 19».
+- Campi previsti da riempire dal 19: armi `caliber, magazine, fireMode, price, whereToBuy, upgrades[{name,note,price}]`; veicoli `price, whereToFind`.
+- «Da fare qui» nelle regioni → «Completamento della regione»: anello %, «Ti manca: …», «Prossima cosa da trovare» (primo punto di riferimento non trovato).
+- Su telefono niente zoom/schiacciamento al tocco (`@media (hover: none)`).
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

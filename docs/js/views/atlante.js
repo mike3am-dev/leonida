@@ -50,7 +50,7 @@ export function popover(id) {
   body.innerHTML = `${im}
     <div class="chips" style="margin:var(--s-2) 0">${statusChip(it)}${isPoi && it.kind ? `<span class="chip">${esc(it.kind)}</span>` : ''}${isChr && it.role ? `<span class="chip">${esc(it.role)}</span>` : ''}</div>
     <p class="small">${spoiler.text(it, (it.description || it.bio || it.tagline || '').slice(0, 220))}${(it.description || it.bio || '').length > 220 ? '…' : ''}</p>
-    ${isPoi ? `<div class="whats">${whatThere(it) || '<span class="muted small">Cosa c\'è: da scoprire.</span>'}</div>` : ''}
+    ${isPoi ? `<span class="kicker" style="display:block;margin-top:var(--s-3)">Cosa puoi fare qui</span><div class="whats">${whatThere(it) || '<span class="muted small">Da scoprire in gioco.</span>'}</div>` : ''}
     <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#${isPoi ? `/mappa/${d.id}/${it.id}` : `/personaggi/${it.id}`}">Vai alla scheda</a></div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: it.name, body });
@@ -104,9 +104,23 @@ function luogoDetail(l) {
     ${l.note ? `<p class="small muted">${esc(l.note)}</p>` : ''}`;
 }
 
-function zoneStats(b) {
-  return `<div class="card zonestats"><div class="zonestats__head"><span class="kicker kicker--accent">${b.missing === 0 ? 'Territorio completato' : `Da fare qui: ${b.missing}`}</span><span class="small muted">${b.total - b.missing} / ${b.total} fatti</span></div>
-    <div class="zonestats__bars">${b.bars.map((x) => `<div class="zonestats__bar"><span>${esc(x.l)}</span><b>${x.d}<small>/${x.t}</small></b><i class="progress"><i style="--p:${x.p}%"></i></i></div>`).join('')}</div></div>`;
+/** Completamento della regione: percentuale, cosa manca (a parole) e la prossima cosa da trovare */
+function zoneStats(b, d) {
+  const pct = b.total ? Math.round((b.total - b.missing) / b.total * 100) : 0;
+  const plural = { Missioni: ['missione', 'missioni'], Collezionabili: ['collezionabile', 'collezionabili'], 'Attività': ['attività', 'attività'] };
+  const left = b.bars.filter((x) => x.t - x.d > 0).map((x) => `<b>${x.t - x.d}</b> ${plural[x.l][x.t - x.d === 1 ? 0 : 1]}`);
+  // prossima cosa: il primo punto di riferimento della regione non ancora trovato
+  const st = progress.get();
+  let next = null;
+  for (const l of luoghi().filter((x) => x.districtId === d.id)) { const i = (l.landmarks || []).findIndex((k, j) => k.xy && !st.collectibles[`lmk-${l.slug}-${j + 1}`]); if (i >= 0) { next = { l, i, k: l.landmarks[i] }; break; } }
+  const circ = 2 * Math.PI * 22;
+  return `<div class="card zonestats ${b.missing === 0 ? 'is-done' : ''}">
+    <div class="zonestats__top"><div class="zring"><svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="22" class="zring__track"/><circle cx="26" cy="26" r="22" class="zring__bar" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - pct / 100)}"/></svg><b>${pct}%</b></div>
+      <div><span class="kicker kicker--accent">${b.missing === 0 ? 'Regione completata ✓' : 'Completamento della regione'}</span>
+      <p class="zonestats__left">${b.missing === 0 ? 'Hai fatto tutto quello che si conosce qui.' : `Ti manca: ${left.join(' · ')}`}</p></div></div>
+    <div class="zonestats__bars">${b.bars.map((x) => `<div class="zonestats__bar"><span>${esc(x.l)}</span><b>${x.d}<small>/${x.t}</small></b><i class="progress"><i style="--p:${x.p}%"></i></i></div>`).join('')}</div>
+    ${next ? `<a class="zonestats__next" href="#/mappa?punto=${encodeURIComponent(`lmk:${next.l.slug}:${next.i}`)}"><svg aria-hidden="true"><use href="#i-pin"/></svg><span><small>Prossima cosa da trovare</small>${esc(next.k.name)}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
+  </div>`;
 }
 export const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
 
@@ -129,7 +143,7 @@ function zoneCard(d, expanded, num = 0) {
       </div>` : ''}
       ${d.tagline ? `<p class="lede">${esc(d.tagline)}</p>` : ''}
       <div class="prose">${spoiler.wrap(d, `<p>${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
-      ${b.total ? zoneStats(b) : ''}
+      ${b.total ? zoneStats(b, d) : ''}
       ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
           <span class="poi__thumb">${p.image ? `<img src="${esc(p.image)}" alt="">` : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>

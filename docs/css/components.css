@@ -1632,3 +1632,43 @@ h1, h2, h4, .hero__text h1, .group-head h2 { font-optical-sizing: auto; font-var
   48% { transform: translateX(calc(-50% - 6px)) scale(1.08); } 60% { transform: translateX(calc(-50% + 6px)) scale(1.06); }
   80% { transform: translateX(-50%) scale(1.04); } 100% { transform: translateX(-50%) scale(1); }
 }
+
+/* ---------- v0.20 ---------- */
+/* Niente zoom delle foto né «schiacciamento» al tocco su telefono: lo zoom resta solo col mouse */
+@media (hover: none) {
+  .cardx:hover .cardx__img img, .zcard:hover img, .placecard:hover .placecard__img img, .newsrow:hover .newsrow__img img, .castboard__panel:hover img, .frontpage:hover img, .polaroid:hover, .mb-photo:hover { transform: none !important; }
+  .tile:active, .catcard:active, .placecard:active, .zcard:active, .sticker:active, .cardx:active, .brandcard:active, .story:active { transform: none !important; }
+}
+.zonestats__top { display: flex; gap: var(--s-3); align-items: center; margin-bottom: var(--s-3); }
+.zring { position: relative; width: 58px; height: 58px; flex: none; display: grid; place-items: center; }
+.zring svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.zring__track { fill: none; stroke: var(--rule-strong); stroke-width: 5; }
+.zring__bar { fill: none; stroke: var(--accent); stroke-width: 5; stroke-linecap: round; transition: stroke-dashoffset .6s var(--ease); }
+.zring b { font: italic 800 .95rem var(--font-display); }
+.zonestats__left { margin: 2px 0 0; font-size: var(--fs-sm); color: var(--ink-2); }
+.zonestats__left b { color: var(--ink); }
+.zonestats__next { display: flex; align-items: center; gap: 10px; margin-top: var(--s-3); padding: 10px 12px; border-radius: var(--radius-sm); background: color-mix(in srgb, var(--accent) 10%, transparent); color: var(--ink); text-decoration: none; }
+.zonestats__next span { flex: 1; display: grid; font-weight: 600; }
+.zonestats__next small { font-weight: 500; font-size: var(--fs-xs); color: var(--ink-3); }
+.zonestats__next svg { width: 18px; height: 18px; color: var(--accent); flex: none; }
+.zonestats.is-done { border-color: var(--ok); box-shadow: 0 0 0 1px var(--ok), 0 0 18px color-mix(in srgb, var(--ok) 40%, transparent); }
+.zonestats.is-done .zring__bar { stroke: var(--ok); }
+/* Scheda tecnica stile guida ufficiale */
+.spec { margin: var(--s-4) 0; border-radius: var(--radius-sm); overflow: hidden; background: #15121b; color: #f3ede4; box-shadow: var(--shadow); }
+.spec__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 8px 14px; background: #000; font: 700 .78rem var(--font-text); letter-spacing: .12em; text-transform: uppercase; }
+.spec__head em { font-style: normal; font-weight: 600; letter-spacing: .04em; text-transform: none; color: #ffd166; font-size: .72rem; }
+.spec__bars { display: grid; gap: 6px; padding: 12px 14px 6px; }
+.spec__bar { display: grid; grid-template-columns: 104px minmax(0, 1fr); align-items: center; gap: 10px; }
+.spec__bar span { font: italic 700 .8rem var(--font-text); text-transform: uppercase; letter-spacing: .04em; color: #f3ede4; }
+.spec__bar i { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; height: 14px; }
+.spec__bar b { background: rgba(255,255,255,.08); border-radius: 1px; }
+.spec__bar b.on { background: linear-gradient(180deg, #ffe08a, #f2c14e); box-shadow: 0 0 6px rgba(242,193,78,.5); }
+/* Esempio: grigio tratteggiato, si capisce che è un segnaposto */
+.spec__bars.is-sample .spec__bar span { color: rgba(243,237,228,.55); }
+.spec__bars.is-sample .spec__bar b.on { background: repeating-linear-gradient(135deg, rgba(255,255,255,.38) 0 3px, rgba(255,255,255,.16) 3px 6px); box-shadow: none; }
+.spec__facts { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; margin: 0; padding: 8px 14px 4px; font-size: var(--fs-sm); }
+.spec__facts dt { color: rgba(243,237,228,.6); font-size: var(--fs-xs); letter-spacing: .06em; text-transform: uppercase; align-self: center; }
+.spec__facts dd { margin: 0; }
+.spec__todo { margin: 0; padding: 6px 14px 12px; font-size: var(--fs-xs); color: rgba(243,237,228,.5); }
+.spec__up { padding: 0 14px 12px; } .spec__up summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.spec__up table { width: 100%; font-size: var(--fs-sm); border-collapse: collapse; } .spec__up td { padding: 4px 6px; border-top: 1px solid rgba(255,255,255,.1); }

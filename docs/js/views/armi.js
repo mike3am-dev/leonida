@@ -4,6 +4,7 @@ import * as progress from '../store/progress.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf } from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { specSheet } from './specs.js';
 
 const section = sectionOf('armi');
 // Ordine della ruota (in senso orario dall'alto): come la ruota delle armi di GTA
@@ -63,7 +64,8 @@ function detail(it) {
       <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
-    ${it.realModel || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}${it.ultimate ? '<dt>Bonus</dt><dd>Ultimate Edition</dd>' : ''}</dl>` : ''}
+    ${specSheet(it, 'weapon')}
+    ${it.ultimate ? '<p class="small muted">Bonus della Ultimate Edition.</p>' : ''}
     ${it.insight ? `<div class="prose small"><p>${esc(it.insight)}</p><p class="source-line">Da <a href="https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/" target="_blank" rel="noopener">vice-central.com</a>.</p></div>` : ''}
     ${it.facts?.length ? `<section class="fsec"><h3 class="fsec__t">Cosa sappiamo</h3><ul class="flist flist--tips">${it.facts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></section>` : ''}
     ${it.seen?.length ? `<section class="fsec"><h3 class="fsec__t">Dove si è vista</h3><ul class="flist">${it.seen.map((v) => `<li><b>${esc(v.where)}</b><span>${esc(v.what)}</span></li>`).join('')}</ul></section>` : ''}
