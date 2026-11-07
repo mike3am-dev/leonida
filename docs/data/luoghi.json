@@ -116,7 +116,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l313.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l313-full.webp",
      "marker": "loc-test",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l313.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l313.webp",
+     "xy": [
+      68,
+      1641
+     ]
     },
     {
      "name": "Port Gellhorn Pawn & Gun",
@@ -125,7 +129,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l298.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l298-full.webp",
      "marker": "lmk-port-gellhorn-pawn-gun",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l298.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l298.webp",
+     "xy": [
+      86,
+      1353
+     ]
     },
     {
      "name": "Delights",
@@ -134,7 +142,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l629.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l629-full.webp",
      "marker": "loc-stripclub-gellhorn",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l629.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l629.webp",
+     "xy": [
+      88,
+      1501
+     ]
     },
     {
      "name": "Starlet Motel",
@@ -143,7 +155,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l304.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l304-full.webp",
      "marker": "lmk-starlet-motel",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l304.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l304.webp",
+     "xy": [
+      654,
+      1407
+     ]
     },
     {
      "name": "Bocamar Bridge",
@@ -152,7 +168,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l317.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l317-full.webp",
      "marker": "lmk-bocamar-bridge",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l317.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l317.webp",
+     "xy": [
+      -131,
+      2036
+     ]
     },
     {
      "name": "Gellhorn Roadhouse",
@@ -161,7 +181,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l1383.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l1383-full.webp",
      "marker": "lmk-gellhorn-roadhouse",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l1383.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l1383.webp",
+     "xy": [
+      129,
+      1662
+     ]
     },
     {
      "name": "Torre dell'acqua di Port Gellhorn",
@@ -170,7 +194,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l803.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l803-full.webp",
      "marker": "lmk-port-gellhorn-water-tower",
-     "local": "assets/img/luoghi/port-gellhorn/landmark-l803.webp"
+     "local": "assets/img/luoghi/port-gellhorn/landmark-l803.webp",
+     "xy": [
+      -89,
+      1514
+     ]
     }
    ],
    "gallery": [
@@ -474,7 +502,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l399.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l399-full.webp",
      "marker": "lmk-allied-crystal-sugar-refinery",
-     "local": "assets/img/luoghi/ambrosia/landmark-l399.webp"
+     "local": "assets/img/luoghi/ambrosia/landmark-l399.webp",
+     "xy": [
+      1991,
+      1341
+     ]
     },
     {
      "name": "Uffici Allied Crystal",
@@ -483,7 +515,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l921.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l921-full.webp",
      "marker": "lmk-allied-crystal-offices",
-     "local": "assets/img/luoghi/ambrosia/landmark-l921.webp"
+     "local": "assets/img/luoghi/ambrosia/landmark-l921.webp",
+     "xy": [
+      2127,
+      1699
+     ]
     },
     {
      "name": "Wyman's World Auto Salvage",
@@ -501,7 +537,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l403.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l403-full.webp",
      "marker": "lmk-w-blancos-cuban-foods",
-     "local": "assets/img/luoghi/ambrosia/landmark-l403.webp"
+     "local": "assets/img/luoghi/ambrosia/landmark-l403.webp",
+     "xy": [
+      2171,
+      1827
+     ]
     },
     {
      "name": "Stazione di servizio Xero",
@@ -510,7 +550,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l406.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l406-full.webp",
      "marker": "lmk-xero-gas-station",
-     "local": "assets/img/luoghi/ambrosia/landmark-l406.webp"
+     "local": "assets/img/luoghi/ambrosia/landmark-l406.webp",
+     "xy": [
+      2200,
+      1775
+     ]
     },
     {
      "name": "The Thirsty Wolf",
@@ -527,7 +571,11 @@
      "text": "Una pista di drag racing fuori città, illuminata di notte.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-ambrosia-raceway-park"
+     "marker": "lmk-ambrosia-raceway-park",
+     "xy": [
+      2021,
+      2127
+     ]
     }
    ],
    "gallery": [
@@ -814,7 +862,11 @@
      "image": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l763.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l763-full.webp",
      "marker": "lmk-backwoods-hunters-camp",
-     "local": "assets/img/luoghi/grassrivers/landmark-l763.webp"
+     "local": "assets/img/luoghi/grassrivers/landmark-l763.webp",
+     "xy": [
+      1847,
+      -2641
+     ]
     },
     {
      "name": "Torre di osservazione",
@@ -823,7 +875,11 @@
      "image": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l609.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l609-full.webp",
      "marker": "lmk-observation-tower",
-     "local": "assets/img/luoghi/grassrivers/landmark-l609.webp"
+     "local": "assets/img/luoghi/grassrivers/landmark-l609.webp",
+     "xy": [
+      1596,
+      -2125
+     ]
     },
     {
      "name": "Grassrivers Visitor Center",
@@ -831,7 +887,11 @@
      "text": "Il centro visitatori del parco ai margini meridionali della zona umida.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-grassrivers-visitor-center"
+     "marker": "lmk-grassrivers-visitor-center",
+     "xy": [
+      2191,
+      -3292
+     ]
     },
     {
      "name": "Laguna dei fenicotteri",
@@ -1126,7 +1186,11 @@
      "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l262.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l262-full.webp",
      "marker": "lmk-hamlet-water-tower",
-     "local": "assets/img/luoghi/hamlet/landmark-l262.webp"
+     "local": "assets/img/luoghi/hamlet/landmark-l262.webp",
+     "xy": [
+      2021,
+      -2342
+     ]
     },
     {
      "name": "Cancello principale del Leonida Penitentiary",
@@ -1135,7 +1199,11 @@
      "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1129.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1129-full.webp",
      "marker": "lmk-leonida-penitentiary-main-gate",
-     "local": "assets/img/luoghi/hamlet/landmark-l1129.webp"
+     "local": "assets/img/luoghi/hamlet/landmark-l1129.webp",
+     "xy": [
+      2183,
+      -2257
+     ]
     },
     {
      "name": "Torrette della prigione",
@@ -1144,7 +1212,11 @@
      "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l917.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l917-full.webp",
      "marker": "lmk-prison-watchtowers",
-     "local": "assets/img/luoghi/hamlet/landmark-l917.webp"
+     "local": "assets/img/luoghi/hamlet/landmark-l917.webp",
+     "xy": [
+      2191,
+      -2246
+     ]
     },
     {
      "name": "Sara's Unisex Salon",
@@ -1153,7 +1225,11 @@
      "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l360.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l360-full.webp",
      "marker": "lmk-saras-unisex-salon",
-     "local": "assets/img/luoghi/hamlet/landmark-l360.webp"
+     "local": "assets/img/luoghi/hamlet/landmark-l360.webp",
+     "xy": [
+      2255,
+      -2520
+     ]
     },
     {
      "name": "La palazzina del livestream",
@@ -1162,7 +1238,11 @@
      "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1843.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1843-full.webp",
      "marker": "lmk-the-livestream-apartment-block",
-     "local": "assets/img/luoghi/hamlet/landmark-l1843.webp"
+     "local": "assets/img/luoghi/hamlet/landmark-l1843.webp",
+     "xy": [
+      2177,
+      -2388
+     ]
     }
    ],
    "gallery": [
@@ -1445,7 +1525,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l36.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l36-full.webp",
      "marker": "lmk-ocean-view-hotel",
-     "local": "assets/img/luoghi/ocean-beach/landmark-l36.webp"
+     "local": "assets/img/luoghi/ocean-beach/landmark-l36.webp",
+     "xy": [
+      4834,
+      -206
+     ]
     },
     {
      "name": "Hotel Dixon",
@@ -1454,7 +1538,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l32.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l32-full.webp",
      "marker": "lmk-hotel-dixon",
-     "local": "assets/img/luoghi/ocean-beach/landmark-l32.webp"
+     "local": "assets/img/luoghi/ocean-beach/landmark-l32.webp",
+     "xy": [
+      4842,
+      -150
+     ]
     },
     {
      "name": "Torrette dei bagnini",
@@ -1463,7 +1551,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l379.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l379-full.webp",
      "marker": "lmk-lifeguard-towers",
-     "local": "assets/img/luoghi/ocean-beach/landmark-l379.webp"
+     "local": "assets/img/luoghi/ocean-beach/landmark-l379.webp",
+     "xy": [
+      4951,
+      -142
+     ]
     },
     {
      "name": "Rooftop bar Effluvia",
@@ -1472,7 +1564,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l104.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l104-full.webp",
      "marker": "lmk-effluvia-rooftop-bar",
-     "local": "assets/img/luoghi/ocean-beach/landmark-l104.webp"
+     "local": "assets/img/luoghi/ocean-beach/landmark-l104.webp",
+     "xy": [
+      4567,
+      196
+     ]
     },
     {
      "name": "Paño Rojo",
@@ -1481,7 +1577,11 @@
      "image": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l2640.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l2640-full.webp",
      "marker": "lmk-pa-o-rojo",
-     "local": "assets/img/luoghi/ocean-beach/landmark-l2640.webp"
+     "local": "assets/img/luoghi/ocean-beach/landmark-l2640.webp",
+     "xy": [
+      4665,
+      -65
+     ]
     },
     {
      "name": "Bobby Hurricane's",
@@ -1489,7 +1589,11 @@
      "text": "Una tavola calda su Shore Drive, nell'edificio dove fu girata la scena della motosega di Scarface.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-bobby-hurricanes"
+     "marker": "lmk-bobby-hurricanes",
+     "xy": [
+      4813,
+      -344
+     ]
     },
     {
      "name": "Vice Beach Police Department",
@@ -1497,7 +1601,11 @@
      "text": "La stazione di polizia locale, a pochi isolati verso l'interno su Shorefront Avenue.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-vice-beach-police-department"
+     "marker": "lmk-vice-beach-police-department",
+     "xy": [
+      4569,
+      -343
+     ]
     }
    ],
    "gallery": [
@@ -1800,7 +1908,11 @@
      "image": "https://www.gtasixmap.com/images/locations/starfish-island/landmark-l563.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/starfish-island/landmark-l563-full.webp",
      "marker": "lmk-waterfront-mansion",
-     "local": "assets/img/luoghi/starfish-island/landmark-l563.webp"
+     "local": "assets/img/luoghi/starfish-island/landmark-l563.webp",
+     "xy": [
+      4260,
+      -302
+     ]
     },
     {
      "name": "Torre dell'acqua dell'isola",
@@ -1808,7 +1920,11 @@
      "text": "Una piccola torre dell'acqua tra le tenute, abbinata alla torre dell'isola reale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-island-water-tower"
+     "marker": "lmk-island-water-tower",
+     "xy": [
+      4162,
+      -295
+     ]
     },
     {
      "name": "Base della US Coast Guard",
@@ -1816,7 +1932,11 @@
      "text": "Sulla strada sopraelevata appena a sud dell'isola, con motovedette nella baia.",
      "image": null,
      "imageFull": null,
-     "marker": "gov-us-coast-guard-base"
+     "marker": "gov-us-coast-guard-base",
+     "xy": [
+      4340,
+      -510
+     ]
     }
    ],
    "gallery": [],
@@ -2066,7 +2186,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l575.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l575-full.webp",
      "marker": "lmk-causeway-bridges",
-     "local": "assets/img/luoghi/watson-island/landmark-l575.webp"
+     "local": "assets/img/luoghi/watson-island/landmark-l575.webp",
+     "xy": [
+      3692,
+      -273
+     ]
     },
     {
      "name": "Tunnel del porto",
@@ -2074,7 +2198,11 @@
      "text": "Il tunnel stradale per Port Vice City, teatro dell'inseguimento della polizia a Lucia in uno screenshot ufficiale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-port-tunnel"
+     "marker": "lmk-port-tunnel",
+     "xy": [
+      3877,
+      -431
+     ]
     },
     {
      "name": "Base per idrovolanti",
@@ -2083,7 +2211,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l836.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l836-full.webp",
      "marker": "lmk-seaplane-base",
-     "local": "assets/img/luoghi/watson-island/landmark-l836.webp"
+     "local": "assets/img/luoghi/watson-island/landmark-l836.webp",
+     "xy": [
+      3818,
+      -468
+     ]
     },
     {
      "name": "Terrazza del porticciolo dell'isola",
@@ -2092,7 +2224,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l837.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l837-full.webp",
      "marker": "lmk-island-marina-deck",
-     "local": "assets/img/luoghi/watson-island/landmark-l837.webp"
+     "local": "assets/img/luoghi/watson-island/landmark-l837.webp",
+     "xy": [
+      3785,
+      -363
+     ]
     },
     {
      "name": "Base della Guardia Costiera",
@@ -2101,7 +2237,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l1472.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-island/landmark-l1472-full.webp",
      "marker": "gov-us-coast-guard-base",
-     "local": "assets/img/luoghi/watson-island/landmark-l1472.webp"
+     "local": "assets/img/luoghi/watson-island/landmark-l1472.webp",
+     "xy": [
+      4340,
+      -510
+     ]
     },
     {
      "name": "Tenda di Jungle Island",
@@ -2109,7 +2249,11 @@
      "text": "Un alto tetto bianco a forma di vela tra gli alberi, corrispondente al parco dell'isola reale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-jungle-island-tent"
+     "marker": "lmk-jungle-island-tent",
+     "xy": [
+      3852,
+      -298
+     ]
     }
    ],
    "gallery": [],
@@ -2348,7 +2492,11 @@
      "image": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l602.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l602-full.webp",
      "marker": "lmk-vice-pass-toll-plaza",
-     "local": "assets/img/luoghi/venetian-islands/landmark-l602.webp"
+     "local": "assets/img/luoghi/venetian-islands/landmark-l602.webp",
+     "xy": [
+      3780,
+      76
+     ]
     },
     {
      "name": "Redwood Suites",
@@ -2357,7 +2505,11 @@
      "image": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l151.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l151-full.webp",
      "marker": "lmk-redwood-suites",
-     "local": "assets/img/luoghi/venetian-islands/landmark-l151.webp"
+     "local": "assets/img/luoghi/venetian-islands/landmark-l151.webp",
+     "xy": [
+      3727,
+      120
+     ]
     },
     {
      "name": "Ponte orientale della strada sopraelevata",
@@ -2366,7 +2518,11 @@
      "image": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l564.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l564-full.webp",
      "marker": "lmk-eastern-causeway-bridge",
-     "local": "assets/img/luoghi/venetian-islands/landmark-l564.webp"
+     "local": "assets/img/luoghi/venetian-islands/landmark-l564.webp",
+     "xy": [
+      4415,
+      251
+     ]
     },
     {
      "name": "Campi da tennis dell'isola",
@@ -2375,7 +2531,11 @@
      "image": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l714.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l714-full.webp",
      "marker": "act-venetian-island-tennis",
-     "local": "assets/img/luoghi/venetian-islands/landmark-l714.webp"
+     "local": "assets/img/luoghi/venetian-islands/landmark-l714.webp",
+     "xy": [
+      3786,
+      98
+     ]
     },
     {
      "name": "Rivo Bridge",
@@ -2383,7 +2543,11 @@
      "text": "Il ponte all'estremità della strada sopraelevata verso la terraferma. Il suo nome richiama la vera isola di Rivo Alto.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-rivo-bridge"
+     "marker": "lmk-rivo-bridge",
+     "xy": [
+      3653,
+      38
+     ]
     }
    ],
    "gallery": [
@@ -2627,7 +2791,11 @@
      "text": "Il collegamento dell'isola con il mondo esterno. La sua controparte reale gestisce un traghetto privato per auto.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-ferry-terminal"
+     "marker": "lmk-ferry-terminal",
+     "xy": [
+      4739,
+      -1109
+     ]
     },
     {
      "name": "Ville mediterranee",
@@ -2636,7 +2804,11 @@
      "image": "https://www.gtasixmap.com/images/locations/dalton-island/landmark-l1089.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/dalton-island/landmark-l1089-full.webp",
      "marker": "lmk-mediterranean-villas",
-     "local": "assets/img/luoghi/dalton-island/landmark-l1089.webp"
+     "local": "assets/img/luoghi/dalton-island/landmark-l1089.webp",
+     "xy": [
+      4644,
+      -1381
+     ]
     },
     {
      "name": "Beach club",
@@ -2652,7 +2824,11 @@
      "text": "La grande villa antica nel cuore dell'isola.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-island-clubhouse"
+     "marker": "lmk-island-clubhouse",
+     "xy": [
+      4752,
+      -1173
+     ]
     }
    ],
    "gallery": [],
@@ -2870,7 +3046,11 @@
      "image": "https://www.gtasixmap.com/images/locations/virginia-key/landmark-l735.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/virginia-key/landmark-l735-full.webp",
      "marker": "lmk-rowing-club",
-     "local": "assets/img/luoghi/virginia-key/landmark-l735.webp"
+     "local": "assets/img/luoghi/virginia-key/landmark-l735.webp",
+     "xy": [
+      4149,
+      -1599
+     ]
     },
     {
      "name": "Stadio marino",
@@ -2878,7 +3058,11 @@
      "text": "Una tribuna in cemento rivolta verso un bacino sulla baia, abbinata dai collaboratori di GTADB in una veduta lontana.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-marine-stadium"
+     "marker": "lmk-marine-stadium",
+     "xy": [
+      4057,
+      -1620
+     ]
     },
     {
      "name": "Impianto di depurazione",
@@ -2887,7 +3071,11 @@
      "image": "https://www.gtasixmap.com/images/locations/virginia-key/landmark-l433.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/virginia-key/landmark-l433-full.webp",
      "marker": "lmk-wastewater-plant",
-     "local": "assets/img/luoghi/virginia-key/landmark-l433.webp"
+     "local": "assets/img/luoghi/virginia-key/landmark-l433.webp",
+     "xy": [
+      4179,
+      -1306
+     ]
     },
     {
      "name": "Parco storico della spiaggia",
@@ -2895,7 +3083,11 @@
      "text": "Una spiaggia sul lato oceanico dell'isola, abbinata allo storico parco balneare di Miami.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-historic-beach-park"
+     "marker": "lmk-historic-beach-park",
+     "xy": [
+      4357,
+      -1545
+     ]
     }
    ],
    "gallery": [],
@@ -3130,7 +3322,11 @@
      "text": "Un faro bianco alla punta meridionale di Catalan Key, abbinato alla struttura ancora in piedi più antica di Miami.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-catalan-key-lighthouse"
+     "marker": "lmk-catalan-key-lighthouse",
+     "xy": [
+      3487,
+      -2201
+     ]
     },
     {
      "name": "Case su palafitte",
@@ -3138,7 +3334,11 @@
      "text": "Un gruppo di case di legno su palafitte nelle acque aperte della baia meridionale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-stilt-houses"
+     "marker": "lmk-stilt-houses",
+     "xy": [
+      3556,
+      -2510
+     ]
     },
     {
      "name": "Ponte della strada sopraelevata meridionale",
@@ -3146,7 +3346,11 @@
      "text": "L'alto ponte che porta la strada dalla terraferma fino a Gloriana Key e Catalan Key.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-southern-causeway-bridge"
+     "marker": "lmk-southern-causeway-bridge",
+     "xy": [
+      3345,
+      -2428
+     ]
     }
    ],
    "gallery": [
@@ -3415,7 +3619,11 @@
      "image": "https://www.gtasixmap.com/images/locations/little-cuba/landmark-l745.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/little-cuba/landmark-l745-full.webp",
      "marker": "lmk-calle-creativa",
-     "local": "assets/img/luoghi/little-cuba/landmark-l745.webp"
+     "local": "assets/img/luoghi/little-cuba/landmark-l745.webp",
+     "xy": [
+      3049,
+      -508
+     ]
     },
     {
      "name": "La chiesa con la cupola",
@@ -3424,7 +3632,11 @@
      "image": "https://www.gtasixmap.com/images/locations/little-cuba/landmark-l212.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/little-cuba/landmark-l212-full.webp",
      "marker": "lmk-the-domed-church",
-     "local": "assets/img/luoghi/little-cuba/landmark-l212.webp"
+     "local": "assets/img/luoghi/little-cuba/landmark-l212.webp",
+     "xy": [
+      3059,
+      -596
+     ]
     },
     {
      "name": "Vice River",
@@ -3432,7 +3644,11 @@
      "text": "Il fiume sul margine meridionale di Little Cuba. Seguilo verso est per raggiungere Downtown e la baia.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-vice-river"
+     "marker": "lmk-vice-river",
+     "xy": [
+      2991,
+      -699
+     ]
     },
     {
      "name": "Fleeca Field",
@@ -3440,7 +3656,11 @@
      "text": "Casa dei Vice City Mambas, appena a nord di Little Cuba, a Rockridge. Lo stadio reale si trova a Little Havana.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-fleeca-field"
+     "marker": "lmk-fleeca-field",
+     "xy": [
+      2797,
+      22
+     ]
     }
    ],
    "gallery": [
@@ -3689,7 +3909,11 @@
      "image": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l536.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l536-full.webp",
      "marker": "lmk-paper-mill",
-     "local": "assets/img/luoghi/draper-island/landmark-l536.webp"
+     "local": "assets/img/luoghi/draper-island/landmark-l536.webp",
+     "xy": [
+      -326,
+      2346
+     ]
     },
     {
      "name": "Ponte ferroviario sollevabile",
@@ -3698,7 +3922,11 @@
      "image": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l597.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l597-full.webp",
      "marker": "lmk-rail-lift-bridge",
-     "local": "assets/img/luoghi/draper-island/landmark-l597.webp"
+     "local": "assets/img/luoghi/draper-island/landmark-l597.webp",
+     "xy": [
+      -358,
+      1918
+     ]
     },
     {
      "name": "Gru portacontainer",
@@ -3707,7 +3935,11 @@
      "image": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l1087.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l1087-full.webp",
      "marker": "lmk-container-cranes",
-     "local": "assets/img/luoghi/draper-island/landmark-l1087.webp"
+     "local": "assets/img/luoghi/draper-island/landmark-l1087.webp",
+     "xy": [
+      -662,
+      2053
+     ]
     },
     {
      "name": "Cartello della Route 9",
@@ -3943,7 +4175,11 @@
      "text": "Una piccola isola in un'insenatura sulla costa nord-orientale, non ancora vista nei filmati ufficiali.",
      "image": null,
      "imageFull": null,
-     "marker": "plc-peanut-island"
+     "marker": "plc-peanut-island",
+     "xy": [
+      3802,
+      2448
+     ]
     },
     {
      "name": "Ponti dell'insenatura",
@@ -3959,7 +4195,11 @@
      "text": "Dove la ferrovia settentrionale attraversa le colline dell'interno.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-railway-tunnel"
+     "marker": "lmk-railway-tunnel",
+     "xy": [
+      3465,
+      2645
+     ]
     }
    ],
    "gallery": [],
@@ -4176,7 +4416,11 @@
      "image": "https://www.gtasixmap.com/images/locations/north-beaches/landmark-l583.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/north-beaches/landmark-l583-full.webp",
      "marker": "lmk-rock-jetty",
-     "local": "assets/img/luoghi/north-beaches/landmark-l583.webp"
+     "local": "assets/img/luoghi/north-beaches/landmark-l583.webp",
+     "xy": [
+      4616,
+      1128
+     ]
     },
     {
      "name": "Ponte sull'insenatura",
@@ -4184,7 +4428,11 @@
      "text": "Il ponte della strada della spiaggia sull'insenatura a nord di Vice Beach.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-inlet-bridge"
+     "marker": "lmk-inlet-bridge",
+     "xy": [
+      4408,
+      1042
+     ]
     },
     {
      "name": "Torre condominiale a sommità doppia",
@@ -4193,7 +4441,11 @@
      "image": "https://www.gtasixmap.com/images/locations/north-beaches/landmark-l4.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/north-beaches/landmark-l4-full.webp",
      "marker": "lmk-twin-topped-condo-tower",
-     "local": "assets/img/luoghi/north-beaches/landmark-l4.webp"
+     "local": "assets/img/luoghi/north-beaches/landmark-l4.webp",
+     "xy": [
+      4644,
+      864
+     ]
     },
     {
      "name": "Molo per la pesca",
@@ -4201,7 +4453,11 @@
      "text": "Un molo più su lungo la costa, l'unica corrispondenza GTADB etichettata North Beaches.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-fishing-pier"
+     "marker": "lmk-fishing-pier",
+     "xy": [
+      4331,
+      1377
+     ]
     }
    ],
    "gallery": [],
@@ -4428,7 +4684,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1389.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1389-full.webp",
      "marker": "lmk-shopping-street",
-     "local": "assets/img/luoghi/bay-harbor/landmark-l1389.webp"
+     "local": "assets/img/luoghi/bay-harbor/landmark-l1389.webp",
+     "xy": [
+      4577,
+      661
+     ]
     },
     {
      "name": "Posto di polizia dell'isola privata",
@@ -4437,7 +4697,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1220.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1220-full.webp",
      "marker": "lmk-private-island-police-post",
-     "local": "assets/img/luoghi/bay-harbor/landmark-l1220.webp"
+     "local": "assets/img/luoghi/bay-harbor/landmark-l1220.webp",
+     "xy": [
+      4384,
+      805
+     ]
     },
     {
      "name": "Ponte dell'isola",
@@ -4446,7 +4710,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1313.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1313-full.webp",
      "marker": "lmk-island-bridge",
-     "local": "assets/img/luoghi/bay-harbor/landmark-l1313.webp"
+     "local": "assets/img/luoghi/bay-harbor/landmark-l1313.webp",
+     "xy": [
+      4318,
+      825
+     ]
     },
     {
      "name": "Appartamenti sul lungomare",
@@ -4455,7 +4723,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1325.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bay-harbor/landmark-l1325-full.webp",
      "marker": "lmk-waterfront-apartments",
-     "local": "assets/img/luoghi/bay-harbor/landmark-l1325.webp"
+     "local": "assets/img/luoghi/bay-harbor/landmark-l1325.webp",
+     "xy": [
+      4495,
+      701
+     ]
     },
     {
      "name": "Campo da golf Leaf Links",
@@ -4463,7 +4735,11 @@
      "text": "Il campo da golf e il lago sull'isola privata accanto, segnati sulla nostra mappa.",
      "image": null,
      "imageFull": null,
-     "marker": "act-leaf-links"
+     "marker": "act-leaf-links",
+     "xy": [
+      4048,
+      895
+     ]
     }
    ],
    "gallery": [],
@@ -4706,7 +4982,11 @@
      "image": "https://www.gtasixmap.com/images/locations/lake-leonida/landmark-l1000.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/lake-leonida/landmark-l1000-full.webp",
      "marker": "loc-lake-leonida",
-     "local": "assets/img/luoghi/lake-leonida/landmark-l1000.webp"
+     "local": "assets/img/luoghi/lake-leonida/landmark-l1000.webp",
+     "xy": [
+      2595,
+      2158
+     ]
     },
     {
      "name": "Serbatoio idrico",
@@ -4715,7 +4995,11 @@
      "image": "https://www.gtasixmap.com/images/locations/lake-leonida/landmark-l884.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/lake-leonida/landmark-l884-full.webp",
      "marker": "lmk-water-tower",
-     "local": "assets/img/luoghi/lake-leonida/landmark-l884.webp"
+     "local": "assets/img/luoghi/lake-leonida/landmark-l884.webp",
+     "xy": [
+      2177,
+      307
+     ]
     },
     {
      "name": "Parco del fango Thrillbilly",
@@ -4723,7 +5007,11 @@
      "text": "L'arena di mud bogging della festa nel fango del Trailer 1, a ovest del lago e segnata sulla nostra mappa.",
      "image": null,
      "imageFull": null,
-     "marker": "act-thrillbilly-mud-park"
+     "marker": "act-thrillbilly-mud-park",
+     "xy": [
+      1425,
+      2172
+     ]
     }
    ],
    "gallery": [
@@ -4978,7 +5266,11 @@
      "image": "https://www.gtasixmap.com/images/locations/lollipop-ridge/landmark-l402.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/lollipop-ridge/landmark-l402-full.webp",
      "marker": "lmk-tuckers-tower",
-     "local": "assets/img/luoghi/lollipop-ridge/landmark-l402.webp"
+     "local": "assets/img/luoghi/lollipop-ridge/landmark-l402.webp",
+     "xy": [
+      1410,
+      1178
+     ]
     },
     {
      "name": "Fiume del crinale",
@@ -4986,7 +5278,11 @@
      "text": "Un fiume che serpeggia tra i boschi sotto il crinale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-ridge-river"
+     "marker": "lmk-ridge-river",
+     "xy": [
+      1341,
+      1467
+     ]
     },
     {
      "name": "Gallerie ferroviarie",
@@ -4994,7 +5290,11 @@
      "text": "Dove la ferrovia taglia le colline nel suo tragitto attraverso Kelly County.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-railway-tunnels"
+     "marker": "lmk-railway-tunnels",
+     "xy": [
+      1330,
+      1906
+     ]
     }
    ],
    "gallery": [],
@@ -5225,7 +5525,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l1495.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l1495-full.webp",
      "marker": null,
-     "local": "assets/img/luoghi/watson-bay/landmark-l1495.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l1495.webp",
+     "xy": [
+      1378,
+      -1957
+     ]
     },
     {
      "name": "Serbatoio idrico di Watson Bay",
@@ -5234,7 +5538,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l544.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l544-full.webp",
      "marker": "lmk-watson-bay-water-tower",
-     "local": "assets/img/luoghi/watson-bay/landmark-l544.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l544.webp",
+     "xy": [
+      880,
+      -2445
+     ]
     },
     {
      "name": "Ristoranti su palafitte di Dock Street",
@@ -5243,7 +5551,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l395.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l395-full.webp",
      "marker": "lmk-dock-street-stilt-restaurants",
-     "local": "assets/img/luoghi/watson-bay/landmark-l395.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l395.webp",
+     "xy": [
+      712,
+      -2534
+     ]
     },
     {
      "name": "Bite House",
@@ -5252,7 +5564,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l393.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l393-full.webp",
      "marker": "lmk-bite-house",
-     "local": "assets/img/luoghi/watson-bay/landmark-l393.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l393.webp",
+     "xy": [
+      711,
+      -2508
+     ]
     },
     {
      "name": "Hotel storico",
@@ -5261,7 +5577,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l397.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l397-full.webp",
      "marker": "lmk-historic-hotel",
-     "local": "assets/img/luoghi/watson-bay/landmark-l397.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l397.webp",
+     "xy": [
+      837,
+      -2432
+     ]
     },
     {
      "name": "Caserma dei pompieri",
@@ -5270,7 +5590,11 @@
      "image": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l398.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/watson-bay/landmark-l398-full.webp",
      "marker": "lmk-fire-station",
-     "local": "assets/img/luoghi/watson-bay/landmark-l398.webp"
+     "local": "assets/img/luoghi/watson-bay/landmark-l398.webp",
+     "xy": [
+      846,
+      -2514
+     ]
     }
    ],
    "gallery": [
@@ -5527,7 +5851,11 @@
      "text": "Un punto al largo sulla mappa della community, non ancora visto nei filmati ufficiali.",
      "image": null,
      "imageFull": null,
-     "marker": "loc-osborn-reef"
+     "marker": "loc-osborn-reef",
+     "xy": [
+      4424,
+      1815
+     ]
     },
     {
      "name": "Ponte sull'insenatura",
@@ -5535,7 +5863,11 @@
      "text": "Il ponte della strada costiera sull'insenatura a sud.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-inlet-bridge"
+     "marker": "lmk-inlet-bridge",
+     "xy": [
+      4408,
+      1042
+     ]
     }
    ],
    "gallery": [],
@@ -5765,7 +6097,11 @@
      "image": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l10.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l10-full.webp",
      "marker": "lmk-rooftop-pool-tower",
-     "local": "assets/img/luoghi/washington-beach/landmark-l10.webp"
+     "local": "assets/img/luoghi/washington-beach/landmark-l10.webp",
+     "xy": [
+      4795,
+      533
+     ]
     },
     {
      "name": "Appartamenti curvi di Indian Creek",
@@ -5774,7 +6110,11 @@
      "image": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l1824.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l1824-full.webp",
      "marker": "lmk-curved-indian-creek-apartments",
-     "local": "assets/img/luoghi/washington-beach/landmark-l1824.webp"
+     "local": "assets/img/luoghi/washington-beach/landmark-l1824.webp",
+     "xy": [
+      4478,
+      809
+     ]
     },
     {
      "name": "Hotel sulla spiaggia",
@@ -5783,7 +6123,11 @@
      "image": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l1534.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/washington-beach/landmark-l1534-full.webp",
      "marker": "lmk-beachfront-hotel",
-     "local": "assets/img/luoghi/washington-beach/landmark-l1534.webp"
+     "local": "assets/img/luoghi/washington-beach/landmark-l1534.webp",
+     "xy": [
+      4588,
+      778
+     ]
     },
     {
      "name": "Y Vice City",
@@ -5791,7 +6135,11 @@
      "text": "Un grande hotel al margine meridionale di Washington Beach, uno dei pochi con un nome in vista.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-y-vice-city"
+     "marker": "lmk-y-vice-city",
+     "xy": [
+      4830,
+      338
+     ]
     },
     {
      "name": "Molo dello Squalo",
@@ -6068,7 +6416,11 @@
      "image": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2360.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2360-full.webp",
      "marker": "lmk-mamis-grocery-market",
-     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l2360.webp"
+     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l2360.webp",
+     "xy": [
+      2751,
+      -1771
+     ]
     },
     {
      "name": "A1 Fashions",
@@ -6077,7 +6429,11 @@
      "image": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2361.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2361-full.webp",
      "marker": "lmk-a1-fashions",
-     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l2361.webp"
+     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l2361.webp",
+     "xy": [
+      2754,
+      -1767
+     ]
     },
     {
      "name": "Covo dei PTT Youngin$",
@@ -6086,7 +6442,11 @@
      "image": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l1491.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l1491-full.webp",
      "marker": null,
-     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l1491.webp"
+     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l1491.webp",
+     "xy": [
+      2734,
+      -1615
+     ]
     },
     {
      "name": "Porticciolo del club nautico",
@@ -6095,7 +6455,11 @@
      "image": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l1770.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l1770-full.webp",
      "marker": "lmk-sailing-club-marina",
-     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l1770.webp"
+     "local": "assets/img/luoghi/peacock-bay-coconut-grove/landmark-l1770.webp",
+     "xy": [
+      3211,
+      -1621
+     ]
     },
     {
      "name": "Torri di SW 9th Ave",
@@ -6103,7 +6467,11 @@
      "text": "Alte torri di condomini rotonde sul viale nominato nel cartello di uscita del Trailer 2.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-sw-9th-ave-towers"
+     "marker": "lmk-sw-9th-ave-towers",
+     "xy": [
+      2952,
+      -1771
+     ]
     }
    ],
    "gallery": [
@@ -6372,7 +6740,11 @@
      "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l130.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l130-full.webp",
      "marker": "lmk-pegassi-residences",
-     "local": "assets/img/luoghi/tequesta-brickell/landmark-l130.webp"
+     "local": "assets/img/luoghi/tequesta-brickell/landmark-l130.webp",
+     "xy": [
+      3742,
+      -1189
+     ]
     },
     {
      "name": "Pegassi Residences West Tower",
@@ -6381,7 +6753,11 @@
      "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l383.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l383-full.webp",
      "marker": "lmk-pegassi-residences-west-tower",
-     "local": "assets/img/luoghi/tequesta-brickell/landmark-l383.webp"
+     "local": "assets/img/luoghi/tequesta-brickell/landmark-l383.webp",
+     "xy": [
+      3627,
+      -1085
+     ]
     },
     {
      "name": "Akio Hotel",
@@ -6390,7 +6766,11 @@
      "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l387.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l387-full.webp",
      "marker": "lmk-akio-hotel",
-     "local": "assets/img/luoghi/tequesta-brickell/landmark-l387.webp"
+     "local": "assets/img/luoghi/tequesta-brickell/landmark-l387.webp",
+     "xy": [
+      3502,
+      -1262
+     ]
     },
     {
      "name": "Sahara HQ",
@@ -6399,7 +6779,11 @@
      "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l232.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l232-full.webp",
      "marker": "lmk-sahara-hq",
-     "local": "assets/img/luoghi/tequesta-brickell/landmark-l232.webp"
+     "local": "assets/img/luoghi/tequesta-brickell/landmark-l232.webp",
+     "xy": [
+      3263,
+      -1220
+     ]
     },
     {
      "name": "Tequesta Key Bridge",
@@ -6407,7 +6791,11 @@
      "text": "Il breve ponte che è l'unico collegamento stradale dell'isola con la terraferma.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-tequesta-key-bridge"
+     "marker": "lmk-tequesta-key-bridge",
+     "xy": [
+      3452,
+      -1198
+     ]
     },
     {
      "name": "Temple Park",
@@ -6416,7 +6804,11 @@
      "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l747.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l747-full.webp",
      "marker": "lmk-temple-park",
-     "local": "assets/img/luoghi/tequesta-brickell/landmark-l747.webp"
+     "local": "assets/img/luoghi/tequesta-brickell/landmark-l747.webp",
+     "xy": [
+      3165,
+      -1052
+     ]
     }
    ],
    "gallery": [
@@ -6690,7 +7082,11 @@
      "image": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l272.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l272-full.webp",
      "marker": "lmk-long-bridge",
-     "local": "assets/img/luoghi/leonida-keys/landmark-l272.webp"
+     "local": "assets/img/luoghi/leonida-keys/landmark-l272.webp",
+     "xy": [
+      1561,
+      -4565
+     ]
     },
     {
      "name": "Vecchio ponte ferroviario",
@@ -6699,7 +7095,11 @@
      "image": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l589.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l589-full.webp",
      "marker": "lmk-old-rail-bridge",
-     "local": "assets/img/luoghi/leonida-keys/landmark-l589.webp"
+     "local": "assets/img/luoghi/leonida-keys/landmark-l589.webp",
+     "xy": [
+      434,
+      -4645
+     ]
     },
     {
      "name": "Dirigibile radar",
@@ -6708,7 +7108,11 @@
      "image": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l274.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l274-full.webp",
      "marker": "ite-blimp-spawn",
-     "local": "assets/img/luoghi/leonida-keys/landmark-l274.webp"
+     "local": "assets/img/luoghi/leonida-keys/landmark-l274.webp",
+     "xy": [
+      1183,
+      -4468
+     ]
     },
     {
      "name": "Stazione della Guardia Costiera",
@@ -6717,7 +7121,11 @@
      "image": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l275.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l275-full.webp",
      "marker": "lmk-coast-guard-station",
-     "local": "assets/img/luoghi/leonida-keys/landmark-l275.webp"
+     "local": "assets/img/luoghi/leonida-keys/landmark-l275.webp",
+     "xy": [
+      154,
+      -4470
+     ]
     },
     {
      "name": "Base aeronavale",
@@ -6725,7 +7133,11 @@
      "text": "L'aeroporto all'estremità occidentale della catena, con una torre di controllo e hangar.",
      "image": null,
      "imageFull": null,
-     "marker": "plc-key-west-equiv"
+     "marker": "plc-key-west-equiv",
+     "xy": [
+      -297,
+      -4294
+     ]
     },
     {
      "name": "Blue Crab Bar & Grill",
@@ -7033,7 +7445,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l266.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l266-full.webp",
      "marker": "lmk-jasons-stilt-house",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l266.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l266.webp",
+     "xy": [
+      2369,
+      -3733
+     ]
     },
     {
      "name": "The Rusty Anchor",
@@ -7042,7 +7458,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l325.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l325-full.webp",
      "marker": "lmk-the-rusty-anchor",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l325.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l325.webp",
+     "xy": [
+      2416,
+      -3575
+     ]
     },
     {
      "name": "Brian's Marina",
@@ -7051,7 +7471,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l326.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l326-full.webp",
      "marker": "lmk-brians-marina",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l326.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l326.webp",
+     "xy": [
+      2254,
+      -3920
+     ]
     },
     {
      "name": "Wonder Whale",
@@ -7060,7 +7484,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l332.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l332-full.webp",
      "marker": "lmk-wonder-whale",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l332.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l332.webp",
+     "xy": [
+      2037,
+      -4240
+     ]
     },
     {
      "name": "Chip's Body Shop",
@@ -7069,7 +7497,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l1381.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l1381-full.webp",
      "marker": "lmk-chips-body-shop",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l1381.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l1381.webp",
+     "xy": [
+      2014,
+      -4264
+     ]
     },
     {
      "name": "24/7 Supermarket",
@@ -7078,7 +7510,11 @@
      "image": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l341.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l341-full.webp",
      "marker": "lmk-24-7-supermarket",
-     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l341.webp"
+     "local": "assets/img/luoghi/key-lento-key-largo/landmark-l341.webp",
+     "xy": [
+      2584,
+      -3619
+     ]
     }
    ],
    "gallery": [
@@ -7371,7 +7807,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l671.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l671-full.webp",
      "marker": "lmk-shoreline-market",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l671.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l671.webp",
+     "xy": [
+      3552,
+      -481
+     ]
     },
     {
      "name": "Sahara Arena",
@@ -7380,7 +7820,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l187.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l187-full.webp",
      "marker": "lmk-sahara-arena",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l187.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l187.webp",
+     "xy": [
+      3541,
+      -326
+     ]
     },
     {
      "name": "Torre Megamundo",
@@ -7389,7 +7833,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l208.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l208-full.webp",
      "marker": "lmk-megamundo-tower",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l208.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l208.webp",
+     "xy": [
+      3445,
+      -741
+     ]
     },
     {
      "name": "NINE1NINE",
@@ -7398,7 +7846,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l190.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l190-full.webp",
      "marker": "lmk-nine1nine",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l190.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l190.webp",
+     "xy": [
+      3331,
+      -304
+     ]
     },
     {
      "name": "Galina Ballet Opera House",
@@ -7407,7 +7859,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l186.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l186-full.webp",
      "marker": "lmk-galina-ballet-opera-house",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l186.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l186.webp",
+     "xy": [
+      3424,
+      -157
+     ]
     },
     {
      "name": "Scultura dello Shoreline Park",
@@ -7416,7 +7872,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l883.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l883-full.webp",
      "marker": "lmk-shoreline-park-sculpture",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l883.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l883.webp",
+     "xy": [
+      3522,
+      -772
+     ]
     },
     {
      "name": "Palazzo di Lucia",
@@ -7425,7 +7885,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l475.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l475-full.webp",
      "marker": "lmk-lucias-apartment-block",
-     "local": "assets/img/luoghi/bayside-bayfront/landmark-l475.webp"
+     "local": "assets/img/luoghi/bayside-bayfront/landmark-l475.webp",
+     "xy": [
+      3444,
+      125
+     ]
     }
    ],
    "gallery": [
@@ -7708,7 +8172,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1488.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1488-full.webp",
      "marker": "lmk-stock-305",
-     "local": "assets/img/luoghi/bohemia/landmark-l1488.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l1488.webp",
+     "xy": [
+      3526,
+      438
+     ]
     },
     {
      "name": "Electric Fang Tattoo",
@@ -7717,7 +8185,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1482.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1482-full.webp",
      "marker": "lmk-electric-fang-tattoo",
-     "local": "assets/img/luoghi/bohemia/landmark-l1482.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l1482.webp",
+     "xy": [
+      3498,
+      480
+     ]
     },
     {
      "name": "The Hub Gallery",
@@ -7726,7 +8198,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1709.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1709-full.webp",
      "marker": "lmk-the-hub-gallery",
-     "local": "assets/img/luoghi/bohemia/landmark-l1709.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l1709.webp",
+     "xy": [
+      3494,
+      480
+     ]
     },
     {
      "name": "Vice Vinyl",
@@ -7735,7 +8211,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1781.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1781-full.webp",
      "marker": "lmk-vice-vinyl",
-     "local": "assets/img/luoghi/bohemia/landmark-l1781.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l1781.webp",
+     "xy": [
+      3497,
+      382
+     ]
     },
     {
      "name": "Vetrina Bohemia",
@@ -7744,7 +8224,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1379.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1379-full.webp",
      "marker": "lmk-bohemia-shopfront",
-     "local": "assets/img/luoghi/bohemia/landmark-l1379.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l1379.webp",
+     "xy": [
+      3502,
+      420
+     ]
     },
     {
      "name": "Fufu",
@@ -7753,7 +8237,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l2265.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l2265-full.webp",
      "marker": "lmk-fufu",
-     "local": "assets/img/luoghi/bohemia/landmark-l2265.webp"
+     "local": "assets/img/luoghi/bohemia/landmark-l2265.webp",
+     "xy": [
+      3526,
+      714
+     ]
     },
     {
      "name": "Mercato caraibico di La Perle",
@@ -8023,7 +8511,11 @@
      "image": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l530.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l530-full.webp",
      "marker": "oth-mount-kalaga",
-     "local": "assets/img/luoghi/mount-kalaga/landmark-l530.webp"
+     "local": "assets/img/luoghi/mount-kalaga/landmark-l530.webp",
+     "xy": [
+      1746,
+      3116
+     ]
     },
     {
      "name": "Strada del canyon",
@@ -8032,7 +8524,11 @@
      "image": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l1341.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l1341-full.webp",
      "marker": "lmk-canyon-road",
-     "local": "assets/img/luoghi/mount-kalaga/landmark-l1341.webp"
+     "local": "assets/img/luoghi/mount-kalaga/landmark-l1341.webp",
+     "xy": [
+      863,
+      2358
+     ]
     },
     {
      "name": "Passerella della cascata",
@@ -8041,7 +8537,11 @@
      "image": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l2939.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/mount-kalaga/landmark-l2939-full.webp",
      "marker": "lmk-waterfall-footbridge",
-     "local": "assets/img/luoghi/mount-kalaga/landmark-l2939.webp"
+     "local": "assets/img/luoghi/mount-kalaga/landmark-l2939.webp",
+     "xy": [
+      2067,
+      2881
+     ]
     },
     {
      "name": "Cartello del rischio incendi",
@@ -8066,7 +8566,11 @@
      "text": "Una diga di cemento che trattiene un bacino idrico nelle valli settentrionali.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-mountain-dam"
+     "marker": "lmk-mountain-dam",
+     "xy": [
+      2070,
+      3328
+     ]
     }
    ],
    "gallery": [
@@ -8348,7 +8852,11 @@
      "image": "https://www.gtasixmap.com/images/locations/alligator-point/landmark-l905.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/alligator-point/landmark-l905-full.webp",
      "marker": "lmk-old-railway-bridge",
-     "local": "assets/img/luoghi/alligator-point/landmark-l905.webp"
+     "local": "assets/img/luoghi/alligator-point/landmark-l905.webp",
+     "xy": [
+      1176,
+      3669
+     ]
     },
     {
      "name": "Faro della punta",
@@ -8356,7 +8864,11 @@
      "text": "Un faro sul capo, segnato dai collaboratori di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-point-lighthouse"
+     "marker": "lmk-point-lighthouse",
+     "xy": [
+      1436,
+      4357
+     ]
     },
     {
      "name": "Porticciolo",
@@ -8364,7 +8876,11 @@
      "text": "Un piccolo porto subito a sud-est della punta.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-marina"
+     "marker": "lmk-marina",
+     "xy": [
+      1492,
+      4335
+     ]
     },
     {
      "name": "Isola di palude",
@@ -8372,7 +8888,11 @@
      "text": "Una bassa isola erbosa al largo verso sud-ovest.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-marsh-island"
+     "marker": "lmk-marsh-island",
+     "xy": [
+      715,
+      3887
+     ]
     }
    ],
    "gallery": [],
@@ -8593,7 +9113,11 @@
      "text": "Una stazione sulla ferrovia che attraversa le colline settentrionali, etichettata Redhill dai collaboratori di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-redhill-train-station"
+     "marker": "lmk-redhill-train-station",
+     "xy": [
+      1620,
+      3715
+     ]
     },
     {
      "name": "Scalo merci",
@@ -8601,7 +9125,11 @@
      "text": "Binari di raccordo e vagoni merci subito a nord della stazione.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-rail-yard"
+     "marker": "lmk-rail-yard",
+     "xy": [
+      1731,
+      3775
+     ]
     },
     {
      "name": "Diga della valle",
@@ -8609,7 +9137,11 @@
      "text": "Una diga di cemento e un bacino idrico a sud-est della cittadina.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-mountain-dam"
+     "marker": "lmk-mountain-dam",
+     "xy": [
+      2070,
+      3328
+     ]
     },
     {
      "name": "Aeroporto",
@@ -8617,7 +9149,11 @@
      "text": "Una piccola pista di atterraggio tra le colline, segnata sulla nostra mappa come Lumpkin County Airport.",
      "image": null,
      "imageFull": null,
-     "marker": "act-lumpkin-county-airport"
+     "marker": "act-lumpkin-county-airport",
+     "xy": [
+      1657,
+      3877
+     ]
     },
     {
      "name": "Mount Lummox",
@@ -8625,7 +9161,11 @@
      "text": "Una cima con un nome a nord-ovest di Redhill, segnata sulla nostra mappa.",
      "image": null,
      "imageFull": null,
-     "marker": "loc-mount-lummox"
+     "marker": "loc-mount-lummox",
+     "xy": [
+      1497,
+      3902
+     ]
     }
    ],
    "gallery": [],
@@ -8852,7 +9392,11 @@
      "text": "Un'isola bassa al largo, all'estremo nord della mappa, non ancora vista nei filmati ufficiali.",
      "image": null,
      "imageFull": null,
-     "marker": "plc-north-ronaldsay"
+     "marker": "plc-north-ronaldsay",
+     "xy": [
+      2197,
+      4585
+     ]
     },
     {
      "name": "Costa barriera",
@@ -8860,7 +9404,11 @@
      "text": "La costa della terraferma a sud dell'isola, associata alle isole barriera della Georgia.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-barrier-coast"
+     "marker": "lmk-barrier-coast",
+     "xy": [
+      2450,
+      4129
+     ]
     },
     {
      "name": "Vecchio forte di mattoni",
@@ -8868,7 +9416,11 @@
      "text": "Un forte sulla costa a circa un chilometro a sud-est, associato dai collaboratori di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-old-brick-fort"
+     "marker": "lmk-old-brick-fort",
+     "xy": [
+      3042,
+      3774
+     ]
     }
    ],
    "gallery": [],
@@ -9092,7 +9644,11 @@
      "text": "Un grande lago proprio accanto al segnaposto, ideale per pesca e barche.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-forest-lake"
+     "marker": "lmk-forest-lake",
+     "xy": [
+      2732,
+      3499
+     ]
     },
     {
      "name": "Diga di montagna",
@@ -9100,7 +9656,11 @@
      "text": "Una diga che trattiene un bacino artificiale nella valle a est del lago.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-mountain-dam-fairyland-forest"
+     "marker": "lmk-mountain-dam-fairyland-forest",
+     "xy": [
+      2915,
+      3411
+     ]
     },
     {
      "name": "Mount Leonida",
@@ -9108,7 +9668,11 @@
      "text": "Una vetta con nome a sud-ovest della foresta, nella mappa di Lummox County di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-mount-leonida"
+     "marker": "lmk-mount-leonida",
+     "xy": [
+      2251,
+      3027
+     ]
     },
     {
      "name": "Galleria ferroviaria",
@@ -9116,7 +9680,11 @@
      "text": "Il punto in cui la ferrovia del nord taglia le colline vicino al fiume.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-rail-tunnel"
+     "marker": "lmk-rail-tunnel",
+     "xy": [
+      2233,
+      3037
+     ]
     }
    ],
    "gallery": [],
@@ -9344,7 +9912,11 @@
      "text": "Il porto operativo della città, a nord-ovest del lago cittadino.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-st-joseph-port"
+     "marker": "lmk-st-joseph-port",
+     "xy": [
+      3279,
+      3415
+     ]
     },
     {
      "name": "Stazione di St. Joseph",
@@ -9352,7 +9924,11 @@
      "text": "Una stazione ferroviaria sulla linea del nord, appena a sud-ovest della città.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-st-joseph-station"
+     "marker": "lmk-st-joseph-station",
+     "xy": [
+      3335,
+      2997
+     ]
     },
     {
      "name": "Black Rock Beach",
@@ -9360,7 +9936,11 @@
      "text": "Una spiaggia a sud della città associata alla riva di rocce scure vicino a Jacksonville.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-black-rock-beach"
+     "marker": "lmk-black-rock-beach",
+     "xy": [
+      3657,
+      2824
+     ]
     },
     {
      "name": "Parco costiero del forte",
@@ -9368,7 +9948,11 @@
      "text": "Un parco sulla costa a nord-ovest, associato al forte storico di Amelia Island.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-coastal-fort-park"
+     "marker": "lmk-coastal-fort-park",
+     "xy": [
+      3145,
+      3726
+     ]
     }
    ],
    "gallery": [],
@@ -9594,7 +10178,11 @@
      "image": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l549.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l549-full.webp",
      "marker": "lmk-evergreen-mall-sign",
-     "local": "assets/img/luoghi/waning-sands/landmark-l549.webp"
+     "local": "assets/img/luoghi/waning-sands/landmark-l549.webp",
+     "xy": [
+      3399,
+      1754
+     ]
     },
     {
      "name": "Evergreen Plaza",
@@ -9603,7 +10191,11 @@
      "image": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l163.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l163-full.webp",
      "marker": "lmk-evergreen-plaza",
-     "local": "assets/img/luoghi/waning-sands/landmark-l163.webp"
+     "local": "assets/img/luoghi/waning-sands/landmark-l163.webp",
+     "xy": [
+      3478,
+      1738
+     ]
     },
     {
      "name": "Cantiere",
@@ -9612,7 +10204,11 @@
      "image": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l160.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l160-full.webp",
      "marker": "lmk-construction-site",
-     "local": "assets/img/luoghi/waning-sands/landmark-l160.webp"
+     "local": "assets/img/luoghi/waning-sands/landmark-l160.webp",
+     "xy": [
+      3639,
+      1839
+     ]
     },
     {
      "name": "Ingresso di comunità recintata",
@@ -9620,7 +10216,11 @@
      "text": "L'ingresso di una comunità pianificata, associato dai collaboratori di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-gated-community-entrance"
+     "marker": "lmk-gated-community-entrance",
+     "xy": [
+      3540,
+      1920
+     ]
     }
    ],
    "gallery": [],
@@ -9845,7 +10445,11 @@
      "image": "https://www.gtasixmap.com/images/locations/bridge-ridge/landmark-l512.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/bridge-ridge/landmark-l512-full.webp",
      "marker": "act-thrillbilly-mud-park",
-     "local": "assets/img/luoghi/bridge-ridge/landmark-l512.webp"
+     "local": "assets/img/luoghi/bridge-ridge/landmark-l512.webp",
+     "xy": [
+      1425,
+      2172
+     ]
     },
     {
      "name": "Thrillbilly Hill",
@@ -9853,7 +10457,11 @@
      "text": "Una collina con nome accanto al parco del fango nella mappa di GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-thrillbilly-hill"
+     "marker": "lmk-thrillbilly-hill",
+     "xy": [
+      1632,
+      2092
+     ]
     },
     {
      "name": "Campo d'aviazione",
@@ -9861,7 +10469,11 @@
      "text": "Un piccolo campo d'aviazione rurale nella pianura ai piedi del crinale, segnato sulla nostra mappa.",
      "image": null,
      "imageFull": null,
-     "marker": "act-airglades-airport"
+     "marker": "act-airglades-airport",
+     "xy": [
+      1289,
+      1746
+     ]
     }
    ],
    "gallery": [
@@ -10102,7 +10714,11 @@
      "text": "Un lungo molo da pesca sul lungomare della città.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-gulf-pier"
+     "marker": "lmk-gulf-pier",
+     "xy": [
+      -415,
+      -684
+     ]
     },
     {
      "name": "Passeggiata sul lago",
@@ -10110,7 +10726,11 @@
      "text": "Un camminamento intorno al lago cittadino, accanto a una torre residenziale.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-lakeside-promenade"
+     "marker": "lmk-lakeside-promenade",
+     "xy": [
+      -16,
+      -311
+     ]
     },
     {
      "name": "Stazione ferroviaria di Capri",
@@ -10118,7 +10738,11 @@
      "text": "Una stazione ferroviaria accanto al lago.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-capri-train-station"
+     "marker": "lmk-capri-train-station",
+     "xy": [
+      -14,
+      -281
+     ]
     },
     {
      "name": "Rotonda centrale",
@@ -10135,7 +10759,11 @@
      "image": "https://www.gtasixmap.com/images/locations/capri/landmark-l939.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/capri/landmark-l939-full.webp",
      "marker": "lmk-clapboard-houses",
-     "local": "assets/img/luoghi/capri/landmark-l939.webp"
+     "local": "assets/img/luoghi/capri/landmark-l939.webp",
+     "xy": [
+      -130,
+      -510
+     ]
     }
    ],
    "gallery": [],
@@ -10372,7 +11000,11 @@
      "image": "https://www.gtasixmap.com/images/locations/alligator-creek/landmark-l265.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/alligator-creek/landmark-l265-full.webp",
      "marker": "lmk-stilt-camp",
-     "local": "assets/img/luoghi/alligator-creek/landmark-l265.webp"
+     "local": "assets/img/luoghi/alligator-creek/landmark-l265.webp",
+     "xy": [
+      1728,
+      -3141
+     ]
     },
     {
      "name": "Ponte di Card Sound",
@@ -10381,7 +11013,11 @@
      "image": "https://www.gtasixmap.com/images/locations/alligator-creek/landmark-l1316.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/alligator-creek/landmark-l1316-full.webp",
      "marker": "lmk-card-sound-bridge",
-     "local": "assets/img/luoghi/alligator-creek/landmark-l1316.webp"
+     "local": "assets/img/luoghi/alligator-creek/landmark-l1316.webp",
+     "xy": [
+      2867,
+      -3159
+     ]
     },
     {
      "name": "Piccolo campo d'aviazione",
@@ -10389,7 +11025,11 @@
      "text": "Una pista corta sulla strada per le Keys, segnata sulla nostra mappa come Lift Airfield.",
      "image": null,
      "imageFull": null,
-     "marker": "act-lift-airfield"
+     "marker": "act-lift-airfield",
+     "xy": [
+      2128,
+      -3042
+     ]
     }
    ],
    "gallery": [
@@ -10629,7 +11269,11 @@
      "text": "La centrale all'orizzonte dell'inquadratura di apertura di Trailer 1. GTADB ne ha associato gli edifici e le unità principali.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-fuzzard-power-station"
+     "marker": "lmk-fuzzard-power-station",
+     "xy": [
+      2817,
+      -2559
+     ]
     },
     {
      "name": "Bacini di raffreddamento",
@@ -10637,7 +11281,11 @@
      "text": "Lunghi bacini rettangolari scavati nel terreno intorno alla centrale, facili da riconoscere dall'alto.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-cooling-basins"
+     "marker": "lmk-cooling-basins",
+     "xy": [
+      2571,
+      -2762
+     ]
     },
     {
      "name": "Impianto di acque reflue",
@@ -10646,7 +11294,11 @@
      "image": "https://www.gtasixmap.com/images/locations/peregrine-bay/landmark-l1045.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/peregrine-bay/landmark-l1045-full.webp",
      "marker": "lmk-wastewater-plant-peregrine-bay",
-     "local": "assets/img/luoghi/peregrine-bay/landmark-l1045.webp"
+     "local": "assets/img/luoghi/peregrine-bay/landmark-l1045.webp",
+     "xy": [
+      2833,
+      -2328
+     ]
     },
     {
      "name": "Fuzzard Drain Canal",
@@ -10654,7 +11306,11 @@
      "text": "Un canale di drenaggio che corre dalla baia verso l'interno, in direzione di Hamlet.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-fuzzard-drain-canal"
+     "marker": "lmk-fuzzard-drain-canal",
+     "xy": [
+      2541,
+      -2086
+     ]
     }
    ],
    "gallery": [],
@@ -10899,7 +11555,11 @@
      "image": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1555.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1555-full.webp",
      "marker": "lmk-hobbs-milford-corner",
-     "local": "assets/img/luoghi/vice-beach/landmark-l1555.webp"
+     "local": "assets/img/luoghi/vice-beach/landmark-l1555.webp",
+     "xy": [
+      4549,
+      433
+     ]
     },
     {
      "name": "Diamond Dawgs e Eye & Dry",
@@ -10908,7 +11568,11 @@
      "image": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1789.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1789-full.webp",
      "marker": "lmk-diamond-dawgs-and-eye-dry",
-     "local": "assets/img/luoghi/vice-beach/landmark-l1789.webp"
+     "local": "assets/img/luoghi/vice-beach/landmark-l1789.webp",
+     "xy": [
+      4568,
+      435
+     ]
     },
     {
      "name": "Ajax Gym",
@@ -10917,7 +11581,11 @@
      "image": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1869.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1869-full.webp",
      "marker": "lmk-ajax-gym",
-     "local": "assets/img/luoghi/vice-beach/landmark-l1869.webp"
+     "local": "assets/img/luoghi/vice-beach/landmark-l1869.webp",
+     "xy": [
+      4526,
+      433
+     ]
     },
     {
      "name": "Glazin' Glory",
@@ -10926,7 +11594,11 @@
      "image": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1797.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1797-full.webp",
      "marker": "lmk-glazin-glory",
-     "local": "assets/img/luoghi/vice-beach/landmark-l1797.webp"
+     "local": "assets/img/luoghi/vice-beach/landmark-l1797.webp",
+     "xy": [
+      4556,
+      461
+     ]
     },
     {
      "name": "Vice Museum of Art",
@@ -10935,7 +11607,11 @@
      "image": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l85.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l85-full.webp",
      "marker": "lmk-vice-museum-of-art",
-     "local": "assets/img/luoghi/vice-beach/landmark-l85.webp"
+     "local": "assets/img/luoghi/vice-beach/landmark-l85.webp",
+     "xy": [
+      4738,
+      271
+     ]
     },
     {
      "name": "Murale di benvenuto di Vice Beach",
@@ -10943,7 +11619,11 @@
      "text": "Un murale all'estremità occidentale di SW 4th Street che ti dà il benvenuto a Vice Beach.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-vice-beach-welcome-mural"
+     "marker": "lmk-vice-beach-welcome-mural",
+     "xy": [
+      4517,
+      430
+     ]
     }
    ],
    "gallery": [
@@ -11218,7 +11898,11 @@
      "image": "https://www.gtasixmap.com/images/locations/goliath-titan-america/landmark-l733.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/goliath-titan-america/landmark-l733-full.webp",
      "marker": "lmk-goliath-cement-works",
-     "local": "assets/img/luoghi/goliath-titan-america/landmark-l733.webp"
+     "local": "assets/img/luoghi/goliath-titan-america/landmark-l733.webp",
+     "xy": [
+      1601,
+      -1171
+     ]
     },
     {
      "name": "Scritta VICE CITY",
@@ -11226,7 +11910,11 @@
      "text": "Le lettere giganti sopra cui vola un jet nel primo screenshot di Vice City di Rockstar, collocate all'aeroporto da GTADB.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-vice-city-sign"
+     "marker": "lmk-vice-city-sign",
+     "xy": [
+      1560,
+      -833
+     ]
     },
     {
      "name": "Torre di controllo VCIA",
@@ -11235,7 +11923,11 @@
      "image": "https://www.gtasixmap.com/images/locations/goliath-titan-america/landmark-l345.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/goliath-titan-america/landmark-l345-full.webp",
      "marker": "lmk-vcia-control-tower",
-     "local": "assets/img/luoghi/goliath-titan-america/landmark-l345.webp"
+     "local": "assets/img/luoghi/goliath-titan-america/landmark-l345.webp",
+     "xy": [
+      2358,
+      -1014
+     ]
     }
    ],
    "gallery": [
@@ -11484,7 +12176,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l697.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l697-full.webp",
      "marker": "lmk-lando-corp-container-cranes",
-     "local": "assets/img/luoghi/port-vice-city/landmark-l697.webp"
+     "local": "assets/img/luoghi/port-vice-city/landmark-l697.webp",
+     "xy": [
+      4256,
+      -1045
+     ]
     },
     {
      "name": "Terminal crociere",
@@ -11493,7 +12189,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l420.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l420-full.webp",
      "marker": "lmk-cruise-terminals",
-     "local": "assets/img/luoghi/port-vice-city/landmark-l420.webp"
+     "local": "assets/img/luoghi/port-vice-city/landmark-l420.webp",
+     "xy": [
+      4055,
+      -814
+     ]
     },
     {
      "name": "Ingresso del tunnel del porto",
@@ -11502,7 +12202,11 @@
      "image": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l1480.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/port-vice-city/landmark-l1480-full.webp",
      "marker": "lmk-port-tunnel-entrance",
-     "local": "assets/img/luoghi/port-vice-city/landmark-l1480.webp"
+     "local": "assets/img/luoghi/port-vice-city/landmark-l1480.webp",
+     "xy": [
+      4006,
+      -943
+     ]
     },
     {
      "name": "Ponte del porto",
@@ -11769,7 +12473,11 @@
      "image": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l165.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l165-full.webp",
      "marker": "lmk-arrow-gas-station",
-     "local": "assets/img/luoghi/belville-belle-glade/landmark-l165.webp"
+     "local": "assets/img/luoghi/belville-belle-glade/landmark-l165.webp",
+     "xy": [
+      3273,
+      1052
+     ]
     },
     {
      "name": "Edificio di Canal Street",
@@ -11778,7 +12486,11 @@
      "image": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l1126.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l1126-full.webp",
      "marker": "lmk-canal-street-building",
-     "local": "assets/img/luoghi/belville-belle-glade/landmark-l1126.webp"
+     "local": "assets/img/luoghi/belville-belle-glade/landmark-l1126.webp",
+     "xy": [
+      2559,
+      1084
+     ]
     }
    ],
    "gallery": [],
@@ -12003,7 +12715,11 @@
      "image": "https://www.gtasixmap.com/images/locations/buckskin-miccosukee/landmark-l2245.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/buckskin-miccosukee/landmark-l2245-full.webp",
      "marker": "lmk-buckskin-gas-station",
-     "local": "assets/img/luoghi/buckskin-miccosukee/landmark-l2245.webp"
+     "local": "assets/img/luoghi/buckskin-miccosukee/landmark-l2245.webp",
+     "xy": [
+      1453,
+      -66
+     ]
     },
     {
      "name": "Insegna dei prezzi del carburante",
@@ -12012,7 +12728,11 @@
      "image": "https://www.gtasixmap.com/images/locations/buckskin-miccosukee/landmark-l2369.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/buckskin-miccosukee/landmark-l2369-full.webp",
      "marker": "lmk-fuel-price-sign",
-     "local": "assets/img/luoghi/buckskin-miccosukee/landmark-l2369.webp"
+     "local": "assets/img/luoghi/buckskin-miccosukee/landmark-l2369.webp",
+     "xy": [
+      1441,
+      -113
+     ]
     },
     {
      "name": "Giri in airboat",
@@ -12020,7 +12740,11 @@
      "text": "Un operatore lungo la strada che offre escursioni nell'erba di palude.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-airboat-rides"
+     "marker": "lmk-airboat-rides",
+     "xy": [
+      1317,
+      -46
+     ]
     },
     {
      "name": "Villaggio",
@@ -12028,7 +12752,11 @@
      "text": "Un piccolo villaggio e attrazione sull'autostrada della palude.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-village"
+     "marker": "lmk-village",
+     "xy": [
+      1387,
+      -103
+     ]
     }
    ],
    "gallery": [],
@@ -12249,7 +12977,11 @@
      "image": "https://www.gtasixmap.com/images/locations/emerald-springs-crystal-river/landmark-l1778.webp",
      "imageFull": "https://www.gtasixmap.com/images/locations/emerald-springs-crystal-river/landmark-l1778-full.webp",
      "marker": "lmk-lookout-tower",
-     "local": "assets/img/luoghi/emerald-springs-crystal-river/landmark-l1778.webp"
+     "local": "assets/img/luoghi/emerald-springs-crystal-river/landmark-l1778.webp",
+     "xy": [
+      1285,
+      700
+     ]
     },
     {
      "name": "Fiume di King Spring",
@@ -12257,7 +12989,11 @@
      "text": "Il fiume verde e limpido associato alle sorgenti di Crystal River.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-king-spring-river"
+     "marker": "lmk-king-spring-river",
+     "xy": [
+      1238,
+      1002
+     ]
     },
     {
      "name": "Grotta delle sorgenti",
@@ -12265,7 +13001,11 @@
      "text": "Una grotta segnata dai collaboratori di GTADB sulle colline a nord-ovest delle sorgenti.",
      "image": null,
      "imageFull": null,
-     "marker": "lmk-spring-cave"
+     "marker": "lmk-spring-cave",
+     "xy": [
+      1125,
+      959
+     ]
     }
    ],
    "gallery": [],

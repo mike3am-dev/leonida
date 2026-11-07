@@ -5,7 +5,7 @@
  *   se sei offline usa l'ultima copia salvata.
  * A OGNI RELEASE: alza VERSION. La cache vecchia viene cancellata.
  */
-const VERSION = 'v0.16.1';
+const VERSION = 'v0.17.0';
 const SHELL = `leonida-shell-${VERSION}`;
 const DATA = `leonida-data-${VERSION}`;
 
