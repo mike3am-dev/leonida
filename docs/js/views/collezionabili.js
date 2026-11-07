@@ -41,7 +41,7 @@ export function render(params, query) {
       <a class="filter" role="button" aria-pressed="${!dis}" href="${link('dis', '')}">Tutte le regioni</a>
       ${vis(db.districts).filter((d) => all.some((c) => c.categoryId === cat && c.districtId === d.id)).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}
     </div>
-    ${list.filter((c) => c.image || c.emoji).length >= Math.max(6, list.length * 0.4) ? album(list, st, active) : `<span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-2)">${esc(active.name)} · ${done} / ${list.length}</span>${checklist(list, st)}`}`
+    ${active.id === 'cat-fauna' || list.filter((c) => c.image || c.emoji).length >= Math.max(6, list.length * 0.4) ? album(list, st, active) : `<span class="kicker" style="display:block;margin:var(--s-4) 0 var(--s-2)">${esc(active.name)} · ${done} / ${list.length}</span>${checklist(list, st)}`}`
     : `<p class="small muted" style="margin-top:var(--s-4)">Tocca una categoria per vedere l'album.</p>`}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Collezionabili' };
 }
@@ -100,9 +100,8 @@ function checklist(list, st) {
       <div class="check__body">
         <div class="check__title">${esc(c.name)}${c.uncertain ? ' <span class="chip chip--src-rumor">da confermare</span>' : ''}</div>
         <div class="check__meta">${esc(byId(c.categoryId)?.name?.replace('ESEMPIO — ', '') || '')} · ${c.districtId ? `<a href="#/mappa/${esc(c.districtId)}">${esc(byId(c.districtId)?.name || '')}</a>` : 'zona da scoprire'}${c.status !== 'verificato' ? ' · ' + (SRC[c.source] || 'da verificare') : ''}</div>
-        ${c.directions ? `<div class="small" style="margin-top:4px">${spoiler.text(c, c.directions)}</div>` : ''}
-        ${c.reward ? `<div class="small muted">Ricompensa: ${esc(c.reward)}</div>` : ''}
       </div>
+      ${c.directions || c.short || c.reward ? `<button type="button" class="info-btn" data-sticker-info="${esc(c.id)}" aria-label="Scheda">i</button>` : ''}
     </div>`; }).join('');
 }
 

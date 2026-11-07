@@ -1512,3 +1512,42 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 .mb-threads path { stroke-width: 3px; }
 .zonestats__bar b { font-family: var(--font-display); font-style: italic; font-weight: 700; font-size: 1.7rem; letter-spacing: 0; }
 .album-head__num { font-family: var(--font-display); font-style: italic; font-weight: 800; letter-spacing: -.02em; }
+.check--rich { grid-template-columns: var(--tap) auto minmax(0, 1fr) auto; align-items: center; }
+.check--rich .info-btn { margin-right: 4px; }
+/* Mappa in 4 pezzi (Safari su iPhone non ridisegna bene un'immagine enorme mentre scorre), fondo color mare */
+.mapboard, .mapboard__viewport { background: #2c68a4; }
+.mapboard__quads { position: absolute; inset: 0; display: grid; grid-template-columns: 1448px 1448px; grid-template-rows: 1850px 1850px; pointer-events: none; }
+.mapboard__quads img { width: 100%; height: 100%; display: block; }
+.mapboard__content { will-change: auto; }
+.wheel__bubble { fill: url(#wheel-num); stroke: rgba(255,255,255,.85); stroke-width: 1.2px; filter: drop-shadow(0 0 4px rgba(255,61,139,.7)); pointer-events: none; }
+.wheel__count { font-family: var(--font-gta); font-size: 15px; fill: #fff !important; stroke: none; letter-spacing: .14em; paint-order: normal; text-shadow: none; }
+.wheel__slice.is-empty .wheel__bubble { fill: rgba(255,255,255,.12); filter: none; }
+
+/* ---------- v0.17 mappa: livelli separati, etichette con lo zoom, Anteprima / Gioco ---------- */
+.mapboard:not([data-layers~="poi"]) .mapboard__layer--poi, .mapboard:not([data-layers~="lmk"]) .mapboard__layer--lmk { display: none; }
+.mb-pin { overflow: visible; }
+.mb-pin > img { border-radius: inherit; }
+.mb-pin--luogo { overflow: hidden; }
+.mb-pin--poi { width: 24px; height: 24px; border-radius: 50%; transform: translate(-50%, -50%) scale(calc(1 / var(--s, 1))); background: #1d1726; border: 2px solid #ffd166; display: grid; place-items: center; color: #ffd166; overflow: visible; }
+.mb-pin--poi > img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; transform: none; }
+.mb-pin--poi svg { width: 13px; height: 13px; }
+.mb-pin--lmk { width: 22px; height: 22px; border-radius: 6px; transform: translate(-50%, -50%) rotate(0) scale(calc(1 / var(--s, 1))); background: #fff; border: 2px solid #2ec4b6; overflow: visible; }
+.mb-pin--lmk > img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; transform: none; }
+.mb-pin__label { position: absolute; left: 50%; top: calc(100% + 3px); transform: translateX(-50%); white-space: nowrap; max-width: 150px; overflow: hidden; text-overflow: ellipsis; font-size: 10.5px; font-weight: 600; color: #fff; text-shadow: 0 1px 2px #000, 0 0 6px rgba(0,0,0,.9); pointer-events: none; display: none; }
+.mb-pin--luogo .mb-pin__label { transform: translateX(-50%) rotate(45deg); left: 100%; top: 100%; }
+.mapboard[data-z="mid"] .mb-pin--luogo .mb-pin__label, .mapboard[data-z="mid"] .mb-pin--poi .mb-pin__label, .mapboard[data-z="hi"] .mb-pin__label { display: block; }
+.mb-pin--luogo .mb-pin__label { display: none !important; }
+.mb-pin__tick { position: absolute; right: -5px; top: -5px; width: 12px; height: 12px; border-radius: 50%; background: var(--teal); border: 2px solid #fff; }
+.mb-pin.is-hidden { display: none; }
+.mb-pin.is-unseen { filter: grayscale(1) brightness(.85); opacity: .75; }
+.mb-pin.is-target { z-index: 5; animation: pin-target 1.2s ease-in-out 4; box-shadow: 0 0 0 4px var(--magenta), 0 0 18px var(--magenta); }
+.mb-pin.is-target .mb-pin__label { display: block !important; }
+@keyframes pin-target { 50% { box-shadow: 0 0 0 9px rgba(255,61,139,.35), 0 0 26px var(--magenta); } }
+.mb-mode { display: inline-flex; padding: 3px; border-radius: 999px; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18); }
+.mb-mode button { border: 0; background: none; color: rgba(255,255,255,.75); font: 600 .74rem var(--font-text); padding: 7px 12px; border-radius: 999px; cursor: pointer; }
+.mb-mode button[aria-pressed="true"] { background: #fff; color: #1d1726; }
+.mb-mode__hint { flex-basis: 100%; order: 0; font-size: .7rem; color: rgba(255,255,255,.7); padding: 0 4px 2px; }
+.mapboard__tools .mb-mode { order: -2; } .mapboard__tools .mb-mode__hint { order: -1; }
+.check--rich { display: flex !important; align-items: center; gap: var(--s-3); }
+.check--rich .check__body { flex: 1; min-width: 0; }
+.check--rich .check__img, .check--rich .info-btn, .check--rich .check__box { flex: none; }

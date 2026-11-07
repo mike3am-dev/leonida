@@ -71,7 +71,7 @@ function landmarkRows(l) {
       <div class="check__body"><div class="check__title"><span class="lmk__num">${String(i + 1).padStart(2, '0')}</span> ${esc(k.name)}</div>
         ${k.real ? `<div class="small"><span class="muted">Nel mondo reale:</span> ${esc(k.real)}</div>` : ''}
         <div class="small" style="margin-top:4px">${esc(k.text)}</div>
-        ${k.marker ? `<button class="btn btn--ghost lmk__map" type="button" data-gsm="${esc(k.marker)}"><svg aria-hidden="true"><use href="#i-pin"/></svg>Mostra sulla mappa</button>` : ''}
+        <a class="btn btn--ghost lmk__map" href="#/mappa?punto=${encodeURIComponent(`lmk:${l.slug}:${i}`)}"><svg aria-hidden="true"><use href="#i-pin"/></svg>Mostra sulla mappa</a>
       </div></div>`; }).join('');
 }
 
@@ -90,7 +90,7 @@ function luogoDetail(l) {
     ${l.hero?.caption ? `<p class="caption">${esc(l.hero.caption)} <span class="muted">${esc(l.hero.credit || '')}</span></p>` : ''}
     <div class="card card--glance"><span class="kicker kicker--accent">In breve</span><p>${esc(l.summary || '')}</p>
       <dl class="facts">${Object.entries(facts).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>
-      <div class="actions" style="margin:var(--s-3) 0 0"><button class="btn btn--solid" type="button" data-gsm="${esc(l.marker || '')}"><svg aria-hidden="true"><use href="#i-map"/></svg>Apri sulla mappa interattiva</button>${d ? `<a class="btn btn--ghost" href="#/mappa?zona=${esc(d.id)}">Territorio: ${esc(d.name)}</a>` : ''}</div></div>
+      <div class="actions" style="margin:var(--s-3) 0 0"><a class="btn btn--solid" href="#/mappa?punto=${encodeURIComponent('luogo:' + l.slug)}"><svg aria-hidden="true"><use href="#i-map"/></svg>Mostra sulla mappa</a>${d ? `<a class="btn btn--ghost" href="#/mappa?zona=${esc(d.id)}">Territorio: ${esc(d.name)}</a>` : ''}</div></div>
     ${l.mapThumb ? `<div class="mapstrip">${img(l.mapLocal, l.mapThumb, 'mapstrip__img', 'Posizione sulla mappa della community')}${l.xy ? `<span class="mapstrip__xy">X ${esc(String(Math.round(l.xy[0])))} · Y ${esc(String(Math.round(l.xy[1])))}</span>` : ''}</div>` : ''}
     <div class="block">${(l.sections || []).map((s, i) => acc(s.title, `<div class="prose">${(s.paragraphs || []).map((p) => `<p>${esc(p)}</p>`).join('')}${s.bullets?.length ? `<ul>${s.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>` : ''}</div>`, i === 0)).join('')}</div>
     ${l.landmarks?.length ? `<div class="block"><header class="section-head section-head--sub"><div><span class="kicker">Da trovare</span><h2>Punti di riferimento</h2></div><span class="count">${found} / ${l.landmarks.length}</span></header>
@@ -201,7 +201,11 @@ function openGsm(marker) {
   document.body.append(ov);
 }
 
-export function afterRender(root) { mapboard.mount(root); }
+export function afterRender(root) {
+  mapboard.mount(root);
+  const punto = new URLSearchParams(location.hash.split('?')[1] || '').get('punto');
+  if (punto) { history.replaceState(history.state, '', '#/mappa'); setTimeout(() => mapboard.focusPoint(punto), 120); }
+}
 
 export function bind(root, rerender) {
   mapboard.bind(root);

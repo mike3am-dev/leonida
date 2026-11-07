@@ -27,7 +27,6 @@ const PHOTO_POS = {
 };
 const PW = 340, PH = 410;
 const luoghi = () => (db.luoghi || []).filter((l) => l.xy);
-const subPlaces = () => luoghi().filter((l) => !TERRITORY_SLUGS[l.slug]);
 /** Dove sei: la regione della missione in corso; prima dell'inizio, il penitenziario di Hamlet */
 function youAreHere() {
   const m = currentMission(); const centers = districtCenters();
@@ -43,6 +42,25 @@ function districtCenters() {
   return out;
 }
 
+/* ---------- Punti sulla mappa: luoghi, punti d'interesse, punti di riferimento ---------- */
+const lmkId = (slug, i) => `lmk-${slug}-${i + 1}`;
+/** Tutti i punti con coordinate, con lo stato «visitato/trovato» */
+export function mapPoints() {
+  const st = progress.get(); const out = [];
+  for (const l of db.luoghi || []) {
+    if (l.xy && !TERRITORY_SLUGS[l.slug]) out.push({ key: `luogo:${l.slug}`, kind: 'luogo', name: l.name, xy: l.xy, districtId: l.districtId, img: [l.hero?.local, l.hero?.src], seen: !!st.discovered?.[`luogo-${l.slug}`], ref: l });
+    (l.landmarks || []).forEach((k, i) => { if (k.xy) out.push({ key: `lmk:${l.slug}:${i}`, kind: 'lmk', name: k.name, xy: k.xy, districtId: l.districtId, img: [k.local, k.image], seen: !!st.collectibles?.[lmkId(l.slug, i)], ref: k, luogo: l, idx: i }); });
+  }
+  for (const d of db.districts || []) for (const p of d.pois || []) if (p.xy) out.push({ key: `poi:${p.id}`, kind: 'poi', name: p.name, xy: p.xy, districtId: d.id, img: [p.image, null], seen: !!st.discovered?.[p.id], ref: p });
+  return out;
+}
+/** In modalità Gioco una regione è «aperta» se scoperta con la storia, segnata, o è dove sei ora */
+function regionOpen(id) {
+  if (!id) return false; const d = byId(id); if (d && isFound(d)) return true;
+  const cur = currentMission()?.districtId || progress.get().current?.districtId; if (cur === id) return true;
+  return !currentMission() && id === 'dis-hamlet';
+}
+const KIND_LABEL = { luogo: 'Luogo', poi: "Punto d'interesse", lmk: 'Punto di riferimento' };
 const prefs = () => { try { return JSON.parse(localStorage.getItem('leonida:mappa') || '{}'); } catch { return {}; } };
 const savePref = (k, v) => { const p = prefs(); p[k] = v; localStorage.setItem('leonida:mappa', JSON.stringify(p)); };
 
@@ -50,14 +68,19 @@ const savePref = (k, v) => { const p = prefs(); p[k] = v; localStorage.setItem('
 export function boardHtml(districts) {
   const p = prefs();
   const style = p.style === 'poster' ? 'poster' : 'giorno';
-  const layers = { territori: p.territori ?? true, luoghi: p.luoghi ?? true, foto: p.foto ?? true };
+  const layers = { territori: p.territori ?? true, luoghi: p.luoghi ?? true, poi: p.poi ?? true, lmk: p.lmk ?? true, foto: p.foto ?? true };
+  const mode = p.mode === 'gioco' ? 'gioco' : 'anteprima';
   const centers = districtCenters();
   const base = BASES[style] || BASES.giorno;
   const ds = districts.filter((d) => centers[d.id]);
   const badges = ds.map((d, i) => { const c = centers[d.id]; return `<button type="button" class="mb-badge ${isFound(d) ? 'is-found' : ''}" style="left:${c.x}px;top:${c.y}px" data-mb-district="${esc(d.id)}" aria-label="${esc(d.name)}"><span>${String(i + 1).padStart(2, '0')}</span></button>`; }).join('');
   const here = youAreHere();
   const hereHtml = here ? `<div class="mb-here" style="left:${here.x}px;top:${here.y}px" title="Tu sei qui"><span class="mb-here__pulse"></span><span class="mb-here__dot"></span><span class="mb-here__label">Tu sei qui</span></div>` : '';
-  const pins = subPlaces().map((l) => { const c = toPx(l.xy[0], l.xy[1]); return `<button type="button" class="mb-pin" style="left:${c.x}px;top:${c.y}px" data-mb-luogo="${esc(l.slug)}" aria-label="${esc(l.name)}">${img(l.hero?.local, l.hero?.src)}</button>`; }).join('');
+  const pts = mapPoints();
+  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (regionOpen(q.districtId) ? (q.seen ? 'is-seen' : 'is-unseen') : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${q.kind === 'poi' && !q.img[0] ? '<svg aria-hidden="true"><use href="#i-pin"/></svg>' : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
+  const pins = pts.filter((q) => q.kind === 'luogo').map(pinOf).join('');
+  const poiPins = pts.filter((q) => q.kind === 'poi').map(pinOf).join('');
+  const lmkPins = pts.filter((q) => q.kind === 'lmk').map(pinOf).join('');
   // Polaroid appiccicate sul mare, con il filo rosso fino al centro della regione (coordinate della mappa)
   const photos = ds.filter((d) => PHOTO_POS[d.id]).map((d, i) => {
     const [px, py] = PHOTO_POS[d.id], c = centers[d.id];
@@ -66,12 +89,15 @@ export function boardHtml(districts) {
   const threads = photos.map(({ px, py, c }) => { const ax = px, ay = py - PH / 2 + 18; const mx = (ax + c.x) / 2, my = Math.max(ay, c.y) + 90; return `<path d="M${ax} ${ay} Q${mx} ${my} ${c.x} ${c.y}"/><circle class="mb-thread__end" cx="${c.x}" cy="${c.y}" r="11"/>`; }).join('');
   const photoHtml = photos.map(({ d, px, py, rot }) => `<button type="button" class="mb-photo" style="left:${px - PW / 2}px;top:${py - PH / 2}px;width:${PW}px;--rot:${rot}deg" data-mb-fly="${esc(d.id)}" aria-label="${esc(d.name)}"><span class="mb-photo__pin"></span><span class="mb-photo__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}</span><span class="mb-photo__cap">${esc(d.name.replace(' National Park', ''))}</span></button>`).join('');
   const tool = (k, icon, label, on) => `<button type="button" class="mb-tool ${on ? 'is-on' : ''}" data-mb-tool="${k}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}"><svg aria-hidden="true"><use href="#i-${icon}"/></svg><span class="mb-tool__label">${esc(label)}</span></button>`;
-  return `<div class="mapboard ${base.geo ? '' : 'is-poster'} is-locked" data-style="${style}" data-layers="${Object.entries(layers).filter(([, v]) => v).map(([k]) => k).join(' ')}">
+  return `<div class="mapboard ${base.geo ? '' : 'is-poster'} is-locked" data-mode="${mode}" data-z="lo" data-style="${style}" data-layers="${Object.entries(layers).filter(([, v]) => v).map(([k]) => k).join(' ')}">
     <div class="mapboard__viewport">
       <div class="mapboard__content" style="width:${base.w}px;height:${base.h}px">
-        <img class="mapboard__base" src="${base.src}" alt="Mappa di Leonida" draggable="false" width="${base.w}" height="${base.h}">
+        <img class="mapboard__base" src="${base.geo ? 'assets/img/mappa/leonida-giorno-anteprima.jpg' : base.src}" alt="Mappa di Leonida" draggable="false" width="${base.w}" height="${base.h}">
+        ${base.geo ? `<div class="mapboard__quads" aria-hidden="true">${[0, 1, 2, 3].map((i) => `<img src="assets/img/mappa/leonida-giorno-${i}.jpg" alt="" draggable="false" decoding="async">`).join('')}</div>` : ''}
         <div class="mapboard__tiles" aria-hidden="true"></div>
         <div class="mapboard__layer mapboard__layer--foto"><svg class="mb-threads" width="${base.w}" height="${base.h}" viewBox="0 0 ${base.w} ${base.h}" aria-hidden="true">${threads}</svg>${photoHtml}</div>
+        <div class="mapboard__layer mapboard__layer--lmk">${lmkPins}</div>
+        <div class="mapboard__layer mapboard__layer--poi">${poiPins}</div>
         <div class="mapboard__layer mapboard__layer--luoghi">${pins}</div>
         <div class="mapboard__layer mapboard__layer--territori">${badges}</div>
         <div class="mapboard__layer mapboard__layer--here">${hereHtml}</div>
@@ -79,7 +105,9 @@ export function boardHtml(districts) {
       <button type="button" class="mb-explore" data-mb-tool="explore"><svg aria-hidden="true"><use href="#i-expand"/></svg><span>Esplora</span></button>
     </div>
     <div class="mapboard__tools">
-      ${tool('territori', 'map', 'Regioni', layers.territori)}${tool('luoghi', 'pin', 'Punti d’interesse', layers.luoghi)}${tool('foto', 'photo', 'Foto', layers.foto)}
+      <div class="mb-mode" role="group" aria-label="Cosa mostrare"><button type="button" data-mb-mode="anteprima" aria-pressed="${mode === 'anteprima'}">Anteprima</button><button type="button" data-mb-mode="gioco" aria-pressed="${mode === 'gioco'}">Gioco</button></div>
+      <span class="mb-mode__hint">${mode === 'gioco' ? 'Solo le regioni scoperte. Grigio = non ancora visitato, spunta = trovato.' : 'Tutto quello che si sa, per studiare.'}</span>
+      ${tool('territori', 'map', 'Regioni', layers.territori)}${tool('luoghi', 'photo', 'Luoghi', layers.luoghi)}${tool('poi', 'pin', 'Punti d’interesse', layers.poi)}${tool('lmk', 'eye', 'Punti di riferimento', layers.lmk)}${tool('foto', 'bookmark', 'Polaroid', layers.foto)}
       <span class="mb-tool__sep"></span>
       ${tool('here', 'target', 'Tu sei qui', false)}${tool('fit', 'map', 'Centra', false)}${tool('full', 'expand', 'Schermo intero', false)}
     </div>
@@ -125,21 +153,40 @@ function districtSheet(d) {
   body.addEventListener('click', (e) => { if (e.target.closest('a, [data-zone-go]')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: d.name, body });
 }
-function luogoSheet(l) {
+
+function pointSheet(q) {
   const body = document.createElement('div');
-  body.innerHTML = `${img(l.hero?.local, l.hero?.src, 'pop__img')}
-    <div class="chips" style="margin:var(--s-2) 0">${(l.badges || []).slice(0, 2).map((b) => `<span class="chip ${/Confermato/.test(b) ? 'chip--ok' : ''}">${esc(b)}</span>`).join('')}</div>
-    <p class="small">${esc(l.lead || '')}</p>
-    <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/mappa/luogo/${esc(l.slug)}">Apri la scheda</a>${l.landmarks?.length ? `<span class="small muted" style="align-self:center">${l.landmarks.length} punti da trovare</span>` : ''}</div>`;
+  const toggle = q.kind === 'lmk' ? `data-seen-collect="${esc(lmkId(q.luogo.slug, q.idx))}"` : `data-seen-discover="${esc(q.kind === 'luogo' ? 'luogo-' + q.ref.slug : q.ref.id)}"`;
+  const d = q.districtId ? byId(q.districtId) : null;
+  const text = q.kind === 'lmk' ? q.ref.text : q.kind === 'luogo' ? q.ref.lead : q.ref.description;
+  const link = q.kind === 'lmk' ? `#/mappa/luogo/${q.luogo.slug}` : q.kind === 'luogo' ? `#/mappa/luogo/${q.ref.slug}` : `#/mappa/${q.districtId}/${q.ref.id}`;
+  body.innerHTML = `${q.img[0] || q.img[1] ? img(q.img[0], q.img[1], 'pop__img') : ''}
+    <div class="chips" style="margin:var(--s-2) 0"><span class="chip">${KIND_LABEL[q.kind]}</span>${d ? `<span class="chip">${esc(d.name)}</span>` : ''}${q.kind === 'lmk' && q.ref.real ? `<span class="chip">Nel mondo reale: ${esc(q.ref.real)}</span>` : ''}</div>
+    ${text ? `<p class="small">${esc(text.slice(0, 260))}${text.length > 260 ? '…' : ''}</p>` : ''}
+    <div class="actions" style="margin-bottom:0"><button class="btn ${q.seen ? 'btn--accent' : 'btn--ghost'}" type="button" data-mb-seen ${toggle}><svg aria-hidden="true"><use href="#i-${q.seen ? 'check' : 'eye'}"/></svg>${q.seen ? 'Trovato ✓' : 'Trovato / visitato'}</button><a class="btn btn--solid" href="${link}">${q.kind === 'lmk' ? 'Apri la guida del luogo' : 'Apri la scheda'}</a></div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
-  showSheet({ title: l.name, body });
+  showSheet({ title: q.name, body });
+}
+/** Porta la mappa su un punto (da «Mostra sulla mappa»), lo fa lampeggiare e lo apre */
+export function focusPoint(key) {
+  if (!board || !pz) return;
+  const q = mapPoints().find((x) => x.key === key);
+  const xy = q?.xy || (key.startsWith('luogo:') || key.startsWith('lmk:') ? (db.luoghi || []).find((l) => l.slug === key.split(':')[1])?.xy : null);
+  if (!xy) return;
+  const c = toPx(xy[0], xy[1]);
+  const kind = key.split(':')[0]; if (kind !== 'luogo' && !board.dataset.layers.includes(kind)) board.querySelector(`[data-mb-tool="${kind}"]`)?.click();
+  board.scrollIntoView({ block: 'start' });
+  const vw = board.querySelector('.mapboard__viewport').clientWidth;
+  pz.flyTo(c.x, c.y, Math.max(pz.state().s, (vw / 2896) * 4.5));
+  board.querySelectorAll('.mb-pin.is-target').forEach((x) => x.classList.remove('is-target'));
+  const el = board.querySelector(`[data-mb-point="${CSS.escape(key)}"]`); el?.classList.add('is-target');
 }
 
 /** Da chiamare dopo ogni render della pagina Mappa */
 export function mount(root) {
   board = root.querySelector('.mapboard'); if (!board) { pz = null; return; }
   const vp = board.querySelector('.mapboard__viewport'), content = board.querySelector('.mapboard__content');
-  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: () => { updateTiles(); } });
+  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 8, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: (st) => { updateTiles(); if (board) board.dataset.z = st.s > 0.55 ? 'hi' : st.s > 0.32 ? 'mid' : 'lo'; } });
   const baseImg = board.querySelector('.mapboard__base');
   const start = () => { pz.fit(); const p = prefs(); if (p.view && board.dataset.style !== 'poster') { pz.flyTo(p.view.cx, p.view.cy, p.view.s, { animate: false }); } };
   // Blocco: finché è bloccata, il dito scorre la pagina; un tocco la sblocca, un tocco fuori la riblocca
@@ -159,12 +206,20 @@ function setStyle(style) {
 }
 
 export function bind(root) {
+  // «Trovato / visitato» dal foglio del punto (il foglio vive fuori da #app)
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-mb-seen]'); if (!b) return;
+    if (b.dataset.seenCollect) progress.toggleCollected(b.dataset.seenCollect); else progress.toggleDiscovered(b.dataset.seenDiscover);
+    document.querySelector('.sheet-backdrop')?.click(); document.dispatchEvent(new CustomEvent('leonida:rerender'));
+  });
   root.addEventListener('click', (e) => {
     if (!board || !root.contains(board)) return;
+    const md = e.target.closest('[data-mb-mode]');
+    if (md) { savePref('mode', md.dataset.mbMode); document.dispatchEvent(new CustomEvent('leonida:rerender')); return; }
     const tool = e.target.closest('[data-mb-tool]');
     if (tool) {
       const k = tool.dataset.mbTool;
-      if (['territori', 'luoghi', 'foto'].includes(k)) {
+      if (['territori', 'luoghi', 'poi', 'lmk', 'foto'].includes(k)) {
         const on = !tool.classList.contains('is-on'); tool.classList.toggle('is-on', on); tool.setAttribute('aria-pressed', on);
         const set = new Set(board.dataset.layers.split(' ').filter(Boolean)); on ? set.add(k) : set.delete(k); board.dataset.layers = [...set].join(' '); savePref(k, on);
       } else if (k === 'stile') { setStyle(board.dataset.style === 'notte' ? 'giorno' : 'notte'); }
@@ -184,7 +239,7 @@ export function bind(root) {
       pz.flyTo(c.x, c.y, target); return;
     }
     const bd = e.target.closest('[data-mb-district]'); if (bd) { const d = byId(bd.dataset.mbDistrict); if (d) districtSheet(d); return; }
-    const pin = e.target.closest('[data-mb-luogo]'); if (pin) { const l = (db.luoghi || []).find((x) => x.slug === pin.dataset.mbLuogo); if (l) luogoSheet(l); }
+    const pin = e.target.closest('[data-mb-point]'); if (pin) { const q = mapPoints().find((x) => x.key === pin.dataset.mbPoint); if (q) pointSheet(q); }
   });
   addEventListener('keydown', (e) => { if (e.key === 'Escape' && board?.classList.contains('is-full')) board.querySelector('[data-mb-tool="full"]')?.click(); });
 }

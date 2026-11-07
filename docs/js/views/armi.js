@@ -31,7 +31,8 @@ export function wheel(counts, active, favs) {
       <path d="${arc(a0, a1, R, r)}"/>
       ${f ? `<path class="wheel__fill" d="${arc(a0, a1, r + (R - r) * Math.min(1, f / Math.max(1, c)), r)}"/>` : ''}
       <text x="${lx}" y="${ly - 9}" text-anchor="middle" class="wheel__label">${esc(short || label)}</text>
-      <text x="${lx}" y="${ly + 13}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
+      <circle cx="${lx}" cy="${ly + 8}" r="11.5" class="wheel__bubble"/>
+      <text x="${lx + (String(c).length > 1 ? 0.6 : 0.3)}" y="${ly + 13.2}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
   }).join('');
   const total = Object.values(counts).reduce((a, b) => a + b, 0);
   return `<svg class="wheel" viewBox="0 0 220 220" role="group" aria-label="Ruota delle armi">
