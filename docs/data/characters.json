@@ -1575,7 +1575,7 @@
       "insightUrl": "https://vice-central.com/personnages/valentina/"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-yago.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -1590,7 +1590,9 @@
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "imageUrl": "https://gta.wiki/images/Yago-GTAVI-OfficialScreenshot-JasonDuval19.jpg",
+      "imageCredit": "Screenshot ufficiale Rockstar (Jason Duval 19) via GTA Wiki (gta.wiki)"
     },
     {
       "image": "assets/img/vice/personaggi/chr-raymond.jpg",
@@ -2141,7 +2143,7 @@
       "insightUrl": "https://vice-central.com/personnages/phil/"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-cesar.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2159,10 +2161,12 @@
         "chr-andres",
         "chr-petra"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f2/Unnamed_Businessman_5.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "Frame dell'Extended Look (discorso all'inaugurazione Megamundo, scheda «Unnamed Businessman») via GTA Wiki (gta.fandom.com)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-aunt-tee.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2179,7 +2183,9 @@
       "relations": [
         "chr-raymond"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/06/GTAVI-Aunt-Tee.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "Frame dell'Extended Look via GTA Wiki (gta.fandom.com)"
     },
     {
       "image": null,
@@ -2200,7 +2206,7 @@
       "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-macca.jpg",
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2215,10 +2221,12 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "Artwork Goodtime State – Vice City Collection via GTA Wiki (gta.fandom.com)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-erin-henshaw.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2233,10 +2241,12 @@
       "districtId": "dis-ambrosia",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/ErinHenshaw-GTAVI-OfficialScreenshot-Ambrosia01.png",
+      "imageCredit": "Screenshot ufficiale Rockstar (Ambrosia, cartellone elettorale) via GTA Wiki (gta.wiki)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-billy.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2253,7 +2263,9 @@
       "relations": [
         "chr-wyman"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/Billy-GTAVI-Portrait.png",
+      "imageCredit": "Screenshot ufficiale (Edge Magazine, Thrillbilly Mud Club) via GTA Wiki (gta.wiki)"
     },
     {
       "image": null,
@@ -2274,7 +2286,7 @@
       "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-shanese.png",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -2289,10 +2301,12 @@
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/Shanese-GTAVI-Trailer1-SnapmaticProfilePicture.png",
+      "imageCredit": "Foto profilo Snapmatic @Shaneycee, frame del Trailer 1 via GTA Wiki (gta.wiki)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-hammer-lady.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2307,10 +2321,12 @@
       "districtId": "dis-hamlet",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/HammerLady-GTAVI-Portrait.png",
+      "imageCredit": "Frame del Trailer 1 via GTA Wiki (gta.wiki)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-rudi.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2325,10 +2341,12 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5d/GTAVITrailer-GTAVI-SS32.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "Frame del Trailer 1 («RIP Rudi») via GTA Wiki (gta.fandom.com)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-leonida-joker.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -2343,7 +2361,9 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/LeonidaCriminal-GTAVI-Portrait.png/revision/latest/scale-to-width-down/1000",
+      "imageCredit": "Frame del Trailer 1 (servizio Mega Noticias) via GTA Wiki (gta.fandom.com)"
     },
     {
       "image": null,
@@ -2366,7 +2386,7 @@
       "sourceUrl": "https://www.gtavice.net/characters"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-kodak-black.jpg",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -2381,10 +2401,12 @@
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-ViceCity25.jpg",
+      "imageCredit": "Screenshot ufficiale Rockstar (Vice City 25, Jack of Hearts) via GTA Wiki (gta.wiki)"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-travis-scott.png",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -2401,7 +2423,9 @@
       "relations": [
         "chr-boobie"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters"
+      "sourceUrl": "https://www.gtavice.net/characters",
+      "imageUrl": "https://gta.wiki/images/TravisScott-Musician.png",
+      "imageCredit": "Foto d'archivio dell'artista via GTA Wiki (gta.wiki) — non è un frame di gioco"
     },
     {
       "image": null,
@@ -2438,6 +2462,304 @@
       "firstMissionId": null,
       "relations": [],
       "sourceUrl": "https://www.gtavice.net/characters"
+    },
+    {
+      "id": "chr-ricky",
+      "name": "Ricky",
+      "role": "Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Membro del Thrillbilly Mud Club e vecchio amico di Billy: dice che si conoscono dal primo spinello, nell'ora di ginnastica di terza media. Compare nello screenshot ufficiale pubblicato da Edge con gli altri soci del club. Nel leak «An Extended Leek» di ottobre 2026 è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-ricky.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Ricky",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+    },
+    {
+      "id": "chr-sam-mud-club",
+      "name": "Sam (Mud Club)",
+      "role": "Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Socia storica del Thrillbilly Mud Club. È nello screenshot ufficiale di Edge con gli altri membri e in uno screenshot in cui fugge in Sanchez con Jason e Billy attraverso Gator Plaza. Nel leak di ottobre 2026 gareggia contro Jason e Lucia sulla pista del club.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-sam-mud-club.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Sam_(Mud_Club)",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Sam-MudClub-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+    },
+    {
+      "id": "chr-brittney",
+      "name": "Brittney",
+      "role": "Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Nuova arrivata nel Thrillbilly Mud Club. Compare nello screenshot ufficiale di Edge insieme agli altri membri. Nel leak «An Extended Leek» di ottobre 2026 è tra gli avversari della gara fuoristrada organizzata da Billy.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-brittney.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Brittney",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Brittney-GTAVI-OfficialScreenshot-EdgeMagazine08.png"
+    },
+    {
+      "id": "chr-ej",
+      "name": "EJ",
+      "role": "Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Membro del Thrillbilly Mud Club, trattato dal giro di Billy come «quello lento». Visto solo nel leak «An Extended Leek» di ottobre 2026, tra gli avversari della gara fuoristrada. Nessuna immagine ufficiale.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/EJ",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-ian",
+      "name": "Ian",
+      "role": "Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Membro del Thrillbilly Mud Club. Nel leak di ottobre 2026 è presentato, con gli altri soci, come avversario nella gara di iniziazione in dirt bike di Jason organizzata da Billy. Nessuna immagine ufficiale.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Ian",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-sparky-malarky",
+      "name": "Sparky Malarky",
+      "role": "Meccanico del Thrillbilly Mud Club",
+      "tagline": "",
+      "bio": "Il meccanico del Thrillbilly Mud Club. Compare nel video «An Extended Leek» del leak di ottobre 2026. Nessuna immagine ufficiale.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Sparky_Malarky",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-krever",
+      "name": "Krever",
+      "role": "Candidato sindaco di Ambrosia",
+      "tagline": "",
+      "bio": "Il rivale di Erin Henshaw nella corsa a sindaco di Ambrosia. I suoi cartelli elettorali comparivano, parzialmente coperti, in uno screenshot ufficiale uscito col Trailer 2; il nome completo è stato letto nel leak di agosto 2026.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Krever",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-monalisa",
+      "name": "Monali$a",
+      "role": "Lavora al Jack of Hearts",
+      "tagline": "",
+      "bio": "Lavora allo strip club Jack of Hearts di Crosstown, Vice City. Il nome gioca sulla Monna Lisa di Leonardo. Personaggio minore.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-monalisa.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Monali$a",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Monali%24a-GTAVI-Portrait.png"
+    },
+    {
+      "id": "chr-chunkee-the-manatee",
+      "name": "Chunkee the Manatee",
+      "role": "Personaggio di Macca & Friends",
+      "tagline": "",
+      "bio": "Uno dei protagonisti del cartone Macca & Friends, insieme a Macca the Gator. Appare sulle pubblicità dello show (chioschi digitali, cartellone vicino all'arena) e sul crop top di Lucia nella sezione Ultimate Edition del sito ufficiale. Ha anche collezionabili reali nella Vice City Collection.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-chunkee-the-manatee.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Chunkee_the_Manatee",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png"
+    },
+    {
+      "id": "chr-pinche-the-crab",
+      "name": "Pinche the Crab",
+      "role": "Personaggio di Macca & Friends",
+      "tagline": "",
+      "bio": "Granchio del cartone Macca & Friends, visto per la prima volta in un artwork animato della sezione Vice City Collection del sito ufficiale. Compare nelle pubblicità dello show sparse per Vice City.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-pinche-the-crab.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Pinche_the_Crab",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/Macca%26Friends-PincheTheCrab-GTAVI-CE-Artwork.png"
+    },
+    {
+      "id": "chr-jimmy-canto",
+      "name": "Jimmy Canto",
+      "role": "Amico d'infanzia di Brian Heder (citato)",
+      "tagline": "",
+      "bio": "Amico d'infanzia di Brian Heder, citato nella scena sul tetto dell'Effluvia nell'Extended Look. Brian racconta di quando, ragazzini, si intrufolarono in un luna park e fecero partire una giostra: lui saltò giù in tempo, Jimmy si spaccò la testa e morì quella notte. Brian usa la storia per mettere in guardia Jason e Lucia.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Jimmy_Canto",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-lil-ricky-sawdust",
+      "name": "Lil Ricky Sawdust",
+      "role": "Musicista (poster al Rusty Anchor)",
+      "tagline": "",
+      "bio": "Musicista noto solo da un poster nel bagno degli uomini del Rusty Anchor, visto nel leak di agosto 2026: concerto venerdì 21 agosto, dalle 20 alle 22, in memoria del suo cane Hector. Avrebbe un album intitolato Dog Day Hits.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Lil_Ricky_Sawdust",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "chr-kenny-brewster",
+      "name": "Kenny Brewster",
+      "role": "Musicista (sulla maglietta di Brian)",
+      "tagline": "",
+      "bio": "Presunto cantante country: il suo nome in corsivo rosso compare sulla maglietta di Brian Heder in uno screenshot ufficiale, con quello che sembra il titolo di un disco o di una canzone, «I Gotta Big Truck With Your Face On It!». Parodia di un cantautore americano.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-kenny-brewster.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.fandom.com/wiki/Kenny_Brewster",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/KennyBrewster-GTAVI-OfficialScreenshot-BrianHeder03.png/revision/latest/scale-to-width-down/1000"
+    },
+    {
+      "id": "chr-gutless-wonders",
+      "name": "Gutless Wonders",
+      "role": "Band",
+      "tagline": "",
+      "bio": "Gruppo musicale citato per la prima volta nel leak del 2022, su un volantino nel Jack of Hearts che annuncia un concerto al Rusty Anchor il 21 novembre, biglietti 10 $. Lo stesso volantino è visibile nello screenshot ufficiale in cui Cal e Jason giocano a biliardo.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-gutless-wonders.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.fandom.com/wiki/Gutless_Wonders",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/32/GutlessWonders-GTAVI-OfficialScreenshot-CalHampton02.png/revision/latest/scale-to-width-down/1000"
+    },
+    {
+      "id": "chr-the-hummers-the-strummers",
+      "name": "The Hummers & The Strummers",
+      "role": "Band",
+      "tagline": "",
+      "bio": "Band annunciata da un volantino nel Jack of Hearts (leak 2022) per un concerto al Rusty Anchor il 24 agosto. Lo stesso volantino si vede nel Trailer 2 dentro il Rusty Anchor, con lo slogan dello spettacolo.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-the-hummers-the-strummers.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.fandom.com/wiki/The_Hummers_%26_The_Strummers",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/TheHummers%26TheStrummers-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000"
+    },
+    {
+      "id": "chr-dolls-of-destruction",
+      "name": "Dolls of Destruction",
+      "role": "Band",
+      "tagline": "",
+      "bio": "Gruppo che esiste solo sul retro della maglietta di un NPC nel Jack of Hearts, nel Trailer 1: una t-shirt da tour con nome della band e lista di città e date dei concerti (tra cui Liberty City).",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "image": "assets/img/vice/personaggi/chr-dolls-of-destruction.png",
+      "gallery": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.fandom.com/wiki/Dolls_of_Destruction",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000"
     }
   ]
 }

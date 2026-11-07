@@ -20,6 +20,7 @@ const GROUPS = [
   ['🚔', 'La legge e lo Stato', 'Polizia, penitenziario e politica.', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw']],
   ['🔧', 'Affari e mezzi', 'Meccanici, ricettatori e club di fango.', ['chr-wyman', 'chr-randy', 'chr-billy']],
   ['📺', 'Voci, schermi e cult', 'Streamer, mascotte, comparse diventate meme.', ['chr-camillo', 'chr-n3on', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
+  ['🎸', 'Band, locali e comparse', 'Gruppi musicali, mascotte e volti visti di sfuggita nei trailer.', ['chr-gutless-wonders', 'chr-the-hummers-the-strummers', 'chr-dolls-of-destruction', 'chr-monalisa', 'chr-sparky-malarky', 'chr-chunkee-the-manatee', 'chr-pinche-the-crab', 'chr-ricky', 'chr-sam-mud-club', 'chr-brittney', 'chr-ej', 'chr-ian', 'chr-krever', 'chr-jimmy-canto', 'chr-lil-ricky-sawdust', 'chr-kenny-brewster']],
   ['🕵️', 'Dai leak (da verificare)', 'Nomi emersi dal leak del 2022: prendili con le pinze.', ['chr-kai', 'chr-shanese', 'chr-leak-names']],
 ];
 const HUES = [340, 24, 174, 265, 200, 48, 300, 120];

@@ -21,7 +21,8 @@ Quando Mike lo chiede (mai da soli), setacciare le fonti in quest'ordine e inser
 4. **Collezionabili e trofei** — psnprofiles.com, playstationtrophies.org, exophase.com (lista trofei ufficiale appena entra nel database PSN: sostituire lo schema in `trophies.json` mantenendo gli id dove il nome coincide), powerpyx.com, IGN Wiki Guide, gamerguides.com, YouTube (GTA Series Videos, MrBossFTW, TGG).
 5. **Stampa e siti di riferimento** — vice-central.com (francese: ruota delle armi, personaggi, fauna, luoghi, teorie, analisi; ispirazione grafica di Mike), Insider Gaming, GamingBolt, IGN, GameSpot, Eurogamer, PC Gamer, VG247, Push Square, Kotaku; Edge, Game Informer, Famitsu, Bloomberg; Multiplayer.it, Everyeye, Spaziogames, IGN Italia. Reddit r/GTA6 e GTAForums solo come Rumor/Leak/Community.
 6. **Musica** — Apple Music e Spotify (playlist Rockstar), Shazam, GTA Wiki per le scalette.
-7. **Mike** — gli Appunti con il «Pacchetto per Claude» sono la fonte di verità dopo il 19: ciò che conferma lui diventa `verificato` con source `gioco-mike`.
+7. **Mondo** — ogni notizia nuova che cita un marchio, un locale, un'app, una gang, un canale o una squadra del mondo di gioco va aggiunta a `brands.json` (categoria tra quelle esistenti, descrizione con dove è stato visto, `sourceUrl` della notizia). La sezione Mondo cresce con le news.
+8. **Mike** — gli Appunti con il «Pacchetto per Claude» sono la fonte di verità dopo il 19: ciò che conferma lui diventa `verificato` con source `gioco-mike`.
 
 Date da tenere d'occhio: 9 novembre (risultati Take-Two), 10 novembre (preload), 18 novembre (fine embargo recensioni), 19 novembre (uscita), lista trofei (appena pubblicata).
 
