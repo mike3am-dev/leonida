@@ -14,10 +14,19 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Smith & Wesson Model 629 Classic",
       "seenIn": "Screenshot ufficiali",
-      "ultimate": true
+      "ultimate": true,
+      "facts": [
+        "Le varianti Ultimate sono due, una per Jason e una per Lucia, in stile Vice City «dalla Vercetti Estate»: impugnature incise con palme, incisioni decorative e mirino ad alte prestazioni",
+        "Il nome richiama Arthur Morgan, protagonista di Red Dead Redemption 2",
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/morgan-revolver",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-girardi-es9",
@@ -32,12 +41,32 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Beretta 92FS",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-girardi-es9.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Trailer 2, minuto 1:50",
+          "what": "Jason spara dall'auto (una Gauntlet Hellfire)"
+        },
+        {
+          "where": "Screenshot ufficiale",
+          "what": "Jason la tiene in mano seduto su una moto (Alvino V1)"
+        }
+      ],
+      "facts": [
+        "Il nome è stato rivelato nella pagina ufficiale dell'Ultimate Edition",
+        "Variante Ultimate per Jason: cromata e incisa",
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Beretta_92FS-inspired_pistol",
+        "https://www.gtabase.com/weapons/gta-6/girardi-es9",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-klose-k17",
@@ -52,12 +81,42 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Glock 17, SIG Sauer P320",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-klose-k17.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Leak settembre 2022",
+          "what": "Pistola di base di Lucia e Jason, usata anche da agenti VCPD e VBPD e da gang come i San4San"
+        },
+        {
+          "where": "Screenshot ufficiale di Boobie Ike",
+          "what": "Appoggiata sul tavolo a cui è seduto"
+        },
+        {
+          "where": "Screenshot ufficiale di Lucia",
+          "what": "La tiene vicino alla guancia: si leggono «9mm» e il numero di serie KL1701"
+        },
+        {
+          "where": "Screenshot ufficiale di Brian Heder",
+          "what": "Brian ne passa una a Jason"
+        }
+      ],
+      "facts": [
+        "Calibro 9 mm (marcatura visibile)",
+        "Nei file del leak si chiama PISTOL_POLYMER e l'HUD la chiama «Polymer Pistol»",
+        "La versione di Boobie Ike ha un selettore sul retro del carrello simile ai «switch» da fuoco automatico per Glock e un'impugnatura zigrinata come la Walther P99",
+        "Ispirata alla Glock 17 di seconda generazione, con lo sgancio carrello ambidestro della quinta",
+        "Variante Ultimate per Lucia: incisa, con impugnatura rossa"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Polymer_Pistol",
+        "https://www.gtabase.com/weapons/gta-6/klose-k17",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-mustang-357",
@@ -72,12 +131,27 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Colt Python (.357 Magnum)",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-mustang357.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Revolver pesante ispirato alla Colt Python. Da accostare al revolver «tipo Colt Python» individuato dalla community negli screenshot ufficiali (via GTA6Bible)."
+      "insight": "Revolver pesante ispirato alla Colt Python. Da accostare al revolver «tipo Colt Python» individuato dalla community negli screenshot ufficiali (via GTA6Bible).",
+      "seen": [
+        {
+          "where": "Screenshot ufficiale di Ambrosia",
+          "what": "Una motociclista la tiene contro il petto del suo compagno"
+        }
+      ],
+      "facts": [
+        "Logo Duke Arms dietro il tamburo e scritta «Mustang .357» incisa sulla canna",
+        "Tamburo da 6 colpi",
+        "Il «.357» richiama la cartuccia .357 Magnum della Colt Python; «Mustang» un'altra pistola Colt"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Mustang_.357",
+        "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver"
+      ]
     },
     {
       "id": "wpn-nipper-38",
@@ -92,12 +166,34 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Taurus PT 938, Bersa Firestorm 380",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-nipper-38.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Revolver tascabile ispirato a Taurus PT 938 e Bersa Firestorm 380: è l'arma che Lucia tiene sulla copertina del gioco. Aggiunto da GTABase."
+      "insight": "Revolver tascabile ispirato a Taurus PT 938 e Bersa Firestorm 380: è l'arma che Lucia tiene sulla copertina del gioco. Aggiunto da GTABase.",
+      "seen": [
+        {
+          "where": "Video sul sito ufficiale",
+          "what": "In mano a Lucia mentre Jason chiude il bagagliaio della loro auto (una Tulip)"
+        },
+        {
+          "where": "Artwork ufficiale",
+          "what": "Lucia la tiene tra le braccia di Jason in una stanza di motel"
+        },
+        {
+          "where": "Copertina",
+          "what": "Sull'arma si leggono «Nipper 38» e «Made in Brazil»"
+        }
+      ],
+      "facts": [
+        "È una pistola semiautomatica tascabile, non un revolver",
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
+        "https://www.gtabase.com/weapons/gta-6/nipper-38"
+      ]
     },
     {
       "id": "wpn-coil-shocker",
@@ -112,7 +208,15 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Storditore: spara un dardo che immobilizza per qualche istante",
+        "Visto nel leak dell'agosto 2026; c'era già in GTA V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/shocker"
+      ],
+      "realModel": "TASER Axon (7, 10 e X26/26P)"
     },
     {
       "id": "wpn-duke-556",
@@ -127,12 +231,27 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Colt M4A1",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-service-carbine.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile d'assalto di servizio ispirato al Colt M4A1. Nelle immagini ufficiali compare anche un fucile «tipo M16» tra le mani di un personaggio."
+      "insight": "Fucile d'assalto di servizio ispirato al Colt M4A1. Nelle immagini ufficiali compare anche un fucile «tipo M16» tra le mani di un personaggio.",
+      "seen": [
+        {
+          "where": "Screenshot ufficiale di Jason",
+          "what": "Jason imbraccia una carabina Duke Arms (scheda «Duke carbine» di GTA Wiki)"
+        }
+      ],
+      "facts": [
+        "Marchio Duke Arms inciso sopra il caricatore",
+        "GTA Wiki la accosta alla Colt LE6920",
+        "Caricatore da 30 colpi (60 esteso) secondo GTABase; c'era già in GTA Online"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/service-carbine",
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Duke_carbine"
+      ]
     },
     {
       "id": "wpn-shrewsbury-akm",
@@ -147,7 +266,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Vista nel leak del settembre 2022",
+        "Caricatore da 30 colpi (100 esteso) secondo GTABase",
+        "Già in GTA III, San Andreas, IV e V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/assault-rifle",
+        "https://gta.fandom.com/wiki/Assault_Rifle"
+      ],
+      "realModel": "AKM / AK-47"
     },
     {
       "id": "wpn-duke-ar15",
@@ -162,12 +291,27 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "AR-15 (variante), M4A1 Block II",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle-mk-ii.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Carabina ispirata a una variante dell'AR-15 e all'M4A1 Block II."
+      "insight": "Carabina ispirata a una variante dell'AR-15 e all'M4A1 Block II.",
+      "seen": [
+        {
+          "where": "Video sul sito ufficiale",
+          "what": "Raul Bautista la usa per tenere a bada gli agenti del VCPD (scheda «Duke special ops carbine» di GTA Wiki)"
+        }
+      ],
+      "facts": [
+        "Canna più corta e calcio diverso rispetto all'altra carabina Duke",
+        "Accessori: calcio Magpul MOE, caricatore Magpul PMAG, guardamano Daniel Defense RIS II",
+        "Caricatore da 30 colpi (60 esteso) secondo GTABase"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Duke_special_ops_carbine",
+        "https://www.gtabase.com/weapons/gta-6/carbine-rifle-mk-ii"
+      ]
     },
     {
       "id": "wpn-vom-feuer-carbine",
@@ -182,12 +326,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Remington R5 RGP, HK416",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Carabina ispirata a Remington R5 RGP e HK416, vista nel Trailer 2."
+      "insight": "Carabina ispirata a Remington R5 RGP e HK416, vista nel Trailer 2.",
+      "facts": [
+        "Caricatore da 30 colpi (100 esteso) secondo GTABase",
+        "Arma storica della serie: c'era già da GTA III a GTA V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/carbine-rifle"
+      ]
     },
     {
       "id": "wpn-micro-draco",
@@ -202,12 +353,18 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Micro Draco",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-compact-rifle.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile compatto ispirato al Micro Draco (AK accorciato)."
+      "insight": "Fucile compatto ispirato al Micro Draco (AK accorciato).",
+      "facts": [
+        "Vista negli screenshot ufficiali; c'era già in GTA Online come Compact Rifle"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/compact-rifle"
+      ]
     },
     {
       "id": "wpn-compact-smg",
@@ -222,7 +379,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
+        "Caricatore da 20 colpi (30 esteso) secondo GTABase",
+        "C'era già in GTA Online"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/compact-smg",
+        "https://gta.fandom.com/wiki/Compact_Submachine_Gun"
+      ],
+      "realModel": "Scorpion (mini SMG)"
     },
     {
       "id": "wpn-micro-smg",
@@ -237,7 +404,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
+        "Caricatore da 16 colpi (30 esteso) secondo GTABase",
+        "Già in GTA III, Vice City, San Andreas, IV e V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/micro-smg",
+        "https://gta.fandom.com/wiki/Micro_Submachine_Gun"
+      ],
+      "realModel": "Mini Uzi"
     },
     {
       "id": "wpn-mp5",
@@ -252,12 +429,32 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Heckler & Koch MP5",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-smg.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Mitra ispirato all'Heckler & Koch MP5, visto nel Trailer 2."
+      "insight": "Mitra ispirato all'Heckler & Koch MP5, visto nel Trailer 2.",
+      "seen": [
+        {
+          "where": "Trailer 2, minuto 1:15",
+          "what": "Lucia e Jason la imbracciano entrambi durante una presa di ostaggi"
+        },
+        {
+          "where": "Screenshot ufficiale",
+          "what": "Insieme alla Combat MG"
+        }
+      ],
+      "facts": [
+        "GTA Wiki la identifica come MP5/40",
+        "Quella di Jason ha un mirino red dot tipo Aimpoint Micro T-1",
+        "Caricatore da 30 colpi (100 esteso) e vendita da Ammu-Nation secondo GTABase"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Heckler_%26_Koch_MP5/40-inspired_submachine_gun",
+        "https://www.gtabase.com/weapons/gta-6/smg",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-combat-mg",
@@ -272,12 +469,20 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "M249 SAW",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-combat-mg.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Mitragliatrice leggera ispirata alla M249 SAW, vista nel Trailer 2. Negli screenshot ufficiali compare insieme a un'arma tipo MP5."
+      "insight": "Mitragliatrice leggera ispirata alla M249 SAW, vista nel Trailer 2. Negli screenshot ufficiali compare insieme a un'arma tipo MP5.",
+      "facts": [
+        "Nastro da 100 colpi (200 esteso) e vendita da Ammu-Nation secondo GTABase",
+        "Già in GTA IV e GTA V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/combat-mg",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-moreland-850",
@@ -311,11 +516,25 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Stoeger/IGA Longfowler",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-double-barrel-shotgun.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Screenshot ufficiale di Grassrivers",
+          "what": "Un bracconiere mira a un alligatore dal bordo del suo airboat"
+        }
+      ],
+      "facts": [
+        "È una doppietta a canne sovrapposte (Longfowler), c'era già in GTA Online"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_double-barreled_shotgun",
+        "https://www.gtabase.com/weapons/gta-6/double-barrel-shotgun",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-shrewsbury-pump",
@@ -330,7 +549,15 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Vista nel leak del settembre 2022",
+        "Serbatoio da 8 colpi secondo GTABase"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/pump-action-shotgun"
+      ],
+      "realModel": "Mossberg 590"
     },
     {
       "id": "wpn-bolt-sniper",
@@ -345,12 +572,30 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Remington 700 BDL",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-bolt-action-sniper.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile di precisione a otturatore ispirato al Remington 700 BDL. I cacciatori di Mount Kalaga portano fucili con ottica, e un bracconiere prende di mira degli alligatori."
+      "insight": "Fucile di precisione a otturatore ispirato al Remington 700 BDL. I cacciatori di Mount Kalaga portano fucili con ottica, e un bracconiere prende di mira degli alligatori.",
+      "seen": [
+        {
+          "where": "Leak settembre 2022",
+          "what": "Compare in un solo spezzone"
+        },
+        {
+          "where": "Screenshot ufficiale di Mount Kalaga National Park",
+          "what": "In mano a un cacciatore; screenshot uscito insieme al Trailer 2"
+        }
+      ],
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Bolt_Action_Sniper",
+        "https://www.gtabase.com/gta-6/weapons/bolt-action-sniper",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "id": "wpn-hunter-sniper",
@@ -365,7 +610,16 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
+        "Caricatore da 10 colpi secondo GTABase"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/hunter-sniper",
+        "https://gta.fandom.com/wiki/Hunter_Sniper"
+      ],
+      "realModel": "Accuracy International Arctic Warfare L96A1"
     },
     {
       "id": "wpn-grenade-launcher",
@@ -380,11 +634,31 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "realModel": "Milkor MGL",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-grenadelauncher.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Trailer 2",
+          "what": "Lanciagranate a tamburo tipo Milkor MGL, sparato da un veicolo in corsa"
+        },
+        {
+          "where": "Trailer di lancio",
+          "what": "Secondo alcune analisi Lucia lo usa sporgendosi da un elicottero contro una barricata SWAT"
+        }
+      ],
+      "facts": [
+        "Tamburo da 10 granate secondo GTABase",
+        "Già in GTA IV (episodi) e GTA V; era previsto in Vice City ma fu tagliato"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/grenade-launcher",
+        "https://gta.fandom.com/wiki/Grenade_Launcher",
+        "https://www.noobfeed.com/news/gta-6-launch-trailer-military-jason-lucia",
+        "https://www.svg.com/2287842/gta-6-launch-trailer-breakdown-biggest-reveals/"
+      ]
     },
     {
       "id": "wpn-rpg",
@@ -399,7 +673,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nell'HUD del leak 2022 si chiama «Rocket Launcher», non RPG",
+        "Un solo razzo per volta; si può solo verniciare, niente accessori (GTABase)",
+        "Munizioni «Rockets» tra i tipi trovati"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/rpg-rocket-launcher",
+        "https://gta.fandom.com/wiki/RPG_(HD_Universe)"
+      ],
+      "realModel": "RPG-7"
     },
     {
       "id": "wpn-speargun",
@@ -414,7 +698,16 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Citato in un solo spezzone del leak 2022",
+        "Secondo GTABase verrebbe usato in una missione per colpire uno squalo (riportato, non confermato)",
+        "Munizioni proprie: «Spear Ammo»"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/speargun",
+        "https://gta.fandom.com/wiki/Speargun"
+      ]
     },
     {
       "id": "wpn-molotov",
@@ -429,7 +722,20 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "seen": [
+        {
+          "where": "An Extended Look",
+          "what": "Lucia dà fuoco all'auto della fuga dopo il colpo di Raul Bautista"
+        }
+      ],
+      "facts": [
+        "Nel leak 2022 esiste anche una «Fire Bottle», arma incendiaria distinta"
+      ],
+      "moreSources": [
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.gtabase.com/gta-6/weapons/fire-bottle"
+      ]
     },
     {
       "id": "wpn-grenade",
@@ -444,7 +750,15 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/grenade",
+        "https://gta.fandom.com/wiki/Grenades"
+      ],
+      "realModel": "Granata M61"
     },
     {
       "id": "wpn-sticky-bomb",
@@ -459,7 +773,14 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Già in Vice City, San Andreas, IV e V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/sticky-bomb"
+      ],
+      "realModel": "Esplosivo C-4"
     },
     {
       "id": "wpn-golf-ball",
@@ -474,7 +795,14 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Golf_Balls",
+        "https://www.gtabase.com/gta-6/weapons/golf-ball"
+      ]
     },
     {
       "id": "wpn-bat",
@@ -489,10 +817,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-baseballbat-scaled.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Screenshot ufficiale di Port Gellhorn",
+          "what": "Mazza da baseball in scena"
+        }
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Baseball_Bat"
+      ]
     },
     {
       "id": "wpn-hammer",
@@ -518,14 +855,20 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Protezione, identificata dalla community insieme a zaino, binocolo, kit medico, antidolorifici e un EpiPen.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Bagagliaio delle auto della polizia (anteprima Edge)",
       "image": null,
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Nel bagagliaio delle auto della polizia ci sono fucili e giubbotti, ma ogni volante ha un localizzatore (anteprima Edge)"
+      ],
+      "moreSources": [
+        "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
+      ]
     },
     {
       "id": "wpn-slim-jim",
@@ -540,7 +883,13 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "facts": [
+        "Si usa con un mini-gioco a tempo; rompere il finestrino invece fa rumore e scatena l'allarme (Rob Nelson a IGN)"
+      ],
+      "moreSources": [
+        "https://www.hotcars.com/rockstar-confirms-gta-6-car-theft-will-mirror-real-world-vulnerabilities/"
+      ]
     },
     {
       "id": "wpn-lock-pick",
@@ -593,7 +942,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "id": "wpn-heavy-pistol",
       "name": "Heavy Pistol",
       "manufacturer": null,
@@ -605,7 +954,27 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-heavy-pistol.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Pistola pesante ispirata a una variante della M1911. In uno screenshot ufficiale Raul Bautista tiene una pistola di questo tipo."
+      "insight": "Pistola pesante ispirata a una variante della M1911. In uno screenshot ufficiale Raul Bautista tiene una pistola di questo tipo.",
+      "seen": [
+        {
+          "where": "Trailer 1, minuto 1:16",
+          "what": "Jason la impugna nella rapina al liquor store con Lucia"
+        },
+        {
+          "where": "Screenshot ufficiale di Raul Bautista",
+          "what": "Raul la tiene seduto in una berlina, con una borsa di contanti sul sedile"
+        }
+      ],
+      "facts": [
+        "Per GTA Wiki il produttore è Capo (marchio sull'arma)",
+        "Base M1911, guardia del grilletto da Beretta 92FS, incisione sulla canna come le Staccato 2011",
+        "Caricatore da 18 colpi (36 esteso) e vendita da Ammu-Nation secondo GTABase"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Capo_pistol",
+        "https://www.gtabase.com/weapons/gta-6/heavy-pistol",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     },
     {
       "image": null,
@@ -613,14 +982,30 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-hl-pistol",
       "name": "Hawk & Little Pistol",
       "manufacturer": "Hawk & Little",
       "class": "pistola",
       "description": "Alla Taurus PT92, nel footage trapelato.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "seen": [
+        {
+          "where": "Artwork del Trailer 1",
+          "what": "In mano a Jason"
+        }
+      ],
+      "facts": [
+        "Rispetto a GTA V manca la scritta Hawk & Little sul carrello: il produttore potrebbe essere cambiato",
+        "Caricatore da 12 colpi (16 esteso) secondo GTABase",
+        "Già in GTA III, Vice City, San Andreas, IV e V"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Pistol_(HD_Universe)",
+        "https://www.gtabase.com/gta-6/weapons/pistol"
+      ],
+      "realModel": "Taurus PT92AF"
     },
     {
       "image": "assets/img/vice/armi/wpn-scar.webp",
@@ -628,7 +1013,7 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "id": "wpn-scar",
       "name": "SCAR Assault Rifle",
       "manufacturer": null,
@@ -640,7 +1025,13 @@
       "seenIn": "Trailer di lancio",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-scar-assault-rifle.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile d'assalto ispirato all'FN SCAR-H / SCAR-L. Aggiunto il 1° novembre 2026: compare nel trailer di lancio."
+      "insight": "Fucile d'assalto ispirato all'FN SCAR-H / SCAR-L. Aggiunto il 1° novembre 2026: compare nel trailer di lancio.",
+      "facts": [
+        "Vista nel trailer di lancio; c'era già in GTA Online"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/scar-assault-rifle"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-dw9.webp",
@@ -748,14 +1139,22 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-flashbang",
       "name": "Flashbang",
       "manufacturer": null,
       "class": "lancio",
       "description": "Dalla lista oggetti del leak 2022.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
+        "Nella serie c'era solo in Chinatown Wars"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/flashbang",
+        "https://gta.fandom.com/wiki/Flashbangs"
+      ]
     },
     {
       "image": null,
@@ -763,14 +1162,22 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-smoke",
       "name": "Hawk & Little Smoke Grenade",
       "manufacturer": "Hawk & Little",
       "class": "lancio",
       "description": "Dalla lista oggetti del leak 2022.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "facts": [
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/smoke-grenade",
+        "https://gta.fandom.com/wiki/Smoke_Grenades"
+      ],
+      "realModel": "Fumogeno M18"
     },
     {
       "image": "assets/img/vice/armi/wpn-jerry-can.webp",
@@ -813,14 +1220,22 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-knife",
       "name": "Coltello da caccia",
       "manufacturer": null,
       "class": "corpo-a-corpo",
       "description": "Nel footage trapelato; esiste anche un coltello Hawk & Little e un serramanico.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "facts": [
+        "GTABase distingue tre lame: coltello da caccia (leak agosto 2026, personalizzabile), coltello Hawk & Little (leak 2022, ispirato al UC-RB1) e serramanico (leak agosto 2026, stiletto italiano della Seconda guerra mondiale, solo tinta)"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/hunting-knife",
+        "https://www.gtabase.com/gta-6/weapons/knife",
+        "https://www.gtabase.com/weapons/gta-6/switchblade"
+      ]
     },
     {
       "image": null,
@@ -828,14 +1243,21 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-golf-club",
       "name": "Mazza da golf",
       "manufacturer": null,
       "class": "corpo-a-corpo",
       "description": "Driver, ferro, putter e wedge: la community le elenca tutte dal leak 2022.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "facts": [
+        "Driver, ferro, putter e wedge sono quattro armi separate, ognuna col suo nome sull'HUD del leak 2022"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Golf_Driver",
+        "https://www.gtabase.com/gta-6/weapons/golf-club"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-knuckles.webp",
@@ -843,7 +1265,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "id": "wpn-knuckles",
       "name": "Tirapugni",
       "manufacturer": null,
@@ -855,7 +1277,13 @@
       "seenIn": "Trailer di lancio",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-knuckle-dusters.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Tirapugni. Aggiunto il 1° novembre 2026: compare nel trailer di lancio."
+      "insight": "Tirapugni. Aggiunto il 1° novembre 2026: compare nel trailer di lancio.",
+      "facts": [
+        "Già in Vice City, San Andreas e GTA V"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/knuckle-dusters"
+      ]
     },
     {
       "image": null,
@@ -878,7 +1306,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "id": "wpn-pool-cue",
       "name": "Stecca da biliardo",
       "manufacturer": null,
@@ -889,7 +1317,17 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-poolcue-scaled.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Stecca da biliardo, assente dalla lista di GTABase ma ben visibile negli screenshot ufficiali di maggio 2025 (Cal Hampton al biliardo con Jason)."
+      "insight": "Stecca da biliardo, assente dalla lista di GTABase ma ben visibile negli screenshot ufficiali di maggio 2025 (Cal Hampton al biliardo con Jason).",
+      "seen": [
+        {
+          "where": "Screenshot ufficiali, maggio 2025",
+          "what": "Cal Hampton gioca a biliardo con Jason"
+        }
+      ],
+      "moreSources": [
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://gta.fandom.com/wiki/Pool_Cue"
+      ]
     },
     {
       "image": null,
@@ -897,14 +1335,23 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "wpn-flashlight",
       "name": "Torcia Vom Feuer",
       "manufacturer": "Vom Feuer",
       "class": "corpo-a-corpo",
       "description": "Si usa anche per colpire, secondo il leak.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "facts": [
+        "Vista nel leak dell'agosto 2026",
+        "Già in GTA Online (Halloween Surprise)"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/flashlight",
+        "https://gta.fandom.com/wiki/Flashlight"
+      ],
+      "realModel": "Ledlenser M7R"
     },
     {
       "image": null,
@@ -1054,10 +1501,23 @@
       "sourceUrl": "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/#armes-armes-de-melee",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-07",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-minigolfclub.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "seen": [
+        {
+          "where": "Screenshot ufficiale di Cal Hampton",
+          "what": "Cal la tiene in mano al minigolf"
+        }
+      ],
+      "facts": [
+        "Putter di metallo con impugnatura di plastica blu"
+      ],
+      "moreSources": [
+        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_mini_golf_club",
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ]
     }
   ],
   "notes": {

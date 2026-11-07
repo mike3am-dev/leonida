@@ -57,8 +57,10 @@ function detail(it) {
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
     ${it.realModel || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seenIn ? `<dt>Vista in</dt><dd>${esc(it.seenIn)}</dd>` : ''}${it.ultimate ? '<dt>Bonus</dt><dd>Ultimate Edition</dd>' : ''}</dl>` : ''}
     ${it.insight ? `<div class="prose small"><p>${esc(it.insight)}</p><p class="source-line">Da <a href="https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/" target="_blank" rel="noopener">vice-central.com</a>.</p></div>` : ''}
+    ${it.facts?.length ? `<section class="fsec"><h3 class="fsec__t">Cosa sappiamo</h3><ul class="flist flist--tips">${it.facts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></section>` : ''}
+    ${it.seen?.length ? `<section class="fsec"><h3 class="fsec__t">Dove si è vista</h3><ul class="flist">${it.seen.map((v) => `<li><b>${esc(v.where)}</b><span>${esc(v.what)}</span></li>`).join('')}</ul></section>` : ''}
     ${galleryHtml(it)}
-    ${it.howToGet ? `<div class="block"><span class="kicker">Come ottenerla</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
+    ${it.howToGet && !/^Da verificare\.?$/.test(it.howToGet) ? `<div class="block"><span class="kicker">Come ottenerla</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
     <p class="source-line">Fonte: ${esc(it.source)}${it.sourceUrl ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
 }
 

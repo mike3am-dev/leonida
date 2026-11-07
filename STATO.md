@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.16.0** (dati 0.12.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 7 novembre 2026, versione live **v0.17.1** (dati 0.13.1). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -29,7 +29,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
 ## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.16.0**: Mike lo farà; aspettare la lista.
+1. **Giro di impressioni sulla v0.17.1**: Mike lo farà; aspettare la lista.
 2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
 3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
 4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
@@ -44,6 +44,13 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fascicolo: un tocco fuori chiude tutta la pila (posizione in `history.state.pos`); i fogli si chiudono a ogni cambio di pagina. Righe «Fonte» nascoste ovunque: tutto in News › Fonti e ringraziamenti.
 - Animali: campi `short, behavior, actions, danger, dangerNote, varieties, seen, trivia, emoji, imageFocus, photos`; Cani/Serpenti/Squali/Anatre accorpati (le voci assorbite sono sparite). Figurine che si accendono senza ridisegnare la pagina.
 - Mondo: niente numeri/filtri/«Edizione», categorie alfabetiche, ricerca; 42 foto nuove (GTA Wiki, vice-central) in `scripts/immagini.json`, cartella `mondo/`.
+
+## 4c. v0.17 (mappa granulare)
+- Coordinate: `xy` nei `landmarks` di `luoghi.json` (marker gtasixmap, endpoint pubblico `https://gta6-map-data.lukas-holzmann-horizonapps.workers.dev/markers`, 232 marker) e nei `pois` di `districts.json` (gtasixmap o gtadb convertito: x ≈ 0.5705·X + 3712, y ≈ 0.5719·Y − 571). 33 POI ancora senza coordinate.
+- Legenda: Anteprima/Gioco (`prefs.mode` in `leonida:mappa`), livelli Regioni · Luoghi · Punti d'interesse · Punti di riferimento · Polaroid. In Gioco: solo regioni scoperte o dove sei; grigio = non visitato, spunta = trovato (luoghi/POI in `discovered`, punti di riferimento in `collectibles` come `lmk-slug-N`).
+- «Mostra sulla mappa» → `#/mappa?punto=lmk:slug:i | luogo:slug | poi:id` (`mapboard.focusPoint`). gtasixmap non si apre più.
+- Mappa base in 4 pezzi `leonida-giorno-0..3.jpg` + anteprima sotto (Safari iPhone).
+- Armi: campi `facts`, `seen`, `moreSources`. Mancano nel database: Duke assault sniper rifle, serramanico e coltello Hawk & Little, Fire Bottle e Heavy Machine Gun (leak), Pugni.
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.13.0",
+  "dataVersion": "0.13.1",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.13.1",
+      "date": "2026-11-07",
+      "changes": [
+        "Armi: 40 schede arricchite con «Cosa sappiamo» e «Dove si è vista» (GTA Wiki, GTABase, vice-central, stampa) e 12 modelli reali in più."
+      ]
+    },
     {
       "version": "0.13.0",
       "date": "2026-11-07",
