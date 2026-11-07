@@ -3157,6 +3157,896 @@
       "file": "vice/personaggi/chr-dolls-of-destruction.png",
       "url": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000",
       "for": "chr-dolls-of-destruction"
+    },
+    {
+      "file": "veicoli/veh-vapid-dominator-buggy-67.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-vapid-buggy-01-468.jpg",
+      "for": "veh-vapid-dominator-buggy-67"
+    },
+    {
+      "file": "veicoli/veh-progen-emerus.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/emerus.jpg",
+      "for": "veh-progen-emerus"
+    },
+    {
+      "file": "veicoli/veh-grotti-bestia-gts.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/bestia-gts.jpg",
+      "for": "veh-grotti-bestia-gts"
+    },
+    {
+      "file": "veicoli/veh-pfister-neon.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/neon-2.jpg",
+      "for": "veh-pfister-neon"
+    },
+    {
+      "file": "veicoli/veh-vysser-neo.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/neo.jpg",
+      "for": "veh-vysser-neo"
+    },
+    {
+      "file": "veicoli/veh-maibatsu-penumbra-ff.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/penumbra-ff.jpg",
+      "for": "veh-maibatsu-penumbra-ff"
+    },
+    {
+      "file": "veicoli/veh-declasse-stallion.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/stallion.jpg",
+      "for": "veh-declasse-stallion"
+    },
+    {
+      "file": "veicoli/veh-vapid-hustler.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/muscle/main/hustler.jpg",
+      "for": "veh-vapid-hustler"
+    },
+    {
+      "file": "veicoli/veh-willard-faction-donk.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/faction-custom-donk.jpg",
+      "for": "veh-willard-faction-donk"
+    },
+    {
+      "file": "veicoli/veh-mercury-comet.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/mercury-comet.jpg",
+      "for": "veh-mercury-comet"
+    },
+    {
+      "file": "veicoli/veh-buckingham-windsor-drop.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/windsor-drop-screen.jpg",
+      "for": "veh-buckingham-windsor-drop"
+    },
+    {
+      "file": "veicoli/veh-ubermacht-rebla-gts.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/rebla-g-t-s2.jpg",
+      "for": "veh-ubermacht-rebla-gts"
+    },
+    {
+      "file": "veicoli/veh-canis-terminus.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/terminus.jpg",
+      "for": "veh-canis-terminus"
+    },
+    {
+      "file": "veicoli/veh-mammoth-patriot-milspec.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/patriot-mil-spec.jpg",
+      "for": "veh-mammoth-patriot-milspec"
+    },
+    {
+      "file": "veicoli/veh-bf-injection.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/injection.jpg",
+      "for": "veh-bf-injection"
+    },
+    {
+      "file": "veicoli/veh-polaris-ranger.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/polaris-ranger.jpg",
+      "for": "veh-polaris-ranger"
+    },
+    {
+      "file": "veicoli/veh-western-cliffhanger.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/motorcycles/main/cliffhanger.jpg",
+      "for": "veh-western-cliffhanger"
+    },
+    {
+      "file": "veicoli/veh-principe-lectro.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/lectro.jpg",
+      "for": "veh-principe-lectro"
+    },
+    {
+      "file": "veicoli/veh-declasse-granger-police.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-police.jpg",
+      "for": "veh-declasse-granger-police"
+    },
+    {
+      "file": "veicoli/veh-mtl-wastelander.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/service/main/wastelander.jpg",
+      "for": "veh-mtl-wastelander"
+    },
+    {
+      "file": "veicoli/veh-rexhall-rose-air.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/rexhall-rose-air.jpg",
+      "for": "veh-rexhall-rose-air"
+    },
+    {
+      "file": "veicoli/veh-stanley-fieldmaster.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/utility/main/fieldmaster.jpg",
+      "for": "veh-stanley-fieldmaster"
+    },
+    {
+      "file": "veicoli/veh-hvy-dozer.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/industrial/main/dozer.jpg",
+      "for": "veh-hvy-dozer"
+    },
+    {
+      "file": "veicoli/veh-rhino-tank.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/military/main/rhino-tank.jpg",
+      "for": "veh-rhino-tank"
+    },
+    {
+      "file": "veicoli/veh-buckingham-valkyrie.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/valkyrie-screen.jpg",
+      "for": "veh-buckingham-valkyrie"
+    },
+    {
+      "file": "veicoli/veh-buckingham-luxor.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/luxor.jpg",
+      "for": "veh-buckingham-luxor"
+    },
+    {
+      "file": "veicoli/veh-water-taxi.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/water-taxi.jpg",
+      "for": "veh-water-taxi"
+    },
+    {
+      "file": "veicoli/veh-nagasaki-caddy.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/caddy.jpg",
+      "for": "veh-nagasaki-caddy"
+    },
+    {
+      "file": "veicoli/veh-scooter-elettrico.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/scooter-4.jpg",
+      "for": "veh-scooter-elettrico"
+    },
+    {
+      "file": "veicoli/veh-grotti-itali-rsx.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/itali-rsx-screen.jpg",
+      "for": "veh-grotti-itali-rsx"
+    },
+    {
+      "file": "veicoli/veh-obey-omnis-e-gt.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/omnis-e-gt.jpg",
+      "for": "veh-obey-omnis-e-gt"
+    },
+    {
+      "file": "veicoli/veh-coil-raiden.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/raiden.jpg",
+      "for": "veh-coil-raiden"
+    },
+    {
+      "file": "veicoli/veh-albany-alpha.jpg",
+      "url": "https://www.gtabase.com/igallery/4701-4800/GTA5_Alpha_RSC-4767-360.jpg",
+      "for": "veh-albany-alpha"
+    },
+    {
+      "file": "veicoli/veh-ocelot-locust.jpg",
+      "url": "https://www.gtabase.com/igallery/4801-4900/GTA5_Locust_RSC-4801-360.jpg",
+      "for": "veh-ocelot-locust"
+    },
+    {
+      "file": "veicoli/veh-fathom-fr36.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/fr36.jpg",
+      "for": "veh-fathom-fr36"
+    },
+    {
+      "file": "veicoli/veh-truffade-thrax.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/thrax-screen.jpg",
+      "for": "veh-truffade-thrax"
+    },
+    {
+      "file": "veicoli/veh-schyster-deviant.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-06-1080.jpg",
+      "for": "veh-schyster-deviant"
+    },
+    {
+      "file": "veicoli/veh-declasse-sabre-turbo.jpg",
+      "url": "https://www.gtabase.com/igallery/4601-4700/GTA5_Sabreturbo_RSC-4623-360.jpg",
+      "for": "veh-declasse-sabre-turbo"
+    },
+    {
+      "file": "veicoli/veh-declasse-vamos.jpg",
+      "url": "https://www.gtabase.com/igallery/4601-4700/GTA5_Vamos_RSC-4632-360.jpg",
+      "for": "veh-declasse-vamos"
+    },
+    {
+      "file": "veicoli/veh-declasse-mamba-gt.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-04-1080.jpg",
+      "for": "veh-declasse-mamba-gt"
+    },
+    {
+      "file": "veicoli/veh-albany-manana.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/Albany-Manana.jpg",
+      "for": "veh-albany-manana"
+    },
+    {
+      "file": "veicoli/veh-declasse-tornado.jpg",
+      "url": "https://www.gtabase.com/igallery/4801-4900/GTA5_Tornado_RSC-4872-360.jpg",
+      "for": "veh-declasse-tornado"
+    },
+    {
+      "file": "veicoli/veh-bermacht-sentinel-xs.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/sentinel.png",
+      "for": "veh-bermacht-sentinel-xs"
+    },
+    {
+      "file": "veicoli/veh-enus-windsor.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/enus-windsor.jpg",
+      "for": "veh-enus-windsor"
+    },
+    {
+      "file": "veicoli/veh-karin-feroci.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/feroci.jpg",
+      "for": "veh-karin-feroci"
+    },
+    {
+      "file": "veicoli/veh-vapid-lowline.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/taurus-2.jpg",
+      "for": "veh-vapid-lowline"
+    },
+    {
+      "file": "veicoli/veh-vapid-stanier.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier.jpg",
+      "for": "veh-vapid-stanier"
+    },
+    {
+      "file": "veicoli/veh-imponte-df8-90.jpg",
+      "url": "https://www.gtabase.com/images/gta-4/vehicles/df8-90.jpg",
+      "for": "veh-imponte-df8-90"
+    },
+    {
+      "file": "veicoli/veh-vulcar-ingot.jpg",
+      "url": "https://www.gtabase.com/igallery/4701-4800/GTA5_Ingot_RSC-4732-360.jpg",
+      "for": "veh-vulcar-ingot"
+    },
+    {
+      "file": "veicoli/veh-dundreary-regina.jpg",
+      "url": "https://www.gtabase.com/igallery/4701-4800/GTA5_Regina_RSC-4737-360.jpg",
+      "for": "veh-dundreary-regina"
+    },
+    {
+      "file": "veicoli/veh-albany-cavalcade-xl.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/cavalcade-x-l4.jpg",
+      "for": "veh-albany-cavalcade-xl"
+    },
+    {
+      "file": "veicoli/veh-vapid-montagne.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/montagne.jpg",
+      "for": "veh-vapid-montagne"
+    },
+    {
+      "file": "veicoli/veh-lampadati-novak.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/novak-2.jpg",
+      "for": "veh-lampadati-novak"
+    },
+    {
+      "file": "veicoli/veh-vapid-riata-classic.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-03-468.jpg",
+      "for": "veh-vapid-riata-classic"
+    },
+    {
+      "file": "veicoli/veh-canis-seminole-frontier.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/seminole-frontier.jpg",
+      "for": "veh-canis-seminole-frontier"
+    },
+    {
+      "file": "veicoli/veh-karin-vivanite.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/vivanite.jpg",
+      "for": "veh-karin-vivanite"
+    },
+    {
+      "file": "veicoli/veh-benefactor-xls.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/xls-2.jpg",
+      "for": "veh-benefactor-xls"
+    },
+    {
+      "file": "veicoli/veh-vapid-liberator.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/liberator.jpg",
+      "for": "veh-vapid-liberator"
+    },
+    {
+      "file": "veicoli/veh-vapid-reclaimer.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/reclaimer3.jpg",
+      "for": "veh-vapid-reclaimer"
+    },
+    {
+      "file": "veicoli/veh-pegassi-bati-801.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/bati-801.jpg",
+      "for": "veh-pegassi-bati-801"
+    },
+    {
+      "file": "veicoli/veh-western-nightblade.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-electric-fang-01-360.jpg",
+      "for": "veh-western-nightblade"
+    },
+    {
+      "file": "veicoli/veh-endurex-race-bike.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/endurex-race-bike.jpg",
+      "for": "veh-endurex-race-bike"
+    },
+    {
+      "file": "veicoli/veh-ferry.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/ferry.jpg",
+      "for": "veh-ferry"
+    },
+    {
+      "file": "veicoli/veh-pegassi-speeder.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/speeder.jpg",
+      "for": "veh-pegassi-speeder"
+    },
+    {
+      "file": "veicoli/veh-shitzu-tropic.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/tropic.jpg",
+      "for": "veh-shitzu-tropic"
+    },
+    {
+      "file": "veicoli/veh-western-company-mallard.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/mallard.jpg",
+      "for": "veh-western-company-mallard"
+    },
+    {
+      "file": "veicoli/veh-mammoth-streamer216.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/streamer216.jpg",
+      "for": "veh-mammoth-streamer216"
+    },
+    {
+      "file": "veicoli/veh-brute-ambulance.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/ambulance.jpg",
+      "for": "veh-brute-ambulance"
+    },
+    {
+      "file": "veicoli/veh-mtl-fire-truck.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/fire-truck-screen.jpg",
+      "for": "veh-mtl-fire-truck"
+    },
+    {
+      "file": "veicoli/veh-airport-bus.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/airport-bus.jpg",
+      "for": "veh-airport-bus"
+    },
+    {
+      "file": "veicoli/veh-buster.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/brute-bus.jpg",
+      "for": "veh-buster"
+    },
+    {
+      "file": "veicoli/veh-vice-city-metro-mule.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/metromule.png",
+      "for": "veh-vice-city-metro-mule"
+    },
+    {
+      "file": "veicoli/veh-hvy-airtug.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/airtug.jpg",
+      "for": "veh-hvy-airtug"
+    },
+    {
+      "file": "veicoli/veh-hvy-forklift.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/forklift.png",
+      "for": "veh-hvy-forklift"
+    },
+    {
+      "file": "veicoli/veh-brute-utility-truck.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/utility-truck.jpg",
+      "for": "veh-brute-utility-truck"
+    },
+    {
+      "file": "veicoli/veh-jacksheepe-excavator.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/excavator.jpg",
+      "for": "veh-jacksheepe-excavator"
+    },
+    {
+      "file": "veicoli/veh-hvy-mixer.jpg",
+      "url": "https://www.gtabase.com/igallery/4501-4600/GTA5_Mixerii_RSC-4516-360.jpg",
+      "for": "veh-hvy-mixer"
+    },
+    {
+      "file": "veicoli/veh-brute-tipper.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/tipper-2.jpg",
+      "for": "veh-brute-tipper"
+    },
+    {
+      "file": "veicoli/veh-vapid-benson.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/benson.jpg",
+      "for": "veh-vapid-benson"
+    },
+    {
+      "file": "veicoli/veh-hvy-biff.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/biff-2.jpg",
+      "for": "veh-hvy-biff"
+    },
+    {
+      "file": "veicoli/veh-jobuilt-hauler.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/hauler.png",
+      "for": "veh-jobuilt-hauler"
+    },
+    {
+      "file": "veicoli/veh-maibatsu-mule.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/mule-3.jpg",
+      "for": "veh-maibatsu-mule"
+    },
+    {
+      "file": "veicoli/veh-brute-stockade.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/stockade.jpg",
+      "for": "veh-brute-stockade"
+    },
+    {
+      "file": "veicoli/veh-vapid-sadler.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/sadler-gtav.jpg",
+      "for": "veh-vapid-sadler"
+    },
+    {
+      "file": "veicoli/veh-yakuruna.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yacht-1.png",
+      "for": "veh-yakuruna"
+    },
+    {
+      "file": "veicoli/veh-oceanic.jpg",
+      "url": "https://static.wikia.nocookie.net/gtawiki/images/a/a6/Oceanic-GTAVCS-front.jpg/revision/latest/scale-to-width-down/1000?cb=20240105172918",
+      "for": "veh-oceanic"
+    },
+    {
+      "file": "veicoli/veh-classic-collection.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-01-1080.jpg",
+      "for": "veh-classic-collection"
+    },
+    {
+      "file": "veicoli/veh-albany-buccaneer-custom.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/buccaneer-custom.jpg",
+      "for": "veh-albany-buccaneer-custom"
+    },
+    {
+      "file": "veicoli/veh-barca-da-pesca.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/fishing-boat.jpg",
+      "for": "veh-barca-da-pesca"
+    },
+    {
+      "file": "veicoli/veh-barca-da-pesca-stile-btn-delmar.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/btn-delmar.png",
+      "for": "veh-barca-da-pesca-stile-btn-delmar"
+    },
+    {
+      "file": "veicoli/veh-barca-da-pesca-stile-crusader-boats-gfy.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/crusader-boats-gfy.jpg",
+      "for": "veh-barca-da-pesca-stile-crusader-boats-gfy"
+    },
+    {
+      "file": "veicoli/veh-barca-da-pesca-sportiva-stile-contender-.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/contender-39st.jpg",
+      "for": "veh-barca-da-pesca-sportiva-stile-contender-"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-buick-regal.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/regal-3.jpg",
+      "for": "veh-berlina-stile-buick-regal"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-buick-skylark.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/skylark.jpg",
+      "for": "veh-berlina-stile-buick-skylark"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-chevrolet-impala-2014.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/impala.jpg",
+      "for": "veh-berlina-stile-chevrolet-impala-2014"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-chrysler-sebring-dodge-str.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/stratus.jpg",
+      "for": "veh-berlina-stile-chrysler-sebring-dodge-str"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-honda-accord-2018.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/accord.jpg",
+      "for": "veh-berlina-stile-honda-accord-2018"
+    },
+    {
+      "file": "veicoli/veh-berlina-stile-mercedes-classe-c-w205.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-benz-c.png",
+      "for": "veh-berlina-stile-mercedes-classe-c-w205"
+    },
+    {
+      "file": "veicoli/veh-berlina-compatta-stile-volkswagen-jetta.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jetta.jpg",
+      "for": "veh-berlina-compatta-stile-volkswagen-jetta"
+    },
+    {
+      "file": "veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg",
+      "for": "veh-berlina-sportiva-stile-audi-rs7"
+    },
+    {
+      "file": "veicoli/veh-bravado-bison-1800.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-2.png",
+      "for": "veh-bravado-bison-1800"
+    },
+    {
+      "file": "veicoli/veh-bravado-bison-900-95.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-900-95-2.jpg",
+      "for": "veh-bravado-bison-900-95"
+    },
+    {
+      "file": "veicoli/veh-bravado-gauntlet-hellfire.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg",
+      "for": "veh-bravado-gauntlet-hellfire"
+    },
+    {
+      "file": "veicoli/veh-bravado-police-cruiser-buffalo.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-buffalo.jpg",
+      "for": "veh-bravado-police-cruiser-buffalo"
+    },
+    {
+      "file": "veicoli/veh-bravado-rumpo-custom.jpg",
+      "url": "https://www.gtabase.com/igallery/4901-5000/GTA5_Rumpocustom_RSC-4994-360.jpg",
+      "for": "veh-bravado-rumpo-custom"
+    },
+    {
+      "file": "veicoli/veh-bravado-youga.jpg",
+      "url": "https://www.gtabase.com/igallery/5001-5100/GTA5_Youga_RSC-5002-360.jpg",
+      "for": "veh-bravado-youga"
+    },
+    {
+      "file": "veicoli/veh-buckingham-police-maverick.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-maverick-2.png",
+      "for": "veh-buckingham-police-maverick"
+    },
+    {
+      "file": "veicoli/veh-camion-medio-stile-chevrolet-kodiak.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kodiak.jpg",
+      "for": "veh-camion-medio-stile-chevrolet-kodiak"
+    },
+    {
+      "file": "veicoli/veh-camion-pesante-stile-silverado-6500-hd.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/silverado-hd.jpg",
+      "for": "veh-camion-pesante-stile-silverado-6500-hd"
+    },
+    {
+      "file": "veicoli/veh-camioncino-stile-isuzu-elf-250.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/isuzu-elf.jpg",
+      "for": "veh-camioncino-stile-isuzu-elf-250"
+    },
+    {
+      "file": "veicoli/veh-carro-attrezzi-stile-ford-f-series.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/f-series-tow-truck.jpg",
+      "for": "veh-carro-attrezzi-stile-ford-f-series"
+    },
+    {
+      "file": "veicoli/veh-catamarano-a-motore-stile-horizon-pc60.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-4-yacht.jpg",
+      "for": "veh-catamarano-a-motore-stile-horizon-pc60"
+    },
+    {
+      "file": "veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg",
+      "for": "veh-compatta-stile-chevrolet-sonic"
+    },
+    {
+      "file": "veicoli/veh-coup-stile-lincoln-mark-viii.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/mark-viii-2.jpg",
+      "for": "veh-coup-stile-lincoln-mark-viii"
+    },
+    {
+      "file": "veicoli/veh-coup-stile-mercedes-cle.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-cle-a236.jpg",
+      "for": "veh-coup-stile-mercedes-cle"
+    },
+    {
+      "file": "veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg",
+      "for": "veh-coup-cabrio-stile-buick-reatta"
+    },
+    {
+      "file": "veicoli/veh-coup-classica-stile-cadillac-eldorado-19.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/cadillac-eldorado.jpg",
+      "for": "veh-coup-classica-stile-cadillac-eldorado-19"
+    },
+    {
+      "file": "veicoli/veh-declasse-granger-3600lx.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-3600-l-x-2.jpg",
+      "for": "veh-declasse-granger-3600lx"
+    },
+    {
+      "file": "veicoli/veh-declasse-granger-taxi.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-taxi.jpg",
+      "for": "veh-declasse-granger-taxi"
+    },
+    {
+      "file": "veicoli/veh-declasse-impaler-sz.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg",
+      "for": "veh-declasse-impaler-sz"
+    },
+    {
+      "file": "veicoli/veh-declasse-moonbeam.jpg",
+      "url": "https://www.gtabase.com/igallery/4601-4700/GTA5_Moonbeam_RSC-4613-360.jpg",
+      "for": "veh-declasse-moonbeam"
+    },
+    {
+      "file": "veicoli/veh-declasse-tulip-m-100.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg",
+      "for": "veh-declasse-tulip-m-100"
+    },
+    {
+      "file": "veicoli/veh-dundreary-police-landstalker-xl.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/landstalker-x-l-police.jpg",
+      "for": "veh-dundreary-police-landstalker-xl"
+    },
+    {
+      "file": "veicoli/veh-furgone-stile-ford-econoline.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-econoline.png",
+      "for": "veh-furgone-stile-ford-econoline"
+    },
+    {
+      "file": "veicoli/veh-furgone-stile-ford-transit.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-transit.jpeg",
+      "for": "veh-furgone-stile-ford-transit"
+    },
+    {
+      "file": "veicoli/veh-furgone-stile-mercedes-sprinter.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/sprinter.jpg",
+      "for": "veh-furgone-stile-mercedes-sprinter"
+    },
+    {
+      "file": "veicoli/veh-furgone-cargo-stile-ford-transit-cargo.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/ford-transit-cargo.jpg",
+      "for": "veh-furgone-cargo-stile-ford-transit-cargo"
+    },
+    {
+      "file": "veicoli/veh-gallivanter-baller-st-d.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg",
+      "for": "veh-gallivanter-baller-st-d"
+    },
+    {
+      "file": "veicoli/veh-gommone-stile-highfield-sport-900.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/unknown-boat-1.jpeg",
+      "for": "veh-gommone-stile-highfield-sport-900"
+    },
+    {
+      "file": "veicoli/veh-jobuilt-phantom-custom.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/phantom.jpg",
+      "for": "veh-jobuilt-phantom-custom"
+    },
+    {
+      "file": "veicoli/veh-lombike.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/lombike.jpg",
+      "for": "veh-lombike"
+    },
+    {
+      "file": "veicoli/veh-lure-predator-l35p-polizia.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-boat.jpg",
+      "for": "veh-lure-predator-l35p-polizia"
+    },
+    {
+      "file": "veicoli/veh-monovolume-stile-chrysler-town-country.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-caravan.png",
+      "for": "veh-monovolume-stile-chrysler-town-country"
+    },
+    {
+      "file": "veicoli/veh-moocher.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/moocher.jpg",
+      "for": "veh-moocher"
+    },
+    {
+      "file": "veicoli/veh-moto-d-acqua-stile-sea-doo-rxt-x-300.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sea-doo.png",
+      "for": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300"
+    },
+    {
+      "file": "veicoli/veh-moto-sportiva-stile-suzuki-gsx-r1000.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/unknown-motorcycle-lucia.jpeg",
+      "for": "veh-moto-sportiva-stile-suzuki-gsx-r1000"
+    },
+    {
+      "file": "veicoli/veh-motoscafo-stile-bavaria-sr33.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/bavaria-s-r33.jpg",
+      "for": "veh-motoscafo-stile-bavaria-sr33"
+    },
+    {
+      "file": "veicoli/veh-motoscafo-stile-crownline-275-ss.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yamaha-255xd.png",
+      "for": "veh-motoscafo-stile-crownline-275-ss"
+    },
+    {
+      "file": "veicoli/veh-motoscafo-cabinato-stile-azimut-atlantis.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/atlantis-45.png",
+      "for": "veh-motoscafo-cabinato-stile-azimut-atlantis"
+    },
+    {
+      "file": "veicoli/veh-motoscafo-di-lusso-stile-frauscher-1017-.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/rivamare.png",
+      "for": "veh-motoscafo-di-lusso-stile-frauscher-1017-"
+    },
+    {
+      "file": "veicoli/veh-motovedetta-stile-rb-s-ii.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s-2.jpg",
+      "for": "veh-motovedetta-stile-rb-s-ii"
+    },
+    {
+      "file": "veicoli/veh-motovedetta-stile-rb-s.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s.jpg",
+      "for": "veh-motovedetta-stile-rb-s"
+    },
+    {
+      "file": "veicoli/veh-motrice-stile-international-s-series.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/international-s-series.jpg",
+      "for": "veh-motrice-stile-international-s-series"
+    },
+    {
+      "file": "veicoli/veh-nagasaki-police-buzzard.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-helicopter.jpg",
+      "for": "veh-nagasaki-police-buzzard"
+    },
+    {
+      "file": "veicoli/veh-obey-tailgater-s.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg",
+      "for": "veh-obey-tailgater-s"
+    },
+    {
+      "file": "veicoli/veh-offshore-stile-skater-388.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-2.jpg",
+      "for": "veh-offshore-stile-skater-388"
+    },
+    {
+      "file": "veicoli/veh-pegassi-stile-lamborghini-aventador.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/lamborghini-aventador-2.png",
+      "for": "veh-pegassi-stile-lamborghini-aventador"
+    },
+    {
+      "file": "veicoli/veh-pick-up-suv-stile-ford-explorer-sport-tr.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sport-trac4.jpg",
+      "for": "veh-pick-up-suv-stile-ford-explorer-sport-tr"
+    },
+    {
+      "file": "veicoli/veh-pick-up-cabrio-stile-dodge-dakota-conver.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-dakota.png",
+      "for": "veh-pick-up-cabrio-stile-dodge-dakota-conver"
+    },
+    {
+      "file": "veicoli/veh-pick-up-classico-stile-ford-f-series-ann.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-f-series-3rd.jpg",
+      "for": "veh-pick-up-classico-stile-ford-f-series-ann"
+    },
+    {
+      "file": "veicoli/veh-pick-up-con-cassone-piatto-stile-ford-f-.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/f-series-flatbed.jpg",
+      "for": "veh-pick-up-con-cassone-piatto-stile-ford-f-"
+    },
+    {
+      "file": "veicoli/veh-pick-up-dei-bagnini-stile-explorer-sport.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-lifeguard.jpg",
+      "for": "veh-pick-up-dei-bagnini-stile-explorer-sport"
+    },
+    {
+      "file": "veicoli/veh-pick-up-fuoristrada-stile-jeep-scrambler.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jeep-scrambler.jpeg",
+      "for": "veh-pick-up-fuoristrada-stile-jeep-scrambler"
+    },
+    {
+      "file": "veicoli/veh-pick-up-pesante-stile-ram-3500.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/suv-3-dodge-ram.jpg",
+      "for": "veh-pick-up-pesante-stile-ram-3500"
+    },
+    {
+      "file": "veicoli/veh-pomazoom-scooter-per-anziani.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mobility-scooter.jpeg",
+      "for": "veh-pomazoom-scooter-per-anziani"
+    },
+    {
+      "file": "veicoli/veh-suv-stile-audi-q7.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-q7.png",
+      "for": "veh-suv-stile-audi-q7"
+    },
+    {
+      "file": "veicoli/veh-suv-stile-dodge-durango.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/durango-2.jpg",
+      "for": "veh-suv-stile-dodge-durango"
+    },
+    {
+      "file": "veicoli/veh-suv-anni-novanta-stile-ford-explorer-2-g.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-2nd.jpg",
+      "for": "veh-suv-anni-novanta-stile-ford-explorer-2-g"
+    },
+    {
+      "file": "veicoli/veh-suv-compatto-stile-toyota-rav4.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/rav4.jpg",
+      "for": "veh-suv-compatto-stile-toyota-rav4"
+    },
+    {
+      "file": "veicoli/veh-scooter-stile-yamaha-bws-125.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/faggio-sport.jpg",
+      "for": "veh-scooter-stile-yamaha-bws-125"
+    },
+    {
+      "file": "veicoli/veh-shasa.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/premiere-400.png",
+      "for": "veh-shasa"
+    },
+    {
+      "file": "veicoli/veh-sirius.jpg",
+      "url": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-02-1080.jpg",
+      "for": "veh-sirius"
+    },
+    {
+      "file": "veicoli/veh-sportiva-classica-stile-kellison-j4.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kellison-j4.jpg",
+      "for": "veh-sportiva-classica-stile-kellison-j4"
+    },
+    {
+      "file": "veicoli/veh-station-wagon-stile-chrysler-lebaron-tow.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/le-baron.jpg",
+      "for": "veh-station-wagon-stile-chrysler-lebaron-tow"
+    },
+    {
+      "file": "veicoli/veh-taxi-monovolume-stile-dodge-grand-carava.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/chrysler-taxi.jpeg",
+      "for": "veh-taxi-monovolume-stile-dodge-grand-carava"
+    },
+    {
+      "file": "veicoli/veh-vapid-caracara-4x4.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/caracara-4x4.png",
+      "for": "veh-vapid-caracara-4x4"
+    },
+    {
+      "file": "veicoli/veh-vapid-dominator-asp.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-asp-2.jpg",
+      "for": "veh-vapid-dominator-asp"
+    },
+    {
+      "file": "veicoli/veh-vapid-dominator-gt.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gt-2.jpg",
+      "for": "veh-vapid-dominator-gt"
+    },
+    {
+      "file": "veicoli/veh-vapid-dominator-gtx.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gtx.jpg",
+      "for": "veh-vapid-dominator-gtx"
+    },
+    {
+      "file": "veicoli/veh-vapid-police-cruiser-stanier-le.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-cruiser.jpg",
+      "for": "veh-vapid-police-cruiser-stanier-le"
+    },
+    {
+      "file": "veicoli/veh-vapid-police-lowline-interceptor.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/lowline-police.jpg",
+      "for": "veh-vapid-police-lowline-interceptor"
+    },
+    {
+      "file": "veicoli/veh-vapid-police-montagne.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-montagne.jpg",
+      "for": "veh-vapid-police-montagne"
+    },
+    {
+      "file": "veicoli/veh-vapid-stanier-taxi.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier-le-taxi.jpg",
+      "for": "veh-vapid-stanier-taxi"
+    },
+    {
+      "file": "veicoli/veh-western-sovereign-107-polizia.jpg",
+      "url": "https://www.gtabase.com/images/gta-5/vehicles/emergency/main/police-bike.jpg",
+      "for": "veh-western-sovereign-107-polizia"
+    },
+    {
+      "file": "veicoli/veh-yacht-stile-azimut-85.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/azimut-85.jpg",
+      "for": "veh-yacht-stile-azimut-85"
+    },
+    {
+      "file": "veicoli/veh-yacht-stile-de-hoop-brion.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/shipyard.jpg",
+      "for": "veh-yacht-stile-de-hoop-brion"
+    },
+    {
+      "file": "veicoli/veh-yacht-stile-riva-86-domino.png",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yacht-2.png",
+      "for": "veh-yacht-stile-riva-86-domino"
+    },
+    {
+      "file": "veicoli/veh-bermacht-zion-cabrio.jpg",
+      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/zion-cabrio.jpg",
+      "for": "veh-bermacht-zion-cabrio"
     }
   ],
   "zip": {

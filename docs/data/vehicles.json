@@ -23,13 +23,15 @@
       "class": "fuoristrada",
       "description": "Versione buggy della Dominator del 1967, nell'Ultimate Edition, quattro screenshot nella galleria ufficiale.",
       "howToGet": "Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-dominator-buggy-67.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-vapid-buggy-01-468.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
     },
     {
       "id": "veh-vapid-stanier-55",
@@ -121,13 +123,15 @@
       "class": "classica",
       "description": "Collezione di auto classiche dell'Ultimate Edition, sei screenshot nella galleria ufficiale. Secondo la community è legata a Wyman e al suo sfasciacarrozze: auto d'epoca e progetti a metà.",
       "howToGet": "Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-classic-collection.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-01-1080.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition, Wyman car collection) via gtabase.com"
     },
     {
       "id": "veh-principe-alvino-v1",
@@ -170,13 +174,15 @@
       "class": "super",
       "description": "Supercar identificata dalla community nell'Extended Look.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-progen-emerus.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/emerus.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-grotti-bestia-gts",
@@ -185,13 +191,15 @@
       "class": "sportiva",
       "description": "Gran turismo identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-grotti-bestia-gts.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/bestia-gts.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-pfister-neon",
@@ -200,13 +208,15 @@
       "class": "sportiva",
       "description": "Sportiva elettrica identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-pfister-neon.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/neon-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-vysser-neo",
@@ -215,13 +225,15 @@
       "class": "sportiva",
       "description": "Sportiva identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-vysser-neo.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/sports/main/neo.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-maibatsu-penumbra-ff",
@@ -230,13 +242,15 @@
       "class": "sportiva",
       "description": "Coupé sportiva anni Novanta identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-maibatsu-penumbra-ff.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/penumbra-ff.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-declasse-stallion",
@@ -245,13 +259,15 @@
       "class": "muscle",
       "description": "Muscle car identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-stallion.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stallion.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-vapid-hustler",
@@ -260,13 +276,15 @@
       "class": "muscle",
       "description": "Hot rod anni Trenta identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-hustler.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/muscle/main/hustler.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-willard-faction-donk",
@@ -275,13 +293,15 @@
       "class": "muscle",
       "description": "La «donk» con le ruote enormi, un'icona della Florida, identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-willard-faction-donk.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/faction-custom-donk.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-mercury-comet",
@@ -290,13 +310,15 @@
       "class": "coupe",
       "description": "Coupé d'epoca identificata dalla community. Il nome del produttore in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-mercury-comet.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mercury-comet.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-buckingham-windsor-drop",
@@ -305,13 +327,15 @@
       "class": "coupe",
       "description": "Cabriolet di lusso identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-windsor-drop.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/windsor-drop-screen.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-ubermacht-rebla-gts",
@@ -320,13 +344,15 @@
       "class": "suv",
       "description": "SUV identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-ubermacht-rebla-gts.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/rebla-g-t-s2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-canis-terminus",
@@ -335,13 +361,15 @@
       "class": "fuoristrada",
       "description": "Fuoristrada identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-canis-terminus.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/terminus.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-mammoth-patriot-milspec",
@@ -350,13 +378,15 @@
       "class": "fuoristrada",
       "description": "Fuoristrada militare identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-mammoth-patriot-milspec.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/patriot-mil-spec.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-bf-injection",
@@ -365,13 +395,15 @@
       "class": "fuoristrada",
       "description": "Il buggy da spiaggia della serie, identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-bf-injection.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/injection.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-polaris-ranger",
@@ -380,13 +412,15 @@
       "class": "fuoristrada",
       "description": "Side-by-side da fuoristrada identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-polaris-ranger.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/polaris-ranger.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-western-cliffhanger",
@@ -395,13 +429,15 @@
       "class": "moto",
       "description": "Moto flat-track identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-cliffhanger.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/motorcycles/main/cliffhanger.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-principe-lectro",
@@ -410,13 +446,15 @@
       "class": "moto",
       "description": "Naked sportiva identificata dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-principe-lectro.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/lectro.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-declasse-granger-police",
@@ -425,13 +463,15 @@
       "class": "servizio",
       "description": "Il SUV della polizia, identificato dalla community. Esiste anche in versione taxi.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-granger-police.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-police.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-mtl-wastelander",
@@ -440,13 +480,15 @@
       "class": "servizio",
       "description": "Camion pesante identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-mtl-wastelander.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/service/main/wastelander.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-rexhall-rose-air",
@@ -455,13 +497,15 @@
       "class": "furgone",
       "description": "Camper identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-rexhall-rose-air.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/rexhall-rose-air.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-stanley-fieldmaster",
@@ -470,13 +514,15 @@
       "class": "industriale",
       "description": "Trattore identificato dalla community. Ambrosia è piena di campi.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-stanley-fieldmaster.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/utility/main/fieldmaster.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-hvy-dozer",
@@ -485,13 +531,15 @@
       "class": "industriale",
       "description": "Bulldozer identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-hvy-dozer.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/industrial/main/dozer.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-rhino-tank",
@@ -500,13 +548,15 @@
       "class": "militare",
       "description": "Il carro armato, identificato dalla community. C'è una base militare, da qualche parte.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-rhino-tank.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/military/main/rhino-tank.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-buckingham-valkyrie",
@@ -515,13 +565,15 @@
       "class": "elicottero",
       "description": "Elicottero militare identificato dalla community. Nel trailer di lancio gli elicotteri sono protagonisti, uno esplode.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-valkyrie.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/valkyrie-screen.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-buckingham-luxor",
@@ -530,13 +582,15 @@
       "class": "aereo",
       "description": "Jet privato identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-buckingham-luxor.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/luxor.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-airboat",
@@ -561,13 +615,15 @@
       "class": "barca",
       "description": "Identificato dalla community.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-water-taxi.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/water-taxi.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-nagasaki-caddy",
@@ -576,13 +632,15 @@
       "class": "altro",
       "description": "Il golf cart, identificato dalla community. Vedi Leaf Links.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-nagasaki-caddy.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caddy.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-scooter-elettrico",
@@ -591,13 +649,15 @@
       "class": "altro",
       "description": "Visto nell'Extended Look secondo la stampa. La community parla anche di un'app, Scooter Bros, per recuperare a pagamento un veicolo distrutto.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-scooter-elettrico.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/scooter-4.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-obey-8f-drafter.png",
@@ -821,7 +881,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-grotti-itali-rsx.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -833,7 +893,9 @@
       "class": "sportiva",
       "description": "Alla Ferrari SF90; vista nella corsa di strada. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/itali-rsx-screen.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
@@ -853,7 +915,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-obey-omnis-e-gt.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -865,7 +927,9 @@
       "class": "sportiva",
       "description": "Elettrica, alla Audi e-tron GT. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/omnis-e-gt.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-enus-paragon-r.png",
@@ -902,7 +966,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-coil-raiden.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -914,7 +978,9 @@
       "class": "sportiva",
       "description": "Elettrica, alla Tesla Model S. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/raiden.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-sugoi.png",
@@ -985,7 +1051,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-alpha.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -997,10 +1063,12 @@
       "class": "sportiva",
       "description": "Alla Cadillac ATS. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4701-4800/GTA5_Alpha_RSC-4767-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-ocelot-locust.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1012,10 +1080,12 @@
       "class": "sportiva",
       "description": "Alla Lotus 3-Eleven. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4801-4900/GTA5_Locust_RSC-4801-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-fathom-fr36.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1027,7 +1097,9 @@
       "class": "coupe",
       "description": "Alla Infiniti G35; avversaria nella corsa in pista. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/fr36.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-furia.png",
@@ -1081,7 +1153,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1093,7 +1165,9 @@
       "class": "super",
       "description": "Alla Bugatti Divo; la stampa ci vede anche la hypercar verde lime del trailer di lancio. Visto nel leak dell’agosto 2026; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/thrax-screen.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-albany-buccaneer.png",
@@ -1147,7 +1221,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-schyster-deviant.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1159,7 +1233,9 @@
       "class": "muscle",
       "description": "Alla AMC Javelin. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-06-1080.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-dominator.png",
@@ -1247,7 +1323,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-sabre-turbo.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1259,7 +1335,9 @@
       "class": "muscle",
       "description": "Alla Chevelle. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4601-4700/GTA5_Sabreturbo_RSC-4623-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-slamvan.png",
@@ -1296,7 +1374,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-vamos.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1308,7 +1386,9 @@
       "class": "muscle",
       "description": "Alla Chevy Nova; prima apparizione in single player. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4601-4700/GTA5_Vamos_RSC-4632-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vigero-zx-convertible.png",
@@ -1362,7 +1442,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1374,10 +1454,12 @@
       "class": "classica",
       "description": "Alla Shelby Daytona Coupe. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-04-1080.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-manana.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1389,7 +1471,9 @@
       "class": "classica",
       "description": "Tra LeSabre ed Eldorado. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/Albany-Manana.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
@@ -1409,7 +1493,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-declasse-tornado.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1421,10 +1505,12 @@
       "class": "classica",
       "description": "La Bel Air. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4801-4900/GTA5_Tornado_RSC-4872-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-bermacht-sentinel-xs.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1436,10 +1522,12 @@
       "class": "coupe",
       "description": "Alla M3 E92. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sentinel.png",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-enus-windsor.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1451,7 +1539,9 @@
       "class": "coupe",
       "description": "Alla Rolls-Royce Wraith. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/enus-windsor.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-zion.jpg",
@@ -1505,7 +1595,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-feroci.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1517,7 +1607,9 @@
       "class": "berlina",
       "description": "Alla Lexus GS. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/feroci.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-karin-intruder.png",
@@ -1537,7 +1629,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-lowline.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1549,7 +1641,9 @@
       "class": "berlina",
       "description": "Alla Ford Taurus; anche in versione Police Interceptor. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/taurus-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-schyster-pmp-700.png",
@@ -1603,7 +1697,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1615,7 +1709,9 @@
       "class": "berlina",
       "description": "La Crown Victoria, anche come taxi e volante. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-zirconium-stratum.png",
@@ -1652,7 +1748,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-oceanic.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1664,10 +1760,12 @@
       "class": "berlina",
       "description": "Classica di ritorno. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a6/Oceanic-GTAVCS-front.jpg/revision/latest/scale-to-width-down/1000?cb=20240105172918",
+      "imageCredit": "GTA Wiki (gta.fandom.com) — Oceanic in GTA Vice City Stories, modello omonimo"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-imponte-df8-90.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1679,10 +1777,12 @@
       "class": "berlina",
       "description": "Alla Pontiac G6. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-4/vehicles/df8-90.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vulcar-ingot.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1694,10 +1794,12 @@
       "class": "berlina",
       "description": "Wagon alla Passat. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4701-4800/GTA5_Ingot_RSC-4732-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-dundreary-regina.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1709,7 +1811,9 @@
       "class": "berlina",
       "description": "Wagon alla Caprice. Vista nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4701-4800/GTA5_Regina_RSC-4737-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-aleutian.png",
@@ -1763,7 +1867,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-albany-cavalcade-xl.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1775,7 +1879,9 @@
       "class": "suv",
       "description": "Alla Escalade-V. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/cavalcade-x-l4.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-contender.png",
@@ -1897,7 +2003,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-montagne.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1909,10 +2015,12 @@
       "class": "suv",
       "description": "Nuova, alla Explorer; anche Police Montagne. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/montagne.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-lampadati-novak.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1924,10 +2032,12 @@
       "class": "suv",
       "description": "Alla Maserati Levante. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/novak-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-riata-classic.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1939,10 +2049,12 @@
       "class": "suv",
       "description": "Il Bronco di prima generazione; commissione di Wyman nell'Ultimate Edition. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-03-468.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-canis-seminole-frontier.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1954,7 +2066,9 @@
       "class": "suv",
       "description": "La Cherokee XJ. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/seminole-frontier.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-toros.png",
@@ -1974,7 +2088,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -1986,10 +2100,12 @@
       "class": "suv",
       "description": "Monovolume alla Sienna. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/vivanite.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-benefactor-xls.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2001,7 +2117,9 @@
       "class": "suv",
       "description": "Alla Mercedes GL. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/xls-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-900-95-monster-truck.png",
@@ -2089,7 +2207,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-liberator.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2101,7 +2219,9 @@
       "class": "fuoristrada",
       "description": "Il monster truck del Thrillbilly Mud Club. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/liberator.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-manchez.png",
@@ -2172,7 +2292,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-reclaimer.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2184,7 +2304,9 @@
       "class": "fuoristrada",
       "description": "Nuovo, alla Ford Ranger. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/reclaimer3.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
@@ -2306,7 +2428,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-bati-801.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2318,7 +2440,9 @@
       "class": "moto",
       "description": "Alla Ducati 848. Vista negli artwork ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bati-801.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-carbon-rs.png",
@@ -2372,7 +2496,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-nightblade.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2384,7 +2508,9 @@
       "class": "moto",
       "description": "Alla Harley Night Rod. Vista negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-electric-fang-01-360.jpg",
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-western-sovereign.png",
@@ -2455,7 +2581,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-endurex-race-bike.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2467,7 +2593,9 @@
       "class": "altro",
       "description": "Bici da corsa alla Pinarello. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/endurex-race-bike.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-scorcher.png",
@@ -2521,7 +2649,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-ferry.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2533,7 +2661,9 @@
       "class": "barca",
       "description": "Il traghetto, alla Fisher Island. Vista nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ferry.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-lure-predator-l35p.png",
@@ -2604,7 +2734,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-pegassi-speeder.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2616,10 +2746,12 @@
       "class": "barca",
       "description": "Il motoscafo veloce. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/speeder.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-shitzu-tropic.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2631,7 +2763,9 @@
       "class": "barca",
       "description": "Motoscafo. Vista nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tropic.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-nave-da-crociera.png",
@@ -2719,7 +2853,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-western-company-mallard.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2731,7 +2865,9 @@
       "class": "aereo",
       "description": "Acrobatico alla Extra 300. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mallard.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-mammatus.jpg",
@@ -2785,7 +2921,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-mammoth-streamer216.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2797,7 +2933,9 @@
       "class": "aereo",
       "description": "Alla Twin Otter. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/streamer216.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-buzzard.png",
@@ -2885,7 +3023,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-ambulance.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -2897,7 +3035,9 @@
       "class": "servizio",
       "description": "L'ambulanza. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ambulance.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-1800-police.png",
@@ -2917,7 +3057,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-mtl-fire-truck.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -2929,7 +3069,9 @@
       "class": "servizio",
       "description": "Il camion dei pompieri. Visto nel leak dell’agosto 2026; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/fire-truck-screen.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-police-buffalo-stx-pursuit.png",
@@ -3000,7 +3142,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-airport-bus.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3012,10 +3154,12 @@
       "class": "servizio",
       "description": "L'autobus dell'aeroporto. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/airport-bus.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-buster.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3027,7 +3171,9 @@
       "class": "servizio",
       "description": "L'autobus urbano alla New Flyer: la rete di trasporto pubblico è funzionante. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/brute-bus.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-dashound.png",
@@ -3098,7 +3244,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vice-city-metro-mule.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3110,7 +3256,9 @@
       "class": "servizio",
       "description": "Il people mover automatico in stile Metromover; «copre lo stato di Leonida» secondo GameRant. Visto nel Trailer 2; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/metromule.png",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-brute-rental-shuttle-bus.png",
@@ -3147,7 +3295,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-hvy-airtug.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3159,10 +3307,12 @@
       "class": "servizio",
       "description": "Trattore aeroportuale. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/airtug.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-hvy-forklift.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3174,10 +3324,12 @@
       "class": "industriale",
       "description": "Il muletto. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/forklift.png",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-utility-truck.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3189,10 +3341,12 @@
       "class": "servizio",
       "description": "Camion di servizio. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/utility-truck.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jacksheepe-excavator.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3204,7 +3358,9 @@
       "class": "industriale",
       "description": "L'escavatore. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/excavator.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-flatbed.png",
@@ -3224,7 +3380,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-hvy-mixer.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -3236,7 +3392,9 @@
       "class": "industriale",
       "description": "Betoniera. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/igallery/4501-4600/GTA5_Mixerii_RSC-4516-360.jpg",
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-rubble.png",
@@ -3256,7 +3414,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-tipper.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3268,10 +3426,12 @@
       "class": "industriale",
       "description": "Ribaltabile a sei ruote. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tipper-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-benson.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3283,10 +3443,12 @@
       "class": "furgone",
       "description": "Camion box. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/benson.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-hvy-biff.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3298,10 +3460,12 @@
       "class": "industriale",
       "description": "Il camion della spazzatura. Visto nell'Extended Look; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/biff-2.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-jobuilt-hauler.png",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3313,10 +3477,12 @@
       "class": "industriale",
       "description": "Motrice. Visto negli screenshot ufficiali; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/hauler.png",
+      "imageCredit": "gtabase.com"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-maibatsu-mule.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3328,7 +3494,9 @@
       "class": "furgone",
       "description": "Camion box. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mule-3.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-mtl-packer.jpg",
@@ -3365,7 +3533,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-brute-stockade.jpg",
       "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -3377,7 +3545,9 @@
       "class": "industriale",
       "description": "Il furgone blindato della rapina ai contanti. Visto nel Trailer 1; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stockade.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison.png",
@@ -3550,7 +3720,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
     },
     {
-      "image": null,
+      "image": "assets/img/veicoli/veh-vapid-sadler.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -3562,7 +3732,9 @@
       "class": "furgone",
       "description": "Pickup pesante. Visto nel leak del 2022; identificazione della community (gtabase), nome in gioco da verificare al volante.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sadler-gtav.jpg",
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
       "id": "veh-yakuruna",
@@ -3571,13 +3743,1471 @@
       "class": "barca",
       "description": "Il superyacht in stile Riva dei trailer ha un nome: «Yakuruna», letto sulla fiancata in uno screenshot della Launch Gallery del 5 novembre. Avvistato già nel Trailer 1 e nel trailer di lancio.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/veicoli/veh-yakuruna.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gta.wiki/w/Yakuruna",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-06",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yacht-1.png",
+      "imageCredit": "gtabase.com"
+    },
+    {
+      "id": "veh-albany-buccaneer-custom",
+      "name": "Albany Buccaneer Custom",
+      "manufacturer": "Albany",
+      "class": "muscle",
+      "description": "Lowrider anni Sessanta ispirata a Ford Fairlane e Buick Riviera, versione modificata della Buccaneer. Citata anche da Multiplayer.it.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-albany-buccaneer-custom.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/buccaneer-custom",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/buccaneer-custom.jpg"
+    },
+    {
+      "id": "veh-barca-da-pesca",
+      "name": "Barca da pesca",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Peschereccio generico visto nei canali e nei porti di Leonida; nome in gioco da verificare.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-barca-da-pesca.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/fishing-boat",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/fishing-boat.jpg"
+    },
+    {
+      "id": "veh-barca-da-pesca-stile-btn-delmar",
+      "name": "Barca da pesca (stile BTN Delmar)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-barca-da-pesca-stile-btn-delmar.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/btn-delmar",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/btn-delmar.png"
+    },
+    {
+      "id": "veh-barca-da-pesca-stile-crusader-boats-gfy",
+      "name": "Barca da pesca (stile Crusader Boats GFY)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-barca-da-pesca-stile-crusader-boats-gfy.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/crusader-boats-gfy",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/crusader-boats-gfy.jpg"
+    },
+    {
+      "id": "veh-barca-da-pesca-sportiva-stile-contender-",
+      "name": "Barca da pesca sportiva (stile Contender 39ST)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-barca-da-pesca-sportiva-stile-contender-.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/contender-39st",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/contender-39st.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-buick-regal",
+      "name": "Berlina (stile Buick Regal)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-buick-regal.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-regal-6th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/regal-3.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-buick-skylark",
+      "name": "Berlina (stile Buick Skylark)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-buick-skylark.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-skylark-6th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/skylark.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-chevrolet-impala-2014",
+      "name": "Berlina (stile Chevrolet Impala 2014)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-chevrolet-impala-2014.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-impala-10th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impala.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-chrysler-sebring-dodge-str",
+      "name": "Berlina (stile Chrysler Sebring / Dodge Stratus)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-chrysler-sebring-dodge-str.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-sebring-2nd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stratus.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-honda-accord-2018",
+      "name": "Berlina (stile Honda Accord 2018)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-honda-accord-2018.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/honda-accord-10th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/accord.jpg"
+    },
+    {
+      "id": "veh-berlina-stile-mercedes-classe-c-w205",
+      "name": "Berlina (stile Mercedes Classe C W205)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-stile-mercedes-classe-c-w205.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-c-class-w205",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-benz-c.png"
+    },
+    {
+      "id": "veh-berlina-compatta-stile-volkswagen-jetta",
+      "name": "Berlina compatta (stile Volkswagen Jetta)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-compatta-stile-volkswagen-jetta.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/volkswagen-jetta",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jetta.jpg"
+    },
+    {
+      "id": "veh-berlina-sportiva-stile-audi-rs7",
+      "name": "Berlina sportiva (stile Audi RS7)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/audi-a7-rs7-2nd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg"
+    },
+    {
+      "id": "veh-bravado-bison-1800",
+      "name": "Bravado Bison 1800",
+      "manufacturer": "Bravado",
+      "class": "furgone",
+      "description": "Pick-up moderno ispirato al Ram 1500 (DT); ne esiste anche la variante di polizia (già in guida).",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-bison-1800.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-ii",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-2.png"
+    },
+    {
+      "id": "veh-bravado-bison-900-95",
+      "name": "Bravado Bison 900 '95",
+      "manufacturer": "Bravado",
+      "class": "furgone",
+      "description": "Pick-up anni Novanta ispirato al Dodge Ram di seconda generazione: la versione stradale del Bison 900 Monster Truck già in guida.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-bison-900-95.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-900-1995",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-900-95-2.jpg"
+    },
+    {
+      "id": "veh-bravado-gauntlet-hellfire",
+      "name": "Bravado Gauntlet Hellfire",
+      "manufacturer": "Bravado",
+      "class": "muscle",
+      "description": "Muscle car moderna ispirata alla Dodge Challenger Hellcat; Multiplayer.it la elenca tra le 89 auto confermate.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-gauntlet-hellfire.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/gauntlet-hellfire",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg"
+    },
+    {
+      "id": "veh-bravado-police-cruiser-buffalo",
+      "name": "Bravado Police Cruiser (Buffalo)",
+      "manufacturer": "Bravado",
+      "class": "servizio",
+      "description": "Volante su base Buffalo, distinta dalla Buffalo STX Pursuit già in guida.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-police-cruiser-buffalo.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/police-cruiser-buffalo",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-buffalo.jpg"
+    },
+    {
+      "id": "veh-bravado-rumpo-custom",
+      "name": "Bravado Rumpo Custom",
+      "manufacturer": "Bravado",
+      "class": "furgone",
+      "description": "Furgone ispirato al GMC Vandura, versione modificata del Rumpo già in guida.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-rumpo-custom.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/rumpo-custom",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/igallery/4901-5000/GTA5_Rumpocustom_RSC-4994-360.jpg"
+    },
+    {
+      "id": "veh-bravado-youga",
+      "name": "Bravado Youga",
+      "manufacturer": "Bravado",
+      "class": "furgone",
+      "description": "Furgone ispirato al Dodge Ram Van, versione moderna del Youga Classic già in guida.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bravado-youga.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/youga",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/igallery/5001-5100/GTA5_Youga_RSC-5002-360.jpg"
+    },
+    {
+      "id": "veh-buckingham-police-maverick",
+      "name": "Buckingham Police Maverick",
+      "manufacturer": "Buckingham",
+      "class": "elicottero",
+      "description": "Elicottero della polizia su base Maverick, con faro di ricerca.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-buckingham-police-maverick.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/police-maverick",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-maverick-2.png"
+    },
+    {
+      "id": "veh-camion-medio-stile-chevrolet-kodiak",
+      "name": "Camion medio (stile Chevrolet Kodiak)",
+      "manufacturer": null,
+      "class": "industriale",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-camion-medio-stile-chevrolet-kodiak.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-kodiak-gmc-topkick",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kodiak.jpg"
+    },
+    {
+      "id": "veh-camion-pesante-stile-silverado-6500-hd",
+      "name": "Camion pesante (stile Silverado 6500 HD)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-camion-pesante-stile-silverado-6500-hd.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-silverado-6500-hd",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/silverado-hd.jpg"
+    },
+    {
+      "id": "veh-camioncino-stile-isuzu-elf-250",
+      "name": "Camioncino (stile Isuzu Elf 250)",
+      "manufacturer": null,
+      "class": "industriale",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Aggiunto da gtabase a ottobre 2026.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-camioncino-stile-isuzu-elf-250.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/isuzu-elf-250",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/isuzu-elf.jpg"
+    },
+    {
+      "id": "veh-carro-attrezzi-stile-ford-f-series",
+      "name": "Carro attrezzi (stile Ford F-Series)",
+      "manufacturer": null,
+      "class": "servizio",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-carro-attrezzi-stile-ford-f-series.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-tow-truck",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/f-series-tow-truck.jpg"
+    },
+    {
+      "id": "veh-catamarano-a-motore-stile-horizon-pc60",
+      "name": "Catamarano a motore (stile Horizon PC60)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-catamarano-a-motore-stile-horizon-pc60.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/horizon-power-catamarans-pc60",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-4-yacht.jpg"
+    },
+    {
+      "id": "veh-compatta-stile-chevrolet-sonic",
+      "name": "Compatta (stile Chevrolet Sonic)",
+      "manufacturer": null,
+      "class": "coupe",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-sonic",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg"
+    },
+    {
+      "id": "veh-coup-stile-lincoln-mark-viii",
+      "name": "Coupé (stile Lincoln Mark VIII)",
+      "manufacturer": null,
+      "class": "coupe",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-coup-stile-lincoln-mark-viii.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/lincoln-mark-viii",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mark-viii-2.jpg"
+    },
+    {
+      "id": "veh-coup-stile-mercedes-cle",
+      "name": "Coupé (stile Mercedes CLE)",
+      "manufacturer": null,
+      "class": "coupe",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-coup-stile-mercedes-cle.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-cle-class-a236",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-cle-a236.jpg"
+    },
+    {
+      "id": "veh-coup-cabrio-stile-buick-reatta",
+      "name": "Coupé cabrio (stile Buick Reatta)",
+      "manufacturer": null,
+      "class": "coupe",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-reatta-convertible",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg"
+    },
+    {
+      "id": "veh-coup-classica-stile-cadillac-eldorado-19",
+      "name": "Coupé classica (stile Cadillac Eldorado 1959)",
+      "manufacturer": null,
+      "class": "coupe",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Pinne e cromature anni Cinquanta.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-coup-classica-stile-cadillac-eldorado-19.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/cadillac-eldorado-1959",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/cadillac-eldorado.jpg"
+    },
+    {
+      "id": "veh-declasse-granger-3600lx",
+      "name": "Declasse Granger 3600LX",
+      "manufacturer": "Declasse",
+      "class": "suv",
+      "description": "SUV full-size ispirato alla Chevrolet Suburban 2015-2020, evoluzione moderna del Granger.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-declasse-granger-3600lx.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/granger-3600lx",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-3600-l-x-2.jpg"
+    },
+    {
+      "id": "veh-declasse-granger-taxi",
+      "name": "Declasse Granger Taxi",
+      "manufacturer": "Declasse",
+      "class": "servizio",
+      "description": "Versione taxi del Granger, aggiunta da gtabase a ottobre 2026 dopo gli screenshot di lancio.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-declasse-granger-taxi.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/granger-taxi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-taxi.jpg"
+    },
+    {
+      "id": "veh-declasse-impaler-sz",
+      "name": "Declasse Impaler SZ",
+      "manufacturer": "Declasse",
+      "class": "muscle",
+      "description": "Berlina muscle ispirata alla Chevrolet Impala SS 1994-1996, variante moderna dell'Impaler.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-declasse-impaler-sz.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/impaler-sz",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg"
+    },
+    {
+      "id": "veh-declasse-moonbeam",
+      "name": "Declasse Moonbeam",
+      "manufacturer": "Declasse",
+      "class": "muscle",
+      "description": "Furgone-lowrider ispirato al Chevrolet Astro, già noto da GTA V; gtabase lo cataloga tra le muscle.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-declasse-moonbeam.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/moonbeam",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/igallery/4601-4700/GTA5_Moonbeam_RSC-4613-360.jpg"
+    },
+    {
+      "id": "veh-declasse-tulip-m-100",
+      "name": "Declasse Tulip M-100",
+      "manufacturer": "Declasse",
+      "class": "muscle",
+      "description": "Muscle car ispirata alla Chevrolet Malibu di quarta generazione, variante della Tulip.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-declasse-tulip-m-100.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/tulip-m-100",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg"
+    },
+    {
+      "id": "veh-dundreary-police-landstalker-xl",
+      "name": "Dundreary Police Landstalker XL",
+      "manufacturer": "Dundreary",
+      "class": "servizio",
+      "description": "SUV di polizia su base Landstalker XL (Lincoln Navigator), probabilmente per unità speciali.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-dundreary-police-landstalker-xl.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/police-landstalker-xl",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/landstalker-x-l-police.jpg"
+    },
+    {
+      "id": "veh-furgone-stile-ford-econoline",
+      "name": "Furgone (stile Ford Econoline)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-furgone-stile-ford-econoline.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-econoline-4th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-econoline.png"
+    },
+    {
+      "id": "veh-furgone-stile-ford-transit",
+      "name": "Furgone (stile Ford Transit)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-furgone-stile-ford-transit.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-transit-4th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-transit.jpeg"
+    },
+    {
+      "id": "veh-furgone-stile-mercedes-sprinter",
+      "name": "Furgone (stile Mercedes Sprinter)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-furgone-stile-mercedes-sprinter.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-sprinter-2nd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sprinter.jpg"
+    },
+    {
+      "id": "veh-furgone-cargo-stile-ford-transit-cargo",
+      "name": "Furgone cargo (stile Ford Transit Cargo)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-furgone-cargo-stile-ford-transit-cargo.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-transit-cargo-4th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ford-transit-cargo.jpg"
+    },
+    {
+      "id": "veh-gallivanter-baller-st-d",
+      "name": "Gallivanter Baller ST-D",
+      "manufacturer": "Gallivanter",
+      "class": "suv",
+      "description": "SUV di lusso ispirato alla Range Rover L460, versione aggiornata del Baller. Riconosciuto da trailer e screenshot.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-gallivanter-baller-st-d.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/baller-st-d",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg"
+    },
+    {
+      "id": "veh-gommone-stile-highfield-sport-900",
+      "name": "Gommone (stile Highfield Sport 900)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-gommone-stile-highfield-sport-900.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/highfield-sport-900",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/unknown-boat-1.jpeg"
+    },
+    {
+      "id": "veh-jobuilt-phantom-custom",
+      "name": "JoBuilt Phantom Custom",
+      "manufacturer": "JoBuilt",
+      "class": "industriale",
+      "description": "Motrice con cabina aerodinamica ispirata al GMC General 1984, variante personalizzata del Phantom.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-jobuilt-phantom-custom.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/phantom-custom",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/phantom.jpg"
+    },
+    {
+      "id": "veh-lombike",
+      "name": "Lombike",
+      "manufacturer": null,
+      "class": "altro",
+      "description": "Bicicletta da città a telaio basso, vista nei quartieri di Vice City. Nome da verificare.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-lombike.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/lombike",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/lombike.jpg"
+    },
+    {
+      "id": "veh-lure-predator-l35p-polizia",
+      "name": "Lure Predator L35P (Polizia)",
+      "manufacturer": "Lure",
+      "class": "barca",
+      "description": "Motovedetta della polizia su base Predator L35P, per inseguimenti nei canali e lungo la costa.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-lure-predator-l35p-polizia.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/police-boat",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-boat.jpg"
+    },
+    {
+      "id": "veh-monovolume-stile-chrysler-town-country",
+      "name": "Monovolume (stile Chrysler Town & Country)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-monovolume-stile-chrysler-town-country.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-5th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-caravan.png"
+    },
+    {
+      "id": "veh-moocher",
+      "name": "Moocher",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Camper anni Ottanta ispirato al Fleetwood Southwind, visto nei parcheggi dei trailer park.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-moocher.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/moocher",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/moocher.jpg"
+    },
+    {
+      "id": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300",
+      "name": "Moto d'acqua (stile Sea-Doo RXT-X 300)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-moto-d-acqua-stile-sea-doo-rxt-x-300.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sea-doo-rxt-x-300",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sea-doo.png"
+    },
+    {
+      "id": "veh-moto-sportiva-stile-suzuki-gsx-r1000",
+      "name": "Moto sportiva (stile Suzuki GSX-R1000)",
+      "manufacturer": null,
+      "class": "moto",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. La moto guidata da Lucia in uno screenshot.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-moto-sportiva-stile-suzuki-gsx-r1000.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/suzuki-gsx-r1000",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/unknown-motorcycle-lucia.jpeg"
+    },
+    {
+      "id": "veh-motoscafo-stile-bavaria-sr33",
+      "name": "Motoscafo (stile Bavaria SR33)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motoscafo-stile-bavaria-sr33.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bavaria-sr33",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/bavaria-s-r33.jpg"
+    },
+    {
+      "id": "veh-motoscafo-stile-crownline-275-ss",
+      "name": "Motoscafo (stile Crownline 275 SS)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motoscafo-stile-crownline-275-ss.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/crownline-275-ss",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yamaha-255xd.png"
+    },
+    {
+      "id": "veh-motoscafo-cabinato-stile-azimut-atlantis",
+      "name": "Motoscafo cabinato (stile Azimut Atlantis 45)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motoscafo-cabinato-stile-azimut-atlantis.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/azimut-atlantis-45",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/atlantis-45.png"
+    },
+    {
+      "id": "veh-motoscafo-di-lusso-stile-frauscher-1017-",
+      "name": "Motoscafo di lusso (stile Frauscher 1017 GT)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motoscafo-di-lusso-stile-frauscher-1017-.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/frauscher-1017-gt",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/rivamare.png"
+    },
+    {
+      "id": "veh-motovedetta-stile-rb-s-ii",
+      "name": "Motovedetta (stile RB-S II)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motovedetta-stile-rb-s-ii.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/rb-s-ii",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s-2.jpg"
+    },
+    {
+      "id": "veh-motovedetta-stile-rb-s",
+      "name": "Motovedetta (stile RB-S)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Pattugliatore della Guardia Costiera.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motovedetta-stile-rb-s.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/rb-s",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s.jpg"
+    },
+    {
+      "id": "veh-motrice-stile-international-s-series",
+      "name": "Motrice (stile International S-Series)",
+      "manufacturer": null,
+      "class": "servizio",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-motrice-stile-international-s-series.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/international-s-series-semi-truck",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/international-s-series.jpg"
+    },
+    {
+      "id": "veh-nagasaki-police-buzzard",
+      "name": "Nagasaki Police Buzzard",
+      "manufacturer": "Nagasaki",
+      "class": "elicottero",
+      "description": "Elicottero della polizia derivato dal Buzzard, visto nei trailer sopra Vice City.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-nagasaki-police-buzzard.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/police-buzzard",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-helicopter.jpg"
+    },
+    {
+      "id": "veh-obey-tailgater-s",
+      "name": "Obey Tailgater S",
+      "manufacturer": "Obey",
+      "class": "berlina",
+      "description": "Berlina sportiva ispirata all'Audi RS3, versione aggiornata della Tailgater.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-obey-tailgater-s.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/tailgater-s",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg"
+    },
+    {
+      "id": "veh-offshore-stile-skater-388",
+      "name": "Offshore (stile Skater 388)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-offshore-stile-skater-388.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/skater-388",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-2.jpg"
+    },
+    {
+      "id": "veh-pegassi-stile-lamborghini-aventador",
+      "name": "Pegassi (stile Lamborghini Aventador)",
+      "manufacturer": "Pegassi",
+      "class": "super",
+      "description": "Supercar vista nei trailer ispirata alla Lamborghini Aventador; Multiplayer.it la chiama «Pegassi 'Aventador'», nome in gioco da verificare.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pegassi-stile-lamborghini-aventador.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/lamborghini-aventador",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/lamborghini-aventador-2.png"
+    },
+    {
+      "id": "veh-pick-up-suv-stile-ford-explorer-sport-tr",
+      "name": "Pick-up SUV (stile Ford Explorer Sport Trac)",
+      "manufacturer": null,
+      "class": "fuoristrada",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-suv-stile-ford-explorer-sport-tr.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sport-trac4.jpg"
+    },
+    {
+      "id": "veh-pick-up-cabrio-stile-dodge-dakota-conver",
+      "name": "Pick-up cabrio (stile Dodge Dakota Convertible)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-cabrio-stile-dodge-dakota-conver.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dodge-dakota-convertible",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-dakota.png"
+    },
+    {
+      "id": "veh-pick-up-classico-stile-ford-f-series-ann",
+      "name": "Pick-up classico (stile Ford F-Series anni Cinquanta)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-classico-stile-ford-f-series-ann.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-3rd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-f-series-3rd.jpg"
+    },
+    {
+      "id": "veh-pick-up-con-cassone-piatto-stile-ford-f-",
+      "name": "Pick-up con cassone piatto (stile Ford F-Series 6ª gen.)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-con-cassone-piatto-stile-ford-f-.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-6th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/f-series-flatbed.jpg"
+    },
+    {
+      "id": "veh-pick-up-dei-bagnini-stile-explorer-sport",
+      "name": "Pick-up dei bagnini (stile Explorer Sport Trac)",
+      "manufacturer": null,
+      "class": "servizio",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Versione lifeguard vista sulle spiagge di Vice Beach.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-dei-bagnini-stile-explorer-sport.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac-lifeguard",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-lifeguard.jpg"
+    },
+    {
+      "id": "veh-pick-up-fuoristrada-stile-jeep-scrambler",
+      "name": "Pick-up fuoristrada (stile Jeep Scrambler CJ-8)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-fuoristrada-stile-jeep-scrambler.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/jeep-scrambler-cj-8",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jeep-scrambler.jpeg"
+    },
+    {
+      "id": "veh-pick-up-pesante-stile-ram-3500",
+      "name": "Pick-up pesante (stile RAM 3500)",
+      "manufacturer": null,
+      "class": "furgone",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pick-up-pesante-stile-ram-3500.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ram-3500",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/suv-3-dodge-ram.jpg"
+    },
+    {
+      "id": "veh-pomazoom-scooter-per-anziani",
+      "name": "Pomazoom (scooter per anziani)",
+      "manufacturer": null,
+      "class": "moto",
+      "description": "Scooter elettrico per la mobilità, ispirato al Pride Maxima 3: il mezzo dei pensionati di Leonida.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-pomazoom-scooter-per-anziani.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mobility-scooter-pride-maxima-3",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mobility-scooter.jpeg"
+    },
+    {
+      "id": "veh-suv-stile-audi-q7",
+      "name": "SUV (stile Audi Q7)",
+      "manufacturer": null,
+      "class": "suv",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-suv-stile-audi-q7.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/audi-q7-2nd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-q7.png"
+    },
+    {
+      "id": "veh-suv-stile-dodge-durango",
+      "name": "SUV (stile Dodge Durango)",
+      "manufacturer": null,
+      "class": "suv",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-suv-stile-dodge-durango.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dodge-durango-3rd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/durango-2.jpg"
+    },
+    {
+      "id": "veh-suv-anni-novanta-stile-ford-explorer-2-g",
+      "name": "SUV anni Novanta (stile Ford Explorer 2ª gen.)",
+      "manufacturer": null,
+      "class": "suv",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-suv-anni-novanta-stile-ford-explorer-2-g.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-2nd-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-2nd.jpg"
+    },
+    {
+      "id": "veh-suv-compatto-stile-toyota-rav4",
+      "name": "SUV compatto (stile Toyota RAV4)",
+      "manufacturer": null,
+      "class": "suv",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-suv-compatto-stile-toyota-rav4.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/toyota-rav4-5th-gen",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/rav4.jpg"
+    },
+    {
+      "id": "veh-scooter-stile-yamaha-bws-125",
+      "name": "Scooter (stile Yamaha BWs 125)",
+      "manufacturer": null,
+      "class": "moto",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Potrebbe essere un Faggio Sport.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-scooter-stile-yamaha-bws-125.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/yamaha-bws-125",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/faggio-sport.jpg"
+    },
+    {
+      "id": "veh-shasa",
+      "name": "Shasa",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Motoscafo cabinato ispirato al Sea Ray 350 Sundancer; nome «Shasa» letto da gtabase.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-shasa.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sea-ray-350-sundancer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/premiere-400.png"
+    },
+    {
+      "id": "veh-sirius",
+      "name": "Sirius",
+      "manufacturer": null,
+      "class": "muscle",
+      "description": "Muscle car anni Settanta ispirata alla Mercury Cougar 1970, parte della collezione di Wyman nell'Ultimate Edition. Citata anche da Multiplayer.it.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-sirius.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sirius",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-02-1080.jpg"
+    },
+    {
+      "id": "veh-sportiva-classica-stile-kellison-j4",
+      "name": "Sportiva classica (stile Kellison J4)",
+      "manufacturer": null,
+      "class": "classica",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Kit car americana anni Cinquanta.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-sportiva-classica-stile-kellison-j4.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/kellison-j4",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kellison-j4.jpg"
+    },
+    {
+      "id": "veh-station-wagon-stile-chrysler-lebaron-tow",
+      "name": "Station wagon (stile Chrysler LeBaron Town & Country)",
+      "manufacturer": null,
+      "class": "berlina",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Wagon anni Ottanta con fiancate in finto legno.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-station-wagon-stile-chrysler-lebaron-tow.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-lebaron-town-country",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/le-baron.jpg"
+    },
+    {
+      "id": "veh-taxi-monovolume-stile-dodge-grand-carava",
+      "name": "Taxi monovolume (stile Dodge Grand Caravan)",
+      "manufacturer": null,
+      "class": "servizio",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Taxi giallo di Vice City su base monovolume.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-taxi-monovolume-stile-dodge-grand-carava.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-taxi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/chrysler-taxi.jpeg"
+    },
+    {
+      "id": "veh-vapid-caracara-4x4",
+      "name": "Vapid Caracara 4x4",
+      "manufacturer": "Vapid",
+      "class": "fuoristrada",
+      "description": "Pick-up fuoristrada ispirato al Ford F-150 Raptor di seconda generazione, variante del Caracara. Citato anche da Multiplayer.it.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-caracara-4x4.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/caracara-4x4",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caracara-4x4.png"
+    },
+    {
+      "id": "veh-vapid-dominator-asp",
+      "name": "Vapid Dominator ASP",
+      "manufacturer": "Vapid",
+      "class": "muscle",
+      "description": "Muscle car ispirata alla Ford Mustang SVT Cobra R \"New Edge\" di fine anni Novanta. Citata anche da Multiplayer.it.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-dominator-asp.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/dominator-asp",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-asp-2.jpg"
+    },
+    {
+      "id": "veh-vapid-dominator-gt",
+      "name": "Vapid Dominator GT",
+      "manufacturer": "Vapid",
+      "class": "muscle",
+      "description": "Muscle car moderna ispirata alla Ford Mustang cabrio 2018-2023. Citata anche da Multiplayer.it.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-dominator-gt.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dominator-gt",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gt-2.jpg"
+    },
+    {
+      "id": "veh-vapid-dominator-gtx",
+      "name": "Vapid Dominator GTX",
+      "manufacturer": "Vapid",
+      "class": "muscle",
+      "description": "Variante ad alte prestazioni della Dominator moderna, riconosciuta da gtabase nei materiali promozionali.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-dominator-gtx.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/dominator-gtx",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gtx.jpg"
+    },
+    {
+      "id": "veh-vapid-police-cruiser-stanier-le",
+      "name": "Vapid Police Cruiser (Stanier LE)",
+      "manufacturer": "Vapid",
+      "class": "servizio",
+      "description": "Volante classica su base Stanier LE (Ford Crown Victoria), la pattuglia più tradizionale del VCPD.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-police-cruiser-stanier-le.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/police-cruiser",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-cruiser.jpg"
+    },
+    {
+      "id": "veh-vapid-police-lowline-interceptor",
+      "name": "Vapid Police Lowline (Interceptor)",
+      "manufacturer": "Vapid",
+      "class": "servizio",
+      "description": "Volante su base Lowline (Ford Police Interceptor Sedan 2013-2019).",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-police-lowline-interceptor.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/police-cruiser-interceptor",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/lowline-police.jpg"
+    },
+    {
+      "id": "veh-vapid-police-montagne",
+      "name": "Vapid Police Montagne",
+      "manufacturer": "Vapid",
+      "class": "servizio",
+      "description": "Versione di polizia del Vapid Montagne (Ford Explorer di sesta generazione), il SUV più diffuso tra le pattuglie viste nei trailer.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-police-montagne.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-suv-police",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-montagne.jpg"
+    },
+    {
+      "id": "veh-vapid-stanier-taxi",
+      "name": "Vapid Stanier Taxi",
+      "manufacturer": "Vapid",
+      "class": "servizio",
+      "description": "Taxi giallo su base Stanier (Ford Crown Victoria), il classico taxi di Vice City.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-vapid-stanier-taxi.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/taxi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier-le-taxi.jpg"
+    },
+    {
+      "id": "veh-western-sovereign-107-polizia",
+      "name": "Western Sovereign 107 (Polizia)",
+      "manufacturer": "Western",
+      "class": "moto",
+      "description": "Moto della polizia ispirata alla Harley-Davidson Road King FLHP, variante del Sovereign.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-western-sovereign-107-polizia.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sovereign-107",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/emergency/main/police-bike.jpg"
+    },
+    {
+      "id": "veh-yacht-stile-azimut-85",
+      "name": "Yacht (stile Azimut 85)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia. Yacht a motore di lusso visto nei porti di Vice City.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-yacht-stile-azimut-85.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/azimut-85",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/azimut-85.jpg"
+    },
+    {
+      "id": "veh-yacht-stile-de-hoop-brion",
+      "name": "Yacht (stile De Hoop Brion)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-yacht-stile-de-hoop-brion.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/shipyard-de-hoop-brion",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/shipyard.jpg"
+    },
+    {
+      "id": "veh-yacht-stile-riva-86-domino",
+      "name": "Yacht (stile Riva 86 Domino)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Veicolo avvistato nei trailer/screenshot ma senza nome in gioco confermato: gtabase lo cataloga col modello reale a cui somiglia.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-yacht-stile-riva-86-domino.png",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/riva-86-domino",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yacht-2.png"
+    },
+    {
+      "id": "veh-bermacht-zion-cabrio",
+      "name": "Übermacht Zion Cabrio",
+      "manufacturer": "Übermacht",
+      "class": "coupe",
+      "description": "Versione cabrio della coupé Zion, riconosciuta da gtabase.",
+      "howToGet": "Da verificare.",
+      "image": "assets/img/veicoli/veh-bermacht-zion-cabrio.jpg",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/zion-cabrio",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/zion-cabrio.jpg"
     }
   ]
 }
