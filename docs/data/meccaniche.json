@@ -920,6 +920,580 @@
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-telefono-app",
+      "title": "Telefono e app",
+      "emoji": "📱",
+      "short": "Il telefono è il tuo centro di comando: banca, messaggi, corse, recupero dell'auto, scanner dei veicoli e social. È un oggetto fisico: lo tieni in mano e la fotocamera è quella del personaggio.",
+      "steps": [
+        "Apri il telefono per accedere alle app: ognuna fa una cosa sola e la fa bene.",
+        "Usa BuckMe per gestire il conto in banca, condiviso tra Jason e Lucia.",
+        "Usa WhatUp per scrivere o chiamare l'altro protagonista e darvi appuntamento.",
+        "Prima di rubare un'auto, puntala con WAINK: vedi sicurezza, attrezzo necessario, localizzatore, costo di registrazione e valore dal ricettatore.",
+        "Chiama Ryde Me per farti portare a destinazione, saltando il viaggio o facendolo tutto.",
+        "Chiama Scooter Bros per farti consegnare il tuo veicolo personale ovunque, per una piccola tariffa.",
+        "Scorri Snapmatic e i feed social per seguire le storie del mondo e scoprire eventi a cui andare.",
+        "Ascolta podcast e show con On Demand, anche a piedi con gli auricolari."
+      ],
+      "details": [
+        {
+          "title": "WAINK e i furti su commissione",
+          "text": "WAINK scansiona ogni auto e ti dice a cosa vai incontro. Elenca anche i modelli che i ricettatori stanno cercando, con le loro difese e il localizzatore."
+        },
+        {
+          "title": "Snapmatic: si guarda, non si posta",
+          "text": "Puoi seguire account e leggere i post, ma non pubblicare: siete una coppia in fuga. Gli NPC postano eventi a cui puoi andare dal vivo, e c'è un feed di video brevi. I feed portano avanti storie del mondo, come la scalata delle Real Dimez."
+        },
+        {
+          "title": "Messaggi e relazione",
+          "text": "Jason e Lucia si scrivono e si chiamano quando vogliono. Basta rispondere per tenere stabile il rapporto; se ignori i messaggi, la relazione ne risente un po'. Se uno dei due viene arrestato, l'altro ti scrive per sapere se va tutto bene."
+        },
+        {
+          "title": "Altre app",
+          "text": "C'è un'app per forma fisica e sonno, che segue le tue statistiche. In coppia, chi sta sul sedile del passeggero può usare il telefono mentre l'altro guida."
+        }
+      ],
+      "tips": [
+        "Rispondi sempre ai messaggi dell'altro protagonista: costa poco e protegge la relazione.",
+        "Scansiona con WAINK prima di toccare la maniglia: eviti allarmi e localizzatori a sorpresa.",
+        "Se hai abbandonato l'auto in un inseguimento, Scooter Bros costa di più: può essere sorvegliata o al deposito.",
+        "Tieni d'occhio Snapmatic: gli eventi postati dagli NPC sono attività vere sulla mappa."
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il feed delle dirette che si apre con R3 viene chiamato Lifeinvader, ma il nome non è confermato."
+        },
+        {
+          "source": "community",
+          "text": "Peekhole, parodia di OnlyFans, compare su un manifesto del Jack of Hearts; il suo ruolo nel gioco non è noto."
+        },
+        {
+          "source": "rumor",
+          "text": "Take-Two ha registrato domini come Bleeter, Fruit Pay e LeonidaGov: possibili app o siti del telefono."
+        },
+        {
+          "source": "stampa",
+          "text": "Il bancomat tiene i contanti al sicuro con un tetto di 20.000 $ per deposito; i soldi in tasca si perdono se muori o vieni arrestato."
+        }
+      ],
+      "relatedIds": [
+        "tip-app",
+        "new-20261007-snapmatic",
+        "new-20260827-furto-auto",
+        "new-20261029-scooter-bros",
+        "new-20261007-rydeme",
+        "brd-waink",
+        "brd-ryde-me",
+        "brd-scooter-bros",
+        "brd-snapmatic",
+        "brd-buckme",
+        "brd-whatup",
+        "brd-on-demand",
+        "brd-lifeinvader",
+        "brd-peekhole",
+        "tip-soldi-1"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-guida-veicoli",
+      "title": "Guida e veicoli",
+      "emoji": "🚙",
+      "short": "Ogni veicolo ha benzina e salute del motore, e la guida è più fisica e impegnativa che in GTA V. Ripari e ridipingi al Pay 'n' Spray, personalizzi nelle officine, e il bagagliaio decide quanto bottino porti via.",
+      "steps": [
+        "Guarda le spie: carburante e stato del motore sono sempre visibili.",
+        "Per fare il pieno fermati al distributore e tieni premuto R2 per una decina di secondi; le elettriche si ricaricano alle colonnine.",
+        "Il distributore ripara anche i danni; il Pay 'n' Spray ripara, cambia colore e azzera il «calore» dell'auto.",
+        "Per personalizzare vai in officina: le opzioni base ci sono quasi ovunque, quelle speciali solo in certe zone.",
+        "Apri il menu del veicolo per aprire il bagagliaio o abbassare la capote.",
+        "Scegli il mezzo in base al bottino: la moto non porta quasi nulla, auto, furgone e camion sempre di più.",
+        "Registra un'auto rubata, pagando, per farla diventare tua; prima va tolto il localizzatore."
+      ],
+      "details": [
+        {
+          "title": "Come si guida",
+          "text": "La fisica è rifatta da zero: il peso di GTA IV con l'accessibilità di GTA V. Trazione, gomme, sospensioni e potenza cambiano il comportamento: le posteriori vanno dosate col gas, le supercar fuoristrada sono difficili. Strade più strette e traffico più denso chiedono un po' di abilità. Su PlayStation il freno a mano è su X, perché L1 e R1 servono per sparare."
+        },
+        {
+          "title": "Danni",
+          "text": "Sparare alle gomme fa perdere il controllo o ribaltare l'auto. Un'auto malandata o a secco può tradirti durante una fuga. Il ricettatore paga meno se il veicolo è danneggiato: riparalo prima della consegna."
+        },
+        {
+          "title": "Bagagliaio e veicolo personale",
+          "text": "Ogni veicolo ha una cassa per le armi e puoi metterci le armi lunghe; solo il veicolo personale tiene l'arsenale completo. Nel bagagliaio puoi lasciare anche outfit di ricambio per cambiarti durante una fuga. Il veicolo personale lo richiami quando vuoi."
+        },
+        {
+          "title": "Garage e registrazione",
+          "text": "I garage si comprano e ampliano i posti per i veicoli personali; puoi custodirci le auto rubate prima di registrarle. I rifugi invece non si comprano: arrivano con la storia. I modelli di fascia alta non si possono registrare all'inizio."
+        }
+      ],
+      "tips": [
+        "Non preoccuparti troppo della benzina: si va lontano tra un pieno e l'altro. Conta quando rubi un'auto a caso per scappare.",
+        "Prima di una rapina scegli un mezzo con spazio: in moto il bottino non ci sta.",
+        "Dopo un inseguimento passa dal Pay 'n' Spray: colore nuovo e calore azzerato.",
+        "Ripara l'auto rubata prima di portarla al ricettatore: rende di più.",
+        "Tieni un outfit di ricambio nel bagagliaio del veicolo personale."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "All'inizio hai tre posti per i veicoli personali; per aggiungerne un altro devi venderne uno o comprare un garage. Ogni garage ha un armadietto delle armi e un deposito per la merce rubata."
+        },
+        {
+          "source": "stampa",
+          "text": "Le auto non registrate spariscono quando riavvii il gioco."
+        },
+        {
+          "source": "stampa",
+          "text": "Il localizzatore lo tolgono un meccanico o un ricettatore; le telecamere sull'autostrada riconoscono le auto rubate."
+        },
+        {
+          "source": "stampa",
+          "text": "Ci sono telecamere opzionali che si attivano negli incidenti più violenti."
+        },
+        {
+          "source": "community",
+          "text": "Le officine speciali dell'Ultimate Edition sono Rideout Customs a Crosstown (donk) e One-Eyed Willie's a Lake Leonida (fuoristrada e grafiche dipinte a mano)."
+        },
+        {
+          "source": "stampa",
+          "text": "La radio non ha più la ruota: le stazioni si scorrono una alla volta, e una Streamer Mode toglie la musica protetta."
+        }
+      ],
+      "relatedIds": [
+        "tip-guida-1",
+        "tip-guida-2",
+        "tip-guida-3",
+        "tip-soldi-3",
+        "tip-garage-slot",
+        "tip-localizzatori",
+        "new-20260905-carburante",
+        "new-20261029-guida-edge",
+        "new-20260905-bagagliaio",
+        "new-20260827-furto-auto",
+        "brd-pay-n-spray",
+        "brd-rideout-customs",
+        "brd-one-eyed-willie-s-mod-shop",
+        "brd-paradise-garage",
+        "act-rifornimento",
+        "new-20261008-radio"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-spostarsi",
+      "title": "Spostarsi",
+      "emoji": "🚌",
+      "short": "Leonida si attraversa senza caricamenti. Puoi guidare, oppure prendere autobus, treni, tram e taxi, o chiamare Ryde Me: i mezzi pubblici sono anche il modo per viaggiare velocemente.",
+      "steps": [
+        "Apri la mappa in pausa: è satellitare, con la nebbia sulle zone non ancora esplorate.",
+        "Tieni premuto giù sulla croce direzionale per mettere al volo un punto di destinazione.",
+        "Per l'autobus vai a una fermata segnata sulla minimappa e aspetta: non si ferma al volo.",
+        "A bordo sei un passeggero: niente benzina, niente danni.",
+        "Con Ryde Me scegli se saltare il viaggio o farlo tutto chiacchierando con l'autista.",
+        "In coppia puoi passare dal volante al sedile del passeggero: guida il partner e tu spari agli inseguitori.",
+        "Per le acque usa barche, moto d'acqua e kayak; per i cieli, aerei ed elicotteri."
+      ],
+      "details": [
+        {
+          "title": "Mezzi pubblici",
+          "text": "Autobus e treni funzionano davvero e arrivano sempre. Si può raggiungere Watson Bay solo con i mezzi pubblici. Ci sono anche tram e taxi."
+        },
+        {
+          "title": "Bus come nascondiglio",
+          "text": "Se la polizia non ti ha visto salire, non perquisisce l'autobus. Con le stelle addosso, un bus può essere la tua uscita."
+        },
+        {
+          "title": "Barche e aerei",
+          "text": "Le barche sentono le onde: nei canali riparati l'acqua è calma, al largo vieni sballottato. Aerei ed elicotteri soffrono la turbolenza nei temporali, e se ci resti dentro subisci piccoli danni."
+        },
+        {
+          "title": "Esplorare senza icone",
+          "text": "Gran parte della mappa si apre presto. Molte scoperte non hanno segnalini: le trovi girando. Puoi prenderti il tempo che vuoi, anche viaggiando solo con bus e treni."
+        }
+      ],
+      "tips": [
+        "Usa Ryde Me per i tragitti lunghi e noiosi: è il viaggio rapido del gioco.",
+        "Se sei ricercato e non ti hanno visto, sali su un autobus.",
+        "Evita il mare aperto e i cieli quando arriva una tempesta.",
+        "Il 19 scarica la mappa di Leonida gratuita: si stampa."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Ci sono monopattini elettrici da guidare, con l'opzione del casco."
+        },
+        {
+          "source": "stampa",
+          "text": "Anche l'acqua ha i suoi taxi."
+        },
+        {
+          "source": "community",
+          "text": "Vice City ha una metropolitana (Vice City Metro) e un people mover, il Metro Mule, con stazioni come Crosstown e Vice City Arts Center."
+        },
+        {
+          "source": "community",
+          "text": "Gli aeroporti noti sono il Vice City International Airport e quello di Cedar Key a Watson Bay; la compagnia aerea si chiama Air Herler."
+        },
+        {
+          "source": "community",
+          "text": "Il casello Vice Pass sulla Rialto Causeway potrebbe far pagare un pedaggio."
+        },
+        {
+          "source": "leak",
+          "text": "La mappa trapelata mostra una grande rete ferroviaria su cinque contee."
+        }
+      ],
+      "relatedIds": [
+        "tip-trasporti-1",
+        "tip-trasporti-2",
+        "tip-trasporti-3",
+        "tip-trasporti-4",
+        "tip-trasporti-5",
+        "new-20261029-trasporti",
+        "new-20260829-fast-travel",
+        "new-20261007-rydeme",
+        "new-20261007-missioni",
+        "new-20261107-nelson-realismo",
+        "new-20261106-mappa-poster",
+        "brd-trasporti",
+        "brd-ryde-me",
+        "brd-vice-pass",
+        "act-nautica"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://insider-gaming.com/gta-6-features-a-fully-functional-public-transport-system/"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-animali-caccia-pesca",
+      "title": "Animali, caccia e pesca",
+      "emoji": "🐊",
+      "short": "Leonida ha più di 170 specie animali, da studiare e catalogare in un diario senza ucciderle. La pesca è solo cattura e rilascio; la caccia è un lavoro che paga, ma i guardaparco vigilano.",
+      "steps": [
+        "Avvicinati a un animale e studialo: entra nel diario con le sue informazioni.",
+        "Cerca le specie Rare, Scopribili e Leggendarie: le leggendarie hanno identità segrete.",
+        "Con i cani puoi accarezzarli, sgridarli o studiarli; chiedi prima il permesso al padrone.",
+        "Per la pesca prendi la canna: il pesce lo catturi e lo rilasci, non lo tieni.",
+        "Completa le sfide di pesca per sbloccare i collezionabili legati.",
+        "La caccia te la propone un contatto di Jason: quello che prendi diventa denaro."
+      ],
+      "details": [
+        {
+          "title": "Le specie",
+          "text": "Oltre 60 uccelli e più di 30 mammiferi, più pesci, rettili e vita marina: squali, balene, razze, tartarughe, meduse. Ci sono nativi come fenicotteri, lamantini, pellicani e alligatori, e invasivi come iguane verdi, rospi delle canne, gatti selvatici e macachi. Alcuni animali non si sono mai visti in un gioco Rockstar."
+        },
+        {
+          "title": "Pesca",
+          "text": "È dettagliata come in Red Dead Redemption 2, ma solo per divertimento: niente pesce da vendere o da mangiare. Ha sfide e collezionabili propri."
+        },
+        {
+          "title": "Animali pericolosi",
+          "text": "Gli alligatori possono spuntare nelle piscine o al supermercato. Un cane sguinzagliato da un passante ti insegue finché non si stanca; i cani della polizia ti placcano e ti bloccano a terra."
+        },
+        {
+          "title": "Comportamento",
+          "text": "Gli animali reagiscono a te: i piccioni si alzano in volo durante un inseguimento, i gabbiani scappano se ti avvicini al cibo. Il pelo si bagna sotto la pioggia e si sporca nel fango."
+        }
+      ],
+      "tips": [
+        "Studia, non sparare: il diario non chiede di uccidere niente.",
+        "Accarezzare un cane o sfamare un randagio conta per il tuo Profilo criminale.",
+        "Occhio all'acqua dolce e alle piscine nelle zone di palude: gli alligatori ci sono davvero.",
+        "La caccia rende soldi: utile quando la storia ti chiede contanti."
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "POACH, i guardaparco di Leonida, controllano caccia e fauna: uccidere animali in zona protetta può funzionare come un livello di ricercato."
+        },
+        {
+          "source": "community",
+          "text": "Non è ancora noto se la caccia dia pelli o carne; il primo luogo di pesca noto è Gambit Bay, e si parla di pesca al persico nei parchi."
+        },
+        {
+          "source": "community",
+          "text": "Si caccia tra foreste e canyon di Mount Kalaga: cervi, puma e volpi."
+        },
+        {
+          "source": "leak",
+          "text": "Nel testo del rating europeo gli animali si possono uccidere, con ferite meno dettagliate degli umani."
+        },
+        {
+          "source": "community",
+          "text": "Nelle Keys c'è un pesce leone rosso, e una barriera corallina con le tartarughe marine."
+        }
+      ],
+      "relatedIds": [
+        "tip-animali",
+        "new-20260929-animali",
+        "new-20260929-fauna",
+        "new-20260903-pesca",
+        "act-caccia",
+        "act-pesca",
+        "act-caccia-dettagli",
+        "act-pesca-dettagli",
+        "act-zoo-dettagli",
+        "brd-poach",
+        "tip-profilo"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-attivita-svaghi",
+      "title": "Attività e svaghi",
+      "emoji": "🎳",
+      "short": "Fuori dalle missioni Leonida è piena di cose da fare: sport, palestra, corse, club, gite in barca e appuntamenti. Molte non hanno icone: le scopri girando, o te le suggerisce qualcuno.",
+      "steps": [
+        "Per la palestra compra l'abbonamento al bancone: il cardio alza la resistenza, i pesi la salute.",
+        "Gioca a basket, biliardo e minigolf, o prova il poligono e il wrestling da cortile.",
+        "Accetta le sfide di corsa che ti lanciano per strada: la gara parte quando dici sì.",
+        "Prova le corse fuori strada, monster truck e stock car, e i raduni di auto.",
+        "Di notte vai nei club, negli strip club e nei combattimenti clandestini.",
+        "Usa l'acqua: kayak, moto d'acqua, airboat, immersioni sui relitti.",
+        "Ascolta le soffiate: nuovi colpi arrivano da personaggi, chiacchiere degli NPC ed esplorazione."
+      ],
+      "details": [
+        {
+          "title": "Elenco ufficiale",
+          "text": "Base jumping, biliardo, palestra, kayak, minigolf, immersioni, corse su strada e fuoristrada, zoo, airboat, moto d'acqua. Nella mappa ci sono anche sentieri per quad, parchi del fango, demolition derby, mountain bike, motocross, fattorie, ranch e golf."
+        },
+        {
+          "title": "Corpo e consumi",
+          "text": "Caffè per la resistenza, frullati proteici per la salute, energy drink per un bonus temporaneo. Il sonno è tracciato; mangiare troppo fa ingrassare e saltare gli allenamenti fa perdere muscoli. In coppia la palestra allena tutti e due insieme."
+        },
+        {
+          "title": "Eventi emergenti",
+          "text": "Una rissa dopo un tamponamento, una cassa incustodita, un'auto preziosa da inseguire, un covo da ripulire: puoi passare ore senza toccare una missione. Un 4x4 con le luci viola sotto la scocca ti sfida a una gara; un avvocato vive in un cassonetto e, se gli dai le pillole, ti dà consigli legali."
+        },
+        {
+          "title": "Appuntamenti",
+          "text": "Zoo, kayak, spiaggia, bici, palestra, escursioni, immersioni e paracadute contano come tempo di qualità e fanno salire la relazione."
+        }
+      ],
+      "tips": [
+        "Le attività senza icona sono le più interessanti: esplora a piedi e ascolta la gente.",
+        "Fai palestra in coppia: un allenamento vale per due.",
+        "Tra una missione e l'altra le corse e le soffiate ti fanno racimolare i soldi che la storia può chiederti.",
+        "Sott'acqua conta la capacità polmonare, non la resistenza: allenala prima dei relitti più profondi."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il wrestling da cortile si chiama American Mania e si trova a Hamlet."
+        },
+        {
+          "source": "stampa",
+          "text": "Lo strip club ha balli privati a pagamento."
+        },
+        {
+          "source": "community",
+          "text": "Ambrosia ha il Raceway Park e il Thrillbilly Mud Park; c'è anche un Gellhorn International Raceway."
+        },
+        {
+          "source": "community",
+          "text": "Ci sono combattimenti in gabbia e un fight club clandestino; il football americano è solo un indizio, non si sa se sia giocabile."
+        },
+        {
+          "source": "community",
+          "text": "Riviste, fumetti e tesori sommersi sono collezionabili da cercare."
+        },
+        {
+          "source": "community",
+          "text": "Degli NPC hanno sfidato la coppia a tuffarsi da un ponte e poi hanno rubato l'auto mentre nuotavano."
+        }
+      ],
+      "relatedIds": [
+        "act-sport",
+        "act-car-meet",
+        "act-monster-truck",
+        "act-nightlife",
+        "act-nautica",
+        "act-airboat",
+        "act-tesoro",
+        "act-riviste",
+        "act-appuntamenti",
+        "act-fence-tips",
+        "act-wrestling",
+        "act-poligono",
+        "act-minigolf-zoo",
+        "act-aria",
+        "act-hiking",
+        "act-combattimenti-in-gabbia",
+        "new-20261014-bloomberg",
+        "new-20260905-fisico",
+        "tip-completista",
+        "brd-thrillbilly-mud-park"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gameinformer.com/cover-reveal/2026/09/25/cover-reveal-grand-theft-auto-vi"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-interazione-gente",
+      "title": "Interazione con la gente",
+      "emoji": "🗣️",
+      "short": "Ogni passante ha un carattere, ricorda come l'hai trattato e reagisce a quello che vede: un saluto, una provocazione, una pistola in mano. Puoi parlare con chiunque.",
+      "steps": [
+        "Avvicinati a un NPC e scegli: saluta o provoca. Funziona con chiunque.",
+        "Se la situazione si scalda, calmala: puoi provocare e subito dopo disinnescare.",
+        "Tieni le armi a posto: un'arma in spalla la tollerano, una imbracciata fa scappare o chiamare la polizia.",
+        "Prima di entrare in un negozio Jason e Lucia nascondono la pistola dietro la schiena.",
+        "Ricorda che conta chi ti vede: se nessuno assiste, nessuno reagisce.",
+        "Quando rubi un'auto con qualcuno dentro, preparati: può scappare, resistere o tirare fuori un'arma."
+      ],
+      "details": [
+        {
+          "title": "Gente con memoria",
+          "text": "Ogni NPC ha temperamento, aggressività e memoria di cosa ha visto e di come l'hai trattato. I quartieri hanno popolazioni, mestieri e abitudini diverse. Ci sono circa 600.000 animazioni, e i passanti sono curati uno per uno."
+        },
+        {
+          "title": "Reazioni",
+          "text": "Fissare qualcuno può finire in una sfida: un uomo ha sganciato il cane. Durante le sparatorie i civili si riparano dietro auto, muri e panchine. Le persone reagiscono anche agli odori sgradevoli, e commentano come sei vestito."
+        },
+        {
+          "title": "Durante le rapine",
+          "text": "La vittima può collaborare e poi colpirti appena ti giri; un cliente può intervenire. Commessi e guardie possono reagire. Puoi provocare i clienti e poi calmarli, così se ne vanno e restano meno testimoni."
+        },
+        {
+          "title": "Social e notorietà",
+          "text": "Gli NPC postano su Snapmatic eventi a cui puoi andare. Tu guardi i feed ma non pubblichi."
+        }
+      ],
+      "tips": [
+        "Riponi l'arma prima di girare tra la gente: eviti panico e chiamate alla polizia.",
+        "Usa la provocazione con giudizio: può svuotare un negozio prima di una rapina.",
+        "Ascolta le chiacchiere: alcune sono soffiate su colpi da fare.",
+        "Con i cani dei passanti, chiedi prima al padrone se puoi accarezzarli."
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il sistema di dialogo è una versione estesa di quello di Red Dead Redemption 2, con le opzioni saluta, provoca, sfotti e calma."
+        },
+        {
+          "source": "stampa",
+          "text": "Puoi raccogliere e indossare i vestiti lasciati dagli NPC."
+        },
+        {
+          "source": "stampa",
+          "text": "Alcuni NPC hanno armi nascoste e le tirano fuori se minacciati."
+        },
+        {
+          "source": "community",
+          "text": "Molti NPC filmano col telefono sparatorie e inseguimenti; si pensa a un sistema di notorietà social, non confermato."
+        }
+      ],
+      "relatedIds": [
+        "tip-npc",
+        "tip-comb-3",
+        "new-20261007-npc",
+        "new-20261007-snapmatic",
+        "new-20260827-capelli",
+        "act-fence-tips",
+        "teo-un-sistema-di-social-network-integrato-i",
+        "tip-profilo"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
+    },
+    {
+      "group": "Mondo e vita",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-meteo-mondo-vivo",
+      "title": "Meteo e mondo vivo",
+      "emoji": "🌀",
+      "short": "Il meteo è locale e simulato nel dettaglio: può esserci sole dove sei e un temporale poco più in là. Ci sono tempeste tropicali e uragani stagionali, e un ciclo giorno-notte molto più lungo di GTA V.",
+      "steps": [
+        "Guarda l'orizzonte: i temporali si vedono arrivare da lontano, con nuvole scure e fulmini.",
+        "Avvicinandoti, le condizioni cambiano poco alla volta: vento, pioggia, onde.",
+        "Quando arriva un uragano aspettati vento fortissimo, pioggia torrenziale, tuoni e acqua che scende dai tetti.",
+        "Se sei in barca torna verso acque riparate; in volo, esci dalla tempesta.",
+        "Goditi le notti: il ciclo è stato allungato, con tramonti più lunghi e più tempo per la vita notturna."
+      ],
+      "details": [
+        {
+          "title": "Vento",
+          "text": "Il vento guida il meteo. Dopo il tramonto arrivano brezze dal mare, l'aria calda sale, i palazzi alti spezzano le correnti. Lo vedi nei capelli, nei detriti sui tetti, nelle increspature dell'acqua e nell'erba delle paludi."
+        },
+        {
+          "title": "Dopo la pioggia",
+          "text": "Le strade restano bagnate, i palazzi gocciolano e le superfici si asciugano a velocità diverse. Le pozzanghere restano. Con la luce giusta compaiono gli arcobaleni."
+        },
+        {
+          "title": "La gente e il tempo",
+          "text": "I pedoni cercano riparo quando arriva un temporale. Il traffico cambia con la zona e con l'ora."
+        },
+        {
+          "title": "Cosa non cambia",
+          "text": "A differenza di Red Dead Redemption 2, il mondo non si trasforma fisicamente col passare del tempo."
+        }
+      ],
+      "tips": [
+        "Se vedi il cielo chiudersi e sei in mare, torna a riva.",
+        "Non volare dentro un temporale: la turbolenza fa danni.",
+        "Per le foto, aspetta la fine della pioggia: riflessi e arcobaleni valgono l'attesa."
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Non è ancora noto quanto spesso arrivino gli uragani né se facciano danni permanenti; la versione più accreditata è senza distruzione della mappa."
+        },
+        {
+          "source": "community",
+          "text": "Un idrometro sotto un ponte ferroviario a Mount Kalaga fa pensare a piene dei fiumi."
+        },
+        {
+          "source": "stampa",
+          "text": "La sabbia si attacca alle scarpe, chi corre suda, e le piante si muovono sott'acqua."
+        }
+      ],
+      "relatedIds": [
+        "tip-mondo-1",
+        "new-20260929-meteo",
+        "new-20261029-giorno",
+        "new-20260929-gameinformer",
+        "teo-uragani-a-leonida-la-teoria-di-un-meteo-",
+        "act-kayak"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gtaintel.com/news/gta-6-weather-and-hurricanes"
     }
   ]
 }

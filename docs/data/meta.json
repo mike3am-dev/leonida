@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.16.0",
+  "dataVersion": "0.17.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.17.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Nuova sezione «Come si gioca»: 19 schede sui sistemi di gioco (furto d'auto, polizia, rapine, armi, combattimento, soldi, cambio protagonista, relazione, profilo criminale, fisico, aspetto, rifugi, telefono, guida, spostarsi, animali, attività, gente, meteo).",
+        "Extended Look verificato scena per scena: attività viste, armi, prima missione."
+      ]
+    },
     {
       "version": "0.16.0",
       "date": "2026-11-07",
