@@ -34,7 +34,7 @@ export function render(params, query) {
       <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
       ${it.realModel || it.seats || it.drivetrain || it.seenIn ? `<dl class="facts">${it.realModel ? `<dt>Modello reale</dt><dd>${esc(it.realModel)}</dd>` : ''}${it.seats ? `<dt>Posti</dt><dd>${esc(String(it.seats))}</dd>` : ''}${it.drivetrain ? `<dt>Trazione</dt><dd>${esc(it.drivetrain)}</dd>` : ''}${it.seenIn ? `<dt>Visto in</dt><dd>${esc(it.seenIn)}</dd>` : ''}</dl>` : ''}
       ${galleryHtml(it)}
-      ${it.howToGet ? `<div class="block"><span class="kicker">Come ottenerlo</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
+      ${it.howToGet && !/^Da verificare\.?$/.test(it.howToGet.trim()) ? `<div class="block"><span class="kicker">Come ottenerlo</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
       <p class="source-line">Fonte: ${esc(it.source)}${it.sourceUrl ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
     return { left: '', right, show: 'right', accent: section.accent, title: it.name };
   }
