@@ -1599,13 +1599,14 @@
      "name": "Vice Beach Police Department",
      "real": "Miami Beach Police Department",
      "text": "La stazione di polizia locale, a pochi isolati verso l'interno su Shorefront Avenue.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1293,ig.jpg",
      "imageFull": null,
      "marker": "lmk-vice-beach-police-department",
      "xy": [
       4569,
       -343
-     ]
+     ],
+     "local": "assets/img/luoghi/ocean-beach/lmk-ocean-beach-7.jpg"
     }
    ],
    "gallery": [
@@ -3654,13 +3655,14 @@
      "name": "Fleeca Field",
      "real": "LoanDepot Park",
      "text": "Casa dei Vice City Mambas, appena a nord di Little Cuba, a Rockridge. Lo stadio reale si trova a Little Havana.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L196,ig.jpg",
      "imageFull": null,
      "marker": "lmk-fleeca-field",
      "xy": [
       2797,
       22
-     ]
+     ],
+     "local": "assets/img/luoghi/little-cuba/lmk-little-cuba-4.jpg"
     }
    ],
    "gallery": [
@@ -4971,9 +4973,10 @@
      "name": "One-Eyed Willie's Mod Shop",
      "real": null,
      "text": "L'officina off-road della Ultimate Edition, con meccanici al lavoro su un fuoristrada verde sotto neon e murales.",
-     "image": null,
+     "image": "https://www.gtasixmap.com/images/locations/lake-leonida/ultimate-edition-one-eyed-willie-03.webp",
      "imageFull": null,
-     "marker": null
+     "marker": null,
+     "local": "assets/img/luoghi/lake-leonida/lmk-lake-leonida-1.webp"
     },
     {
      "name": "Riva del lago di notte",
@@ -5005,13 +5008,14 @@
      "name": "Parco del fango Thrillbilly",
      "real": "Redneck Mud Park, Punta Gorda",
      "text": "L'arena di mud bogging della festa nel fango, a ovest del lago.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L512,ig.jpg",
      "imageFull": null,
      "marker": "act-thrillbilly-mud-park",
      "xy": [
       1425,
       2172
-     ]
+     ],
+     "local": "assets/img/luoghi/lake-leonida/lmk-lake-leonida-4.jpg"
     }
    ],
    "gallery": [
@@ -6133,13 +6137,14 @@
      "name": "Y Vice City",
      "real": "W South Beach",
      "text": "Un grande hotel al margine meridionale di Washington Beach, uno dei pochi con un nome in vista.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L16,ig.jpg",
      "imageFull": null,
      "marker": "lmk-y-vice-city",
      "xy": [
       4830,
       338
-     ]
+     ],
+     "local": "assets/img/luoghi/washington-beach/lmk-washington-beach-4.jpg"
     },
     {
      "name": "Molo dello Squalo",
@@ -6465,13 +6470,14 @@
      "name": "Torri di SW 9th Ave",
      "real": "Condomini Park Grove, Coconut Grove",
      "text": "Alte torri di condomini rotonde sul viale indicato dal cartello dell'uscita 3.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L253,ig.jpg",
      "imageFull": null,
      "marker": "lmk-sw-9th-ave-towers",
      "xy": [
       2952,
       -1771
-     ]
+     ],
+     "local": "assets/img/luoghi/peacock-bay-coconut-grove/lmk-peacock-bay-coconut-grove-5.jpg"
     }
    ],
    "gallery": [
@@ -11908,13 +11914,14 @@
      "name": "Scritta VICE CITY",
      "real": null,
      "text": "Le lettere giganti all'aeroporto, sorvolate a bassa quota dai jet.",
-     "image": null,
+     "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L456,ig.jpg",
      "imageFull": null,
      "marker": "lmk-vice-city-sign",
      "xy": [
       1560,
       -833
-     ]
+     ],
+     "local": "assets/img/luoghi/goliath-titan-america/lmk-goliath-titan-america-2.jpg"
     },
     {
      "name": "Torre di controllo VCIA",

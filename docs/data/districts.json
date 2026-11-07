@@ -115,11 +115,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://redreactions.com/articles/gta6-trailer-2-breakdown/",
-          "image": null,
+          "image": "assets/img/poi/poi-jack-of-hearts.png",
           "xy": [
             3321,
             112
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fd/JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png/revision/latest?cb=20250509112212"
         },
         {
           "id": "poi-boobie-studio",
@@ -240,7 +241,8 @@
           "description": "Banca di Downtown, teatro di una rapina in piena regola.",
           "status": "da verificare",
           "source": "community",
-          "image": null
+          "image": "assets/img/poi/poi-sinfrontera.png",
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/83/SinfronteraNationalBank-GTAVI-Trailer2-Logo.png/revision/latest?cb=20250812034513"
         },
         {
           "id": "poi-nine1nine",
@@ -276,7 +278,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null
+          "image": "assets/img/poi/poi-ammu-nation.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg"
         },
         {
           "id": "poi-leaf-links",
@@ -300,11 +303,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-vc-arts-center.jpg",
           "xy": [
             3395,
             -132
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L441,ig.jpg"
         },
         {
           "id": "poi-zoo",
@@ -324,11 +328,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-palaestra-tower.png",
           "xy": [
             3455,
             -184
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/40/PalaestraTower-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251015092931"
         },
         {
           "id": "poi-galina-opera",
@@ -352,11 +357,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-sahara-arena.png",
           "xy": [
             3541,
             -326
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/SaharaArena-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251211020457"
         },
         {
           "id": "poi-ferris-wheel",
@@ -366,7 +372,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null
+          "image": "assets/img/poi/poi-ferris-wheel.png",
+          "imageUrl": "https://gta.wiki/images/ViceCityFerrisWheel-GTAVI-OfficialScreenshot-ViceCity08.png?40915"
         },
         {
           "id": "poi-piker-financial",
@@ -376,11 +383,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-piker-financial.png",
           "xy": [
             3432,
             -843
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/PikerFinancialCenter-OfficialScreenshots-GTAVI-Preload.png?c7423"
         },
         {
           "id": "poi-shorefront",
@@ -390,11 +398,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-shorefront.png",
           "xy": [
             3488,
             -854
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/ShorefrontBuilding-GTAVI-AnExtendedLook.png?38cd0"
         },
         {
           "id": "poi-heath-tower",
@@ -404,11 +413,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-heath-tower.jpg",
           "xy": [
             3253,
             -824
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L221,ig.jpg"
         },
         {
           "id": "poi-el-gabeto",
@@ -418,11 +428,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-el-gabeto.png",
           "xy": [
             3067,
             -594
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/ElGabetoCenter-OfficialScreenshots-GTAVI-PromotionalWebsite-ViceCity27.png?7598f"
         },
         {
           "id": "poi-fleeca-field",
@@ -432,11 +443,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-fleeca-field.png",
           "xy": [
             2797,
             22
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/FleecaField-GTAVI-AnExtendedLook.png?0ddbc"
         },
         {
           "id": "poi-vice-vinyl",
@@ -460,7 +472,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null
+          "image": "assets/img/poi/poi-stockyard-walls.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L480,ig.jpg"
         },
         {
           "id": "poi-rivo-bridge",
@@ -470,11 +483,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-rivo-bridge.png",
           "xy": [
             3653,
             38
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/RialtoCswy-GTAVI-AnExtendedLook-RivoBridgeEntrance.png?46d1f"
         },
         {
           "id": "poi-star-island-bridge",
@@ -498,11 +512,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-port-vice-city.png",
           "xy": [
             4150,
             -930
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/PortViceCity-GTAVI-WebsiteBackground.png?d4ae8"
         },
         {
           "id": "poi-pegassi-residences",
@@ -526,11 +541,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-oceanarium.png",
           "xy": [
             3760,
             -1573
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/ViceCityOceanarium-GTAVI-WebsiteBackground-Music01.png?b70d7"
         },
         {
           "id": "poi-catalan-lighthouse",
@@ -554,11 +570,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-vice-city-sign.jpg",
           "xy": [
             1560,
             -833
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L456,ig.jpg"
         },
         {
           "id": "poi-sahara-arena-x",
@@ -569,11 +586,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-sahara-arena-x.jpg",
           "xy": [
             3541,
             -326
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1f/ViceCityNarcos-GTAVI-OfficialScreenshot-ViceCity08-Logo.jpg/revision/latest?cb=20250521225732"
         },
         {
           "id": "poi-the-sumerian",
@@ -584,11 +602,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-the-sumerian.png",
           "xy": [
             3549,
             -89
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/TheSumerian-GTAVI-Screenshot-ViceCity-SS8.png?c6c6d"
         },
         {
           "id": "poi-arcadia-towers",
@@ -599,11 +618,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-arcadia-towers.png",
           "xy": [
             3392,
             -501
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/ArcadiaTowers-GTAVI-OfficialScreenshot-UltimateEdition-Squalo01.png?55396"
         },
         {
           "id": "poi-vice-museum",
@@ -644,11 +664,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-y-vice-city.png",
           "xy": [
             4830,
             338
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/08/YViceCity-GTAVI-Trailer1.png/revision/latest?cb=20250318150656"
         },
         {
           "id": "poi-concert-hall",
@@ -659,11 +680,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-concert-hall.png",
           "xy": [
             3498,
             -152
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/UnnamedConcertHall-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251015092859"
         },
         {
           "id": "poi-catalan-blvd",
@@ -674,7 +696,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-catalan-blvd.png",
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ea/USRoute3-GTAVI-Trailer1Screenshot.png/revision/latest?cb=20250227222004"
         },
         {
           "id": "poi-effluvia",
@@ -734,11 +757,12 @@
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-venture-apartments.png",
           "xy": [
             2956,
             -164
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/VentureApartments-GTAVI-AnExtendedLook-Entrance.png?96497"
         },
         {
           "id": "poi-stock-305-x",
@@ -835,7 +859,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-vc-metro.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L441,ig.jpg"
         },
         {
           "id": "poi-vc-transit",
@@ -846,7 +871,8 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null
+          "image": "assets/img/poi/poi-vc-transit.png",
+          "imageUrl": "https://gta.wiki/images/Buster-GTAVI-AnExtendedLook.png?02839"
         },
         {
           "id": "poi-i97",
@@ -857,7 +883,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-i97.png",
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/62/Interstate97-GTAVI-Trailer2.png/revision/latest?cb=20251027160045"
         },
         {
           "id": "poi-portvicecity",
@@ -868,11 +895,12 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-portvicecity.png",
           "xy": [
             4055,
             -814
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b1/GTAVITrailer-GTAVI-SS12.png/revision/latest?cb=20231206020448"
         },
         {
           "id": "poi-vcia-x",
@@ -915,11 +943,12 @@
           "status": "da verificare",
           "source": "leak",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-peregrine-bay.png",
           "xy": [
             2807,
             -2662
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/PeregrineBayPowerStation-GTAVI-OfficialScreenshot-Grassrivers02.png?03e19"
         },
         {
           "id": "poi-bluegrass",
@@ -959,7 +988,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-oceanarium-x.png",
+          "imageUrl": "https://gta.wiki/images/Makenzi-GTAVI-AnExtendedLook.png?6467b"
         },
         {
           "id": "poi-rialto-causeway",
@@ -970,11 +1000,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-rialto-causeway.png",
           "xy": [
             3780,
             76
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/RialtoCswy-GTAVI-AnExtendedLook-TollBooth.png?f74b3"
         },
         {
           "id": "poi-malibu",
@@ -1160,11 +1191,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-evergreen-mall.jpg",
           "xy": [
             3399,
             1754
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L549,ig.jpg"
         },
         {
           "id": "poi-sundown-airfield",
@@ -1340,11 +1372,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-key-lento-shops.jpg",
           "xy": [
             2238,
             -3877
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1381,ig.jpg"
         },
         {
           "id": "poi-keys-causeway",
@@ -1355,7 +1388,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-keys-causeway.png",
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3b/GTAVITrailer-GTAVI-SS20.png"
         },
         {
           "id": "poi-goose-key-base",
@@ -1501,7 +1535,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-stilt-house.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L265,ig.jpg"
         },
         {
           "id": "poi-poach",
@@ -1512,7 +1547,8 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null
+          "image": "assets/img/poi/poi-poach.png",
+          "imageUrl": "https://gta.wiki/images/POACH-GTAVI-Logo.png"
         },
         {
           "id": "poi-gsm-cedar-key-airport",
@@ -1630,11 +1666,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-gellhorn-raceway.png",
           "xy": [
             -156,
             761
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/GellhornInternationalRaceway-GTAVI-AnExtendedLook-1.png"
         },
         {
           "id": "poi-starlet-motel",
@@ -1675,11 +1712,12 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-hanks-waffles-x.jpg",
           "xy": [
             180,
             2017
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/GTAVI-Hanks-Waffles-logo.jpg"
         },
         {
           "id": "poi-pg-station",
@@ -1690,11 +1728,12 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-pg-station.jpg",
           "xy": [
             -58,
             1500
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L538,ig.jpg"
         },
         {
           "id": "poi-draper-island",
@@ -1720,11 +1759,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-pg-shops.jpg",
           "xy": [
             86,
             1353
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L298,ig.jpg"
         },
         {
           "id": "poi-kelly-prison",
@@ -1819,7 +1859,9 @@
           "sourceUrl": "https://www.gtasixmap.com/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-07",
+          "image": "assets/img/poi/poi-gsm-gellhorn-raceway.png",
+          "imageUrl": "https://gta.wiki/images/GellhornInternationalRaceway-GTAVI-AnExtendedLook.png"
         }
       ],
       "activityIds": [],
@@ -1911,7 +1953,8 @@
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": null
+          "image": "assets/img/poi/poi-one-eyed-willie.jpg",
+          "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg"
         },
         {
           "id": "poi-ambrosia-raceway",
@@ -1921,11 +1964,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-ambrosia-raceway.jpeg",
           "xy": [
             2021,
             2127
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0b/AmbrosiaRacewayTrackSign-GTAVI-ExtendedLook.jpeg"
         },
         {
           "id": "poi-thrillbilly",
@@ -1935,11 +1979,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
+          "image": "assets/img/poi/poi-thrillbilly.jpg",
           "xy": [
             1425,
             2172
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L512,ig.jpg"
         },
         {
           "id": "poi-thirsty-wolf",
@@ -1976,11 +2021,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-ambrosia-shops.jpg",
           "xy": [
             2171,
             1827
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L403,ig.jpg"
         },
         {
           "id": "poi-henshaw",
@@ -1991,7 +2037,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-henshaw.png",
+          "imageUrl": "https://gta.wiki/images/ErinHenshaw-GTAVI-OfficialScreenshot-Ambrosia01.png"
         }
       ],
       "activityIds": [],
@@ -2072,7 +2119,9 @@
           "xy": [
             863,
             2358
-          ]
+          ],
+          "image": "assets/img/poi/poi-kalaga-canyon.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1341,ig.jpg"
         },
         {
           "id": "poi-millport",
@@ -2083,11 +2132,12 @@
           "status": "da verificare",
           "source": "leak",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-millport.jpg",
           "xy": [
             3339,
             2991
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L3396,ig.jpg"
         },
         {
           "id": "poi-yorktown",
@@ -2192,11 +2242,12 @@
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": null,
+          "image": "assets/img/poi/poi-rideout-customs.jpg",
           "xy": [
             3219,
             -14
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/70/GTAVI-Rideout-Customs.jpg"
         },
         {
           "id": "poi-sara-salon",
@@ -2220,11 +2271,12 @@
           "status": "da verificare",
           "source": "trailer",
           "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": null,
+          "image": "assets/img/poi/poi-ptt-compound.jpg",
           "xy": [
             2734,
             -1615
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1491,ig.jpg"
         },
         {
           "id": "poi-paradise-garage",
@@ -2260,11 +2312,12 @@
           "description": "Locale di waffle che compare in una sequenza di rapina: Jason e Lucia lo rapinano.",
           "status": "da verificare",
           "source": "community",
-          "image": null,
+          "image": "assets/img/poi/poi-hanks-waffles.jpg",
           "xy": [
             180,
             2017
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/GTAVI-Hanks-Waffles-logo.jpg"
         },
         {
           "id": "poi-uncle-jacks",
@@ -2287,11 +2340,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-fleeca.png",
           "xy": [
             4574,
             458
-          ]
+          ],
+          "imageUrl": "https://gta.wiki/images/FleecaBank-GTAVI-AnExtendedLook-VickeryDrive.png"
         },
         {
           "id": "poi-hoodwinks",
@@ -2301,11 +2355,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-hoodwinks.jpg",
           "xy": [
             3345,
             100
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L511,ig.jpg"
         },
         {
           "id": "poi-jeudys",
@@ -2343,11 +2398,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-zekes.jpg",
           "xy": [
             3058,
             2
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2757,ig.jpg"
         },
         {
           "id": "poi-love-magazine",
@@ -2386,7 +2442,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
-          "image": null
+          "image": "assets/img/poi/poi-anfiteatro.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L207,ig.jpg"
         },
         {
           "id": "poi-naval-air-station",
@@ -2450,7 +2507,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-shore-drive.jpg",
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a9/OfficialScreenshots-GTAVI-PromotionalWebsite-ViceCity-SS6.jpg"
         },
         {
           "id": "poi-fleeca-4th",
@@ -2476,11 +2534,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-the-amalfi.png",
           "xy": [
             4872,
             6
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/TheAmalfi-GTAVI-Trailer1.png"
         },
         {
           "id": "poi-hotels-vb",
@@ -2491,7 +2550,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-hotels-vb.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L32,ig.jpg"
         },
         {
           "id": "poi-washington-marina",
@@ -2528,11 +2588,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-vice-beach-pd.jpg",
           "xy": [
             4569,
             -343
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1293,ig.jpg"
         },
         {
           "id": "poi-starfish-bridge",
@@ -2558,11 +2619,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-bayfront-heights.png",
           "xy": [
             4872,
             20
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b2/BayfrontHeights-GTAVI-Trailer1-2.png"
         },
         {
           "id": "poi-gsm-mount-sinai",
@@ -2661,11 +2723,12 @@
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null,
+          "image": "assets/img/poi/poi-phils-ammunation.jpg",
           "xy": [
             2678,
             -1979
-          ]
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg"
         },
         {
           "id": "poi-boone-speedway",
@@ -2676,11 +2739,12 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
+          "image": "assets/img/poi/poi-boone-speedway.jpeg",
           "xy": [
             1947,
             -2501
-          ]
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/8f/BooneSpeedway-GTAVI-ExtendedLook.jpeg"
         },
         {
           "id": "poi-american-mania",
@@ -2691,7 +2755,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-american-mania.png",
+          "imageUrl": "https://gta.wiki/images/AmericanMania-GTAVI-AnExtendedLook.png"
         },
         {
           "id": "poi-hamlet-shops",
@@ -2717,7 +2782,8 @@
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
+          "image": "assets/img/poi/poi-hammer-lady-apt.png",
+          "imageUrl": "https://gta.wiki/images/Hamlet-GTAVI-AnExtendedLook.png"
         }
       ],
       "activityIds": [],

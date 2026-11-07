@@ -260,7 +260,7 @@
       "class": "fucile-assalto",
       "description": "Il classico fucile d'assalto.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-shrewsbury-akm.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
@@ -276,7 +276,8 @@
         "https://www.gtabase.com/gta-6/weapons/assault-rifle",
         "https://gta.fandom.com/wiki/Assault_Rifle"
       ],
-      "realModel": "AKM / AK-47"
+      "realModel": "AKM / AK-47",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg"
     },
     {
       "id": "wpn-duke-ar15",
@@ -856,7 +857,7 @@
       "class": "equipaggiamento",
       "description": "Protezione. Nell'equipaggiamento ci sono anche zaino, binocolo, kit medico, antidolorifici e un EpiPen.",
       "howToGet": "Nel bagagliaio delle auto della polizia.",
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-body-armor.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
@@ -868,7 +869,8 @@
       ],
       "moreSources": [
         "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
-      ]
+      ],
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-048.jpg"
     },
     {
       "id": "wpn-slim-jim",
@@ -928,13 +930,14 @@
       "class": "equipaggiamento",
       "description": "Coprire il volto conta: la polizia riconosce vestiti, aspetto e veicolo.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-face-wrap.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/gta-vi-galerie-lancement-02-jason-lucia-braquage.jpg"
     },
     {
       "image": "assets/img/vice/armi/wpn-heavy-pistol.webp",
@@ -977,7 +980,7 @@
       ]
     },
     {
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-hl-pistol.jpg",
       "status": "da verificare",
       "source": "leak",
       "spoilerLevel": 0,
@@ -1005,7 +1008,8 @@
         "https://gta.fandom.com/wiki/Pistol_(HD_Universe)",
         "https://www.gtabase.com/gta-6/weapons/pistol"
       ],
-      "realModel": "Taurus PT92AF"
+      "realModel": "Taurus PT92AF",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/17/Pistol-GTAVI-Trailer1Artwork.jpg/revision/latest?cb=20250816021143"
     },
     {
       "image": "assets/img/vice/armi/wpn-scar.webp",
@@ -1369,7 +1373,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-mask.jpg",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -1381,7 +1385,8 @@
       "class": "equipaggiamento",
       "description": "Indossata durante il crimine e poi buttata, nasconde il volto anche alle telecamere. Ruota delle maschere separata in auto.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-036.jpg"
     },
     {
       "image": null,

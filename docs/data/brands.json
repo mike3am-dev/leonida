@@ -89,13 +89,14 @@
       "name": "Classic Car Collection",
       "category": "Bonus di acquisto",
       "description": "Collezione di auto classiche inclusa nell'Ultimate Edition. Quali modelli, lo scopri in garage.",
-      "image": null,
+      "image": "assets/img/mondo/brd-classic-car-collection.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://store.rockstargames.com/game/buy-gta-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-WymanCarCollection01.jpg?b524e"
     },
     {
       "id": "brd-gta-plus",
@@ -143,7 +144,7 @@
       "imageCredit": "Cartello elettorale con logo Allied Crystal (screenshot ufficiale Ambrosia), da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-san4san.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -153,7 +154,8 @@
       "name": "San4San",
       "category": "Gang",
       "description": "La gang di Raymond ed Ernesto, con una casa dello spaccio e un laboratorio. Il suo emblema: la catena «S4S» al collo di un membro e il graffito «SAN 4 SAN» sui muri, durante un intervento di polizia. La bandana blu richiama gli Haitians del Vice City originale, da cui l'ipotesi di una gang haitiana.",
-      "sourceUrl": "https://gtabase.com/gta-6/characters/"
+      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5"
     },
     {
       "image": "assets/img/mondo/brd-noose.png",
@@ -238,7 +240,7 @@
       "imageCredit": "Cartellone Angstipan dal trailer 1, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-prairie-sandwich.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -248,10 +250,11 @@
       "name": "Prairie Sandwich",
       "category": "Pubblicità",
       "description": "Il panino da 30.000 calorie, protagonista di uno spot.",
-      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
+      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+      "imageUrl": "https://gta.wiki/images/Chaceys-GTAVI-AnExtendedLook-TVAdvertSS2.png?b9c4f"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-goodtime-gear.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -261,10 +264,11 @@
       "name": "Goodtime Gear",
       "category": "Bonus di acquisto",
       "description": "Abbigliamento dell'Ultimate Edition con la mascotte «Macca the Gator». Leonida è «the Goodtime State».",
-      "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/"
+      "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-GoodtimeGear.jpg?94ffa"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-vice-city-style.jpg",
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
@@ -274,7 +278,8 @@
       "name": "Vice City Style",
       "category": "Bonus di acquisto",
       "description": "Linea di abiti inclusa nell'Ultimate Edition.",
-      "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots"
+      "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-ViceCityStyle01.jpg?4f1b8"
     },
     {
       "id": "brd-canzoni-trailer",
@@ -314,7 +319,9 @@
       "name": "Alpha, Arrow, Xero, Globe Oil, Gas Stop, LTD",
       "category": "Distributori",
       "description": "Le catene di carburante, con tre stazioni note. Tra i marchi c'è Globe Oil.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "image": "assets/img/mondo/brd-catene-benzina.webp",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l165-full.webp"
     },
     {
       "image": null,
@@ -373,7 +380,7 @@
       "imageCredit": "Logo Pißwasser di GTA V (serie); solo una delle bevande della voce, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-moda.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -383,7 +390,8 @@
       "name": "Nola, Caliber, Ferruccio Tucci, This/That, Blagueurs, Frills & Fancy, Fufu",
       "category": "Moda",
       "description": "Le etichette di abbigliamento, dai negozi della mappa al servizio di moda di Dazed.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://gta.wiki/images/Frills%26Fancy-GTAVI-AnExtendedLook.png?a4103"
     },
     {
       "image": "assets/img/mondo/brd-sport.jpg",
@@ -401,7 +409,7 @@
       "imageCredit": "Logo Vice City Narcos su un maxischermo (screenshot ufficiale); una delle squadre della voce, da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-trasporti.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -411,7 +419,8 @@
       "name": "Vice City Transit, Vice City Metro, Metro Mule, Air Herler, Autograph",
       "category": "Trasporti",
       "description": "L'azienda degli autobus, la metropolitana, il people mover, la compagnia aerea e l'aviazione privata.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://gta.wiki/images/Autograph-GTAVI-AnExtendedLook-Logo.png?23ce7"
     },
     {
       "status": "da verificare",
@@ -423,7 +432,9 @@
       "name": "Bilgeco, Boxtrax, Jetsam, Lando-Corp, Navitrak",
       "category": "Logistica",
       "description": "Le compagnie di spedizione sui container del porto.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "image": "assets/img/mondo/brd-shipping.png",
+      "imageUrl": "https://gta.wiki/images/Navitrak-GTAVI-AnExtendedLook.png?29f15"
     },
     {
       "image": "assets/img/mondo/brd-poach.png",
@@ -529,7 +540,7 @@
       "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-forze-ordine.jpg",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -539,10 +550,11 @@
       "name": "VCPD, Vice Beach PD, Port Gellhorn PD, Key Lento PD, sceriffi di contea, Leonida Highway Patrol",
       "category": "Forze dell'ordine",
       "description": "Tutti i corpi di polizia: ogni città ha la sua polizia, ogni contea lo sceriffo, più la stradale. Méndez guida la task force antidroga.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/gta-vi-launch-gallery-11-vice-city-17-scaled.jpg"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-buckme.png",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -552,7 +564,8 @@
       "name": "BuckMe",
       "category": "App",
       "description": "L'app della banca: conto condiviso tra Jason e Lucia.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://gta.wiki/images/Buckme-GTAVI-AnExtendedLook-HUD.png?b8346"
     },
     {
       "image": null,
@@ -596,7 +609,7 @@
       "imageCredit": "Logo Lifeinvader di GTA V (serie), da GTA Wiki"
     },
     {
-      "image": null,
+      "image": "assets/img/mondo/brd-chunkee.png",
       "status": "da verificare",
       "source": "community",
       "spoilerLevel": 0,
@@ -606,7 +619,8 @@
       "name": "Chunkee the Manatee",
       "category": "Mascotte",
       "description": "Il lamantino sul bicchierino del cofanetto da collezione.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://gta6locations.com/locations/",
+      "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png?4e4d3"
     },
     {
       "id": "brd-peekhole",
@@ -857,13 +871,14 @@
       "name": "TEILE",
       "category": "Negozi",
       "description": "Insegna accanto a quella di Avenue Contractors, a Downtown. Non è ancora noto che tipo di attività sia.",
-      "image": null,
+      "image": "assets/img/mondo/brd-teile.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gta.wiki/w/Salton_to_Waning_Sands",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/TEILE-GTAVI-TheLaunchGallery.png?57b77"
     },
     {
       "id": "brd-uncle-jack-s-liquor",
@@ -905,20 +920,23 @@
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/mondo/brd-delights.webp",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/port-gellhorn/port-gellhorn-04.webp"
     },
     {
       "id": "brd-starlet-motel",
       "name": "Starlet Motel",
       "category": "Hotel",
       "description": "Motel con insegna al neon sulla Historic Route 628, fuori Port Gellhorn, vicino alla stazione Alpha della rapina ripresa dalle telecamere. È uno dei rifugi che arrivano con la storia.",
-      "image": null,
+      "image": "assets/img/mondo/brd-starlet-motel.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/port-gellhorn",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/port-gellhorn/landmark-l304-full.webp"
     },
     {
       "id": "brd-gellhorn-roadhouse",
@@ -953,39 +971,42 @@
       "name": "Wyman's World Auto Salvage",
       "category": "Servizi",
       "description": "Lo sfasciacarrozze di Wyman sulla strada principale di Ambrosia, base della Classic Car Collection dell'Ultimate Edition: si restaurano auto d'epoca abbandonate per il collezionista. Wyman indossa la maglietta dell'officina, con il numero di Wyman's World Auto Salvage Co (305-555-0144) e la tagline «Parts Bought and Sold». Nel deposito, tra muscle car con livree da corsa, c'è una Schyster Deviant.",
-      "image": null,
+      "image": "assets/img/mondo/brd-wyman-s-world-auto-salvage.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/ambrosia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-WymanCarCollection01.jpg?b524e"
     },
     {
       "id": "brd-w-blanco-s-cuban-foods",
       "name": "W. Blanco's Cuban Foods",
       "category": "Minimarket",
       "description": "Alimentari cubano di Ambrosia sotto un gigantesco murale con aquila calva e bandiera. Ricalca un negozio della East Sugarland Highway di Clewiston.",
-      "image": null,
+      "image": "assets/img/mondo/brd-w-blanco-s-cuban-foods.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/ambrosia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l403-full.webp"
     },
     {
       "id": "brd-the-thirsty-wolf",
       "name": "The Thirsty Wolf",
       "category": "Vita notturna",
       "description": "Bar roadhouse in legno di Ambrosia con i biker davanti: è il punto di ritrovo del Final Chapter MC, la gang di motociclisti che comanda in città.",
-      "image": null,
+      "image": "assets/img/mondo/brd-the-thirsty-wolf.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/ambrosia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-GameInformerExclusive11.png?123a9"
     },
     {
       "id": "brd-sara-s-unisex-salon",
@@ -1005,13 +1026,14 @@
       "name": "Ocean View Hotel",
       "category": "Hotel",
       "description": "Hotel con insegna al neon su Shore Drive, a Ocean Beach, protagonista dell'artwork del Vintage Vice City Pack con Jason e Lucia. Era il primo rifugio di Tommy Vercetti in GTA Vice City; ricalca il Clevelander.",
-      "image": null,
+      "image": "assets/img/mondo/brd-ocean-view-hotel.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/ocean-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l36-full.webp"
     },
     {
       "id": "brd-paramour-boardwalk-seashell-cortez-atlan",
@@ -1031,39 +1053,42 @@
       "name": "Paño Rojo",
       "category": "Luoghi di ritrovo",
       "description": "Ristorante sotto i portici nella via pedonale di Ocean Beach, che ricalca la Española Way di South Beach.",
-      "image": null,
+      "image": "assets/img/mondo/brd-pa-o-rojo.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/ocean-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/ocean-beach/landmark-l2640-full.webp"
     },
     {
       "id": "brd-vice-pass",
       "name": "Vice Pass",
       "category": "Servizi",
       "description": "Il casello ad archi sotto un tetto di tegole all'estremità occidentale della Rialto Causeway. Non è ancora noto se si paghi il pedaggio.",
-      "image": null,
+      "image": "assets/img/mondo/brd-vice-pass.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/venetian-islands",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l602-full.webp"
     },
     {
       "id": "brd-akio-hotel",
       "name": "Akio Hotel",
       "category": "Hotel",
       "description": "Hotel basso sulla punta di Tequesta Retreat, l'isola delle torri di lusso accanto al distretto finanziario. La controparte reale a Brickell Key ha chiuso nel 2025.",
-      "image": null,
+      "image": "assets/img/mondo/brd-akio-hotel.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/tequesta-brickell",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/AkioHotel-GTAVI-AnExtendedLook.png?3ee30"
     },
     {
       "id": "brd-ficroth-capital",
@@ -1096,13 +1121,14 @@
       "name": "One-Eyed Willie's Mod Shop",
       "category": "Servizi",
       "description": "Officina di Lake Leonida specializzata in modifiche off-road e arte automobilistica dipinta a mano, aperta solo con l'Ultimate Edition: meccanici al lavoro su un fuoristrada verde lime sotto murales e neon.",
-      "image": null,
+      "image": "assets/img/mondo/brd-one-eyed-willie-s-mod-shop.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/lake-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg?cd8bc"
     },
     {
       "id": "brd-thrillbilly-mud-park",
@@ -1124,13 +1150,14 @@
       "name": "Paradise Garage",
       "category": "Servizi",
       "description": "Il garage di Watson Bay dell'Ultimate Edition dove custodire la '67 Vapid Dominator Buggy, con armadietto delle armi e un posto sicuro dove depositare la merce rubata da ricettare.",
-      "image": null,
+      "image": "assets/img/mondo/brd-paradise-garage.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/watson-bay",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-VapidBuggy04.jpg?41f78"
     },
     {
       "id": "brd-bite-house",
@@ -1152,39 +1179,42 @@
       "name": "Calle Creativa",
       "category": "Luoghi di ritrovo",
       "description": "Centro artistico di Little Cuba, l'unico luogo del quartiere con un nome noto; ricalca il Cubaocho Museum sulla Calle Ocho di Miami.",
-      "image": null,
+      "image": "assets/img/mondo/brd-calle-creativa.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/little-cuba",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/CalleCreativa-GTAVI-AnExtendedLook.png?c1ca5"
     },
     {
       "id": "brd-mami-s-grocery-market",
       "name": "Mami's Grocery Market",
       "category": "Minimarket",
       "description": "Minimarket rosa all'angolo di El Joven Blvd a Southside, nella stessa fila di A1 Fashions.",
-      "image": null,
+      "image": "assets/img/mondo/brd-mami-s-grocery-market.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/peacock-bay-coconut-grove",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2360-full.webp"
     },
     {
       "id": "brd-a1-fashions",
       "name": "A1 Fashions",
       "category": "Moda",
       "description": "Negozio di abbigliamento su El Joven Blvd a Southside, accanto a Mami's Grocery Market, con una folla davanti ai distributori automatici.",
-      "image": null,
+      "image": "assets/img/mondo/brd-a1-fashions.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/peacock-bay-coconut-grove",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/peacock-bay-coconut-grove/landmark-l2361-full.webp"
     },
     {
       "id": "brd-the-rusty-anchor",
@@ -1206,13 +1236,14 @@
       "name": "Brian's Marina",
       "category": "Azienda",
       "description": "Il cantiere nautico e porticciolo di Brian Heder a Key Lento, con l'insegna rossa che spunta sopra gli alberi: da qui il contrabbandiere continua a far passare la merce con la terza moglie Lori.",
-      "image": null,
+      "image": "assets/img/mondo/brd-brian-s-marina.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/key-lento-key-largo",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l326-full.webp"
     },
     {
       "id": "brd-chip-s-body-shop",
@@ -1247,26 +1278,28 @@
       "name": "Shoreline Market",
       "category": "Luoghi di ritrovo",
       "description": "Mercato sul lungomare di Downtown accanto al porticciolo, illuminato di notte; dà il nome (non ufficiale) alla zona di Shoreline su Catalan Boulevard.",
-      "image": null,
+      "image": "assets/img/mondo/brd-shoreline-market.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bayside-bayfront",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/ShorelineMarket-GTAVI-AnExtendedLook-Sign.png?d421c"
     },
     {
       "id": "brd-galina-ballet-opera-house",
       "name": "Galina Ballet Opera House",
       "category": "Luoghi di ritrovo",
       "description": "Centro per le arti dello spettacolo in vetro e pietra su Catalan Boulevard, accanto alla sala da concerto e alla stazione della metropolitana Vice City Arts Center.",
-      "image": null,
+      "image": "assets/img/mondo/brd-galina-ballet-opera-house.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bayside-bayfront",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l186-full.webp"
     },
     {
       "id": "brd-stock-305",
@@ -1303,39 +1336,42 @@
       "name": "The Hub Gallery",
       "category": "Luoghi di ritrovo",
       "description": "Galleria d'arte dietro murales in bianco e nero a Stockyard, accanto a Electric Fang Tattoo.",
-      "image": null,
+      "image": "assets/img/mondo/brd-the-hub-gallery.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1709-full.webp"
     },
     {
       "id": "brd-vice-vinyl",
       "name": "Vice Vinyl",
       "category": "Negozi",
       "description": "Piccolo negozio di dischi su un angolo coperto di murales tra Bohemia e Stockyard.",
-      "image": null,
+      "image": "assets/img/mondo/brd-vice-vinyl.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/bohemia/landmark-l1781-full.webp"
     },
     {
       "id": "brd-rideout-customs",
       "name": "Rideout Customs",
       "category": "Servizi",
       "description": "Officina di auto personalizzate (donk) a Crosstown, bonus dell'Ultimate Edition.",
-      "image": null,
+      "image": "assets/img/mondo/brd-rideout-customs.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/RideoutCustoms-GTAVI-AnExtendedLook-Exterior.png?15531"
     },
     {
       "id": "brd-haitian-american-cultural-center",
@@ -1355,39 +1391,42 @@
       "name": "Evergreen Plaza",
       "category": "Negozi",
       "description": "Centro commerciale suburbano di Waning Sands, con l'alta insegna sul bordo della strada che porta il nome della città. Ricalca il Cooper City Commons.",
-      "image": null,
+      "image": "assets/img/mondo/brd-evergreen-plaza.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/waning-sands",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/waning-sands/landmark-l549-full.webp"
     },
     {
       "id": "brd-crossroad-park-minimall",
       "name": "Crossroad Park Minimall",
       "category": "Negozi",
       "description": "Centro commerciale di Port Gellhorn, indicato su un cartello stradale insieme alla Interstate 404 e alla Route 9 per Draper Island.",
-      "image": null,
+      "image": "assets/img/mondo/brd-crossroad-park-minimall.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/draper-island",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/CrossroadParkMinimall-GTAVI-Trailer2-1.png?3f40a"
     },
     {
       "id": "brd-goliath",
       "name": "Goliath",
       "category": "Azienda",
       "description": "Gigantesco cementificio a ovest del Vice City International Airport, con il marchio sulla torre e sui silos; ricalca il Titan America di Medley.",
-      "image": null,
+      "image": "assets/img/mondo/brd-goliath.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/goliath-titan-america",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/GoliathGlobalPlant-GTAVI-AnExtendedLook.png?ea91e"
     },
     {
       "id": "brd-fuzzard-power-station",
@@ -1407,65 +1446,70 @@
       "name": "Diamond Dawgs",
       "category": "Negozi",
       "description": "Gioielleria su SW 4th Street, la via commerciale di Vice Beach, accanto a Eye & Dry, con un furgone dei gelati rosa parcheggiato fuori.",
-      "image": null,
+      "image": "assets/img/mondo/brd-diamond-dawgs.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1789-full.webp"
     },
     {
       "id": "brd-eye-dry",
       "name": "Eye & Dry",
       "category": "Negozi",
       "description": "Negozio su SW 4th Street a Vice Beach, accanto alla gioielleria Diamond Dawgs.",
-      "image": null,
+      "image": "assets/img/mondo/brd-eye-dry.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1789-full.webp"
     },
     {
       "id": "brd-glazin-glory",
       "name": "Glazin' Glory",
       "category": "Fast food",
       "description": "Negozio di ciambelle all'angolo di SW 4th Street a Vice Beach, nella via commerciale che ricalca la Arthur Godfrey Road.",
-      "image": null,
+      "image": "assets/img/mondo/brd-glazin-glory.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/vice-beach/landmark-l1797-full.webp"
     },
     {
       "id": "brd-catalyst-realty",
       "name": "Catalyst Realty",
       "category": "Azienda",
       "description": "Agenzia immobiliare su SW 4th Street a Vice Beach, tra la banca Hobbs Milford e la Ajax Gym.",
-      "image": null,
+      "image": "assets/img/mondo/brd-catalyst-realty.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/CatalystRealty-GTAVI-AnExtendedLook.png?ab972"
     },
     {
       "id": "brd-ajax-gym",
       "name": "Ajax Gym",
       "category": "Servizi",
       "description": "Palestra su SW 4th Street a Vice Beach.",
-      "image": null,
+      "image": "assets/img/mondo/brd-ajax-gym.png",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "imageUrl": "https://gta.wiki/images/AjaxGym-GTAVI-AnExtendedLook.png?36f82"
     },
     {
       "id": "brd-vyb",
@@ -1540,7 +1584,9 @@
       "sourceUrl": "https://gta.wiki/w/Ricardo%27s_Tires",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/mondo/brd-ricardo-s-tires.jpg",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-ViceCity22.jpg?6fd9f"
     },
     {
       "id": "brd-v-rock-caf",

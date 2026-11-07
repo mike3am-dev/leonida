@@ -455,7 +455,7 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/raccoons.jpg",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e9/Raccoon-GTAVI.png/revision/latest",
       "group": "foresta",
       "emoji": "🦝",
       "short": "Il ladro di rifiuti: lo trovi sia in città sia nei boschi.",
@@ -469,7 +469,8 @@
           "where": "Mount Kalaga",
           "what": "Corre accanto ai motociclisti"
         }
-      ]
+      ],
+      "image": "assets/img/vice/fauna/col-fauna-procione.png"
     },
     {
       "id": "col-fauna-opossum",
@@ -1067,7 +1068,7 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-goelands.jpg",
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seagull.jpg",
       "group": "uccelli",
       "emoji": "🐦",
       "short": "Il gabbiano reale delle coste.",
@@ -1076,7 +1077,8 @@
           "where": "Pontile al tramonto",
           "what": "Nel cielo"
         }
-      ]
+      ],
+      "image": "assets/img/vice/fauna/col-fauna-gabbiano.jpg"
     },
     {
       "id": "col-fauna-piccione",
@@ -1678,7 +1680,8 @@
           "where": "Penitenziario",
           "what": "Volano sopra mentre Jason va a prendere Lucia"
         }
-      ]
+      ],
+      "image": "assets/img/vice/fauna/col-fauna-corvo.jpg"
     },
     {
       "id": "col-fauna-oca",
@@ -1766,7 +1769,7 @@
       "districtId": null,
       "directions": "Compaiono solo in una pubblicità televisiva, non nel mondo aperto. Rockstar ha già usato questo espediente: in GTA V i cavalli comparivano negli spot senza essere mai presenti a Los Santos.",
       "reward": null,
-      "image": null,
+      "image": "assets/img/vice/fauna/col-fauna-bisonti.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
@@ -1784,7 +1787,8 @@
       ],
       "trivia": [
         "In GTA V i cavalli comparivano negli spot ma non a Los Santos."
-      ]
+      ],
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg"
     },
     {
       "id": "col-fauna-conigli",

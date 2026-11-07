@@ -45,7 +45,7 @@ export function popover(id) {
   const it = byId(id); if (!it) return;
   const isPoi = it._type === 'poi', isChr = it._type === 'character';
   const d = isPoi ? byId(it.districtId) : null;
-  const im = it.image ? `<img class="pop__img" src="${esc(it.image)}" alt="">` : '';
+  const im = it.image ? img(it.image, it.imageUrl, 'pop__img') : '';
   const body = document.createElement('div');
   body.innerHTML = `${im}
     <div class="chips" style="margin:var(--s-2) 0">${statusChip(it)}${isPoi && it.kind ? `<span class="chip">${esc(it.kind)}</span>` : ''}${isChr && it.role ? `<span class="chip">${esc(it.role)}</span>` : ''}</div>
@@ -146,7 +146,7 @@ function zoneCard(d, expanded, num = 0) {
       ${b.total ? zoneStats(b, d) : ''}
       ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
-          <span class="poi__thumb">${p.image ? `<img src="${esc(p.image)}" alt="">` : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
+          <span class="poi__thumb">${p.image ? img(p.image, p.imageUrl) : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
           <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${srcBadge(p)}</span>
           <span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>` : ''}
       ${places.length ? `<span class="kicker">Luoghi con la loro guida</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
