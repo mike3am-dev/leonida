@@ -143,7 +143,15 @@
         50,
         55,
         1.4
-      ]
+      ],
+      "scientificName": "Alligator mississippiensis",
+      "temperament": "predatore",
+      "habitat": "Paludi e canali di Grassrivers (Everglades); sconfina in piscine, laghetti e negozi di città",
+      "districtIds": [
+        "dis-grassrivers",
+        "dis-vice-city"
+      ],
+      "protectedReal": "regolamentato (specie tutelata, caccia solo a stagione con permesso)"
     },
     {
       "id": "col-fauna-iguana",
@@ -182,7 +190,15 @@
         45,
         75,
         1.4
-      ]
+      ],
+      "scientificName": "Iguana iguana",
+      "temperament": "innocuo",
+      "habitat": "Leonida Keys (rocce, strade, parcheggi) e Ocean Beach a Vice City",
+      "districtIds": [
+        "dis-keys",
+        "dis-vice-city"
+      ],
+      "protectedReal": "no (invasiva, rimozione incoraggiata)"
     },
     {
       "id": "col-fauna-cervo",
@@ -231,7 +247,15 @@
         60,
         50,
         1.3
-      ]
+      ],
+      "scientificName": "Odocoileus virginianus (nelle Keys: O. v. clavium, cervo delle Keys)",
+      "temperament": "innocuo",
+      "habitat": "Mount Kalaga National Park (abbeveratoi, boschi), torrenti di Grassrivers, stagni delle Everglades",
+      "districtIds": [
+        "dis-mount-kalaga",
+        "dis-grassrivers"
+      ],
+      "protectedReal": "regolamentato (cacciabile a stagione); il cervo delle Keys è in pericolo e protetto"
     },
     {
       "id": "col-fauna-puma",
@@ -269,7 +293,15 @@
         40,
         45,
         1.3
-      ]
+      ],
+      "scientificName": "Puma concolor coryi",
+      "temperament": "predatore",
+      "habitat": "Mount Kalaga National Park e paludi di Grassrivers",
+      "districtIds": [
+        "dis-mount-kalaga",
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (in pericolo, caccia vietata)"
     },
     {
       "id": "col-fauna-volpe",
@@ -300,7 +332,14 @@
         22,
         58,
         1.8
-      ]
+      ],
+      "scientificName": "Vulpes vulpes (volpe rossa) o Urocyon cinereoargenteus (volpe grigia): dallo screenshot non si distingue",
+      "temperament": "innocuo",
+      "habitat": "Boschi e sentieri di Mount Kalaga",
+      "districtIds": [
+        "dis-mount-kalaga"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-orso-nero",
@@ -328,7 +367,14 @@
           "where": "Trailer 2",
           "what": "A 0:30: la specie non si distingue"
         }
-      ]
+      ],
+      "scientificName": "Ursus americanus floridanus",
+      "temperament": "territoriale",
+      "habitat": "Mount Kalaga National Park",
+      "districtIds": [
+        "dis-mount-kalaga"
+      ],
+      "protectedReal": "regolamentato (caccia riaperta in Florida a dicembre 2025, con pochi permessi)"
     },
     {
       "id": "col-fauna-cinghiale",
@@ -338,8 +384,8 @@
       "directions": "Cinghiali e cervi compaiono in uno spot TV, ma quelle immagini vengono da RDR2: non è ancora certo che ci siano nel mondo aperto.",
       "reward": null,
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
@@ -349,13 +395,24 @@
       "short": "Compare solo in uno spot TV con immagini di RDR2.",
       "seen": [
         {
+          "where": "Grassrivers",
+          "what": "Trailer 2: un cinghiale guada l'acqua tra le paludi"
+        },
+        {
           "where": "Spot TV dell'Extended Look",
           "what": "Cinghiali e cervi in un'inquadratura"
         }
       ],
       "trivia": [
         "Le immagini dello spot vengono da RDR2."
-      ]
+      ],
+      "scientificName": "Sus scrofa",
+      "temperament": "territoriale",
+      "habitat": "Paludi e boschi di Grassrivers",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "no (invasivo, cacciabile tutto l'anno)"
     },
     {
       "id": "col-fauna-lince",
@@ -383,7 +440,14 @@
       "trivia": [
         "L'identificazione come lince rossa è incerta.",
         "Non figura tra le specie confermate."
-      ]
+      ],
+      "scientificName": "Lynx rufus",
+      "temperament": "predatore",
+      "habitat": "Grassrivers (esemplare ucciso dai bracconieri nello screenshot ufficiale)",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "no (caccia consentita a stagione)"
     },
     {
       "id": "col-fauna-armadillo",
@@ -394,7 +458,7 @@
       "reward": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
@@ -404,7 +468,11 @@
       "short": "L'armadillo a nove fasce, non ancora avvistato.",
       "trivia": [
         "Nessun avvistamento confermato."
-      ]
+      ],
+      "scientificName": "Dasypus novemcinctus",
+      "temperament": "innocuo",
+      "habitat": "Campagne e boschi (Ambrosia, Mount Kalaga): non ancora avvistato",
+      "protectedReal": "no (specie introdotta)"
     },
     {
       "id": "col-fauna-castoro",
@@ -422,7 +490,11 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦫",
-      "short": "Non ancora avvistato."
+      "short": "Non ancora avvistato.",
+      "scientificName": "Castor canadensis",
+      "temperament": "innocuo",
+      "habitat": "Fiumi del nord (Mount Kalaga): non ancora avvistato",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-lontra",
@@ -440,7 +512,11 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦦",
-      "short": "Non ancora avvistata."
+      "short": "Non ancora avvistata.",
+      "scientificName": "Lontra canadensis",
+      "temperament": "innocuo",
+      "habitat": "Fiumi e paludi (Grassrivers): non ancora avvistata",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-procione",
@@ -470,7 +546,15 @@
           "what": "Corre accanto ai motociclisti"
         }
       ],
-      "image": "assets/img/vice/fauna/col-fauna-procione.png"
+      "image": "assets/img/vice/fauna/col-fauna-procione.png",
+      "scientificName": "Procyon lotor",
+      "temperament": "innocuo",
+      "habitat": "Bidoni di Vice City e boschi di Mount Kalaga",
+      "districtIds": [
+        "dis-vice-city",
+        "dis-mount-kalaga"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-opossum",
@@ -488,7 +572,11 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🐀",
-      "short": "Non ancora avvistato."
+      "short": "Non ancora avvistato.",
+      "scientificName": "Didelphis virginiana",
+      "temperament": "innocuo",
+      "habitat": "Periferie e boschi: non ancora avvistato",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-moffetta",
@@ -506,7 +594,11 @@
       "updatedAt": "2026-11-07",
       "group": "foresta",
       "emoji": "🦨",
-      "short": "Non ancora avvistata."
+      "short": "Non ancora avvistata.",
+      "scientificName": "Mephitis mephitis",
+      "temperament": "innocuo",
+      "habitat": "Boschi e campagne: non ancora avvistata",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-macaco",
@@ -517,7 +609,7 @@
       "reward": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
@@ -527,7 +619,11 @@
       "short": "Specie invasiva, non ancora avvistata.",
       "trivia": [
         "In Florida le colonie di macachi reso esistono davvero."
-      ]
+      ],
+      "scientificName": "Macaca mulatta",
+      "temperament": "territoriale",
+      "habitat": "Non ancora avvistato; nella realtà vive lungo il Silver River, nella Florida centrale",
+      "protectedReal": "no (invasivo)"
     },
     {
       "id": "col-fauna-rospo",
@@ -538,14 +634,18 @@
       "reward": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🐸",
-      "short": "Specie invasiva, non ancora avvistata."
+      "short": "Specie invasiva, non ancora avvistata.",
+      "scientificName": "Rhinella marina",
+      "temperament": "innocuo",
+      "habitat": "Giardini, canali e paludi del sud: non ancora avvistato",
+      "protectedReal": "no (invasivo)"
     },
     {
       "id": "col-fauna-serpente",
@@ -604,7 +704,15 @@
             2
           ]
         }
-      ]
+      ],
+      "scientificName": "Pantherophis guttatus (serpente del grano, nell'acquario); Python bivittatus (pitone birmano, Everglades)",
+      "temperament": "innocuo",
+      "habitat": "Casa di Jason e Lucia (acquario); paludi di Grassrivers",
+      "districtIds": [
+        "dis-grassrivers",
+        "dis-keys"
+      ],
+      "protectedReal": "no (il pitone birmano è invasivo, la sua cattura è incoraggiata)"
     },
     {
       "id": "col-fauna-tartaruga",
@@ -622,7 +730,11 @@
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🐢",
-      "short": "Non ancora avvistata."
+      "short": "Non ancora avvistata.",
+      "scientificName": "Gopherus polyphemus",
+      "temperament": "innocuo",
+      "habitat": "Boschi sabbiosi e pinete: non ancora avvistata",
+      "protectedReal": "sì (minacciata in Florida, non si tocca)"
     },
     {
       "id": "col-fauna-scoiattolo",
@@ -647,7 +759,14 @@
           "where": "Mount Kalaga",
           "what": "Si arrampica su un albero"
         }
-      ]
+      ],
+      "scientificName": "Sciurus carolinensis",
+      "temperament": "innocuo",
+      "habitat": "Alberi di Mount Kalaga",
+      "districtIds": [
+        "dis-mount-kalaga"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-ratto",
@@ -671,7 +790,14 @@
           "where": "Davanti a un minimarket",
           "what": "Sotto un distributore mentre Jason mangia patatine"
         }
-      ]
+      ],
+      "scientificName": "Rattus norvegicus",
+      "temperament": "innocuo",
+      "habitat": "Vice City, sotto i distributori automatici dei minimarket",
+      "districtIds": [
+        "dis-vice-city"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-mucca",
@@ -692,7 +818,14 @@
       "short": "Non ancora avvistata.",
       "trivia": [
         "Il posto più probabile per trovarla sono i campi di Ambrosia."
-      ]
+      ],
+      "scientificName": "Bos taurus",
+      "temperament": "innocuo",
+      "habitat": "Pascoli di Ambrosia: non ancora avvistata",
+      "districtIds": [
+        "dis-ambrosia"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-cani",
@@ -807,7 +940,11 @@
             2
           ]
         }
-      ]
+      ],
+      "scientificName": "Canis lupus familiaris",
+      "temperament": "innocuo",
+      "habitat": "Ovunque, con i padroni; i K-9 della polizia durante gli inseguimenti",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-gatto",
@@ -844,7 +981,15 @@
         48,
         40,
         1.8
-      ]
+      ],
+      "scientificName": "Felis catus",
+      "temperament": "innocuo",
+      "habitat": "Minimarket di Vice City; uno morto a Grassrivers",
+      "districtIds": [
+        "dis-vice-city",
+        "dis-grassrivers"
+      ],
+      "protectedReal": "no (i gatti selvatici sono una specie invasiva)"
     },
     {
       "id": "col-fauna-fenicottero",
@@ -875,7 +1020,14 @@
         50,
         50,
         1.1
-      ]
+      ],
+      "scientificName": "Phoenicopterus ruber",
+      "temperament": "innocuo",
+      "habitat": "Lagune e colonie delle Everglades (Grassrivers)",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-pellicano",
@@ -911,7 +1063,15 @@
         40,
         50,
         1.6
-      ]
+      ],
+      "scientificName": "Pelecanus occidentalis",
+      "temperament": "innocuo",
+      "habitat": "Spiaggia di Vice Beach e Leonida Keys",
+      "districtIds": [
+        "dis-vice-beach",
+        "dis-keys"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-airone",
@@ -936,7 +1096,15 @@
           "where": "Cielo di Vice City all'alba",
           "what": "All'alba, identificazione incerta"
         }
-      ]
+      ],
+      "scientificName": "Ardea herodias",
+      "temperament": "innocuo",
+      "habitat": "Paludi di Grassrivers; dipinto sui due lati del cartello «The Keys» sulla Keys Causeway",
+      "districtIds": [
+        "dis-grassrivers",
+        "dis-keys"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-spatola",
@@ -961,7 +1129,14 @@
           "where": "Grassrivers",
           "what": "Guada con una gru e una cicogna"
         }
-      ]
+      ],
+      "scientificName": "Platalea ajaja",
+      "temperament": "innocuo",
+      "habitat": "Acqua bassa di Grassrivers",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (minacciata in Florida)"
     },
     {
       "id": "col-fauna-gru",
@@ -988,7 +1163,14 @@
       ],
       "trivia": [
         "Non è certo che sia proprio la gru americana."
-      ]
+      ],
+      "scientificName": "Grus americana",
+      "temperament": "innocuo",
+      "habitat": "Paludi di Grassrivers",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (in pericolo)"
     },
     {
       "id": "col-fauna-picchio",
@@ -1006,7 +1188,11 @@
       "updatedAt": "2026-11-07",
       "group": "uccelli",
       "emoji": "🐦",
-      "short": "Non ancora avvistato."
+      "short": "Non ancora avvistato.",
+      "scientificName": "Dryocopus pileatus (picchio pileato) o Melanerpes carolinus",
+      "temperament": "innocuo",
+      "habitat": "Boschi: non ancora avvistato",
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-anatra",
@@ -1053,7 +1239,14 @@
         43,
         48,
         2
-      ]
+      ],
+      "scientificName": "Anas fulvigula",
+      "temperament": "innocuo",
+      "habitat": "Paludi delle Everglades (Grassrivers), tra i fenicotteri",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "regolamentato (cacciabile a stagione)"
     },
     {
       "id": "col-fauna-gabbiano",
@@ -1078,7 +1271,15 @@
           "what": "Nel cielo"
         }
       ],
-      "image": "assets/img/vice/fauna/col-fauna-gabbiano.jpg"
+      "image": "assets/img/vice/fauna/col-fauna-gabbiano.jpg",
+      "scientificName": "Leucophaeus atricilla (gabbiano sghignazzante) e Larus argentatus (gabbiano reale americano)",
+      "temperament": "innocuo",
+      "habitat": "Pontili, spiagge e marciapiedi di Vice City e Vice Beach",
+      "districtIds": [
+        "dis-vice-beach",
+        "dis-vice-city"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-piccione",
@@ -1106,7 +1307,14 @@
           "where": "Ringhiere delle barche",
           "what": "Con i gabbiani"
         }
-      ]
+      ],
+      "scientificName": "Columba livia",
+      "temperament": "innocuo",
+      "habitat": "Strade di Vice City, ringhiere delle barche",
+      "districtIds": [
+        "dis-vice-city"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-delfino",
@@ -1144,7 +1352,15 @@
         38,
         45,
         2.2
-      ]
+      ],
+      "scientificName": "Tursiops truncatus",
+      "temperament": "innocuo",
+      "habitat": "Al largo di Vice City e delle Keys",
+      "districtIds": [
+        "dis-vice-beach",
+        "dis-keys"
+      ],
+      "protectedReal": "sì (mammifero marino protetto)"
     },
     {
       "id": "col-fauna-lamantino",
@@ -1180,7 +1396,14 @@
       "trivia": [
         "Specie nativa di Leonida.",
         "La Florida è uno degli ultimi habitat naturali del lamantino."
-      ]
+      ],
+      "scientificName": "Trichechus manatus latirostris",
+      "temperament": "innocuo",
+      "habitat": "Acque interne delle Everglades e di Grassrivers",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (minacciato, protetto)"
     },
     {
       "id": "col-fauna-squalo",
@@ -1229,12 +1452,20 @@
         45,
         60,
         2.4
-      ]
+      ],
+      "scientificName": "Galeocerdo cuvier (tigre), Sphyrna mokarran (martello maggiore), Carcharhinus leucas (toro), Carcharodon carcharias (bianco)",
+      "temperament": "predatore",
+      "habitat": "Costa di Vice Beach, fondali e scogliere delle Keys",
+      "districtIds": [
+        "dis-vice-beach",
+        "dis-keys"
+      ],
+      "protectedReal": "in parte (tigre, martello maggiore e bianco: cattura vietata nelle acque della Florida; il toro no)"
     },
     {
       "id": "col-fauna-manta",
       "categoryId": "cat-fauna",
-      "name": "Manta",
+      "name": "Razza dal pungiglione",
       "districtId": "dis-keys",
       "directions": "Le razze nuotano nelle acque di Leonida: le incontri durante le immersioni, accanto ai sub.",
       "reward": null,
@@ -1259,7 +1490,14 @@
         37,
         15,
         2.6
-      ]
+      ],
+      "scientificName": "Hypanus americanus (razza americana); la manta gigante è Mobula birostris",
+      "temperament": "innocuo",
+      "habitat": "Fondali di Leonida durante le immersioni",
+      "districtIds": [
+        "dis-keys"
+      ],
+      "protectedReal": "no (la manta gigante è minacciata)"
     },
     {
       "id": "col-fauna-tartaruga-marina",
@@ -1293,7 +1531,14 @@
         40,
         58,
         1.4
-      ]
+      ],
+      "scientificName": "Caretta caretta (caretta) o Chelonia mydas (tartaruga verde)",
+      "temperament": "innocuo",
+      "habitat": "Al largo di Vice City e sulla barriera corallina delle Keys",
+      "districtIds": [
+        "dis-keys"
+      ],
+      "protectedReal": "sì (specie minacciata)"
     },
     {
       "id": "col-fauna-medusa",
@@ -1304,14 +1549,18 @@
       "reward": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
       "group": "marini",
       "emoji": "🪼",
-      "short": "Traslucida e bioluminescente."
+      "short": "Traslucida e bioluminescente.",
+      "scientificName": "Aurelia aurita e altre specie",
+      "temperament": "innocuo",
+      "habitat": "Acque costiere",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-anguilla",
@@ -1342,7 +1591,14 @@
         65,
         45,
         1.6
-      ]
+      ],
+      "scientificName": "Gymnothorax funebris (murena verde)",
+      "temperament": "territoriale",
+      "habitat": "Fondali corallini delle Keys",
+      "districtIds": [
+        "dis-keys"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-gambero",
@@ -1360,12 +1616,16 @@
       "updatedAt": "2026-11-07",
       "group": "paludi",
       "emoji": "🦞",
-      "short": "Non ancora avvistato."
+      "short": "Non ancora avvistato.",
+      "scientificName": "Procambarus alleni",
+      "temperament": "innocuo",
+      "habitat": "Paludi: non ancora avvistato",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-balena",
       "categoryId": "cat-fauna",
-      "name": "Balena",
+      "name": "Orca",
       "districtId": null,
       "directions": "Nuota al largo.",
       "reward": null,
@@ -1378,7 +1638,14 @@
       "updatedAt": "2026-11-07",
       "group": "marini",
       "emoji": "🐋",
-      "short": "Nuota al largo."
+      "short": "Nuota al largo.",
+      "scientificName": "Orcinus orca",
+      "temperament": "predatore",
+      "habitat": "Al largo; un'orca in cattività al Vice City Oceanarium",
+      "protectedReal": "sì (mammifero marino protetto)",
+      "trivia": [
+        "Al Vice City Oceanarium c'è un'orca, Makenzi: compare sul camion pubblicitario dell'acquario."
+      ]
     },
     {
       "id": "col-ex-001",
@@ -1432,7 +1699,14 @@
       "sourceUrl": "https://www.gtavice.net/news/gta-6-famitsus-full-rob-nelson-interview-translated-into-english",
       "group": "uccelli",
       "emoji": "🦚",
-      "short": "Può capitare di incontrarlo mentre peschi."
+      "short": "Può capitare di incontrarlo mentre peschi.",
+      "scientificName": "Pavo cristatus",
+      "temperament": "innocuo",
+      "habitat": "Zone di pesca (Famitsu); nella realtà vive libero nei quartieri di Miami",
+      "districtIds": [
+        "dis-keys"
+      ],
+      "protectedReal": "no (specie introdotta)"
     },
     {
       "image": null,
@@ -1452,7 +1726,15 @@
       "emoji": "🐊",
       "short": "Da non confondere con l'alligatore: può interrompere una gita in kayak.",
       "danger": 2,
-      "dangerNote": "Può interrompere una gita in kayak."
+      "dangerNote": "Può interrompere una gita in kayak.",
+      "scientificName": "Crocodylus acutus",
+      "temperament": "predatore",
+      "habitat": "Acque salmastre delle Keys e della costa di Grassrivers",
+      "districtIds": [
+        "dis-keys",
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (minacciato)"
     },
     {
       "image": null,
@@ -1626,7 +1908,14 @@
           "where": "Everglades",
           "what": "Diversi esemplari si alzano in volo"
         }
-      ]
+      ],
+      "scientificName": "Anhinga anhinga",
+      "temperament": "innocuo",
+      "habitat": "Everglades (Grassrivers)",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-cormorano",
@@ -1656,7 +1945,15 @@
         50,
         40,
         1.1
-      ]
+      ],
+      "scientificName": "Nannopterum auritum",
+      "temperament": "innocuo",
+      "habitat": "Everglades e costa di Vice Beach",
+      "districtIds": [
+        "dis-grassrivers",
+        "dis-vice-beach"
+      ],
+      "protectedReal": "sì (uccello migratore protetto)"
     },
     {
       "id": "col-fauna-corvo",
@@ -1681,7 +1978,11 @@
           "what": "Volano sopra mentre Jason va a prendere Lucia"
         }
       ],
-      "image": "assets/img/vice/fauna/col-fauna-corvo.jpg"
+      "image": "assets/img/vice/fauna/col-fauna-corvo.jpg",
+      "scientificName": "Corvus brachyrhynchos o Corvus ossifragus (corvo pescatore)",
+      "temperament": "innocuo",
+      "habitat": "Sopra il penitenziario",
+      "protectedReal": "regolamentato (cacciabili a stagione)"
     },
     {
       "id": "col-fauna-oca",
@@ -1705,7 +2006,11 @@
           "where": "Pontile al tramonto",
           "what": "Sull'acqua"
         }
-      ]
+      ],
+      "scientificName": "Branta canadensis",
+      "temperament": "territoriale",
+      "habitat": "Sull'acqua vicino al pontile, al tramonto",
+      "protectedReal": "regolamentato (cacciabili a stagione)"
     },
     {
       "id": "col-fauna-canarino",
@@ -1730,7 +2035,11 @@
           "where": "Spot TV dell'Extended Look",
           "what": "In primo piano"
         }
-      ]
+      ],
+      "scientificName": "Serinus canaria",
+      "temperament": "innocuo",
+      "habitat": "Solo in uno spot TV",
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-pesci-esotici",
@@ -1760,7 +2069,14 @@
         50,
         50,
         1
-      ]
+      ],
+      "scientificName": "Holacanthus ciliaris (pesce angelo regina), Scarus spp. (pesci pappagallo) e altri",
+      "temperament": "innocuo",
+      "habitat": "Barriera corallina delle Keys",
+      "districtIds": [
+        "dis-keys"
+      ],
+      "protectedReal": "no"
     },
     {
       "id": "col-fauna-bisonti",
@@ -1788,7 +2104,11 @@
       "trivia": [
         "In GTA V i cavalli comparivano negli spot ma non a Los Santos."
       ],
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/canard-bison-gta-6-1024x574-1.jpg",
+      "scientificName": "Bison bison",
+      "temperament": "territoriale",
+      "habitat": "Solo in uno spot TV, non nel mondo aperto",
+      "protectedReal": "—"
     },
     {
       "id": "col-fauna-conigli",
@@ -1812,7 +2132,91 @@
           "where": "Spot TV dell'Extended Look",
           "what": "Unica apparizione"
         }
-      ]
+      ],
+      "scientificName": "Sylvilagus floridanus",
+      "temperament": "innocuo",
+      "habitat": "Solo in uno spot TV, non nel mondo aperto",
+      "protectedReal": "no"
+    },
+    {
+      "id": "col-fauna-pesce-leone",
+      "categoryId": "cat-fauna",
+      "name": "Pesce leone",
+      "group": "marini",
+      "emoji": "🐟",
+      "districtId": "dis-keys",
+      "short": "Specie invasiva arrivata dal Pacifico, oggi tra le più temute sulle barriere coralline. Lo trovi in immersione nelle grotte sommerse delle Leonida Keys, tra le gorgonie. Ha le spine velenose: guardalo da vicino senza toccarlo.",
+      "scientificName": "Pterois volitans",
+      "temperament": "innocuo",
+      "habitat": "Grotte sommerse delle Leonida Keys",
+      "protectedReal": "no (invasivo, la pesca è incoraggiata)",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Lionfish",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/vice/fauna/col-fauna-pesce-leone.png",
+      "imageUrl": "https://gta.wiki/images/RedLionfish-GTAVI-OfficialScreenshot-LeonidaKeys07.png"
+    },
+    {
+      "id": "col-fauna-varano",
+      "categoryId": "cat-fauna",
+      "name": "Varano",
+      "group": "paludi",
+      "emoji": "🦎",
+      "districtId": "dis-grassrivers",
+      "short": "Grosso rettile invasivo che si muove nelle acque basse delle paludi. Nel launch trailer passa accanto a Jason mentre guada l'acqua armato insieme ad altri due uomini. Ha morso e artigli: meglio non provocarlo.",
+      "scientificName": "Varanus niloticus (varano del Nilo, la specie invasiva della Florida del sud), identificazione non certa",
+      "temperament": "territoriale",
+      "habitat": "Acque basse e paludi",
+      "protectedReal": "no (invasivo)",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Monitor_Lizards",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/vice/fauna/col-fauna-varano.png",
+      "imageUrl": "https://gta.wiki/images/MonitorLizard-GTAVI-LaunchTrailer.png"
+    },
+    {
+      "id": "col-fauna-cicogna",
+      "categoryId": "cat-fauna",
+      "name": "Cicogna americana",
+      "group": "uccelli",
+      "emoji": "🦩",
+      "districtId": "dis-grassrivers",
+      "short": "L'unica cicogna che nidifica negli Stati Uniti: testa nuda e grigia, becco grosso e ricurvo. Guada l'acqua bassa di Grassrivers insieme alla spatola rosata e alla gru americana.",
+      "scientificName": "Mycteria americana",
+      "temperament": "innocuo",
+      "habitat": "Acque basse di Grassrivers",
+      "protectedReal": "sì (minacciata)",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Spoonbills",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "col-fauna-falco-pescatore",
+      "categoryId": "cat-fauna",
+      "name": "Falco pescatore",
+      "group": "uccelli",
+      "emoji": "🦅",
+      "districtId": "dis-vice-beach",
+      "short": "Rapace che pesca tuffandosi in acqua. Più esemplari camminano sulla spiaggia di Vice Beach.",
+      "scientificName": "Pandion haliaetus",
+      "temperament": "predatore",
+      "habitat": "Spiaggia di Vice Beach",
+      "protectedReal": "sì (rapace protetto)",
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Ospreys",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
     }
   ]
 }

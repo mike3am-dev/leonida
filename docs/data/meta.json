@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.17.0",
+  "dataVersion": "0.18.0",
   "updatedAt": "2026-11-07",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.18.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Benchmark completato: 46 negozi e locali nel Mondo e sulla mappa, 25 luoghi e 7 stazioni di polizia, 26 stazioni e la scheda Rete dei trasporti, 12 stazioni radio, 4 animali nuovi, Bae-Luxe e Roxy, costruttori GranForma, Airgator, ZOOT, Del Perro, Hauners.",
+        "Animali con nome scientifico, comportamento, zone e protezione reale; «Animali della zona» nelle regioni; attività filtrabili in Come si gioca; scheda Gare.",
+        "Correzioni: brani radio dal leak, ShoreFront banca, orca, razza, cinghiale, Watson Bay Airport, Boone Speedway, doppioni sulla mappa tolti."
+      ]
+    },
     {
       "version": "0.17.0",
       "date": "2026-11-07",

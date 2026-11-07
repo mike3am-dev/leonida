@@ -1077,7 +1077,7 @@
     },
     {
       "id": "chr-lori",
-      "name": "Lori",
+      "name": "Lori Heder",
       "role": "Terza moglie di Brian",
       "isProtagonist": false,
       "tagline": "La sangria è sua.",
@@ -2071,10 +2071,10 @@
       "updatedAt": "2026-11-06",
       "id": "chr-phil",
       "name": "Phil",
-      "role": "Testimonial Ammu-Nation",
+      "role": "Titolare di Phil's Ammu-Nation",
       "isProtagonist": false,
       "tagline": "Una pubblicità, un volto noto.",
-      "bio": "Compare in uno spot televisivo di Ammu-Nation. Ricorda Phil Cassidy, vecchio personaggio della serie.",
+      "bio": "È il titolare di Phil's Ammu-Nation. Nello spot del negozio spara con una mitragliatrice leggera fuori dalla vetrina e promette «più armi di quante ne permetta la legge». Compare in uno spot televisivo di Ammu-Nation. Ricorda Phil Cassidy, vecchio personaggio della serie.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
@@ -2773,6 +2773,48 @@
       "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false
+    },
+    {
+      "id": "chr-bae-luxe",
+      "name": "Bae-Luxe",
+      "role": "Rapper delle Real Dimez",
+      "bio": "Metà delle Real Dimez con Roxy, sua amica dai tempi del liceo. Nel Trailer 1 balla sul tetto di una berlina Vapid; nel Trailer 2 posa accanto alla sua decappottabile.",
+      "relations": [
+        "chr-roxy",
+        "chr-real-dimez",
+        "chr-dwnply",
+        "chr-drequan"
+      ],
+      "districtId": "dis-vice-city",
+      "isProtagonist": false,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/dimez",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/ss-real-dimez-01.jpg"
+    },
+    {
+      "id": "chr-roxy",
+      "name": "Roxy",
+      "role": "Rapper delle Real Dimez",
+      "bio": "L'altra metà delle Real Dimez, amica di Bae-Luxe dal liceo. Nel Trailer 1 balla con lei sul tetto di una berlina Vapid. Ha un servizio fotografico ufficiale su Dazed.",
+      "relations": [
+        "chr-bae-luxe",
+        "chr-real-dimez",
+        "chr-dwnply",
+        "chr-drequan"
+      ],
+      "districtId": "dis-vice-city",
+      "isProtagonist": false,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/dimez",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/ss-real-dimez-01.jpg"
     }
   ],
   "schemaVersion": 1

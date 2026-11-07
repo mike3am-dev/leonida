@@ -24,6 +24,7 @@ export async function loadAll() {
   db.acts = raw.missions.acts || [];
   db.actsNote = raw.missions.actsNote || '';
   db.synopsis = raw.missions.synopsis || '';
+  db.actsExtras = raw.missions.actsExtras || [];
   db.missions = raw.missions.items || [];
   db.districts = raw.districts.items || [];
   db.collectibleCategories = raw.collectibles.categories || [];

@@ -37,7 +37,7 @@
     },
     {
       "id": "rad-cocoteo",
-      "name": "Cocoteo",
+      "name": "Cocoteo FM",
       "genre": "Latin moderno",
       "host": "El Martillo (Bad Bunny) e La Gata (RaiNao)",
       "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: ritmi moderni e la voce dei quartieri, da Little Cuba in giù.",
@@ -63,8 +63,8 @@
         {
           "artist": "Myke Towers",
           "title": "Girl",
-          "status": "verificato",
-          "source": "trailer"
+          "status": "da verificare",
+          "source": "leak"
         }
       ],
       "image": "assets/img/radio-cocoteo.png",
@@ -77,7 +77,7 @@
     },
     {
       "id": "rad-back-country",
-      "name": "Back Country",
+      "name": "Back Country Radio",
       "genre": "Country ribelle",
       "host": "MW (Morgan Wallen), Delta Dawne (Lana Del Rey) e Mud Dog Mike (Jeremy Dufrene)",
       "description": "Country fuori dagli schemi, per le strade dritte dell'entroterra e i pick-up con la ruggine sui parafanghi.",
@@ -103,14 +103,14 @@
         {
           "artist": "Glen Campbell",
           "title": "Rhinestone Cowboy",
-          "status": "verificato",
-          "source": "trailer"
+          "status": "da verificare",
+          "source": "leak"
         },
         {
           "artist": "George Strait",
           "title": "The Fireman",
-          "status": "verificato",
-          "source": "trailer"
+          "status": "da verificare",
+          "source": "leak"
         }
       ],
       "image": "assets/img/radio-back-country.png",
@@ -123,7 +123,7 @@
     },
     {
       "id": "rad-afro-bank",
-      "name": "Afro Bank FM",
+      "name": "AfroBank FM",
       "genre": "Amapiano, classici africani, 3-step",
       "host": "Burna (Burna Boy) e Palmsy (Palms Trax)",
       "description": "Amapiano, classici del continente africano e 3-step, con il motto «Turn up the gbedu». La stazione che fa ballare anche in coda al semaforo.",
@@ -157,7 +157,7 @@
     },
     {
       "id": "rad-the-chamber",
-      "name": "The Chamber",
+      "name": "The Chamber 106.6",
       "genre": "Metal",
       "host": "DJ Kerry (Kerry King) e DJ Tom (Tom Araya)",
       "description": "Metal, senza compromessi. Per le fughe in cui il contagiri non scende mai.",
@@ -222,6 +222,262 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05"
+    },
+    {
+      "id": "rad-vice-city-fm",
+      "name": "Vice City FM",
+      "genre": "Pop anni '80",
+      "description": "Il ritorno della stazione degli anni Ottanta, con lo slogan «Take it back» e musica non-stop di quel decennio. La sua pubblicità compare su una pensilina di Vice City.",
+      "highlights": [],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Vice_City_FM",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/radio/rad-vice-city-fm.png",
+      "imageUrl": "https://gta.wiki/images/ViceCityFM-GTAVI-AnExtendedLook.png?fa0f6"
+    },
+    {
+      "id": "rad-v-rock",
+      "name": "V-Rock",
+      "genre": "Classic rock",
+      "description": "La storica radio rock di Vice City torna con la mascotte, l'avvoltoio Jimmy, e un formato classic rock. Jason ne indossa la maglietta.",
+      "highlights": [
+        {
+          "artist": "Stevie Nicks",
+          "title": "For What It's Worth",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "Lindsey Buckingham",
+          "title": "Go Insane",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/V-Rock",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/radio/rad-v-rock.png",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023"
+    },
+    {
+      "id": "rad-honey-fm",
+      "name": "Honey FM",
+      "genre": "R&B e soul (da confermare)",
+      "description": "Stazione dal logo rosa e dorato, pubblicizzata sul tetto e sulle fiancate dei taxi di Vice City e sulle magliette dei passanti.",
+      "highlights": [],
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Honey_FM",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/radio/rad-honey-fm.png",
+      "imageUrl": "https://gta.wiki/images/UnnamedVapidTaxi-GTAVI-WebsiteBackground-Music01.png?7658c"
+    },
+    {
+      "id": "rad-emotion-98-3",
+      "name": "Emotion 98.3",
+      "genre": "Pop e soft rock",
+      "description": "Torna la stazione del pop morbido e delle ballate del Vice City originale.",
+      "highlights": [
+        {
+          "artist": "Cliff Richard",
+          "title": "Devil Woman",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-stockyard-fm",
+      "name": "Stockyard FM",
+      "genre": "Pop e dance",
+      "description": "La radio di quartiere di Stockyard, tra pop elettronico e successi recenti.",
+      "highlights": [
+        {
+          "artist": "Róisín Murphy",
+          "title": "Overpowered",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "Tommy Richman",
+          "title": "Million Dollar Baby",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-symphony-fm",
+      "name": "Symphony FM",
+      "genre": "Classica",
+      "description": "Musica sinfonica per chi vuole attraversare Leonida a passo d'orchestra.",
+      "highlights": [
+        {
+          "artist": "Jean Sibelius",
+          "title": "Sinfonia n. 5, III. Allegro molto",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "Gustav Mahler",
+          "title": "Sinfonia n. 6, Allegro energico",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-circoloco",
+      "name": "CircoLoco Records Radio",
+      "genre": "Dance, house",
+      "description": "La stazione dance legata a CircoLoco Records, l'etichetta nata da Rockstar e dal party di Ibiza.",
+      "highlights": [],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "image": "assets/img/radio/rad-circoloco.png",
+      "imageUrl": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8"
+    },
+    {
+      "id": "rad-radio-on-u",
+      "name": "Radio On-U",
+      "genre": "Reggae e dub",
+      "description": "Reggae e dub d'annata, dai classici giamaicani alle produzioni On-U Sound.",
+      "highlights": [
+        {
+          "artist": "Horace Andy",
+          "title": "Skylarking",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "The Upsetters",
+          "title": "Black Panta",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-worldwide-fm",
+      "name": "WorldWide FM",
+      "genre": "World, soul, jazz-funk",
+      "description": "Ritorna da GTA V la stazione di Gilles Peterson, tra soul, jazz-funk e suoni dal mondo.",
+      "highlights": [
+        {
+          "artist": "Garfield Fleming",
+          "title": "Don't Send Me Away",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "Jamiroquai",
+          "title": "Smile",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-kaleidoscope-fm",
+      "name": "Kaleidoscope FM",
+      "genre": "Disco e funk",
+      "description": "Disco e funk europei, nome ripreso dalla Kaleidoscope del primo GTA.",
+      "highlights": [
+        {
+          "artist": "Marianne Rosenberg",
+          "title": "Herz aus Glas",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-la-ola",
+      "name": "La Ola",
+      "genre": "Salsa e latin classico",
+      "description": "Salsa e latin degli anni Settanta e Ottanta, il contraltare classico di Cocoteo.",
+      "highlights": [
+        {
+          "artist": "Orquesta Harlow",
+          "title": "La Cartera",
+          "status": "da verificare",
+          "source": "leak"
+        },
+        {
+          "artist": "Nolen & Crossley",
+          "title": "Salsa Boogie",
+          "status": "da verificare",
+          "source": "leak"
+        }
+      ],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "rad-the-wipe",
+      "name": "The Wipe",
+      "genre": "Sconosciuto",
+      "description": "Il nome compare sulla ruota delle radio, ma genere e scaletta sono ancora un mistero.",
+      "highlights": [],
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "rad-altre",

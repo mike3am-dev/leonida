@@ -63,6 +63,7 @@ function index() {
         ${cs.list.length ? `<div class="storyboard__dots">${cs.list.map((m) => `<i class="dot ${st.missions[m.id]?.state === 'completata' ? 'is-done' : st.missions[m.id]?.state === 'in-corso' ? 'is-cur' : ''}"></i>`).join('')}</div>` : ''}
       </div></div>
     ${shield ? '' : '<p class="callout callout--warn small">Scudo spoiler spento: vedi tutti i nomi. Riaccendilo in Impostazioni.</p>'}
+    ${extrasHtml({ extras: db.actsExtras })}
     <div class="chapters">${acts.map((a) => {
       const c = chapterState(a, missions);
       const isCur = a === cur;

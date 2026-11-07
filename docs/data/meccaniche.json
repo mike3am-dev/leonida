@@ -1498,6 +1498,98 @@
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gtaintel.com/news/gta-6-weather-and-hurricanes"
+    },
+    {
+      "id": "mec-rete-trasporti",
+      "title": "Rete dei trasporti",
+      "emoji": "🚇",
+      "group": "Mondo e vita",
+      "short": "Leonida si gira anche senza auto. A Vice City corrono la Vice City Metro (treni sopraelevati blu e argento, come la Metrorail di Miami) e il Metro Mule, il trenino automatico senza conducente del centro con la mascotte del mulo capotreno. L'aeroporto ha un suo people mover, gli autobus Vice City Transit (i Buster bianchi, blu e rosa) coprono la città con linee come la 420 per Peacock Bay, e i treni regionali Amloco collegano Vice City a Port Gellhorn, Ambrosia, Capri e al nord. Le merci viaggiano sui treni Boxtrax.",
+      "steps": [
+        "Cerca sulla mappa le stazioni (livello Punti d'interesse): metro sopraelevata, Metro Mule del centro, treni regionali.",
+        "Per l'autobus vai a una fermata e aspetta: non si ferma al volo.",
+        "A bordo sei un passeggero: niente benzina, niente danni, e ti godi il viaggio.",
+        "Per uscire da Vice City prendi i treni regionali Amloco verso Port Gellhorn, Ambrosia, Capri e il nord."
+      ],
+      "details": [
+        {
+          "title": "Vice City Metro",
+          "text": "Metropolitana sopraelevata. Treni blu e argento sopra la County Road 561 a La Perle (secondo trailer); due convogli si incrociano nel trailer di lancio."
+        },
+        {
+          "title": "Metro Mule – City Mule Line",
+          "text": "People mover automatico. Convogli bianchi e blu con il mulo capotreno; anello del centro tra Downtown, Arts Center e Crosstown."
+        },
+        {
+          "title": "Amloco",
+          "text": "Treni regionali. Locomotive argento a strisce blu, viste nel video-cartolina di Port Gellhorn; nome nei leak."
+        },
+        {
+          "title": "Vice City Transit",
+          "text": "Autobus. Autobus Buster bianchi, blu e rosa negli screenshot ufficiali; linea 420 per Peacock Bay nei leak."
+        },
+        {
+          "title": "Altre linee",
+          "text": "Boxtrax: treni merci."
+        }
+      ],
+      "tips": [
+        "26 stazioni e 34 fermate dell'autobus sono già mappate.",
+        "Le strade principali: Catalan Boulevard, Shore Drive, Shorefront Avenue, Thompson Avenue, Harborside Avenue, Cabeça Street, Huevo Street, SW 4th Street (Vice Beach)."
+      ],
+      "extras": [
+        {
+          "source": "leak",
+          "text": "People mover dell'aeroporto (VCIA) (People mover): Collega i terminal alla stazione VCIA (Metro + Amloco)."
+        },
+        {
+          "source": "community",
+          "text": "I nomi ufficiali delle stazioni sono solo tre: Vice City Arts Center, Crosstown e NW 3rd Street. Gli altri nomi delle stazioni sono quelli dei quartieri."
+        }
+      ],
+      "relatedIds": [],
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "sourceUrl": "https://gta.wiki/w/Vice_City_Metro"
+    },
+    {
+      "id": "mec-gare",
+      "title": "Gare",
+      "emoji": "🏁",
+      "group": "Mondo e vita",
+      "short": "Leonida corre su strada, in pista, nel fango e sull'acqua: gare di giorno e di notte, drag race, fuoristrada, moto da cross, stock car e moto d'acqua, con la posizione in classifica a schermo.",
+      "steps": [
+        "Cerca i raduni di auto: lì nascono le gare su strada e le drag race.",
+        "Per il fango e lo sterrato prendi una moto da cross o un fuoristrada.",
+        "Per le gare in pista vai agli autodromi, come il Gellhorn International Raceway e il Boone Speedway di Hamlet.",
+        "Sull'acqua corri con le moto d'acqua lungo la costa."
+      ],
+      "details": [
+        {
+          "title": "Dove si corre",
+          "text": "Gare su strada e drag race in città, sterrato e fango nelle zone rurali, stock car e monster truck negli autodromi."
+        }
+      ],
+      "tips": [
+        "Prepara l'auto in officina prima di una gara.",
+        "Le gare in notturna sono quelle dei raduni clandestini: occhio alla polizia."
+      ],
+      "extras": [],
+      "relatedIds": [
+        "act-car-meet",
+        "act-dirt-bike",
+        "act-monster-truck",
+        "act-moto-d-acqua-jet-ski"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "sourceUrl": "https://insider-gaming.com/new-gta-6-activities-confirmed/"
     }
   ]
 }

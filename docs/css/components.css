@@ -1702,3 +1702,10 @@ h1, h2, h4, .hero__text h1, .group-head h2 { font-optical-sizing: auto; font-var
 .mtips ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .mtips li { padding-left: 20px; position: relative; font-size: var(--fs-sm); line-height: 1.45; }
 .mtips li::before { content: "✦"; position: absolute; left: 0; color: #2ec4b6; text-shadow: 0 0 6px #2ec4b6; }
+.fhead__sci { margin: 0 0 4px; font-style: italic; font-size: var(--fs-sm); color: var(--ink-3); }
+.chip--temp { text-transform: capitalize; font-weight: 600; margin-bottom: 6px; }
+.chip--temp-innocuo { color: var(--teal); border-color: var(--teal); }
+.chip--temp-territoriale { color: #d9a400; border-color: #d9a400; }
+.chip--temp-aggressivo { color: var(--orange); border-color: var(--orange); }
+.chip--temp-predatore { color: #ff4d5e; border-color: #ff4d5e; }
+.actchip[hidden] { display: none !important; }

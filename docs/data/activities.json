@@ -16,7 +16,8 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Sport acquatici"
     },
     {
       "id": "act-airboat",
@@ -32,7 +33,8 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Sport acquatici"
     },
     {
       "id": "act-caccia",
@@ -49,7 +51,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "Pesca e caccia"
     },
     {
       "id": "act-pesca",
@@ -66,7 +69,8 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Pesca e caccia"
     },
     {
       "id": "act-car-meet",
@@ -83,7 +87,8 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Corse"
     },
     {
       "id": "act-rapine-negozi",
@@ -100,7 +105,8 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Lavoretti e crimini"
     },
     {
       "id": "act-rifornimento",
@@ -117,7 +123,8 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "Svago"
     },
     {
       "id": "act-dirt-bike",
@@ -134,7 +141,8 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Corse"
     },
     {
       "id": "act-sport",
@@ -157,7 +165,8 @@
           "source": "stampa",
           "text": "Il biliardo non si vede nel video: compare nelle anteprime."
         }
-      ]
+      ],
+      "group": "Sport e fitness"
     },
     {
       "id": "act-aria",
@@ -174,7 +183,8 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Sport e fitness"
     },
     {
       "id": "act-poligono",
@@ -191,7 +201,8 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Sport e fitness"
     },
     {
       "id": "act-minigolf-zoo",
@@ -208,7 +219,8 @@
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-05",
+      "group": "Svago"
     },
     {
       "id": "act-nightlife",
@@ -225,7 +237,8 @@
       "sourceUrl": "https://techwiser.com/gta-6-second-trailer-breakdown-details-you-might-have-missed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Svago"
     },
     {
       "id": "act-trunk-stream",
@@ -242,7 +255,8 @@
       "sourceUrl": "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "group": "Lavoretti e crimini"
     },
     {
       "id": "act-ex-001",
@@ -275,7 +289,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Sport e fitness"
     },
     {
       "image": null,
@@ -292,7 +307,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Sport acquatici"
     },
     {
       "image": null,
@@ -309,7 +325,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Svago"
     },
     {
       "image": null,
@@ -326,7 +343,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Lavoretti e crimini"
     },
     {
       "image": null,
@@ -343,7 +361,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Svago"
     },
     {
       "image": null,
@@ -360,7 +379,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Lavoretti e crimini"
     },
     {
       "image": null,
@@ -377,7 +397,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Lavoretti e crimini"
     },
     {
       "image": null,
@@ -394,7 +415,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Corse"
     },
     {
       "image": null,
@@ -411,7 +433,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "group": "Sport e fitness"
     },
     {
       "image": null,
@@ -428,7 +451,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/"
+      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
+      "group": "Pesca e caccia"
     },
     {
       "image": null,
@@ -445,7 +469,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/"
+      "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
+      "group": "Pesca e caccia"
     },
     {
       "image": null,
@@ -462,7 +487,8 @@
       "requirements": [],
       "rewards": [],
       "steps": [],
-      "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species"
+      "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species",
+      "group": "Svago"
     },
     {
       "id": "act-moto-d-acqua-jet-ski",
@@ -479,7 +505,8 @@
       "type": "attività",
       "requirements": [],
       "rewards": [],
-      "steps": []
+      "steps": [],
+      "group": "Sport acquatici"
     },
     {
       "id": "act-kayak",
@@ -496,7 +523,8 @@
       "type": "attività",
       "requirements": [],
       "rewards": [],
-      "steps": []
+      "steps": [],
+      "group": "Sport acquatici"
     },
     {
       "id": "act-immersioni-con-bombole-scuba",
@@ -513,7 +541,8 @@
       "type": "attività",
       "requirements": [],
       "rewards": [],
-      "steps": []
+      "steps": [],
+      "group": "Sport acquatici"
     },
     {
       "id": "act-combattimenti-in-gabbia",
@@ -530,7 +559,8 @@
       "type": "attività",
       "requirements": [],
       "rewards": [],
-      "steps": []
+      "steps": [],
+      "group": "Sport e fitness"
     },
     {
       "id": "act-football-americano",
@@ -547,7 +577,8 @@
       "type": "attività",
       "requirements": [],
       "rewards": [],
-      "steps": []
+      "steps": [],
+      "group": "Sport e fitness"
     }
   ]
 }

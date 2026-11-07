@@ -4882,6 +4882,221 @@
       "file": "mondo/brd-fuzzard-power-station.webp",
       "url": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/UnnamedHamletPowerPlant-GTAVI-OfficialScreenshot-LeonidaKeys01.png",
       "for": "brd-fuzzard-power-station"
+    },
+    {
+      "file": "mondo/brd-bean-machine.png",
+      "url": "https://gta.wiki/images/BeanMachine-GTAVI-AnExtendedLook.png",
+      "for": "brd-bean-machine"
+    },
+    {
+      "file": "mondo/brd-conch-king.png",
+      "url": "https://gta.wiki/images/ConchKing-GTAVI-WebsiteBackground-Music03.png",
+      "for": "brd-conch-king"
+    },
+    {
+      "file": "mondo/brd-simon-s-tires.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L419%2Cig.jpg",
+      "for": "brd-simon-s-tires"
+    },
+    {
+      "file": "mondo/brd-peewees.png",
+      "url": "https://gta.wiki/images/Peewees-GTAVI-AnExtendedLook.png",
+      "for": "brd-peewees"
+    },
+    {
+      "file": "mondo/brd-go-postal.png",
+      "url": "https://gta.wiki/images/GoPostal-GTAVI-AnExtendedLook-ShorefrontAve.png",
+      "for": "brd-go-postal"
+    },
+    {
+      "file": "mondo/brd-complete-tools.png",
+      "url": "https://gta.wiki/images/CompleteTools-GTAVI-AnExtendedLook.png",
+      "for": "brd-complete-tools"
+    },
+    {
+      "file": "mondo/brd-josefina-perfect-image.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1933%2Cig.jpg",
+      "for": "brd-josefina-perfect-image"
+    },
+    {
+      "file": "mondo/brd-perkins-deli.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1932%2Cig.jpg",
+      "for": "brd-perkins-deli"
+    },
+    {
+      "file": "mondo/brd-bruiser-skate-shop.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1934%2Cig.jpg",
+      "for": "brd-bruiser-skate-shop"
+    },
+    {
+      "file": "mondo/brd-the-flamingrill.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2376%2Cig.jpg",
+      "for": "brd-the-flamingrill"
+    },
+    {
+      "file": "mondo/brd-carnicero.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2377%2Cig.jpg",
+      "for": "brd-carnicero"
+    },
+    {
+      "file": "mondo/brd-juxta-gallery.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2188%2Cig.jpg",
+      "for": "brd-juxta-gallery"
+    },
+    {
+      "file": "mondo/brd-city-picnic-market.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2233%2Cig.jpg",
+      "for": "brd-city-picnic-market"
+    },
+    {
+      "file": "mondo/brd-palometa.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2036%2Cig.jpg",
+      "for": "brd-palometa"
+    },
+    {
+      "file": "mondo/brd-papasco-s.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1870%2Cig.jpg",
+      "for": "brd-papasco-s"
+    },
+    {
+      "file": "mondo/brd-adelphila-jewelry.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2599%2Cig.jpg",
+      "for": "brd-adelphila-jewelry"
+    },
+    {
+      "file": "poi/poi-neptune-hotel.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L41%2Cig.jpg",
+      "for": "poi-neptune-hotel"
+    },
+    {
+      "file": "poi/poi-vice-beach-marina.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L120%2Cig.jpg",
+      "for": "poi-vice-beach-marina"
+    },
+    {
+      "file": "poi/poi-peacock-bay-marina.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2525%2Cig.jpg",
+      "for": "poi-peacock-bay-marina"
+    },
+    {
+      "file": "poi/poi-key-lento-marina-club.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L328%2Cig.jpg",
+      "for": "poi-key-lento-marina-club"
+    },
+    {
+      "file": "poi/poi-captains-cabins.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2905%2Cig.jpg",
+      "for": "poi-captains-cabins"
+    },
+    {
+      "file": "poi/poi-pg-smokestack.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L302%2Cig.jpg",
+      "for": "poi-pg-smokestack"
+    },
+    {
+      "file": "poi/poi-navaro-terminal.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L200%2Cig.jpg",
+      "for": "poi-navaro-terminal"
+    },
+    {
+      "file": "poi/poi-archipelago.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L179%2Cig.jpg",
+      "for": "poi-archipelago"
+    },
+    {
+      "file": "poi/poi-ambrosia-pd.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L832%2Cig.jpg",
+      "for": "poi-ambrosia-pd"
+    },
+    {
+      "file": "poi/poi-hamlet-pd.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L3252%2Cig.jpg",
+      "for": "poi-hamlet-pd"
+    },
+    {
+      "file": "poi/poi-st-fleeca-field-metro-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L197%2Cig.jpg",
+      "for": "poi-st-fleeca-field-metro-station"
+    },
+    {
+      "file": "poi/poi-st-downtown-metro-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1698%2Cig.jpg",
+      "for": "poi-st-downtown-metro-station"
+    },
+    {
+      "file": "poi/poi-st-downtown-interchange-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1279%2Cig.jpg",
+      "for": "poi-st-downtown-interchange-station"
+    },
+    {
+      "file": "poi/poi-st-vice-city-arts-center-metro-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L441%2Cig.jpg",
+      "for": "poi-st-vice-city-arts-center-metro-station"
+    },
+    {
+      "file": "poi/poi-st-catalan-blvd-mover-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L746%2Cig.jpg",
+      "for": "poi-st-catalan-blvd-mover-station"
+    },
+    {
+      "file": "poi/poi-st-downtown-south-mover-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2911%2Cig.jpg",
+      "for": "poi-st-downtown-south-mover-station"
+    },
+    {
+      "file": "poi/poi-st-tequesta-mover-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2492%2Cig.jpg",
+      "for": "poi-st-tequesta-mover-station"
+    },
+    {
+      "file": "poi/poi-st-vcia-metro-mover-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L218%2Cig.jpg",
+      "for": "poi-st-vcia-metro-mover-station"
+    },
+    {
+      "file": "poi/poi-st-port-gellhorn-train-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L538%2Cig.jpg",
+      "for": "poi-st-port-gellhorn-train-station"
+    },
+    {
+      "file": "poi/poi-st-ambrosia-station.jpg",
+      "url": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L591%2Cig.jpg",
+      "for": "poi-st-ambrosia-station"
+    },
+    {
+      "file": "radio/rad-vice-city-fm.png",
+      "url": "https://gta.wiki/images/ViceCityFM-GTAVI-AnExtendedLook.png?fa0f6",
+      "for": "rad-vice-city-fm"
+    },
+    {
+      "file": "radio/rad-v-rock.png",
+      "url": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023",
+      "for": "rad-v-rock"
+    },
+    {
+      "file": "radio/rad-honey-fm.png",
+      "url": "https://gta.wiki/images/UnnamedVapidTaxi-GTAVI-WebsiteBackground-Music01.png?7658c",
+      "for": "rad-honey-fm"
+    },
+    {
+      "file": "radio/rad-circoloco.png",
+      "url": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8",
+      "for": "rad-circoloco"
+    },
+    {
+      "file": "vice/fauna/col-fauna-pesce-leone.png",
+      "url": "https://gta.wiki/images/RedLionfish-GTAVI-OfficialScreenshot-LeonidaKeys07.png",
+      "for": "col-fauna-pesce-leone"
+    },
+    {
+      "file": "vice/fauna/col-fauna-varano.png",
+      "url": "https://gta.wiki/images/MonitorLizard-GTAVI-LaunchTrailer.png",
+      "for": "col-fauna-varano"
+    },
+    {
+      "file": "mondo/brd-hanks-waffles.png",
+      "url": "https://gta.wiki/images/HanksWaffles-GTAVI-AnExtendedLook-SS1.png",
+      "for": "brd-hanks-waffles"
     }
   ],
   "zip": {

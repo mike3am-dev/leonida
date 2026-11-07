@@ -1,6 +1,7 @@
 /** Come si gioca: una scheda per ogni sistema di gioco (furto d'auto, polizia, relazione…) */
 import { db, byId, TYPE_ROUTE } from '../data.js';
 import { esc, statusChip } from '../ui/dom.js';
+import { showSheet } from '../ui/sheet.js';
 import { sectionHead, backLink, vis, sectionOf, extrasHtml } from './shared.js';
 
 const section = sectionOf('meccaniche');
@@ -20,9 +21,15 @@ function index(q) {
     : needle ? `<div class="mgrid">${list.map(card).join('') || '<p class="muted small">Niente con questa parola.</p>'}</div>`
     : GROUPS.map(([g, emoji, sub]) => { const l = list.filter((m) => m.group === g); return l.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">${emoji}</span><div><h2>${esc(g)}</h2><p>${esc(sub)}</p></div></div><div class="mgrid">${l.map(card).join('')}</div>` : ''; }).join('')
       + (() => { const rest = list.filter((m) => !GROUPS.some(([g]) => g === m.group)); return rest.length ? `<div class="mgrid">${rest.map(card).join('')}</div>` : ''; })();
+  const acts = vis(db.activities || []).filter((a) => a.group);
+  const AG = ['Corse', 'Sport acquatici', 'Pesca e caccia', 'Sport e fitness', 'Lavoretti e crimini', 'Svago'];
+  const actBlock = needle || !acts.length ? '' : `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">🎯</span><div><h2>Attività</h2><p>Cosa fare fuori dalle missioni</p></div></div>
+    <div class="filters" data-act-filters><button class="filter" type="button" aria-pressed="true" data-act-f="">Tutte</button>${AG.filter((g) => acts.some((a) => a.group === g)).map((g) => `<button class="filter" type="button" aria-pressed="false" data-act-f="${esc(g)}">${esc(g)}</button>`).join('')}</div>
+    <div class="chips actlist">${acts.map((a) => `<button class="chip chip--btn actchip" type="button" data-act="${esc(a.id)}" data-g="${esc(a.group)}">${esc(a.name)}</button>`).join('')}</div>`;
   return `${sectionHead(section, `${all.length} schede`)}
     <input class="input" type="search" placeholder="Cerca: furto, polizia, palestra…" value="${esc(q || '')}" data-mec-q aria-label="Cerca nelle meccaniche" style="margin-bottom:var(--s-3)">
-    ${body}`;
+    ${body}
+    ${actBlock}`;
 }
 
 function detail(m) {
@@ -45,7 +52,18 @@ export function render(params, query = {}) {
   return { left: index(query.q), right: '', show: 'left', accent: section.accent, title: 'Come si gioca' };
 }
 
+function actSheet(a) {
+  const body = document.createElement('div');
+  body.innerHTML = `<div class="chips" style="margin-bottom:var(--s-2)">${statusChip(a)}<span class="chip">${esc(a.group || '')}</span>${a.districtId && byId(a.districtId) ? `<a class="chip chip--btn" href="#/mappa?zona=${esc(a.districtId)}">${esc(byId(a.districtId).name)}</a>` : ''}</div><p>${esc(a.description || '')}</p>${extrasHtml(a)}`;
+  body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
+  showSheet({ title: a.name, body });
+}
 export function bind(root, rerender) {
+  root.addEventListener('click', (e) => {
+    const f = e.target.closest('[data-act-f]');
+    if (f) { const g = f.dataset.actF; f.parentElement.querySelectorAll('[data-act-f]').forEach((b) => b.setAttribute('aria-pressed', b === f)); document.querySelectorAll('.actchip').forEach((c) => { c.hidden = !!g && c.dataset.g !== g; }); return; }
+    const a = e.target.closest('[data-act]'); if (a) { const it = byId(a.dataset.act); if (it) actSheet(it); }
+  });
   let t = null;
   root.addEventListener('input', (e) => {
     const q = e.target.closest('[data-mec-q]'); if (!q) return;

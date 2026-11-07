@@ -365,7 +365,7 @@
     {
       "id": "veh-ubermacht-rebla-gts",
       "name": "Ubermacht Rebla GTS",
-      "manufacturer": "Ubermacht",
+      "manufacturer": "Übermacht",
       "class": "suv",
       "description": "SUV.",
       "howToGet": "Da verificare.",
@@ -574,7 +574,7 @@
     {
       "id": "veh-rhino-tank",
       "name": "Rhino Tank",
-      "manufacturer": null,
+      "manufacturer": "Hauners",
       "class": "militare",
       "description": "Il carro armato. C'è una base militare, da qualche parte.",
       "howToGet": "Da verificare.",
@@ -586,7 +586,13 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/military/main/rhino-tank.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "Il costruttore è Hauners Industries."
+        }
+      ]
     },
     {
       "id": "veh-buckingham-valkyrie",
@@ -624,8 +630,8 @@
     },
     {
       "id": "veh-airboat",
-      "name": "Airboat",
-      "manufacturer": null,
+      "name": "Airgator Airboat 09",
+      "manufacturer": "Airgator Airboats",
       "class": "barca",
       "description": "La barca a elica delle paludi, immagine simbolo di Grassrivers. Il nome del modello in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
@@ -675,7 +681,7 @@
     {
       "id": "veh-scooter-elettrico",
       "name": "Monopattino elettrico",
-      "manufacturer": null,
+      "manufacturer": "ZOOT",
       "class": "altro",
       "description": "Monopattino elettrico. C'è anche un'app, Scooter Bros, per recuperare a pagamento un veicolo distrutto.",
       "howToGet": "Da verificare.",
@@ -1230,8 +1236,8 @@
       "example": false,
       "updatedAt": "2026-11-07",
       "id": "veh-pegassi-zorrusso",
-      "name": "Pegassi Zorrusso",
-      "manufacturer": "Pegassi",
+      "name": "GranForma Zorrusso",
+      "manufacturer": "GranForma",
       "class": "super",
       "description": "Ispirata alla Italdesign Zerouno.",
       "howToGet": "Da verificare.",
@@ -3611,7 +3617,7 @@
       "updatedAt": "2026-11-05",
       "id": "veh-jacksheepe-excavator",
       "name": "Jacksheepe Excavator",
-      "manufacturer": "Jacksheepe",
+      "manufacturer": "Jack Sheepe",
       "class": "industriale",
       "description": "L'escavatore.",
       "howToGet": "Da verificare.",
@@ -5500,6 +5506,21 @@
       "example": false,
       "updatedAt": "2026-11-07",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/zion-cabrio.jpg"
+    },
+    {
+      "id": "veh-del-perro-ebike",
+      "name": "Bici elettrica Del Perro",
+      "manufacturer": "Del Perro",
+      "class": "altro",
+      "description": "Bicicletta elettrica da montagna, ispirata alla Santa Cruz Vala.",
+      "realModel": "Santa Cruz Vala",
+      "howToGet": "Da verificare.",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Del_Perro",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07"
     }
   ]
 }

@@ -24,7 +24,7 @@ import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 
-window.__LEONIDA_VERSION__ = 'v0.21.1';
+window.__LEONIDA_VERSION__ = 'v0.22.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;

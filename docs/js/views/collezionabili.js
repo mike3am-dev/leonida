@@ -74,11 +74,14 @@ function stickerSheet(c) {
   body.innerHTML = `<button type="button" class="btn ${found ? 'btn--accent' : 'btn--solid'} found-btn" data-sheet-collect="${esc(c.id)}"><svg aria-hidden="true"><use href="#i-${found ? 'check' : 'eye'}"/></svg><span>${found ? 'Trovato' : 'Segna come trovato'}</span></button>
     <div class="fhead"><span class="fhead__img">${stickerImg(c)}</span>
       <div class="fhead__facts">
+        ${c.scientificName ? `<p class="fhead__sci">${esc(c.scientificName)}</p>` : ''}
         ${c.short ? `<p class="fhead__short">${esc(c.short)}</p>` : ''}
         <div class="chips">${statusChip(c)}${c.group ? `<span class="chip">${esc(HABITAT[c.group] || c.group)}</span>` : ''}${regions.map((d) => `<a class="chip chip--btn" href="#/mappa?zona=${esc(d.id)}">${esc(d.name)}</a>`).join('')}${typeof c.danger === 'number' ? `<span class="chip chip--danger chip--danger-${c.danger}">${'●'.repeat(c.danger + 1)} ${DANGER[c.danger]}</span>` : ''}</div>
       </div></div>
     ${hasStruct ? `
-    ${sec('Comportamento', c.behavior ? `<p>${esc(c.behavior)}</p>` : '')}
+    ${sec('Comportamento', c.behavior || c.temperament ? `${c.temperament ? `<span class="chip chip--temp chip--temp-${esc(c.temperament)}">${esc(c.temperament)}</span>` : ''}${c.behavior ? `<p>${esc(c.behavior)}</p>` : ''}` : '')}
+    ${sec('Dove vive', c.habitat || c.districtIds?.length ? `${c.habitat ? `<p>${esc(c.habitat)}</p>` : ''}${c.districtIds?.length ? `<div class="chips" style="margin-top:6px">${c.districtIds.map((id) => byId(id)).filter(Boolean).map((d) => `<a class="chip chip--btn" href="#/mappa?zona=${esc(d.id)}">${esc(d.name)}</a>`).join('')}</div>` : ''}` : '')}
+    ${sec('Nella realtà', c.protectedReal ? `<p>Protezione in Florida: ${esc(c.protectedReal)}.</p>` : '')}
     ${sec('Cosa puoi fare', c.actions?.length ? `<div class="chips">${c.actions.map((a) => `<span class="chip chip--act">${esc(a)}</span>`).join('')}</div>` : '')}
     ${sec('Pericolo', c.dangerNote ? `<p>${esc(c.dangerNote)}</p>` : '')}
     ${sec('Razze e varianti', c.varieties?.length ? `<ul class="flist">${c.varieties.map((v) => `<li><b>${esc(v.name)}</b>${v.note ? `<span>${esc(v.note)}</span>` : ''}</li>`).join('')}</ul>` : '')}
