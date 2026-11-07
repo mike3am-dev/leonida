@@ -9,15 +9,15 @@ export const SECTIONS = [
   { id: 'home', num: 1, title: 'Home', path: '/', icon: 'home', accent: 'magenta', hue: 335, tagline: 'La tua plancia di comando', tab: true },
   { id: 'missioni', num: 2, title: 'Missioni', path: '/missioni', icon: 'flag', accent: 'teal', hue: 172, tagline: 'La storia, capitolo per capitolo', tab: true, bg: 'rapina.jpg' },
   { id: 'mappa', num: 3, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, regione per regione', tab: true, bg: 'molo.jpg' },
-  { id: 'collezionabili', num: 4, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', tab: true, bg: 'palme.jpg' },
-  { id: 'trofei', num: 5, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino', bg: 'palme.jpg' },
+  { id: 'personaggi', num: 4, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida', tab: true, bg: 'oceanview-notte.jpg' },
+  { id: 'armi', num: 5, title: 'Armi', path: '/armi', icon: 'crosshair', accent: 'magenta', hue: 0, tagline: 'La ruota delle armi', bg: 'oceanview-notte.jpg' },
   { id: 'garage', num: 6, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'I veicoli di Leonida', bg: 'oceandrive.jpg' },
-  { id: 'armi', num: 7, title: 'Armi', path: '/armi', icon: 'crosshair', accent: 'magenta', hue: 0, tagline: 'La ruota delle armi', bg: 'oceanview-notte.jpg' },
-  { id: 'personaggi', num: 8, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida', bg: 'oceanview-notte.jpg' },
+  { id: 'collezionabili', num: 7, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', bg: 'palme.jpg' },
+  { id: 'trofei', num: 8, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino', bg: 'palme.jpg' },
   { id: 'radio', num: 9, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora', bg: 'molo-album.jpg' },
   { id: 'mondo', num: 10, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV', bg: 'stripclub.jpg' },
   { id: 'news', num: 11, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno', bg: 'molo.jpg' },
-  { id: 'diario', num: 12, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg' },
+  { id: 'diario', num: 12, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg', hidden: true },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

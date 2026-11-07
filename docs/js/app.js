@@ -22,7 +22,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.14.4';
+window.__LEONIDA_VERSION__ = 'v0.15.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -36,7 +36,7 @@ function applyTheme() {
 }
 
 function navHtml(activePath, forRail) {
-  const items = forRail ? SECTIONS : SECTIONS.filter((s) => s.tab);
+  const items = (forRail ? SECTIONS : SECTIONS.filter((s) => s.tab)).filter((s) => !s.hidden);
   const tabs = items.map((s) => {
     const active = activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path));
     const label = s.title;

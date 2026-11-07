@@ -103,7 +103,9 @@ export function render() {
       ${radio ? `<a class="card card--radio" href="#/cultura/${esc(radio.id)}"><span class="vinyl vinyl--mini"><span class="vinyl__disc"></span>${radio.image ? `<img class="vinyl__label" src="${esc(radio.image)}" alt="">` : ''}</span><span><span class="kicker kicker--accent">In onda oggi</span><h3>${esc(radio.name)}</h3><p class="small muted">${esc(radio.genre || '')}${radio.host ? ' · ' + esc(radio.host) : ''}</p></span></a>` : ''}
     </div>
 
-    <div class="actions actions--home"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto rapido</button><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
+    ${notesCard(st)}
+
+    <div class="actions actions--home"><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
 
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }
@@ -130,6 +132,24 @@ function whereCard(st) {
       <p class="small muted">La guida accende personaggi, regioni e consigli fino alla missione in corso. Il resto resta bloccato.</p></div>
     <div class="steps3">${step(prev, 'done', 'Fatta')}${step(cur, 'cur', cur ? 'In corso' : 'Nessuna in corso')}${step(next, 'next', 'Prossima')}</div>
     <div class="actions">${cur ? `<button class="btn btn--accent" type="button" data-where-done="${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-check"/></svg>Completata${next ? ', passo alla prossima' : ''}</button><a class="btn btn--ghost" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : next ? `<button class="btn btn--solid" type="button" data-where-start="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizio la prossima</button>` : '<span class="small muted">Storia completata.</span>'}</div></section>`;
+}
+
+/** Taccuino in Home: compatto, con la «i» che spiega */
+function notesCard(st) {
+  const notes = st.notes || []; const pending = notes.filter((n) => !n.exported);
+  return `<section class="notesbox"><div class="block__head"><span class="kicker">Appunti${notes.length ? ` · ${notes.length}` : ''}</span><button type="button" class="info-btn" data-home-notes-info aria-label="Come funzionano gli appunti">i</button></div>
+    <div class="actions" style="margin:0 0 var(--s-3)"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Nuovo appunto</button><a class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" href="#/diario${notes.length ? '?pacchetto=1' : ''}">Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</a></div>
+    ${notes.slice(0, 3).map((n) => `<div class="note-mini"><span class="note__time">${esc(relTime(n.ts))}</span>${esc(n.text.slice(0, 110))}${n.text.length > 110 ? '…' : ''}</div>`).join('') || '<p class="small muted">Scrivi mentre giochi: posti, trucchi, domande con «?». Poi il pacchetto li porta a Claude e diventano guida.</p>'}
+    ${notes.length > 3 ? `<a class="small" href="#/diario">Tutti gli appunti</a>` : ''}</section>`;
+}
+function notesInfoSheet() {
+  const body = document.createElement('div');
+  body.innerHTML = `<ol class="steps">
+      <li><b>Giochi e scrivi.</b> Un appunto per ogni cosa che scopri: una missione, un posto, un collezionabile, un trucco. Metti un «?» se è da verificare. L’appunto si aggancia da solo alla missione in corso e alla regione.</li>
+      <li><b>Tocchi «Pacchetto per Claude».</b> L’app impacchetta gli appunti non ancora inviati in un testo già formattato, con le istruzioni e gli id della guida.</li>
+      <li><b>Copi e incolli in chat con Claude.</b> Claude trasforma gli appunti in schede vere: missioni, luoghi, collezionabili, consigli. Non inventa nulla: solo quello che hai scritto tu.</li>
+      <li><b>Claude aggiorna la guida e fa il push.</b> Alla riapertura dell’app i tuoi appunti sono diventati contenuto. Poi tocchi «Segna come inviati».</li></ol>`;
+  showSheet({ title: 'Come funzionano gli appunti', body });
 }
 
 /* ---------- Fogli davanti alla Home ---------- */
@@ -171,6 +191,7 @@ export function bind(root) {
     const s = e.target.closest('[data-where-start]'); if (s) { progress.setMissionState(s.dataset.whereStart, 'in-corso'); document.dispatchEvent(new CustomEvent('leonida:rerender')); }
   });
   root.addEventListener('click', (e) => {
+    if (e.target.closest('[data-home-notes-info]')) { notesInfoSheet(); return; }
     const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c) charSheet(c); return; }
     const z = e.target.closest('[data-home-zone]'); if (z) { const d = byId(z.dataset.homeZone); if (d) zoneSheet(d, z.classList.contains('is-found')); return; }
     const t = e.target.closest('[data-home-tip]'); if (t) { const tip = byId(t.dataset.homeTip); if (tip) articleSheet(tip); return; }
