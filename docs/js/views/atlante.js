@@ -201,10 +201,13 @@ function openGsm(marker) {
   document.body.append(ov);
 }
 
+let pending = null;
 export function afterRender(root) {
   mapboard.mount(root);
+  // «Mostra sulla mappa»: il punto resta in attesa qualche secondo, così sopravvive a un eventuale secondo disegno della pagina
   const punto = new URLSearchParams(location.hash.split('?')[1] || '').get('punto');
-  if (punto) { history.replaceState(history.state, '', '#/mappa'); setTimeout(() => mapboard.focusPoint(punto), 120); }
+  if (punto) { pending = { key: punto, t: Date.now() }; history.replaceState(history.state, '', '#/mappa'); }
+  if (pending && Date.now() - pending.t < 4000) { const k = pending.key; setTimeout(() => mapboard.focusPoint(k), 120); } else pending = null;
 }
 
 export function bind(root, rerender) {

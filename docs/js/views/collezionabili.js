@@ -25,10 +25,10 @@ export function render(params, query) {
   const active = cat ? byId(cat) : null;
 
   const catCard = (c) => { const items = all.filter((x) => x.categoryId === c.id); const d = items.filter((x) => st.collectibles[x.id]).length; return `
-    <a class="catcard ${cat === c.id ? 'is-active' : ''}" href="${cat === c.id ? '#/collezionabili' : link('cat', c.id)}">
+    <a class="catcard ${cat === c.id ? 'is-active' : ''} ${items.length ? '' : 'is-empty'}" href="${cat === c.id ? '#/collezionabili' : `#/collezionabili?cat=${c.id}`}">
       <span class="catcard__icon"><svg aria-hidden="true"><use href="#i-${esc(c.icon || 'star')}"/></svg></span>
       <span class="catcard__name">${esc(c.name.replace('ESEMPIO — ', ''))}</span>
-      <span class="catcard__count">${items.length ? `${d} / ${items.length}` : 'da scoprire'}</span>
+      <span class="catcard__count">${items.length ? `${d} / ${items.length}` : 'in arrivo'}</span>
       <span class="progress"><i style="--p:${items.length ? Math.round(d / items.length * 100) : 0}%"></i></span>
     </a>`; };
 
@@ -92,7 +92,7 @@ function stickerSheet(c) {
 }
 
 function checklist(list, st) {
-  if (!list.length) return `<div class="placeholder"><strong>Niente qui</strong>Niente corrisponde ai filtri, oppure questa categoria aspetta ancora i dati. Le voci arrivano giocando: Appunti → Pacchetto per Claude.</div>`;
+  if (!list.length) return `<div class="placeholder"><strong>Ancora nessuna voce</strong>Di questa categoria non si sa ancora dove siano i pezzi: la lista si riempie giocando (Appunti → Pacchetto per Claude).</div>`;
   return list.map((c) => { const done = !!st.collectibles[c.id]; return `
     <div class="check check--rich" data-done="${done}">
       <button class="check__box" role="checkbox" aria-checked="${done}" data-collect="${esc(c.id)}" aria-label="${esc(c.name)}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>

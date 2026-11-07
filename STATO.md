@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.17.4** (dati 0.14.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 7 novembre 2026, versione live **v0.17.5** (dati 0.14.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -29,7 +29,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
 ## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.17.4**: Mike lo farà; aspettare la lista.
+1. **Giro di impressioni sulla v0.17.5**: Mike lo farà; aspettare la lista.
 2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
 3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
 4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
@@ -53,6 +53,13 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Zoom: `data-z` lo/mid/hi; da lontano POI e punti di riferimento sono pallini, i nomi solo in «hi». Esplora: «Tocca per esplorare la mappa» / «Blocca la mappa» + striscia «Stai esplorando».
 - Ruota armi: numeri in Fraunces corsivo dentro un bollino (Pricedown piccolo è illeggibile).
 - Armi: campi `facts`, `seen`, `moreSources`. Mancano nel database: Duke assault sniper rifle, serramanico e coltello Hawk & Little, Fire Bottle e Heavy Machine Gun (leak), Pugni.
+
+## 4d. v0.17.5
+- Modalità Gioco: si vede solo ciò che è segnato come trovato; in grigio quello che manca nelle regioni dove c'è la missione in corso. Prima del 19 la mappa in Gioco è vuota (è voluto).
+- «Tu sei qui» prima della storia = cancello del Leonida Penitentiary. Zoom massimo 3. Etichette in pillola scura, solo da vicino, quelle sovrapposte si nascondono (`declutter`).
+- Immagini «lazy» che Safari non carica: `kickImages()` in app.js le forza quando entrano nello schermo.
+- Il service worker ricarica la pagina solo agli aggiornamenti, non alla prima installazione (prima faceva perdere «Mostra sulla mappa»).
+- Collezionabili: le schede delle categorie non si portano dietro i filtri della categoria precedente (era la causa dei «0/0»).
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

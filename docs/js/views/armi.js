@@ -8,11 +8,19 @@ import * as spoiler from '../spoiler.js';
 const section = sectionOf('armi');
 // Ordine della ruota (in senso orario dall'alto): come la ruota delle armi di GTA
 export const SLICES = [
-  ['corpo-a-corpo', 'Corpo a corpo', 'Mischia'], ['pistola', 'Pistole', 'Pistole'], ['fucile-assalto', 'Assalto', 'Assalto'], ['mitra', 'Mitra', 'Mitra'],
-  ['fucile-pompa', 'Pompa', 'Pompa'], ['cecchino', 'Precisione', 'Precisione'], ['pesante', 'Pesanti', 'Pesanti'], ['lancio', 'Da lancio', 'Lancio'],
+  ['corpo-a-corpo', 'Armi da corpo a corpo', 'Corpo a corpo'], ['pistola', 'Pistole', 'Pistole'], ['fucile-assalto', "Fucili d'assalto", "Fucili d'assalto"], ['mitra', 'Mitragliette', 'Mitragliette'],
+  ['fucile-pompa', 'Fucili a pompa', 'Fucili a pompa'], ['cecchino', 'Fucili di precisione', 'Fucili di precisione'], ['pesante', 'Armi pesanti', 'Armi pesanti'], ['lancio', 'Armi da lancio', 'Da lancio'],
 ];
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 
+/** Etichetta su due righe se è lunga (es. «Fucili / a pompa») */
+function wrapLabel(t, x, y) {
+  const w = t.split(' ');
+  if (w.length < 2 || t.length < 11) return `<text x="${x}" y="${y}" text-anchor="middle" class="wheel__label">${esc(t)}</text>`;
+  let best = 1, diff = 1e9;
+  for (let i = 1; i < w.length; i++) { const d = Math.abs(w.slice(0, i).join(' ').length - w.slice(i).join(' ').length); if (d < diff) { diff = d; best = i; } }
+  return `<text x="${x}" y="${y - 4}" text-anchor="middle" class="wheel__label"><tspan x="${x}">${esc(w.slice(0, best).join(' '))}</tspan><tspan x="${x}" dy="8">${esc(w.slice(best).join(' '))}</tspan></text>`;
+}
 /** La ruota in SVG: 8 spicchi, numero di armi per spicchio, spicchio attivo acceso */
 export function wheel(counts, active, favs) {
   const R = 100, r = 40, cx = 110, cy = 110, n = SLICES.length, gap = 0.035;
@@ -30,7 +38,7 @@ export function wheel(counts, active, favs) {
     return `<a class="wheel__slice ${active === k ? 'is-active' : ''} ${c ? '' : 'is-empty'}" href="#/armi${active === k ? '' : '?cat=' + k}" aria-label="${esc(label)}: ${c} armi">
       <path d="${arc(a0, a1, R, r)}"/>
       ${f ? `<path class="wheel__fill" d="${arc(a0, a1, r + (R - r) * Math.min(1, f / Math.max(1, c)), r)}"/>` : ''}
-      <text x="${lx}" y="${ly - 9}" text-anchor="middle" class="wheel__label">${esc(short || label)}</text>
+      ${wrapLabel(short || label, lx, ly - 9)}
       <circle cx="${lx}" cy="${ly + 8}" r="11.5" class="wheel__bubble"/>
       <text x="${lx + (String(c).length > 1 ? 0.6 : 0.3)}" y="${ly + 13.2}" text-anchor="middle" class="wheel__count">${c}</text></a>`;
   }).join('');
@@ -82,8 +90,8 @@ export function render(params, query) {
     <div class="wheel-wrap">
       <div class="wheel-stage">${wheel(counts, cat, fc)}<p class="small muted wheel-hint">${cat ? 'Tocca il centro per tornare a tutte' : 'Tocca uno spicchio'}</p></div>
       <div class="wheel-panel">
-        <span class="kicker kicker--accent">${cat ? `Categoria ${idx + 1} / ${SLICES.length}` : 'Tutte le categorie'}</span>
-        <h2 class="wheel-panel__title">${esc(label)} <span class="bignum">${weapons.length}</span></h2>
+        <span class="kicker kicker--accent">${cat ? 'Categoria' : 'Tutte le categorie'}</span>
+        <h2 class="wheel-panel__title">${esc(label)}</h2>
         ${list(weapons) || '<p class="muted small">Nessuna arma vista ancora in questa categoria.</p>'}
       </div>
     </div>

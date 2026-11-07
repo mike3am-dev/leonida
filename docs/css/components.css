@@ -1581,3 +1581,22 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: 
 /* Contatori piccoli: lo «0» del Pricedown sembra un blocco pieno → corsivo leggibile */
 .tile b, .ring__label b, .ring--story .ring__label b, .tiercount b, .trophy-board__pct, .catcard__count b { font-family: var(--font-display) !important; font-style: italic; font-weight: 800; letter-spacing: -.01em; }
 .sticker__name { padding-right: 34px; }
+
+/* ---------- v0.17.5 ---------- */
+/* Regioni in Home: la foto riempie tutta la scheda (su iPhone height:100% dentro un bottone non funziona) */
+.zcard img { position: absolute; inset: 0; width: 100%; height: 100%; }
+/* Riga colorata del fascicolo: per tutta l'altezza, anche scorrendo */
+.dossier__panel::before { display: none; }
+.dossier__panel { border-left: 6px solid transparent; border-image: linear-gradient(180deg, #ff8a3d, #ff3d8b 55%, #a15cff) 1; }
+/* Figurine: la «i» sta nella riga del nome, non sopra foto e scritte */
+.sticker { grid-template-columns: minmax(0, 1fr) auto !important; grid-template-rows: auto auto; align-items: center; column-gap: 6px; }
+.sticker__img { grid-column: 1 / -1; }
+.sticker__name { padding-right: 0 !important; grid-column: 1; align-self: center; }
+.sticker__info { position: static !important; grid-column: 2; width: 36px !important; height: 36px !important; flex: none; }
+.sticker__info::before { inset: -6px; }
+/* Etichette della mappa: pillola scura, testo bianco leggibile */
+.mb-pin__label { top: calc(100% + 4px); padding: 2px 7px; border-radius: 6px; background: rgba(11,10,15,.86); color: #fff; font: 600 11.5px/1.25 var(--font-text); text-shadow: none; box-shadow: 0 2px 6px rgba(0,0,0,.4); max-width: 170px; }
+.mb-pin__label.is-clash { visibility: hidden; }
+.mb-here { z-index: 4; }
+.mb-here__label { top: auto; bottom: 16px; padding: 1px 7px; border-radius: 6px; background: #2ec4b6; color: #08201d; text-shadow: none; font-size: 12px; }
+.mapboard__layer--here { z-index: 6; }

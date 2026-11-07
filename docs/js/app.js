@@ -23,7 +23,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 
-window.__LEONIDA_VERSION__ = 'v0.17.4';
+window.__LEONIDA_VERSION__ = 'v0.17.5';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -115,7 +115,7 @@ function openDossier(html, { replace = false } = {}) {
   inner.innerHTML = html;
   const panel = d.querySelector('.dossier__panel'); panel.scrollTop = keep;
   if (!replace) { dossierStart = curPos; d.classList.remove('is-closing'); void d.offsetWidth; d.classList.add('is-open'); }
-  document.body.classList.add('has-dossier');
+  document.body.classList.add('has-dossier'); kickImages();
 }
 function closeDossier() {
   const d = $('dossier'); if (!d) return;
@@ -172,7 +172,21 @@ function render(match, { dir, refresh } = {}) {
   if (match.path.startsWith('/mappa') && !detail) atlante.afterRender($('app'));
   $('tabbar').innerHTML = navHtml(match.path, false);
   $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
-  followBar();
+  followBar(); kickImages();
+}
+
+/* Safari su iPhone a volte non carica le immagini «lazy» dentro riquadri che scorrono (pagina, fascicolo, strisce orizzontali):
+   quando entrano nello schermo (con un margine) le carichiamo noi. */
+let kickT = null;
+function kickImages() {
+  clearTimeout(kickT); kickT = setTimeout(() => {
+    const H = innerHeight, W = innerWidth;
+    for (const im of document.querySelectorAll('img[loading="lazy"]')) {
+      if (im.complete && im.naturalWidth) continue;
+      const r = im.getBoundingClientRect(); if (!r.width && !r.height) continue;
+      if (r.bottom > -600 && r.top < H + 600 && r.right > -W && r.left < W * 2) { im.loading = 'eager'; if (!im.complete) { const src = im.src; im.src = ''; im.src = src; } }
+    }
+  }, 150);
 }
 
 function bindGlobal() {
@@ -236,6 +250,8 @@ function bindGlobal() {
   matchMedia('(prefers-color-scheme: light)').addEventListener('change', applyTheme);
   progress.subscribe(followBar);
   document.addEventListener('leonida:rerender', rerender);
+  document.addEventListener('scroll', kickImages, { capture: true, passive: true });
+  addEventListener('resize', kickImages);
   // Tocco di sessione
   progress.touchSession();
   addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') progress.touchSession(); });
@@ -255,7 +271,9 @@ async function registerSW() {
         }
       });
     });
-    navigator.serviceWorker.addEventListener('controllerchange', () => location.reload());
+    // Si ricarica solo quando una versione nuova prende il posto di quella vecchia, non alla prima installazione
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController) location.reload(); });
   } catch (e) { console.warn('[sw] registrazione fallita', e); }
 }
 async function checkUpdate() {
