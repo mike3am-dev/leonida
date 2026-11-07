@@ -208,7 +208,7 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike da Raymond, in un condominio popolare: il socio di Raymond è sparito. Una telefonata avverte che arriva la task force; irruzione armata, sparatoria, fuga dalla finestra e poi in auto. Dall'edificio ci sono più vie d'uscita.",
+      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike da Raymond, ai Venture Apartments di Rockridge: il socio di Raymond è sparito. Ernesto avvisa al telefono che arriva la task force di Méndez; irruzione armata, sparatoria e fuga dalla finestra di Aunt Tee, poi in auto. Dall'edificio ci sono più vie d'uscita.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -231,13 +231,7 @@
       "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_An_Extended_Look",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "extras": [
-        {
-          "source": "community",
-          "text": "Il condominio sono i Venture Apartments di Rockridge; chi avverte al telefono è Ernesto, e la task force è quella del detective Méndez."
-        }
-      ]
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "mis-el-effluvia",

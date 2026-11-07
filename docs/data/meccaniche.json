@@ -409,6 +409,517 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-furto-auto",
+      "title": "Furto d'auto",
+      "emoji": "🚗",
+      "short": "Rubare un'auto non è più un tasto solo: ogni veicolo ha un livello di sicurezza e serve l'attrezzo giusto. Puoi sempre strappare l'auto al guidatore, ma quelle parcheggiate più protette richiedono strumenti che sblocchi con la storia.",
+      "steps": [
+        "Prima di toccare la maniglia, scansiona l'auto con l'app WAINK sul telefono.",
+        "WAINK ti dice se è chiusa, che sicurezza ha, che attrezzo serve, se ha un localizzatore, quanto costa registrarla e quanto la paga un ricettatore.",
+        "Sulle auto vecchie rompi il finestrino (rumore e allarme) oppure usa lo slim jim, con un mini-gioco a tempo.",
+        "Sulle auto moderne con immobilizer serve il Key Cloner, che ottieni più avanti lavorando per i ricettatori d'auto.",
+        "In alternativa tira giù il guidatore: il carjacking funziona sempre, ma lui può scappare o reagire con un'arma.",
+        "Se l'auto ha un localizzatore, tieni alta la velocità: quelli di fascia alta segnalano la posizione quando rallenti.",
+        "Portala intatta al ricettatore: ogni danno abbassa il prezzo."
+      ],
+      "details": [
+        {
+          "title": "Localizzatori e segnalazioni",
+          "text": "Le auto costose possono avere un localizzatore che continua a trasmettere dopo il furto. Anche senza localizzatore, il proprietario può denunciare il furto. Ogni volante della polizia ne ha uno."
+        },
+        {
+          "title": "Consegne su commissione",
+          "text": "I ricettatori chiedono modelli precisi, elencati in WAINK. Ai punti di consegna c'è un disturbatore di segnale, così anche le auto col localizzatore arrivano senza problemi. Un ricettatore d'auto si chiama Randy."
+        },
+        {
+          "title": "Carburante e motore",
+          "text": "Ogni veicolo ha la spia del carburante e lo stato del motore. Un'auto a secco o malridotta può rovinarti la fuga."
+        }
+      ],
+      "tips": [
+        "Scansiona sempre con WAINK: ti evita di rompere un finestrino per un'auto che non puoi portare via.",
+        "Un'auto rubata vale di più se passi in officina prima della consegna.",
+        "Per i colpi, il veicolo della polizia è una tentazione: prendi il fucile dal bagagliaio, non l'auto.",
+        "Pay 'n' Spray ripara, ridipinge e azzera il «calore» del veicolo."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Le telecamere sull'autostrada riconoscono le auto rubate: due stelle e zona di ricerca rossa."
+        },
+        {
+          "source": "stampa",
+          "text": "Il localizzatore va tolto da un meccanico o da un ricettatore prima di registrare o vendere l'auto."
+        },
+        {
+          "source": "stampa",
+          "text": "All'inizio hai tre posti per i veicoli personali; le auto non registrate spariscono al riavvio."
+        },
+        {
+          "source": "stampa",
+          "text": "Alcune auto richieste dai ricettatori stanno al deposito della polizia."
+        },
+        {
+          "source": "leak",
+          "text": "Nella build del 2022 Lucia usava un disturbatore di localizzatori e un bypass per l'immobilizer, e la polizia ricordava modello e targa."
+        }
+      ],
+      "relatedIds": [
+        "new-20260827-furto-auto",
+        "tip-guida-2",
+        "tip-furto-auto",
+        "tip-soldi-3",
+        "tip-localizzatori",
+        "tip-garage-slot",
+        "act-ricettazione",
+        "brd-waink",
+        "wpn-slim-jim",
+        "wpn-key-cloner",
+        "new-20261029-scooter-bros",
+        "new-20261029-polizia-edge"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.hotcars.com/rockstar-confirms-gta-6-car-theft-will-mirror-real-world-vulnerabilities/"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-polizia-ricercato",
+      "title": "Polizia e livello di ricercato",
+      "emoji": "🚨",
+      "short": "Sei stelle e un rapporto di polizia: le icone sotto le stelle mostrano cosa sanno di te, e ogni indizio si cancella a parte. La polizia interviene solo se il crimine viene visto o segnalato.",
+      "steps": [
+        "Un crimine conta solo se qualcuno lo vede o lo segnala: un passante, un allarme, una telecamera, il localizzatore di un'auto rubata.",
+        "Leggi le icone sotto le stelle: aspetto, vestiti, arma, complice, filmati, auto.",
+        "Elimina una prova alla volta: distruggi la telecamera, cambia vestiti, nascondi l'arma, cambia auto.",
+        "Se cercano una coppia, separa Jason e Lucia: la descrizione diventa meno precisa e può cadere una stella intera.",
+        "Dalla terza stella lascia l'auto, a meno di una moto sportiva o di un'auto velocissima, e scappa a piedi nei vicoli.",
+        "Esci dal perimetro rosso della zona di ricerca: sulla minimappa non vedi gli agenti, solo l'area."
+      ],
+      "details": [
+        {
+          "title": "Cosa dicono le stelle",
+          "text": "Fino a sei stelle. Piena: ti vedono. Vuota: il crimine è segnalato ma non sanno chi sei. Rossa: sei fuggito ma sei ancora dentro l'area di ricerca."
+        },
+        {
+          "title": "Il Profilo criminale",
+          "text": "Registra come commetti i crimini, da «Professional» a «Irredeemable», con un angelo e un diavolo. Sparare per difenderti non pesa, esagerare senza motivo sì. Il profilo influenza come si svolge la storia; le notifiche si possono spegnere."
+        },
+        {
+          "title": "Armi in vista",
+          "text": "Un'arma lunga in spalla non fa scattare la ricerca; imbracciata davanti alla gente sì, e i passanti reagiscono. Puoi metterla via prima che arrivi la polizia."
+        }
+      ],
+      "tips": [
+        "Prima di un colpo copriti il volto: una maschera buttata dopo il crimine non ti collega ai filmati.",
+        "Cappello e occhiali non bastano: serve un outfit diverso o un taglio dal barbiere. Tieni un cambio nel bagagliaio.",
+        "La scena del crimine resta zona calda per un po': non tornarci subito.",
+        "Se uno dei due viene arrestato, l'altro resta libero."
+      ],
+      "extras": [
+        {
+          "source": "rumor",
+          "text": "Stella lampeggiante: hanno perso il contatto. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
+        },
+        {
+          "source": "stampa",
+          "text": "La polizia stende strisce chiodate difficili da vedere di notte: una moto bucata sbalza chi la guida."
+        },
+        {
+          "source": "stampa",
+          "text": "I cani poliziotto ti inseguono a piedi e ti bloccano a terra; gli elicotteri ti cercano col faro."
+        },
+        {
+          "source": "stampa",
+          "text": "Se hai un'arma in mano, gli agenti possono prima intimarti di posarla."
+        },
+        {
+          "source": "stampa",
+          "text": "Ogni città ha la sua polizia (VCPD, Vice Beach, Port Gellhorn, Key Lento, Capri), ogni contea lo sceriffo, e c'è la Leonida Highway Patrol."
+        },
+        {
+          "source": "stampa",
+          "text": "POACH, i guardaparco, vigilano sulle zone protette: uccidere animali lì funziona come un livello di ricercato."
+        },
+        {
+          "source": "community",
+          "text": "Circolano anche gli stati intermedi del profilo Aggressive, Violent e Psycho, e un profilo separato per ciascun protagonista."
+        }
+      ],
+      "relatedIds": [
+        "new-20260902-ricercato",
+        "new-20260902-profilo",
+        "new-20261029-polizia-edge",
+        "new-20260827-identita",
+        "new-20261029-trasporti",
+        "tip-wanted",
+        "tip-polizia-1",
+        "tip-polizia-2",
+        "tip-polizia-3",
+        "tip-profilo",
+        "tip-trasporti-1",
+        "tip-localizzatori",
+        "brd-forze-ordine",
+        "brd-capri-police-department",
+        "new-20261107-fandom-polizie-capri-key-lento"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-rapine",
+      "title": "Rapine",
+      "emoji": "💰",
+      "short": "Puoi rapinare praticamente qualsiasi cosa: minimarket, distributori, gioiellerie, finanziarie, banche, covi, furgoni blindati. Ogni posto ha ingressi, telecamere, cassaforte, personale e clienti diversi, e il sistema funziona uguale dentro e fuori le missioni.",
+      "steps": [
+        "Scegli il bersaglio: i nuovi colpi arrivano dai personaggi, dalle chiacchiere degli NPC o esplorando.",
+        "Parcheggia il mezzo per la fuga fuori, già pronto, e sceglilo in base al bottino che deve contenere.",
+        "Copriti il volto con una maschera o una bandana prima di entrare.",
+        "Entra con la pistola nascosta e controlla telecamere, uscite e clienti.",
+        "Meno testimoni ci sono, meno la polizia saprà di te.",
+        "Apri la cassaforte col codice (trovato o comprato da un ricettatore) oppure falla saltare.",
+        "Esci da un'uscita secondaria se la polizia si raduna davanti, poi segui la fuga come per il livello di ricercato."
+      ],
+      "details": [
+        {
+          "title": "Cassaforte: codice o esplosivo",
+          "text": "Col codice è pulito. L'esplosivo è più veloce ma fa rumore e rovina parte del bottino."
+        },
+        {
+          "title": "Testimoni e clienti",
+          "text": "Personale e clienti reagiscono: qualcuno obbedisce, qualcuno interviene e la rapina degenera. Puoi anche svuotare il negozio prima di agire, per esempio provocando i clienti finché se ne vanno."
+        },
+        {
+          "title": "Colpi in coppia",
+          "text": "Jason e Lucia possono rapinare insieme. Rapinare in due conta come tempo passato insieme, rafforza il legame e migliora la coordinazione nei colpi. In fuga uno guida e l'altro spara."
+        },
+        {
+          "title": "Bersagli non segnati",
+          "text": "Non tutto è sulla mappa: i negozi di riparazione telefoni, per esempio, non hanno icone. Fuori dalla storia molte occasioni si scoprono solo girando."
+        }
+      ],
+      "tips": [
+        "Minimarket e distributori sono il primo gradino quando ti servono contanti in fretta.",
+        "Prepara l'auto per la fuga prima di entrare, non dopo.",
+        "Una moto porta quasi niente: per un colpo grosso serve un furgone.",
+        "Non voltare le spalle a chi stai rapinando: può obbedire e poi aggredirti."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il bottino sta in borse che occupano spazio nel veicolo: moto quasi zero, auto poco, furgoni e camion sempre di più."
+        },
+        {
+          "source": "stampa",
+          "text": "Tra i negozi rapinabili ci sono Hank's Waffles e Uncle Jack's Liquor; i minimarket sono delle catene 24/7, Limited Gasoline e Quickshop."
+        },
+        {
+          "source": "stampa",
+          "text": "Le banche di Leonida sono Fleeca, Lombank, Hobbs Milford e Sinfrontera."
+        },
+        {
+          "source": "stampa",
+          "text": "Assaltare un covo di una gang può fruttare droga da rivendere per oltre 4.500 $ in un colpo."
+        },
+        {
+          "source": "leak",
+          "text": "Nella build del 2022 si vedevano ostaggi legati con fascette, scudi umani e container da svaligiare."
+        }
+      ],
+      "relatedIds": [
+        "new-20261007-rapine",
+        "new-20261029-hooker-rapina",
+        "new-20261014-bloomberg",
+        "new-20261029-coppia-edge",
+        "new-20261007-missioni",
+        "new-20261105-gallery",
+        "act-rapine-negozi",
+        "act-covi",
+        "act-fence-tips",
+        "tip-soldi-2",
+        "tip-guida-3",
+        "brd-catene-banche",
+        "brd-24-7",
+        "brd-uncle-jack-s-liquor",
+        "brd-diamond-dawgs",
+        "wpn-duffel",
+        "wpn-mask",
+        "wpn-face-wrap"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-armi",
+      "title": "Armi",
+      "emoji": "🔫",
+      "short": "Addosso porti poco: due pistole nascoste e due armi lunghe. Il resto dell'arsenale sta nel bagagliaio della tua auto personale, e la gente reagisce in modo diverso a un'arma in spalla o in mano.",
+      "steps": [
+        "Scegli le armi dalla ruota: il gioco non si mette in pausa mentre scegli.",
+        "Tieni addosso al massimo due armi corte e due lunghe: una in spalla, l'altra in mano.",
+        "Per cambiare arsenale torna all'auto personale e apri il bagagliaio dal menu del veicolo.",
+        "Le armi comprate finiscono nel veicolo personale: da lì le recuperi.",
+        "Raccogli le armi dei nemici da terra quando ti servono.",
+        "Prima di entrare in un negozio nascondi la pistola dietro la schiena.",
+        "Jason e Lucia possono passarsi le armi."
+      ],
+      "details": [
+        {
+          "title": "Il bagagliaio",
+          "text": "Ogni veicolo ha una cassa per le armi. L'arsenale completo vive nel bagagliaio dell'auto personale: se la lasci da qualche parte, l'arsenale resta lì. Se la perdi, Scooter Bros te la riporta con le armi dentro."
+        },
+        {
+          "title": "Personalizzazione",
+          "text": "Le armi si personalizzano con accessori e colorazioni. L'Ultimate Edition aggiunge i revolver Hawk & Little Morgan e varianti incise; chi ha preordinato ha il motivo a palme del Vintage Vice City Pack."
+        },
+        {
+          "title": "Dove comprare",
+          "text": "Le armi si comprano da Ammu-Nation, oppure si prendono ai nemici e dalle volanti."
+        }
+      ],
+      "tips": [
+        "Prima di una sparatoria prevista, passa dal bagagliaio: là dentro hai tutto.",
+        "Un'arma in spalla la gente la tollera; imbracciata fa scappare o chiamare la polizia.",
+        "Nelle volanti ci sono fucili e giubbotti nel bagagliaio.",
+        "Parcheggia l'auto personale vicino al bersaglio: è il tuo armadio."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Rockstar ha provato per mesi a sostituire la ruota delle armi, poi ci è tornata."
+        },
+        {
+          "source": "stampa",
+          "text": "Una sola ruota: R1 passa tra ARMI e OGGETTI, con slot dedicati (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. In auto c'è una ruota a parte per le maschere."
+        },
+        {
+          "source": "stampa",
+          "text": "Accessori a strati: silenziatori, red dot, impugnature, calci, torce, caricatori lunghi. Restano montati sulle armi raccolte da terra."
+        },
+        {
+          "source": "community",
+          "text": "Gli armadietti delle armi arrivano in single player: servono a scegliere cosa tenere nella ruota. Ogni garage, compreso il Paradise Garage, ne ha uno."
+        },
+        {
+          "source": "community",
+          "text": "Le armi gettate non si perdono: si recuperano negli armadietti Ammu-Nation o nel veicolo personale."
+        },
+        {
+          "source": "community",
+          "text": "Le munizioni sono divise per tipo: pistola, fucile a pompa, pesanti, arpioni e razzi. Il punto vendita principale è l'Ammu-Nation di Phil."
+        }
+      ],
+      "relatedIds": [
+        "new-20260905-combattimento",
+        "new-20260905-bagagliaio",
+        "new-20261019-la-ruota-delle-armi-stava-per-sparire",
+        "new-20261107-gta-wiki-palestre-refurtiva-armadietti",
+        "new-20261007-doccia",
+        "tip-comb-2",
+        "tip-comb-3",
+        "tip-armi-wheel",
+        "tip-armi-accessori",
+        "tip-garage-slot",
+        "brd-hawk-little-morgan",
+        "brd-paradise-garage",
+        "brd-port-gellhorn-pawn-gun",
+        "wpn-morgan-revolver",
+        "wpn-girardi-es9",
+        "wpn-klose-k17",
+        "wpn-body-armor"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-combattimento",
+      "title": "Combattimento",
+      "emoji": "🎯",
+      "short": "Sparatorie da copertura, mira libera e il Focus, che rallenta il tempo e mostra i punti deboli. Puoi uccidere, ma anche rendere inoffensivo o intimidire: il Profilo criminale tiene il conto.",
+      "steps": [
+        "Mettiti in copertura prima di aprire il fuoco.",
+        "Attiva il Focus quando l'indicatore è carico: il tempo rallenta e risaltano i punti deboli dei nemici.",
+        "Con il Focus vedi anche i componenti dei veicoli da colpire.",
+        "Se non vuoi uccidere, mira a braccia e gambe o intimidisci invece di sparare.",
+        "A corto di munizioni, raccogli le armi da terra.",
+        "In fuga in coppia, lascia guidare il partner e spara dal finestrino."
+      ],
+      "details": [
+        {
+          "title": "Focus",
+          "text": "È l'erede del Dead Eye: rallenta l'azione per mirare con calma. Usalo per scegliere tra colpi letali e colpi che mettono fuori combattimento."
+        },
+        {
+          "title": "Il partner",
+          "text": "Chi non controlli continua a combattere al tuo fianco. Durante un inseguimento puoi passare da guidatore a passeggero e lasciar guidare l'IA."
+        },
+        {
+          "title": "Prima persona",
+          "text": "Non c'è una visuale in prima persona completa: si passa in prima persona solo per mirare con alcune armi."
+        }
+      ],
+      "tips": [
+        "Sparare per difenderti non pesa sul Profilo criminale; aprire il fuoco per primo e senza motivo sì.",
+        "Punta sul mordi e fuggi, non sulle grandi sparatorie.",
+        "Raffiche lunghe, mira peggiore: spara a colpi brevi.",
+        "Nella mischia usa quello che trovi: anche un oggetto qualsiasi può diventare un'arma."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La mira libera è attiva di default, con un aiuto alla mira leggero e regolabile."
+        },
+        {
+          "source": "stampa",
+          "text": "Nel Focus i punti deboli sono rossi se letali e gialli se incapacitanti."
+        },
+        {
+          "source": "stampa",
+          "text": "Puoi far saltare l'arma di mano, sparare colpi d'avvertimento per spingere i nemici in copertura e usare il fuoco di soppressione."
+        },
+        {
+          "source": "stampa",
+          "text": "Copertura su R1, accovacciato separato, cambio spalla e fuoco cieco. Niente doppia arma e niente posizione prona."
+        },
+        {
+          "source": "stampa",
+          "text": "Corpo a corpo: Lucia fa kickboxing, Jason lotta da strada. Se ti bloccano a terra, Cerchio per divincolarti e Triangolo a tempo per contrare o disarmare."
+        },
+        {
+          "source": "stampa",
+          "text": "Eliminazioni silenziose in stealth; i nemici si coordinano via radio e i proiettili attraversano il cartongesso."
+        },
+        {
+          "source": "stampa",
+          "text": "Drive-by col busto fuori dal finestrino, spari dal cassone dei pick-up e in acqua."
+        }
+      ],
+      "relatedIds": [
+        "new-20260905-combattimento",
+        "new-20260830-melee",
+        "new-20260902-profilo",
+        "new-20261029-coppia-edge",
+        "new-20260828-30fps",
+        "new-20261029-southpark",
+        "tip-focus",
+        "tip-comb-1",
+        "tip-profilo",
+        "tip-switch",
+        "tip-tecnica-1",
+        "wpn-knuckles",
+        "wpn-bat",
+        "wpn-flashbang",
+        "wpn-smoke"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
+    },
+    {
+      "group": "Crimine",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-07",
+      "id": "mec-soldi",
+      "title": "Soldi",
+      "emoji": "💵",
+      "short": "I soldi servono davvero: alcune missioni della storia si aprono solo quando Jason e Lucia ne hanno abbastanza. Li fai con rapine, furti d'auto su commissione e refurtiva venduta ai ricettatori.",
+      "steps": [
+        "Tieni d'occhio il saldo: il conto è nell'app BuckMe ed è condiviso tra Jason e Lucia.",
+        "Quando la storia chiede soldi, rapina: minimarket, distributori e gioiellerie sono i bersagli più rapidi.",
+        "Ruba le auto richieste dai ricettatori, elencate in WAINK, e consegnale intatte.",
+        "La refurtiva non è denaro finché non la vendi: portala a un ricettatore.",
+        "Se non puoi venderla subito, depositala in un garage.",
+        "Spendi in armi, vestiti, officine, palestra e servizi come Scooter Bros."
+      ],
+      "details": [
+        {
+          "title": "Contanti, conto e bottino",
+          "text": "Ci sono tre forme di ricchezza: il conto in banca, i contanti che porti addosso e il bottino da piazzare."
+        },
+        {
+          "title": "Ricettatori",
+          "text": "Comprano auto rubate e merce. Il prezzo dipende dalle condizioni: un'auto danneggiata vale meno. Un ricettatore d'auto si chiama Randy, e ai ricettatori puoi anche comprare il codice di una cassaforte."
+        },
+        {
+          "title": "Altre entrate",
+          "text": "La caccia, introdotta da un contatto di Jason, rende soldi. La pesca invece no: è solo cattura e rilascio."
+        }
+      ],
+      "tips": [
+        "Prima di una missione che chiede soldi, fai qualche colpo piccolo invece di uno grosso e rischioso.",
+        "Ripara l'auto rubata in officina prima della consegna: incassi di più.",
+        "Un covo di gang svuotato può valere quanto parecchie rapine ai negozi.",
+        "Abbandonare l'auto in un inseguimento costa: recuperarla dal deposito è più caro."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "I contanti in tasca si perdono se muori o vieni arrestato: depositali al bancomat. In tasca puoi tenerne al massimo 20.000 $."
+        },
+        {
+          "source": "stampa",
+          "text": "I ricettatori sono specializzati (auto, droga, gioielli) e si sbloccano con la storia: puoi ritrovarti con merce e nessun compratore."
+        },
+        {
+          "source": "stampa",
+          "text": "La droga presa in un covo di gang può valere oltre 4.500 $ in un colpo."
+        },
+        {
+          "source": "community",
+          "text": "La refurtiva si deposita nei garage: il Paradise Garage dell'Ultimate Edition e lo Shore Court Garage del Vintage Vice City Pack hanno un posto apposta."
+        },
+        {
+          "source": "stampa",
+          "text": "All'inizio hai tre posti per i veicoli personali; per un altro devi venderne uno o comprare un garage."
+        }
+      ],
+      "relatedIds": [
+        "new-20260905-soldi",
+        "new-20261001-missioni-che-si-sbloccano-solo-con-una-c",
+        "new-20261007-rapine",
+        "new-20260909-famitsu",
+        "new-20261107-gta-wiki-palestre-refurtiva-armadietti",
+        "new-20260903-pesca",
+        "tip-soldi-1",
+        "tip-soldi-2",
+        "tip-soldi-3",
+        "tip-app",
+        "tip-garage-slot",
+        "act-ricettazione",
+        "act-covi",
+        "act-caccia-dettagli",
+        "brd-buckme",
+        "brd-paradise-garage",
+        "brd-ficroth-capital"
+      ],
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
     }
   ]
 }

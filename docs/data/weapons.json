@@ -226,8 +226,8 @@
       "description": "Fucile d'assalto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-duke-556.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
@@ -251,6 +251,12 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/service-carbine",
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Duke_carbine"
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il nome Duke Arms 556 non compare a schermo: è l'identificazione della community."
+        }
       ]
     },
     {
@@ -493,8 +499,8 @@
       "description": "Fucile a pompa; si può impugnare anche con una mano sola.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-moreland-850.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
@@ -718,8 +724,8 @@
       "description": "Bottiglia incendiaria.",
       "howToGet": "Da verificare.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,

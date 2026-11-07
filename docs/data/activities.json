@@ -11,12 +11,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-airboat",
@@ -28,11 +28,11 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-caccia",
@@ -61,12 +61,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-car-meet",
@@ -78,12 +78,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-rapine-negozi",
@@ -95,12 +95,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-rifornimento",
@@ -129,12 +129,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-sport",
@@ -146,12 +146,18 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il biliardo non si vede nel video: compare nelle anteprime."
+        }
+      ]
     },
     {
       "id": "act-aria",
@@ -163,12 +169,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-poligono",
@@ -180,12 +186,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-minigolf-zoo",
@@ -214,12 +220,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://techwiser.com/gta-6-second-trailer-breakdown-details-you-might-have-missed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-trunk-stream",
@@ -231,12 +237,12 @@
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-07"
     },
     {
       "id": "act-ex-001",
@@ -256,11 +262,11 @@
     },
     {
       "image": null,
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-07",
       "id": "act-wrestling",
       "name": "Wrestling da cortile",
       "type": "attività",
@@ -464,8 +470,8 @@
       "description": "Lucia guida una Seashark con altri due piloti vicini, ma senza HUD di gara; Jason guida con Lucia dietro, quindi è un'attività da fare in coppia. Non è ancora noto se ci siano sfide o gare come in GTA Online. In questa guida rientra in «Vita in barca».",
       "districtId": null,
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gta6bible.com/activities/jet-skiing/",
       "spoilerLevel": 0,
       "example": false,
@@ -481,8 +487,8 @@
       "description": "Un uomo in kayak sotto un ponte ferroviario a Mount Kalaga, accanto a un idrometro: un possibile indizio di piene e meteo dinamico. Pagaiare insieme alza il legame Jason–Lucia. Il veicolo è il Crest Kayak.",
       "districtId": null,
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gta6bible.com/activities/kayaking/",
       "spoilerLevel": 0,
       "example": false,
@@ -498,8 +504,8 @@
       "description": "Durante l'immersione con le bombole compare un indicatore O₂ in alto a sinistra, diverso dalla barra della capacità polmonare in apnea. Nelle Keys c'è una barriera corallina con le tartarughe marine. Ricompense possibili: tesori, contanti, equipaggiamento, collezionabili.",
       "districtId": null,
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gta6bible.com/activities/scuba-diving/",
       "spoilerLevel": 0,
       "example": false,
