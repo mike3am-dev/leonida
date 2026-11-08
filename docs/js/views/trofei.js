@@ -12,7 +12,7 @@ const TIER = { platino: 'Platino', oro: 'Oro', argento: 'Argento', bronzo: 'Bron
 const CAT = { storia: 'Storia', completamento: 'Completamento', collezionabili: 'Collezionabili', attivita: 'Attività e sfide', mondo: 'Mondo e segreti', online: 'Online' };
 const CAT_ICON = { storia: 'flag', completamento: 'star', collezionabili: 'bookmark', attivita: 'bolt', mondo: 'globe', online: 'radio' };
 
-/** Coppa in stile PlayStation, colorata per livello */
+/** Icona del trofeo in stile PlayStation, colorata per livello */
 export const cup = (tier, size = 40) => `<span class="cup cup--${esc(tier)}" style="--cup:${size}px" aria-label="${esc(TIER[tier] || tier)}">
   <svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="cupg-${esc(tier)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--cup-hi)"/><stop offset="1" stop-color="var(--cup-lo)"/></linearGradient></defs>
     <path d="M14 8h20v10a10 10 0 0 1-20 0z" fill="url(#cupg-${esc(tier)})"/><path d="M14 11H8a6 6 0 0 0 6 8M34 11h6a6 6 0 0 1-6 8" fill="none" stroke="var(--cup-lo)" stroke-width="2.6" stroke-linecap="round"/>
@@ -30,12 +30,12 @@ export function render(params, query = {}) {
   const official = all.some((t) => t.status === 'verificato');
   const left = `${sectionHead(section, `${done} / ${all.length}`)}
     <div class="trophy-board">
-      <div class="trophy-board__plat">${cup('platino', 76)}<div><span class="kicker">Verso il Platino</span><b class="trophy-board__pct">${pct}%</b><span class="small muted">${all.length - done} trofei mancanti</span></div></div>
+      <div class="trophy-board__plat">${cup('platino', 76)}<div><span class="kicker">Verso il Platino</span><b class="trophy-board__pct">${pct}%</b><span class="small muted">${all.length - done === 1 ? 'Ti manca 1 trofeo' : `Ti mancano ${all.length - done} trofei`}</span></div></div>
       <div class="trophy-board__tiers">${tiers.map(({ t, done: d, total }) => `<div class="tiercount">${cup(t, 30)}<b>${d}</b><span>/ ${total}</span><small>${TIER[t]}</small></div>`).join('')}</div>
       <div class="progress progress--gold"><i style="--p:${pct}%"></i></div>
     </div>
-    ${(() => { const next = all.find((t) => !st[t.id] && t.tier === 'bronzo' && t.category === 'storia') || all.find((t) => !st[t.id]); return next ? `<a class="card card--link nexttrophy" href="#/trofei"><span class="kicker kicker--accent">Prossima coppa alla portata</span><span class="nexttrophy__row">${cup(next.tier, 40)}<span><b>${esc(next.name)}</b><span class="small muted"> · ${spoiler.text(next, next.description || '')}</span></span></span></a>` : ''; })()}
-    <div class="showcase"><div class="showcase__head"><span class="kicker">La tua bacheca</span><span class="small muted">${done ? `${done} coppe esposte` : 'Vuota: tocca una coppa per esporla'}</span></div>
+    ${(() => { const next = all.find((t) => !st[t.id] && t.tier === 'bronzo' && t.category === 'storia') || all.find((t) => !st[t.id]); return next ? `<a class="card card--link nexttrophy" href="#/trofei"><span class="kicker kicker--accent">Prossimo trofeo alla portata</span><span class="nexttrophy__row">${cup(next.tier, 40)}<span><b>${esc(next.name)}</b><span class="small muted"> · ${spoiler.text(next, next.description || '')}</span></span></span></a>` : ''; })()}
+    <div class="showcase"><div class="showcase__head"><span class="kicker">La tua bacheca</span><span class="small muted">${done ? `${done} ${done === 1 ? 'trofeo ottenuto' : 'trofei ottenuti'}` : 'Vuota: tocca un trofeo per segnarlo'}</span></div>
       ${['platino', 'oro', 'argento', 'bronzo'].map((tier) => { const l = all.filter((t) => t.tier === tier); return l.length ? `<div class="shelf shelf--${tier}"><div class="shelf__cups">${l.map((t) => `<button type="button" class="shelfcup ${st[t.id] ? 'is-lit' : ''}" data-trophy-open="${esc(t.id)}" aria-pressed="${!!st[t.id]}" aria-label="${esc(t.name)}">${cup(tier, tier === 'platino' ? 52 : 36)}<span class="shelfcup__name">${esc(t.name)}</span></button>`).join('')}</div><span class="shelf__glass"></span><span class="shelf__label">${TIER[tier]} · ${l.filter((t) => st[t.id]).length}/${l.length}</span></div>` : ''; }).join('')}</div>
     <input class="input" type="search" placeholder="Cerca un trofeo per nome…" value="${esc(q)}" data-trophy-q aria-label="Cerca un trofeo" style="margin:var(--s-4) 0">
     ${official ? '' : `<div class="callout callout--warn"><strong>Lista ufficiale non ancora pubblicata.</strong> Rockstar la rilascia di solito a ridosso del lancio (per GTA V arrivò pochi giorni prima). Questo è uno schema ricostruito da GTA V e RDR2 per prepararti: nomi e requisiti cambieranno. Appena esce la lista vera, la sostituisco e i tuoi spunti restano.</div>`}

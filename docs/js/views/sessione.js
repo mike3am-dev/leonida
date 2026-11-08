@@ -107,28 +107,22 @@ export function render() {
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }
 
-/** Dove sei nella storia: fatta · in corso · prossima, con un pulsante per avanzare */
+/** Dove sei nella storia: una riga sola che ti porta dove serve */
 function whereCard(st) {
-  // Prima dell'uscita: bloccata sotto un lucchetto
-  if (new Date(db.meta.releaseDate + 'T00:00:00') > Date.now()) {
-    return `<section class="where where--locked"><div class="where__text"><span class="kicker">Dove sei nella storia</span>
-      <b><svg class="where__lockico" aria-hidden="true"><use href="#i-lock"/></svg> Si sblocca il 19 novembre</b>
-      <p class="small muted">Da quel giorno segni qui la missione in corso e la guida accende personaggi, regioni e consigli fino a lì.</p></div></section>`;
-  }
   const missions = vis(db.missions);
-  const curIdx = missions.findIndex((m) => st.missions[m.id]?.state === 'in-corso');
-  const lastDoneIdx = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
-  const cur = curIdx >= 0 ? missions[curIdx] : null;
-  const prev = cur ? missions.slice(0, curIdx).reverse().find((m) => st.missions[m.id]?.state === 'completata') : (lastDoneIdx >= 0 ? missions[lastDoneIdx] : null);
-  const next = cur ? missions[curIdx + 1] : missions[lastDoneIdx + 1];
-  const shield = progress.settings().spoilerShield;
-  const lab = (m) => { const a = db.acts.find((x) => x.id === m.actId); const i = missions.filter((x) => x.actId === m.actId).indexOf(m) + 1; return `${a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''} · ${String(i).padStart(2, '0')}`; };
-  const name = (m) => (st.missions[m.id]?.state || !shield) ? esc(m.title) : 'Missione bloccata';
-  const step = (m, kind, label) => `<div class="step3 step3--${kind}"><small>${label}</small>${m ? `<b>${name(m)}</b><span class="small muted">${esc(lab(m))}</span>` : '<b class="muted">—</b>'}${kind !== 'next' ? '<svg class="step3__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>' : ''}</div>`;
-  return `<section class="where"><div class="where__text"><span class="kicker kicker--accent">Dove sei nella storia</span>
-      <p class="small muted">La guida accende personaggi, regioni e consigli fino alla missione in corso. Il resto resta bloccato.</p></div>
-    <div class="steps3">${step(prev, 'done', 'Fatta')}${step(cur, 'cur', cur ? 'In corso' : 'Nessuna in corso')}${step(next, 'next', 'Prossima')}</div>
-    <div class="actions">${cur ? `<button class="btn btn--accent" type="button" data-where-done="${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-check"/></svg>Completata${next ? ', passo alla prossima' : ''}</button><a class="btn btn--ghost" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : next ? `<button class="btn btn--solid" type="button" data-where-start="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizio la prossima</button>` : '<span class="small muted">Storia completata.</span>'}</div></section>`;
+  const any = missions.some((m) => st.missions[m.id]?.state);
+  if (!any && new Date(db.meta.releaseDate + 'T00:00:00') > Date.now()) {
+    return `<section class="where-mini"><svg aria-hidden="true"><use href="#i-lock"/></svg><span><b>La storia parte il 19 novembre.</b> Da quel giorno qui trovi la missione che stai giocando.</span></section>`;
+  }
+  const cur = missions.find((m) => st.missions[m.id]?.state === 'in-corso');
+  const lastDone = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
+  const next = cur ? null : missions.slice(lastDone + 1).find((m) => !st.missions[m.id]?.state);
+  const lab = (m) => { const a = db.acts.find((x) => x.id === m.actId); const l = missions.filter((x) => x.actId === m.actId); return `${a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''} · ${l.indexOf(m) + 1} di ${l.length}`; };
+  if (cur) return `<section class="where2 where2--cur"><div class="where2__text"><span class="kicker kicker--accent">Ora stai giocando · ${esc(lab(cur))}</span><b>${esc(cur.title)}</b></div>
+    <div class="where2__actions"><a class="btn btn--solid" href="#/missioni/${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-book"/></svg>Taccuino</a><button class="btn btn--ghost" type="button" data-mission="${esc(cur.id)}" data-set="completata"><svg aria-hidden="true"><use href="#i-check"/></svg>Compiuta</button></div></section>`;
+  if (next) return `<section class="where2"><div class="where2__text"><span class="kicker kicker--accent">La prossima · ${esc(lab(next))}</span><b>${esc(spoiler.missionName(next, 'Si scopre quando parti'))}</b></div>
+    <div class="where2__actions"><button class="btn btn--solid" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia</button></div></section>`;
+  return `<section class="where2"><div class="where2__text"><span class="kicker kicker--accent">La storia</span><b>Completata. Bravo.</b></div></section>`;
 }
 
 /** Taccuino in Home: compatto, con la «i» che spiega */
@@ -183,10 +177,6 @@ function articleSheet(n) {
 
 let timer = null;
 export function bind(root) {
-  root.addEventListener('click', (e) => {
-    const d = e.target.closest('[data-where-done]'); if (d) { const ms = vis(db.missions); const i = ms.findIndex((m) => m.id === d.dataset.whereDone); progress.setMissionState(d.dataset.whereDone, 'completata'); if (ms[i + 1]) progress.setMissionState(ms[i + 1].id, 'in-corso'); document.dispatchEvent(new CustomEvent('leonida:rerender')); return; }
-    const s = e.target.closest('[data-where-start]'); if (s) { progress.setMissionState(s.dataset.whereStart, 'in-corso'); document.dispatchEvent(new CustomEvent('leonida:rerender')); }
-  });
   root.addEventListener('click', (e) => {
     if (e.target.closest('[data-home-notes-info]')) { notesInfoSheet(); return; }
     const ch = e.target.closest('[data-home-char]'); if (ch) { const c = byId(ch.dataset.homeChar); if (c && spoiler.virgin() && !isMet(c)) { import('../ui/dom.js').then(({ toast }) => toast('Lo scopri quando lo incontri')); return; } if (c) charSheet(c); return; }

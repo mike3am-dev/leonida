@@ -153,7 +153,7 @@ function updateTiles() {
   if (s < 0.45 || !navigator.onLine) { layer.innerHTML = ''; return; }
   const vp = board.querySelector('.mapboard__viewport');
   const tl = pz.toContent(0, 0), br = pz.toContent(vp.clientWidth, vp.clientHeight);
-  const Z = s < 0.95 ? 3 : s < 1.9 ? 4 : 5, T = 512;
+  const Z = s < 0.95 ? 3 : s < 1.9 ? 4 : s < 3.8 ? 5 : 6, T = 512;
   const size = WORLD / 2 ** Z;                               // pixel di base coperti da una tessera
   const x0 = Math.max(0, Math.floor((tl.x + X0) / size)), x1 = Math.min(2 ** Z - 1, Math.floor((br.x + X0) / size));
   const y0 = Math.max(0, Math.floor((tl.y + Y0) / size)), y1 = Math.min(2 ** Z - 1, Math.floor((br.y + Y0) / size));
@@ -214,7 +214,7 @@ export function focusPoint(key) {
 export function mount(root) {
   board = root.querySelector('.mapboard'); if (!board) { pz = null; return; }
   const vp = board.querySelector('.mapboard__viewport'), content = board.querySelector('.mapboard__content');
-  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 3, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: (st) => { updateTiles(); if (board) board.dataset.z = st.s > 1 ? 'hi' : st.s > 0.55 ? 'mid' : 'lo'; declutter(); } });
+  pz = panzoom(vp, content, { minScale: 0.08, maxScale: 7, enabled: () => !board?.classList.contains('is-locked'), cover: true, onChange: (st) => { updateTiles(); if (board) board.dataset.z = st.s > 1 ? 'hi' : st.s > 0.55 ? 'mid' : 'lo'; declutter(); } });
   const baseImg = board.querySelector('.mapboard__base');
   const start = () => { pz.fit(); const p = prefs(); if (p.view && board.dataset.style !== 'poster') { pz.flyTo(p.view.cx, p.view.cy, p.view.s, { animate: false }); } };
   // Blocco: finché è bloccata, il dito scorre la pagina; un tocco la sblocca, un tocco fuori la riblocca

@@ -25,7 +25,7 @@ import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
 
-window.__LEONIDA_VERSION__ = 'v0.24.1';
+window.__LEONIDA_VERSION__ = 'v0.25.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -212,6 +212,7 @@ function bindGlobal() {
     im.closest('figure, .placecard__img, .nearcard__img, .lmk__photo')?.classList.add('is-empty'); im.remove();
   }, true);
   spoiler.bind(root);
+  spoiler.mountInk();
   const rerender = () => currentRender?.();
   sessione.bind(root);
   missioni.bind(root, rerender);

@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.24.1** (dati 0.24.1). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.25.0** (dati 0.25.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -113,6 +113,16 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Routine **«giro guide»** in CLAUDE.md: fonti per tipo di dato, verificate raggiungibili l'8/11.
 - v0.24.1 — **regola unica sui nomi delle missioni**: `spoiler.missionRevealed(m)` / `spoiler.missionName(m)` in `docs/js/spoiler.js`. Il nome si vede solo se la missione è iniziata/completata o lo scudo è spento: ricerca (le missioni bloccate non compaiono), menu dell'Appunto, Pacchetto per Claude (solo missioni e capitoli sbloccati), «Prima apparizione» dei personaggi, missioni collegate dei collezionabili, prerequisiti e «Sblocca» («Una nuova missione»). Ogni vista nuova che mostra un titolo di missione DEVE passare da `missionName`.
 - Rimandati per scelta (dall'arbitro): colpi/lavagna, pagina 100%, proprietà, passi delle missioni, soglie medaglie. Dalla 2ª settimana: «Ordina per» in Garage e Armi.
+
+## 4m. v0.25 — giro di Mike sulla simulazione missione (8/11)
+- **Spoiler = inchiostro invisibile** (`spoiler.ink(html, {inline})`, motore a particelle su canvas in `docs/js/spoiler.js`, montato una volta con `mountInk()` e un MutationObserver). `spoiler.wrap` e `spoiler.text` lo usano da soli: niente più `spoiler-box` con banner. Tocco = esplosione delle particelle, il testo compare. Rispetta «riduci movimento».
+- **Missioni**: `nextUp()`, `data-start-mission` (imposta in corso e apre la scheda; gestito in `missioni.bind`, vale anche dalla Home). Scheda: hero «Prologo · 1 di 2», timbro, contesto (prima frase + resto a inchiostro), **Taccuino** (`notebook()`: contatto, regione con «Mappa», `objectives` spuntabili con chiavi `obj-N` in `missions[id].extras`, personaggi con `firstMissionId` = missione, `extraObjectives` per il 100%), «Missione compiuta» / «Non la sto giocando». Completata → foglio `openMissionDone` (diario.js, classe `sheet--passed`, stile GTA; per il curatore anche le tre domande) e banner `.passed` con «Inizia la prossima».
+- **Home**: `whereCard` = riga `where-mini` prima del 19 (se nessuna missione è iniziata), poi `where2` con Taccuino/Compiuta o Inizia.
+- **Font**: Fraunces tagliato a `opsz` 9–72 con fontTools (`instancer`): oltre 72 la J diventava quella «spezzata» con la pallina sotto la riga. Se si riscaricano i font, rifare il taglio.
+- **Mappa**: `maxScale` 7, tessere gtasixmap fino a z6 (oltre s 3,8).
+- **Trofei**: niente «coppe»; plurali giusti.
+- **Proposta aperta (da decidere con Mike)**: trofei PSN automatici. Serve un piccolo servizio (Cloudflare Worker o Supabase) con il codice NPSSO di Mike (scade ~2 mesi), profilo PSN coi trofei visibili; solo dopo la lista ufficiale. PSNProfiles blocca i bot.
+- **Da discutere**: icone della barra/rail «troppo Claude, poco GTA».
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

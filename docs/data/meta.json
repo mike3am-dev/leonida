@@ -1,10 +1,24 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.24.1",
+  "dataVersion": "0.25.0",
   "updatedAt": "2026-11-08",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.25.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Missioni: «Inizia la prossima» dalla plancia e dalla Home, un tocco e sei dentro. Elenco senza numeri doppi: «La prossima», «Bloccata».",
+        "Taccuino della missione: dove, chi te la dà, cosa devi fare (da spuntare), chi incontri, obiettivi per il 100%. Ricompense, consigli e segreti già aperti.",
+        "«Missione compiuta» in stile GTA con «Inizia la prossima»; dopo, nella scheda, la prossima mossa al posto dei tre pulsanti.",
+        "Spoiler con l'inchiostro invisibile di iMessage: un pulviscolo copre la trama, un tocco lo fa esplodere. Via i banner arancioni.",
+        "Home: «Dove sei nella storia» diventa una riga sola; il conto alla rovescia non esce più dal bordo e non va a capo su iPhone.",
+        "La J di «Jason» non sembra più spezzata (font limitato alla forma da lettura).",
+        "Mappa: zoom più del doppio con dettagli nitidi, i punti vicini si separano.",
+        "Trofei: «trofei» al posto di «coppe», singolare e plurale giusti."
+      ]
+    },
     {
       "version": "0.24.1",
       "date": "2026-11-08",

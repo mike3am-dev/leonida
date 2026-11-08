@@ -3,13 +3,13 @@ import { esc } from './dom.js';
 
 let open = null;
 
-export function showSheet({ title, body, side = 'right', onClose }) {
+export function showSheet({ title, body, side = 'right', onClose, cls = '' }) {
   closeSheet();
   const root = document.getElementById('sheet-root');
   const backdrop = document.createElement('div');
   backdrop.className = 'sheet-backdrop';
   const sheet = document.createElement('div');
-  sheet.className = 'sheet' + (side === 'left' ? ' sheet--left' : '');
+  sheet.className = 'sheet' + (side === 'left' ? ' sheet--left' : '') + (cls ? ' ' + cls : '');
   sheet.setAttribute('role', 'dialog');
   sheet.setAttribute('aria-modal', 'true');
   sheet.setAttribute('aria-label', title);

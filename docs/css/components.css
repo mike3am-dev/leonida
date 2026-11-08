@@ -1751,17 +1751,9 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 }
 .hero__chips { z-index: 2; }
 
-/* ---------- v0.24 · Scheda missione da campo ---------- */
 .noreturn { display: flex; flex-direction: column; gap: 4px; margin: var(--s-4) 0; padding: 12px 16px; border: 3px double #d72638; border-radius: 6px; color: #d72638; transform: rotate(-1.2deg); background: color-mix(in srgb, #d72638 6%, transparent); max-width: 100%; }
 .noreturn b { font-family: 'Fraunces', serif; font-style: italic; font-weight: 800; font-size: 1.25rem; line-height: 1.15; }
 .noreturn span { font-size: var(--fs-sm); color: var(--ink-2); }
-.field-card { margin: var(--s-4) 0; }
-.field-card__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-bottom: var(--s-3); }
-.field-card__row .kicker { margin: 0; }
-.field-card__val { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.1rem; }
-.field-card__obj { margin: var(--s-2) 0 0; padding-left: 1.3em; }
-.field-card__obj li { margin: 6px 0; line-height: 1.35; }
-.recap .chips { gap: 8px; }
 
 /* ---------- v0.24 · Benvenuto ---------- */
 .welcome { list-style: none; margin: var(--s-4) 0 var(--s-5); padding: 0; display: grid; gap: var(--s-3); }
@@ -1773,3 +1765,90 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .welcome__share { display: inline-block; width: 1.1em; height: 1.1em; vertical-align: -0.15em; color: #0a84ff; }
 .welcome__chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .welcome .switch-row { padding-left: 0; padding-right: 0; }
+
+/* ---------- v0.25 · Inchiostro invisibile (spoiler) ---------- */
+.ink { position: relative; cursor: pointer; color: var(--ink-2); -webkit-tap-highlight-color: transparent; }
+.ink--inline { display: inline-block; max-width: 100%; vertical-align: top; }
+.ink__body { transition: opacity .55s ease .12s, filter .55s ease .12s; }
+.ink:not(.is-open) .ink__body { opacity: 0; filter: blur(6px); pointer-events: none; user-select: none; }
+.ink.is-open { cursor: auto; }
+.ink__dust { position: absolute; left: 0; top: 0; pointer-events: none; }
+.ink--inline .ink__dust { position: absolute; }
+.ink:focus-visible { outline: 2px solid var(--magenta); outline-offset: 3px; border-radius: 6px; }
+@media (prefers-reduced-motion: reduce) { .ink:not(.is-open) .ink__body { opacity: .08; } }
+
+/* ---------- v0.25 · Missioni: plancia, taccuino, missione compiuta ---------- */
+.btn--big { min-height: 54px; padding-inline: 22px; font-size: 1.05rem; }
+.btn--sm { min-height: 36px; padding: 0 12px; font-size: .9rem; }
+.linkbtn { background: none; border: 0; padding: 4px 2px; font: inherit; color: var(--ink-3); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.storyboard__cta { margin-top: var(--s-3); }
+.mission-actions { margin-top: var(--s-4); }
+.mission-actions .btn--big { flex: 1 1 auto; }
+.mission-links { margin-top: var(--s-4); }
+
+.notebook { margin: var(--s-4) 0; padding: var(--s-4); border-radius: var(--radius); background: var(--paper);
+
+  border: var(--hair) solid var(--rule); box-shadow: var(--shadow); position: relative; }
+.notebook::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: var(--radius) 0 0 var(--radius); background: linear-gradient(var(--magenta), #8a5cff); }
+.notebook__head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--s-3); }
+.notebook__title { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.5rem; }
+.notebook__count { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: var(--magenta); }
+.notebook__where { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--s-3) var(--s-5); padding-bottom: var(--s-3); margin-bottom: var(--s-3); border-bottom: var(--hair) dashed var(--rule-strong); }
+.notebook__where b { display: block; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 1.15rem; }
+.notebook__where .btn { margin-left: auto; }
+.notebook__part { margin-top: var(--s-3); }
+.notebook__part > .kicker { display: block; margin-bottom: 4px; }
+.notebook__people { display: flex; flex-wrap: wrap; gap: 10px; }
+.notebook__person { display: flex; align-items: center; gap: 8px; padding: 4px 12px 4px 4px; border-radius: 999px; background: var(--bg-2); color: var(--ink); text-decoration: none; font-size: .92rem; }
+.notebook__person img, .notebook__person i { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; background: var(--rule); display: block; }
+
+.passed { margin: var(--s-4) 0; padding: var(--s-4); border-radius: var(--radius); background: #120c18; color: #fff; text-align: center; box-shadow: 0 0 0 1px rgba(255,61,139,.35), 0 10px 30px rgba(18,12,24,.35); }
+.passed__title { display: block; font-family: var(--font-gta); font-size: 2.3rem; line-height: 1; color: #ffd166; text-shadow: 0 2px 0 #7a4a00, 0 0 18px rgba(255,209,102,.45); margin-bottom: var(--s-3); }
+.passed .actions { justify-content: center; }
+.passed .btn--solid { background: #ff3d8b; border-color: #ff3d8b; color: #fff; }
+.passed .btn--ghost { color: #fff; border-color: rgba(255,255,255,.3); }
+.passed__more { margin: var(--s-2) 0 0; font-size: .85rem; color: rgba(255,255,255,.6); }
+.passed .linkbtn { color: rgba(255,255,255,.7); }
+
+/* Foglio «Missione compiuta» in stile GTA */
+.sheet.sheet--passed { background: radial-gradient(120% 70% at 50% 0%, #3a1240 0%, #120c18 60%); color: #fff; }
+.sheet--passed .sheet__head h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.sheet--passed .sheet__head .icon-btn { color: #fff; }
+.sheet--passed .sheet__grip { background: rgba(255,255,255,.35); }
+.passed-sheet__hero { text-align: center; padding: var(--s-2) 0 var(--s-4); }
+.passed-sheet__big { display: block; font-family: var(--font-gta); font-size: clamp(2.4rem, 9vw, 3.4rem); line-height: .95; color: #ffd166; text-shadow: 0 3px 0 #7a4a00, 0 0 24px rgba(255,209,102,.5); animation: passed-in .7s cubic-bezier(.2,1.4,.4,1) both; }
+.passed-sheet__name { display: block; margin-top: 8px; font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: rgba(255,255,255,.85); }
+@keyframes passed-in { from { transform: scale(1.6); opacity: 0; letter-spacing: .1em; } to { transform: none; opacity: 1; } }
+.passed-sheet__lead { margin: 0 0 var(--s-2); color: rgba(255,255,255,.7); font-size: .92rem; }
+.passed-sheet__q { border-top: 1px solid rgba(255,255,255,.12); padding-top: var(--s-3); }
+.pq { display: block; margin-bottom: var(--s-3); }
+.pq > span { display: block; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: #ff7ab0; margin-bottom: 6px; font-weight: 700; }
+.pq__input { width: 100%; min-height: 46px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.06); color: #fff; font: inherit; font-size: 16px; }
+.pq__input::placeholder { color: rgba(255,255,255,.4); }
+.pq__input:focus { outline: none; border-color: #ff3d8b; box-shadow: 0 0 0 3px rgba(255,61,139,.3); }
+.pq__chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.pq__chip { min-height: 38px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.22); background: transparent; color: #fff; font: inherit; font-size: .92rem; cursor: pointer; }
+.pq__chip[aria-pressed="true"] { background: #ff3d8b; border-color: #ff3d8b; box-shadow: 0 0 14px rgba(255,61,139,.6); }
+.passed-sheet__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: var(--s-4); }
+.passed-sheet__actions .btn { flex: 1 1 auto; }
+.btn--neon { background: #ff3d8b; border-color: #ff3d8b; color: #fff; box-shadow: 0 0 18px rgba(255,61,139,.55); }
+.btn--dark { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.2); color: #fff; }
+
+/* ---------- v0.25 · Home: dove sei nella storia, in una riga ---------- */
+.where-mini { display: flex; align-items: center; gap: 12px; padding: 12px 16px; margin: var(--s-3) 0; border-radius: 999px; background: color-mix(in srgb, var(--paper) 80%, transparent); border: var(--hair) solid var(--rule); font-size: .95rem; color: var(--ink-2); }
+.where-mini svg { width: 18px; height: 18px; flex: none; color: var(--magenta); }
+.where-mini b { color: var(--ink); font-family: var(--font-display); font-style: italic; font-weight: 600; }
+.where2 { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); padding: var(--s-3) var(--s-4); margin: var(--s-3) 0; border-radius: var(--radius); background: var(--paper); border: var(--hair) solid var(--rule); box-shadow: var(--shadow); }
+.where2--cur { border-left: 4px solid var(--magenta); }
+.where2__text { flex: 1 1 220px; min-width: 0; }
+.where2__text b { display: block; font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.3rem; line-height: 1.2; margin-top: 2px; }
+.where2__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* v0.25 · il conto alla rovescia non esce più dal bordo sul Duo */
+.home-hero { width: 100%; max-width: 100%; }
+@media (min-width: 600px) and (min-height: 520px) { .home-hero { aspect-ratio: auto; min-height: 0; height: clamp(300px, 52vw, 380px); } }
+@media (max-width: 599px) {
+  .home-hero .countdown { flex-wrap: nowrap; gap: 4px; }
+  .home-hero .countdown b { font-size: clamp(2.4rem, 11vw, 3.4rem); }
+  .home-hero .countdown b + span { margin-right: 6px; font-size: .62rem; letter-spacing: .08em; }
+}

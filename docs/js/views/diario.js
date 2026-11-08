@@ -123,40 +123,48 @@ export function openNoteSheet(ctx = {}) {
   showSheet({ title: 'Appunto rapido', body });
 }
 
-/** Fine missione (solo per Mike): tre domande da un tocco che finiscono nel Pacchetto per Claude. */
-export function openMissionRecap(m, after = () => {}) {
-  if (!m) { after(); return; }
-  let called = false; const fin = () => { if (!called) { called = true; after(); } };
+/** Missione compiuta: schermata in stile GTA con la prossima mossa. Per Mike (curatore) anche tre domande per il Pacchetto. */
+export function openMissionDone(m, { next = null, onNext = null } = {}) {
+  if (!m) return;
+  const creator = progress.settings().creatorTools;
   const ds = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
   const body = document.createElement('form');
-  body.className = 'recap';
+  body.className = 'passed-sheet';
   body.innerHTML = `
-    <p class="small muted">Tre risposte veloci: finiscono nel Pacchetto per Claude e riempiono la scheda della missione.</p>
-    <label class="field"><span>Chi te l'ha data</span><input class="input" name="contact" autocomplete="off" placeholder="Es. Lucia, Brian, una telefonata…"></label>
-    <div class="field"><span>Dove è cominciata</span><div class="chips">${ds.map((d) => `<button type="button" class="filter" data-pick="dis" data-v="${esc(d.id)}" aria-pressed="${d.id === m.districtId}">${esc(d.name)}</button>`).join('')}</div></div>
-    <div class="field"><span>C'era una scelta senza ritorno?</span><div class="chips">
-      <button type="button" class="filter" data-pick="choice" data-v="si" aria-pressed="false">Sì</button>
-      <button type="button" class="filter" data-pick="choice" data-v="no" aria-pressed="false">No</button></div></div>
-    <label class="field"><span>Altro da ricordare (facoltativo)</span><input class="input" name="extra" autocomplete="off" placeholder="Un dettaglio, un premio, un posto…"></label>
-    <div class="actions"><button class="btn btn--accent" type="submit">Salva</button><button class="btn btn--ghost" type="button" data-skip>Salta</button></div>`;
-  body.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-pick]');
-    if (b) { const on = b.getAttribute('aria-pressed') !== 'true'; body.querySelectorAll(`[data-pick="${b.dataset.pick}"]`).forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', String(on)); return; }
-    if (e.target.closest('[data-skip]')) { closeSheet(); fin(); }
-  });
-  body.onsubmit = (e) => {
-    e.preventDefault();
+    <div class="passed-sheet__hero"><span class="passed-sheet__big">Missione compiuta</span><span class="passed-sheet__name">${esc(m.title)}</span></div>
+    ${creator ? `<div class="passed-sheet__q">
+      <p class="passed-sheet__lead">Per la guida, tre tocchi:</p>
+      <label class="pq"><span>Chi te l'ha data</span><input class="pq__input" name="contact" autocomplete="off" placeholder="Lucia, Brian, una telefonata…"></label>
+      <div class="pq"><span>Dove è cominciata</span><div class="pq__chips">${ds.map((d) => `<button type="button" class="pq__chip" data-pick="dis" data-v="${esc(d.id)}" aria-pressed="${d.id === m.districtId}">${esc(d.name)}</button>`).join('')}</div></div>
+      <div class="pq"><span>C'era una scelta senza ritorno?</span><div class="pq__chips">
+        <button type="button" class="pq__chip" data-pick="choice" data-v="si" aria-pressed="false">Sì</button>
+        <button type="button" class="pq__chip" data-pick="choice" data-v="no" aria-pressed="false">No</button></div></div>
+      <label class="pq"><span>Altro da ricordare</span><input class="pq__input" name="extra" autocomplete="off" placeholder="Un premio, un posto, un dettaglio…"></label>
+    </div>` : ''}
+    <div class="passed-sheet__actions">
+      ${next ? `<button class="btn btn--neon btn--big" type="submit" data-go="next"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia la prossima</button>` : ''}
+      <button class="btn btn--dark" type="submit" data-go="stay">${next ? 'Più tardi' : 'Chiudi'}</button>
+    </div>`;
+  let go = 'stay', saved = false;
+  const save = () => {
+    if (saved || !creator) return; saved = true;
     const fd = new FormData(body);
     const contact = String(fd.get('contact') || '').trim();
     const dis = body.querySelector('[data-pick="dis"][aria-pressed="true"]')?.dataset.v || null;
     const ch = body.querySelector('[data-pick="choice"][aria-pressed="true"]')?.dataset.v;
     const extra = String(fd.get('extra') || '').trim();
     const choice = ch === 'si' ? true : ch === 'no' ? false : null;
+    if (!contact && choice === null && !extra && dis === m.districtId) return;
     const parts = [contact && `Me l'ha data: ${contact}`, dis && `Dove: ${byId(dis)?.name || dis}`, choice !== null && `Scelta senza ritorno: ${choice ? 'sì' : 'no'}`, extra].filter(Boolean);
-    if (parts.length) progress.addNote({ text: `Fine missione «${m.title}». ${parts.join(' · ')}`, missionId: m.id, districtId: dis, kind: 'scheda-missione', fields: { contatto: contact || null, distretto: dis, scelta: choice, altro: extra || null } });
-    closeSheet(); fin();
+    progress.addNote({ text: `Fine missione «${m.title}». ${parts.join(' · ')}`, missionId: m.id, districtId: dis, kind: 'scheda-missione', fields: { contatto: contact || null, distretto: dis, scelta: choice, altro: extra || null } });
   };
-  showSheet({ title: 'Com\'è andata?', body, onClose: fin });
+  body.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-pick]');
+    if (b) { const on = b.getAttribute('aria-pressed') !== 'true'; body.querySelectorAll(`[data-pick="${b.dataset.pick}"]`).forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', String(on)); return; }
+    const g = e.target.closest('[data-go]'); if (g) go = g.dataset.go;
+  });
+  body.onsubmit = (e) => { e.preventDefault(); save(); closeSheet(); if (go === 'next') onNext?.(); };
+  showSheet({ title: 'Missione compiuta', body, cls: 'sheet--passed', onClose: save });
 }
 
 export function bind(root, rerender) {
