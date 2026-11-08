@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.25.1",
+  "dataVersion": "0.26.0",
   "updatedAt": "2026-11-08",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.26.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Icone nuove in stile GTA nella barra, nel menu laterale e nelle testate: palma, bandiera a scacchi, pad, segnaposto, pistola, auto sportiva, giornale. Il riquadro rosa della sezione attiva resta."
+      ]
+    },
     {
       "version": "0.25.1",
       "date": "2026-11-08",

@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.25.0** (dati 0.25.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.26.0** (dati 0.26.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -122,7 +122,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - **Mappa**: `maxScale` 7, tessere gtasixmap fino a z6 (oltre s 3,8).
 - **Trofei**: niente «coppe»; plurali giusti.
 - **Proposta aperta (da decidere con Mike)**: trofei PSN automatici. Serve un piccolo servizio (Cloudflare Worker o Supabase) con il codice NPSSO di Mike (scade ~2 mesi), profilo PSN coi trofei visibili; solo dopo la lista ufficiale. PSNProfiles blocca i bot.
-- **Da discutere**: icone della barra/rail «troppo Claude, poco GTA».
+- **v0.26 icone**: Mike ha scelto i pittogrammi pieni (proposta B) con il riquadro rosa attuale. Simboli `n-<id sezione>` in `docs/index.html` (fori veri con `<mask id="nm-…">`), usati da `navHtml` (app.js) e `sectionHead` (shared.js); `n-altro` per «Altro». Le icone `i-*` restano per pulsanti e mappa.
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

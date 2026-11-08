@@ -25,7 +25,7 @@ import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
 
-window.__LEONIDA_VERSION__ = 'v0.25.1';
+window.__LEONIDA_VERSION__ = 'v0.26.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -45,11 +45,11 @@ function navHtml(activePath, forRail) {
     const label = s.title;
     const home = s.path === '/';
     return `<a class="tab ${home ? 'tab--home' : ''} ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}" ${active ? 'aria-current="page"' : ''} ${s.disabled ? 'aria-disabled="true"' : ''}>
-      <svg aria-hidden="true"><use href="#i-${home ? 'sun' : s.icon}"/></svg><span>${esc(label)}</span></a>`;
+      <svg aria-hidden="true"><use href="#n-${s.id}"/></svg><span>${esc(label)}</span></a>`;
   });
   if (!forRail) {
     const moreActive = !SECTIONS.filter((s) => s.tab).some((s) => activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path)));
-    tabs.push(`<a class="tab" href="#/altro" ${moreActive ? 'aria-current="page"' : ''}><svg aria-hidden="true"><use href="#i-more"/></svg><span>Altro</span></a>`);
+    tabs.push(`<a class="tab" href="#/altro" ${moreActive ? 'aria-current="page"' : ''}><svg aria-hidden="true"><use href="#n-altro"/></svg><span>Altro</span></a>`);
   }
   return tabs.join('');
 }

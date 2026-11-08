@@ -134,7 +134,7 @@ export function acc(title, body, open = false) {
   return `<div class="acc ${open ? 'is-open' : ''}"><button class="acc__btn" type="button"><span class="kicker">${esc(title)}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><div class="acc__body">${body}</div></div>`;
 }
 export function sectionHead(section, count = '') {
-  return `<header class="section-head section-head--band ${section.bg ? 'section-head--img' : ''}" style="--hue:${section.hue || 335}${section.bg ? `;--band-img:url(../assets/img/sfondi/${section.bg})` : ''}"><svg class="section-head__icon" aria-hidden="true"><use href="#i-${esc(section.icon)}"/></svg><div><h1>${esc(section.title)}</h1><span class="section-head__tag">${esc(section.tagline || '')}</span></div><span class="count">${esc(count)}</span></header>`;
+  return `<header class="section-head section-head--band ${section.bg ? 'section-head--img' : ''}" style="--hue:${section.hue || 335}${section.bg ? `;--band-img:url(../assets/img/sfondi/${section.bg})` : ''}"><svg class="section-head__icon" aria-hidden="true"><use href="#n-${esc(section.id)}"/></svg><div><h1>${esc(section.title)}</h1><span class="section-head__tag">${esc(section.tagline || '')}</span></div><span class="count">${esc(count)}</span></header>`;
 }
 export function galleryHtml(item) {
   const imgs = [...(item.gallery || []).filter(Boolean).map((src) => ({ src })), ...(item.galleryX || [])];
