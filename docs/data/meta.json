@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.25.0",
+  "dataVersion": "0.25.1",
   "updatedAt": "2026-11-08",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.25.1",
+      "date": "2026-11-08",
+      "changes": [
+        "News dell'8 novembre: Amazon Italia annulla parte dei preordini della scatola, trofei che sarebbero 55 (leak), prima scatola PS5 con 230 GB sul retro, poster A3 nella custodia, vigilia dei conti Take-Two.",
+        "Consiglio sul preload: tieni liberi 230 GB, non 212."
+      ]
+    },
     {
       "version": "0.25.0",
       "date": "2026-11-08",
