@@ -3,7 +3,7 @@
  * Ogni voce porta lo stato dalla versione N alla N+1.
  * Quando cambi il formato: alza CURRENT_VERSION e aggiungi una funzione.
  */
-export const CURRENT_VERSION = 4;
+export const CURRENT_VERSION = 5;
 
 export function emptyState() {
   return {
@@ -25,6 +25,7 @@ export function emptyState() {
       sfx: false,
       virginMode: false,
       creatorTools: false,
+      welcomeSeen: false,
     },
   };
 }
@@ -35,6 +36,8 @@ const steps = {
   2: (s) => { s.discovered = s.discovered || {}; s.version = 3; return s; },
   // 3 → 4: chi aveva già la guida installata (Mike) tiene gli strumenti del curatore; i nuovi amici no
   3: (s) => { s.settings = s.settings || {}; if (s.settings.creatorTools === undefined) s.settings.creatorTools = true; if (s.settings.virginMode === undefined) s.settings.virginMode = false; s.version = 4; return s; },
+  // 4 → 5: chi usa già la guida non rivede il benvenuto (è per gli amici al primo avvio)
+  4: (s) => { s.settings = s.settings || {}; if (s.settings.welcomeSeen === undefined) s.settings.welcomeSeen = true; s.version = 5; return s; },
 };
 
 export function migrate(state) {

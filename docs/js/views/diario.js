@@ -60,7 +60,7 @@ export function buildPacket(notes) {
     atti: db.acts.map((a) => `${a.id} (${a.number}) «${a.title}»`),
   };
   const cur = currentMission();
-  const payload = notes.map((n) => ({ id: n.id, quando: n.ts, distretto: n.districtId, missione: n.missionId, testo: n.text }));
+  const payload = notes.map((n) => ({ id: n.id, quando: n.ts, distretto: n.districtId, missione: n.missionId, testo: n.text, ...(n.kind ? { tipo: n.kind, campi: n.fields } : {}) }));
   return `# Pacchetto per Claude — Leonida (guida GTA VI)
 Dati guida v${db.meta.dataVersion} del ${db.meta.updatedAt}. Missione in corso: ${cur ? `${cur.id} «${cur.title}»` : 'nessuna'}.
 
@@ -69,7 +69,8 @@ Istruzioni per Claude:
 2. Riusa gli id esistenti quando l'appunto parla di qualcosa che c'è già; crea id nuovi con i prefissi mis-/dis-/poi-/col-/act-/chr-/rad-/brd-/veh-/wpn-/tro-/tip-/new-.
 3. Ogni voce ha status ("da verificare" per gli appunti di Mike, "verificato" solo se confermo), source "gioco-mike", spoilerLevel = numero dell'atto dopo il quale si può leggere, example false, updatedAt di oggi.
 4. Non inventare nulla oltre agli appunti. Se un appunto è ambiguo o contiene «?», chiedimi.
-5. Restituisci solo i blocchi JSON da inserire/sostituire, indicando file e posizione, poi aggiorna meta.json (dataVersion, changelog).
+5. Gli appunti con tipo "scheda-missione" sono il riepilogo fatto a fine missione: campi.contatto → missions.contact (id del personaggio se esiste, altrimenti il nome), campi.distretto → missions.districtId, campi.scelta true → missions.choice = {"irreversible": true}. Il personaggio-contatto e i personaggi citati prendono firstMissionId se non l'hanno.
+6. Restituisci solo i blocchi JSON da inserire/sostituire, indicando file e posizione, poi aggiorna meta.json (dataVersion, changelog).
 
 Id esistenti:
 ${Object.entries(ids).map(([k, v]) => `- ${k}: ${v.length ? v.join(', ') : 'nessuno'}`).join('\n')}
@@ -118,6 +119,42 @@ export function openNoteSheet(ctx = {}) {
     ctx.onSaved?.();
   };
   showSheet({ title: 'Appunto rapido', body });
+}
+
+/** Fine missione (solo per Mike): tre domande da un tocco che finiscono nel Pacchetto per Claude. */
+export function openMissionRecap(m, after = () => {}) {
+  if (!m) { after(); return; }
+  let called = false; const fin = () => { if (!called) { called = true; after(); } };
+  const ds = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
+  const body = document.createElement('form');
+  body.className = 'recap';
+  body.innerHTML = `
+    <p class="small muted">Tre risposte veloci: finiscono nel Pacchetto per Claude e riempiono la scheda della missione.</p>
+    <label class="field"><span>Chi te l'ha data</span><input class="input" name="contact" autocomplete="off" placeholder="Es. Lucia, Brian, una telefonata…"></label>
+    <div class="field"><span>Dove è cominciata</span><div class="chips">${ds.map((d) => `<button type="button" class="filter" data-pick="dis" data-v="${esc(d.id)}" aria-pressed="${d.id === m.districtId}">${esc(d.name)}</button>`).join('')}</div></div>
+    <div class="field"><span>C'era una scelta senza ritorno?</span><div class="chips">
+      <button type="button" class="filter" data-pick="choice" data-v="si" aria-pressed="false">Sì</button>
+      <button type="button" class="filter" data-pick="choice" data-v="no" aria-pressed="false">No</button></div></div>
+    <label class="field"><span>Altro da ricordare (facoltativo)</span><input class="input" name="extra" autocomplete="off" placeholder="Un dettaglio, un premio, un posto…"></label>
+    <div class="actions"><button class="btn btn--accent" type="submit">Salva</button><button class="btn btn--ghost" type="button" data-skip>Salta</button></div>`;
+  body.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-pick]');
+    if (b) { const on = b.getAttribute('aria-pressed') !== 'true'; body.querySelectorAll(`[data-pick="${b.dataset.pick}"]`).forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', String(on)); return; }
+    if (e.target.closest('[data-skip]')) { closeSheet(); fin(); }
+  });
+  body.onsubmit = (e) => {
+    e.preventDefault();
+    const fd = new FormData(body);
+    const contact = String(fd.get('contact') || '').trim();
+    const dis = body.querySelector('[data-pick="dis"][aria-pressed="true"]')?.dataset.v || null;
+    const ch = body.querySelector('[data-pick="choice"][aria-pressed="true"]')?.dataset.v;
+    const extra = String(fd.get('extra') || '').trim();
+    const choice = ch === 'si' ? true : ch === 'no' ? false : null;
+    const parts = [contact && `Me l'ha data: ${contact}`, dis && `Dove: ${byId(dis)?.name || dis}`, choice !== null && `Scelta senza ritorno: ${choice ? 'sì' : 'no'}`, extra].filter(Boolean);
+    if (parts.length) progress.addNote({ text: `Fine missione «${m.title}». ${parts.join(' · ')}`, missionId: m.id, districtId: dis, kind: 'scheda-missione', fields: { contatto: contact || null, distretto: dis, scelta: choice, altro: extra || null } });
+    closeSheet(); fin();
+  };
+  showSheet({ title: 'Com\'è andata?', body, onClose: fin });
 }
 
 export function bind(root, rerender) {

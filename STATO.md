@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 7 novembre 2026, versione live **v0.22.0** (dati 0.15.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.24.0** (dati 0.24.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -102,6 +102,16 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Legenda delle etichette al tocco (app.js, LEGEND); srcBadge negli elenchi = solo etichetta principale.
 - Mappa: `poiIcon()` in mapboard.js; ricerca sotto la mappa include POI e landmark; i landmark contano in stats()/districtStats/zoneBreakdown (`landmarkIds()` in shared.js).
 - Rimandati alla fine: schermata di benvenuto, supporto orizzontale.
+
+## 4l. v0.24 — dalla guida ufficiale di GTA V (8/11)
+- Mike ha dato la guida ufficiale cartacea di GTA V (PDF di 745 MB su Google Drive, solo nello scratchpad della sessione, MAI nel repo). Tre esperti l'hanno letta, confronto con i 10 giocatori e un arbitro. Mike ha scelto la linea dell'arbitro: poche strutture ora, il resto quando il gioco dice com'è fatto.
+- Fatto: pagina **Benvenuto** (`docs/js/views/benvenuto.js`, rotta `/benvenuto`): una volta sola al primo avvio (`settings.welcomeSeen`; migrazione v5 la segna come vista per chi aveva già dati), installazione su Home, scudo spoiler e modalità vergine, etichette, progressi. Si riapre da Impostazioni › Come funziona.
+- Missioni: campi `contact` (id personaggio o nome), `objectives[]` (cosa fare, frasi brevi), `choice: {irreversible: true}` → timbro rosso «Scelta senza ritorno — salva prima» (visibile anche sulla missione successiva bloccata: non rivela le opzioni). Si vedono solo se pieni; il validatore li controlla.
+- A fine missione, solo con gli strumenti del curatore: foglio «Com'è andata?» (chi te l'ha data · dove · scelta senza ritorno · altro) → appunto con `kind: 'scheda-missione'` e `fields`, che il Pacchetto passa a Claude con le istruzioni per riempire `contact`, `districtId`, `choice`.
+- Tolte tutte le voci ESEMPIO (6) e l'interruttore «voci di prova».
+- `scripts/importa-trofei.mjs`: lista ufficiale in TSV → trophies.json (tiene id e categorie dove il nome coincide).
+- Routine **«giro guide»** in CLAUDE.md: fonti per tipo di dato, verificate raggiungibili l'8/11.
+- Rimandati per scelta (dall'arbitro): colpi/lavagna, pagina 100%, proprietà, passi delle missioni, soglie medaglie. Dalla 2ª settimana: «Ordina per» in Garage e Armi.
 
 ## 5. Aree da tenere d'occhio / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).

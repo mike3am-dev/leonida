@@ -86,8 +86,10 @@ export function toggleTrophy(id) {
 }
 
 /* ---------- Appunti ---------- */
-export function addNote({ text, districtId = null, missionId = null }) {
+export function addNote({ text, districtId = null, missionId = null, kind = null, fields = null }) {
   const note = { id: 'n-' + Date.now().toString(36), ts: new Date().toISOString(), text: text.trim(), districtId, missionId };
+  if (kind) note.kind = kind;
+  if (fields) note.fields = fields;
   update((s) => { s.notes.unshift(note); });
   return note;
 }

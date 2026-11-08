@@ -83,6 +83,10 @@ for (const m of data.missions.items) {
   for (const u of m.unlocks || []) {
     if (u?.ref && !allIds.has(u.ref)) warn('missions', m.id, `unlocks punta a "${u.ref}" che non esiste`);
   }
+  if (m.objectives !== undefined && !(Array.isArray(m.objectives) && m.objectives.every((o) => typeof o === 'string' && o.trim()))) err('missions', m.id, 'objectives deve essere un elenco di frasi');
+  if (m.contact !== undefined && m.contact !== null && typeof m.contact !== 'string') err('missions', m.id, 'contact deve essere un id di personaggio o un nome');
+  if (typeof m.contact === 'string' && m.contact.startsWith('chr-') && !allIds.has(m.contact)) warn('missions', m.id, `contact punta a "${m.contact}" che non esiste`);
+  if (m.choice !== undefined && (typeof m.choice !== 'object' || typeof m.choice?.irreversible !== 'boolean')) err('missions', m.id, 'choice deve essere {"irreversible": true|false}');
   if ((m.prerequisites || []).includes(m.id)) err('missions', m.id, 'una missione non può essere prerequisito di sé stessa');
 }
 for (const d of data.districts.items) {

@@ -1750,3 +1750,26 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
   .frontpage__excerpt { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 }
 .hero__chips { z-index: 2; }
+
+/* ---------- v0.24 · Scheda missione da campo ---------- */
+.noreturn { display: flex; flex-direction: column; gap: 4px; margin: var(--s-4) 0; padding: 12px 16px; border: 3px double #d72638; border-radius: 6px; color: #d72638; transform: rotate(-1.2deg); background: color-mix(in srgb, #d72638 6%, transparent); max-width: 100%; }
+.noreturn b { font-family: 'Fraunces', serif; font-style: italic; font-weight: 800; font-size: 1.25rem; line-height: 1.15; }
+.noreturn span { font-size: var(--fs-sm); color: var(--ink-2); }
+.field-card { margin: var(--s-4) 0; }
+.field-card__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-bottom: var(--s-3); }
+.field-card__row .kicker { margin: 0; }
+.field-card__val { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.1rem; }
+.field-card__obj { margin: var(--s-2) 0 0; padding-left: 1.3em; }
+.field-card__obj li { margin: 6px 0; line-height: 1.35; }
+.recap .chips { gap: 8px; }
+
+/* ---------- v0.24 · Benvenuto ---------- */
+.welcome { list-style: none; margin: var(--s-4) 0 var(--s-5); padding: 0; display: grid; gap: var(--s-3); }
+.welcome__step { display: flex; gap: 14px; align-items: flex-start; }
+.welcome__step h2 { font-size: 1.2rem; margin: 2px 0 6px; }
+.welcome__step p { margin: 0 0 var(--s-2); }
+.welcome__num { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--magenta); color: #fff; font-family: 'Fraunces', serif; font-style: italic; font-weight: 700; font-size: 1.1rem; }
+.welcome__step > div { min-width: 0; flex: 1; }
+.welcome__share { display: inline-block; width: 1.1em; height: 1.1em; vertical-align: -0.15em; color: #0a84ff; }
+.welcome__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.welcome .switch-row { padding-left: 0; padding-right: 0; }

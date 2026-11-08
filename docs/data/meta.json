@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.23.0",
-  "updatedAt": "2026-11-07",
+  "dataVersion": "0.24.0",
+  "updatedAt": "2026-11-08",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.24.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Benvenuto: al primo avvio una pagina spiega come installare la guida sulla schermata Home, lo scudo spoiler, le etichette e dove stanno i progressi. Si riapre da Impostazioni › Come funziona.",
+        "Missioni: in cima alla scheda «Chi te la dà» e «Cosa devi fare»; il timbro rosso «Scelta senza ritorno» avvisa di salvare prima, senza rivelare la scelta.",
+        "A fine missione tre domande veloci (chi, dove, c'era una scelta) che finiscono nel Pacchetto per Claude.",
+        "Tolte le voci di prova."
+      ]
+    },
     {
       "version": "0.23.0",
       "date": "2026-11-07",

@@ -23,8 +23,9 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
+import * as benvenuto from './views/benvenuto.js';
 
-window.__LEONIDA_VERSION__ = 'v0.23.0';
+window.__LEONIDA_VERSION__ = 'v0.24.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -78,6 +79,7 @@ const views = {
   '/impostazioni': impostazioni.render,
   '/ricerca': ricerca.render,
   '/altro': renderAltro,
+  '/benvenuto': benvenuto.render,
 };
 for (const [pattern, fn] of Object.entries(views)) router.register(pattern, fn);
 
@@ -131,6 +133,8 @@ function render(match, { dir, refresh } = {}) {
     const hit = Object.keys(REDIRECT).find((k) => raw === k || raw.startsWith(k + '/') || raw.startsWith(k + '?'));
     router.go(hit ? raw.replace(hit, REDIRECT[hit]) : '/', { replace: true }); return;
   }
+  // Primo avvio (amici): una volta sola la pagina di benvenuto
+  if (match.path === '/' && !progress.settings().welcomeSeen) { router.go('/benvenuto', { replace: true }); return; }
   if (!refresh) { trackPos(); closeSheet(); }
   currentRender = () => render(router.parse() || match, { refresh: true });
   const out = match.route.handler(match.params, match.query);
@@ -220,6 +224,7 @@ function bindGlobal() {
   trofei.bind(root, rerender);
   armi.bind(root, rerender);
   meccaniche.bind(root, rerender);
+  benvenuto.bind(root);
   let qt = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   let mq = null;

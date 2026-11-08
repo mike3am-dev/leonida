@@ -12,15 +12,6 @@
       "description": "Oltre 170 specie: si studiano come in RDR2 e finiscono in una checklist, senza doverle uccidere. Tre livelli: Rare, Scopribili, Leggendarie (identità segrete). Ci sono anche le specie invasive: iguane, rospi, gatti selvatici, macachi. Pesca compresa."
     },
     {
-      "id": "cat-ex-a",
-      "name": "ESEMPIO — Categoria A",
-      "icon": "star",
-      "status": "segnaposto",
-      "source": "gioco-mike",
-      "spoilerLevel": 0,
-      "example": true
-    },
-    {
       "id": "cat-relitti",
       "name": "Relitti e tesori sommersi",
       "icon": "star",
@@ -1646,20 +1637,6 @@
       "trivia": [
         "Al Vice City Oceanarium c'è un'orca, Makenzi: compare sul camion pubblicitario dell'acquario."
       ]
-    },
-    {
-      "id": "col-ex-001",
-      "categoryId": "cat-ex-a",
-      "name": "ESEMPIO — Oggetto 1",
-      "districtId": "dis-vice-city",
-      "directions": "Indicazioni di esempio. Qui scriverai come trovarlo, con punti di riferimento.",
-      "reward": "Ricompensa di esempio",
-      "image": null,
-      "status": "segnaposto",
-      "source": "gioco-mike",
-      "spoilerLevel": 0,
-      "example": true,
-      "updatedAt": "2026-11-05"
     },
     {
       "image": null,

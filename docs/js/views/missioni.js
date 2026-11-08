@@ -8,6 +8,7 @@ import * as progress from '../store/progress.js';
 import { esc, statusChip, protagonistChip, pad2, toast } from '../ui/dom.js';
 import { sectionHead, backLink, row, acc, hero, vis, sectionOf, missionActLabel , extrasHtml} from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { openMissionRecap } from './diario.js';
 
 const section = sectionOf('missioni');
 
@@ -85,6 +86,20 @@ function index() {
         }).join('')}</div></div>`; }).join('')}</div>`;
 }
 
+/* Scheda da campo: chi te la dà, obiettivi a schermo, timbro «Scelta senza ritorno». Si vede solo ciò che è pieno. */
+function stampHtml(m) {
+  return m.choice?.irreversible ? `<div class="noreturn" role="note"><b>Scelta senza ritorno</b><span>Salva prima di iniziare: in questa missione prendi una decisione che non si può cambiare.</span></div>` : '';
+}
+function fieldCard(m) {
+  const c = m.contact ? (byId(m.contact) ? `<a href="#/personaggi/${esc(m.contact)}">${esc(byId(m.contact).name)}</a>` : esc(m.contact)) : '';
+  const obj = (m.objectives || []).filter(Boolean);
+  if (!c && !obj.length) return '';
+  return `<div class="card field-card">
+    ${c ? `<div class="field-card__row"><span class="kicker">Chi te la dà</span><span class="field-card__val">${c}</span></div>` : ''}
+    ${obj.length ? `<span class="kicker">Cosa devi fare</span><ol class="field-card__obj">${obj.map((o) => `<li>${esc(o)}</li>`).join('')}</ol>` : ''}
+  </div>`;
+}
+
 function detail(m) {
   const st = progress.get();
   const state = st.missions[m.id]?.state;
@@ -107,6 +122,7 @@ function detail(m) {
     return `
     ${backLink('/missioni', 'Missioni')}
     <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(actLabel)} · Missione ${pad2(idx)}</span><h1>Bloccata</h1><p class="lede">Nome, luogo e personaggi restano nascosti finché non la cominci. Niente spoiler.</p></div></div>
+    ${stampHtml(m)}
     <div class="actions">
       <button class="btn btn--solid" data-mission="${esc(m.id)}" data-set="in-corso"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizio adesso: rivela</button>
       <button class="btn btn--ghost" data-mission="${esc(m.id)}" data-set="completata">L'ho già fatta</button>
@@ -116,6 +132,8 @@ function detail(m) {
   return `
     ${backLink('/missioni', 'Missioni')}
     ${hero(m, { kicker: `${esc(actLabel)} · Missione ${pad2(idx)}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
+    ${state === 'completata' ? '' : stampHtml(m)}
+    ${fieldCard(m)}
     <div class="prose">${(() => {
       const sum = m.summary || 'Nessun riassunto ancora.';
       // Missione in corso: si legge solo l'inizio, il resto sta dietro l'avviso
@@ -165,7 +183,9 @@ export function bind(root, rerender) {
       if (b.dataset.set === 'completata') {
         const list = vis(db.missions), i = list.findIndex((x) => x.id === b.dataset.mission);
         const nx = list.slice(i + 1).find((x) => !progress.get().missions[x.id]?.state);
-        toast('Missione completata', nx ? { action: 'Vai alla prossima', ms: 7000, onAction: () => { location.hash = `#/missioni/${nx.id}`; } } : {});
+        const done = () => toast('Missione completata', nx ? { action: 'Vai alla prossima', ms: 7000, onAction: () => { location.hash = `#/missioni/${nx.id}`; } } : {});
+        // Mike (strumenti del curatore): tre domande da un tocco che finiscono nel Pacchetto per Claude
+        if (progress.settings().creatorTools) openMissionRecap(byId(b.dataset.mission), done); else done();
       }
       return;
     }

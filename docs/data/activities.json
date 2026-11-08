@@ -259,22 +259,6 @@
       "group": "Lavoretti e crimini"
     },
     {
-      "id": "act-ex-001",
-      "type": "side-quest",
-      "name": "ESEMPIO — Side quest",
-      "districtId": "dis-keys",
-      "description": "Voce di esempio per vedere il design delle attività nelle pagine dei distretti.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "image": null,
-      "status": "segnaposto",
-      "source": "gioco-mike",
-      "spoilerLevel": 0,
-      "example": true,
-      "updatedAt": "2026-11-05"
-    },
-    {
       "image": null,
       "status": "verificato",
       "source": "trailer",

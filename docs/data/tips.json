@@ -79,18 +79,6 @@
       "updatedAt": "2026-11-05"
     },
     {
-      "id": "tip-ex-1",
-      "category": "guida",
-      "title": "ESEMPIO — Consiglio di guida",
-      "body": "Voce di esempio. Qui finiranno i consigli veri che raccogli giocando: combattimento, soldi, guida, esplorazione.",
-      "priority": 99,
-      "status": "segnaposto",
-      "source": "gioco-mike",
-      "spoilerLevel": 0,
-      "example": true,
-      "updatedAt": "2026-11-05"
-    },
-    {
       "image": null,
       "status": "da verificare",
       "source": "community",

@@ -30,7 +30,6 @@ export function render() {
     </div>
     <div class="block"><span class="kicker">Contenuti</span>
       ${sw('creatorTools', 'Strumenti del curatore', 'Mostra il «Pacchetto per Claude» negli Appunti: serve solo a chi aggiorna la guida.')}
-      ${sw('showExamples', 'Mostra le voci di prova', 'Voci finte per vedere la grafica piena. Lasciale spente.')}
     </div>
     <div class="block"><span class="kicker">Progressi</span>
       <p class="small muted">Salvati su: ${esc(progress.info.adapterName)}. Su iPhone la web app installata ha una memoria separata da Safari: fai un backup ogni tanto.</p>
@@ -44,7 +43,8 @@ export function render() {
       <dl class="facts">
         <dt>Versione</dt><dd>${esc(window.__LEONIDA_VERSION__ || '')} · contenuti aggiornati il ${esc(db.meta.updatedAt)}</dd>
       </dl>
-      <button class="btn btn--ghost" type="button" data-check-update style="margin-top:var(--s-3)">Cerca aggiornamenti</button>
+      <div class="btn-row" style="margin-top:var(--s-3)"><a class="btn btn--ghost" href="#/benvenuto">Come funziona</a>
+      <button class="btn btn--ghost" type="button" data-check-update>Cerca aggiornamenti</button></div>
     </div>`;
 
   const right = `<div class="chapter-head"><span class="kicker">Cosa è cambiato</span><h1>Novità</h1></div>
