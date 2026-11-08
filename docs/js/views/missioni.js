@@ -13,10 +13,7 @@ import { openMissionRecap } from './diario.js';
 const section = sectionOf('missioni');
 
 /** La missione è visibile se in corso o completata (o se il modo spoiler è spento) */
-export function isRevealed(m) {
-  const s = progress.get().missions[m.id]?.state;
-  return !!s || !progress.settings().spoilerShield;
-}
+export function isRevealed(m) { return spoiler.missionRevealed(m); }
 /** Il capitolo è «aperto» se contiene una missione in corso o completata */
 function chapterState(a, missions) {
   const st = progress.get();
@@ -161,7 +158,7 @@ function detail(m) {
           <div class="check__body"><div class="check__title">${esc(o.label)}</div></div>
         </div>`; }).join('')}</div>` : ''}
     <div class="block">
-      ${acc('Prerequisiti e sblocchi', `<div class="prose">${m.prerequisites?.length ? `<p class="kicker">Richiede</p><ul>${m.prerequisites.map((id) => { const p = byId(id); return `<li><a href="#/missioni/${esc(id)}">${esc(p?.title || id)}</a></li>`; }).join('')}</ul>` : '<p class="muted small">Nessun prerequisito.</p>'}<p class="kicker">Sblocca</p>${list(m.unlocks, 'Nulla di noto.')}</div>`, true)}
+      ${acc('Prerequisiti e sblocchi', `<div class="prose">${m.prerequisites?.length ? `<p class="kicker">Richiede</p><ul>${m.prerequisites.map((id) => { const p = byId(id); return `<li><a href="#/missioni/${esc(id)}">${esc(p ? spoiler.missionName(p, 'Una missione precedente') : id)}</a></li>`; }).join('')}</ul>` : '<p class="muted small">Nessun prerequisito.</p>'}<p class="kicker">Sblocca</p>${list((m.unlocks || []).map((u) => (u?.type === 'mission' && u.ref && byId(u.ref) && !spoiler.missionRevealed(byId(u.ref))) ? 'Una nuova missione' : u), 'Nulla di noto.')}</div>`, true)}
       ${acc('Ricompense', `<div class="prose">${list(m.rewards, 'Nessuna registrata.')}</div>`)}
       ${acc('Consigli', `<div class="prose">${list(m.tips, 'Nessun consiglio ancora: aggiungili dopo averla giocata.')}</div>`)}
       ${acc('Segreti', m.secrets?.length ? spoiler.wrap(m, `<div class="prose">${list(m.secrets)}</div>`, 'Segreti') : '<p class="muted small">Nessun segreto registrato.</p>')}

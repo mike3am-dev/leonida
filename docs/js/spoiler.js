@@ -22,9 +22,18 @@ export function currentAct() {
 
 /** Modalità vergine: nasconde anche i personaggi non ancora incontrati, le teorie e i dettagli di trama nella ricerca */
 export function virgin() { return !!progress.settings().virginMode; }
+/** Regola unica: il nome di una missione si vede solo se l'hai iniziata o completata (o se lo scudo è spento). */
+export function missionRevealed(m) {
+  if (!m) return false;
+  return !!progress.get().missions[m.id]?.state || !progress.settings().spoilerShield;
+}
+/** Nome della missione o «Missione bloccata» */
+export function missionName(m, locked = 'Missione bloccata') { return missionRevealed(m) ? m.title : locked; }
+
 export function isHidden(item) {
   if (virgin() && item?._type === 'teoria') return true;
   if (!progress.settings().spoilerShield) return false;
+  if (item?._type === 'mission' && !missionRevealed(item)) return true;
   const lvl = Number(item?.spoilerLevel || 0);
   return lvl > currentAct();
 }

@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.24.0",
+  "dataVersion": "0.24.1",
   "updatedAt": "2026-11-08",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.24.1",
+      "date": "2026-11-08",
+      "changes": [
+        "Scudo spoiler più robusto: il nome di una missione si vede solo dopo che l'hai iniziata, anche nella ricerca, negli Appunti, nelle schede dei personaggi e dei collezionabili."
+      ]
+    },
     {
       "version": "0.24.0",
       "date": "2026-11-08",

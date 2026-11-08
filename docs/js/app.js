@@ -25,7 +25,7 @@ import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
 
-window.__LEONIDA_VERSION__ = 'v0.24.0';
+window.__LEONIDA_VERSION__ = 'v0.24.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;

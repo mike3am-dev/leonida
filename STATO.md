@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.24.0** (dati 0.24.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.24.1** (dati 0.24.1). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -111,6 +111,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Tolte tutte le voci ESEMPIO (6) e l'interruttore «voci di prova».
 - `scripts/importa-trofei.mjs`: lista ufficiale in TSV → trophies.json (tiene id e categorie dove il nome coincide).
 - Routine **«giro guide»** in CLAUDE.md: fonti per tipo di dato, verificate raggiungibili l'8/11.
+- v0.24.1 — **regola unica sui nomi delle missioni**: `spoiler.missionRevealed(m)` / `spoiler.missionName(m)` in `docs/js/spoiler.js`. Il nome si vede solo se la missione è iniziata/completata o lo scudo è spento: ricerca (le missioni bloccate non compaiono), menu dell'Appunto, Pacchetto per Claude (solo missioni e capitoli sbloccati), «Prima apparizione» dei personaggi, missioni collegate dei collezionabili, prerequisiti e «Sblocca» («Una nuova missione»). Ogni vista nuova che mostra un titolo di missione DEVE passare da `missionName`.
 - Rimandati per scelta (dall'arbitro): colpi/lavagna, pagina 100%, proprietà, passi delle missioni, soglie medaglie. Dalla 2ª settimana: «Ordina per» in Garage e Armi.
 
 ## 5. Aree da tenere d'occhio / debito

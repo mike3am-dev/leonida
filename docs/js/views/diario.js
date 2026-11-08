@@ -4,6 +4,7 @@ import * as progress from '../store/progress.js';
 import { esc, fmtDate, fmtTime, relTime, toast } from '../ui/dom.js';
 import { showSheet, closeSheet } from '../ui/sheet.js';
 import { sectionHead, acc, vis, sectionOf, currentMission } from './shared.js';
+import * as spoiler from '../spoiler.js';
 
 const section = sectionOf('diario');
 
@@ -45,7 +46,7 @@ export function render(params, query) {
 function noteHtml(n) {
   const m = n.missionId ? byId(n.missionId) : null, d = n.districtId ? byId(n.districtId) : null;
   return `<div class="note" data-note="${esc(n.id)}">
-    <div class="note__time">${fmtTime(n.ts)}${m ? ` · <a href="#/missioni/${esc(m.id)}">${esc(m.title)}</a>` : ''}${d ? ` · <a href="#/mappa/${esc(d.id)}">${esc(d.name)}</a>` : ''}${n.exported ? ' · <span class="chip chip--verificato">inviato</span>' : ''}</div>
+    <div class="note__time">${fmtTime(n.ts)}${m ? ` · <a href="#/missioni/${esc(m.id)}">${esc(spoiler.missionName(m))}</a>` : ''}${d ? ` · <a href="#/mappa/${esc(d.id)}">${esc(d.name)}</a>` : ''}${n.exported ? ' · <span class="chip chip--verificato">inviato</span>' : ''}</div>
     <div class="note__text">${esc(n.text)}</div>
     <div class="note__actions"><button class="icon-btn" type="button" data-del-note="${esc(n.id)}" aria-label="Elimina appunto"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div>
   </div>`;
@@ -53,11 +54,11 @@ function noteHtml(n) {
 
 export function buildPacket(notes) {
   const ids = {
-    missioni: db.missions.map((m) => `${m.id} «${m.title}»`),
+    missioni: db.missions.filter((m) => spoiler.missionRevealed(m)).map((m) => `${m.id} «${m.title}»`),
     distretti: db.districts.map((d) => `${d.id} «${d.name}»`),
     categorie: db.collectibleCategories.map((c) => `${c.id} «${c.name}»`),
     personaggi: db.characters.map((c) => `${c.id} «${c.name}»`),
-    atti: db.acts.map((a) => `${a.id} (${a.number}) «${a.title}»`),
+    atti: db.acts.filter((a) => a.number <= spoiler.currentAct()).map((a) => `${a.id} (${a.number}) «${a.title}»`),
   };
   const cur = currentMission();
   const payload = notes.map((n) => ({ id: n.id, quando: n.ts, distretto: n.districtId, missione: n.missionId, testo: n.text, ...(n.kind ? { tipo: n.kind, campi: n.fields } : {}) }));
@@ -68,7 +69,8 @@ Istruzioni per Claude:
 1. Trasforma gli appunti qui sotto in voci dei file docs/data/*.json (missions, districts, collectibles, activities, characters, radio, brands, vehicles, weapons, trophies, tips, news).
 2. Riusa gli id esistenti quando l'appunto parla di qualcosa che c'è già; crea id nuovi con i prefissi mis-/dis-/poi-/col-/act-/chr-/rad-/brd-/veh-/wpn-/tro-/tip-/new-.
 3. Ogni voce ha status ("da verificare" per gli appunti di Mike, "verificato" solo se confermo), source "gioco-mike", spoilerLevel = numero dell'atto dopo il quale si può leggere, example false, updatedAt di oggi.
-4. Non inventare nulla oltre agli appunti. Se un appunto è ambiguo o contiene «?», chiedimi.
+4. Qui sotto ci sono solo le missioni e i capitoli che ho già sbloccato (niente spoiler): le altre le trovi in docs/data/missions.json, ma non nominarmele.
+4b. Non inventare nulla oltre agli appunti. Se un appunto è ambiguo o contiene «?», chiedimi.
 5. Gli appunti con tipo "scheda-missione" sono il riepilogo fatto a fine missione: campi.contatto → missions.contact (id del personaggio se esiste, altrimenti il nome), campi.distretto → missions.districtId, campi.scelta true → missions.choice = {"irreversible": true}. Il personaggio-contatto e i personaggi citati prendono firstMissionId se non l'hanno.
 6. Restituisci solo i blocchi JSON da inserire/sostituire, indicando file e posizione, poi aggiorna meta.json (dataVersion, changelog).
 
@@ -104,7 +106,7 @@ export function openNoteSheet(ctx = {}) {
   body.innerHTML = `
     <label class="field"><span>Appunto</span><textarea class="textarea" name="text" placeholder="Es. «Dietro il distributore a nord della marina c'è una cassa. Ricompensa: …?»" required autocomplete="off"></textarea></label>
     <div class="grid-2">
-      <label class="field"><span>Missione</span><select class="select" name="missionId"><option value="">— nessuna —</option>${vis(db.missions).map((m) => `<option value="${esc(m.id)}" ${m.id === missionId ? 'selected' : ''}>${esc(m.title)}</option>`).join('')}</select></label>
+      <label class="field"><span>Missione</span><select class="select" name="missionId"><option value="">— nessuna —</option>${vis(db.missions).filter((m) => spoiler.missionRevealed(m)).map((m) => `<option value="${esc(m.id)}" ${m.id === missionId ? 'selected' : ''}>${esc(m.title)}</option>`).join('')}</select></label>
       <label class="field"><span>Zona</span><select class="select" name="districtId"><option value="">— nessuna —</option>${vis(db.districts).map((d) => `<option value="${esc(d.id)}" ${d.id === districtId ? 'selected' : ''}>${esc(d.name)}</option>`).join('')}</select></label>
     </div>
     <button class="btn btn--accent btn--block" type="submit">Salva negli Appunti</button>`;

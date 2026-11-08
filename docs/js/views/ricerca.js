@@ -22,7 +22,7 @@ function resultsHtml(results, q) {
   if (!q) return '<p class="muted small">Scrivi almeno due lettere.</p>';
   if (!results.length) return `<div class="placeholder"><strong>Nessun risultato</strong>Niente per «${esc(q)}». Prova con un'altra parola.</div>`;
   const virgin = spoiler.virgin();
-  return results.filter((r) => !(virgin && r.item._type === 'character' && !isMet(r.item))).map((r) => {
+  return results.filter((r) => !(virgin && r.item._type === 'character' && !isMet(r.item)) && !(r.item._type === 'mission' && !spoiler.missionRevealed(r.item))).map((r) => {
     const hidden = spoiler.isHidden(r.item);
     // in modalità vergine si vedono solo i titoli: gli estratti possono raccontare la trama
     if (virgin && !hidden) r = { ...r, snippet: '' };

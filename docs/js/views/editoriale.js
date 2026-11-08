@@ -47,7 +47,7 @@ export function renderPersonaggi(params, query = {}) {
       ${galleryHtml(c)}
       ${c.insight ? `<div class="block">${acc('Approfondimento', `<div class="prose prose--guide">${spoiler.wrap(c, insightHtml(c.insight))}${tableHtml(c.summaryTable)}<p class="source-line">Tradotto da <a href="${esc(c.insightUrl || 'https://vice-central.com/personnages/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
       ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="threads"><a class="thread thread--me" href="#/personaggi/${esc(c.id)}"><span class="thread__ava">${c.image ? `<img src="${esc(c.image)}" alt="">` : monogram(c)}</span><span class="thread__name">${esc(c.name.split(' ')[0])}</span></a>${c.relations.map((id) => { const r = byId(id); return r ? `<a class="thread" href="#/personaggi/${esc(id)}"><span class="thread__ava">${r.image ? `<img src="${esc(r.image)}" alt="">` : monogram(r)}</span><span class="thread__name">${esc(r.name.split(' ')[0])}</span><span class="thread__role">${esc((r.role || '').slice(0, 28))}</span></a>` : ''; }).join('')}</div></div>` : ''}
-      ${c.firstMissionId ? `<div class="block"><span class="kicker">Prima apparizione</span><a class="btn" href="#/missioni/${esc(c.firstMissionId)}">${esc(byId(c.firstMissionId)?.title || c.firstMissionId)}</a></div>` : ''}
+      ${c.firstMissionId ? `<div class="block"><span class="kicker">Prima apparizione</span><a class="btn" href="#/missioni/${esc(c.firstMissionId)}">${esc(byId(c.firstMissionId) ? spoiler.missionName(byId(c.firstMissionId)) : 'Missione bloccata')}</a></div>` : ''}
       ${fonte(c)}`;
     return { left: '', right, show: 'right', accent: secP.accent, title: c.name };
   }

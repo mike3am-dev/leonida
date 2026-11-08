@@ -88,7 +88,7 @@ function stickerSheet(c) {
     ${sec('Razze e varianti', c.varieties?.length ? `<ul class="flist">${c.varieties.map((v) => `<li><b>${esc(v.name)}</b>${v.note ? `<span>${esc(v.note)}</span>` : ''}</li>`).join('')}</ul>` : '')}
     ${sec('Foto', c.photos?.length ? `<div class="fphotos">${c.photos.map((p) => `<figure><span>${stickerImg(p, p.focus)}</span><figcaption>${esc(p.caption || '')}</figcaption></figure>`).join('')}</div>` : '')}
     ${sec('Dove è stato visto', c.seen?.length ? `<ul class="flist">${c.seen.map((v) => `<li><b>${esc(v.where)}</b><span>${esc(v.what)}</span></li>`).join('')}</ul>` : '')}
-    ${sec('Missioni collegate', c.missions?.length ? `<ul class="flist">${c.missions.map((m) => `<li>${esc(typeof m === 'string' ? (byId(m)?.title || m) : m.title || '')}</li>`).join('')}</ul>` : '')}
+    ${sec('Missioni collegate', c.missions?.length ? `<ul class="flist">${c.missions.map((m) => `<li>${esc(typeof m === 'string' ? (byId(m) ? spoiler.missionName(byId(m)) : m) : m.title || '')}</li>`).join('')}</ul>` : '')}
     ${sec('Lo sapevi?', c.trivia?.length ? `<ul class="flist flist--tips">${c.trivia.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : '')}`
     : `<p class="small">${spoiler.text(c, c.directions || 'Nessun dettaglio ancora.')}</p>`}
     ${c.reward ? sec('Ricompensa', `<p>${esc(c.reward)}</p>`) : ''}`;
