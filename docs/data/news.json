@@ -2,6 +2,152 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261109-the-festival-miami",
+      "date": "2026-11-09",
+      "title": "Grand Theft Auto VI: The Festival, concerto a Miami il 21 novembre con Travis Scott, Cardi B e Justice",
+      "body": "Cos'è: un evento dal vivo presentato da Rockstar Games e PlayStation per festeggiare l'uscita, sabato 21 novembre, due giorni dopo il lancio. Si tiene a Mana Wynwood (318 NW 23rd Street, Miami), su due palchi con musica senza pause, prodotto dalla squadra del festival III Points.\n\nIl cartellone: Cactus Jack presenta Travis Scott, con Don Toliver, Kodak Black e SoFaygo; Cardi B; Justice (DJ set); Metro Boomin; Ca7riel & Paco Amoroso; Rauw & Friends; Suero; Tainy; Nick León B2B DJ Python; Prospa B2B Skream; The Dare B2B Fcukers (DJ set). Sono artisti del gioco e di «The Album».\n\nBiglietti: niente vendita libera, solo una lotteria sulla pagina ufficiale. Iscrizioni fino a martedì 10 novembre alle 22:00 italiane, estrazione nella notte, vendita ai vincitori su DICE da mercoledì 11 alle 18:00. Massimo due biglietti a testa, nominativi e non cedibili; serve un account DICE con la stessa e-mail e lo stesso numero di telefono dell'iscrizione. Prezzo non comunicato.\n\nRegole: ingresso dai 17 anni, alcol dai 21, documento obbligatorio (per gli stranieri il passaporto); niente parcheggio, controlli come in aeroporto, vietati pistole giocattolo, costumi da poliziotto, droni e macchine fotografiche professionali. Nessuna diretta annunciata.",
+      "topic": "musica",
+      "outlet": "Rockstar Games",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://www.rockstargames.com/VI/gtavi-thefestival",
+      "relatedIds": [
+        "brd-the-album",
+        "brd-score-justice",
+        "chr-travis-scott",
+        "new-20261104-club-space-the-vault",
+        "new-20261106-miami-heat-svelate-le-maglie-vice-city-d",
+        "new-20261009-cardi-b-e-fuerza-regida"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-preload-nuova-zelanda-209-gb",
+      "date": "2026-11-09",
+      "title": "Preload partito in Nuova Zelanda: su PS5 si scaricano 209,8 GB, in Italia si comincia a mezzanotte",
+      "body": "Alle 12:00 italiane del 9 novembre la Nuova Zelanda è stata la prima a entrare nel 10 novembre e il download anticipato su PS5 si è aperto lì, seguito dall'Australia. La schermata mostra 209,75 GB da scaricare, 212 GB una volta installato; su Xbox il download è di circa 225 GB.\n\nGli orari italiani su PS5 seguono i fusi dei negozi: Thailandia alle 18:00, India alle 19:30, Turchia alle 22:00, Europa dell'Est alle 23:00, Italia e resto dell'Europa occidentale a mezzanotte, Regno Unito all'1:00, costa est degli Stati Uniti alle 6:00. Su Xbox l'apertura è unica per tutto il mondo, all'1:00 italiana.\n\nIl preload non permette di giocare: il gioco resta bloccato fino alla mezzanotte del 19. La cifra riguarda il «contenuto necessario per iniziare a giocare»: una patch del giorno uno può aggiungersi, quindi conviene tenere liberi circa 230 GB. Chi ha comprato su Xbox la scatola con codice può avviare il download dall'app Xbox sul telefono prima di inserire il codice.",
+      "topic": "uscita",
+      "outlet": "GTA BOOM / Rockstar Intel / Vice Central",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://rockstarintel.com/gta-6-pre-load-begins-rolling-out-updated-install-size-revealed/",
+      "relatedIds": [
+        "tip-preload",
+        "tip-preload-it",
+        "new-20261103-preload",
+        "new-20261109-preload-ps5-quattro-extra"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-dati-preload-ps5-pro",
+      "date": "2026-11-09",
+      "title": "Dai dati del preload: PSSR più recente e ray tracing dedicato su PS5 Pro, 120 Hz dichiarati ma niente VRR",
+      "body": "Appena aperto il preload, i dataminer Tex2 e Lucas7yoshi hanno letto le informazioni tecniche che Sony pubblica per distribuire il gioco. Non sono annunci Rockstar: dicono cosa il gioco dichiara alla console, non per forza cosa si vedrà.\n\nPS5 Pro: il gioco usa la versione 13.60 del PSSR, l'upscaling di Sony (Cyberpunk 2077 e Assassin's Creed Shadows usano la 13.00A); nessuna traccia del QSSR. Il nucleo del gioco esiste in due varianti, «bvh4» e «bvh8»: la seconda è una struttura per il ray tracing sfruttabile solo su PS5 Pro, quindi riflessi e luci dovrebbero essere più definiti lì. Segnalata anche la modalità CPU ad alta frequenza della Pro.\n\nFluidità: è dichiarato il supporto a un'uscita a 120 Hz, che permetterebbe per esempio una modalità a 40 fps, ma Rockstar ha sempre parlato solo di 30 fps. Il VRR non c'è: potrebbe arrivare con un aggiornamento.\n\nCome è diviso il gioco: i 32 blocchi di download PlayGo pesano soprattutto per il mondo di gioco («Levels», 64,5 GiB), le texture (53,4 GiB) e l'audio (22,2 GiB); i filmati 8,2 GiB. La storia («story000», circa 18 GiB) è separata dal nucleo comune, e il futuro online dovrebbe esserlo allo stesso modo: storia e online si potranno installare o disinstallare a parte, come in Red Dead Redemption 2.",
+      "topic": "tecnica",
+      "outlet": "Rockstar Intel / Vice Central / Insider Gaming",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://rockstarintel.com/new-gta-6-ps5-and-ps5-pro-features-datamined/",
+      "relatedIds": [
+        "new-20261104-playstation-france-ha-mostrato-per-error",
+        "new-20261001-qssr",
+        "new-20261103-60fps",
+        "new-20261109-preload-ps5-quattro-extra",
+        "tip-online"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-contenuti-resto-del-mondo",
+      "date": "2026-11-09",
+      "title": "Versioni regionali: 1,5 GB di contenuti «resto del mondo» mancano in Giappone, un frammento anche in Australia",
+      "body": "Tre blocchi dei file PS5 si chiamano «restofworld» e pesano in tutto circa 1,46 GiB: secondo il dataminer Tex2 sono contenuti tolti da alcune versioni regionali, a partire da quella giapponese, che su entrambe le console pesa oltre un gigabyte in meno. Più tardi è emerso che anche la versione per Australia e Nuova Zelanda non ha il blocco «core_restofworld001», però minuscolo (704 KiB). Non si sa cosa contengano né se siano tagli chiesti dalle commissioni di classificazione. La versione europea, e quindi quella italiana, corrisponde a quella completa.",
+      "topic": "tecnica",
+      "outlet": "Vice Central / Video Games Chronicle",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://vice-central.com/gta-vi-donnees-prechargement-ps5-pro-pssr-censure/",
+      "relatedIds": [
+        "new-20261109-giappone-versione-tagliata",
+        "new-20261107-xbox-225-gb-tre-versioni"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-musica-home-ps5",
+      "date": "2026-11-09",
+      "title": "Circola la musica della schermata Home PS5 di GTA VI: c'è chi ci sente Woody Jackson",
+      "body": "È la traccia d'atmosfera che accompagna il logo animato del gioco nella Home della PS5, finora sentita solo da chi aveva il tema attivo. Una registrazione è stata pubblicata su X e confermata con l'apertura del preload. Il suono ricorda il lavoro di Woody Jackson, autore delle musiche di GTA V, ma Rockstar non ha indicato l'autore: lo diranno i titoli di coda. Le musiche originali del gioco sono firmate da Justice.",
+      "topic": "musica",
+      "outlet": "GTA BOOM / Rockstar Intel / Everyeye.it",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://www.gtaboom.com/home-screen-music-of-gta-6-on-ps5-leaks-ahead-of-november-10-pre-load-8809",
+      "relatedIds": [
+        "brd-score-justice"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-cheetah-vera-un-milione",
+      "date": "2026-11-09",
+      "title": "La Grotti Cheetah vera è in vendita da Selfridges per 1 milione di sterline, e GTA VI arriva nella metropolitana di Londra",
+      "body": "La replica guidabile costruita da West Coast Customs per Rockstar, esposta nel Corner Shop di Selfridges dopo il volo da Miami di domenica, è in vendita a 1 milione di sterline (circa 1,14 milioni di euro), solo su appuntamento con il servizio Personal Shopping. È presentata come uno dei due esemplari al mondo: V8 aspirato da 4,9 litri in posizione centrale, assetto ribassato su gomme da pista, vernice sfumata «Vice City» e interni in pelle italiana cuciti su misura. Per il lancio di GTA V la stessa officina aveva costruito una Bravado Banshee, regalata a un fan con un concorso.\n\nNovità sul negozio: resta aperto fino al 28 novembre, con riassortimenti di tanto in tanto; massimo sei articoli a persona e senza doppioni; è l'unico negozio del Regno Unito con il cofanetto da collezione in vendita al banco. Una parte della linea (cappellini, magliette) è anche nei Selfridges di Manchester e Birmingham, senza allestimento. Online è tutto esaurito.\n\nLo stesso giorno sugli schermi della metropolitana di Londra è comparsa la copertina di lancio con la data del 19 novembre e la scritta «Plays best on PS5».",
+      "topic": "community",
+      "outlet": "Rockstar Intel / Vice Central",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://rockstarintel.com/real-life-gta-6-grotti-cheetah-on-sale-for-1m/",
+      "relatedIds": [
+        "new-20261109-selfridges-aperto",
+        "new-20261106-west-coast-customs-sei-auto",
+        "new-20261106-affissioni-londra-parigi",
+        "veh-grotti-cheetah-95"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-australia-niente-malattia-finta",
+      "date": "2026-11-09",
+      "title": "Australia, l'ispettorato del lavoro: per GTA VI chiedete le ferie, non la malattia",
+      "body": "Dopo un primo post su come chiedere un permesso non retribuito per l'uscita, il Fair Work Ombudsman australiano è tornato sull'argomento su Instagram: la malattia è solo per chi sta davvero male e il datore di lavoro può chiedere un certificato medico o una dichiarazione giurata. Chi si mette in malattia senza poterlo dimostrare rischia provvedimenti disciplinari; la strada più sicura restano le ferie concordate in anticipo.",
+      "topic": "community",
+      "outlet": "GTA BOOM",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://www.gtaboom.com/fair-work-ombudsman-follows-up-igta-6-leave-advice-with-a-sickie-warning-8cdb",
+      "relatedIds": [
+        "new-20261107-bildungsurlaub",
+        "new-20261109-cara-delevingne-due-settimane"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
+      "id": "new-20261109-leak-programmi-tv",
+      "date": "2026-11-09",
+      "title": "Leak: i titoli di due programmi della TV di Leonida, un poliziesco e la sitcom «TJS»",
+      "body": "Un utente di X ha pubblicato quelle che dice essere le liste dei brani e delle scene di quasi tutti i programmi televisivi del gioco. Il primo è un poliziesco senza nome con 30 musiche, 18 delle quali nella lista, con titoli come «FIB Wide Sweep», «Henhouse Is Seized», «Badger Raid in Seventy Nine» e «Best Policing Is No Policing». Il secondo è una sitcom chiamata «TJS», con personaggi di nome Hugh, Mia, Clint, Wanda, Willy e Butch e la solita comicità volgare della serie. Non si sa da dove arrivino i dati e Rockstar non ha confermato nulla.",
+      "topic": "gameplay",
+      "outlet": "TwistedVoxel",
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "sourceUrl": "https://twistedvoxel.com/gta-vi-in-game-tv-shows-leak/",
+      "relatedIds": [
+        "brd-weazel",
+        "brd-goodtime-state"
+      ],
+      "updatedAt": "2026-11-09"
+    },
+    {
       "id": "new-20261109-selfridges-aperto",
       "date": "2026-11-09",
       "title": "Selfridges si trasforma in Vice City: 60 articoli in vendita, esauriti in meno di un'ora",
@@ -22,7 +168,20 @@
         "veh-grotti-cheetah-95"
       ],
       "updatedAt": "2026-11-09",
-      "example": false
+      "example": false,
+      "body_replace": [
+        [
+          "Non è stata comunicata una data di chiusura né il piano del negozio che la ospita.",
+          "Il negozio, nel Corner Shop di Selfridges, resta aperto fino al 28 novembre."
+        ],
+        [
+          "Non sono stati annunciati riassortimenti né spedizioni fuori dal Regno Unito.",
+          "In negozio arrivano riassortimenti di tanto in tanto, con un massimo di sei articoli a persona e senza doppioni; nessuna spedizione fuori dal Regno Unito annunciata. Parte della linea è anche nei Selfridges di Manchester e Birmingham."
+        ]
+      ],
+      "relatedIds_add": [
+        "new-20261109-cheetah-vera-un-milione"
+      ]
     },
     {
       "id": "new-20261109-sony-avverte-trucco-nuova-zelanda",
@@ -273,16 +432,19 @@
       "id": "new-20261108-jelous-secondo-annuncio",
       "date": "2026-11-08",
       "title": "Jelous colpisce ancora: taggato un secondo annuncio di GTA VI dopo il murale di Brooklyn",
-      "body": "Il writer che aveva firmato il grande murale dipinto a mano a Williamsburg (Wythe Avenue angolo North 11th Street) ha taggato un'altra pubblicità del gioco. In un'intervista a Brick & Grit dice di essere cresciuto con GTA e di aver colpito una pubblicità, non un'opera d'arte; i fan sono divisi. Rockstar non ha commentato né detto se il murale sarà restaurato.",
+      "body": "Il writer che aveva firmato il grande murale dipinto a mano a Williamsburg (Wythe Avenue angolo North 11th Street) ha taggato un'altra pubblicità del gioco, questa volta a Miami: un cartellone Clear Channel «Welcome to Vice City» davanti al Kaseya Center, non la grande insegna sul tetto dell'arena. La firma «JELOUS» con la sigla della sua crew KTD copre l'angolo in basso a destra e morde la scritta «City». In un'intervista a Brick & Grit dice di essere cresciuto con GTA, di aver deciso sul momento e di aver colpito una pubblicità, non un'opera d'arte: «GTA celebra il caos, perché io no?». I fan sono divisi. Rockstar non ha commentato né detto se il murale sarà restaurato.",
       "topic": "community",
-      "outlet": "Dexerto",
+      "outlet": "Dexerto / Vice Central",
       "source": "community",
       "status": "da verificare",
       "spoilerLevel": 0,
-      "sourceUrl": "https://www.dexerto.com/gta/graffiti-artist-tags-another-gta-6-ad-after-brooklyn-mural-backlash-3425844/",
+      "sourceUrl": "https://vice-central.com/gta-vi-jelous-panneau-vice-city-miami-kaseya/",
       "relatedIds": [],
-      "updatedAt": "2026-11-08",
-      "example": false
+      "updatedAt": "2026-11-09",
+      "example": false,
+      "relatedIds_add": [
+        "new-20261105-murale-di-brooklyn"
+      ]
     },
     {
       "id": "new-20261108-polizia-greensboro",

@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.29.1",
+  "dataVersion": "0.29.2",
   "updatedAt": "2026-11-09",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.29.2",
+      "date": "2026-11-09",
+      "changes": [
+        "News della sera: «The Festival» a Miami il 21 novembre (Travis Scott, Cardi B, Justice, Metro Boomin; lotteria per i biglietti fino a domani alle 22), preload partito in Nuova Zelanda con le dimensioni vere, dati del preload su PS5 Pro, Selfridges aperto fino al 28 novembre con la Cheetah vera in vendita.",
+        "Preload: consiglio aggiornato con le dimensioni reali del download."
+      ]
+    },
     {
       "version": "0.29.1",
       "date": "2026-11-09",
