@@ -1857,3 +1857,19 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .havefilter { display: inline-flex; margin: 0 0 var(--s-3); }
 .havefilter a { text-decoration: none; white-space: nowrap; }
 .own-btn { min-height: 50px; }
+
+/* ---------- v0.29 · barra in basso che scorre, «Altro» fisso ---------- */
+@media (max-width: 599px) {
+  .tabbar { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: stretch; }
+  .tabbar__track { display: flex; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x proximity; scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+  .tabbar__track::-webkit-scrollbar { display: none; }
+  .tabbar__track .tab { flex: 0 0 calc((100vw - 76px) / 4.6); scroll-snap-align: start; }
+  .tab--more { width: 68px; border-left: var(--hair) solid var(--rule); }
+  /* Home allineata alle altre voci */
+  .tabbar .tab--home svg { width: 22px; height: 22px; margin-top: 0; }
+  .tabbar .tab--home span, .tabbar .tab--home[aria-current="page"] span { font-family: var(--font-text); font-style: normal; font-size: .6875rem; }
+}
+/* Bordi del telefono (Duo chiuso): un po' d'aria in più accanto agli elementi di sistema */
+.masthead { padding-right: calc(var(--safe-r) + var(--s-3)); padding-left: calc(var(--safe-l) + var(--s-4)); }
+.sheet-page { padding-right: calc(var(--safe-r) + var(--s-4)); padding-left: calc(var(--safe-l) + var(--s-4)); }

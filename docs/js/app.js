@@ -25,7 +25,7 @@ import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
 
-window.__LEONIDA_VERSION__ = 'v0.28.0';
+window.__LEONIDA_VERSION__ = 'v0.29.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -39,7 +39,7 @@ function applyTheme() {
 }
 
 function navHtml(activePath, forRail) {
-  const items = (forRail ? SECTIONS : SECTIONS.filter((s) => s.tab)).filter((s) => !s.hidden);
+  const items = SECTIONS.filter((s) => !s.hidden);
   const tabs = items.map((s) => {
     const active = activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path));
     const label = s.title;
@@ -48,8 +48,9 @@ function navHtml(activePath, forRail) {
       <svg aria-hidden="true"><use href="#n-${s.id}"/></svg><span>${esc(label)}</span></a>`;
   });
   if (!forRail) {
-    const moreActive = !SECTIONS.filter((s) => s.tab).some((s) => activePath === s.path || (s.path !== '/' && activePath.startsWith(s.path)));
-    tabs.push(`<a class="tab" href="#/altro" ${moreActive ? 'aria-current="page"' : ''}><svg aria-hidden="true"><use href="#n-altro"/></svg><span>Altro</span></a>`);
+    // Telefono: tutte le sezioni scorrono in orizzontale, «Altro» resta fisso a destra
+    const moreActive = activePath === '/altro';
+    return `<div class="tabbar__track" data-tabtrack>${tabs.join('')}</div><a class="tab tab--more" href="#/altro" ${moreActive ? 'aria-current="page"' : ''}><svg aria-hidden="true"><use href="#n-altro"/></svg><span>Altro</span></a>`;
   }
   return tabs.join('');
 }
@@ -179,7 +180,12 @@ function render(match, { dir, refresh } = {}) {
   lastKey = key; lastMatch = match;
 
   if (match.path.startsWith('/mappa') && !detail && (leftChanged || /[?&]punto=/.test(location.hash))) atlante.afterRender($('app'), { remount: leftChanged });
-  $('tabbar').innerHTML = navHtml(match.path, false);
+  { // la barra in basso mantiene lo scorrimento e porta in vista la sezione attiva
+    const prevX = $('tabbar').querySelector('[data-tabtrack]')?.scrollLeft || 0;
+    $('tabbar').innerHTML = navHtml(match.path, false);
+    const tr = $('tabbar').querySelector('[data-tabtrack]');
+    if (tr) { tr.scrollLeft = prevX; const a = tr.querySelector('[aria-current="page"]'); if (a && (a.offsetLeft < tr.scrollLeft || a.offsetLeft + a.offsetWidth > tr.scrollLeft + tr.clientWidth)) tr.scrollTo({ left: a.offsetLeft - (tr.clientWidth - a.offsetWidth) / 2, behavior: 'smooth' }); }
+  }
   $('rail').innerHTML = `${navHtml(match.path, true)}<span class="rail__spacer"></span>`;
   followBar(); kickImages();
 }
