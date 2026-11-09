@@ -161,3 +161,10 @@ export function extraChips(item) {
   return set.map((s) => `<span class="chip chip--src-${esc(s)}">${esc(XLAB[s] || '')}</span>`).join('');
 }
 export { isOpen, actNum };
+
+/** Filtro «Tutti · Ce l'ho · Mi mancano» (pillole, non tendina). href(v) costruisce il link con have=v */
+export function haveFilter(current, href, { yes = "Ce l'ho", no = 'Mi mancano', counts = null } = {}) {
+  const opt = (v, l, n) => `<a role="button" aria-pressed="${current === v}" href="${href(v)}">${l}${n != null ? ` <span class="muted">${n}</span>` : ''}</a>`;
+  return `<div class="segmented havefilter" role="group" aria-label="Filtro">${opt('', 'Tutti')}${opt('si', yes, counts?.[0])}${opt('no', no, counts?.[1])}</div>`;
+}
+export const passHave = (have, ok) => !have || (have === 'si' ? ok : !ok);

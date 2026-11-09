@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.27.0** (dati 0.27.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.28.0** (dati 0.28.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.

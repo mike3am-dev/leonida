@@ -71,9 +71,10 @@ export function toggleActivity(id) {
 }
 
 /* ---------- Preferiti ---------- */
-export function isFavorite(id) { return !!state.favorites?.[id]; }
-export function toggleFavorite(id) {
-  update((s) => { s.favorites = s.favorites || {}; if (s.favorites[id]) delete s.favorites[id]; else s.favorites[id] = true; });
+/** Ce l'ho: armi nello zaino (unico per Jason e Lucia), veicoli nel garage */
+export function isOwned(id) { return !!state.owned?.[id]; }
+export function toggleOwned(id) {
+  update((s) => { s.owned = s.owned || {}; if (s.owned[id]) delete s.owned[id]; else s.owned[id] = new Date().toISOString(); });
 }
 
 /* ---------- Trofei ---------- */

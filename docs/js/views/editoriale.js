@@ -1,7 +1,7 @@
 /** Personaggi, Radio, Mondo */
 import { db, byId } from '../data.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet , extrasHtml} from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet, extrasHtml, haveFilter, passHave } from './shared.js';
 import * as progress from '../store/progress.js';
 import * as spoiler from '../spoiler.js';
 
@@ -27,10 +27,12 @@ const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
 const monogram = (x) => { const h = HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length]; const ini = x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join(''); return `<span class="monogram" style="--h:${h}">${esc(ini.toUpperCase())}</span>`; };
 export function renderPersonaggi(params, query = {}) {
   const q = (query.q || '').toLowerCase().trim();
+  const have = query.have || '';
+  const met = (x) => isMet(x) || !!progress.get().discovered?.[x.id];
   // Modalità vergine: chi non hai ancora incontrato non compare
   const hidden = (x) => spoiler.virgin() && !x.isProtagonist && !isMet(x) && !progress.get().discovered?.[x.id];
   const nHidden = vis(db.characters).filter(hidden).length;
-  const chars = vis(db.characters).filter((x) => !hidden(x) && (!q || (x.name + ' ' + (x.role || '')).toLowerCase().includes(q)));
+  const chars = vis(db.characters).filter((x) => !hidden(x) && (!q || (x.name + ' ' + (x.role || '')).toLowerCase().includes(q)) && (x.isProtagonist || passHave(have, met(x))));
   const c = params.id ? byId(params.id) : null;
   if (c && hidden(c)) {
     return { left: '', right: `${backLink('/personaggi', 'Personaggi')}<div class="empty"><p><b>Non ancora incontrato.</b></p><p class="muted small">La modalità vergine tiene nascosti i personaggi finché non li incontri nel gioco. Puoi spegnerla in Impostazioni.</p></div>`, show: 'right', accent: secP.accent, title: 'Personaggi' };
@@ -65,6 +67,7 @@ export function renderPersonaggi(params, query = {}) {
   const left = `${sectionHead(secP, `${chars.length} schede`)}
     ${nHidden ? `<p class="muted small">${nHidden} ${nHidden === 1 ? 'personaggio nascosto' : 'personaggi nascosti'} finché non li incontri (modalità vergine).</p>` : ''}
     <input class="input" type="search" placeholder="Cerca un personaggio…" value="${esc(q)}" data-char-q aria-label="Cerca un personaggio" style="margin-bottom:var(--s-3)">
+    ${haveFilter(have, (v) => `#/personaggi${v ? '?have=' + v : ''}`, { yes: 'Incontrati', no: 'Da incontrare' })}
     ${q ? `<div class="cards">${chars.map(card).join('') || '<p class="muted small">Nessuno.</p>'}</div>` : `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
     <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel castboard__panel--static" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
     ${groupHtml}

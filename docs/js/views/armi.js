@@ -2,7 +2,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf , extrasHtml} from './shared.js';
+import { sectionHead, backLink, hero, row, galleryHtml, vis, sectionOf, extrasHtml, haveFilter, passHave } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { specSheet } from './specs.js';
 
@@ -55,12 +55,12 @@ export function wheel(counts, active, favs) {
 }
 
 function detail(it) {
-  const favs = progress.get().favorites || {};
+  const own = progress.isOwned(it.id);
   return `
     ${backLink('/armi' + (it.class && it.class !== 'equipaggiamento' ? '?cat=' + it.class : ''), 'Armi')}
     ${hero(it, { kicker: `${(SLICES.find(([k]) => k === it.class) || [])[1] || 'Equipaggiamento'}${it.manufacturer ? ' · ' + it.manufacturer : ''}`, title: it.name, chips: statusChip(it) })}
     <div class="actions">
-      <button class="btn ${favs[it.id] ? 'btn--accent' : 'btn--ghost'}" type="button" data-fav="${esc(it.id)}"><svg aria-hidden="true"><use href="#i-bookmark"/></svg>${favs[it.id] ? 'Nei preferiti' : 'Aggiungi ai preferiti'}</button>
+      <button class="btn ${own ? 'btn--accent' : 'btn--solid'} own-btn" type="button" data-own="${esc(it.id)}"><svg aria-hidden="true"><use href="#i-pack"/></svg>${own ? 'Nello zaino ✓' : 'Mettila nello zaino'}</button>
       <button class="btn btn--ghost" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Scheda in arrivo.')}</p>`)}</div>
@@ -79,23 +79,27 @@ export function render(params, query) {
   const it = params.id ? byId(params.id) : null;
   if (it) return { left: '', right: detail(it), show: 'right', accent: section.accent, title: it.name };
   const all = vis(db.weapons);
-  const favs = progress.get().favorites || {};
+  const favs = progress.get().owned || {};
   const cat = query.cat || '';
+  const have = query.have || '';
+  const nOwn = all.filter((w) => favs[w.id]).length;
+  const hv = (v) => { const p = new URLSearchParams(); if (cat) p.set('cat', cat); if (v) p.set('have', v); return `#/armi${p.toString() ? '?' + p : ''}`; };
   const counts = {}, fc = {};
   for (const w of all) { counts[w.class] = (counts[w.class] || 0) + 1; if (favs[w.id]) fc[w.class] = (fc[w.class] || 0) + 1; }
-  const weapons = all.filter((w) => w.class !== 'equipaggiamento' && (!cat || w.class === cat));
-  const gear = all.filter((w) => w.class === 'equipaggiamento');
+  const weapons = all.filter((w) => w.class !== 'equipaggiamento' && (!cat || w.class === cat) && passHave(have, favs[w.id]));
+  const gear = all.filter((w) => w.class === 'equipaggiamento' && passHave(have, favs[w.id]));
   const label = cat ? (SLICES.find(([k]) => k === cat) || [])[1] : 'Tutte le armi';
   const idx = SLICES.findIndex(([k]) => k === cat);
-  const list = (arr) => arr.map((w) => row({ href: `#/armi/${w.id}`, thumb: w.image, thumbFallback: w.imageUrl, icon: 'i-crosshair', title: esc(w.name), meta: `${esc(w.manufacturer || (SLICES.find(([k]) => k === w.class) || [])[1] || '')}${w.realModel ? ' · ' + esc(w.realModel) : ''}${srcBadge(w)}`, end: favs[w.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-bookmark"/></svg>' : '' })).join('');
-  const left = `${sectionHead(section, `${all.length} voci`)}
-    <p class="lede">Scegli uno spicchio, come nel gioco. Le armi che segni tra i preferiti riempiono lo spicchio.</p>
+  const list = (arr) => arr.map((w) => row({ href: `#/armi/${w.id}`, thumb: w.image, thumbFallback: w.imageUrl, icon: 'i-crosshair', title: esc(w.name), meta: `${esc(w.manufacturer || (SLICES.find(([k]) => k === w.class) || [])[1] || '')}${w.realModel ? ' · ' + esc(w.realModel) : ''}${srcBadge(w)}`, end: favs[w.id] ? '<svg aria-hidden="true" style="color:var(--accent)"><use href="#i-pack"/></svg>' : '' })).join('');
+  const left = `${sectionHead(section, `${nOwn} / ${all.length} nello zaino`)}
+    <p class="lede">Scegli uno spicchio, come nel gioco. Le armi che metti nello zaino riempiono lo spicchio.</p>
+    ${haveFilter(have, hv, { yes: 'Nello zaino', no: 'Mi mancano' })}
     <div class="wheel-wrap">
       <div class="wheel-stage">${wheel(counts, cat, fc)}<p class="small muted wheel-hint">${cat ? 'Tocca il centro per tornare a tutte' : 'Tocca uno spicchio'}</p></div>
       <div class="wheel-panel">
         <span class="kicker kicker--accent">${cat ? 'Categoria' : 'Tutte le categorie'}</span>
         <h2 class="wheel-panel__title">${esc(label)}</h2>
-        ${list(weapons) || '<p class="muted small">Nessuna arma vista ancora in questa categoria.</p>'}
+        ${list(weapons) || `<p class="muted small">${have === 'si' ? 'Ancora niente nello zaino qui.' : have === 'no' ? 'Le hai tutte.' : 'Nessuna arma vista ancora in questa categoria.'}</p>`}
       </div>
     </div>
     ${gear.length && !cat ? `<div class="block"><span class="kicker">Equipaggiamento (${gear.length})</span>${list(gear)}</div>` : ''}`;
@@ -104,7 +108,7 @@ export function render(params, query) {
 
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
-    const f = e.target.closest('[data-fav]');
-    if (f && location.hash.startsWith('#/armi')) { progress.toggleFavorite(f.dataset.fav); rerender(); }
+    const f = e.target.closest('[data-own]');
+    if (f && location.hash.startsWith('#/armi')) { progress.toggleOwned(f.dataset.own); rerender(); }
   });
 }

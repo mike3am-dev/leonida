@@ -2,7 +2,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, toast } from '../ui/dom.js';
-import { sectionHead, vis, sectionOf } from './shared.js';
+import { sectionHead, vis, sectionOf, haveFilter, passHave } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { showSheet } from '../ui/sheet.js';
 
@@ -18,10 +18,11 @@ export function render(params, query) {
   const dis = query.dis || '';
   const grp = query.gruppo || '';
   const q = (query.q || '').toLowerCase();
-  const list = all.filter((c) => (!cat || c.categoryId === cat) && (!dis || c.districtId === dis) && (!grp || c.group === grp) && (!q || c.name.toLowerCase().includes(q)));
+  const have = query.have || '';
+  const list = all.filter((c) => (!cat || c.categoryId === cat) && (!dis || c.districtId === dis) && (!grp || c.group === grp) && (!q || c.name.toLowerCase().includes(q)) && passHave(have, progress.get().collectibles[c.id]));
   const done = list.filter((c) => st.collectibles[c.id]).length;
   const totalDone = all.filter((c) => st.collectibles[c.id]).length;
-  const link = (k, v) => { const p = new URLSearchParams(); if (cat) p.set('cat', cat); if (dis) p.set('dis', dis); if (grp) p.set('gruppo', grp); if (v) p.set(k, v); else p.delete(k); return `#/collezionabili${p.toString() ? '?' + p : ''}`; };
+  const link = (k, v) => { const p = new URLSearchParams(); if (cat) p.set('cat', cat); if (dis) p.set('dis', dis); if (grp) p.set('gruppo', grp); if (have) p.set('have', have); if (v) p.set(k, v); else p.delete(k); return `#/collezionabili${p.toString() ? '?' + p : ''}`; };
   const active = cat ? byId(cat) : null;
 
   const catCard = (c) => { const items = all.filter((x) => x.categoryId === c.id); const d = items.filter((x) => st.collectibles[x.id]).length; return `
@@ -37,6 +38,7 @@ export function render(params, query) {
     <div class="catgrid">${cats.map(catCard).join('')}</div>
     ${active ? `<div class="card" style="margin-top:var(--s-4)"><span class="kicker kicker--accent">${esc(active.name)}</span><p class="small" style="margin:var(--s-2) 0 0">${esc(active.description || '')}</p><div class="chips" style="margin-top:var(--s-2)">${statusChip(active)}</div></div>` : ''}
     ${active ? `${active.id === 'cat-fauna' ? `<div class="filters" style="margin-top:var(--s-4)"><a class="filter" role="button" aria-pressed="${!grp}" href="${link('gruppo', '')}">Tutti gli habitat</a>${Object.entries(GROUP_LABEL).filter(([g]) => all.some((c) => c.categoryId === 'cat-fauna' && c.group === g)).map(([g, l]) => `<a class="filter" role="button" aria-pressed="${grp === g}" href="${link('gruppo', g)}">${l}</a>`).join('')}</div>` : ''}
+    <div style="margin-top:var(--s-3)">${haveFilter(have, (v) => link('have', v), { yes: 'Trovati', no: 'Da trovare' })}</div>
     <div class="filters" style="margin-top:var(--s-2)">
       <a class="filter" role="button" aria-pressed="${!dis}" href="${link('dis', '')}">Tutte le regioni</a>
       ${vis(db.districts).filter((d) => all.some((c) => c.categoryId === cat && c.districtId === d.id)).map((d) => `<a class="filter" role="button" aria-pressed="${dis === d.id}" href="${link('dis', d.id)}">${esc(d.name)}</a>`).join('')}

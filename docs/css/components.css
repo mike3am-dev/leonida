@@ -1852,3 +1852,8 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
   .home-hero .countdown b { font-size: clamp(2.4rem, 11vw, 3.4rem); }
   .home-hero .countdown b + span { margin-right: 6px; font-size: .62rem; letter-spacing: .08em; }
 }
+
+/* ---------- v0.28 · Ce l'ho / Mi mancano ---------- */
+.havefilter { display: inline-flex; margin: 0 0 var(--s-3); }
+.havefilter a { text-decoration: none; white-space: nowrap; }
+.own-btn { min-height: 50px; }
