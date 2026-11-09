@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.29.0",
+  "dataVersion": "0.29.1",
   "updatedAt": "2026-11-09",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.29.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Londra: aperto da Selfridges il mondo di GTA VI. Articolo completo con dove e quando, cosa c'è (Macca the Gator, la Cheetah vera), i 60 articoli in vendita con i prezzi, la coda da 100.000 persone e gli esauriti.",
+        "Sony avverte: un account con un paese falso per giocare prima rischia la sospensione."
+      ]
+    },
     {
       "version": "0.29.0",
       "date": "2026-11-09",
