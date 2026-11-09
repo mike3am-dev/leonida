@@ -29,7 +29,7 @@
 | iGrandTheftAuto | HTML `/gta6/news` | ✓ (niente di nuovo oltre il già coperto) |
 | Multiplayer.it | RSS `/feed/rss/` | ✗ 404; raggiunto via Google News + WebSearch |
 | GTAForums | RSS | ✗ 404 sull'URL provato |
-| GTABase | RSS `/rss` | ✗ 404 (pagina HTML) |
+| GTABase | HTML diretto (curl, UA Safari), es. `https://www.gtabase.com/it/gta-6/` e `/notizie/ /veicoli/ /armi/ /missioni/ /missioni-secondarie/ /proprieta/ /bande/` | ✓ 200 (il feed RSS non c'è, le pagine sì) |
 | thegtaplace | RSS | ✗ 404 |
 | Reddit r/GTA6 | Atom `/new/.rss` e `/top/.rss?t=day` | ✓ (titoli; corpo vuoto nei post con sole immagini) |
 | Google News IT/EN | RSS search `GTA 6 when:1d` e `"GTA VI" when:2d` | ✓ ~350 titoli; link non risolvibili senza JS, usati come indice |
