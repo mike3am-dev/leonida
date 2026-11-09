@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.26.0** (dati 0.26.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato l'8 novembre 2026, versione live **v0.27.0** (dati 0.27.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -124,7 +124,12 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - **Proposta aperta (da decidere con Mike)**: trofei PSN automatici. Serve un piccolo servizio (Cloudflare Worker o Supabase) con il codice NPSSO di Mike (scade ~2 mesi), profilo PSN coi trofei visibili; solo dopo la lista ufficiale. PSNProfiles blocca i bot.
 - **v0.26 icone**: Mike ha scelto i pittogrammi pieni (proposta B) con il riquadro rosa attuale. Simboli `n-<id sezione>` in `docs/index.html` (fori veri con `<mask id="nm-…">`), usati da `navHtml` (app.js) e `sectionHead` (shared.js); `n-altro` per «Altro». Le icone `i-*` restano per pulsanti e mappa.
 
-## 5. Aree da tenere d'occhio / debito
+## 4n. GTABase (9/11)
+- Si legge con curl normale (manca solo il feed RSS). Giro fatto il 9/11: armi, equipaggiamento, veicoli, gang, rifugi, POI, attività, personaggi.
+- **Diritti sul database**: la pagina veicoli di GTABase vieta di copiare una parte sostanziale del database (direttiva UE 96/9). NON importare in blocco campi come `realModel` da lì (207 proposte scartate): prenderli voce per voce da GTA Wiki o fonti incrociate. Singoli fatti e correzioni puntuali sì, con etichetta Community.
+- Dubbi aperti: Zorrusso (GTABase: Pegassi, noi GranForma), Contender (Karin vs Vapid); `realModel` che contraddice la descrizione in Sea Sparrow, Verus, Manchez, Rancher; molti `drivetrain` «AWD» anche su elicotteri e camion (sembra un default sbagliato); Wyman a Port Gellhorn (GTABase) o Ambrosia (brands); PTT Compound a Hamlet o «Southside».
+- Niente aggiramento di blocchi anti-bot: per i siti protetti feed RSS, Google News, ricerca web (`scripts/fonti-news.md`).
+ / debito
 - **Font Pricedown**: lo «0» sembra un blocco pieno; per i contatori piccoli usare Fraunces corsivo (fatto per «Da fare qui» e album).
 - **Mappa**: le Polaroid appese sono a posizioni fisse (CSS `nth-child`): se le regioni cambiano numero vanno ricalcolate. Il «Tu sei qui» prima del 19 punta al penitenziario di Hamlet. Le tessere di dettaglio vengono da `tiles.gtasixmap.com` (servizio terzo, può sparire).
 - **Spoiler**: tutto ruota su `progress.settings().spoilerShield` e sullo stato delle missioni; `spoilerLevel` 9 = rumor/leak di trama. Non mostrare MAI nomi di missioni future.

@@ -87,8 +87,14 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Corse"
+      "updatedAt": "2026-11-09",
+      "group": "Corse",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Oltre ai raduni di auto ci sono raduni di moto e di barche."
+        }
+      ]
     },
     {
       "id": "act-rapine-negozi",
@@ -159,11 +165,19 @@
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "extras": [
         {
           "source": "stampa",
           "text": "Il biliardo non si vede nel video: compare nelle anteprime."
+        },
+        {
+          "source": "community",
+          "text": "A basket i tiri si mirano e si temporizzano a mano, e fare canestro allena il Focus. C'è un canestro anche sotto la casa di Jason a Key Lento."
+        },
+        {
+          "source": "community",
+          "text": "Ci sono campi da tennis, ma il tennis non si gioca."
         }
       ],
       "group": "Sport e fitness"
@@ -174,17 +188,29 @@
       "name": "Base jumping e paracadute",
       "districtId": null,
       "description": "Lanci dall'alto e paracadutismo.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "requirements": [
+        "Per il 100% vanno completati tutti i lanci col paracadute."
+      ],
+      "rewards": [
+        "Soldi: di più se atterri vicino al centro e prendi i checkpoint."
+      ],
+      "steps": [
+        "Lanciati e atterra sul bersaglio; alcuni lanci hanno anche checkpoint da attraversare."
+      ],
       "image": null,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Sport e fitness"
+      "updatedAt": "2026-11-09",
+      "group": "Sport e fitness",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Lanci a bersaglio con premi in denaro e 100%: da confermare in gioco."
+        }
+      ]
     },
     {
       "id": "act-poligono",
@@ -192,17 +218,29 @@
       "name": "Poligono di tiro",
       "districtId": null,
       "description": "Tiro al bersaglio. Non è ancora noto dove si trovi: il posto più probabile è Ammu-Nation.",
-      "requirements": [],
+      "requirements": [
+        "Per il 100% serve almeno il bronzo in ogni sfida."
+      ],
       "rewards": [],
-      "steps": [],
+      "steps": [
+        "Scegli una categoria di armi: ognuna ha le sue armi e una serie di sfide.",
+        "Colpisci i bersagli per fare punti: il punteggio decide la medaglia.",
+        "Le sfide allenano l'abilità di tiro di Jason e Lucia."
+      ],
       "image": null,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Sport e fitness"
+      "updatedAt": "2026-11-09",
+      "group": "Sport e fitness",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Struttura delle sfide e medaglie per il 100%: da confermare in gioco."
+        }
+      ]
     },
     {
       "id": "act-minigolf-zoo",
@@ -496,14 +534,14 @@
       "id": "act-kayak",
       "name": "Kayak",
       "description": "Un uomo in kayak sotto un ponte ferroviario a Mount Kalaga, accanto a un idrometro: un possibile indizio di piene e meteo dinamico. Pagaiare insieme alza il legame Jason–Lucia. Il veicolo è il Crest Kayak.",
-      "districtId": null,
+      "districtId": "dis-mount-kalaga",
       "image": null,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gta6bible.com/activities/kayaking/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "type": "attività",
       "requirements": [],
       "rewards": [],
@@ -563,6 +601,24 @@
       "rewards": [],
       "steps": [],
       "group": "Sport e fitness"
+    },
+    {
+      "id": "act-corse-in-mare",
+      "type": "attività",
+      "name": "Corse in mare",
+      "districtId": null,
+      "description": "Gare in acqua, come le Sea Races di GTA V: contano per il 100%. Non è ancora noto con quali mezzi si corra né dove partano.",
+      "requirements": [],
+      "rewards": [],
+      "steps": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://www.gtabase.com/side-missions/gta-6/sea-races",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "group": "Corse"
     }
   ]
 }

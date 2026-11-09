@@ -149,13 +149,19 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "brd-san4san",
       "name": "San4San",
       "category": "Gang",
       "description": "La gang di Raymond ed Ernesto, con una casa dello spaccio e un laboratorio. Il suo emblema: la catena «S4S» al collo di un membro e il graffito «SAN 4 SAN» sui muri, durante un intervento di polizia. La bandana blu richiama gli Haitians del Vice City originale, da cui l'ipotesi di una gang haitiana.",
       "sourceUrl": "https://gtabase.com/gta-6/characters/",
-      "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5"
+      "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Detti anche S4S. La catena compare a un raduno d'auto e la gang apre l'Extended Look."
+        }
+      ]
     },
     {
       "image": "assets/img/mondo/brd-noose.png",
@@ -522,14 +528,20 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "brd-final-chapter",
       "name": "Final Chapter MC",
       "category": "Gang",
       "description": "Il motorcycle club di Ambrosia: colori neri e revolver Mustang .357; inseguono Jason dal Thirsty Wolf. Le toppe dei gilet indicano la fondazione nel 1982; un membro barbuto con cappellino Liberty City Cycles porta la toppa di grado «Enforcer». Emblema: teschio incappucciato sopra un libro aperto con le lettere M e C, mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/12/Final_Chapter_MC_promo_4.png/revision/latest?cb=20261030064921",
-      "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki"
+      "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Colori e toppe ricordano i Bandidos MC; la presenza nella contea richiama i Warlocks MC. In sella: LCC Avarus e Western Sovereign."
+        }
+      ]
     },
     {
       "image": "assets/img/mondo/brd-ptt-youngins.jpg",
@@ -552,11 +564,11 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-09",
       "id": "brd-forze-ordine",
-      "name": "VCPD, Vice Beach PD, Port Gellhorn PD, Key Lento PD, sceriffi di contea, Leonida Highway Patrol",
+      "name": "VCPD, Vice Beach PD, Vice-Dale PD, Port Gellhorn PD, Key Lento PD, sceriffi di contea, Leonida Highway Patrol",
       "category": "Forze dell'ordine",
-      "description": "Tutti i corpi di polizia: ogni città ha la sua polizia, ogni contea lo sceriffo, più la stradale. Méndez guida la task force antidroga.",
+      "description": "Tutti i corpi di polizia: ogni città ha la sua polizia, ogni contea lo sceriffo (Ambrosia, Leonard, Mariana), più la stradale. Méndez guida la task force antidroga.",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/gta-vi-launch-gallery-11-vice-city-17-scaled.jpg"
     },

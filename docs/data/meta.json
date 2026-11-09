@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.26.1",
+  "dataVersion": "0.27.0",
   "updatedAt": "2026-11-09",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.27.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Giro GTABase: 3 armi nuove (bottiglia incendiaria, coltello Hawk & Little, serramanico) e 8 oggetti di equipaggiamento (bypass dell'immobilizer, disturbatore di localizzatori, antidolorifici, fascette…); dettagli su 7 armi.",
+        "Garage: la Vapid Dominator '67 e un secondo airboat delle paludi; lo Yakuruna è il superyacht Lürssen Coral Ocean.",
+        "Mappa: 11 punti spostati nella regione giusta (Rideout, Hoodwinks, Zeke's, Diamond Dawgs, Naval Air Station…), 9 nuovi (banche di Vice Beach, caserme dei pompieri, distributori, il rifugio di Bayside), due doppioni tolti.",
+        "Rifugi più completi (posti auto, armadietti), due auto in più nella collezione di Wyman, attività con passi e requisiti (poligono, paracadute), personaggi e gang aggiornati."
+      ]
+    },
     {
       "version": "0.26.1",
       "date": "2026-11-09",

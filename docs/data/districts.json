@@ -166,16 +166,6 @@
           ]
         },
         {
-          "id": "poi-shore-court",
-          "name": "Shore Court",
-          "kind": "Garage",
-          "description": "Il garage personale vicino a Ocean Beach che ospita la '55 Vapid Stanier del Vintage Vice City Pack.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/",
-          "image": null
-        },
-        {
           "id": "poi-vc-airport",
           "name": "Vice City International Airport",
           "kind": "Aeroporto",
@@ -1992,6 +1982,112 @@
             5172,
             627
           ]
+        },
+        {
+          "id": "poi-rifugio-bayside",
+          "name": "Rifugio di Bayside",
+          "kind": "Rifugio",
+          "description": "L'appartamento su Catalan Boulevard, a Bayside, dove Jason e Lucia vivono: frigo, TV, luci, letto. Sembra essere di Lucia.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=safehouses",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null,
+          "characterIds": [
+            "chr-lucia",
+            "chr-jason"
+          ]
+        },
+        {
+          "id": "poi-rideout-customs",
+          "name": "Rideout Customs Mod Shop",
+          "kind": "Officina",
+          "description": "Officina per modifiche dell'Ultimate Edition a Crosstown: interni curati, cerchi e stile donk.",
+          "status": "da verificare",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+          "image": "assets/img/poi/poi-rideout-customs.jpg",
+          "xy": [
+            3219,
+            -14
+          ],
+          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/70/GTAVI-Rideout-Customs.jpg",
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-hoodwinks",
+          "name": "Hoodwinks",
+          "kind": "Bar",
+          "description": "Bar di Crosstown.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "image": "assets/img/poi/poi-hoodwinks.jpg",
+          "xy": [
+            3345,
+            100
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L511,ig.jpg",
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-jeudys",
+          "name": "Jeudy's Food Depot",
+          "kind": "Alimentari",
+          "description": "Negozio di alimentari a La Perle.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "image": null,
+          "xy": [
+            3191,
+            302
+          ],
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-zekes",
+          "name": "Zeke's Gadgets",
+          "kind": "Negozio di telefoni",
+          "description": "Negozio di elettronica e telefoni a Rockridge.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "image": "assets/img/poi/poi-zekes.jpg",
+          "xy": [
+            3058,
+            2
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2757,ig.jpg",
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-la-perle-fire-station",
+          "name": "Caserma dei pompieri di La Perle",
+          "kind": "Vigili del fuoco",
+          "description": "La caserma dei vigili del fuoco di La Perle.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=fire-station",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
+        },
+        {
+          "id": "poi-city-of-vice-fire-rescue",
+          "name": "City of Vice Fire Rescue",
+          "kind": "Vigili del fuoco",
+          "description": "Una caserma dei vigili del fuoco di Vice City.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=fire-station",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -2166,6 +2262,19 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-arrow-gas-belville",
+          "name": "Arrow (Belville)",
+          "kind": "Distributore",
+          "description": "Distributore Arrow a Belville, nella contea di Leonard.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=gas-station",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -2367,7 +2476,7 @@
           "id": "poi-key-lento-marina-club",
           "name": "Key Lento Marina Club",
           "kind": "Marina / club nautico",
-          "description": "Club nautico e porticciolo bianco sull'acqua di Key Lento, attaccato al cantiere di Brian (Brian's Boat Works & Marina). Si vede alle spalle di Jason in kayak in uno screenshot ufficiale.",
+          "description": "Club nautico e porticciolo bianco sull'acqua di Key Lento, attaccato al cantiere di Brian (Brian's Boat Works & Marina). Si vede alle spalle di Jason in kayak in uno screenshot ufficiale. È disponibile da subito e il cartello «Rent a Rack» fa pensare a un rimessaggio per le barche.",
           "xy": [
             2239,
             -3878
@@ -2377,7 +2486,7 @@
           "sourceUrl": "https://gta.wiki/w/Key_Lento_Marina_Club",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07",
+          "updatedAt": "2026-11-09",
           "image": "assets/img/poi/poi-key-lento-marina-club.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L328,ig.jpg"
         },
@@ -2414,6 +2523,21 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-naval-air-station",
+          "name": "Naval Air Station",
+          "kind": "Base navale",
+          "description": "Base aeronavale su Goose Key, all'estremità sud-occidentale delle Leonida Keys, con due piste che si incrociano. Non è ancora chiaro se sia la stessa «Base militare».",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "image": null,
+          "xy": [
+            -297,
+            -4294
+          ],
+          "updatedAt": "2026-11-09"
         }
       ],
       "activityIds": [
@@ -2543,6 +2667,21 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-paradise-garage",
+          "name": "Paradise Garage",
+          "kind": "Garage",
+          "description": "Il garage dell'Ultimate Edition a Watson Bay, con armadietto delle armi e deposito per la merce rubata da ricettare.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
+          "image": "assets/img/luoghi/watson-bay/landmark-l1495.webp",
+          "xy": [
+            1378,
+            -1957
+          ],
+          "updatedAt": "2026-11-09"
         }
       ],
       "activityIds": [
@@ -2696,22 +2835,6 @@
             2017
           ],
           "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/GTAVI-Hanks-Waffles-logo.jpg"
-        },
-        {
-          "id": "poi-pg-station",
-          "name": "Port Gellhorn Train Station",
-          "kind": "Stazione",
-          "description": "La stazione ferroviaria di Port Gellhorn.",
-          "characterIds": [],
-          "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": "assets/img/poi/poi-pg-station.jpg",
-          "xy": [
-            -58,
-            1500
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L538,ig.jpg"
         },
         {
           "id": "poi-draper-island",
@@ -2956,6 +3079,46 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-uncle-jacks",
+          "name": "Uncle Jack's Liquor",
+          "kind": "Liquori",
+          "description": "Negozio di liquori che compare in una sequenza di rapina.",
+          "status": "da verificare",
+          "source": "community",
+          "image": "assets/img/luoghi/port-gellhorn/landmark-l313.webp",
+          "xy": [
+            68,
+            1641
+          ],
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-alpha-gas",
+          "name": "Alpha (distributore)",
+          "kind": "Distributore",
+          "description": "Distributore Alpha sulla Historic Route 628, nella contea di Kelly.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=gas-station",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
+        },
+        {
+          "id": "poi-watkins-auto-parts",
+          "name": "Watkins Auto Parts",
+          "kind": "Ricambi auto",
+          "description": "Negozio di ricambi per auto a Port Gellhorn.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=vehicle-mod-shop",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -3379,64 +3542,6 @@
       ],
       "pois": [
         {
-          "id": "poi-rideout-customs",
-          "name": "Rideout Customs Mod Shop",
-          "kind": "Officina",
-          "description": "Officina per modifiche dell'Ultimate Edition.",
-          "status": "da verificare",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": "assets/img/poi/poi-rideout-customs.jpg",
-          "xy": [
-            3219,
-            -14
-          ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/70/GTAVI-Rideout-Customs.jpg"
-        },
-        {
-          "id": "poi-sara-salon",
-          "name": "Sara's Unisex Salon",
-          "kind": "Parrucchiere",
-          "description": "Salone dell'Ultimate Edition. Ci si può tagliare i capelli anche a casa.",
-          "status": "da verificare",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": "assets/img/luoghi/hamlet/landmark-l360.webp",
-          "xy": [
-            2255,
-            -2520
-          ]
-        },
-        {
-          "id": "poi-ptt-compound",
-          "name": "PTT Youngin$ Illegal Goods Store",
-          "kind": "Negozio clandestino",
-          "description": "Un negozio di merce illegale, contenuto dell'Ultimate Edition. Il nome completo è «PTT YOUNGIN$ Illegal Goods Store»; nell'elenco dello store compare come «Compound».",
-          "status": "da verificare",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": "assets/img/poi/poi-ptt-compound.jpg",
-          "xy": [
-            2734,
-            -1615
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1491,ig.jpg"
-        },
-        {
-          "id": "poi-paradise-garage",
-          "name": "Paradise Garage",
-          "kind": "Garage",
-          "description": "Garage a Watson Bay, incluso nelle edizioni.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
-          "image": "assets/img/luoghi/watson-bay/landmark-l1495.webp",
-          "xy": [
-            1378,
-            -1957
-          ]
-        },
-        {
           "id": "poi-wyman-salvage",
           "name": "Wyman's World Auto Salvage Co.",
           "kind": "Sfasciacarrozze",
@@ -3448,92 +3553,6 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/characters/",
           "image": "assets/img/luoghi/ambrosia/landmark-l1494.webp"
-        },
-        {
-          "id": "poi-uncle-jacks",
-          "name": "Uncle Jack's Liquor",
-          "kind": "Liquori",
-          "description": "Negozio di liquori che compare in una sequenza di rapina.",
-          "status": "da verificare",
-          "source": "community",
-          "image": "assets/img/luoghi/port-gellhorn/landmark-l313.webp",
-          "xy": [
-            68,
-            1641
-          ]
-        },
-        {
-          "id": "poi-fleeca",
-          "name": "Fleeca Bank",
-          "kind": "Banca",
-          "description": "La banca della serie, sulla 4th Street.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": "assets/img/poi/poi-fleeca.png",
-          "xy": [
-            4574,
-            458
-          ],
-          "imageUrl": "https://gta.wiki/images/FleecaBank-GTAVI-AnExtendedLook-VickeryDrive.png"
-        },
-        {
-          "id": "poi-hoodwinks",
-          "name": "Hoodwinks",
-          "kind": "Bar",
-          "description": "Bar di Crosstown.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": "assets/img/poi/poi-hoodwinks.jpg",
-          "xy": [
-            3345,
-            100
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L511,ig.jpg"
-        },
-        {
-          "id": "poi-jeudys",
-          "name": "Jeudy's Food Depot",
-          "kind": "Alimentari",
-          "description": "Negozio di alimentari.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
-          "xy": [
-            3191,
-            302
-          ]
-        },
-        {
-          "id": "poi-diamond-dawgs",
-          "name": "Diamond Dawgs",
-          "kind": "Gioielleria",
-          "description": "Gioielleria. Le gioiellerie, nella serie, hanno una certa tradizione.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": "assets/img/luoghi/vice-beach/landmark-l1789.webp",
-          "xy": [
-            4568,
-            435
-          ]
-        },
-        {
-          "id": "poi-zekes",
-          "name": "Zeke's Gadgets",
-          "kind": "Negozio di telefoni",
-          "description": "Negozio di elettronica.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": "assets/img/poi/poi-zekes.jpg",
-          "xy": [
-            3058,
-            2
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2757,ig.jpg"
         },
         {
           "id": "poi-love-magazine",
@@ -3574,20 +3593,6 @@
           "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
           "image": "assets/img/poi/poi-anfiteatro.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L207,ig.jpg"
-        },
-        {
-          "id": "poi-naval-air-station",
-          "name": "Naval Air Station",
-          "kind": "Base navale",
-          "description": "Base aeronavale a Watson Bay. Non è ancora chiaro se sia la stessa «Base militare» qui sopra.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
-          "image": null,
-          "xy": [
-            -297,
-            -4294
-          ]
         },
         {
           "id": "poi-leonard-sheriff",
@@ -3703,12 +3708,13 @@
           "id": "poi-washington-marina",
           "name": "Washington Beach Marina",
           "kind": "Marina",
-          "description": "Dove è ormeggiato lo Shitzu Squalo dell'Ultimate Edition, con una cassa di esplosivi.",
+          "description": "Ormeggio per le barche, disponibile da subito. Qui è ormeggiato lo Shitzu Squalo rosa e azzurro dell'Ultimate Edition, con una cassa di esplosivi.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": null
+          "image": null,
+          "updatedAt": "2026-11-09"
         },
         {
           "id": "poi-vice-beach-pd",
@@ -3932,6 +3938,71 @@
           "updatedAt": "2026-11-07",
           "image": "assets/img/poi/poi-vice-beach-marina.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L120,ig.jpg"
+        },
+        {
+          "id": "poi-shore-court",
+          "name": "Shore Court",
+          "kind": "Garage",
+          "description": "Il garage personale su Shore Drive, a due passi da Ocean Beach, che ospita la '55 Vapid Stanier del Vintage Vice City Pack: armadietto delle armi e deposito per la merce rubata.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/",
+          "image": null,
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-diamond-dawgs",
+          "name": "Diamond Dawgs",
+          "kind": "Gioielleria",
+          "description": "Gioielleria su SW 4th Street, accanto alla Fleeca.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "image": "assets/img/luoghi/vice-beach/landmark-l1789.webp",
+          "xy": [
+            4568,
+            435
+          ],
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-hobbs-milford-4th",
+          "name": "Hobbs Milford (SW 4th Street)",
+          "kind": "Banca",
+          "description": "Filiale della banca Hobbs Milford su SW 4th Street, accanto alla Fleeca e a Diamond Dawgs.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=bank",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
+        },
+        {
+          "id": "poi-fleeca-ocean-beach",
+          "name": "Fleeca (Ocean Beach)",
+          "kind": "Banca",
+          "description": "Filiale Fleeca a Ocean Beach.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=bank",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
+        },
+        {
+          "id": "poi-hobbs-milford-ocean-beach",
+          "name": "Hobbs Milford (Ocean Beach)",
+          "kind": "Banca",
+          "description": "Filiale Hobbs Milford a Ocean Beach.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=bank",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-09",
+          "image": null
         }
       ],
       "activityIds": [],
@@ -4239,6 +4310,37 @@
             2183,
             -2257
           ]
+        },
+        {
+          "id": "poi-sara-salon",
+          "name": "Sara's Unisex Salon",
+          "kind": "Parrucchiere",
+          "description": "Salone dell'Ultimate Edition. Ci si può tagliare i capelli anche a casa.",
+          "status": "da verificare",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+          "image": "assets/img/luoghi/hamlet/landmark-l360.webp",
+          "xy": [
+            2255,
+            -2520
+          ],
+          "updatedAt": "2026-11-09"
+        },
+        {
+          "id": "poi-ptt-compound",
+          "name": "PTT Youngin$ Illegal Goods Store",
+          "kind": "Negozio clandestino",
+          "description": "Un negozio di merce illegale, contenuto dell'Ultimate Edition. Il nome completo è «PTT YOUNGIN$ Illegal Goods Store»; nell'elenco dello store compare come «Compound».",
+          "status": "da verificare",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+          "image": "assets/img/poi/poi-ptt-compound.jpg",
+          "xy": [
+            2734,
+            -1615
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1491,ig.jpg",
+          "updatedAt": "2026-11-09"
         }
       ],
       "activityIds": [],

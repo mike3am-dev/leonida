@@ -2457,7 +2457,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "veh-declasse-rancher",
       "name": "Declasse Rancher",
       "manufacturer": "Declasse",
@@ -2469,7 +2469,13 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chevrolet K5 Blazer",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Ricorda anche la Chevrolet Suburban."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-rebel.png",
@@ -3767,7 +3773,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "veh-mtl-packer",
       "name": "MTL Packer",
       "manufacturer": "MTL",
@@ -3779,7 +3785,13 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "International 4000 series",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Ricorda anche l'International 9000/9200 del 1994."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-phantom.png",
@@ -4018,7 +4030,7 @@
       "name": "Yakuruna (superyacht)",
       "manufacturer": null,
       "class": "barca",
-      "description": "Il superyacht in stile Riva: si chiama «Yakuruna», nome scritto sulla fiancata.",
+      "description": "Il superyacht: si chiama «Yakuruna», nome scritto sulla fiancata, ed è ricalcato sul Lürssen Coral Ocean di 73 metri.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yakuruna.png",
       "status": "da verificare",
@@ -4026,9 +4038,10 @@
       "sourceUrl": "https://gta.wiki/w/Yakuruna",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yacht-1.png",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Lürssen 73 m Coral Ocean"
     },
     {
       "id": "veh-albany-buccaneer-custom",
@@ -5521,6 +5534,43 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07"
+    },
+    {
+      "id": "veh-vapid-dominator-67",
+      "name": "Vapid Dominator '67",
+      "manufacturer": "Vapid",
+      "class": "muscle",
+      "description": "La Dominator del 1967, la Mustang di prima generazione: da questa nasce la versione buggy dell'Ultimate Edition.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "realModel": "Ford Mustang (1st Gen)",
+      "seats": 2,
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-67.jpg",
+      "imageCredit": "gtabase.com",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dominator-67"
+    },
+    {
+      "id": "veh-airboat-stile-panther",
+      "name": "Airboat (stile Panther Airboat)",
+      "manufacturer": null,
+      "class": "barca",
+      "description": "Un secondo airboat delle paludi, diverso dall'Airboat 09. Il nome in gioco non è ancora noto.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "realModel": "Panther Airboat",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/vortex.jpg",
+      "imageCredit": "gtabase.com",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/vortex"
     }
   ]
 }

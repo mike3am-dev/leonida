@@ -131,7 +131,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "realModel": "Colt Python (.357 Magnum)",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-mustang357.webp",
@@ -146,7 +146,8 @@
       "facts": [
         "Logo Duke Arms dietro il tamburo e scritta «Mustang .357» incisa sulla canna",
         "Tamburo da 6 colpi",
-        "Il «.357» richiama la cartuccia .357 Magnum della Colt Python; «Mustang» un'altra pistola Colt"
+        "Il «.357» richiama la cartuccia .357 Magnum della Colt Python; «Mustang» un'altra pistola Colt",
+        "Erede del revolver Python di GTA Vice City"
       ],
       "moreSources": [
         "https://gta.fandom.com/wiki/Mustang_.357",
@@ -504,11 +505,17 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "realModel": "Remington 870",
       "seenIn": "Extended Look",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-moreland-850.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
+      "imageCredit": "vice-central.com / Rockstar Games",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/moreland-850"
+      ]
     },
     {
       "id": "wpn-double-barrel",
@@ -729,7 +736,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "seen": [
         {
           "where": "An Extended Look",
@@ -737,11 +744,11 @@
         }
       ],
       "facts": [
-        "Nel leak 2022 esiste anche una «Fire Bottle», arma incendiaria distinta"
+        "Già in GTA III, Vice City, San Andreas, IV, V e in Red Dead Redemption 2"
       ],
       "moreSources": [
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://www.gtabase.com/gta-6/weapons/fire-bottle"
+        "https://www.gtabase.com/gta-6/weapons/molotov"
       ]
     },
     {
@@ -1049,7 +1056,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "id": "wpn-dw9",
       "name": "S&M DW9",
       "manufacturer": "S&M",
@@ -1061,7 +1068,13 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-dw9.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Pistola mitragliatrice ispirata alla Brügger & Thomet APC9 K PRO."
+      "insight": "Pistola mitragliatrice ispirata alla Brügger & Thomet APC9 K PRO.",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/dw9"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-mac11.webp",
@@ -1069,7 +1082,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "id": "wpn-mac11",
       "name": "MAC-11",
       "manufacturer": null,
@@ -1081,7 +1094,13 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-mac-11.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Pistola mitragliatrice ispirata alla Ingram MAC-11."
+      "insight": "Pistola mitragliatrice ispirata alla Ingram MAC-11.",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/mac-11"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-mp9.webp",
@@ -1089,7 +1108,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "id": "wpn-mp9",
       "name": "SPP / MP9",
       "manufacturer": null,
@@ -1101,7 +1120,13 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-spp-mp9.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Pistola mitragliatrice ispirata a Steyr SPP e Brügger & Thomet MP9."
+      "insight": "Pistola mitragliatrice ispirata a Steyr SPP e Brügger & Thomet MP9.",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/spp-mp9"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-ruger-1022.webp",
@@ -1109,7 +1134,7 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "id": "wpn-ruger-1022",
       "name": "Ruger 10/22",
       "manufacturer": null,
@@ -1121,7 +1146,13 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-ruger-10-22-sniper.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile di precisione civile ispirato al Ruger 10/22."
+      "insight": "Fucile di precisione civile ispirato al Ruger 10/22.",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/ruger-10-22-sniper"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-m1a.webp",
@@ -1129,7 +1160,7 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-09",
       "id": "wpn-m1a",
       "name": "Springfield M1A",
       "manufacturer": null,
@@ -1141,7 +1172,13 @@
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-springfield-armory-m1a-sniper.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Fucile di precisione civile ispirato allo Springfield Armory M1A."
+      "insight": "Fucile di precisione civile ispirato allo Springfield Armory M1A.",
+      "facts": [
+        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/springfield-armory-m1a-sniper"
+      ]
     },
     {
       "image": null,
@@ -1230,21 +1267,20 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "wpn-knife",
       "name": "Coltello da caccia",
       "manufacturer": null,
       "class": "corpo-a-corpo",
-      "description": "Coltello da caccia; esistono anche un coltello Hawk & Little e un serramanico.",
+      "description": "Coltello da caccia; accetta accessori e tinte.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "facts": [
-        "Le lame sono tre: coltello da caccia (leak agosto 2026, personalizzabile), coltello Hawk & Little (leak 2022, ispirato al UC-RB1) e serramanico (leak agosto 2026, stiletto italiano della Seconda guerra mondiale, solo tinta)"
+        "Compare nel leak dell'agosto 2026",
+        "C'era già in Red Dead Redemption 2"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/hunting-knife",
-        "https://www.gtabase.com/gta-6/weapons/knife",
-        "https://www.gtabase.com/weapons/gta-6/switchblade"
+        "https://www.gtabase.com/weapons/gta-6/hunting-knife"
       ]
     },
     {
@@ -1529,6 +1565,196 @@
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_mini_golf_club",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ]
+    },
+    {
+      "id": "wpn-fire-bottle",
+      "name": "Bottiglia incendiaria",
+      "manufacturer": null,
+      "class": "lancio",
+      "description": "Un ordigno incendiario da lancio diverso dalla molotov.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "facts": [
+        "Arma nuova, al debutto nella serie; non si modifica",
+        "Compare nel leak del settembre 2022"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/fire-bottle"
+      ],
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/fire-bottle"
+    },
+    {
+      "id": "wpn-hl-knife",
+      "name": "Coltello Hawk & Little",
+      "manufacturer": "Hawk & Little",
+      "class": "corpo-a-corpo",
+      "description": "Il coltello da combattimento a doppio filo, con il dorso seghettato.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "realModel": "UC-RB1",
+      "facts": [
+        "Compare nel leak del settembre 2022",
+        "Non si personalizza",
+        "Già in Vice City, San Andreas, IV, V e in Red Dead Redemption 2"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/weapons/knife"
+      ],
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/knife"
+    },
+    {
+      "id": "wpn-switchblade",
+      "name": "Coltello a serramanico",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Il coltello a scatto: sta in tasca e si apre in un attimo.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "realModel": "Stiletto italiano della Seconda guerra mondiale",
+      "facts": [
+        "Si può solo verniciare, niente accessori",
+        "Compare nel leak dell'agosto 2026",
+        "C'era già in GTA Online"
+      ],
+      "moreSources": [
+        "https://www.gtabase.com/weapons/gta-6/switchblade"
+      ],
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/weapons/gta-6/switchblade"
+    },
+    {
+      "id": "wpn-immobilizer-bypass",
+      "name": "Bypass dell'immobilizer",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "L'attrezzo elettronico per avviare le auto di lusso protette dall'immobilizer.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-tracker-jammer",
+      "name": "Disturbatore di localizzatori",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Blocca il segnale GPS dell'auto rubata, così il localizzatore non la segnala.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-painkillers",
+      "name": "Antidolorifici",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Ripristinano la salute e hanno uno slot dedicato nella ruota; usati troppo spesso fanno meno effetto.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-backpack",
+      "name": "Zaino",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Lo zaino dell'equipaggiamento.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-zipties",
+      "name": "Fascette",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Per legare gli ostaggi durante i colpi.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-cutoff-tool",
+      "name": "Attrezzo da taglio",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "L'attrezzo da scasso per tagliare lucchetti e serrature, nel kit del rapinatore.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-usb-drive",
+      "name": "Chiavetta USB",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "La chiavetta del kit del rapinatore.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-food-drink",
+      "name": "Cibo e bevande",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Snack, bibite e vino: si consumano per recuperare salute.",
+      "howToGet": "Da verificare.",
+      "image": null,
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-09",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     }
   ],
   "notes": {
