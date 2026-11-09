@@ -535,11 +535,11 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-08",
+      "updatedAt": "2026-11-09",
       "id": "tip-preload-it",
       "category": "prima-ora",
       "title": "Preload: date italiane e spazio su disco",
-      "body": "PS5: dalla mezzanotte tra il 9 e il 10 novembre. Xbox: dall'1:00 del 10. Il gioco pesa 212 GB, ma sulla scatola sono indicati 230 GB liberi: tieni almeno quel margine, più una possibile patch del giorno uno. Su PS5 il gioco gira solo da SSD interno o M.2: un disco USB serve solo da archivio.",
+      "body": "PS5: dalla mezzanotte tra il 9 e il 10 novembre. Xbox: dall'1:00 del 10. Il gioco pesa 212 GB, ma sulla scatola sono indicati 230 GB liberi: tieni almeno quel margine, più una possibile patch del giorno uno. Nel menu di download della PS5, sotto il gioco, ci sono quattro voci Extra2–Extra5: sono licenze da 1 MB, lasciale spuntate. Su PS5 il gioco gira solo da SSD interno o M.2: un disco USB serve solo da archivio.",
       "priority": 2,
       "sourceUrl": "https://multiplayer.it/notizie/il-preload-di-gta-6-iniziera-prima-del-previsto-per-alcuni-utenti-confermato-anche-il-peso-del-gioco.html"
     },
@@ -577,13 +577,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-09",
       "id": "tip-online",
       "category": "online",
       "title": "Online: non al lancio",
       "body": "GTA VI è «un'esperienza single player». Nessuna microtransazione, nessuna spesa ricorrente, nessuna IA generativa al lancio. Il GTA Online di VI è atteso nel 2027; il GTA Online attuale continua.",
       "priority": 39,
-      "sourceUrl": "https://www.gtaboom.com/rockstar-keeps-calling-gta-6-a-single-player-experience-4d6d"
+      "sourceUrl": "https://www.gtaboom.com/rockstar-keeps-calling-gta-6-a-single-player-experience-4d6d",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Nei dati PS5 il gioco dichiara le funzioni per entrare nella sessione di un amico e avviare attività multigiocatore: predisposizione, nessun online annunciato al lancio."
+        }
+      ]
     },
     {
       "image": null,

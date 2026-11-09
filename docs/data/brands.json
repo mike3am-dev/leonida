@@ -245,13 +245,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-09",
       "id": "brd-prairie-sandwich",
       "name": "Prairie Sandwich",
       "category": "Pubblicità",
       "description": "Il menu di punta di Chacey's, la catena di fast food a tema western: un panino enorme con diversi tipi di carne e il pane a forma di cappello da cowboy, servito con Lasso Fries e BrownStein's Root Beer. Lo spot in TV promette 30.000 calorie e carne «from the open range». Chacey's ricalca Arby's.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
-      "imageUrl": "https://gta.wiki/images/Chaceys-GTAVI-AnExtendedLook-TVAdvertSS2.png?b9c4f"
+      "imageUrl": "https://gta.wiki/images/Chaceys-GTAVI-AnExtendedLook-TVAdvertSS2.png?b9c4f",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Rifatto dal vero da Nick DiGiovanni in uno spot Rockstar (7/11): prosciutto, arrosto, bacon e salumi, cheddar fuso, panino con la stella da sceriffo; bibita servita in un boccale."
+        }
+      ]
     },
     {
       "image": "assets/img/mondo/brd-goodtime-gear.jpg",

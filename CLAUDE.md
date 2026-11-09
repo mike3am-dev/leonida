@@ -26,6 +26,8 @@ Quando Mike lo chiede (mai da soli), setacciare le fonti in quest'ordine e inser
 7. **Mondo** — ogni notizia nuova che cita un marchio, un locale, un'app, una gang, un canale o una squadra del mondo di gioco va aggiunta a `brands.json` (categoria tra quelle esistenti, descrizione con dove è stato visto, `sourceUrl` della notizia). La sezione Mondo cresce con le news.
 8. **Mike** — gli Appunti con il «Pacchetto per Claude» sono la fonte di verità dopo il 19: ciò che conferma lui diventa `verificato` con source `gioco-mike`.
 
+Canali per allargare le fonti senza forzare blocchi (niente aggiramento di Cloudflare o controlli anti-bot): i feed RSS delle testate (elenco provato in `scripts/fonti-news.md`), Google News RSS (`https://news.google.com/rss/search?q=GTA+6+when:1d&hl=it&gl=IT&ceid=IT:it`, anche en-US) come indice dei titoli, la ricerca web. Attenzione: il feed di Everyeye ripubblica articoli vecchi con data nuova.
+
 Date da tenere d'occhio: 9 novembre (risultati Take-Two), 10 novembre (preload), 18 novembre (fine embargo recensioni), 19 novembre (uscita), lista trofei (appena pubblicata).
 
 ## «Fai un giro guide» — dal 19 novembre, la routine principale
