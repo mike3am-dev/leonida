@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.29.3",
+  "dataVersion": "0.29.5",
   "updatedAt": "2026-11-10",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.29.5",
+      "date": "2026-11-10",
+      "changes": [
+        "Ufficiale: 30 fps su tutte le console; la PS5 Pro aggiunge immagine più nitida (PSSR) e ombre in ray tracing. Consigli tecnici corretti.",
+        "Nuovo trailer del preload con «Blood in Your Eyes» di Tove Lo; GTA VI è il gioco più preordinato della storia di PlayStation Store e Microsoft Store; streaming anche su Xbox One dal 19.",
+        "Take-Two in rialzo in Borsa, il sindacato dei lavoratori Rockstar, il murale di Wynwood."
+      ]
+    },
     {
       "version": "0.29.3",
       "date": "2026-11-10",

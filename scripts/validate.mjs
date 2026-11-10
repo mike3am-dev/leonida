@@ -40,6 +40,7 @@ for (const [coll, list] of Object.entries(collections)) {
   ids[coll] = new Set();
   if (!Array.isArray(list)) continue;
   for (const it of list) {
+    if (it && typeof it === 'object' && !it.id) err(fileOf(coll), it.name || it.title || '?', 'voce senza id');
     if (it?.id && ids[coll].has(it.id)) err(fileOf(coll), it.id, 'id duplicato');
     if (it?.id) ids[coll].add(it.id);
   }
