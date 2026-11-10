@@ -198,17 +198,23 @@
     },
     {
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-10",
       "id": "tip-30fps",
       "category": "generale",
-      "title": "Frame rate e prima persona",
+      "title": "Frame rate: 30 fps ovunque",
       "priority": 19,
-      "body": "Il gioco gira a 30 fps su PS5, senza visuale in prima persona al lancio. Controlla il 19.",
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/"
+      "body": "Il gioco punta ai 30 fps su PS5, PS5 Pro e Xbox Series X|S. Sulla PS5 Pro l'immagine è più nitida (PSSR) e le ombre sono in ray tracing, ma la cadenza resta la stessa.",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Niente visuale in prima persona al lancio."
+        }
+      ]
     },
     {
       "id": "tip-trasporti-1",
@@ -506,14 +512,14 @@
       "id": "tip-tecnica-1",
       "category": "tecnica",
       "title": "30 fps, e la prima persona solo per mirare",
-      "body": "L'obiettivo è 30 fps su console; una modalità a 60 fps su PS5 Pro è solo una voce. Photo Mode c'è, Rockstar Editor no. Le funzioni del DualSense (haptics, grilletti) sono usate per guida e mini-giochi.",
+      "body": "L'obiettivo è 30 fps su tutte le console, PS5 Pro compresa, che aggiunge PSSR e ombre in ray tracing. Photo Mode c'è, Rockstar Editor no. Le funzioni del DualSense (altoparlante, vibrazione aptica, grilletti adattivi) sono usate in tutto il gioco e si regolano dalle impostazioni di accessibilità.",
       "priority": 37,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.vice.com/en/article/will-gta-6-have-first-person-mode/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-10"
     },
     {
       "image": null,

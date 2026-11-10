@@ -2,6 +2,200 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261110-rockstar-30fps-ps5-pro",
+      "date": "2026-11-10",
+      "title": "Rockstar ufficializza: 30 fps su tutte le console, PS5 Pro con PSSR e ombre in ray tracing",
+      "body": "L'annuncio: insieme all'apertura del preload Rockstar pubblica per la prima volta le caratteristiche tecniche. GTA VI è stato sviluppato da zero per questa generazione di console e punta ai 30 fotogrammi al secondo, spingendo PS5 e Xbox Series X|S «ai loro limiti assoluti» per non sacrificare la densità e la qualità del mondo di Leonida. Nessuna modalità a 60 fps, nemmeno su PS5 Pro.\n\nPS5 Pro: stessa cadenza di 30 fps, ma immagine più nitida grazie al PSSR, l'upscaling di Sony, e ombre in ray tracing che ci sono solo sulla Pro. Non sono indicate risoluzioni né stabilità del frame rate: le misureranno le analisi tecniche dopo il 19.\n\nPS5: altoparlante, vibrazione aptica e grilletti adattivi della DualSense usati in tutto il gioco, regolabili dalle impostazioni di accessibilità; tutti i suoni sfruttano l'audio 3D Tempest; caricamenti più rapidi grazie all'SSD.\n\nXbox e gioco a distanza: su Xbox Series X|S e anche su Xbox One si può giocare in streaming con Xbox Cloud Gaming, con la grafica della Series S; Rockstar avverte che la connessione può influire sulle prestazioni. Il Remote Play è supportato sia su PlayStation sia su Xbox.\n\nPreload: aperto per tutti i preordini digitali. Chi ha la scatola con codice può attivarlo appena lo riceve e cominciare subito a scaricare.",
+      "topic": "tecnica",
+      "outlet": "Rockstar Games",
+      "relatedIds": [
+        "new-20261103-60fps",
+        "new-20261109-dati-preload-ps5-pro",
+        "new-20261104-playstation-france-ha-mostrato-per-error",
+        "tip-30fps",
+        "new-20261110-xbox-cloud-xbox-one",
+        "new-20261110-trailer-preload"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-trailer-preload",
+      "date": "2026-11-10",
+      "title": "Nuovo trailer per il preload: 29 secondi con scene inedite e una canzone nuova di Tove Lo",
+      "body": "Il video: Rockstar accompagna l'apertura del preload con un trailer di 29 secondi, aperto dal marchio «Plays best on PS5». La musica è «Blood in Your Eyes» di Tove Lo, da «Grand Theft Auto VI: The Album».\n\nCosa si vede: Lucia e Jason che ballano in una discoteca; un autodromo di giorno, dove Lucia guarda un pilota esultare con un salto mortale; Dre'Quan Priest che dice «Non è proprio roba mia, capisci?»; Jason che spinge qualcuno sotto una doccia; una festa su una barca chiamata «Ships And Giggles»; una squadra SWAT in azione; Lucia e un'amica che si preparano per una serata; e un personaggio che se ne va gridando «Adesso sì che si fa sul serio!». Al sesto secondo compare un codice QR che porta al sito di Rockstar.\n\nSu PlayStation: Sony pubblica in parallelo un video di 49 secondi sulle funzioni della versione PS5 (DualSense, audio 3D Tempest, caricamenti rapidi, PSSR e ombre in ray tracing su PS5 Pro).",
+      "topic": "uscita",
+      "outlet": "Rockstar Games via IGN",
+      "relatedIds": [
+        "chr-drequan",
+        "brd-the-album",
+        "brd-canzoni-trailer",
+        "new-20261110-rockstar-30fps-ps5-pro"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.ign.com/articles/gta-6-preload-now-trailer-includes-nearly-30-seconds-of-new-footage-swat-team-nightclub-dancing-and-more",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-record-preordini-ps-store-xbox",
+      "date": "2026-11-10",
+      "title": "Ufficiale: GTA VI è il gioco più preordinato nella storia del PlayStation Store e del Microsoft Store",
+      "body": "Gli annunci: nel pomeriggio PlayStation, sul PlayStation Blog e sui social, definisce GTA VI «il gioco più preordinato nella storia del PlayStation Store»; pochi minuti dopo Xbox fa lo stesso per il Microsoft Store («il titolo più preordinato di sempre»). Nessuno dei due dà numeri.\n\nCosa dice Sony: vista la domanda «senza precedenti», insieme a Rockstar ha aperto il preload nove giorni prima e ha scelto un'uscita a mezzanotte paese per paese, a partire dalle 00:00 della Nuova Zelanda del 19 novembre. Il consiglio è scaricare il gioco il prima possibile; chi ha la scatola con codice può attivarlo appena lo riceve.",
+      "topic": "uscita",
+      "outlet": "PlayStation.Blog",
+      "relatedIds": [
+        "new-20261110-sensor-tower-9-69-milioni",
+        "new-20261110-take-two-conti-q2",
+        "new-20261104-preorders",
+        "new-20261110-xbox-cloud-xbox-one",
+        "tip-preload-it"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-sensor-tower-9-69-milioni",
+      "date": "2026-11-10",
+      "title": "Sensor Tower: 9,69 milioni di preordini digitali e 942 milioni di dollari, superato Cyberpunk 2077",
+      "body": "La stima aggiornata al 10 novembre: 9,69 milioni di copie digitali preordinate su PS5 e Xbox Series X|S, rimborsi esclusi, per 942 milioni di dollari (circa 97 dollari a copia). Su PS5 circa 7,23 milioni (75%), su Xbox circa 2,46 milioni.\n\nLa settimana: rispetto ai 7,71 milioni del 3 novembre sono quasi 2 milioni in più in sette giorni (1,49 milioni su PS5, 490.000 su Xbox), più di tutto ottobre. Di solito la settimana più forte è l'ultima prima dell'uscita.\n\nIl confronto: il record di riferimento erano gli 8 milioni annunciati da CD Projekt per Cyberpunk 2077, che però comprendevano scatole e PC. Il dato di GTA VI non conta le copie fisiche, quindi il totale vero è più alto; Rockstar e Take-Two non pubblicano cifre prima del lancio.",
+      "topic": "business",
+      "outlet": "Sensor Tower via Vice Central",
+      "relatedIds": [
+        "new-20261104-preorders",
+        "new-20261110-record-preordini-ps-store-xbox",
+        "new-20261110-take-two-conti-q2"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://vice-central.com/gta-vi-precommandes-9-69-millions-record-cyberpunk/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-xbox-cloud-xbox-one",
+      "date": "2026-11-10",
+      "title": "GTA VI anche su Xbox One, in streaming: Xbox e Take-Two firmano un accordo di dieci anni",
+      "body": "L'annuncio: su Xbox Wire Microsoft conferma che dal 19 novembre GTA VI si gioca anche con Xbox Cloud Gaming, su Xbox One e Xbox Series X|S, dalle 7:00 italiane (l'1:00 di New York). Lo streaming usa la grafica della Series S e serve aver comprato il gioco. Niente cloud su PC, telefoni o TV: solo console Xbox.\n\nIl resto: in arrivo nel cloud nei prossimi mesi anche GTA V, Red Dead Redemption 2 e altri giochi Rockstar. Dall'11 novembre, nei paesi supportati, il tempo di gioco in cloud si può comprare anche senza Game Pass.\n\nL'accordo: la responsabile di Xbox Asha Sharma lo presenta come «il primo passo» di una nuova partnership strategica di dieci anni con Take-Two. Né importi né altri dettagli; non è un'esclusiva. A ottobre Xbox aveva smentito l'esclusiva dello streaming e anticipato che sul PC non ci sarebbe stato.",
+      "topic": "uscita",
+      "outlet": "Xbox Wire",
+      "relatedIds": [
+        "new-20261007-xbox-smentisce-l-esclusiva-cloud-streami",
+        "new-20261110-rockstar-30fps-ps5-pro",
+        "new-20261110-record-preordini-ps-store-xbox"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-borsa-take-two-rialzo",
+      "date": "2026-11-10",
+      "title": "Take-Two vola in Borsa il giorno dopo i conti: +8% a metà seduta",
+      "body": "In Borsa: martedì 10 novembre il titolo Take-Two sale fino all'8,6%, intorno a 225 dollari, contro i 207,40 della chiusura di lunedì. A spingerlo sono i preordini di GTA VI «molto oltre le attese», più dei conti del trimestre, sotto le stime. UBS abbassa il prezzo obiettivo da 300 a 295 dollari ma conferma il consiglio di acquisto: si aspetta la gran parte delle vendite al lancio e nelle settimane successive.\n\nLe altre interviste di Zelnick: a IGN dice che il rischio di copie e versioni PC fatte con l'IA è «una questione creativa, non finanziaria», e sulle aziende di intelligenza artificiale aggiunge che «è ironico calpestare la proprietà intellettuale altrui e sperare che la propria sia protetta». A GamesBeat, sul remake di Zelda: Ocarina of Time, uscito a novembre: «Un gioco eccezionale. Nell'intrattenimento si compete con tutto e con niente».",
+      "topic": "business",
+      "outlet": "MarketBeat / IGN / GamesBeat",
+      "relatedIds": [
+        "new-20261110-take-two-conti-q2",
+        "new-20261110-zelnick-cloni-ia",
+        "new-20261109-take-two-settimana-record"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.marketbeat.com/instant-alerts/price-take-two-interactive-software-nasdaq-ttwo-shares-climb-86-heres-why-2026-11-10/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-sag-aftra-sindacato",
+      "date": "2026-11-10",
+      "title": "SAG-AFTRA appoggia il sindacato dei lavoratori Rockstar alla vigilia del voto",
+      "body": "Il sostegno: SAG-AFTRA, il sindacato americano di attori e doppiatori, si schiera con il Rockstar Games Workers Union, che dal 12 al 26 novembre chiede ai dipendenti britannici di votarne il riconoscimento. Nella nota: «Questa è una battaglia per tutti i lavoratori»; con licenziamenti record, precarietà e crunch, sindacalizzarsi è «vitale per il futuro dei videogiochi».\n\nCosa c'è in gioco: con il voto il sindacato, legato all'IWGB, tratterebbe su paga e bonus, straordinari, licenziamenti, lavoro flessibile e uso dell'IA generativa, e diventerebbe il più grande riconosciuto nei videogiochi del Regno Unito. Resta aperta la causa per i 31 iscritti licenziati nel 2025.",
+      "topic": "business",
+      "outlet": "Rock Paper Shotgun",
+      "relatedIds": [
+        "new-20261027-union"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.rockpapershotgun.com/a-fight-for-all-workers-sag-aftra-throw-weight-behind-emerging-rockstar-union-ahead-of-its-gta-6-release-week-vote",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-murale-rect-wynwood",
+      "date": "2026-11-10",
+      "title": "Wynwood, un murale di GTA VI copre il memoriale di Rect: la famiglia non era stata avvisata",
+      "body": "La storia: in 24th Street, a Wynwood, il muro dedicato a Alex Reyes, writer noto come Rect e morto in un incidente stradale nel 2022, è stato ridipinto con uno dei dieci murales di GTA VI nati dalla collaborazione tra Rockstar e Wynwood Walls. Il nuovo murale è di Tatiana Suarez. La madre, Myriam Rivera, andava lì a portargli fiori e caffè e dice di non aver ricevuto alcun preavviso.\n\nLe risposte: il muro è di Goldman Properties; Goldman Global Arts, che ha prodotto i murales, ha offerto alla crew di Rect, la DTK, un altro muro e i materiali per rifare l'omaggio. Rockstar e l'artista non hanno commentato. Per gli amici di Rect il danno resta: tra i writer i muri dedicati a chi non c'è più non si toccano.",
+      "topic": "community",
+      "outlet": "Miami New Times",
+      "relatedIds": [
+        "new-20261013-wynwood-walls-gratis-per-miami-dade-fino"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.miaminewtimes.com/arts-culture/gta-vi-mural-painted-over-memorial-to-late-miami-artist-rect-40597034/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-logitech-game-day",
+      "date": "2026-11-10",
+      "title": "Logitech dà ai dipendenti giorni liberi per le uscite dei giochi, a partire da GTA VI",
+      "body": "L'iniziativa: si chiama «Logi Game Day» e permette ai dipendenti di Logitech di prendersi tempo libero quando esce un gioco. L'amministratrice delegata Hanneke Faber: «È ora di smetterla con lo stereotipo che giocare sia una perdita di tempo». Il 19 novembre Logitech G organizza una diretta dalla sede di San Jose.\n\nNegli Stati Uniti: il provider Xfinity offre un aumento di velocità gratuito per scaricare i circa 212 GB del gioco in mezz'ora.",
+      "topic": "community",
+      "outlet": "IGN / Dexerto",
+      "relatedIds": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/articles/logitech-is-letting-employees-take-work-off-for-game-releases-just-ahead-of-gta-6",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "new-20261110-launcher-overlay",
+      "date": "2026-11-10",
+      "title": "Rockstar Games Launcher aggiornato: nuovo overlay con chat, obiettivi e pieno supporto al controller",
+      "body": "L'aggiornamento del launcher per PC porta un overlay rifatto: grafica nuova, funzioni social e per gli obiettivi, supporto completo al controller, collegamento a Discord per invitare gli amici e una modalità streamer. Non riguarda GTA VI su console, ma è il programma da cui passerà la futura versione PC.",
+      "topic": "tecnica",
+      "outlet": "Rockstar Intel",
+      "relatedIds": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://rockstarintel.com/rockstar-games-launcher-updated-with-new-chat-overlay-patch-notes/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-10"
+    },
+    {
       "id": "new-20261110-take-two-conti-q2",
       "date": "2026-11-09",
       "title": "Take-Two, i conti prima del lancio: preordini «senza precedenti», data del 19 novembre confermata, Rockstar ha finito il gioco",
@@ -20,7 +214,10 @@
         "new-20261104-zelnick",
         "new-20261014-bloomberg-making",
         "new-20260901-nopixel-v-ufficializzato-da-rockstar",
-        "tip-online"
+        "tip-online",
+        "new-20261110-borsa-take-two-rialzo",
+        "new-20261110-record-preordini-ps-store-xbox",
+        "new-20261110-sensor-tower-9-69-milioni"
       ],
       "updatedAt": "2026-11-10"
     },
@@ -36,7 +233,8 @@
       "spoilerLevel": 0,
       "sourceUrl": "https://www.ign.com/articles/take-two-enhancing-technical-defenses-and-legal-activities-to-combat-gta-6-ai-reverse-engineering-threat",
       "relatedIds": [
-        "new-20261110-take-two-conti-q2"
+        "new-20261110-take-two-conti-q2",
+        "new-20261110-borsa-take-two-rialzo"
       ],
       "updatedAt": "2026-11-10"
     },
@@ -134,9 +332,10 @@
         "new-20261001-qssr",
         "new-20261103-60fps",
         "new-20261109-preload-ps5-quattro-extra",
-        "tip-online"
+        "tip-online",
+        "new-20261110-rockstar-30fps-ps5-pro"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "new-20261109-contenuti-resto-del-mondo",
@@ -1636,15 +1835,16 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-10",
       "id": "new-20261103-60fps",
       "date": "2026-11-03",
       "title": "Niente modalità 60 fps al lancio, nemmeno su PS5 Pro (a quanto pare)",
-      "body": "Su console il gioco va a 30 fps. Il footage ufficiale è a 30 fps, circa 1440p riscalati a 4K. Una modalità a 60 fps è considerata «molto probabile», ma dopo il lancio. Un presunto elenco di funzioni PS5 Pro apparso su PlayStation France (PSSR, ray tracing) è falso, generato con l'IA.",
+      "body": "Su console il gioco va a 30 fps. Il footage ufficiale è a 30 fps, circa 1440p riscalati a 4K. Una modalità a 60 fps è considerata «molto probabile», ma dopo il lancio. Un presunto elenco di funzioni PS5 Pro apparso su PlayStation France (PSSR, ray tracing) era stato giudicato falso; il 10 novembre Rockstar ha confermato sia i 30 fps su tutte le console sia PSSR e ombre in ray tracing su PS5 Pro.",
       "topic": "tecnica",
       "outlet": "Insider Gaming",
       "relatedIds": [
-        "tip-30fps"
+        "tip-30fps",
+        "new-20261110-rockstar-30fps-ps5-pro"
       ],
       "sourceUrl": "https://insider-gaming.com/gta-6-60-fps-graphics-settings/"
     },
@@ -1688,14 +1888,17 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-10",
       "id": "new-20261104-preorders",
       "date": "2026-11-04",
       "title": "7,7 milioni di preordini digitali stimati, 751 milioni di dollari, 74% su PS5",
       "body": "Stima aggiornata al 3 novembre: +790.000 in una settimana, prezzo medio circa 97 $ (l'89% sceglie la Ultimate). Manca poco al record di Cyberpunk 2077 (8 milioni), senza nemmeno una versione PC. Take-Two parla solo di preordini «senza precedenti». I risultati trimestrali sono il 9 novembre.",
       "topic": "business",
       "outlet": "Inven Global",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261110-sensor-tower-9-69-milioni",
+        "new-20261110-record-preordini-ps-store-xbox"
+      ],
       "sourceUrl": "https://www.invenglobal.com/articles/28202/gta-6-pre-orders-estimated-at-771-million-units-3-out-of-4-buyers-choose-ps5"
     },
     {
@@ -1809,14 +2012,16 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-10",
       "id": "new-20261027-union",
       "date": "2026-10-27",
       "title": "I lavoratori Rockstar UK votano sul sindacato dal 12 al 26 novembre, a cavallo del lancio",
       "body": "Oltre 1.600 dipendenti: sarebbe il più grande sindacato riconosciuto nei videogiochi britannici. Jennifer Kolbe: «se vogliono un sindacato, avranno un sindacato». Il 17-18 novembre le conclusioni del tribunale sui licenziamenti di 31-34 persone dell'ottobre 2025 per presunte fughe su Discord.",
       "topic": "business",
       "outlet": "Game Developer",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261110-sag-aftra-sindacato"
+      ],
       "sourceUrl": "https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release"
     },
     {
@@ -2453,12 +2658,14 @@
       "source": "rumor",
       "status": "da verificare",
       "sourceUrl": "https://vice-central.com/gta-vi-ps5-pro-pssr-ray-tracing-playstation-france",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261110-rockstar-30fps-ps5-pro"
+      ],
       "image": null,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/gta-vi-ps5-pro-pssr-playstation-france.jpg",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "new-20261103-gta-vi-richiede-firmware-ps5-14-10-poi-1",
@@ -2997,12 +3204,14 @@
       "source": "stampa",
       "status": "da verificare",
       "sourceUrl": "https://vice-central.com/gta-vi-xbox-dement-exclusivite-streaming-pc",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261110-xbox-cloud-xbox-one"
+      ],
       "image": null,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-xbox-dement-exclusivite-streaming.jpg",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "new-20260823-adin-ross-prepara-un-server-community-cr",
@@ -3643,12 +3852,14 @@
       "source": "trailer",
       "status": "verificato",
       "sourceUrl": "https://vice-central.com/gta-vi-rockstar-wynwood-walls-entree-gratuite-miami",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261110-murale-rect-wynwood"
+      ],
       "image": null,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-rockstar-wynwood-walls-partenariat.jpg",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "new-20261105-murale-di-brooklyn",
