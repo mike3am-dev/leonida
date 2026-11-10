@@ -4,15 +4,15 @@
     {
       "id": "tip-preload",
       "category": "prima-ora",
-      "title": "Preload dal 10 novembre, fino a 212 GB",
-      "body": "Il download anticipato parte martedì 10 novembre: su PS5 a mezzanotte ora locale, su Xbox alle 00:00 GMT. Il file arriva fino a 212 GB a seconda della console: libera lo spazio adesso, non la sera del 18.",
+      "title": "Preload aperto, fino a 212 GB",
+      "body": "Il download anticipato è aperto dal 10 novembre: su PS5 dalla mezzanotte ora locale, su Xbox dalle 00:00 GMT. Il file arriva fino a 212 GB a seconda della console: se non l'hai ancora avviato, fallo adesso e non la sera del 18.",
       "priority": 1,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-10"
     },
     {
       "id": "tip-editions",
@@ -535,13 +535,13 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-10",
       "id": "tip-preload-it",
       "category": "prima-ora",
-      "title": "Preload: date italiane e spazio su disco",
-      "body": "PS5: dalla mezzanotte tra il 9 e il 10 novembre. Xbox: dall'1:00 del 10. Su PS5 si scaricano circa 210 GB (212 una volta installato), su Xbox circa 225: tieni liberi almeno 230 GB, come indicato sulla scatola, per una possibile patch del giorno uno. Nel menu di download della PS5, sotto il gioco, ci sono quattro voci Extra2–Extra5: sono licenze da 1 MB, lasciale spuntate. Su PS5 il gioco gira solo da SSD interno o M.2: un disco USB serve solo da archivio.",
+      "title": "Preload: è partito, ecco cosa controllare",
+      "body": "Il download è aperto: su PS5 dalla mezzanotte del 10 novembre, su Xbox dall'1:00. Su PS5 si scaricano 209,76 GB (212 una volta installato), su Xbox circa 210 (225 installato): tieni liberi almeno 230 GB, come indicato sulla scatola, per una possibile patch del giorno uno. Finito il download, sul riquadro del gioco premi Opzioni → Gestisci contenuto del gioco: le quattro voci Extra2–Extra5 (licenze da 1,4 MB) devono risultare installate, altrimenti scaricale da lì. Su PS5 il gioco gira solo da SSD interno o M.2: un disco USB serve solo da archivio.",
       "priority": 2,
-      "sourceUrl": "https://multiplayer.it/notizie/il-preload-di-gta-6-iniziera-prima-del-previsto-per-alcuni-utenti-confermato-anche-il-peso-del-gioco.html"
+      "sourceUrl": "https://www.reddit.com/r/GTA6/comments/1xsf5ep/for_those_whose_extras_arent_downloading/"
     },
     {
       "image": null,
