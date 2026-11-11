@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.29.5",
-  "updatedAt": "2026-11-10",
+  "dataVersion": "0.29.6",
+  "updatedAt": "2026-11-11",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.29.6",
+      "date": "2026-11-11",
+      "changes": [
+        "News dell'11 novembre: intervista di Rob Nelson al Guardian, il video di Ocean Drive rilanciato da Rockstar, le prime scatole arrivate in anticipo (codice dentro la copertina, niente mappa), preload da record sulle reti, 10,3 milioni di preordini digitali, «Blood In Your Eyes» di Tove Lo come singolo.",
+        "Nuovo consiglio: come aprire la scatola e riscattare subito il codice."
+      ]
+    },
     {
       "version": "0.29.5",
       "date": "2026-11-10",
