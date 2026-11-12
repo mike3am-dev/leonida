@@ -24,7 +24,8 @@
         "dis-vice-city",
         "dis-port-gellhorn"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-corea-classificazione-al-pelo",
@@ -42,7 +43,8 @@
         "new-20261107-xbox-225-gb-tre-versioni",
         "new-20261007-nessun-casino-nelle-classificazioni"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-mapping-project-discord-sparito",
@@ -59,7 +61,8 @@
         "new-20260820-cyberleek",
         "new-20261112-mappa-collector-trapelata"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-only-in-dade-sahara-arena",
@@ -84,7 +87,8 @@
         "veh-progen-emerus",
         "veh-albany-manana"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-youtube-diretta-24-ore",
@@ -101,7 +105,8 @@
         "new-20261105-sblocco-a-mezzanotte-locale-in-italia-si",
         "brd-the-album"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-the-album-ascolti-negozi",
@@ -119,7 +124,8 @@
         "new-20261111-tove-lo-singolo",
         "new-20260918-nove-edizioni-fisiche-di-the-album"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-clevelander-festa-lancio",
@@ -137,7 +143,8 @@
         "new-20261109-the-festival-miami",
         "new-20261111-ocean-drive-only-in-dade"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-popeyes-kick-promozioni",
@@ -155,7 +162,8 @@
         "brd-prairie-sandwich",
         "new-20261111-kitkat-camion-rubato"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261112-pocketpair-kalshi",
@@ -172,7 +180,8 @@
         "new-20261110-logitech-game-day",
         "new-20261109-australia-niente-malattia-finta"
       ],
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-12",
+      "example": false
     },
     {
       "id": "new-20261111-guardian-nelson-dettagli",
@@ -189,7 +198,8 @@
         "new-20261020-schreier-a-tgg-il-gioco-non-e-woke",
         "new-20260914-nelson-ammette-la-pressione-e-il-nervosi"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-ocean-drive-only-in-dade",
@@ -207,9 +217,11 @@
         "veh-pegassi-tempesta",
         "veh-invetero-coquette",
         "veh-albany-buccaneer",
-        "brd-forze-ordine"
+        "brd-forze-ordine",
+        "new-20261112-only-in-dade-sahara-arena"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-copie-fisiche-in-anticipo",
@@ -229,7 +241,8 @@
         "tip-prezzo-it",
         "tip-codice-scatola"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-preload-record-reti",
@@ -247,7 +260,8 @@
         "tip-preload-it",
         "new-20261110-logitech-game-day"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-sensor-tower-un-miliardo",
@@ -265,7 +279,8 @@
         "new-20261110-record-preordini-ps-store-xbox",
         "new-20261110-take-two-conti-q2"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-video-ps5-dualsense",
@@ -282,7 +297,8 @@
         "new-20261110-trailer-preload",
         "new-20261110-rockstar-30fps-ps5-pro"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-tove-lo-singolo",
@@ -297,9 +313,11 @@
       "sourceUrl": "https://vice-central.com/gta-vi-the-album-tove-lo-blood-in-your-eyes/",
       "relatedIds": [
         "new-20261110-trailer-preload",
-        "rad-altre"
+        "rad-altre",
+        "new-20261112-the-album-ascolti-negozi"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-tony-prince-cameo",
@@ -315,7 +333,8 @@
       "relatedIds": [
         "new-20261110-trailer-preload"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-last-ride-gta-v",
@@ -331,7 +350,8 @@
       "relatedIds": [
         "new-20261109-cara-delevingne-due-settimane"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261111-kitkat-camion-rubato",
@@ -347,7 +367,8 @@
       "relatedIds": [
         "new-20261109-selfridges-aperto"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261110-rockstar-30fps-ps5-pro",
@@ -571,7 +592,8 @@
         "new-20261110-record-preordini-ps-store-xbox",
         "new-20261110-sensor-tower-9-69-milioni"
       ],
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-10",
+      "example": false
     },
     {
       "id": "new-20261110-zelnick-cloni-ia",
@@ -588,7 +610,8 @@
         "new-20261110-take-two-conti-q2",
         "new-20261110-borsa-take-two-rialzo"
       ],
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-10",
+      "example": false
     },
     {
       "id": "new-20261110-preload-aperto-italia",
@@ -609,7 +632,8 @@
         "new-20261105-upgrade-alla-ultimate-a-20-anche-per-chi",
         "tip-preload-it"
       ],
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-10",
+      "example": false
     },
     {
       "id": "new-20261110-scatola-xbox-dolby-vision",
@@ -626,7 +650,8 @@
         "new-20261107-prima-scatola-ps5",
         "new-20261107-xbox-225-gb-tre-versioni"
       ],
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-10",
+      "example": false
     },
     {
       "id": "new-20261109-the-festival-miami",
@@ -646,9 +671,12 @@
         "new-20261104-club-space-the-vault",
         "new-20261106-miami-heat-svelate-le-maglie-vice-city-d",
         "new-20261009-cardi-b-e-fuerza-regida",
-        "new-20261111-copie-fisiche-in-anticipo"
+        "new-20261111-copie-fisiche-in-anticipo",
+        "new-20261112-clevelander-festa-lancio",
+        "new-20261112-youtube-diretta-24-ore"
       ],
-      "updatedAt": "2026-11-11"
+      "updatedAt": "2026-11-11",
+      "example": false
     },
     {
       "id": "new-20261109-preload-nuova-zelanda-209-gb",
@@ -667,7 +695,8 @@
         "new-20261103-preload",
         "new-20261109-preload-ps5-quattro-extra"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-dati-preload-ps5-pro",
@@ -688,7 +717,8 @@
         "tip-online",
         "new-20261110-rockstar-30fps-ps5-pro"
       ],
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-10",
+      "example": false
     },
     {
       "id": "new-20261109-contenuti-resto-del-mondo",
@@ -705,7 +735,8 @@
         "new-20261109-giappone-versione-tagliata",
         "new-20261107-xbox-225-gb-tre-versioni"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-musica-home-ps5",
@@ -721,7 +752,8 @@
       "relatedIds": [
         "brd-score-justice"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-cheetah-vera-un-milione",
@@ -740,7 +772,8 @@
         "new-20261106-affissioni-londra-parigi",
         "veh-grotti-cheetah-95"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-australia-niente-malattia-finta",
@@ -757,7 +790,8 @@
         "new-20261107-bildungsurlaub",
         "new-20261109-cara-delevingne-due-settimane"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-leak-programmi-tv",
@@ -774,7 +808,8 @@
         "brd-weazel",
         "brd-goodtime-state"
       ],
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261109-selfridges-aperto",
@@ -2369,11 +2404,11 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-12",
       "id": "new-20261027-union",
       "date": "2026-10-27",
       "title": "I lavoratori Rockstar UK votano sul sindacato dal 12 al 26 novembre, a cavallo del lancio",
-      "body": "Oltre 1.600 dipendenti: sarebbe il più grande sindacato riconosciuto nei videogiochi britannici. Jennifer Kolbe: «se vogliono un sindacato, avranno un sindacato». Il 17-18 novembre le conclusioni del tribunale sui licenziamenti di 31-34 persone dell'ottobre 2025 per presunte fughe su Discord.",
+      "body": "Oltre 1.600 dipendenti: sarebbe il più grande sindacato riconosciuto nei videogiochi britannici. Jennifer Kolbe: «se vogliono un sindacato, avranno un sindacato». Il 17-18 novembre le conclusioni del tribunale sui licenziamenti di 31-34 persone dell'ottobre 2025 per presunte fughe su Discord.\n\nIl voto è aperto dal 12 novembre: si vota online, in forma anonima, fino al 26. L'accordo riguarda paga e bonus, straordinari, licenziamenti, lavoro flessibile e uso dell'intelligenza artificiale generativa.",
       "topic": "business",
       "outlet": "Game Developer",
       "relatedIds": [
@@ -2617,7 +2652,9 @@
       "body": "Due clip di gameplay e un'immagine della mappa completa di Leonida (cinque contee e una grande rete ferroviaria), poi «hypercar», «plane», «junkies» e un file chiamato «Lucia Ending Video» mai verificato. Il 8 ottobre un «Extended Leek» da 25 minuti con spoiler; il 10 ottobre la minaccia di una build giocabile legata a una meme coin. Rockstar: «straziante per il team».",
       "topic": "community",
       "outlet": "GamingBible / Insider Gaming",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261112-mappa-collector-trapelata"
+      ],
       "sourceUrl": "https://www.gamingbible.com/news/gta-6-crisis-leak-lucia-ending-248608-20260820"
     },
     {

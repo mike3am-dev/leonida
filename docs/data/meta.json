@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.29.6",
-  "updatedAt": "2026-11-11",
+  "dataVersion": "0.29.8",
+  "updatedAt": "2026-11-12",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.29.8",
+      "date": "2026-11-12",
+      "changes": [
+        "Trapelata la mappa della Collector's Box: confermate le cinque contee e nuovi nomi (Moreau, Manzana, Grayson, Pelican Valley, Corsair Key, Breakwater Quarry, Interstate 404), in Leak nelle schede delle regioni.",
+        "Il 19: diretta YouTube di 24 ore dalle 5, festa di lancio al Clevelander (l'Ocean View Hotel vero); «The Album» si ascolta il 18 nei negozi di dischi. Aperto il voto sul sindacato Rockstar.",
+        "Giro con filtro anti-bufale: scartate mappe «HD» rifatte con l'IA, finti rapporti tecnici e conteggi di trofei riciclati."
+      ]
+    },
     {
       "version": "0.29.6",
       "date": "2026-11-11",

@@ -343,7 +343,7 @@
           "id": "poi-sahara-arena",
           "name": "Sahara Arena",
           "kind": "Arena",
-          "description": "La grande arena cittadina.",
+          "description": "La grande arena cittadina, modellata sul Kaseya Center dei Miami Heat: stessa sagoma bianca, ma la facciata è divisa in grandi losanghe da linee nere diagonali.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -2549,7 +2549,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-12",
       "gallery": [
         "assets/img/ss-leonida-keys-07.jpg"
       ],
@@ -2589,7 +2589,13 @@
       ],
       "toSee": "Isole collegate dalla strada, marine e acque turchesi",
       "whoYouMeet": "Jason Duval, Brian Heder, Cal Hampton",
-      "inspiration": "Florida Keys"
+      "inspiration": "Florida Keys",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "Sulla mappa di carta del Collector's Box, a sud di Vice City, ci sono Catalan Key, Gloriana Key e Corsair Key; nella vetrina di Manchester si leggevano anche Key Lento e Goose Key."
+        }
+      ]
     },
     {
       "id": "dis-grassrivers",
@@ -2693,7 +2699,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-12",
       "gallery": [
         "assets/img/ss-grassrivers-07.jpg"
       ],
@@ -2728,7 +2734,13 @@
       ],
       "toSee": "Paludi, fiumi lenti, foreste di cipressi, comunità rurali isolate",
       "whoYouMeet": null,
-      "inspiration": "Everglades (Florida)"
+      "inspiration": "Everglades (Florida)",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "Sulla mappa di carta del Collector's Box la contea di Mariana comprende Grassrivers, Pelican Valley, Hamlet e Watson Bay; la strada verso sud passa dal casello «Toll 1A»."
+        }
+      ]
     },
     {
       "id": "dis-port-gellhorn",
@@ -3357,7 +3369,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-12",
       "gallery": [
         "assets/img/ss-ambrosia-06.jpg"
       ],
@@ -3392,7 +3404,13 @@
       ],
       "toSee": "Raffineria di zucchero Allied Crystal",
       "whoYouMeet": "Chi comanda in città: una gang di biker locale",
-      "inspiration": "Città dello zucchero del lago Okeechobee (Clewiston)"
+      "inspiration": "Città dello zucchero del lago Okeechobee (Clewiston)",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "Sulla mappa di carta del Collector's Box Ambrosia sta nella contea di Leonard, al centro dello stato, con Emerald Springs, Buckskin Swamp e, più a ovest, la cava Breakwater Quarry. La Interstate 404 attraversa Leonida da ovest a est."
+        }
+      ]
     },
     {
       "id": "dis-mount-kalaga",
@@ -3490,7 +3508,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-12",
       "gallery": [
         "assets/img/ss-mount-kalaga-01.jpg"
       ],
@@ -3525,7 +3543,13 @@
       ],
       "toSee": "Terreni di caccia, angoli di pesca, piste fuoristrada, la cascata del trekking di coppia",
       "whoYouMeet": "Mistici di campagna e radicali paranoici",
-      "inspiration": "Grandi foreste nazionali del nord della Florida (Ocala, Apalachicola) e Providence Canyon in Georgia"
+      "inspiration": "Grandi foreste nazionali del nord della Florida (Ocala, Apalachicola) e Providence Canyon in Georgia",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "Sulla mappa di carta del Collector's Box la contea di Lummox copre tutto il nord, con Moreau, Manzana, Grayson, Millport, il grande Lake Leonida e al largo le Featherstone Islands, Hyde Island e le Frampton Islands."
+        }
+      ]
     },
     {
       "id": "dis-da-collocare",

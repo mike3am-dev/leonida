@@ -146,7 +146,7 @@ function checkFields(file, where, obj, def) {
     if (v === undefined || v === null) { if (!optional) err(file, where, `manca il campo obbligatorio "${field}"`); continue; }
     const ok = base === 'array' ? Array.isArray(v) : base === 'object' ? typeof v === 'object' : typeof v === base;
     if (!ok) err(file, where, `"${field}" dovrebbe essere ${base}, invece è ${Array.isArray(v) ? 'array' : typeof v}`);
-    if (base === 'string' && !optional && v.trim() === '') err(file, where, `"${field}" è vuoto`);
+    if (ok && base === 'string' && !optional && v.trim() === '') err(file, where, `"${field}" è vuoto`);
   }
 }
 
