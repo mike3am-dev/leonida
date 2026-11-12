@@ -3,7 +3,7 @@ import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound, landmarkIds } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, vis, sectionOf, districtStats, discoverBtn, isFound, landmarkIds, extrasHtml } from './shared.js';
 import * as mapboard from './mapboard.js';
 import * as spoiler from '../spoiler.js';
 
@@ -144,6 +144,7 @@ function zoneCard(d, expanded, num = 0) {
       </div>` : ''}
       ${d.tagline ? `<p class="lede">${esc(d.tagline)}</p>` : ''}
       <div class="prose">${spoiler.wrap(d, `<p>${esc(d.description || 'Descrizione in arrivo.')}</p>`)}</div>
+      ${extrasHtml(d)}
       ${b.total ? zoneStats(b, d) : ''}
       ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
