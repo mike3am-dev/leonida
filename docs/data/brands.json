@@ -369,10 +369,10 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-14",
       "name": "Weazel News, Megamundo, Mega Noticias, MeTV, CNT",
       "category": "TV",
-      "description": "Le reti televisive; Megamundo è anche l'azienda di Andres De Leon. Weazel News è comparsa sui bus di Miami.",
+      "description": "Le reti televisive; Megamundo è anche l'azienda di Andres De Leon. Weazel News è comparsa sui bus di Miami. Weazel trasmette la serie animata «Macca & Friends» dal 19 novembre.",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-weazel-news-borne-wynwood.jpg",
       "imageCredit": "Pubblicità reale di GTA VI a Miami con logo Weazel News, foto di vice-central.com"
@@ -824,14 +824,14 @@
       "id": "brd-macca-the-gator",
       "name": "Macca the Gator",
       "category": "TV",
-      "description": "Alligatore mascotte dello show in-game «The Goodtime State», da cui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $. Compare anche su tote bag e adesivi inviati ai creator.",
+      "description": "Alligatore rosa protagonista di «Macca & Friends», la serie animata in onda su Weazel dal 19 novembre, con il lamantino Chunkee, il granchio Pinche e altri amici delle paludi. Da lui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $; compare anche su tote bag, adesivi per i creator, le statue di Selfridges e i totem pubblicitari di Miami.",
       "image": "assets/img/mondo/brd-macca-the-gator.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest?cb=20260925150653",
       "imageCredit": "Macca the Gator, GTA VI, da GTA Wiki"
     },
@@ -2307,6 +2307,32 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-10"
+    },
+    {
+      "id": "brd-pinche",
+      "name": "Pinche",
+      "category": "TV",
+      "description": "Il granchio padrone di casa di Macca in «Macca & Friends», la serie animata di Weazel: ciondolo d'oro con il nome, mazzetta di banconote in chela. Visto nel primo teaser della serie.",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2121241786525810907",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-14",
+      "image": null
+    },
+    {
+      "id": "brd-the-johnsons",
+      "name": "The Johnsons",
+      "category": "TV",
+      "description": "Presunto secondo cartone animato della TV di Leonida, insieme a una telenovela, secondo quanto riferito da Kinda Funny il 13 novembre. Non ancora mostrato.",
+      "status": "da verificare",
+      "source": "rumor",
+      "sourceUrl": "https://www.pushsquare.com/news/2026/11/gta-6s-in-game-animated-tv-series-macca-and-friends-hints-at-the-games-absurd-scope",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-14",
+      "image": null
     }
   ]
 }

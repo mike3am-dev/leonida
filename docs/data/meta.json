@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.30.0",
+  "dataVersion": "0.30.1",
   "updatedAt": "2026-11-14",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.30.1",
+      "date": "2026-11-14",
+      "changes": [
+        "News del mattino: «Macca & Friends», il cartone di Weazel con Macca the Gator dal 19; patch 1.002 obbligatoria già scaricabile; codici nelle scatole (attenzione a quelle senza codice); codici su Twitch ogni giorno dal 19 al 30; spot PlayStation Corea; nomination dei Game Awards il 17 alle 18.",
+        "Mondo: Pinche il granchio e, come Rumor, il cartone «The Johnsons»."
+      ]
+    },
     {
       "version": "0.30.0",
       "date": "2026-11-14",
