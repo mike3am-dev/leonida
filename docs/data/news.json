@@ -2,6 +2,31 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261114-guardian-reportage-rockstar-north",
+      "date": "2026-11-14",
+      "title": "Il Guardian prova GTA VI a Rockstar North: appuntamenti in coppia, rapine da studiare, 62 specie di uccelli e un mondo in cui «l'empatia è possibile»",
+      "body": "L'incontro: Keza MacDonald ha visitato Rockstar North a Edimburgo un mese prima dell'uscita e ha giocato con Rob Nelson, codirettore dello studio, e Jennifer Kolbe. Lo studio è quasi vuoto: molti sono in ferie dopo più di dieci anni di lavoro, e su un piano un monitor fa il conto alla rovescia. Sul gioco hanno lavorato quasi 5.000 persone; il costo di oltre un miliardo di dollari è una stima indipendente che Rockstar non conferma.\n\nJason e Lucia: la coppia esce da un bar, va in discoteca e balla tra la folla con le magliette che brillano agli UV; poi cappellino, occhiali e bandana, e la rapina in gioielleria con la fuga in un'auto ammaccata attraverso un campo di mais, come Bonnie e Clyde. In alcuni capitoli sei legato a un solo personaggio, per il resto passi liberamente dall'uno all'altra. Quando sono lontani si scrivono e si chiamano; quando sono insieme puoi portarli ad appuntamenti: palestra, bar, un ritiro di meditazione, la rapina in un negozio di liquori. «La relazione è tua da coltivare o da perdere. Se resta romantica dipende da te»; se la trascuri ci sono conseguenze. Con un tasto si tengono per mano.\n\nIl crimine: all'inizio Jason e Lucia sanno avviare coi fili solo auto economiche e forzare serrature semplici; i colpi di valore arrivano dopo. Un distributore o una boutique di lusso vanno studiati prima: disattivi le telecamere o rubi il filmato, trovi la porta sul retro e il codice della cassaforte, e te ne vai prima che arrivino i testimoni. Se non lo fai, il caos sale in fretta: nella gioielleria una guardia spara invece di arrendersi, poi la fuga in moto inseguiti da auto e elicotteri, il bottino nascosto, il cambio di vestiti e qualche giorno lontano dal centro. «Non vogliamo punire chi gioca come è abituato, ma le tue azioni avranno effetto su come va la partita». Ed è la prima volta che un GTA offre «meccanismi che incoraggiano l'empatia, per chi li vuole».\n\nIl mondo: fuori dall'appartamento con la carta da parati ai fenicotteri c'è una signora con il cane; Jason chiede «posso accarezzarlo?» e lo fa. Si ascoltano i discorsi dei passanti, e interromperli può valere un «ci conosciamo?». Con il binocolo Jason osserva un gabbiano, che finisce nel diario della fauna: gli uccelli da avvistare sono 62. In un distributore Jason gira con una ciambella in una mano e un sei-pack di birre nell'altra, e la birra si muove nelle bottiglie; sugli scaffali le riviste si prendono e si sfogliano, illustrate pagina per pagina. Ogni passante è stato disegnato da qualcuno, vestiti compresi.\n\nLo sviluppo: le prime ricerche a Miami sono del 2015, quando il progetto si chiamava Project Americas e doveva coprire due continenti. Annunciato a dicembre 2023, è slittato due volte. Nelson: il limite non è più la tecnologia ma le persone, «quanto riusciamo a costruire fisicamente»; e «potevano fare GTA 5.5, e più in fretta», dice Kolbe, ma non era quello che volevano. Sullo sfondo resta la causa a Glasgow per il licenziamento di 34 dipendenti, che andrà avanti fino all'uscita.",
+      "topic": "gameplay",
+      "outlet": "The Guardian (Saturday, 14/11, pp. 32-34)",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.theguardian.com/games",
+      "relatedIds": [
+        "new-20261111-guardian-nelson-dettagli",
+        "mec-relazione",
+        "mec-rapine",
+        "mec-interazione-gente",
+        "mec-animali-caccia-pesca",
+        "new-20261027-union",
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "updatedAt": "2026-11-14",
+      "image": null
+    },
+    {
       "id": "new-20261113-burger-shot-skinny-louie-menu",
       "date": "2026-11-13",
       "title": "Burger Shot da oggi in tutti gli Skinny Louie della Florida, con il Bleeder nel menu",
@@ -251,7 +276,8 @@
       "sourceUrl": "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
       "relatedIds": [
         "new-20261020-schreier-a-tgg-il-gioco-non-e-woke",
-        "new-20260914-nelson-ammette-la-pressione-e-il-nervosi"
+        "new-20260914-nelson-ammette-la-pressione-e-il-nervosi",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "updatedAt": "2026-11-11",
       "example": false

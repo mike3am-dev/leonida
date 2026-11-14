@@ -124,6 +124,10 @@
         {
           "source": "stampa",
           "text": "Anche fare shopping e cambiare look insieme rafforza il legame."
+        },
+        {
+          "source": "stampa",
+          "text": "Tra gli appuntamenti ci sono anche il bar, un ritiro di meditazione e la rapina a un negozio di liquori. Trascurare la relazione ha conseguenze."
         }
       ],
       "relatedIds": [
@@ -132,14 +136,15 @@
         "act-zoo-dettagli",
         "tip-coppia",
         "teo-un-sistema-di-relazione-tra-jason-e-luci",
-        "new-20261014-bloomberg"
+        "new-20261014-bloomberg",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-14"
     },
     {
       "id": "mec-profilo-criminale",
@@ -427,7 +432,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "id": "mec-furto-auto",
       "title": "Furto d'auto",
       "emoji": "🚗",
@@ -481,6 +486,10 @@
         {
           "source": "leak",
           "text": "Nella build del 2022 Lucia usava un disturbatore di localizzatori e un bypass per l'immobilizer, e la polizia ricordava modello e targa."
+        },
+        {
+          "source": "stampa",
+          "text": "All'inizio Jason e Lucia sanno avviare coi fili solo le auto economiche e forzare le serrature semplici."
         }
       ],
       "relatedIds": [
@@ -495,7 +504,8 @@
         "wpn-slim-jim",
         "wpn-key-cloner",
         "new-20261029-scooter-bros",
-        "new-20261029-polizia-edge"
+        "new-20261029-polizia-edge",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -585,7 +595,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "id": "mec-rapine",
       "title": "Rapine",
       "emoji": "💰",
@@ -643,6 +653,10 @@
         {
           "source": "leak",
           "text": "Nella build del 2022 si vedevano ostaggi legati con fascette, scudi umani e container da svaligiare."
+        },
+        {
+          "source": "stampa",
+          "text": "All'inizio i colpi sono piccoli: i lavori di valore arrivano dopo. Prima di un colpo disattiva le telecamere o ruba il filmato, trova la porta sul retro e il codice della cassaforte, ed esci prima che arrivino i testimoni."
         }
       ],
       "relatedIds": [
@@ -663,7 +677,8 @@
         "brd-diamond-dawgs",
         "wpn-duffel",
         "wpn-mask",
-        "wpn-face-wrap"
+        "wpn-face-wrap",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1191,7 +1206,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "id": "mec-animali-caccia-pesca",
       "title": "Animali, caccia e pesca",
       "emoji": "🐊",
@@ -1248,6 +1263,10 @@
         {
           "source": "community",
           "text": "Nelle Keys c'è un pesce leone rosso, e una barriera corallina con le tartarughe marine."
+        },
+        {
+          "source": "stampa",
+          "text": "Con il binocolo gli uccelli si registrano nel diario della fauna: le specie da avvistare sono 62."
         }
       ],
       "relatedIds": [
@@ -1261,7 +1280,8 @@
         "act-pesca-dettagli",
         "act-zoo-dettagli",
         "brd-poach",
-        "tip-profilo"
+        "tip-profilo",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1365,7 +1385,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "id": "mec-interazione-gente",
       "title": "Interazione con la gente",
       "emoji": "🗣️",
@@ -1418,6 +1438,10 @@
         {
           "source": "community",
           "text": "Molti NPC filmano col telefono sparatorie e inseguimenti; si pensa a un sistema di notorietà social, non confermato."
+        },
+        {
+          "source": "stampa",
+          "text": "Puoi chiedere a chi porta a spasso il cane di accarezzarlo. I passanti parlano tra loro e si possono ascoltare; se li interrompi, possono risponderti «ci conosciamo?»."
         }
       ],
       "relatedIds": [
@@ -1428,7 +1452,8 @@
         "new-20260827-capelli",
         "act-fence-tips",
         "teo-un-sistema-di-social-network-integrato-i",
-        "tip-profilo"
+        "tip-profilo",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1438,7 +1463,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-14",
       "id": "mec-meteo-mondo-vivo",
       "title": "Meteo e mondo vivo",
       "emoji": "🌀",
@@ -1485,6 +1510,10 @@
         {
           "source": "stampa",
           "text": "La sabbia si attacca alle scarpe, chi corre suda, e le piante si muovono sott'acqua."
+        },
+        {
+          "source": "stampa",
+          "text": "Nei distributori le riviste sugli scaffali si prendono e si sfogliano, illustrate pagina per pagina; Jason e Lucia possono mangiare e bere camminando, con il cibo in mano."
         }
       ],
       "relatedIds": [
@@ -1493,7 +1522,8 @@
         "new-20261029-giorno",
         "new-20260929-gameinformer",
         "teo-uragani-a-leonida-la-teoria-di-un-meteo-",
-        "act-kayak"
+        "act-kayak",
+        "new-20261114-guardian-reportage-rockstar-north"
       ],
       "status": "verificato",
       "source": "trailer",
