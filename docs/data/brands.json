@@ -27,7 +27,16 @@
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-17",
+      "extras": [
+        {
+          "source": "leak",
+          "text": "La scaletta completa letta sul retro del vinile aggiunge 24 inediti, tra cui «Go Easy» di Dua Lipa, «Crazy for You» di Lana Del Rey, «Power Trip» di Jennie, «Ahh Yea» di Playboi Carti, «Fast Emotion» di Zara Larsson, «Sweet Like Candy» di Camila Cabello, «Bigger» di Burna Boy e «Starting From Zero» dei Justice con Michael McDonald, che apre il disco."
+        }
+      ],
+      "relatedIds": [
+        "new-20261114-the-album-scaletta-34-brani"
+      ]
     },
     {
       "id": "brd-score-justice",
@@ -102,16 +111,19 @@
       "id": "brd-gta-plus",
       "name": "GTA+",
       "category": "Abbonamento",
-      "description": "I preordini digitali includono un mese gratuito di GTA+, riscattabile subito e utilizzabile anche su GTA Online e sui titoli classici della GTA+ Games Library.",
+      "description": "I preordini digitali includono un mese gratuito di GTA+, riscattabile subito e utilizzabile anche su GTA Online e sui titoli classici della GTA+ Games Library. Dal 27 novembre al 15 gennaio chi ha GTA+ gioca gratis a NBA 2K27 Standard Edition su PS5 e Xbox Series, con il 20% di sconto per comprarlo; dal 17 dicembre al 31 marzo c'è anche un pacchetto bonus Vice City.",
       "image": "assets/img/mondo/brd-gta-plus.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-17",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/24/GTA%2B-Logo.png/revision/latest?cb=20220325165123",
-      "imageCredit": "Logo GTA+ (servizio esistente in GTA Online, serie), da GTA Wiki"
+      "imageCredit": "Logo GTA+ (servizio esistente in GTA Online, serie), da GTA Wiki",
+      "relatedIds": [
+        "new-20261116-nba-2k27-vice-city"
+      ]
     },
     {
       "id": "brd-megamundo",
@@ -824,16 +836,19 @@
       "id": "brd-macca-the-gator",
       "name": "Macca the Gator",
       "category": "TV",
-      "description": "Alligatore rosa protagonista di «Macca & Friends», la serie animata in onda su Weazel dal 19 novembre, con il lamantino Chunkee, il granchio Pinche e altri amici delle paludi. Da lui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $; compare anche su tote bag, adesivi per i creator, le statue di Selfridges e i totem pubblicitari di Miami.",
+      "description": "Alligatore rosa protagonista di «Macca & Friends», la serie animata in onda su Weazel dal 19 novembre, con il lamantino Chunkee, il granchio Pinche e altri amici delle paludi. Da lui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $; compare anche su tote bag, adesivi per i creator, le statue di Selfridges e i totem pubblicitari di Miami. In NBA 2K27, nella Stagione 3 «Vice City Takeover», ha una statua nel quartiere online ed è tra le ricompense.",
       "image": "assets/img/mondo/brd-macca-the-gator.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-17",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest?cb=20260925150653",
-      "imageCredit": "Macca the Gator, GTA VI, da GTA Wiki"
+      "imageCredit": "Macca the Gator, GTA VI, da GTA Wiki",
+      "relatedIds": [
+        "new-20261116-nba-2k27-vice-city"
+      ]
     },
     {
       "id": "brd-sahara",
@@ -1092,15 +1107,18 @@
       "id": "brd-vice-pass",
       "name": "Vice Pass",
       "category": "Servizi",
-      "description": "Il casello ad archi sotto un tetto di tegole all'estremità occidentale della Rialto Causeway. Non è ancora noto se si paghi il pedaggio.",
+      "description": "Il pedaggio di Leonida. C'è un programma prepagato Vice Pass e, in alternativa, il Toll-by-Plate con addebito sulla targa. Il casello ad archi sotto un tetto di tegole sta all'estremità occidentale della Rialto Causeway; i cartelli sulla strada da Key Lento indicano anche il Toll 1A verso Catalan Key e Goose Key.",
       "image": "assets/img/mondo/brd-vice-pass.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/venetian-islands",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l602-full.webp"
+      "updatedAt": "2026-11-17",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/venetian-islands/landmark-l602-full.webp",
+      "relatedIds": [
+        "new-20261116-weather-channel-meteo-leonida"
+      ]
     },
     {
       "id": "brd-akio-hotel",
@@ -1246,30 +1264,36 @@
       "id": "brd-the-rusty-anchor",
       "name": "The Rusty Anchor",
       "category": "Luoghi di ritrovo",
-      "description": "Bar sulla spiaggia di Key Lento stipato di gente, con veranda e tavoli da picnic (e qualcuno svenuto tra le bottiglie vuote). Qui ricompare la vicina che grida «Hi Jason».",
+      "description": "Bar sulla spiaggia di Key Lento stipato di gente, con veranda e tavoli da picnic (e qualcuno svenuto tra le bottiglie vuote). Qui ricompare la vicina che grida «Hi Jason». Ha un pontile con paillote e lucine, con moto d'acqua e barchette ormeggiate davanti.",
       "image": "assets/img/mondo/brd-the-rusty-anchor.jpg",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/key-lento-key-largo",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-17",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/OfficialScreenshots-GTAVI-PromotionalWebsite-LeonidaKeys-SS3.jpg/revision/latest?cb=20250506164234",
-      "imageCredit": "Insegna The Rusty Anchor (screenshot ufficiale Leonida Keys), da GTA Wiki"
+      "imageCredit": "Insegna The Rusty Anchor (screenshot ufficiale Leonida Keys), da GTA Wiki",
+      "relatedIds": [
+        "new-20261116-weather-channel-meteo-leonida"
+      ]
     },
     {
       "id": "brd-brian-s-marina",
       "name": "Brian's Marina",
       "category": "Azienda",
-      "description": "Il cantiere nautico e porticciolo di Brian Heder a Key Lento, con l'insegna rossa che spunta sopra gli alberi: da qui il contrabbandiere continua a far passare la merce con la terza moglie Lori.",
+      "description": "Il cantiere nautico e porticciolo di Brian Heder a Key Lento, con l'insegna rossa che spunta sopra gli alberi: da qui il contrabbandiere continua a far passare la merce con la terza moglie Lori. Le barche stanno impilate su rastrelliere a più piani, sotto l'insegna luminosa.",
       "image": "assets/img/mondo/brd-brian-s-marina.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/key-lento-key-largo",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l326-full.webp"
+      "updatedAt": "2026-11-17",
+      "imageUrl": "https://www.gtasixmap.com/images/locations/key-lento-key-largo/landmark-l326-full.webp",
+      "relatedIds": [
+        "new-20261116-weather-channel-meteo-leonida"
+      ]
     },
     {
       "id": "brd-chip-s-body-shop",
@@ -2333,6 +2357,19 @@
       "example": false,
       "updatedAt": "2026-11-14",
       "image": null
+    },
+    {
+      "id": "brd-coastal-auto-care",
+      "name": "Coastal Auto Care",
+      "category": "Servizi",
+      "description": "Officina delle Leonida Keys: è il posto dove far sistemare i fari prima di guidare sotto la pioggia notturna.",
+      "image": null,
+      "status": "da verificare",
+      "source": "trailer",
+      "sourceUrl": "https://x.com/weatherchannel/status/2122429589326798848",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-17"
     }
   ]
 }

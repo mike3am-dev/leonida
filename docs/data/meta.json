@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.30.2",
-  "updatedAt": "2026-11-14",
+  "dataVersion": "0.30.3",
+  "updatedAt": "2026-11-17",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.30.3",
+      "date": "2026-11-17",
+      "changes": [
+        "Tre giorni di news (14-17 novembre): nuova patch 1.002.001, recensioni attese domani, 15,9 milioni di preordini digitali, la scaletta completa di «The Album» (Leak), le immagini ufficiali sul meteo con The Weather Channel, NBA 2K27 con GTA+, l'Italia prima al mondo per le ferie il 19, l'autore della fuga del 2022 colpevole.",
+        "Mondo, Come si gioca: Coastal Auto Care, pedaggi Vice Pass, meteo, trasporti e animali aggiornati."
+      ]
+    },
     {
       "version": "0.30.2",
       "date": "2026-11-14",

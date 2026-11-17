@@ -1206,7 +1206,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-17",
       "id": "mec-animali-caccia-pesca",
       "title": "Animali, caccia e pesca",
       "emoji": "🐊",
@@ -1267,6 +1267,14 @@
         {
           "source": "stampa",
           "text": "Con il binocolo gli uccelli si registrano nel diario della fauna: le specie da avvistare sono 62."
+        },
+        {
+          "source": "stampa",
+          "text": "La caccia potrebbe avere una stagione: per Gambit Bay si parla di «apertura della stagione di caccia»."
+        },
+        {
+          "source": "rumor",
+          "text": "Catalogare tutta la fauna peserebbe molto sul Platino, stimato oltre le 200 ore."
         }
       ],
       "relatedIds": [
@@ -1281,7 +1289,8 @@
         "act-zoo-dettagli",
         "brd-poach",
         "tip-profilo",
-        "new-20261114-guardian-reportage-rockstar-north"
+        "new-20261114-guardian-reportage-rockstar-north",
+        "new-20261116-weather-channel-meteo-leonida"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1463,7 +1472,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-17",
       "id": "mec-meteo-mondo-vivo",
       "title": "Meteo e mondo vivo",
       "emoji": "🌀",
@@ -1514,6 +1523,10 @@
         {
           "source": "stampa",
           "text": "Nei distributori le riviste sugli scaffali si prendono e si sfogliano, illustrate pagina per pagina; Jason e Lucia possono mangiare e bere camminando, con il cibo in mano."
+        },
+        {
+          "source": "stampa",
+          "text": "Il meteo è stato ripensato da zero per essere locale, persistente e dinamico: pioggia notturna con visibilità ridotta nelle Keys (su alcune strade ci sono catarifrangenti), temporali che avanzano sulle paludi di Pelican Valley mentre il resto è ancora al sole, nebbia marina con volume che inghiotte i grattacieli di South Ocean Beach, tempeste tropicali con mare grosso e fulmini, foschia bassa nei mattini umidi di Gambit Bay."
         }
       ],
       "relatedIds": [
@@ -1523,7 +1536,8 @@
         "new-20260929-gameinformer",
         "teo-uragani-a-leonida-la-teoria-di-un-meteo-",
         "act-kayak",
-        "new-20261114-guardian-reportage-rockstar-north"
+        "new-20261114-guardian-reportage-rockstar-north",
+        "new-20261116-weather-channel-meteo-leonida"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1575,14 +1589,21 @@
         {
           "source": "community",
           "text": "I nomi ufficiali delle stazioni sono solo tre: Vice City Arts Center, Crosstown e NW 3rd Street. Gli altri nomi delle stazioni sono quelli dei quartieri."
+        },
+        {
+          "source": "stampa",
+          "text": "Ci sono i pedaggi: badge prepagato Vice Pass o Toll-by-Plate sulla targa. Dalle Keys i cartelli indicano la US 1, la Route 82, la Interstate 97 verso Hamlet e il Toll 1A per Catalan Key e Goose Key."
         }
       ],
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261116-weather-channel-meteo-leonida",
+        "brd-vice-pass"
+      ],
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-17",
       "sourceUrl": "https://gta.wiki/w/Vice_City_Metro"
     },
     {

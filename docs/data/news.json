@@ -2,6 +2,425 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261116-patch-1-002-001",
+      "date": "2026-11-16",
+      "title": "Secondo aggiornamento prima dell'uscita: versione 1.002.001, 602 MB su PS5 e 1,6 GB su Xbox, ancora senza note",
+      "body": "Cosa arriva: lunedì 16 novembre chi ha fatto il preload riceve un nuovo aggiornamento obbligatorio, da installare prima di giocare il 19. Su PS5 è la versione 01.002.001, circa 602 MB (cambia un po' da paese a paese); su Xbox Series X|S è la 1.0.2.1, circa 1,6 GB, e porta il gioco a 211,9 GB installati.\n\nPS5 a scaglioni: come per la 1.002.000, Sony e Rockstar lo distribuiscono a gruppi per non intasare la rete PlayStation. Un terzo delle console lo ha avuto lunedì mattina, un altro terzo dalle 23:00 italiane di lunedì, tutte le altre dalle 11:00 di martedì 17. Su Xbox è arrivato a tutti subito. Con gli aggiornamenti automatici non serve fare nulla; altrimenti, dalla scheda del gioco, «Cerca aggiornamenti».\n\nCosa contiene: Rockstar non ha pubblicato note, si parla genericamente di correzioni. Finendo di uscire più di un giorno prima dello sblocco in Nuova Zelanda, potrebbe essere l'ultimo aggiornamento prima del lancio.",
+      "topic": "tecnica",
+      "outlet": "Rockstar Intel / PlaystationSize / IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/new-gta-vi-update-released-and-not-everyone-has-gotten-it-heres-why/",
+      "relatedIds": [
+        "new-20261113-patch-1-002",
+        "new-20261110-preload-aperto-italia"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261117-firmware-ps5-14-23",
+      "date": "2026-11-17",
+      "title": "Sony pubblica un altro firmware PS5, il 14.23, due giorni prima di GTA VI: solo correzioni di sicurezza",
+      "body": "L'aggiornamento: martedì 17 novembre esce il software di sistema PS5 26.07-14.23.00, circa 1,3 GB. Nelle note ufficiali c'è solo una riga: «correzioni di sicurezza al software di sistema». Arriva due settimane dopo il 14.22, quello che GTA VI richiede per partire.\n\nServe per GTA VI? Non è confermato. Ma chi vuole usare le funzioni online deve installarlo comunque, e conviene farlo prima del 19 per non perdere tempo a mezzanotte: Impostazioni › Sistema › Software di sistema.\n\nIl contesto: la stampa lo lega alla corsa contro lo sblocco (jailbreak) delle console. Il 16 novembre l'hacker Gezine ha detto di aver estratto il file eseguibile di un gioco su una PS5 con il firmware 14.22, senza mostrare prove; secondo IGN non c'è prova che il nuovo firmware sia una risposta a quell'annuncio. È il quinto aggiornamento di sicurezza in pochi mesi.",
+      "topic": "tecnica",
+      "outlet": "PlayStation / IGN / Push Square / Eurogamer",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.playstation.com/it-it/support/hardware/ps5/system-software-info/",
+      "relatedIds": [
+        "new-20261103-gta-vi-richiede-firmware-ps5-14-10-poi-1",
+        "new-20261116-patch-1-002-001"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261115-durata-50-ore-platino-200",
+      "date": "2026-11-15",
+      "title": "Leak: la storia durerebbe circa 50 ore, quasi 100 missioni, e il Platino ne chiederebbe 200",
+      "body": "Leak: secondo Insider Gaming (Tom Henderson), che cita persone che hanno già il gioco in mano, la storia principale dura in media circa 50 ore, con quasi 100 missioni divise in cinque capitoli. Per il Platino su PS5 (o l'obiettivo «Mythic» su Xbox) servirebbero circa 200 ore, più del doppio di GTA V e vicino alle 196 ore di Red Dead Redemption 2.\n\nPerché così tante: alcuni trofei dipenderebbero dalla fortuna, come in Red Dead Redemption 2 con lo zoologo, per esempio censire le oltre 170 specie di animali. Ad agosto Rob Nelson aveva raccontato al New York Times di aver giocato 80 ore a febbraio, tra storia e obiettivi facoltativi.\n\nDa verificare: la lista ufficiale dei trofei non è ancora uscita; il totale di 55 resta quello trovato nei dati. Rockstar non commenta.",
+      "topic": "gameplay",
+      "outlet": "Insider Gaming / Rockstar Intel / Notebookcheck",
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 9,
+      "example": false,
+      "sourceUrl": "https://insider-gaming.com/how-long-to-complete-gta/",
+      "relatedIds": [
+        "new-20261108-trofei-55",
+        "new-20260929-fauna"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261117-recensioni-domani",
+      "date": "2026-11-17",
+      "title": "Recensioni: mercoledì 18, verso mezzogiorno italiano? Ancora nessuna conferma ufficiale",
+      "body": "Rumor: l'embargo delle recensioni dovrebbe cadere mercoledì 18 novembre, il giorno prima dell'uscita. L'orario circolato è tra le 12:00 e le 13:00 italiane (6-7 del mattino a New York), quando dovrebbe comparire il voto su Metacritic; alcuni siti e canali YouTube dovrebbero invece aspettare il 19 alle 6:00. Viene da un utente di forum che ci aveva preso in passato, ripreso da Insider Gaming e NateTheHate; Rockstar non ha mai detto nulla.\n\nIntanto: la pagina Metacritic del gioco non mostra ancora alcun voto. Le nomination dei Game Awards escono oggi alle 18:00 italiane, quindi prima delle recensioni.\n\nIl consiglio: chi teme gli spoiler legga i voti, non i testi; dal 18 è meglio silenziare le parole chiave sui social.",
+      "topic": "uscita",
+      "outlet": "Notebookcheck / Insider Gaming",
+      "source": "rumor",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.notebookcheck.net/GTA-6-review-embargo-time-leaks-with-some-sites-restricted-until-release-date.1432496.0.html",
+      "relatedIds": [
+        "new-20261026-embargo",
+        "new-20261113-game-awards-nomination-17-novembre"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261116-twitch-trucco-nuova-zelanda",
+      "date": "2026-11-16",
+      "title": "Giocare prima col trucco della Nuova Zelanda? A uno streamer Twitch avrebbero prospettato la sospensione",
+      "body": "Rumor: lo streamer tedesco Rohat racconta che un referente di Twitch gli ha detto che può rischiare la sospensione se va in diretta prima dell'ora ufficiale del suo paese. Se uno spettatore lo segnala a Sony, Twitch non avrebbe scelta. Twitch non ha mandato avvisi generali, ma le sue regole impongono di rispettare embargo e accordi degli editori.\n\nGli orari: GTA VI si sblocca alla mezzanotte locale del 19 novembre. In Italia si gioca dalle 00:00 del 19, a Londra un'ora dopo, a New York sei ore dopo. Chi imposta la Xbox sulla Nuova Zelanda parte dalle 12:00 italiane del 18; su PS5 serve un account neozelandese, ed è molto più scomodo. Su Xbox Cloud Gaming l'avvio è alle 7:00 italiane del 19.",
+      "topic": "uscita",
+      "outlet": "Notebookcheck / IGN",
+      "source": "rumor",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://x.com/twitchspion/status/2122072486963462605",
+      "relatedIds": [
+        "new-20261105-sblocco-a-mezzanotte-locale-in-italia-si",
+        "new-20261109-sony-avverte-trucco-nuova-zelanda",
+        "new-20261110-xbox-cloud-xbox-one"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261117-digital-foundry-30-fps",
+      "date": "2026-11-17",
+      "title": "Digital Foundry: i 30 fps «hanno senso», i 60 su queste console non sarebbero possibili",
+      "body": "Stampa: nel DF Direct Weekly 290 Richard Leadbetter di Digital Foundry commenta la scelta ufficiale dei 30 fotogrammi al secondo su tutte le console. A 30 fps ogni fotogramma ha 33,3 millisecondi per calcolare mondo e simulazione; a 60 ne avrebbe la metà, «non è fattibile»; anche i 40 fps (25 millisecondi) avrebbero chiesto grandi tagli o tanta ottimizzazione in più.\n\nPS5 Pro: non si sa ancora se userà il nuovo sistema di upscaling di Sony. È un commento, non ancora un'analisi del gioco: le misure vere di Digital Foundry arriveranno dopo l'uscita.",
+      "topic": "tecnica",
+      "outlet": "Digital Foundry / Dexerto",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.youtube.com/watch?v=7PLhEMgXdQs&t=2023s",
+      "relatedIds": [
+        "new-20261110-rockstar-30fps-ps5-pro"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261116-kurtaj-colpevole",
+      "date": "2026-11-16",
+      "title": "Arion Kurtaj si dichiara colpevole: è l'hacker della fuga dei 90 video del 2022, sentenza il 23 novembre",
+      "body": "Il fatto: lunedì 16 novembre, davanti alla Woolwich Crown Court di Londra, il ventunenne Arion Kurtaj del gruppo Lapsus$ ammette tutti gli attacchi: Rockstar Games, da cui nel 2022 fece uscire 90 video di GTA VI in sviluppo, e poi BT/EE, Revolut e Uber. Si è dichiarato colpevole anche di aggressioni al personale durante la custodia. La sentenza è fissata per il 23 novembre, nello stesso tribunale.\n\nLa storia: nel 2023 era stato giudicato non in grado di affrontare il processo per l'autismo e chiuso a tempo indeterminato in un ospedale psichiatrico sicuro; a gennaio i medici lo hanno ritenuto idoneo e il processo era fissato dal 9 novembre. Ai tempi dell'attacco a Rockstar aveva 17 anni e lo fece da una stanza d'albergo, con una chiavetta Amazon Fire Stick collegata alla TV. La Procura britannica parla di milioni di dollari di danni.",
+      "topic": "business",
+      "outlet": "Crown Prosecution Service / BBC / Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.cps.gov.uk/london-south/news/lapsus-hacker-who-leaked-gta-vi-gameplay-videos-convicted",
+      "relatedIds": [
+        "new-20261009-arion-kurtaj-fuga-2022-a-processo-dal-9-"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261117-numero-1-tutti-ps-store",
+      "date": "2026-11-17",
+      "title": "GTA VI primo in classifica in tutti i PlayStation Store dove si vende: cede anche il Giappone",
+      "body": "I dati: secondo il sito di monitoraggio PS Store DB, il 17 novembre GTA VI è primo tra i più venduti in 52 dei 55 PlayStation Store seguiti. Le tre eccezioni, Kuwait, Qatar e Cina, sono paesi dove il gioco non è in vendita. È primo anche nella classifica mondiale del sito, davanti a EA Sports FC 27, Fortnite, Call of Duty e NBA 2K27.\n\nIl Giappone: fino al 15 novembre era secondo, dietro Apex Legends e il suo evento con Godzilla; anche perché lì il gioco pesa circa 1 GB in meno e parte dei giocatori lo avrebbe comprato su account esteri.\n\nDa sapere: sono posizioni, non copie vendute. Né Sony né Rockstar hanno dato numeri.",
+      "topic": "business",
+      "outlet": "Vice Central / TheGamer (dati PS Store DB)",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://ps-store-db.live/games/10000730",
+      "relatedIds": [
+        "new-20261110-record-preordini-ps-store-xbox",
+        "new-20261109-giappone-versione-tagliata"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261114-xbox-store-1999-dollari",
+      "date": "2026-11-14",
+      "title": "Xbox Store: compare per poche ore una versione di GTA VI a 1.999,99 dollari, ma è la voce tecnica dei codici in scatola",
+      "body": "Il fatto: sulla pagina web di GTA VI nell'Xbox Store americano, accanto alla Standard da 79,99 e alla Ultimate da 99,99 dollari, è comparsa per poco una terza opzione senza nome a 1.999,99 dollari, poi sparita.\n\nCos'era: Microsoft la descriveva come «prodotto con codice in scatola». Quasi certamente è la voce interna che serve a riscattare i codici delle copie fisiche, con un prezzo assurdo apposta perché nessuno la compri. Non è una nuova edizione da collezione.",
+      "topic": "uscita",
+      "outlet": "Notebookcheck",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.notebookcheck.net/Xbox-Store-lists-new-2000-GTA-6-pre-order-edition-with-price-causing-sticker-shock.1450524.0.html",
+      "relatedIds": [
+        "new-20261113-codici-scatola-torcia-mancanti"
+      ],
+      "updatedAt": "2026-11-17"
+    },
+    {
+      "id": "new-20261114-the-album-scaletta-34-brani",
+      "date": "2026-11-14",
+      "title": "«The Album», trapelata la scaletta completa dei 34 brani: ci sono Dua Lipa, Lana Del Rey, Jennie e Playboi Carti",
+      "body": "Da dove arriva: un video del retro del doppio vinile, girato da chi dice di lavorare in un negozio di dischi, mostra le quattro facciate con titoli e interpreti. Rockstar e Atlantic Records non hanno commentato; Rolling Stone e Billboard dicono di averne avuto conferma dalle loro fonti. I dieci brani già usciti ci sono tutti, al posto giusto e con gli interpreti giusti.\n\nI 24 inediti: «Starting From Zero» (Justice, con Michael McDonald), «Ahh Yea» (Playboi Carti), «Go Easy» (Dua Lipa), «X» (Jhayco), «Dance With Me» (A Boogie Wit Da Hoodie), «Bigger» (Burna Boy), «Count Up» (Gunna), «Let's Rock» (Kodak Black e Don Toliver), «Wakin Up Flex» (Young Thug), «IKYFL» (Tee Grizzley), «TF?» (Don Toliver), «GMA» (JT), «Power Trip» (Jennie), «Fast Emotion» (Zara Larsson), «Sweet Like Candy» (Camila Cabello), «Only One» (Fcukers), «Sandunegue» (Arca), «TRDWFE» (Rina Sawayama), «All Again» (Rose Gray), «Crazy for You» (Lana Del Rey, un brano del 2014 mai uscito), «Largate» (Kali Uchis e Helado Negro), «No Me Busques» (Omar Apollo), «Stone Cold Krazy Luuv» (Jesse Johnson e DāM-FunK), «Overtown Lights» (Stanley Clarke, Yussef Dayes e Robert Glasper). Apre il disco Justice, chiude il jazz di Overtown.\n\nCosa non dice: The Weeknd non c'è. L'album raccoglie solo i brani originali scritti per il gioco: quali passeranno alla radio, e su quale stazione, non si sa ancora.",
+      "topic": "musica",
+      "outlet": "Rockstar Intel / Rolling Stone / Billboard",
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/full-gta-vi-the-album-track-list-leaked/",
+      "relatedIds": [
+        "brd-the-album",
+        "new-20260917-album",
+        "new-20261111-tove-lo-singolo",
+        "new-20261112-the-album-ascolti-negozi",
+        "rad-back-country",
+        "tip-music"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261114-justice-rockyrama-quinto-album",
+      "date": "2026-11-14",
+      "title": "Justice: la musica di GTA VI è «un vero quinto album», e Rockstar chiedeva emozioni, non uno stile",
+      "body": "L'intervista: Xavier de Rosnay e Gaspard Augé si raccontano alla rivista francese Rockyrama, nel numero 53 dedicato a Grand Theft Auto; i primi estratti sono usciti su Instagram con il gruppo come coautore.\n\nCosa dicono: «È un progetto a parte, ma è un vero quinto album dei Justice. GTA VI ci ha dato il pretesto e la direzione per farlo». Rockstar non ha mai chiesto un genere o un suono, ma l'emozione da far provare a chi gioca in quel momento; ogni pezzo, pur scritto su misura per una scena, doveva reggersi da solo. In un'altra intervista il duo dice che sarà con ogni probabilità la sua unica colonna sonora per un videogioco.\n\nLe date: «Grand Theft Auto VI: Original Score» (30 tracce) esce l'11 dicembre; il 21 novembre i Justice suonano un DJ set al festival di lancio di Miami.",
+      "topic": "musica",
+      "outlet": "Rockyrama (n. 53) / Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.instagram.com/p/DfuDlpUjVGu/",
+      "relatedIds": [
+        "new-20261029-score",
+        "tip-music",
+        "new-20261109-the-festival-miami"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261114-zelnick-anthropic-openai",
+      "date": "2026-11-14",
+      "title": "Zelnick contro i cloni fatti con l'IA: «ironico» che Anthropic e OpenAI calpestino la proprietà intellettuale altrui",
+      "body": "Cosa ha detto: alla domanda se le aziende di intelligenza artificiale dovrebbero impedire di smontare e ricopiare i videogiochi, il capo di Take-Two risponde che tutte le aziende dovrebbero proteggere la proprietà intellettuale, la propria e quella degli altri; Anthropic e OpenAI vivono anche loro di proprietà intellettuale, ed è «ironico» calpestare quella altrui sperando che la propria resti protetta.\n\nPerché ora: il 9 novembre Take-Two aveva promesso agli investitori difese tecniche e azioni legali più dure contro le ricompilazioni fatte con l'IA. Negli ultimi mesi giochi per console sono stati portati su PC così, e su Steam sono comparse copie fatte in poche ore. GTA VI esce senza versione PC annunciata.",
+      "topic": "business",
+      "outlet": "IGN / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/",
+      "relatedIds": [
+        "new-20261110-take-two-conti-q2",
+        "new-20261105-zelnick-al-wsj-grand-theft-auto-fatto-a-"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261116-weather-channel-meteo-leonida",
+      "date": "2026-11-16",
+      "title": "The Weather Channel fa le previsioni per Leonida: sei immagini ufficiali con pioggia nelle Keys, nebbia sul mare e una tempesta tropicale",
+      "body": "Cosa è uscito: Rockstar ha dato a The Weather Channel, la rete meteo americana, sei immagini nuove con un «bollettino» per ogni zona. Owen Shepherd, vicepresidente artistico per luce e rendering: il meteo è stato ripensato da zero per essere «più locale, persistente e soprattutto dinamico», dal cielo sereno ai cumulonembi.\n\nLe sei previsioni: Leonida Keys, pioggia battente di notte davanti a Brian's Marina, con catarifrangenti su alcune strade e un consiglio a far sistemare i fari da Coastal Auto Care; Pelican Valley, un temporale che avanza sulle paludi e nasconde alligatori e altri predatori; South Ocean Beach, nebbia marina che inghiotte hotel, autostrada e ponti; il Rusty Anchor, bar sul pontile, con tempesta tropicale, mare grosso e fulmini; Gambit Bay, foschia bassa al mattino per «l'apertura della stagione di caccia»; Key Lento, pioggia e vento sui pendolari.\n\nI cartelli: sulla strada da Key Lento si leggono il pedaggio Vice Pass (programma prepagato) o Toll-by-Plate, la US 1, la Route 82, la Interstate 97 per Hamlet e il Toll 1A per Catalan Key e Goose Key. Gli uragani, annunciati, non si sono ancora visti.",
+      "topic": "mappa",
+      "outlet": "The Weather Channel (X) / Rockstar Games",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://x.com/weatherchannel/status/2122429589326798848",
+      "relatedIds": [
+        "mec-meteo-mondo-vivo",
+        "new-20260929-meteo",
+        "new-20260929-gameinformer",
+        "brd-brian-s-marina",
+        "brd-the-rusty-anchor",
+        "brd-vice-pass",
+        "dis-keys",
+        "dis-grassrivers",
+        "mec-rete-trasporti"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261116-nba-2k27-vice-city",
+      "date": "2026-11-16",
+      "title": "NBA 2K27 incontra GTA VI: «Vice City Edition» con Bam Adebayo, una stagione a Leonida e NBA 2K27 gratis con GTA+",
+      "body": "L'annuncio: 2K, Visual Concepts e Rockstar annunciano la prima collaborazione tra le due serie di Take-Two. Zelnick: unisce «per la prima volta» le due comunità più grandi dell'editore.\n\nNBA 2K27: dal 27 novembre al 15 gennaio la «Vice City Edition» (39,99 $, copertina con Bam Adebayo dei Miami HEAT) e la Stagione 3 «Vice City Takeover»: il quartiere online diventa una Vice City con campi sulla spiaggia, supercar e una statua di Macca the Gator, e la Sahara Arena prende il posto dell'arena NBA. Tra le ricompense una divisa da Burger Shot, una tenuta Cluckin' Bell, maglia e pantaloncini di Los Santos; c'è una sfida 5 contro 5 Vice City contro Los Santos.\n\nCon GTA+: dal 27 novembre al 15 gennaio chi ha GTA+ gioca gratis a NBA 2K27 Standard Edition (Stagione 3 compresa) su PS5 e Xbox Series, con il 20% di sconto per comprarlo; dal 17 dicembre al 31 marzo arriva anche un pacchetto bonus Vice City. Un mese di GTA+ è già incluso nei preordini digitali di GTA VI. Il 18 novembre, alla partita HEAT-Bucks «A Night in Vice City», il Kaseya Center ospita un «2K Mart» a tema con gadget in regalo.",
+      "topic": "online",
+      "outlet": "2K / Rockstar Games (comunicato)",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gematsu.com/2026/11/nba-2k27-x-grand-theft-auto-vi-collaboration-announced",
+      "relatedIds": [
+        "brd-gta-plus",
+        "brd-macca-the-gator",
+        "brd-sahara",
+        "brd-burger-shot",
+        "brd-cluckin-bell",
+        "new-20261106-miami-heat-svelate-le-maglie-vice-city-d"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261116-discord-tema-vice-city",
+      "date": "2026-11-16",
+      "title": "Discord si veste da Vice City: tema, icona e stile del nome gratis per tutti fino al 13 dicembre",
+      "body": "Cosa c'è: in collaborazione con Rockstar, Discord offre un tema a colori di tramonto viola-rosa-arancio, un'icona dell'app con le palme e uno stile del nome con il carattere del logo di GTA. Gratis per tutti fino al 13 dicembre, per gli abbonati Nitro (escluso Nitro Basic) fino al 20 febbraio; l'icona, di solito riservata a Nitro, è aperta a tutti.\n\nCome si attiva: fino al 22 novembre dal pulsante «Apply the Theme» nella pagina delle Missioni (Quest Home); poi da Impostazioni utente, Aspetto (su telefono: Impostazioni app). Lo stile del nome si sceglie modificando il profilo. Chi completa la missione video «Pre-Load» entro il 18 novembre riceve Orbs.",
+      "topic": "community",
+      "outlet": "Discord (blog)",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://discord.com/blog/vice-city-theme-available-in-discord",
+      "relatedIds": [],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261116-cartelloni-rockstar-north-piccadilly",
+      "date": "2026-11-16",
+      "title": "Jason e Lucia sulla facciata di Rockstar North, sui maxischermi di Piccadilly Circus e in mezzo mondo",
+      "body": "Edimburgo: domenica 15 l'illustrazione di Jason e Lucia è stata montata sulla grande vetrata sopra l'ingresso di Rockstar North; la sera prima il BFI IMAX di Londra era già coperto dallo stesso visuale.\n\nLondra: lunedì 16 i Piccadilly Lights hanno trasmesso a ciclo il trailer con «November 19, 2026» e il logo PlayStation, poi l'illustrazione in cima agli schermi, sopra gli altri inserzionisti. Alla stazione della metropolitana di King's Cross St Pancras un tunnel pedonale è dipinto con i colori del gioco; manifesti anche a Shoreditch.\n\nAltrove: una fermata del tram di Flinders Street a Melbourne e cartelloni a Città del Capo. Rockstar non ha annunciato nessuna di queste affissioni; sono foto e video di passanti, verificati da più fonti.",
+      "topic": "uscita",
+      "outlet": "Rockstar Intel (X) / r/GTA6",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://x.com/GTAonlineNews/status/2122473746262880678",
+      "relatedIds": [
+        "new-20261106-affissioni-londra-parigi",
+        "new-20261103-billboards"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261116-marchi-dr-xbox-kfc-subway-devolver",
+      "date": "2026-11-16",
+      "title": "Dr. Xbox, il finto funerale di KFC, il Cubano di Subway e Devolver che ti regala un gioco se cancelli GTA VI",
+      "body": "Xbox: DJ Khaled diventa «Dr. Xbox» e diagnostica una «carenza di vitamina G»; su DrXbox.com si genera un finto certificato medico per prendersi il giorno libero. GTA VI non è mai nominato.\n\nKFC Australia: giovedì 19 alle 11 di Sydney (l'1 di notte in Italia), nel locale di Robina sul Queensland, celebra il funerale di «Ann Alibi», con carro funebre e diretta su Instagram; a 6.000 «mi piace» consegne gratis in tutta l'Australia il giorno dell'uscita.\n\nSubway: a Miami arriva il «Vice City Cubano» (maiale sfilacciato, prosciutto, provolone, cetriolini e senape), solo nei locali della città, con il logo ridisegnato in stile GTA VI e Jason e Lucia.\n\nGli altri: Devolver Digital regala una chiave Steam di «Volvy's Adventure: Reslimed» (esce anche lui il 19) a chi si filma mentre cancella il preload, con l'hashtag #MakeRoomForVolvy; Madden NFL 27 mostra ai giocatori un messaggio «Don't Delete!» su sfondo di palme. Nessuna di queste iniziative è di Rockstar.",
+      "topic": "business",
+      "outlet": "Xbox Wire / KFC Australia / Subway / Devolver Digital",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://news.xbox.com/en-us/2026/11/16/dr-xbox-its-time-to-take-the-day-off-and-play-xbox/",
+      "relatedIds": [
+        "new-20261112-popeyes-kick-promozioni",
+        "new-20261108-prairie-sandwich-nick-digiovanni",
+        "new-20261112-pocketpair-kalshi"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261117-sensor-tower-15-milioni-ultimate",
+      "date": "2026-11-17",
+      "title": "Sensor Tower: 15,88 milioni di preordini digitali e 1,54 miliardi di dollari, l'87% è Ultimate Edition",
+      "body": "I numeri: al 17 novembre GTA VI è a 15,88 milioni di copie digitali prenotate su PS5 e Xbox Series, per 1,54 miliardi di dollari; circa un milione in più in un giorno, quasi tre milioni nel fine settimana. Il 16 il conto era 14,94 milioni (11,13 su PS5, 3,81 su Xbox) e 1,45 miliardi. L'87% dei preordini è la Ultimate Edition da 100 $, nonostante non dia accesso anticipato; l'Extended Look ha moltiplicato per sei i preordini.\n\nIl giocatore tipo: uomo di 34 anni, reddito medio, che usa soprattutto TikTok e Discord. Il 42% di chi gioca a GTA V ha anche Fortnite, che rischia di perdere più giocatori di tutti.\n\nLe previsioni: per l'analista Joost van Dreunen il primo fine settimana può valere 2 miliardi di dollari, e 38 milioni di copie in dodici mesi. Al 17 novembre GTA VI è primo nei negozi PlayStation di tutti i Paesi in cui è in vendita, ultimo il Giappone. Sono stime indipendenti: Rockstar e Take-Two non hanno dato cifre.",
+      "topic": "business",
+      "outlet": "Sensor Tower / Rockstar Intel",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/87-of-gta-vi-pre-orders-are-the-100-ultimate-edition/",
+      "relatedIds": [
+        "new-20261111-sensor-tower-un-miliardo",
+        "new-20261110-sensor-tower-9-69-milioni"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261117-italia-prima-ferie",
+      "date": "2026-11-17",
+      "title": "L'Italia è prima al mondo per richieste di ferie il giorno dell'uscita: quasi il doppio dell'anno scorso",
+      "body": "I dati: tra le persone assunte tramite la piattaforma Remote, le richieste di ferie per giovedì 19 novembre in Italia sono 1,91 volte quelle dello stesso giovedì del 2025 (+91%), il dato più alto tra tutti i Paesi. Nel complesso i giorni prenotati sono il 32% in più.\n\nIntorno: nel Regno Unito la leader dei Conservatori Kemi Badenoch dice che GTA VI non renderà violenti i ragazzi e che la preoccupa di più il tempo che ci passeranno; il servizio sanitario NHS consiglia pause regolari per non farsi male a mani e dita. A Belfast una scuola sorteggia due buoni PlayStation o Xbox da 70 £ tra chi viene a lezione il 19 e il 20, giorno di un esame di matematica; in Spagna un professore ha tolto i compiti e spostato una verifica.",
+      "topic": "community",
+      "outlet": "Remote / BBC / NHS",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://remote.com/gta",
+      "relatedIds": [
+        "new-20261026-assenteismo",
+        "new-20261110-logitech-game-day",
+        "new-20261109-australia-niente-malattia-finta",
+        "new-20261113-lisa-nandy-orgoglio"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261117-ricercatore-rockstar-gregory-johnson",
+      "date": "2026-11-17",
+      "title": "Un ex ricercatore di Rockstar racconta il lavoro sul campo: pattuglie della polizia, un trafficante che conosceva Escobar, l'elicottero fino a Key West",
+      "body": "Chi è: Gregory Johnson, nato in Florida, sedici anni alla rivista hip-hop Vibe, ha fatto ricerca per GTA V e per GTA VI, che ha lasciato a metà sviluppo. Il reparto lo aveva voluto Dan Houser: un'«inchiesta interna» settimanale su culture e sottoculture (yardie, mafia, yakuza, gang, corse clandestine) da cui gli sceneggiatori pescavano spot radio, programmi TV, storie di personaggi, incontri casuali e battute dei passanti.\n\nSul campo: per GTA V una pattuglia notturna in un quartiere di gang di East Los Angeles, con i fischi delle vedette dai tetti e due ciclisti mascherati intorno all'auto; per GTA VI viaggi in tutta la Florida, un volo in elicottero da Miami a Key West per fotografare la zona, visite in carcere, incontri con agenti FBI e un ex contrabbandiere che conosceva Pablo Escobar. Persone con esperienza vera di strada sono state portate in studio per voci e dialoghi, e correggevano il gergo dei copioni.",
+      "topic": "personaggi",
+      "outlet": "IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/rockstars-real-life-gta-research-took-developers-into-dangerous-situations/",
+      "relatedIds": [],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261117-bayo-little-haiti-michael-brun",
+      "date": "2026-11-17",
+      "title": "Musica haitiana in GTA VI: Michaël Brun non svela il suo ruolo, e domenica 22 Rockstar sponsorizza la festa di BAYO a Little Haiti",
+      "body": "Il musicista: il DJ e produttore haitiano Michaël Brun, che ha vissuto sette anni a Miami, lavora alla musica di GTA VI ma tiene per sé quasi tutti i dettagli; promette ai giocatori «un corso accelerato» di musica e cultura haitiana. Non è noto se avrà una stazione radio o dei brani.\n\nLa festa: domenica 22 novembre alle 17 (le 23 in Italia), al 262 NE 61st Street di Little Haiti, BAYO festeggia dieci anni con Brun e più di venti ospiti a sorpresa. Il concerto è sponsorizzato da Rockstar Games; circa 7.500 biglietti sono stati assegnati con un sorteggio, più della metà riservata a residenti della Florida e alla comunità haitiana.",
+      "topic": "musica",
+      "outlet": "Miami New Times / WLRN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.miaminewtimes.com/music/michael-brun-is-bringing-haitian-music-to-gta-vi-40598340/",
+      "relatedIds": [
+        "new-20261109-the-festival-miami"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
+      "id": "new-20261115-twitch-pubblicita-regole",
+      "date": "2026-11-15",
+      "title": "Twitch prepara il lancio: pubblicità lontane dalle scene più crude per pagare meglio chi trasmette GTA VI",
+      "body": "Cosa cambia: il capo di Twitch Dan Clancy spiega che la piattaforma ha costruito una tecnologia che permette ai marchi di comparire nelle dirette di GTA VI senza finire accanto ai momenti del gioco che vogliono evitare: più inserzionisti, più guadagni per gli streamer. Per Clancy l'uscita «potrebbe essere uno dei momenti più grandi della storia di Twitch». Nessuna cifra, nessun dettaglio sulle scene escluse.\n\nLe regole: per la nudità non ci sono norme speciali per GTA VI, valgono le linee guida di sempre sui contenuti per adulti. Dal 19 al 30 novembre restano i codici del gioco regalati ogni giorno in diretta.",
+      "topic": "online",
+      "outlet": "Bloomberg",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-12/twitch-ceo-gta-vi-could-be-our-biggest-moment-video",
+      "relatedIds": [
+        "new-20261113-twitch-codici-ogni-giorno",
+        "new-20261112-youtube-diretta-24-ore"
+      ],
+      "updatedAt": "2026-11-17",
+      "image": null
+    },
+    {
       "id": "new-20261113-macca-and-friends-teaser",
       "date": "2026-11-13",
       "title": "«Macca & Friends»: il cartone animato di Weazel con Macca the Gator, in onda nel gioco dal 19 novembre",
@@ -37,7 +456,8 @@
       "relatedIds": [
         "new-20261110-preload-aperto-italia",
         "new-20261103-preload",
-        "new-20261111-preload-record-reti"
+        "new-20261111-preload-record-reti",
+        "new-20261116-patch-1-002-001"
       ],
       "updatedAt": "2026-11-14"
     },
@@ -1309,7 +1729,7 @@
       "id": "new-20261108-trofei-55",
       "date": "2026-11-08",
       "title": "Trofei: sarebbero 55, Platino compreso, tutti legati alla storia e al mondo",
-      "body": "Due datamining indipendenti indicano lo stesso totale: 55 trofei su PS5 (54 più il Platino) e 55 obiettivi su Xbox Series X|S, dove l'ultimo vale da solo 1.000 punti e somiglia a un obiettivo «Mythic». I nomi non sono trapelati. Non ce ne sarebbero di legati all'online, che arriverà più avanti con una lista a parte. Per confronto, GTA V ne aveva 49-50 al lancio e Red Dead Redemption 2 51-52. Rockstar non ha confermato nulla e la lista ufficiale non è ancora su PSNProfiles.",
+      "body": "Due datamining indipendenti indicano lo stesso totale: 55 trofei su PS5 (54 più il Platino) e 55 obiettivi su Xbox Series X|S, dove l'ultimo vale da solo 1.000 punti e somiglia a un obiettivo «Mythic». I nomi non sono trapelati. Non ce ne sarebbero di legati all'online, che arriverà più avanti con una lista a parte. Per confronto, GTA V ne aveva 49-50 al lancio e Red Dead Redemption 2 51-52. Rockstar non ha confermato nulla e la lista ufficiale non è ancora su PSNProfiles.\n\nAl 17 novembre la lista ufficiale non è ancora pubblicata.",
       "topic": "uscita",
       "outlet": "Everyeye / Insider Gaming / Sportskeeda",
       "source": "leak",
@@ -1317,7 +1737,8 @@
       "spoilerLevel": 0,
       "sourceUrl": "https://www.everyeye.it/notizie/trofei-achievement-gta-6-910395.html",
       "relatedIds": [
-        "tro-platino"
+        "tro-platino",
+        "new-20261115-durata-50-ore-platino-200"
       ],
       "updatedAt": "2026-11-08",
       "example": false
@@ -2492,10 +2913,12 @@
       "id": "new-20261026-embargo",
       "date": "2026-10-26",
       "title": "Rumor: embargo delle recensioni il 18 novembre, codici già in mano alla stampa",
-      "body": "Si parla di recensioni il 18 novembre, il giorno prima del lancio, e di codici già in mano alla stampa. Si è parlato anche di filigrane mobili con il nome del recensore sulle copie stampa, ma la voce è stata smentita. Rockstar non ha confermato nulla.",
+      "body": "Si parla di recensioni il 18 novembre, il giorno prima del lancio, e di codici già in mano alla stampa. Si è parlato anche di filigrane mobili con il nome del recensore sulle copie stampa, ma la voce è stata smentita. Rockstar non ha confermato nulla.\n\nAggiornamento 17/11: a un giorno dalla data circolata, ancora nessuna conferma da Rockstar; l'orario che gira è 12-13 italiane del 18.",
       "topic": "uscita",
       "outlet": "Insider Gaming",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261117-recensioni-domani"
+      ],
       "sourceUrl": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
     },
     {
@@ -4026,13 +4449,15 @@
       "id": "new-20261009-arion-kurtaj-fuga-2022-a-processo-dal-9-",
       "date": "2026-10-09",
       "title": "Arion Kurtaj (fuga 2022) a processo dal 9 novembre",
-      "body": "Arion Kurtaj, presunto membro di Lapsus$ e autore della fuga di oltre 90 video di GTA VI del settembre 2022 (realizzata da una camera d'albergo), sarà processato dal 9 novembre 2026 alla Woolwich Crown Court di Londra, dieci giorni prima del lancio. Dopo due anni in ospedale sicuro è stato dichiarato idoneo a comparire e attende il processo in carcere.",
+      "body": "Arion Kurtaj, presunto membro di Lapsus$ e autore della fuga di oltre 90 video di GTA VI del settembre 2022 (realizzata da una camera d'albergo), sarà processato dal 9 novembre 2026 alla Woolwich Crown Court di Londra, dieci giorni prima del lancio. Dopo due anni in ospedale sicuro è stato dichiarato idoneo a comparire e attende il processo in carcere.\n\nAggiornamento 16/11: si è dichiarato colpevole di tutti i reati; sentenza il 23 novembre.",
       "topic": "business",
       "outlet": "Vice Central (actualités)",
       "source": "stampa",
       "status": "da verificare",
       "sourceUrl": "https://vice-central.com/arion-kurtaj-proces-9-novembre-fuite-gta-vi",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261116-kurtaj-colpevole"
+      ],
       "image": null,
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/09/gta6-histoire-fuite-2022.jpg",
       "spoilerLevel": 0,
