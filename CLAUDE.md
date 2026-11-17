@@ -19,7 +19,7 @@ Quando Mike lo chiede (mai da soli), setacciare le fonti in quest'ordine e inser
 
 1. **Ufficiali** — rockstargames.com/VI, rockstargames.com/newswire, support.rockstargames.com (patch notes), YouTube/X/Instagram di Rockstar, store.playstation.com (prezzo, dimensione, versione), take2games.com/ir.
 2. **Mappa e luoghi** — gtasixmap.com (schede e pagina Updates; le 44 schede sono in `luoghi.json`), map.stateofleonida.net, gtadb.org (github rolux/gtadb.org, CC BY), r/GTA6 flair Mapping (il Discord «GTA VI Mapping Community» è sparito il 12/11).
-3. **Enciclopedia** — gta6bible.com (WordPress: Cloudflare blocca curl e le pagine con JS, ma la REST API `https://gta6bible.com/wp-json/wp/v2/` risponde con Playwright a JS spento, un contesto nuovo per richiesta: collezioni vehicles, characters, weapons, activities, locations, radio, gangs, posts; utile per modello reale/posti/trazione dei veicoli e per le news; il resto è un sottoinsieme delle altre fonti), gta.fandom.com (GTA Wiki; anche foto dei veicoli via `static.wikia.nocookie.net`), gtabase.com, gta.wiki.
+3. **Enciclopedia** — gta6bible.com (WordPress: Cloudflare blocca curl e le pagine con JS, ma la REST API `https://gta6bible.com/wp-json/wp/v2/` risponde con Playwright a JS spento, un contesto nuovo per richiesta: collezioni vehicles, characters, weapons, activities, locations, radio, gangs, posts; utile per modello reale/posti/trazione dei veicoli e per le news; il resto è un sottoinsieme delle altre fonti), **gta.wiki** (il GTA Wiki si è trasferito lì; dal 17/11 NON usare gta.fandom.com: la vecchia copia pubblica pagine su GTA VI scritte con l'IA), gtabase.com.
 4. **Collezionabili e trofei** — psnprofiles.com, playstationtrophies.org, exophase.com (lista trofei ufficiale appena entra nel database PSN: sostituire lo schema in `trophies.json` mantenendo gli id dove il nome coincide), powerpyx.com, IGN Wiki Guide, gamerguides.com, YouTube (GTA Series Videos, MrBossFTW, TGG).
 5. **Stampa e siti di riferimento** — vice-central.com (francese: ruota delle armi, personaggi, fauna, luoghi, teorie, analisi; ispirazione grafica di Mike), Insider Gaming, GamingBolt, IGN, GameSpot, Eurogamer, PC Gamer, VG247, Push Square, Kotaku; Edge, Game Informer, Famitsu, Bloomberg; Multiplayer.it, Everyeye, Spaziogames, IGN Italia. Reddit r/GTA6 e GTAForums solo come Rumor/Leak/Community.
 6. **Musica** — Apple Music e Spotify (playlist Rockstar), Shazam, GTA Wiki per le scalette.
@@ -35,15 +35,15 @@ Dal giorno dell'uscita le guide esterne sono la fonte principale per riempire l'
 
 | Dato | Campi | Fonti, in ordine |
 |---|---|---|
-| Elenco missioni, ordine, capitoli | `missions.items` (title, actId, order, protagonist, districtId), `acts` | PowerPyx «all missions» ✓, IGN Wiki walkthrough ✓, Game8 ✓, GamerGuides ✓, GTA Wiki via `gta.fandom.com/api.php` (l'HTML dà ✗) |
+| Elenco missioni, ordine, capitoli | `missions.items` (title, actId, order, protagonist, districtId), `acts` | PowerPyx «all missions» ✓, IGN Wiki walkthrough ✓, Game8 ✓, GamerGuides ✓, GTA Wiki su gta.wiki (non Fandom) |
 | Cosa fare in missione | `contact`, `objectives[]` (frasi brevi, parafrasate), `choice.irreversible`, `extraObjectives` (medaglie), `tips`, `unlocks` | IGN Wiki ✓, PowerPyx ✓, Game8 ✓; YouTube per controllo |
 | Trofei | `trophies.json` con `node scripts/importa-trofei.mjs lista.tsv --url <fonte>` (prima `--dry`) | PowerPyx trophy guide/roadmap ✓, IGN ✓, Game8 ✓; PSNProfiles/Exophase/TrueTrophies/PlaystationTrophies ✗ |
 | Collezionabili (posizioni, quanti per il 100%) | `collectibles.items` nelle categorie esistenti (Relitti, Riviste, Salti, Murales…), riga «zona: punto preciso», coordinate `xy` | PowerPyx ✓, IGN mappa ✓, MapGenie ✓ (pagina GTA VI non ancora creata l'8/11), gtasixmap (pagina Updates), Game8 ✓ |
 | 100%: categorie e pesi | da decidere la struttura solo quando la lista è nota | PowerPyx/IGN «100% checklist», statistiche di gioco dai Pacchetti di Mike |
-| Veicoli: prezzo, dove, statistiche | `price`, `whereToFind`, `stats` | gtabase ✓, GTA Wiki (api.php), IGN ✓ |
-| Armi: prezzo, negozio, potenziamenti, statistiche | `price`, `whereToBuy`, `upgrades`, `stats`, `caliber`, `magazine` | gtabase ✓, GTA Wiki (api.php), IGN ✓ |
-| Attività, incontri, personaggi secondari | `activities` (requirements, rewards, steps), `characters` (firstMissionId) | IGN Wiki ✓, Game8 ✓, GamerGuides ✓, GTA Wiki (api.php) |
-| Radio | `radio.json` scalette | GTA Wiki (api.php), Apple Music/Spotify |
+| Veicoli: prezzo, dove, statistiche | `price`, `whereToFind`, `stats` | gtabase ✓, gta.wiki, IGN ✓ |
+| Armi: prezzo, negozio, potenziamenti, statistiche | `price`, `whereToBuy`, `upgrades`, `stats`, `caliber`, `magazine` | gtabase ✓, gta.wiki, IGN ✓ |
+| Attività, incontri, personaggi secondari | `activities` (requirements, rewards, steps), `characters` (firstMissionId) | IGN Wiki ✓, Game8 ✓, GamerGuides ✓, gta.wiki |
+| Radio | `radio.json` scalette | gta.wiki, Apple Music/Spotify |
 | Mappa e luoghi | `districts.pois`, `luoghi.json` | gtasixmap, gtadb, MapGenie ✓ |
 | Notizie e recensioni | `news.json` | IGN ✓, Eurogamer ✓, VG247 ✓, PC Gamer ✓, Push Square ✓, GamesRadar ✓, Polygon ✓, Dexerto ✓, RPS ✓, Everyeye ✓, Multiplayer.it ✓; GameSpot ✗, Spaziogames ✗, Reddit ✗ |
 
