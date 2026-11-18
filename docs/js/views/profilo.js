@@ -54,6 +54,8 @@ export function panelHtml({ compact = false } = {}) {
       ${compact ? '' : `<form class="acct__nick" data-nick-form><label class="field"><span>Il tuo nick</span>
         <input class="input" name="nick" maxlength="${NICK_MAX}" autocomplete="nickname" autocorrect="off" enterkeyhint="done" placeholder="${esc(a.email.split('@')[0])}" value="${esc(progress.settings().nick || '')}"></label>
         <button class="btn" type="submit">Cambia nick</button></form>`}
+      ${compact ? '' : `<div class="switch-row"><div><div>Mostrami nella banda</div><p>Gli amici vedono il tuo nick e le tue percentuali (mai l'email né gli appunti).</p></div>
+        <button class="switch" role="switch" aria-checked="${progress.settings().banda !== false}" data-switch="banda" aria-label="Mostrami nella banda"></button></div>`}
       ${compact ? '' : `<div class="btn-row"><button class="btn btn--solid" type="button" data-cloud-now>Salva progressi</button>
       <button class="btn btn--ghost" type="button" data-cloud-out>Esci</button></div>`}
     </div>`;

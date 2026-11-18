@@ -27,9 +27,11 @@ import * as benvenuto from './views/benvenuto.js';
 import * as profilo from './views/profilo.js';
 import * as playlistView from './views/playlist.js';
 import * as radioDeck from './views/radio.js';
+import * as banda from './views/banda.js';
+import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.51.0';
+window.__LEONIDA_VERSION__ = 'v0.52.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -73,6 +75,8 @@ const views = {
   '/missioni/:id?': missioni.render,
   '/meccaniche/:id?': (p, q) => meccaniche.render(p, q),
   '/trucchi': () => meccaniche.renderTrucchi(),
+  '/banda': () => banda.render(),
+  '/scatti': () => scatti.render(),
   '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
   '/armi/:id?': armi.render,
@@ -241,6 +245,8 @@ function bindGlobal() {
   benvenuto.bind(root);
   playlistView.bind(root, rerender);
   radioDeck.bind(root);
+  banda.bind(root, rerender);
+  scatti.bind(root);
   profilo.bind(root, rerender, { after: () => { if (router.parse()?.path === '/benvenuto') benvenuto.done(); } });
   let qt = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });

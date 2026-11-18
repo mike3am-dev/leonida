@@ -18,7 +18,9 @@ export const SECTIONS = [
   { id: 'radio', num: 10, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora', bg: 'molo-album.jpg' },
   { id: 'mondo', num: 11, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV', bg: 'stripclub.jpg' },
   { id: 'news', num: 12, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno', bg: 'molo.jpg' },
-  { id: 'diario', num: 13, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg', hidden: true },
+  { id: 'banda', num: 13, title: 'La banda', path: '/banda', icon: 'person', accent: 'magenta', hue: 300, tagline: 'Tu e i tuoi amici: chi è più avanti', bg: 'palme.jpg' },
+  { id: 'scatti', num: 14, title: 'Scatti', path: '/scatti', icon: 'photo', accent: 'orange', hue: 20, tagline: 'Le foto migliori della banda', bg: 'molo.jpg' },
+  { id: 'diario', num: 15, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg', hidden: true },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

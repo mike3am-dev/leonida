@@ -7,7 +7,8 @@
  */
 import * as progress from './progress.js';
 
-const API = 'https://geuppepguqzhjwiqbvwl.supabase.co/rest/v1/rpc/';
+const BASE = 'https://geuppepguqzhjwiqbvwl.supabase.co';
+const API = BASE + '/rest/v1/rpc/';
 const KEY = 'sb_publishable_qjrsrBCvY9NA3Zc7rEJaiA_EVrxgb_l';
 const ACC = 'leonida:account';
 
@@ -41,6 +42,18 @@ async function rpc(fn, body, opts = {}) {
   if (!res.ok) throw new Error(`server ${res.status}`);
   const t = await res.text();
   return t ? JSON.parse(t) : null;
+}
+
+/** Chiamata a una funzione della community (banda, scatti…) con l'email del profilo */
+export async function call(fn, body = {}) {
+  const a = account(); if (!a) throw new Error('Entra prima con la tua email.');
+  return rpc(fn, { p_email: a.email, ...body });
+}
+/** Foto degli Scatti: indirizzo pubblico e caricamento nel bucket «scatti» */
+export const photoUrl = (path) => `${BASE}/storage/v1/object/public/scatti/${path}`;
+export async function uploadPhoto(path, blob) {
+  const res = await fetch(`${BASE}/storage/v1/object/scatti/${path}`, { method: 'POST', headers: { apikey: KEY, 'Content-Type': 'image/jpeg', 'x-upsert': 'false' }, body: blob });
+  if (!res.ok) { let m = ''; try { m = (await res.json()).message || ''; } catch {} throw new Error(`Caricamento non riuscito (${res.status}) ${m}`.trim()); }
 }
 
 /** { savedAt, state } oppure null se il profilo non esiste */

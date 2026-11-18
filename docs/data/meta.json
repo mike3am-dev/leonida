@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.51.0",
+  "dataVersion": "0.52.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.52.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Nuova sezione «La banda»: la classifica tra amici con il profilo online. Tocca un amico per confrontarti e vedere cosa ha trovato che a te manca. Delle sue missioni vedi solo i numeri, niente spoiler. In Impostazioni › Profilo puoi decidere se comparire.",
+        "Nuova sezione «Scatti»: la galleria delle foto migliori della banda, con «mi piace» e commenti. Le foto si rimpiccioliscono sul telefono prima di partire, e quelle con spoiler restano sfocate per chi non è ancora arrivato a quel capitolo."
+      ]
+    },
     {
       "version": "0.51.0",
       "date": "2026-11-19",
