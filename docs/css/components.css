@@ -1989,3 +1989,22 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
   .mapboard.is-locked .mapboard__content [data-mb-fly],
   .mapboard.is-locked .mapboard__content [data-mb-fly] * { pointer-events: auto !important; cursor: pointer; }
 }
+
+/* ---------- Radio: canzoni e «La mia playlist» ---------- */
+.radio-tabs { display: flex; width: 100%; margin: var(--s-4) 0 var(--s-2); }
+.radio-tabs a { flex: 1; justify-content: center; padding: 0 var(--s-2); }
+.songs { display: grid; }
+.song { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: var(--s-2); align-items: center; min-height: 60px; border-bottom: var(--hair) solid var(--rule); }
+.song__fav { width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: none; color: var(--ink-3); cursor: pointer; border-radius: 50%; }
+.song__fav svg { width: 24px; height: 24px; }
+.song.is-on .song__fav { color: var(--magenta); }
+.song__fav:active { transform: scale(.9); }
+.song__text { min-width: 0; }
+.song__title { display: block; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.song__meta { display: block; font-size: var(--fs-sm); color: var(--ink-3); margin-top: 2px; }
+.song__meta a { color: inherit; }
+.song__go { font-size: var(--fs-xs); font-weight: 600; text-decoration: none; color: var(--ink-2); border: var(--hair) solid var(--rule-strong); border-radius: 999px; padding: 6px 10px; white-space: nowrap; }
+.pl-add { margin-top: var(--s-5); }
+.pl-add summary { list-style: none; cursor: pointer; min-height: var(--tap); display: flex; align-items: center; }
+.pl-add summary::-webkit-details-marker { display: none; }
+.pl-add form { margin-top: var(--s-3); }

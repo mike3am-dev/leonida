@@ -4,6 +4,7 @@ import { esc, statusChip, srcBadge } from '../ui/dom.js';
 import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet, extrasHtml, haveFilter, passHave } from './shared.js';
 import * as progress from '../store/progress.js';
 import * as spoiler from '../spoiler.js';
+import * as playlist from './playlist.js';
 
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 const srcNote = (x) => srcBadge(x);
@@ -79,27 +80,31 @@ export function renderPersonaggi(params, query = {}) {
 const secR = sectionOf('radio');
 const MUSIC_CATS = ['Colonna sonora', 'Musica'];
 const appleSearch = (q) => `https://music.apple.com/it/search?term=${encodeURIComponent(q)}`;
-export function renderCultura(params) {
+export function renderCultura(params, query = {}) {
   const radio = vis(db.radio), music = vis(db.brands).filter((b) => MUSIC_CATS.includes(b.category));
   const it = params.id ? byId(params.id) : null;
   // Un marchio che non è musica si apre nel Mondo, non nella Radio
   if (it && it._type === 'brand' && !MUSIC_CATS.includes(it.category)) return renderMondo(params);
   if (it) {
-    const tracks = (it.highlights || []).map((h) => typeof h === 'string' ? { title: h } : h);
+    const tracks = it._type === 'radio' ? playlist.allSongs().filter((x) => x.stationId === it.id) : [];
     const right = `
       ${backLink('/cultura', 'Radio')}
       ${it._type === 'radio' ? `<div class="vinyl-wrap"><div class="vinyl"><div class="vinyl__disc"></div>${it.image ? `<img class="vinyl__label" src="${esc(it.image)}" alt="">` : ''}</div>
           <div><span class="kicker kicker--accent">Stazione radio · ${esc(it.genre || '')}</span><h1>${esc(it.name)}</h1>${it.host ? `<p class="lede">Con ${esc(it.host)}</p>` : ''}<div class="chips">${statusChip(it)}</div></div></div>`
         : hero(it, { kicker: it.category || 'Musica', title: it.name, chips: statusChip(it) })}
       <div class="prose">${spoiler.wrap(it, `<p class="dropcap">${esc(it.description || 'Descrizione in arrivo.')}</p>`)}</div>
-      ${tracks.length ? `<div class="block"><span class="kicker">In scaletta</span>
-        ${tracks.map((h) => `<div class="track"><span class="track__icon"><svg aria-hidden="true"><use href="#i-radio"/></svg></span><span><span class="track__title">${esc(h.title === '—' ? h.artist : h.title)}</span><span class="track__meta">${esc(h.title === '—' ? '' : h.artist || '')}${h.status === 'verificato' ? '' : ' · community'}</span></span><a class="btn btn--ghost track__btn" href="${appleSearch((h.artist || '') + ' ' + (h.title === '—' ? '' : h.title || ''))}" target="_blank" rel="noopener">Apple Music</a></div>`).join('')}</div>`
-        : (it._type === 'radio' ? '<p class="muted small">La scaletta la compili tu, un brano alla volta, quando lo riconosci alla radio.</p>' : '')}
+      ${tracks.length ? `<div class="block"><span class="kicker">In scaletta (${tracks.length})</span><div class="songs">${tracks.map((x) => playlist.songRow(x, { showStation: false })).join('')}</div>
+        <p class="small muted">Tocca il cuore per mettere una canzone nella tua playlist.</p></div>`
+        : (it._type === 'radio' ? '<p class="muted small">La scaletta non è ancora nota. Se senti una canzone su questa stazione, aggiungila dalla scheda «La mia playlist».</p>' : '')}
       ${it._type !== 'radio' ? `<div class="actions"><a class="btn btn--solid" href="${appleSearch(it.name)}" target="_blank" rel="noopener">Cerca su Apple Music</a></div>` : ''}
       ${fonte(it)}`;
     return { left: '', right, show: 'right', accent: secR.accent, title: it.name };
   }
-  const left = `${sectionHead(secR, `${radio.length} stazioni`)}
+  const view = query.v || '';
+  const head = `${sectionHead(secR, `${radio.length} stazioni`)}${playlist.tabs(view, playlist.allSongs().length, (progress.get().playlist || []).length)}`;
+  if (view === 'canzoni') return { left: head + playlist.songsView(query), right: '', show: 'left', accent: secR.accent, title: 'Canzoni' };
+  if (view === 'playlist') return { left: head + playlist.playlistView(), right: '', show: 'left', accent: secR.accent, title: 'La mia playlist' };
+  const left = `${head}
     <img class="radio-logo" src="assets/img/sfondi/vice-city-logo.png" alt="Vice City">
     <div class="cards">${radio.map((r) => `<a class="cardx" href="#/cultura/${esc(r.id)}"><div class="cardx__img cardx__img--logo">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-radio"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(r.name)}</div><div class="cardx__meta">${esc(r.genre || '')}${r.host ? ' · ' + esc(r.host) : ''}</div></div></a>`).join('')}</div>
     <span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Dischi e canzoni</span>

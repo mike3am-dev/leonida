@@ -16,6 +16,7 @@ export function emptyState() {
     trophies: {},      // id -> ISO date
     discovered: {},    // id -> ISO date (personaggi incontrati, regioni scoperte: segnati a mano)
     sessions: [],      // { start, end }
+    playlist: [],      // { id, title, artist, station, stationId, custom, at } — la mia playlist della Radio
     current: { missionId: null, districtId: null },
     settings: {
       theme: 'auto',       // segue il sistema, come Safari

@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.44.1",
+  "dataVersion": "0.45.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.45.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Radio: tre schede, Stazioni, Canzoni e La mia playlist. In «Canzoni» trovi tutti i brani noti con la ricerca. Il cuore mette una canzone nella tua playlist, che si salva anche online con il profilo. «Apple Music» apre la ricerca del brano. Puoi aggiungere a mano una canzone sentita in gioco, e «Copia l'elenco» o «Condividi» passano la playlist altrove."
+      ]
+    },
     {
       "version": "0.44.1",
       "date": "2026-11-18",

@@ -25,9 +25,10 @@ import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
 import * as profilo from './views/profilo.js';
+import * as playlistView from './views/playlist.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.44.1';
+window.__LEONIDA_VERSION__ = 'v0.45.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -77,7 +78,7 @@ const views = {
   '/trofei': (p, q) => trofei.render(p, q),
   '/collezionabili': collezionabili.render,
   '/personaggi/:id?': (p, q) => editoriale.renderPersonaggi(p, q),
-  '/cultura/:id?': editoriale.renderCultura,
+  '/cultura/:id?': (p, q) => editoriale.renderCultura(p, q),
   '/diario': diario.render,
   '/impostazioni': impostazioni.render,
   '/ricerca': ricerca.render,
@@ -235,6 +236,7 @@ function bindGlobal() {
   armi.bind(root, rerender);
   meccaniche.bind(root, rerender);
   benvenuto.bind(root);
+  playlistView.bind(root, rerender);
   profilo.bind(root, rerender, { after: () => { if (router.parse()?.path === '/benvenuto') benvenuto.done(); } });
   let qt = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });

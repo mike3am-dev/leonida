@@ -99,6 +99,18 @@ export function markNotesExported(ids) {
   update((s) => { for (const n of s.notes) if (ids.includes(n.id)) n.exported = true; });
 }
 
+/* ---------- La mia playlist (Radio) ---------- */
+export function inPlaylist(id) { return (state.playlist || []).some((x) => x.id === id); }
+/** song: { id, title, artist, station, stationId, custom } */
+export function togglePlaylist(song) {
+  update((s) => {
+    s.playlist = s.playlist || [];
+    const i = s.playlist.findIndex((x) => x.id === song.id);
+    if (i >= 0) s.playlist.splice(i, 1);
+    else s.playlist.unshift({ id: song.id, title: song.title || '', artist: song.artist || '', station: song.station || '', stationId: song.stationId || null, custom: !!song.custom, at: new Date().toISOString() });
+  });
+}
+
 /* ---------- Sessioni ---------- */
 export function touchSession() {
   update((s) => {
