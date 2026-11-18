@@ -11,7 +11,8 @@
       "example": false,
       "description": "255 animali da studiare con il binocolo (zoom e tieni premuto): non serve cacciarli. Contano a parte ogni razza di cane e di gatto, i pesci (basta nuotarci vicino) e gli uccelli. Nel database: 61 prede di caccia, 35 pesci, 18 mammiferi, 34 cani e gatti, 6 rettili, 60 uccelli, 18 animali acquatici, 23 altri. Gli animali selvatici abbondano nelle paludi e nelle campagne del nord. In tutto: 255. Per il 100%: 100 su 255. Trofeo: Bersagli leciti (animale unico per Bret).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 255
     },
     {
       "id": "cat-relitti",
@@ -23,7 +24,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 33
     },
     {
       "id": "cat-riviste",
@@ -35,7 +37,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+      "total": 27
     },
     {
       "id": "cat-salti",
@@ -47,7 +50,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
+      "total": 130
     },
     {
       "id": "cat-murales",
@@ -71,7 +75,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/",
+      "total": 5
     },
     {
       "id": "cat-rifugi",
@@ -83,7 +88,8 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "total": 12
     },
     {
       "id": "cat-carte",
@@ -95,7 +101,8 @@
       "example": false,
       "description": "18 set per 480 carte, da 12 a 36 carte l'uno. Stanno dentro e fuori dagli edifici: sui mobili, attaccate ai muri, nelle cassette telefoniche gialle e nelle cassette degli attrezzi. Le varianti di colore (bronzo, argento, oro, rossa, blu, viola…) contano come carte diverse; i doppioni no, ma si vendono ai banchi dei pegni (da 20 a oltre 1.000 $) senza perdere il progresso. Le carte non si comprano: si raccolgono e basta. Progressi > Collezioni > Carte collezionabili. Alcune stanno in case che si lasciano con la storia. In tutto: 480. Per il 100%: 15 set completi su 18 (almeno 372 carte). Trofeo: Non toccare il mio mazzo (3 set).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+      "total": 480
     },
     {
       "id": "cat-scambio-libri",
@@ -107,7 +114,8 @@
       "example": false,
       "description": "7 casette per lo scambio di libri (Little Library): si legge il libro che c'è dentro. Nel menu sono una voce a parte, ma per il 100% contano insieme alle riviste. In tutto: 7. Per il 100%: 30 su 34 insieme alle riviste.",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-book-swap-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-book-swap-locations/",
+      "total": 7
     },
     {
       "id": "cat-sotto-ponti",
@@ -119,7 +127,8 @@
       "example": false,
       "description": "202 passaggi in volo sotto i ponti: è il tipo di acrobazia più rapido da accumulare. In tutto: 202. Per il 100%: 300 acrobazie su 397, in qualsiasi mix. Trofeo: Stunt da capogiro (250 acrobazie).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 202
     },
     {
       "id": "cat-voli-coltello",
@@ -131,7 +140,8 @@
       "example": false,
       "description": "40 voli di taglio tra due edifici. In tutto: 40. Per il 100%: 300 acrobazie su 397, in qualsiasi mix. Trofeo: Stunt da capogiro (250 acrobazie).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 40
     },
     {
       "id": "cat-base-jump",
@@ -143,7 +153,8 @@
       "example": false,
       "description": "25 sfide di lancio col paracadute da punti alti. In tutto: 25. Per il 100%: 300 acrobazie su 397, in qualsiasi mix. Trofeo: Stunt da capogiro (250 acrobazie).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 25
     },
     {
       "id": "cat-waink",
@@ -167,7 +178,8 @@
       "example": false,
       "description": "18 meditazioni in 10 punti: ogni punto vale 2 se lo fai sia con Jason sia con Lucia (entrambi giocabili da metà capitolo 2). La prima, a casa di Jason, si fa solo nel capitolo 1; l'ultima, in vetta al Mount Kalaga, compare dopo tutte le altre. Icona viola sulla mappa. In tutto: 18. Per il 100%: 15 su 18. Trofeo: Mentalità positiva (tutti i punti).",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "total": 18
     },
     {
       "id": "cat-fenicotteri",
@@ -179,7 +191,8 @@
       "example": false,
       "description": "125 fenicotteri rosa di plastica con un pacco di cocaina dentro: si riconoscono dal becco bianco e nero (quelli col becco giallo e nero sono decorazioni). Spara al corpo per romperli; la droga si vende a un ricettatore ma non serve raccoglierla. La voce compare nei Progressi dopo il primo. In tutto: 125. Per il 100%: 100 su 125.",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cocaine-flamingo-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cocaine-flamingo-locations/",
+      "total": 125
     },
     {
       "id": "cat-playlist",
@@ -191,7 +204,8 @@
       "example": false,
       "description": "2 playlist da sbloccare scansionando locandine: 4 per The Sniper of La Perle (poi in On Demand) e 1 per The Vault Radio (poi tra le radio). Il gioco non dice quali locandine hai già scansionato. In tutto: 2. Per il 100%: 2 su 2.",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
+      "total": 2
     },
     {
       "id": "cat-stili",
@@ -203,7 +217,8 @@
       "example": false,
       "description": "79 stili: 13 riviste di stile per Jason, 15 per Lucia e 17 riviste di tatuaggi, che si scansionano con WAiNK (spesso dentro case da scassinare), più 34 orologi di lusso con l'icona dorata, di solito nelle operazioni delle bande. Progressi > Collezioni > Stili scoperti. In tutto: 79. Per il 100%: 70 su 79.",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 79
     },
     {
       "id": "cat-meteoriti",
@@ -227,7 +242,8 @@
       "example": false,
       "description": "100 canestri con il pallone accanto: un tiro a segno per canestro. Contano canestri diversi, non tiri nello stesso. Mappa > Esplorazione > Punti d'interesse > Canestri. In tutto: 100. Per il 100%: 90 su 100.",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "total": 100
     }
   ],
   "items": [

@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.36.0",
+  "dataVersion": "0.37.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.37.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Attività: la scheda ora mostra anche come si fa, cosa serve per il 100% e i trofei, e le ricompense."
+      ]
+    },
     {
       "version": "0.36.0",
       "date": "2026-11-18",

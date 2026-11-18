@@ -55,7 +55,11 @@ export function render(params, query = {}) {
 
 function actSheet(a) {
   const body = document.createElement('div');
-  body.innerHTML = `<div class="chips" style="margin-bottom:var(--s-2)">${statusChip(a)}<span class="chip">${esc(a.group || '')}</span>${a.districtId && byId(a.districtId) ? `<a class="chip chip--btn" href="#/mappa?zona=${esc(a.districtId)}">${esc(byId(a.districtId).name)}</a>` : ''}</div><p>${esc(a.description || '')}</p>${extrasHtml(a)}`;
+  body.innerHTML = `<div class="chips" style="margin-bottom:var(--s-2)">${statusChip(a)}<span class="chip">${esc(a.group || '')}</span>${a.districtId && byId(a.districtId) ? `<a class="chip chip--btn" href="#/mappa?zona=${esc(a.districtId)}">${esc(byId(a.districtId).name)}</a>` : ''}</div><p>${esc(a.description || '')}</p>
+    ${a.steps?.length ? `<section class="fsec"><h3 class="fsec__t">Come si fa</h3><ol class="steps">${a.steps.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></section>` : ''}
+    ${a.requirements?.length ? `<section class="fsec"><h3 class="fsec__t">Per il 100% e i trofei</h3><ul class="flist flist--tips">${a.requirements.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+    ${a.rewards?.length ? `<section class="fsec"><h3 class="fsec__t">Ricompense</h3><ul class="flist">${a.rewards.map((x) => `<li>${esc(typeof x === 'string' ? x : x.label || '')}</li>`).join('')}</ul></section>` : ''}
+    ${extrasHtml(a)}`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: a.name, body });
 }
