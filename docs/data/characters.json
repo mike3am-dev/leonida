@@ -662,7 +662,7 @@
       "tagline": "Virali prima che famose.",
       "bio": "Bae-Luxe e Roxy, amiche dai tempi del liceo. Hanno fatto i primi soldi taglieggiando gli spacciatori del quartiere, poi con le tracce rap e i social. Il singolo con il rapper locale DWNPLY le ha lanciate; cinque anni dopo sono sotto contratto con Only Raw Records.",
       "districtId": "dis-vice-city",
-      "firstMissionId": null,
+      "firstMissionId": "mis-top-billing",
       "relations": [
         "chr-drequan",
         "chr-boobie",
@@ -674,7 +674,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/real-dimez.jpg"
       ],
@@ -776,7 +776,11 @@
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/real-dimez/"
+      "insightUrl": "https://vice-central.com/personnages/real-dimez/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
+        "https://www.gtabase.com/gta-6/missions/"
+      ]
     },
     {
       "id": "chr-raul",
@@ -1146,7 +1150,7 @@
       "tagline": "Il featuring che ha lanciato le Real Dimez.",
       "bio": "Rapper di zona, autore del singolo con le Real Dimez che ha dato loro la prima visibilità.",
       "districtId": "dis-vice-city",
-      "firstMissionId": null,
+      "firstMissionId": "mis-top-billing",
       "relations": [
         "chr-real-dimez"
       ],
@@ -1156,8 +1160,11 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "insight": ""
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-mendez.jpg",
@@ -1532,11 +1539,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-yago.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-18",
       "id": "chr-yago",
       "name": "Yago",
       "role": "Pilota di corse clandestine",
@@ -1544,12 +1551,16 @@
       "tagline": "Un'Annis Elegy e nessuna regola.",
       "bio": "Ex cocainomane, dopo la riabilitazione è diventato un pilota di corse clandestine. Guida una Annis Elegy '90 modificata e urla contro i rivali dalla linea di partenza.",
       "districtId": "dis-vice-city",
-      "firstMissionId": null,
+      "firstMissionId": "mis-join-a-street-race",
       "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/",
       "imageUrl": "https://gta.wiki/images/Yago-GTAVI-OfficialScreenshot-JasonDuval19.jpg",
       "imageCredit": "Screenshot ufficiale Rockstar (Jason Duval 19) via GTA Wiki (gta.wiki)",
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/missions/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-raymond.jpg",
@@ -1823,11 +1834,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-wyman.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "id": "chr-wyman",
       "name": "Wyman",
       "role": "Meccanico e collezionista",
@@ -1835,9 +1846,9 @@
       "tagline": "Auto d'epoca e affari locali.",
       "bio": "Meccanico, collezionista eccentrico e faccendiere locale, legato allo sfasciacarrozze Wyman's World e alla collezione di auto classiche dell'Ultimate Edition. Nella versione di sviluppo trapelata nel 2022 era un complottista che viveva in un motel vicino a Port Gellhorn, legato a Shanese.",
       "districtId": "dis-da-collocare",
-      "firstMissionId": null,
+      "firstMissionId": "mis-coffee-break",
       "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/ue-wyman-collection-scaled.jpg",
       "galleryX": [
         {
@@ -1902,7 +1913,11 @@
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/wyman/"
+      "insightUrl": "https://vice-central.com/personnages/wyman/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+        "https://gta.wiki/w/Wyman"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-camillo.jpg",
@@ -2125,7 +2140,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-randy",
       "name": "Randy",
       "role": "Ricettatore d'auto",
@@ -2133,10 +2148,14 @@
       "tagline": "Se trovi l'auto che vuole, portagliela.",
       "bio": "Ricettatore d'auto: se trovi un veicolo che Randy vuole, puoi rubarlo e consegnarglielo.",
       "districtId": null,
-      "firstMissionId": null,
+      "firstMissionId": "mis-el-raul",
       "relations": [],
       "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-macca.jpg",
@@ -2182,11 +2201,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-billy.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-billy",
       "name": "Billy",
       "role": "Thrillbilly Mud Club",
@@ -2194,14 +2213,18 @@
       "tagline": "Fango, motori e un nome nel menu del 2022.",
       "bio": "Proprietario del Thrillbilly Mud Club e pilota da fuoristrada, presentato da Wyman. Il suo nome era nel menu di sviluppo trapelato nel 2022, con Kai, e aveva fatto nascere la voce dei quattro protagonisti. Della sua squadra fanno parte Ricky, Sam, Ian, Brittney ed EJ.",
       "districtId": "dis-ambrosia",
-      "firstMissionId": null,
+      "firstMissionId": "mis-thrillbillies",
       "relations": [
         "chr-wyman"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
       "imageUrl": "https://gta.wiki/images/Billy-GTAVI-Portrait.png",
       "imageCredit": "Screenshot ufficiale (Edge Magazine, Thrillbilly Mud Club) via GTA Wiki (gta.wiki)",
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi"
+      ]
     },
     {
       "image": null,
@@ -2413,16 +2436,16 @@
       "tagline": "",
       "bio": "Membro del Thrillbilly Mud Club e vecchio amico di Billy: dice che si conoscono dal primo spinello, nell'ora di ginnastica di terza media. Compare in un'immagine ufficiale con gli altri soci del club ed è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
       "districtId": null,
-      "firstMissionId": null,
+      "firstMissionId": "mis-thrillbillies",
       "relations": [],
       "image": "assets/img/vice/personaggi/chr-ricky.png",
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.wiki/w/Ricky",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "isProtagonist": false,
       "insight": ""
@@ -2455,16 +2478,16 @@
       "tagline": "",
       "bio": "Nuova arrivata nel Thrillbilly Mud Club. Compare con gli altri membri del club ed è tra gli avversari della gara fuoristrada organizzata da Billy.",
       "districtId": null,
-      "firstMissionId": null,
+      "firstMissionId": "mis-thrillbillies",
       "relations": [],
       "image": "assets/img/vice/personaggi/chr-brittney.png",
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.wiki/w/Brittney",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Brittney-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "isProtagonist": false,
       "insight": ""
@@ -2750,9 +2773,14 @@
       "sourceUrl": "https://www.rockstargames.com/VI/dimez",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/ss-real-dimez-01.jpg",
-      "insight": ""
+      "insight": "",
+      "firstMissionId": "mis-top-billing",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
+        "https://www.gtabase.com/gta-6/missions/"
+      ]
     },
     {
       "id": "chr-roxy",
@@ -2772,9 +2800,14 @@
       "sourceUrl": "https://www.rockstargames.com/VI/dimez",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/ss-real-dimez-01.jpg",
-      "insight": ""
+      "insight": "",
+      "firstMissionId": "mis-top-billing",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
+        "https://www.gtabase.com/gta-6/missions/"
+      ]
     },
     {
       "id": "chr-fede-the-flamingo",

@@ -6,18 +6,31 @@
       "type": "attività",
       "name": "Vita in barca",
       "districtId": "dis-keys",
-      "description": "Barche di ogni tipo, più jet ski, nuoto e immersioni. Alcune edizioni del gioco includono il motoscafo Shitzu Squalo e il kayak Crest. Le Keys sono il posto giusto per cominciare.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Barche di ogni tipo, più moto d'acqua, nuoto e immersioni. Con l'Ultimate Edition alcuni mezzi bonus, come il kayak Crest, ti aspettano già a casa di Jason; l'edizione include anche il motoscafo Shitzu Squalo. Le Keys sono il posto giusto per cominciare.",
+      "requirements": [
+        "Per il 100% non servono attività in barca, ma barche e aerei contano tra i veicoli base da scansionare con WAiNK: ne servono 200 su 277."
+      ],
+      "rewards": [
+        "Nuotare alza il cardio, cioè la resistenza.",
+        "Sfide di fitness: 3 miglia a nuoto in un giorno; «Tequesta Swim», da Tequesta Retreat a Starfish Island a nuoto in meno di 15 minuti."
+      ],
+      "steps": [
+        "Scansiona ogni barca nuova che incroci: su (croce direzionale) per WAiNK, poi tieni premuto R1.",
+        "Dalla barca puoi anche pescare, se hai la canna."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Sport acquatici"
+      "updatedAt": "2026-11-18",
+      "group": "Sport acquatici",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/top-10-things-safehouse-gta-6/"
+      ]
     },
     {
       "id": "act-airboat",
@@ -25,36 +38,62 @@
       "name": "Airboat nelle paludi",
       "districtId": "dis-grassrivers",
       "description": "Le barche a elica che sfrecciano tra le erbe di Grassrivers: una delle immagini simbolo di Leonida.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "requirements": [
+        "Per il 100% l'airboat conta solo come veicolo da scansionare con WAiNK, tra i 200 modelli base su 277 che servono."
+      ],
+      "rewards": [
+        "Sfida di sopravvivenza: uccidi 3 alligatori selvatici; le paludi di Grassrivers sono il loro posto."
+      ],
+      "steps": [
+        "Mud Dog Mike, il meteorologo di Back Country Radio, fa le previsioni proprio dal suo airboat a Grassrivers: sintonizzati mentre attraversi la palude."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Sport acquatici"
+      "updatedAt": "2026-11-18",
+      "group": "Sport acquatici",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/"
+      ]
     },
     {
       "id": "act-caccia",
       "type": "attività",
       "name": "Caccia",
       "districtId": "dis-mount-kalaga",
-      "description": "Si caccia in campagna e nelle paludi: cinghiali, serpenti a sonagli, pantere, orsi e alligatori. Ci sono 8 animali unici, leggendari.",
-      "requirements": [],
+      "description": "Si caccia in campagna e nelle paludi: cervi, cinghiali, serpenti a sonagli, pantere, orsi e alligatori. Ci sono 8 animali unici, leggendari. Il fucile da caccia te lo dà Bret Vogel con la sua prima missione, solo a Jason.",
+      "requirements": [
+        "Per il 100% non serve uccidere: bastano 100 animali studiati su 255, col binocolo, e tutte e 15 le cacce di Bret.",
+        "Gli 8 animali unici servono solo per una sfida, non per il 100%."
+      ],
       "rewards": [
         "Sfide di sopravvivenza: 3 alligatori; un cinghiale, un serpente a sonagli e una pantera in 15 minuti; tutti gli 8 animali unici."
       ],
-      "steps": [],
+      "steps": [
+        "Premi L3 e R3 insieme (concentrazione) per vedere la traccia dell'animale: è bianca e diventa gialla quando sei vicino.",
+        "Prima studia l'animale col binocolo o col mirino tenendo premuto R1, poi spara.",
+        "Un colpo solo alla testa o al cuore lascia la carcassa intatta: vale di più.",
+        "Il fucile Killtelligence SM-69 si riprende da qualsiasi armadietto delle armi degli Ammu-Nation."
+      ],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
-      "sourceUrl": "https://gtabase.com/gta-6/animals/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Pesca e caccia"
+      "updatedAt": "2026-11-18",
+      "group": "Pesca e caccia",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/"
+      ]
     },
     {
       "id": "act-pesca",
@@ -62,23 +101,32 @@
       "name": "Pesca",
       "districtId": "dis-mount-kalaga",
       "description": "Si pesca con la canna, che vendono gli Ammu-Nation con l'icona del pesce. Le sfide di pesca di Cal contano come compiti facoltativi per il 100%.",
-      "requirements": [],
+      "requirements": [
+        "Per il 100% le sfide di pesca di Cal contano come compiti facoltativi, e i pesci contano tra i 100 animali da studiare.",
+        "Le sfide di Cal si aprono nel capitolo 1, dopo una delle prime missioni con Cal: ti scrive e segna un posto di pesca in viola sulla mappa."
+      ],
       "rewards": [
         "Trofeo «Esca preparata»: batti Cal in una sfida di pesca.",
         "Pescare alza il Focus.",
         "Sfide di sopravvivenza: un pesce da 20 libbre, 3 pesci con ogni tipo di esca in un giorno, 4 specie in 6 minuti, tutte le specie."
       ],
       "steps": [
-        "I pesci contano anche tra gli animali studiati: puoi studiarli nuotando vicino, senza canna."
+        "I pesci contano anche tra gli animali studiati: puoi studiarli nuotando vicino, senza canna.",
+        "La prima canna è sul pontile dietro casa di Jason, a Key Lento."
       ],
       "image": null,
       "status": "verificato",
       "source": "stampa",
-      "sourceUrl": "https://gtabase.com/gta-6/animals/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Pesca e caccia"
+      "updatedAt": "2026-11-18",
+      "group": "Pesca e caccia",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
+        "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/"
+      ]
     },
     {
       "id": "act-car-meet",
@@ -145,18 +193,30 @@
       "type": "attività",
       "name": "Rifornimento al distributore",
       "districtId": null,
-      "description": "Il carburante è una meccanica vera: un pieno basta per attraversare la mappa. Con gli aerei attenzione: a secco precipitano. L'indicatore compare sopra la minimappa, se lo attivi nelle impostazioni.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Il carburante è una meccanica vera: tutti i veicoli consumano benzina e a secco si fermano. Un pieno basta per attraversare la mappa; con gli aerei attenzione, a secco precipitano. I distributori sono 57, tra cui Xero, Ron, Globe Oil, LTD, Arrow e 247.",
+      "requirements": [
+        "Per il 100% non serve: i distributori si segnano da soli quando togli la nebbia dalla mappa, in Mappa › Veicoli › Distributori, con il contatore di quelli trovati."
+      ],
+      "rewards": [
+        "Sfida di esplorazione «Road Trip»: passa da ogni città e paese di Leonida in un giorno senza scendere dal veicolo, se non per fare benzina."
+      ],
+      "steps": [
+        "L'indicatore del carburante compare sopra la minimappa premendo giù sulla croce direzionale, se lo attivi nelle impostazioni dell'interfaccia.",
+        "In riserva l'indicatore diventa giallo e i distributori più vicini compaiono sulla mappa."
+      ],
       "image": null,
       "status": "verificato",
       "source": "stampa",
-      "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "group": "Svago"
+      "updatedAt": "2026-11-18",
+      "group": "Svago",
+      "moreSources": [
+        "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/"
+      ]
     },
     {
       "id": "act-dirt-bike",
@@ -164,17 +224,29 @@
       "name": "Moto da cross",
       "districtId": "dis-port-gellhorn",
       "description": "Moto da cross e sterrato: il Waning Sands Motocross Stunt Run e le sfide del Mud Club. A Port Gellhorn la moto da cross è di casa; le officine per le moto da sterrato sono Dirt Merchants, in Kelly County.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "requirements": [
+        "Per il 100% contano le gare: 30 vittorie su 40 (8 sono al Mud Club) e 10 ori su 13 nelle prove a medaglia, tra cui il Waning Sands Motocross Stunt Run e sei prove al Mud Club."
+      ],
+      "rewards": [
+        "Sfide dei veicoli: un'impennata lunga 0,25 miglia; due salti in moto di almeno 75 piedi atterrando su un treno in corsa, in 20 minuti."
+      ],
+      "steps": [
+        "Al Mud Club puoi noleggiare una Manchez o una Sanchez: la Sanchez costa di più ma è più veloce, e il premio ripaga la differenza."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Corse"
+      "updatedAt": "2026-11-18",
+      "group": "Corse",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      ]
     },
     {
       "id": "act-sport",
@@ -189,14 +261,17 @@
       "rewards": [
         "Sfide sportive: canestri in 3 posti in un giorno, 10 di fila in 2 minuti, uno in ogni contea, tutti e 100."
       ],
-      "steps": [],
+      "steps": [
+        "Ogni canestro ha il suo pallone lì vicino: raccoglilo e tira.",
+        "Ce n'è uno sotto casa di Jason a Key Lento: prendi gli altri quando ci passi, restano segnati sulla mappa."
+      ],
       "image": null,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "extras": [
         {
           "source": "community",
@@ -207,7 +282,12 @@
           "text": "Ci sono campi da tennis, ma il tennis non si gioca."
         }
       ],
-      "group": "Sport e fitness"
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/"
+      ]
     },
     {
       "id": "act-aria",
@@ -279,33 +359,56 @@
         "Il golf alza il Focus.",
         "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti, a 3 sotto il par; tutti e due i percorsi nello stesso giorno, al par; due buche in uno consecutive."
       ],
-      "steps": [],
+      "steps": [
+        "Per il 100% basta giocare una partita: non serve vincere né stare sotto il par.",
+        "Andateci in due: il minigolf in coppia alza la relazione."
+      ],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Svago"
+      "updatedAt": "2026-11-18",
+      "group": "Svago",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/"
+      ]
     },
     {
       "id": "act-nightlife",
       "type": "attività",
       "name": "Vita notturna: club, strip club, fight club",
       "districtId": "dis-vice-city",
-      "description": "Nightclub, strip club (il Jack of Hearts di Boobie) e un fight club clandestino. La boxe compare tra gli sport.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Locali notturni da visitare: il Jack of Hearts di Boobie a Crosstown, il cabaret Delights a Port Gellhorn e The Vault, il nightclub di Downtown, a Vice City. Il fight club visto nei trailer non compare tra le attività del menu Progressi.",
+      "requirements": [
+        "Per il 100% servono le 2 playlist uniche, e passano dai locali: The Vault Radio si sblocca con un poster nel club; The Sniper of La Perle con 4 poster tra La Perle e Crosstown, uno dentro il Jack of Hearts."
+      ],
+      "rewards": [
+        "The Vault Radio: la musica dance ed elettronica del club, da ascoltare poi in auto e in cuffia.",
+        "Ballare insieme in un locale alza la relazione tra Jason e Lucia."
+      ],
+      "steps": [
+        "A The Vault scansiona con WAiNK il poster rosso all'ingresso.",
+        "Al Jack of Hearts il poster è al secondo piano, nella sala di registrazione sul lato est, appoggiato su una cassa.",
+        "Al Delights c'è anche uno degli avversari di biliardo; il locale resta chiuso per un periodo durante la storia."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://techwiser.com/gta-6-second-trailer-breakdown-details-you-might-have-missed/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "group": "Svago"
+      "updatedAt": "2026-11-18",
+      "group": "Svago",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+        "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "act-trunk-stream",
@@ -327,21 +430,30 @@
     },
     {
       "image": null,
-      "status": "verificato",
-      "source": "trailer",
+      "status": "da verificare",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "act-wrestling",
       "name": "Wrestling da cortile",
       "type": "attività",
       "districtId": null,
-      "description": "American Mania: il backyard wrestling, a Hamlet.",
-      "requirements": [],
+      "description": "American Mania: il ring di backyard wrestling di Hamlet, visto nei trailer. Nelle guide uscite finora non compare come attività giocabile.",
+      "requirements": [
+        "Il wrestling non è tra i tipi di attività del menu Progressi (sono nove: pesca, caccia, golf, poligono, biliardo, basket, videogiochi, gare (anche di droni) e acrobazie).",
+        "Per il 100% conta il set di carte «Backyard Wrestling», 12 carte: è uno dei 18 set, e ne servono 15 completi."
+      ],
       "rewards": [],
-      "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Sport e fitness"
+      "steps": [
+        "Una carta del set, J.D. Wild, è a Grayson (sud-ovest della Lummox County), in una scatola gialla sul retro di una casa subito a nord del Pay 'n' Spray."
+      ],
+      "sourceUrl": "https://www.powerpyx.com/gta-6-backyard-wrestling-collectible-card-set-locations/",
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://gta.wiki/w/American_Mania"
+      ]
     },
     {
       "image": null,
@@ -374,7 +486,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "act-riviste",
       "name": "Riviste e fumetti da collezionare",
       "type": "attività",
@@ -384,10 +496,20 @@
         "Per il 100% ne servono 30 su 34.",
         "Alcune copie stanno in edifici della storia che poi chiudono, ma si trovano anche altrove."
       ],
-      "rewards": [],
-      "steps": [],
+      "rewards": [
+        "Leggere riviste e libri alza il Focus."
+      ],
+      "steps": [
+        "Le prime sono già in casa di Jason: in soggiorno, accanto al barbecue e nel capanno.",
+        "Gli scambi di libri sono una categoria a parte ma contano per il totale: Progressi › Collezioni › Esplorazione."
+      ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Svago"
+      "group": "Svago",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/"
+      ]
     },
     {
       "image": null,
@@ -419,20 +541,34 @@
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "act-appuntamenti",
       "name": "Appuntamenti con Lucia (o Jason)",
       "type": "attività",
       "districtId": null,
-      "description": "Zoo, kayak, passeggiate in spiaggia, bici, palestra, escursioni, immersioni, paracadute: gli appuntamenti sono dinamici e fanno salire la relazione, che ha quattro livelli. Per tenervi per mano premi R2.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Svago"
+      "description": "Non ci sono appuntamenti a orario: il rapporto tra Jason e Lucia cresce con i gesti di tutti i giorni e il tempo passato insieme (minigolf, immersioni, palestra, un locale, un lancio col paracadute). I livelli sono quattro: Running on Empty, Partners in Crime, Crazy in Love e Hot Together. Lo vedi tenendo premuto destra sulla croce o nel menu Jason & Lucia.",
+      "requirements": [
+        "Per i trofei e per il 100% il livello della relazione non conta.",
+        "Si sale solo giocando con tutti e due: se usi sempre lo stesso personaggio, il rapporto si raffredda."
+      ],
+      "rewards": [
+        "Un gesto riuscito fa comparire un +♥ a destra dello schermo.",
+        "Al livello più alto arrivano scene intime in più; alcuni momenti e dialoghi cambiano col livello, ma la coppia resta unita in tutte le missioni."
+      ],
+      "steps": [
+        "Tenetevi per mano (R2), salutatevi quando vi ritrovate, offrite cibo e bevande (L2), aprite la portiera dell'auto.",
+        "Rispondi ai messaggi su WhatUp, manda selfie e la buonanotte quando siete lontani; versate soldi nel conto di risparmio BuckMe.",
+        "Fanno perdere cuori: missioni insieme fallite, lasciare solo il partner a lungo, ignorarne le chiamate, investirlo con l'auto."
+      ],
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+      "group": "Svago",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-relationship-status-romance/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": null,
@@ -467,17 +603,31 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "act-fence-tips",
       "name": "Soffiate dagli NPC",
       "type": "attività",
       "districtId": null,
-      "description": "Nuovi bersagli da rapinare arrivano dai personaggi della storia, dalle chiacchiere dei passanti o esplorando: una cassa incustodita, un'auto preziosa, un covo.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Lavoretti e crimini"
+      "description": "Le soffiate sui colpi arrivano dai contatti. Dunk, a Port Gellhorn, dà soffiate sulle rapine; Yasmani, a Little Cuba, quelle sui furgoni portavalori; Randy ti dice dove trovare le auto della sua lista. Anche i cuochi dei laboratori, sotto tiro, a volte rivelano dove sta un altro laboratorio.",
+      "requirements": [
+        "Le soffiate di Yasmani sui furgoni costano 10.000 $ e si aprono dopo i suoi primi lavori (due finanziarie Payday Loans) e dopo la missione che insegna i caveau, alla fine del capitolo 4."
+      ],
+      "rewards": [
+        "Un furgone portavalori ti porta al caveau di una banca grande: fino a 205.000 $ a colpo.",
+        "Le auto della lista di Randy rendono 30.000 $ e più, se intatte."
+      ],
+      "steps": [
+        "Le soffiate di Randy le chiedi scrivendogli dalla sezione Promemoria del telefono.",
+        "La refurtiva va ai ricettatori (icone verdi con le iniziali): ognuno paga meglio un tipo di merce, Tyrone la droga, Yasmani gioielli e banconote segnate."
+      ],
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "group": "Lavoretti e crimini",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
     },
     {
       "image": null,
@@ -485,7 +635,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "act-monster-truck",
       "name": "Autodromi e Mud Club",
       "type": "attività",
@@ -500,27 +650,48 @@
         "Sfida dei veicoli: tre vittorie di fila in un giorno a Mud Club, Gellhorn e Boone.",
         "Dopo la storia: 10 vittorie tra Gellhorn, Mud Club e Boone sbloccano il trucco Ripara veicolo."
       ],
-      "steps": [],
+      "steps": [
+        "Al Gellhorn International Raceway fai prima la gara di presentazione: apre la serie amatoriale «Keep it PG», cinque gare.",
+        "L'Ambrosia Raceway, nel nord di Ambrosia, compare sulla mappa quando ti avvicini."
+      ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Corse"
+      "group": "Corse",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/"
+      ]
     },
     {
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "act-hiking",
       "name": "Escursioni e cascate",
       "type": "attività",
       "districtId": "dis-mount-kalaga",
-      "description": "Sentieri, canyon, una cascata con ponte, la vetta sopra le nuvole e una miniera abbandonata da esplorare.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Sport e fitness"
+      "description": "Sentieri, canyon, cascate, la vetta del Mount Kalaga sopra le nuvole e una miniera abbandonata, con una torre sopra. Lassù ci sono anche due posti di meditazione e la prova di ciclismo Kalaga Cycling Trial.",
+      "requirements": [
+        "Per il 100% le escursioni non contano da sole; contano le meditazioni (la torre sopra la miniera e la vetta, nel cerchio di pietre, che si apre per ultima) e le prove a medaglia come il Kalaga Cycling Trial."
+      ],
+      "rewards": [
+        "Camminare, correre e pedalare alzano il cardio, cioè la resistenza.",
+        "Sfide di fitness: 5 miglia a piedi in un giorno; «Waning Sands Run», dal cancello del molo di The Tip a Waning Sands a piedi in meno di 13 minuti senza subire danni."
+      ],
+      "steps": [
+        "Sulla vetta andate in due, Jason e Lucia: l'ultima meditazione richiede entrambi."
+      ],
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
+        "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+        "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      ]
     },
     {
       "image": null,
@@ -528,17 +699,29 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "act-pesca-dettagli",
       "name": "Pesca: cattura e rilascio",
       "type": "attività",
       "districtId": "dis-keys",
       "description": "Dettagliata come in Red Dead Redemption 2, ma il pesce non lo tieni: niente da vendere o da mangiare. Ci sono sfide e collezionabili legati alla pesca. Il primo posto di pesca noto è Gambit Bay; anche una scena in barca con Brian Heder mostra la pesca.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "requirements": [
+        "Per il 100% i pesci contano tra i 100 animali da studiare, e basta nuotarci vicino: non serve pescarli."
+      ],
+      "rewards": [
+        "Sfide di sopravvivenza: tutte le specie di pesci, e 3 pesci con ciascun tipo di esca nello stesso giorno."
+      ],
+      "steps": [
+        "Quando entri in un posto di pesca, un messaggio ti dice quale specie ci trovi, per esempio i grossi Common Snook.",
+        "Si pesca da riva, dai pontili e dalle barche."
+      ],
       "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
-      "group": "Pesca e caccia"
+      "group": "Pesca e caccia",
+      "moreSources": [
+        "https://gta.wiki/w/Fishing",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/"
+      ]
     },
     {
       "image": null,
@@ -574,107 +757,171 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "act-zoo-dettagli",
       "name": "Lo zoo, anche come appuntamento",
       "type": "attività",
       "districtId": "dis-vice-city",
       "description": "Il Wildland Zoo di Vice City si può visitare per studiare gli animali, e conta come «tempo di qualità» per Jason e Lucia. Non è legato alla storia.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "requirements": [
+        "Per il 100% servono 100 animali studiati su 255; ogni razza di cane e di gatto conta a parte."
+      ],
+      "rewards": [
+        "Sfida di sopravvivenza «Zoologist»: studia 20 specie diverse.",
+        "Le uscite in coppia alzano la relazione tra Jason e Lucia."
+      ],
+      "steps": [
+        "Prendi il binocolo dalla ruota delle armi (L1), ingrandisci con su sulla croce e tieni premuto R1 per studiare l'animale."
+      ],
       "sourceUrl": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species",
-      "group": "Svago"
+      "group": "Svago",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/"
+      ]
     },
     {
       "id": "act-moto-d-acqua-jet-ski",
       "name": "Moto d'acqua (jet ski)",
-      "description": "Lucia guida una Seashark accanto ad altri due piloti, ma senza indicatori di gara; Jason guida con Lucia dietro, quindi è un'attività da fare in coppia. Non è ancora noto se ci siano sfide o gare come in GTA Online. Fa parte di «Vita in barca».",
+      "description": "Nei trailer Lucia guida una Seashark accanto ad altri due piloti, e Jason la porta con Lucia dietro. Nel gioco però non ci sono gare in moto d'acqua: nessuna delle 40 gare e delle 13 prove a medaglia si fa in acqua. Fa parte di «Vita in barca».",
       "districtId": null,
       "image": null,
-      "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://gta6bible.com/activities/jet-skiing/",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "type": "attività",
-      "requirements": [],
+      "requirements": [
+        "Per il 100% la moto d'acqua conta solo come veicolo da scansionare con WAiNK, tra i 200 modelli base su 277."
+      ],
       "rewards": [],
       "steps": [],
-      "group": "Sport acquatici"
+      "group": "Sport acquatici",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://gta6bible.com/activities/jet-skiing/"
+      ]
     },
     {
       "id": "act-kayak",
       "name": "Kayak",
-      "description": "Sotto un ponte ferroviario a Mount Kalaga, accanto a un idrometro, c'è un uomo in kayak: forse un indizio di piene e di meteo dinamico. Pagaiare insieme rafforza il legame tra Jason e Lucia. Il veicolo è il Crest Kayak.",
+      "description": "Il kayak Crest si usa sui fiumi di Mount Kalaga e di Vice City e lungo le coste delle Keys; con l'Ultimate Edition ne hai uno a casa di Jason, a Key Lento. Pagaiare insieme fa parte del tempo di coppia di Jason e Lucia.",
       "districtId": "dis-mount-kalaga",
       "image": null,
-      "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://gta6bible.com/activities/kayaking/",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-18",
       "type": "attività",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "group": "Sport acquatici"
+      "requirements": [
+        "Per il 100% non serve: il kayak conta solo come veicolo da scansionare con WAiNK."
+      ],
+      "rewards": [
+        "Pagaiare alza il cardio, cioè la resistenza.",
+        "Le uscite in coppia alzano la relazione."
+      ],
+      "steps": [
+        "Chiama il partner prima di partire: in due vale anche per la relazione."
+      ],
+      "group": "Sport acquatici",
+      "moreSources": [
+        "https://gta.wiki/w/Kayak",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+        "https://gta6bible.com/activities/kayaking/"
+      ]
     },
     {
       "id": "act-immersioni-con-bombole-scuba",
       "name": "Immersioni con bombole (scuba)",
-      "description": "Durante l'immersione con le bombole compare un indicatore O₂ in alto a sinistra, diverso dalla barra della capacità polmonare in apnea. Nelle Keys c'è una barriera corallina con le tartarughe marine. Ricompense possibili: tesori, contanti, equipaggiamento, collezionabili.",
+      "description": "Durante l'immersione con le bombole compare un indicatore O₂ in alto a sinistra, diverso dalla barra della capacità polmonare in apnea. Nelle Keys c'è una barriera corallina con le tartarughe marine. Sul fondale ci sono relitti, stranezze e tesori: li trovi soprattutto con le missioni di Kenton Rees, a Key Lento.",
       "districtId": null,
       "image": null,
       "status": "verificato",
-      "source": "trailer",
-      "sourceUrl": "https://gta6bible.com/activities/scuba-diving/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "type": "attività",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
-      "group": "Sport acquatici"
+      "requirements": [
+        "Per il 100% servono tutte e 33 le scoperte subacquee, legate alle 7 serie di relitti di Kenton."
+      ],
+      "rewards": [
+        "Sfide di esplorazione: 25 stranezze sul fondale, 85 tesori subacquei, tutti e 11 i relitti «Black Hole».",
+        "Immergersi in coppia alza la relazione tra Jason e Lucia."
+      ],
+      "steps": [
+        "Sott'acqua scegli il metal detector dalla ruota: nella zona segnata nuota finché la luce diventa verde, poi scava il tesoro.",
+        "Puoi seguire i progressi in Progressi › Collezioni › Esplorazione › Scoperte subacquee."
+      ],
+      "group": "Sport acquatici",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/"
+      ]
     },
     {
       "id": "act-combattimenti-in-gabbia",
       "name": "Combattimenti in gabbia",
-      "description": "In gabbia Lucia prende a calci un avversario, e porta spesso una collana con un guantone da boxe. I combattimenti in gabbia mancavano dai tempi di The Ballad of Gay Tony. Fanno parte di «Vita notturna: club, strip club, fight club».",
+      "description": "Nei trailer Lucia combatte in gabbia e porta spesso una collana con un guantone da boxe. Nelle guide uscite finora i combattimenti in gabbia non compaiono come attività. Fanno parte di «Vita notturna».",
       "districtId": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta6bible.com/activities/cage-fighting/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "type": "attività",
-      "requirements": [],
-      "rewards": [],
+      "requirements": [
+        "Non sono tra i tipi di attività del menu Progressi (sono nove: pesca, caccia, golf, poligono, biliardo, basket, videogiochi, gare (anche di droni) e acrobazie)."
+      ],
+      "rewards": [
+        "La sfida più vicina è di combattimento: metti fuori gioco 5 nemici di fila in corpo a corpo senza morire.",
+        "Il sacco da boxe in palestra (o sotto casa di Jason) alza il cardio."
+      ],
       "steps": [],
-      "group": "Sport e fitness"
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
+        "https://gta6bible.com/activities/cage-fighting/"
+      ]
     },
     {
       "id": "act-football-americano",
       "name": "Football americano",
-      "description": "Per ora ci sono solo indizi: un pallone da football nel bagagliaio di Jason, passanti che se lo lanciano sulla spiaggia di Vice City, la federazione AFF e i Manatees. Non è ancora noto se il football sia giocabile.",
+      "description": "Nei trailer ci sono solo indizi: un pallone da football nel bagagliaio di Jason, passanti che se lo lanciano sulla spiaggia di Vice City, la federazione AFF. Nelle guide uscite finora il football non risulta giocabile. Lo sport di Leonida però si colleziona: tra i 18 set di carte ci sono le squadre di Vice City (Flamingos, Narcos, Manatees, Club de Fútbol), di Liberty City e di Los Santos.",
       "districtId": null,
       "image": null,
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta6bible.com/activities/american-football/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "type": "attività",
-      "requirements": [],
+      "requirements": [
+        "Non è tra i tipi di attività del menu Progressi (sono nove: pesca, caccia, golf, poligono, biliardo, basket, videogiochi, gare (anche di droni) e acrobazie)."
+      ],
       "rewards": [],
       "steps": [],
-      "group": "Sport e fitness"
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+        "https://gta6bible.com/activities/american-football/"
+      ]
     },
     {
       "id": "act-meditazione",
@@ -750,15 +997,23 @@
       "rewards": [
         "Trofeo «Smanettone»: finisci tutti i livelli di un gioco."
       ],
-      "steps": [],
+      "steps": [
+        "Per il 100% basta avviare il gioco e uscire subito col touchpad.",
+        "Due dei giochi della console li provi già in una missione del capitolo 1.",
+        "Per il trofeo finisci tutti i livelli di uno solo dei quattro giochi."
+      ],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Svago"
+      "updatedAt": "2026-11-18",
+      "group": "Svago",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/"
+      ]
     },
     {
       "id": "act-biliardo",
@@ -774,15 +1029,23 @@
         "Il biliardo alza il Focus.",
         "Sfide sportive: vinci in 3 posti in un giorno, tre sponde prima della buca, 8 in buca al tiro d'apertura."
       ],
-      "steps": [],
+      "steps": [
+        "Contano solo i sette avversari fissi: gli altri dieci tavoli sono senza avversario.",
+        "I progressi sono in Progressi › Attività › Sport › Biliardo."
+      ],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Sport e fitness"
+      "updatedAt": "2026-11-18",
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/"
+      ]
     },
     {
       "id": "act-palestra",
@@ -894,13 +1157,20 @@
       "name": "Laboratori della Kitty Litter",
       "districtId": "dis-vice-city",
       "description": "Quattordici laboratori della droga da distruggere per Tyrone a Vice City: la zona è segnata in viola, il capannone giusto è quello col fumo rosa. Distruggi l'attrezzatura con esplosivi o fuoco. Solo Jason.",
-      "requirements": [],
+      "requirements": [
+        "Non sono una voce del 100%, ma ogni laboratorio conta come compito facoltativo.",
+        "Distruggine abbastanza per aprire l'ultima missione di Tyrone: dà il trofeo.",
+        "Non si perdono: puoi finirli anche dopo la storia."
+      ],
       "rewards": [
         "2.000-2.500 $ per laboratorio.",
         "Trofeo «Centrifugami questo!» all'ultima missione di Tyrone."
       ],
       "steps": [
-        "Puoi trovarli da solo, senza aspettare le soffiate."
+        "Puoi trovarli da solo, senza aspettare le soffiate.",
+        "Dentro ci sono bombole di propano o di benzina: un colpo e salta tutto; anche una molotov lanciata dalla porta basta.",
+        "Alcuni cuochi, se li minacci, ti dicono dove sta un altro laboratorio; altri appiccano il fuoco appena entri.",
+        "A Balsero il tastierino del garage si apre con 1999, il numero sul cartellone lì vicino."
       ],
       "image": null,
       "status": "da verificare",
@@ -908,7 +1178,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "group": "Lavoretti e crimini"
     },
     {
@@ -947,16 +1217,26 @@
         "In tutto ci sono 40 gare diverse: per il 100% devi vincerne 30, per il trofeo «Guadagna i soldi, non la gloria» 20.",
         "Ogni gara ha una quota d'iscrizione e il noleggio del mezzo; vincendo una si apre la successiva."
       ],
-      "rewards": [],
-      "steps": [],
+      "rewards": [
+        "Vincendo ci guadagni: il premio supera quota d'iscrizione e noleggio.",
+        "Le vittorie contano per il trofeo «Guadagna i soldi, non la gloria» (20 gare)."
+      ],
+      "steps": [
+        "Le gare compaiono in blu quando sei a meno di 100 metri: Mappa › Attività › Corse.",
+        "In ogni posto vinci la prima gara per aprire la seconda."
+      ],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Corse"
+      "updatedAt": "2026-11-18",
+      "group": "Corse",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/"
+      ]
     },
     {
       "id": "act-sfide-gara",
@@ -967,7 +1247,10 @@
       "requirements": [
         "Per il 100% servono 10 ori su 13: scegli i più facili."
       ],
-      "rewards": [],
+      "rewards": [
+        "Ogni prova dà bronzo, argento o oro secondo il tempo o il punteggio.",
+        "Una gara o una prova vinta conta per il trofeo «Tuttofare», che chiede un'attività di ogni tipo."
+      ],
       "steps": [
         "Progressi › Attività › Sfide di gara: la medaglia è in basso a destra."
       ],
@@ -977,8 +1260,13 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Corse"
+      "updatedAt": "2026-11-18",
+      "group": "Corse",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     }
   ]
 }

@@ -25,6 +25,150 @@
           "title": "Midnight Sun (Girls Trip)",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Ciara and Justin Timberlake",
+          "title": "Love Sex Magic",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Kylie Minogue",
+          "title": "Spinning Around",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Drake",
+          "title": "Hold On, We're Going Home",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "X-Press 2 ft. David Byrne",
+          "title": "Lazy",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Addison Rae",
+          "title": "Fame Is a Gun",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Katseye",
+          "title": "Gabriela",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Ariana Grande",
+          "title": "Break Free",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "PinkPantheress",
+          "title": "Illegal",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Chappell Roan",
+          "title": "Hot To Go!",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "JISOO",
+          "title": "Earthquake",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Dua Lipa",
+          "title": "Houdini",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Billie Eilish",
+          "title": "Lunch",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "The Weeknd",
+          "title": "Wanderlust",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Justin Bieber",
+          "title": "Sweet Spot",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Gorillaz",
+          "title": "Dare",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Jennifer Paige",
+          "title": "Crush",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Daft Punk",
+          "title": "Around the World",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Moloko",
+          "title": "Forever More",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Jeannie",
+          "title": "Mantra",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "LISA",
+          "title": "Sawadika",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Calvin Harris ft. Pharrell, Katy Perry & Big Sean",
+          "title": "Feels",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Madonna ft. Nicki Minaj & M.I.A.",
+          "title": "Give Me All Your Luvin'",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Kodak Black",
+          "title": "Skrilla",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Frank Ocean",
+          "title": "Lost",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-flash-fm.png",
@@ -33,14 +177,18 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-cocoteo",
       "name": "Cocoteo FM",
       "genre": "Latin moderno",
       "host": "El Martillo (Bad Bunny) e La Gata (RaiNao)",
-      "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: ritmi moderni e la voce dei quartieri, da Little Cuba in giù.",
+      "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: reggaeton, dembow e bachata, da Bad Bunny a Don Omar e Calle 13.",
       "highlights": [
         {
           "artist": "Bad Bunny",
@@ -64,7 +212,61 @@
           "artist": "Myke Towers",
           "title": "Girl",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Young Miko",
+          "title": "Ni Le Cabe",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Anuel AA ft. Gaze",
+          "title": "Amanece",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Bad Bunny",
+          "title": "Otra Noche en Miami",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Chimbala & Omega",
+          "title": "Se Me Nota (Agarrame)",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Don Omar",
+          "title": "Intocable",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Fuerza Regida",
+          "title": "Suzuki",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Rauw Alejandro",
+          "title": "Macacoa 2000",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Tainy & Bad Bunny",
+          "title": "Mojabi Ghost",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Calle 13",
+          "title": "Suave Mix (Blass Remix)",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-cocoteo.png",
@@ -73,7 +275,11 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-back-country",
@@ -104,13 +310,31 @@
           "artist": "Glen Campbell",
           "title": "Rhinestone Cowboy",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "George Strait",
           "title": "The Fireman",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Mel McDaniel",
+          "title": "Louisiana Saturday Night",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Tony Joe White",
+          "title": "Polk Salad Annie",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "The Kentucky Headhunters",
+          "title": "Walk Softly On This Heart of Mine",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-back-country.png",
@@ -119,7 +343,11 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-afro-bank",
@@ -145,6 +373,36 @@
           "title": "Shay'sana",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Tony Allen & The Afro Messengers",
+          "title": "No Discrimination",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Alafia",
+          "title": "Assanssan",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Uncle Waffles",
+          "title": "Wadibusa",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Hugh Masekela",
+          "title": "Run No More",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Manu Dibango",
+          "title": "Goro City",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-afro-bank.png",
@@ -153,7 +411,11 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-the-chamber",
@@ -179,6 +441,66 @@
           "title": "Raining Blood",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Megadeth",
+          "title": "Symphony of Destruction",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Metallica",
+          "title": "Master of Puppets",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Mastodon",
+          "title": "Blood and Thunder",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Anthrax",
+          "title": "I Am The Law",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Metallica",
+          "title": "Battery",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Metallica",
+          "title": "Seek & Destroy",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Sepultura",
+          "title": "Territory",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "System of a Down",
+          "title": "Sugar",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "TOOL",
+          "title": "Sober",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Overkill",
+          "title": "Rotten to the Core",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-the-chamber.png",
@@ -187,7 +509,11 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-dirty-south",
@@ -213,6 +539,66 @@
           "title": "Born N Raised",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Juvenile ft. Soulja Slim",
+          "title": "Slow Motion",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Petey Pablo",
+          "title": "Freek-A-Leek",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Trick Daddy",
+          "title": "I'm a Thug",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Young Buck",
+          "title": "Shorty Wanna Ride",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Three 6 Mafia",
+          "title": "Hard Out Here for a Pimp",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Lil Wayne",
+          "title": "A Milli",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Chingy ft. Ludacris & Snoop Dogg",
+          "title": "Holidae Inn",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Trina",
+          "title": "Da Baddest Bitch",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Brisco",
+          "title": "Bitch I'm Me",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Dem Franchize Boyz",
+          "title": "White Boy",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "image": "assets/img/radio-dirty-south.png",
@@ -221,40 +607,193 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-vice-city-fm",
       "name": "Vice City FM",
       "genre": "Pop anni '80",
-      "description": "Il ritorno della stazione degli anni Ottanta, con lo slogan «Take it back» e musica non-stop di quel decennio. La sua pubblicità compare su una pensilina di Vice City.",
-      "highlights": [],
+      "description": "Il ritorno della stazione degli anni Ottanta, con lo slogan «Take it back»: pop e new wave di quel decennio, da Stevie Nicks ai Culture Club. La sua pubblicità compare su una pensilina di Vice City.",
+      "highlights": [
+        {
+          "artist": "Stevie Nicks",
+          "title": "Wild Heart",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Echo & The Bunnymen",
+          "title": "Lips Like Sugar",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Curiosity Killed the Cat",
+          "title": "Name and Number",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Feargal Sharkey",
+          "title": "A Good Heart",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "New Order",
+          "title": "Thieves Like Us",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Bryan Ferry",
+          "title": "Kiss and Tell",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Billy Ocean",
+          "title": "Loverboy",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Johnny Hates Jazz",
+          "title": "Shattered Dreams",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Jermaine Stewart",
+          "title": "We Don't Have To Take Our Clothes Off",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Culture Club",
+          "title": "Miss Me Blind",
+          "status": "da verificare",
+          "source": "stampa"
+        }
+      ],
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gta.wiki/w/Vice_City_FM",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/radio/rad-vice-city-fm.png",
-      "imageUrl": "https://gta.wiki/images/ViceCityFM-GTAVI-AnExtendedLook.png?fa0f6"
+      "imageUrl": "https://gta.wiki/images/ViceCityFM-GTAVI-AnExtendedLook.png?fa0f6",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-v-rock",
       "name": "V-Rock",
       "genre": "Classic rock",
-      "description": "La storica radio rock di Vice City torna con la mascotte, l'avvoltoio Jimmy, e un formato classic rock. Jason ne indossa la maglietta.",
+      "description": "La storica radio rock di Vice City torna con la mascotte, l'avvoltoio Jimmy, ma oggi passa più classic rock che metal: Bon Jovi, Van Halen, The Who, Mötley Crüe. Jason ne indossa la maglietta.",
       "highlights": [
         {
           "artist": "Stevie Nicks",
           "title": "For What It's Worth",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "Lindsey Buckingham",
           "title": "Go Insane",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Bon Jovi",
+          "title": "Runaway",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "The Rolling Stones",
+          "title": "Emotional Rescue",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Huey Lewis & The News",
+          "title": "I Want A New Drug",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Van Halen",
+          "title": "Panama",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Poison",
+          "title": "Nothin' But A Good Time",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Eric Clapton",
+          "title": "Cocaine",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Harry Nilsson",
+          "title": "Jump Into the Fire",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "The Who",
+          "title": "Bargain",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Eddie Money",
+          "title": "Take Me Home Tonight",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "John Mellencamp",
+          "title": "Jack and Diane",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Mötley Crüe",
+          "title": "Dr. Feelgood",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Pete Townshend",
+          "title": "Let My Love Open the Door",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Loverboy",
+          "title": "Lovin' Every Minute of It",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "KISS",
+          "title": "Sure Know Something",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
       "status": "verificato",
@@ -262,237 +801,1005 @@
       "sourceUrl": "https://gta.wiki/w/V-Rock",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/radio/rad-v-rock.png",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023"
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-honey-fm",
       "name": "Honey FM",
-      "genre": "R&B e soul (da confermare)",
-      "description": "Stazione dal logo rosa e dorato, pubblicizzata sul tetto e sulle fiancate dei taxi di Vice City e sulle magliette dei passanti.",
-      "highlights": [],
+      "genre": "R&B e soul anni '90",
+      "description": "R&B e soul soprattutto anni Novanta, da D'Angelo a Usher e Tony! Toni! Toné!. Il logo rosa e dorato è sul tetto e sulle fiancate dei taxi di Vice City.",
+      "highlights": [
+        {
+          "artist": "D'Angelo",
+          "title": "Lady",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Sounds of Blackness",
+          "title": "Optimistic",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Zhané",
+          "title": "Hey Mr. DJ",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Montell Jordan",
+          "title": "Get It On Tonite",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "T-Pain",
+          "title": "Buy U a Drank",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Color Me Badd",
+          "title": "I Adore Mi Amor",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Jagged Edge",
+          "title": "Where the Party At",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Akon ft. Styles P",
+          "title": "Locked Up",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Usher",
+          "title": "Bad Girl",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Next",
+          "title": "Too Close",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Tony! Toni! Toné",
+          "title": "Feels Good",
+          "status": "da verificare",
+          "source": "stampa"
+        }
+      ],
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/radio/rad-honey-fm.png",
-      "imageUrl": "https://gta.wiki/images/UnnamedVapidTaxi-GTAVI-WebsiteBackground-Music01.png?7658c"
+      "imageUrl": "https://gta.wiki/images/UnnamedVapidTaxi-GTAVI-WebsiteBackground-Music01.png?7658c",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-emotion-98-3",
       "name": "Emotion 98.3",
-      "genre": "Pop e soft rock",
-      "description": "Torna la stazione del pop morbido e delle ballate del Vice City originale.",
+      "genre": "Soft rock e pop",
+      "description": "Torna la stazione del Vice City del 2002: soft rock e ballate anni Settanta e Ottanta, da Phil Collins ai Roxette, per i viaggi lunghi.",
       "highlights": [
         {
           "artist": "Cliff Richard",
           "title": "Devil Woman",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "The Cars",
+          "title": "Drive",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Phil Collins",
+          "title": "In the Air Tonight",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Roxette",
+          "title": "Listen to Your Heart",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Captain & Tennille",
+          "title": "But I Think It's a Dream",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Scritti Politti",
+          "title": "Overnite",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Carly Simon",
+          "title": "Coming Around Again",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Elton John",
+          "title": "I Guess That's Why They Call It the Blues",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Phil Collins",
+          "title": "Against All Odds",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Stevie Nicks ft. Tom Petty",
+          "title": "Stop Draggin' My Heart Around",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Dr. Hook",
+          "title": "When You're In Love With A Beautiful Woman",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Chris Rea",
+          "title": "Fool (If You Think It's Over)",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-stockyard-fm",
       "name": "Stockyard FM",
-      "genre": "Pop e dance",
-      "description": "La radio di quartiere di Stockyard, tra pop elettronico e successi recenti.",
+      "genre": "Indie e dance",
+      "description": "La radio di Stockyard: indie, elettronica e dance, da Justice e Tame Impala a Róisín Murphy.",
       "highlights": [
         {
           "artist": "Róisín Murphy",
           "title": "Overpowered",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "Tommy Richman",
           "title": "Million Dollar Baby",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Justice & Tame Impala",
+          "title": "One Night / All Night",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Neil Frances",
+          "title": "You Move Me",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Fischerspooner",
+          "title": "Emerge",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "CMD/CTRL",
+          "title": "No Stress",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "ANOTR",
+          "title": "Paradise",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Rampa & WhoMadeWho",
+          "title": "Abu Simbel",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "host": "PinkPantheress e The Dare",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-symphony-fm",
       "name": "Symphony FM",
       "genre": "Classica",
-      "description": "Musica sinfonica per chi vuole attraversare Leonida a passo d'orchestra.",
+      "description": "Musica classica, da Händel e Liszt a Mahler e Debussy, per attraversare Leonida a passo d'orchestra.",
       "highlights": [
         {
           "artist": "Jean Sibelius",
           "title": "Sinfonia n. 5, III. Allegro molto",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "Gustav Mahler",
           "title": "Sinfonia n. 6, Allegro energico",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Georg Friedrich Händel",
+          "title": "Messiah",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Franz Liszt",
+          "title": "Les Préludes",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Witold Lutosławski",
+          "title": "Concerto per orchestra",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Sergej Prokof'ev",
+          "title": "Concerto per pianoforte n. 2",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Claude Debussy",
+          "title": "Nocturnes, L. 91: II. Fêtes",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-circoloco",
       "name": "CircoLoco Records Radio",
-      "genre": "Dance, house",
-      "description": "La stazione dance legata a CircoLoco Records, l'etichetta nata da Rockstar e dal party di Ibiza.",
-      "highlights": [],
+      "genre": "House e techno da club",
+      "description": "La stazione dance legata a CircoLoco Records, l'etichetta fondata nel 2021 da Rockstar e dal party di Ibiza: pezzi da club, da Skream a Michael Bibi.",
+      "highlights": [
+        {
+          "artist": "Skream",
+          "title": "Floral",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Michael Bibi",
+          "title": "Rhythm of the Night",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Mind Against",
+          "title": "Let It Go",
+          "status": "da verificare",
+          "source": "stampa"
+        }
+      ],
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gta.wiki/w/CircoLoco_Records_Radio",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/radio/rad-circoloco.png",
-      "imageUrl": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8"
+      "imageUrl": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-radio-on-u",
       "name": "Radio On-U",
-      "genre": "Reggae e dub",
-      "description": "Reggae e dub d'annata, dai classici giamaicani alle produzioni On-U Sound.",
+      "genre": "Reggae, lovers rock e dub",
+      "description": "Prende il nome dall'etichetta On-U Sound di Adrian Sherwood: reggae, lovers rock e dub giamaicano, da Horace Andy a Ken Boothe.",
       "highlights": [
         {
           "artist": "Horace Andy",
           "title": "Skylarking",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "The Upsetters",
           "title": "Black Panta",
           "status": "da verificare",
           "source": "leak"
+        },
+        {
+          "artist": "Adrian Sherwood",
+          "title": "Dub Inspector",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Louisa Mark",
+          "title": "Caught You in a Lie",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Carroll Thompson",
+          "title": "I'm So Sorry",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Freddie McGregor",
+          "title": "Big Ship",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Ken Boothe",
+          "title": "Everything I Own",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-worldwide-fm",
       "name": "WorldWide FM",
-      "genre": "World, soul, jazz-funk",
-      "description": "Ritorna da GTA V la stazione di Gilles Peterson, tra soul, jazz-funk e suoni dal mondo.",
+      "genre": "World, jazz e soul",
+      "description": "Ritorna da GTA V e GTA Online la stazione di Gilles Peterson: world music, jazz, soul e ritmi da club da tutto il mondo.",
       "highlights": [
         {
           "artist": "Garfield Fleming",
           "title": "Don't Send Me Away",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "Jamiroquai",
           "title": "Smile",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Facta ft. Warrior Queen & Killa P",
+          "title": "SLoPE VIP",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Dongurizu",
+          "title": "Yoppa Ratta",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Fejão & Samtheman",
+          "title": "Brasil da Capoeira",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Cloud One",
+          "title": "Atmosphere Strut",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Roberta Flack",
+          "title": "The First Time Ever I Saw Your Face",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Moses Ideka & Phil",
+          "title": "Do It For You",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Atmos Blaq",
+          "title": "Skhaftin Saka Fonque",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "4hero",
+          "title": "Star Chasers",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-kaleidoscope-fm",
       "name": "Kaleidoscope FM",
-      "genre": "Disco e funk",
-      "description": "Disco e funk europei. Il nome viene dalla Kaleidoscope del primo GTA.",
+      "genre": "Cover, pop dal mondo e disco",
+      "description": "La stazione più strana e varia: cover curiose, pop da tutto il mondo e disco finlandese. Il nome viene dalla Kaleidoscope del primo GTA.",
       "highlights": [
         {
           "artist": "Marianne Rosenberg",
           "title": "Herz aus Glas",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
+        },
+        {
+          "artist": "Rolf Bergström",
+          "title": "Rokkibaby",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Trevor M. Simpson & Hi Lo Singers",
+          "title": "Stupid Girl",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Phương Thanh",
+          "title": "Chia Tay Trong Mưa",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Ron",
+          "title": "Hai Capito O No?",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-la-ola",
       "name": "La Ola",
       "genre": "Salsa e latin classico",
-      "description": "Salsa e latin degli anni Settanta e Ottanta, il contraltare classico di Cocoteo.",
+      "description": "Salsa, son e latin dell'età d'oro, da Celia Cruz a Gloria Estefan: il contraltare classico di Cocoteo FM. GameSpot la chiama «Radio La Ola».",
       "highlights": [
         {
           "artist": "Orquesta Harlow",
           "title": "La Cartera",
           "status": "da verificare",
-          "source": "leak"
+          "source": "stampa"
         },
         {
           "artist": "Nolen & Crossley",
           "title": "Salsa Boogie",
           "status": "da verificare",
           "source": "leak"
+        },
+        {
+          "artist": "Cachao",
+          "title": "Descarga Cubana",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "El Gran Combo de Puerto Rico",
+          "title": "No Hay Cama Pa' Tanta Gente",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Celia Cruz ft. Johnny Pacheco",
+          "title": "Besito de Coco",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Gloria Estefan",
+          "title": "Mi Tierra",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Banda Blanca",
+          "title": "Sopa de Caracol",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Willy Chirino",
+          "title": "Soy Guajiro",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Charlie Palmieri",
+          "title": "La Hija de Lola",
+          "status": "da verificare",
+          "source": "stampa"
         }
       ],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-the-wipe",
       "name": "The Wipe",
-      "genre": "Sconosciuto",
-      "description": "Il nome compare sulla ruota delle radio, ma genere e scaletta sono ancora un mistero.",
+      "genre": "Talk radio",
+      "description": "Una stazione parlata: racconta le stranezze di Leonida e dà curiosità sul mondo di gioco, comprese cose che forse non hai ancora visto. Niente musica.",
       "highlights": [],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "rad-altre",
       "name": "Altre stazioni e podcast",
-      "genre": "Dal classic rock alla talk radio",
-      "host": "Da scoprire",
-      "description": "Le stazioni sono 23 e vanno «dal Classic Rock alla Talk Radio», con podcast su richiesta. Oltre alle sei presentate da Rockstar, nel materiale ufficiale compaiono Vice City FM, V-Rock, Honey FM e CircoLoco Records Radio. Tra le altre ci sarebbero Emotion 98.3, Stockyard FM, Symphony FM, Radio On-U, The Wipe, WorldWide FM, Kaleidoscope FM e La Ola.",
+      "genre": "Panoramica",
+      "host": null,
+      "description": "Sulla ruota ci sono 22 stazioni, il numero più alto della serie, più The Vault, che si sblocca a Vice City: 23 in tutto, come aveva scritto Edge. Sei hanno conduttori famosi. Nuove rispetto alle anticipazioni: VCRR (rap di oggi), Gloriana Blues Radio, Leonida Jazz Radio e la talk radio WKTT. Nella sezione On Demand ci sono i podcast e la playlist segreta The Sniper of La Perle (4 poster da scansionare tra La Perle e Crosstown).",
       "highlights": [],
       "image": null,
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+        "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/"
+      ]
+    },
+    {
+      "id": "rad-vcrr",
+      "name": "VCRR",
+      "genre": "Rap e hip-hop di oggi",
+      "description": "La stazione del rap moderno: trap e hip-hop recenti, da Playboi Carti e Gunna a GloRilla, Central Cee e Travis Scott.",
+      "highlights": [
+        {
+          "artist": "Playboi Carti",
+          "title": "Ahh Yea",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "BunnaB",
+          "title": "Go Go Go",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Drake",
+          "title": "Nokia",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Gunna",
+          "title": "Count Up",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Pooh Shiesty",
+          "title": "Got Dat",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Offset",
+          "title": "I Just Came To Pop It",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Denzel Curry",
+          "title": "Fla Flow",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Zoey Dollaz",
+          "title": "Blow a Cheque",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Migos ft. Lil Uzi Vert",
+          "title": "Bad and Boujee",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Young Nudy",
+          "title": "Don Da Da",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Real Boston Richey",
+          "title": "Help Me",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "French Montana & Swae Lee",
+          "title": "Unforgettable",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Drake",
+          "title": "Nonstop",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Mustard, Quavo & Rob49",
+          "title": "One of Them Ones",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Cardi B",
+          "title": "Don't Chart",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Future",
+          "title": "Xanny Family",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Kodak Black & Don Toliver",
+          "title": "Let's Rock",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Pop Smoke",
+          "title": "Dior",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Travis Scott",
+          "title": "RHYNO",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Bossman Dlow",
+          "title": "Mr Pot Scraper",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Nemzzz ft. Travis Scott",
+          "title": "Gass",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Central Cee",
+          "title": "Rock N Roll",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Famous Sally & YB",
+          "title": "Wassup Gway",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Yung Lean ft. Future & Metro Boomin",
+          "title": "That's It",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Tee Grizzley",
+          "title": "IKYFL",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Latto ft. Flo Milli",
+          "title": "Go Shorty",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "SoFaygo",
+          "title": "Cashout",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "310babii, Blueface & Tyga",
+          "title": "Soak City",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "21 Savage",
+          "title": "Cookin",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Kodak Black ft. XXXTentacion",
+          "title": "Roll in Peace",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "DJ Khaled ft. Latto & City Girls",
+          "title": "Bills Paid",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "GloRilla ft. Sexyy Red",
+          "title": "Whatchu Kno About Me",
+          "status": "verificato",
+          "source": "stampa"
+        },
+        {
+          "artist": "Young Thug",
+          "title": "Digits",
+          "status": "verificato",
+          "source": "stampa"
+        }
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
+    },
+    {
+      "id": "rad-gloriana-blues",
+      "name": "Gloriana Blues Radio",
+      "genre": "Blues",
+      "description": "Tutto il blues, dalle origini al dopoguerra: Ella Fitzgerald, Memphis Minnie, John Lee Hooker, Sister Rosetta Tharpe.",
+      "highlights": [
+        {
+          "artist": "Ella Fitzgerald",
+          "title": "Trouble in Mind",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Memphis Minnie",
+          "title": "Me and My Chauffeur",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Jimmie Rogers",
+          "title": "That's All Right",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "John Lee Hooker",
+          "title": "Boogie Chillen",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Sister Rosetta Tharpe",
+          "title": "Didn't It Rain",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Koko Taylor",
+          "title": "I Got What It Takes",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Earl Hooker",
+          "title": "Blue Guitar",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Freddie King",
+          "title": "Yonder Wall",
+          "status": "da verificare",
+          "source": "stampa"
+        }
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "rad-leonida-jazz",
+      "name": "Leonida Jazz Radio",
+      "genre": "Jazz fusion",
+      "description": "Il jazz fusion degli anni Settanta e quello che ne è venuto dopo: Return to Forever, Casiopea, Bob James, Stanley Clarke.",
+      "highlights": [
+        {
+          "artist": "Return to Forever",
+          "title": "Sorceress",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Casiopea",
+          "title": "Time Limit",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Bob James",
+          "title": "Night Crawlers",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Stanley Clarke",
+          "title": "School Days",
+          "status": "da verificare",
+          "source": "stampa"
+        },
+        {
+          "artist": "Stanley Clarke ft. Yussef Dayes and Robert Glasper",
+          "title": "Overtown Lights",
+          "status": "da verificare",
+          "source": "stampa"
+        }
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "rad-wktt",
+      "name": "WKTT",
+      "genre": "Talk radio",
+      "description": "Torna da GTA IV la radio parlata conservatrice «We Know The Truth», con l'aquila calva e la bandiera nel logo: telefonate in diretta e satira come da tradizione.",
+      "highlights": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "rad-the-vault",
+      "name": "The Vault Radio",
+      "genre": "Dance ed elettronica",
+      "description": "La stazione segreta del nightclub The Vault, a Downtown (Vice City): passa la musica dance ed elettronica del locale. Si sblocca scansionando con WAiNK il poster rosso (con una maschera antigas rosa) all'ingresso del club; poi la trovi tra le radio. È una delle due playlist uniche che servono per il 100%.",
+      "highlights": [],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/"
+      ]
     }
   ]
 }

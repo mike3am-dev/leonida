@@ -28,7 +28,7 @@ import * as profilo from './views/profilo.js';
 import * as playlistView from './views/playlist.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.45.0';
+window.__LEONIDA_VERSION__ = 'v0.46.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
