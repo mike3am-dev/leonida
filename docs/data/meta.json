@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.38.3",
+  "dataVersion": "0.38.4",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.38.4",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: «Da non perdere per il Platino» è chiuso e si apre con un tocco, così non copre la pagina."
+      ]
+    },
     {
       "version": "0.38.3",
       "date": "2026-11-18",

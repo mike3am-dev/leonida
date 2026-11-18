@@ -1912,3 +1912,8 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 @media (max-width: 560px) { .masthead.has-who .brand__sub { display: none; } }
 @media (max-width: 380px) { .who { max-width: 96px; } }
 .trophy-results { margin-bottom: var(--s-5); }
+.roadmap summary { display: flex; align-items: center; gap: var(--s-2); min-height: var(--tap); list-style: none; cursor: pointer; }
+.roadmap summary::-webkit-details-marker { display: none; }
+.roadmap summary .small { margin-left: auto; }
+.roadmap summary svg { width: 18px; height: 18px; flex: none; color: var(--ink-3); transform: rotate(90deg); transition: transform .2s; }
+.roadmap[open] summary svg { transform: rotate(-90deg); }
