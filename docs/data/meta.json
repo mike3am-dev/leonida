@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.31.0",
+  "dataVersion": "0.32.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.32.0",
+      "date": "2026-11-18",
+      "changes": [
+        "La storia vera: Prologo e 5 capitoli, 91 missioni principali più 30 facoltative e 15 compiti, con i titoli originali. Tutto resta nascosto finché non lo inizi.",
+        "Prologo e capitolo 1 hanno il taccuino completo: chi te la dà, cosa fare passo per passo, cosa raccogliere per il 100%, consigli. Le medaglie d'oro in GTA VI non esistono e le missioni non si rigiocano.",
+        "Le facoltative stanno in fondo a ogni capitolo e non bloccano la storia; alcune si perdono a fine capitolo e sono segnate."
+      ]
+    },
     {
       "version": "0.31.0",
       "date": "2026-11-18",

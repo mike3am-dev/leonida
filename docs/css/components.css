@@ -1873,3 +1873,4 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 /* Bordi del telefono (Duo chiuso): un po' d'aria in più accanto agli elementi di sistema */
 .masthead { padding-right: calc(var(--safe-r) + var(--s-3)); padding-left: calc(var(--safe-l) + var(--s-4)); }
 .sheet-page { padding-right: calc(var(--safe-r) + var(--s-4)); padding-left: calc(var(--safe-l) + var(--s-4)); }
+.side-head { margin: var(--s-4) 0 var(--s-2); }

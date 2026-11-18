@@ -25,7 +25,10 @@ export async function loadAll() {
   db.actsNote = raw.missions.actsNote || '';
   db.synopsis = raw.missions.synopsis || '';
   db.actsExtras = raw.missions.actsExtras || [];
-  db.missions = raw.missions.items || [];
+  // La storia è la sequenza delle missioni principali; facoltative e «compiti» stanno a parte e non bloccano niente
+  const allMissions = raw.missions.items || [];
+  db.missions = allMissions.filter((m) => !m.optional && !m.kind);
+  db.sideMissions = allMissions.filter((m) => m.optional || m.kind);
   db.districts = raw.districts.items || [];
   db.collectibleCategories = raw.collectibles.categories || [];
   db.collectibles = raw.collectibles.items || [];
@@ -47,11 +50,12 @@ export async function loadAll() {
   db.meccaniche = raw.meccaniche?.items || [];
   db.byId.clear();
   const tag = (list, type) => list.forEach((it) => { it._type = type; db.byId.set(it.id, it); });
-  tag(db.acts, 'act'); tag(db.missions, 'mission'); tag(db.districts, 'district');
+  tag(db.acts, 'act'); tag(db.missions, 'mission'); tag(db.sideMissions, 'mission'); tag(db.districts, 'district');
   tag(db.collectibles, 'collectible'); tag(db.activities, 'activity'); tag(db.characters, 'character');
   tag(db.radio, 'radio'); tag(db.brands, 'brand'); tag(db.tips, 'tip'); tag(db.collectibleCategories, 'category'); tag(db.vehicles, 'vehicle'); tag(db.weapons, 'weapon'); tag(db.news, 'news'); tag(db.trophies, 'trophy'); tag(db.pois, 'poi'); tag(db.luoghi, 'luogo'); tag(db.guide, 'guida'); tag(db.teorie, 'teoria'); tag(db.meccaniche, 'mechanic');
 
-  db.missions.sort((a, b) => actNum(a.actId) - actNum(b.actId) || (a.chapter || 0) - (b.chapter || 0) || (a.order || 0) - (b.order || 0));
+  const byOrder = (a, b) => actNum(a.actId) - actNum(b.actId) || (a.chapter || 0) - (b.chapter || 0) || (a.order || 0) - (b.order || 0);
+  db.missions.sort(byOrder); db.sideMissions.sort(byOrder);
   db.ready = true;
   return db;
 }

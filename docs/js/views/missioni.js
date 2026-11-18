@@ -47,7 +47,9 @@ export function nextUp(missions = vis(db.missions)) {
   return missions.slice(last + 1).find((m) => !st.missions[m.id]?.state) || null;
 }
 const actName = (a) => (a ? (a.number === 0 ? 'Prologo' : `Capitolo ${a.number}`) : '');
+const isSide = (m) => !!(m.optional || m.kind);
 function place(m) {
+  if (isSide(m)) { const all = vis(db.sideMissions || []).filter((x) => x.actId === m.actId); return { i: all.indexOf(m) + 1, n: all.length, act: actName(db.acts.find((x) => x.id === m.actId)), side: m.kind === 'compito' ? 'Compito' : 'Facoltativa' }; }
   const all = vis(db.missions).filter((x) => x.actId === m.actId);
   return { i: all.indexOf(m) + 1, n: all.length, act: actName(db.acts.find((x) => x.id === m.actId)) };
 }
@@ -104,7 +106,16 @@ function index() {
           return row({ href: `#/missioni/${m.id}`, num: String(i + 1), done: s === 'completata', end,
             title: shown ? esc(m.title) : isNext ? '<b>La prossima</b>' : '<span class="muted">Bloccata</span>',
             meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${s === 'in-corso' ? ' · in corso' : ''}` : isNext ? 'Tocca per iniziarla' : '' });
-        }).join('')}</div></div>`; }).join('')}</div>
+        }).join('')}${(() => {
+          const side = vis(db.sideMissions || []).filter((m) => m.actId === a.id);
+          if (!side.length || (!c.started && shield)) return '';
+          return `<p class="kicker side-head">Facoltative e compiti · ${side.filter((m) => st.missions[m.id]?.state === 'completata').length} di ${side.length}</p>` + side.map((m, i) => {
+            const s = st.missions[m.id]?.state; const shown = !!s || !shield;
+            return row({ href: `#/missioni/${m.id}`, num: '·', done: s === 'completata', end: s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : '',
+              title: shown ? esc(m.title) : `<span class="muted">${m.kind === 'compito' ? 'Compito' : 'Facoltativa'} ${i + 1}</span>`,
+              meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.missable ? ' · si può perdere' : ''}` : (m.missable ? 'Si può perdere a fine capitolo' : 'Si scopre quando la inizi') });
+          }).join('');
+        })()}</div></div>`; }).join('')}</div>
     ${db.actsExtras?.length ? `<div class="block"><span class="kicker">Indiscrezioni sulla struttura</span>${spoiler.wrap({ spoilerLevel: 9 }, extrasHtml({ extras: db.actsExtras }))}</div>` : ''}`;
 }
 
@@ -145,12 +156,12 @@ function detail(m) {
   const list = (arr) => `<ul>${arr.map((t) => `<li>${esc(typeof t === 'string' ? t : t.label || t.title || JSON.stringify(t))}</li>`).join('')}</ul>`;
   const pl = place(m);
   const all = vis(db.missions); const pi = all.indexOf(m); const prevM = pi > 0 ? all[pi - 1] : null;
-  const blocked = !state && prevM && st.missions[prevM.id]?.state !== 'completata';
-  const next = all.slice(pi + 1).find((x) => st.missions[x.id]?.state !== 'completata');
+  const blocked = !isSide(m) && !state && prevM && st.missions[prevM.id]?.state !== 'completata';
+  const next = isSide(m) ? null : all.slice(pi + 1).find((x) => st.missions[x.id]?.state !== 'completata');
   if (!shown) {
     return `
     ${backLink('/missioni', 'Missioni')}
-    <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(pl.act)} · ${pl.i} di ${pl.n}</span><h1>${blocked ? 'Non ancora' : 'Pronta a partire'}</h1><p class="lede">${blocked ? 'Si sblocca quando finisci la missione prima.' : 'Il nome, il luogo e chi incontri si scoprono quando la inizi.'}</p></div></div>
+    <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(pl.act)} · ${pl.side ? pl.side + ' ' + pl.i : pl.i + ' di ' + pl.n}</span><h1>${blocked ? 'Non ancora' : 'Pronta a partire'}</h1><p class="lede">${blocked ? 'Si sblocca quando finisci la missione prima.' : 'Il nome, il luogo e chi incontri si scoprono quando la inizi.'}</p></div></div>
     ${stampHtml(m)}
     <div class="actions">${blocked
       ? `<a class="btn btn--solid" href="#/missioni/${esc(prevM?.id || '')}">Vai alla missione prima</a>`
@@ -166,7 +177,7 @@ function detail(m) {
   const unl = (m.unlocks || []).map((u) => (u?.type === 'mission' && u.ref && byId(u.ref) && !spoiler.missionRevealed(byId(u.ref))) ? 'Una nuova missione' : u);
   return `
     ${backLink('/missioni', 'Missioni')}
-    ${hero(m, { kicker: `${pl.act} · ${pl.i} di ${pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
+    ${hero(m, { kicker: `${pl.act} · ${pl.side ? pl.side : pl.i + ' di ' + pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
     ${state === 'completata' ? `<div class="passed">
         <span class="passed__title">Missione compiuta</span>
         <div class="actions">${next ? (st.missions[next.id]?.state ? `<a class="btn btn--solid" href="#/missioni/${esc(next.id)}">Vai alla prossima</a>` : `<button class="btn btn--solid" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia la prossima</button>`) : ''}<a class="btn btn--ghost" href="#/missioni">Torna alle missioni</a></div>
@@ -207,7 +218,7 @@ export function bind(root, rerender) {
       progress.setMissionState(b.dataset.mission, b.dataset.set || null); rerender();
       if (b.dataset.set === 'completata') {
         const list = vis(db.missions), i = list.findIndex((x) => x.id === b.dataset.mission);
-        const nx = list.slice(i + 1).find((x) => !progress.get().missions[x.id]?.state);
+        const nx = i < 0 ? null : list.slice(i + 1).find((x) => !progress.get().missions[x.id]?.state);
         openMissionDone(byId(b.dataset.mission), { next: nx, onNext: nx ? () => start(nx.id) : null });
       }
       return;
