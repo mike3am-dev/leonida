@@ -123,6 +123,7 @@ function index() {
 function warnings(m) {
   const w = [...(m.missables || [])];
   if (m.pointOfNoReturn?.text) w.unshift({ text: m.pointOfNoReturn.text });
+  if (m.missableNote) w.push({ text: m.missableNote });
   return w;
 }
 function warnHtml(m) {

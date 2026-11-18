@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.32.2",
-  "updatedAt": "2026-11-18",
+  "dataVersion": "0.32.3",
+  "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.32.3",
+      "date": "2026-11-19",
+      "changes": [
+        "Capitolo 2: taccuino completo di tutte le missioni, facoltative e compiti compresi; avviso prima dell'ultima missione del capitolo. Capitolo 5: per ora solo l'ossatura, le guide passo passo non sono ancora uscite."
+      ]
+    },
     {
       "version": "0.32.2",
       "date": "2026-11-18",

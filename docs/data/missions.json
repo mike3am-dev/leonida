@@ -1553,20 +1553,53 @@
       "order": 1,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Jason si risveglia in una stanza dello Starlet Motel, a Port Gellhorn, dove Lucia lo ha portato a riprendersi. I due aprono la borsa presa al Visitor Center: dentro ci sono una vecchia statuetta e un hard disk.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "rifugio",
+          "label": "Stanza allo Starlet Motel (Kelly County)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-take-care-of-jason"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-overnight-charges"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-just-moved-in"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-ambulance-chaser"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "È una scena brevissima: da qui in poi, per quasi tutto il capitolo, giochi con Lucia.",
+        "Il trofeo del capitolo 1 arriva alla fine di questa missione."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-whats-in-the-bag-walkthrough/",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Guarda la statuetta presa dalla borsa",
+        "Girala e leggi il biglietto sotto la base",
+        "Guarda l'hard disk"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-take-care-of-jason",
@@ -1576,21 +1609,32 @@
       "order": 2,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Jason è a letto e Lucia deve tenerlo d'occhio finché non si rimette in piedi. È un compito che dura tutto il capitolo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Non ha un segnalino: la trovi in Mappa › Storia e si chiude da sola più avanti nel capitolo.",
+        "Quando il motel diventa rosa, tornaci: è obbligatorio per far andare avanti la storia."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-take-care-of-jason-walkthrough/",
+      "kind": "compito",
+      "contact": "chr-jason",
+      "objectives": [
+        "Torna al motel a fine giornata",
+        "Passa a vedere come sta Jason"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-overnight-charges",
@@ -1600,21 +1644,37 @@
       "order": 3,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "La direttrice del motel vuole sapere chi paga la stanza, e subito. Lucia deve convincerla a lasciarli restare.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-behind-on-payments"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
+        "Esamina la mappa appesa in reception: scopre tutta Port Gellhorn sulla mappa."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/",
+      "kind": "compito",
+      "contact": "Linda (direttrice dello Starlet Motel)",
+      "objectives": [
+        "Esci dalla stanza ed entra nella reception",
+        "Parla con Linda"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-ambulance-chaser",
@@ -1624,20 +1684,34 @@
       "order": 4,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "L'ambulanza usata per la fuga è ancora nascosta vicino al motel. Va fatta sparire prima che la trovi la polizia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Durante l'inseguimento basta restarle vicino: si ferma da sola contro un albero.",
+        "Se hai una pistola puoi anche lanciare la tanica nel retro e spararle."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ambulance-chaser-move-the-ambulance-walkthrough/",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Raggiungi il fienile a est del motel (scala sul retro)",
+        "Prendi il quad e insegui l'ambulanza",
+        "Prendi la tanica rossa dietro l'ambulanza",
+        "Cospargila di benzina e dalle fuoco",
+        "Allontanati prima che arrivi la polizia"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-just-moved-in",
@@ -1647,20 +1721,32 @@
       "order": 5,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Lucia fa la spesa per la stanza al motel: cibo, medicazioni e qualcosa per cambiare aspetto.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Gli articoli si pagano appena li prendi: non serve passare alla cassa.",
+        "La lista: bibita, barrette proteiche, frutta, zuppa, garze, bandane, tagliacapelli, beauty case."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-just-moved-in-walkthrough/",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Vai all'Alpha Convenience Store di fronte al motel",
+        "Prendi dagli scaffali gli 8 articoli segnati",
+        "Torna in stanza"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-girls-trip",
@@ -1670,20 +1756,57 @@
       "order": 6,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Jason ha bisogno di antidolorifici veri e Lucia chiede in giro al motel. La vicina della stanza 10, Vicki, conosce chi li vende.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-pick-up-a-gun"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-moses"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-new-look"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-how-do-i-look"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-painkiller-supplier"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "All'autolavaggio scegli due volte di calmare la situazione: eviti lo scontro e guadagni reputazione da professionista.",
+        "I 50 $ spesi per le pillole tornano indietro su BuckMe."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
+      "contact": "Vicki",
+      "objectives": [
+        "Chiedi in giro al motel degli antidolorifici",
+        "Bussa alla stanza 10 e compra le pillole da Vicki",
+        "Portale a Jason, poi torna da Vicki",
+        "Accompagna Vicki al Delights",
+        "Cerca Dunk: roulotte, cantiere navale, autolavaggio",
+        "Affronta i Kolts e insegui Dunk",
+        "Riporta Dunk alla sua roulotte"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-pick-up-a-gun",
@@ -1693,21 +1816,36 @@
       "order": 7,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Lucia è disarmata e Port Gellhorn non è un posto tranquillo. Si passa dall'armeria del paese.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "negozio",
+          "label": "Gellhorn Outfitters (Ammu-Nation di Port Gellhorn)"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Dura un minuto. Le facoltative come questa contano per il 100% (ne servono 100 in tutto)."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-pick-up-a-gun-walkthrough/",
+      "optional": true,
+      "contact": "chr-lucia",
+      "objectives": [
+        "Entra nel Gellhorn Outfitters (Ammu-Nation di Port Gellhorn)",
+        "Compra un'arma o riprendine una dall'armadietto verde"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-moses",
@@ -1717,20 +1855,53 @@
       "order": 8,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Vicki ha indicato un meccanico, Moses, che può procurare a Lucia un'auto pulita. Bisogna presentarsi da lui con un veicolo che non dia nell'occhio.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "strumento",
+          "label": "Slim Jim (apre le auto chiuse senza allarme)"
+        },
+        {
+          "type": "app",
+          "label": "Scooter Bros (ti porta il tuo veicolo ovunque)"
+        },
+        {
+          "type": "attivita",
+          "label": "Officina di Moses: vendita di auto senza localizzatore e registrazione"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-daily-driver"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Porta subito un'auto senza localizzatore: la registri a fine missione e risparmi un viaggio.",
+        "Le auto rubate sulla strada principale di Port Gellhorn vanno bene; troppo vicino all'officina no.",
+        "Scegli bene: è l'auto personale di Lucia. Per averne un'altra devi venderla o comprare un garage."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
+      "contact": "Moses",
+      "objectives": [
+        "Porta un'auto qualsiasi all'officina di Moses",
+        "Segui Moses nel cortile",
+        "Scansiona le tre auto con l'app Waink",
+        "Prendi lo Slim Jim e apri la Montagne XL",
+        "Torna in officina con Moses",
+        "Riverniciala e registrala come tua (se ha il localizzatore, rubane un'altra)"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-new-look",
@@ -1740,21 +1911,36 @@
       "order": 9,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Lucia deve cambiare aspetto. Basta un nuovo taglio dal parrucchiere del paese.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "negozio",
+          "label": "Pearl House Hair Salon (Port Gellhorn)"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Se mancano i soldi, svuota la cassa di un negozio o rapina un passante."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-new-look-walkthrough/",
+      "kind": "compito",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Vai al Pearl House Hair Salon di Port Gellhorn",
+        "Parla con la commessa e scegli un taglio"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-how-do-i-look",
@@ -1764,21 +1950,36 @@
       "order": 10,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Dopo il taglio servono vestiti nuovi. Il Bargain World è il negozio più economico in zona.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "negozio",
+          "label": "Bargain World (abbigliamento economico)"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Qualsiasi capo va bene: conta solo che siano un sopra e un sotto."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-do-i-look-walkthrough/",
+      "kind": "compito",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Vai al Bargain World, a sud di Port Gellhorn",
+        "Compra una maglia e dei pantaloni"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-painkiller-supplier",
@@ -1788,21 +1989,37 @@
       "order": 11,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Dunk ha promesso di trovare gli antidolorifici e si farà vivo lui. Intanto c'è altro da fare.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-slam-dunk"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Non ha segnalino: la chiamata arriva prima se nel frattempo fai le altre missioni del capitolo.",
+        "Servono alcuni giorni di gioco."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-painkiller-supplier-walkthrough/",
+      "kind": "compito",
+      "contact": "Dunk",
+      "objectives": [
+        "Aspetta la prima chiamata di Dunk",
+        "Aspetta la seconda chiamata"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-check-out-mckittrick-farm",
@@ -1812,21 +2029,43 @@
       "order": 12,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Un volantino al motel cerca un pilota per la fattoria McKittrick. Il proprietario, Kyle, si è fatto male a una mano e non può volare.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-collect-chemicals-for-kyle"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Per decollare basta andare dritto e tirare indietro la levetta sinistra.",
+        "Non si perde: la serie resta disponibile anche dopo la fine della storia.",
+        "Kyle si rifà vivo dopo un po' con il resto della sua serie."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/",
+      "optional": true,
+      "contact": "Kyle",
+      "objectives": [
+        "Leggi il volantino di Kyle fuori dalla reception del motel",
+        "Raggiungi la pista della fattoria McKittrick e parla con Kyle",
+        "Sali sull'aereo agricolo e decolla",
+        "Seleziona lo spruzzatore dalla ruota delle armi e irrora il campo segnato",
+        "Atterra sulla pista e parcheggia dove l'hai preso",
+        "Parla con Kyle"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-behind-on-payments",
@@ -1836,21 +2075,32 @@
       "order": 13,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Il conto della stanza va saldato: Linda vuole 900 $. Finché non paghi tiene quello che le hai lasciato in garanzia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Falla dopo l'officina di Moses: vendere auto rubate è il modo più veloce per fare 900 $.",
+        "Pagando riprendi anche quello che hai lasciato in pegno."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/",
+      "kind": "compito",
+      "contact": "Linda (direttrice dello Starlet Motel)",
+      "objectives": [
+        "Metti insieme 900 $",
+        "Paga Linda alla reception"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-daily-driver",
@@ -1860,20 +2110,46 @@
       "order": 14,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Moses vuole indietro un fuoristrada da clienti che non hanno pagato. È parcheggiato vicino al vecchio edificio del Traders' Union.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "garage",
+          "label": "Garage di Port Gellhorn (regalo di Moses)"
+        },
+        {
+          "type": "app",
+          "label": "Vice City Real Estate (acquisto dei garage)"
+        }
+      ],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-dd-integra",
+          "label": "Consegna la Crawler senza danni (+500 $)"
+        }
+      ],
+      "tips": [
+        "Nella zona ci sono uomini armati: puoi affrontarli o salire in macchina e partire.",
+        "Consegnarla integra vale 500 $ in più."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+      "contact": "Moses",
+      "objectives": [
+        "Apri il messaggio di Moses con la foto dell'auto",
+        "Cerca nella zona segnata la Canis Crawler dell'82 (fuoristrada bianco)",
+        "Portala all'officina di Moses"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-slam-dunk",
@@ -1883,20 +2159,51 @@
       "order": 15,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Dunk ha una pista: un medico in pensione che procurava farmaci. Lucia lo accompagna a incontrarlo, ma l'affare passa dai Kolts.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "ricettatore",
+          "label": "Dunk (roulotte a Port Gellhorn)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-leak-hanks"
+        }
+      ],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-sd-bill",
+          "label": "All'aerodromo perquisisci Dr. Bill: circa 1.000 $"
+        }
+      ],
+      "tips": [
+        "All'aerodromo i nemici sono anche dentro gli edifici: resta al riparo e porta qualche Zombix.",
+        "Il giorno dopo Dunk paga su BuckMe e diventa un ricettatore."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+      "contact": "Dunk",
+      "objectives": [
+        "Vai alla roulotte di Dunk e seguilo",
+        "Aspetta Dr. Bill al negozio e seguilo all'auto",
+        "Guida fino al porto e poi all'ufficio dei Kolts",
+        "Scappa dal recinto e semina i Kolts",
+        "Riprendi Dr. Bill",
+        "Vai al punto d'incontro all'aerodromo",
+        "Difenditi e trova Dunk",
+        "Riporta Dunk alla roulotte"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-collect-chemicals-for-kyle",
@@ -1906,21 +2213,45 @@
       "order": 16,
       "protagonist": "entrambi",
       "districtId": null,
-      "summary": "",
+      "summary": "Kyle ha bisogno di prodotti chimici per i suoi raccolti e manda a prenderli in un deposito della Final Chapter.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "attivita",
+          "label": "Fragole della fattoria di Kyle (potenziano le statistiche per poco)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-buddy"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Pagare 5.000 $ non serve: puoi prenderti il furgone, ma poi ti inseguono e hai 2 stelle.",
+        "Se il cancello non si apre, scendi a piedi: si apre da solo.",
+        "Non si perde: la serie resta disponibile anche dopo la fine della storia."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/",
+      "optional": true,
+      "contact": "Kyle",
+      "objectives": [
+        "Raggiungi il deposito in Leonard County e parla con la donna al cancello",
+        "Vai al furgone bianco in fondo e controlla i prodotti",
+        "Paga oppure prendi il furgone con la forza",
+        "Porta il furgone nel fienile di Kyle"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-leak-hanks",
@@ -1930,13 +2261,19 @@
       "order": 17,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "La rapina al diner Hank's Waffles vicino alla I-404, a Port Gellhorn, che torna in un flashback. Lucia sceglie chi rapinare, un testimone può chiamare, la polizia arriva con un timer. La scena nasconde un pezzo del passato di Lucia.",
+      "summary": "Jason chiama Lucia al motel: è tempo di vedere come sta. Da lì parte una mattinata di colpi in giro per Kelly County.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-coffee-break"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Svuota il locale prima: provoca i clienti finché non escono, poi scusati."
+        "Ogni colpo ha un minuto di tempo: è più che sufficiente.",
+        "Per seminare la polizia usa le strade sterrate."
       ],
       "secrets": [
         "C'è una scena con un bambino lasciato al diner prima di una rapina in banca."
@@ -1946,8 +2283,19 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-breakfast-run-check-on-jason-walkthrough/",
+      "contact": "chr-jason",
+      "objectives": [
+        "Vai da Hank's Waffles e rapina il locale",
+        "Rapina il negozio di liquori",
+        "Rapina il negozio dell'usato",
+        "Torna in macchina",
+        "Semina la polizia"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-coffee-break",
@@ -1957,20 +2305,59 @@
       "order": 18,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Jason e Lucia si siedono davanti a un caffè per decidere cosa fare. Serve un colpo più grosso per andarsene a Vice City.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "funzione",
+          "label": "Cambio libero tra Jason e Lucia"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-thrillbillies"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-hit-avery-pawn"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-hit-kingpin-bowling"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-impounded-vehicle"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-prepare-for-vice-city"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Da qui puoi passare quando vuoi da Jason a Lucia e dare ordini al partner.",
+        "Le quattro attività proposte nella scena si fanno tutte, in qualsiasi ordine."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Vai con Lucia alla cucina del motel",
+        "Compra un caffè alla macchinetta (2 $)",
+        "Torna in macchina",
+        "Tieni premuto a destra sulla croce direzionale per parlare con il partner"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-thrillbillies",
@@ -1980,21 +2367,46 @@
       "order": 19,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Wyman ha parlato delle gare nel fango al Thrillbilly Mud Club, con premi in denaro. Jason e Lucia vanno a vedere.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "attivita",
+          "label": "Gare nel fango al Thrillbilly Mud Club"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-twist-wrist-smash-grab"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Noleggia la Sanchez: costa di più ma è più veloce, e la spesa torna con il piazzamento.",
+        "Primo posto 2.500 $; evita le auto per non volare giù dalla moto.",
+        "Non si perde: la serie resta disponibile anche dopo la fine della storia."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+      "optional": true,
+      "contact": "chr-billy",
+      "objectives": [
+        "Compra un vestito per Jason e per Lucia al negozio di souvenir",
+        "Esci dal negozio",
+        "Noleggia una moto da Roostere's Rentals",
+        "Vai dall'organizzatore della gara",
+        "Non arrivare ultimo"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-twist-wrist-smash-grab",
@@ -2004,21 +2416,38 @@
       "order": 20,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Billy, conosciuto al Mud Club, prepara un colpo e gli manca un pilota. Si va in moto.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Non serve sparare al furgone: si schianta da solo contro un albero.",
+        "Tieni la Highwayman Sanchez: mettila in garage e registrala da Moses, è ottima per i salti.",
+        "Non si perde: la serie resta disponibile anche dopo la fine della storia."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/",
+      "optional": true,
+      "contact": "chr-billy",
+      "objectives": [
+        "Siediti sulla panchina e aspetta Billy",
+        "Sali sulla moto e segui Billy",
+        "Insegui il furgone portavalori con la banda",
+        "Piazza l'esplosivo sulle porte posteriori",
+        "Occupati della guardia",
+        "Prendi la borsa e segui Billy"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-hit-avery-pawn",
@@ -2028,21 +2457,37 @@
       "order": 21,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Lucia propone di ripulire insieme il banco dei pegni di Port Gellhorn. Dentro ci sono parecchi oggetti di valore.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Minacciando il personale ottieni la combinazione della cassaforte (può cambiare da partita a partita).",
+        "Rompere una vetrina fa scattare subito 2 stelle: più resti, più prendi, più è dura scappare.",
+        "Una moto sportiva aiuta a sparire nel traffico."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-hit-avery-pawn-walkthrough/",
+      "optional": true,
+      "contact": "chr-lucia",
+      "objectives": [
+        "Entra all'Avery Pawn di Port Gellhorn e minaccia il personale",
+        "Rompi le vetrine e prendi i gioielli",
+        "Apri la cassaforte nel retro",
+        "Semina la polizia",
+        "Vendi la refurtiva da Dunk"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-hit-kingpin-bowling",
@@ -2052,21 +2497,51 @@
       "order": 22,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "La sala da bowling di Port Gellhorn è finita in mano ai Kolts. È il prossimo bersaglio di Jason e Lucia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-hkb-orologio",
+          "label": "Orologio di lusso (stanza a sud-est) — trofeo Giochiamo a bowling"
+        },
+        {
+          "id": "obj-hkb-fucile",
+          "label": "Fucile unico Gutterball Moreland 850 (biliardo a nord-est) — trofeo Giochiamo a bowling"
+        },
+        {
+          "id": "obj-hkb-cassaforte",
+          "label": "Cassaforte dell'ufficio a nord-est (bombe adesive) — trofeo Giochiamo a bowling"
+        }
+      ],
+      "tips": [
+        "Prima compra bombe adesive all'Ammu-Nation: servono per la cassaforte.",
+        "Porta giubbotto e Zombix: dentro ci sono molti Kolts.",
+        "Se ti sfugge qualcosa, l'operazione torna disponibile più avanti: il trofeo non si perde."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+      "optional": true,
+      "contact": "chr-lucia",
+      "objectives": [
+        "Chiama il partner perché ti aiuti",
+        "Entra nella sala da bowling dei Kolts",
+        "Prendi l'orologio di lusso nella stanza a sud-est",
+        "Prendi il fucile sul tavolo da biliardo a nord-est",
+        "Fai saltare la cassaforte nell'ufficio a nord-est",
+        "Scappa e semina la polizia"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-impounded-vehicle",
@@ -2076,21 +2551,34 @@
       "order": 23,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "L'auto di Lucia è finita nel deposito della polizia. Va ripresa.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Usa le auto rubate per i colpi: l'auto personale lasciata nella zona di ricerca finisce sotto sequestro.",
+        "Più avanti la riprendi dall'app Scooter Bros pagando una tassa."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-impounded-vehicle-walkthrough/",
+      "optional": true,
+      "contact": "chr-lucia",
+      "objectives": [
+        "Raggiungi il deposito vicino alla stazione di polizia di Port Gellhorn",
+        "Sfonda la recinzione e sali sull'auto di Lucia",
+        "Semina la polizia"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-prepare-for-vice-city",
@@ -2100,21 +2588,38 @@
       "order": 24,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Mentre Dre'Quan cerca un posto a Vice City, Jason e Lucia devono mettere insieme i soldi per partire.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-checking-out"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Le missioni del capitolo bastano quasi da sole: una delle ultime vale 10.000 $.",
+        "Quando hai la cifra e nessuna principale aperta, la stanza del motel diventa l'obiettivo."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-prepare-for-vice-city-walkthrough/",
+      "kind": "compito",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Metti da parte almeno 15.000 $",
+        "Deposita i contanti su BuckMe per non perderli"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-veteran-hunted",
@@ -2124,21 +2629,47 @@
       "order": 25,
       "protagonist": "jason",
       "districtId": null,
-      "summary": "",
+      "summary": "Bret Vogel, vecchio compagno d'armi di Jason, ha un'attività di caccia vicino al Mount Kalaga e gli chiede una mano.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "arma",
+          "label": "Fucile da caccia unico Killtelligence SM-69"
+        },
+        {
+          "type": "attivita",
+          "label": "Cacce su richiesta di Bret"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Un colpo solo al cuore o alla testa: la carcassa resta perfetta.",
+        "Studia ogni animale nuovo con il binocolo: per il 100% ne servono 100.",
+        "Il fucile unico resta salvato: lo riprendi da qualsiasi armadietto Ammu-Nation."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
+      "optional": true,
+      "contact": "Bret Vogel",
+      "objectives": [
+        "Vai da solo con Jason alla baita di Bret in Lummox County",
+        "Sali sul pickup di Bret",
+        "Segui le tracce dell'animale con la concentrazione",
+        "Studia il cervo con binocolo o mirino",
+        "Abbattilo con il fucile da caccia",
+        "Carica il cervo sul pickup e torna alla baita",
+        "Porta il cervo nella zona di lavorazione"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-afternoon-delight",
@@ -2148,20 +2679,38 @@
       "order": 26,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Vicki vuole derubare il suo capo, Frankie, e dividere i soldi. L'appuntamento è al Delights.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "È la serata per sole donne: entra Lucia; Jason scavalca la recinzione sul retro quando i buttafuori si allontanano.",
+        "La scelta nel camerino cambia solo il percorso e qualche scena, non il risultato.",
+        "La combinazione della cassaforte è 2008."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+      "contact": "Vicki",
+      "objectives": [
+        "Raggiungi il Delights",
+        "Trova un'altra strada per il retro",
+        "Guarda lo spettacolo",
+        "Svuota la cassaforte del Delights",
+        "Esci dal locale",
+        "Semina i motociclisti",
+        "Consegna la borsa a Vicki"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-checking-out",
@@ -2171,20 +2720,45 @@
       "order": 27,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "",
+      "summary": "Con i soldi messi da parte, Jason e Lucia fanno i bagagli per raggiungere Dre'Quan a Vice City. Prima però bisogna uscire dal motel.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-welcome-to-vice-city"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Non morire durante l'inseguimento in moto: c'è un errore che fa sparire Jason dalla mappa. Se capita, riavvia la missione."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-checking-out-move-to-vice-city-walkthrough/",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Entra in stanza e apri la porta del bagno",
+        "Prendi il fucile a pompa dal letto",
+        "Raggiungi Lucia alla caffetteria del motel",
+        "Difenditi",
+        "Segui Jason sulla moto",
+        "Salta sull'auto",
+        "Scappa con Jason e spara alle gomme degli inseguitori"
+      ],
+      "startableBy": [
+        "jason",
+        "lucia"
+      ],
+      "pointOfNoReturn": {
+        "before": true,
+        "text": "Prima di iniziarla completa le facoltative ancora aperte in Kelly County: iniziandola chiudi il capitolo e lo Starlet Motel non sarà più la tua casa."
+      }
     },
     {
       "id": "mis-welcome-to-vice-city",
@@ -3722,9 +4296,14 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia devono procurarsi un'auto.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-taking-liberties"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -3734,8 +4313,12 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-taking-liberties",
@@ -3745,7 +4328,7 @@
       "order": 2,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia mettono a punto un nuovo piano.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3757,8 +4340,12 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-vc-baby",
@@ -3768,7 +4355,7 @@
       "order": 3,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Si comincia da una chiacchierata con Mattia: qualcuno ha bisogno di aiuto.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3780,8 +4367,13 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions",
+      "contact": "Mattia",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-doggie-bag",
@@ -3791,7 +4383,7 @@
       "order": 4,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia incontrano Vinny e si mettono sulle tracce di un carico di contrabbando.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3803,8 +4395,13 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions",
+      "contact": "Vinny",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-operation-savage-glory",
@@ -3814,20 +4411,26 @@
       "order": 5,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia vanno a riprendersi un carico.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Il trofeo della missione si sblocca da solo: non c'è niente da fare in più."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-honest-abe",
@@ -3837,7 +4440,7 @@
       "order": 6,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia trattano un accordo con l'avvocato Abe Gonzalez.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3849,9 +4452,14 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions",
+      "kind": "compito",
+      "contact": "Abe Gonzalez",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-unfinished-business",
@@ -3873,9 +4481,13 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions",
+      "kind": "compito",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-protective-custody",
@@ -3885,9 +4497,14 @@
       "order": 8,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia si vedono con Abe e questa volta lavorano in coppia.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-the-end-of-the-road"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -3897,8 +4514,13 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions",
+      "contact": "Abe Gonzalez",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     },
     {
       "id": "mis-the-end-of-the-road",
@@ -3908,20 +4530,28 @@
       "order": 9,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "L'ultima missione della storia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Dopo questa missione si torna al gioco libero: tutto quello che serve per trofei e 100% resta disponibile.",
+        "Le missioni non si possono rigiocare: se vuoi rivederla, tieni un salvataggio prima di iniziarla.",
+        "La lista del 100% (Progressi › Statistiche) si apre solo dopo questa missione; quello che hai già fatto conta."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "startableBy": [
+        "jason",
+        "lucia"
+      ]
     }
   ]
 }
