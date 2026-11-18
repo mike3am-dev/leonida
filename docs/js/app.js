@@ -29,7 +29,7 @@ import * as playlistView from './views/playlist.js';
 import * as radioDeck from './views/radio.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.50.0';
+window.__LEONIDA_VERSION__ = 'v0.51.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -63,7 +63,8 @@ function renderAltro() {
   const left = `<header class="chapter-head"><span class="kicker">Indice generale</span><h1>Altro</h1></header>
     <ol class="toc">${SECTIONS.map((s, i) => `<li><a class="toc__row ${s.disabled ? 'is-disabled' : ''}" href="#${s.path}"><span class="toc__num">${String(i + 1).padStart(2, '0')}</span><span class="toc__title">${esc(s.title)}${s.disabled ? ' <span class="soon">v2</span>' : ''}</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>`).join('')}
     <li><a class="toc__row" href="#/impostazioni"><span class="toc__num">${String(SECTIONS.length + 1).padStart(2, '0')}</span><span class="toc__title">Impostazioni</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
-    <li><a class="toc__row" href="#/ricerca"><span class="toc__num">${String(SECTIONS.length + 2).padStart(2, '0')}</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
+    <li><a class="toc__row" href="#/ricerca"><span class="toc__num">${String(SECTIONS.length + 2).padStart(2, '0')}</span><span class="toc__title">Ricerca</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li>
+    <li><a class="toc__row" href="#/trucchi"><span class="toc__num">${String(SECTIONS.length + 3).padStart(2, '0')}</span><span class="toc__title">Trucchi</span><span class="toc__end"><svg aria-hidden="true"><use href="#i-arrow"/></svg></span></a></li></ol>`;
   return { left, right: '', show: 'left', accent: 'magenta', title: 'Altro' };
 }
 
@@ -71,6 +72,7 @@ const views = {
   '/': sessione.render,
   '/missioni/:id?': missioni.render,
   '/meccaniche/:id?': (p, q) => meccaniche.render(p, q),
+  '/trucchi': () => meccaniche.renderTrucchi(),
   '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
   '/armi/:id?': armi.render,

@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.50.0",
+  "dataVersion": "0.51.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.51.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Missioni: in cima a ogni capitolo c'è «Da non perdere in questo capitolo», con i bonus dell'Ultimate che valgono solo lì (Retro Build della Ganado nel capitolo 1, lo Squalo nel capitolo 4), i soldi da mettere in banca, i trofei che scadono, i collezionabili che si perdono e gli avvisi delle missioni. Quelli delle missioni non ancora cominciate stanno sotto l'inchiostro.",
+        "Trucchi: non sono più in «Come si gioca». Hanno una pagina a parte in Altro › Trucchi, dietro un avviso, perché bloccano salvataggi e trofei.",
+        "Radio: tolta la barra della sintonia. Restano le frecce, con il nome della stazione prima e dopo."
+      ]
+    },
     {
       "version": "0.50.0",
       "date": "2026-11-18",

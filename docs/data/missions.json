@@ -26,7 +26,19 @@
       "placeholder": false,
       "title": "Capitolo 1: Just Like Paradise",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "sourceUrl": "https://www.powerpyx.com/",
+      "missables": [
+        {
+          "kind": "bonus",
+          "text": "Ultimate Edition: porta il Ganado di Jason da Coastal Auto Care a Key Lento e applica il Retro Build tra i kit completi dell'officina. Si può fare solo nel capitolo 1.",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+        },
+        {
+          "kind": "soldi",
+          "text": "Prima della fine del capitolo versa in banca i contanti che hai in tasca e metti almeno 5.000 $ nel Risparmio Familiare: i soldi in tasca non passano al capitolo dopo.",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-trophy-guide-roadmap/"
+        }
+      ]
     },
     {
       "id": "act-2",
@@ -62,7 +74,14 @@
       "placeholder": true,
       "title": "Capitolo 4: Vice City, Baby",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "sourceUrl": "https://www.powerpyx.com/",
+      "missables": [
+        {
+          "kind": "bonus",
+          "text": "Ultimate Edition: il motoscafo armato Shitzu Squalo, ormeggiato a Washington Beach, si prende solo durante il capitolo 4.",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+        }
+      ]
     },
     {
       "id": "act-5",

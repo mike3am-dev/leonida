@@ -43,9 +43,8 @@ function deck(r, list, songs) {
       ${r.description ? `<div class="deck__desc">${spoiler.wrap(r, `<p>${esc(r.description)}</p>`)}</div>` : ''}
       <div class="chips">${statusChip(r)}</div>
       <nav class="tuner" aria-label="Cambia stazione">
-        <a class="tuner__btn" href="#/cultura?st=${esc(prev.id)}" data-station="${esc(prev.id)}" aria-label="Stazione precedente: ${esc(prev.name)}"><svg aria-hidden="true"><use href="#i-back"/></svg></a>
-        <span class="tuner__band" aria-hidden="true"><i style="left:${list.length > 1 ? (i / (list.length - 1)) * 100 : 50}%"></i></span>
-        <a class="tuner__btn" href="#/cultura?st=${esc(next.id)}" data-station="${esc(next.id)}" aria-label="Stazione successiva: ${esc(next.name)}"><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="tuner__btn" href="#/cultura?st=${esc(prev.id)}" data-station="${esc(prev.id)}"><svg aria-hidden="true"><use href="#i-back"/></svg><span>${esc(prev.name)}</span></a>
+        <a class="tuner__btn tuner__btn--next" href="#/cultura?st=${esc(next.id)}" data-station="${esc(next.id)}"><span>${esc(next.name)}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </nav>
     </div>
     <div class="deck__tracks">

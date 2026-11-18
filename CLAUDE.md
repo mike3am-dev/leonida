@@ -56,6 +56,9 @@ Regole del giro guide:
 - Ordine di lavoro nei primi giorni: trofei → elenco missioni e capitoli → «cosa fare» delle missioni giocate da Mike e della prossima → collezionabili → veicoli/armi → attività.
 - Fine giro: validazione, versione, commit, push, verifica live, riepilogo in chat con le 5 cose più importanti.
 
+## «Giro di caccia» — ogni 12 ore finché la guida non è esaustiva
+Passata a tappeto con otto squadre in parallelo per trovare quello che manca o è superato (musica, trucchi/sfide/segreti, missioni, mappa e Mondo, personaggi, collezionabili, Come si gioca, armi e veicoli). Si fa quando Mike dice sì (c'è un promemoria ogni 12 ore). Procedura, compiti delle squadre, strumenti (`prova.py`, `applica.py`) e fonti che funzionano: `scripts/caccia/README.md`.
+
 ## Struttura
 - `docs/js/app.js` router hash + render a colonna unica; `docs/js/views/*.js` una vista per sezione (`sessione` = Home, `atlante` = Mappa e luoghi, `novita` = News e guide, `editoriale` = Personaggi/Radio/Mondo, `veicoli` = Garage, `diario` = Appunti).
 - `docs/js/store/progress.js` progressi in localStorage (`leonida:progress:v1`, migrazioni in `migrations.js`), export/import. `docs/js/store/cloud.js` li copia online nel profilo Supabase legato all'email (STATO 4o).

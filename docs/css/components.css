@@ -2055,11 +2055,11 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .deck__desc { margin: var(--s-3) 0; font-size: var(--fs-sm); color: rgba(246,239,244,.78); line-height: 1.5; }
 .deck__desc p { margin: 0; }
 .deck .chips { margin-top: var(--s-2); }
-.tuner { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: var(--s-2); margin-top: var(--s-4); }
-.tuner__btn { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); }
-.tuner__btn svg { width: 20px; height: 20px; }
-.tuner__band { position: relative; height: 26px; border-radius: 6px; background: repeating-linear-gradient(90deg, rgba(255,255,255,.35) 0 1px, transparent 1px 8px) center / 100% 40% no-repeat, rgba(0,0,0,.35); box-shadow: inset 0 0 0 1px rgba(255,255,255,.1); }
-.tuner__band i { position: absolute; top: -3px; bottom: -3px; width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--st); box-shadow: 0 0 10px var(--st); transition: left .5s ease; }
+.tuner { display: flex; justify-content: space-between; gap: var(--s-2); margin-top: var(--s-4); }
+.tuner__btn { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; max-width: 48%; padding: 0 14px 0 8px; border-radius: 999px; color: #fff; text-decoration: none; font-size: var(--fs-sm); font-weight: 600; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); }
+.tuner__btn--next { padding: 0 8px 0 14px; }
+.tuner__btn span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.tuner__btn svg { width: 18px; height: 18px; flex: none; }
 .deck__tracks { grid-column: 1 / -1; margin-top: var(--s-2); padding: var(--s-3) var(--s-4) var(--s-2); border-radius: 16px; background: rgba(10,8,14,.55); box-shadow: inset 0 0 0 1px rgba(255,255,255,.06); }
 .deck__side { display: flex; justify-content: space-between; gap: var(--s-3); font-size: var(--fs-xs); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: rgba(246,239,244,.6); padding-bottom: var(--s-2); }
 .deck__tracks .song { border-color: rgba(255,255,255,.08); }
@@ -2099,3 +2099,26 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .sleeve__meta { display: block; margin-top: 2px; font-size: var(--fs-xs); color: var(--ink-3); }
 @media (max-width: 430px) { .crate { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-5) var(--s-3); } }
 @media (prefers-reduced-motion: reduce) { .disc.is-spinning, .eq b { animation: none; } .sleeve__art .disc, .deck__arm { transition: none; } }
+
+/* Trucchi: il cancello prima dell'elenco */
+.cheat-gate { margin: var(--s-6) auto; max-width: 520px; text-align: center; padding: var(--s-6) var(--s-5); border-radius: 22px; background: var(--paper); box-shadow: var(--shadow); border: var(--hair) solid var(--rule); }
+.cheat-gate__icon { font-size: 3rem; display: block; margin-bottom: var(--s-2); }
+.cheat-gate h1 { font-family: var(--font-gta); font-weight: 400; font-size: 2.6rem; margin: 0 0 var(--s-3); }
+.cheat-gate p { text-align: left; }
+
+/* Missioni: «Da non perdere in questo capitolo» */
+.dnp { margin: var(--s-2) 0 var(--s-4); padding: var(--s-3) var(--s-4); border-radius: 14px; border: 1px solid color-mix(in srgb, var(--orange) 55%, transparent); background: color-mix(in srgb, var(--orange) 9%, var(--paper)); }
+.dnp summary { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); cursor: pointer; list-style: none; min-height: 36px; }
+.dnp summary::-webkit-details-marker { display: none; }
+.dnp__title { font-weight: 700; color: var(--orange); }
+.dnp__n { min-width: 26px; height: 26px; padding: 0 8px; border-radius: 999px; display: grid; place-items: center; background: var(--orange); color: #1b1024; font-weight: 700; font-size: var(--fs-sm); }
+.dnp ul { list-style: none; margin: var(--s-2) 0 0; padding: 0; display: grid; gap: var(--s-3); }
+.dnp li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: var(--s-2); font-size: var(--fs-sm); line-height: 1.45; }
+.dnp__icon { font-size: 1.05rem; line-height: 1.3; }
+.dnp__where { display: block; font-weight: 700; margin-bottom: 2px; }
+.dnp__where a { color: inherit; }
+.dnp__more { margin-top: var(--s-3); border-top: 1px dashed color-mix(in srgb, var(--orange) 45%, transparent); padding-top: var(--s-2); }
+.dnp__more > summary { display: block; cursor: pointer; font-weight: 600; font-size: var(--fs-sm); color: var(--ink-2); list-style: none; min-height: 0; padding: var(--s-2) 0; }
+.dnp__more > summary::-webkit-details-marker { display: none; }
+.dnp__more > summary::before { content: "▸ "; color: var(--orange); }
+.dnp__more[open] > summary::before { content: "▾ "; }

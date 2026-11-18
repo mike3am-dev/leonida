@@ -14,7 +14,7 @@ function card(m) {
 }
 
 function index(q) {
-  const all = vis(db.meccaniche || []);
+  const all = vis(db.meccaniche || []).filter((m) => m.id !== TRUCCHI);
   const needle = (q || '').toLowerCase().trim();
   const list = needle ? all.filter((m) => JSON.stringify([m.title, m.short, m.steps, m.details, m.tips]).toLowerCase().includes(needle)) : all;
   const body = !all.length ? '<div class="placeholder"><strong>In preparazione</strong>Le schede dei sistemi di gioco arrivano a breve.</div>'
@@ -32,6 +32,22 @@ function index(q) {
     ${actBlock}`;
 }
 
+const TRUCCHI = 'mec-trucchi';
+const GATE = 'leonida:trucchi:visti';
+/** Trucchi: pagina a parte (da «Altro»), dietro un avviso: si usano solo a storia finita e bloccano salvataggi e trofei */
+export function renderTrucchi() {
+  const m = byId(TRUCCHI);
+  if (!m) return { left: '<p class="muted">Elenco dei trucchi in arrivo.</p>', right: '', show: 'left', accent: 'orange', title: 'Trucchi' };
+  let seen = false; try { seen = sessionStorage.getItem(GATE) === '1'; } catch {}
+  const gate = `<a class="back-link only-closed" href="#/altro"><svg aria-hidden="true"><use href="#i-back"/></svg>Altro</a>
+    <div class="cheat-gate"><span class="cheat-gate__icon" aria-hidden="true">🎮</span><h1>Trucchi</h1>
+      <p>I trucchi di GTA VI si usano <b>solo a storia finita</b>. Mentre ne hai uno attivo <b>non puoi salvare</b> e i <b>trofei sono bloccati</b>: se punti al Platino, tienili per dopo.</p>
+      <p class="small muted">Nell'elenco ci sono anche le condizioni per sbloccarli: alcune parlano di cose che trovi avanti nel gioco.</p>
+      <button class="btn btn--accent btn--block" type="button" data-cheats-open>Mostrami i trucchi</button></div>`;
+  if (!seen) return { left: '', right: gate, show: 'right', accent: 'orange', title: 'Trucchi' };
+  return { left: '', right: detail(m).replace(`href="#/meccaniche"`, `href="#/altro"`).replace('>Come si gioca</a>', '>Altro</a>'), show: 'right', accent: 'orange', title: 'Trucchi' };
+}
+
 function detail(m) {
   const rel = (m.relatedIds || []).map((id) => byId(id)).filter(Boolean);
   const link = (it) => { const r = TYPE_ROUTE[it._type]; const href = it._type === 'news' ? `/news/${it.id}` : it._type === 'tip' ? `/news/${it.id}` : r ? r(it) : null; return href ? `<a class="chip chip--btn" href="#${esc(href)}">${esc(it.title || it.name)}</a>` : ''; };
@@ -47,6 +63,7 @@ function detail(m) {
 }
 
 export function render(params, query = {}) {
+  if (params.id === TRUCCHI) { location.replace('#/trucchi'); return renderTrucchi(); }
   const m = params.id ? byId(params.id) : null;
   if (m) return { left: '', right: detail(m), show: 'right', accent: section.accent, title: m.title };
   if (query.att) { const a = byId(query.att); if (a) setTimeout(() => { history.replaceState(history.state, '', '#/meccaniche'); document.querySelector('[data-act-filters]')?.scrollIntoView({ block: 'start' }); actSheet(a); }, 80); }
@@ -65,6 +82,7 @@ function actSheet(a) {
 }
 export function bind(root, rerender) {
   root.addEventListener('click', (e) => {
+    if (e.target.closest('[data-cheats-open]')) { try { sessionStorage.setItem(GATE, '1'); } catch {} rerender(); return; }
     const f = e.target.closest('[data-act-f]');
     if (f) { const g = f.dataset.actF; f.parentElement.querySelectorAll('[data-act-f]').forEach((b) => b.setAttribute('aria-pressed', b === f)); document.querySelectorAll('.actchip').forEach((c) => { c.hidden = !!g && c.dataset.g !== g; }); return; }
     const a = e.target.closest('[data-act]'); if (a) { const it = byId(a.dataset.act); if (it) actSheet(it); }

@@ -98,7 +98,7 @@ function index() {
         <button class="acc__btn chapter__btn" type="button" aria-expanded="${isCur}">
           <span class="chapter__num" aria-hidden="true">${pad2(a.number)}</span><span class="chapter__text"><span class="chapter__title">${esc(title)}</span><span class="chapter__meta">${off ? 'in arrivo' : `${c.done} di ${c.list.length}${c.complete ? ' · completato' : ''}`}</span>${off || !c.started ? '' : `<span class="progress"><i style="--p:${p}%"></i></span>`}</span>
           <span class="chapter__pct">${off || !c.started ? '' : p + '%'}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-        <div class="acc__body">${off ? `<p class="small muted" style="padding:var(--s-2) 0 var(--s-3)">${esc(db.actsNote || 'Capitolo segnaposto.')}</p>` : ''}${c.list.map((m, i) => {
+        <div class="acc__body">${c.started || isCur || !shield ? chapterMissables(a, st, shield, isCur) : ''}${off ? `<p class="small muted" style="padding:var(--s-2) 0 var(--s-3)">${esc(db.actsNote || 'Capitolo segnaposto.')}</p>` : ''}${c.list.map((m, i) => {
           const s = st.missions[m.id]?.state;
           const shown = !!s || !shield;
           const isNext = nx && nx.id === m.id;
@@ -211,6 +211,38 @@ function detail(m) {
     ${m.secrets?.length ? `<div class="block"><span class="kicker">Segreti</span><div class="prose">${spoiler.ink(list(m.secrets))}</div></div>` : ''}
     ${reqs.length || unl.length ? `<p class="small muted mission-links">${reqs.length ? `Dopo: ${reqs.map((p) => `<a href="#/missioni/${esc(p.id)}">${esc(spoiler.missionName(p, 'una missione precedente'))}</a>`).join(', ')}.` : ''} ${unl.length ? `Sblocca: ${unl.map((u) => esc(typeof u === 'string' ? u : u.label || '')).join(', ')}.` : ''}</p>` : ''}
 `;
+}
+
+
+/** «Da non perdere in questo capitolo»: avvisi delle missioni, collezionabili e trofei che scadono, bonus del capitolo.
+ *  Gli avvisi delle missioni non ancora iniziate restano sotto l'inchiostro (si leggono con un tocco). */
+function chapterMissables(a, st, shield, open = false) {
+  const n = a.number;
+  const ICON = { bonus: '🎁', trofeo: '🏆', soldi: '💰', arma: '🔫', collezionabile: '⭐' };
+  const free = [], hidden = [];
+  for (const x of a.missables || []) free.push({ icon: ICON[x.kind] || '⚠️', html: esc(x.text) });
+  for (const t of vis(db.trophies || []).filter((x) => x.timing?.until === n)) {
+    free.push({ icon: '🏆', html: `<span class="dnp__where"><a href="#/trofei">${esc(spoiler.isHidden(t) ? 'Un trofeo' : t.name)}</a></span>${esc(t.timing.note || 'Va ottenuto entro la fine di questo capitolo.')}` });
+  }
+  for (const c of vis(db.collectibles || []).filter((x) => x.missable && Number(x.chapter) === n)) {
+    free.push({ icon: '⭐', html: `<span class="dnp__where"><a href="#/collezionabili?cat=${esc(c.categoryId)}">${esc(c.name)}</a></span>${esc(c.missable)}` });
+  }
+  const all = [...vis(db.missions || []), ...vis(db.sideMissions || [])].filter((m) => m.actId === a.id);
+  for (const m of all) {
+    const known = !!st.missions[m.id]?.state || !shield;
+    for (const w of m.missables || []) {
+      const icon = w.trophy ? '🏆' : w.ponr ? '⛔' : '⚠️';
+      const body = `${w.when === 'prima di iniziare' ? '<b>Prima di iniziarla:</b> ' : ''}${esc(w.text)}${w.trophy ? ` <span class="small muted">· «${esc(w.trophy)}»</span>` : ''}`;
+      if (known) free.push({ icon, html: `<span class="dnp__where"><a href="#/missioni/${esc(m.id)}">${esc(m.title)}</a></span>${body}` });
+      else hidden.push({ icon, html: `<span class="dnp__where">${m.optional || m.kind ? 'In una missione facoltativa' : 'In una missione di questo capitolo'}</span>${spoiler.ink(body, { inline: true })}` });
+    }
+  }
+  const total = free.length + hidden.length; if (!total) return '';
+  const li = (o) => `<li><span class="dnp__icon" aria-hidden="true">${o.icon}</span><span>${o.html}</span></li>`;
+  return `<details class="dnp" ${open ? 'open' : ''}><summary><span class="dnp__title">⚠️ Da non perdere in questo capitolo</span><span class="dnp__n">${total}</span></summary>
+    ${free.length ? `<ul>${free.map(li).join('')}</ul>` : ''}
+    ${hidden.length ? `<details class="dnp__more"><summary>${hidden.length === 1 ? '1 avviso' : `${hidden.length} avvisi`} delle missioni che non hai ancora iniziato <span class="small muted">(contengono piccoli spoiler: tocca il testo per leggerlo)</span></summary><ul>${hidden.map(li).join('')}</ul></details>` : ''}
+  </details>`;
 }
 
 export function render(params) {
