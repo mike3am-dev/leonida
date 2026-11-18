@@ -1,10 +1,21 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.42.0",
+  "dataVersion": "0.43.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.43.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Giro guide sulle contraddizioni: 234 correzioni. La stessa cosa ora è scritta uguale in tutte le sezioni; dove le guide non danno una risposta sicura c'è la versione più probabile, segnata «Da verificare».",
+        "Comandi: il cambio di protagonista si fa tenendo premuto destra + R1 (dal capitolo 2). All'inizio hai un solo posto auto. La mira assistita classica è spenta, ma c'è un leggero aiuto alla mira.",
+        "100% e trofei: i poligoni sono 2 con 12 sfide e 42 ori. Per il 100% servono 5 set di Kenton su 7, ma le 33 scoperte subacquee li chiedono tutti. Gli animali sono 255. Le meditazioni sono contate giuste.",
+        "Mondo: Ambrosia è nella contea di Kelly. Petra Navarro è la direttrice operativa di Megamundo. L'app si scrive WAiNK e l'altra RydeMe. Il Contender è un Karin.",
+        "Auto di Wyman: restano le 5 vere, tolte 4 voci di prima dell'uscita. Le frasi senza senso sono state rifatte partendo dall'originale inglese."
+      ]
+    },
     {
       "version": "0.42.0",
       "date": "2026-11-18",

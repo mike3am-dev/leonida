@@ -18,7 +18,7 @@
       "id": "cat-relitti",
       "name": "Scoperte subacquee",
       "icon": "star",
-      "description": "Sono 33 scoperte tra i relitti affondati, legate ai 7 set di tesori di Kenton. Kenton sta a Key Lento ed è disponibile dal capitolo 1; poi sparisce per un po' e torna tra il capitolo 2 e il 3. Segna i forzieri sulla mappa; sott'acqua scavi con il metal detector. Le trovi in Progressi > Collezioni > Tesori di Kenton. Per il 100% servono tutte e 33, più 5 set di Kenton su 7. Trofeo collegato: Ci serve una barca più grossa (ultima missione di Kenton).",
+      "description": "Sono 33 scoperte tra i relitti affondati, legate ai 7 set di tesori di Kenton. Kenton sta a Key Lento ed è disponibile dal capitolo 1; poi sparisce per un po' e torna tra il capitolo 2 e il 3. Segna i forzieri sulla mappa; sott'acqua scavi con il metal detector. Le scoperte sono in Progressi > Collezioni > Esplorazione > Scoperte subacquee, i set in Progressi > Collezioni > Tesori di Kenton. Nella lista del 100% la voce «Set di Kenton» chiede 5 set su 7, ma per avere tutte e 33 le scoperte devi chiuderli tutti e 7: in pratica li fai tutti. Trofeo collegato: Ci serve una barca più grossa (ultima missione di Kenton).",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -44,7 +44,7 @@
       "id": "cat-salti",
       "name": "Salti acrobatici",
       "icon": "target",
-      "description": "Sono 130 rampe con un nome proprio, divise per contea (Mariana 17, Vice-Dale 55, Leonard 13, Kelly 29, Lummox 16). Basta fare il salto una volta: la sfida extra sull'icona non serve. Sulla mappa le trovi in Esplorazione > Punti acrobazia. I salti sono uno dei quattro tipi di acrobazie, 397 in tutto: per il 100% ne servono 300, di qualsiasi tipo, e per il trofeo Stunt da capogiro ne bastano 250.",
+      "description": "Sono 130 rampe con un nome proprio, divise per contea (Mariana 17, Vice-Dale 55, Leonard 13, Kelly 29, Lummox 16). Basta fare il salto una volta: la sfida extra sull'icona non serve. Sulla mappa le trovi in Mappa > Esplorazione > Punti acrobazia (Stunt Spots). I salti sono uno dei quattro tipi di acrobazie, 397 in tutto: per il 100% ne servono 300, di qualsiasi tipo, e per il trofeo Stunt da capogiro ne bastano 250.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -69,20 +69,20 @@
       "id": "cat-wyman",
       "name": "Le auto di Wyman",
       "icon": "car",
-      "description": "Solo con la Ultimate Edition. Wyman ti chiede di ritrovare 5 auto d'epoca: sono rottami abbandonati in giro per la Leonida, a volte lontano dalle strade. Sono un extra: non servono per il 100% del gioco.",
+      "description": "Solo con la Ultimate Edition. Le missioni di Wyman si aprono dopo aver recuperato la '67 Vapid Dominator Buggy: ti chiede di ritrovare 5 auto d'epoca da ricostruire, la '67 Transgressor, la '70 Riata, la '64 Mamba GT, la Reynolds Kit Car e la '72 Deviant. Sono rottami abbandonati in giro per la Leonida, a volte lontano dalle strade. Non sono una voce del 100%, ma ogni missione conta tra i 100 incarichi facoltativi.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
       "total": 5
     },
     {
       "id": "cat-rifugi",
       "name": "Rifugi e garage",
       "icon": "pin",
-      "description": "Ci sono 12 garage: 8 si comprano con l'app Vice City Real Estate, che arriva nel capitolo 2 (160.000 $ in tutto), e 4 arrivano con la storia. Arrivi al massimo a 18 posti auto. Non servono per il 100%. Trofeo collegato: Posto riservato, comprando gli 8 in vendita.",
+      "description": "Ci sono 12 garage: 8 si comprano con l'app Vice City Real Estate, che arriva nel capitolo 2 (160.000 $ in tutto), e 4 arrivano con la storia. Arrivi al massimo a 18 posti auto. I rifugi della storia e i garage dei bonus (Ultimate Edition e Vintage Vice City Pack) sono a parte e non contano tra i 12. Non servono per il 100%. Trofeo collegato: Posto riservato, comprando gli 8 in vendita.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -164,7 +164,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "description": "Punti da scansionare con l'app WAiNK, solo a piedi: vicino a uno di questi il controller vibra e compare un avviso in basso a destra. Ci sono cinque tipi: 31 monumenti (Landmarks), 35 curiosità, 23 sculture, un tipo ancora senza nome e i segni No Flusher a terra in città. Street art AHOL e murales 1010 si scansionano allo stesso modo, ma non contano qui. Per il 100% e per il trofeo Scansionamelo tutto! bastano 100 scansioni qualsiasi.",
+      "description": "Punti da scansionare con l'app WAiNK, solo a piedi: vicino a uno di questi il controller vibra e compare un avviso in basso a destra. Ci sono cinque tipi: 31 monumenti (Landmarks), 35 curiosità, 23 sculture, un tipo ancora senza nome e i 23 segni No Flusher a terra in città. Street art AHOL e murales 1010 si scansionano allo stesso modo, ma non contano qui. Per il 100% e per il trofeo Scansionamelo tutto! bastano 100 scansioni qualsiasi.",
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-waink-scan-locations/"
     },
@@ -176,7 +176,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "description": "Sono 18 meditazioni in 10 punti: ogni punto vale 2 se lo fai sia con Jason sia con Lucia (entrambi giocabili da metà capitolo 2). La prima, a casa di Jason, si fa solo nel capitolo 1; l'ultima, in vetta al Mount Kalaga, compare dopo tutte le altre. Sulla mappa hanno l'icona viola. Per il 100% ne servono 15; per il trofeo Mentalità positiva servono tutti i punti.",
+      "description": "Sono 18 meditazioni in 10 punti. Otto punti valgono 2, se ci mediti sia con Jason sia con Lucia (entrambi giocabili da metà capitolo 2). La prima, a casa di Jason, vale 1 e si fa solo nel capitolo 1; l'ultima, in vetta al Mount Kalaga, vale 1 e compare dopo tutte le altre. Sulla mappa hanno l'icona viola. Per il 100% ne servono 15; per il trofeo Mentalità positiva servono tutti i punti.",
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
       "total": 18
@@ -536,18 +536,18 @@
       "categoryId": "cat-fauna",
       "name": "Cinghiale",
       "districtId": null,
-      "directions": "Cinghiali e cervi compaiono in uno spot TV, ma quelle immagini vengono da RDR2: non è ancora certo che ci siano nel mondo aperto.",
+      "directions": "C'è nel gioco: una sfida di sopravvivenza chiede di cacciare un cinghiale, un serpente a sonagli e una pantera in meno di 15 minuti. Lo si vede guadare l'acqua tra le paludi di Grassrivers.",
       "reward": null,
       "image": null,
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://gtabase.com/gta-6/animals/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🐗",
-      "short": "Compare solo in uno spot TV con immagini di RDR2.",
+      "short": "Una delle prede della caccia, tra paludi e boschi.",
       "seen": [
         {
           "where": "Grassrivers",
@@ -559,7 +559,7 @@
         }
       ],
       "trivia": [
-        "Le immagini dello spot vengono da RDR2."
+        "Lo spot TV dell'Extended Look usava immagini di RDR2, ma il cinghiale nel gioco c'è."
       ],
       "scientificName": "Sus scrofa",
       "temperament": "territoriale",
@@ -987,7 +987,7 @@
       "categoryId": "cat-fauna",
       "name": "Cani",
       "districtId": null,
-      "directions": "Avvicinati a un cane e tieni R1 per Accarezzare, Sgridare o Studiare. Quando lo accarezzi suona una campanella e compare un'icona d'angelo: conta per il Profilo criminale. Razze: Chihuahua (fa jogging sulla spiaggia di Vice City), Dobermann (seduto accanto al padrone, una razza inedita per la serie), Rottweiler (a Vice City), Pastore australiano (nelle Keys, al guinzaglio di un ciclista), Labrador (sulla spiaggia con la padrona), Pastore tedesco, Pitbull, Border Collie, Barboncino e meticci, più un cane di razza non identificata a Port Gellhorn. In giro ci sono anche un chihuahua con tutù viola e ali da fata, un cane con gli occhialoni in elicottero e uno vestito. Non è ancora noto se si possa avere un cane tutto tuo.",
+      "directions": "Avvicinati a un cane e tieni R1 per Accarezzare, Sgridare o Studiare. Quando lo accarezzi suona una campanella e compare il diavoletto con l'aureola: conta per il Profilo criminale. Razze: Chihuahua (fa jogging sulla spiaggia di Vice City), Dobermann (seduto accanto al padrone, una razza inedita per la serie), Rottweiler (a Vice City), Pastore australiano (nelle Keys, al guinzaglio di un ciclista), Labrador (sulla spiaggia con la padrona), Pastore tedesco, Pitbull, Border Collie, Barboncino e meticci, più un cane di razza non identificata a Port Gellhorn. In giro ci sono anche un chihuahua con tutù viola e ali da fata, un cane con gli occhialoni in elicottero e uno vestito. Non è ancora noto se si possa avere un cane tutto tuo.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-cani.jpg",
       "status": "da verificare",
@@ -1063,7 +1063,7 @@
       "trivia": [
         "Il chihuahua è il primissimo animale mostrato della serie.",
         "In giro c'è un chihuahua con tutù viola e ali da fata.",
-        "Accarezzare fa suonare una campanella e compare un'icona d'angelo."
+        "Accarezzare fa suonare una campanella e compare il diavoletto con l'aureola."
       ],
       "mergedIds": [
         "col-fauna-staffordshire",
@@ -1565,7 +1565,7 @@
       "categoryId": "cat-fauna",
       "name": "Squali",
       "districtId": null,
-      "directions": "Ci sono diversi tipi di squalo, ognuno con le sue animazioni. Vicino alla spiaggia girano anche squali tigre, già presenti nelle acque di GTA V: da vicino sono pericolosi. Quanto, lo scopri in acqua.",
+      "directions": "Ci sono diversi tipi di squalo, ognuno con le sue animazioni. Vicino alla spiaggia girano anche squali tigre, già presenti nelle acque di GTA V: da vicino sono pericolosi, ma quanto di preciso non è ancora noto.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-squalo.jpg",
       "status": "da verificare",
@@ -1579,7 +1579,7 @@
       "emoji": "🦈",
       "short": "Ci sono diversi tipi di squalo, ognuno con le sue animazioni.",
       "danger": 2,
-      "dangerNote": "Gli squali tigre sono pericolosi da vicino. Quanto, lo scopri in acqua.",
+      "dangerNote": "Gli squali tigre sono pericolosi da vicino; quanto di preciso non è ancora noto.",
       "varieties": [
         {
           "name": "Squalo tigre",
@@ -1876,36 +1876,6 @@
         "dis-grassrivers"
       ],
       "protectedReal": "sì (minacciato)"
-    },
-    {
-      "image": null,
-      "status": "verificato",
-      "source": "trailer",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "col-wyman-riata",
-      "categoryId": "cat-wyman",
-      "name": "Vapid Riata Classic",
-      "districtId": null,
-      "directions": "Ricalca il Bronco di prima generazione: è una delle auto di Wyman nell'Ultimate Edition.",
-      "reward": "Auto restaurata nel garage",
-      "sourceUrl": "https://gta6-wiki.org/vehicles"
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "rumor",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "col-wyman-mamba",
-      "categoryId": "cat-wyman",
-      "name": "Declasse Mamba GT",
-      "districtId": null,
-      "directions": "Ricalca la Daytona Coupe e si ottiene solo con le missioni della collezione di Wyman.",
-      "reward": "Auto rara",
-      "sourceUrl": "https://www.gosugamers.net/entertainment/news/78674-rockstar-reveals-gta-vi-ultimate-edition-and-pre-order-bonuses-here-s-everything-you-need-to-know"
     },
     {
       "image": null,
@@ -2313,36 +2283,6 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07"
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "id": "col-wyman-deviant",
-      "categoryId": "cat-wyman",
-      "name": "Schyster Deviant",
-      "districtId": null,
-      "directions": "Muscle car ispirata alla AMC Javelin, tra le auto della commissione di Wyman nell'Ultimate Edition: si recuperano i pezzi in giro per Leonida e lui la rimonta.",
-      "reward": "Auto restaurata nel garage",
-      "sourceUrl": "https://www.gtabase.com/side-missions/gta-6/wyman-s-classic-car-collection"
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "id": "col-wyman-sirius",
-      "categoryId": "cat-wyman",
-      "name": "Sirius",
-      "districtId": null,
-      "directions": "Muscle car degli anni Settanta ispirata alla Mercury Cougar: è una delle auto da ricostruire per Wyman nell'Ultimate Edition.",
-      "reward": "Auto restaurata nel garage",
-      "sourceUrl": "https://www.gtabase.com/side-missions/gta-6/wyman-s-classic-car-collection"
     },
     {
       "id": "col-carte-1",
@@ -3131,7 +3071,7 @@
       "categoryId": "cat-carte",
       "name": "Liberty City Wrath · Anthony Poke II (rossa)",
       "districtId": "dis-vice-beach",
-      "directions": "Washington Beach (Oldby Island): nell'Ajax Gym, su una bacheca nel corridoio superiore. Ci si arriva dal tetto, salendo dalla stanza privata che Lucia ottiene con la storia, o dalla porta dietro i tapis roulant al piano di sopra.",
+      "directions": "Washington Beach (SW 4th Street): nell'Ajax Gym, su una bacheca nel corridoio superiore. Ci si arriva dal tetto, salendo dalla stanza privata che Lucia ottiene con la storia, o dalla porta dietro i tapis roulant, in cima alle scale della sala pesi.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -3263,7 +3203,7 @@
       "categoryId": "cat-carte",
       "name": "Los Santos Corkers · Jonah Clemmons (argento)",
       "districtId": "dis-grassrivers",
-      "directions": "Watson Bay: nella camera sul retro della casetta a sud-ovest del rifugio, a sud del piccolo molo a T.",
+      "directions": "Watson Bay: nella camera sul retro della casetta a sud-ovest del colpo «Watson Bay Safehouse», a sud del piccolo molo a T.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -3653,7 +3593,7 @@
       "categoryId": "cat-carte",
       "name": "The Legends of Ratface · Silver Age Betrayal (viola)",
       "districtId": "dis-grassrivers",
-      "directions": "Watson Bay: nel garage di una casa rettangolare a ovest del Top Fun Drones, sotto il colpo del rifugio di Watson Bay.",
+      "directions": "Watson Bay: nel garage di una casa rettangolare a ovest del Top Fun Drones, appena a sud dell'icona del colpo «Watson Bay Safehouse» sulla mappa.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -4193,7 +4133,7 @@
       "categoryId": "cat-riviste",
       "name": "Remote Strike",
       "districtId": "dis-vice-beach",
-      "directions": "Washington Beach (Penmarch Isle): nell'Ajax Gym, nella «trauma room», dove Lucia entra dal capitolo 4. Un'altra copia sta dietro il bar chiuso nella parte est di Southwind.",
+      "directions": "Washington Beach (SW 4th Street): nell'Ajax Gym, nella stanza che il gioco chiama «trauma room», dove Lucia può entrare con la storia dal capitolo 4. Un'altra copia sta dietro il bar chiuso nella parte est di Southwind.",
       "chapter": 4,
       "status": "da verificare",
       "source": "stampa",
@@ -4782,7 +4722,7 @@
       "categoryId": "cat-meditazione",
       "name": "Ascent Mountain",
       "districtId": "dis-mount-kalaga",
-      "directions": "Vetta del Mount Kalaga, nel cerchio di pietre. Compare sulla mappa solo dopo tutte le altre e serve avere entrambi i personaggi (dal capitolo 2).",
+      "directions": "Vetta del Mount Kalaga, nel cerchio di pietre. Compare sulla mappa solo dopo tutte le altre e serve avere entrambi i personaggi (dal capitolo 2). Vale 1 meditazione.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -6093,7 +6033,7 @@
     {
       "id": "col-wyman-1",
       "categoryId": "cat-wyman",
-      "name": "Vapid Riata (pezzi)",
+      "name": "Auto per Wyman (Key Lento)",
       "districtId": "dis-keys",
       "directions": "Key Lento: nella parte centro-nord dell'isola.",
       "status": "da verificare",
@@ -6108,7 +6048,7 @@
       "categoryId": "cat-wyman",
       "name": "'70 Vapid Riata (pezzi)",
       "districtId": "dis-keys",
-      "directions": "Shoeless Keys: dietro il distributore abbandonato a nord del Grassrivers Cafe & Deli.",
+      "directions": "Shoeless Keys: dietro il distributore abbandonato a nord del Grassrivers Cafe & Deli. L'auto ricalca il Ford Bronco di prima generazione.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
@@ -6282,7 +6222,7 @@
     {
       "name": "Colpi in banca",
       "requirement": "22 su 22",
-      "notes": "14 banche piccole (cassa e cassaforte) e 8 grandi (anche il caveau). Si sbloccano a metà capitolo 3, quando ottieni il disturbatore delle cartucce di vernice.",
+      "notes": "14 banche piccole (cassa e cassaforte) e 8 grandi (anche il caveau). Si sbloccano a metà capitolo 3, quando ottieni il disturbatore delle cartucce di inchiostro.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {
@@ -6336,7 +6276,7 @@
     {
       "name": "Set di Kenton",
       "requirement": "5 su 7",
-      "notes": "Tesori subacquei per Kenton a Key Lento.",
+      "notes": "Tesori subacquei per Kenton a Key Lento. Questa voce chiede 5 set su 7, ma le 33 scoperte subacquee (voce a parte) richiedono tutti e 7 i set.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {
@@ -6366,7 +6306,7 @@
     {
       "name": "Meditazioni",
       "requirement": "15 su 18",
-      "notes": "10 punti, ognuno vale 2 con entrambi i personaggi.",
+      "notes": "10 punti: otto valgono 2 (con Jason e con Lucia), la prima a casa di Jason e l'ultima sul Mount Kalaga valgono 1.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {
@@ -6402,7 +6342,7 @@
     {
       "name": "Ori nei poligoni di tiro",
       "requirement": "42 su 42",
-      "notes": "Due poligoni (Griffin e Rodgers Ranch): si compra il permesso da 5 $ al bancone. Vale anche per il trofeo Cecchino.",
+      "notes": "Due poligoni (Griffin e Rodgers Ranch) con 6 sfide ciascuno, 12 in tutto: si compra il permesso da 5 $ al bancone. Gli ori sono uno per livello: 18 al Griffin e 24 al Rodgers. Vale anche per il trofeo Cecchino.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {

@@ -160,17 +160,11 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - 681 testi riscritti per chiarezza (regola di Mike: «riscrivi ciò che non ha senso», modello: la descrizione delle auto di Wyman). Stessi fatti, niente nomi nuovi (controllo automatico sui titoli delle missioni e sui personaggi).
 - Strumento: `applica-testi.py` nello scratchpad (patch `{file, key: id|slug, old, new}`, ricerca in ampiezza perché in luoghi.json le liste «nearby» ripetono gli slug).
 - «Professional» del profilo criminale resta in inglese finché non si conosce il nome italiano del gioco.
-- Incoerenze di CONTENUTO trovate durante la rilettura, da sistemare con le guide (non toccate):
-  - poligoni di tiro: 12 (trofeo Cecchino) contro «due poligoni» (lista del 100%);
-  - Scoperte subacquee: tutti e 7 i set di Kenton contro 5 su 7;
-  - Ajax Gym: Oldby Island contro Penmarch Isle; cinghiale «solo spot TV» ma visto nel Trailer 2;
-  - cambio protagonista: «giù sulla croce» (tip-switch) contro «destra + R1» (meccaniche);
-  - 20.000 $: tetto dei contanti o del bancomat; mira assistita sì/no; posti auto iniziali 1 o 3; microtransazioni sì/no;
-  - animali: 62 uccelli o «60 e più», «più di 170 specie» o 255; WAINK/WAiNK/Waink; la/lo Snap Gun;
-  - Petra Navarro direttrice operativa o codirettrice; Ambrosia contea di Kelly o di Leonard; Bayside posizione nota o no;
-  - Shrewsbury Drifter canne affiancate o sovrapposte; Gloriana Key: Catalan Key a sud o a nord; «Le Mans» non è una curva (Port Gellhorn);
-  - frasi pre-uscita ormai superate: «quando uscirà la mappa», «non si è ancora vista», le guide di luoghi.json scritte in prima persona dal sito di mappe.
-- Testi poco chiari lasciati perché non si sa cosa volessero dire: col-carte-101 «sotto il colpo del rifugio di Watson Bay», «Il partner guida bene, all'antica», «Watson Bay solo con i mezzi pubblici», «reazione di disgusto riutilizzabile» (news Edge), N3on «Hanno commentato anche IShowSpeed…».
+- v0.43.0, giro guide sulle contraddizioni (regola di Mike: una sola versione in tutte le sezioni, la più probabile, segnata «da verificare» se non c'è conferma doppia; frasi senza senso rifatte dall'originale inglese, in inglese se resta il dubbio). 234 correzioni + modifiche a mano:
+  - Risolte: cambio protagonista (destra + R1, dal capitolo 2; ognuno ha il suo inventario), posti auto iniziali (1), mira (assistita classica spenta, aiuto leggero regolabile), microtransazioni (niente valuta; GTA+, Ultimate, Vintage Pack a pagamento), livelli del Profilo criminale in inglese («Professional», «Hardened», «Violent», «Psycho», «Irredeemable»), viaggio rapido (taxi/RydeMe, 100 $), poligoni (2, 12 sfide, 42 ori), Kenton (5 set su 7 per la voce «Set», 7 per le 33 scoperte), animali (255, 60 uccelli), meditazioni (18 = 1 + 8×2 + 1), cartucce di inchiostro, Ambrosia nella contea di Kelly, Petra direttrice operativa, Bayside, Vice Beach città separata, Gloriana/Catalan Key, Le Mans, Drifter (affiancate), Rancher (K5 Blazer), Contender = Karin, grafie WAiNK, RydeMe, «la Snap Gun», «i Grassrivers».
+  - Auto di Wyman: tolte col-wyman-sirius/-riata/-mamba/-deviant (restano le 5 posizioni), col-wyman-1 rinominata «Auto per Wyman (Key Lento)».
+  - Fonti: 63 link gta.fandom.com → gta.wiki/w/ (stessa pagina). I crediti delle immagini restano su Fandom (le immagini sono ospitate lì).
+- Ancora aperti (segnati «da verificare»): 20.000 $ (tetto dei contanti, da anteprime); cosa fa il livello «Hardened» (PowerPyx contro PC Gamer/Insider); isola dell'Ajax Gym; se la meditazione del capitolo 1 conta per il trofeo; poligoni 12 o 14 sfide; Randy nella lista degli Sconosciuti e folli e 16 o 18 auto; caveau fine capitolo 4 o 5; quale auto di Wyman sta in col-wyman-3/4; Waxman Island = Watson Island; bar dei Final Chapter (contea di Leonard ma sotto Ambrosia); Cesar CEO di Megamundo; Moreland 850 (produttore); nomi provvisori di luoghi non sulla mappa (Peanut Island, Osborn Reef, Bay Harbor…).
 
 ## 6. Strumenti e verifiche prima di ogni push
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

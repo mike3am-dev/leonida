@@ -1264,7 +1264,7 @@
       "role": "Uomo d'affari, Megamundo",
       "isProtagonist": false,
       "tagline": "Il cliente che vale la scorta.",
-      "bio": "Ricco socio di Megamundo, festaiolo e consumatore di droghe, compagno di Petra Navarro. Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con l'irruzione di uomini mascherati e armati.",
+      "bio": "Ricco socio di Megamundo, festaiolo e consumatore di droghe, conoscente di Petra Navarro. Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con l'irruzione di uomini mascherati e armati.",
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-el-megamundo",
       "relations": [
@@ -1340,24 +1340,24 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-petra.jpg",
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "chr-petra",
       "name": "Petra Navarro",
       "role": "Direttrice operativa di Megamundo",
       "isProtagonist": false,
       "tagline": "La dirigente.",
-      "bio": "Direttrice operativa di Megamundo e compagna di Andrés de León; Valentina la presenta a Jason e Lucia all'inaugurazione della torre Megamundo.",
+      "bio": "Direttrice operativa di Megamundo; conosce Andrés de León. Valentina la presenta a Jason e Lucia all'inaugurazione della torre Megamundo.",
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-el-megamundo",
       "relations": [
         "chr-andres",
         "chr-valentina"
       ],
-      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
+      "sourceUrl": "https://gta.wiki/w/Petra_Navarro",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/petra-navarro.jpg",
       "galleryX": [
         {
@@ -1371,7 +1371,7 @@
           "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro."
         }
       ],
-      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata di inaugurazione, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nPetra è la direttrice operativa (COO) di Megamundo; in alcune descrizioni è la padrona dell'azienda. È lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo è il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Petra chiede a Jason di andare a cercare Andrés, salito a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame tra Petra, Megamundo e la storia di Jason e Lucia non è ancora noto. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, dicono che Megamundo ha dei nemici.",
+      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata di inaugurazione, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nPetra è la direttrice operativa (COO) di Megamundo; l'amministratore delegato è Cesar. È lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo è il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Petra chiede a Jason di andare a cercare Andrés, salito a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame tra Petra, Megamundo e la storia di Jason e Lucia non è ancora noto. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, dicono che Megamundo ha dei nemici.",
       "firstSeen": "Extended Look (27 agosto 2026), serata Megamundo",
       "idCard": [
         {
@@ -2315,7 +2315,7 @@
       "role": "Riferimento reale",
       "isProtagonist": false,
       "tagline": "«Felice e benedetto di essere visto così».",
-      "bio": "Lo streamer di Kick parodiato da Camilo: ha reagito in diretta. Hanno commentato anche IShowSpeed, Kai Cenat, Jynxzi e Adin Ross.",
+      "bio": "Lo streamer di Kick a cui somiglia Camilo: ha reagito in diretta alla scena. Anche IShowSpeed, Kai Cenat, Jynxzi e Adin Ross hanno notato la somiglianza durante le loro dirette.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [

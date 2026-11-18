@@ -57,7 +57,7 @@
           "id": "gellhorn-international-raceway",
           "title": "Gellhorn International Raceway",
           "paragraphs": [
-            "A est della città si trova il Gellhorn International Raceway, un enorme circuito stradale con tribune e una galleria. Molte curve sono copie dei tornanti più celebri del mondo: l'Eau Rouge di Spa, il Karussell del Nürburgring, il Corkscrew di Laguna Seca, le curve di Monza, tratti di Le Mans e la Spoon di Suzuka, con il finale modellato su Sebring, in Florida.",
+            "A est della città si trova il Gellhorn International Raceway, un enorme circuito stradale con tribune e una galleria. Molte curve sono copie delle curve più celebri del mondo: l'Eau Rouge di Spa, il Karussell del Nürburgring, il Corkscrew di Laguna Seca, le curve di Monza, tratti di Le Mans e la Spoon di Suzuka, con il finale modellato su Sebring, in Florida.",
             "Il circuito è segnato sulla mappa come attività. I dettagli sulle gare non sono ancora noti."
           ],
           "bullets": []
@@ -248,7 +248,7 @@
         },
         {
           "q": "C'è un circuito in GTA VI?",
-          "a": "Il Gellhorn International Raceway si trova a est di Port Gellhorn. Le sue curve riprendono tornanti famosi come l'Eau Rouge, il Corkscrew e Le Mans."
+          "a": "Il Gellhorn International Raceway si trova a est di Port Gellhorn. Molte curve copiano quelle dei circuiti più famosi, come l'Eau Rouge di Spa, il Corkscrew di Laguna Seca e alcuni tratti di Le Mans."
         }
       ],
       "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
@@ -270,11 +270,11 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 2"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Port_Gellhorn",
+          "url": "https://gta.wiki/w/Port_Gellhorn",
           "title": "GTA Wiki — Port Gellhorn"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Gellhorn_International_Raceway",
+          "url": "https://gta.wiki/w/Gellhorn_International_Raceway",
           "title": "GTA Wiki — Gellhorn International Raceway"
         },
         {
@@ -425,7 +425,7 @@
       "marker": "loc-ambrosia",
       "summary": "Ambrosia è il cuore industriale della Leonida centrale, una città dello zucchero sulla sponda del Lake Leonida dove la raffineria Allied Crystal fornisce i posti di lavoro e la gang di motociclisti locale fornisce quasi tutto il resto. Qui la provincia americana di GTA VI alza il volume: ciminiere, incendi di canna, biker, un circuito e uno sfasciacarrozze pieno di auto d'epoca.",
       "facts": {
-        "Regione": "Ambrosia County, sponda occidentale del Lake Leonida",
+        "Regione": "Kelly County, sponda sud-occidentale del Lake Leonida",
         "Ispirazione reale": "Clewiston, Florida, con tocchi di Moore Haven",
         "Ideale per": "Biker, muscle car, drag racing, panorami industriali",
         "Slogan Rockstar": "The battle for the health and wealth of Leonida begins here"
@@ -637,11 +637,11 @@
           "title": "Rockstar Games — GTA VI screenshots"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Ambrosia",
+          "url": "https://gta.wiki/w/Ambrosia",
           "title": "GTA Wiki — Ambrosia"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Allied_Crystal",
+          "url": "https://gta.wiki/w/Allied_Crystal",
           "title": "GTA Wiki — Allied Crystal"
         },
         {
@@ -784,7 +784,7 @@
       "marker": "loc-grassrivers",
       "summary": "Grassrivers è l'enorme zona umida che occupa gran parte della Leonida meridionale tra la costa del Golfo e Vice City. È il gioiello indomabile della corona di Leonida: una distesa primordiale di sawgrass, mangrovie e fiumi lenti. Gli alligatori si prendono tutta l'attenzione, ma tra le radici si nasconde qualcosa di più letale, e più strano.",
       "facts": {
-        "Regione": "Leonida meridionale, contee di Mariana e Vice-Dale",
+        "Regione": "Leonida meridionale, Mariana County",
         "Ispirazione reale": "Le Everglades",
         "Ideale per": "Airboat, fauna selvatica, caccia, inseguimenti nella palude",
         "Slogan Rockstar": "Welcome to the Wetlands"
@@ -965,7 +965,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI: An Extended Look"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Grassrivers",
+          "url": "https://gta.wiki/w/Grassrivers",
           "title": "GTA Wiki — Grassrivers"
         },
         {
@@ -1288,15 +1288,15 @@
           "title": "Rockstar Games — Grand Theft Auto VI editions and pre-order bonuses"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Hamlet",
+          "url": "https://gta.wiki/w/Hamlet",
           "title": "GTA Wiki — Hamlet"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Leonida_Penitentiary",
+          "url": "https://gta.wiki/w/Leonida_Penitentiary",
           "title": "GTA Wiki — Leonida Penitentiary"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Keys_Causeway",
+          "url": "https://gta.wiki/w/Keys_Causeway",
           "title": "GTA Wiki — Keys Causeway"
         },
         {
@@ -1680,7 +1680,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI: An Extended Look"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Ocean_Beach_(HD_Universe)",
+          "url": "https://gta.wiki/w/Ocean_Beach_(HD_Universe)",
           "title": "GTA Wiki — Ocean Beach (HD Universe)"
         },
         {
@@ -1827,7 +1827,7 @@
       "marker": "plc-starfish-island",
       "summary": "Starfish Island è l'isola privata di ville al centro della baia di Vice City, resa celebre dalla Vercetti Estate in GTA Vice City. Torna in GTA VI, appena fuori dalla strada sopraelevata principale per le spiagge.",
       "facts": {
-        "Regione": "Catalan Bay, tra Watson Island e Ocean Beach",
+        "Regione": "Catalan Bay, tra Waxman Island (Watson Island) e Ocean Beach",
         "Ispirazione reale": "Star Island, Miami Beach",
         "Ideale per": "Ville, storia della serie, panorami sulla baia",
         "Nominata per la prima volta in": "Grand Theft Auto VI: An Extended Look (12:37)"
@@ -1837,7 +1837,7 @@
           "id": "what-rockstar-has-shown",
           "title": "Cosa si sa",
           "paragraphs": [
-            "Su una strada sopraelevata fiancheggiata da palme, con le gru di Port Vice City al di là dell'acqua, c'è un cartello verde: Starfish Island, prossima a sinistra. È finora l'unica apparizione ufficiale dell'isola.",
+            "Su una strada sopraelevata fiancheggiata da palme, con le gru di Port Vice City al di là dell'acqua, c'è un cartello verde: Starfish Island, prossima a sinistra. Nel gioco l'isola è sulla mappa, come quartiere di Vice Beach.",
             "L'isola non è ancora stata mostrata da vicino. Alcuni edifici corrispondono a quelli di Star Island, a Miami Beach, tra cui una casa sul lungomare e la torre dell'acqua dell'isola."
           ],
           "bullets": []
@@ -1970,11 +1970,11 @@
           "title": "Rockstar Games — Grand Theft Auto VI editions and pre-order bonuses"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Starfish_Island_(HD_Universe)",
+          "url": "https://gta.wiki/w/Starfish_Island_(HD_Universe)",
           "title": "GTA Wiki — Starfish Island (HD Universe)"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Starfish_Island",
+          "url": "https://gta.wiki/w/Starfish_Island",
           "title": "GTA Wiki — Starfish Island (original Vice City)"
         },
         {
@@ -2091,7 +2091,7 @@
       "slug": "watson-island",
       "url": "https://www.gtasixmap.com/locations/watson-island",
       "name": "Waxman Island (Watson Island)",
-      "lead": "Watson Island è l'isola della strada sopraelevata tra Downtown Vice City e Vice Beach in GTA VI: ponti illuminati, un porticciolo, una base per idrovolanti e il tunnel del porto.",
+      "lead": "Waxman Island, la Watson Island di Miami, è l'isola della strada sopraelevata tra Downtown Vice City e Vice Beach in GTA VI: ponti illuminati, un porticciolo, una base per idrovolanti e il tunnel del porto.",
       "badges": [
         "Posizione non confermata",
         "Posizione stimata",
@@ -2111,12 +2111,12 @@
         -362.0
       ],
       "marker": "plc-watson-island",
-      "summary": "Watson Island è il punto di passaggio tra Downtown Vice City e le spiagge. La attraversa la strada sopraelevata principale per Vice Beach, accanto il tunnel del porto scende sotto l'acqua, e sulle sue rive ci sono un porticciolo, una base per idrovolanti e giardini. Il nome è provvisorio, preso dall'isola reale di Miami.",
+      "summary": "Watson Island è il punto di passaggio tra Downtown Vice City e le spiagge. La attraversa la strada sopraelevata principale per Vice Beach, accanto il tunnel del porto scende sotto l'acqua, e sulle sue rive ci sono un porticciolo, una base per idrovolanti e giardini. Nel gioco si chiama Waxman Island; Watson Island è il nome dell'isola reale di Miami, usato dalla community prima dell'uscita.",
       "facts": {
         "Regione": "Catalan Bay, tra Downtown e Starfish Island",
         "Ispirazione reale": "Watson Island e la MacArthur Causeway, Miami",
         "Ideale per": "Giri notturni in auto, panorami dai ponti, barche e idrovolanti",
-        "Stato del nome": "Nome provvisorio, non ufficiale"
+        "Stato del nome": "Nel gioco: Waxman Island"
       },
       "sections": [
         {
@@ -2125,7 +2125,7 @@
           "paragraphs": [
             "Questa parte della baia dà il meglio al crepuscolo e di notte. I ponti della strada sopraelevata brillano di rosa e viola sull'acqua, i motoscafi tagliano la Catalan Bay con lo skyline di Downtown alle spalle, e le luci di un porticciolo e dei ristoranti sul lungomare punteggiano la riva dell'isola.",
             "Diversi punti corrispondono alla Watson Island di Miami: un ponte della strada sopraelevata, una base per idrovolanti, una terrazza del porticciolo e un giardino giapponese. C'è anche l'equivalente di Jungle Island, il parco dell'isola reale, con l'alto tetto bianco a tenda visibile dall'acqua.",
-            "L'isola non ha ancora un nome ufficiale: Watson Island è un nome provvisorio preso in prestito da Miami. Non ha nulla a che vedere con Watson Bay, la città di Grassrivers."
+            "Sulla mappa di gioco l'isola si chiama Waxman Island; Watson Island è il nome reale, preso in prestito da Miami prima dell'uscita. Non ha nulla a che vedere con Watson Bay, la città di Grassrivers."
           ],
           "bullets": []
         },
@@ -2261,7 +2261,7 @@
       "faq": [
         {
           "q": "Watson Island è il nome ufficiale?",
-          "a": "No. È un nome provvisorio, preso dalla Watson Island di Miami su cui la zona è modellata. Il nome nel gioco non è ancora noto."
+          "a": "No. Nel gioco l'isola si chiama Waxman Island; Watson Island è il nome della vera isola di Miami su cui è modellata."
         },
         {
           "q": "Watson Island è la stessa cosa di Watson Bay?",
@@ -2589,7 +2589,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI: An Extended Look"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Rialto_Islands",
+          "url": "https://gta.wiki/w/Rialto_Islands",
           "title": "GTA Wiki — Rialto Islands"
         },
         {
@@ -2731,7 +2731,7 @@
         "Regione": "Imboccatura del canale del porto, a sud di Ocean Beach",
         "Ispirazione reale": "Fisher Island, Miami Beach",
         "Ideale per": "Ville di lusso, beach club, gite in barca",
-        "Stato del nome": "Nome provvisorio, non ufficiale"
+        "Stato del nome": "Nome ufficiale, sulla mappa di gioco"
       },
       "sections": [
         {
@@ -2739,8 +2739,8 @@
           "title": "Com'è Dalton Island",
           "paragraphs": [
             "Quasi quaranta edifici di quest'isola corrispondono a quelli di Fisher Island, l'enclave privata di Miami Beach: le ville condominiali in stile mediterraneo di Palazzo del Sol e Villa del Mare, un market, il ristorante di un beach club, una spa e il terminal dei traghetti.",
-            "L'isola finora si è vista solo da lontano, dall'acqua o da Vice Beach: un'isola bassa di tetti di tegole rosse, palme e spiagge private, con le gru di Port Vice City al di là del canale.",
-            "Dalton Island è un nome provvisorio: il nome ufficiale non è ancora noto."
+            "Vista dall'acqua o da Vice Beach è un'isola bassa di tetti di tegole rosse, palme e spiagge private, con le gru di Port Vice City al di là del canale.",
+            "Dalton Island è il nome ufficiale: compare sulla mappa di gioco."
           ],
           "bullets": []
         },
@@ -2837,7 +2837,7 @@
       "faq": [
         {
           "q": "Dalton Island è il nome ufficiale?",
-          "a": "No. Dalton Island è un nome provvisorio per l'equivalente di Fisher Island, che finora si è visto solo da lontano."
+          "a": "Sì: compare sulla mappa di gioco. È l'equivalente di Fisher Island."
         },
         {
           "q": "A cosa si ispira Dalton Island?",
@@ -2984,7 +2984,7 @@
         "Regione": "Catalan Bay, a sud-est di Tequesta",
         "Ispirazione reale": "Virginia Key e la parte settentrionale di Key Biscayne, Miami",
         "Ideale per": "Spiagge, club nautici, raduni di auto, giri tranquilli",
-        "Stato del nome": "Nome provvisorio, non ufficiale"
+        "Stato del nome": "Nome ufficiale, sulla mappa di gioco"
       },
       "sections": [
         {
@@ -2993,7 +2993,7 @@
           "paragraphs": [
             "Diversi luoghi dell'isola corrispondono alla Virginia Key di Miami e all'estremità settentrionale di Key Biscayne: uno stadio marino sull'acqua, un club di canottaggio, un impianto di depurazione, spiagge in parchi pubblici e parcheggi lungo la strada sopraelevata.",
             "La scena più nota è un raduno di auto: auto elaborate con adesivi da corsa riempiono il parcheggio davanti a una clubhouse dal tetto blu, il corrispettivo del vero Miami Rowing Club sulla strada sopraelevata.",
-            "Gloriana Key è un nome provvisorio, come Catalan Key e Dalton Island per le altre isole della baia: il nome ufficiale non è ancora noto."
+            "Gloriana Key è il nome ufficiale e compare sulla mappa di gioco, come Catalan Key e Dalton Island per le altre isole della baia."
           ],
           "bullets": []
         },
@@ -3014,7 +3014,7 @@
           "id": "getting-there-and-around",
           "title": "Come arrivare e muoversi",
           "paragraphs": [
-            "Una strada sopraelevata con un alto ponte lascia la terraferma a sud di Tequesta e attraversa la baia fino all'isola. Catalan Key è appena a nord, Tequesta Retreat a circa 600 metri a nord-ovest e Dalton Island a 700 metri a est.",
+            "Una strada sopraelevata con un alto ponte lascia la terraferma a sud di Tequesta e attraversa la baia fino all'isola. Catalan Key, con il faro, è più a sud lungo la stessa strada; Tequesta Retreat è a circa 600 metri a nord-ovest e Dalton Island a 700 metri a est.",
             "È una strada senza uscita: arriva fino alle isole meridionali e lì finisce, quindi tieni conto del ritorno."
           ],
           "bullets": []
@@ -3057,7 +3057,7 @@
         {
           "name": "Stadio marino",
           "real": "Miami Marine Stadium",
-          "text": "Una tribuna in cemento rivolta verso un bacino sulla baia, vista finora solo da lontano.",
+          "text": "Una tribuna in cemento rivolta verso un bacino sulla baia.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-marine-stadium",
@@ -3096,11 +3096,11 @@
       "faq": [
         {
           "q": "Gloriana Key è il nome ufficiale?",
-          "a": "No. Gloriana Key è un nome provvisorio: il nome ufficiale dell'isola non è ancora noto."
+          "a": "Sì. Gloriana Key compare sulla mappa di gioco, nella contea di Vice-Dale; prima dell'uscita era noto solo da una foto della mappa trapelata ad agosto 2026."
         },
         {
           "q": "Virginia Key è in GTA VI?",
-          "a": "Sì, in versione Leonida: un'isola modellata su Virginia Key, con il club di canottaggio, lo stadio marino e l'impianto di depurazione. Il nome nel gioco non è ancora noto; per ora si chiama Gloriana Key."
+          "a": "Sì, in versione Leonida: un'isola modellata su Virginia Key, con il club di canottaggio, lo stadio marino e l'impianto di depurazione. Nel gioco si chiama Gloriana Key."
         },
         {
           "q": "C'è un raduno di auto in GTA VI?",
@@ -3108,7 +3108,7 @@
         },
         {
           "q": "Il Miami Marine Stadium è in GTA VI?",
-          "a": "Un edificio di Gloriana Key corrisponde al Miami Marine Stadium, ma finora si è visto solo da lontano."
+          "a": "Un edificio di Gloriana Key corrisponde al Miami Marine Stadium."
         }
       ],
       "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
@@ -3260,7 +3260,7 @@
         "Regione": "Tra la terraferma di Vice City, Vice Beach e le key meridionali",
         "Ispirazione reale": "Biscayne Bay, Miami",
         "Ideale per": "Nautica, pesca, giro delle isole, tramonti",
-        "Stato del nome": "Nome provvisorio, non ufficiale"
+        "Stato del nome": "Nome ufficiale, sulla mappa di gioco"
       },
       "sections": [
         {
@@ -3269,7 +3269,7 @@
           "paragraphs": [
             "La baia si vede ovunque. I motoscafi sfrecciano lungo un canale davanti alle gru portuali di Port Vice City, i cabinati la attraversano al crepuscolo con le torri di Downtown e una strada sopraelevata illuminata alle spalle, e di notte il motoscafo Squalo della Ultimate Edition corre con lo skyline della città che brilla al di là dell'acqua.",
             "Le strade sopraelevate la attraversano da Downtown e Bayside verso le spiagge. Più a sud l'acqua si apre, con Gloriana Key e Catalan Key sul lato orientale e, nelle acque basse, un gruppo di case su palafitte ricalcate sulla Stiltsville di Miami.",
-            "Catalan Bay è un nome provvisorio. Viene dal Catalan Boulevard, che compare su un cartello ed è la versione di GTA VI del Biscayne Boulevard di Miami. Biscayne richiama la Biscaglia, provincia spagnola nel Paese Basco: in GTA VI è stata sostituita con la Catalogna, un'altra regione spagnola."
+            "Catalan Bay è il nome ufficiale e compare sulla mappa di gioco. Richiama il Catalan Boulevard, che compare su un cartello ed è la versione di GTA VI del Biscayne Boulevard di Miami. Biscayne richiama la Biscaglia, provincia spagnola nel Paese Basco: in GTA VI è stata sostituita con la Catalogna, un'altra regione spagnola."
           ],
           "bullets": []
         },
@@ -3372,7 +3372,7 @@
       "faq": [
         {
           "q": "Catalan Bay è in GTA VI?",
-          "a": "Sì, la baia si vede ovunque a Vice City. Il nome Catalan Bay è provvisorio, ricavato dal Catalan Boulevard: il nome ufficiale della baia non è ancora noto."
+          "a": "Sì, la baia si vede ovunque a Vice City. Il nome Catalan Bay compare sulla mappa di gioco e richiama il Catalan Boulevard."
         },
         {
           "q": "A quale luogo reale si ispira Catalan Bay?",
@@ -3398,7 +3398,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI editions and pre-order bonuses"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Catalan_Boulevard",
+          "url": "https://gta.wiki/w/Catalan_Boulevard",
           "title": "GTA Wiki — Catalan Boulevard"
         },
         {
@@ -3699,11 +3699,11 @@
           "title": "Rockstar Games — Vice City"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Little_Cuba",
+          "url": "https://gta.wiki/w/Little_Cuba",
           "title": "GTA Wiki — Little Cuba"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Little_Havana",
+          "url": "https://gta.wiki/w/Little_Havana",
           "title": "GTA Wiki — Little Havana (GTA Vice City)"
         },
         {
@@ -3856,7 +3856,7 @@
           "id": "what-draper-island-is-like",
           "title": "Com'è Draper Island",
           "paragraphs": [
-            "A un trafficato incrocio di Port Gellhorn c'è un gruppo di cartelli stradali: Interstate 404, il Crossroad Park Minimall e la Leonida State Route 9 verso nord per Draper Island. È finora l'unica menzione ufficiale del luogo.",
+            "A un trafficato incrocio di Port Gellhorn c'è un gruppo di cartelli stradali: Interstate 404, il Crossroad Park Minimall e la Leonida State Route 9 verso nord per Draper Island. Nel gioco Draper Island compare sulla mappa, nella parte sud della contea di Kelly.",
             "Il lungomare attorno all'isola è industria pesante: una cartiera con ciminiere fumanti ricalcata sullo stabilimento WestRock di Panama City, una raffineria, un bacino di carenaggio e una fila di gru portacontainer come quelle del porto di Tampa. Diversi ponti ferroviari, tra cui un ponte sollevabile, portano i treni attraverso il porto.",
             "Il porto marittimo è uno dei simboli di Port Gellhorn, e questo è il suo cuore: la parte della città che ancora lavora per vivere."
           ],
@@ -3979,7 +3979,7 @@
           "title": "Rockstar Games — Port Gellhorn"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Draper_Island",
+          "url": "https://gta.wiki/w/Draper_Island",
           "title": "GTA Wiki — Draper Island"
         },
         {
@@ -4112,7 +4112,7 @@
         2448.0
       ],
       "marker": "plc-peanut-island",
-      "summary": "Peanut Island è il nome provvisorio di un piccolo isolotto sulla costa nord-orientale di Leonida, tra i sobborghi di Waning Sands e la vecchia città portuale di St. Joseph. Non è ancora stato mostrato; il nome viene dalla vera Peanut Island vicino a Palm Beach, un'isola con una delle storie più strane della Florida.",
+      "summary": "Peanut Island è il nome provvisorio di un piccolo isolotto sulla costa nord-orientale di Leonida, tra i sobborghi di Waning Sands e la vecchia città portuale di St. Joseph. Il nome viene dalla vera Peanut Island vicino a Palm Beach, un'isola con una delle storie più strane della Florida.",
       "facts": {
         "Regione": "Costa atlantica nord-orientale, a nord di North Beaches",
         "Ispirazione reale": "Peanut Island, Palm Beach County",
@@ -4124,7 +4124,7 @@
           "id": "what-we-know-about-peanut-island",
           "title": "Cosa si sa di Peanut Island",
           "paragraphs": [
-            "L'isolotto non è ancora stato nominato né mostrato ufficialmente: Peanut Island è un nome provvisorio, in attesa della mappa di gioco.",
+            "Peanut Island è un nome provvisorio della community: il nome che l'isolotto ha nel gioco è da verificare.",
             "I dintorni sono quartieri residenziali pieni di infrastrutture: ponti sulle insenature a sud, una galleria ferroviaria nell'interno, e la stazione, l'aeroporto e il centro commerciale di Waning Sands entro un chilometro."
           ],
           "bullets": []
@@ -4482,7 +4482,7 @@
       "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
-          "url": "https://gta.fandom.com/wiki/North_Beaches",
+          "url": "https://gta.wiki/w/North_Beaches",
           "title": "GTA Wiki — North Beaches"
         },
         {
@@ -5064,7 +5064,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Lake_Leonida",
+          "url": "https://gta.wiki/w/Lake_Leonida",
           "title": "GTA Wiki — Lake Leonida"
         },
         {
@@ -5648,7 +5648,7 @@
           "title": "Rockstar Games — GTA VI screenshots"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Watson_Bay",
+          "url": "https://gta.wiki/w/Watson_Bay",
           "title": "GTA Wiki — Watson Bay"
         },
         {
@@ -5793,7 +5793,7 @@
         1815.0
       ],
       "marker": "loc-osborn-reef",
-      "summary": "Osborn Reef è il nome provvisorio di un tratto di mare al largo della costa nord-orientale di Leonida, a est di North Beaches. Il punto non è ancora stato mostrato; il nome viene dall'Osborne Reef al largo di Fort Lauderdale, una barriera artificiale fallita diventata uno dei più noti errori ambientali della Florida.",
+      "summary": "Osborn Reef è il nome provvisorio di un tratto di mare al largo della costa nord-orientale di Leonida, a est di North Beaches. Il nome viene dall'Osborne Reef al largo di Fort Lauderdale, una barriera artificiale fallita diventata uno dei più noti errori ambientali della Florida.",
       "facts": {
         "Regione": "Al largo, costa atlantica nord-orientale",
         "Ispirazione reale": "Osborne Reef, Fort Lauderdale",
@@ -5805,7 +5805,7 @@
           "id": "what-we-know-about-osborn-reef",
           "title": "Cosa si sa di Osborn Reef",
           "paragraphs": [
-            "Ancora niente di ufficiale: non è nota alcuna barriera in questo punto, e Osborn Reef è un nome provvisorio.",
+            "Osborn Reef è un nome provvisorio della community: se nel gioco ci sia una barriera in questo punto è da verificare.",
             "L'esplorazione subacquea invece c'è: nelle Leonida Keys due sub nuotano tra coralli, pesci, una murena e una tartaruga marina. Se le immersioni funzionano lungo tutta la costa, barriere come questa sono i posti naturali in cui cercare."
           ],
           "bullets": []
@@ -6207,7 +6207,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI: An Extended Look"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Washington_Beach_(HD_Universe)",
+          "url": "https://gta.wiki/w/Washington_Beach_(HD_Universe)",
           "title": "GTA Wiki — Washington Beach (HD Universe)"
         },
         {
@@ -6528,7 +6528,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI editions and pre-order bonuses"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Peacock_Bay",
+          "url": "https://gta.wiki/w/Peacock_Bay",
           "title": "GTA Wiki — Peacock Bay"
         },
         {
@@ -6865,7 +6865,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Tequesta",
+          "url": "https://gta.wiki/w/Tequesta",
           "title": "GTA Wiki — Tequesta"
         },
         {
@@ -7236,7 +7236,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Leonida_Keys",
+          "url": "https://gta.wiki/w/Leonida_Keys",
           "title": "GTA Wiki — Leonida Keys"
         },
         {
@@ -7595,11 +7595,11 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 2"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Key_Lento",
+          "url": "https://gta.wiki/w/Key_Lento",
           "title": "GTA Wiki — Key Lento"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Keys_Causeway",
+          "url": "https://gta.wiki/w/Keys_Causeway",
           "title": "GTA Wiki — Keys Causeway"
         },
         {
@@ -8303,7 +8303,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI editions and pre-order bonuses"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Bohemia",
+          "url": "https://gta.wiki/w/Bohemia",
           "title": "GTA Wiki — Bohemia"
         },
         {
@@ -8630,7 +8630,7 @@
         },
         {
           "q": "Mount Kalaga è il punto più alto di Leonida?",
-          "a": "Non è ancora noto. È finora l'unica montagna con un nome ufficiale, e il parco nazionale prende il nome da essa."
+          "a": "Da verificare nel gioco. È la montagna più nota di Leonida, e il parco nazionale prende il nome da essa."
         },
         {
           "q": "Dove si trova Mount Kalaga?",
@@ -8656,7 +8656,7 @@
           "title": "Rockstar Games — GTA VI screenshots"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Mount_Kalaga_National_Park",
+          "url": "https://gta.wiki/w/Mount_Kalaga_National_Park",
           "title": "GTA Wiki — Mount Kalaga National Park"
         },
         {
@@ -9203,7 +9203,7 @@
           "title": "Rockstar Games — Mount Kalaga"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Redhill",
+          "url": "https://gta.wiki/w/Redhill",
           "title": "GTA Wiki — Redhill"
         },
         {
@@ -9352,7 +9352,7 @@
           "id": "what-north-ronaldsay-is-like",
           "title": "Com'è North Ronaldsay",
           "paragraphs": [
-            "L'isola non si è ancora vista in nessun filmato. È un'isola bassa al largo della costa settentrionale di Leonida, con una forma che ricorda North Ronaldsay, l'isola più settentrionale delle Orcadi, in Scozia: da qui il nome provvisorio.",
+            "È un'isola bassa al largo della costa settentrionale di Leonida, con una forma che ricorda North Ronaldsay, l'isola più settentrionale delle Orcadi, in Scozia: da qui il nome provvisorio.",
             "La costa della terraferma vicina è più nota. Alcuni tratti corrispondono a Jekyll Island, in Georgia, alle paludi vicino a Yulee nel nord-est della Florida e a Fort Clinch, il forte di mattoni ottocentesco di Fernandina Beach, che si trova a circa un chilometro a sud-est del pin."
           ],
           "bullets": []
@@ -9648,7 +9648,7 @@
           "bullets": [
             "Porta una canna da pesca o una barca. L'acqua è l'attrazione principale qui.",
             "Abbina Fairyland Forest a Mount Kalaga e Redhill per un giro completo del nord.",
-            "Il nome è provvisorio finché non uscirà la mappa ufficiale."
+            "Il nome è provvisorio: quello del gioco è da verificare."
           ]
         }
       ],
@@ -10262,7 +10262,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Waning_Sands",
+          "url": "https://gta.wiki/w/Waning_Sands",
           "title": "GTA Wiki — Waning Sands"
         },
         {
@@ -10676,7 +10676,7 @@
           "id": "what-capri-is-like",
           "title": "Com'è Capri",
           "paragraphs": [
-            "Un cartello verde della Interstate 404 elenca Capri insieme a Vice-Dale County. Il nome della città è quindi ufficiale, anche se la città non si è ancora vista in dettaglio.",
+            "Un cartello verde della Interstate 404 elenca Capri insieme a Vice-Dale County. Il nome della città è quindi ufficiale, e sulla mappa di gioco Capri sta nella contea di Mariana.",
             "Le case bianche di assi di legno e i cortili ombreggiati dalle palme dietro il pick-up verde della clip «RIP Rudi» sono a Capri.",
             "I punti di riferimento della città sono un mix insolito. Il lungomare ha un lungo molo da pesca e un frangiflutti come Naples, sulla costa del Golfo; il centro ha una grande rotonda come quella di Sebring; e un lago con una passeggiata, una torre residenziale e una stazione ferroviaria richiama il Lake Mirror di Lakeland."
           ],
@@ -10810,7 +10810,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Capri",
+          "url": "https://gta.wiki/w/Capri",
           "title": "GTA Wiki — Capri"
         },
         {
@@ -11354,7 +11354,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Hamlet",
+          "url": "https://gta.wiki/w/Hamlet",
           "title": "GTA Wiki — Hamlet"
         },
         {
@@ -11696,7 +11696,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI: An Extended Look"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Vice_Beach",
+          "url": "https://gta.wiki/w/Vice_Beach",
           "title": "GTA Wiki — Vice Beach"
         },
         {
@@ -12285,7 +12285,7 @@
           "title": "Rockstar Games — GTA VI screenshots"
         },
         {
-          "url": "https://gta.fandom.com/wiki/PortViceCity",
+          "url": "https://gta.wiki/w/PortViceCity",
           "title": "GTA Wiki — PortViceCity"
         },
         {
@@ -12431,7 +12431,7 @@
         "Regione": "A nord di Vice City, verso Lake Leonida",
         "Ispirazione reale": "Zone del nord di Miami come Brownsville, e Belle Glade",
         "Ideale per": "Soste di rifornimento, strade secondarie a nord della città",
-        "Stato del nome": "Nome dal leak del 2022, non ufficiale"
+        "Stato del nome": "Nome ufficiale, sulla mappa di gioco"
       },
       "sections": [
         {
@@ -12482,7 +12482,7 @@
           "bullets": [
             "Belville è la porta tra Vice City e la regione dei laghi. Fai il pieno alla stazione Arrow prima di un lungo viaggio verso nord.",
             "Se cerchi la stazione di servizio della clip sotto la pioggia, controlla i piazzali a nord della città sulla Interstate 97.",
-            "Il nome o la posizione esatta possono cambiare quando uscirà la mappa ufficiale."
+            "Belville compare sulla mappa di gioco, nella parte sud della contea di Leonard."
           ]
         }
       ],
@@ -12518,7 +12518,7 @@
       "faq": [
         {
           "q": "Belville è in GTA VI?",
-          "a": "Il nome viene dal leak del 2022, dove compare su un cartello autostradale, e non è ancora ufficiale. La stazione di servizio sotto la pioggia della clip di PlanetLeonidaMan si trova a Belville."
+          "a": "Sì. Il nome era già su un cartello autostradale del leak del 2022 e ora compare sulla mappa di gioco, nella contea di Leonard. La stazione di servizio sotto la pioggia della clip di PlanetLeonidaMan si trova a Belville."
         },
         {
           "q": "Dove si trova la stazione di servizio del trailer di GTA VI?",
@@ -12536,7 +12536,7 @@
           "title": "Rockstar Games — Grand Theft Auto VI Trailer 1"
         },
         {
-          "url": "https://gta.fandom.com/wiki/Belville",
+          "url": "https://gta.wiki/w/Belville",
           "title": "GTA Wiki — Belville"
         },
         {
@@ -13263,7 +13263,7 @@
         {
           "t": "img",
           "src": "https://www.gtasixmap.com/images/locations/grassrivers/grassrivers-03-640.webp",
-          "alt": "Screenshot ufficiale di un airboat circondato da alligatori nelle Grassrivers",
+          "alt": "Screenshot ufficiale di un airboat circondato da alligatori nei Grassrivers",
           "local": "assets/img/luoghi/guide-gta-6-map-size-vs-gta-5/grassrivers-03-640.webp"
         },
         {
@@ -13300,11 +13300,11 @@
         },
         {
           "t": "p",
-          "text": "Rockstar non ha pubblicato la mappa di gioco né un elenco di luoghi. Ricostruito a partire dal materiale ufficiale e dalle ricerche della community, ecco quanto si sa finora: 44 luoghi con un nome, 21 dei quali confermati da Rockstar nelle pagine \"Only in Leonida\", nei trailer o negli screenshot, e 23 che provengono dalla community di mappatura."
+          "text": "Prima dell'uscita Rockstar non aveva pubblicato la mappa né un elenco di luoghi. Ricostruito dal materiale ufficiale e dalle ricerche della community, ecco quanto si sapeva: 44 luoghi con un nome, 21 dei quali confermati da Rockstar nelle pagine \"Only in Leonida\", nei trailer o negli screenshot, e 23 che provengono dalla community di mappatura."
         },
         {
           "t": "p",
-          "text": "Nessuna posizione è ancora confermata, su nessuna mappa di GTA VI, compresa la nostra: ogni segnaposto resta una stima della community finché il gioco non uscirà il 19 novembre 2026."
+          "text": "Prima dell'uscita nessuna posizione era confermata: i segnaposto di questo elenco sono stime della community, da ricontrollare sulla mappa di gioco."
         },
         {
           "t": "h2",
@@ -13336,7 +13336,7 @@
         },
         {
           "t": "p",
-          "text": "Le zone umide in stile Everglades delle Grassrivers e le cittadine e le industrie lungo i loro margini, da Hamlet alla costa del Golfo."
+          "text": "Le zone umide in stile Everglades dei Grassrivers e le cittadine e le industrie lungo i loro margini, da Hamlet alla costa del Golfo."
         },
         {
           "t": "h2",
@@ -13428,7 +13428,7 @@
         },
         {
           "t": "p",
-          "text": "Rockstar non ha fornito un numero. Prima del lancio si conoscono 44 luoghi con un nome in Leonida, 21 dei quali confermati da Rockstar, più 200 punti di riferimento, 158 dei quali abbinati a posti reali. Il gioco completo ne avrà molti di più."
+          "text": "Rockstar non ha fornito un numero. Prima del lancio si conoscevano 44 luoghi con un nome in Leonida, 21 dei quali confermati da Rockstar, più 200 punti di riferimento, 158 dei quali abbinati a posti reali. Il gioco completo ne avrà molti di più."
         },
         {
           "t": "p",
@@ -13436,7 +13436,7 @@
         },
         {
           "t": "p",
-          "text": "Non ancora. Rockstar non ha pubblicato la mappa di gioco, quindi ogni segnaposto su ogni mappa di GTA VI, compresa la nostra, è una stima della community. Verranno corretti dopo il lancio del 19 novembre 2026."
+          "text": "Prima dell'uscita no: ogni segnaposto delle mappe dei fan era una stima della community. Ora la mappa completa si vede nel gioco, e i segnaposto vanno ricontrollati su quella."
         },
         {
           "t": "p",
@@ -13548,7 +13548,7 @@
         },
         {
           "t": "p",
-          "text": "No. Rockstar non ha ancora pubblicato la mappa di gioco. Le forme e i segnaposto sulle mappe attuali, compresa la nostra, provengono dalla community di mappatura, che allinea filmati dei trailer, screenshot e cartelli stradali. Aspettati che cambino una volta uscito il gioco, il 19 novembre 2026."
+          "text": "No. Sulla mappa di gioco Leonida è divisa in cinque contee: Mariana, Vice-Dale, Kelly, Leonard e Lummox. Le sei regioni delle cartoline ufficiali non sono confini, e le forme disegnate dalla community prima dell'uscita vanno ricontrollate sulla mappa di gioco."
         },
         {
           "t": "h2",
@@ -13634,7 +13634,7 @@
         },
         {
           "t": "p",
-          "text": "Alcuni luoghi sulle mappe dei fan, compresa la nostra, portano ancora nomi reali di Miami perché Rockstar non ha ancora rivelato quelli di gioco. Watson Island, Virginia Key, Bay Harbor, Peanut Island, Osborn Reef e Bayside sono tutte etichette provvisorie. Trattale come segnaposto finché il gioco non sarà uscito."
+          "text": "Prima dell'uscita alcuni luoghi delle mappe dei fan portavano nomi reali di Miami. Sulla mappa di gioco Watson Island è Waxman Island, Virginia Key è Gloriana Key e Bayside è un quartiere ufficiale di Vice City; per Bay Harbor, Peanut Island e Osborn Reef il nome nel gioco è da verificare."
         },
         {
           "t": "h2",
@@ -13788,11 +13788,11 @@
         },
         {
           "t": "p",
-          "text": "A Watson Bay, una piccola città sulla costa del Golfo al margine nord-occidentale delle Grassrivers. Custodisce la Vapid Dominator Buggy del '67 della Ultimate Edition."
+          "text": "A Watson Bay, una piccola città sulla costa del Golfo al margine nord-occidentale dei Grassrivers. Custodisce la Vapid Dominator Buggy del '67 della Ultimate Edition."
         },
         {
           "t": "p",
-          "text": "I preordini digitali possono iniziare il pre-caricamento il 12 novembre 2026, una settimana prima del lancio."
+          "text": "Chi aveva preordinato in digitale ha potuto avviare il pre-caricamento dal 10 novembre 2026, nove giorni prima del lancio."
         }
       ]
     },
@@ -13840,7 +13840,7 @@
         },
         {
           "t": "p",
-          "text": "L'acqua è ovunque in Leonida. Le Keys hanno immersioni, feste in barca e idrovolanti, le Grassrivers hanno gli airboat e Vice City ha le sue spiagge e la baia."
+          "text": "L'acqua è ovunque in Leonida. Le Keys hanno immersioni, feste in barca e idrovolanti, i Grassrivers hanno gli airboat e Vice City ha le sue spiagge e la baia."
         },
         {
           "t": "p",

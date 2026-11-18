@@ -31,7 +31,7 @@
       "id": "tip-rating",
       "category": "prima-ora",
       "title": "Cosa aspettarsi: il bollino",
-      "body": "Il gioco ha la classificazione ESRB Mature, con tutti i descrittori: sangue, violenza intensa, umorismo adulto, nudità, linguaggio forte, contenuti sessuali espliciti, droghe e alcol. Segnala anche acquisti nel gioco. Se giochi con altri in casa, meglio saperlo.",
+      "body": "Il gioco ha la classificazione ESRB Mature, con tutti i descrittori: sangue, violenza intensa, umorismo adulto, nudità, linguaggio forte, contenuti sessuali espliciti, droghe e alcol. Segnala anche «acquisti nel gioco»: sono gli extra a pagamento come il passaggio all'Ultimate Edition e l'abbonamento GTA+, non pacchetti di soldi. Se giochi con altri in casa, meglio saperlo.",
       "priority": 4,
       "status": "verificato",
       "source": "trailer",
@@ -84,13 +84,13 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "tip-switch",
       "category": "generale",
-      "title": "Cambiare protagonista: un tasto",
+      "title": "Cambiare protagonista: destra + R1",
       "priority": 11,
-      "body": "Passi da Jason a Lucia con un solo tasto (giù sulla croce direzionale), anche a metà missione. Chi non controlli continua ad aiutarti in combattimento. Conto in banca e arsenale sono condivisi.",
-      "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
+      "body": "Dal capitolo 2 passi da Jason a Lucia tenendo premuto destra sulla croce direzionale e premendo R1; con Triangolo invece vi date appuntamento. A volte il cambio è bloccato, per esempio in casa o in certi momenti della storia. Chi non controlli continua ad aiutarti in combattimento. Il conto in banca è condiviso; le armi no, ognuno ha le sue.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-switch-between-playing-as-lucia-jason/"
     },
     {
       "image": null,
@@ -137,7 +137,7 @@
       "category": "guida",
       "title": "Rubare un'auto non è più solo aprire la portiera",
       "priority": 14,
-      "body": "Le auto hanno livelli di sicurezza diversi: per le vecchie basta lo slim jim, per le nuove servono il clonatore di chiavi e il bypass. L'app WAINK scansiona l'auto e ti dice a cosa vai incontro. Scooter Bros recupera, a pagamento, un veicolo distrutto.",
+      "body": "Le auto hanno livelli di sicurezza diversi: per le vecchie basta lo slim jim, per le più moderne serve il Key Cloner. L'app WAiNK scansiona l'auto e ti dice a cosa vai incontro. Scooter Bros recupera, a pagamento, un veicolo distrutto.",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/"
     },
     {
@@ -212,7 +212,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Niente visuale in prima persona al lancio."
+          "text": "Niente visuale in prima persona completa: c'è solo da fermo, mirando con un'arma col mirino o alla guida col telefono in mano."
         }
       ]
     },
@@ -232,21 +232,21 @@
     {
       "id": "tip-trasporti-2",
       "category": "trasporti",
-      "title": "Viaggio rapido: mezzi pubblici e Ryde Me",
-      "body": "Per viaggiare velocemente ci sono vari modi, soprattutto i mezzi pubblici. Ryde Me (l'Uber di Leonida) ti porta a destinazione saltando il viaggio, oppure ti fai la corsa intera chiacchierando con l'autista. Ci sono anche tram e taxi, pure sull'acqua.",
+      "title": "Viaggio rapido: taxi e RydeMe",
+      "body": "Il viaggio rapido c'è, ma non dalla mappa: chiami Paradise Taxi dai contatti (da subito) o usi RydeMe (dal capitolo 2), metti un punto sulla mappa, sali e paghi 100 $ per saltare la corsa; oppure ti fai il viaggio intero chiacchierando con l'autista. Autobus, treni, tram e taxi, anche sull'acqua, sono l'alternativa all'auto.",
       "priority": 2,
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "tip-trasporti-3",
       "category": "trasporti",
       "title": "Hai perso l'auto? Scooter Bros",
-      "body": "L'app Scooter Bros ti riporta l'auto in pochi secondi per una piccola tariffa, con le armi nel bagagliaio. Se l'hai abbandonata in un inseguimento può essere sorvegliata o al deposito, e il recupero costa di più.",
+      "body": "Dal capitolo 2 l'app Scooter Bros ti riporta l'auto in pochi secondi per una piccola tariffa, con le armi nel bagagliaio; nel capitolo 1 chiami Joey dai contatti, che te la ripara e te la porta gratis. Se l'hai abbandonata in un inseguimento può essere sorvegliata o al deposito, e il recupero costa di più.",
       "priority": 3,
       "status": "da verificare",
       "source": "stampa",
@@ -298,7 +298,7 @@
       "id": "tip-guida-2",
       "category": "guida",
       "title": "Rubare un'auto: tre livelli",
-      "body": "Le auto vecchie le apri rompendo il finestrino o con lo slim jim (un mini-gioco a tempo). Per quelle moderne serve il Key Cloner, che sblocchi lavorando per i ricettatori d'auto. Scansiona con WAINK prima di toccare la maniglia. Il localizzatore tace finché vai veloce: se rallenti in città parte il bip e poi la segnalazione. Scappa in moto sportiva o a piedi.",
+      "body": "Le auto vecchie le apri rompendo il finestrino o con lo slim jim (un mini-gioco a tempo). Per quelle moderne serve il Key Cloner, che sblocchi lavorando per i ricettatori d'auto. Scansiona con WAiNK prima di toccare la maniglia. Il localizzatore tace finché vai veloce: se rallenti in città parte il bip e poi la segnalazione. Scappa in moto sportiva o a piedi.",
       "priority": 21,
       "status": "verificato",
       "source": "trailer",
@@ -363,18 +363,18 @@
       "id": "tip-profilo",
       "category": "sistemi",
       "title": "Il Profilo criminale ricorda tutto",
-      "body": "Il Profilo criminale va da Professional a Irredeemable, con un angelo e un diavolo. Sparare per difenderti non ti penalizza, esagerare senza motivo sì. Contano anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino. E la storia ne tiene conto.",
+      "body": "Il Profilo criminale va da «Professional» a «Irredeemable»: un diavoletto con l'aureola segna le buone azioni, uno col ghigno quelle cattive. Sparare per difenderti non ti penalizza, esagerare senza motivo sì. Contano anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino. E la storia ne tiene conto.",
       "priority": 26,
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "extras": [
         {
           "source": "community",
-          "text": "Gli stati intermedi sono Aggressive, Violent e Psycho; oltre l'ultimo l'icona si crepa e si rompe per sempre in quella partita. Jason e Lucia hanno profili separati."
+          "text": "I livelli sono cinque: «Professional», «Hardened», «Violent», «Psycho» e «Irredeemable» (nelle anteprime il secondo si chiamava «Aggressive»). Se resti a lungo «Psycho» l'icona si crepa e diventi «Irredeemable» per sempre, in quella partita. Jason e Lucia hanno profili separati."
         }
       ]
     },
@@ -382,7 +382,7 @@
       "id": "tip-soldi-1",
       "category": "soldi",
       "title": "Deposita i contanti",
-      "body": "I contanti in tasca si perdono se muori o vieni arrestato; quelli sul conto (app BuckMe) no. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
+      "body": "I contanti in tasca si perdono se muori o vieni arrestato; sul conto BuckMe ne perdi solo una parte, e i soldi messi nel «Family Savings» non si perdono mai (ma non si ritirano più). Gli acquisti da 1.000 $ in su si pagano dal conto. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
       "priority": 27,
       "status": "da verificare",
       "source": "stampa",
@@ -421,7 +421,7 @@
       "id": "tip-app",
       "category": "sistemi",
       "title": "Le app del telefono, in breve",
-      "body": "BuckMe (banca), WhatUp (messaggi: rispondi a Lucia, ignorarla rovina il rapporto), Ryde Me (corse), Scooter Bros (recupero auto), WAINK (scansione auto), Snapmatic (social, solo in lettura), fitness e sonno, On Demand (podcast). Il passeggero può usare il telefono mentre l'altro guida.",
+      "body": "BuckMe (banca), WhatUp (messaggi: rispondi a Lucia, ignorarla rovina il rapporto), RydeMe (corse), Scooter Bros (recupero auto), WAINK (scansione auto), Snapmatic (social, solo in lettura), fitness e sonno, On Demand (podcast). Il passeggero può usare il telefono mentre l'altro guida.",
       "priority": 30,
       "status": "verificato",
       "source": "trailer",
@@ -473,14 +473,14 @@
       "id": "tip-animali",
       "category": "esplorazione",
       "title": "Gli animali si studiano, non si ammazzano",
-      "body": "Un diario come in Red Dead Redemption 2: osserva e cataloga le oltre 170 specie senza sparare. I cani puoi accarezzarli, sgridarli o studiarli, chiedendo prima il permesso al padrone. La pesca è solo cattura e rilascio. La caccia invece è un lavoro, pagato da un contatto di Jason.",
+      "body": "Un diario come in Red Dead Redemption 2: osserva e cataloga i 255 animali del diario senza sparare (per il 100% ne bastano 100). I cani puoi accarezzarli, sgridarli o studiarli, chiedendo prima il permesso al padrone. La pesca è solo cattura e rilascio. La caccia invece è un lavoro, pagato da un contatto di Jason.",
       "priority": 34,
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://gtaintel.com/news/gta-6-game-informer-cover-story-new-details",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "tip-mondo-1",
@@ -579,17 +579,17 @@
     },
     {
       "image": null,
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-18",
       "id": "tip-online",
       "category": "online",
       "title": "Online: non al lancio",
-      "body": "GTA VI è «un'esperienza single player». Nessuna microtransazione, nessuna spesa ricorrente, nessuna IA generativa al lancio. Il GTA Online di VI è atteso nel 2027; il GTA Online attuale continua.",
+      "body": "GTA VI è «un'esperienza single player». Nessuna IA generativa e, al lancio, niente soldi del gioco da comprare. Gli unici extra a pagamento sono il passaggio all'Ultimate Edition, il Vintage Vice City Pack per chi non l'ha preordinato e l'abbonamento facoltativo GTA+ (7,99 $ al mese dopo il mese gratis del preordine), i cui vantaggi si spengono dalle impostazioni. Il GTA Online di VI è atteso nel 2027; il GTA Online attuale continua.",
       "priority": 39,
-      "sourceUrl": "https://www.gtaboom.com/rockstar-keeps-calling-gta-6-a-single-player-experience-4d6d",
+      "sourceUrl": "https://www.ign.com/articles/gta-6-how-microtransactions-and-gta-benefits-work",
       "extras": [
         {
           "source": "community",
@@ -607,7 +607,7 @@
       "id": "tip-salvataggi",
       "category": "tecnica",
       "title": "Salvataggi su cloud, trofei sì",
-      "body": "Su Xbox ci sono cloud e obiettivi; su PS5 il cloud passa da PS Plus. Non c'è progressione condivisa tra piattaforme. La lista dei trofei non è ancora pubblicata: le liste da «57 trofei» che circolano sono inventate.",
+      "body": "Su Xbox ci sono cloud e obiettivi; su PS5 il cloud passa da PS Plus. Non c'è progressione condivisa tra piattaforme. La lista ufficiale ha 55 trofei (1 platino, 2 oro, 6 argento, 46 bronzo): le liste da «57 trofei» circolate prima dell'uscita erano inventate.",
       "priority": 40,
       "sourceUrl": "https://culturedvultures.com/does-gta-6-have-cloud-saves-and-cross-progression/"
     },
@@ -659,13 +659,13 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "tip-garage-slot",
       "category": "guida",
-      "title": "Tre posti auto all'inizio",
-      "body": "All'inizio hai posto per tre veicoli personali: per aggiungerne un altro devi venderne uno o comprare un garage. Ogni garage ha armadietto delle armi e deposito per la merce rubata. Le auto non registrate spariscono al riavvio.",
+      "title": "Un posto auto all'inizio",
+      "body": "All'inizio hai posto per un solo veicolo personale: per prenderne un altro devi vendere quello che hai o comprare un garage (l'app Vice City Real Estate arriva nel capitolo 2). Ogni garage ha armadietto delle armi e deposito per la merce rubata. Le auto non registrate spariscono al riavvio.",
       "priority": 44,
-      "sourceUrl": "https://gta6motors.com/guides/garages/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
     },
     {
       "image": null,
@@ -687,13 +687,13 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "tip-completista",
       "category": "esplorazione",
       "title": "Per il completista: cosa aspettarsi dal 100%",
-      "body": "Il totale per il 100% non è ancora noto. Sulla falsariga di GTA V e Red Dead Redemption 2, aspettati: storia con medaglie, animali da studiare (oltre 170), pesca con sfide, relitti e tesori, riviste e fumetti, negozi con capi esclusivi, collezione di auto di Wyman, attività (basket, biliardo, minigolf, poligono, wrestling, corse), incontri casuali. L'esplorazione viene premiata molto.",
+      "body": "La lista del 100% compare a storia finita (Progressi › Statistiche), ma conta tutto quello che hai fatto prima, e niente si perde. È generosa, circa il 60% del gioco: 100 incarichi facoltativi, tutte le rapine (bande, banche, finanziarie, caveau), solo una parte dei collezionabili (15 set di carte su 18, 100 fenicotteri su 125, 30 riviste su 34), tutti gli ori dei poligoni e le gare dei droni, 70 sfide su 80, 200 veicoli scansionati e 100 animali studiati su 255. Non ci sono medaglie in missione. L'elenco completo è in Collezionabili › Lista del 100%.",
       "priority": 8,
-      "sourceUrl": "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {
       "image": null,

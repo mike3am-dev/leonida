@@ -73,7 +73,7 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Beretta_92FS-inspired_pistol",
+        "https://gta.wiki/w/Unnamed_GTA_VI_Beretta_92FS-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/girardi-es9",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -133,7 +133,7 @@
         "Variante Ultimate per Lucia: incisa, con impugnatura rossa"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Polymer_Pistol",
+        "https://gta.wiki/w/Polymer_Pistol",
         "https://www.gtabase.com/weapons/gta-6/klose-k17",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -180,7 +180,7 @@
         "Erede del revolver Python di GTA Vice City"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Mustang_.357",
+        "https://gta.wiki/w/Mustang_.357",
         "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver"
       ],
       "caliber": ".357 Magnum",
@@ -232,7 +232,7 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
+        "https://gta.wiki/w/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/nipper-38"
       ],
       "caliber": ".380",
@@ -301,7 +301,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/service-carbine",
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Duke_carbine"
+        "https://gta.wiki/w/Unnamed_GTA_VI_Duke_carbine"
       ],
       "extras": [
         {
@@ -341,7 +341,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/assault-rifle",
-        "https://gta.fandom.com/wiki/Assault_Rifle"
+        "https://gta.wiki/w/Assault_Rifle"
       ],
       "realModel": "AKM / AK-47",
       "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg",
@@ -387,7 +387,7 @@
         "Caricatore da 30 colpi (60 esteso)"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Duke_special_ops_carbine",
+        "https://gta.wiki/w/Unnamed_GTA_VI_Duke_special_ops_carbine",
         "https://www.gtabase.com/weapons/gta-6/carbine-rifle-mk-ii"
       ]
     },
@@ -485,7 +485,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/compact-smg",
-        "https://gta.fandom.com/wiki/Compact_Submachine_Gun"
+        "https://gta.wiki/w/Compact_Submachine_Gun"
       ],
       "realModel": "Scorpion (mini SMG)",
       "caliber": "9 mm",
@@ -520,7 +520,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/micro-smg",
-        "https://gta.fandom.com/wiki/Micro_Submachine_Gun"
+        "https://gta.wiki/w/Micro_Submachine_Gun"
       ],
       "realModel": "Mini Uzi"
     },
@@ -559,7 +559,7 @@
         "Caricatore da 30 colpi (100 esteso); si compra da Ammu-Nation"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Heckler_%26_Koch_MP5/40-inspired_submachine_gun",
+        "https://gta.wiki/w/Unnamed_GTA_VI_Heckler_%26_Koch_MP5/40-inspired_submachine_gun",
         "https://www.gtabase.com/weapons/gta-6/smg",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -678,10 +678,10 @@
         }
       ],
       "facts": [
-        "È una doppietta a canne sovrapposte (Longfowler), c'era già in GTA Online"
+        "È una doppietta a canne affiancate (modello reale Stoeger/IGA Longfowler); c'era già in GTA Online"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_double-barreled_shotgun",
+        "https://gta.wiki/w/Unnamed_GTA_VI_double-barreled_shotgun",
         "https://www.gtabase.com/weapons/gta-6/double-barrel-shotgun",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -752,7 +752,7 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Bolt_Action_Sniper",
+        "https://gta.wiki/w/Bolt_Action_Sniper",
         "https://www.gtabase.com/gta-6/weapons/bolt-action-sniper",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -794,7 +794,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/hunter-sniper",
-        "https://gta.fandom.com/wiki/Hunter_Sniper"
+        "https://gta.wiki/w/Hunter_Sniper"
       ],
       "realModel": "Accuracy International Arctic Warfare L96A1",
       "caliber": ".338 Magnum",
@@ -843,7 +843,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/grenade-launcher",
-        "https://gta.fandom.com/wiki/Grenade_Launcher",
+        "https://gta.wiki/w/Grenade_Launcher",
         "https://www.noobfeed.com/news/gta-6-launch-trailer-military-jason-lucia",
         "https://www.svg.com/2287842/gta-6-launch-trailer-breakdown-biggest-reveals/"
       ],
@@ -880,7 +880,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/rpg-rocket-launcher",
-        "https://gta.fandom.com/wiki/RPG_(HD_Universe)"
+        "https://gta.wiki/w/RPG_(HD_Universe)"
       ],
       "realModel": null,
       "caliber": "Razzo da 66 mm",
@@ -916,7 +916,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/speargun",
-        "https://gta.fandom.com/wiki/Speargun"
+        "https://gta.wiki/w/Speargun"
       ]
     },
     {
@@ -966,7 +966,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/grenade",
-        "https://gta.fandom.com/wiki/Grenades"
+        "https://gta.wiki/w/Grenades"
       ],
       "realModel": "Granata M61"
     },
@@ -1011,7 +1011,7 @@
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Golf_Balls",
+        "https://gta.wiki/w/Golf_Balls",
         "https://www.gtabase.com/gta-6/weapons/golf-ball"
       ]
     },
@@ -1039,7 +1039,7 @@
         }
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Baseball_Bat"
+        "https://gta.wiki/w/Baseball_Bat"
       ]
     },
     {
@@ -1088,7 +1088,7 @@
       "name": "Slim Jim",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "L'attrezzo per aprire le portiere. I furti d'auto vanno per livelli di sicurezza: slim jim, clonatore di chiavi, bypass dell'immobilizer, disturbatore di localizzatori.",
+      "description": "L'attrezzo per aprire le portiere. I furti d'auto vanno per livelli di sicurezza: slim jim, Key Cloner, bypass dell'immobilizer, disturbatore di localizzatori.",
       "howToGet": "Da verificare.",
       "image": null,
       "status": "da verificare",
@@ -1181,12 +1181,12 @@
         }
       ],
       "facts": [
-        "Il produttore è Capo (marchio sull'arma)",
+        "Nel gioco la produce Duke; la pistola del primo trailer aveva invece un logo Capo",
         "Ha la base di una M1911, la guardia del grilletto di una Beretta 92FS e un'incisione sulla canna come le Staccato 2011",
-        "Caricatore da 18 colpi (36 esteso); si compra da Ammu-Nation"
+        "Caricatore da 8 colpi; si compra da Ammu-Nation"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Capo_pistol",
+        "https://gta.wiki/w/Unnamed_GTA_VI_Capo_pistol",
         "https://www.gtabase.com/weapons/gta-6/heavy-pistol",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ],
@@ -1227,7 +1227,7 @@
         "Già in GTA III, Vice City, San Andreas, IV e V"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Pistol_(HD_Universe)",
+        "https://gta.wiki/w/Pistol_(HD_Universe)",
         "https://www.gtabase.com/gta-6/weapons/pistol"
       ],
       "realModel": "Taurus PT92AF",
@@ -1459,7 +1459,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/flashbang",
-        "https://gta.fandom.com/wiki/Flashbangs"
+        "https://gta.wiki/w/Flashbangs"
       ]
     },
     {
@@ -1481,7 +1481,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/smoke-grenade",
-        "https://gta.fandom.com/wiki/Smoke_Grenades"
+        "https://gta.wiki/w/Smoke_Grenades"
       ],
       "realModel": "Fumogeno M18"
     },
@@ -1560,7 +1560,7 @@
         "Driver, ferro, putter e wedge sono quattro armi separate, ognuna col suo nome sull'HUD del leak 2022"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Golf_Driver",
+        "https://gta.wiki/w/Golf_Driver",
         "https://www.gtabase.com/gta-6/weapons/golf-club"
       ]
     },
@@ -1631,7 +1631,7 @@
       ],
       "moreSources": [
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://gta.fandom.com/wiki/Pool_Cue"
+        "https://gta.wiki/w/Pool_Cue"
       ]
     },
     {
@@ -1654,7 +1654,7 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/flashlight",
-        "https://gta.fandom.com/wiki/Flashlight"
+        "https://gta.wiki/w/Flashlight"
       ],
       "realModel": "Ledlenser M7R"
     },
@@ -1829,7 +1829,7 @@
         "Putter di metallo con impugnatura di plastica blu"
       ],
       "moreSources": [
-        "https://gta.fandom.com/wiki/Unnamed_GTA_VI_mini_golf_club",
+        "https://gta.wiki/w/Unnamed_GTA_VI_mini_golf_club",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ]
     },
@@ -2749,7 +2749,7 @@
       "name": "Snap Gun",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Apre in silenzio le porte con l'allarme, come il retro delle gioiellerie. Resta nell'inventario: quando sei davanti a una porta chiusa scegli se sfondarla o aprirla con lo Snap Gun.",
+      "description": "Apre in silenzio le porte con l'allarme, come il retro delle gioiellerie. Resta nell'inventario: quando sei davanti a una porta chiusa scegli se sfondarla o aprirla con la Snap Gun.",
       "howToGet": "Te lo dà un ricettatore nel capitolo 3, dopo il primo lavoro in gioielleria.",
       "image": null,
       "status": "da verificare",
@@ -2764,7 +2764,7 @@
       "name": "Disturbatore delle cartucce di inchiostro",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Neutralizza le cartucce d'inchiostro dei contanti. Senza questo attrezzo, le banconote segnate di banche e finanziarie non si possono rivendere.",
+      "description": "Neutralizza le cartucce di inchiostro dei contanti. Senza questo attrezzo, le banconote segnate di banche e finanziarie non si possono rivendere.",
       "howToGet": "Si sblocca a metà del capitolo 3, con una missione principale.",
       "image": null,
       "status": "da verificare",

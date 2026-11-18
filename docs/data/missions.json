@@ -344,7 +344,7 @@
       "tips": [
         "La polizia ti vede comunque all'uscita: preparati a scappare subito.",
         "Dopo la fuga cambia auto o vestiti: la polizia ricorda come sei vestito e cosa guidi.",
-        "Con l'app Waink scansiona le auto che incontri: servono per il 100%."
+        "Con l'app WAiNK scansiona le auto che incontri: servono per il 100%."
       ],
       "secrets": [],
       "image": null,
@@ -465,7 +465,7 @@
       "extraObjectives": [],
       "tips": [
         "Puoi mentire a Peggy o saltare in sella e basta: va bene comunque.",
-        "Anche questa sparisce a fine capitolo e non conta per il 100%."
+        "Anche questa sparisce a fine capitolo: non serve per il 100%, dove bastano 100 incarichi facoltativi qualsiasi."
       ],
       "secrets": [],
       "image": null,
@@ -1065,7 +1065,7 @@
       "extraObjectives": [],
       "tips": [
         "Spara a braccia e gambe se vuoi un profilo da professionista.",
-        "Dopo la missione Lucia ti insegna la meditazione: è il primo dei 18 punti."
+        "Dopo la missione Lucia ti insegna la meditazione: conta come la prima delle 18, ma sulla mappa non è segnata come punto."
       ],
       "secrets": [],
       "image": null,
@@ -1153,7 +1153,7 @@
       "extraObjectives": [],
       "tips": [
         "Vola proprio sopra l'altro aereo per coprirlo dal radar.",
-        "Dopo la sparatoria scansiona le moto dei biker con Waink.",
+        "Dopo la sparatoria scansiona le moto dei biker con WAiNK.",
         "Se Donnie muore si riparte dal checkpoint: proteggilo mentre uscite."
       ],
       "secrets": [],
@@ -1954,7 +1954,7 @@
       "objectives": [
         "Porta un'auto qualsiasi all'officina di Moses",
         "Segui Moses nel cortile",
-        "Scansiona le tre auto con l'app Waink",
+        "Scansiona le tre auto con l'app WAiNK",
         "Prendi lo Slim Jim e apri la Montagne XL",
         "Torna in officina con Moses",
         "Riverniciala e registrala come tua (se ha il localizzatore, rubane un'altra)"
@@ -3001,7 +3001,7 @@
         }
       ],
       "tips": [
-        "Capri è all'estremo ovest della mappa: con un RideMe fai prima.",
+        "Capri è all'estremo ovest della mappa: con un RydeMe fai prima.",
         "Per entrare senza rumore: scale sul retro, salto sul tetto basso, finestra sopra il condizionatore.",
         "Quando Halifax finisce contro l'auto di Lucia scendi subito, usa il Focus e sparagli a una gamba."
       ],

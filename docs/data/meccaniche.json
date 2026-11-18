@@ -23,11 +23,11 @@
         },
         {
           "title": "L'IA del partner",
-          "text": "Il partner guida bene, all'antica: puoi lasciargli il volante per seminare la polizia, anche nelle rapine improvvisate in mondo aperto. In viaggio può indicarti occasioni vicine, come un'auto da rubare."
+          "text": "Al volante il partner se la cava bene («è IA, ma di quella buona, vecchio stampo», scherza Rob Nelson): puoi lasciargli guidare per seminare la polizia, anche nelle rapine improvvisate in mondo aperto. In viaggio può indicarti occasioni vicine, come un'auto da rubare."
         },
         {
           "title": "Cosa condividete",
-          "text": "Jason e Lucia si passano le armi. Le armi acquistate sono sempre disponibili nel retro del veicolo personale."
+          "text": "Non vi passate armi né equipaggiamento: ognuno ha il suo inventario, e potete scambiarvi solo le borse del bottino. Le armi acquistate sono sempre disponibili nel retro del veicolo personale."
         }
       ],
       "tips": [
@@ -38,7 +38,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Conto in banca e arsenale sono condivisi tra i due."
+          "text": "Il conto in banca è condiviso tra i due; le armi no, ognuno ha le sue."
         },
         {
           "source": "stampa",
@@ -152,13 +152,13 @@
       "title": "Profilo criminale",
       "emoji": "😇",
       "group": "Personaggi",
-      "short": "Il Profilo criminale registra come commetti i crimini, non quanti. Va da Professional a Irredeemable, con un angelo e un diavolo, e la storia ne tiene conto.",
+      "short": "Il Profilo criminale registra come commetti i crimini, non quanti. Ha cinque livelli, da «Professional» a «Irredeemable», e la storia ne tiene conto. Un'icona a forma di diavoletto ti avvisa di ogni cambio: con l'aureola per le buone azioni, col ghigno per quelle cattive.",
       "steps": [
-        "Apri il menu del personaggio per vedere il profilo: non c'è una barra fissa a schermo.",
-        "Fai i colpi in modo pulito: rapinare senza ferire nessuno ti tiene verso Professional.",
+        "Per vedere il profilo apri la mappa e passa con L1 alla scheda «Jason & Lucia», oppure tieni premuto destra sulla croce direzionale per il menu rapido: non c'è una barra fissa a schermo.",
+        "Fai i colpi in modo pulito: rapinare senza ferire nessuno ti tiene verso «Professional».",
         "Metti fuori combattimento invece di uccidere, intimidisci invece di sparare.",
         "Sparare per difenderti non ti penalizza; sparare per primo ti lega alla violenza.",
-        "La violenza gratuita e la distruzione inutile spingono verso Irredeemable.",
+        "La violenza gratuita e la distruzione inutile spingono verso «Irredeemable».",
         "Contano anche i piccoli gesti, come sfamare un randagio o buttare la spazzatura nel cestino."
       ],
       "details": [
@@ -168,15 +168,15 @@
         },
         {
           "title": "Effetti",
-          "text": "Il profilo cambia soprattutto come ti tratta la polizia: da Psycho in su gli agenti possono sparare a vista e non puoi più arrenderti. La violenza richiesta dalle missioni non lo rovina."
+          "text": "Il profilo cambia soprattutto come ti tratta la polizia: da «Psycho» in su gli agenti possono sparare a vista e non puoi più arrenderti. La violenza richiesta dalle missioni non lo rovina."
         },
         {
           "title": "I cinque livelli",
-          "text": "Professional: crimini puliti, senza feriti, prove distrutte. Hardened: metti fuori combattimento senza uccidere, colpendo gambe e spalle. Violent: uccidi nemici, agenti e passanti. Psycho: violenza gratuita, anche sugli animali domestici. Irredeemable: arriva se resti violento a lungo ed è permanente."
+          "text": "«Professional»: crimini puliti, senza feriti, prove distrutte. «Hardened»: metti fuori combattimento senza uccidere, colpendo gambe e spalle. «Violent»: uccidi nemici, agenti e passanti. «Psycho»: violenza gratuita, anche sugli animali domestici. «Irredeemable»: arriva se resti violento a lungo ed è permanente."
         },
         {
           "title": "Focus",
-          "text": "Il profilo decide cosa ricarica il Focus: le eliminazioni silenziose da Professional e Hardened, i colpi alla testa da Violent e Psycho. Da Irredeemable non lo ricarica niente."
+          "text": "Il profilo decide cosa ricarica il Focus: le eliminazioni silenziose da «Professional» e «Hardened», i colpi alla testa da «Violent» e «Psycho». Da «Irredeemable» non lo ricarica niente."
         }
       ],
       "tips": [
@@ -206,12 +206,12 @@
         "new-20261029-hooker-rapina",
         "tip-comb-1"
       ],
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
-      "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-criminal-profile-explained/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "mec-fisico-salute",
@@ -220,8 +220,8 @@
       "group": "Personaggi",
       "short": "Il corpo di Jason e Lucia cambia con quello che fanno: la palestra li rende più forti e muscolosi, mangiare troppo li fa ingrassare. Cibo e bevande danno salute e bonus.",
       "steps": [
-        "Compra l'abbonamento al bancone di una palestra: senza non puoi allenarti.",
-        "Allenati: tapis roulant e sacco per il fiato, pesi per la forza.",
+        "Per allenarti in palestra compra l'abbonamento al bancone; nel capitolo 1 trovi dei pesi anche sulla terrazza di casa.",
+        "Allenati: tapis roulant e sacco per il fiato, pesi per la forza, che alza la salute massima.",
         "Allenatevi in due: con il partner alzate le statistiche di entrambi in una volta.",
         "Mangia per recuperare salute: un pasto ne ridà parecchia.",
         "Bevi un caffè per la resistenza, un frullato proteico per un bonus salute.",
@@ -443,8 +443,8 @@
       "emoji": "🚗",
       "short": "Rubare un'auto non è più un tasto solo: ogni veicolo ha un livello di sicurezza e serve l'attrezzo giusto. Puoi sempre strappare l'auto al guidatore, ma quelle parcheggiate più protette richiedono strumenti che sblocchi con la storia.",
       "steps": [
-        "Prima di toccare la maniglia, scansiona l'auto con l'app WAINK sul telefono.",
-        "WAINK ti dice se è chiusa, che sicurezza ha, che attrezzo serve, se ha un localizzatore, quanto costa registrarla e quanto la paga un ricettatore.",
+        "Prima di toccare la maniglia, scansiona l'auto con l'app WAiNK sul telefono.",
+        "WAiNK ti dice se è chiusa, che sicurezza ha, che attrezzo serve, se ha un localizzatore, quanto costa registrarla e quanto la paga un ricettatore.",
         "Sulle auto vecchie rompi il finestrino, che fa rumore e fa scattare l'allarme, oppure usa lo slim jim, con un mini-gioco a tempo.",
         "Sulle auto moderne con immobilizer serve il Key Cloner, che ottieni più avanti lavorando per i ricettatori d'auto.",
         "In alternativa tira giù il guidatore: il carjacking funziona sempre, ma lui può scappare o reagire con un'arma.",
@@ -458,7 +458,7 @@
         },
         {
           "title": "Consegne su commissione",
-          "text": "I ricettatori chiedono modelli precisi, elencati in WAINK. Ai punti di consegna c'è un disturbatore di segnale, così anche le auto col localizzatore arrivano senza problemi. Un ricettatore d'auto si chiama Randy."
+          "text": "I ricettatori chiedono modelli precisi, elencati in WAiNK. Ai punti di consegna c'è un disturbatore di segnale, così anche le auto col localizzatore arrivano senza problemi. Un ricettatore d'auto si chiama Randy."
         },
         {
           "title": "Carburante e motore",
@@ -470,7 +470,7 @@
         }
       ],
       "tips": [
-        "Scansiona sempre con WAINK: ti evita di rompere un finestrino per un'auto che non puoi portare via.",
+        "Scansiona sempre con WAiNK: ti evita di rompere un finestrino per un'auto che non puoi portare via.",
         "Un'auto rubata vale di più se passi in officina prima della consegna.",
         "Per i colpi, il veicolo della polizia è una tentazione: prendi il fucile dal bagagliaio, non l'auto.",
         "Pay 'n' Spray ripara, ridipinge e azzera il «calore» del veicolo."
@@ -540,7 +540,7 @@
         },
         {
           "title": "Il Profilo criminale",
-          "text": "Il Profilo criminale registra come commetti i crimini, da «Professional» a «Irredeemable», con un angelo e un diavolo. Sparare per difenderti non pesa, esagerare senza motivo sì. Il profilo influenza come si svolge la storia; le notifiche si possono spegnere."
+          "text": "Il Profilo criminale registra come commetti i crimini, da «Professional» a «Irredeemable»: un diavoletto con l'aureola segna le buone azioni, uno col ghigno quelle cattive. Sparare per difenderti non pesa, esagerare senza motivo sì. Il profilo influenza come si svolge la storia; le notifiche si possono spegnere."
         },
         {
           "title": "Armi in vista",
@@ -636,8 +636,8 @@
           "text": "Non tutto è sulla mappa: i negozi di riparazione telefoni, per esempio, non hanno icone. Fuori dalla storia molte occasioni si scoprono solo girando."
         },
         {
-          "title": "Lo Snap Gun",
-          "text": "Dal capitolo 3 lo Snap Gun ti apre in silenzio le porte sul retro: dentro distruggi i nastri, spegni l'allarme e cerca il biglietto col codice della cassaforte."
+          "title": "La Snap Gun",
+          "text": "Dal capitolo 3 la Snap Gun ti apre in silenzio le porte sul retro: dentro distruggi i nastri, spegni l'allarme e cerca il biglietto col codice della cassaforte."
         }
       ],
       "tips": [
@@ -717,7 +717,7 @@
         "Le armi comprate finiscono nel veicolo personale: da lì le recuperi.",
         "Raccogli le armi dei nemici da terra quando ti servono.",
         "Prima di entrare in un negozio nascondi la pistola dietro la schiena.",
-        "Jason e Lucia possono passarsi le armi."
+        "Jason e Lucia non possono passarsi le armi: ognuno ha il suo inventario. Si scambiano solo le borse del bottino."
       ],
       "details": [
         {
@@ -762,7 +762,7 @@
         },
         {
           "source": "stampa",
-          "text": "La mira assistita non è attiva di default, ma si può accendere."
+          "text": "La mira assistita classica, quella che aggancia il bersaglio, non è attiva di default: parti con una mira più libera e un leggero aiuto, e puoi regolare tutto nelle impostazioni."
         }
       ],
       "relatedIds": [
@@ -816,7 +816,7 @@
         },
         {
           "title": "Prima persona",
-          "text": "Non c'è una visuale in prima persona completa: si passa in prima persona solo per mirare con alcune armi."
+          "text": "Non c'è una visuale in prima persona completa: ci passi con L2 + R3 da fermo o mirando con un'arma che ha il mirino, e alla guida solo con il telefono in mano."
         }
       ],
       "tips": [
@@ -828,7 +828,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "La mira libera è attiva di default, con un aiuto alla mira leggero e regolabile."
+          "text": "La mira assistita classica, quella che aggancia il bersaglio, non è attiva di default: parti con una mira più libera e un leggero aiuto, e puoi regolare tutto nelle impostazioni."
         },
         {
           "source": "stampa",
@@ -880,7 +880,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "mec-soldi",
       "title": "Soldi",
       "emoji": "💵",
@@ -888,7 +888,7 @@
       "steps": [
         "Tieni d'occhio il saldo: il conto è nell'app BuckMe ed è condiviso tra Jason e Lucia.",
         "Quando la storia chiede soldi, rapina: minimarket, distributori e gioiellerie sono i bersagli più rapidi.",
-        "Ruba le auto richieste dai ricettatori, elencate in WAINK, e consegnale intatte.",
+        "Ruba le auto richieste dai ricettatori, elencate in WAiNK, e consegnale intatte.",
         "La refurtiva non è denaro finché non la vendi: portala a un ricettatore.",
         "Se non puoi venderla subito, depositala in un garage.",
         "Spendi in armi, vestiti, officine, palestra e servizi come Scooter Bros."
@@ -908,7 +908,7 @@
         },
         {
           "title": "Ricettatori",
-          "text": "Ogni ricettatore paga in modo diverso droga, gioielli e banconote segnate, e le offerte cambiano con la storia. Se siete in due, metti la borsa nel bagagliaio dell'auto personale e chiedi al partner di venderla."
+          "text": "Ogni ricettatore paga in modo diverso droga, gioielli e banconote segnate: passando sulla sua icona nella mappa vedi quanto offre. I ricettatori disponibili cambiano con la storia: ne arrivano di nuovi e alcuni spariscono. Se siete in due, metti la borsa nel bagagliaio dell'auto personale e chiedi al partner di venderla."
         }
       ],
       "tips": [
@@ -920,7 +920,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "I contanti in tasca si perdono se muori o vieni arrestato: depositali al bancomat. In tasca puoi tenerne al massimo 20.000 $."
+          "text": "I contanti in tasca si perdono se muori o vieni arrestato: depositali al bancomat. Secondo le anteprime in tasca puoi tenerne al massimo 20.000 $ (non ancora confermato)."
         },
         {
           "source": "stampa",
@@ -936,7 +936,7 @@
         },
         {
           "source": "stampa",
-          "text": "All'inizio hai tre posti per i veicoli personali; per un altro devi venderne uno o comprare un garage."
+          "text": "All'inizio hai un posto solo per i veicoli personali; per un altro devi vendere quello che hai o comprare un garage."
         },
         {
           "source": "stampa",
@@ -966,7 +966,7 @@
         "brd-paradise-garage",
         "brd-ficroth-capital"
       ],
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
     },
@@ -974,7 +974,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "mec-telefono-app",
       "title": "Telefono e app",
       "emoji": "📱",
@@ -983,16 +983,16 @@
         "Apri il telefono per accedere alle app: ognuna fa una cosa sola e la fa bene.",
         "Usa BuckMe per gestire il conto in banca, condiviso tra Jason e Lucia.",
         "Usa WhatUp per scrivere o chiamare l'altro protagonista e darvi appuntamento.",
-        "Prima di rubare un'auto, puntala con WAINK: vedi sicurezza, attrezzo necessario, localizzatore, costo di registrazione e valore dal ricettatore.",
-        "Chiama Ryde Me per farti portare a destinazione, saltando il viaggio o facendolo tutto.",
+        "Prima di rubare un'auto, puntala con WAiNK: vedi sicurezza, attrezzo necessario, localizzatore, costo di registrazione e valore dal ricettatore.",
+        "Chiama RydeMe per farti portare a destinazione, saltando il viaggio o facendolo tutto.",
         "Chiama Scooter Bros per farti consegnare il tuo veicolo personale ovunque, per una piccola tariffa.",
         "Scorri Snapmatic e i feed social per seguire le storie del mondo e scoprire eventi a cui andare.",
         "Ascolta podcast e show con On Demand, anche a piedi con gli auricolari."
       ],
       "details": [
         {
-          "title": "WAINK e i furti su commissione",
-          "text": "WAINK scansiona ogni auto e ti dice a cosa vai incontro. Elenca anche i modelli che i ricettatori stanno cercando, con le loro difese e il localizzatore."
+          "title": "WAiNK e i furti su commissione",
+          "text": "WAiNK scansiona ogni auto e ti dice a cosa vai incontro. Elenca anche i modelli che i ricettatori stanno cercando, con le loro difese e il localizzatore."
         },
         {
           "title": "Snapmatic: si guarda, non si posta",
@@ -1009,14 +1009,14 @@
       ],
       "tips": [
         "Rispondi sempre ai messaggi dell'altro protagonista: costa poco e protegge la relazione.",
-        "Scansiona con WAINK prima di toccare la maniglia: eviti allarmi e localizzatori a sorpresa.",
+        "Scansiona con WAiNK prima di toccare la maniglia: eviti allarmi e localizzatori a sorpresa.",
         "Se hai abbandonato l'auto in un inseguimento, Scooter Bros costa di più: può essere sorvegliata o al deposito.",
         "Tieni d'occhio Snapmatic: gli eventi pubblicati dagli altri personaggi sono attività vere sulla mappa."
       ],
       "extras": [
         {
           "source": "community",
-          "text": "Il feed delle dirette che si apre con R3 viene chiamato Lifeinvader, ma il nome non è confermato."
+          "text": "Nella community il feed delle dirette, che si apre con R3, viene chiamato Lifeinvader, come il social di GTA V; nel gioco il nome non è confermato."
         },
         {
           "source": "community",
@@ -1028,7 +1028,7 @@
         },
         {
           "source": "stampa",
-          "text": "Il bancomat tiene i contanti al sicuro con un tetto di 20.000 $ per deposito; i soldi in tasca si perdono se muori o vieni arrestato."
+          "text": "Al bancomat versi i contanti sul conto BuckMe: in tasca li perdi se muori o vieni arrestato, e secondo le anteprime non puoi tenerne più di 20.000 $ (non ancora confermato)."
         },
         {
           "source": "stampa",
@@ -1052,7 +1052,7 @@
         "brd-peekhole",
         "tip-soldi-1"
       ],
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details"
     },
@@ -1077,7 +1077,7 @@
       "details": [
         {
           "title": "Come si guida",
-          "text": "La fisica è rifatta da zero: il peso di GTA IV con l'accessibilità di GTA V. Trazione, gomme, sospensioni e potenza cambiano il comportamento: con le auto a trazione posteriore devi dosare il gas, e le supercar fuori dall'asfalto sono difficili. Strade più strette e traffico più denso chiedono un po' di abilità. Su PlayStation il freno a mano è su X, perché L1 e R1 servono per sparare."
+          "text": "La fisica è rifatta da zero: il peso di GTA IV con l'accessibilità di GTA V. Trazione, gomme, sospensioni e potenza cambiano il comportamento: con le auto a trazione posteriore devi dosare il gas, e le supercar fuori dall'asfalto sono difficili. Strade più strette e traffico più denso chiedono un po' di abilità. Su PlayStation il freno a mano è su X, perché alla guida L1 e R1 servono per sparare."
         },
         {
           "title": "Danni",
@@ -1171,20 +1171,20 @@
       "id": "mec-spostarsi",
       "title": "Spostarsi",
       "emoji": "🚌",
-      "short": "Leonida si attraversa senza caricamenti. Puoi guidare, oppure prendere autobus, treni, tram e taxi, o chiamare Ryde Me: i mezzi pubblici sono anche il modo per viaggiare velocemente.",
+      "short": "Leonida si attraversa senza caricamenti. Puoi guidare, prendere autobus, treni, tram e taxi, o chiamare RydeMe: il viaggio rapido si fa in taxi o con RydeMe, pagando per saltare la corsa.",
       "steps": [
         "Apri la mappa in pausa: è satellitare, con la nebbia sulle zone non ancora esplorate.",
         "Tieni premuto giù sulla croce direzionale per mettere al volo un punto di destinazione.",
         "Per l'autobus vai a una fermata segnata sulla minimappa e aspetta: non si ferma al volo.",
         "A bordo sei un passeggero: niente benzina, niente danni.",
-        "Con Ryde Me scegli se saltare il viaggio o farlo tutto chiacchierando con l'autista.",
+        "Con RydeMe scegli se saltare il viaggio o farlo tutto chiacchierando con l'autista.",
         "In coppia puoi passare dal volante al sedile del passeggero: guida il partner e tu spari agli inseguitori.",
         "In acqua usa barche, moto d'acqua e kayak; in cielo aerei ed elicotteri."
       ],
       "details": [
         {
           "title": "Mezzi pubblici",
-          "text": "Autobus e treni funzionano davvero e arrivano sempre. Si può raggiungere Watson Bay solo con i mezzi pubblici. Ci sono anche tram e taxi."
+          "text": "Autobus e treni funzionano davvero e arrivano sempre: per prova, il team di Rockstar ha raggiunto Watson Bay usando solo i mezzi pubblici. Ci sono anche tram e taxi."
         },
         {
           "title": "Barche e aerei",
@@ -1200,7 +1200,7 @@
         }
       ],
       "tips": [
-        "Usa Ryde Me per i tragitti lunghi e noiosi: è il viaggio rapido del gioco.",
+        "Usa RydeMe per i tragitti lunghi e noiosi: è il viaggio rapido del gioco.",
         "Evita il mare aperto e i cieli quando arriva una tempesta.",
         "Il 19 scarica la mappa gratuita di Leonida: si può stampare."
       ],
@@ -1271,7 +1271,7 @@
       "id": "mec-animali-caccia-pesca",
       "title": "Animali, caccia e pesca",
       "emoji": "🐊",
-      "short": "Leonida ha più di 170 specie animali, da studiare e catalogare in un diario senza ucciderle. La pesca è solo cattura e rilascio; la caccia è un lavoro che paga, ma i guardaparco vigilano.",
+      "short": "Nel gioco ci sono 255 animali da studiare con il binocolo e catalogare senza ucciderli: ogni razza di cane e di gatto conta a parte. La pesca è solo cattura e rilascio; la caccia è un lavoro che paga, ma i guardaparco vigilano.",
       "steps": [
         "Prendi il binocolo dalla ruota, ingrandisci con su sulla croce direzionale e tieni premuto R1 per studiare l'animale: così entra nel diario.",
         "Cerca le specie Rare, Scopribili e Leggendarie: le leggendarie hanno identità segrete.",
@@ -1283,7 +1283,7 @@
       "details": [
         {
           "title": "Le specie",
-          "text": "Oltre 60 uccelli e più di 30 mammiferi, più pesci, rettili e vita marina: squali, balene, razze, tartarughe, meduse. Ci sono nativi come fenicotteri, lamantini, pellicani e alligatori, e invasivi come iguane verdi, rospi delle canne, gatti selvatici e macachi. Alcuni animali non si sono mai visti in un gioco Rockstar."
+          "text": "Il diario ne conta 255: 61 prede di caccia, 60 uccelli, 35 pesci, 34 razze di cani e gatti, 18 mammiferi, 18 animali acquatici, 6 rettili e 23 altri. In acqua trovi squali, balene, razze, tartarughe e meduse. Ci sono nativi come fenicotteri, lamantini, pellicani e alligatori, e invasivi come iguane verdi, rospi delle canne, gatti selvatici e macachi. Alcuni animali non si sono mai visti in un gioco Rockstar."
         },
         {
           "title": "Pesca",
@@ -1323,15 +1323,15 @@
         },
         {
           "source": "stampa",
-          "text": "Con il binocolo gli uccelli si registrano nel diario della fauna: le specie da avvistare sono 62."
+          "text": "Con il binocolo anche gli uccelli entrano nel diario della fauna: nel gioco sono 60 (prima dell'uscita il Guardian ne aveva contati 62)."
         },
         {
           "source": "stampa",
-          "text": "La caccia potrebbe avere una stagione: per Gambit Bay si parla di «apertura della stagione di caccia»."
+          "text": "Gambit Bay è una zona di caccia: il bollettino di The Weather Channel vi prevede nebbia bassa sull'acqua per «un inizio tranquillo della stagione di caccia». Se nel gioco la caccia abbia davvero una stagione non è chiaro."
         },
         {
           "source": "stampa",
-          "text": "Nel diario della fauna ci sono anche 34 razze di cani e gatti, oltre ai 60 e più uccelli."
+          "text": "Nel diario della fauna ci sono anche 34 razze di cani e gatti, oltre ai 60 uccelli."
         },
         {
           "source": "stampa",
@@ -1726,7 +1726,7 @@
       "title": "Sconosciuti e folli",
       "emoji": "🧩",
       "group": "Mondo e vita",
-      "short": "Sono serie di missioni affidate da personaggi che incontri per Leonida: non servono per la storia, ma 8 serie complete valgono il trofeo d'argento «Sconosciuti e folli» e contano per il 100%.",
+      "short": "Sono serie di missioni affidate da personaggi che incontri per Leonida: non servono per la storia, ma 8 serie complete valgono il trofeo d'argento «Sconosciuti e folli». Per il 100% non sono una voce a sé: ogni missione conta tra i 100 incarichi facoltativi.",
       "steps": [
         "Cerca i volantini e i personaggi con l'icona dedicata sulla mappa: ogni serie parte da lì.",
         "Alcune serie si fanno solo con Jason o solo con Lucia: se un incarico non arriva, cambia personaggio.",
@@ -1737,7 +1737,7 @@
       "details": [
         {
           "title": "Le serie che contano per il trofeo",
-          "text": "Lo Skunk Ape (dal capitolo 1, Jason e Lucia) · La fattoria McKittrick (dal capitolo 2, Jason e Lucia) · Le corse di Yago (dal capitolo 3, solo Jason) · Pilot Pete (dal capitolo 4, solo Jason). Ne servono 8: le altre non sono ancora note con certezza."
+          "text": "Lo Skunk Ape (dal capitolo 1, Jason e Lucia) · La fattoria McKittrick (dal capitolo 2, Jason e Lucia) · Le corse di Yago (dal capitolo 3; due missioni solo con Jason) · Pilot Pete (dal capitolo 4, solo Jason). Ne servono 8: le altre non sono ancora note con certezza."
         },
         {
           "title": "Note",
@@ -1745,7 +1745,7 @@
         }
       ],
       "tips": [
-        "Le serie di contatti come Billy, Moses, Andy, Yasmani, Tyrone, Randy, Eddie e Shirley non contano per questo trofeo, ma valgono per il 100% come incarichi facoltativi."
+        "Le serie di Shirley, Billy, Moses, Andy, Yasmani, Tyrone ed Eddie non contano per questo trofeo (per Randy non è ancora chiaro), ma valgono per il 100% come incarichi facoltativi."
       ],
       "status": "da verificare",
       "source": "stampa",

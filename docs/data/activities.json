@@ -124,7 +124,7 @@
       ],
       "rewards": [
         "Una gioielleria rende da 1.000 a 25.000 $ a colpo.",
-        "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con lo Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
+        "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con la Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
         "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato."
       ],
       "steps": [
@@ -244,7 +244,7 @@
       "requirements": [
         "Compra il pass da 5 $ dal commesso di ciascun poligono: le sfide compaiono sulla mappa.",
         "Se non hai l'arma richiesta la noleggi per 10 $: bastano quelle a noleggio.",
-        "Per il 100% servono tutti i 42 ori."
+        "Per il 100% servono tutti i 42 ori, uno per livello di difficoltà: 18 al Griffin (6 sfide da 3 livelli) e 24 al Rodgers (6 sfide da 4 livelli)."
       ],
       "rewards": [
         "Trofeo «Cecchino».",
@@ -356,11 +356,11 @@
       "districtId": "dis-keys",
       "description": "Kenton Rees, a Key Lento, ti manda a ripulire 7 relitti: segna i forzieri viola sulla mappa e tu porti a galla i tesori col metal detector. Dopo il capitolo 1 sparisce per un po' e torna tra il capitolo 2 e il 3.",
       "requirements": [
-        "Per il 100%: 5 serie di Kenton su 7 e tutte le 33 scoperte sottomarine (per queste servono tutti i relitti)."
+        "Per il 100%: 5 set di Kenton su 7 e tutte le 33 scoperte subacquee; per queste servono tutti e 7 i set, quindi in pratica li fai tutti."
       ],
       "rewards": [
         "Trofeo «Ci serve una barca più grossa».",
-        "Sfide di esplorazione: 25 stranezze sul fondale, 85 tesori sottomarini, tutti gli 11 relitti «buco nero»."
+        "Sfide di esplorazione: 25 stranezze sul fondale, 85 tesori subacquei, tutti e 11 i relitti «Black Hole» (Black Hole Wrecks)."
       ],
       "steps": [
         "Dalla ruota scegli il metal detector e nuota nella zona rosa finché la luce diventa verde."
@@ -681,7 +681,7 @@
       "type": "attività",
       "name": "Meditazione",
       "districtId": null,
-      "description": "Diciotto meditazioni in dieci posti panoramici, segnati in viola quando ti avvicini: banco di sabbia a ovest di Capri, Buckskin Swamp, Camp Moonflower, Manifest Canyon, la vecchia cartiera di Moreau, la torre sulla miniera di Mount Kalaga, la cascata a nord-ovest di Tallaloko e gli scogli a est di Waning Sands. Ogni posto vale due meditazioni, una per Jason e una per Lucia.",
+      "description": "Diciotto meditazioni in dieci posti panoramici, segnati in viola quando ti avvicini: banco di sabbia a ovest di Capri, Buckskin Swamp, Camp Moonflower, Manifest Canyon, la vecchia cartiera di Moreau, la torre sulla miniera di Mount Kalaga, la cascata a nord-ovest di Tallaloko e gli scogli a est di Waning Sands. Ognuno di questi otto posti vale due meditazioni, una per Jason e una per Lucia; la prima, a casa di Jason, e l'ultima, sul Mount Kalaga, ne valgono una.",
       "requirements": [
         "Per il 100% ne bastano 15 su 18.",
         "La prima si fa solo nel capitolo 1, a casa di Jason, quando Lucia propone di meditare sul balcone: dopo non torna.",
@@ -825,7 +825,7 @@
         "Dopo la storia: 50 salti sbloccano il trucco Nitro infinito."
       ],
       "steps": [
-        "In Mappa › Esplorazione › Stunt Spots le acrobazie trovate sono viola, quelle fatte bianche."
+        "In Mappa › Esplorazione › Punti acrobazia (Stunt Spots) le acrobazie trovate sono viola, quelle fatte bianche."
       ],
       "image": null,
       "status": "da verificare",
@@ -866,7 +866,7 @@
       "type": "attività",
       "name": "Banche e finanziarie",
       "districtId": null,
-      "description": "Ventidue banche: 14 piccole (cassetto e cassaforte) e 8 grandi con il caveau, tra Fleeca, Lombank, Shorefront, Gibson Brothers Bank e Druthers State Bank. Più 7 finanziarie Payday Loans e Quick Buck. Si aprono a metà del capitolo 3, quando sblocchi il disturbatore delle cartucce di inchiostro.",
+      "description": "Ventidue banche: 14 piccole (cassa e cassaforte) e 8 grandi con il caveau, tra Fleeca, Lombank, Shorefront, Gibson Brothers Bank e Druthers State Bank. Più 7 finanziarie Payday Loans e Quick Buck. Si aprono a metà del capitolo 3, quando sblocchi il disturbatore delle cartucce di inchiostro.",
       "requirements": [
         "Per il 100%: tutte le 22 banche, le 7 finanziarie, gli 8 caveau, 250.000 $ di banconote segnate rivendute.",
         "I caveau si aprono alla fine del capitolo 4: segui un furgone portavalori fino alla banca ed entra mentre la guardia porta il contante."
