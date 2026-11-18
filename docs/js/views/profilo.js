@@ -53,9 +53,9 @@ export function panelHtml({ compact = false } = {}) {
       <p class="small muted">${esc(a.email)}</p><p class="small muted" data-cloud-status>${esc(statusText())}</p></div></div>
       ${compact ? '' : `<form class="acct__nick" data-nick-form><label class="field"><span>Il tuo nick</span>
         <input class="input" name="nick" maxlength="${NICK_MAX}" autocomplete="nickname" autocorrect="off" enterkeyhint="done" placeholder="${esc(a.email.split('@')[0])}" value="${esc(progress.settings().nick || '')}"></label>
-        <button class="btn" type="submit">Salva</button></form>`}
-      ${compact ? '' : `<div class="btn-row"><button class="btn btn--solid" type="button" data-cloud-now>Salva adesso</button>
-      <button class="btn btn--ghost" type="button" data-cloud-out>Esci dal profilo</button></div>`}
+        <button class="btn" type="submit">Cambia nick</button></form>`}
+      ${compact ? '' : `<div class="btn-row"><button class="btn btn--solid" type="button" data-cloud-now>Salva progressi</button>
+      <button class="btn btn--ghost" type="button" data-cloud-out>Esci</button></div>`}
     </div>`;
   }
   return `<form class="acct" data-login-form novalidate>
@@ -109,7 +109,11 @@ export function bind(root, rerender, { after } = {}) {
     progress.setSetting('nick', nick); f.nick.blur(); rerender(); toast(nick ? `Ora sei ${nick}` : 'Nick tolto: si vede la tua email');
   });
   root.addEventListener('click', async (e) => {
-    if (e.target.closest('[data-cloud-now]')) { await cloud.flush(); await cloud.sync(); toast(cloud.getStatus() === 'saved' ? 'Salvato online' : statusText()); rerender(); return; }
+    if (e.target.closest('[data-cloud-now]')) {
+      // Se hai scritto un nick nuovo e non l'hai ancora confermato, si salva anche quello
+      const ni = root.querySelector('[data-nick-form] input');
+      if (ni && cleanNick(ni.value) !== (progress.settings().nick || '')) progress.setSetting('nick', cleanNick(ni.value));
+      await cloud.flush(); await cloud.sync(); toast(cloud.getStatus() === 'saved' ? 'Salvato online' : statusText()); rerender(); return; }
     if (e.target.closest('[data-cloud-out]')) {
       if (!confirm('Uscire dal profilo? I progressi restano anche su questo telefono, ma non si salvano più online finché non rientri.')) return;
       await cloud.flush(); cloud.logout(); rerender(); toast('Sei uscito dal profilo');

@@ -110,7 +110,7 @@ export async function login(rawEmail) {
 
 export function logout() { clearTimeout(timer); setAccount(null); setStatus('idle'); }
 
-/** Salva subito (bottone «Salva adesso» e uscita dall'app). */
+/** Salva subito (bottone «Salva progressi» e uscita dall'app). */
 export async function flush(opts) { clearTimeout(timer); const a = account(); if (a && a.localAt !== a.pushedAt) await push(opts); }
 
 /** Allinea con la copia online: se è più recente la prende, se è più vecchia la aggiorna. */
