@@ -39,7 +39,7 @@
           "title": "Com'è Port Gellhorn",
           "paragraphs": [
             "Port Gellhorn è una località di villeggiatura che ha visto tempi migliori: motel economici, attrazioni chiuse e centri commerciali vuoti che non riporteranno mai i turisti. Oggi il posto si regge su birra ad alta gradazione, antidolorifici ed energy drink da autogrill. Il consiglio: salta su una moto da cross e tieniti stretto il portafoglio.",
-            "Di notte la città si accende: un motel con l'insegna \"vacancy\", il parcheggio del club cabaret Delights, un falò in spiaggia, un pacchetto passato attraverso il finestrino di un'auto e una grow room sorvegliata da due uomini armati di pala e mazza da baseball. Dall'alto, al tramonto, è una distesa bassa di case, stazioni di servizio e linee elettriche sotto una torre dell'acqua arrugginita.",
+            "Di notte la città si accende: un motel con l'insegna \"vacancy\", il parcheggio del club cabaret Delights, un falò in spiaggia, un pacchetto passato dal finestrino di un'auto e una coltivazione al chiuso sorvegliata da due uomini armati di pala e mazza da baseball. Dall'alto, al tramonto, è una distesa bassa di case, stazioni di servizio e linee elettriche sotto una torre dell'acqua arrugginita.",
             "Il team di Rockstar ha studiato le città della Florida settentrionale come Panama City e i piccoli centri rurali, e ha usato l'industria del legname della regione e i terreni disboscati sia per l'aspetto sia per il gameplay. Decine di edifici di Port Gellhorn corrispondono a quelli della Tyndall Parkway di Panama City."
           ],
           "bullets": []
@@ -251,7 +251,7 @@
           "a": "Il Gellhorn International Raceway si trova a est di Port Gellhorn. Le sue curve riprendono tornanti famosi come l'Eau Rouge, il Corkscrew e Le Mans."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
@@ -435,7 +435,7 @@
           "id": "what-ambrosia-is-like",
           "title": "Com'è Ambrosia",
           "paragraphs": [
-            "Ambrosia è il cuore di Leonida, dove l'industria americana e i valori della vecchia scuola vengono ancora prima di tutto, a qualunque costo. Una gang di motociclisti in gilet di pelle coordinati attraversa la città, di notte le ciminiere della raffineria dominano lo skyline, i campi di canna bruciano al tramonto e c'è un autolavaggio di provincia.",
+            "Ambrosia è il cuore di Leonida, dove l'industria americana e i valori della vecchia scuola vengono ancora prima di tutto, a qualunque costo. Per la città passa una gang di motociclisti in gilet di pelle coordinati, di notte le ciminiere della raffineria dominano lo skyline, al tramonto bruciano i campi di canna, e non manca un autolavaggio di provincia.",
             "La raffineria di zucchero Allied Crystal domina tutto: mulino, silos, serbatoi, magazzini, cancello sorvegliato e palazzina uffici, ricalcati sullo stabilimento US Sugar di Clewiston. Intorno ci sono i pezzi di una città operaia: un negozio di alimentari cubani sotto un gigantesco murale con aquila e bandiera, una stazione di servizio affollata di biker, un dipartimento di polizia, una stazione ferroviaria e una torre dell'acqua.",
             "Il nome calza a pennello: l'ambrosia, il cibo degli dèi, è diventata sinonimo di qualsiasi cosa meravigliosamente dolce."
           ],
@@ -445,7 +445,7 @@
           "id": "wyman-s-world-and-the-classic-car-collection",
           "title": "Wyman's World e la Classic Car Collection",
           "paragraphs": [
-            "Uno dei bonus della Ultimate Edition vive qui. La Classic Car Collection ti chiede di rintracciare auto d'epoca abbandonate e progetti incompiuti e di restaurarli per Wyman, un collezionista eccentrico e faccendiere locale.",
+            "Qui si trova uno dei bonus della Ultimate Edition: la Classic Car Collection, in cui rintracci auto d'epoca abbandonate e progetti incompiuti e li restauri per Wyman, un collezionista eccentrico e faccendiere locale.",
             "Wyman sta nel suo piazzale con una chiave inglese in mano, indossa una maglietta Wyman's World Auto Salvage ed è circondato da muscle car con livree da corsa. Wyman's World si trova sulla strada principale di Ambrosia."
           ],
           "bullets": []
@@ -462,7 +462,7 @@
             "Restaura auto d'epoca per Wyman al Wyman's World Auto Salvage (Ultimate Edition).",
             "Gareggia all'Ambrosia Raceway Park, ricalcato su una vera pista di drag racing vicino a Clewiston.",
             "Bevi qualcosa con i biker al The Thirsty Wolf.",
-            "Sporcati di fango al parco Thrillbilly appena a ovest, quello della festa nel fango."
+            "Sporcati di fango al Thrillbilly, il parco della festa nel fango, appena a ovest."
           ]
         },
         {
@@ -498,7 +498,7 @@
         {
           "name": "Raffineria di zucchero Allied Crystal",
           "real": "Stabilimento US Sugar, Clewiston",
-          "text": "Le ciminiere della raffineria riversano fumo nel tramonto rosso. Fornisce la maggior parte dei posti di lavoro di Ambrosia.",
+          "text": "La raffineria che dà lavoro a gran parte di Ambrosia: le sue ciminiere riversano fumo nel tramonto rosso.",
           "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l399.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l399-full.webp",
           "marker": "lmk-allied-crystal-sugar-refinery",
@@ -559,7 +559,7 @@
         {
           "name": "The Thirsty Wolf",
           "real": null,
-          "text": "Un bar roadhouse in legno con i biker davanti.",
+          "text": "Un locale di legno lungo la strada, con i biker davanti.",
           "image": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l2938.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/ambrosia/landmark-l2938-full.webp",
           "marker": null,
@@ -622,7 +622,7 @@
           "a": "Wyman, il collezionista dietro la Classic Car Collection della Ultimate Edition, gestisce Wyman's World Auto Salvage, ad Ambrosia."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
@@ -794,7 +794,7 @@
           "id": "what-grassrivers-is-like",
           "title": "Com'è Grassrivers",
           "paragraphs": [
-            "Un airboat attraversa il sawgrass dorato all'alba, uno stormo di fenicotteri si alza da una laguna piena di alligatori. Ci sono airboat circondati da alligatori, una banda coperta di fango che posa con un alligatore morto e un gatto selvatico, ed elicotteri della polizia che inseguono un pickup attraverso la palude.",
+            "Un airboat attraversa il sawgrass dorato all'alba, uno stormo di fenicotteri si alza da una laguna piena di alligatori. Ci sono airboat circondati da alligatori, una banda coperta di fango che posa con un alligatore e un gatto selvatico morti, ed elicotteri della polizia che inseguono un pickup attraverso la palude.",
             "Non è una landa deserta: ci sono accampamenti di capanne su palafitte e pontili tra le mangrovie, cacciatori con le loro prede e lo skyline di Vice City sfumato all'orizzonte.",
             "Il nome è un omaggio al libro del 1947 di Marjory Stoneman Douglas, The Everglades: River of Grass, che contribuì a trasformare la vera palude in un parco nazionale."
           ],
@@ -805,7 +805,7 @@
           "title": "Fauna e pericoli",
           "paragraphs": [
             "Gli alligatori sono ovunque a Grassrivers, dalle lagune aperte agli airboat circondati dai rettili. Ci sono anche fenicotteri, uccelli acquatici e gatti selvatici.",
-            "Un post social di OfficialPOACH avverte i residenti di Vice City di controllare che non ci siano ospiti indesiderati prima di una festa in piscina, mentre un alligatore esce dall'acqua. Aspettati agenti della fauna selvatica, e qualche alligatore occasionale, ben oltre la palude stessa."
+            "Sui social, l'account OfficialPOACH avverte gli abitanti di Vice City di controllare che non ci siano ospiti indesiderati prima di una festa in piscina, mentre un alligatore esce dall'acqua. Agenti della fauna selvatica, e ogni tanto qualche alligatore, si incontrano anche lontano dalla palude."
           ],
           "bullets": []
         },
@@ -820,7 +820,7 @@
             "Osserva i fenicotteri e gli alligatori nelle lagune aperte.",
             "Vai a caccia nell'entroterra: i cacciatori girano con fucili e caricano le prede sugli airboat.",
             "Fai perdere le tue tracce alla polizia nella palude, se hai il coraggio di lasciare la strada.",
-            "Sali sulla torre di osservazione per una vista sulla marcita.",
+            "Sali sulla torre di osservazione per una vista sulla palude.",
             "Visita l'accampamento su palafitte di Alligator Creek, sul margine sud-orientale della palude."
           ]
         },
@@ -829,7 +829,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Grassrivers è una regione, quindi la posizione ne segna il centro approssimativo. Hamlet è l'ultima vera città prima della palude, circa 800 metri a nord-est, e Watson Bay si trova sulla sua costa 700 metri a nord-ovest. Alligator Creek è appena a est.",
-            "Le strade attraversano la palude su argini e ponti, ma gran parte del territorio è raggiungibile solo in barca. Procurati un airboat ai margini della marcita ed esplora dall'acqua."
+            "Le strade attraversano la palude su argini e ponti, ma gran parte del territorio è raggiungibile solo in barca. Procurati un airboat ai margini della palude ed esplora dall'acqua."
           ],
           "bullets": []
         },
@@ -871,7 +871,7 @@
         {
           "name": "Torre di osservazione",
           "real": "Shark Valley Observation Tower",
-          "text": "Un'alta torre di cemento sopra la marcita, ricalcata sul celebre belvedere delle Everglades.",
+          "text": "Un'alta torre di cemento sopra la palude, ricalcata sul celebre belvedere delle Everglades.",
           "image": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l609.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/grassrivers/landmark-l609-full.webp",
           "marker": "lmk-observation-tower",
@@ -931,7 +931,7 @@
       "faq": [
         {
           "q": "Grassrivers sono le Everglades?",
-          "a": "Sì, nello spirito. Grassrivers è la versione di Leonida delle Everglades della Florida, con marcite di sawgrass, mangrovie, airboat e alligatori. Il nome richiama il libro The Everglades: River of Grass."
+          "a": "Sì, nello spirito. Grassrivers è la versione di Leonida delle Everglades della Florida, con distese di sawgrass, mangrovie, airboat e alligatori. Il nome richiama il libro The Everglades: River of Grass."
         },
         {
           "q": "Ci sono alligatori in GTA VI?",
@@ -946,7 +946,7 @@
           "a": "Non c'è una dimensione ufficiale. Copre una vasta parte della Leonida meridionale, il che la rende una delle regioni più grandi del gioco."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
@@ -1128,7 +1128,7 @@
           "id": "leonida-penitentiary",
           "title": "Leonida Penitentiary",
           "paragraphs": [
-            "L'edificio più importante di Hamlet è la sua prigione. Lottare per la sua famiglia ha portato Lucia nel Leonida Penitentiary: la storia comincia con lei in tuta arancione che parla con un'agente del suo rilascio. Jason la aspetta fuori dai cancelli per venirla a prendere.",
+            "L'edificio più importante di Hamlet è la sua prigione. Lottare per la sua famiglia ha portato Lucia nel Leonida Penitentiary: la storia comincia con lei in tuta arancione che parla del suo rilascio con un'agente. Jason la aspetta fuori dai cancelli per venirla a prendere.",
             "Il complesso ha un alto edificio principale, un anello di torrette di guardia e un cancello d'ingresso recintato sulla strada. Le uniformi portano il distintivo del Leonida Department of Corrections.",
             "Aspettati che la prigione sia off-limits al di fuori delle missioni della storia. In GTA V, intrufolarsi nel Bolingbroke Penitentiary faceva scattare istantaneamente il livello di ricercato, e niente suggerisce che le guardie di Leonida saranno più amichevoli."
           ],
@@ -1141,7 +1141,7 @@
             "Le attività di Hamlet non sono ancora state elencate, ma ci sono già alcuni motivi per fermarsi."
           ],
           "bullets": [
-            "Visita Sara's Unisex Salon sulla via principale. Sara's Salon è un bonus della Ultimate Edition che offre acconciature esclusive, barba, trucco e unghie per Jason e Lucia.",
+            "Visita Sara's Unisex Salon sulla via principale: è un bonus della Ultimate Edition, con acconciature, barba, trucco e unghie esclusivi per Jason e Lucia.",
             "Passa davanti al Leonida Penitentiary per vedere dove inizia la storia, idealmente al tramonto, quando le torrette di guardia si stagliano contro il cielo.",
             "Usa la città come base per Grassrivers, la cui palude inizia appena a sud-ovest di Hamlet.",
             "Segui la strada costiera verso est fino alla Fuzzard Power Station a Peregrine Bay, la centrale elettrica che vedi all'orizzonte."
@@ -1234,7 +1234,7 @@
         {
           "name": "La palazzina del livestream",
           "real": "Palazzina su NW 14th Avenue, Miami",
-          "text": "La palazzina di due piani con scale esterne del video \"neighborhood watch\", con la donna armata di martello. Jason vi si avvicina.",
+          "text": "La palazzina di due piani con scale esterne a cui si avvicina Jason: è quella del video \"neighborhood watch\", con la donna armata di martello.",
           "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1843.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1843-full.webp",
           "marker": "lmk-the-livestream-apartment-block",
@@ -1277,7 +1277,7 @@
           "a": "Sì, Sara's Unisex Salon è sulla via principale di Hamlet. Fa parte della Ultimate Edition di GTA VI, quindi ti serve quell'edizione per usarlo."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/lucia",
@@ -1437,7 +1437,7 @@
         -421.0
       ],
       "marker": "plc-ocean-beach",
-      "summary": "Ocean Beach è l'estremità meridionale di Vice Beach e l'immagine da cartolina di GTA VI: hotel Art Déco color pastello e sabbia bianchissima. Qui il pacchetto preordine Vintage Vice City colloca il tuo primo garage.",
+      "summary": "Ocean Beach è l'estremità meridionale di Vice Beach e l'immagine da cartolina di GTA VI: hotel Art Déco color pastello e sabbia bianchissima. Qui si trova il tuo primo garage, quello del pacchetto preordine Vintage Vice City.",
       "facts": {
         "Regione": "Vice Beach meridionale, di fronte a Downtown al di là della baia",
         "Ispirazione reale": "South Beach, Miami Beach",
@@ -1653,7 +1653,7 @@
           "a": "È incluso nel Vintage Vice City Pack, il bonus preordine, insieme alla berlina Vapid Stanier del '55."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
@@ -1959,7 +1959,7 @@
           "a": "Nella baia tra Downtown Vice City e Ocean Beach, accanto alla strada sopraelevata principale. La posizione esatta è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -2111,7 +2111,7 @@
         -362.0
       ],
       "marker": "plc-watson-island",
-      "summary": "Watson Island è il trampolino tra Downtown Vice City e le spiagge. La strada sopraelevata principale per Vice Beach la attraversa, il tunnel del porto si immerge sotto l'acqua accanto a essa, e le sue rive ospitano un porticciolo, una base per idrovolanti e giardini. Il nome è provvisorio, preso dall'isola reale di Miami.",
+      "summary": "Watson Island è il punto di passaggio tra Downtown Vice City e le spiagge. La attraversa la strada sopraelevata principale per Vice Beach, accanto il tunnel del porto scende sotto l'acqua, e sulle sue rive ci sono un porticciolo, una base per idrovolanti e giardini. Il nome è provvisorio, preso dall'isola reale di Miami.",
       "facts": {
         "Regione": "Catalan Bay, tra Downtown e Starfish Island",
         "Ispirazione reale": "Watson Island e la MacArthur Causeway, Miami",
@@ -2124,7 +2124,7 @@
           "title": "Com'è Watson Island",
           "paragraphs": [
             "Questa parte della baia dà il meglio al crepuscolo e di notte. I ponti della strada sopraelevata brillano di rosa e viola sull'acqua, i motoscafi tagliano la Catalan Bay con lo skyline di Downtown alle spalle, e le luci di un porticciolo e dei ristoranti sul lungomare punteggiano la riva dell'isola.",
-            "Diversi punti corrispondono alla Watson Island di Miami: un ponte della strada sopraelevata, una base per idrovolanti, una terrazza del porticciolo e un giardino giapponese. C'è anche il vero vicino dell'isola, Jungle Island, con l'alto tetto a tenda bianco visibile dall'acqua.",
+            "Diversi punti corrispondono alla Watson Island di Miami: un ponte della strada sopraelevata, una base per idrovolanti, una terrazza del porticciolo e un giardino giapponese. C'è anche l'equivalente di Jungle Island, il parco dell'isola reale, con l'alto tetto bianco a tenda visibile dall'acqua.",
             "L'isola non ha ancora un nome ufficiale: Watson Island è un nome provvisorio preso in prestito da Miami. Non ha nulla a che vedere con Watson Bay, la città di Grassrivers."
           ],
           "bullets": []
@@ -2276,7 +2276,7 @@
           "a": "Prendi la strada sopraelevata principale attraverso Watson Island. È il collegamento tra Downtown e le spiagge, come la MacArthur Causeway di Miami."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/cal",
@@ -2578,7 +2578,7 @@
           "a": "Sulle Rialto Islands ci sono campi da tennis. Non è ancora noto se il tennis sia un'attività giocabile, come lo era in GTA V."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/videos/rkoctr1r",
@@ -2762,7 +2762,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Dalton Island si trova a est di Port Vice City e a sud di Ocean Beach, con Catalan Key e Gloriana Key a circa 700 metri a ovest.",
-            "La sua controparte reale è raggiungibile solo in traghetto, elicottero o barca privata. Non è noto alcun ponte, quindi pianifica una barca da Vice Beach o dal porto."
+            "La sua controparte reale è raggiungibile solo in traghetto, elicottero o barca privata. Non è noto alcun ponte, quindi organizzati per arrivarci in barca da Vice Beach o dal porto."
           ],
           "bullets": []
         },
@@ -2790,7 +2790,7 @@
         {
           "name": "Terminal dei traghetti",
           "real": "Fisher Island Ferry Terminal",
-          "text": "Il collegamento dell'isola con il mondo esterno. La sua controparte reale gestisce un traghetto privato per auto.",
+          "text": "Il collegamento dell'isola con il resto del mondo: il terminal reale serve un traghetto privato per auto.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-ferry-terminal",
@@ -2848,7 +2848,7 @@
           "a": "In barca. La vera Fisher Island non ha un ponte stradale, solo un traghetto privato, e non è noto alcun ponte verso l'isola."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -2979,7 +2979,7 @@
         -1504.0
       ],
       "marker": "plc-virginia-key",
-      "summary": "Gloriana Key è la prima isola che raggiungi sulla strada sopraelevata meridionale da Tequesta, una key bassa e verde di spiagge, club nautici e uno stadio marino in cemento sull'acqua. È uno degli angoli più tranquilli di Vice City, a breve distanza in auto dalle torri ma lontano anni luce da esse.",
+      "summary": "Gloriana Key è la prima isola che raggiungi sulla strada sopraelevata meridionale da Tequesta: un isolotto basso e verde di spiagge, club nautici e uno stadio marino in cemento sull'acqua. È uno degli angoli più tranquilli di Vice City, a breve distanza in auto dalle torri ma lontano anni luce da esse.",
       "facts": {
         "Regione": "Catalan Bay, a sud-est di Tequesta",
         "Ispirazione reale": "Virginia Key e la parte settentrionale di Key Biscayne, Miami",
@@ -3015,7 +3015,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Una strada sopraelevata con un alto ponte lascia la terraferma a sud di Tequesta e attraversa la baia fino all'isola. Catalan Key è appena a nord, Tequesta Retreat a circa 600 metri a nord-ovest e Dalton Island a 700 metri a est.",
-            "È un percorso senza uscita: la strada prosegue fino alle key meridionali e lì si ferma, quindi pianifica il ritorno."
+            "È una strada senza uscita: arriva fino alle isole meridionali e lì finisce, quindi tieni conto del ritorno."
           ],
           "bullets": []
         },
@@ -3111,7 +3111,7 @@
           "a": "Un edificio di Gloriana Key corrisponde al Miami Marine Stadium, ma finora si è visto solo da lontano."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -3235,7 +3235,7 @@
       "slug": "catalan-key",
       "url": "https://www.gtasixmap.com/locations/catalan-key",
       "name": "Catalan Bay (Biscayne Bay)",
-      "lead": "Catalan Bay è la Biscayne Bay di GTA VI: lo specchio d'acqua tra Vice City e le sue isole, con motoscafi, case su palafitte, un faro e le key di Catalan e Gloriana.",
+      "lead": "Catalan Bay è la Biscayne Bay di GTA VI: lo specchio d'acqua tra Vice City e le sue isole, con motoscafi, case su palafitte, un faro, Catalan Key e Gloriana Key.",
       "badges": [
         "Posizione non confermata",
         "Posizione stimata",
@@ -3267,9 +3267,9 @@
           "id": "what-catalan-bay-is-like",
           "title": "Com'è Catalan Bay",
           "paragraphs": [
-            "La baia è ovunque. I motoscafi sfrecciano lungo un canale davanti alle gru portuali di Port Vice City, i cabinati la attraversano al crepuscolo con le torri di Downtown e una strada sopraelevata illuminata alle spalle, e di notte il motoscafo Squalo della Ultimate Edition corre con lo skyline della città che brilla al di là dell'acqua.",
-            "Le strade sopraelevate la attraversano da Downtown e Bayside verso le spiagge. Più a sud l'acqua si apre, con le key di Gloriana e Catalan sul lato orientale e, nelle acque basse, un gruppo di case su palafitte ricalcate sulla Stiltsville di Miami.",
-            "Catalan Bay è un nome provvisorio. Viene dal Catalan Boulevard, che compare su un cartello ed è la versione di GTA VI del Biscayne Boulevard di Miami. La Biscaglia è una provincia spagnola nel Paese Basco; in GTA VI è stata sostituita con la Catalogna, un'altra regione spagnola."
+            "La baia si vede ovunque. I motoscafi sfrecciano lungo un canale davanti alle gru portuali di Port Vice City, i cabinati la attraversano al crepuscolo con le torri di Downtown e una strada sopraelevata illuminata alle spalle, e di notte il motoscafo Squalo della Ultimate Edition corre con lo skyline della città che brilla al di là dell'acqua.",
+            "Le strade sopraelevate la attraversano da Downtown e Bayside verso le spiagge. Più a sud l'acqua si apre, con Gloriana Key e Catalan Key sul lato orientale e, nelle acque basse, un gruppo di case su palafitte ricalcate sulla Stiltsville di Miami.",
+            "Catalan Bay è un nome provvisorio. Viene dal Catalan Boulevard, che compare su un cartello ed è la versione di GTA VI del Biscayne Boulevard di Miami. Biscayne richiama la Biscaglia, provincia spagnola nel Paese Basco: in GTA VI è stata sostituita con la Catalogna, un'altra regione spagnola."
           ],
           "bullets": []
         },
@@ -3292,7 +3292,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Qualsiasi lungomare di Vice City o Vice Beach tocca la baia. I porticcioli di Bayside, Watson Island e Peacock Bay sono buoni posti per trovare una barca, e le strade sopraelevate offrono ai guidatori una vista su di essa.",
-            "Questa posizione si trova al centro della baia appena a sud di Port Vice City, con Tequesta Retreat mezzo chilometro a ovest, Gloriana Key appena a sud e Dalton Island a circa 700 metri a est."
+            "Il punto sulla mappa segna il centro della baia, appena a sud di Port Vice City: Tequesta Retreat è mezzo chilometro a ovest, Gloriana Key appena a sud e Dalton Island a circa 700 metri a est."
           ],
           "bullets": []
         },
@@ -3312,7 +3312,7 @@
           "paragraphs": [],
           "bullets": [
             "Una barca trasforma la baia in una scorciatoia: Downtown, il porto e le spiagge sono a pochi minuti l'uno dall'altro attraverso l'acqua.",
-            "Dirigiti a sud per acque aperte e isole più tranquille; la baia settentrionale è trafficata da strade sopraelevate, il porto e le navi da crociera.",
+            "Dirigiti a sud per acque aperte e isole più tranquille: a nord la baia è occupata da strade sopraelevate, porto e navi da crociera.",
             "Visita le case su palafitte e il faro in barca. Nella baia reale, entrambi sono raggiungibili solo dall'acqua o dall'estremità della key."
           ]
         }
@@ -3372,7 +3372,7 @@
       "faq": [
         {
           "q": "Catalan Bay è in GTA VI?",
-          "a": "Sì, la baia è ovunque a Vice City. Il nome Catalan Bay è provvisorio, ricavato dal Catalan Boulevard: il nome ufficiale della baia non è ancora noto."
+          "a": "Sì, la baia si vede ovunque a Vice City. Il nome Catalan Bay è provvisorio, ricavato dal Catalan Boulevard: il nome ufficiale della baia non è ancora noto."
         },
         {
           "q": "A quale luogo reale si ispira Catalan Bay?",
@@ -3380,14 +3380,14 @@
         },
         {
           "q": "Si può pescare in GTA VI?",
-          "a": "Lo Squalo della Ultimate Edition è perfetto per lanciare l'esca nella Gambit Bay e tirare su prede di ogni tipo, quindi si pesca dalle barche. I dettagli non sono ancora noti."
+          "a": "Sì, dalle barche: lo Squalo della Ultimate Edition è perfetto per lanciare l'esca nella Gambit Bay e tirare su prede di ogni tipo. I dettagli non sono ancora noti."
         },
         {
           "q": "Stiltsville è in GTA VI?",
           "a": "Le case su palafitte nella baia sono ricalcate sulla Stiltsville di Miami. Il loro nome nel gioco non è ancora noto."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/videos/rkoctr1r",
@@ -3523,7 +3523,7 @@
       "slug": "little-cuba",
       "url": "https://www.gtasixmap.com/locations/little-cuba",
       "name": "Little Cuba",
-      "lead": "Little Cuba è la Little Havana di GTA VI: un quartiere di Vice City fatto di panaderías, finestrini del caffè e vecchie chiese sul fiume, appena a ovest del centro.",
+      "lead": "Little Cuba è la Little Havana di GTA VI: un quartiere di Vice City fatto di panaderías, finestrelle del caffè sulla strada e vecchie chiese sul fiume, appena a ovest del centro.",
       "badges": [
         "Confermato da Rockstar",
         "Posizione stimata",
@@ -3543,7 +3543,7 @@
         -508.0
       ],
       "marker": "plc-little-cuba",
-      "summary": "Little Cuba è il cuore cubano di Vice City, un quartiere basso di panetterie, caffè e case di famiglia lungo il Vice River, a pochi isolati a ovest delle torri del centro. È il posto delle vivaci panaderías.",
+      "summary": "Little Cuba è il cuore cubano di Vice City: un quartiere basso di vivaci panaderías, caffè e case di famiglia lungo il Vice River, a pochi isolati a ovest delle torri del centro.",
       "facts": {
         "Regione": "Terraferma di Vice City, a ovest di Downtown",
         "Ispirazione reale": "Little Havana, Miami",
@@ -3568,7 +3568,7 @@
             "Del quartiere si conosce ancora poco: ecco cosa cercare."
           ],
           "bullets": [
-            "Cerca le panaderías e i finestrini del caffè. Nella vera Little Havana, la ventanita da marciapiede che serve caffè cubano è il simbolo del quartiere.",
+            "Cerca le panaderías e le finestrelle del caffè: nella vera Little Havana la ventanita sul marciapiede che serve caffè cubano è il simbolo del quartiere.",
             "Trova Calle Creativa, un centro artistico ricalcato sul Cubaocho Museum di Miami sulla Calle Ocho.",
             "Usa la chiesa con la cupola come punto di riferimento: spicca sopra i tetti bassi.",
             "Cammina verso est fino a Downtown o verso nord in Rockridge, sede dello stadio Fleeca Field dei Vice City Mambas."
@@ -3598,7 +3598,7 @@
           "title": "Little Cuba nei giochi precedenti",
           "paragraphs": [
             "Il quartiere cubano di Vice City non è una novità. In GTA Vice City (2002) si chiamava Little Havana ed era la casa dei Cubani, la gang guidata da Umberto Robina dal suo Café Robina.",
-            "Nell'Universo HD il quartiere è stato rinominato Little Cuba. GTA IV menzionava ancora \"Little Havana\" di sfuggita, quindi GTA VI è il primo gioco a mostrare il quartiere con il suo nuovo nome."
+            "Nell'Universo HD, cioè nei GTA da GTA IV in poi, il quartiere è stato rinominato Little Cuba. GTA IV menzionava ancora \"Little Havana\" di sfuggita, quindi GTA VI è il primo gioco a mostrare il quartiere con il suo nuovo nome."
           ],
           "bullets": []
         },
@@ -3681,7 +3681,7 @@
         },
         {
           "q": "A cosa si ispira Little Cuba?",
-          "a": "A Little Havana, lo storico quartiere cubano di Miami attorno alla Calle Ocho, noto per le panetterie, i finestrini del caffè, il parco del domino e il festival di strada."
+          "a": "A Little Havana, lo storico quartiere cubano di Miami attorno alla Calle Ocho, noto per le panetterie, le finestrelle del caffè sulla strada, il parco del domino e il festival di strada."
         },
         {
           "q": "Little Cuba c'era in GTA Vice City?",
@@ -3692,7 +3692,7 @@
           "a": "Sulla terraferma appena a ovest di Downtown Vice City, con il Vice River a sud. La posizione sulla mappa è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
@@ -3921,7 +3921,7 @@
         {
           "name": "Ponte ferroviario sollevabile",
           "real": "Ponte basculante FEC Strauss, Jacksonville",
-          "text": "Un ponte ferroviario in acciaio scuro sull'acqua, uno dei diversi attraversamenti ferroviari di qui.",
+          "text": "Un ponte ferroviario in acciaio scuro sull'acqua, uno dei vari ponti ferroviari della zona.",
           "image": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l597.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/draper-island/landmark-l597-full.webp",
           "marker": "lmk-rail-lift-bridge",
@@ -3968,7 +3968,7 @@
           "a": "Industria pesante: una cartiera, gru portuali e ponti ferroviari, ricalcati su Panama City e Tampa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
@@ -4092,7 +4092,7 @@
       "slug": "peanut-island",
       "url": "https://www.gtasixmap.com/locations/peanut-island",
       "name": "Peanut Island",
-      "lead": "Peanut Island è un piccolo isolotto sulla costa nord-orientale di GTA VI, che prende il nome dall'isola di Palm Beach con il bunker segreto di JFK, una laguna per lo snorkeling e un campeggio.",
+      "lead": "Peanut Island è un piccolo isolotto sulla costa nord-orientale di GTA VI. Il nome viene dall'isola reale di Palm Beach con il bunker segreto di John F. Kennedy, una laguna per lo snorkeling e un campeggio.",
       "badges": [
         "Posizione non confermata",
         "Posizione stimata",
@@ -4112,7 +4112,7 @@
         2448.0
       ],
       "marker": "plc-peanut-island",
-      "summary": "Peanut Island segna un piccolo isolotto sulla costa nord-orientale di Leonida, tra i sobborghi di Waning Sands e la vecchia città portuale di St. Joseph. Non è ancora stato mostrato; il nome provvisorio viene dalla vera Peanut Island vicino a Palm Beach, un'isola con una delle storie più strane della Florida.",
+      "summary": "Peanut Island è il nome provvisorio di un piccolo isolotto sulla costa nord-orientale di Leonida, tra i sobborghi di Waning Sands e la vecchia città portuale di St. Joseph. Non è ancora stato mostrato; il nome viene dalla vera Peanut Island vicino a Palm Beach, un'isola con una delle storie più strane della Florida.",
       "facts": {
         "Regione": "Costa atlantica nord-orientale, a nord di North Beaches",
         "Ispirazione reale": "Peanut Island, Palm Beach County",
@@ -4125,7 +4125,7 @@
           "title": "Cosa si sa di Peanut Island",
           "paragraphs": [
             "L'isolotto non è ancora stato nominato né mostrato ufficialmente: Peanut Island è un nome provvisorio, in attesa della mappa di gioco.",
-            "I dintorni mappati sono suburbani e ricchi di infrastrutture: ponti sulle insenature a sud, una galleria ferroviaria nell'interno, e la stazione, l'aeroporto e il centro commerciale di Waning Sands entro un chilometro."
+            "I dintorni sono quartieri residenziali pieni di infrastrutture: ponti sulle insenature a sud, una galleria ferroviaria nell'interno, e la stazione, l'aeroporto e il centro commerciale di Waning Sands entro un chilometro."
           ],
           "bullets": []
         },
@@ -4137,7 +4137,7 @@
           ],
           "bullets": [
             "Fai un giro in barca lungo la costa nord-orientale tra North Beaches e St. Joseph.",
-            "Esplora i ponti e le insenature appena a sud della posizione.",
+            "Esplora i ponti e le insenature appena a sud dell'isolotto.",
             "Visita l'Evergreen Plaza di Waning Sands, a meno di un chilometro a sud-ovest.",
             "Se l'esplorazione subacquea funziona come le immersioni delle Leonida Keys, cerca le barriere coralline al largo."
           ]
@@ -4147,7 +4147,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Peanut Island si trova a circa 600 metri a nord di North Beaches e 900 metri a sud-est di St. Joseph, con l'Osborn Reef al largo a sud-est.",
-            "Aspettati di aver bisogno di una barca per l'isolotto in sé; le strade e i ponti della terraferma corrono lungo la costa dietro di esso."
+            "Per l'isolotto vero e proprio probabilmente serve una barca: strade e ponti restano sulla terraferma, lungo la costa alle sue spalle."
           ],
           "bullets": []
         },
@@ -4187,7 +4187,7 @@
         {
           "name": "Ponti dell'insenatura",
           "real": null,
-          "text": "Ponti stradali sui corsi d'acqua appena a sud della posizione.",
+          "text": "Ponti stradali sui corsi d'acqua appena a sud dell'isolotto.",
           "image": null,
           "imageFull": null,
           "marker": null
@@ -4220,7 +4220,7 @@
           "a": "Sulla costa nord-orientale, a nord di North Beaches. La posizione è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Peanut_Island",
@@ -4364,7 +4364,7 @@
           "id": "what-north-beaches-is-like",
           "title": "Com'è North Beaches",
           "paragraphs": [
-            "Dirigiti a nord da Washington Beach e Vice Beach cambia. I muri di hotel lasciano il posto a edifici più bassi, parchi e insenature, e più su lungo la costa le torri condominiali sorgono isolate sulla sabbia.",
+            "Andando a nord da Washington Beach, Vice Beach cambia volto. Le file di hotel lasciano il posto a edifici più bassi, parchi e insenature, e più su lungo la costa le torri condominiali sorgono isolate sulla sabbia.",
             "Lungo questa costa ci sono un molo di scogli dove una coppia è appoggiata a un'auto sportiva d'epoca verde con le torri alle spalle, un ponte su un'insenatura sulla strada della spiaggia, un'alta torre condominiale con la sommità doppia e un molo per la pesca più a nord.",
             "Il nome North Beaches compare su un cartello della Interstate 97 in direzione nord nel materiale di sviluppo trapelato a settembre 2022, poi riconosciuto come autentico. Non è ancora stato usato ufficialmente."
           ],
@@ -4454,7 +4454,7 @@
         {
           "name": "Molo per la pesca",
           "real": "Boynton Inlet Pier",
-          "text": "Un molo più su lungo la costa, l'unico punto con l'etichetta North Beaches.",
+          "text": "Un molo più su lungo la costa, l'unico punto segnato con il nome North Beaches.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-fishing-pier",
@@ -4479,7 +4479,7 @@
           "a": "Alla costa a nord di South Beach: North Beach, Surfside, Bal Harbour, Haulover e Sunny Isles Beach."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://gta.fandom.com/wiki/North_Beaches",
@@ -4619,11 +4619,11 @@
         621.0
       ],
       "marker": "plc-bay-harbor",
-      "summary": "Bay Harbor è il gruppo di piccole isole residenziali nella baia dietro Washington Beach. Palazzine basse e una via commerciale costeggiano l'acqua, una strada sopraelevata attraversa la baia fino alla terraferma e, accanto, un'isola privata sorvegliata si avvolge intorno a un campo da golf. Il nome è provvisorio, preso dalla cittadina reale.",
+      "summary": "Bay Harbor è il gruppo di piccole isole residenziali nella baia dietro Washington Beach. Palazzine basse e una via commerciale costeggiano l'acqua, una strada sopraelevata attraversa la baia fino alla terraferma e, accanto, un'isola privata sorvegliata ospita un campo da golf. Il nome è provvisorio, preso dalla cittadina reale.",
       "facts": {
         "Regione": "La baia dietro Washington Beach",
         "Ispirazione reale": "Bay Harbor Islands e Indian Creek Village, Florida",
-        "Ideale per": "Strade tranquille, canali, golf, vista sul lancio con il paracadute",
+        "Ideale per": "Strade tranquille, canali, golf, la vista dal lancio con il paracadute",
         "Stato del nome": "Nome provvisorio, non ufficiale"
       },
       "sections": [
@@ -4661,7 +4661,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "Bay Harbor Islands è una minuscola cittadina di circa 6.000 abitanti su due isole della Biscayne Bay, tra North Miami e le spiagge di Bal Harbour. Fu sviluppata dopo la Seconda guerra mondiale ed è nota per i suoi palazzi residenziali in stile mid-century modern.",
             "Indian Creek Village, subito a sud, è uno dei comuni più piccoli e più ricchi degli Stati Uniti: una sola isola privata con poche decine di tenute intorno al campo da golf di un country club, con una propria forza di polizia e un ponte sorvegliato. I suoi residenti sono stati soprannominati il Billionaire Bunker.",
@@ -4761,7 +4761,7 @@
           "a": "Nella baia appena dietro Washington Beach, a nord-est delle Rialto Islands. La posizione è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -4932,12 +4932,12 @@
           "id": "things-to-do-around-lake-leonida",
           "title": "Cosa fare nei dintorni di Lake Leonida",
           "paragraphs": [
-            "Leonida centrale è la terra dell'aria aperta e del fuoristrada di GTA VI."
+            "La Leonida centrale è la terra dell'aria aperta e del fuoristrada di GTA VI."
           ],
           "bullets": [
             "Potenzia un fuoristrada da One-Eyed Willie's Mod Shop (Ultimate Edition).",
             "Visita la raffineria di zucchero e i campi di canna di Ambrosia sulla sponda occidentale.",
-            "Sporcati di fango al parco Thrillbilly a ovest del lago, quello della festa nel fango.",
+            "Sporcati di fango al Thrillbilly, il parco della festa nel fango, a ovest del lago.",
             "Vai a pescare o in barca sul lago aperto.",
             "Vola dagli aeroporti intorno al lago, come Airglades."
           ]
@@ -4953,7 +4953,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di esso",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "Il lago Okeechobee, il Big O, è il più grande lago d'acqua dolce della Florida, circa 1.890 chilometri quadrati (730 miglia quadrate) ma profondo in media solo 2,7 metri circa. Alimenta le Everglades a sud.",
             "Dopo che un uragano nel 1928 fece straripare il lago uccidendo più di 2.500 persone, in gran parte braccianti neri, il governo federale lo circondò con la diga Herbert Hoover. Oggi la sua sponda meridionale è terra di zucchero, con cittadine come Clewiston, che si definisce la Città più Dolce d'America, e Belle Glade, e il lago è famoso per la pesca del persico trota."
@@ -4965,7 +4965,7 @@
           "title": "Consigli per l'esploratore",
           "paragraphs": [],
           "bullets": [
-            "Se possiedi la Ultimate Edition, abbina la Dominator Buggy a una visita da One-Eyed Willie's per gli upgrade off-road.",
+            "Se possiedi la Ultimate Edition, porta la Dominator Buggy da One-Eyed Willie's per i potenziamenti fuoristrada.",
             "Le strade agricole sono lunghe e dritte. Ottime per la velocità, pessime per nascondersi dalla polizia.",
             "Usa Lake Leonida come base per Ambrosia, il parco del fango e l'entroterra di Mount Kalaga."
           ]
@@ -5010,7 +5010,7 @@
         {
           "name": "Parco del fango Thrillbilly",
           "real": "Redneck Mud Park, Punta Gorda",
-          "text": "L'arena di mud bogging della festa nel fango, a ovest del lago.",
+          "text": "L'arena fuoristrada della festa nel fango, a ovest del lago.",
           "image": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L512,ig.jpg",
           "imageFull": null,
           "marker": "act-thrillbilly-mud-park",
@@ -5049,7 +5049,7 @@
           "a": "Sì. Lake Leonida è la sede di One-Eyed Willie's Mod Shop della Ultimate Edition."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -5218,7 +5218,7 @@
           "title": "Com'è Lollipop Ridge",
           "paragraphs": [
             "Lollipop Ridge è una delle colline di Kelly County, accanto a Bridge Ridge, Thrillbilly Hill e Ambrosia Hill. I nomi sono provvisori, ma il paesaggio è reale: bassi crinali boscosi che emergono dalla piatta regione del lago.",
-            "Nei dintorni c'è l'ossatura delle infrastrutture rurali. Un alto traliccio radio chiamato Tucker's Tower, ricalcato su un sito di trasmissione vicino a Panama City, si erge sul crinale; un fiume serpeggia più in basso; e la ferrovia attraversa le colline su ponti e gallerie nel suo tragitto tra la costa e il lago."
+            "Nei dintorni ci sono le infrastrutture tipiche della campagna. Sul crinale si alza un traliccio radio chiamato Tucker's Tower, ricalcato su un sito di trasmissione vicino a Panama City; più in basso serpeggia un fiume, e la ferrovia attraversa le colline su ponti e gallerie nel suo tragitto tra la costa e il lago."
           ],
           "bullets": []
         },
@@ -5247,7 +5247,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di esso",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "L'interno della Florida non è completamente piatto. Antichi crinali sabbiosi, come la Lake Wales Ridge, corrono lungo il centro della penisola, e il Panhandle si alza fino a Britton Hill, il punto naturale più alto dello stato con appena 105 metri (345 piedi).",
             "Questi crinali ospitano aranceti, macchia di pini e molti dei tralicci di trasmissione radio e TV che servono le città dello stato, esattamente il tipo di paesaggio che Lollipop Ridge suggerisce."
@@ -5319,7 +5319,7 @@
           "a": "Sì. Leonida è più collinosa della vera Florida, con crinali boscosi in Kelly County e le montagne del Mount Kalaga National Park a nord."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -5507,7 +5507,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "Cedar Key è una minuscola cittadina insulare sulla costa del Golfo della Florida, un tempo porto trafficato e centro di segherie per il legno da matite nell'Ottocento, oggi nota per l'allevamento di vongole, il pesce e i suoi ristoranti su palafitte in Dock Street. Lo storico Island Hotel risale agli anni Cinquanta dell'Ottocento.",
             "La posizione di Watson Bay, ai margini della palude, corrisponde invece a Everglades City e Chokoloskee. Il nome richiama Edgar J. Watson, un piantatore e sospetto serial killer che coltivava la terra sul fiume Chatham e fu ucciso a colpi di arma da fuoco dai suoi vicini a Chokoloskee nel 1910."
@@ -5637,7 +5637,7 @@
           "a": "No. Watson Island è un nome provvisorio per un'isola lungo la strada sopraelevata nella baia di Vice City. Watson Bay è questo paese di Grassrivers."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -5793,7 +5793,7 @@
         1815.0
       ],
       "marker": "loc-osborn-reef",
-      "summary": "Osborn Reef segna un tratto di mare al largo della costa nord-orientale di Leonida, a est di North Beaches. Non è ancora stato mostrato né nominato; il nome provvisorio viene dall'Osborne Reef al largo di Fort Lauderdale, una barriera artificiale fallita diventata uno dei più noti errori ambientali della Florida.",
+      "summary": "Osborn Reef è il nome provvisorio di un tratto di mare al largo della costa nord-orientale di Leonida, a est di North Beaches. Il punto non è ancora stato mostrato; il nome viene dall'Osborne Reef al largo di Fort Lauderdale, una barriera artificiale fallita diventata uno dei più noti errori ambientali della Florida.",
       "facts": {
         "Regione": "Al largo, costa atlantica nord-orientale",
         "Ispirazione reale": "Osborne Reef, Fort Lauderdale",
@@ -5818,7 +5818,7 @@
           ],
           "bullets": [
             "Prendi una barca da North Beaches, a circa mezzo chilometro a ovest.",
-            "Tieni d'occhio un punto per le immersioni al largo, se le immersioni subacquee sono disponibili fuori dalle Keys.",
+            "Se le immersioni sono possibili anche fuori dalle Keys, cerca qui un punto dove scendere sott'acqua.",
             "Segui la costa verso nord fino a Peanut Island e St. Joseph.",
             "Attraversa i ponti sulle insenature verso sud in direzione di Vice Beach."
           ]
@@ -5834,10 +5834,10 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di esso",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "L'Osborne Reef si trova a circa un miglio (1,6 km) al largo di Fort Lauderdale. Nel 1972 un gruppo no profit, con l'aiuto di Goodyear, scaricò sul fondale circa due milioni di pneumatici legati in fascine, sperando che diventassero una nuova casa per pesci e coralli.",
-            "Non funzionò. Le fascine si sciolsero, le tempeste sparsero gli pneumatici sul fondale e sulle barriere naturali, e il corallo non si attecchì mai. Dal 2007 sommozzatori dell'esercito statunitense e delle agenzie statali stanno recuperando centinaia di migliaia di pneumatici, ma gran parte della barriera è ancora lì."
+            "Non funzionò. Le fascine si sciolsero, le tempeste sparsero gli pneumatici sul fondale e sulle barriere naturali, e il corallo non attecchì mai. Dal 2007 sommozzatori dell'esercito statunitense e delle agenzie statali stanno recuperando centinaia di migliaia di pneumatici, ma gran parte della barriera è ancora lì."
           ],
           "bullets": []
         },
@@ -5893,7 +5893,7 @@
           "a": "Una barriera artificiale al largo di Fort Lauderdale realizzata nel 1972 con circa due milioni di pneumatici. È fallita ed è in corso la bonifica."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
@@ -6029,7 +6029,7 @@
         486.0
       ],
       "marker": "loc-washington-beach",
-      "summary": "Washington Beach è il lungo tratto centrale di Vice Beach, a nord di Ocean Beach. Scambia l'Art Déco con grandi hotel resort e torri di condomini, con la spiaggia da un lato e il canale di Indian Creek con le sue ville dall'altro. Qui è ormeggiato lo Squalo, il motoscafo della Ultimate Edition.",
+      "summary": "Washington Beach è il lungo tratto centrale di Vice Beach, a nord di Ocean Beach. L'Art Déco lascia il posto a grandi hotel resort e torri di condomini, con la spiaggia da un lato e il canale di Indian Creek con le sue ville dall'altro. Qui è ormeggiato lo Squalo, il motoscafo della Ultimate Edition.",
       "facts": {
         "Regione": "Vice Beach, a nord di Ocean Beach",
         "Ispirazione reale": "Mid-Beach e Collins Avenue, Miami Beach",
@@ -6072,7 +6072,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "Mid-Beach è il tratto di Miami Beach tra South Beach e North Beach, grosso modo dalla 23rd alla 63rd Street. Collins Avenue lo attraversa passando davanti a un muro di hotel sull'oceano, tra cui il curvo Fontainebleau, aperto nel 1954, e il suo vicino Eden Roc.",
             "Dall'altra parte della strada, Indian Creek è uno stretto canale costeggiato da case e moli, e il Miami Beach Boardwalk corre lungo le dune per chilometri. Il nome del quartiere nel gioco deriva da Washington Avenue, una delle strade principali di Miami Beach."
@@ -6092,7 +6092,7 @@
           "title": "Consigli per l'esploratore",
           "paragraphs": [],
           "bullets": [
-            "Sali sui tetti per le viste migliori su Vice City: la festa in piscina e il lancio con il paracadute partono entrambi dall'alto sopra Washington Beach.",
+            "Sali sui tetti per le viste migliori su Vice City: la festa in piscina e il lancio con il paracadute sono entrambi in cima ai palazzi di Washington Beach.",
             "Usa Indian Creek come tranquillo percorso alternativo in barca tra il lato della baia e gli hotel della spiaggia.",
             "Se possiedi la Ultimate Edition, fai partire da qui le tue battute di pesca, al molo dello Squalo."
           ]
@@ -6192,7 +6192,7 @@
           "a": "Su una torre di Washington Beach, ricalcata sulla Trésor Tower sulla Collins Avenue di Miami Beach."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -6371,7 +6371,7 @@
           "title": "Southside, la vicina di casa",
           "paragraphs": [
             "Prendi la stessa uscita di Peacock Bay e sei a Southside, e l'atmosfera cambia in fretta. Su El Joven Blvd c'è il Mami's Grocery Market, dove passa Jason: una bassa fila di negozi rosa con un negozio di abbigliamento, A1 Fashions, accanto.",
-            "Southside è anche il territorio dei PTT Youngin$, una delle gang più rumorose e socialmente attive di Southside Vice City. La Ultimate Edition include una missione per fare irruzione nel loro covo e fuggire con oggetti speciali e merce di contrabbando."
+            "Southside è anche il territorio dei PTT Youngin$, una delle gang più chiassose del quartiere e tra le più attive sui social. La Ultimate Edition include una missione per fare irruzione nel loro covo e fuggire con oggetti speciali e merce di contrabbando."
           ],
           "bullets": []
         },
@@ -6399,7 +6399,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale dietro la finzione",
           "paragraphs": [
             "Coconut Grove è spesso definito il quartiere di Miami abitato ininterrottamente da più tempo. Fu colonizzato nel XIX secolo da famiglie del New England e immigrati bahamiani, molto prima che Miami stessa fosse costituita come città, e fu annesso dalla città nel 1925.",
             "Oggi \"The Grove\" è noto per la sua volta di alberi, i club nautici e i porticcioli di Dinner Key, la storica casa Barnacle e il Vizcaya Museum and Gardens al suo margine settentrionale. Torri moderne come il sinuoso Grove at Grand Bay si alzano lungo South Bayshore Drive.",
@@ -6517,7 +6517,7 @@
           "a": "Un nascondiglio di gang a Southside Vice City. Farvi irruzione e fuggire con oggetti speciali è uno dei bonus della Ultimate Edition."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
@@ -6696,7 +6696,7 @@
           "title": "Tequesta, il distretto finanziario",
           "paragraphs": [
             "Oltre il ponte, Tequesta è dove Vice City tiene i suoi soldi. Torri di uffici costeggiano il viale principale, tra cui una torre Lombank, l'edificio della sede Sahara HQ e gli uffici di Ficroth Capital.",
-            "La stazione Tequesta Station della metropolitana sopraelevata cittadina serve il distretto, e Temple Park, un complesso residenziale sul fiume, ne segna il margine settentrionale lungo il Vice River."
+            "La fermata Tequesta Station della metropolitana sopraelevata serve il distretto, e Temple Park, un complesso residenziale sul fiume, ne segna il margine settentrionale lungo il Vice River."
           ],
           "bullets": []
         },
@@ -6704,27 +6704,27 @@
           "id": "things-to-do-around-tequesta-retreat",
           "title": "Cosa fare nei dintorni di Tequesta Retreat",
           "paragraphs": [
-            "Non ci sono ancora attività note qui, ma la disposizione dell'isola ne suggerisce alcune ovvie."
+            "Qui non ci sono ancora attività note, ma la forma dell'isola suggerisce già cosa fare."
           ],
           "bullets": [
-            "Alza lo sguardo verso le Pegassi Residences, le torri curve che aprono Vice City nel Trailer 1.",
+            "Alza lo sguardo verso le Pegassi Residences, le torri curve che sono la prima immagine di Vice City.",
             "Percorri a piedi o in auto l'anello sul lungomare dell'isola per ammirare la baia, Downtown e i terminal delle navi da crociera di Port Vice City.",
             "Torna sulla terraferma e goditi le torri delle banche di Tequesta a livello strada.",
-            "Osserva la West Tower incompiuta: un cantiere con una gru in una città di torri finite è il posto naturale per una vista dai tetti."
+            "Dai un'occhiata alla West Tower incompiuta: un cantiere con la gru in mezzo a torri finite è il punto ideale per una vista dall'alto."
           ]
         },
         {
           "id": "getting-there-and-around",
           "title": "Come arrivare e muoversi",
           "paragraphs": [
-            "L'unico modo per arrivare sull'isola in auto è il Tequesta Key Bridge, una breve campata dal lungomare di Tequesta. Catalan Key è a circa mezzo chilometro a est oltre l'acqua e Port Vice City si trova subito a nord-est.",
-            "Downtown e Bayside sono a breve distanza in auto verso nord, e Peacock Bay inizia a circa un chilometro a sud-ovest, quindi l'isola funziona bene come tappa in un giro del lungobaia della città."
+            "In auto l'isola si raggiunge solo dal Tequesta Key Bridge, un ponte corto che parte dal lungomare di Tequesta. Catalan Key è a circa mezzo chilometro a est oltre l'acqua e Port Vice City si trova subito a nord-est.",
+            "Downtown e Bayside sono a breve distanza in auto verso nord, e Peacock Bay inizia a circa un chilometro a sud-ovest, quindi l'isola è una buona tappa in un giro lungo la baia."
           ],
           "bullets": []
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale a cui si ispira",
           "paragraphs": [
             "Brickell Key è una piccola isola artificiale alla foce del fiume Miami, costruita con materiale di dragaggio e sviluppata dagli anni Ottanta in un'enclave dall'aria riservata di torri di condomini, un hotel e una passeggiata sul lungomare.",
             "La terraferma dietro di essa, Brickell, è il distretto finanziario della Florida meridionale, con la più alta concentrazione di banche internazionali degli Stati Uniti.",
@@ -6746,7 +6746,7 @@
       "landmarks": [
         {
           "name": "Pegassi Residences",
-          "real": "Ispirate alle torri di condomini firmate di Miami, come le Aston Martin Residences",
+          "real": "Ispirate ai grattacieli residenziali d'autore di Miami, come le Aston Martin Residences",
           "text": "Torri bianche curve con balconi a forma d'onda, le prime che si vedono di Vice City. La Grotti Cheetah della Ultimate Edition è ritratta davanti alla South Tower.",
           "image": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l130.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/tequesta-brickell/landmark-l130-full.webp",
@@ -6854,7 +6854,7 @@
           "a": "Sono le Pegassi Residences di Tequesta Retreat, le torri bianche a forma d'onda della prima inquadratura di Vice City nel Trailer 1."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/media/screenshots",
@@ -7027,7 +7027,7 @@
           "title": "Come sono le Leonida Keys",
           "paragraphs": [
             "Nelle Keys tutto ruota intorno all'acqua: idrovolanti che sfiorano i ponti tra le isole, sub tra coralli, pesci, murene e tartarughe marine, flottiglie di barche da festa con moto d'acqua e gonfiabili, e bar sulla spiaggia affollati, con qualcuno svenuto tra le bottiglie vuote.",
-            "Un lungo ponte saltella da un'isola all'altra sopra acque basse e turchesi, e sulle rocce si incontrano iguane, con minuscole isole di palme sullo sfondo.",
+            "Un lungo ponte passa da un'isola all'altra sopra acque basse e turchesi, e sulle rocce si incontrano iguane, con minuscole isole di palme sullo sfondo.",
             "Qui la vita scorre lenta. Key Lento, il paese principale della catena, è la casa di Jason, e le Keys sono la base di contrabbandieri della vecchia scuola come Brian Heder."
           ],
           "bullets": []
@@ -7036,7 +7036,7 @@
           "id": "why-the-keys-matter-to-the-story",
           "title": "Perché le Keys contano per la storia",
           "paragraphs": [
-            "Jason è cresciuto tra truffatori e delinquenti, ha provato l'esercito ed è finito nelle Keys a fare ciò che sa fare meglio: lavorare per i trafficanti di droga locali. Il suo padrone di casa, Brian, è un contrabbandiere dell'età d'oro del mestiere che continua a far passare la merce dal suo cantiere nautico, e Cal, l'amico di Jason, passa il tempo a casa ad ascoltare la radio della Guardia Costiera.",
+            "Jason è cresciuto tra truffatori e delinquenti, ha fatto un tentativo nell'esercito ed è finito nelle Keys a fare ciò che sa fare meglio: lavorare per i trafficanti di droga locali. Il suo padrone di casa, Brian, è un contrabbandiere dell'età d'oro del mestiere che continua a far passare la merce dal suo cantiere nautico, e Cal, l'amico di Jason, passa il tempo a casa ad ascoltare la radio della Guardia Costiera.",
             "Questo rende le Keys il punto di partenza di GTA VI: barche, contanti, la Guardia Costiera e il mare aperto tra Leonida e tutto il resto."
           ],
           "bullets": []
@@ -7067,7 +7067,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di esse",
+          "title": "Il luogo reale a cui si ispirano",
           "paragraphs": [
             "Le Florida Keys sono una catena di circa 1.700 isole che si curva per più di 160 chilometri (100 miglia) dalla punta della penisola della Florida fino a Key West, la città più meridionale degli Stati Uniti continentali. La Overseas Highway, la US 1, collega le isole abitate attraverso 42 ponti, tra cui il famoso Seven Mile Bridge.",
             "Gran parte dell'autostrada segue la Overseas Railroad di Henry Flagler, completata nel 1912 e distrutta dall'uragano del Labor Day del 1935; vecchi ponti ferroviari come quello di Bahia Honda sono ancora in piedi accanto alla strada. Al largo si trova l'unica barriera corallina vivente degli Stati Uniti continentali, e un pallone radar ancorato soprannominato Fat Albert galleggia sopra Cudjoe Key."
@@ -7128,7 +7128,7 @@
         {
           "name": "Stazione della Guardia Costiera",
           "real": "US Coast Guard Station Islamorada",
-          "text": "Una stazione dal tetto blu sull'acqua, un promemoria di chi Cal sta ascoltando alla radio.",
+          "text": "Una stazione dal tetto blu sull'acqua: è la Guardia Costiera che Cal ascolta alla radio.",
           "image": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l275.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/leonida-keys/landmark-l275-full.webp",
           "marker": "lmk-coast-guard-station",
@@ -7153,7 +7153,7 @@
         {
           "name": "Blue Crab Bar & Grill",
           "real": "Blue Heaven, Key West",
-          "text": "Un rustico ristorante isolano abbinato a un locale amatissimo di Key West.",
+          "text": "Un rustico ristorante isolano, ispirato a un locale amatissimo di Key West.",
           "image": null,
           "imageFull": null,
           "marker": null
@@ -7162,7 +7162,7 @@
       "gallery": [
         {
           "src": "https://www.gtasixmap.com/images/locations/leonida-keys/trailer-1-36-0s.webp",
-          "alt": "Vista aerea di un lungo ponte che saltella sopra le secche turchesi tra le Leonida Keys.",
+          "alt": "Vista aerea di un lungo ponte che passa da un'isola all'altra sopra le secche turchesi delle Leonida Keys.",
           "credit": "Immagine: Rockstar Games, GTA VI Trailer 1",
           "local": "assets/img/luoghi/leonida-keys/trailer-1-36-0s-640.webp"
         },
@@ -7206,10 +7206,10 @@
         },
         {
           "q": "C'è una Key West in GTA VI?",
-          "a": "L'estremità occidentale della catena ha una base aeronavale abbinata alla Naval Air Station Key West, ma un equivalente di Key West non ha ancora un nome."
+          "a": "All'estremità occidentale della catena c'è una base aeronavale ispirata alla Naval Air Station Key West, ma la versione di Key West non ha ancora un nome."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
@@ -7389,9 +7389,9 @@
           "id": "what-key-lento-is-like",
           "title": "Com'è Key Lento",
           "paragraphs": [
-            "Il Trailer 2 si apre sopra Key Lento: case sul lungomare e moli privati sull'acqua turchese, poi una casa su palafitte consumata dalle intemperie con un pick-up vintage parcheggiato sotto. È lì che vive Jason. Brian gli lascia una delle sue proprietà senza fargli pagare l'affitto, a patto che dia una mano con le estorsioni locali e passi a bere la sangria di Lori.",
+            "Key Lento è fatta di case sul lungomare e moli privati sull'acqua turchese. Tra queste c'è una casa su palafitte consumata dalle intemperie, con un pick-up vintage parcheggiato sotto: è lì che vive Jason. Brian gli lascia una delle sue proprietà senza fargli pagare l'affitto, a patto che dia una mano con le estorsioni locali e passi a bere la sangria di Lori.",
             "Il paese si sviluppa lungo la Route 1, la Overseas Highway delle Leonida Keys. Sulla strada principale una donna su uno scooter per la mobilità passa accanto a un'iguana, a una gigantesca scultura di balena dipinta chiamata Wonder Whale e a Chip's Body Shop.",
-            "Il mondo di Brian è ovunque qui. L'insegna di Brian's Marina spunta sopra gli alberi: Brian è un classico trafficante di droga dell'età d'oro del contrabbando, che continua a far passare la merce dal suo cantiere nautico insieme alla sua terza moglie, Lori."
+            "Qui la presenza di Brian si sente ovunque. L'insegna di Brian's Marina spunta sopra gli alberi: Brian è un classico trafficante di droga dell'età d'oro del contrabbando, che continua a far passare la merce dal suo cantiere nautico insieme alla sua terza moglie, Lori."
           ],
           "bullets": []
         },
@@ -7423,14 +7423,14 @@
           "id": "getting-there-and-around",
           "title": "Come arrivare e muoversi",
           "paragraphs": [
-            "Guida verso sud da Hamlet sulla Keys Causeway; il cartello all'inizio del Trailer 2 indica la via del ritorno verso Hamlet. Key Lento si trova a circa 1,3 chilometri a sud-est di Alligator Creek, con il resto della catena delle Leonida Keys che prosegue verso ovest da qui.",
+            "Guida verso sud da Hamlet sulla Keys Causeway (un cartello indica la strada del ritorno verso Hamlet). Key Lento si trova a circa 1,3 chilometri a sud-est di Alligator Creek, e da qui il resto della catena delle Leonida Keys prosegue verso ovest.",
             "La Route 1 è l'unica strada attraverso le isole, quindi la maggior parte dei viaggi significa percorrerla o prendere il mare."
           ],
           "bullets": []
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale a cui si ispira",
           "paragraphs": [
             "Key Largo è la prima e la più lunga isola delle Florida Keys, a circa un'ora di auto a sud di Miami. Il suo nome deriva dallo spagnolo Cayo Largo, l'isola lunga, ed è nota come la capitale mondiale delle immersioni grazie al John Pennekamp Coral Reef State Park, il primo parco sottomarino d'America.",
             "Alcuni dei punti di riferimento da bordo strada di Key Lento provengono da Islamorada, il paese successivo verso sud: la Wonder Whale corrisponde alla gigantesca statua di aragosta del Rain Barrel Village. Lento e largo sono entrambi termini musicali per un tempo lento, una battuta sul ritmo della vita isolana."
@@ -7572,7 +7572,7 @@
           "a": "Un bar sulla spiaggia a Key Lento, sempre pieno di bevitori."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/leonida-keys",
@@ -7753,7 +7753,7 @@
           "title": "Com'è Shoreline",
           "paragraphs": [
             "Il lungomare dà il meglio di sé con la luce bassa. Al tramonto si vede un parco sul lungobaia con un anfiteatro e una ruota panoramica sotto la torre Megamundo. Di notte un'arena è illuminata da linee al neon, la ruota panoramica gira e le navi da crociera sono ormeggiate dall'altra parte dell'acqua.",
-            "Il lungomare corre lungo Catalan Boulevard, la versione di GTA VI del Biscayne Boulevard di Miami. A nord del mercato, il boulevard passa davanti a un teatro dell'opera e a una sala da concerto in vetro, con torri di condomini e un hotel sulla baia alle loro spalle, sull'acqua.",
+            "Il lungomare corre lungo Catalan Boulevard, la versione di GTA VI del Biscayne Boulevard di Miami. A nord del mercato, il boulevard passa davanti a un teatro dell'opera e a una sala da concerto in vetro, con alle spalle torri di condomini e un hotel affacciati sulla baia.",
             "La zona non ha ancora un nome ufficiale. Si chiama Shoreline dallo Shoreline Market, che si trova sull'acqua."
           ],
           "bullets": []
@@ -7762,7 +7762,7 @@
           "id": "downtown-nightlife",
           "title": "La vita notturna di Downtown",
           "paragraphs": [
-            "Shoreline è il confine della vita notturna di Downtown. A pochi passi verso l'interno c'è il club NINE1NINE, con una pista da ballo stipata e illuminata di viola. La sua controparte reale, E11EVEN, è famosa come il club di Miami aperto 24 ore su 24.",
+            "Shoreline sta ai margini della vita notturna di Downtown. A pochi passi verso l'interno c'è il club NINE1NINE, con una pista da ballo stipata e illuminata di viola. La sua controparte reale, E11EVEN, è famosa come il club di Miami aperto 24 ore su 24.",
             "La Sahara Arena su Catalan Boulevard è la grande sede per eventi sul lungomare, corrispondente al Kaseya Center di Miami, la casa dei Miami Heat."
           ],
           "bullets": []
@@ -7792,7 +7792,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di essa",
+          "title": "Il luogo reale a cui si ispira",
           "paragraphs": [
             "Il Bayside Marketplace è un complesso all'aperto di negozi e ristoranti sulla Biscayne Bay nel centro di Miami, costruito intorno a un porticciolo e aperto nel 1987. Dai suoi moli partono le gite in barca verso le isole, e una grande ruota panoramica si trova sul bordo dell'acqua.",
             "Il Bayfront Park, accanto, è un parco sul lungomare con un anfiteatro all'aperto che ospita concerti, i festeggiamenti di Capodanno e l'Ultra Music Festival. Subito a nord sorge l'arena Kaseya Center, e più avanti lungo Biscayne Boulevard l'Adrienne Arsht Center per le arti dello spettacolo."
@@ -7892,7 +7892,7 @@
         {
           "name": "Palazzo di Lucia",
           "real": "Edificio residenziale su NE 4th Avenue, Miami",
-          "text": "Verso l'interno a Crosstown, l'angolo di strada soleggiato dove si trova la casa di Lucia a Vice City.",
+          "text": "Più all'interno, a Crosstown: l'angolo di strada assolato dove si trova la casa di Lucia a Vice City.",
           "image": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l475.webp",
           "imageFull": "https://www.gtasixmap.com/images/locations/bayside-bayfront/landmark-l475-full.webp",
           "marker": "lmk-lucias-apartment-block",
@@ -7947,7 +7947,7 @@
           "a": "La Sahara Arena su Catalan Boulevard, la versione di GTA VI del Kaseya Center di Miami."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/media/screenshots",
@@ -8116,7 +8116,7 @@
           "title": "Come sono Bohemia e Stockyard",
           "paragraphs": [
             "Questa parte di Vice City è piena di colore. Le pareti dei magazzini sono coperte di murales, le vetrine hanno insegne al neon e auto di lusso sono parcheggiate davanti alle boutique. Decine di edifici corrispondono al Wynwood Arts District di Miami e al vicino Design District.",
-            "Stockyard è il nome ufficiale: è la casa del principale negozio di streetwear della città e del suo più iconico studio di tatuaggi. Bohemia è un nome dal leak del 2022, che elencava un evento del mondo di gioco «Bohemia Urban»; un'insegna di negozio con la scritta Bohemia compare a Stockyard, e il nome indica il quartiere del design subito a nord.",
+            "Stockyard è il nome ufficiale: qui ci sono il principale negozio di streetwear della città e il suo studio di tatuaggi più famoso. Bohemia invece viene dal leak del 2022, dove compariva un evento di gioco chiamato «Bohemia Urban». A Stockyard c'è un'insegna di negozio con la scritta Bohemia, e il nome indica il quartiere del design subito a nord.",
             "Oltre Bohemia si trova La Perle, la Little Haiti di Vice City, con un mercato caraibico e i volantini dell'Haitian-American Cultural Center."
           ],
           "bullets": []
@@ -8128,7 +8128,7 @@
             "Due dei bonus della Ultimate Edition sono negozi a Stockyard. Entrambi sono aperti solo con quell'edizione."
           ],
           "bullets": [
-            "Stock 305 vende look streetwear esclusivi per Jason e Lucia: è la destinazione principale di Stockyard per lo streetwear di alto livello.",
+            "Stock 305 è il negozio di streetwear di alto livello di Stockyard e vende look esclusivi per Jason e Lucia.",
             "Electric Fang Tattoo, dietro un'insegna al neon a forma di lupo, offre oltre 50 tatuaggi esclusivi per entrambi i personaggi, disegnati dal collettivo artistico FAILE."
           ]
         },
@@ -8157,9 +8157,9 @@
         },
         {
           "id": "the-real-places-behind-it",
-          "title": "I luoghi reali dietro di essa",
+          "title": "I luoghi reali a cui si ispira",
           "paragraphs": [
-            "Wynwood era un distretto di magazzini e fabbriche di abbigliamento a nord del centro di Miami fino agli anni Duemila, quando gli sviluppatori invitarono gli artisti a dipingerne i muri. I Wynwood Walls, aperti nel 2009, lo hanno trasformato in una delle gallerie di street art all'aperto più note del mondo, oggi piena di gallerie, birrifici e negozi.",
+            "Wynwood era un distretto di magazzini e fabbriche di abbigliamento a nord del centro di Miami fino agli anni Duemila, quando i costruttori immobiliari invitarono gli artisti a dipingerne i muri. I Wynwood Walls, aperti nel 2009, lo hanno trasformato in una delle gallerie di street art all'aperto più note del mondo, oggi piena di gallerie, birrifici e negozi.",
             "Subito a nord, il Miami Design District è cresciuto da una vecchia zona di showroom di mobili in un quartiere di boutique di stilisti, architettura e arte pubblica. Ancora più a nord c'è Little Haiti, il cuore della comunità haitiana di Miami, con il suo Caribbean Marketplace e il Little Haiti Cultural Complex."
           ],
           "bullets": []
@@ -8296,7 +8296,7 @@
           "a": "Un negozio di streetwear della Ultimate Edition a Stockyard con outfit esclusivi per Jason e Lucia. È aperto solo con quell'edizione."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -8491,13 +8491,13 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Mount Kalaga è nell'estremo nord, uno dei viaggi più lunghi da Vice City. La vetta si trova a poco più di un chilometro a nord di Lake Leonida e Ambrosia, con Fairyland Forest a nord-est e Redhill a nord-ovest.",
-            "Le ferrovie attraversano le colline in galleria e su ponti, e piccoli aeroporti come quello abbinato al Lumpkin County Airport servono la regione. Fuori dalle strade principali, ti serviranno un fuoristrada, una moto da cross o un kayak."
+            "Le ferrovie attraversano le colline in galleria e su ponti, e piccoli aeroporti come quello ispirato al Lumpkin County Airport servono la regione. Fuori dalle strade principali, ti serviranno un fuoristrada, una moto da cross o un kayak."
           ],
           "bullets": []
         },
         {
           "id": "the-real-places-behind-it",
-          "title": "I luoghi reali dietro di esso",
+          "title": "I luoghi reali a cui si ispira",
           "paragraphs": [
             "Il fiume che attraversa il parco ricorda il Suwannee, che scorre dall'Okefenokee Swamp della Georgia attraverso la Florida settentrionale fino al Golfo, reso celebre dalla canzone Old Folks at Home. Il Providence Canyon nel sud-ovest della Georgia, soprannominato il Piccolo Grand Canyon della Georgia, è stato scavato dall'erosione causata dall'agricoltura dell'Ottocento ed è oggi un parco statale di scogliere rosa, arancioni e bianche.",
             "Table Rock, nella Linville Gorge del North Carolina, è una vetta dalla cima piatta popolare tra gli scalatori, e le Amicalola Falls nel nord della Georgia sono tra le cascate più alte del Sud-Est. Leonida le riunisce tutte in un unico parco sul suo confine settentrionale."
@@ -8641,7 +8641,7 @@
           "a": "Un mix di Florida settentrionale e Georgia: il fiume Suwannee, il Providence Canyon e le Amicalola Falls della Georgia, con una vetta che ricorda Table Rock in North Carolina."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
@@ -8838,7 +8838,7 @@
         },
         {
           "id": "the-real-place-behind-it",
-          "title": "Il luogo reale dietro di esso",
+          "title": "Il luogo reale a cui si ispira",
           "paragraphs": [
             "Alligator Point è una sottile penisola sabbiosa sulla Apalachee Bay, nella Franklin County della Florida, costeggiata da case sulla spiaggia e punti di pesca. La sua unica strada viene regolarmente spazzata via dalle tempeste, il che la rende uno dei luoghi più fragili della costa del Golfo.",
             "La costa intorno, il Big Bend della Florida, è per lo più palude salmastra non edificata e piccole isole, molto lontana dai resort balneari più a sud."
@@ -8922,7 +8922,7 @@
           "a": "Alligator Point, una stretta penisola sulla Apalachee Bay nella regione del Big Bend della Florida."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
@@ -9072,7 +9072,7 @@
           "paragraphs": [
             "Redhill compare più volte in un elenco di debug degli eventi del mondo di gioco nel leak di settembre 2022, con accenni a una foresta e a un cantiere. Il nome non è più stato usato da allora, quindi è un'etichetta provvisoria.",
             "L'area intorno al pin è una cittadina ferroviaria. Ci sono una stazione e un ponte chiamati Redhill, uno scalo merci subito a nord e linee che scompaiono in gallerie attraverso le colline. Nelle vicinanze, una diga trattiene un bacino idrico, ispirata alla Tallulah Falls Dam in Georgia, e un piccolo aeroporto corrisponde al Blue Ridge Skyport.",
-            "La vetta dalla cima piatta di Mount Kalaga si alza subito a sud, e una cima con un nome, Mount Lummox, si trova a nord-ovest."
+            "La vetta dalla cima piatta di Mount Kalaga si alza subito a sud, e a nord-ovest c'è un'altra cima con un nome proprio, Mount Lummox."
           ],
           "bullets": []
         },
@@ -9086,7 +9086,7 @@
             "Guarda i treni alla stazione e allo scalo merci, o segui la linea attraverso le gallerie.",
             "Vola dall'aeroporto vicino, il Lumpkin County Airport.",
             "Visita la diga e il bacino idrico nella valle a sud-est.",
-            "Sali verso Mount Lummox, una cima con un nome a nord-ovest della cittadina.",
+            "Sali verso Mount Lummox, la cima a nord-ovest della cittadina.",
             "Dirigiti a sud nel Mount Kalaga National Park, a circa 600 metri."
           ]
         },
@@ -9101,7 +9101,7 @@
         },
         {
           "id": "the-real-places-behind-it",
-          "title": "I luoghi reali dietro di essa",
+          "title": "I luoghi reali a cui si ispira",
           "paragraphs": [
             "Blue Ridge è una piccola cittadina di montagna nel nord della Georgia, fondata come città ferroviaria negli anni Ottanta dell'Ottocento. Oggi la Blue Ridge Scenic Railway offre escursioni lungo il fiume Toccoa, e il Lake Blue Ridge, dietro la sua diga, attira diportisti e pescatori.",
             "Il nome Redhill richiama anche la regione delle Red Hills della Florida settentrionale e della Georgia meridionale, un paesaggio di dolci colline argillose e vecchie piantagioni per la caccia alla quaglia intorno a Tallahassee e Thomasville."
@@ -9123,7 +9123,7 @@
         {
           "name": "Stazione ferroviaria di Redhill",
           "real": null,
-          "text": "Una stazione sulla ferrovia che attraversa le colline settentrionali, chiamata Redhill.",
+          "text": "La stazione Redhill, sulla ferrovia che attraversa le colline settentrionali.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-redhill-train-station",
@@ -9171,7 +9171,7 @@
         {
           "name": "Mount Lummox",
           "real": null,
-          "text": "Una cima con un nome a nord-ovest di Redhill.",
+          "text": "Una cima con un nome proprio, a nord-ovest di Redhill.",
           "image": null,
           "imageFull": null,
           "marker": "loc-mount-lummox",
@@ -9185,7 +9185,7 @@
       "faq": [
         {
           "q": "Redhill è in GTA VI?",
-          "a": "Sì come nome dal leak del 2022, dove compare in un elenco di debug. Non è ancora un nome ufficiale."
+          "a": "Il nome compare nel leak del 2022, in un elenco di debug, ma non è ancora ufficiale."
         },
         {
           "q": "Dove si trova Redhill?",
@@ -9196,7 +9196,7 @@
           "a": "A Blue Ridge, Georgia, una cittadina ferroviaria di montagna. Il nome richiama anche la regione delle Red Hills della Florida settentrionale."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
@@ -9320,7 +9320,7 @@
       "slug": "north-ronaldsay",
       "url": "https://www.gtasixmap.com/locations/north-ronaldsay",
       "name": "North Ronaldsay",
-      "lead": "North Ronaldsay è il punto più remoto della mappa di GTA VI: un'isola al largo della costa settentrionale estrema di Leonida, che prende il nome da un'isola scozzese battuta dal vento, vicino a isole barriera come Jekyll e Fort Clinch.",
+      "lead": "North Ronaldsay è il punto più remoto della mappa di GTA VI: un'isola al largo dell'estremo nord di Leonida, che prende il nome da un'isola scozzese battuta dal vento, davanti a una costa che ricorda Jekyll Island e Fort Clinch.",
       "badges": [
         "Luogo non confermato",
         "Posizione stimata",
@@ -9340,7 +9340,7 @@
         4585.0
       ],
       "marker": "plc-north-ronaldsay",
-      "summary": "North Ronaldsay è un'isola isolata al largo della costa settentrionale di Leonida, più o meno il punto più lontano da Vice City che la mappa raggiunga. Il suo profilo ricorda North Ronaldsay, nelle isole Orcadi scozzesi, da cui il nome provvisorio. Intorno, la costa della terraferma ricorda le isole barriera della Georgia e la zona di Fernandina Beach.",
+      "summary": "North Ronaldsay è un'isola sperduta al largo della costa settentrionale di Leonida, più o meno il punto della mappa più lontano da Vice City. Il suo profilo ricorda North Ronaldsay, nelle isole Orcadi scozzesi, da cui il nome provvisorio. Intorno, la costa della terraferma ricorda le isole barriera della Georgia e la zona di Fernandina Beach.",
       "facts": {
         "Regione": "Al largo della costa settentrionale di Lummox County",
         "Ispirazione reale": "Forma simile a North Ronaldsay, Orcadi; costa simile a Jekyll Island, Georgia",
@@ -9449,10 +9449,10 @@
         },
         {
           "q": "Dove si trova North Ronaldsay sulla mappa?",
-          "a": "Al largo della costa settentrionale estrema di Leonida, a nord-est di Redhill. È uno dei punti più remoti della mappa."
+          "a": "Al largo dell'estremo nord di Leonida, a nord-est di Redhill. È uno dei punti più remoti della mappa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -9592,7 +9592,7 @@
         3370.0
       ],
       "marker": "loc-fairyland-forest",
-      "summary": "Fairyland Forest è una sacca di laghi, fiumi e boschi fitti nel centro-nord di Leonida, appena a nord-est di Mount Kalaga. Il nome non è ufficiale e la sua origine è incerta; la zona è un paesaggio di bacini artificiali, dighe, valli fluviali e gallerie ferroviarie sotto una vetta chiamata Mount Leonida.",
+      "summary": "Fairyland Forest è una zona di laghi, fiumi e boschi fitti nel centro-nord di Leonida, appena a nord-est di Mount Kalaga. Il nome non è ufficiale e la sua origine è incerta; la zona è un paesaggio di bacini artificiali, dighe, valli fluviali e gallerie ferroviarie sotto una vetta chiamata Mount Leonida.",
       "facts": {
         "Regione": "Lummox County, a nord-est di Mount Kalaga",
         "Ispirazione reale": "I laghi e le dighe del nord della Georgia, con un lago simile al Lake Kissimmee della Florida",
@@ -9605,7 +9605,7 @@
           "title": "Com'è Fairyland Forest",
           "paragraphs": [
             "Fairyland Forest si trova nella campagna boscosa tra il Mount Kalaga National Park e la costa settentrionale. Accanto al pin c'è un grande lago, simile al Lake Kissimmee della Florida, e nelle valli a ovest una catena di bacini artificiali e dighe, ispirate alla Blue Ridge Dam e alla Tallulah Falls Dam nel nord della Georgia.",
-            "I fiumi serpeggiano tra i boschi, la ferrovia li attraversa su ponti e in gallerie scavate nelle colline, e a sud-ovest si alza una vetta etichettata Mount Leonida. La cascata e il ponte pedonale di Mount Kalaga sono poco più in là.",
+            "I fiumi serpeggiano tra i boschi, la ferrovia li attraversa su ponti e in gallerie scavate nelle colline, e a sud-ovest si alza una vetta indicata come Mount Leonida. La cascata e il ponte pedonale di Mount Kalaga sono poco più in là.",
             "L'origine del nome non è chiara: non compare nel materiale ufficiale, e il legame con un parco a tema fiabesco chiuso è solo un'ipotesi."
           ],
           "bullets": []
@@ -9680,7 +9680,7 @@
         {
           "name": "Mount Leonida",
           "real": null,
-          "text": "Una vetta con un nome a sud-ovest della foresta, in Lummox County.",
+          "text": "Una vetta con un nome proprio a sud-ovest della foresta, in Lummox County.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-mount-leonida",
@@ -9717,7 +9717,7 @@
           "a": "Nel centro-nord di Leonida, appena a nord-est di Mount Kalaga. La posizione del pin è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
@@ -9873,7 +9873,7 @@
           "id": "what-st-joseph-is-like",
           "title": "Com'è St. Joseph",
           "paragraphs": [
-            "St. Joseph è un toponimo di Lummox County, con un lago chiamato St Joseph. Nei dintorni ci sono un porto ispirato al quartiere portuale di Fernandina Beach, una stazione ferroviaria e tratti di costa simili a Black Rock Beach, su Big Talbot Island, e alle dune vicino a St. Augustine.",
+            "St. Joseph è un nome che compare in Lummox County, dove c'è un lago chiamato St Joseph. Nei dintorni ci sono un porto ispirato al quartiere portuale di Fernandina Beach, una stazione ferroviaria e tratti di costa simili a Black Rock Beach, su Big Talbot Island, e alle dune vicino a St. Augustine.",
             "La costa a nord-ovest ricorda il Fort Clinch State Park, sulla punta settentrionale di Amelia Island. Il quadro è quello di una vecchia città portuale della Florida fatta di vetrine di mattoni, pescherecci di gamberi e una strada lungo la spiaggia, molto diversa dalle torri di Vice City."
           ],
           "bullets": []
@@ -9986,7 +9986,7 @@
           "a": "Sulla costa nord-orientale di Leonida, a nord-ovest di Peanut Island e a est di Fairyland Forest. La posizione del pin è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -10139,7 +10139,7 @@
           "title": "Com'è Waning Sands",
           "paragraphs": [
             "Jason percorre un'ampia strada suburbana di Waning Sands davanti a un cartellone che urla «It cures emotions!», un'auto dello sceriffo di Leonard County passa in direzione opposta e l'alta insegna del centro commerciale Evergreen si staglia sul bordo della strada con il nome della città. Lucia è seduta accanto a lui e conta una mazzetta di contanti.",
-            "Un cartello stradale a Vice City indica Waning Sands verso nord. La zona riprende i sobborghi del sud di Broward County: l'Evergreen Plaza corrisponde al Cooper City Commons, un ingresso recintato alla comunità Monterra, le file di case identiche a una via di Pembroke Pines e una torre idrica a quella di Hollywood.",
+            "Un cartello stradale a Vice City indica Waning Sands verso nord. La zona riprende i sobborghi del sud di Broward County: l'Evergreen Plaza è ricalcata sul Cooper City Commons, un ingresso recintato su quello della comunità Monterra, le file di case tutte uguali su una via di Pembroke Pines e una torre idrica su quella di Hollywood.",
             "Il nome è un omaggio alla costa reale di questa zona. Le spiagge di Broward County sono tra le più erose della Florida, quindi le sue sabbie stanno davvero svanendo."
           ],
           "bullets": []
@@ -10255,7 +10255,7 @@
           "a": "Ai sobborghi del sud di Broward County, come Pembroke Pines, Cooper City e Hollywood. Il nome fa riferimento alle spiagge in erosione della zona."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/videos/rkoctr1r",
@@ -10407,7 +10407,7 @@
           "id": "what-bridge-ridge-is-like",
           "title": "Com'è Bridge Ridge",
           "paragraphs": [
-            "Bridge Ridge è una delle colline con nome di Kelly County, insieme a Thrillbilly Hill, Ambrosia Hill, Lollipop Ridge e altre. È il crinale appena a ovest di Ambrosia, dove i campi di canna da zucchero lasciano il posto ad alberi e sentieri.",
+            "Bridge Ridge è una delle colline di Kelly County che hanno un nome proprio, insieme a Thrillbilly Hill, Ambrosia Hill, Lollipop Ridge e altre. È il crinale appena a ovest di Ambrosia, dove i campi di canna da zucchero lasciano il posto ad alberi e sentieri.",
             "Il suo vicino più famoso è il Thrillbilly Mud Park: una folla di festaioli coperti di fango balla davanti a pick-up e a una gigantesca pozza di fango, e tra loro c'è un uomo con il cappello da cowboy che sorride alla telecamera. Il parco è ispirato al Redneck Mud Park della Florida."
           ],
           "bullets": []
@@ -10439,7 +10439,7 @@
           "title": "I luoghi reali dietro il nome",
           "paragraphs": [
             "Il Redneck Mud Park, vicino a Punta Gorda nel sud-ovest della Florida, è uno dei luoghi più noti dello Stato per le gare nel fango, dove camion, jeep e quad sfrecciano in pozze allagate davanti a folle di campeggiatori. I suoi eventi primaverili ed estivi attirano migliaia di persone.",
-            "La Florida è notoriamente pianeggiante, ma il suo interno ha dolci crinali, come il Lake Wales Ridge al centro dello Stato. Leonida li esagera trasformandoli in una vera zona collinare, prendendo in prestito dalla vicina Georgia."
+            "La Florida è notoriamente pianeggiante, ma il suo interno ha dolci crinali, come il Lake Wales Ridge al centro dello Stato. Leonida li esagera fino a farne una vera zona collinare, con paesaggi presi in prestito dalla vicina Georgia."
           ],
           "bullets": []
         },
@@ -10471,7 +10471,7 @@
         {
           "name": "Thrillbilly Hill",
           "real": null,
-          "text": "Una collina con nome accanto al parco del fango.",
+          "text": "Una collina con un nome proprio, accanto al parco del fango.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-thrillbilly-hill",
@@ -10515,7 +10515,7 @@
           "a": "A ovest di Ambrosia, in Kelly County, tra la regione dello zucchero e le colline verso Port Gellhorn. La posizione del pin è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
@@ -10678,7 +10678,7 @@
           "paragraphs": [
             "Un cartello verde della Interstate 404 elenca Capri insieme a Vice-Dale County. Il nome della città è quindi ufficiale, anche se la città non si è ancora vista in dettaglio.",
             "Le case bianche di assi di legno e i cortili ombreggiati dalle palme dietro il pick-up verde della clip «RIP Rudi» sono a Capri.",
-            "I punti di riferimento della città sono un mix insolito. Il lungomare ha un lungo molo da pesca e un frangiflutti come Naples, sulla costa del Golfo; il centro ha una rotonda circolare come quella di Sebring; e un lago con una passeggiata, una torre residenziale e una stazione ferroviaria richiama il Lake Mirror di Lakeland."
+            "I punti di riferimento della città sono un mix insolito. Il lungomare ha un lungo molo da pesca e un frangiflutti come Naples, sulla costa del Golfo; il centro ha una grande rotonda come quella di Sebring; e un lago con una passeggiata, una torre residenziale e una stazione ferroviaria richiama il Lake Mirror di Lakeland."
           ],
           "bullets": []
         },
@@ -10799,7 +10799,7 @@
           "a": "Nella Leonida occidentale, a sud di Port Gellhorn e a ovest di Lake Leonida. La posizione del pin è indicativa."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -10963,7 +10963,7 @@
           "id": "what-alligator-creek-is-like",
           "title": "Com'è Alligator Creek",
           "paragraphs": [
-            "La regione dei Grassrivers è ufficiale ed è piena di alligatori, airboat e pontili fangosi, ma questo suo angolo non ha ancora un nome ufficiale. Si chiama Alligator Creek in modo provvisorio.",
+            "La regione dei Grassrivers è ufficiale ed è piena di alligatori, airboat e pontili fangosi, ma questo suo angolo non ha ancora un nome ufficiale: Alligator Creek è un nome provvisorio.",
             "I punti di riferimento dei dintorni si adattano al nome: un campo di capanne su palafitte e pontili con un idrovolante, ispirato alla Everglades Alligator Farm vicino a Florida City, un piccolo campo d'aviazione e un ponte sulla strada che porta verso le Keys."
           ],
           "bullets": []
@@ -10986,7 +10986,7 @@
           "title": "Come arrivare e muoversi",
           "paragraphs": [
             "Alligator Creek è ad appena 700 metri a sud di Hamlet, con il centro dei Grassrivers 400 metri a ovest e Peregrine Bay un chilometro a nord-est.",
-            "Key Lento e l'inizio delle Leonida Keys sono a circa 1,3 chilometri a sud-est, quindi la zona funziona anche come tranquillo percorso tra la palude e le isole."
+            "Key Lento e l'inizio delle Leonida Keys sono a circa 1,3 chilometri a sud-est, quindi da qui passa anche un percorso tranquillo tra la palude e le isole."
           ],
           "bullets": []
         },
@@ -11072,7 +11072,7 @@
           "a": "Nei Grassrivers c'è un campo su palafitte ispirato alla Everglades Alligator Farm vicino a Florida City. Non è ancora noto cosa si possa fare lì."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
@@ -11221,7 +11221,7 @@
         -2662.0
       ],
       "marker": "loc-peregrine-bay",
-      "summary": "Peregrine Bay è il litorale industriale a sud di Vice City, dominato dalla Fuzzard Power Station e da una griglia di bacini di raffreddamento scavati tra le mangrovie. All'orizzonte, dietro Hamlet e la sua prigione, è la primissima immagine del Trailer 1.",
+      "summary": "Peregrine Bay è il litorale industriale a sud di Vice City, dominato dalla Fuzzard Power Station e da una griglia di bacini di raffreddamento scavati tra le mangrovie. Vista all'orizzonte, dietro Hamlet e la sua prigione, è la primissima immagine del Trailer 1.",
       "facts": {
         "Regione": "Terraferma meridionale, sulla baia tra Hamlet e Vice City",
         "Ispirazione reale": "Turkey Point e Homestead Bayfront, Florida",
@@ -11233,9 +11233,9 @@
           "id": "what-peregrine-bay-is-like",
           "title": "Com'è Peregrine Bay",
           "paragraphs": [
-            "GTA VI si apre qui: la prima inquadratura del Trailer 1 guarda attraverso un tramonto velato sulla terraferma meridionale, con un'autostrada in primo piano e, all'orizzonte, una prigione e una centrale elettrica. È la Fuzzard Power Station, ricalcata edificio per edificio sulla centrale di Turkey Point a sud di Miami.",
+            "GTA VI si apre qui: la prima inquadratura del Trailer 1 mostra la terraferma meridionale in un tramonto velato, con un'autostrada in primo piano e, all'orizzonte, una prigione e una centrale elettrica. È la Fuzzard Power Station, ricalcata edificio per edificio sulla centrale di Turkey Point a sud di Miami.",
             "Intorno alla centrale il terreno è piatto e umido: litorale di mangrovie, canali di drenaggio come il Fuzzard Drain Canal, un impianto di trattamento delle acque reflue e i lunghi bacini di raffreddamento rettangolari che rendono la zona facile da individuare dall'alto.",
-            "Il nome Peregrine Bay non è ufficiale. Scambia un uccello con un altro: il sito reale si chiama Turkey Point."
+            "Il nome Peregrine Bay non è ufficiale e sostituisce un uccello con un altro: il sito reale si chiama Turkey Point (turkey è il tacchino, peregrine il falco pellegrino)."
           ],
           "bullets": []
         },
@@ -11275,7 +11275,7 @@
           "title": "Consigli per l'esploratore",
           "paragraphs": [],
           "bullets": [
-            "Usa la centrale come punto di riferimento quando guidi tra Vice City e le Keys. È visibile per chilometri attraverso il piatto sud.",
+            "Usa la centrale come punto di riferimento quando guidi tra Vice City e le Keys: nella pianura del sud si vede da chilometri.",
             "I siti industriali nei giochi GTA sono spesso recintati e sorvegliati: aspettati aree ad accesso limitato intorno alla centrale.",
             "Per rifare l'inquadratura del Trailer 1, guarda verso Peregrine Bay dall'autostrada vicino a Hamlet al tramonto."
           ]
@@ -11347,7 +11347,7 @@
           "a": "A Turkey Point, la centrale elettrica sulla Biscayne Bay a sud di Miami, con i suoi canali di raffreddamento e la costa di mangrovie di Homestead Bayfront."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/videos/rkoctr1r",
@@ -11467,7 +11467,7 @@
       "slug": "vice-beach",
       "url": "https://www.gtasixmap.com/locations/vice-beach",
       "name": "Vice Beach (Miami Beach)",
-      "lead": "Vice Beach è la Miami Beach di GTA VI: la città sull'isola barriera dall'altra parte della baia rispetto a Vice City, sede di Ocean Beach, Washington Beach, una vivace via dello shopping e della spiaggia stessa.",
+      "lead": "Vice Beach è la Miami Beach di GTA VI: la città sull'isola barriera dall'altra parte della baia rispetto a Vice City, dove si trovano Ocean Beach, Washington Beach, una vivace via dello shopping e la spiaggia vera e propria.",
       "badges": [
         "Confermato da Rockstar",
         "Posizione stimata",
@@ -11487,7 +11487,7 @@
         -97.0
       ],
       "marker": "loc-vice-beach",
-      "summary": "Vice Beach è una città balneare a sé stante sulla lunga isola barriera a est di Downtown Vice City, con il proprio dipartimento di polizia e i propri quartieri. La strip Art Déco di Ocean Beach è la sua punta meridionale, le torri dei resort di Washington Beach la sua parte centrale, e strade più tranquille, canali e North Beaches si estendono verso nord.",
+      "summary": "Vice Beach è una città balneare a sé stante sulla lunga isola barriera a est di Downtown Vice City, con il proprio dipartimento di polizia e i propri quartieri. Gli hotel Art Déco di Ocean Beach ne occupano la punta meridionale, le torri dei resort di Washington Beach la parte centrale, e strade più tranquille, canali e North Beaches si estendono verso nord.",
       "facts": {
         "Regione": "Isola barriera a est di Downtown Vice City",
         "Ispirazione reale": "La città di Miami Beach",
@@ -11499,7 +11499,7 @@
           "id": "what-vice-beach-is-like",
           "title": "Com'è Vice Beach",
           "paragraphs": [
-            "Vice Beach è il volto più famoso della città: sabbia bianca, spiagge affollate, strip di hotel al neon e torri lungo l'oceano. Gli agenti indossano le uniformi del Vice Beach Police Department, a ricordare che, come Miami Beach, questa è una città a sé dall'altra parte della baia.",
+            "Vice Beach è il volto più famoso della città: sabbia bianca, spiagge affollate, file di hotel al neon e torri lungo l'oceano. Gli agenti indossano le uniformi del Vice Beach Police Department, a ricordare che, come Miami Beach, questa è una città a sé dall'altra parte della baia.",
             "L'isola si estende da nord a sud con l'oceano da un lato e la baia dall'altro. La sua estremità meridionale è Ocean Beach, con gli hotel Art Déco di Shore Drive; la parte centrale è Washington Beach, con grandi torri di resort e Indian Creek; più a nord gli edifici si abbassano e le spiagge si fanno più tranquille.",
             "Lontano dalla sabbia, Vice Beach ha anche un lato quotidiano: un'intera via dello shopping, SW 4th Street, ricalcata sulla 41st Street di Miami Beach, completa di banca, gioielleria, negozio di ciambelle e palestra."
           ],
@@ -11509,8 +11509,8 @@
           "id": "shopping-on-sw-4th-street",
           "title": "Shopping su SW 4th Street",
           "paragraphs": [
-            "SW 4th Street è la principale via commerciale di quartiere di Vice Beach, ispirata alla Arthur Godfrey Road. A livello strada trovi una banca Hobbs Milford all'angolo, la gioielleria Diamond Dawgs e un negozio Eye & Dry uno accanto all'altro, le ciambelle di Glazin' Glory, Catalyst Realty e la Ajax Gym, dove si vede un livello di ricercato che sale.",
-            "All'estremità occidentale della via, un murale dà il benvenuto ai visitatori a Vice Beach, corrispondente al vero murale di benvenuto di Miami Beach sulla Arthur Godfrey Road."
+            "SW 4th Street è la principale via commerciale di quartiere di Vice Beach, ispirata alla Arthur Godfrey Road. A livello strada trovi una banca Hobbs Milford all'angolo, la gioielleria Diamond Dawgs e un negozio Eye & Dry uno accanto all'altro, le ciambelle di Glazin' Glory, Catalyst Realty e la Ajax Gym, dove scatta un livello di ricercato.",
+            "All'estremità occidentale della via, un murale dà il benvenuto a Vice Beach, come quello vero di Miami Beach sulla Arthur Godfrey Road."
           ],
           "bullets": []
         },
@@ -11533,7 +11533,7 @@
           "id": "getting-there-and-around",
           "title": "Come arrivare e muoversi",
           "paragraphs": [
-            "Strade rialzate attraversano la baia dalla terraferma. La principale va da Downtown sopra Watson Island e oltre Starfish Island fino a Ocean Beach; la Rialto Causeway salta attraverso le Rialto Islands più a nord.",
+            "Strade rialzate attraversano la baia dalla terraferma. La principale va da Downtown sopra Watson Island e oltre Starfish Island fino a Ocean Beach; più a nord la Rialto Causeway attraversa le Rialto Islands.",
             "Questo pin si trova a sud dell'isola, con Ocean Beach ad appena 300 metri a sud e Starfish Island a circa mezzo chilometro a sud-ovest. Washington Beach e Bay Harbor sono più a nord lungo l'isola."
           ],
           "bullets": []
@@ -11561,7 +11561,7 @@
           "paragraphs": [],
           "bullets": [
             "Pensa a Vice Beach come a tre zone: Ocean Beach per la vita notturna, Washington Beach per resort e sport acquatici, SW 4th Street per i negozi di tutti i giorni.",
-            "Vice Beach ha il proprio dipartimento di polizia. I guai qui richiamano la Vice Beach PD, e la stazione è a Ocean Beach.",
+            "Vice Beach ha il proprio dipartimento di polizia: se combini guai qui arriva il Vice Beach Police Department, che ha la sua stazione a Ocean Beach.",
             "Le strade rialzate sono le uniche vie verso la terraferma, quindi pianifica la fuga prima di combinare qualcosa."
           ]
         }
@@ -11677,7 +11677,7 @@
           "a": "Alla città di Miami Beach, in Florida, sulla sua isola barriera al di là della Biscayne Bay rispetto a Miami."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
@@ -11853,7 +11853,7 @@
           "id": "what-goliath-is-like",
           "title": "Com'è Goliath",
           "paragraphs": [
-            "L'impianto si vede attraverso una finestra: oltre camion parcheggiati e una palma, un'alta torre del cemento e dei silos si stagliano contro il cielo, con il marchio Goliath. È ispirato al cementificio di Titan America a Medley, sul margine nord-occidentale di Miami-Dade.",
+            "Da una finestra, oltre camion parcheggiati e una palma, si vedono l'alta torre del cementificio e i silos con il marchio Goliath stagliarsi contro il cielo. L'impianto è ispirato al cementificio di Titan America a Medley, sul margine nord-occidentale di Miami-Dade.",
             "Il terreno intorno è piatto e industriale: cave di calcare allagate trasformate in laghi quadrati, piazzali per camion e canali, con la palude dei Grassrivers che inizia appena oltre. Le torri dell'impianto sono la cosa più alta per chilometri, il che le rende un punto di riferimento sull'accesso occidentale a Vice City."
           ],
           "bullets": []
@@ -11862,7 +11862,7 @@
           "id": "vice-city-international-airport",
           "title": "Vice City International Airport",
           "paragraphs": [
-            "Il vicino più prossimo di Goliath è l'aeroporto. Al Vice City International Airport un jet rombra basso sopra una gigantesca scritta VICE CITY. C'è un terminal privato con i jet sul piazzale, e di notte si esce sulla pista con le luci della città alle spalle.",
+            "Il vicino più prossimo di Goliath è l'aeroporto. Al Vice City International Airport un jet passa rombando a bassa quota sopra una gigantesca scritta VICE CITY. C'è un terminal privato con i jet sul piazzale, e di notte si esce sulla pista con le luci della città alle spalle.",
             "L'aeroporto, principale porta d'accesso di Leonida, ha una torre di controllo e diverse piste."
           ],
           "bullets": []
@@ -11871,10 +11871,10 @@
           "id": "things-to-do-around-goliath",
           "title": "Cosa fare nei dintorni di Goliath",
           "paragraphs": [
-            "Questo angolo della mappa riguarda l'entrare e l'uscire da Vice City."
+            "Questo angolo della mappa è il punto di passaggio per entrare e uscire da Vice City."
           ],
           "bullets": [
-            "Usa le torri del cemento come punto di riferimento quando arrivi in auto da ovest o dalla palude.",
+            "Usa le torri del cementificio come punto di riferimento quando arrivi in auto da ovest o dalla palude.",
             "Visita il Vice City International Airport accanto e cerca la gigantesca scritta VICE CITY.",
             "Dirigiti a nord verso Buckskin e la strada in stile Tamiami Trail che entra nei Grassrivers.",
             "Guida a sud verso Watson Bay lungo il margine della zona umida."
@@ -11972,7 +11972,7 @@
           "a": "L'impianto e il suo nome sono ufficiali, ma non ci sono ancora dettagli su cosa si possa fare lì. Il confine esatto dell'area sulla mappa è indicativo."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/media/screenshots",
@@ -12270,7 +12270,7 @@
           "a": "Il gioco del 2002 aveva Viceport, un quartiere portuale sulla terraferma. Il porto di GTA VI è un nuovo porto su isola, molto più grande, modellato sul moderno PortMiami."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
@@ -12406,7 +12406,7 @@
       "slug": "belville-belle-glade",
       "url": "https://www.gtasixmap.com/locations/belville-belle-glade",
       "name": "Belville (Belle Glade)",
-      "lead": "Belville è una zona operaia a nord di Vice City in GTA VI, sede della stazione di servizio Arrow sotto la pioggia battente della clip di PlanetLeonidaMan, tra la città e la regione dei laghi.",
+      "lead": "Belville è una zona operaia a nord di Vice City in GTA VI, tra la città e la regione dei laghi: qui c'è la stazione di servizio Arrow della clip di PlanetLeonidaMan sotto la pioggia battente.",
       "badges": [
         "Luogo non confermato",
         "Posizione stimata",
@@ -12439,7 +12439,7 @@
           "title": "Com'è Belville",
           "paragraphs": [
             "In una clip social di PlanetLeonidaMan una donna balla sotto la pioggia scrosciante sul piazzale di una stazione di servizio mentre un uomo le corre accanto, con una didascalia che scherza sul non aver bisogno dello strip club. Quella stazione, una Arrow, è a Belville ed è ispirata a una vera stazione sulla NW 7th Avenue nel nord di Miami.",
-            "Il nome Belville viene da un cartello della Interstate 97 nel leak del 2022, che indicava l'uscita 13A verso la State Route 10 per Belville ed Ekanfinaka. Questo la colloca sul lato settentrionale della città, vicino ai quartieri di Vice City del nord interno.",
+            "Il nome Belville viene da un cartello della Interstate 97 nel leak del 2022, che indicava l'uscita 13A verso la State Route 10 per Belville ed Ekanfinaka. Questo la colloca sul lato settentrionale della città, vicino ai quartieri dell'entroterra nord di Vice City.",
             "Il pin si trova più fuori, verso la regione dei laghi, e un edificio della zona è ispirato alla West Canal Street di Belle Glade, la città dello zucchero sul Lake Okeechobee."
           ],
           "bullets": []
@@ -12470,7 +12470,7 @@
           "id": "the-real-places-behind-it",
           "title": "I luoghi reali dietro il nome",
           "paragraphs": [
-            "A nord del centro di Miami, quartieri come Brownsville, Liberty City e Allapattah sono zone operaie di piccole case, negozi all'angolo e stazioni di servizio, spesso ignorate dai turisti. Belville prende spunto da Brownsville, accanto alla Ekanfinaka simile ad Allapattah.",
+            "A nord del centro di Miami, quartieri come Brownsville, Liberty City e Allapattah sono zone operaie di piccole case, negozi all'angolo e stazioni di servizio, spesso ignorate dai turisti. Belville prende spunto da Brownsville, e la vicina Ekanfinaka ricorda Allapattah.",
             "Belle Glade, sulla sponda sud-orientale del Lake Okeechobee, è una città agricola di zucchero e ortaggi il cui motto è Her Soil Is Her Fortune. Il suo nome riecheggia quello di Belville, e le sue strade lungo i canali si adattano alla posizione del pin tra la città e il lago."
           ],
           "bullets": []
@@ -12518,7 +12518,7 @@
       "faq": [
         {
           "q": "Belville è in GTA VI?",
-          "a": "Sì come nome dal leak del 2022, comparso su un cartello autostradale; la stazione di servizio sotto la pioggia della clip di PlanetLeonidaMan si trova a Belville. Il nome non è ancora ufficiale."
+          "a": "Il nome viene dal leak del 2022, dove compare su un cartello autostradale, e non è ancora ufficiale. La stazione di servizio sotto la pioggia della clip di PlanetLeonidaMan si trova a Belville."
         },
         {
           "q": "Dove si trova la stazione di servizio del trailer di GTA VI?",
@@ -12529,7 +12529,7 @@
           "a": "A Brownsville, nel nord di Miami. La zona più esterna, verso il lago, ricorda Belle Glade sul Lake Okeechobee."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/videos/rkoctr1r",
@@ -12649,7 +12649,7 @@
       "slug": "buckskin-miccosukee",
       "url": "https://www.gtasixmap.com/locations/buckskin-miccosukee",
       "name": "Buckskin (Miccosukee Indian Village)",
-      "lead": "Buckskin è una sosta lungo la strada sull'autostrada della palude a ovest di Vice City in GTA VI: una stazione di servizio solitaria, giri in airboat e un villaggio modellato sul corridoio Miccosukee del Tamiami Trail.",
+      "lead": "Buckskin è un punto di sosta sull'autostrada della palude a ovest di Vice City in GTA VI: una stazione di servizio solitaria, giri in airboat e un villaggio modellato sul corridoio Miccosukee del Tamiami Trail.",
       "badges": [
         "Luogo non confermato",
         "Posizione stimata",
@@ -12669,7 +12669,7 @@
         -177.0
       ],
       "marker": "loc-buckskin",
-      "summary": "Buckskin è l'ultima sosta lungo la strada sull'autostrada che da Vice City va a ovest nella palude. Una stazione di servizio con minimarket, giri in airboat e un piccolo villaggio costeggiano la strada, con le piste dell'aeroporto dietro e nient'altro che erba di palude davanti.",
+      "summary": "Buckskin è l'ultima sosta sull'autostrada che da Vice City va verso ovest, nella palude. Una stazione di servizio con minimarket, giri in airboat e un piccolo villaggio costeggiano la strada, con le piste dell'aeroporto dietro e nient'altro che erba di palude davanti.",
       "facts": {
         "Regione": "A ovest del Vice City International Airport, ai margini delle zone umide",
         "Ispirazione reale": "Il corridoio del Tamiami Trail e il Miccosukee Indian Village",
@@ -12770,7 +12770,7 @@
         {
           "name": "Villaggio",
           "real": "Miccosukee Indian Village, US 41",
-          "text": "Un piccolo villaggio e attrazione sull'autostrada della palude.",
+          "text": "Un piccolo villaggio, meta turistica sull'autostrada della palude.",
           "image": null,
           "imageFull": null,
           "marker": "lmk-village",
@@ -12784,7 +12784,7 @@
       "faq": [
         {
           "q": "Cos'è Buckskin in GTA VI?",
-          "a": "Una sosta lungo la strada sull'autostrada della palude a ovest di Vice City, con una stazione di servizio, giri in airboat e un villaggio. Il nome non è ufficiale."
+          "a": "Un punto di sosta sull'autostrada della palude a ovest di Vice City, con una stazione di servizio, giri in airboat e un villaggio. Il nome non è ufficiale."
         },
         {
           "q": "Buckskin è confermato da Rockstar?",
@@ -12795,7 +12795,7 @@
           "a": "Al Tamiami Trail a ovest di Miami, con le sue stazioni di servizio, gli operatori di airboat e il Miccosukee Indian Village."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://github.com/rolux/gtadb.org",
@@ -12931,7 +12931,7 @@
         424.0
       ],
       "marker": "loc-emerald-springs",
-      "summary": "Emerald Springs è una sacca di fiumi limpidi alimentati da sorgenti nella Leonida occidentale, dove l'acqua passa dal marrone della palude a un verde brillante. Gli airboat sfrecciano lungo i suoi fiumi fiancheggiati da cipressi, davanti a un'alta torre di osservazione in legno che si erge nell'acqua.",
+      "summary": "Emerald Springs è una zona di fiumi limpidi alimentati da sorgenti nella Leonida occidentale, dove l'acqua passa dal marrone della palude a un verde brillante. Gli airboat sfrecciano lungo i suoi fiumi fiancheggiati da cipressi, davanti a un'alta torre di osservazione in legno che si erge nell'acqua.",
       "facts": {
         "Regione": "Leonida occidentale, a nord di Buckskin",
         "Ispirazione reale": "Crystal River e Kings Bay, Florida",
@@ -12944,7 +12944,7 @@
           "title": "Com'è Emerald Springs",
           "paragraphs": [
             "Un airboat corre lungo un fiume di acqua verde e limpida tra fitti boschi di cipressi e querce. Un'alta torre di osservazione in legno si erge su palafitte al bordo dell'acqua, gli uccelli si alzano in volo davanti e la luce del sole mostra il fondo del fiume.",
-            "La zona è ispirata alla King Spring nella Kings Bay di Crystal River, una delle sorgenti più limpide della Florida. È un lato diverso delle zone umide di Leonida rispetto all'erba di palude scura dei Grassrivers più a sud."
+            "La zona è ispirata alla King Spring nella Kings Bay di Crystal River, una delle sorgenti più limpide della Florida. Mostra un volto delle zone umide di Leonida diverso dall'erba di palude scura dei Grassrivers, più a sud."
           ],
           "bullets": []
         },
@@ -12956,7 +12956,7 @@
           ],
           "bullets": [
             "Percorri in airboat il fiume limpido.",
-            "Trova la torre di osservazione in legno nell'acqua e salici per il panorama.",
+            "Trova la torre di osservazione in legno nell'acqua e sali in cima per il panorama.",
             "Cerca la grotta sulle colline a nord-ovest delle sorgenti.",
             "Dirigiti a sud verso la stazione di servizio e i giri in airboat di Buckskin, a circa 600 metri."
           ]
@@ -13044,7 +13044,7 @@
           "a": "Sì. Gli airboat si usano nei Grassrivers e lungo i fiumi limpidi di Emerald Springs."
         }
       ],
-      "note": "Posizione indicativa della community: la mappa del gioco è uscita, il pin va ricontrollato sul posto.",
+      "note": "Il punto sulla mappa è indicativo: controllalo nel gioco.",
       "sources": [
         {
           "url": "https://www.rockstargames.com/VI",
@@ -13210,7 +13210,7 @@
         },
         {
           "t": "p",
-          "text": "Una cifra precedente di un progetto di mappatura che ha circolato molto, di solito accanto alle 49 miglia quadrate spesso citate per GTA V."
+          "text": "Una vecchia stima di un progetto di mappatura, molto circolata, di solito citata accanto alle 49 miglia quadrate attribuite spesso a GTA V."
         },
         {
           "t": "p",
@@ -13304,7 +13304,7 @@
         },
         {
           "t": "p",
-          "text": "Nessuna posizione sulla mappa è ancora confermata, su nessuna mappa di GTA VI, compresa la nostra. Ogni segnaposto è una stima della community finché il gioco non uscirà il 19 novembre 2026."
+          "text": "Nessuna posizione è ancora confermata, su nessuna mappa di GTA VI, compresa la nostra: ogni segnaposto resta una stima della community finché il gioco non uscirà il 19 novembre 2026."
         },
         {
           "t": "h2",
@@ -13320,7 +13320,7 @@
         },
         {
           "t": "p",
-          "text": "A nord della città, la costa atlantica scorre lungo cittadine balneari, sobborghi e punti al largo verso la campagna agricola intorno a Lake Leonida."
+          "text": "A nord della città la costa atlantica prosegue tra cittadine balneari, sobborghi e luoghi al largo, fino alla campagna agricola intorno a Lake Leonida."
         },
         {
           "t": "h2",
@@ -13400,7 +13400,7 @@
         },
         {
           "t": "p",
-          "text": "GTA VI esce il 19 novembre 2026. Dal giorno del lancio verificheremo ogni luogo sulla vera mappa di gioco, correggeremo i segnaposto, passeremo i nomi a confermati o li rimuoveremo, e aggiungeremo nuovi luoghi man mano che i giocatori li scopriranno. La data in fondo a questa pagina indica quando l'elenco è stato rivisto l'ultima volta."
+          "text": "GTA VI esce il 19 novembre 2026. Dal giorno del lancio verificheremo ogni luogo sulla vera mappa di gioco, correggeremo i segnaposto, segneremo i nomi come confermati oppure li toglieremo, e aggiungeremo nuovi luoghi man mano che i giocatori li scopriranno. La data in fondo a questa pagina indica quando l'elenco è stato rivisto l'ultima volta."
         },
         {
           "t": "h2",
@@ -13504,7 +13504,7 @@
         },
         {
           "t": "p",
-          "text": "Grassrivers sono le Everglades di Leonida: una vasta zona umida di sawgrass e mangrovie a ovest di Vice City. Gli alligatori sono l'attrazione più famosa, e Rockstar lascia intendere predatori più letali e scoperte più strane nella palude."
+          "text": "I Grassrivers sono le Everglades di Leonida: una vasta zona umida di erba di palude (sawgrass) e mangrovie a ovest di Vice City. Gli alligatori sono l'attrazione più famosa, e Rockstar lascia intendere predatori più letali e scoperte più strane nella palude."
         },
         {
           "t": "p",
@@ -13516,7 +13516,7 @@
         },
         {
           "t": "p",
-          "text": "Rockstar definisce Port Gellhorn la costa dimenticata di Leonida. La vecchia località di villeggiatura sulla costa nord-occidentale del Golfo ha perso i turisti, e ha preso il sopravvento un'economia più ruvida di motel, locali di cabaret e piccoli traffici. Lo slogan di Rockstar è \"Live Hard\"."
+          "text": "Rockstar definisce Port Gellhorn la costa dimenticata di Leonida. La vecchia località di villeggiatura sulla costa nord-occidentale del Golfo ha perso i turisti, e al loro posto è arrivata un'economia più losca di motel, locali di cabaret e piccoli traffici. Lo slogan di Rockstar è \"Live Hard\"."
         },
         {
           "t": "p",
@@ -13586,7 +13586,7 @@
         },
         {
           "t": "p",
-          "text": "Leonida è l'interpretazione della Florida secondo Rockstar, e la maggior parte dei suoi luoghi ha un gemello nel mondo reale. Alcuni collegamenti sono evidenti dalle descrizioni e dai filmati di Rockstar stessa. Altri sono confronti fatti dai fan e dalla community di mappatura. Questa guida li elenca entrambi e specifica quali sono gli uni e quali gli altri."
+          "text": "Leonida è l'interpretazione della Florida secondo Rockstar, e la maggior parte dei suoi luoghi ha un gemello nel mondo reale. Alcuni collegamenti sono evidenti dalle descrizioni e dai filmati di Rockstar stessa. Altri sono confronti fatti dai fan e dalla community di mappatura. Questa guida li elenca tutti e indica di che tipo è ciascuno."
         },
         {
           "t": "h2",
@@ -13610,7 +13610,7 @@
         },
         {
           "t": "p",
-          "text": "Rockstar raramente copia un nome reale. Preferisce piegarlo, spesso nascondendoci dentro una battuta."
+          "text": "Rockstar raramente copia un nome reale. Preferisce storpiarlo, spesso nascondendoci dentro una battuta."
         },
         {
           "t": "li",
@@ -13658,7 +13658,7 @@
         },
         {
           "t": "p",
-          "text": "Sì, nello spirito. Grassrivers è l'interpretazione delle Everglades secondo Rockstar, con paludi di sawgrass, mangrovie, airboat e alligatori."
+          "text": "Sì, nello spirito. Grassrivers è l'interpretazione delle Everglades secondo Rockstar, con paludi di erba di palude (sawgrass), mangrovie, airboat e alligatori."
         },
         {
           "t": "p",
@@ -13746,7 +13746,7 @@
         },
         {
           "t": "li",
-          "text": "I revolver Hawk e Little Morgan, una coppia lui-e-lei con impugnature a palma."
+          "text": "I revolver Hawk e Little Morgan, una coppia «per lui e per lei» con impugnature a palma."
         },
         {
           "t": "li",
@@ -13922,7 +13922,7 @@
         },
         {
           "t": "p",
-          "text": "Rockstar racconta che Jason è finito nelle Leonida Keys a lavorare per trafficanti di droga locali dopo aver lasciato l'esercito. Vive senza pagare affitto in una casa su palafitte consumata dal tempo di proprietà di Brian Heder, un contrabbandiere della vecchia scuola che fa ancora passare la merce dal suo cantiere nautico. In cambio, Jason dà una mano con le estorsioni locali."
+          "text": "Rockstar racconta che Jason è finito nelle Leonida Keys a lavorare per trafficanti di droga locali dopo aver lasciato l'esercito. Vive senza pagare affitto in una casa su palafitte consumata dal tempo, di proprietà di Brian Heder, un contrabbandiere della vecchia scuola che fa ancora passare la merce dal suo cantiere nautico. In cambio, Jason dà una mano con le estorsioni locali."
         },
         {
           "t": "p",
@@ -14020,7 +14020,7 @@
         },
         {
           "t": "p",
-          "text": "Il segnaposto indica che in quell'area è stato visto o si può prendere un veicolo. Quando conosciamo il modello, lo dicono il titolo o la foto del segnaposto. Se non ne indica uno, non dare per scontata un'auto specifica."
+          "text": "Il segnaposto indica che in quell'area è stato visto o si può prendere un veicolo. Se il modello è noto, lo indicano il titolo o la foto del segnaposto; se non è indicato, non dare per scontata un'auto specifica."
         },
         {
           "t": "h2",

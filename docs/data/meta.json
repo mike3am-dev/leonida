@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.41.0",
+  "dataVersion": "0.42.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.42.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Testi riletti in tutta la guida: 681 frasi riscritte perché si capiscano al primo colpo. Sono state tolte le frasi da appunto, le ripetizioni, le parole inglesi inutili, le sigle non spiegate e i riferimenti alle fonti. Fatti, numeri e nomi sono rimasti gli stessi."
+      ]
+    },
     {
       "version": "0.41.0",
       "date": "2026-11-18",

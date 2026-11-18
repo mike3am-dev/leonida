@@ -6,7 +6,7 @@
       "type": "attività",
       "name": "Vita in barca",
       "districtId": "dis-keys",
-      "description": "Barche di ogni tipo; nelle edizioni ci sono il motoscafo Shitzu Squalo e il kayak Crest. Ci sono anche jet ski, nuoto e immersioni. Le Keys sono il posto giusto per cominciare.",
+      "description": "Barche di ogni tipo, più jet ski, nuoto e immersioni. Alcune edizioni del gioco includono il motoscafo Shitzu Squalo e il kayak Crest. Le Keys sono il posto giusto per cominciare.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -44,7 +44,7 @@
       "description": "Si caccia in campagna e nelle paludi: cinghiali, serpenti a sonagli, pantere, orsi e alligatori. Ci sono 8 animali unici, leggendari.",
       "requirements": [],
       "rewards": [
-        "Sfide di sopravvivenza: 3 alligatori, cinghiale + serpente a sonagli + pantera in 15 minuti, tutti gli 8 animali unici."
+        "Sfide di sopravvivenza: 3 alligatori; un cinghiale, un serpente a sonagli e una pantera in 15 minuti; tutti gli 8 animali unici."
       ],
       "steps": [],
       "image": null,
@@ -85,9 +85,9 @@
       "type": "attività",
       "name": "Corse su strada: Hit 'N Run VC",
       "districtId": "dis-vice-city",
-      "description": "Nove gare clandestine per Vice City: Salton (3), La Perle (2), Ocean Beach (2), Gloriana Key (2). Il gruppo ti invita all'inizio del capitolo 3; da lì passa anche la serie di Yago.",
+      "description": "Nove gare clandestine per Vice City: Salton (3), La Perle (2), Ocean Beach (2), Gloriana Key (2). Il gruppo ti invita all'inizio del capitolo 3, e da lì parte anche la serie di Yago.",
       "requirements": [
-        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "In tutto ci sono 40 gare diverse: per il 100% devi vincerne 30, per il trofeo «Guadagna i soldi, non la gloria» 20.",
         "Ogni gara ha una quota d'iscrizione e il noleggio del mezzo: vincendo ci guadagni."
       ],
       "rewards": [
@@ -116,20 +116,20 @@
       "type": "attività",
       "name": "Rapine ai negozi",
       "districtId": null,
-      "description": "Due tipi di colpo. Le rapine lampo nei minimarket, fast food e negozi di liquori (91 sulla mappa): punti la pistola al cassiere e prendi l'incasso. E i «Smash 'n' Grab», 35 tra banchi dei pegni e gioiellerie: rompi le vetrine e svuoti la cassaforte nel retro.",
+      "description": "Ci sono due tipi di colpo. Le rapine lampo in minimarket, fast food e negozi di liquori (91 sulla mappa): punti la pistola al cassiere e prendi l'incasso. E gli «Smash 'n' Grab» in 35 tra banchi dei pegni e gioiellerie: rompi le vetrine e svuoti la cassaforte nel retro.",
       "requirements": [
-        "Banchi dei pegni da metà del capitolo 2, gioiellerie da metà del capitolo 3.",
+        "I banchi dei pegni si sbloccano a metà del capitolo 2, le gioiellerie a metà del capitolo 3.",
         "Per il 100%: rapine lampo in 50 negozi diversi e 34 Smash 'n' Grab su 35, cassaforte del retro compresa.",
-        "Mappa › Rapine (sacco di soldi): icona verde chiara = fatto."
+        "Le trovi in Mappa › Rapine (icona del sacco di soldi): quelle già fatte hanno l'icona verde chiaro."
       ],
       "rewards": [
-        "Gioiellerie da 1.000 a 25.000 $ a colpo.",
+        "Una gioielleria rende da 1.000 a 25.000 $ a colpo.",
         "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con lo Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
         "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato."
       ],
       "steps": [
         "Gioielli e contanti vanno venduti a un ricettatore.",
-        "Nel retro distruggi i nastri e spegni l'allarme: il profilo resta Professional."
+        "Nel retro distruggi i nastri e spegni l'allarme: il profilo criminale resta «Professional»."
       ],
       "image": null,
       "status": "verificato",
@@ -181,7 +181,7 @@
       "type": "attività",
       "name": "Basket",
       "districtId": null,
-      "description": "I canestri sono 100, sparsi per tutta Leonida: a ognuno c'è un pallone. Tiri mirati e a tempo.",
+      "description": "I canestri sono 100, sparsi per tutta Leonida: a ognuno c'è un pallone. Il tiro si mira e va fatto al momento giusto.",
       "requirements": [
         "Per il 100% fai canestro in 90 posti diversi: 90 tiri nello stesso posto non contano.",
         "Mappa › Esplorazione › Punti d'interesse › Canestri: quelli fatti restano segnati."
@@ -223,7 +223,7 @@
         "Dopo la storia: 50 lanci da oltre 300 piedi sbloccano il trucco Paracadute."
       ],
       "steps": [
-        "Compra il paracadute all'Ammu-Nation (Equipaggiamento) e accendilo dalla ruota degli oggetti: occupa lo slot del giubbotto.",
+        "Compra il paracadute all'Ammu-Nation (Equipaggiamento) ed equipaggialo dalla ruota degli oggetti: occupa lo slot del giubbotto.",
         "Lanciati e premi il tasto indicato per aprirlo; ogni base jump ha anche una sfida facoltativa, che non serve per il 100%."
       ],
       "image": null,
@@ -240,7 +240,7 @@
       "type": "attività",
       "name": "Poligono di tiro",
       "districtId": null,
-      "description": "Due poligoni con sei sfide ciascuno: il Griffin Shooting Range a nord-ovest di Vice City, percorsi a ostacoli a tempo, e il Rodgers Ranch a nord-est di Port Gellhorn, a punteggio da fermi con moltiplicatore. Ogni sfida ha bronzo, argento e oro.",
+      "description": "Due poligoni con sei sfide ciascuno. Il Griffin Shooting Range, a nord-ovest di Vice City, ha percorsi a ostacoli a tempo; il Rodgers Ranch, a nord-est di Port Gellhorn, ha prove da fermo a punteggio, con moltiplicatore. Ogni sfida ha bronzo, argento e oro.",
       "requirements": [
         "Compra il pass da 5 $ dal commesso di ciascun poligono: le sfide compaiono sulla mappa.",
         "Se non hai l'arma richiesta la noleggi per 10 $: bastano quelle a noleggio.",
@@ -255,7 +255,7 @@
         "Al Griffin gioca con Lucia: corre e si muove meglio di Jason.",
         "Al Griffin spara in fretta: il centro toglie un secondo, ma fermarsi a mirare costa di più.",
         "Al Rodgers colpisci il corpo una o due volte prima della testa per far salire il moltiplicatore; un colpo a vuoto lo abbassa.",
-        "Per farti il Focus: Market Range, livello principiante, al Rodgers. Dura cinque secondi: esci e ricomincia."
+        "Per allenare il Focus fai il Market Range, livello principiante, al Rodgers: dura cinque secondi, poi esci e ricomincia."
       ],
       "image": null,
       "status": "verificato",
@@ -277,7 +277,7 @@
       ],
       "rewards": [
         "Il golf alza il Focus.",
-        "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti a 3 sotto il par; tutti e due in un giorno al par; due buche in uno di fila."
+        "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti, a 3 sotto il par; tutti e due i percorsi nello stesso giorno, al par; due buche in uno consecutive."
       ],
       "steps": [],
       "image": null,
@@ -406,7 +406,7 @@
         "Se dimentichi qualcosa, il covo si ripopola dopo parecchio tempo."
       ],
       "rewards": [
-        "Varianti uniche di armi, orologi di lusso, la cassaforte e droga da vendere ai ricettatori.",
+        "Dentro trovi varianti uniche di armi, orologi di lusso, una cassaforte e droga da vendere ai ricettatori.",
         "Trofeo «Disinfestazione»: un'operazione per ogni banda.",
         "Il terzo covo dei PTT Youngin$ è dell'Ultimate Edition e non conta per il 100%."
       ],
@@ -427,7 +427,7 @@
       "name": "Appuntamenti con Lucia (o Jason)",
       "type": "attività",
       "districtId": null,
-      "description": "Zoo, kayak, passeggiate in spiaggia, bici, palestra, escursioni, immersioni, paracadute: gli appuntamenti sono dinamici e fanno salire la relazione, che ha quattro livelli. Mano nella mano con R2.",
+      "description": "Zoo, kayak, passeggiate in spiaggia, bici, palestra, escursioni, immersioni, paracadute: gli appuntamenti sono dinamici e fanno salire la relazione, che ha quattro livelli. Per tenervi per mano premi R2.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -447,7 +447,7 @@
       "districtId": null,
       "description": "Si vendono auto rubate in tre modi: a Moses a Port Gellhorn (dal capitolo 2, solo senza localizzatore, circa 1.000 $), a qualunque Pay 'n' Spray (dal capitolo 3, anche con localizzatore standard, 2.500-4.000 $) e a Randy, che vuole 16 auto di lusso precise (dal capitolo 3, 30.000 $ e più se intatte).",
       "requirements": [
-        "Per il 100%: 200.000 $ di veicoli venduti (con Randy ci arrivi da solo).",
+        "Per il 100%: 200.000 $ di veicoli venduti (bastano le consegne a Randy per arrivarci).",
         "Scansiona l'auto con WAiNK: vedi se ha il localizzatore e se è nella lista di Randy."
       ],
       "rewards": [
@@ -472,7 +472,7 @@
       "name": "Soffiate dagli NPC",
       "type": "attività",
       "districtId": null,
-      "description": "Nuovi bersagli da rapinare arrivano dai personaggi della storia, dalle chiacchiere degli NPC o esplorando: una cassa incustodita, un'auto preziosa, un covo.",
+      "description": "Nuovi bersagli da rapinare arrivano dai personaggi della storia, dalle chiacchiere dei passanti o esplorando: una cassa incustodita, un'auto preziosa, un covo.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -492,7 +492,7 @@
       "districtId": null,
       "description": "Gellhorn International Raceway a sud di Port Gellhorn (11 gare, si apre con la gara di presentazione), Boone Speedway a Hamlet (2 gare a eliminazione), Ambrosia Raceway (2 demolition derby) e Thrillbilly Mud Club nel nord della Kelly County (8 gare su sterrato e ovale).",
       "requirements": [
-        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "In tutto ci sono 40 gare diverse: per il 100% devi vincerne 30, per il trofeo «Guadagna i soldi, non la gloria» 20.",
         "Il Mud Club si apre nel capitolo 2 con la serie di Billy."
       ],
       "rewards": [
@@ -533,7 +533,7 @@
       "name": "Pesca: cattura e rilascio",
       "type": "attività",
       "districtId": "dis-keys",
-      "description": "Dettagliata come in RDR2, ma il pesce non lo tieni: niente da vendere o da mangiare. Ci sono sfide e collezionabili legati alla pesca. Il primo luogo noto è Gambit Bay. Una scena in barca con Brian Heder è il primo indizio del minigioco.",
+      "description": "Dettagliata come in Red Dead Redemption 2, ma il pesce non lo tieni: niente da vendere o da mangiare. Ci sono sfide e collezionabili legati alla pesca. Il primo posto di pesca noto è Gambit Bay; anche una scena in barca con Brian Heder mostra la pesca.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -563,7 +563,7 @@
       ],
       "steps": [
         "Un colpo pulito, alla testa o al cuore, lascia l'animale intatto e rende di più; troppi colpi lo rovinano.",
-        "Mappa › Attività › Target Deck per vedere le cacce aperte."
+        "Le cacce aperte sono in Mappa › Attività › Target Deck."
       ],
       "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
       "group": "Pesca e caccia"
@@ -579,7 +579,7 @@
       "name": "Lo zoo, anche come appuntamento",
       "type": "attività",
       "districtId": "dis-vice-city",
-      "description": "Il Wildland Zoo di Vice City si visita, si studiano gli animali, ed è «tempo di qualità» per Jason e Lucia. Non è legato alla storia.",
+      "description": "Il Wildland Zoo di Vice City si può visitare per studiare gli animali, e conta come «tempo di qualità» per Jason e Lucia. Non è legato alla storia.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -589,7 +589,7 @@
     {
       "id": "act-moto-d-acqua-jet-ski",
       "name": "Moto d'acqua (jet ski)",
-      "description": "Lucia guida una Seashark con altri due piloti vicini, ma senza HUD di gara; Jason guida con Lucia dietro, quindi è un'attività da fare in coppia. Non è ancora noto se ci siano sfide o gare come in GTA Online. In questa guida rientra in «Vita in barca».",
+      "description": "Lucia guida una Seashark accanto ad altri due piloti, ma senza indicatori di gara; Jason guida con Lucia dietro, quindi è un'attività da fare in coppia. Non è ancora noto se ci siano sfide o gare come in GTA Online. Fa parte di «Vita in barca».",
       "districtId": null,
       "image": null,
       "status": "verificato",
@@ -607,7 +607,7 @@
     {
       "id": "act-kayak",
       "name": "Kayak",
-      "description": "Un uomo in kayak sotto un ponte ferroviario a Mount Kalaga, accanto a un idrometro: un possibile indizio di piene e meteo dinamico. Pagaiare insieme alza il legame Jason–Lucia. Il veicolo è il Crest Kayak.",
+      "description": "Sotto un ponte ferroviario a Mount Kalaga, accanto a un idrometro, c'è un uomo in kayak: forse un indizio di piene e di meteo dinamico. Pagaiare insieme rafforza il legame tra Jason e Lucia. Il veicolo è il Crest Kayak.",
       "districtId": "dis-mount-kalaga",
       "image": null,
       "status": "verificato",
@@ -643,7 +643,7 @@
     {
       "id": "act-combattimenti-in-gabbia",
       "name": "Combattimenti in gabbia",
-      "description": "Lucia calcia un avversario dentro una gabbia e porta spesso una collana con un guantone da boxe. I combattimenti in gabbia mancavano dai tempi di The Ballad of Gay Tony. In questa guida rientrano in «Vita notturna: club, strip club, fight club».",
+      "description": "In gabbia Lucia prende a calci un avversario, e porta spesso una collana con un guantone da boxe. I combattimenti in gabbia mancavano dai tempi di The Ballad of Gay Tony. Fanno parte di «Vita notturna: club, strip club, fight club».",
       "districtId": null,
       "image": null,
       "status": "da verificare",
@@ -661,7 +661,7 @@
     {
       "id": "act-football-americano",
       "name": "Football americano",
-      "description": "Solo indizi: un pallone da football nel bagagliaio di Jason, NPC che se lo lanciano sulla spiaggia di Vice City, la federazione AFF e i Manatees. Non è ancora noto se il football sia giocabile.",
+      "description": "Per ora ci sono solo indizi: un pallone da football nel bagagliaio di Jason, passanti che se lo lanciano sulla spiaggia di Vice City, la federazione AFF e i Manatees. Non è ancora noto se il football sia giocabile.",
       "districtId": null,
       "image": null,
       "status": "da verificare",
@@ -693,7 +693,7 @@
       ],
       "steps": [
         "Chiama il partner e andate insieme: vale doppio.",
-        "Mappa › Esplorazione › Meditate Around Leonida."
+        "Le trovi in Mappa › Esplorazione › Meditate Around Leonida."
       ],
       "image": null,
       "status": "da verificare",
@@ -706,7 +706,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Non è ancora chiaro se la meditazione del capitolo 1 serva per il trofeo: fala comunque."
+          "text": "Non è ancora chiaro se la meditazione del capitolo 1 serva per il trofeo: falla comunque."
         }
       ]
     },
@@ -726,7 +726,7 @@
       ],
       "steps": [
         "Tieni la levetta sinistra in avanti per tutto il percorso, a velocità massima, ed evita gli urti.",
-        "Ci arrivi in taxi, tranne Dalton Island."
+        "Puoi raggiungerle tutte in taxi, tranne Dalton Island."
       ],
       "image": null,
       "status": "da verificare",
@@ -799,7 +799,7 @@
       ],
       "steps": [
         "Andate in due: mentre ti alleni con uno, l'altro finisce da solo il suo.",
-        "Dopo, prendi proteine: frullato in frigo o barretta in palestra."
+        "Dopo l'allenamento prendi delle proteine: un frullato dal frigo o una barretta in palestra."
       ],
       "image": null,
       "status": "da verificare",
@@ -825,7 +825,7 @@
         "Dopo la storia: 50 salti sbloccano il trucco Nitro infinito."
       ],
       "steps": [
-        "Mappa › Esplorazione › Stunt Spots: viola = trovata, bianca = fatta."
+        "In Mappa › Esplorazione › Stunt Spots le acrobazie trovate sono viola, quelle fatte bianche."
       ],
       "image": null,
       "status": "da verificare",
@@ -944,7 +944,7 @@
       "districtId": null,
       "description": "Otto gare tra Lummox County e Mariana County, due per posto: Grayson, Redshaw's, Ranchers e Big Pine.",
       "requirements": [
-        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "In tutto ci sono 40 gare diverse: per il 100% devi vincerne 30, per il trofeo «Guadagna i soldi, non la gloria» 20.",
         "Ogni gara ha una quota d'iscrizione e il noleggio del mezzo; vincendo una si apre la successiva."
       ],
       "rewards": [],

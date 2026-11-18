@@ -31,7 +31,7 @@
       "id": "tip-rating",
       "category": "prima-ora",
       "title": "Cosa aspettarsi: il bollino",
-      "body": "Rating ESRB Mature con descrittori completi: sangue, violenza intensa, umorismo adulto, nudità, linguaggio forte, contenuti sessuali espliciti, droghe e alcol. Più acquisti in gioco. Per chi gioca con altri in casa, meglio saperlo.",
+      "body": "Il gioco ha la classificazione ESRB Mature, con tutti i descrittori: sangue, violenza intensa, umorismo adulto, nudità, linguaggio forte, contenuti sessuali espliciti, droghe e alcol. Segnala anche acquisti nel gioco. Se giochi con altri in casa, meglio saperlo.",
       "priority": 4,
       "status": "verificato",
       "source": "trailer",
@@ -89,7 +89,7 @@
       "category": "generale",
       "title": "Cambiare protagonista: un tasto",
       "priority": 11,
-      "body": "Da Jason a Lucia con una pressione (giù sulla croce direzionale), anche a metà missione. Chi non controlli continua a darti una mano in combattimento. Conto in banca e arsenale sono condivisi.",
+      "body": "Passi da Jason a Lucia con un solo tasto (giù sulla croce direzionale), anche a metà missione. Chi non controlli continua ad aiutarti in combattimento. Conto in banca e arsenale sono condivisi.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
     },
     {
@@ -103,12 +103,12 @@
       "category": "combattimento",
       "title": "Polizia: sei stelle e un profilo criminale",
       "priority": 12,
-      "body": "Sei livelli di ricercato. Sotto le stelle, delle icone mostrano cosa sa la polizia: il tuo aspetto, se eri solo o in coppia, i vestiti, l'auto, l'arma, le telecamere. Ogni elemento si cancella a parte: separati dal partner, cambiati, abbandona l'auto, butta l'arma. Stelle vuote vogliono dire che non sanno chi sei: allontanati dalla zona.",
+      "body": "Sei livelli di ricercato. Sotto le stelle, delle icone mostrano cosa sa la polizia: il tuo aspetto, se eri solo o in coppia, i vestiti, l'auto, l'arma, le telecamere. Ogni elemento si cancella a parte: separati dal partner, cambiati, abbandona l'auto, butta l'arma. Se le stelle sono vuote non sanno chi sei: allontanati dalla zona.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "extras": [
         {
           "source": "rumor",
-          "text": "Stella piena: ti vedono. Lampeggiante: contatto perso. Rossa: sei fuggito ma sei ancora nell'area di ricerca. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
+          "text": "Se la stella è piena ti vedono, se lampeggia hanno perso il contatto, se è rossa sei fuggito ma sei ancora nell'area di ricerca. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
         }
       ]
     },
@@ -123,7 +123,7 @@
       "category": "combattimento",
       "title": "Copertura, focus e punti deboli",
       "priority": 13,
-      "body": "Sparatorie da copertura, un indicatore di focus che rallenta il tempo, nemici con zone deboli, armi raccolte da terra. E un fucile a pompa che si usa con una mano sola.",
+      "body": "Si combatte da dietro le coperture, con un indicatore di focus che rallenta il tempo e nemici con zone deboli; le armi si raccolgono da terra. C'è anche un fucile a pompa che si usa con una mano sola.",
       "sourceUrl": "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
     },
     {
@@ -137,7 +137,7 @@
       "category": "guida",
       "title": "Rubare un'auto non è più solo aprire la portiera",
       "priority": 14,
-      "body": "Livelli di sicurezza diversi: slim jim per le vecchie, clonatore di chiavi e bypass per le nuove. L'app WAINK scansiona l'auto e ti dice a cosa vai incontro. Scooter Bros recupera, a pagamento, un veicolo distrutto.",
+      "body": "Le auto hanno livelli di sicurezza diversi: per le vecchie basta lo slim jim, per le nuove servono il clonatore di chiavi e il bypass. L'app WAINK scansiona l'auto e ti dice a cosa vai incontro. Scooter Bros recupera, a pagamento, un veicolo distrutto.",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/"
     },
     {
@@ -151,7 +151,7 @@
       "category": "generale",
       "title": "Il corpo cambia",
       "priority": 15,
-      "body": "Dieta, esercizio e sonno modificano il fisico di Jason e Lucia. Capelli a casa o dal parrucchiere, vestiti nei negozi. La personalizzazione è molto più profonda che in passato.",
+      "body": "Dieta, esercizio e sonno modificano il fisico di Jason e Lucia. I capelli si sistemano a casa o dal parrucchiere, i vestiti si comprano nei negozi. La personalizzazione è molto più profonda che in passato.",
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed"
     },
     {
@@ -165,7 +165,7 @@
       "category": "esplorazione",
       "title": "Parlare con la gente",
       "priority": 16,
-      "body": "Saluta, provoca, sfotti o calma chi incontri: il sistema di interazione con gli NPC è una versione estesa di quello di Red Dead Redemption 2. Con i cani: accarezza, sgrida, studia.",
+      "body": "Saluta, provoca, sfotti o calma chi incontri: il sistema per interagire con la gente è una versione estesa di quello di Red Dead Redemption 2. I cani puoi accarezzarli, sgridarli o studiarli.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
     },
     {
@@ -179,7 +179,7 @@
       "category": "generale",
       "title": "Jason e Lucia: insieme, in che modo lo decidi tu",
       "priority": 17,
-      "body": "La relazione tra i due è al centro della storia, ma puoi tenerla su un piano platonico. Le scene del trailer di lancio sono cutscene, non gameplay.",
+      "body": "La relazione tra i due è al centro della storia, ma puoi tenerla su un piano platonico. Le scene del trailer di lancio sono filmati, non momenti giocati.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/"
     },
     {
@@ -233,7 +233,7 @@
       "id": "tip-trasporti-2",
       "category": "trasporti",
       "title": "Viaggio rapido: mezzi pubblici e Ryde Me",
-      "body": "Per viaggiare velocemente ci sono vari modi, soprattutto i mezzi pubblici. Ryde Me (l'Uber di Leonida) ti porta a destinazione saltando il viaggio, oppure ti fai la corsa intera chiacchierando con l'autista. Esistono anche tram e taxi; l'acqua ha i suoi taxi.",
+      "body": "Per viaggiare velocemente ci sono vari modi, soprattutto i mezzi pubblici. Ryde Me (l'Uber di Leonida) ti porta a destinazione saltando il viaggio, oppure ti fai la corsa intera chiacchierando con l'autista. Ci sono anche tram e taxi, pure sull'acqua.",
       "priority": 2,
       "status": "verificato",
       "source": "trailer",
@@ -246,7 +246,7 @@
       "id": "tip-trasporti-3",
       "category": "trasporti",
       "title": "Hai perso l'auto? Scooter Bros",
-      "body": "L'app te la riporta in pochi secondi per una piccola tariffa, con le armi nel bagagliaio. Se l'hai abbandonata in un inseguimento può essere sorvegliata o al deposito: costa di più.",
+      "body": "L'app Scooter Bros ti riporta l'auto in pochi secondi per una piccola tariffa, con le armi nel bagagliaio. Se l'hai abbandonata in un inseguimento può essere sorvegliata o al deposito, e il recupero costa di più.",
       "priority": 3,
       "status": "da verificare",
       "source": "stampa",
@@ -259,7 +259,7 @@
       "id": "tip-trasporti-4",
       "category": "trasporti",
       "title": "Monopattini elettrici, con casco",
-      "body": "Si guidano, e c'è l'opzione del casco. Comodi per la città, inutili per scappare.",
+      "body": "I monopattini elettrici si guidano e puoi mettere il casco. Comodi in città, inutili per scappare.",
       "priority": 4,
       "status": "da verificare",
       "source": "stampa",
@@ -272,7 +272,7 @@
       "id": "tip-trasporti-5",
       "category": "trasporti",
       "title": "La mappa si apre presto, senza caricamenti",
-      "body": "La storia comincia nelle Keys, nella casetta di Jason; poi gran parte della mappa si apre relativamente presto. Nessun caricamento tra città, periferia e campagna: ascensori e scale sono gioco vivo.",
+      "body": "La storia comincia nelle Keys, nella casetta di Jason; poi gran parte della mappa si apre relativamente presto. Nessun caricamento tra città, periferia e campagna: anche in ascensore e sulle scale continui a giocare.",
       "priority": 5,
       "status": "verificato",
       "source": "trailer",
@@ -298,7 +298,7 @@
       "id": "tip-guida-2",
       "category": "guida",
       "title": "Rubare un'auto: tre livelli",
-      "body": "Vecchie: finestrino o slim jim (mini-gioco a tempo). Moderne: serve il Key Cloner, che sbloccherai lavorando per i ricettatori d'auto. Scansiona con WAINK prima di toccare la maniglia. Il localizzatore tace in velocità: se rallenti in città, parte il bip e poi la segnalazione. Fuga in moto sportiva o a piedi.",
+      "body": "Le auto vecchie le apri rompendo il finestrino o con lo slim jim (un mini-gioco a tempo). Per quelle moderne serve il Key Cloner, che sblocchi lavorando per i ricettatori d'auto. Scansiona con WAINK prima di toccare la maniglia. Il localizzatore tace finché vai veloce: se rallenti in città parte il bip e poi la segnalazione. Scappa in moto sportiva o a piedi.",
       "priority": 21,
       "status": "verificato",
       "source": "trailer",
@@ -311,7 +311,7 @@
       "id": "tip-guida-3",
       "category": "guida",
       "title": "Il bottino sta nel bagagliaio, non in tasca",
-      "body": "Le borse del bottino occupano spazio: moto quasi zero, auto poco, furgone tanto. Scegli il mezzo prima della rapina. Pay 'n' Spray azzera il «calore» dell'auto e la ridipinge.",
+      "body": "Le borse del bottino occupano spazio: in moto non ci sta quasi niente, in auto poco, in un furgone tanto. Scegli il mezzo prima della rapina. Pay 'n' Spray azzera il «calore» dell'auto e la ridipinge.",
       "priority": 22,
       "status": "da verificare",
       "source": "stampa",
@@ -324,7 +324,7 @@
       "id": "tip-polizia-1",
       "category": "combattimento",
       "title": "Leggi le icone sotto le stelle",
-      "body": "Dicono cosa sa la polizia di te: vestiti, arma, auto, complice, filmati. Elimina una prova alla volta. Dividervi può togliere una stella intera. Niente puntini sulla minimappa: senti la polizia con il Focus, e vedi solo il perimetro rosso della ricerca.",
+      "body": "Le icone sotto le stelle dicono cosa sa la polizia di te: vestiti, arma, auto, complice, filmati. Elimina una prova alla volta. Dividervi può togliere una stella intera. Sulla minimappa non ci sono i puntini degli agenti: senti la polizia con il Focus, e vedi solo il perimetro rosso della ricerca.",
       "priority": 23,
       "status": "verificato",
       "source": "trailer",
@@ -337,7 +337,7 @@
       "id": "tip-polizia-2",
       "category": "combattimento",
       "title": "A tre stelle, scappa a piedi",
-      "body": "In auto è dura, a meno di una moto sportiva. Vicoli, scale, salti: corsa e arrampicata sono stati rifatti apposta. Poi cambia outfit o vai dal barbiere. Un autobus, se non ti hanno visto salire, è un nascondiglio.",
+      "body": "In auto è dura scappare, a meno che tu non sia su una moto sportiva. Usa vicoli, scale e salti: corsa e arrampicata sono state rifatte apposta. Poi cambia outfit o vai dal barbiere. Un autobus, se non ti hanno visto salire, è un nascondiglio.",
       "priority": 24,
       "status": "verificato",
       "source": "trailer",
@@ -363,7 +363,7 @@
       "id": "tip-profilo",
       "category": "sistemi",
       "title": "Il Profilo criminale ricorda tutto",
-      "body": "Il Profilo criminale va da Professional a Irredeemable, con un angelo e un diavolo. Spari per difenderti? Nessuna penalità. Esageri senza motivo? Sì. Anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino, contano. E la storia ne tiene conto.",
+      "body": "Il Profilo criminale va da Professional a Irredeemable, con un angelo e un diavolo. Sparare per difenderti non ti penalizza, esagerare senza motivo sì. Contano anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino. E la storia ne tiene conto.",
       "priority": 26,
       "status": "verificato",
       "source": "trailer",
@@ -374,7 +374,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Gli stati intermedi sarebbero Aggressive, Violent e Psycho; oltre l'ultimo l'icona si crepa e si rompe per sempre in quella partita. Jason e Lucia avrebbero profili separati."
+          "text": "Gli stati intermedi sono Aggressive, Violent e Psycho; oltre l'ultimo l'icona si crepa e si rompe per sempre in quella partita. Jason e Lucia hanno profili separati."
         }
       ]
     },
@@ -382,7 +382,7 @@
       "id": "tip-soldi-1",
       "category": "soldi",
       "title": "Deposita i contanti",
-      "body": "Quelli in tasca si perdono se muori o vieni arrestato. Il conto (app BuckMe) no. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
+      "body": "I contanti in tasca si perdono se muori o vieni arrestato; quelli sul conto (app BuckMe) no. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
       "priority": 27,
       "status": "da verificare",
       "source": "stampa",
@@ -395,7 +395,7 @@
       "id": "tip-soldi-2",
       "category": "soldi",
       "title": "Quando la storia chiede soldi, rapina",
-      "body": "Succederà: una missione che richiede contanti. Minimarket e distributori sono il primo gradino; i negozi di riparazione telefoni non sono segnati sulla mappa. Cassaforte: col codice è pulita, con l'esplosivo è veloce ma rovina il bottino.",
+      "body": "Prima o poi una missione ti chiederà contanti. Minimarket e distributori sono il primo gradino; i negozi di riparazione telefoni non sono segnati sulla mappa. La cassaforte col codice la apri in modo pulito; con l'esplosivo fai prima ma rovini il bottino.",
       "priority": 28,
       "status": "verificato",
       "source": "trailer",
@@ -434,7 +434,7 @@
       "id": "tip-comb-1",
       "category": "combattimento",
       "title": "Non letale è un'opzione",
-      "body": "Spara a braccia e gambe, fai saltare l'arma di mano, usa i colpi d'avvertimento per spingere i nemici in copertura, fuoco di soppressione per disorientare. Il Profilo criminale lo nota.",
+      "body": "Spara a braccia e gambe, fai saltare l'arma di mano, usa i colpi d'avvertimento per spingere i nemici in copertura e il fuoco di soppressione per disorientarli. Il Profilo criminale lo nota.",
       "priority": 31,
       "status": "da verificare",
       "source": "stampa",
@@ -447,7 +447,7 @@
       "id": "tip-comb-2",
       "category": "combattimento",
       "title": "L'arsenale è nel bagagliaio dell'auto personale",
-      "body": "Addosso porti due pistole nascoste e due armi lunghe. Tutto il resto vive nel bagagliaio della tua auto, come sul cavallo di Arthur. Se la lasci da qualche parte, l'arsenale resta lì. Le armi gettate si recuperano negli armadietti Ammu-Nation.",
+      "body": "Addosso porti due pistole nascoste e due armi lunghe. Tutto il resto sta nel bagagliaio della tua auto, come sul cavallo di Arthur. Se la lasci da qualche parte, l'arsenale resta lì. Le armi gettate si recuperano negli armadietti Ammu-Nation.",
       "priority": 32,
       "status": "verificato",
       "source": "trailer",
@@ -473,7 +473,7 @@
       "id": "tip-animali",
       "category": "esplorazione",
       "title": "Gli animali si studiano, non si ammazzano",
-      "body": "Un diario alla RDR2: osserva e cataloga le 170+ specie senza sparare. I cani si accarezzano, sgridano, studiano, e si chiede il permesso al padrone. La pesca è solo rilascio. La caccia, invece, è un lavoro: un contatto di Jason paga.",
+      "body": "Un diario come in Red Dead Redemption 2: osserva e cataloga le oltre 170 specie senza sparare. I cani puoi accarezzarli, sgridarli o studiarli, chiedendo prima il permesso al padrone. La pesca è solo cattura e rilascio. La caccia invece è un lavoro, pagato da un contatto di Jason.",
       "priority": 34,
       "status": "verificato",
       "source": "trailer",
@@ -499,7 +499,7 @@
       "id": "tip-storia-1",
       "category": "storia",
       "title": "Capitoli, scelte e circa 80 ore",
-      "body": "La storia è a capitoli come RDR2: servono circa 80 ore, extra compresi. Le scelte hanno conseguenze ritardate e nessuna strada dà bonus: gioca come ti pare. L'avvio è nelle Keys, nella casetta di Jason.",
+      "body": "La storia è a capitoli come in Red Dead Redemption 2: servono circa 80 ore, extra compresi. Le scelte hanno conseguenze ritardate e nessuna strada dà bonus: gioca come ti pare. L'avvio è nelle Keys, nella casetta di Jason.",
       "priority": 36,
       "status": "verificato",
       "source": "trailer",
@@ -559,7 +559,7 @@
       "id": "tip-prezzo-it",
       "category": "prima-ora",
       "title": "Prezzi italiani",
-      "body": "Standard 79,99 €, Ultimate 99,99 €, upgrade 20 €. Le copie fisiche (Amazon, MediaWorld, Unieuro, GameStop) costano 81,99 € e contengono solo un codice, nessun disco. L'Ultimate non esiste in versione fisica.",
+      "body": "La Standard costa 79,99 €, l'Ultimate 99,99 €, il passaggio dall'una all'altra 20 €. Le copie fisiche (Amazon, MediaWorld, Unieuro, GameStop) costano 81,99 € e contengono solo un codice, nessun disco. L'Ultimate non esiste in versione fisica.",
       "priority": 3,
       "sourceUrl": "https://multiplayer.it/notizie/al-via-i-preordini-di-gta-6-su-ps5-e-xbox-series-xs-svelati-i-prezzi-ufficiali-per-litalia.html"
     },
@@ -593,7 +593,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Nei dati PS5 il gioco dichiara le funzioni per entrare nella sessione di un amico e avviare attività multigiocatore: predisposizione, nessun online annunciato al lancio."
+          "text": "Nei dati PS5 il gioco dichiara le funzioni per entrare nella sessione di un amico e avviare attività multigiocatore: è una predisposizione, perché al lancio non è annunciato nessun online."
         }
       ]
     },
@@ -607,7 +607,7 @@
       "id": "tip-salvataggi",
       "category": "tecnica",
       "title": "Salvataggi su cloud, trofei sì",
-      "body": "Su Xbox ci sono cloud e obiettivi; su PS5 il cloud passa da PS Plus. Nessun cross-progression. La lista dei trofei non è ancora pubblicata: le liste da «57 trofei» che circolano sono inventate.",
+      "body": "Su Xbox ci sono cloud e obiettivi; su PS5 il cloud passa da PS Plus. Non c'è progressione condivisa tra piattaforme. La lista dei trofei non è ancora pubblicata: le liste da «57 trofei» che circolano sono inventate.",
       "priority": 40,
       "sourceUrl": "https://culturedvultures.com/does-gta-6-have-cloud-saves-and-cross-progression/"
     },
@@ -621,7 +621,7 @@
       "id": "tip-pulse",
       "category": "tecnica",
       "title": "Accessori: DualSense limitate e cuffie Pulse il 19",
-      "body": "Due DualSense in edizione limitata annunciate il 3 settembre; le cuffie wireless PlayStation Pulse escono il giorno del lancio a 99,99 €. Niente bundle PS5 Pro ufficiale.",
+      "body": "Il 3 settembre sono stati annunciati due DualSense in edizione limitata; le cuffie wireless PlayStation Pulse escono il giorno del lancio a 99,99 €. Niente bundle PS5 Pro ufficiale.",
       "priority": 41,
       "sourceUrl": "https://www.playstationlifestyle.net/2026/10/22/new-ps5-accessories-gta-vi-release-date"
     },
@@ -635,7 +635,7 @@
       "id": "tip-armi-wheel",
       "category": "combattimento",
       "title": "La ruota delle armi non mette in pausa",
-      "body": "Una ruota sola, R1 passa tra ARMI e OGGETTI; slot con un ruolo (Disarmato, Arma secondaria, Esplosivi, Giubbotto); Quadrato = Zombix, Triangolo = adrenalina. Il gioco continua mentre scegli. Ruota separata per le maschere in auto.",
+      "body": "C'è una sola ruota: con R1 passi tra ARMI e OGGETTI, che hanno slot con un ruolo fisso (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. Il gioco continua mentre scegli. In auto c'è una ruota a parte per le maschere.",
       "priority": 42,
       "sourceUrl": "https://allthings.how/gta-6-how-the-weapon-wheel-and-inventory-work/"
     },
@@ -649,7 +649,7 @@
       "id": "tip-armi-accessori",
       "category": "combattimento",
       "title": "Accessori a strati e armi incise",
-      "body": "Silenziatori, red dot, impugnature, calci, torce, caricatori lunghi, più le colorazioni; gli accessori restano sulle armi raccolte da terra. L'Ultimate Edition dà la Girardi ES9 incisa «Sua Sponte» per Jason e la Klose K17 con le rose per Lucia.",
+      "body": "Puoi montare silenziatori, red dot, impugnature, calci, torce, caricatori lunghi e scegliere le colorazioni; gli accessori restano sulle armi raccolte da terra. L'Ultimate Edition dà la Girardi ES9 incisa «Sua Sponte» per Jason e la Klose K17 con le rose per Lucia.",
       "priority": 43,
       "sourceUrl": "https://www.6cheats.com/en/guides/gta-6-weapon-customization-extended-look"
     },
@@ -663,7 +663,7 @@
       "id": "tip-garage-slot",
       "category": "guida",
       "title": "Tre posti auto all'inizio",
-      "body": "Tre veicoli personali, poi devi venderne uno per aggiungerne un altro, oppure comprare un garage. Ogni garage ha armadietto delle armi e deposito per la merce rubata. Le auto non registrate spariscono al riavvio.",
+      "body": "All'inizio hai posto per tre veicoli personali: per aggiungerne un altro devi venderne uno o comprare un garage. Ogni garage ha armadietto delle armi e deposito per la merce rubata. Le auto non registrate spariscono al riavvio.",
       "priority": 44,
       "sourceUrl": "https://gta6motors.com/guides/garages/"
     },
@@ -677,7 +677,7 @@
       "id": "tip-localizzatori",
       "category": "guida",
       "title": "Telecamere autostradali e localizzatori",
-      "body": "Le telecamere sull'autostrada riconoscono le auto rubate: due stelle e zona di ricerca rossa. Il localizzatore va tolto da un meccanico o ricettatore prima di registrare o vendere. Ogni volante ne ha uno.",
+      "body": "Le telecamere sull'autostrada riconoscono le auto rubate: scattano due stelle e una zona di ricerca rossa. Il localizzatore va tolto da un meccanico o da un ricettatore prima di registrare o vendere l'auto. Ogni volante ne ha uno.",
       "priority": 45,
       "sourceUrl": "https://www.eldorado.gg/blog/grand-theft-auto-en/gta-6-leaks/"
     },
@@ -691,7 +691,7 @@
       "id": "tip-completista",
       "category": "esplorazione",
       "title": "Per il completista: cosa aspettarsi dal 100%",
-      "body": "Il totale per il 100% non è ancora noto. Sulla falsariga di GTA V e RDR2, aspettati: storia con medaglie, animali da studiare (170+), pesca con sfide, relitti e tesori, riviste e fumetti, negozi con capi esclusivi, collezione di auto di Wyman, attività (basket, biliardo, minigolf, poligono, wrestling, corse), incontri casuali. Esplorare è «premiato pesantemente».",
+      "body": "Il totale per il 100% non è ancora noto. Sulla falsariga di GTA V e Red Dead Redemption 2, aspettati: storia con medaglie, animali da studiare (oltre 170), pesca con sfide, relitti e tesori, riviste e fumetti, negozi con capi esclusivi, collezione di auto di Wyman, attività (basket, biliardo, minigolf, poligono, wrestling, corse), incontri casuali. L'esplorazione viene premiata molto.",
       "priority": 8,
       "sourceUrl": "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
     },

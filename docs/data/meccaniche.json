@@ -8,13 +8,13 @@
       "group": "Personaggi",
       "short": "Passi da Jason a Lucia e viceversa mentre giri per Leonida e, quando la storia lo consente, anche a metà di un inseguimento. Chi lasci continua a vivere la sua giornata.",
       "steps": [
-        "Tieni premuto destra sulla croce direzionale e premi R1 per passare all'altro protagonista; Triangolo per darvi appuntamento. Il cambio si sblocca nel capitolo 2.",
+        "Per passare all'altro protagonista tieni premuto destra sulla croce direzionale e premi R1; con Triangolo invece vi date appuntamento. Il cambio si sblocca nel capitolo 2.",
         "Se siete lontani, ritrovi l'altro dov'è in quel momento: al rifugio o in giro per conto suo.",
         "Se siete in auto insieme, cambiando posto passi da guidatore a passeggero.",
         "Da passeggero l'altro guida da solo e tu pensi a sparare agli inseguitori.",
         "In alcuni momenti della storia il cambio è bloccato.",
         "Alcune missioni sono di uno solo dei due: una missione in un grattacielo è riservata a Jason.",
-        "A casa l'altro protagonista può essere non selezionabile: esci e riprova. Sulla mappa l'icona di ogni missione dice con chi va giocata."
+        "A casa a volte non puoi passare all'altro protagonista: esci e riprova. Sulla mappa l'icona di ogni missione dice con chi va giocata."
       ],
       "details": [
         {
@@ -72,7 +72,7 @@
       "title": "Relazione tra Jason e Lucia",
       "emoji": "💞",
       "group": "Personaggi",
-      "short": "Il legame tra Jason e Lucia ha quattro livelli e sale con il tempo passato insieme. Il romanticismo è facoltativo, ma restano sempre complici: la relazione è tua da tenere o da perdere.",
+      "short": "Il legame tra Jason e Lucia ha quattro livelli e sale con il tempo passato insieme. Il romanticismo è facoltativo, ma restano sempre complici: sta a te tenere viva la relazione o perderla.",
       "steps": [
         "Scrivi o chiama l'altro in qualsiasi momento, anche per invitarlo a raggiungerti.",
         "Rispondi ai suoi messaggi: se torna a casa mentre sei fuori, ti scrive per sapere come stai.",
@@ -84,7 +84,7 @@
       "details": [
         {
           "title": "Il punto di partenza",
-          "text": "«All'inizio vogliono stare insieme e dare un'altra possibilità alla loro relazione. Ma, man mano che il gioco va avanti, è tua da tenere o da perdere.» Giocare la storia insieme non basta a tenerli uniti: serve il tempo passato insieme."
+          "text": "All'inizio Jason e Lucia vogliono stare insieme e dare un'altra possibilità alla loro relazione; poi, man mano che il gioco va avanti, sta a te tenerla viva o perderla. Giocare la storia insieme non basta: serve il tempo passato insieme."
         },
         {
           "title": "Quattro livelli",
@@ -112,7 +112,7 @@
         },
         {
           "source": "stampa",
-          "text": "Tenersi per mano si fa con R2; mano e baci si sbloccano salendo di livello."
+          "text": "Per prendervi per mano usi R2; tenersi per mano e baciarsi si sbloccano salendo di livello."
         },
         {
           "source": "stampa",
@@ -176,7 +176,7 @@
         },
         {
           "title": "Focus",
-          "text": "Il profilo decide cosa ricarica il Focus: le eliminazioni silenziose da Professional e Hardened, i colpi alla testa da Violent e Psycho. Da Irredeemable niente."
+          "text": "Il profilo decide cosa ricarica il Focus: le eliminazioni silenziose da Professional e Hardened, i colpi alla testa da Violent e Psycho. Da Irredeemable non lo ricarica niente."
         }
       ],
       "tips": [
@@ -230,7 +230,7 @@
       "details": [
         {
           "title": "Cosa si compra",
-          "text": "Snack, bevande, caffè, frullati, birra e sigarette. Servono a gestire le statistiche del personaggio."
+          "text": "Puoi comprare snack, bevande, caffè, frullati, birra e sigarette: servono a gestire le statistiche del personaggio."
         },
         {
           "title": "A casa",
@@ -253,11 +253,11 @@
         },
         {
           "source": "stampa",
-          "text": "La forza sale con tre giorni di pesi consecutivi; in palestra un indicatore circolare segna tre esercizi, a tempo sui grilletti. Andare troppo veloci consuma resistenza."
+          "text": "Per far salire la forza servono pesi per tre giorni di fila. In palestra un indicatore circolare guida tre esercizi, da fare premendo i grilletti a tempo. Se vai troppo veloce consumi resistenza."
         },
         {
           "source": "stampa",
-          "text": "Il sonno è tracciato: essere riposati cambia come si rigenerano alcune statistiche."
+          "text": "Il gioco tiene conto del sonno: essere riposati cambia come si rigenerano alcune statistiche."
         },
         {
           "source": "stampa",
@@ -294,7 +294,7 @@
       "title": "Aspetto",
       "emoji": "💇",
       "group": "Personaggi",
-      "short": "Vestiti, capelli, barba, trucco e tatuaggi si cambiano nei negozi e al rifugio. Ogni negozio e ogni salone ha articoli suoi, e cambiare look aiuta a sparire alla polizia.",
+      "short": "Vestiti, capelli, barba, trucco e tatuaggi si cambiano nei negozi e al rifugio. Ogni negozio e ogni salone ha articoli suoi, e cambiare look aiuta a far perdere le tue tracce alla polizia.",
       "steps": [
         "A casa puoi accorciare o radere capelli e barba.",
         "Per un taglio nuovo o capelli più lunghi vai dal barbiere o al salone.",
@@ -366,7 +366,7 @@
       "title": "Rifugi e casa",
       "emoji": "🏠",
       "group": "Personaggi",
-      "short": "I rifugi non si comprano: arrivano con la storia e sono più vicini agli accampamenti di Red Dead Redemption 2 che ai vecchi rifugi di GTA, interattivi e vissuti come casa. I garage invece si comprano, per avere più posti auto.",
+      "short": "I rifugi non si comprano: arrivano con la storia. Somigliano più agli accampamenti di Red Dead Redemption 2 che ai vecchi rifugi di GTA: sono interattivi e vissuti come una casa. I garage invece si comprano, per avere più posti auto.",
       "steps": [
         "Sblocca i rifugi andando avanti nella storia: non sono casa tua, sei ospite in casa d'altri.",
         "Apri il frigo: bevi qualcosa, prendi un caffè per la resistenza o un frullato proteico per la salute.",
@@ -379,11 +379,11 @@
       "details": [
         {
           "title": "I rifugi",
-          "text": "La casa di Brian nelle Keys, Bayside a Vice City e lo Starlet Motel a Port Gellhorn. Jason e Lucia condividono la casa, e altri personaggi vanno e vengono."
+          "text": "I rifugi sono la casa di Brian nelle Keys, Bayside a Vice City e lo Starlet Motel a Port Gellhorn. Jason e Lucia condividono la casa, e altri personaggi vanno e vengono."
         },
         {
           "title": "Garage e bottino",
-          "text": "Lo spazio nei veicoli conta anche per quanto bottino puoi portare. La refurtiva va al ricettatore, e intanto puoi lasciarla in garage."
+          "text": "Lo spazio nei veicoli decide anche quanto bottino puoi portare. La refurtiva si vende al ricettatore; nell'attesa puoi lasciarla in garage."
         },
         {
           "title": "Niente spesa",
@@ -445,7 +445,7 @@
       "steps": [
         "Prima di toccare la maniglia, scansiona l'auto con l'app WAINK sul telefono.",
         "WAINK ti dice se è chiusa, che sicurezza ha, che attrezzo serve, se ha un localizzatore, quanto costa registrarla e quanto la paga un ricettatore.",
-        "Sulle auto vecchie rompi il finestrino (rumore e allarme) oppure usa lo slim jim, con un mini-gioco a tempo.",
+        "Sulle auto vecchie rompi il finestrino, che fa rumore e fa scattare l'allarme, oppure usa lo slim jim, con un mini-gioco a tempo.",
         "Sulle auto moderne con immobilizer serve il Key Cloner, che ottieni più avanti lavorando per i ricettatori d'auto.",
         "In alternativa tira giù il guidatore: il carjacking funziona sempre, ma lui può scappare o reagire con un'arma.",
         "Se l'auto ha un localizzatore, tieni alta la velocità: quelli di fascia alta segnalano la posizione quando rallenti.",
@@ -466,7 +466,7 @@
         },
         {
           "title": "I localizzatori",
-          "text": "Le auto hanno tre livelli: senza localizzatore, con localizzatore standard, con localizzatore avanzato. WAiNK te lo dice prima di rubarla. Senza localizzatore le prende Moses (dal capitolo 2); con quello standard i Pay 'n' Spray (dal capitolo 3); le auto di lusso con quello avanzato servono il Key Cloner, e il localizzatore chiama la polizia appena rallenti."
+          "text": "Le auto hanno tre livelli: senza localizzatore, con localizzatore standard, con localizzatore avanzato. WAiNK te lo dice prima del furto. Quelle senza localizzatore le prende Moses (dal capitolo 2), quelle con localizzatore standard i Pay 'n' Spray (dal capitolo 3). Per le auto di lusso con localizzatore avanzato serve il Key Cloner, e il localizzatore chiama la polizia appena rallenti."
         }
       ],
       "tips": [
@@ -478,7 +478,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Le telecamere sull'autostrada riconoscono le auto rubate: due stelle e zona di ricerca rossa."
+          "text": "Le telecamere sull'autostrada riconoscono le auto rubate: scattano due stelle e una zona di ricerca rossa."
         },
         {
           "source": "stampa",
@@ -524,23 +524,23 @@
       "id": "mec-polizia-ricercato",
       "title": "Polizia e livello di ricercato",
       "emoji": "🚨",
-      "short": "Sei stelle e un rapporto di polizia: le icone sotto le stelle mostrano cosa sanno di te, e ogni indizio si cancella a parte. La polizia interviene solo se il crimine viene visto o segnalato.",
+      "short": "Il livello di ricercato arriva a sei stelle, con un rapporto di polizia: le icone sotto le stelle mostrano cosa sanno di te, e ogni indizio si cancella a parte. La polizia interviene solo se il crimine viene visto o segnalato.",
       "steps": [
         "Un crimine conta solo se qualcuno lo vede o lo segnala: un passante, un allarme, una telecamera, il localizzatore di un'auto rubata.",
         "Leggi le icone sotto le stelle: aspetto, vestiti, arma, complice, filmati, auto.",
         "Elimina una prova alla volta: distruggi la telecamera, cambia vestiti, nascondi l'arma, cambia auto.",
         "Se cercano una coppia, separa Jason e Lucia: la descrizione diventa meno precisa e può cadere una stella intera.",
-        "Dalla terza stella lascia l'auto, a meno di una moto sportiva o di un'auto velocissima, e scappa a piedi nei vicoli.",
+        "Dalla terza stella lascia l'auto, a meno che tu non abbia una moto sportiva o un'auto velocissima, e scappa a piedi nei vicoli.",
         "Esci dal perimetro rosso della zona di ricerca: sulla minimappa non vedi gli agenti, solo l'area."
       ],
       "details": [
         {
           "title": "Cosa dicono le stelle",
-          "text": "Fino a sei stelle. Piena: ti vedono. Vuota: il crimine è segnalato ma non sanno chi sei. Rossa: sei fuggito ma sei ancora dentro l'area di ricerca."
+          "text": "Le stelle arrivano a sei. Se sono piene, ti vedono; se sono vuote, il crimine è segnalato ma non sanno chi sei; se sono rosse, sei fuggito ma sei ancora dentro l'area di ricerca."
         },
         {
           "title": "Il Profilo criminale",
-          "text": "Registra come commetti i crimini, da «Professional» a «Irredeemable», con un angelo e un diavolo. Sparare per difenderti non pesa, esagerare senza motivo sì. Il profilo influenza come si svolge la storia; le notifiche si possono spegnere."
+          "text": "Il Profilo criminale registra come commetti i crimini, da «Professional» a «Irredeemable», con un angelo e un diavolo. Sparare per difenderti non pesa, esagerare senza motivo sì. Il profilo influenza come si svolge la storia; le notifiche si possono spegnere."
         },
         {
           "title": "Armi in vista",
@@ -560,7 +560,7 @@
       "extras": [
         {
           "source": "rumor",
-          "text": "Stella lampeggiante: hanno perso il contatto. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
+          "text": "Se la stella lampeggia, hanno perso il contatto. Sull'autobus la polizia non ti trova, a meno che non ti abbia visto salire."
         },
         {
           "source": "stampa",
@@ -610,18 +610,18 @@
       "emoji": "💰",
       "short": "Puoi rapinare praticamente qualsiasi cosa: minimarket, distributori, gioiellerie, finanziarie, banche, covi, furgoni blindati. Ogni posto ha ingressi, telecamere, cassaforte, personale e clienti diversi, e il sistema funziona uguale dentro e fuori le missioni.",
       "steps": [
-        "Scegli il bersaglio: i nuovi colpi arrivano dai personaggi, dalle chiacchiere degli NPC o esplorando.",
+        "Scegli il bersaglio: i nuovi colpi arrivano dai personaggi, dalle chiacchiere della gente o esplorando.",
         "Parcheggia il mezzo per la fuga fuori, già pronto, e sceglilo in base al bottino che deve contenere.",
         "Copriti il volto con una maschera o una bandana prima di entrare.",
         "Entra con la pistola nascosta e controlla telecamere, uscite e clienti.",
         "Meno testimoni ci sono, meno la polizia saprà di te.",
         "Apri la cassaforte col codice (trovato o comprato da un ricettatore) oppure falla saltare.",
-        "Esci da un'uscita secondaria se la polizia si raduna davanti, poi segui la fuga come per il livello di ricercato."
+        "Esci da un'uscita secondaria se la polizia si raduna davanti, poi scappa come con un normale livello di ricercato."
       ],
       "details": [
         {
           "title": "Cassaforte: codice o esplosivo",
-          "text": "Col codice è pulito. L'esplosivo è più veloce ma fa rumore e rovina parte del bottino."
+          "text": "Con il codice è un lavoro pulito. L'esplosivo è più veloce ma fa rumore e rovina parte del bottino."
         },
         {
           "title": "Testimoni e clienti",
@@ -629,7 +629,7 @@
         },
         {
           "title": "Colpi in coppia",
-          "text": "Jason e Lucia possono rapinare insieme. Rapinare in due conta come tempo passato insieme, rafforza il legame e migliora la coordinazione nei colpi. In fuga uno guida e l'altro spara."
+          "text": "Jason e Lucia possono rapinare insieme: conta come tempo passato insieme, rafforza il legame e migliora la coordinazione nei colpi. In fuga uno guida e l'altro spara."
         },
         {
           "title": "Bersagli non segnati",
@@ -637,7 +637,7 @@
         },
         {
           "title": "Lo Snap Gun",
-          "text": "Dal capitolo 3 apre in silenzio le porte sul retro: dentro distruggi i nastri, spegni l'allarme e cerca il biglietto col codice della cassaforte."
+          "text": "Dal capitolo 3 lo Snap Gun ti apre in silenzio le porte sul retro: dentro distruggi i nastri, spegni l'allarme e cerca il biglietto col codice della cassaforte."
         }
       ],
       "tips": [
@@ -722,7 +722,7 @@
       "details": [
         {
           "title": "Il bagagliaio",
-          "text": "Ogni veicolo ha una cassa per le armi. L'arsenale completo vive nel bagagliaio dell'auto personale: se la lasci da qualche parte, l'arsenale resta lì. Se la perdi, Scooter Bros te la riporta con le armi dentro."
+          "text": "Ogni veicolo ha una cassa per le armi. L'arsenale completo sta nel bagagliaio dell'auto personale: se la lasci da qualche parte, l'arsenale resta lì. Se la perdi, Scooter Bros te la riporta con le armi dentro."
         },
         {
           "title": "Personalizzazione",
@@ -746,11 +746,11 @@
         },
         {
           "source": "stampa",
-          "text": "Una sola ruota: R1 passa tra ARMI e OGGETTI, con slot dedicati (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. In auto c'è una ruota a parte per le maschere."
+          "text": "C'è una sola ruota: con R1 passi tra ARMI e OGGETTI, che hanno slot dedicati (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. In auto c'è una ruota a parte per le maschere."
         },
         {
           "source": "stampa",
-          "text": "Accessori a strati: silenziatori, red dot, impugnature, calci, torce, caricatori lunghi. Restano montati sulle armi raccolte da terra."
+          "text": "Puoi montare più accessori insieme: silenziatori, red dot, impugnature, calci, torce, caricatori lunghi. Restano montati sulle armi raccolte da terra."
         },
         {
           "source": "stampa",
@@ -822,7 +822,7 @@
       "tips": [
         "Sparare per difenderti non pesa sul Profilo criminale; aprire il fuoco per primo e senza motivo sì.",
         "Punta sul mordi e fuggi, non sulle grandi sparatorie.",
-        "Raffiche lunghe, mira peggiore: spara a colpi brevi.",
+        "Le raffiche lunghe peggiorano la mira: spara a colpi brevi.",
         "Nella mischia usa quello che trovi: anche un oggetto qualsiasi può diventare un'arma."
       ],
       "extras": [
@@ -840,7 +840,7 @@
         },
         {
           "source": "stampa",
-          "text": "Copertura su R1, accovacciato separato, cambio spalla e fuoco cieco. Niente doppia arma e niente posizione prona."
+          "text": "La copertura è su R1 e accovacciarsi è un comando a parte; puoi cambiare spalla e sparare alla cieca. Non puoi impugnare due armi né stenderti a terra."
         },
         {
           "source": "stampa",
@@ -848,11 +848,11 @@
         },
         {
           "source": "stampa",
-          "text": "Eliminazioni silenziose in stealth; i nemici si coordinano via radio e i proiettili attraversano il cartongesso."
+          "text": "Puoi eliminare i nemici in silenzio, di nascosto; loro si coordinano via radio, e i proiettili attraversano il cartongesso."
         },
         {
           "source": "stampa",
-          "text": "Drive-by col busto fuori dal finestrino, spari dal cassone dei pick-up e in acqua."
+          "text": "Nei drive-by ti sporgi col busto dal finestrino; puoi sparare anche dal cassone dei pick-up e in acqua."
         }
       ],
       "relatedIds": [
@@ -900,7 +900,7 @@
         },
         {
           "title": "Ricettatori",
-          "text": "Comprano auto rubate e merce. Il prezzo dipende dalle condizioni: un'auto danneggiata vale meno. Un ricettatore d'auto si chiama Randy, e ai ricettatori puoi anche comprare il codice di una cassaforte."
+          "text": "I ricettatori comprano auto rubate e merce. Il prezzo dipende dalle condizioni: un'auto danneggiata vale meno. Un ricettatore d'auto si chiama Randy, e dai ricettatori puoi anche comprare il codice di una cassaforte."
         },
         {
           "title": "Altre entrate",
@@ -908,7 +908,7 @@
         },
         {
           "title": "Ricettatori",
-          "text": "Ognuno paga in modo diverso droga, gioielli e banconote segnate, e cambiano con la storia. Se siete in due, metti la borsa nel bagagliaio dell'auto personale e chiedi al partner di venderla."
+          "text": "Ogni ricettatore paga in modo diverso droga, gioielli e banconote segnate, e le offerte cambiano con la storia. Se siete in due, metti la borsa nel bagagliaio dell'auto personale e chiedi al partner di venderla."
         }
       ],
       "tips": [
@@ -944,7 +944,7 @@
         },
         {
           "source": "stampa",
-          "text": "Lucia può chiederti di aprire insieme un conto di risparmio in banca, e rispondere ai messaggi del partner conta per la relazione."
+          "text": "Lucia può chiederti di aprire insieme un conto di risparmio in banca. Rispondere ai messaggi del partner conta per la relazione."
         }
       ],
       "relatedIds": [
@@ -996,7 +996,7 @@
         },
         {
           "title": "Snapmatic: si guarda, non si posta",
-          "text": "Puoi seguire account e leggere i post, ma non pubblicare: siete una coppia in fuga. Gli NPC postano eventi a cui puoi andare dal vivo, e c'è un feed di video brevi. I feed portano avanti storie del mondo, come la scalata delle Real Dimez."
+          "text": "Puoi seguire account e leggere i post, ma non pubblicare: siete una coppia in fuga. Gli altri personaggi pubblicano eventi a cui puoi andare di persona, e c'è un feed di video brevi. I feed portano avanti storie del mondo, come la scalata delle Real Dimez."
         },
         {
           "title": "Messaggi e relazione",
@@ -1011,7 +1011,7 @@
         "Rispondi sempre ai messaggi dell'altro protagonista: costa poco e protegge la relazione.",
         "Scansiona con WAINK prima di toccare la maniglia: eviti allarmi e localizzatori a sorpresa.",
         "Se hai abbandonato l'auto in un inseguimento, Scooter Bros costa di più: può essere sorvegliata o al deposito.",
-        "Tieni d'occhio Snapmatic: gli eventi postati dagli NPC sono attività vere sulla mappa."
+        "Tieni d'occhio Snapmatic: gli eventi pubblicati dagli altri personaggi sono attività vere sulla mappa."
       ],
       "extras": [
         {
@@ -1032,7 +1032,7 @@
         },
         {
           "source": "stampa",
-          "text": "Niente siti web: il telefono passa solo da app e social (Rob Nelson: «non ci sembrava necessario»). Tra le app ci sono Snapmatic e RydeMe, e si ascoltano podcast."
+          "text": "Niente siti web: Rockstar non li ha ritenuti necessari, e il telefono passa solo da app e social. Tra le app ci sono Snapmatic e RydeMe, e si ascoltano podcast."
         }
       ],
       "relatedIds": [
@@ -1077,7 +1077,7 @@
       "details": [
         {
           "title": "Come si guida",
-          "text": "La fisica è rifatta da zero: il peso di GTA IV con l'accessibilità di GTA V. Trazione, gomme, sospensioni e potenza cambiano il comportamento: le posteriori vanno dosate col gas, le supercar fuoristrada sono difficili. Strade più strette e traffico più denso chiedono un po' di abilità. Su PlayStation il freno a mano è su X, perché L1 e R1 servono per sparare."
+          "text": "La fisica è rifatta da zero: il peso di GTA IV con l'accessibilità di GTA V. Trazione, gomme, sospensioni e potenza cambiano il comportamento: con le auto a trazione posteriore devi dosare il gas, e le supercar fuori dall'asfalto sono difficili. Strade più strette e traffico più denso chiedono un po' di abilità. Su PlayStation il freno a mano è su X, perché L1 e R1 servono per sparare."
         },
         {
           "title": "Danni",
@@ -1097,7 +1097,7 @@
         },
         {
           "title": "Scooter Bros",
-          "text": "Dal capitolo 2 l'app ti porta un veicolo personale dove sei, a pagamento. Il premium da 12.500 $ dà tre consegne gratis al giorno e recupera gratis i veicoli sequestrati."
+          "text": "Dal capitolo 2 l'app Scooter Bros ti porta un veicolo personale dove sei, a pagamento. Il servizio premium da 12.500 $ dà tre consegne gratis al giorno e recupera gratis i veicoli sequestrati."
         }
       ],
       "tips": [
@@ -1118,7 +1118,7 @@
         },
         {
           "source": "stampa",
-          "text": "Ci sono telecamere opzionali che si attivano negli incidenti più violenti."
+          "text": "Negli incidenti più violenti scattano inquadrature speciali, che puoi disattivare."
         },
         {
           "source": "stampa",
@@ -1126,7 +1126,7 @@
         },
         {
           "source": "stampa",
-          "text": "La radio non ha più la ruota: le stazioni si scorrono una alla volta, e una Streamer Mode toglie la musica protetta."
+          "text": "La radio non ha più la ruota: le stazioni si scorrono una alla volta. La Streamer Mode toglie i brani protetti da diritto d'autore."
         },
         {
           "source": "stampa",
@@ -1138,7 +1138,7 @@
         },
         {
           "source": "stampa",
-          "text": "La guida è giudicata la migliore della serie, con vibrazioni del DualSense molto curate e danni ai veicoli più profondi."
+          "text": "È la guida migliore della serie, con vibrazioni del DualSense molto curate e danni ai veicoli più profondi."
         }
       ],
       "relatedIds": [
@@ -1179,7 +1179,7 @@
         "A bordo sei un passeggero: niente benzina, niente danni.",
         "Con Ryde Me scegli se saltare il viaggio o farlo tutto chiacchierando con l'autista.",
         "In coppia puoi passare dal volante al sedile del passeggero: guida il partner e tu spari agli inseguitori.",
-        "Per le acque usa barche, moto d'acqua e kayak; per i cieli, aerei ed elicotteri."
+        "In acqua usa barche, moto d'acqua e kayak; in cielo aerei ed elicotteri."
       ],
       "details": [
         {
@@ -1202,7 +1202,7 @@
       "tips": [
         "Usa Ryde Me per i tragitti lunghi e noiosi: è il viaggio rapido del gioco.",
         "Evita il mare aperto e i cieli quando arriva una tempesta.",
-        "Il 19 scarica la mappa di Leonida gratuita: si stampa."
+        "Il 19 scarica la mappa gratuita di Leonida: si può stampare."
       ],
       "extras": [
         {
@@ -1231,11 +1231,11 @@
         },
         {
           "source": "stampa",
-          "text": "Il treno attraversa tutte e cinque le contee: le stazioni sono 25, 17 a Vice-Dale County."
+          "text": "Il treno attraversa tutte e cinque le contee: le stazioni sono 25, di cui 17 nella Vice-Dale County."
         },
         {
           "source": "stampa",
-          "text": "Da sud a nord: a piedi circa 3 ore e 20 minuti, di corsa 1 ora e 40, in auto in autostrada 11 minuti, in aereo a elica 6 minuti."
+          "text": "Da sud a nord la mappa si attraversa in circa 3 ore e 20 minuti a piedi, 1 ora e 40 di corsa, 11 minuti in auto in autostrada e 6 minuti in aereo a elica."
         },
         {
           "source": "stampa",
@@ -1273,11 +1273,11 @@
       "emoji": "🐊",
       "short": "Leonida ha più di 170 specie animali, da studiare e catalogare in un diario senza ucciderle. La pesca è solo cattura e rilascio; la caccia è un lavoro che paga, ma i guardaparco vigilano.",
       "steps": [
-        "Prendi il binocolo dalla ruota, avvicina con su sulla croce e tieni R1 per studiare l'animale: entra nel diario.",
+        "Prendi il binocolo dalla ruota, ingrandisci con su sulla croce direzionale e tieni premuto R1 per studiare l'animale: così entra nel diario.",
         "Cerca le specie Rare, Scopribili e Leggendarie: le leggendarie hanno identità segrete.",
-        "Con i cani puoi accarezzarli, sgridarli o studiarli; chiedi prima il permesso al padrone.",
+        "I cani puoi accarezzarli, sgridarli o studiarli; prima chiedi il permesso al padrone.",
         "Per la pesca prendi la canna: il pesce lo catturi e lo rilasci, non lo tieni.",
-        "Completa le sfide di pesca per sbloccare i collezionabili legati.",
+        "Completa le sfide di pesca per sbloccare i collezionabili collegati.",
         "La caccia te la propone un contatto di Jason: quello che prendi diventa denaro."
       ],
       "details": [
@@ -1315,7 +1315,7 @@
         },
         {
           "source": "leak",
-          "text": "Nel testo del rating europeo gli animali si possono uccidere, con ferite meno dettagliate degli umani."
+          "text": "Gli animali si possono uccidere, con ferite meno dettagliate di quelle sugli umani."
         },
         {
           "source": "community",
@@ -1373,7 +1373,7 @@
         "Prova le corse fuori strada, monster truck e stock car, e i raduni di auto.",
         "Di notte vai nei club, negli strip club e nei combattimenti clandestini.",
         "Usa l'acqua: kayak, moto d'acqua, airboat, immersioni sui relitti.",
-        "Ascolta le soffiate: nuovi colpi arrivano da personaggi, chiacchiere degli NPC ed esplorazione."
+        "Ascolta le soffiate: nuovi colpi arrivano dai personaggi, dalle chiacchiere della gente e dall'esplorazione."
       ],
       "details": [
         {
@@ -1382,7 +1382,7 @@
         },
         {
           "title": "Corpo e consumi",
-          "text": "Caffè per la resistenza, frullati proteici per la salute, energy drink per un bonus temporaneo. Il sonno è tracciato; mangiare troppo fa ingrassare e saltare gli allenamenti fa perdere muscoli. In coppia la palestra allena tutti e due insieme."
+          "text": "Caffè per la resistenza, frullati proteici per la salute, energy drink per un bonus temporaneo. Il gioco tiene conto del sonno; mangiare troppo fa ingrassare e saltare gli allenamenti fa perdere muscoli. In coppia la palestra allena tutti e due insieme."
         },
         {
           "title": "Eventi emergenti",
@@ -1422,7 +1422,7 @@
         },
         {
           "source": "community",
-          "text": "Degli NPC hanno sfidato la coppia a tuffarsi da un ponte e poi hanno rubato l'auto mentre nuotavano."
+          "text": "Alcuni passanti sfidano la coppia a tuffarsi da un ponte e poi le rubano l'auto mentre nuota."
         },
         {
           "source": "stampa",
@@ -1477,7 +1477,7 @@
       "emoji": "🗣️",
       "short": "Ogni passante ha un carattere, ricorda come l'hai trattato e reagisce a quello che vede: un saluto, una provocazione, una pistola in mano. Puoi parlare con chiunque.",
       "steps": [
-        "Avvicinati a un NPC e scegli: saluta o provoca. Funziona con chiunque.",
+        "Avvicinati a qualcuno e scegli se salutarlo o provocarlo: funziona con chiunque.",
         "Se la situazione si scalda, calmala: puoi provocare e subito dopo disinnescare.",
         "Tieni le armi a posto: un'arma in spalla la tollerano, una imbracciata fa scappare o chiamare la polizia.",
         "Prima di entrare in un negozio Jason e Lucia nascondono la pistola dietro la schiena.",
@@ -1487,11 +1487,11 @@
       "details": [
         {
           "title": "Gente con memoria",
-          "text": "Ogni NPC ha temperamento, aggressività e memoria di cosa ha visto e di come l'hai trattato. I quartieri hanno popolazioni, mestieri e abitudini diverse. Ci sono circa 600.000 animazioni, e i passanti sono curati uno per uno."
+          "text": "Ogni passante ha temperamento, aggressività e memoria di cosa ha visto e di come l'hai trattato. I quartieri hanno popolazioni, mestieri e abitudini diverse. Ci sono circa 600.000 animazioni, e i passanti sono curati uno per uno."
         },
         {
           "title": "Reazioni",
-          "text": "Fissare qualcuno può finire in una sfida: un uomo ha sganciato il cane. Durante le sparatorie i civili si riparano dietro auto, muri e panchine. Le persone reagiscono anche agli odori sgradevoli, e commentano come sei vestito."
+          "text": "Fissare qualcuno può trasformarsi in una sfida: c'è chi ti sguinzaglia contro il cane. Durante le sparatorie i civili si riparano dietro auto, muri e panchine. Le persone reagiscono anche agli odori sgradevoli, e commentano come sei vestito."
         },
         {
           "title": "Durante le rapine",
@@ -1499,7 +1499,7 @@
         },
         {
           "title": "Social e notorietà",
-          "text": "Gli NPC postano su Snapmatic eventi a cui puoi andare. Tu guardi i feed ma non pubblichi."
+          "text": "Gli altri personaggi pubblicano su Snapmatic eventi a cui puoi andare. Tu guardi i feed ma non pubblichi."
         }
       ],
       "tips": [
@@ -1515,15 +1515,15 @@
         },
         {
           "source": "stampa",
-          "text": "Puoi raccogliere e indossare i vestiti lasciati dagli NPC."
+          "text": "Puoi raccogliere e indossare i vestiti lasciati dai passanti."
         },
         {
           "source": "stampa",
-          "text": "Alcuni NPC hanno armi nascoste e le tirano fuori se minacciati."
+          "text": "Alcuni passanti hanno armi nascoste e le tirano fuori se li minacci."
         },
         {
           "source": "community",
-          "text": "Molti NPC filmano col telefono sparatorie e inseguimenti; si pensa a un sistema di notorietà social, non confermato."
+          "text": "Molti passanti filmano col telefono sparatorie e inseguimenti; forse c'è un sistema di notorietà sui social, ma non è confermato."
         },
         {
           "source": "stampa",
@@ -1587,7 +1587,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Non è ancora noto quanto spesso arrivino gli uragani né se facciano danni permanenti; la versione più accreditata è senza distruzione della mappa."
+          "text": "Non è ancora noto quanto spesso arrivino gli uragani né se facciano danni permanenti; con ogni probabilità la mappa non viene distrutta."
         },
         {
           "source": "community",
@@ -1603,7 +1603,7 @@
         },
         {
           "source": "stampa",
-          "text": "Il meteo è stato ripensato da zero per essere locale, persistente e dinamico: pioggia notturna con visibilità ridotta nelle Keys (su alcune strade ci sono catarifrangenti), temporali che avanzano sulle paludi di Pelican Valley mentre il resto è ancora al sole, nebbia marina con volume che inghiotte i grattacieli di South Ocean Beach, tempeste tropicali con mare grosso e fulmini, foschia bassa nei mattini umidi di Gambit Bay."
+          "text": "Il meteo è stato ripensato da zero per essere locale, persistente e dinamico: pioggia notturna con visibilità ridotta nelle Keys (su alcune strade ci sono catarifrangenti), temporali che avanzano sulle paludi di Pelican Valley mentre il resto è ancora al sole, nebbia marina densa che inghiotte i grattacieli di South Ocean Beach, tempeste tropicali con mare grosso e fulmini, foschia bassa nei mattini umidi di Gambit Bay."
         },
         {
           "source": "stampa",
@@ -1643,19 +1643,19 @@
       "details": [
         {
           "title": "Vice City Metro",
-          "text": "Metropolitana sopraelevata. Treni blu e argento sopra la County Road 561 a La Perle (secondo trailer); due convogli si incrociano nel trailer di lancio."
+          "text": "È la metropolitana sopraelevata: treni blu e argento passano sopra la County Road 561 a La Perle, e due convogli si incrociano."
         },
         {
           "title": "Metro Mule – City Mule Line",
-          "text": "People mover automatico. Convogli bianchi e blu con il mulo capotreno; anello del centro tra Downtown, Arts Center e Crosstown."
+          "text": "È il people mover automatico: convogli bianchi e blu con il mulo capotreno, su un anello del centro tra Downtown, Arts Center e Crosstown."
         },
         {
           "title": "Amloco",
-          "text": "Treni regionali. Locomotive argento a strisce blu, viste nel video-cartolina di Port Gellhorn; nome nei leak."
+          "text": "Sono i treni regionali, con locomotive argento a strisce blu."
         },
         {
           "title": "Vice City Transit",
-          "text": "Autobus. Autobus Buster bianchi, blu e rosa negli screenshot ufficiali; linea 420 per Peacock Bay nei leak."
+          "text": "Sono gli autobus della città: Buster bianchi, blu e rosa, e c'è la linea 420 per Peacock Bay."
         },
         {
           "title": "Altre linee",
@@ -1663,7 +1663,7 @@
         }
       ],
       "tips": [
-        "26 stazioni e 34 fermate dell'autobus sono già mappate.",
+        "Sulla mappa sono segnate 26 stazioni e 34 fermate dell'autobus.",
         "Le strade principali: Catalan Boulevard, Shore Drive, Shorefront Avenue, Thompson Avenue, Harborside Avenue, Cabeça Street, Huevo Street, SW 4th Street (Vice Beach)."
       ],
       "extras": [
@@ -1673,7 +1673,7 @@
         },
         {
           "source": "stampa",
-          "text": "Ci sono i pedaggi: badge prepagato Vice Pass o Toll-by-Plate sulla targa. Dalle Keys i cartelli indicano la US 1, la Route 82, la Interstate 97 verso Hamlet e il Toll 1A per Catalan Key e Goose Key."
+          "text": "Ci sono i pedaggi: si pagano con il badge prepagato Vice Pass o con Toll-by-Plate, tramite la targa. Dalle Keys i cartelli indicano la US 1, la Route 82, la Interstate 97 verso Hamlet e il Toll 1A per Catalan Key e Goose Key."
         }
       ],
       "relatedIds": [
@@ -1726,7 +1726,7 @@
       "title": "Sconosciuti e folli",
       "emoji": "🧩",
       "group": "Mondo e vita",
-      "short": "Serie di missioni affidate da personaggi incontrati per Leonida: non servono per la storia, ma 8 serie complete valgono il trofeo d'argento «Sconosciuti e folli» e contano per il 100%.",
+      "short": "Sono serie di missioni affidate da personaggi che incontri per Leonida: non servono per la storia, ma 8 serie complete valgono il trofeo d'argento «Sconosciuti e folli» e contano per il 100%.",
       "steps": [
         "Cerca i volantini e i personaggi con l'icona dedicata sulla mappa: ogni serie parte da lì.",
         "Alcune serie si fanno solo con Jason o solo con Lucia: se un incarico non arriva, cambia personaggio.",
@@ -1741,7 +1741,7 @@
         },
         {
           "title": "Note",
-          "text": "Lo Skunk Ape: Due missioni solo di notte; l'ultima solo con Lucia, quindi si chiude dal capitolo 2. Nelle paludi della Pelican Valley (Grassrivers). Resta disponibile dopo la storia. La fattoria McKittrick: Parte dalla McKittrick Farm. Tra una missione e l'altra Kyle si fa vivo al telefono dopo un po' di tempo. Le corse di Yago: La prima si fa con chiunque, due sono solo di Jason. Una è a tempo e si può perdere: falla appena compare. Pilot Pete: Tutte solo con Jason: recuperi un aereo e fai consegne, anche alla Southpoint Airfield."
+          "text": "Lo Skunk Ape: due missioni si fanno solo di notte e l'ultima solo con Lucia, quindi la serie si chiude dal capitolo 2; si svolge nelle paludi della Pelican Valley (Grassrivers) e resta disponibile dopo la storia. La fattoria McKittrick: parte dalla McKittrick Farm, e tra una missione e l'altra Kyle si fa vivo al telefono dopo un po' di tempo. Le corse di Yago: la prima si fa con chiunque, due sono solo di Jason; una è a tempo e si può perdere, quindi falla appena compare. Pilot Pete: tutte solo con Jason; recuperi un aereo e fai consegne, anche alla Southpoint Airfield."
         }
       ],
       "tips": [

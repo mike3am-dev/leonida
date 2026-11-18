@@ -549,7 +549,7 @@
       "name": "Stanley Fieldmaster",
       "manufacturer": "Stanley",
       "class": "industriale",
-      "description": "Trattore. Ambrosia è piena di campi.",
+      "description": "Il trattore, per i tanti campi di Ambrosia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-stanley-fieldmaster.jpg",
       "status": "da verificare",
@@ -583,8 +583,8 @@
       "name": "Hauners Rhino Tank",
       "manufacturer": "Hauners",
       "class": "militare",
-      "description": "Il carro armato. C'è una base militare, da qualche parte.",
-      "howToGet": "Si ruba alla base militare; dopo la storia c'è anche il trucco (tutte le sfide di sopravvivenza).",
+      "description": "Il carro armato, custodito in una base militare.",
+      "howToGet": "Si ruba alla base militare. Dopo la storia si evoca anche con un trucco, che si sblocca completando tutte le sfide di sopravvivenza.",
       "image": "assets/img/veicoli/veh-rhino-tank.jpg",
       "status": "verificato",
       "source": "stampa",
@@ -674,7 +674,7 @@
       "name": "Nagasaki Caddy",
       "manufacturer": "Nagasaki",
       "class": "altro",
-      "description": "Il golf cart. Vedi Leaf Links.",
+      "description": "Il golf cart, da usare sui campi come il Leaf Links.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-nagasaki-caddy.jpg",
       "status": "da verificare",
@@ -691,7 +691,7 @@
       "name": "Monopattino elettrico",
       "manufacturer": "ZOOT",
       "class": "altro",
-      "description": "Monopattino elettrico. C'è anche un'app, Scooter Bros, per recuperare a pagamento un veicolo distrutto.",
+      "description": "Monopattino elettrico. L'app Scooter Bros, invece, serve a recuperare a pagamento un veicolo distrutto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-scooter-elettrico.jpg",
       "status": "da verificare",
@@ -815,7 +815,7 @@
       "name": "Pfister Comet Retro Custom",
       "manufacturer": "Pfister",
       "class": "sportiva",
-      "description": "La Porsche 930 in stile RWB.",
+      "description": "La Porsche 930 elaborata in stile RWB (Rauh-Welt Begriff).",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/99/CometRetroCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
@@ -1033,7 +1033,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Nella lista dei desideri di Randy compare come «Ascot Paragon»: il marchio va controllato in gioco."
+          "text": "Nella lista dei desideri di Randy compare come «Ascot Paragon»: il marchio non è ancora certo."
         }
       ],
       "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
@@ -1228,7 +1228,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Nella lista dei desideri di Randy compare come «Piccia Furia»: il marchio va controllato in gioco."
+          "text": "Nella lista dei desideri di Randy compare come «Piccia Furia»: il marchio non è ancora certo."
         }
       ],
       "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
@@ -2380,7 +2380,7 @@
       "name": "Vapid Caracara",
       "manufacturer": "Vapid",
       "class": "fuoristrada",
-      "description": "F-150 6x6; la 4x4 esiste anche in livrea bagnino.",
+      "description": "Pick-up 6x6 ispirato all'F-150; la versione 4x4 esiste anche con la livrea dei bagnini.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/85/Caracara4x4-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
@@ -2922,7 +2922,7 @@
       "name": "Ferry",
       "manufacturer": null,
       "class": "barca",
-      "description": "Il traghetto, in stile Fisher Island.",
+      "description": "Il traghetto, sul modello di quelli di Fisher Island.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ferry.jpg",
@@ -3021,7 +3021,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Nei trucchi il nome è «Speeder 700 GT» (si sblocca con 5 sfide di combattimento)."
+          "text": "Nel menu dei trucchi si chiama «Speeder 700 GT»; il trucco si sblocca con 5 sfide di combattimento."
         }
       ]
     },
@@ -3477,7 +3477,7 @@
       "name": "Buster",
       "manufacturer": null,
       "class": "servizio",
-      "description": "L'autobus urbano in stile New Flyer: la rete di trasporto pubblico è funzionante.",
+      "description": "L'autobus urbano in stile New Flyer: i mezzi pubblici funzionano davvero.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/brute-bus.jpg",
@@ -4069,7 +4069,7 @@
       "name": "Yakuruna (superyacht)",
       "manufacturer": null,
       "class": "barca",
-      "description": "Il superyacht: si chiama «Yakuruna», nome scritto sulla fiancata, ed è ricalcato sul Lürssen Coral Ocean di 73 metri.",
+      "description": "Il superyacht con il nome «Yakuruna» scritto sulla fiancata, ricalcato sul Lürssen Coral Ocean di 73 metri.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yakuruna.png",
       "status": "da verificare",
@@ -5259,7 +5259,7 @@
       "name": "Scooter (stile Yamaha BWs 125)",
       "manufacturer": null,
       "class": "moto",
-      "description": "Scooter in stile Yamaha BWs 125. Il nome in gioco non è ancora noto; il candidato è il Faggio Sport.",
+      "description": "Scooter in stile Yamaha BWs 125. Il nome in gioco non è ancora noto; il più probabile è il Faggio Sport.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-scooter-stile-yamaha-bws-125.jpg",
       "status": "da verificare",
@@ -5687,7 +5687,7 @@
       "manufacturer": "HVY",
       "class": "industriale",
       "description": "Il bulldozer da cantiere.",
-      "howToGet": "Dopo la storia si evoca con un trucco, dopo averlo scoperto nel menu Progressi.",
+      "howToGet": "Dopo la storia si evoca con un trucco, che prima va scoperto nel menu Progressi.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",

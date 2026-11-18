@@ -156,6 +156,22 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Confronto (rifatto in v0.41.0 dopo il giro di Mike: la modalità «scegli nella lista» era poco intuitiva): niente più stato nell'indirizzo. `data-cmp-open="<id>"` è su ogni riga (`.wrow__cmp`), in alto (`.wtools`, id vuoto) e nella scheda. Apre `compareSheet(start)`: di partenza l'arma toccata più le 2 più potenti dello zaino nella stessa categoria (`startSet`); dal bottone in alto le 3 più potenti dello zaino. Dentro il foglio si toglie con la × e si aggiunge dalla carta «Aggiungi» (elenco: zaino, stessa categoria, le altre; con ricerca). Massimo 3 (`CMP_MAX`), solo armi con `stats` complete. «Nel complesso» = media delle quattro barre. Per i veicoli si può riusare lo stesso schema (classi `.cmp*`).
 - Ricerca armi: `#/armi?q=…` (nome, produttore, modello reale, categoria; senza accenti). Con la ricerca attiva ruota e filtro spariscono e i risultati ignorano categoria e filtro.
 
+## 4r. Rilettura dei testi (v0.42.0, 18/11)
+- 681 testi riscritti per chiarezza (regola di Mike: «riscrivi ciò che non ha senso», modello: la descrizione delle auto di Wyman). Stessi fatti, niente nomi nuovi (controllo automatico sui titoli delle missioni e sui personaggi).
+- Strumento: `applica-testi.py` nello scratchpad (patch `{file, key: id|slug, old, new}`, ricerca in ampiezza perché in luoghi.json le liste «nearby» ripetono gli slug).
+- «Professional» del profilo criminale resta in inglese finché non si conosce il nome italiano del gioco.
+- Incoerenze di CONTENUTO trovate durante la rilettura, da sistemare con le guide (non toccate):
+  - poligoni di tiro: 12 (trofeo Cecchino) contro «due poligoni» (lista del 100%);
+  - Scoperte subacquee: tutti e 7 i set di Kenton contro 5 su 7;
+  - Ajax Gym: Oldby Island contro Penmarch Isle; cinghiale «solo spot TV» ma visto nel Trailer 2;
+  - cambio protagonista: «giù sulla croce» (tip-switch) contro «destra + R1» (meccaniche);
+  - 20.000 $: tetto dei contanti o del bancomat; mira assistita sì/no; posti auto iniziali 1 o 3; microtransazioni sì/no;
+  - animali: 62 uccelli o «60 e più», «più di 170 specie» o 255; WAINK/WAiNK/Waink; la/lo Snap Gun;
+  - Petra Navarro direttrice operativa o codirettrice; Ambrosia contea di Kelly o di Leonard; Bayside posizione nota o no;
+  - Shrewsbury Drifter canne affiancate o sovrapposte; Gloriana Key: Catalan Key a sud o a nord; «Le Mans» non è una curva (Port Gellhorn);
+  - frasi pre-uscita ormai superate: «quando uscirà la mappa», «non si è ancora vista», le guide di luoghi.json scritte in prima persona dal sito di mappe.
+- Testi poco chiari lasciati perché non si sa cosa volessero dire: col-carte-101 «sotto il colpo del rifugio di Watson Bay», «Il partner guida bene, all'antica», «Watson Bay solo con i mezzi pubblici», «reazione di disgusto riutilizzabile» (news Edge), N3on «Hanno commentato anche IShowSpeed…».
+
 ## 6. Strumenti e verifiche prima di ogni push
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
 **Attenzione (12/11):** controllare il codice di uscita di `node scripts/validate.mjs` (deve essere 0), non solo l'ultima riga: gli errori «✗» stanno sopra il riepilogo. Le proposte dei giri news a volte usano `"append: …"` dentro un campo (testo da accodare, id da aggiungere, oggetto JSON per `extras`): vanno interpretati, non scritti così.

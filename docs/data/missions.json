@@ -86,7 +86,7 @@
       "order": 1,
       "protagonist": "lucia",
       "districtId": "dis-hamlet",
-      "summary": "Lucia, al Leonida Penitentiary, racconta alla consulente Stefanie Gates come è finita dentro. Il racconto si rivive in un flashback: una rapina a un negozio di prestiti e una fuga a piedi che finisce male.",
+      "summary": "Lucia, al Leonida Penitentiary, racconta alla consulente Stefanie Gates come è finita dentro. Lo rivivi in un flashback: una rapina a un negozio di prestiti e una fuga a piedi che finisce male.",
       "prerequisites": [],
       "unlocks": [
         {
@@ -157,7 +157,7 @@
       "extraObjectives": [
         {
           "id": "obj-gf-soldi",
-          "label": "Prendi i soldi nella roulotte bianca e rossa (si perde se tiri dritto)"
+          "label": "Prendi i soldi nella roulotte bianca e rossa (se tiri dritto li perdi)"
         }
       ],
       "tips": [
@@ -189,7 +189,7 @@
       "missables": [
         {
           "when": "durante",
-          "text": "Verso l'idrovolante entra nella roulotte bianca e rossa sulla sinistra: dentro ci sono i tuoi soldi. Si perdono se tiri dritto."
+          "text": "Mentre vai verso l'idrovolante, entra nella roulotte bianca e rossa sulla sinistra: dentro ci sono i tuoi soldi. Se tiri dritto, li perdi."
         }
       ]
     },
@@ -212,8 +212,8 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Con i soldi di inizio gioco basta solo il fucile a pompa.",
-        "Anche se muori lì fuori la missione si chiude: nessuna conseguenza."
+        "Con i soldi che hai a inizio gioco ti puoi permettere solo il fucile a pompa.",
+        "Se muori nello scontro fuori dal negozio, la missione si chiude lo stesso, senza conseguenze."
       ],
       "secrets": [],
       "image": null,
@@ -427,8 +427,8 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Chiedi anche dei versi di uccelli nel retro: si segna un'attività illegale da fare più avanti.",
-        "Si perde quando la storia del capitolo prende la via senza ritorno; non serve per trofei o 100%."
+        "Chiedi anche dei versi di uccelli nel retro: ti viene segnata un'attività illegale da fare più avanti.",
+        "Sparisce quando la storia del capitolo arriva al punto di non ritorno. Non serve per i trofei né per il 100%."
       ],
       "secrets": [],
       "image": null,
@@ -495,7 +495,7 @@
       "order": 9,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Dopo il guaio con i Kingfishers, il vecchio intermediario di Brian, Arnold, non risponde più. Jason e Cal lo vanno a cercare nelle Keys e finisce in un inseguimento.",
+      "summary": "Dopo il guaio con i Kingfishers, il vecchio intermediario di Brian, Arnold, non risponde più. Jason e Cal lo vanno a cercare nelle Keys, e la cosa finisce in un inseguimento.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -533,7 +533,7 @@
       "order": 10,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Kenton, cacciatore di tesori con un negozio sulla spiaggia, usa un'immersione per un addio al celibato come copertura per cercare un relitto. Sott'acqua qualcosa va storto.",
+      "summary": "Kenton, cacciatore di tesori con un negozio sulla spiaggia, cerca un relitto e usa come copertura un'immersione per un addio al celibato. Sott'acqua qualcosa va storto.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -640,7 +640,7 @@
       "order": 12,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Lucia chiede di riempire il frigo prima che torni. Spesa al market di Key Lento.",
+      "summary": "Lucia chiede di riempire il frigo prima del suo ritorno. La spesa si fa al market di Key Lento.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -675,13 +675,13 @@
       "order": 13,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Un mazzo di fiori da far trovare a casa a Lucia. Arrivano da soli, non serve altro.",
+      "summary": "Un mazzo di fiori da far trovare a casa a Lucia. Basta comprarlo: a casa arriva da solo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Lucia apprezza qualunque scelta; il fioraio commenta meglio le rose."
+        "Lucia apprezza qualunque scelta; il fioraio, però, commenta con più entusiasmo le rose."
       ],
       "secrets": [],
       "image": null,
@@ -783,7 +783,7 @@
       "order": 16,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Lucia chiede a Jason di ritirare dei vestiti dall'amica Andy. Vanno portati con sé quando si va a prenderla.",
+      "summary": "Lucia chiede a Jason di ritirare dei vestiti dall'amica Andy. Vanno portati con te quando vai a prenderla.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -843,7 +843,7 @@
         }
       ],
       "tips": [
-        "Prima di andare fai le cinque commissioni per Lucia e sistema la casa: la relazione parte più alta.",
+        "Prima di andare fai le cinque commissioni per Lucia e sistema la casa: il rapporto con lei parte da un livello più alto.",
         "Nella rissa tieni premuto per parare quando l'avversario ruota le spalle.",
         "Aiutare Cal con l'app d'incontri o accettare l'offerta di Donnie non cambia niente."
       ],
@@ -934,7 +934,7 @@
       "order": 19,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Primo versamento sul conto BuckMe. Un compito breve dal menu delle missioni.",
+      "summary": "Il primo versamento sul conto BuckMe: un compito breve che trovi nell'elenco delle missioni.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -969,7 +969,7 @@
       "order": 20,
       "protagonist": "jason",
       "districtId": "dis-keys",
-      "summary": "Il risparmio di famiglia ha dei traguardi. Si porta avanti per tutta la storia.",
+      "summary": "Il risparmio di famiglia ha dei traguardi da raggiungere: è un compito che porti avanti per tutta la storia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -1003,14 +1003,14 @@
       "order": 21,
       "protagonist": "jason",
       "districtId": "dis-hamlet",
-      "summary": "Uno dei pacchi dello scambio andato male manda ancora segnale vicino a un punto di pesca di Hamlet. Jason va a recuperarlo prima di altri.",
+      "summary": "Uno dei pacchi dello scambio andato male manda ancora segnale vicino a un punto di pesca di Hamlet. Jason va a recuperarlo prima che lo trovino altri.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
         "Il pescatore sul molo ti indica dov'è il pacco.",
-        "Accanto al pacco c'è una barca: usala per la baracca e per il ritorno.",
+        "Accanto al pacco c'è una barca: usala per raggiungere la baracca e per tornare.",
         "Il compenso arriva più tardi nella cassetta della posta."
       ],
       "secrets": [],
@@ -1154,7 +1154,7 @@
       "tips": [
         "Vola proprio sopra l'altro aereo per coprirlo dal radar.",
         "Dopo la sparatoria scansiona le moto dei biker con Waink.",
-        "Se Donnie muore si riparte dal checkpoint: proteggilo nell'uscita."
+        "Se Donnie muore si riparte dal checkpoint: proteggilo mentre uscite."
       ],
       "secrets": [],
       "image": null,
@@ -1234,7 +1234,7 @@
       "tips": [
         "Per le bottiglie usa il rallentatore di mira.",
         "Vincere o perdere la gara non cambia niente.",
-        "Tenersi per mano e andare insieme alza la relazione."
+        "Tenervi per mano e camminare insieme fa salire il rapporto di coppia."
       ],
       "secrets": [],
       "image": null,
@@ -1275,7 +1275,7 @@
       "tips": [
         "Accetta la chiamata: se la rifiuti la missione salta.",
         "Vai in auto: a piedi Lucia non viene.",
-        "Può non comparire se la relazione è bassa."
+        "Se il rapporto con Lucia è basso, la missione può non comparire."
       ],
       "secrets": [],
       "image": null,
@@ -1364,7 +1364,7 @@
       "extraObjectives": [
         {
           "id": "obj-dg-pistola",
-          "label": "Prendi la H&L .38 di Donnie dal bagagliaio (si perde)"
+          "label": "Prendi la H&L .38 di Donnie dal bagagliaio (se non la prendi ora, la perdi)"
         }
       ],
       "tips": [
@@ -1413,7 +1413,7 @@
       "tips": [
         "Vai in barca, a nuoto è troppo lontano.",
         "Il relitto è nella parte sud-est della zona di ricerca.",
-        "Portala al magazzino di Brian: 1200 dollari."
+        "Portala al magazzino di Brian: ti paga 1200 dollari."
       ],
       "secrets": [],
       "image": null,
@@ -1474,7 +1474,7 @@
       "missables": [
         {
           "when": "prima di iniziare",
-          "text": "Si avvicina la fine del capitolo 1: chiudi ora le cose in sospeso a Key Lento (vedi avvisi successivi) e fai un salvataggio manuale da tenere da parte."
+          "text": "Si avvicina la fine del capitolo 1: chiudi ora le cose in sospeso a Key Lento e fai un salvataggio manuale da tenere da parte."
         }
       ]
     },
@@ -1524,13 +1524,13 @@
         },
         {
           "when": "prima di iniziare",
-          "text": "Prima di iniziarla: salvataggio manuale in uno slot da non sovrascrivere; versa i contanti in banca e almeno 5.000 $ nel Risparmio Familiare (i soldi in tasca si perdono); fai la meditazione con Lucia; leggi le 5 riviste in casa di Jason. Da qui al capitolo 2 non c'è gioco libero.",
+          "text": "Prima di iniziarla fai un salvataggio manuale in uno slot da non sovrascrivere, versa i contanti in banca e metti almeno 5.000 $ nel Risparmio Familiare (i soldi in tasca si perdono), fai la meditazione con Lucia e leggi le 5 riviste in casa di Jason. Da qui al capitolo 2 non c'è gioco libero.",
           "trophy": "Mentalità positiva",
           "ponr": true
         },
         {
           "when": "prima di iniziare",
-          "text": "Riviste in casa di Jason: comodino accanto al letto, tavolo del soggiorno, tavolo vicino alla finestra est, capanno sotto casa, terrazza con i pesi. Non servono per forza (hanno copie altrove), ma qui sono comode."
+          "text": "Le riviste in casa di Jason sono sul comodino accanto al letto, sul tavolo del soggiorno, sul tavolo vicino alla finestra est, nel capanno sotto casa e sulla terrazza con i pesi. Non sono indispensabili, perché ne esistono copie altrove, ma qui le trovi a portata di mano."
         }
       ]
     },
@@ -1716,7 +1716,7 @@
       "extraObjectives": [],
       "tips": [
         "Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
-        "Esamina la mappa appesa in reception: scopre tutta Port Gellhorn sulla mappa."
+        "Esamina la cartina appesa in reception: rivela sulla mappa tutta Port Gellhorn."
       ],
       "secrets": [],
       "image": null,
@@ -1751,7 +1751,7 @@
       "extraObjectives": [],
       "tips": [
         "Durante l'inseguimento basta restarle vicino: si ferma da sola contro un albero.",
-        "Se hai una pistola puoi anche lanciare la tanica nel retro e spararle."
+        "Se hai una pistola, puoi anche lanciare la tanica nel retro dell'ambulanza e spararle."
       ],
       "secrets": [],
       "image": null,
@@ -1887,7 +1887,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Dura un minuto. Le facoltative come questa contano per il 100% (ne servono 100 in tutto)."
+        "Dura un minuto. Le missioni facoltative come questa contano per il 100%: ne servono 100 in tutto."
       ],
       "secrets": [],
       "image": null,
@@ -2021,7 +2021,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Qualsiasi capo va bene: conta solo che siano un sopra e un sotto."
+        "Va bene qualsiasi capo: basta prendere una cosa da mettere sopra e una sotto."
       ],
       "secrets": [],
       "image": null,
@@ -2273,7 +2273,7 @@
       "order": 16,
       "protagonist": "entrambi",
       "districtId": null,
-      "summary": "Kyle ha bisogno di prodotti chimici per i suoi raccolti e manda a prenderli in un deposito della Final Chapter.",
+      "summary": "Kyle ha bisogno di prodotti chimici per i suoi raccolti e ti manda a prenderli in un deposito della Final Chapter.",
       "prerequisites": [],
       "unlocks": [
         {
@@ -2288,7 +2288,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Pagare 5.000 $ non serve: puoi prenderti il furgone, ma poi ti inseguono e hai 2 stelle.",
+        "Non sei obbligato a pagare 5.000 $: puoi prenderti il furgone, ma poi ti inseguono e hai 2 stelle.",
         "Se il cancello non si apre, scendi a piedi: si apre da solo.",
         "Non si perde: la serie resta disponibile anche dopo la fine della storia."
       ],
@@ -2332,7 +2332,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Ogni colpo ha un minuto di tempo: è più che sufficiente.",
+        "Per ogni colpo hai un minuto: è più che sufficiente.",
         "Per seminare la polizia usa le strade sterrate."
       ],
       "secrets": [
@@ -2443,8 +2443,8 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Noleggia la Sanchez: costa di più ma è più veloce, e la spesa torna con il piazzamento.",
-        "Primo posto 2.500 $; evita le auto per non volare giù dalla moto.",
+        "Noleggia la Sanchez: costa di più ma è più veloce, e il premio del piazzamento ripaga la spesa.",
+        "Il primo posto vale 2.500 $. Evita le auto, o voli giù dalla moto.",
         "Non si perde: la serie resta disponibile anche dopo la fine della storia."
       ],
       "secrets": [],
@@ -2668,7 +2668,7 @@
       "extraObjectives": [],
       "tips": [
         "Le missioni del capitolo bastano quasi da sole: una delle ultime vale 10.000 $.",
-        "Quando hai la cifra e nessuna principale aperta, la stanza del motel diventa l'obiettivo."
+        "Quando hai la cifra e non hai missioni principali in corso, l'obiettivo diventa la stanza del motel."
       ],
       "secrets": [],
       "image": null,
@@ -2753,7 +2753,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "È la serata per sole donne: entra Lucia; Jason scavalca la recinzione sul retro quando i buttafuori si allontanano.",
+        "È la serata per sole donne: entra Lucia, mentre Jason scavalca la recinzione sul retro quando i buttafuori si allontanano.",
         "La scelta nel camerino cambia solo il percorso e qualche scena, non il risultato.",
         "La combinazione della cassaforte è 2008."
       ],
@@ -2830,7 +2830,7 @@
       "missables": [
         {
           "when": "prima di iniziare",
-          "text": "chiude il capitolo 2 e non tornerai allo Starlet Motel. Prima prendi le 2 carte collezionabili (Vicki nel bagno dell'ufficio, Victor Maravilla sul frigo della cucina) e leggi le 2 riviste (reception e mensa). Serve anche avere almeno 15.000 $.",
+          "text": "Questa missione chiude il capitolo 2 e non tornerai più allo Starlet Motel. Prima prendi le 2 carte collezionabili (Vicki nel bagno dell'ufficio, Victor Maravilla sul frigo della cucina) e leggi le 2 riviste (reception e mensa). Devi anche avere almeno 15.000 $.",
           "trophy": "Non toccare il mio mazzo",
           "ponr": true
         }
@@ -2884,7 +2884,7 @@
         "Entra in Vice City e raggiungi il Jack of Hearts",
         "Gira intorno al locale fino all'ingresso sul retro",
         "Segui Dre'Quan dentro il club",
-        "Lancia i soldi alle ballerine, se li accetti",
+        "Se accetti i soldi, lanciali alle ballerine",
         "Torna da Dre'Quan e sali a conoscere Boobie",
         "Guida fino all'appartamento di Bayside ed entra nel 201"
       ],
@@ -2920,7 +2920,7 @@
       "extraObjectives": [],
       "tips": [
         "Tagliata o pura cambia solo le battute dello scambio: nessun effetto dopo.",
-        "Chiudi lo scambio senza violenza: arriva il bonus Professionale sul profilo criminale.",
+        "Chiudi lo scambio senza violenza: sul profilo criminale arriva il bonus «Professional».",
         "L'uomo della borsa attacca qualunque cosa rispondi: bastano i pugni."
       ],
       "secrets": [],
@@ -2959,7 +2959,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Scena solo per Jason: alcune missioni sono bloccate su un protagonista."
+        "Questa scena si gioca solo con Jason: alcune missioni sono legate a un solo protagonista."
       ],
       "secrets": [],
       "image": null,
@@ -3252,7 +3252,7 @@
       "extraObjectives": [],
       "tips": [
         "Lucia è una pilota migliore di Jason: usala per le fughe.",
-        "Cambiare auto cancella la prova «veicolo» dal calore della polizia."
+        "Cambiare auto cancella la prova «veicolo» tra quelle che la polizia ha su di te."
       ],
       "secrets": [],
       "image": null,
@@ -3348,7 +3348,7 @@
       "tips": [
         "Il messaggio di Kyle arriva molto tardi, anche dopo settimane di gioco: intanto vai avanti con la storia.",
         "Se resti nascosto non farti vedere dagli agenti e non parlare con il capo della polizia.",
-        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per Strangers & Freaks."
+        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per il trofeo «Sconosciuti e folli»."
       ],
       "secrets": [],
       "image": null,
@@ -3403,7 +3403,7 @@
       "extraObjectives": [
         {
           "id": "obj-yj-sneak",
-          "label": "Svaligia Richardson o Donovan dal retro senza farti scoprire (trofeo Sneakthief)"
+          "label": "Svaligia Richardson o Donovan dal retro senza farti scoprire (trofeo «Mani di fata»)"
         }
       ],
       "tips": [
@@ -3452,7 +3452,7 @@
       "extraObjectives": [],
       "tips": [
         "Yago si fa vivo solo dopo qualche giorno di gioco: intanto vai avanti con la storia.",
-        "Se sulla mappa c'è un lucchetto Yago non è disponibile: dormi in appartamento fino al pomeriggio o alla sera.",
+        "Se sulla mappa c'è un lucchetto, Yago non è disponibile: dormi in appartamento fino al pomeriggio o alla sera.",
         "La gara non paga: conta solo arrivare in fondo e far perdere le tracce."
       ],
       "secrets": [],
@@ -3582,7 +3582,7 @@
       "extraObjectives": [],
       "tips": [
         "Da qui puoi rapinare banche e Payday Loans: le banconote segnate vanno riciclate da un ricettatore, e Yasmani paga più di tutti.",
-        "Riciclare 250.000 $ in tutto vale il trofeo Dime on the Dollar."
+        "Riciclare 250.000 $ in tutto vale il trofeo «Un centesimo dopo l'altro»."
       ],
       "secrets": [],
       "image": null,
@@ -3624,7 +3624,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Dopo la missione Randy ti dà una lista di 16 auto sportive: intatte valgono 35.000 $ e più, e completarla dà il trofeo Supply & Demand.",
+        "Dopo la missione Randy ti dà una lista di 16 auto sportive: intatte valgono 35.000 $ e più, e completarla dà il trofeo «Domanda e offerta».",
         "Le auto della lista si possono rubare anche in strada: quando ne scansioni o ne guidi una, compare l'avviso per consegnarla."
       ],
       "secrets": [],
@@ -3687,7 +3687,7 @@
       "missables": [
         {
           "when": "durante",
-          "text": "Con Jason: qualche giorno dopo il secondo incarico di Yago arriva la sfida con l'icona a clessidra. Falla subito, scade. La serie di Yago vale comunque per il trofeo anche se la perdi."
+          "text": "Con Jason: falla appena compare, perché scade. Anche se la perdi, la serie di Yago vale comunque per il trofeo."
         }
       ]
     },
@@ -3940,7 +3940,7 @@
       "extraObjectives": [],
       "tips": [
         "Méndez spara a chi si arrende: non aspettare di trattare.",
-        "La fuga a piedi per le scale funziona meglio dell'auto a tre stelle."
+        "Con tre stelle, scappare a piedi per le scale funziona meglio che in auto."
       ],
       "secrets": [
         "Il cane nel cortile ti salta addosso durante la retata."
@@ -3997,7 +3997,7 @@
       "unlocks": [
         {
           "type": "trofeo",
-          "label": "Break the Bank"
+          "label": "Trofeo «Sbanca tutto»"
         }
       ],
       "rewards": [],
@@ -4064,7 +4064,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Ultimate Edition: al molo del canale di Washington Beach c'è il motoscafo Squalo con la cassa di armi ed esplosivi (sezione Personale dell'indice della mappa). C'è solo nel capitolo 4: prendilo subito.",
+        "Solo con la Ultimate Edition: al molo del canale di Washington Beach c'è il motoscafo Squalo con la cassa di armi ed esplosivi (lo trovi nella sezione Personale dell'indice della mappa). C'è solo nel capitolo 4: prendilo subito.",
         "Il conto BuckMe passa da solo a Premium: il conto corrente arriva fino a 2 milioni e le livree costano il 10% in meno."
       ],
       "secrets": [],
@@ -4292,8 +4292,8 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "La missione nel grattacielo è bloccata su Jason.",
-        "Il Focus evidenzia i punti deboli: rosso letale, giallo per incapacitare."
+        "La missione nel grattacielo si gioca solo con Jason.",
+        "Il Focus evidenzia i punti deboli: in rosso quelli letali, in giallo quelli per mettere fuori combattimento."
       ],
       "secrets": [
         "Nell'ascensore suona «Against All Odds» di Phil Collins."
@@ -4419,7 +4419,7 @@
       "tips": [
         "Non pagare: per 50.000 dollari ricevi solo un'immagine NFT senza valore.",
         "Per lasciare il tetto prendi il mezzo a due ruote che trovi lassù e salta a tutta velocità usando i pannelli solari come rampa, poi scendi con l'ascensore dell'altro tetto.",
-        "Va fatta senza il partner. È l'unica missione di Eddie e non conta per il trofeo Strangers & Freaks."
+        "Va fatta senza il partner. È l'unica missione di Eddie e non conta per il trofeo «Sconosciuti e folli»."
       ],
       "secrets": [],
       "image": null,
@@ -4460,7 +4460,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Allenarsi in palestra in coppia fa salire la forza di tutti e due: con la forza al massimo per entrambi arriva il trofeo Personal Best."
+        "Allenarsi in palestra in coppia fa salire la forza di tutti e due: con la forza al massimo per entrambi arriva il trofeo «Record personale»."
       ],
       "secrets": [],
       "image": null,
@@ -4615,7 +4615,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Già che sei lì: rubare un aereo di linea attaccato a un finger (il più comodo è ai gate E3/E4) e allontanarti di 1 km vale il trofeo Catch Me If You Can. Fallo fuori dalla missione."
+        "Fuori dalla missione, ruba un aereo di linea attaccato a un finger (il più comodo è ai gate E3/E4) e allontanati di 1 km: vale il trofeo «Prova a prendermi»."
       ],
       "secrets": [],
       "image": null,
@@ -4782,7 +4782,7 @@
       "missables": [
         {
           "when": "durante",
-          "text": "Con Lucia: quando compare una missione facoltativa con l'icona a clessidra, falla subito prima di andare avanti con la storia. Scade."
+          "text": "Con Lucia: falla appena compare, prima di andare avanti con la storia."
         }
       ],
       "contact": "Shayna",
