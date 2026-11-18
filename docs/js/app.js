@@ -31,7 +31,7 @@ import * as banda from './views/banda.js';
 import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.52.0';
+window.__LEONIDA_VERSION__ = 'v0.52.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -76,7 +76,7 @@ const views = {
   '/meccaniche/:id?': (p, q) => meccaniche.render(p, q),
   '/trucchi': () => meccaniche.renderTrucchi(),
   '/banda': () => banda.render(),
-  '/scatti': () => scatti.render(),
+  '/scatti': () => { setTimeout(() => document.getElementById('scatti')?.scrollIntoView({ block: 'start' }), 120); return banda.render(); },
   '/mappa/:id?/:poi?': atlante.render,
   '/veicoli/:id?': veicoli.render,
   '/armi/:id?': armi.render,

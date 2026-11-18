@@ -7,10 +7,9 @@ import { db } from '../data.js';
 import * as cloud from '../store/cloud.js';
 import { esc, toast } from '../ui/dom.js';
 import { showSheet, closeSheet } from '../ui/sheet.js';
-import { sectionHead, sectionOf, vis } from './shared.js';
+import { vis } from './shared.js';
 import { currentAct } from '../spoiler.js';
 
-const section = sectionOf('scatti');
 let cache = null, loading = false, error = '';
 
 const when = (iso) => { try { return new Date(iso).toLocaleString('it-IT', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }); } catch { return ''; } };
@@ -31,19 +30,19 @@ const tile = (s, i) => `<button type="button" class="shot ${hidden(s) ? 'is-spoi
     ${hidden(s) ? `<span class="shot__veil">Spoiler del capitolo ${s.spoiler}<br><small>tocca per vedere</small></span>` : ''}
     <span class="shot__foot"><b>${esc(s.nick)}</b><span>${heart(s.piace)} ${s.likes}${s.commenti ? ` · 💬 ${s.commenti}` : ''}</span></span></button>`;
 
-export function render() {
-  const a = cloud.account();
-  const head = sectionHead(section, cache ? `${cache.list.length} scatti` : '');
-  if (!a) return { left: `${head}<div class="card banda-in"><h2>Entra per vedere gli Scatti</h2><p>La galleria delle foto migliori della banda. Serve il profilo online.</p><a class="btn btn--accent btn--block" href="#/impostazioni">Entra con la tua email</a></div>`, right: '', show: 'left', accent: section.accent, title: 'Scatti' };
+/** La galleria, in fondo alla pagina della banda */
+export function galleryBlock() {
+  if (!cloud.account()) return '';
   if (!cache || Date.now() - cache.at > 60000) setTimeout(load, 0);
   const list = cache?.list || [];
-  const left = `${head}
+  return `<section class="shots-block" id="scatti">
+    <div class="shots-head"><svg aria-hidden="true"><use href="#n-scatti"/></svg><div><h2>Scatti</h2><p class="small muted">Le foto migliori della banda${list.length ? ` · ${list.length}` : ''}</p></div></div>
     <label class="btn btn--accent btn--block shot-up"><svg aria-hidden="true"><use href="#i-photo"/></svg>Carica uno scatto<input type="file" accept="image/*" data-shot-file hidden></label>
     <p class="small muted">Dalla PS5: tieni premuto il tasto Create per salvare la foto, poi aprila sul telefono con l'app PlayStation e salvala nelle Foto.</p>
     ${error ? `<p class="callout callout--warn small">${esc(error)}</p>` : ''}
     ${!cache && !error ? '<p class="muted">Carico gli scatti…</p>' : ''}
-    ${list.length ? `<div class="shots">${list.map(tile).join('')}</div>` : (cache ? '<p class="muted">Ancora nessuno scatto. Il primo è tuo.</p>' : '')}`;
-  return { left, right: '', show: 'left', accent: section.accent, title: 'Scatti' };
+    ${list.length ? `<div class="shots">${list.map(tile).join('')}</div>` : (cache ? '<p class="muted">Ancora nessuno scatto. Il primo è tuo.</p>' : '')}
+  </section>`;
 }
 
 /** Rimpicciolisce sul telefono: lato lungo 1600 px, JPEG 0.82 (circa 300 KB) */

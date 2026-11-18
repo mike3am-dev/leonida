@@ -15,12 +15,11 @@ export const SECTIONS = [
   { id: 'garage', num: 7, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'I veicoli di Leonida', bg: 'oceandrive.jpg' },
   { id: 'collezionabili', num: 8, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', bg: 'palme.jpg' },
   { id: 'trofei', num: 9, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino', bg: 'palme.jpg' },
-  { id: 'radio', num: 10, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora', bg: 'molo-album.jpg' },
-  { id: 'mondo', num: 11, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV', bg: 'stripclub.jpg' },
-  { id: 'news', num: 12, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno', bg: 'molo.jpg' },
-  { id: 'banda', num: 13, title: 'La banda', path: '/banda', icon: 'person', accent: 'magenta', hue: 300, tagline: 'Tu e i tuoi amici: chi è più avanti', bg: 'palme.jpg' },
-  { id: 'scatti', num: 14, title: 'Scatti', path: '/scatti', icon: 'photo', accent: 'orange', hue: 20, tagline: 'Le foto migliori della banda', bg: 'molo.jpg' },
-  { id: 'diario', num: 15, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg', hidden: true },
+  { id: 'banda', num: 10, title: 'La banda', path: '/banda', icon: 'person', accent: 'magenta', hue: 300, tagline: 'Tu e i tuoi amici: chi è più avanti', bg: 'palme.jpg' },
+  { id: 'radio', num: 11, title: 'Radio', path: '/cultura', icon: 'radio', accent: 'orange', hue: 350, tagline: 'Le stazioni e la colonna sonora', bg: 'molo-album.jpg' },
+  { id: 'mondo', num: 12, title: 'Mondo', path: '/mondo', icon: 'globe', accent: 'teal', hue: 190, tagline: 'Marchi, app, gang, polizia, TV', bg: 'stripclub.jpg' },
+  { id: 'news', num: 13, title: 'News', path: '/news', icon: 'bolt', accent: 'magenta', hue: 5, tagline: 'Notizie e guide, giorno per giorno', bg: 'molo.jpg' },
+  { id: 'diario', num: 14, title: 'Appunti', path: '/diario', icon: 'pen', accent: 'magenta', hue: 40, tagline: 'Il taccuino da gioco', bg: 'palme.jpg', hidden: true },
 ];
 
 export function sectionOf(id) { return SECTIONS.find((s) => s.id === id); }

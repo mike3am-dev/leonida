@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.52.0",
+  "dataVersion": "0.52.1",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.52.1",
+      "date": "2026-11-19",
+      "changes": [
+        "Gli Scatti ora stanno dentro «La banda», in fondo alla pagina, sotto la classifica.",
+        "Nella barra «La banda» viene subito dopo i Trofei; Radio, Mondo e News vengono dopo."
+      ]
+    },
     {
       "version": "0.52.0",
       "date": "2026-11-19",

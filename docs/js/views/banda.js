@@ -10,6 +10,7 @@ import { esc, toast } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
 import { sectionHead, sectionOf, vis } from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { galleryBlock } from './scatti.js';
 
 const section = sectionOf('banda');
 let cache = null, loading = false, error = '';
@@ -67,7 +68,8 @@ export function render() {
     ${!cache && !error ? '<p class="muted">Carico la banda…</p>' : ''}
     ${rows.length ? `<div class="banda">${list}</div>` : (cache ? '<p class="muted">Per ora ci sei solo tu. Passa il link della guida agli amici.</p>' : '')}
     <p class="small muted" style="margin-top:var(--s-4)">La percentuale conta missioni, trofei e collezionabili segnati nella guida. Delle missioni degli altri vedi solo i numeri, mai i nomi: niente spoiler.</p>
-    <div class="btn-row"><button class="btn btn--ghost" type="button" data-banda-reload>Aggiorna</button></div>`;
+    <div class="btn-row"><button class="btn btn--ghost" type="button" data-banda-reload>Aggiorna</button></div>
+    ${galleryBlock()}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'La banda' };
 }
 

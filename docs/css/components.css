@@ -2172,3 +2172,8 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .cmts p { margin: 2px 0 0; }
 .cmt-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s-2); }
 .linkbtn { border: 0; background: none; padding: 0; color: var(--orange); text-decoration: underline; cursor: pointer; font: inherit; }
+.shots-block { margin-top: var(--s-6); padding-top: var(--s-5); border-top: var(--hair) solid var(--rule); }
+.shots-head { display: flex; align-items: center; gap: var(--s-3); }
+.shots-head svg { width: 34px; height: 34px; color: var(--orange); flex: none; }
+.shots-head h2 { font-family: var(--font-gta); font-weight: 400; font-size: 2rem; margin: 0; line-height: 1; }
+.shots-head p { margin: 2px 0 0; }

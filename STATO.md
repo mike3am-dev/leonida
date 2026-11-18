@@ -195,6 +195,8 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Spoiler: della banda si vedono solo i numeri delle missioni; foto con `spoiler` > capitolo raggiunto sfocate finché non le tocchi.
 - Limiti: con l'accesso solo email chiunque abbia l'app può caricare. Le foto «tolte» restano nel bucket (si cancellano dal pannello Storage di Supabase).
 
+- v0.52.1: su richiesta di Mike gli Scatti non sono più una sezione a sé ma un blocco in fondo alla pagina della banda (`galleryBlock()` in scatti.js, `#scatti`; la rotta `#/scatti` apre la banda e scorre lì). Ordine della barra: … Collezionabili, Trofei, La banda, Radio, Mondo, News, Appunti.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
