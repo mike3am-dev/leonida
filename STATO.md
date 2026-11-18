@@ -183,6 +183,12 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - POI nelle regioni raggruppati per famiglia (`poiGroups` in atlante.js) sopra le 14 voci.
 - Ancora da fare: soluzioni capitoli 4-5 (nessuna guida al 18/11 notte), 5 trofei segreti, posizioni di fenicotteri/stili/canestri/salti/sotto i ponti, ~350 carte, titoli italiani delle missioni, loghi di 13 stazioni, xy dei POI nuovi. Fonti migliori per ripartire: API REST di PowerPyx (`/wp-json/wp/v2/posts?search=gta%206`), DayOne (playday.one), API di gta.wiki (Radio Stations in GTA VI, categorie), feed RSS di GameSpot (testo intero).
 
+## 4v. Da non perdere, trucchi a parte, giro di caccia ogni 12 ore (v0.51.0, 19/11 notte)
+- Missioni: `chapterMissables` in missioni.js mette in cima a ogni capitolo iniziato «Da non perdere in questo capitolo»: `acts[].missables` (bonus/soldi del capitolo, campo nuovo in missions.json), trofei con `timing.until`, collezionabili con `missable`+`chapter`, avvisi delle missioni (quelli delle missioni non ancora iniziate in una sottosezione chiusa e sotto l'inchiostro).
+- Trucchi: `mec-trucchi` è fuori dall'indice di Come si gioca; pagina `#/trucchi` (Altro › Trucchi) dietro un avviso (sessionStorage `leonida:trucchi:visti`).
+- Radio: tolta la banda della sintonia; frecce con il nome della stazione prima/dopo.
+- Giro di caccia: kit in `scripts/caccia/` (README con procedura e fonti). Promemoria programmato ogni 12 ore in questa sessione, trigger `trig_01Q3XBNUHuyUn74MzqGTGLgA` (8:34 e 20:34 ora italiana): avvisa Mike, il giro parte solo col suo sì. Da cancellare quando Mike dice basta.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
