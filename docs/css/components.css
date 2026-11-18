@@ -1917,3 +1917,9 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .roadmap summary .small { margin-left: auto; }
 .roadmap summary svg { width: 18px; height: 18px; flex: none; color: var(--ink-3); transform: rotate(90deg); transition: transform .2s; }
 .roadmap[open] summary svg { transform: rotate(-90deg); }
+/* Trofei: da quando e fino a quando */
+.when { display: inline-flex; align-items: center; gap: 6px; margin: 3px 0 2px; font-size: var(--fs-xs); letter-spacing: .06em; text-transform: uppercase; font-weight: 600; color: var(--ink-3); }
+.when__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); flex: none; }
+.when--free { color: #1f8f55; } .when--free .when__dot { background: #2fbf71; }
+.when--miss { color: var(--orange); } .when--miss .when__dot { background: var(--orange); }
+.when__note { margin: 2px 0 var(--s-2); color: var(--ink-2); }

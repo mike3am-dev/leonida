@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.38.6",
+  "dataVersion": "0.39.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.39.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: sotto ogni nome c'è quando si fa. «Con la storia», «Dal capitolo N · Nessuna scadenza» (verde) oppure «Scade a fine capitolo N» (arancio, oggi solo Mentalità positiva). Dove serve c'è anche una riga di avviso."
+      ]
+    },
     {
       "version": "0.38.6",
       "date": "2026-11-18",

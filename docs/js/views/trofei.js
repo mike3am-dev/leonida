@@ -15,6 +15,19 @@ const TIER = { platino: 'Platino', oro: 'Oro', argento: 'Argento', bronzo: 'Bron
 const CAT = { storia: 'Storia', completamento: 'Completamento', collezionabili: 'Collezionabili', attivita: 'Attività e sfide', mondo: 'Mondo e segreti', online: 'Online' };
 const CAT_ICON = { storia: 'flag', completamento: 'star', collezionabili: 'bookmark', attivita: 'bolt', mondo: 'globe', online: 'radio' };
 
+/** Quando si fa: da quale capitolo si sblocca ed entro quando (la scadenza) */
+export function whenHtml(t, { note = false } = {}) {
+  const tm = t.timing; if (!tm) return '';
+  let cls = 'when', txt;
+  if (tm.story) txt = 'Con la storia';
+  else if (tm.until) {
+    const now = spoiler.currentAct();
+    cls += ' when--miss';
+    txt = `${tm.from ? `Dal capitolo ${tm.from} · ` : ''}Scade a fine capitolo ${tm.until}${now === tm.until ? ' · è questo!' : ''}`;
+  } else { cls += ' when--free'; txt = `${tm.from ? `Dal capitolo ${tm.from} · ` : ''}Nessuna scadenza`; }
+  return `<div class="${cls}"><span class="when__dot" aria-hidden="true"></span>${esc(txt)}</div>${tm.note && (note === true || ((tm.warn || tm.until) && note === 'warn')) ? `<p class="small when__note">${esc(tm.note)}</p>` : ''}`;
+}
+
 /** Icona del trofeo in stile PlayStation, colorata per livello */
 export const cup = (tier, size = 40) => `<span class="cup cup--${esc(tier)}" style="--cup:${size}px" aria-label="${esc(TIER[tier] || tier)}">
   <svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="cupg-${esc(tier)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--cup-hi)"/><stop offset="1" stop-color="var(--cup-lo)"/></linearGradient></defs>
@@ -39,6 +52,7 @@ export function render(params, query = {}) {
         <button class="check__box" role="checkbox" aria-checked="${ok}" data-trophy="${esc(t.id)}" aria-label="${esc(plainName(t))}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
         <button type="button" class="trophy__cup" data-trophy="${esc(t.id)}" aria-label="Segna ${esc(plainName(t))}">${cup(t.tier, 44)}</button>
         <div class="trophy__body"><div class="trophy__name">${richName(t)} <span class="chip chip--${esc(t.tier)}">${esc(TIER[t.tier] || t.tier)}</span></div>
+          ${whenHtml(t, { note: 'warn' })}
           <div class="trophy__desc">${spoiler.text(t, t.description || '')}</div>
           ${t.guide ? `<div class="small muted">${esc(t.guide)}</div>` : ''}
           <div class="chips" style="margin-top:4px">${statusChip(t)}</div></div>
@@ -65,7 +79,7 @@ function trophySheet(t, rerender) {
   const ok = !!(progress.get().trophies || {})[t.id];
   const body = document.createElement('div');
   body.innerHTML = `<div style="display:flex;gap:var(--s-3);align-items:center;margin-bottom:var(--s-3)">${cup(t.tier, 56)}<div><span class="chip chip--${esc(t.tier)}">${esc(TIER[t.tier] || t.tier)}</span> ${statusChip(t)}</div></div>
-    <p>${spoiler.text(t, t.description || '')}</p>${t.guide ? `<p class="small muted">${esc(t.guide)}</p>` : ''}
+    ${whenHtml(t, { note: true })}<p>${spoiler.text(t, t.description || '')}</p>${t.guide ? `<p class="small muted">${esc(t.guide)}</p>` : ''}
     <button type="button" class="btn ${ok ? 'btn--accent' : 'btn--solid'} found-btn" data-trophy-toggle="${esc(t.id)}">${ok ? 'Ottenuto ✓' : 'Segna come ottenuto'}</button>`;
   body.addEventListener('click', (e) => { const b = e.target.closest('[data-trophy-toggle]'); if (!b) return; progress.toggleTrophy(t.id); document.querySelector('.sheet-backdrop')?.click(); rerender(); });
   showSheet({ title: plainName(t), body });

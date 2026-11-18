@@ -147,6 +147,10 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - v0.38.1: nick scelto da ognuno in `settings.nick` (viaggia con il profilo; se manca si usa la parte dell'email prima della @) e pallino in alto a destra `.who` (verde salvato, arancio senza rete/errore, vuoto = «Entra»). Sotto 560 px sparisce «Guida di gioco» per fare spazio.
 - Riga di prova nel database: `prova@leonida.test` (si può cancellare dal Table Editor).
 
+## 4p. Scadenza dei trofei (v0.39.0, 18/11)
+- Ogni trofeo ha `timing`: `{ story: true }` per quelli della storia, altrimenti `{ from: capitolo da cui si sblocca | assente, until: capitolo entro cui farlo | null, note?, warn? }`. In lista la nota si vede solo se `warn` o `until`; nella scheda sempre.
+- Fonti: guide PowerPyx/stampa già usate per `guide` e per la roadmap. Unico trofeo con scadenza: Mentalità positiva (meditazione del capitolo 1). Quando le guide ne trovano altri, si aggiorna `until`.
+
 ## 6. Strumenti e verifiche prima di ogni push
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
 **Attenzione (12/11):** controllare il codice di uscita di `node scripts/validate.mjs` (deve essere 0), non solo l'ultima riga: gli errori «✗» stanno sopra il riepilogo. Le proposte dei giri news a volte usano `"append: …"` dentro un campo (testo da accodare, id da aggiungere, oggetto JSON per `extras`): vanno interpretati, non scritti così.

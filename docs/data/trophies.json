@@ -15,7 +15,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Vice Got a Price!"
+      "nameEn": "Vice Got a Price!",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-just-like-paradise",
@@ -31,7 +34,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Just Like Paradise"
+      "nameEn": "Just Like Paradise",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-paradise-lost",
@@ -47,7 +53,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Paradise Lost"
+      "nameEn": "Paradise Lost",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-t-s-ass-drug-money",
@@ -63,7 +72,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "T**s Ass Drug Money"
+      "nameEn": "T**s Ass Drug Money",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-vice-city-baby",
@@ -79,7 +91,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Vice City, Baby!"
+      "nameEn": "Vice City, Baby!",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-top-of-the-world-ma",
@@ -95,7 +110,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Top Of The World, Ma"
+      "nameEn": "Top Of The World, Ma",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-you-gotta-know-when-to-get-off",
@@ -111,7 +129,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "You Gotta Know When to Get Off"
+      "nameEn": "You Gotta Know When to Get Off",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-trust",
@@ -127,7 +148,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Trust"
+      "nameEn": "Trust",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-break-the-bank",
@@ -143,7 +167,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Break the Bank"
+      "nameEn": "Break the Bank",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-family-matters",
@@ -159,7 +186,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Family Matters"
+      "nameEn": "Family Matters",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-dwnfall",
@@ -175,7 +205,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "DWNFALL"
+      "nameEn": "DWNFALL",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-hi-jacked",
@@ -191,7 +224,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Hi-Jacked"
+      "nameEn": "Hi-Jacked",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-snow-storm",
@@ -207,7 +243,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Snow Storm"
+      "nameEn": "Snow Storm",
+      "timing": {
+        "story": true
+      }
     },
     {
       "id": "tro-a-long-road",
@@ -223,7 +262,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "A Long Road"
+      "nameEn": "A Long Road",
+      "timing": {
+        "until": null,
+        "note": "La lista del 100% compare a storia finita, ma conta tutto quello che fai prima. Niente si perde."
+      }
     },
     {
       "id": "tro-cunning-stunts",
@@ -239,7 +282,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Cunning Stunts"
+      "nameEn": "Cunning Stunts",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-master-of-none",
@@ -255,7 +301,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Master of None"
+      "nameEn": "Master of None",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-the-shootist",
@@ -271,7 +320,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "The Shootist"
+      "nameEn": "The Shootist",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-top-fun",
@@ -287,7 +339,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Top Fun"
+      "nameEn": "Top Fun",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-earn-cash-not-kudos",
@@ -303,7 +358,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Earn Cash, Not Kudos"
+      "nameEn": "Earn Cash, Not Kudos",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-baited-my-tackle",
@@ -319,7 +377,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Baited My Tackle"
+      "nameEn": "Baited My Tackle",
+      "timing": {
+        "from": 1,
+        "until": null
+      }
     },
     {
       "id": "tro-stick-fiddler",
@@ -335,7 +397,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Stick Fiddler"
+      "nameEn": "Stick Fiddler",
+      "timing": {
+        "from": 1,
+        "until": null
+      }
     },
     {
       "id": "tro-road-to-rehabilitation",
@@ -351,7 +417,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Road to Rehabilitation"
+      "nameEn": "Road to Rehabilitation",
+      "timing": {
+        "from": 3,
+        "until": null
+      }
     },
     {
       "id": "tro-this-was-no-boat-accident",
@@ -367,7 +437,13 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "This Was No Boat Accident"
+      "nameEn": "This Was No Boat Accident",
+      "timing": {
+        "from": 1,
+        "until": null,
+        "note": "Kenton sparisce per un po' dopo il capitolo 1 e torna più avanti.",
+        "warn": true
+      }
     },
     {
       "id": "tro-the-lone-rider",
@@ -383,7 +459,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "The Lone Rider"
+      "nameEn": "The Lone Rider",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-strangers-freaks",
@@ -399,7 +479,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Strangers & Freaks"
+      "nameEn": "Strangers & Freaks",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-supply-demand",
@@ -415,7 +498,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Supply & Demand"
+      "nameEn": "Supply & Demand",
+      "timing": {
+        "from": 3,
+        "until": null
+      }
     },
     {
       "id": "tro-spin-on-this",
@@ -431,7 +518,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Spin On This!"
+      "nameEn": "Spin On This!",
+      "timing": {
+        "from": 3,
+        "until": null
+      }
     },
     {
       "id": "tro-positive-mental-attitude",
@@ -447,7 +538,12 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Positive Mental Attitude"
+      "nameEn": "Positive Mental Attitude",
+      "timing": {
+        "from": 1,
+        "until": 1,
+        "note": "La prima meditazione si fa solo nel capitolo 1, a casa di Jason con Lucia: dopo non si può più."
+      }
     },
     {
       "id": "tro-fair-game",
@@ -463,7 +559,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Fair Game"
+      "nameEn": "Fair Game",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-don-t-touch-my-deck",
@@ -479,7 +579,12 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Don’t Touch My Deck"
+      "nameEn": "Don’t Touch My Deck",
+      "timing": {
+        "until": null,
+        "note": "Bastano 3 set su 18, quindi non scade. Alcune carte però stanno in case che lasci con la storia (capitoli 1–3): prendile quando ci abiti.",
+        "warn": true
+      }
     },
     {
       "id": "tro-you-wainker",
@@ -495,7 +600,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "You WAiNKer!"
+      "nameEn": "You WAiNKer!",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-one-last-thing",
@@ -511,7 +619,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "One Last Thing"
+      "nameEn": "One Last Thing",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-hot-together",
@@ -527,7 +638,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Hot Together"
+      "nameEn": "Hot Together",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-retail-therapy",
@@ -543,7 +658,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Retail Therapy"
+      "nameEn": "Retail Therapy",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-whip-it-good",
@@ -559,7 +678,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Whip It Good"
+      "nameEn": "Whip It Good",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-gunslinger",
@@ -575,7 +697,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Gunslinger"
+      "nameEn": "Gunslinger",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-catch-me-if-you-can",
@@ -591,7 +716,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Catch Me If You Can"
+      "nameEn": "Catch Me If You Can",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-challenging-tank",
@@ -607,7 +735,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Challenging Tank"
+      "nameEn": "Challenging Tank",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-sneakthief",
@@ -623,7 +754,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Sneakthief"
+      "nameEn": "Sneakthief",
+      "timing": {
+        "from": 3,
+        "until": null
+      }
     },
     {
       "id": "tro-maximum-withdrawal",
@@ -639,7 +774,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Maximum Withdrawal"
+      "nameEn": "Maximum Withdrawal",
+      "timing": {
+        "from": 4,
+        "until": null
+      }
     },
     {
       "id": "tro-a-classic-blitz-play",
@@ -655,7 +794,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "A Classic Blitz Play"
+      "nameEn": "A Classic Blitz Play",
+      "timing": {
+        "from": 4,
+        "until": null
+      }
     },
     {
       "id": "tro-the-goodtime-state",
@@ -671,7 +814,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "The Goodtime State"
+      "nameEn": "The Goodtime State",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-pest-control",
@@ -687,7 +833,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Pest Control"
+      "nameEn": "Pest Control",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-in-the-beginning",
@@ -703,7 +852,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "In The Beginning…"
+      "nameEn": "In The Beginning…",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-capital-offense",
@@ -719,7 +871,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Capital Offense"
+      "nameEn": "Capital Offense",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-let-s-go-bowling",
@@ -735,7 +890,13 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Let’s Go Bowling"
+      "nameEn": "Let’s Go Bowling",
+      "timing": {
+        "from": 2,
+        "until": null,
+        "note": "Se lasci indietro un oggetto puoi tornare, ma il posto si rigenera solo molto più avanti.",
+        "warn": true
+      }
     },
     {
       "id": "tro-personal-best",
@@ -751,7 +912,11 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Personal Best"
+      "nameEn": "Personal Best",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-actions-speak-louder",
@@ -767,7 +932,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Actions Speak Louder"
+      "nameEn": "Actions Speak Louder",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-bad-luck-i-guess",
@@ -783,7 +951,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Bad Luck, I Guess"
+      "nameEn": "Bad Luck, I Guess",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-the-truth-is-out-there",
@@ -799,7 +970,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "The Truth Is Out There"
+      "nameEn": "The Truth Is Out There",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-ten-pin",
@@ -815,7 +989,10 @@
       "spoilerLevel": 9,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Ten Pin"
+      "nameEn": "Ten Pin",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-dime-on-the-dollar",
@@ -831,7 +1008,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Dime on the Dollar"
+      "nameEn": "Dime on the Dollar",
+      "timing": {
+        "from": 3,
+        "until": null
+      }
     },
     {
       "id": "tro-treat-yo-self",
@@ -847,7 +1028,10 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Treat Yo Self"
+      "nameEn": "Treat Yo Self",
+      "timing": {
+        "until": null
+      }
     },
     {
       "id": "tro-little-boxes",
@@ -863,7 +1047,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "Little Boxes"
+      "nameEn": "Little Boxes",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     },
     {
       "id": "tro-on-the-spot",
@@ -879,7 +1067,11 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "nameEn": "On the Spot"
+      "nameEn": "On the Spot",
+      "timing": {
+        "from": 2,
+        "until": null
+      }
     }
   ],
   "roadmap": [
