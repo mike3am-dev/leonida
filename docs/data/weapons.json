@@ -614,18 +614,18 @@
     },
     {
       "id": "wpn-moreland-850",
-      "name": "Moreland 850",
+      "name": "Fortune & Son Moreland 850",
       "manufacturer": "Fortune & Son",
       "class": "fucile-pompa",
       "description": "Fucile a pompa; si può impugnare anche con una mano sola.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si compra all'Ammu-Nation. Alla prima visita di Jason, nel capitolo 1, è scontato a 350 $ ed è il fucile lungo più economico.",
       "image": "assets/img/vice/armi/wpn-moreland-850.webp",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "realModel": "Remington 870",
       "seenIn": "Extended Look",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-moreland-850.webp",
@@ -634,7 +634,10 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/moreland-850"
+        "https://www.gtabase.com/weapons/gta-6/moreland-850",
+        "https://www.gtaboom.com/gta-6-gear-up-mission-walkthrough-26a2",
+        "https://beebom.com/gta-6-gear-up-mission/",
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
       ],
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
@@ -651,7 +654,8 @@
           "source": "stampa",
           "text": "La variante unica Gutterball Moreland 850 è uno degli oggetti di valore della sala da bowling dei Kolts & Associates, a Port Gellhorn."
         }
-      ]
+      ],
+      "price": "700 $"
     },
     {
       "id": "wpn-double-barrel",
@@ -2562,14 +2566,14 @@
       "manufacturer": "Hawk & Little",
       "class": "cecchino",
       "description": "Carabina moderna in 9 mm, adatta a più ruoli.",
-      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici. Alla prima visita di Jason, nel capitolo 1, costa 450 $ (forse un prezzo scontato, come per il fucile a pompa).",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "caliber": "9 mm",
       "magazine": "17 colpi",
       "fireMode": "Semiautomatica",
@@ -2579,7 +2583,10 @@
         "accuracy": 7.8,
         "handling": 5.6,
         "range": 7.0
-      }
+      },
+      "moreSources": [
+        "https://beebom.com/gta-6-gear-up-mission/"
+      ]
     },
     {
       "id": "wpn-wortham-w14",

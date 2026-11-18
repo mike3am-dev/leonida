@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.46.0",
+  "dataVersion": "0.46.1",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.46.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Garage: i veicoli confermati passano da 27 a circa 54, con il posto dove trovarli. Sei nomi corretti: Piccia Furia, Ascot Paragon, Maibatsu Boomazoom, Speeder 700 GT, Pegassi Infernus, '32 Vapid Hustler. Nuovo il fenicottero gonfiabile del trucco. I 14 veicoli dei trucchi sono verificati.",
+        "Armi: Moreland 850 a 700 $ (350 $ alla prima visita all'Ammu-Nation). Le barre e i prezzi delle altre armi le guide non li hanno ancora pubblicati."
+      ]
+    },
     {
       "version": "0.46.0",
       "date": "2026-11-18",

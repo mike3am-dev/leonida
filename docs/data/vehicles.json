@@ -200,14 +200,18 @@
       "description": "Supercar.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide dei veicoli.",
       "image": "assets/img/veicoli/veh-progen-emerus.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/emerus.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-grotti-bestia-gts",
@@ -302,7 +306,7 @@
     },
     {
       "id": "veh-vapid-hustler",
-      "name": "Vapid Hustler",
+      "name": "'32 Vapid Hustler",
       "manufacturer": "Vapid",
       "class": "muscle",
       "description": "Hot rod anni Trenta.",
@@ -313,9 +317,14 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/muscle/main/hustler.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
+      "whereToFind": "Capri (Mariana County), in un container dove finisce una missione principale del capitolo 3: puoi tenerla o rivenderla.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-willard-faction-donk",
@@ -641,16 +650,21 @@
       "name": "Airgator Airboat 09",
       "manufacturer": "Airgator Airboats",
       "class": "barca",
-      "description": "La barca a elica delle paludi, immagine simbolo di Grassrivers. Il nome del modello in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "La barca a elica delle paludi, immagine simbolo di Grassrivers: il modo migliore per muoversi tra le zone umide.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di sopravvivenza.",
       "image": "assets/img/veicoli/veh-airboat.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d9/Airboat09-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/"
+      ]
     },
     {
       "id": "veh-water-taxi",
@@ -907,7 +921,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-karin-futo",
       "name": "Karin Futo",
       "manufacturer": "Karin",
@@ -916,7 +930,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9d/Futo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "whereToFind": "Kelly County, Draper Island: quella che chiede Moses (dal capitolo 2) è nell'edificio sul bordo sud dell'isola, vicino ai posti di guardia sulla strada.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pfister-growler.png",
@@ -1017,10 +1035,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-enus-paragon-r",
-      "name": "Enus Paragon R",
-      "manufacturer": "Enus",
+      "name": "Ascot Paragon",
+      "manufacturer": "Ascot",
       "class": "sportiva",
       "description": "Ispirata alla Bentley Continental GT.",
       "howToGet": "Da verificare.",
@@ -1030,13 +1048,12 @@
       "realModel": "Bentley Continental GT",
       "seats": 2,
       "drivetrain": "AWD",
-      "extras": [
-        {
-          "source": "stampa",
-          "text": "Nella lista dei desideri di Randy compare come «Ascot Paragon»: il marchio non è ancora certo."
-        }
-      ],
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "extras": [],
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
@@ -1212,10 +1229,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-grotti-furia",
-      "name": "Grotti Furia",
-      "manufacturer": "Grotti",
+      "name": "Piccia Furia",
+      "manufacturer": "Piccia",
       "class": "super",
       "description": "Un mix tra 488 Pista e SF90.",
       "howToGet": "Da verificare.",
@@ -1225,13 +1242,12 @@
       "realModel": "Pininfarina Battista",
       "seats": 2,
       "drivetrain": "AWD",
-      "extras": [
-        {
-          "source": "stampa",
-          "text": "Nella lista dei desideri di Randy compare come «Piccia Furia»: il marchio non è ancora certo."
-        }
-      ],
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "extras": [],
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
@@ -1277,11 +1293,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-truffade-thrax",
       "name": "Truffade Thrax",
       "manufacturer": "Truffade",
@@ -1293,7 +1309,11 @@
       "imageCredit": "gtabase.com",
       "realModel": "Bugatti Divo",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-buccaneer.png",
@@ -1430,7 +1450,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-imponte-phoenix",
       "name": "Imponte Phoenix",
       "manufacturer": "Imponte",
@@ -1441,7 +1461,12 @@
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5a/Phoenix-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Hamlet, nel deposito della polizia: la prima la recuperi in una missione principale del capitolo 1.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-imponte-ruiner.png",
@@ -1526,7 +1551,7 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-vamos",
       "name": "Declasse Vamos",
       "manufacturer": "Declasse",
@@ -1535,7 +1560,16 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/4601-4700/GTA5_Vamos_RSC-4632-360.jpg",
-      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com"
+      "imageCredit": "Rockstar Games (render GTA V) via gtabase.com",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Esiste una Vamos unica, «Martha's Vamos»: scoprirla nel menu Progressi sblocca il trucco del filtro Cataclysm."
+        }
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vigero-zx-convertible.png",
@@ -1563,7 +1597,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-ganado-70",
       "name": "Vapid Ganado '70",
       "manufacturer": "Vapid",
@@ -1575,7 +1609,13 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ford Ranchero 5th generation",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Davanti alla casa di Jason, nelle Keys: è la sua auto personale dal capitolo 1. Se la distruggi, chiama Joey: la ripara e te la riporta.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
+        "https://www.powerpyx.com/gta-6-how-to-summon-vehicles/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
@@ -1583,9 +1623,9 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-pegassi-infernus-classic",
-      "name": "Pegassi Infernus Classic",
+      "name": "Pegassi Infernus",
       "manufacturer": "Pegassi",
       "class": "classica",
       "description": "La Lamborghini Diablo; ne corre una gialla nelle gare notturne.",
@@ -1595,7 +1635,18 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lamborghini Diablo",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti ai grandi hotel sul mare, a est di Vice City, o in giro per la città. Consegnata intatta rende 30.000 $ e più.",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nel gioco si chiama «Pegassi Infernus» (nell'elenco dei veicoli: '96 Pegassi Infernus)."
+        }
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
@@ -1856,7 +1907,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-benefactor-schafter-v12",
       "name": "Benefactor Schafter V12",
       "manufacturer": "Benefactor",
@@ -1868,7 +1919,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Brabus SV12 R",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Salton (Vice City), nello sfasciacarrozze di una gang: la prima si ruba in una missione principale del capitolo 3. Si entra salendo sul furgone bianco sul lato nord.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
@@ -2449,7 +2504,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-maibatsu-manchez",
       "name": "Maibatsu Manchez",
       "manufacturer": "Maibatsu",
@@ -2461,7 +2516,12 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Armstrong MT500",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Si noleggia da Roostere's Rentals, al Thrillbilly Mud Club (Kelly County), per le gare di fango del capitolo 2; la Sanchez costa di più ma è più veloce.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
@@ -2549,11 +2609,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-maibatsu-sanchez",
       "name": "Maibatsu Sanchez",
       "manufacturer": "Maibatsu",
@@ -2565,7 +2625,20 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Yamaha YZ450F",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Si noleggia da Roostere's Rentals, al Thrillbilly Mud Club (Kelly County), per le gare di fango del capitolo 2; la Sanchez costa di più ma è più veloce.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "In una missione di Billy del capitolo 2 ricevi una Highwayman Sanchez da cross: dopo puoi parcheggiarla in garage e registrarla da Moses, è ottima per i salti acrobatici."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
@@ -2697,11 +2770,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-carbon-rs.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-nagasaki-carbon-rs",
       "name": "Nagasaki Carbon RS",
       "manufacturer": "Nagasaki",
@@ -2713,7 +2786,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ducati 1199 Panigale",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dinka-double-t.png",
@@ -2808,11 +2885,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-bmx.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-bmx",
       "name": "Tuff BMX",
       "manufacturer": "Tuff",
@@ -2821,7 +2898,11 @@
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di fitness.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/68/BMX-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-cruiser.png",
@@ -3004,25 +3085,24 @@
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-speeder.jpg",
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-pegassi-speeder",
-      "name": "Pegassi Speeder",
+      "name": "Speeder 700 GT",
       "manufacturer": "Pegassi",
       "class": "barca",
-      "description": "Il motoscafo veloce.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "description": "Motoscafo di lusso: potenza e rifiniture curate.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di combattimento.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/speeder.jpg",
       "imageCredit": "gtabase.com",
-      "extras": [
-        {
-          "source": "stampa",
-          "text": "Nel menu dei trucchi si chiama «Speeder 700 GT»; il trucco si sblocca con 5 sfide di combattimento."
-        }
+      "extras": [],
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/"
       ]
     },
     {
@@ -3102,7 +3182,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-western-company-duster",
       "name": "Western Company Duster",
       "manufacturer": "Western Company",
@@ -3114,7 +3194,18 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Boeing-Stearman Model 75",
       "seats": 2,
-      "drivetrain": null
+      "drivetrain": null,
+      "whereToFind": "Il biplano agricolo delle piste di campagna: uno a sud vicino a Key Lento, uno nella Mariana County e uno nella Kelly County, al centro della mappa. Se manca, prova la pista successiva: ricompare.",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "È l'aereo migliore per togliere la nebbia dalla mappa: non fa arrivare i caccia militari e ha tanto carburante. Atterra su una pista quando la spia diventa gialla e prendine un altro."
+        }
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-unfog-the-map-fast-best-plane/",
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-jet-di-linea.png",
@@ -3122,7 +3213,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-jet-di-linea",
       "name": "Jet di linea",
       "manufacturer": null,
@@ -3133,15 +3224,19 @@
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Jet-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Boeing 747",
-      "drivetrain": null
+      "drivetrain": null,
+      "whereToFind": "VCIA, l'aeroporto di Vice City: quello agganciato al gate E3/E4 (si entra dalle scale accanto al pontile d'imbarco). Portarlo via vale il trofeo «Prova a prendermi».",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-western-company-mallard.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-western-company-mallard",
       "name": "Lapwing Mallard",
       "manufacturer": "Lapwing",
@@ -3150,7 +3245,11 @@
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide dei veicoli.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mallard.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-mammatus.jpg",
@@ -3265,11 +3364,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-sea-sparrow.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-sea-sparrow",
       "name": "Nagasaki Sea Sparrow",
       "manufacturer": "Nagasaki",
@@ -3281,7 +3380,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Bell H-13 Sioux",
       "seats": 2,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-supervolito.png",
@@ -5176,19 +5279,24 @@
     },
     {
       "id": "veh-pomazoom-scooter-per-anziani",
-      "name": "Pomazoom (scooter per anziani)",
-      "manufacturer": null,
+      "name": "Maibatsu Boomazoom",
+      "manufacturer": "Maibatsu",
       "class": "moto",
-      "description": "Scooter elettrico per la mobilità, ispirato al Pride Maxima 3: il mezzo dei pensionati di Leonida.",
-      "howToGet": "Da verificare.",
+      "description": "Scooter elettrico a tre ruote per la mobilità, ispirato al Pride Maxima 3: il mezzo dei pensionati di Leonida.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di shopping.",
       "image": "assets/img/veicoli/veh-pomazoom-scooter-per-anziani.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mobility-scooter-pride-maxima-3",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mobility-scooter.jpeg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mobility-scooter.jpeg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Boomazoom"
+      ]
     },
     {
       "id": "veh-suv-stile-audi-q7",
@@ -5473,13 +5581,17 @@
       "description": "Taxi giallo su base Stanier (Ford Crown Victoria), il classico taxi di Vice City.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide sportive.",
       "image": "assets/img/veicoli/veh-vapid-stanier-taxi.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/taxi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier-le-taxi.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier-le-taxi.jpg",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-western-sovereign-107-polizia",
@@ -5578,13 +5690,13 @@
     },
     {
       "id": "veh-vapid-dominator-67",
-      "name": "Vapid Dominator '67",
+      "name": "'65 Vapid Dominator",
       "manufacturer": "Vapid",
       "class": "muscle",
-      "description": "La Dominator del 1967, la Mustang di prima generazione: da questa nasce la versione buggy dell'Ultimate Edition.",
-      "howToGet": "Da verificare.",
+      "description": "La Dominator del 1965, la Mustang di prima generazione. Nel gioco c'è la '65; la '67 esiste solo come Dominator Buggy dell'Ultimate Edition.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide di fitness.",
       "image": null,
-      "source": "community",
+      "source": "stampa",
       "realModel": "Ford Mustang (1st Gen)",
       "seats": 2,
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-67.jpg",
@@ -5592,8 +5704,12 @@
       "status": "da verificare",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dominator-67"
+      "updatedAt": "2026-11-18",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-airboat-stile-panther",
@@ -5626,8 +5742,11 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "updatedAt": "2026-11-18",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): Randy ne segnala una a Waning Sands (Leonard County), nella villa a est del Pay 'n' Spray. Si trova anche davanti ai grandi hotel sul mare, a est di Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/"
+      ]
     },
     {
       "id": "veh-ocelot-jagular",
@@ -5653,17 +5772,23 @@
       "description": "Il caccia militare.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "extras": [
         {
           "source": "stampa",
           "text": "Alla Mile Zero Air Station ci sono caccia militari aperti nella parte nord della base: prenderne uno dà subito 4 stelle e due caccia ti inseguono."
         }
+      ],
+      "whereToFind": "Mile Zero Air Station, l'isola militare a sud-ovest della mappa (Mariana County): i caccia sono aperti, nella metà nord della base. Prenderne uno dà subito 4 stelle.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-military-fighter-jet-location/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
       ]
     },
     {
@@ -5672,14 +5797,18 @@
       "manufacturer": "MTL",
       "class": "servizio",
       "description": "Mezzo pesante MTL.",
-      "howToGet": "Dopo la storia si evoca con un trucco.",
+      "howToGet": "Dopo la storia si evoca con un trucco, che si sblocca scoprendo il mezzo nel menu Progressi.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-hvy-bulldozer",
@@ -5689,12 +5818,16 @@
       "description": "Il bulldozer da cantiere.",
       "howToGet": "Dopo la storia si evoca con un trucco, che prima va scoperto nel menu Progressi.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-brimstone-golfer",
@@ -5704,12 +5837,16 @@
       "description": "Il mezzo dei campi da golf.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide sportive.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-western-zombie-bobber",
@@ -5719,12 +5856,16 @@
       "description": "Moto custom Western in stile bobber.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide criminali.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ]
     },
     {
       "id": "veh-canis-crawler-82",
@@ -5739,7 +5880,12 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "whereToFind": "La prima si ruba per Moses in una missione principale del capitolo 2: è parcheggiata vicino al vecchio edificio del Trader's Union.",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-transgressor-67",
@@ -5770,6 +5916,24 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19"
+    },
+    {
+      "name": "Inflatable Flamingo",
+      "manufacturer": null,
+      "class": "altro",
+      "description": "Il fenicottero gonfiabile: un mezzo per gioco, da evocare con un trucco.",
+      "howToGet": "Si evoca con un trucco: distruggi 50 fenicotteri alla cocaina.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "id": "veh-inflatable-flamingo"
     }
   ]
 }
