@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.32.4",
+  "dataVersion": "0.33.0",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.33.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Capitolo 4 inserito: tutte le missioni, passi dove le guide li hanno già.",
+        "Platino: avvisi su 13 missioni, con i punti di non ritorno in rosso (fine capitolo 1, fine capitolo 2, fine capitolo 4). Prima di iniziarle vedi solo cosa fare; quello che succede durante compare quando la stai giocando.",
+        "Trofei: in cima il riquadro «Da non perdere per il Platino» con 14 regole (salvataggi, soldi da tenere, riviste nelle case che lasci, missioni a tempo).",
+        "Titoli italiani ufficiali per 7 missioni (dai trofei PSN); le altre restano in inglese finché non li troviamo."
+      ]
+    },
     {
       "version": "0.32.4",
       "date": "2026-11-19",

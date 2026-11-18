@@ -123,7 +123,7 @@
     },
     {
       "id": "mis-prologo-keys",
-      "title": "Gone Fishing",
+      "title": "Chi dorme…",
       "actId": "act-1",
       "chapter": 1,
       "order": 1,
@@ -184,6 +184,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "titleEn": "Gone Fishing",
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Verso l'idrovolante entra nella roulotte bianca e rossa sulla sinistra: dentro ci sono i tuoi soldi. Si perdono se tiri dritto."
+        }
       ]
     },
     {
@@ -861,6 +868,12 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Prima di andare a prendere Lucia fai le 5 commissioni facoltative: spesa, fiori, collana, taglio di capelli e vestiti da Andy (tienili nel bagagliaio). Migliorano il rapporto con Lucia."
+        }
       ]
     },
     {
@@ -1074,6 +1087,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "durante",
+          "text": "A fine missione segui Lucia per casa: sulla terrazza ti insegna a meditare. Se te la perdi, una mattina in cucina te lo propone: seguila sul balcone e accetta. Si fa solo nel capitolo 1.",
+          "trophy": "Mentalità positiva"
+        }
       ]
     },
     {
@@ -1273,6 +1293,12 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Un giorno Lucia chiama perché ha finito prima il turno: accetta e passala a prendere entro le 16:00. Se rifiuti o arrivi tardi, la missione è persa."
+        }
       ]
     },
     {
@@ -1315,6 +1341,12 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Se hai merce rubata, vendila ai ricettatori di Key Lento prima di questa missione. Anche Brian smette di comprare a fine capitolo 1."
+        }
       ]
     },
     {
@@ -1357,6 +1389,12 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Prima di distruggere l'auto di Donnie apri il bagagliaio: c'è la sua pistola unica (H&L .38 di Donnie)."
+        }
       ]
     },
     {
@@ -1432,6 +1470,12 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Si avvicina la fine del capitolo 1: chiudi ora le cose in sospeso a Key Lento (vedi avvisi successivi) e fai un salvataggio manuale da tenere da parte."
+        }
       ]
     },
     {
@@ -1472,6 +1516,22 @@
       ],
       "startableBy": [
         "entrambi"
+      ],
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Le due missioni di Shirley (il rum e lo scooter) si fanno solo nel capitolo 1: completale prima di questa missione, poi spariscono. Non servono per trofei o 100%."
+        },
+        {
+          "when": "prima di iniziare",
+          "text": "Prima di iniziarla: salvataggio manuale in uno slot da non sovrascrivere; versa i contanti in banca e almeno 5.000 $ nel Risparmio Familiare (i soldi in tasca si perdono); fai la meditazione con Lucia; leggi le 5 riviste in casa di Jason. Da qui al capitolo 2 non c'è gioco libero.",
+          "trophy": "Mentalità positiva",
+          "ponr": true
+        },
+        {
+          "when": "prima di iniziare",
+          "text": "Riviste in casa di Jason: comodino accanto al letto, tavolo del soggiorno, tavolo vicino alla finestra est, capanno sotto casa, terrazza con i pesi. Non servono per forza (hanno copie altrove), ma qui sono comode."
+        }
       ]
     },
     {
@@ -2255,7 +2315,7 @@
     },
     {
       "id": "mis-leak-hanks",
-      "title": "Breakfast Run",
+      "title": "Colazione on the road",
       "actId": "act-2",
       "chapter": 2,
       "order": 17,
@@ -2295,7 +2355,8 @@
       ],
       "startableBy": [
         "lucia"
-      ]
+      ],
+      "titleEn": "Breakfast Run"
     },
     {
       "id": "mis-coffee-break",
@@ -2541,6 +2602,13 @@
       "startableBy": [
         "jason",
         "lucia"
+      ],
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Compra prima le bombe adesive all'Ammu-Nation: servono per la cassaforte. Prendi tutti e 3 gli oggetti di valore. Se ne manchi uno puoi tornare, ma il posto si rigenera solo molto più avanti.",
+          "trophy": "Giochiamo a bowling"
+        }
       ]
     },
     {
@@ -2758,7 +2826,15 @@
       "pointOfNoReturn": {
         "before": true,
         "text": "Prima di iniziarla completa le facoltative ancora aperte in Kelly County: iniziandola chiudi il capitolo e lo Starlet Motel non sarà più la tua casa."
-      }
+      },
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "chiude il capitolo 2 e non tornerai allo Starlet Motel. Prima prendi le 2 carte collezionabili (Vicki nel bagno dell'ufficio, Victor Maravilla sul frigo della cucina) e leggi le 2 riviste (reception e mensa). Serve anche avere almeno 15.000 $.",
+          "trophy": "Non toccare il mio mazzo",
+          "ponr": true
+        }
+      ]
     },
     {
       "id": "mis-welcome-to-vice-city",
@@ -3607,7 +3683,13 @@
       "startableBy": [
         "entrambi"
       ],
-      "missableNote": "Compare con un messaggio di Yago qualche giorno di gioco dopo l'aiuto all'officina e ha la clessidra: se aspetti troppo scade. Non serve per trofei né per il 100%."
+      "missableNote": "Compare con un messaggio di Yago qualche giorno di gioco dopo l'aiuto all'officina e ha la clessidra: se aspetti troppo scade. Non serve per trofei né per il 100%.",
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Con Jason: qualche giorno dopo il secondo incarico di Yago arriva la sfida con l'icona a clessidra. Falla subito, scade. La serie di Yago vale comunque per il trofeo anche se la perdi."
+        }
+      ]
     },
     {
       "id": "mis-sinfrontera-national-bank",
@@ -3904,7 +3986,7 @@
     },
     {
       "id": "mis-the-cartel-heist",
-      "title": "The Cartel Heist",
+      "title": "Il colpo del cartello",
       "actId": "act-3",
       "chapter": 3,
       "order": 33,
@@ -3938,7 +4020,14 @@
       "pointOfNoReturn": {
         "before": true,
         "text": "Con questa missione il capitolo si chiude: prima chiudi le faccende in sospeso e le offerte a tempo, perché alcune spariscono e non tornano più."
-      }
+      },
+      "titleEn": "The Cartel Heist",
+      "missables": [
+        {
+          "when": "fine capitolo",
+          "text": "Prima di chiudere il capitolo 3 leggi le 2 riviste nell'appartamento di Bayside (vicino alla vasca e sul tavolino davanti alla TV): dopo non si entra più. Hanno copie altrove."
+        }
+      ]
     },
     {
       "id": "mis-ocean-beach",
@@ -3948,20 +4037,47 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia si sistemano a Ocean Beach, sul lungomare di Vice City.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "rifugio",
+          "label": "Camera allo Y Hotel, Ocean Beach"
+        },
+        {
+          "type": "app",
+          "label": "BuckMe Premium"
+        },
+        {
+          "type": "ultimate",
+          "label": "Motoscafo Squalo al molo di Washington Beach"
+        },
+        {
+          "type": "ultimate",
+          "label": "Nuovi completi dell'Ultimate Edition nel guardaroba"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-another-life"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Ultimate Edition: al molo del canale di Washington Beach c'è il motoscafo Squalo con la cassa di armi ed esplosivi (sezione Personale dell'indice della mappa). C'è solo nel capitolo 4: prendilo subito.",
+        "Il conto BuckMe passa da solo a Premium: il conto corrente arriva fino a 2 milioni e le livree costano il 10% in meno."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-another-life",
@@ -3971,9 +4087,14 @@
       "order": 2,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia ripensa al suo passato.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-pool-day"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -3983,8 +4104,11 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-pool-day",
@@ -3994,21 +4118,46 @@
       "order": 3,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Primo giorno allo Y Hotel: Lucia vuole passare la giornata in piscina.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-attend-eddie-acostas-party"
+        },
+        {
+          "type": "attivita",
+          "label": "Telefonata di Pilot Pete: un nuovo lavoro con l'aereo (solo Jason)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-company-cars"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Se dici di no, Lucia resta sul balcone ad aspettare: la missione parte solo quando accetti.",
+        "Al bar ti si presenta Eddie Acosta, un tipo fissato con le cripto: qualche giorno dopo ti scrive per una festa."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "kind": "compito",
+      "contact": "chr-lucia",
+      "objectives": [
+        "Parla con Lucia sul balcone della camera",
+        "Accetta di scendere in piscina",
+        "Prendi da bere per Lucia al bar"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-company-cars",
@@ -4018,9 +4167,18 @@
       "order": 4,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Il concierge dell'hotel ha qualcosa per Jason e Lucia: auto nuove.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "garage",
+          "label": "Garage di Thompson Court (2 posti)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-lawyer-up"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -4030,8 +4188,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Concierge dell'hotel",
+      "objectives": [
+        "Parla con il concierge",
+        "Ritira le auto nuove"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-lawyer-up",
@@ -4041,20 +4207,34 @@
       "order": 5,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "A Jason e Lucia serve un avvocato, e il nome è Abe Gonzalez.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-its-a-date"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Subito dopo Abe presenta la parcella: tieni da parte un po' di soldi."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Abe Gonzalez",
+      "objectives": [
+        "Incontra l'avvocato Abe Gonzalez"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-its-a-date",
@@ -4064,21 +4244,34 @@
       "order": 6,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Serata libera: è il momento di un appuntamento.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-el-megamundo"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Ballare insieme in un locale, offrire da bere e tenersi per mano fanno salire il rapporto di coppia."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "kind": "compito",
+      "objectives": [
+        "Esci con il partner per un appuntamento"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-el-megamundo",
@@ -4088,9 +4281,14 @@
       "order": 7,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Valentina li assume all'aeroporto come scorta di Andrés de León; Petra Navarro, COO, presenta l'inaugurazione della prima sede americana. Uomini armati travestiti da manutentori prendono ostaggi: walkie-talkie, C4 come diversivo, salvataggio al 26° piano, caduta nel vano ascensore con Phil Collins in sottofondo.",
+      "summary": "Jason e Lucia fanno da scorta a una celebrità.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-heavy-lifting"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
@@ -4105,8 +4303,14 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Lavora come guardia del corpo"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-heavy-lifting",
@@ -4116,9 +4320,14 @@
       "order": 8,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia hanno una consegna da fare.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-photoshoot"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -4128,8 +4337,11 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-photoshoot",
@@ -4139,7 +4351,7 @@
       "order": 9,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Dre'Quan ha bisogno di un promo e Jason e Lucia ci mettono la faccia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4151,8 +4363,15 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "objectives": [
+        "Gira un promo con Dre'Quan"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-bad-driver",
@@ -4162,7 +4381,7 @@
       "order": 10,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Bisogna rintracciare un certo Felipe.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4174,9 +4393,15 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "objectives": [
+        "Trova Felipe"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-attend-eddie-acostas-party",
@@ -4186,21 +4411,40 @@
       "order": 11,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Eddie Acosta, l'appassionato di cripto conosciuto al bar della piscina, ti invita a una festa a Heathcliff Heights. Più che una festa è una trappola per farti «investire».",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Non pagare: per 50.000 dollari ricevi solo un'immagine NFT senza valore.",
+        "Per lasciare il tetto prendi il mezzo a due ruote che trovi lassù e salta a tutta velocità usando i pannelli solari come rampa, poi scendi con l'ascensore dell'altro tetto.",
+        "Va fatta senza il partner. È l'unica missione di Eddie e non conta per il trofeo Strangers & Freaks."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "Eddie Acosta",
+      "objectives": [
+        "Raggiungi il palazzo della festa a Heathcliff Heights, da solo",
+        "Incontra Eddie all'ascensore dell'atrio",
+        "Sali con lui sul tetto",
+        "Rispondi alla sua proposta",
+        "Trova il modo di lasciare il tetto"
+      ],
+      "choice": {
+        "irreversible": true,
+        "note": "Decisione con soldi in gioco: salva prima di salire sul tetto."
+      },
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-making-gainz",
@@ -4210,20 +4454,30 @@
       "order": 12,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Raul ha un nuovo piano e chiama Lucia. Intanto lei fa una conoscenza nuova.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Allenarsi in palestra in coppia fa salire la forza di tutti e due: con la forza al massimo per entrambi arriva il trofeo Personal Best."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "objectives": [
+        "Incontra Raul",
+        "Ascolta il suo piano"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-watch-it",
@@ -4233,7 +4487,7 @@
       "order": 13,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Dre'Quan vanno a conoscere il proprietario di un locale.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4245,8 +4499,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "objectives": [
+        "Incontra Dre'Quan",
+        "Conosci il proprietario di un locale"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-cash-injections",
@@ -4256,7 +4518,7 @@
       "order": 14,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia esce con Nate e finisce per aiutare un socio.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4268,8 +4530,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Nate",
+      "objectives": [
+        "Passa del tempo con Nate",
+        "Dai una mano a un socio"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-amateur-hour",
@@ -4279,7 +4549,7 @@
       "order": 15,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Cisco ha un conto aperto con un regista di film per adulti e Lucia gli dà una mano.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4291,8 +4561,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Cisco",
+      "objectives": [
+        "Allenati",
+        "Aiuta Cisco ad affrontare un regista"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-dirty-work",
@@ -4302,7 +4580,7 @@
       "order": 16,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia devono sistemare la questione Raina e aprirsi nuove strade.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4314,8 +4592,14 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Occupati di Raina"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-too-much-baggage",
@@ -4325,20 +4609,29 @@
       "order": 17,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason studia l'aeroporto di Vice City dall'interno, con la divisa dei bagagli.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Già che sei lì: rubare un aereo di linea attaccato a un finger (il più comodo è ai gate E3/E4) e allontanarti di 1 km vale il trofeo Catch Me If You Can. Fallo fuori dalla missione."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Fai un sopralluogo all'aeroporto",
+        "Lavora come addetto ai bagagli"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-adventures-in-babysitting",
@@ -4348,7 +4641,7 @@
       "order": 18,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason lavora come sicurezza per Andrés in una discoteca.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4360,8 +4653,15 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-andres",
+      "objectives": [
+        "Fai da sicurezza ad Andrés in discoteca"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-fresh-evidence",
@@ -4371,7 +4671,7 @@
       "order": 19,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Dre'Quan vanno a prendersi del materiale compromettente.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4383,8 +4683,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "objectives": [
+        "Incontra Dre'Quan",
+        "Ruba il materiale per il ricatto"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-power-play",
@@ -4394,7 +4702,7 @@
       "order": 20,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "La banda di Kordell ha bisogno di aiuto, e c'è da raccogliere informazioni.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4406,18 +4714,26 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Kordell",
+      "objectives": [
+        "Dai una mano alla banda di Kordell",
+        "Raccogli informazioni"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-childs-play",
-      "title": "Child's Play",
+      "title": "Un gioco da ragazzi",
       "actId": "act-4",
       "chapter": 4,
       "order": 21,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia aiutano una persona che conoscono.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4429,8 +4745,15 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "Child's Play",
+      "objectives": [
+        "Libera Rafa dai rapitori"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-this-is-a-free-call-from",
@@ -4440,7 +4763,7 @@
       "order": 22,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Una telefonata a carico dal carcere: Shayna chiede a Lucia di andarla a prendere.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4452,20 +4775,34 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
       "optional": true,
-      "missable": true
+      "missable": true,
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Con Lucia: quando compare una missione facoltativa con l'icona a clessidra, falla subito prima di andare avanti con la storia. Scade."
+        }
+      ],
+      "contact": "Shayna",
+      "objectives": [
+        "Vai a prendere Shayna"
+      ],
+      "startableBy": [
+        "lucia"
+      ],
+      "missableNote": "Missione a tempo (clessidra): se la lasci lì troppo a lungo scade e non torna. Non conta per i trofei né per il 100%."
     },
     {
       "id": "mis-headliners",
-      "title": "Headliners",
+      "title": "Le star",
       "actId": "act-4",
       "chapter": 4,
       "order": 23,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Le Real Dimez si esibiscono al VYB e Jason e Lucia aiutano con la festa di lancio.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4477,8 +4814,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "Headliners",
+      "objectives": [
+        "Dai una mano con la festa di lancio",
+        "Vai al VYB per lo spettacolo delle Real Dimez"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-close-surveillance",
@@ -4488,7 +4833,7 @@
       "order": 24,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason tiene d'occhio un gruppo di culturisti con un drone spia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4500,8 +4845,15 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Spia i culturisti",
+        "Usa il drone spia"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-delivery-method",
@@ -4511,7 +4863,7 @@
       "order": 25,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason va sotto copertura per aiutare Andrea.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4523,8 +4875,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Andrea",
+      "objectives": [
+        "Aiuta Andrea",
+        "Lavora sotto copertura"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-team-building",
@@ -4534,7 +4894,7 @@
       "order": 26,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia conosce Kordell e deve dimostrargli di cosa è capace.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4546,8 +4906,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Kordell",
+      "objectives": [
+        "Incontra Kordell",
+        "Dimostra quanto vali"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-fully-catered",
@@ -4557,7 +4925,7 @@
       "order": 27,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Per il prossimo colpo serve un furgone del catering, e Jason e Lucia vanno a prenderlo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4569,31 +4937,56 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Ruba un furgone del catering"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-vcia-takedown",
-      "title": "VCIA Takedown",
+      "title": "Ultima chiamata al VCIA",
       "actId": "act-4",
       "chapter": 4,
       "order": 28,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "È tutto pronto: si dà il via al colpo all'aeroporto di Vice City.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-tie-up-loose-ends"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-thats-where-the-money-is"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Dopo il colpo compare una missione facoltativa di Yasmani che apre i caveau delle banche: è il modo più veloce per fare soldi."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "VCIA Takedown",
+      "contact": "chr-raul",
+      "objectives": [
+        "Dai il via al colpo all'aeroporto"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-tie-up-loose-ends",
@@ -4603,7 +4996,7 @@
       "order": 29,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Il colpo è fatto, ma restano dei conti in sospeso.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4615,9 +5008,12 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "kind": "compito",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-thats-where-the-money-is",
@@ -4627,21 +5023,52 @@
       "order": 30,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Yasmani ha una soffiata su un caveau: si aspetta il furgone portavalori al Café Orquidea e lo si segue fino alla banca. È il primo colpo in banca fatto da soli, e insegna come funzionano tutti gli altri.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "attivita",
+          "label": "Colpi ai caveau delle 8 grandi banche"
+        },
+        {
+          "type": "ricettatore",
+          "label": "Yasmani vende le soffiate sui furgoni portavalori (10.000 dollari)"
+        }
+      ],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-twtmi-banconote",
+          "label": "Prendi tutte le banconote segnate del caveau, passando una borsa al partner (circa 80.000 dollari)"
+        }
+      ],
+      "tips": [
+        "Il colpo dà subito 4 stelle e la banca non ha uscita sul retro: esci dal davanti pronto a sparare, poi cambia auto, togli il travestimento e metti cappello e occhiali dall'inventario.",
+        "Le borse non bastano per tutto: tieni premuto destra sulla croce direzionale e poi Cerchio per passarne una al partner.",
+        "Non scade: resta disponibile anche dopo la storia, e i caveau servono per il 100%."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "Yasmani",
+      "objectives": [
+        "Siediti al Café Orquidea, ai posti vicino alla vetrata, e aspetta il furgone portavalori",
+        "Segui il furgone a distanza",
+        "Segui la guardia dentro la banca",
+        "Mettiti il travestimento e fai saltare la porta del caveau",
+        "Riempi le borse di banconote segnate",
+        "Semina la polizia",
+        "Porta il bottino a Yasmani"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-sunset",
@@ -4651,9 +5078,14 @@
       "order": 31,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia vanno a cercare risposte.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-starting-from-zero"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -4663,8 +5095,18 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "objectives": [
+        "Passa alla reception"
+      ],
+      "startableBy": [
+        "entrambi"
+      ],
+      "pointOfNoReturn": {
+        "before": true,
+        "text": "Prima di iniziarla prendi lo Squalo dell'Ultimate Edition al molo di Washington Beach (c'è solo nel capitolo 4) e chiudi le missioni facoltative ancora aperte: il capitolo sta per finire."
+      }
     },
     {
       "id": "mis-starting-from-zero",
@@ -4674,7 +5116,7 @@
       "order": 32,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "L'ultima missione del capitolo 4.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -4686,8 +5128,11 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-bird-in-the-hand",
@@ -4806,7 +5251,7 @@
     },
     {
       "id": "mis-operation-savage-glory",
-      "title": "Operation Savage Glory",
+      "title": "Operazione Savage Glory",
       "actId": "act-5",
       "chapter": 5,
       "order": 5,
@@ -4831,7 +5276,8 @@
       "startableBy": [
         "jason",
         "lucia"
-      ]
+      ],
+      "titleEn": "Operation Savage Glory"
     },
     {
       "id": "mis-honest-abe",

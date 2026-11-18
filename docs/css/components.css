@@ -1879,3 +1879,5 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .warnbox b { display: block; font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: #c25e00; margin-bottom: 4px; }
 .warnbox ul { margin: 0; padding-left: 1.1em; } .warnbox li { margin: 4px 0; }
 .roadmap { margin-bottom: var(--s-4); } .roadmap ul { margin: var(--s-2) 0 0; padding-left: 1.1em; } .roadmap li { margin: 6px 0; }
+.warnbox--ponr { border-color: #d72638; background: color-mix(in srgb, #d72638 9%, transparent); }
+.warnbox--ponr b { color: #d72638; }

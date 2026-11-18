@@ -105,7 +105,7 @@ function index() {
           const end = s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : isNext ? '' : '<svg aria-hidden="true" style="color:var(--ink-3)"><use href="#i-lock"/></svg>';
           return row({ href: `#/missioni/${m.id}`, num: String(i + 1), done: s === 'completata', end,
             title: shown ? esc(m.title) : isNext ? '<b>La prossima</b>' : '<span class="muted">Bloccata</span>',
-            meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${s === 'in-corso' ? ' · in corso' : ''}` : isNext ? (warnings(m).length ? '⚠ Prima leggi l\'avviso' : 'Tocca per iniziarla') : '' });
+            meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${s === 'in-corso' ? ' · in corso' : ''}` : isNext ? (warnings(m, 'before').length ? '⚠ Prima leggi l\'avviso' : 'Tocca per iniziarla') : '' });
         }).join('')}${(() => {
           const side = vis(db.sideMissions || []).filter((m) => m.actId === a.id);
           if (!side.length || (!c.started && shield)) return '';
@@ -120,16 +120,17 @@ function index() {
 }
 
 /* Platino: cose da fare PRIMA di questa missione (punto di non ritorno), senza spoiler */
-function warnings(m) {
-  const w = [...(m.missables || [])];
+function warnings(m, phase = 'any') {
+  // prima di iniziarla non si mostra quello che succede «durante» (sarebbe uno spoiler)
+  const w = (m.missables || []).filter((x) => phase !== 'before' || x.when !== 'durante');
   if (m.pointOfNoReturn?.text) w.unshift({ text: m.pointOfNoReturn.text });
   if (m.missableNote) w.push({ text: m.missableNote });
   return w;
 }
-function warnHtml(m) {
-  const w = warnings(m);
+function warnHtml(m, phase = 'any') {
+  const w = warnings(m, phase);
   if (!w.length) return '';
-  return `<div class="warnbox" role="note"><b>Prima di proseguire</b><ul>${w.map((x) => `<li>${esc(x.text)}${x.trophy ? ` <span class="small muted">· trofeo «${esc(x.trophy)}»</span>` : ''}</li>`).join('')}</ul></div>`;
+  return `<div class="warnbox ${w.some((x) => x.ponr) ? 'warnbox--ponr' : ''}" role="note"><b>${w.some((x) => x.ponr) ? 'Punto di non ritorno' : 'Prima di proseguire'}</b><ul>${w.map((x) => `<li>${esc(x.text)}${x.trophy ? ` <span class="small muted">· trofeo «${esc(x.trophy)}»</span>` : ''}</li>`).join('')}</ul></div>`;
 }
 
 /* Timbro «Scelta senza ritorno» */
@@ -175,7 +176,7 @@ function detail(m) {
     return `
     ${backLink('/missioni', 'Missioni')}
     <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(pl.act)} · ${pl.side ? pl.side + ' ' + pl.i : pl.i + ' di ' + pl.n}</span><h1>${blocked ? 'Non ancora' : 'Pronta a partire'}</h1><p class="lede">${blocked ? 'Si sblocca quando finisci la missione prima.' : 'Il nome, il luogo e chi incontri si scoprono quando la inizi.'}</p></div></div>
-    ${blocked ? '' : warnHtml(m)}
+    ${blocked ? '' : warnHtml(m, 'before')}
     ${stampHtml(m)}
     <div class="actions">${blocked
       ? `<a class="btn btn--solid" href="#/missioni/${esc(prevM?.id || '')}">Vai alla missione prima</a>`
