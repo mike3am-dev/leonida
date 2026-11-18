@@ -15,6 +15,9 @@ export function render() {
     <button class="switch" role="switch" aria-checked="${!!s[key]}" data-switch="${key}" aria-label="${esc(label)}"></button></div>`;
 
   const left = `<header class="chapter-head"><span class="kicker">La tua guida</span><h1>Impostazioni</h1></header>
+    <div class="block" id="profilo"><span class="kicker">Profilo</span>
+      ${panelHtml()}
+    </div>
     <div class="block"><span class="kicker">Aspetto</span>
       <div class="switch-row"><div>Tema</div>
         <div class="segmented" role="group" aria-label="Tema">
@@ -32,9 +35,6 @@ export function render() {
     </div>
     <div class="block"><span class="kicker">Contenuti</span>
       ${sw('creatorTools', 'Strumenti del curatore', 'Mostra il «Pacchetto per Claude» negli Appunti: serve solo a chi aggiorna la guida.')}
-    </div>
-    <div class="block" id="profilo"><span class="kicker">Profilo</span>
-      ${panelHtml()}
     </div>
     <div class="block"><span class="kicker">Progressi</span>
       <p class="small muted">${cloud.account() ? 'Sono su questo telefono e online, nel tuo profilo.' : 'Sono solo su questo telefono: entra con la tua email per salvarli anche online.'} Su iPhone la web app installata ha una memoria separata da Safari. Una copia ogni tanto non fa male.</p>

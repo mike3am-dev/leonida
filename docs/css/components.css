@@ -1890,8 +1890,24 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .acct .field { margin-bottom: var(--s-3); }
 .acct__note { margin: var(--s-3) 0 0; }
 .acct__who { display: flex; gap: 12px; align-items: center; margin-bottom: var(--s-3); }
-.acct__dot { flex: none; width: 12px; height: 12px; border-radius: 50%; background: var(--teal); box-shadow: 0 0 0 4px color-mix(in srgb, var(--teal) 22%, transparent); }
+.acct__dot { flex: none; width: 12px; height: 12px; border-radius: 50%; background: #2fbf71; box-shadow: 0 0 0 4px color-mix(in srgb, #2fbf71 25%, transparent); }
 .acct__mail { font-weight: 600; word-break: break-all; }
 .acct__who p { margin: 2px 0 0; }
 .acct__pick { display: grid; gap: var(--s-3); margin: var(--s-3) 0; }
 .acct__pick .facts { margin: var(--s-2) 0 var(--s-3); }
+.acct__nick { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s-2); align-items: end; margin-bottom: var(--s-3); }
+.acct__nick .field { margin: 0; }
+.acct__nick .btn { min-height: var(--tap); }
+.acct__who p + p { margin-top: 0; }
+
+/* Pallino «online» con il nick, in alto a destra */
+.who { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; max-width: 136px; padding: 0 12px 0 10px; margin-right: var(--s-1); border-radius: 999px; border: var(--hair) solid var(--rule-strong); color: var(--ink); text-decoration: none; font-size: var(--fs-sm); font-weight: 600; }
+.who__name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.who__dot { flex: none; width: 9px; height: 9px; border-radius: 50%; background: #2fbf71; box-shadow: 0 0 0 3px color-mix(in srgb, #2fbf71 25%, transparent); }
+.who[data-tone="busy"] .who__dot { animation: who-pulse 1s ease-in-out infinite; }
+.who[data-tone="warn"] .who__dot { background: var(--orange); box-shadow: 0 0 0 3px color-mix(in srgb, var(--orange) 25%, transparent); }
+.who[data-tone="out"] { color: var(--ink-3); font-weight: 500; }
+.who[data-tone="out"] .who__dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--ink-3); }
+@keyframes who-pulse { 50% { opacity: .35; } }
+@media (max-width: 560px) { .masthead.has-who .brand__sub { display: none; } }
+@media (max-width: 380px) { .who { max-width: 96px; } }

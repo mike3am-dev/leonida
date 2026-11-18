@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.38.0",
+  "dataVersion": "0.38.1",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.38.1",
+      "date": "2026-11-18",
+      "changes": [
+        "In alto a destra c'è il tuo nick con il pallino: verde quando i progressi sono salvati online, arancio senza rete, vuoto se non sei entrato (toccalo per entrare). Il nick si sceglie entrando o in Impostazioni › Profilo, che ora è in cima."
+      ]
+    },
     {
       "version": "0.38.0",
       "date": "2026-11-18",

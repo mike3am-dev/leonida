@@ -144,6 +144,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - `docs/js/store/cloud.js`: il telefono resta la copia principale (offline); `dati = { savedAt, state }`; vince la copia modificata per ultima. Sessioni e «dove sei» non contano come modifica (se no riaprire l'app su un telefono vecchio sovrascriverebbe l'altro). Salva 1,5 s dopo ogni modifica e quando l'app va in background; riallinea quando torna in primo piano o torna la rete.
 - Primo ingresso: profilo nuovo → carica i progressi del telefono; profilo esistente e telefono vuoto → li riprende; tutti e due pieni → foglio «Due copie dei progressi» con la scelta.
 - UI: `docs/js/views/profilo.js` (classi `.acct`, non `.profile` che è il «Profilo criminale» della Home); passo 4 del Benvenuto e blocco «Profilo» in Impostazioni.
+- v0.38.1: nick scelto da ognuno in `settings.nick` (viaggia con il profilo; se manca si usa la parte dell'email prima della @) e pallino in alto a destra `.who` (verde salvato, arancio senza rete/errore, vuoto = «Entra»). Sotto 560 px sparisce «Guida di gioco» per fare spazio.
 - Riga di prova nel database: `prova@leonida.test` (si può cancellare dal Table Editor).
 
 ## 6. Strumenti e verifiche prima di ogni push

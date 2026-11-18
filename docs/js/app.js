@@ -27,7 +27,7 @@ import * as benvenuto from './views/benvenuto.js';
 import * as profilo from './views/profilo.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.38.0';
+window.__LEONIDA_VERSION__ = 'v0.38.1';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -210,6 +210,7 @@ function kickImages() {
 function bindGlobal() {
   const root = $('app');
   const ver = document.createElement('span'); ver.className = 'masthead__ver'; ver.textContent = window.__LEONIDA_VERSION__; document.querySelector('.masthead__tools').prepend(ver);
+  profilo.mountWho();
   // Immagini mancanti: spariscono senza icona rotta
   // (se ha un'alternativa online in data-fallback, prima prova quella)
   // Le foto compaiono solo quando sono arrivate per intero (Safari altrimenti ne lascia disegnata solo una parte)
