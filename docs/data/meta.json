@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.37.0",
+  "dataVersion": "0.38.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.38.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Profilo personale: entri con la tua email (niente password) e i progressi si salvano online. Su un altro telefono rimetti la stessa email e ritrovi tutto. Lo trovi nel Benvenuto e in Impostazioni › Profilo."
+      ]
+    },
     {
       "version": "0.37.0",
       "date": "2026-11-18",

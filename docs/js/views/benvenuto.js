@@ -4,6 +4,8 @@
  */
 import * as progress from '../store/progress.js';
 import { esc } from '../ui/dom.js';
+import * as cloud from '../store/cloud.js';
+import { panelHtml } from './profilo.js';
 
 const SHARE_ICON = `<svg class="welcome__share" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M8 7l4-4 4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 11H5v10h14V11h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
 
@@ -37,20 +39,22 @@ export function render() {
         <p>Ogni voce dice quanto è sicura. Tocca un'etichetta, ovunque, per la spiegazione.</p>
         <div class="legend welcome__chips"><span class="chip chip--verificato">Ufficiale</span><span class="chip chip--src-stampa">Stampa</span><span class="chip chip--src-community">Community</span><span class="chip chip--src-rumor">Rumor</span><span class="chip chip--src-leak">Leak</span></div></div>
       </li>
-      <li class="card welcome__step">
+      <li class="card welcome__step" id="profilo">
         <span class="welcome__num">4</span>
-        <div><h2>I progressi sono tuoi</h2>
-        <p>Missioni, collezionabili e trofei che segni restano su questo telefono. Ogni tanto salvane una copia da <b>Impostazioni</b>.</p></div>
+        <div><h2>${cloud.account() ? 'Il tuo profilo' : 'Entra con la tua email'}</h2>
+        ${panelHtml({ compact: true })}</div>
       </li>
     </ol>
-    <button class="btn btn--accent btn--block" type="button" data-welcome-done>Entra nella guida</button>`;
+    ${cloud.account() ? '<button class="btn btn--accent btn--block" type="button" data-welcome-done>Entra nella guida</button>'
+      : '<button class="btn btn--ghost btn--block" type="button" data-welcome-done>Continua senza profilo</button><p class="small muted" style="text-align:center;margin-top:4px">I progressi restano solo su questo telefono. Puoi entrare dopo da Impostazioni.</p>'}`;
   return { left, right: '', show: 'left', accent: 'magenta', title: 'Benvenuto' };
 }
 
+export function done() {
+  progress.setSetting('welcomeSeen', true);
+  location.hash = '/';
+}
+
 export function bind(root) {
-  root.addEventListener('click', (e) => {
-    if (!e.target.closest('[data-welcome-done]')) return;
-    progress.setSetting('welcomeSeen', true);
-    location.hash = '/';
-  });
+  root.addEventListener('click', (e) => { if (e.target.closest('[data-welcome-done]')) done(); });
 }

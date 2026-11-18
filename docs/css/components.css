@@ -1884,3 +1884,14 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .check__meta .miss { color: #c25e00; font-weight: 600; }
 .spec__bar { grid-template-columns: 132px minmax(0, 1fr); }
 .spec__bar span { letter-spacing: .02em; white-space: nowrap; }
+
+/* ---------- Profilo (entra con l'email) ---------- */
+.acct { margin: var(--s-2) 0 0; }
+.acct .field { margin-bottom: var(--s-3); }
+.acct__note { margin: var(--s-3) 0 0; }
+.acct__who { display: flex; gap: 12px; align-items: center; margin-bottom: var(--s-3); }
+.acct__dot { flex: none; width: 12px; height: 12px; border-radius: 50%; background: var(--teal); box-shadow: 0 0 0 4px color-mix(in srgb, var(--teal) 22%, transparent); }
+.acct__mail { font-weight: 600; word-break: break-all; }
+.acct__who p { margin: 2px 0 0; }
+.acct__pick { display: grid; gap: var(--s-3); margin: var(--s-3) 0; }
+.acct__pick .facts { margin: var(--s-2) 0 var(--s-3); }

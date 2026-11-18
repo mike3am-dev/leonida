@@ -58,6 +58,6 @@ Regole del giro guide:
 
 ## Struttura
 - `docs/js/app.js` router hash + render a colonna unica; `docs/js/views/*.js` una vista per sezione (`sessione` = Home, `atlante` = Mappa e luoghi, `novita` = News e guide, `editoriale` = Personaggi/Radio/Mondo, `veicoli` = Garage, `diario` = Appunti).
-- `docs/js/store/progress.js` progressi in localStorage (`leonida:progress:v1`, migrazioni in `migrations.js`), export/import.
+- `docs/js/store/progress.js` progressi in localStorage (`leonida:progress:v1`, migrazioni in `migrations.js`), export/import. `docs/js/store/cloud.js` li copia online nel profilo Supabase legato all'email (STATO 4o).
 - `scripts/validate.mjs` valida i dati; `scripts/importa-trofei.mjs` sostituisce i trofei segnaposto con la lista ufficiale; `scripts/immagini.json` + `scripts/scarica-immagini.mjs` per le immagini.
 - Ingestione massiva: script Python nello scratchpad della sessione (classe `DB` in `lib.py`), non nel repo.

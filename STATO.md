@@ -138,6 +138,14 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - **Fonti che bloccano i robot**: IGN, Eurogamer, VG247, GameSpot, PSNProfiles, Exophase; gta6bible solo via REST API con Playwright (vedi CLAUDE.md). vice-central e gtasixmap sono già integrati per intero (ricontrollare la loro pagina Updates).
 - **Licenza Pricedown**: uso web non coperto dalla licenza gratuita; scelta consapevole di Mike, repo privato.
 
+## 4o. Profili online con l'email (v0.38.0, 18/11)
+- Mike ha dato la guida ai colleghi: ognuno entra **solo con l'email** (niente password, niente codice, scelta di Mike consapevole del compromesso: chi conosce l'email di un altro entra nel suo profilo; dati di gioco, rischio basso).
+- Supabase: progetto **separato** `leonida` (ref `geuppepguqzhjwiqbvwl`), NON quello dell'altra app nelle variabili d'ambiente. Tabella `profili(email, dati jsonb, aggiornato)` con RLS e nessuna policy: dalla chiave pubblica si passa solo da `leggi_profilo(p_email)` e `salva_profilo(p_email, p_dati)` (security definer, email minuscola, controllo formato, max 500 KB). Niente elenco delle email.
+- `docs/js/store/cloud.js`: il telefono resta la copia principale (offline); `dati = { savedAt, state }`; vince la copia modificata per ultima. Sessioni e «dove sei» non contano come modifica (se no riaprire l'app su un telefono vecchio sovrascriverebbe l'altro). Salva 1,5 s dopo ogni modifica e quando l'app va in background; riallinea quando torna in primo piano o torna la rete.
+- Primo ingresso: profilo nuovo → carica i progressi del telefono; profilo esistente e telefono vuoto → li riprende; tutti e due pieni → foglio «Due copie dei progressi» con la scelta.
+- UI: `docs/js/views/profilo.js` (classi `.acct`, non `.profile` che è il «Profilo criminale» della Home); passo 4 del Benvenuto e blocco «Profilo» in Impostazioni.
+- Riga di prova nel database: `prova@leonida.test` (si può cancellare dal Table Editor).
+
 ## 6. Strumenti e verifiche prima di ogni push
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
 **Attenzione (12/11):** controllare il codice di uscita di `node scripts/validate.mjs` (deve essere 0), non solo l'ultima riga: gli errori «✗» stanno sopra il riepilogo. Le proposte dei giri news a volte usano `"append: …"` dentro un campo (testo da accodare, id da aggiungere, oggetto JSON per `extras`): vanno interpretati, non scritti così.

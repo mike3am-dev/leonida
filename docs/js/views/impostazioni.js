@@ -4,6 +4,8 @@ import { esc, toast } from '../ui/dom.js';
 import { showSheet, closeSheet } from '../ui/sheet.js';
 import { currentAct } from '../spoiler.js';
 import { opener } from './shared.js';
+import * as cloud from '../store/cloud.js';
+import { panelHtml } from './profilo.js';
 
 const section = { id: 'impostazioni', num: 12, title: 'Impostazioni', accent: 'teal' };
 
@@ -31,8 +33,11 @@ export function render() {
     <div class="block"><span class="kicker">Contenuti</span>
       ${sw('creatorTools', 'Strumenti del curatore', 'Mostra il «Pacchetto per Claude» negli Appunti: serve solo a chi aggiorna la guida.')}
     </div>
+    <div class="block" id="profilo"><span class="kicker">Profilo</span>
+      ${panelHtml()}
+    </div>
     <div class="block"><span class="kicker">Progressi</span>
-      <p class="small muted">Salvati su: ${esc(progress.info.adapterName)}. Su iPhone la web app installata ha una memoria separata da Safari: fai un backup ogni tanto.</p>
+      <p class="small muted">${cloud.account() ? 'Sono su questo telefono e online, nel tuo profilo.' : 'Sono solo su questo telefono: entra con la tua email per salvarli anche online.'} Su iPhone la web app installata ha una memoria separata da Safari. Una copia ogni tanto non fa male.</p>
       <div class="btn-row">
         <button class="btn btn--solid" type="button" data-export>Salva una copia dei progressi</button>
         <label class="btn" style="cursor:pointer">Ripristina una copia<input type="file" accept="application/json,.json" data-import hidden></label>

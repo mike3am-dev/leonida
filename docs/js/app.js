@@ -24,8 +24,10 @@ import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
 import * as benvenuto from './views/benvenuto.js';
+import * as profilo from './views/profilo.js';
+import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.37.0';
+window.__LEONIDA_VERSION__ = 'v0.38.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -232,6 +234,7 @@ function bindGlobal() {
   armi.bind(root, rerender);
   meccaniche.bind(root, rerender);
   benvenuto.bind(root);
+  profilo.bind(root, rerender, { after: () => { if (router.parse()?.path === '/benvenuto') benvenuto.done(); } });
   let qt = null;
   root.addEventListener('input', (e) => { const q = e.target.closest('[data-char-q]'); if (!q) return; clearTimeout(qt); qt = setTimeout(() => { const v = q.value.trim(); const pos = q.selectionStart; history.replaceState(history.state, '', v ? `#/personaggi?q=${encodeURIComponent(v)}` : '#/personaggi'); rerender(); const n = document.querySelector('[data-char-q]'); if (n) { n.focus({ preventScroll: true }); try { n.setSelectionRange(pos, pos); } catch {} } }, 250); });
   let mq = null;
@@ -306,6 +309,7 @@ async function checkUpdate() {
 (async function main() {
   await progress.init();
   applyTheme();
+  cloud.start({ applied: () => { applyTheme(); currentRender?.(); } });
   startPosture();
   try {
     await loadAll();
