@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.40.0",
+  "dataVersion": "0.41.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.41.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi: campo «Cerca un'arma» in cima alla pagina, con i risultati subito sotto.",
+        "Armi: «Confronta» è ovunque. In alto, accanto a ogni arma e dentro la scheda. Un tocco apre il confronto con le tue armi più potenti della stessa categoria; da lì togli un'arma con la × o ne aggiungi un'altra (prima quelle nello zaino, con la ricerca)."
+      ]
+    },
     {
       "version": "0.40.0",
       "date": "2026-11-18",
