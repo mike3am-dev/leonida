@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.38.5",
+  "dataVersion": "0.38.6",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.38.6",
+      "date": "2026-11-18",
+      "changes": [
+        "Tolta la scritta «Leonida» in alto: resta «GTA VI · Guida di gioco» (sull'iPhone solo «GTA VI», per fare posto al nick)."
+      ]
+    },
     {
       "version": "0.38.5",
       "date": "2026-11-18",
