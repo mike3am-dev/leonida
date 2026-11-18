@@ -1978,3 +1978,14 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .cmp__facts { margin: var(--s-2) 0 var(--s-4); padding-top: var(--s-3); border-top: var(--hair) solid var(--rule); }
 .cmp__cells { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: var(--s-2); margin-bottom: var(--s-3); font-size: var(--fs-sm); }
 .cmp__cells span { padding-left: 8px; border-left: 3px solid var(--c); overflow-wrap: anywhere; }
+
+/* Mappa bloccata, col mouse (Mac): i punti, le regioni e le foto si cliccano lo stesso.
+   Sull'iPhone restano intoccabili finché non la sblocchi, così il dito scorre la pagina. */
+@media (hover: hover) and (pointer: fine) {
+  .mapboard.is-locked .mapboard__content [data-mb-point],
+  .mapboard.is-locked .mapboard__content [data-mb-point] *,
+  .mapboard.is-locked .mapboard__content [data-mb-district],
+  .mapboard.is-locked .mapboard__content [data-mb-district] *,
+  .mapboard.is-locked .mapboard__content [data-mb-fly],
+  .mapboard.is-locked .mapboard__content [data-mb-fly] * { pointer-events: auto !important; cursor: pointer; }
+}

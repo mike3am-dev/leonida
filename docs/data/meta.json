@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.44.0",
+  "dataVersion": "0.44.1",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.44.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa sul Mac: un clic su un punto, una regione o una foto apre la scheda, sia a mappa bloccata sia sbloccata. Prima il clic finiva alla mappa e non succedeva niente. Sull'iPhone non cambia niente."
+      ]
+    },
     {
       "version": "0.44.0",
       "date": "2026-11-18",

@@ -65,7 +65,8 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
     if (!enabled()) return;
     if (e.button !== 0 && e.pointerType === 'mouse') return;
     cancelAnimationFrame(anim);
-    viewport.setPointerCapture(e.pointerId);
+    // La cattura del puntatore parte solo quando trascini davvero: catturare subito
+    // spostava il clic sulla mappa e i punti non si aprivano col mouse (Mac)
     pointers.set(e.pointerId, pos(e)); moved = false;
     if (pointers.size === 2) { const [a, b] = [...pointers.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), s0: s, mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 }; }
   });
@@ -74,12 +75,13 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
     const prev = pointers.get(e.pointerId), cur = pos(e); pointers.set(e.pointerId, cur);
     if (pointers.size === 1) {
       const dx = cur.x - prev.x, dy = cur.y - prev.y;
-      if (Math.abs(dx) + Math.abs(dy) > 2) moved = true;
+      if (!moved && Math.abs(dx) + Math.abs(dy) > 2) { moved = true; try { viewport.setPointerCapture(e.pointerId); } catch {} }
       x += dx; y += dy; clamp(); apply();
     } else if (pointers.size === 2 && pinch) {
       const [a, b] = [...pointers.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y);
       const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
-      x += mx - pinch.mx; y += my - pinch.my; pinch.mx = mx; pinch.my = my; moved = true;
+      if (!moved) { moved = true; for (const id of pointers.keys()) { try { viewport.setPointerCapture(id); } catch {} } }
+      x += mx - pinch.mx; y += my - pinch.my; pinch.mx = mx; pinch.my = my;
       zoomAt(mx, my, pinch.s0 * (d / pinch.d));
     }
   });
