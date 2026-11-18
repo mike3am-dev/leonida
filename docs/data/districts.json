@@ -15,7 +15,7 @@
       "subAreas": [
         {
           "name": "Ocean Beach",
-          "note": "spiaggia e alberghi art déco color pastello"
+          "note": "spiaggia e alberghi art déco; sulla mappa di gioco fa parte di Vice Beach"
         },
         {
           "name": "Little Cuba",
@@ -39,19 +39,15 @@
         },
         {
           "name": "Southside",
-          "note": "indicata sui cartelli autostradali"
+          "note": "a sud-ovest: concessionari di El Joven Boulevard e il territorio dei PTT Youngin$"
         },
         {
           "name": "Peacock Bay",
-          "note": "indicata sui cartelli autostradali"
+          "note": "quartiere sulla baia a sud, con la grande marina"
         },
         {
           "name": "Tequesta",
-          "note": "indicata sui cartelli stradali"
-        },
-        {
-          "name": "Venetian Islands",
-          "note": "isole sulla baia"
+          "note": "il distretto finanziario, con banche e torri"
         },
         {
           "name": "Bayside",
@@ -312,13 +308,18 @@
         },
         {
           "id": "poi-zoo",
-          "name": "Lo zoo",
+          "name": "Wildland Zoo",
           "kind": "Zoo",
-          "description": "Uno zoo interamente esplorabile. Posizione non ancora nota.",
+          "description": "Lo zoo di Vice City, vicino a Downtown, interamente esplorabile: ha un bar sulla spiaggia (Wildland Zoo Beach Bar) ed è un percorso delle gare di droni Top Fun di Downtown. La storia non ci passa: va scoperto da soli.",
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
-          "image": null
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+            "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338"
+          ],
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-palaestra-tower",
@@ -1015,22 +1016,6 @@
           "updatedAt": "2026-11-07"
         },
         {
-          "id": "poi-gsm-stockyard-clothing",
-          "name": "Stockyard Clothing",
-          "kind": "Abbigliamento",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
-          "xy": [
-            3526,
-            444
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
           "id": "poi-gsm-la-perle-automotive-shop",
           "name": "La Perle Automotive Shop",
           "kind": "Officina",
@@ -1550,7 +1535,7 @@
           "id": "poi-grand-majestic",
           "name": "Grand Majestic",
           "kind": "Grattacielo residenziale",
-          "description": "Torre residenziale di lusso a Tequesta, con l'insegna in cima.",
+          "description": "Torre residenziale di lusso a Tequesta, con l'insegna in cima.\n\nNel palazzo c'è anche una palestra (Grand Majestic Gym), con una carta collezionabile in cucina sullo stesso piano.",
           "xy": [
             3104,
             -1324
@@ -2820,6 +2805,1326 @@
           "spoilerLevel": 2,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-salton",
+          "name": "Pay 'n' Spray – Salton",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Salton, a Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-west-vice-dale-county",
+          "name": "Pay 'n' Spray – West Vice-Dale County",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Periferia ovest della contea di Vice-Dale. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-downtown",
+          "name": "Pay 'n' Spray – Downtown",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Downtown, a Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-balsero",
+          "name": "Pay 'n' Spray – Balsero",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Balsero, a Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-la-perle",
+          "name": "Pay 'n' Spray – La Perle",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "La Perle, a Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-stockyard",
+          "name": "Pay 'n' Spray – Stockyard",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Stockyard, a Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-waxman-island",
+          "name": "Pay 'n' Spray – Waxman Island",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Waxman Island, l'isola nella baia di Vice City. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-wash-ron-car-wash-salton",
+          "name": "RON Car Wash – Salton",
+          "kind": "Autolavaggio",
+          "description": "Salton. Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-wash-park-n-glow",
+          "name": "Park N Glow",
+          "kind": "Autolavaggio",
+          "description": "Vice City (quartiere da precisare). Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-wash-ron-car-wash-balsero",
+          "name": "RON Car Wash – Balsero",
+          "kind": "Autolavaggio",
+          "description": "Balsero. Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-wash-xero-car-wash-southside",
+          "name": "Xero Car Wash – Southside",
+          "kind": "Autolavaggio",
+          "description": "Southside. Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-wash-xero-car-wash-la-perle",
+          "name": "Xero Car Wash – La Perle",
+          "kind": "Autolavaggio",
+          "description": "La Perle. Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-wash-ron-car-wash-bayside",
+          "name": "RON Car Wash – Bayside",
+          "kind": "Autolavaggio",
+          "description": "Bayside. Lavaggio dell'auto, solo estetico: quando ripari l'auto si pulisce comunque. Gli autolavaggi sono tutti e sei a Vice City. Sulla mappa: auto blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ferry-waxman-island",
+          "name": "Terminal del traghetto – Waxman Island",
+          "kind": "Trasporto pubblico",
+          "description": "Waxman Island, nella baia di Vice City. Paghi 50 $ al cartello o al traghetto e arrivi subito a Dalton Island: è l'unico traghetto del gioco. Sulla mappa: barca bianca.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ferry-terminals-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ferry-dalton-island",
+          "name": "Terminal del traghetto – Dalton Island",
+          "kind": "Trasporto pubblico",
+          "description": "Dalton Island, nella baia di Vice City. Paghi 50 $ al cartello o al traghetto e arrivi subito a Waxman Island: è l'unico traghetto del gioco. Sulla mappa: barca bianca.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ferry-terminals-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-tattoo-dominion-ink",
+          "name": "Dominion Ink",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice City, quartieri ovest. Stile Anime: disegni ispirati all'animazione giapponese. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-tattoo-hyper-ink",
+          "name": "Hyper Ink",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice City. Stile Illustrative: disegni espressivi che sembrano quadri. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-tattoo-cross-my-heart-tattoos",
+          "name": "Cross My Heart Tattoos",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice City, quartieri nord. Stile New School: disegni pieni di colore. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-tattoo-inkomplete-tattoo-co",
+          "name": "Inkomplete Tattoo Co.",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice City, quartieri nord. Stile Old School: disegni classici e puliti. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-tattoo-twa-ponya-tattoo",
+          "name": "Twa Ponya Tattoo",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice City, quartieri nord. Stile Neo-Traditional: classici rivisitati in chiave moderna. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-salon-perez",
+          "name": "Salon Pérez",
+          "kind": "Barbiere",
+          "description": "Vice City. Cambi taglio di capelli e barba: il barbiere di quartiere, tagli classici. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-bellissima-hair-salon",
+          "name": "Bellissima Hair Salon",
+          "kind": "Parrucchiere",
+          "description": "Vice City, quartieri nord-ovest. Cambi taglio di capelli e barba: unisex, piccolo, spuntatine veloci. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-salon-belle",
+          "name": "Salon Belle",
+          "kind": "Centro estetico",
+          "description": "Vice City, quartieri ovest. Cambi taglio di capelli e barba: trecce e onde. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-fabiola-s-unisex-salon",
+          "name": "Fabiola's Unisex Salon",
+          "kind": "Centro estetico",
+          "description": "Vice City, quartieri nord. Cambi taglio di capelli e barba: trecce e ricci alla moda. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-crosstown-cutz",
+          "name": "Crosstown Cutz",
+          "kind": "Barbiere",
+          "description": "Crosstown. Cambi taglio di capelli e barba: sfumature, ritrovo del quartiere. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-clip-fade",
+          "name": "Clip & Fade",
+          "kind": "Barbiere",
+          "description": "Stockyard. Cambi taglio di capelli e barba: stili da Snapmatic e cocktail. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-onyx-salon",
+          "name": "Onyx Salon",
+          "kind": "Centro estetico",
+          "description": "Vice City. Cambi taglio di capelli e barba: premiato, tecniche e mode più recenti. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-tech-point-tequesta",
+          "name": "Tech Point – Tequesta",
+          "kind": "Elettronica e software",
+          "description": "Tequesta. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-electronick",
+          "name": "Electronick",
+          "kind": "Elettronica e software",
+          "description": "Vice City, vicino a Downtown. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-simply-sound",
+          "name": "Simply Sound",
+          "kind": "Elettronica e software",
+          "description": "Vice City, vicino a Downtown. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-super-friki-inc",
+          "name": "Super Friki Inc.",
+          "kind": "Elettronica e software",
+          "description": "Vice City, quartieri ovest. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-cell-phone-zone",
+          "name": "Cell Phone Zone",
+          "kind": "Elettronica e software",
+          "description": "Vice City, quartieri nord. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-electric-boulevard",
+          "name": "Electric Boulevard",
+          "kind": "Elettronica e software",
+          "description": "Vice City, quartieri nord. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-best-priced-electrical-supplies",
+          "name": "Best Priced Electrical Supplies",
+          "kind": "Elettronica e software",
+          "description": "Vice City, quartieri nord. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-chacey-s-southside",
+          "name": "Chacey's – Southside",
+          "kind": "Fast food",
+          "description": "Southside. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-peewees-southside",
+          "name": "Peewees – Southside",
+          "kind": "Fast food",
+          "description": "Southside. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-frank-s-waffles",
+          "name": "Frank's Waffles",
+          "kind": "Fast food",
+          "description": "Vice City (quartiere da precisare). Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-marbles-salton",
+          "name": "Marbles – Salton",
+          "kind": "Fast food",
+          "description": "Salton. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-pollo-diablo-vcia",
+          "name": "Pollo Diablo – VCIA",
+          "kind": "Fast food",
+          "description": "Vicino all'aeroporto (VCIA). Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-chacey-s-salton",
+          "name": "Chacey's – Salton",
+          "kind": "Fast food",
+          "description": "Salton. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-marbles-west-vice-dale-county",
+          "name": "Marbles – West Vice-Dale County",
+          "kind": "Fast food",
+          "description": "Periferia ovest della contea di Vice-Dale. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-uncle-jack-s-liquor-tequesta",
+          "name": "Uncle Jack's Liquor – Tequesta",
+          "kind": "Liquori",
+          "description": "Tequesta. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-palmis-liquor",
+          "name": "Palmis Liquor",
+          "kind": "Liquori",
+          "description": "Vice City, quartieri nord-ovest. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-dutch-courage",
+          "name": "Dutch Courage",
+          "kind": "Liquori",
+          "description": "Vice City, quartieri nord-ovest. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-uncle-jack-s-liquor-bayside",
+          "name": "Uncle Jack's Liquor – Bayside",
+          "kind": "Liquori",
+          "description": "Bayside. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-zak-s-liquor",
+          "name": "Zak's Liquor",
+          "kind": "Liquori",
+          "description": "Vice City, quartieri nord. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-ernesto-s-pawn",
+          "name": "Ernesto's Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Periferia sud-ovest di Vice City, a sud dell'aeroporto. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-donovan-banks-co",
+          "name": "Donovan Banks & Co.",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri ovest. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-plush",
+          "name": "Plush",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, a ovest di Downtown. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-pawn-city",
+          "name": "Pawn City",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice City, vicino all'aeroporto. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 1.000–10.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-icegem-diamonds-watches",
+          "name": "Icegem Diamonds & Watches",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, vicino a Downtown. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-richardson-jewelry-diamonds",
+          "name": "Richardson Jewelry & Diamonds",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, vicino a Downtown. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 4.500–12.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-all-that-glitters",
+          "name": "All That Glitters",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, vicino a Downtown. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-peacock",
+          "name": "Peacock",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri sud. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-fast-cash",
+          "name": "Fast Cash",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice City, quartieri ovest. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 1.000–10.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-the-jewelry-place",
+          "name": "The Jewelry Place",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri nord-ovest. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 1.000–10.000 $. Sicurezza bassa.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-crown-jewels",
+          "name": "Crown Jewels",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri nord-ovest. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 1.000–10.000 $. Sicurezza bassa.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-dorado-pawn-shop",
+          "name": "Dorado Pawn Shop",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice City, quartieri ovest. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-white-sands-jewelry-pawn",
+          "name": "White Sands Jewelry Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice City, quartieri ovest. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza media. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-pawn-stash",
+          "name": "Pawn Stash",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice City, quartieri nord. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-blanc-giroux",
+          "name": "Blanc & Giroux",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri nord vicino alla baia. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-roval-jewelry",
+          "name": "Roval Jewelry",
+          "kind": "Gioielleria (rapina)",
+          "description": "Decor District. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-covgari",
+          "name": "Covgari",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice City, quartieri nord vicino alla baia. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-slinger-vice-city",
+          "name": "Slinger – Vice City",
+          "kind": "Abbigliamento",
+          "description": "Cinque negozi: Southside, Peacock Bay, Tequesta, Downtown e Decor District. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-suburban",
+          "name": "Suburban",
+          "kind": "Abbigliamento",
+          "description": "Vice City (quartiere da precisare). Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-urban-legendz",
+          "name": "Urban Legendz",
+          "kind": "Abbigliamento",
+          "description": "Vice City (quartiere da precisare). Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-drip-drops",
+          "name": "Drip Drops",
+          "kind": "Abbigliamento",
+          "description": "Vice City (quartiere da precisare). Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-this-that-decor-district",
+          "name": "This / That – Decor District",
+          "kind": "Abbigliamento",
+          "description": "Decor District. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-alpha-sports-downtown",
+          "name": "Alpha Sports – Downtown",
+          "kind": "Abbigliamento",
+          "description": "Downtown. Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-endzone-downtown",
+          "name": "Endzone – Downtown",
+          "kind": "Abbigliamento",
+          "description": "Downtown. Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-eris",
+          "name": "Eris",
+          "kind": "Abbigliamento",
+          "description": "Contea di Vice-Dale (quartiere da precisare). Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-nola-vice-city",
+          "name": "Nola – Vice City",
+          "kind": "Abbigliamento",
+          "description": "Due negozi: Peacock Bay e Decor District. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-ferruccio-tucci-decor-district",
+          "name": "Ferruccio Tucci – Decor District",
+          "kind": "Abbigliamento",
+          "description": "Decor District. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-aline-s-thrift-store",
+          "name": "Aline's Thrift Store",
+          "kind": "Abbigliamento economico",
+          "description": "Contea di Vice-Dale (quartiere da precisare). Vestiti usati: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-dr-froogal",
+          "name": "Dr Froogal",
+          "kind": "Abbigliamento economico",
+          "description": "Contea di Vice-Dale (quartiere da precisare). Vestiti usati: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-souvenir-vice-dale",
+          "name": "Souvenir e costumi di Vice City e Vice Beach",
+          "kind": "Abbigliamento",
+          "description": "Contea di Vice-Dale, diciannove negozi: Souvenir Shop, Dollar Domain, Little Cuba Souvenir Store, Telegraphe, Sea Swell Gifts, Starboard Souvenirs, Vice Style, Sunshine Sally's, Dock Ring Souvenirs, Coquina Box, Knick Knack Paddle Shack, Island Gifts, Washed Ashore Souvenirs, Coastal Souvenirs, De'luge Swimwear, Larry's Lagoon, Waves, Gifts A GoGo, Beach Please. Magliette ricordo, costumi e accessori da spiaggia.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-podium-sports-vice-city",
+          "name": "Podium Sports – Vice City",
+          "kind": "Calzature",
+          "description": "Tre negozi: Southside, Tequesta e Downtown. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-whs-vice-city",
+          "name": "WHS – Vice City",
+          "kind": "Calzature",
+          "description": "Tre negozi: Little Cuba e due a Downtown. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-callus-decor-district",
+          "name": "Callus – Decor District",
+          "kind": "Calzature",
+          "description": "Decor District. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-vice-city",
+          "name": "Distributori di benzina – Vice City",
+          "kind": "Distributore",
+          "description": "A Vice City: Xero (Southside, Tequesta, Salton, Rockridge, Crosstown, La Perle), Ron (Southside, Salton, Balsero due, Little Cuba, Bayside), Arrow (VCIA, La Perle, Decor District), Globe Oil (Crosstown), 247 (periferia ovest), Emilio's Auto Center, Vargo's Gas. Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-vice-city",
+          "name": "Minimarket – Vice City",
+          "kind": "Minimarket",
+          "description": "A Vice City (oltre al Vetiver Minimarket di La Perle già in elenco): Xero Food Mart (Southside, Tequesta, Salton, Crosstown, Rockridge, La Perle), Ron Stop'N'Snack (Southside, Little Cuba, Salton, Balsero due, Bayside), 247 (periferia ovest, Downtown, Bayside), Globe Oil Food Center (Crosstown), Wells Rosa, Quick Picks Mini Mart, Delgado & Sons, Hugo's Quick-Mart, XYZ Market, Emilio's Auto Center Food Store, Rico's Convenience Store, Blessed Food Market. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-bar-vice-city",
+          "name": "Bar – Vice City",
+          "kind": "Bar",
+          "description": "A Vice City: Peacock Bay South Tower Rooftop Bar, Peacock Bay North Rooftop Bar, The Fitz-Gerald Rooftop Bar, Bogeda De Mora, Bonds Bistro, Voodoo Tiki, Milk King (Peacock Bay e Downtown), Full Plate Brasserie Bar, Grand Majestic Lobby Bar, Tequesta East Bar, Gino's Nitrogen Ice Cream, Vice Seven Condominiums Bar, Vesper Rooftop Bar, Neo Paloma Rooftop Bar, Tides Bar, Akio Hotel Poolside Bar, Monezza Heights Deck Bar, Rico Huxley Hotels (terrazza e piscina), La Terraza Bar, El Jardin, Spicy Mermaid Outdoor Bar, Flavors Bar, Arcadian Bar, Poppin' Caps, Trouble & Strife, El Rincon Notorio Restaurant, La Vaca Sabrosa, Riverbank Waterside Bar, Pink Deck Bar, Dunk's Bar, Jagua Club Lounge, Future Leonida Art Museum Bar, Wildland Zoo Beach Bar, The Savannah Restaurant & Bar, Igigi Food & Wine, Mariposa Bar, Zotico's, Conch King Outdoor Bar, Lot6, Tamarro Bar, Courtyard Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cafe-vice-city",
+          "name": "Caffè e cibo da asporto – Vice City",
+          "kind": "Caffè",
+          "description": "A Vice City: Valentin's Cuban Cuisine, Mariana's Cafeteria, Reggie's Family Soul Food, Los Bollos (Peacock Bay e Tequesta), Milk King (Peacock Bay e Downtown), Blend Coffee House, Spin-Itch! (Tequesta e Downtown), Mezzasega Espresso (Tequesta e Decor District), Tasty Temaki, Gino's Nitrogen Ice Cream, Mamma Cita's Cafe (Tequesta e due a Downtown), Bimyou, Volcano Coffee Co., Down Time Café, The Baker's Rack, Lovemunch, Brewtiful Coffee Co., Alderney Joe's (Downtown e Bayside), Torreri Bread, Safia Restaurant, Aleja's Cafe, Rosita's Cuban Cafe, La Madre Cafeteria, Bump & Grind Coffee, Cuban Food Counter, Aletha's Panaderia Y Cafeteria, Chez Lovelie Restaurant, Aunt Zola's Soul Food, Calypso's Crab House, Pizza Pete, Galina Ballet Opera House Deli, Perkins Deli, Fresco, Chido! (Stockyard), Pith Heads, Robinsons Bakery, Sipster; fuori conteggio: The Ripe Guys, Ron Stop'N'Snack di Bayside, Romeo Cole Ice Cream, Merry Berry, Scoop Daddy. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-street-vice-city",
+          "name": "Cibo di strada – Vice City",
+          "kind": "Cibo di strada",
+          "description": "A Vice City: Chumbox Seafood, Ladonna's Soul Food, Tropical Juice Stand, Chihuahua Hotdogs (Southside, Salton, Balsero, due a Downtown, Waxman Island), Lucky Longhorn, The Good Dough Bagel Co. (Peacock Bay e Downtown), Dave's Pit Stop, Volcano Coffee Co., Alderney Joe's, The Best Burgers, Watering Hole Coffee, Fresh Mexican Food, Hernandez Produce, Chicha's Cuban Cafe, Elena's Fruit Market, J'American Roots, le bancarelle del mercatino (Flea Market BBQ Stand, Flea Market Fruit Stalls), Tisha-Wocka Soul Food, Restaurant Santiago, Antonio Produce, Boiled Peanuts Stand (due), Las Palomas Restaurant, Coffee Break Cafe & Deli, The Metro Snack Bar, Senorita Co., Blazed Burgers (due), Lizzy's Glizzies, Aficiona Dough, Peewees, Pollo Diablo, Brodies Snack Bar, Big City Coconuts (Downtown e Waxman Island), Claws N' All, Bembe's Kitchen, Marbles, Cup & Squeeze, Slushsquatch, Burger Shot, Chacey's, Re:Pear, Crust Fund (Downtown e Stockyard), Homeslice, Deja Brew Coffee, Jeudy's Restaurant, Slam Coffee Co., Sugar Hook'd, The Toss Spot (Decor District), le bancarelle di frutta, vino, pane, caffè e hamburger. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-zoticos",
+          "name": "Zotico's",
+          "kind": "Bar",
+          "description": "Margine ovest di Balsero. Bar con un avversario di biliardo: il tavolo è sul lato est del locale. Per il 100% servono 5 avversari diversi battuti.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-bar-locations/"
+          ]
+        },
+        {
+          "id": "poi-banca-shorefront-downtown",
+          "name": "Shorefront – Downtown",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola a Downtown: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–15.000 $ in banconote segnate, da ripulire con un ricettatore. Si sblocca a metà del capitolo 3.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-shorefront-rockridge",
+          "name": "Shorefront – Rockridge",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola a Rockridge: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–20.000 $ in banconote segnate, da ripulire con un ricettatore. Si sblocca a metà del capitolo 3.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-shoreline-park-station",
+          "name": "Shoreline Park",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-downtown-north-station",
+          "name": "Downtown North",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-courthouse-station",
+          "name": "Courthouse",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-vice-city-airport-village-station",
+          "name": "Vice City Airport Village",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-vice-city-central-station",
+          "name": "Vice City Central",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-vice-city-airport-central-station",
+          "name": "Vice City Airport Central",
+          "kind": "Stazione",
+          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-gtaplus-crosstown",
+          "name": "Garage GTA+ (Crosstown)",
+          "kind": "Garage",
+          "description": "Crosstown. Garage da un posto riservato a chi ha GTA+ attivo, dal capitolo 3: dentro c'è l'Annis Venturas BLVD Elegy '90 widebody, con armadietto delle armi e deposito per la merce rubata.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.gtaboom.com/gta-members-get-an-exclusive-car-and-garage-in-gta-6-c5ae",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/"
+          ]
+        },
+        {
+          "id": "poi-dynamix-fitness",
+          "name": "Dynamix Fitness",
+          "kind": "Palestra",
+          "description": "Bayside. Palestra: nel corridoio sul retro, su una panca, c'è una carta collezionabile dei Vice City Narcos.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-narcos-collectible-card-set-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-vice-city-casino",
+          "name": "Vice City Casino",
+          "kind": "Casinò",
+          "description": "Sulla Leonida State Route 91, vicino alla US 70, con una pista per le corse. Nel gioco ci sono due grandi casinò ma non si entra: Rockstar dice che la storia di Jason e Lucia non era il posto giusto per il gioco d'azzardo. Il nome viene dal materiale trapelato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Casino"
+          ]
         }
       ],
       "activityIds": [],
@@ -2857,18 +4162,18 @@
           "reliability": "Riportato"
         },
         {
-          "label": "Altri quartieri",
-          "value": "Little Haiti, Stockyard, Washington Beach, Catalan Key…",
-          "reliability": "Riportato"
-        },
-        {
-          "label": "Dimensioni",
-          "value": "Circa due volte Los Santos",
-          "reliability": "Riportato"
+          "label": "Quartieri sulla mappa",
+          "value": "Downtown, Little Cuba, La Perle, Stockyard, Salton, Balsero, Rockridge, Crosstown, Bayside, Tequesta, Peacock Bay, Southside, Decor District",
+          "reliability": "Confermato"
         },
         {
           "label": "Bayside District",
           "value": "Quartiere sulla baia, con il rifugio di Jason e Lucia",
+          "reliability": "Riportato"
+        },
+        {
+          "label": "Leonida intera",
+          "value": "175 km² (16 × 10,9 km), circa un terzo è acqua; cinque contee",
           "reliability": "Riportato"
         }
       ],
@@ -2881,7 +4186,7 @@
       "name": "Waning Sands",
       "region": "Contea di Leonard, a nord di Vice City",
       "tagline": "La città dei centri commerciali, appena fuori dalla metropoli.",
-      "description": "Città separata a nord di Vice City, con un grande centro commerciale. Non è tra le sei regioni delle cartoline ufficiali: sulla mappa di gioco sta nella parte sud della contea di Leonard, fuori da Vice City.",
+      "description": "Città separata a nord di Vice City, nella parte sud della contea di Leonard, fuori da Vice City: centri commerciali e catene di vestiti, scarpe e fast food, il campo da golf del Mount Hailes Club e un minigolf. A sud-ovest c'è Belville. Non è tra le sei regioni delle cartoline ufficiali.",
       "map": {
         "x": 790,
         "y": 400,
@@ -2983,17 +4288,17 @@
           "id": "poi-st-waning-sands-train-station",
           "name": "Stazione di Waning Sands",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "gtadb: unconfirmed.",
+          "description": "È l'unica stazione dei treni della contea di Leonard nell'elenco della mappa.",
           "xy": [
             3697,
             1673
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-arrow-gas-belville",
@@ -3128,6 +4433,287 @@
           "spoilerLevel": 3,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-waning-sands",
+          "name": "Pay 'n' Spray – Waning Sands",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Waning Sands, contea di Leonard. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-salon-a-better-you",
+          "name": "A Better You",
+          "kind": "Centro estetico",
+          "description": "Waning Sands. Cambi taglio di capelli e barba: boutique dagli stili «unicamente conformisti». Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-empowered-electronics",
+          "name": "Empowered Electronics",
+          "kind": "Elettronica e software",
+          "description": "Waning Sands. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-taco-bomb-belville",
+          "name": "Taco Bomb – Belville",
+          "kind": "Fast food",
+          "description": "Belville. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-peewees-belville",
+          "name": "Peewees – Belville",
+          "kind": "Fast food",
+          "description": "Belville. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-taco-bomb-waning-sands",
+          "name": "Taco Bomb – Waning Sands",
+          "kind": "Fast food",
+          "description": "Waning Sands. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-pollo-diablo-waning-sands",
+          "name": "Pollo Diablo – Waning Sands",
+          "kind": "Fast food",
+          "description": "Waning Sands. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-brilliant-cuts",
+          "name": "Brilliant Cuts",
+          "kind": "Gioielleria (rapina)",
+          "description": "Contea di Leonard. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-skala",
+          "name": "Skala",
+          "kind": "Gioielleria (rapina)",
+          "description": "Contea di Leonard. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-kowalski",
+          "name": "Kowalski",
+          "kind": "Gioielleria (rapina)",
+          "description": "Contea di Leonard. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-this-that-waning-sands",
+          "name": "This / That – Waning Sands",
+          "kind": "Abbigliamento",
+          "description": "Waning Sands. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-mid-waning-sands",
+          "name": "Mid – Waning Sands",
+          "kind": "Abbigliamento",
+          "description": "Waning Sands. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-alpha-sports-waning-sands",
+          "name": "Alpha Sports – Waning Sands",
+          "kind": "Abbigliamento",
+          "description": "Waning Sands. Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-ferruccio-tucci-waning-sands",
+          "name": "Ferruccio Tucci – Waning Sands",
+          "kind": "Abbigliamento",
+          "description": "Waning Sands. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shoes-podium-sports-waning-sands",
+          "name": "Podium Sports – Waning Sands",
+          "kind": "Calzature",
+          "description": "Waning Sands. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-callus-waning-sands",
+          "name": "Callus – Waning Sands",
+          "kind": "Calzature",
+          "description": "Waning Sands. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-waning-sands",
+          "name": "Distributori di benzina – Waning Sands",
+          "kind": "Distributore",
+          "description": "Tra Belville e Waning Sands (oltre all'Arrow di Belville già in elenco): Xero (Belville, Waning Sands), 247 (Belville), Alpha (Belville), Arrow (Waning Sands). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-waning-sands",
+          "name": "Minimarket – Waning Sands",
+          "kind": "Minimarket",
+          "description": "Tra Belville e Waning Sands: Xero Food Mart (Belville, Waning Sands), 247 (Belville, Waning Sands), Alpha Convenience Store (Belville). Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cafe-waning-sands",
+          "name": "Caffè e cibo da asporto – Waning Sands",
+          "kind": "Caffè",
+          "description": "Nella contea di Leonard: Health, Self & Happiness, Mezzasega Espresso, Tasty Temaki, Alderney Joe's, Milk King; fuori conteggio: Ice Cream Cafe. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-street-waning-sands",
+          "name": "Cibo di strada – Waning Sands",
+          "kind": "Cibo di strada",
+          "description": "Nella contea di Leonard: Brodies Snack Bar, Cup & Squeeze, Big City Coconuts, Re:Pear, Slushsquatch, Boiled Peanuts Stand, La Parrilla Cubana. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -3214,11 +4800,12 @@
           "id": "poi-globe-oil",
           "name": "Globe Oil",
           "kind": "Distributore",
-          "description": "Distributore di benzina con l'insegna ben visibile.",
+          "description": "Distributore Globe Oil con l'insegna ben visibile, visto nel trailer. Nella contea di Mariana l'unico Globe Oil dell'elenco della mappa è a Watson Bay: quello del trailer è probabilmente lui.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://mypandaplay.com/gta-6/guides/launch-trailer-breakdown/",
-          "image": null
+          "image": null,
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-rent-a-rack",
@@ -3513,6 +5100,255 @@
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-southwind",
+          "name": "Pay 'n' Spray – Southwind",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Southwind, nelle Keys. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-key-lento",
+          "name": "Pay 'n' Spray – Key Lento",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Key Lento. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-tattoo-the-inked-mermaid",
+          "name": "The Inked Mermaid",
+          "kind": "Studio di tatuaggi",
+          "description": "Nelle Keys, nella parte sud dell'arcipelago. Stile American Traditional: disegni classici e puliti. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-barnacle-beauties",
+          "name": "Barnacle Beauties",
+          "kind": "Parrucchiere",
+          "description": "Nelle Keys, nella parte sud. Cambi taglio di capelli e barba: unisex, rilassato, da spiaggia. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-lori-scott-hair-beauty",
+          "name": "Lori Scott Hair & Beauty",
+          "kind": "Parrucchiere",
+          "description": "Key Lento. Cambi taglio di capelli e barba: unisex, tagli semplici di tutti i giorni. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-marbles-key-lento",
+          "name": "Marbles – Key Lento",
+          "kind": "Fast food",
+          "description": "Key Lento. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-one-stop-liquor-key-lento",
+          "name": "One Stop Liquor – Key Lento",
+          "kind": "Liquori",
+          "description": "Key Lento. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-three-sheets-liquor",
+          "name": "Three Sheets Liquor",
+          "kind": "Liquori",
+          "description": "Nelle Keys, nella parte sud: è a tema pirati. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-the-siren-s-chest",
+          "name": "The Siren's Chest",
+          "kind": "Gioielleria (rapina)",
+          "description": "Nelle Keys, nella parte sud. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 1.000–10.000 $. Sicurezza bassa.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-timeless-peculiars",
+          "name": "Timeless Peculiars",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Key Lento. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza media. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-nifty-threads-island-wear",
+          "name": "Nifty Threads Island Wear",
+          "kind": "Abbigliamento economico",
+          "description": "Contea di Mariana, nelle Keys. Vestiti usati: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-souvenir-mariana",
+          "name": "Souvenir e costumi delle Keys",
+          "kind": "Abbigliamento",
+          "description": "Contea di Mariana: Leroy's, The Wonder Whale (accanto alla balena), Billie's Key Lento Gift Shop, Key Lento Kahuna e Lost Mines Souvenirs. Magliette ricordo, costumi e accessori da spiaggia. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-flip-flop-house",
+          "name": "Flip Flop House",
+          "kind": "Calzature",
+          "description": "Contea di Mariana (posizione da precisare). Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-keys",
+          "name": "Distributori di benzina – Leonida Keys",
+          "kind": "Distributore",
+          "description": "Nelle Keys: Xero (Southwind), 247 (Key Lento). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-keys",
+          "name": "Minimarket – Leonida Keys",
+          "kind": "Minimarket",
+          "description": "Nella contea di Mariana, tra le Keys e Watson Bay: Xero Food Mart (Southwind), Leonida Key Lento Mini Mart, 247 (Key Lento), Randy's Big Gas Mart, Poppers Convenience Store, Jim's Mini Mart. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-bar-keys",
+          "name": "Bar – Leonida Keys",
+          "kind": "Bar",
+          "description": "Nella contea di Mariana (Keys, Watson Bay e Capri): Chicky's Tiki Bar, La Medusa, Wonder Whale Picnic Area, Castenburg Hotel Poolside Bar, The Cheeky Mutineer, Tiki Touchdown, Manatee's Rest, The Rusty Anchor (dentro e fuori), Paradise RV Park Bar, Nate's Bar, The Pier Hotel Poolside Bar, La Costa Poolside Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cafe-keys",
+          "name": "Caffè e cibo da asporto – Leonida Keys",
+          "kind": "Caffè",
+          "description": "Nella contea di Mariana (Keys e Watson Bay): Shrimp & Save, Grassrivers Cafe & Deli, Carla's Pantry, Gator Shack, Chang Thai & Sushi, Vivi's Vegan Deli & Bakery; fuori conteggio (icona bianca): Key Lento Candy, Jeb's Snack Bar, Queen's Cream, The Cherry Popper, Cone Castle, Sugar Shack. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-street-keys",
+          "name": "Cibo di strada – Leonida Keys",
+          "kind": "Cibo di strada",
+          "description": "Nella contea di Mariana: Chihuahua Hotdogs (Key Lento e Grassrivers), Kiosk, Under the Bun, Deja Brew Coffee, Marshland Burger Shack, Snappy's Meat Shack, Boiled Peanuts Stand, Cash's Crawfish, The Salty Nut Shack, Crop Circles Donuts & Coffee, The Toss Spot (Capri), Better Bread, A-Roamer Wild Coffee, Pip Slip, Alleway Coffee, Miller Designs, The Lock Box, Sweet Releaf, Janet's Bakery, Rise and Roast, Coffee Bandstand. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
         }
@@ -3838,6 +5674,112 @@
           "spoilerLevel": 3,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-watson-bay",
+          "name": "Pay 'n' Spray – Watson Bay",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Watson Bay. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-grassrivers",
+          "name": "Pay 'n' Spray – Grassrivers",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Grassrivers, nelle paludi. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-gas-grassrivers",
+          "name": "Distributori di benzina – Grassrivers",
+          "kind": "Distributore",
+          "description": "Tra Watson Bay, le paludi e la contea di Kelly (Buckskin Swamp, Emerald Springs): Globe Oil (Watson Bay), Xero (Grassrivers, due), Xero (Buckskin Swamp, due), Xero (South Kelly County), Emerald Springs Country Store, 247 (Emerald Springs). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-grassrivers",
+          "name": "Minimarket – Grassrivers",
+          "kind": "Minimarket",
+          "description": "Tra le paludi e la contea di Kelly: Xero Food Mart (Grassrivers, due), Xero Food Mart (Buckskin Swamp, due), Xero Food Mart (South Kelly County), Emerald Springs Country Store, 247 (Emerald Springs). Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-kowaachobee-cafe",
+          "name": "Kowaachobee Cafe & Bar",
+          "kind": "Bar",
+          "description": "Buckskin Swamp, appena fuori dalla statale che attraversa la palude. Ristorante-bar con un avversario di biliardo: il tavolo è sul lato ovest. Per il 100% servono 5 avversari diversi battuti.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/"
+          ]
+        },
+        {
+          "id": "poi-marshland-animal-park",
+          "name": "Marshland Animal Park",
+          "kind": "Attrazione",
+          "description": "Vicino a Watson Bay. Parco degli animali delle paludi: è anche il terzo percorso delle gare di droni Top Fun di Watson Bay.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-swampy-sals-safari-park",
+          "name": "Swampy Sal's Safari Park",
+          "kind": "Attrazione",
+          "description": "Buckskin Swamp. Safari nella palude: è anche un percorso delle gare di droni Top Fun di Buckskin Swamp.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [
@@ -3983,7 +5925,7 @@
           "id": "poi-delights",
           "name": "Delights Cabaret",
           "kind": "Strip club",
-          "description": "Il cabaret «Delights», uno dei simboli del declino di Port Gellhorn.",
+          "description": "Il cabaret «Delights», uno dei simboli del declino di Port Gellhorn. Al centro del locale c'è un avversario di biliardo: se non lo batti entro la fine del capitolo 2, potrai rientrare più avanti, quando il locale riapre.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -3992,7 +5934,8 @@
           "xy": [
             88,
             1501
-          ]
+          ],
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-hanks-waffles-x",
@@ -4239,22 +6182,6 @@
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L538,ig.jpg"
         },
         {
-          "id": "poi-st-millport-train-station",
-          "name": "Stazione di Millport",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "gtadb: unconfirmed.",
-          "xy": [
-            3338,
-            2993
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
           "id": "poi-uncle-jacks",
           "name": "Uncle Jack's Liquor",
           "kind": "Liquori",
@@ -4482,7 +6409,7 @@
           "id": "poi-gang-kingpin-bowling",
           "name": "Kingpin Bowling",
           "kind": "Operazione di gang",
-          "description": "Bowling abbandonato di Port Gellhorn con dentro un giro di pillole. Bottino 15.100–25.600 $. Banda: Kolt & Associates.",
+          "description": "Bowling abbandonato di Port Gellhorn con dentro un giro di pillole. Bottino 15.100–25.600 $. Banda: Kolts & Associates.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
@@ -4495,7 +6422,7 @@
           "id": "poi-gang-june-warehouse",
           "name": "June Warehouse",
           "kind": "Operazione di gang",
-          "description": "Magazzino di Port Gellhorn dove tengono i furgoni delle pillole. Bottino 5.800–10.200 $. Banda: Kolt & Associates.",
+          "description": "Magazzino di Port Gellhorn dove tengono i furgoni delle pillole. Bottino 5.800–10.200 $. Banda: Kolts & Associates.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
@@ -4508,7 +6435,7 @@
           "id": "poi-gang-la-cascara-motel",
           "name": "La Cascara Motel",
           "kind": "Operazione di gang",
-          "description": "Motel abbandonato di Port Gellhorn: pillole e coltivazione di erba. Bottino 21.600–47.200 $. Banda: Kolt & Associates.",
+          "description": "Motel abbandonato di Port Gellhorn: pillole e coltivazione di erba. Bottino 21.600–47.200 $. Banda: Kolts & Associates.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
@@ -4521,7 +6448,7 @@
           "id": "poi-gang-brooks-boatworks",
           "name": "Brooks Boatworks",
           "kind": "Operazione di gang",
-          "description": "Cantiere sul porto di Port Gellhorn da cui passano i farmaci da prescrizione. Bottino 30.100–42.600 $. Banda: Kolt & Associates.",
+          "description": "Cantiere sul porto di Port Gellhorn da cui passano i farmaci da prescrizione. Bottino 30.100–42.600 $. Banda: Kolts & Associates.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
@@ -4534,7 +6461,7 @@
           "id": "poi-gang-covo-di-port-gellhorn",
           "name": "Covo di Port Gellhorn",
           "kind": "Operazione di gang",
-          "description": "Un altro punto di spaccio a Port Gellhorn («Robbery Opportunity» finché non lo visiti). Banda: Kolt & Associates.",
+          "description": "Un altro punto di spaccio a Port Gellhorn («Robbery Opportunity» finché non lo visiti). Banda: Kolts & Associates.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
@@ -4566,6 +6493,132 @@
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
           "image": null,
           "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-port-gellhorn",
+          "name": "Pay 'n' Spray – Port Gellhorn",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Port Gellhorn. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-tattoo-freedom-tattoo",
+          "name": "Freedom Tattoo",
+          "kind": "Studio di tatuaggi",
+          "description": "Port Gellhorn. Stile Stick & Poke: disegni delicati fatti a mano. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-pearl-house-hair-salon",
+          "name": "Pearl House Hair Salon",
+          "kind": "Parrucchiere",
+          "description": "Port Gellhorn. Cambi taglio di capelli e barba: unisex, tagli spicci, il meglio della città. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-game-horde",
+          "name": "Game Horde",
+          "kind": "Elettronica e software",
+          "description": "Port Gellhorn. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-buck-s-jewelry-pawn",
+          "name": "Buck's Jewelry & Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Port Gellhorn. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 1.000–10.000 $. Sicurezza bassa. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-whs-port-gellhorn",
+          "name": "WHS – Port Gellhorn",
+          "kind": "Calzature",
+          "description": "Port Gellhorn. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-port-gellhorn",
+          "name": "Distributori di benzina – Port Gellhorn",
+          "kind": "Distributore",
+          "description": "Nella contea di Kelly, tra Port Gellhorn e l'entroterra (oltre all'Alpha già in elenco; per quattro la posizione è da precisare): Arrow (Port Gellhorn), Eager Beaver Gas, Oyster Point Gas Stop, Vortex & Percy's General Store, Jackson's Tire Co.. Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-port-gellhorn",
+          "name": "Minimarket – Port Gellhorn",
+          "kind": "Minimarket",
+          "description": "A Port Gellhorn e dintorni: Alpha Convenience Store (Gellhorn), 247 (Port Gellhorn), Sarena's Bargain Store, Dale's Shopwell, Eager Beaver Express. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cafe-port-gellhorn",
+          "name": "Caffè e cibo da asporto – Port Gellhorn",
+          "kind": "Caffè",
+          "description": "Nella contea di Kelly (Port Gellhorn, Ambrosia, Buckskin Swamp): Adventure Golf Desk Deli, Kowaachobee Cafe & Bar, The Chomp Stop, Black Bear Cafe, Asian Fusion, Lola's Cantina, The Sweetie Pie Cafe; fuori conteggio: Tucker's Citrus Farms Cafe. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+          "image": null,
+          "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
         }
@@ -4705,11 +6758,11 @@
           "id": "poi-thirsty-wolf",
           "name": "The Thirsty Wolf",
           "kind": "Bar",
-          "description": "Il bar dei Final Chapter MC, con un avversario da sfidare a biliardo. È anche uno dei loro covi da rapinare: da qui passa la droga della gang.",
+          "description": "Nella contea di Leonard, al margine nord-ovest di Belville (non dentro Ambrosia). Il bar dei Final Chapter MC, con un avversario da sfidare a biliardo: il tavolo è sul lato nord. È anche uno dei loro covi da rapinare: da qui passa la droga della gang.",
           "characterIds": [],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
           "image": "assets/img/luoghi/ambrosia/landmark-l2938.webp",
           "updatedAt": "2026-11-18"
         },
@@ -4778,35 +6831,19 @@
           "id": "poi-st-ambrosia-station",
           "name": "Ambrosia Station",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali) ad Ambrosia; non è ancora confermata.",
+          "description": "Stazione dei treni di Ambrosia: è nell'elenco delle stazioni della mappa.",
           "xy": [
             2408,
             1554
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07",
+          "updatedAt": "2026-11-18",
           "image": "assets/img/poi/poi-st-ambrosia-station.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L591,ig.jpg"
-        },
-        {
-          "id": "poi-st-belville-train-station",
-          "name": "Stazione di Belville",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali) a Belville; non è ancora confermata.",
-          "xy": [
-            3504,
-            1148
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
         },
         {
           "id": "poi-garage-wyatt-motors",
@@ -4898,6 +6935,142 @@
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-ambrosia",
+          "name": "Pay 'n' Spray – Ambrosia",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Ambrosia. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-tattoo-blood-sugar-tattoo",
+          "name": "Blood Sugar Tattoo",
+          "kind": "Studio di tatuaggi",
+          "description": "Contea di Kelly, zona di Ambrosia. Stile Lettering: scritte stilizzate. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-captain-starlings-barber-shop",
+          "name": "Captain Starlings Barber Shop",
+          "kind": "Barbiere",
+          "description": "Contea di Kelly, zona di Ambrosia. Cambi taglio di capelli e barba: barbiere classico, amato dai biker. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-marbles-ambrosia",
+          "name": "Marbles – Ambrosia",
+          "kind": "Fast food",
+          "description": "Ambrosia. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-ambrosia-liquors",
+          "name": "Ambrosia Liquors",
+          "kind": "Liquori",
+          "description": "Ambrosia. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-florence-co",
+          "name": "Florence & Co.",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Contea di Kelly, zona di Ambrosia. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza media. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shop-ambrosia",
+          "name": "Minimarket – Ambrosia",
+          "kind": "Minimarket",
+          "description": "Ad Ambrosia e nella campagna della contea di Kelly (posizione di alcuni da precisare): Xero Food Mart (Ambrosia), Tucker's Citrus Farms, Cane Grocery, Bunch Farms Country Store. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-bar-ambrosia",
+          "name": "Bar – Ambrosia",
+          "kind": "Bar",
+          "description": "Nella contea di Kelly: The Hog House Bar, Home Bar, Anakala Sam's, Ambrosia Raceway Park Bar, Thrillbilly Mud Club (tenda e bar), Paradise Wines Vineyard Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-street-ambrosia",
+          "name": "Cibo di strada – Ambrosia",
+          "kind": "Cibo di strada",
+          "description": "Nella contea di Kelly: Cody's Famous Fresh Road Grill (Gellhorn e Ambrosia), Po' Co Po'Boys, Grill Seekers Bar & Grill, Boiled Peanuts Stand, Orange Juice Stall, Chihuahua Hotdogs (Emerald Springs), Home Grown Produce, Rustler's Grill, The Salty Nut Shack, Mamma B's Homemade Wine, Rib It Up, Bareback Bronc BBQ (due), Skully's Pizza, Buck's Burgers, Thrillbilly Mud Club (barbecue e gadget), Dicken Buns, bancarelle di frutta e vino. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-captain-omalley-marina",
+          "name": "Captain O'Malley Marina",
+          "kind": "Marina",
+          "description": "Sul Lake Leonida, dalle parti di Ambrosia. Porticciolo del lago: è anche un percorso delle gare di droni Top Fun di Ambrosia.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
         }
@@ -5037,17 +7210,17 @@
           "id": "poi-st-lummox-county-train-station",
           "name": "Stazione della contea di Lummox",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "gtadb: unconfirmed.",
+          "description": "Nella contea di Lummox l'elenco della mappa ha solo due stazioni, Grayson e Millport: questa, più a ovest, con ogni probabilità è quella di Grayson.",
           "xy": [
             645,
             3373
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-meditazione-water-wheel",
@@ -5182,6 +7355,154 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-grayson",
+          "name": "Pay 'n' Spray – Grayson",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Grayson, contea di Lummox. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-millport",
+          "name": "Pay 'n' Spray – Millport",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Millport, contea di Lummox. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-ff-taco-bomb-west-kalaga",
+          "name": "Taco Bomb – West Kalaga",
+          "kind": "Fast food",
+          "description": "Contea di Lummox, a ovest del Mount Kalaga. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-pollo-diablo-millport",
+          "name": "Pollo Diablo – Millport",
+          "kind": "Fast food",
+          "description": "Millport. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-mount-kalaga",
+          "name": "Distributori di benzina – Mount Kalaga National Park",
+          "kind": "Distributore",
+          "description": "Nella contea di Lummox: Globe Oil (Grayson), 247 (West Kalaga, Millport), Buck Creek Country Store, Redshaw's Gasoline, Xero (Millport). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-mount-kalaga",
+          "name": "Minimarket – Mount Kalaga National Park",
+          "kind": "Minimarket",
+          "description": "Nella contea di Lummox: Huck's Pump N Go, 247 (West Kalaga, Millport), Redshaw's General Store, Xero Food Mart (Millport), Trotman's Supermarket. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-street-mount-kalaga",
+          "name": "Cibo di strada – Mount Kalaga National Park",
+          "kind": "Cibo di strada",
+          "description": "Nella contea di Lummox: Lennie's Diner, Boiled Peanuts Stand (due), A-Roamer Wild Coffee, Tropical Juice Stand. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-jacobs-tavern",
+          "name": "Jacob's Tavern",
+          "kind": "Bar",
+          "description": "Lato est di Millport, accanto al Pay 'n' Spray. Taverna con un avversario di biliardo: il tavolo è sul lato nord. Per il 100% servono 5 avversari diversi battuti.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-bar-locations/"
+          ]
+        },
+        {
+          "id": "poi-the-steel-drop",
+          "name": "The Steel Drop",
+          "kind": "Bar",
+          "description": "Contea di Lummox (posizione da precisare). Uno dei due bar della contea con Jacob's Tavern.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-millport-train-station",
+          "name": "Stazione di Millport",
+          "kind": "Stazione · Amloco (treni regionali)",
+          "description": "Una delle due stazioni della contea di Lummox nell'elenco della mappa (l'altra è Grayson).",
+          "xy": [
+            3338,
+            2993
+          ],
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [
@@ -5273,7 +7594,7 @@
           "id": "poi-banca-gibson-brothers-bank",
           "name": "Gibson Brothers Bank",
           "kind": "Banca (rapina)",
-          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate. Si trova nella contea di Mariana; la posizione esatta non è ancora nota.",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate. Si trova nella contea di Mariana; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Mariana (Keys, Grassrivers o Capri): posizione esatta da precisare.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
@@ -5286,7 +7607,7 @@
           "id": "poi-prestiti-payline-loans-247",
           "name": "Payline Loans 247",
           "kind": "Agenzia di prestiti (rapina)",
-          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $. È nella contea di Vice-Dale; la posizione esatta non è ancora nota.",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $. È nella contea di Vice-Dale; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Vice-Dale: posizione esatta da precisare.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
@@ -5299,7 +7620,7 @@
           "id": "poi-prestiti-cash-flow",
           "name": "Cash Flow",
           "kind": "Agenzia di prestiti (rapina)",
-          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 2.000–10.000 $. È nella contea di Kelly; la posizione esatta non è ancora nota.",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 2.000–10.000 $. È nella contea di Kelly; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Kelly: posizione esatta da precisare.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
@@ -5463,19 +7784,19 @@
         },
         {
           "id": "poi-gsm-mount-sinai",
-          "name": "Mount Sinai Hospital Complex",
+          "name": "St. Vitus Medical Center",
           "kind": "Ospedale",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
+          "description": "L'ospedale di Vice Beach, sul lato della baia (ricalca il Mount Sinai di Miami Beach, il nome che compariva prima dell'uscita). È anche un percorso delle gare di droni Top Fun di Vice Beach.",
           "xy": [
             4303,
             660
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-bean-machine",
@@ -5876,6 +8197,494 @@
           "spoilerLevel": 4,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-ocean-beach",
+          "name": "Pay 'n' Spray – Ocean Beach",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Ocean Beach, a Vice Beach. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-pns-washington-beach",
+          "name": "Pay 'n' Spray – Washington Beach",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Washington Beach, a Vice Beach. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-tattoo-black-spot-tattoo",
+          "name": "Black Spot Tattoo",
+          "kind": "Studio di tatuaggi",
+          "description": "Vice Beach. Stile Geometric & Blackwork: linee nere e forme semplici. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-oomph",
+          "name": "Oomph!",
+          "kind": "Centro estetico",
+          "description": "Vice Beach, parte nord. Cambi taglio di capelli e barba: di fascia alta, per clienti di fascia alta. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-gabriel-wexler",
+          "name": "Gabriel Wexler",
+          "kind": "Centro estetico",
+          "description": "Vice Beach. Cambi taglio di capelli e barba: acconciature dal giorno alla sera. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-tech-point-ocean-beach",
+          "name": "Tech Point – Ocean Beach",
+          "kind": "Elettronica e software",
+          "description": "Ocean Beach. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-beta-audio-and-electronics",
+          "name": "Beta Audio and Electronics",
+          "kind": "Elettronica e software",
+          "description": "Vice Beach, parte nord. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-easy-electronics",
+          "name": "Easy Electronics",
+          "kind": "Elettronica e software",
+          "description": "Vice Beach, parte nord. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-acpc",
+          "name": "ACPC",
+          "kind": "Elettronica e software",
+          "description": "Vice Beach. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-elec-aural-expert",
+          "name": "Aural Expert",
+          "kind": "Elettronica e software",
+          "description": "Vice Beach. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-burger-shot-ocean-beach",
+          "name": "Burger Shot – Ocean Beach",
+          "kind": "Fast food",
+          "description": "Ocean Beach. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-pollo-diablo-ocean-beach",
+          "name": "Pollo Diablo – Ocean Beach",
+          "kind": "Fast food",
+          "description": "Ocean Beach. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-one-stop-liquor-ocean-beach",
+          "name": "One Stop Liquor – Ocean Beach",
+          "kind": "Liquori",
+          "description": "Ocean Beach. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-corked-wine-bank",
+          "name": "Corked Wine Bank",
+          "kind": "Liquori",
+          "description": "Vice Beach: enoteca. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 1.000–3.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-ocean-beach-liquor",
+          "name": "Ocean Beach Liquor",
+          "kind": "Liquori",
+          "description": "Ocean Beach. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-akoya-jewelers",
+          "name": "Akoya Jewelers",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice Beach. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-marshal-s",
+          "name": "Marshal's",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice Beach, parte nord. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-casa-de-empeno",
+          "name": "Casa de Empeño",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Vice Beach. Banco dei pegni rapinabile dalla metà del capitolo 2: sfonda le vetrine e svuota la cassaforte nel retro, bottino 4.500–12.000 $. Sicurezza media. Compra anche carte, dobloni e meteoriti (350 $).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-rococo-rich",
+          "name": "Rococo Rich",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice Beach. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-legendary-custom-jewelry",
+          "name": "Legendary Custom Jewelry",
+          "kind": "Gioielleria (rapina)",
+          "description": "Vice Beach, parte nord. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 14.000–25.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-slinger-ocean-beach",
+          "name": "Slinger – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Ocean Beach. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-mid-ocean-beach",
+          "name": "Mid – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Due negozi a Ocean Beach. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-this-that-ocean-beach",
+          "name": "This / That – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Due negozi a Ocean Beach. Vestiti casual e street: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-alpha-sports-ocean-beach",
+          "name": "Alpha Sports – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Quattro negozi a Ocean Beach. Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-endzone-vice-beach",
+          "name": "Endzone – Vice Beach",
+          "kind": "Abbigliamento",
+          "description": "Tre negozi: due a Ocean Beach e uno a Washington Beach. Vestiti sportivi: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-nola-ocean-beach",
+          "name": "Nola – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Due negozi a Ocean Beach. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-ferruccio-tucci-ocean-beach",
+          "name": "Ferruccio Tucci – Ocean Beach",
+          "kind": "Abbigliamento",
+          "description": "Due negozi a Ocean Beach. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shoes-callus-ocean-beach",
+          "name": "Callus – Ocean Beach",
+          "kind": "Calzature",
+          "description": "Due negozi a Ocean Beach. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-podium-sports-ocean-beach",
+          "name": "Podium Sports – Ocean Beach",
+          "kind": "Calzature",
+          "description": "Due negozi a Ocean Beach. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-shoes-whs-ocean-beach",
+          "name": "WHS – Ocean Beach",
+          "kind": "Calzature",
+          "description": "Ocean Beach. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-vice-beach",
+          "name": "Distributori di benzina – Vice Beach",
+          "kind": "Distributore",
+          "description": "A Vice Beach: Xero (Washington Beach), Ron (Washington Beach), LTD (Ocean Beach). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-vice-beach",
+          "name": "Minimarket – Vice Beach",
+          "kind": "Minimarket",
+          "description": "A Vice Beach: 247 (Washington Beach, Ocean Beach), Ron Stop'N'Snack (Washington Beach), A&L Surf Mart, LTD Food Mart (Ocean Beach), !Superprecious! Market. Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-bar-vice-beach",
+          "name": "Bar – Vice Beach",
+          "kind": "Bar",
+          "description": "A Vice Beach: Brandy Carmine Hotel Bar, Zaffre Poolside Bar, La Villette (piscina e terrazza), La Cabine, High Tide Hotel (piscina, ristorante e terrazza), Albany Hotel (piscina e all'aperto), Y Hotel (dentro e fuori), Hotel Valetta Poolside Bar, Hotel Sapphire (piscina e lounge), Effluvia, Lickety Split, Beach Rose Apartments (due bar in piscina), The Emerald Rooftop Bar, Milk King (tre), Crystal Beach Club Outdoor Bar, The Atoll, Eden Grove, Ocean Bay Apartments Rooftop Bar, Golden Sands Poolside Bar, Hamilton Hotel Rooftop Bar, Calique (terrazza e piscina), The Shores Poolside Bar, Cirque De Cuisine, Glaims Hotel Rooftop Bar, Ocean View (terrazza e piscina), The Banana Hole (due bar), Harrison Harbor Rooftop Bar, Ocean West Poolside Bar, Basica Living Bar, The Sumerian Poolside Bar, Romeo Cole (spiaggia, chiosco e ristorante), Acai Dreams (sei bar tra VIP, terrazze e piscina), Janus Bar, Barra Rosa (chiosco e piscina), Fin & Farm Bar, Lucciano's, Beach Club Cafe, Vice Rowing Club Bar, Mojito Mae's, Tipsy Palms Beach Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cafe-vice-beach",
+          "name": "Caffè e cibo da asporto – Vice Beach",
+          "kind": "Caffè",
+          "description": "A Vice Beach: Milk King (tre), Mamma Cita's Cafe, Marzoli Italian Cafe, Chido!, Mezzasega Espresso, Lickety Split, Urban Edge Food Counter, Torreri Bread, Homeslice (due), Craw Mama!, Cafe Orquidea, Taco Jonudo, Yuma Taco, Promenade Bistro, Robusta Coffee House, Tasty Temaki, Fate's Brew, Grubbies; fuori conteggio: Ajax Gym Deli/Cafe e Ajax Gym Poolside Bar. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-street-vice-beach",
+          "name": "Cibo di strada – Vice Beach",
+          "kind": "Cibo di strada",
+          "description": "A Vice Beach: La Sombrilla (tre), Basic Beach (quattro), Tamarro (Washington Beach e Ocean Beach), Juice Hut (quattro), Refreshments Stand, Y Hotel Beach Bar, Ice City Creamery (tre), Ocean Beach Refreshments, Burger Shot, Chacey's, Plantfaced Vegan Burgers. Chioschi e bancarelle: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: carretto bianco (118 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -6274,6 +9083,135 @@
           "spoilerLevel": 2,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-pns-hamlet",
+          "name": "Pay 'n' Spray – Hamlet",
+          "kind": "Carrozzeria (Pay 'n' Spray)",
+          "description": "Hamlet. Ripari l'auto e cambi colore per far perdere le tracce alla polizia; dal capitolo 3 qui vendi e registri anche le auto rubate con localizzatore standard. Sulla mappa: bomboletta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/"
+          ]
+        },
+        {
+          "id": "poi-tattoo-layin-ink",
+          "name": "Layin' Ink",
+          "kind": "Studio di tatuaggi",
+          "description": "Hamlet. Stile Black & Gray: chiaroscuri e sfumature. Fa anche piercing al viso. Ogni studio ha disegni suoi. Sulla mappa: cuore arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-au-courant",
+          "name": "AU Courant",
+          "kind": "Parrucchiere",
+          "description": "Hamlet. Cambi taglio di capelli e barba: unisex, segue le ultime mode. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ff-pollo-diablo-hamlet",
+          "name": "Pollo Diablo – Hamlet",
+          "kind": "Fast food",
+          "description": "Hamlet. Compri da mangiare: il cibo dà un aiuto temporaneo alle statistiche. Sulla mappa: hamburger blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-liquor-discount-liquors",
+          "name": "Discount Liquors",
+          "kind": "Liquori",
+          "description": "Hamlet. Alcolici e snack che danno un aiuto temporaneo alle statistiche. Si può rapinare: 100–1.000 $ dalla cassa. Sulla mappa: bottiglia blu.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-hamlet-thrift",
+          "name": "Hamlet Thrift",
+          "kind": "Abbigliamento economico",
+          "description": "Hamlet. Vestiti usati: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-gas-hamlet",
+          "name": "Distributori di benzina – Hamlet",
+          "kind": "Distributore",
+          "description": "A Hamlet (oltre all'LTD già in elenco): Xero (Hamlet), Globe Oil (Hamlet), Arrow (Hamlet). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-hamlet",
+          "name": "Minimarket – Hamlet",
+          "kind": "Minimarket",
+          "description": "A Hamlet e dintorni: Leonida Truck Stop, Globe Oil Food Center (Hamlet), Righto Cash & Carry, Ramon's Groceries, LTD Food Mart (Hamlet), 247 (Hamlet). Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-skeeters",
+          "name": "Skeeter's",
+          "kind": "Bar",
+          "description": "Margine sud di Hamlet. Bar con un avversario di biliardo: il tavolo è sul lato sud del locale. Per il 100% servono 5 avversari diversi battuti.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -6425,6 +9363,122 @@
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-salon-hair-by-clair",
+          "name": "Hair By Clair",
+          "kind": "Centro estetico",
+          "description": "Capri. Cambi taglio di capelli e barba: di lusso, tagli senza tempo. Le acconciature base sono ovunque, quelle «firma» solo qui. Qui Lucia può cambiare anche unghie e trucco. Sulla mappa: forbici arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-victoria-lee-jeweler",
+          "name": "Victoria Lee Jeweler",
+          "kind": "Gioielleria (rapina)",
+          "description": "Capri. Gioielleria rapinabile dalla metà del capitolo 3: spaventa il personale, spegni l'allarme nel retro, poi rompi le vetrine; bottino 9.000–20.000 $. Sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-cloth-nola-capri",
+          "name": "Nola – Capri",
+          "kind": "Abbigliamento",
+          "description": "Capri. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cloth-ferruccio-tucci-capri",
+          "name": "Ferruccio Tucci – Capri",
+          "kind": "Abbigliamento",
+          "description": "Capri. Vestiti eleganti: i negozi della stessa marca vendono gli stessi capi, quindi ne basta uno. C'è il camerino, dove puoi anche preparare completi e metterli nel bagagliaio. Sulla mappa: maglietta arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shoes-callus-capri",
+          "name": "Callus – Capri",
+          "kind": "Calzature",
+          "description": "Capri. Scarpe; passando sull'icona la mappa dice la marca. Molti negozi di vestiti vendono anche scarpe. Sulla mappa: scarpa arancione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gas-capri",
+          "name": "Distributori di benzina – Capri",
+          "kind": "Distributore",
+          "description": "A Capri: Xero (Capri), LTD (Capri). Tutti i veicoli consumano benzina: alla pompa fai il pieno e, pagando poco, ripari anche l'auto. Sulla mappa: pompa blu (sono 57 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-shop-capri",
+          "name": "Minimarket – Capri",
+          "kind": "Minimarket",
+          "description": "A Capri: Xero Food Mart (Capri), LTD Food Mart (Capri). Vendono Zombix (si chiede al commesso), cibo per gli animali domestici e la spesa per il frigo di casa; si possono rapinare puntando l'arma al commesso. Sulla mappa: borsa blu (72 in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "moreSources": [
+            "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+          ]
+        },
+        {
+          "id": "poi-cafe-capri",
+          "name": "Caffè e cibo da asporto – Capri",
+          "kind": "Caffè",
+          "description": "A Capri: Brewtiful Coffee Co., Mezzasega Espresso, Volcano Coffee Co.. Si compra da mangiare: aiuto temporaneo alle statistiche. Sulla mappa: posate blu (87 in tutto, più quelli con l'icona bianca).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,

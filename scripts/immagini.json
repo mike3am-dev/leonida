@@ -5132,6 +5132,16 @@
       "file": "vice/personaggi/chr-tyrone.png",
       "url": "https://gta.wiki/images/UnnamedThug-GTAVI-Trailer2-Portrait.png",
       "for": "chr-tyrone"
+    },
+    {
+      "file": "mondo/brd-m7.jpg",
+      "url": "https://gta.wiki/images/OfficialScreenshots-GTAVI-EdgeMagazine04.jpg",
+      "for": "brd-m7"
+    },
+    {
+      "file": "mondo/brd-joysystem-8.png",
+      "url": "https://gta.wiki/images/JoySystem8-GTAVI-Trailer2.png",
+      "for": "brd-joysystem-8"
     }
   ],
   "zip": {

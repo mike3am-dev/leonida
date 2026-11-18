@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.49.0",
+  "dataVersion": "0.50.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.50.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa: 221 punti d'interesse nuovi, 602 in tutto. Ci sono 30 Smash 'n' Grab (gioiellerie e banchi dei pegni), 19 Pay 'n' Spray, tatuatori, parrucchieri e barbieri, negozi di elettronica, vestiti e scarpe, fast food, liquori, autolavaggi e stazioni.",
+        "Nelle regioni i punti d'interesse sono raggruppati per tipo (da rapinare, armi, auto, vestiti, cibo, negozi, trasporti, svago, luoghi) in sezioni che si aprono con un tocco.",
+        "Mondo: le 5 gang che mancavano (Kingfishers, Kolts & Associates, M7, La Polilla Negra, Guardia Brothers), le app Vice City Real Estate e Fitness, lo scanner della polizia, Paradise Taxi e la serie TV Right Wing. The Thirsty Wolf ora è a Belville."
+      ]
+    },
     {
       "version": "0.49.0",
       "date": "2026-11-18",

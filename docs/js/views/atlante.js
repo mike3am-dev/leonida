@@ -125,6 +125,31 @@ function zoneStats(b, d) {
 }
 export const TERRITORY_SLUGS = { 'port-gellhorn': 'dis-port-gellhorn', 'ambrosia': 'dis-ambrosia', 'grassrivers': 'dis-grassrivers', 'hamlet': 'dis-hamlet', 'leonida-keys': 'dis-keys', 'mount-kalaga': 'dis-mount-kalaga', 'waning-sands': 'dis-waning-sands', 'capri': 'dis-capri', 'vice-beach': 'dis-vice-beach' };
 
+/* Punti d'interesse raggruppati per tipo: con centinaia di negozi una lista unica non si legge */
+const POI_FAMILIES = [
+  ['Da rapinare e lavori sporchi', /gang|rapina|ricettator|caveau/i],
+  ['Armi e attrezzatura', /armeria|ammu|poligono/i],
+  ['Auto e mezzi', /officina|carrozzeria|pay 'n' spray|autolavaggio|garage|concession|sfasciacarr|gommista|ricambi|distributore|noleggio|marina|cantiere|porto|aeroport|aviazione|drone/i],
+  ['Vestiti e aspetto', /abbigliamento|calzature|tatuaggi|parrucchiere|barbiere|estetico|skate/i],
+  ['Cibo, bar e locali', /fast food|bar|caff|cibo|ristorante|diner|gastronomia|alimentari|liquori|minimarket|macelleria|nightclub|strip|locale|mercato/i],
+  ['Negozi e servizi', /elettronica|negozi|negozio|banca|agenzia|banco dei pegni|ferramenta|feste|dischi|telefoni|centro commerciale|gioielleria|spedizioni/i],
+  ['Stazioni e trasporti', /stazione|metro|trasporto|terminal/i],
+  ['Svago e sport', /golf|minigolf|palestra|stadio|arena|circuito|teatro|anfiteatro|zoo|acquario|museo|galleria|ruota|attrazione|casin|wrestling|club di fango|squadra/i],
+  ['Luoghi della mappa', /./],
+];
+function poiGroups(pois) {
+  const groups = POI_FAMILIES.map(([t]) => ({ t, list: [] }));
+  for (const p of pois) groups[POI_FAMILIES.findIndex(([, re]) => re.test(p.kind || ''))].list.push(p);
+  const btn = (p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
+          <span class="poi__thumb">${p.image ? img(p.image, p.imageUrl) : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
+          <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${srcBadge(p)}</span>
+          <span class="whats whats--mini">${whatThere(p)}</span></button>`;
+  const used = groups.filter((g) => g.list.length);
+  // poche voci: niente gruppi, si vede tutto
+  if (pois.length <= 14) return `<div class="pois">${pois.map(btn).join('')}</div>`;
+  return `<div class="poigroups">${used.map((g) => acc(`${g.t} · ${g.list.length}`, `<div class="pois">${g.list.map(btn).join('')}</div>`, false)).join('')}</div>`;
+}
+
 /* ---------- Schede delle regioni ----------
    Ordine pensato per chi gioca: chi e cosa c'è (in alto, subito) → cosa mi resta da fare → la guida → i posti. */
 const chipLink = (name, places) => { const l = places.find((x) => x.name.toLowerCase().startsWith(name.toLowerCase().split(/[,(]/)[0].trim())); return l ? `<a class="chip chip--btn" href="#/mappa/luogo/${esc(l.slug)}">${esc(name)}</a>` : `<span class="chip">${esc(name)}</span>`; };
@@ -147,10 +172,7 @@ function zoneCard(d, expanded, num = 0) {
       ${extrasHtml(d)}
       ${b.total ? zoneStats(b, d) : ''}
       ${main ? `<a class="guidelink" href="#/mappa/luogo/${esc(main.slug)}"><span class="guidelink__img">${img(main.hero?.local, main.hero?.src)}</span><span><span class="kicker">Guida alla regione</span><b>${esc(main.name)}</b><span class="small muted">Tocca per aprirla${main.landmarks?.length ? ` · ${main.landmarks.length} punti da trovare` : ''}</span></span><svg class="guidelink__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
-      ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span><div class="pois">${pois.map((p) => `<button class="poi" type="button" data-pop="${esc(p.id)}">
-          <span class="poi__thumb">${p.image ? img(p.image, p.imageUrl) : '<svg aria-hidden="true"><use href="#i-pin"/></svg>'}</span>
-          <span class="poi__name">${esc(p.name)}</span><span class="poi__kind">${esc(p.kind || '')}${srcBadge(p)}</span>
-          <span class="whats whats--mini">${whatThere(p)}</span></button>`).join('')}</div>` : ''}
+      ${pois.length ? `<span class="kicker">Punti d'interesse (${pois.length})</span>${poiGroups(pois)}` : ''}
       ${(() => { const fauna = vis(db.collectibles).filter((c) => c.categoryId === 'cat-fauna' && (c.districtId === d.id || (c.districtIds || []).includes(d.id))); return fauna.length ? `<span class="kicker">Animali della zona</span><div class="chips">${fauna.map((c) => `<a class="chip chip--btn" href="#/collezionabili?cat=cat-fauna">${esc(c.emoji || '🐾')} ${esc(c.name)}</a>`).join('')}</div>` : ''; })()}
       ${places.length ? `<span class="kicker">Luoghi con la loro guida</span><div class="placegrid placegrid--mini">${places.map(luogoCard).join('')}</div>` : ''}
       ${photos.length ? `<span class="kicker">Foto</span><div class="zone__photos">${photos.map((g) => `<figure><img src="${esc(g.src)}" ${g.url ? `data-fallback="${esc(g.url)}"` : ''} alt="" loading="lazy">${g.caption ? `<figcaption>${esc(g.caption)}</figcaption>` : ''}</figure>`).join('')}</div>` : ''}

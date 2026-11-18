@@ -119,7 +119,7 @@
       "id": "brd-gta-plus",
       "name": "GTA+",
       "category": "Abbonamento",
-      "description": "I preordini digitali includono un mese gratuito di GTA+, riscattabile subito e utilizzabile anche su GTA Online e sui titoli classici della GTA+ Games Library. Dal 27 novembre al 15 gennaio chi ha GTA+ gioca gratis a NBA 2K27 Standard Edition su PS5 e Xbox Series, con il 20% di sconto per comprarlo; dal 17 dicembre al 31 marzo c'è anche un pacchetto bonus Vice City.",
+      "description": "I preordini digitali includono un mese gratuito di GTA+, riscattabile subito e utilizzabile anche su GTA Online e sui titoli classici della GTA+ Games Library. Dal 27 novembre al 15 gennaio chi ha GTA+ gioca gratis a NBA 2K27 Standard Edition su PS5 e Xbox Series, con il 20% di sconto per comprarlo; dal 17 dicembre al 31 marzo c'è anche un pacchetto bonus Vice City.\n\nIn GTA VI vale anche nella storia, con abbonamento attivo e connessione: dal capitolo 3 un'Annis Venturas BLVD Elegy '90 widebody e un garage da un posto a Crosstown; RydeMe e Scooter Bros Premium, bici, monopattini, Seashark e mezzi pubblici gratis, +10% sulla vendita dei veicoli e -10% nei negozi.",
       "image": "assets/img/mondo/brd-gta-plus.png",
       "status": "verificato",
       "source": "trailer",
@@ -131,6 +131,10 @@
       "imageCredit": "Logo GTA+ (servizio esistente in GTA Online, serie), da GTA Wiki",
       "relatedIds": [
         "new-20261116-nba-2k27-vice-city"
+      ],
+      "moreSources": [
+        "https://www.gtaboom.com/gta-members-get-an-exclusive-car-and-garage-in-gta-6-c5ae",
+        "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/"
       ]
     },
     {
@@ -208,8 +212,12 @@
       "updatedAt": "2026-11-19",
       "name": "RydeMe",
       "category": "App",
-      "description": "L'app del telefono per chiamare un'auto con autista, sul modello di Uber: si prenota un passaggio e si arriva a destinazione senza guidare. Si può condividere la corsa con un passeggero e chiacchierare durante il tragitto, oppure saltare il viaggio e arrivare subito. È una delle opzioni di viaggio rapido insieme a taxi, autobus e treni.",
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
+      "description": "L'app del telefono per chiamare un'auto con autista, sul modello di Uber: si prenota un passaggio e si arriva a destinazione senza guidare. Si può condividere la corsa con un passeggero e chiacchierare durante il tragitto, oppure saltare il viaggio e arrivare subito. È una delle opzioni di viaggio rapido insieme a taxi, autobus e treni.\n\nNel gioco arriva nel capitolo 2 (secondo GamesRadar già nel capitolo 1). Il prezzo cresce con la distanza; a bordo, parlando con l'autista, paghi 100 $ per saltare il viaggio. Se nessun autista è libero, resta Paradise Taxi.",
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+      ]
     },
     {
       "id": "brd-waink",
@@ -221,8 +229,11 @@
       "updatedAt": "2026-11-07",
       "name": "WAiNK",
       "category": "App",
-      "description": "L'app del telefono per scansionare i veicoli parcheggiati prima di rubarli. Mostra se l'auto è chiusa, che tipo di allarme ha e se monta un localizzatore, oltre al suo valore e a quanto costa registrarla come veicolo personale. È il cuore del nuovo furto d'auto: si sceglie il colpo valutando rischio e guadagno.",
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/"
+      "description": "L'app del telefono per scansionare i veicoli parcheggiati prima di rubarli. Mostra se l'auto è chiusa, che tipo di allarme ha e se monta un localizzatore, oltre al suo valore e a quanto costa registrarla come veicolo personale. È il cuore del nuovo furto d'auto: si sceglie il colpo valutando rischio e guadagno.\n\nNel gioco si apre tenendo premuto su sulla croce direzionale: l'icona rossa vuol dire localizzatore avanzato, da evitare finché non puoi toglierlo. Serve anche per scansionare opere d'arte e curiosità: se il controller vibra forte, c'è qualcosa da scansionare.",
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
+      "moreSources": [
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+      ]
     },
     {
       "id": "brd-scooter-bros",
@@ -234,8 +245,12 @@
       "updatedAt": "2026-11-07",
       "name": "Scooter Bros",
       "category": "App",
-      "description": "L'app per farsi consegnare il proprio veicolo dove ci si trova, anche per recuperarlo a pagamento quando è stato distrutto. Nella serie il marchio compariva come sponsor motoristico con la bandiera a scacchi nel logo.",
-      "sourceUrl": "https://gtabase.com/gta-6/vehicles/"
+      "description": "L'app per farsi consegnare il proprio veicolo dove ci si trova, anche per recuperarlo a pagamento quando è stato distrutto. Nella serie il marchio compariva come sponsor motoristico con la bandiera a scacchi nel logo.\n\nNel gioco arriva nel capitolo 2 (prima l'auto te la porta gratis un contatto del telefono). Dall'app scegli il veicolo e premi «Request»: arriva subito, a pagamento; ripara l'auto e la tira fuori dal deposito della polizia. La versione Premium costa 12.500 $ e dà tre consegne gratis al giorno.",
+      "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-summon-vehicles/",
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+      ]
     },
     {
       "id": "brd-snapmatic",
@@ -351,16 +366,20 @@
     {
       "id": "brd-catene-benzina",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "name": "Alpha, Arrow, Xero, Globe Oil, Gas Stop, LTD",
+      "updatedAt": "2026-11-18",
+      "name": "Xero, Ron, Arrow, Globe Oil, LTD, 247, Alpha",
       "category": "Distributori",
-      "description": "Le catene di distributori di carburante. Finora si conoscono tre stazioni di servizio.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "description": "Le catene di distributori: sulla mappa i distributori sono 57 (icona blu della pompa), quasi tutti Xero, Ron, Arrow, Globe Oil, LTD, 247 o Alpha, più qualche emporio di campagna. Tutti i veicoli consumano benzina; alla pompa si ripara anche l'auto. Xero e Ron hanno anche autolavaggi a Vice City. Gas Stop, visto prima dell'uscita, non compare nell'elenco.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
       "image": "assets/img/mondo/brd-catene-benzina.webp",
-      "imageUrl": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l165-full.webp"
+      "imageUrl": "https://www.gtasixmap.com/images/locations/belville-belle-glade/landmark-l165-full.webp",
+      "moreSources": [
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://www.powerpyx.com/gta-6-all-car-washes-locations/"
+      ]
     },
     {
       "id": "brd-catene-fastfood",
@@ -372,7 +391,7 @@
       "updatedAt": "2026-11-07",
       "name": "Bobby Hurricane's, Lucky Plucker, Bite!, Chacey's, Horny's Burgers, Marbles",
       "category": "Fast food",
-      "description": "Le catene di fast food. Chacey's è quella del Prairie Sandwich da 30.000 calorie.",
+      "description": "Le catene di fast food. Chacey's è quella del Prairie Sandwich da 30.000 calorie.\n\nNell'elenco dei fast food della mappa (21) ci sono Pollo Diablo, Chacey's, Peewees, Marbles, Taco Bomb, Burger Shot e i waffle di Hank's e Frank's.",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9d/Marbles-GTAVI-OfficialScreenshot-Bag%26Cup.jpg"
     },
@@ -380,14 +399,14 @@
       "id": "brd-24-7",
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "name": "24/7, Limited Gasoline, Quickshop",
+      "updatedAt": "2026-11-18",
+      "name": "24/7, Xero Food Mart, Ron Stop'N'Snack, LTD Food Mart",
       "category": "Minimarket",
-      "description": "I minimarket da rapinare; se ne conoscono cinque.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "description": "Le catene di minimarket: sulla mappa sono 72 (borsa blu). Vendono Zombix, cibo per gli animali e la spesa per casa, e si possono rapinare. Oltre alle catene (anche Globe Oil Food Center e Alpha) ci sono tante botteghe con un nome proprio.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/"
     },
     {
       "id": "brd-weazel",
@@ -399,7 +418,7 @@
       "updatedAt": "2026-11-19",
       "name": "Weazel News, Megamundo, Mega Noticias, MeTV, CNT",
       "category": "TV",
-      "description": "Le reti televisive; Megamundo è la rete in lingua spagnola che inaugura la sua torre a Downtown. Weazel News è comparsa sui bus di Miami. Weazel trasmette la serie animata «Macca & Friends» dal 19 novembre.",
+      "description": "Le reti televisive; Megamundo è la rete in lingua spagnola che inaugura la sua torre a Downtown. Weazel News è comparsa sui bus di Miami. Weazel trasmette la serie animata «Macca & Friends» dal 19 novembre.\n\nSu Weazel va anche una serie animata satirica ambientata in un quartiere di oggetti a forma fallica; un'altra serie ha per protagonista Right Wing, l'aquila supereroe.",
       "sourceUrl": "https://gta.wiki/w/Megamundo",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-weazel-news-borne-wynwood.jpg",
       "imageCredit": "Pubblicità reale di GTA VI a Miami con logo Weazel News, foto di vice-central.com"
@@ -429,7 +448,7 @@
       "updatedAt": "2026-11-05",
       "name": "Nola, Caliber, Ferruccio Tucci, This/That, Blagueurs, Frills & Fancy, Fufu",
       "category": "Moda",
-      "description": "Le etichette di abbigliamento, dai negozi della mappa al servizio di moda di Dazed.",
+      "description": "Le etichette di abbigliamento, dai negozi della mappa al servizio di moda di Dazed.\n\nNei negozi del gioco (67) i marchi sono divisi per tipo: casual e street (Slinger, Mid, This / That, Suburban, Urban Legendz, Drip Drops, Stock 305), sportivo (Alpha Sports, Endzone, Eris), elegante (Nola, Ferruccio Tucci), souvenir e costumi (24 negozi) e usato (Hamlet Thrift, Aline's Thrift Store, Dr Froogal, Nifty Threads, Bargain World).",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://gta.wiki/images/Frills%26Fancy-GTAVI-AnExtendedLook.png?a4103"
     },
@@ -443,10 +462,13 @@
       "updatedAt": "2026-11-05",
       "name": "Vice City Mambas, Manatees, Narcos, Flamingos, Capri City Jackals",
       "category": "Squadre sportive",
-      "description": "Le squadre di Leonida: football al Fleeca Field, basket alla Sahara Arena e anche baseball. Capri ha la sua squadra, i Jackals.",
+      "description": "Le squadre di Leonida: football al Fleeca Field, basket alla Sahara Arena e anche baseball. Capri ha la sua squadra, i Jackals.\n\nC'è anche il calcio: il Vice City Club de Fútbol ha un set di carte collezionabili, come Narcos, Manatees e Flamingos. Altri set sono di squadre di Liberty City e Los Santos (Wrath, Penetrators, Swingers, Corkers, Panic, Pounders).",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1f/ViceCityNarcos-GTAVI-OfficialScreenshot-ViceCity08-Logo.jpg/revision/latest?cb=20250521225732",
-      "imageCredit": "Logo Vice City Narcos su un maxischermo (screenshot ufficiale); una delle squadre della voce, da GTA Wiki"
+      "imageCredit": "Logo Vice City Narcos su un maxischermo (screenshot ufficiale); una delle squadre della voce, da GTA Wiki",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/"
+      ]
     },
     {
       "id": "brd-trasporti",
@@ -525,14 +547,14 @@
       "id": "brd-game-horde",
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "name": "Game Horde",
       "category": "Negozio di videogiochi",
-      "description": "Un negozio di videogiochi fisici: ironico per un gioco senza disco.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "description": "Negozio di elettronica di Port Gellhorn: cuffie, auricolari e cover per il telefono. Il nome promette videogiochi fisici, ironico per un gioco senza disco.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/"
     },
     {
       "id": "brd-goodtime-state",
@@ -606,11 +628,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "name": "BuckMe",
       "category": "App",
-      "description": "L'app della banca, con il conto che Jason e Lucia hanno in comune.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "description": "L'app della banca, con il conto che Jason e Lucia hanno in comune.\n\nNel gioco arriva nel capitolo 1: la Fleeca di Key Lento non apre il conto e propone l'app. I soldi messi nel Family Savings non si ritirano più ma non si perdono e sbloccano sconti; gli acquisti sopra i 1.000 $ passano dall'app; «ATM Finder» porta al bancomat più vicino per versare i contanti, che altrimenti perdi se muori.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
       "imageUrl": "https://gta.wiki/images/Buckme-GTAVI-AnExtendedLook-HUD.png?b8346"
     },
     {
@@ -655,10 +677,13 @@
       "updatedAt": "2026-11-05",
       "name": "Lifeinvader (feed livestream)",
       "category": "App",
-      "description": "Il feed delle dirette, che si apre con R3; il nome Lifeinvader non è ufficiale. Take-Two ha registrato anche domini come Bleeter, Fruit Pay e LeonidaGov.",
+      "description": "Il feed delle dirette, che si apre con R3; il nome Lifeinvader non è ufficiale. Take-Two ha registrato anche domini come Bleeter, Fruit Pay e LeonidaGov.\n\nNel gioco non ci sono siti internet: Rockstar ha puntato tutto su app e social del telefono (Rob Nelson a Kotaku).",
       "sourceUrl": "https://gta6locations.com/locations/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Lifeinvader-GTAV-Logo.png/revision/latest?cb=20260930174240",
-      "imageCredit": "Logo Lifeinvader di GTA V (serie), da GTA Wiki"
+      "imageCredit": "Logo Lifeinvader di GTA V (serie), da GTA Wiki",
+      "moreSources": [
+        "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890"
+      ]
     },
     {
       "id": "brd-chunkee",
@@ -841,7 +866,7 @@
       "id": "brd-pay-n-spray",
       "name": "Pay 'n' Spray",
       "category": "Servizi",
-      "description": "Catena di carrozzerie storica della serie che torna in GTA VI: riparazioni, cambio colore e azzeramento del «calore» del veicolo. Le officine hanno specialità e opzioni esclusive per zona.",
+      "description": "Catena di carrozzerie storica della serie che torna in GTA VI: riparazioni, cambio colore e azzeramento del «calore» del veicolo. Le officine hanno specialità e opzioni esclusive per zona.\n\nSulla mappa sono 19 (bomboletta arancione), in tutte e cinque le contee. Dal capitolo 3 ci vendi e registri le auto rubate con localizzatore standard.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
@@ -957,7 +982,7 @@
       "id": "brd-uncle-jack-s-liquor",
       "name": "Uncle Jack's Liquor",
       "category": "Negozi",
-      "description": "Il liquor store di Port Gellhorn che Jason e Lucia rapinano con le bandane sul volto. Ricalca un negozio del Callaway Village Square sulla Tyndall Parkway di Panama City.",
+      "description": "Il liquor store di Port Gellhorn che Jason e Lucia rapinano con le bandane sul volto. Ricalca un negozio del Callaway Village Square sulla Tyndall Parkway di Panama City.\n\nÈ una catena: oltre a Port Gellhorn ha negozi a Tequesta e a Bayside, tutti rapinabili.",
       "image": "assets/img/mondo/brd-uncle-jack-s-liquor.png",
       "status": "da verificare",
       "source": "community",
@@ -966,7 +991,10 @@
       "example": false,
       "updatedAt": "2026-11-07",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/UncleJacksLiquor-GTAVI-Trailer1.png/revision/latest?cb=20251014091454",
-      "imageCredit": "Vetrina con logo Uncle Jack's dal trailer 1, da GTA Wiki"
+      "imageCredit": "Vetrina con logo Uncle Jack's dal trailer 1, da GTA Wiki",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/"
+      ]
     },
     {
       "id": "brd-port-gellhorn-pawn-gun",
@@ -1071,14 +1099,14 @@
       "id": "brd-the-thirsty-wolf",
       "name": "The Thirsty Wolf",
       "category": "Vita notturna",
-      "description": "Bar roadhouse in legno di Ambrosia con i biker davanti: è il punto di ritrovo del Final Chapter MC, la gang di motociclisti che comanda in città.",
+      "description": "Bar roadhouse in legno con i biker davanti, nella contea di Leonard al margine nord-ovest di Belville (non dentro Ambrosia): è il punto di ritrovo del Final Chapter MC. Dentro c'è un avversario di biliardo.",
       "image": "assets/img/mondo/brd-the-thirsty-wolf.png",
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/ambrosia",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-GameInformerExclusive11.png?123a9"
     },
     {
@@ -2282,13 +2310,16 @@
       "id": "brd-mammacita-s",
       "name": "Mammacita's Cafe",
       "category": "Luoghi di ritrovo",
-      "description": "Il secondo caffè del Piker Financial Center, accanto a Roasters.",
+      "description": "Il secondo caffè del Piker Financial Center, accanto a Roasters.\n\nÈ una catena: oltre al Piker Financial Center ha locali a Tequesta e a Ocean Beach.",
       "status": "da verificare",
       "source": "leak",
       "sourceUrl": "https://gtadb.org/map/?v=6&l=L3228",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-07",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/"
+      ]
     },
     {
       "id": "brd-billie-bob-s",
@@ -2459,6 +2490,465 @@
       "image": null,
       "id": "brd-barnyard-blue",
       "example": false
+    },
+    {
+      "id": "brd-kingfishers",
+      "name": "Kingfishers",
+      "category": "Gang",
+      "description": "Gang delle paludi e delle Keys, nella contea di Mariana: traffica cocaina e animali esotici. Ha tre operazioni da rapinare: le Fishing Shacks di Wetman Bay, il Sunrise RV Park di Alligator Creek e il Manatee Motel.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-kolts-associates",
+      "name": "Kolts & Associates",
+      "category": "Gang",
+      "description": "L'organizzazione che spaccia pillole e farmaci da prescrizione a Port Gellhorn. Le sue cinque operazioni da rapinare sono tutte in città: Kingpin Bowling, June Warehouse, La Cascara Motel, Brooks Boatworks e un quinto covo.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-m7",
+      "name": "M7 (Marabunta Grande)",
+      "category": "Gang",
+      "description": "La gang salvadoregna già vista in GTA V, riconoscibile dai tatuaggi M7. A Leonida ha due operazioni da rapinare: il complesso sulla costa a sud di Vice City e un covo sulla costa est della contea di Lummox.",
+      "image": "assets/img/mondo/brd-m7.jpg",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Marabunta_Grande"
+      ],
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-EdgeMagazine04.jpg",
+      "imageCredit": "GTA Wiki (gta.wiki), screenshot ufficiale Rockstar da Edge (membri M7)"
+    },
+    {
+      "id": "brd-la-polilla-negra",
+      "name": "La Polilla Negra",
+      "category": "Gang",
+      "description": "Banda che importa cocaina dal mare. Delle sue due operazioni se ne conosce una: il Palmer Fishing Warehouse, magazzino di pesce sulla costa della contea di Mariana.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-guardia-brothers",
+      "name": "Guardia Brothers",
+      "category": "Gang",
+      "description": "Gang di Little Cuba, a Vice City. Ha tre operazioni da rapinare: Casa Guardia, vecchio edificio simbolo del quartiere, un cantiere nautico sul fiume e un deposito di spedizioni usati per la droga.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Guardia_Brothers"
+      ]
+    },
+    {
+      "id": "brd-vice-city-real-estate",
+      "name": "Vice City Real Estate",
+      "category": "App",
+      "description": "L'app del telefono per comprare i garage, che arriva nella seconda metà del capitolo 2. Gli otto garage in vendita hanno un posto auto e costano da 4.000 a 40.000 $; altri quattro arrivano con la storia.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-garage-locations/"
+      ]
+    },
+    {
+      "id": "brd-app-fitness",
+      "name": "Fitness (app)",
+      "category": "App",
+      "description": "L'app del telefono che segue la forma fisica: Forza e Resistenza, peso e calorie mangiate. Ti ricorda quando allenarti; l'allenamento va finito, altrimenti i progressi si perdono, e dopo conviene mangiare proteine.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/"
+      ]
+    },
+    {
+      "id": "brd-scanner-polizia",
+      "name": "Scanner della polizia (app)",
+      "category": "App",
+      "description": "Un programma fatto in casa che Cal installa sul telefono di Jason all'inizio del gioco: da lì Jason sente la radio della polizia, che segnala la sua auto, i suoi vestiti e dove si trova. Più avanti ce l'ha anche Lucia. È la prima volta che la serie spiega perché si sente la polizia.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-paradise-taxi",
+      "name": "Paradise Taxi",
+      "category": "Servizi",
+      "description": "La compagnia di taxi, nei contatti del telefono fin dall'inizio. Metti la destinazione sulla mappa, sali e, parlando con l'autista, paghi 100 $ per arrivare subito, a qualunque distanza: è il viaggio rapido prima di RydeMe.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-joysystem-8",
+      "name": "JoySystem 8",
+      "category": "Pubblicità",
+      "description": "La console di casa, parodia della PlayStation. In salotto ci giochi Tenebrae Lux, Street Trash III e Time Jackers Rewind (non durante il capitolo 2); il quarto gioco, Bang For Your Buck, è solo nei cabinati in giro per il mondo, per esempio davanti a Bargain World a Port Gellhorn.",
+      "image": "assets/img/mondo/brd-joysystem-8.png",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/JoySystem_8"
+      ],
+      "imageUrl": "https://gta.wiki/images/JoySystem8-GTAVI-Trailer2.png",
+      "imageCredit": "GTA Wiki (gta.wiki), la console nel secondo trailer"
+    },
+    {
+      "id": "brd-right-wing",
+      "name": "Right Wing",
+      "category": "TV",
+      "description": "Serie della TV di Leonida con un supereroe aquila ferito, che può usare solo l'ala destra: satira sulla forza militare e sui confini americani. Ha anche un set di carte collezionabili, «Right Wing: America's Hero».",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://press-start.com.au/news/2026/11/19/gta-6-packs-a-lot-of-its-satire-into-its-insane-tv-shows/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/"
+      ]
+    },
+    {
+      "id": "brd-pollo-diablo",
+      "name": "Pollo Diablo",
+      "category": "Fast food",
+      "description": "Catena di pollo con fast food a Hamlet, all'aeroporto di Vice City, a Ocean Beach, a Waning Sands e a Millport, più un chiosco a Downtown.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-fast-food-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/"
+      ]
+    },
+    {
+      "id": "brd-chihuahua-hotdogs",
+      "name": "Chihuahua Hotdogs",
+      "category": "Fast food",
+      "description": "I carretti degli hot dog: nove in tutto lo stato, da Key Lento a Grassrivers, da Southside a Downtown, Waxman Island ed Emerald Springs.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-milk-king",
+      "name": "Milk King",
+      "category": "Luoghi di ritrovo",
+      "description": "Catena di gelati e frappè con nove locali: Peacock Bay, Downtown, tre a Ocean Beach e uno a Waning Sands; sulla mappa compaiono sia tra i caffè sia tra i bar.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-bar-locations/"
+      ]
+    },
+    {
+      "id": "brd-mezzasega-espresso",
+      "name": "Mezzasega Espresso",
+      "category": "Luoghi di ritrovo",
+      "description": "Catena di caffè all'italiana: Capri, Tequesta, Decor District, Ocean Beach e Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-alderney-joes",
+      "name": "Alderney Joe's",
+      "category": "Luoghi di ritrovo",
+      "description": "Catena di caffè: Downtown, Bayside, Waning Sands e un chiosco a Salton.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/"
+      ]
+    },
+    {
+      "id": "brd-tasty-temaki",
+      "name": "Tasty Temaki",
+      "category": "Luoghi di ritrovo",
+      "description": "Catena di sushi da asporto: Tequesta, Ocean Beach e Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-volcano-coffee",
+      "name": "Volcano Coffee Co.",
+      "category": "Luoghi di ritrovo",
+      "description": "Catena di caffè: Capri, Downtown e un chiosco a Salton.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/"
+      ]
+    },
+    {
+      "id": "brd-homeslice",
+      "name": "Homeslice",
+      "category": "Fast food",
+      "description": "Pizza al taglio: due locali a Ocean Beach e un chiosco a Downtown.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/"
+      ]
+    },
+    {
+      "id": "brd-chioschi-spiaggia",
+      "name": "Basic Beach, Juice Hut, La Sombrilla, Ice City Creamery, Tamarro",
+      "category": "Luoghi di ritrovo",
+      "description": "I chioschi delle spiagge di Vice Beach, tra Washington Beach e Ocean Beach: Basic Beach (quattro), Juice Hut (quattro), La Sombrilla (tre), Ice City Creamery (tre gelaterie) e Tamarro, che ha anche un bar a Vice City.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-altre-catene-cibo",
+      "name": "Big City Coconuts, Brodies, Cody's, Good Dough e altre",
+      "category": "Luoghi di ritrovo",
+      "description": "Le altre catene con due o tre punti vendita: Big City Coconuts, Brodies Snack Bar, Cody's Famous Fresh Road Grill, The Good Dough Bagel Co., Brewtiful Coffee Co., Los Bollos, Spin-Itch!, Torreri Bread, Chido!, Crust Fund, Blazed Burgers, The Toss Spot, Slushsquatch, Cup & Squeeze e Re:Pear.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/"
+      ]
+    },
+    {
+      "id": "brd-slinger",
+      "name": "Slinger",
+      "category": "Moda",
+      "description": "Catena di abbigliamento casual e street con sei negozi: Southside, Peacock Bay, Tequesta, Downtown, Decor District e Ocean Beach.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-mid",
+      "name": "Mid",
+      "category": "Moda",
+      "description": "Catena di abbigliamento casual: due negozi a Ocean Beach e uno a Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-alpha-sports",
+      "name": "Alpha Sports",
+      "category": "Moda",
+      "description": "Catena di abbigliamento sportivo: Downtown, quattro negozi a Ocean Beach e Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-endzone",
+      "name": "Endzone",
+      "category": "Moda",
+      "description": "Catena di abbigliamento sportivo: Downtown, due negozi a Ocean Beach e uno a Washington Beach.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-podium-sports",
+      "name": "Podium Sports",
+      "category": "Moda",
+      "description": "Catena di scarpe sportive: Southside, Tequesta, Downtown, due negozi a Ocean Beach e Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Podium_Sports"
+      ]
+    },
+    {
+      "id": "brd-whs",
+      "name": "WHS",
+      "category": "Moda",
+      "description": "Catena di scarpe: Little Cuba, due negozi a Downtown, Ocean Beach e Port Gellhorn.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-callus",
+      "name": "Callus",
+      "category": "Moda",
+      "description": "Catena di scarpe: Capri, Decor District, due negozi a Ocean Beach e Waning Sands.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-tech-point",
+      "name": "Tech Point",
+      "category": "Negozi",
+      "description": "Catena di elettronica (cuffie, auricolari, cover per il telefono) con due negozi: Tequesta e Ocean Beach.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-one-stop-liquor",
+      "name": "One Stop Liquor",
+      "category": "Negozi",
+      "description": "Catena di liquori con due negozi, a Key Lento e a Ocean Beach. Si possono rapinare.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-altri-hotel-bar",
+      "name": "Rico Huxley, High Tide, La Villette, Albany, Sapphire e gli altri hotel",
+      "category": "Hotel",
+      "description": "Gli hotel con un bar sulla mappa: Rico Huxley Hotels e Akio Hotel a Vice City; High Tide Hotel, La Villette, Albany Hotel, Y Hotel, Hotel Valetta, Hotel Sapphire, Brandy Carmine Hotel, Golden Sands, Hamilton Hotel, Glaims Hotel, Harrison Harbor e Ocean West a Vice Beach; Castenburg Hotel, The Pier Hotel e La Costa nella contea di Mariana.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-locali-vice-beach",
+      "name": "Acai Dreams, The Banana Hole, Crystal Beach Club, Barra Rosa",
+      "category": "Vita notturna",
+      "description": "I locali più grandi di Vice Beach: Acai Dreams ha sei bar tra sala VIP, terrazze e piscina; The Banana Hole due; poi il Crystal Beach Club, Barra Rosa e il Vice Rowing Club. A Vice City c'è il Jagua Club Lounge.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
     }
   ]
 }

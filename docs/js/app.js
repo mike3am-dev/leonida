@@ -29,7 +29,7 @@ import * as playlistView from './views/playlist.js';
 import * as radioDeck from './views/radio.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.49.0';
+window.__LEONIDA_VERSION__ = 'v0.50.0';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
