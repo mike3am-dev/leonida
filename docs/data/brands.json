@@ -2400,6 +2400,32 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-17"
+    },
+    {
+      "name": "Race and Chase",
+      "category": "Pubblicità",
+      "description": "Serie di videogiochi del mondo di gioco: su Snapmatic qualcuno si lamenta che sia uscito un gioco di Barnyard Blue prima di Race and Chase 7. È il vecchio nome di lavoro del primo GTA, già comparso come gioco da sala in GTA Online.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/grand-theft-auto-6-includes-a-joke-about-gta-7-2000755921",
+      "spoilerLevel": 0,
+      "updatedAt": "2026-11-18",
+      "image": null,
+      "id": "brd-race-and-chase",
+      "example": false
+    },
+    {
+      "name": "Barnyard Blue",
+      "category": "TV",
+      "description": "Cartone animato per bambini del mondo di gioco, da cui è stato tratto anche un videogioco: se ne parla in un post su Snapmatic.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/grand-theft-auto-6-includes-a-joke-about-gta-7-2000755921",
+      "spoilerLevel": 0,
+      "updatedAt": "2026-11-18",
+      "image": null,
+      "id": "brd-barnyard-blue",
+      "example": false
     }
   ]
 }

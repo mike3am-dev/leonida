@@ -2,6 +2,167 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261118-missioni-niente-rigioco",
+      "date": "2026-11-18",
+      "title": "Le missioni non si rigiocano: Rockstar le ha rese «più difficili da fallire» e ti lascia 15 salvataggi",
+      "body": "Il fatto: una missione completata non si può rigiocare, come confermato da chi ha recensito il gioco in più di 100 ore. In GTA V invece si potevano ripetere quando volevi.\n\nCome rimediare: ci sono 15 slot di salvataggio manuale più quello automatico, che ti salva se muori o vieni arrestato. Le missioni più importanti della storia si riconoscono in anticipo: conviene salvare prima di cominciarle.\n\nPerché: secondo David Hynd, vicepresidente della tecnologia di GTA VI, la squadra voleva ridurre i fallimenti quando provi qualcosa di diverso. Le missioni hanno più modi per essere affrontate; tenerle così aperte è stato molto più difficile, ma per Hynd ne valeva la pena.",
+      "topic": "gameplay",
+      "outlet": "Eurogamer",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions",
+      "relatedIds": [
+        "new-20261118-dalle-recensioni-come-si-gioca"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-niente-internet",
+      "date": "2026-11-18",
+      "title": "Niente internet nel gioco: al posto dei siti di GTA V ci sono solo le app del telefono",
+      "body": "Il fatto: in GTA VI non ci sono siti web da visitare. In GTA V il telefono apriva un finto internet, con un motore di ricerca e decine di siti dove compravi barche, armi e case; qui resta solo il telefono, con le sue app e i social.\n\nPerché: «Non ci sembrava necessario», ha detto a Kotaku Rob Nelson, capo dello sviluppo di Rockstar. La squadra voleva concentrarsi sulle app e sulle cose da fare nel mondo aperto, e far crescere Jason e Lucia dai furti nei negozi di liquori ai colpi grandi, invece di farti comprare tutto online. Non è stata una decisione presa dall'alto: quando Nelson chiese dei siti a Stu Petri, capo della grafica 2D e dell'interfaccia, la risposta fu «Per cosa? A cosa ti servono?». In futuro i siti potrebbero tornare.",
+      "topic": "gameplay",
+      "outlet": "Kotaku / Insider Gaming",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890",
+      "relatedIds": [
+        "new-20261118-casino-chiusi-niente-siti",
+        "new-20261007-snapmatic"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-trucchi-dopo-la-storia",
+      "date": "2026-11-18",
+      "title": "I 61 trucchi si usano solo dopo aver finito la storia, e mentre sono attivi non salvi e non prendi trofei",
+      "body": "Il fatto: GTA VI ha 61 trucchi (effetti sul personaggio, armi, veicoli, ambiente, filtri dello schermo), ma la sezione Trucchi compare nel menu Progressi solo dopo aver finito tutte le 91 missioni principali. Le sfide che li sbloccano, come le medaglie ai poligoni o le fughe dalla polizia, si possono fare anche prima, ma i codici restano inutilizzabili fino ai titoli di coda.\n\nIl prezzo: un trucco attivo blocca il salvataggio, i trofei e gli obiettivi per tutta quella sessione di gioco. In GTA V i codici funzionavano dalla prima ora e bloccavano solo gli obiettivi.",
+      "topic": "gameplay",
+      "outlet": "GTA BOOM / PC Gamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gtaboom.com/how-gta-6-cheats-work-and-why-you-have-to-finish-the-whole-story-first-f2f7",
+      "relatedIds": [],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-battuta-gta-7",
+      "date": "2026-11-18",
+      "title": "Su Snapmatic c'è una battuta su GTA 7: «Race and Chase 7» si fa ancora attendere",
+      "body": "Il fatto: già all'inizio del gioco, scorrendo Snapmatic sul telefono, si trova un post di qualcuno che si lamenta perché è uscito un videogioco tratto da Barnyard Blue, un cartone animato del mondo di gioco, prima di Race and Chase 7.\n\nIl riferimento: Race'n'Chase era il nome di lavoro del primo GTA, e in GTA Online c'è un videogioco da sala chiamato Race and Chase. «Race and Chase 7» richiama quindi GTA 7, e la battuta prende in giro gli anni passati a scrivere online «è uscito questo prima di GTA 6».",
+      "topic": "community",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/grand-theft-auto-6-includes-a-joke-about-gta-7-2000755921",
+      "relatedIds": [
+        "new-20261007-snapmatic"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-scanner-polizia",
+      "date": "2026-11-18",
+      "title": "Perché senti la radio della polizia: è un'app che Cal installa sul telefono di Jason",
+      "body": "Il fatto: per la prima volta nella serie il gioco spiega come mai il protagonista sente le comunicazioni della polizia. All'inizio della storia Cal installa sul telefono di Jason uno scanner fatto in casa; più avanti ce l'ha anche Lucia.\n\nPerché conta: le comunicazioni dicono se la polizia ha visto la tua auto o i tuoi vestiti, e durante gli inseguimenti Jason e Lucia ne parlano mentre cercano di scappare.",
+      "topic": "gameplay",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 1,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
+      "relatedIds": [
+        "mec-polizia-ricercato"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-mappa-a-piedi-e-benzina",
+      "date": "2026-11-18",
+      "title": "La mappa in numeri: più di tre ore a piedi, undici minuti in auto, e il pieno dura mezz'ora",
+      "body": "A piedi, da sud a nord: 3 ore, 21 minuti e 20 secondi camminando, 1 ora e 41 minuti correndo. In GTA V servivano circa due ore e mezza a piedi e mezz'ora di corsa: qui Jason e Lucia hanno una barra della resistenza che limita lo scatto.\n\nIn auto: 10 minuti e 53 secondi in autostrada con una berlina, senza rispettare i limiti.\n\nIl serbatoio: un vecchio pick-up resta a secco dopo 29 minuti e 8 secondi di guida normale, la Banshee dopo 18 minuti e 31 secondi, un'auto elettrica dopo 20 minuti e 23 secondi. In più di 130 ore il giornalista è rimasto senza carburante una volta sola, con un'auto rubata che aveva il serbatoio quasi vuoto.",
+      "topic": "mappa",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/it-took-me-over-three-hours-to-walk-across-gta-6s-massive-map-2000755572",
+      "relatedIds": [
+        "new-20260905-carburante"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-rockstar-tribunale-sindacato",
+      "date": "2026-11-18",
+      "title": "Glasgow: finite le arringhe sui 34 licenziati, la giudice decide nelle prossime settimane; intanto 1.600 dipendenti votano il sindacato",
+      "body": "Il processo: il 17 e 18 novembre si sono tenute le arringhe finali davanti al tribunale del lavoro di Glasgow. La giudice Lucy Wiseman deciderà nelle prossime settimane; non c'è una data. Per Rockstar i licenziamenti di fine ottobre 2025 sono per colpa grave: i dipendenti avrebbero condiviso informazioni riservate su GTA VI in un server Discord. Per il sindacato IWGB erano licenziamenti legati all'attività sindacale. Ventitré dei 34 licenziati hanno fatto causa.\n\nNei titoli di coda: Eurogamer ha confrontato l'elenco dei 34 con i titoli di coda del gioco e ne ha trovati almeno 28.\n\nIl voto: più di 1.600 dipendenti di Rockstar nel Regno Unito votano fino al 26 novembre per riconoscere il Rockstar Games Workers Union, che sarebbe il sindacato più grande del settore nel Paese. Rockstar dice che al gioco hanno lavorato più di 4.711 persone in 12 studi.",
+      "topic": "business",
+      "outlet": "Vice Central / Eurogamer / PC Gamer",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/proces-rockstar-glasgow-plaidoiries-fin-jugement/",
+      "relatedIds": [
+        "new-20260910-processo-di-glasgow-10-settembre-16-otto"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-motivi-tropicali-armi",
+      "date": "2026-11-18",
+      "title": "Due motivi «tropicali» per le armi: si sbloccano collegando l'account Rockstar alla console",
+      "body": "Come si ottengono: collega il tuo account Rockstar Games all'account PlayStation o Xbox dal sito di Rockstar (Account › Gestisci account › Connessioni), poi riavvia il gioco.\n\nDove si mettono: in qualsiasi Ammu-Nation, nel menu delle modifiche alla voce dei motivi estetici. Sono due motivi in stile Vice City e vanno sulla maggior parte delle armi, non su tutte.",
+      "topic": "gameplay",
+      "outlet": "Rockstar Intel",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/how-to-get-the-exclusive-gta-vi-tropical-weapon-skins/",
+      "relatedIds": [
+        "new-20261118-gta-plus-vantaggi"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
+      "id": "new-20261118-fox-news-lucia",
+      "date": "2026-11-18",
+      "title": "Fox News: «non è una cosa buona per la nostra cultura», e una conduttrice scambia Lucia per una prostituta",
+      "body": "Il fatto: nella trasmissione Fox & Friends Weekend la conduttrice Rachel Campos-Duffy ha detto che GTA VI non è una cosa buona «per la nostra cultura e la nostra società», poi ha chiesto se Lucia fosse «la prostituta». Il collega Griff Jenkins l'ha corretta subito: è una complice di Jason.\n\nLe reazioni: lo spezzone di 40 secondi gira su X dal 16 novembre ed è stato preso in giro da molti, che ci hanno visto un ritorno alle polemiche sull'uscita di GTA V nel 2013. Né Fox News né Rockstar hanno commentato.",
+      "topic": "community",
+      "outlet": "Vice Central / HuffPost / The Independent",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-fox-news-campos-duffy-lucia-polemique/",
+      "relatedIds": [
+        "chr-lucia"
+      ],
+      "updatedAt": "2026-11-18",
+      "image": null
+    },
+    {
       "id": "new-20261118-recensioni-capolavoro",
       "date": "2026-11-18",
       "title": "Recensioni: GTA VI è un capolavoro quasi per tutti, con il 10 di IGN, GameSpot, Edge e Game Informer e qualche riserva su storia e 30 fps",
@@ -597,22 +758,22 @@
     {
       "id": "new-20261117-italia-prima-ferie",
       "date": "2026-11-17",
-      "title": "L'Italia è prima al mondo per richieste di ferie il giorno dell'uscita: quasi il doppio dell'anno scorso",
-      "body": "I dati: tra le persone assunte tramite la piattaforma Remote, le richieste di ferie per giovedì 19 novembre in Italia sono 1,91 volte quelle dello stesso giovedì del 2025 (+91%), il dato più alto tra tutti i Paesi. Nel complesso i giorni prenotati sono il 32% in più.\n\nIntorno: nel Regno Unito la leader dei Conservatori Kemi Badenoch dice che GTA VI non renderà violenti i ragazzi e che la preoccupa di più il tempo che ci passeranno; il servizio sanitario NHS consiglia pause regolari per non farsi male a mani e dita. A Belfast una scuola sorteggia due buoni PlayStation o Xbox da 70 £ tra chi viene a lezione il 19 e il 20, giorno di un esame di matematica; in Spagna un professore ha tolto i compiti e spostato una verifica.",
+      "title": "Ferie per l'uscita: il «+91% in Italia» viene da un campione minuscolo e non dice quante persone staranno a casa",
+      "body": "Il dato: tra i dipendenti a tempo pieno assunti tramite la piattaforma Remote, le richieste di ferie per giovedì 19 novembre in Italia sono 1,91 volte quelle dello stesso giovedì del 2025, il rialzo più alto tra tutti i Paesi in cui l'azienda opera. Molti giornali lo hanno riportato come «Italia prima al mondo» e «ferie raddoppiate».\n\nPerché è fuorviante (Il Post, 18 novembre): il campione è piccolissimo e non rappresenta i lavoratori italiani, quindi un raddoppio può voler dire poche richieste in più. Conta solo le richieste fatte entro il 5 novembre, e soltanto una su 170 nomina GTA VI come motivo. La stessa Remote scrive che il dato italiano è «il più marcato, anche se non necessariamente il più affidabile». Negli Stati Uniti la piattaforma BambooHR stima un aumento tra il 9 e il 17%.\n\nIntorno: nel Regno Unito la leader dei Conservatori Kemi Badenoch dice che GTA VI non renderà violenti i ragazzi e che la preoccupa di più il tempo che ci passeranno; il servizio sanitario NHS consiglia pause regolari per non farsi male a mani e dita. A Belfast una scuola sorteggia due buoni PlayStation o Xbox da 70 £ tra chi viene a lezione il 19 e il 20, giorno di un esame di matematica; in Spagna un professore ha tolto i compiti e spostato una verifica.",
       "topic": "community",
-      "outlet": "Remote / BBC / NHS",
+      "outlet": "Remote / Il Post / BBC / NHS",
       "source": "stampa",
       "status": "da verificare",
       "spoilerLevel": 0,
       "example": false,
-      "sourceUrl": "https://remote.com/gta",
+      "sourceUrl": "https://www.ilpost.it/2026/11/18/ferie-gta-italia/",
       "relatedIds": [
         "new-20261026-assenteismo",
         "new-20261110-logitech-game-day",
         "new-20261109-australia-niente-malattia-finta",
         "new-20261113-lisa-nandy-orgoglio"
       ],
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "image": null
     },
     {
