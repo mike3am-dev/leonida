@@ -2379,7 +2379,7 @@
       "id": "col-carte-8",
       "categoryId": "cat-carte",
       "name": "America's Next Top Hooker · Dominant",
-      "districtId": null,
+      "districtId": "dis-keys",
       "directions": "Riquezas Keys, isola grande a sud-ovest: accanto alla sdraio con la radio accesa, vicino a una moto d'acqua abbandonata.",
       "status": "da verificare",
       "source": "stampa",
@@ -2487,12 +2487,15 @@
       "directions": "Starlet Motel (Gellhorn): nel bagno dell'ufficio, a terra vicino al water.",
       "missable": "Dopo il capitolo 2 questa parte dello Starlet Motel non è più accessibile.",
       "chapter": 2,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-17",
@@ -2500,12 +2503,15 @@
       "name": "Delights Dancers · Harley",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: dentro il Delights, sul divanetto di un séparé lungo la parete est. Se non la prendi entro la fine del capitolo 2, il locale riapre più avanti e si recupera.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-18",
@@ -2526,12 +2532,15 @@
       "name": "Delights Dancers · Tracy",
       "districtId": "dis-vice-city",
       "directions": "Salton: al piano alto dell'edificio a est della partenza della gara Hit 'n' Run VC, nella stanza sul tetto; la scala a pioli è sul retro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-20",
@@ -2630,12 +2639,15 @@
       "name": "Ed Comics Universe · Femi-Nemesis (argento)",
       "districtId": "dis-vice-city",
       "directions": "VCIA: nella roulotte visitabile subito a sud-ovest del banco dei pegni Pawn City, su un comò.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-28",
@@ -2747,12 +2759,15 @@
       "name": "Jack of Hearts Dancers · Malena (rossa)",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nella casa da scassinare sulla fila nord, a ovest di quella di Andy (giardino con i cavalli finti), sulla scrivania della camera in fondo.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-37",
@@ -2810,7 +2825,7 @@
       "id": "col-carte-41",
       "categoryId": "cat-carte",
       "name": "Jack of Hearts Dancers · Monali$a (argento)",
-      "districtId": null,
+      "districtId": "dis-mount-kalaga",
       "directions": "Featherstone Islands: in cima alla sala di controllo del relitto del Meerwunder, sull'isola a sud-est.",
       "status": "da verificare",
       "source": "stampa",
@@ -2823,7 +2838,7 @@
       "id": "col-carte-42",
       "categoryId": "cat-carte",
       "name": "Jack of Hearts Dancers · Zaria «Ri Ri» Luckett (oro)",
-      "districtId": null,
+      "districtId": "dis-ambrosia",
       "directions": "Little Hardin Island: sulla spiaggia sud, vicino a una sdraio e a una moto d'acqua.",
       "status": "da verificare",
       "source": "stampa",
@@ -2851,12 +2866,15 @@
       "name": "Liberty City Penetrators · Alexander Avain (argento)",
       "districtId": "dis-vice-city",
       "directions": "Crosstown: nel complesso di palazzi a ovest del Jack of Hearts, appartamento al terzo piano, proprio sopra un laboratorio di droga.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-45",
@@ -2877,12 +2895,15 @@
       "name": "Liberty City Penetrators · Remy Herbert (argento)",
       "districtId": "dis-vice-city",
       "directions": "Little Cuba: nel palazzo subito a est del banco dei pegni Fast Cash, appartamento visitabile al secondo piano.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-47",
@@ -2940,7 +2961,7 @@
       "id": "col-carte-51",
       "categoryId": "cat-carte",
       "name": "Liberty City Penetrators · Noah Marcus (oro)",
-      "districtId": null,
+      "districtId": "dis-keys",
       "directions": "Riquezas Keys, isola grande a sud-ovest: sulla torretta di guardia nord.",
       "status": "da verificare",
       "source": "stampa",
@@ -2979,7 +3000,7 @@
       "id": "col-carte-54",
       "categoryId": "cat-carte",
       "name": "Liberty City Swingers · Garth Buxton (base)",
-      "districtId": null,
+      "districtId": "dis-ambrosia",
       "directions": "Little Hardin Island: sul molo sud-ovest.",
       "status": "da verificare",
       "source": "stampa",
@@ -3007,12 +3028,15 @@
       "name": "Liberty City Swingers · Lalo Velasco (oro)",
       "districtId": "dis-capri",
       "directions": "Capri: nel garage della prima villa a est della spiaggia, all'angolo sud-est della città, su uno scaffale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-swingers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-swingers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-57",
@@ -3085,12 +3109,15 @@
       "name": "Liberty City Wrath · Robbie Stine (argento)",
       "districtId": "dis-mount-kalaga",
       "directions": "West Kalaga: a sud del 247 Gas, nell'ufficio in cima alla scala a pioli dell'edificio con la ciminiera.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-63",
@@ -3152,12 +3179,15 @@
       "name": "Los Santos Corkers · Franklin Turner (bronzo)",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nel garage da scassinare della casa più a ovest della fila nord, sul bancone.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-68",
@@ -3217,12 +3247,15 @@
       "name": "Los Santos Panic · Marquise Bernard",
       "districtId": "dis-keys",
       "directions": "Key Lento: su un barile appena fuori dal negozio di Kenton, sul retro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-73",
@@ -3321,12 +3354,15 @@
       "name": "Los Santos Pounders · Laki Maivia (bronzo)",
       "districtId": "dis-grassrivers",
       "directions": "Cottonmouth Lake: nella cassaforte della roulotte sull'isola a sud-ovest del lago, quella con la striscia di sabbia più lunga. Combinazione 44017, ricavata dalle foto appese sulla parete a sinistra.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-81",
@@ -3490,12 +3526,15 @@
       "name": "Right Wing: America's Hero · Right Wing (rossa)",
       "districtId": "dis-vice-city",
       "directions": "Bayside: nell'atrio al piano terra dei Bayside Apartments, sul tavolino della stanza con i giochi da piscina.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-94",
@@ -3529,12 +3568,15 @@
       "name": "The Legends of Ratface · Illuminaughty (viola)",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nel garage da scassinare della fila nord di case (a ovest di quella di Andy), attaccata alla bacheca sul lato destro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-97",
@@ -3802,12 +3844,15 @@
       "name": "Vice City Manatees · Delord Nathan Alford",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nello strip mall abbandonato a sud del Thirsty Wolf. Si sale sul tetto e si scende dalla botola nella lavanderia chiusa dove abbaia un cane; la carta è sullo scaffale della stanza sul retro. Sullo scaffale c'è anche la combinazione della cassaforte rinforzata (62412).",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-manatees-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-manatees-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-118",
@@ -3906,12 +3951,15 @@
       "name": "Vice City Narcos · Kyle Lewicki",
       "districtId": "dis-vice-city",
       "directions": "Bayside: nel Dynamix Fitness, di fronte al Perkins Deli, su una panca nel corridoio sul retro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-narcos-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-narcos-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-carte-126",
@@ -4091,12 +4139,15 @@
       "name": "Dicked Down Deep in Space",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn, Lost Vista: dentro una roulotte nella zona della rapina segnalata da Dunk, a nord-ovest del garage della stazione di Port Gellhorn (a sud-est del La Cascara Motel, prima del fiumiciattolo).",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-riviste-10",
@@ -4683,13 +4734,16 @@
       "categoryId": "cat-meditazione",
       "name": "Jutting Cliff",
       "districtId": "dis-mount-kalaga",
-      "directions": "Mount Kalaga: sulla rupe sporgente accanto alla torre che guarda la miniera, a nord del Kalaga Reservoir. Vale 2.",
-      "status": "da verificare",
+      "directions": "Mount Kalaga: sulla rupe sporgente ai piedi della torre che guarda la miniera, a nord del Kalaga Reservoir (la torre è a sud-est di Killtelligence Provisions). Vale 2.",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-meditazione-8",
@@ -4709,13 +4763,16 @@
       "categoryId": "cat-meditazione",
       "name": "Seaside",
       "districtId": "dis-waning-sands",
-      "directions": "Contea di Leonard: sullo sperone di roccia della spiaggia a est di Waning Sands (Vinewood Beach). Vale 2.",
-      "status": "da verificare",
+      "directions": "Contea di Leonard: sullo sperone di roccia della spiaggia a est di Waning Sands (Vinewood Beach), a circa due terzi della spiaggia andando verso nord. Vale 2.",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-meditazione-10",
