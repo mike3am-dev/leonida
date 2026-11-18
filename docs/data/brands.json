@@ -83,12 +83,12 @@
       "category": "Edizione",
       "description": "Costa 99,99 $ negli Stati Uniti. È una raccolta esclusiva di veicoli, armi, abiti e contenuti legati alla storia di Jason e Lucia. Comprende: '95 Grotti Cheetah, revolver Hawk & Little Morgan, varianti personalizzate delle armi, «Vice City Styles», veicoli nel rifugio di Jason, Ganado Retro Build, officine Rideout Customs e One-Eyed Willie's, Sara's Unisex Salon, Shitzu Squalo, negozio Stock 305, '67 Vapid Dominator Buggy, Electric Fang Tattoo Parlor, «Goodtime Gear», PTT Youngin$ Compound e una collezione di auto classiche. Controlla sullo store la ripartizione esatta tra Standard e Ultimate.",
       "image": "assets/img/ultimate-edition.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://store.rockstargames.com/game/buy-gta-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ultimate-edition-01.jpg"
       ]
@@ -132,11 +132,11 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "name": "Megamundo",
       "category": "Azienda",
-      "description": "La rete televisiva in lingua spagnola di Leonida, parodia di Telemundo, guidata da Andrés de León e dalla direttrice operativa Petra Navarro; la sua divisione Mega Noticias fa il telegiornale su Vice City. Il Megamundo Building a Downtown è la sua prima sede negli Stati Uniti, e la scorta all'inaugurazione affidata a Jason e Lucia è il filo conduttore dell'Extended Look. Slogan: «¡Give Me Amor, Megamundo!»; in palinsesto c'è la telenovela «El Destino Extiende Sus Alas».",
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "description": "La rete televisiva in lingua spagnola di Leonida, parodia di Telemundo, con la direttrice operativa Petra Navarro; la sua divisione Mega Noticias fa il telegiornale su Vice City. Il Megamundo Building a Downtown è la sua prima sede negli Stati Uniti, e la scorta di Andrés de León all'inaugurazione, affidata a Jason e Lucia, è il filo conduttore dell'Extended Look. Slogan: «¡Give Me Amor, Megamundo!»; in palinsesto c'è la telenovela «El Destino Extiende Sus Alas».",
+      "sourceUrl": "https://gta.wiki/w/Megamundo",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c7/GTAVI-Megamundo-Building-Exterior.jpg/revision/latest?cb=20260924095655",
       "imageCredit": "Edificio con insegna Megamundo, GTA VI, da GTA Wiki"
     },
@@ -158,15 +158,15 @@
     {
       "id": "brd-san4san",
       "image": "assets/img/mondo/brd-san4san.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "name": "San4San",
       "category": "Gang",
       "description": "La gang di Raymond ed Ernesto, con una casa dello spaccio e un laboratorio. Il suo emblema: la catena «S4S» al collo di un membro e il graffito «SAN 4 SAN» sui muri, durante un intervento di polizia. La bandana blu richiama gli Haitians del Vice City originale, da cui l'ipotesi di una gang haitiana.",
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5",
       "extras": [
         {
@@ -193,15 +193,15 @@
     {
       "id": "brd-ryde-me",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "name": "Ryde Me",
       "category": "App",
       "description": "L'app di ride-hailing sul telefono, sul modello di Uber: si chiama un passaggio e si raggiunge la destinazione senza guidare. Si può condividere la corsa con un passeggero e chiacchierare durante il tragitto, oppure saltare il viaggio e arrivare subito. È una delle opzioni di viaggio rapido insieme a taxi, autobus e treni.",
-      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
     },
     {
       "id": "brd-waink",
@@ -280,15 +280,15 @@
     {
       "id": "brd-goodtime-gear",
       "image": "assets/img/mondo/brd-goodtime-gear.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "name": "Goodtime Gear",
       "category": "Bonus di acquisto",
       "description": "Abbigliamento dell'Ultimate Edition con la mascotte «Macca the Gator». Leonida è «the Goodtime State».",
-      "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-GoodtimeGear.jpg?94ffa"
     },
     {
@@ -381,11 +381,11 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-19",
       "name": "Weazel News, Megamundo, Mega Noticias, MeTV, CNT",
       "category": "TV",
-      "description": "Le reti televisive; Megamundo è anche l'azienda di Andres De Leon. Weazel News è comparsa sui bus di Miami. Weazel trasmette la serie animata «Macca & Friends» dal 19 novembre.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "description": "Le reti televisive; Megamundo è la rete in lingua spagnola che inaugura la sua torre a Downtown. Weazel News è comparsa sui bus di Miami. Weazel trasmette la serie animata «Macca & Friends» dal 19 novembre.",
+      "sourceUrl": "https://gta.wiki/w/Megamundo",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-weazel-news-borne-wynwood.jpg",
       "imageCredit": "Pubblicità reale di GTA VI a Miami con logo Weazel News, foto di vice-central.com"
     },
@@ -522,30 +522,30 @@
     {
       "id": "brd-goodtime-state",
       "image": "assets/img/mondo/brd-goodtime-state.jpg",
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "name": "The Goodtime State (show TV)",
-      "category": "TV",
-      "description": "Lo show di Leonida con Macca the Gator, da cui la capsule Goodtime Gear e il cofanetto.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "updatedAt": "2026-11-19",
+      "name": "The Goodtime State – Vice City Collection",
+      "category": "Bonus di acquisto",
+      "description": "«The Goodtime State» è il soprannome di Leonida e dà il nome al cofanetto da collezione Vice City Collection, con la statuina di Macca the Gator e altri oggetti di «Macca & Friends».",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
       "imageUrl": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k2a49ook82o57/cbdf4fc342bfca94c789a887244c3b70283047ae.jpg",
       "imageCredit": "Grafica ufficiale «The Goodtime State – Vice City» (Newswire Rockstar, Vice City Collection)"
     },
     {
       "id": "brd-final-chapter",
       "image": "assets/img/mondo/brd-final-chapter.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "name": "Final Chapter MC",
       "category": "Gang",
       "description": "Il motorcycle club di Ambrosia: colori neri e revolver Mustang .357; inseguono Jason dal Thirsty Wolf. Le toppe dei gilet indicano la fondazione nel 1982; un membro barbuto con cappellino Liberty City Cycles porta la toppa di grado «Enforcer». Emblema: teschio incappucciato sopra un libro aperto con le lettere M e C, mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "sourceUrl": "https://gta.wiki/w/Final_Chapter_MC",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/12/Final_Chapter_MC_promo_4.png/revision/latest?cb=20261030064921",
       "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki",
       "extras": [
@@ -558,15 +558,15 @@
     {
       "id": "brd-ptt-youngins",
       "image": "assets/img/mondo/brd-ptt-youngins.jpg",
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "name": "PTT Youngin$",
       "category": "Gang",
       "description": "Gang di Southside; il loro negozio di merce illegale, con una missione esclusiva, è nell'Ultimate Edition.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/PTT-Youngins-Illegal-Goods-Store.jpg/revision/latest?cb=20261103133127",
       "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza"
     },
@@ -602,27 +602,27 @@
       "id": "brd-whatup",
       "image": null,
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "name": "WhatUp",
       "category": "App",
       "description": "L'app di messaggistica del telefono, parodia di WhatsApp: le notifiche «WhatUp! message received» arrivano durante il gioco. È il canale dei messaggi con gli altri personaggi, e rispondere a Lucia conta per la relazione. Il sito dell'app è what-up.app.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/"
     },
     {
       "id": "brd-on-demand",
       "image": null,
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "name": "On Demand",
       "category": "App",
       "description": "Podcast e show da ascoltare anche a piedi, con gli auricolari.",
-      "sourceUrl": "https://gta6locations.com/locations/"
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
     },
     {
       "id": "brd-lifeinvader",
@@ -642,15 +642,15 @@
     {
       "id": "brd-chunkee",
       "image": "assets/img/mondo/brd-chunkee.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "name": "Chunkee the Manatee",
       "category": "Mascotte",
       "description": "Il lamantino sul bicchierino del cofanetto da collezione.",
-      "sourceUrl": "https://gta6locations.com/locations/",
+      "sourceUrl": "https://gta.wiki/w/Chunkee_the_Manatee",
       "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png?4e4d3"
     },
     {
@@ -716,12 +716,12 @@
       "category": "Fast food",
       "description": "Catena di fast food dell'universo GTA tornata nella campagna di Miami: chiosco nel Kaseya Center gestito da Skinny Louie's, che dal 13 novembre al 31 dicembre 2026 trasforma tutti i suoi ristoranti della Florida in Burger Shot, con insegne, divise e un menu ispirato al gioco (The Bleeder, Burger Shot singolo e doppio, milkshake al caramello). In gioco c'è un Burger Shot a Hamlet in cui si entra.",
       "image": "assets/img/mondo/brd-burger-shot.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.ign.com/articles/gta-6s-burger-shot-restaurant-is-expanding-across-florida-with-real-meals-inspired-by-the-game",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-13",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-skinny-louie-burger-shot-affiche.jpg",
       "imageCredit": "Locandina Burger Shot / Skinny Louie con logo GTA VI, da vice-central.com",
       "extras": [
@@ -737,12 +737,12 @@
       "category": "Fast food",
       "description": "Catena di pollo fritto dell'universo GTA, aperta come chiosco dentro il Kaseya Center di Miami con personale in divisa GTA per la campagna «Welcome to Vice City».",
       "image": "assets/img/mondo/brd-cluckin-bell.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-is-quietly-transforming-the-real-miami-into-gta-6s-vice-city/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/da/CluckinBell-GTAO-Logo.png/revision/latest?cb=20241115114850",
       "imageCredit": "Logo Cluckin' Bell di GTA Online (serie), da GTA Wiki"
     },
@@ -765,12 +765,12 @@
       "category": "Azienda",
       "description": "Costruttore di auto elettriche dell'universo GTA (parodia di Tesla) con pubblicità in-universe nella campagna di Miami, accanto a Weazel News, Fruit, eCola e Vault Nightclub.",
       "image": "assets/img/mondo/brd-coil.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-is-quietly-transforming-the-real-miami-into-gta-6s-vice-city/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3f/Coil-GTAO-Logo.png/revision/latest?cb=20240514201608",
       "imageCredit": "Logo Coil di GTA Online (serie), da GTA Wiki"
     },
@@ -823,12 +823,12 @@
       "category": "Vita notturna",
       "description": "Rooftop bar di Ocean Beach con vista sull'oceano, dove Brian Heder incontra Jason. Ricalca il Juvia di Lincoln Road a Miami Beach.",
       "image": "assets/img/mondo/brd-effluvia.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/af/GTAVI-Effluvia-Sign.jpg/revision/latest?cb=20260924113447",
       "imageCredit": "Insegna Effluvia, GTA VI, da GTA Wiki"
     },
@@ -838,12 +838,12 @@
       "category": "TV",
       "description": "Alligatore rosa protagonista di «Macca & Friends», la serie animata in onda su Weazel dal 19 novembre, con il lamantino Chunkee, il granchio Pinche e altri amici delle paludi. Da lui nascono la capsule Goodtime Gear dell'Ultimate Edition e la statuina della Vice City Collection da 399,99 $; compare anche su tote bag, adesivi per i creator, le statue di Selfridges e i totem pubblicitari di Miami. In NBA 2K27, nella Stagione 3 «Vice City Takeover», ha una statua nel quartiere online ed è tra le ricompense.",
       "image": "assets/img/mondo/brd-macca-the-gator.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2a49ook82o57/pre-order-the-goodtime-state-vice-city-collection-now-while-supplies-l",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest?cb=20260925150653",
       "imageCredit": "Macca the Gator, GTA VI, da GTA Wiki",
       "relatedIds": [
@@ -869,14 +869,14 @@
       "id": "brd-diamond-casino-resort",
       "name": "Diamond Casino & Resort",
       "category": "Luoghi di ritrovo",
-      "description": "Casinò di GTA Online legato a una teoria: Manni L. Perez, ritenuta la voce di Lucia, darebbe dal 2019 la voce a una croupier anonima del casinò. Nelle classificazioni PEGI/ESRB di GTA VI non risulta alcun casinò.",
+      "description": "Casinò di GTA Online: dal 2019 una delle croupier ha la voce di Manni L. Perez, che in GTA VI interpreta Lucia. Nelle classificazioni PEGI/ESRB di GTA VI non risulta alcun casinò.",
       "image": "assets/img/mondo/brd-diamond-casino-resort.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://vice-central.com/gta-vi-vous-avez-peut-etre-deja-entendu-la-voix-de-lucia-dans-gta-online",
+      "sourceUrl": "https://www.gamereactor.eu/gta-6-lucia-actress-manni-l-perez-who-is-she/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d2/TheDiamondCasino%26Resort-GTAO-PosterOfficial.jpg/revision/latest?cb=20190724194110",
       "imageCredit": "Poster ufficiale The Diamond Casino & Resort di GTA Online (serie), da GTA Wiki"
     },
@@ -1052,14 +1052,20 @@
       "id": "brd-sara-s-unisex-salon",
       "name": "Sara's Unisex Salon",
       "category": "Servizi",
-      "description": "Salone sulla via principale di Hamlet, bonus dell'Ultimate Edition: acconciature, barba, trucco e unghie esclusivi per Jason e Lucia. Ricalca una vetrina al 51 di North Krome Avenue a Homestead.",
+      "description": "Salone bonus dell'Ultimate Edition: acconciature, barba, trucco e unghie esclusivi per Jason e Lucia.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/hamlet",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19",
+      "extras": [
+        {
+          "source": "community",
+          "text": "È sulla via principale di Hamlet e ricalca una vetrina al 51 di North Krome Avenue a Homestead."
+        }
+      ]
     },
     {
       "id": "brd-ocean-view-hotel",
@@ -1164,15 +1170,21 @@
       "id": "brd-one-eyed-willie-s-mod-shop",
       "name": "One-Eyed Willie's Mod Shop",
       "category": "Servizi",
-      "description": "Officina di Lake Leonida specializzata in modifiche off-road e arte automobilistica dipinta a mano, aperta solo con l'Ultimate Edition: meccanici al lavoro su un fuoristrada verde lime sotto murales e neon.",
+      "description": "Officina specializzata in modifiche off-road e livree dipinte a mano, aperta solo con l'Ultimate Edition: meccanici al lavoro su un fuoristrada verde lime sotto murales e neon.",
       "image": "assets/img/mondo/brd-one-eyed-willie-s-mod-shop.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/lake-leonida",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg?cd8bc"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg?cd8bc",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Si trova a Lake Leonida."
+        }
+      ]
     },
     {
       "id": "brd-thrillbilly-mud-park",
@@ -1195,12 +1207,12 @@
       "category": "Servizi",
       "description": "Il garage di Watson Bay dell'Ultimate Edition dove custodire la '67 Vapid Dominator Buggy, con armadietto delle armi e un posto sicuro dove depositare la merce rubata da ricettare.",
       "image": "assets/img/mondo/brd-paradise-garage.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/watson-bay",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-VapidBuggy04.jpg?41f78"
     },
     {
@@ -1355,31 +1367,43 @@
       "id": "brd-stock-305",
       "name": "Stock 305",
       "category": "Moda",
-      "description": "Negozio di streetwear di Stockyard, aperto solo con l'Ultimate Edition: look esclusivi per Jason e Lucia, coperto di murales dentro e fuori. Compare anche tra le etichette di moda della cover story di Dazed.",
+      "description": "Negozio di streetwear aperto solo con l'Ultimate Edition: look esclusivi per Jason e Lucia, coperto di murales dentro e fuori. Compare anche tra le etichette di moda della cover story di Dazed.",
       "image": "assets/img/mondo/brd-stock-305.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/60/GTAVI-stock-305-logo.jpg/revision/latest?cb=20261103163331",
-      "imageCredit": "Insegna Stock 305, GTA VI, da GTA Wiki"
+      "imageCredit": "Insegna Stock 305, GTA VI, da GTA Wiki",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Si trova a Stockyard."
+        }
+      ]
     },
     {
       "id": "brd-electric-fang-tattoo",
       "name": "Electric Fang Tattoo",
       "category": "Servizi",
-      "description": "Studio di tatuaggi di Stockyard con insegna al neon a forma di lupo, aperto con l'Ultimate Edition: oltre 50 tatuaggi esclusivi disegnati dal collettivo FAILE.",
+      "description": "Studio di tatuaggi con insegna al neon a forma di lupo, aperto con l'Ultimate Edition: oltre 50 tatuaggi esclusivi disegnati dal collettivo FAILE.",
       "image": "assets/img/mondo/brd-electric-fang-tattoo.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b7/GTAVI-Electric-Fang-Tattoo-Parlor.jpg/revision/latest?cb=20261106172025",
-      "imageCredit": "Insegne Electric Fang Tattoo, GTA VI, da GTA Wiki"
+      "imageCredit": "Insegne Electric Fang Tattoo, GTA VI, da GTA Wiki",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Si trova a Stockyard."
+        }
+      ]
     },
     {
       "id": "brd-the-hub-gallery",
@@ -1413,15 +1437,21 @@
       "id": "brd-rideout-customs",
       "name": "Rideout Customs",
       "category": "Servizi",
-      "description": "Officina di auto personalizzate (donk) a Crosstown, bonus dell'Ultimate Edition.",
+      "description": "Officina di auto personalizzate, bonus dell'Ultimate Edition: interni unici, cerchi e assetti donk.",
       "image": "assets/img/mondo/brd-rideout-customs.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/bohemia",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/RideoutCustoms-GTAVI-AnExtendedLook-Exterior.png?15531"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/RideoutCustoms-GTAVI-AnExtendedLook-Exterior.png?15531",
+      "extras": [
+        {
+          "source": "community",
+          "text": "Si trova a Crosstown."
+        }
+      ]
     },
     {
       "id": "brd-haitian-american-cultural-center",
@@ -1686,10 +1716,10 @@
       "description": "Il dipartimento di polizia (CPD) della città di Capri, nella contea di Mariana. Mezzi e armi in dotazione non sono ancora noti.",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://gta.fandom.com/wiki/Capri_Police_Department",
+      "sourceUrl": "https://gta.wiki/w/Capri_Police_Department",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "brd-bean-machine",
@@ -2323,14 +2353,14 @@
       "id": "brd-ships-and-giggles",
       "name": "Ships And Giggles",
       "category": "Vita notturna",
-      "description": "Barca per feste: sul ponte si balla e si beve in mare aperto. Compare nel trailer del preload.",
+      "description": "Superyacht con il nome Ships And Giggles sulla fiancata: sul ponte si balla e si beve in mare aperto. Si vede nel trailer del preload, nel trailer di lancio e nella Launch Gallery.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.ign.com/articles/gta-6-preload-now-trailer-includes-nearly-30-seconds-of-new-footage-swat-team-nightclub-dancing-and-more",
+      "sourceUrl": "https://gta.wiki/w/Yakuruna",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "brd-pinche",

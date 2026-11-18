@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.33.0",
-  "updatedAt": "2026-11-19",
+  "dataVersion": "0.34.0",
+  "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
     {
+      "version": "0.34.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Collezionabili veri: 19 categorie (carte, riviste, salti, sotto i ponti, voli tra i palazzi, paracadute, WAiNK, meditazioni, fenicotteri, stili, canestri, meteoriti…) con 364 posizioni scritte una per una e quanti ne servono per il 100%.",
+        "Quelli che si perdono con la storia sono segnati in arancione («si perde dopo il capitolo N»): riviste e carte nelle case che lasci, la prima meditazione.",
+        "Lista ufficiale del 100% (35 voci) in Collezionabili. Personaggi, Radio e Mondo: 39 voci confermate da materiale ufficiale, 10 correzioni."
+      ]
+    },
+    {
       "version": "0.33.0",
-      "date": "2026-11-19",
+      "date": "2026-11-18",
       "changes": [
         "Capitolo 4 inserito: tutte le missioni, passi dove le guide li hanno già.",
         "Platino: avvisi su 13 missioni, con i punti di non ritorno in rosso (fine capitolo 1, fine capitolo 2, fine capitolo 4). Prima di iniziarle vedi solo cosa fare; quello che succede durante compare quando la stai giocando.",
@@ -17,14 +26,14 @@
     },
     {
       "version": "0.32.4",
-      "date": "2026-11-19",
+      "date": "2026-11-18",
       "changes": [
         "Capitolo 3: tutte le missioni con contatto e riassunto; passi completi dove le guide li hanno già. Segnate due scelte senza ritorno, una facoltativa a tempo e l'avviso prima dell'ultima missione del capitolo."
       ]
     },
     {
       "version": "0.32.3",
-      "date": "2026-11-19",
+      "date": "2026-11-18",
       "changes": [
         "Capitolo 2: taccuino completo di tutte le missioni, facoltative e compiti compresi; avviso prima dell'ultima missione del capitolo. Capitolo 5: per ora solo l'ossatura, le guide passo passo non sono ancora uscite."
       ]

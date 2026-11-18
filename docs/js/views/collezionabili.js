@@ -2,7 +2,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, toast } from '../ui/dom.js';
-import { sectionHead, vis, sectionOf, haveFilter, passHave } from './shared.js';
+import { sectionHead, vis, sectionOf, haveFilter, passHave, acc } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { showSheet } from '../ui/sheet.js';
 
@@ -36,6 +36,7 @@ export function render(params, query) {
   const left = `${sectionHead(section, `${totalDone} / ${all.length}`)}
     <div class="progress" style="margin-bottom:var(--s-4)"><i style="--p:${all.length ? Math.round(totalDone / all.length * 100) : 0}%"></i></div>
     <div class="catgrid">${cats.map(catCard).join('')}</div>
+    ${!active && db.cento?.length ? `<div class="block">${acc(`Lista del 100% · ${db.cento.length} voci`, `<ul class="flist">${db.cento.map((x) => `<li><b>${esc(x.name)}: ${esc(x.requirement)}</b>${x.notes ? `<span>${esc(x.notes)}</span>` : ''}</li>`).join('')}</ul>`)}</div>` : ''}
     ${active ? `<div class="card" style="margin-top:var(--s-4)"><span class="kicker kicker--accent">${esc(active.name)}</span><p class="small" style="margin:var(--s-2) 0 0">${esc(active.description || '')}</p><div class="chips" style="margin-top:var(--s-2)">${statusChip(active)}</div></div>` : ''}
     ${active ? `${active.id === 'cat-fauna' ? `<div class="filters" style="margin-top:var(--s-4)"><a class="filter" role="button" aria-pressed="${!grp}" href="${link('gruppo', '')}">Tutti gli habitat</a>${Object.entries(GROUP_LABEL).filter(([g]) => all.some((c) => c.categoryId === 'cat-fauna' && c.group === g)).map(([g, l]) => `<a class="filter" role="button" aria-pressed="${grp === g}" href="${link('gruppo', g)}">${l}</a>`).join('')}</div>` : ''}
     <div style="margin-top:var(--s-3)">${haveFilter(have, (v) => link('have', v), { yes: 'Trovati', no: 'Da trovare' })}</div>
@@ -93,6 +94,7 @@ function stickerSheet(c) {
     ${sec('Missioni collegate', c.missions?.length ? `<ul class="flist">${c.missions.map((m) => `<li>${esc(typeof m === 'string' ? (byId(m) ? spoiler.missionName(byId(m)) : m) : m.title || '')}</li>`).join('')}</ul>` : '')}
     ${sec('Lo sapevi?', c.trivia?.length ? `<ul class="flist flist--tips">${c.trivia.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : '')}`
     : `<p class="small">${spoiler.text(c, c.directions || 'Nessun dettaglio ancora.')}</p>`}
+    ${c.missable ? `<div class="warnbox"><b>Da non perdere</b><p class="small" style="margin:0">${esc(c.missable)}</p></div>` : ''}
     ${c.reward ? sec('Ricompensa', `<p>${esc(c.reward)}</p>`) : ''}`;
   body.addEventListener('click', (e) => { if (e.target.closest('a[href^="#"]')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
   showSheet({ title: c.name, body });
@@ -106,7 +108,7 @@ function checklist(list, st) {
       ${c.image ? `<img class="check__img" src="${esc(c.image)}" ${c.imageUrl ? `data-fallback="${esc(c.imageUrl)}"` : ''} alt="" loading="lazy">` : ''}
       <div class="check__body">
         <div class="check__title">${esc(c.name)}${c.uncertain ? ' <span class="chip chip--src-rumor">da confermare</span>' : ''}</div>
-        <div class="check__meta">${c.districtId ? esc(byId(c.districtId)?.name || '') : 'Zona da scoprire'}</div>
+        <div class="check__meta">${c.districtId ? esc(byId(c.districtId)?.name || '') : 'Zona da scoprire'}${c.missable && !done ? ` · <b class="miss">si perde${c.chapter ? ' dopo il capitolo ' + esc(c.chapter) : ''}</b>` : ''}</div>
       </div>
       <svg class="check__go" aria-hidden="true"><use href="#i-arrow"/></svg>
     </button>`; }).join('');

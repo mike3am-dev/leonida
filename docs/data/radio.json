@@ -272,12 +272,12 @@
       "genre": "R&B e soul (da confermare)",
       "description": "Stazione dal logo rosa e dorato, pubblicizzata sul tetto e sulle fiancate dei taxi di Vice City e sulle magliette dei passanti.",
       "highlights": [],
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.wiki/w/Honey_FM",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "image": "assets/img/radio/rad-honey-fm.png",
       "imageUrl": "https://gta.wiki/images/UnnamedVapidTaxi-GTAVI-WebsiteBackground-Music01.png?7658c"
     },
@@ -359,12 +359,12 @@
       "genre": "Dance, house",
       "description": "La stazione dance legata a CircoLoco Records, l'etichetta nata da Rockstar e dal party di Ibiza.",
       "highlights": [],
-      "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/CircoLoco_Records_Radio",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "image": "assets/img/radio/rad-circoloco.png",
       "imageUrl": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8"
     },
@@ -484,15 +484,15 @@
       "name": "Altre stazioni e podcast",
       "genre": "Dal classic rock alla talk radio",
       "host": "Da scoprire",
-      "description": "Le stazioni vanno «dal Classic Rock alla Talk Radio», con podcast su richiesta, ma solo le sei qui sopra hanno un nome ufficiale. In tutto sono 23. Altri nomi in circolazione: V-Rock, Emotion, Stockyard FM, Symphony FM, CircoLoco Records Radio, Honey FM, Radio On-U, The Wipe, Worldwide FM, Kaleidoscope FM, La Ola. Le conferme le dai tu, una alla volta, girando la manopola.",
+      "description": "Le stazioni vanno «dal Classic Rock alla Talk Radio», con podcast su richiesta. In tutto sono 23. Oltre alle sei presentate da Rockstar, nel materiale ufficiale compaiono Vice City FM, V-Rock, Honey FM e CircoLoco Records Radio. Altri nomi in circolazione: Emotion 98.3, Stockyard FM, Symphony FM, Radio On-U, The Wipe, WorldWide FM, Kaleidoscope FM, La Ola. Le conferme le dai tu, una alla volta, girando la manopola.",
       "highlights": [],
       "image": null,
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-19"
     }
   ]
 }

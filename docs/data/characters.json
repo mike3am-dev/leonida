@@ -170,10 +170,10 @@
       "image": "assets/img/ss-lucia-caminos-11.jpg",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "sourceUrl": "https://www.gamereactor.eu/gta-6-lucia-actress-manni-l-perez-who-is-she/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-jason-lucia-14.jpg",
         "assets/img/lucia.jpg"
@@ -294,8 +294,8 @@
       "insightUrl": "https://vice-central.com/personnages/lucia-caminos/",
       "extras": [
         {
-          "source": "community",
-          "text": "Doppiatrice non annunciata. Il nome più ricorrente è Manni L. Perez, che dal 2019 dà la voce a una croupier del Diamond Casino in GTA Online: le due voci si somigliano molto."
+          "source": "stampa",
+          "text": "La interpreta Manni L. Perez, candidata a «Best Performance» ai The Game Awards 2026. Dal 2019 dà la voce anche a una croupier del Diamond Casino in GTA Online."
         }
       ]
     },
@@ -1161,11 +1161,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-mendez.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-19",
       "id": "chr-mendez",
       "name": "Mendez",
       "role": "Agente del VCPD",
@@ -1175,7 +1175,7 @@
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-el-stash-house",
       "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/mendez.jpg",
       "galleryX": [
         {
@@ -1254,13 +1254,13 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-andres.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "chr-andres",
-      "name": "Andres De Leon",
+      "name": "Andrés de León",
       "role": "Uomo d'affari, Megamundo",
       "isProtagonist": false,
       "tagline": "Il cliente che vale la scorta.",
@@ -1271,7 +1271,7 @@
         "chr-petra",
         "chr-valentina"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/andres-de-leon.jpg",
       "galleryX": [
         {
@@ -1340,11 +1340,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-petra.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "chr-petra",
       "name": "Petra Navarro",
       "role": "COO di Megamundo",
@@ -1357,7 +1357,7 @@
         "chr-andres",
         "chr-valentina"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/petra-navarro.jpg",
       "galleryX": [
         {
@@ -1431,11 +1431,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-valentina.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "chr-valentina",
       "name": "Valentina",
       "role": "Intermediaria",
@@ -1448,7 +1448,7 @@
         "chr-andres",
         "chr-petra"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/valentina.jpg",
       "galleryX": [
         {
@@ -1553,11 +1553,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-raymond.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "chr-raymond",
       "name": "Raymond",
       "role": "Gang San4San",
@@ -1569,7 +1569,7 @@
       "relations": [
         "chr-ernesto"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/raymond.jpg",
       "galleryX": [
         {
@@ -1653,11 +1653,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-ernesto.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "chr-ernesto",
       "name": "Ernesto",
       "role": "Gang San4San",
@@ -1669,7 +1669,7 @@
       "relations": [
         "chr-raymond"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-perso-raymond-gang-s4s.jpg",
       "galleryX": [
         {
@@ -1994,11 +1994,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-phil.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-19",
       "id": "chr-phil",
       "name": "Phil",
       "role": "Titolare di Phil's Ammu-Nation",
@@ -2008,7 +2008,7 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://gta.wiki/w/Phil_(GTA_VI)",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/phil.jpg",
       "galleryX": [
         {
@@ -2100,23 +2100,23 @@
       "insight": ""
     },
     {
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "chr-aunt-tee",
       "name": "Aunt Tee",
       "role": "Residente dei Venture Apartments",
       "isProtagonist": false,
-      "tagline": "La zia di Raymond.",
-      "bio": "Vive nei Venture Apartments a Rockridge. È la zia di Raymond.",
+      "tagline": "La vicina che non trova mai pace.",
+      "bio": "Vive nell'appartamento 308 dei Venture Apartments di Rockridge, in mezzo alla San4San. Durante l'irruzione della polizia Raymond porta Jason e Lucia da lei, e i due scappano dalla sua finestra.",
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-el-stash-house",
       "relations": [
         "chr-raymond"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "insight": ""
     },
     {
@@ -2242,11 +2242,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-hammer-lady.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "chr-hammer-lady",
       "name": "La signora dei martelli",
       "role": "Comparsa",
@@ -2256,18 +2256,18 @@
       "districtId": "dis-hamlet",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "sourceUrl": "https://gta.wiki/w/Hammer_Lady",
       "imageUrl": "https://gta.wiki/images/HammerLady-GTAVI-Portrait.png",
       "imageCredit": "Frame del Trailer 1 via GTA Wiki (gta.wiki)",
       "insight": ""
     },
     {
       "image": "assets/img/vice/personaggi/chr-rudi.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "chr-rudi",
       "name": "Rudi",
       "role": "Comparsa",
@@ -2277,7 +2277,7 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "sourceUrl": "https://gta.wiki/w/Rudi",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5d/GTAVITrailer-GTAVI-SS32.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "Frame del Trailer 1 («RIP Rudi») via GTA Wiki (gta.fandom.com)",
       "insight": ""
@@ -2581,12 +2581,12 @@
       "relations": [],
       "image": "assets/img/vice/personaggi/chr-chunkee-the-manatee.png",
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gta.wiki/w/Chunkee_the_Manatee",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png",
       "isProtagonist": false,
       "insight": ""
@@ -2602,12 +2602,12 @@
       "relations": [],
       "image": "assets/img/vice/personaggi/chr-pinche-the-crab.png",
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gta.wiki/w/Pinche_the_Crab",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://gta.wiki/images/Macca%26Friends-PincheTheCrab-GTAVI-CE-Artwork.png",
       "isProtagonist": false,
       "insight": ""
@@ -2623,12 +2623,12 @@
       "relations": [],
       "image": null,
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.wiki/w/Jimmy_Canto",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2662,12 +2662,12 @@
       "firstMissionId": null,
       "relations": [],
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.fandom.com/wiki/Kenny_Brewster",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Kenny_Brewster",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2683,16 +2683,16 @@
       "gallery": [],
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://gta.fandom.com/wiki/Gutless_Wonders",
+      "sourceUrl": "https://gta.wiki/w/Gutless_Wonders",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "isProtagonist": false,
       "insight": ""
     },
     {
       "id": "chr-the-hummers-the-strummers",
-      "name": "The Hummers & The Strummers",
+      "name": "The Strummers & The Hummers",
       "role": "Band",
       "tagline": "",
       "bio": "Band annunciata da un volantino nel Jack of Hearts per un concerto al Rusty Anchor il 24 agosto. Lo stesso volantino è appeso dentro il Rusty Anchor, con lo slogan dello spettacolo.",
@@ -2703,10 +2703,10 @@
       "gallery": [],
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://gta.fandom.com/wiki/The_Hummers_%26_The_Strummers",
+      "sourceUrl": "https://gta.wiki/w/The_Strummers_%26_The_Hummers",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/TheHummers%26TheStrummers-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false,
       "insight": ""
@@ -2722,12 +2722,12 @@
       "relations": [],
       "image": "assets/img/vice/personaggi/chr-dolls-of-destruction.png",
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.fandom.com/wiki/Dolls_of_Destruction",
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://gta.wiki/w/Dolls_of_Destruction",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7c/DollsOfDestruction-GTAVI-Trailer1Shirt.png/revision/latest/scale-to-width-down/1000",
       "isProtagonist": false,
       "insight": ""
@@ -2775,6 +2775,25 @@
       "updatedAt": "2026-11-07",
       "image": "assets/img/ss-real-dimez-01.jpg",
       "insight": ""
+    },
+    {
+      "id": "chr-fede-the-flamingo",
+      "name": "Fede the Flamingo",
+      "role": "Personaggio di Macca & Friends",
+      "isProtagonist": false,
+      "tagline": "",
+      "bio": "Il fenicottero di «Macca & Friends», il cartone di Weazel con Macca the Gator. È sul crop top di Lucia dell'Ultimate Edition, sulle pubblicità dello show e tra i collezionabili reali della Vice City Collection.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "gallery": [],
+      "insight": "",
+      "example": false,
+      "status": "verificato",
+      "source": "trailer",
+      "spoilerLevel": 0,
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://gta.wiki/w/Fede_the_Flamingo"
     }
   ],
   "schemaVersion": 1

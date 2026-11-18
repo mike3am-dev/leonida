@@ -32,6 +32,7 @@ export async function loadAll() {
   db.districts = raw.districts.items || [];
   db.collectibleCategories = raw.collectibles.categories || [];
   db.collectibles = raw.collectibles.items || [];
+  db.cento = raw.collectibles.cento || [];
   db.activities = raw.activities.items || [];
   db.characters = raw.characters.items || [];
   db.radio = raw.radio.items || [];
