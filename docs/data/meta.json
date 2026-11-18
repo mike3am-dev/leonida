@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.34.0",
+  "dataVersion": "0.35.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.35.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa: 146 punti nuovi dal gioco vero. Ci sono i 12 garage (gli 8 in vendita per il trofeo «Posto riservato», 160.000 $ in tutto), i ricettatori, i 10 punti di meditazione, le 14 gare di droni Top Fun, 22 Ammu-Nation, officine, banche e banchi dei pegni rapinabili e 32 operazioni delle bande su 39.",
+        "Regioni con i nomi veri della mappa (contee di Mariana, Vice-Dale, Kelly, Leonard, Lummox), Mile Zero Air Station al posto della base generica, doppioni tolti.",
+        "Come si gioca: nuova scheda «Sconosciuti e folli» con le serie che contano per il trofeo."
+      ]
+    },
     {
       "version": "0.34.0",
       "date": "2026-11-18",

@@ -1721,6 +1721,40 @@
       "example": false,
       "updatedAt": "2026-11-07",
       "sourceUrl": "https://insider-gaming.com/new-gta-6-activities-confirmed/"
+    },
+    {
+      "id": "mec-sconosciuti",
+      "title": "Sconosciuti e folli",
+      "emoji": "🧩",
+      "group": "Mondo e vita",
+      "short": "Serie di missioni affidate da personaggi incontrati per Leonida: non servono per la storia, ma 8 serie complete valgono il trofeo d'argento «Sconosciuti e folli» e contano per il 100%.",
+      "steps": [
+        "Cerca i volantini e i personaggi con l'icona dedicata sulla mappa: ogni serie parte da lì.",
+        "Alcune serie si fanno solo con Jason o solo con Lucia: se un incarico non arriva, cambia personaggio.",
+        "Tra una missione e l'altra spesso devi aspettare una chiamata o un messaggio.",
+        "Fai subito le missioni con l'icona a clessidra: scadono.",
+        "Le serie restano disponibili anche dopo la fine della storia."
+      ],
+      "details": [
+        {
+          "title": "Le serie che contano per il trofeo",
+          "text": "Lo Skunk Ape (dal capitolo 1, Jason e Lucia) · La fattoria McKittrick (dal capitolo 2, Jason e Lucia) · Le corse di Yago (dal capitolo 3, solo Jason) · Pilot Pete (dal capitolo 4, solo Jason). Ne servono 8: le altre non sono ancora note con certezza."
+        },
+        {
+          "title": "Note",
+          "text": "Lo Skunk Ape: Due missioni solo di notte; l'ultima solo con Lucia, quindi si chiude dal capitolo 2. Nelle paludi della Pelican Valley (Grassrivers). Resta disponibile dopo la storia. La fattoria McKittrick: Parte dalla McKittrick Farm. Tra una missione e l'altra Kyle si fa vivo al telefono dopo un po' di tempo. Le corse di Yago: La prima si fa con chiunque, due sono solo di Jason. Una è a tempo e si può perdere: falla appena compare. Pilot Pete: Tutte solo con Jason: recuperi un aereo e fai consegne, anche alla Southpoint Airfield."
+        }
+      ],
+      "tips": [
+        "Le serie di contatti come Billy, Moses, Andy, Yasmani, Tyrone, Randy, Eddie e Shirley non contano per questo trofeo, ma valgono per il 100% come incarichi facoltativi."
+      ],
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+      "relatedIds": []
     }
   ]
 }

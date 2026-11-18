@@ -26,12 +26,8 @@
           "note": "mercatino delle pulci"
         },
         {
-          "name": "VC Port",
+          "name": "Port Vice City",
           "note": "porto crocieristico"
-        },
-        {
-          "name": "Vice Beach",
-          "note": "città costiera nell'area metropolitana"
         },
         {
           "name": "Downtown",
@@ -62,7 +58,7 @@
           "note": "quartiere sull'acqua, con un rifugio"
         },
         {
-          "name": "Little Haiti / La Perle",
+          "name": "La Perle",
           "note": "enclave haitiana; gang San4San, murales S4SLIFE"
         },
         {
@@ -78,7 +74,7 @@
           "note": "isola barriera, teatro di un raduno di auto"
         },
         {
-          "name": "Catalan Key",
+          "name": "Catalan Key (Catalan Bay)",
           "note": "isola con l'Oceanarium e il faro"
         },
         {
@@ -98,8 +94,20 @@
           "note": "partenza di una corsa verso Waning Sands"
         },
         {
-          "name": "Vice Decor District",
+          "name": "Decor District",
           "note": "quartiere di Vice City"
+        },
+        {
+          "name": "VCIA",
+          "note": "l'aeroporto internazionale"
+        },
+        {
+          "name": "Waxman Island",
+          "note": "isola nella baia"
+        },
+        {
+          "name": "Starfish Island, Rialto Islands, Dalton Island",
+          "note": "le isole della baia"
         }
       ],
       "pois": [
@@ -264,18 +272,19 @@
           "id": "poi-ammu-nation",
           "name": "Ammu-Nation",
           "kind": "Armeria",
-          "description": "La catena di armerie della serie, con uno spot pubblicitario che ha per protagonista un certo Phil. In città se ne conoscono due.",
+          "description": "La catena di armerie: in Leonida ce ne sono 24, con assortimento limitato, standard, da caccia o ampliato (le «ampliate» vendono anche mitragliatrici, cecchini, lanciagranate e lanciarazzi). Ognuna ha un'arma speciale in esclusiva.",
           "status": "da verificare",
           "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
           "image": "assets/img/poi/poi-ammu-nation.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg"
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg",
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-leaf-links",
           "name": "Leaf Links",
-          "kind": "Golf club",
-          "description": "Il golf club di Vice City. Altro nome che torna dal passato della serie.",
+          "kind": "Golf",
+          "description": "Il campo da golf di Vice Beach: si gioca la «Leaf Links Golf Challenge» e c'è una delle gare di droni Top Fun.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
@@ -283,7 +292,8 @@
           "xy": [
             4048,
             895
-          ]
+          ],
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-vc-arts-center",
@@ -384,7 +394,7 @@
           "id": "poi-shorefront",
           "name": "ShoreFront",
           "kind": "Banca",
-          "description": "ShoreFront è una banca di prestiti: ha il grattacielo col logo a Downtown e una filiale nel Cipher Mall di Rockridge.",
+          "description": "ShoreFront è una banca di prestiti: ha il grattacielo col logo a Downtown e una filiale nel Cipher Mall di Rockridge. Si rapinano le filiali di Downtown (5.000–15.000 $) e Rockridge (5.000–20.000 $) dal capitolo 3.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -399,7 +409,8 @@
               "source": "leak",
               "text": "La filiale nel Cipher Mall compare nel materiale trapelato nel 2022."
             }
-          ]
+          ],
+          "spoilerLevel": 3
         },
         {
           "id": "poi-heath-tower",
@@ -449,8 +460,8 @@
         {
           "id": "poi-vice-vinyl",
           "name": "Vice Vinyl",
-          "kind": "Negozio di dischi",
-          "description": "Negozio di dischi: la cultura musicale della città passa di qui.",
+          "kind": "Officina (pellicole)",
+          "description": "Officina di Stockyard specializzata in pellicole e livree per l'auto.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -490,7 +501,7 @@
           "id": "poi-pegassi-residences",
           "name": "Pegassi Residences",
           "kind": "Torri residenziali",
-          "description": "Due torri residenziali (nord e sud) sulla Gloriana Key.",
+          "description": "Le torri residenziali Pegassi sulla Tequesta Retreat; nel parcheggio sotterraneo, a sinistra dell'ingresso, c'è un garage.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
@@ -791,16 +802,18 @@
           "id": "poi-vice-city-pawn",
           "name": "Vice City Pawn",
           "kind": "Banco dei pegni",
-          "description": "A Rockridge, con Lou's café, Peewees, Go Postal e Vicycle.",
+          "description": "Banco dei pegni di Crosstown, rapinabile dal capitolo 2: bottino 4.500–12.000 $. Sfonda le vetrine e svuota la cassaforte nel retro.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
           "image": null,
           "xy": [
             3336,
             93
-          ]
+          ],
+          "spoilerLevel": 2,
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-baller-dealership",
@@ -2088,6 +2101,725 @@
           "example": false,
           "updatedAt": "2026-11-09",
           "image": null
+        },
+        {
+          "id": "poi-anfiteatro",
+          "name": "Anfiteatro",
+          "kind": "Anfiteatro",
+          "description": "Il grande anfiteatro all'aperto nel parco di Shoreline, sul lungomare di Downtown.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtadb.org/map/?v=6&l=L207",
+          "image": "assets/img/poi/poi-anfiteatro.jpg",
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L207,ig.jpg",
+          "xy": [
+            3568,
+            -704
+          ],
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ptt-compound",
+          "name": "PTT Youngin$ Illegal Goods Store",
+          "kind": "Operazione di gang",
+          "description": "Il covo dei PTT Youngin$ a Southside: è il colpo bonus dell'Ultimate Edition (icona gialla), con oggetti speciali. Non conta per il 100%.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+          "image": "assets/img/poi/poi-ptt-compound.jpg",
+          "xy": [
+            2734,
+            -1615
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1491,ig.jpg",
+          "updatedAt": "2026-11-18",
+          "spoilerLevel": 3
+        },
+        {
+          "id": "poi-garage-7th-avenue-garage",
+          "name": "7th Avenue Garage",
+          "kind": "Garage in vendita",
+          "description": "A Vice City, appena a est dell'aeroporto. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 12000,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-ne-15th-street-garage",
+          "name": "NE 15th Street Garage",
+          "kind": "Garage della storia",
+          "description": "A Vice City, a nord di Downtown. 2 posti auto. Arriva con la storia nel capitolo 5. Non conta per il trofeo dei garage.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "spoilerLevel": 5,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-pegassi-residences-garage",
+          "name": "Pegassi Residences Garage",
+          "kind": "Garage della storia",
+          "description": "Sotto le torri Pegassi di Tequesta Retreat. 3 posti auto. Arriva con la storia nel capitolo 5. Non conta per il trofeo dei garage.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "spoilerLevel": 5,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-tyrone",
+          "name": "Ricettatore: Tyrone",
+          "kind": "Ricettatore",
+          "description": "A La Perle. Paga bene la droga, nella media gioielli e banconote segnate. Resta dopo la storia. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-yasmani",
+          "name": "Ricettatore: Yasmani",
+          "kind": "Ricettatore",
+          "description": "A Little Cuba. Il migliore per gioielli e banconote segnate; dopo i suoi lavori vende soffiate sui furgoni portavalori e, nel retro, le bombe adesive. Resta dopo la storia. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-randy",
+          "name": "Ricettatore: Randy",
+          "kind": "Ricettatore",
+          "description": "A Balsero (icona verde «RK»). Compra le auto di lusso con localizzatore avanzato della sua lista di 16. Resta dopo la storia. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-balsero",
+          "name": "Top Fun: Balsero",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Navitrak 1:29 · Apollo Aggregates 1:27 · Tisha-Wocka Flea Market 1:08. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-downtown",
+          "name": "Top Fun: Downtown",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Future Leonida Art Museum 1:47 · Shoreline Market 2:01 · Wildland Zoo 1:30. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-dalton-island",
+          "name": "Top Fun: Dalton Island",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Avarice Petroleum 1:53 · The Jamaica 1:16 · Ivory Towers 1:42 — ci si arriva solo in barca o in volo. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-griffin-shooting-range",
+          "name": "Griffin Shooting Range",
+          "kind": "Poligono di tiro",
+          "description": "Nel nord-ovest di Vice City: 6 percorsi a ostacoli da fare in corsa (meglio con Lucia), 18 ori. Permesso dal commesso 5 $, arma a noleggio 10 $. Ogni prova alza la Concentrazione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+          "image": null,
+          "price": 5,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-tequesta-guns-and-ammo",
+          "name": "Tequesta Guns & Ammo",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, a sud dell'aeroporto, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-vice-city-firearms",
+          "name": "Vice City Firearms",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, a est dell'aeroporto, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-martez-empenos",
+          "name": "Martez Empeños",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, sopra Downtown, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-jackson-firearms",
+          "name": "Jackson Firearms",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, sopra Downtown, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-vice-city-gun-and-pawn",
+          "name": "Vice City Gun & Pawn",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, quartieri nord-ovest, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-pawn-and-gun-crosstown",
+          "name": "Pawn & Gun – Crosstown",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Crosstown, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-quickscope",
+          "name": "Quickscope",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, vicino a Downtown, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-black-eagle",
+          "name": "Black Eagle",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella periferia nord-ovest di Vice City, verso le paludi, assortimento ampliato. Vende anche armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-zenons-pawn-shop",
+          "name": "Zenon's Pawn Shop",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, quartieri nord, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-iron-and-oak",
+          "name": "Iron & Oak",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Vice City, quartieri nord verso la contea di Leonard, assortimento ampliato. Vende anche armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-two-wheel-fury-motorsport",
+          "name": "Two Wheel Fury Motorsport",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Vice City, quartieri sud, specializzata in moto sportive: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-euroform-automotive",
+          "name": "Euroform Automotive",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Little Cuba, specializzata in auto di lusso: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "xy": [
+            3053,
+            -643
+          ],
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-vice-auto-customs",
+          "name": "Vice Auto Customs",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Vice City, quartieri ovest, specializzata in tuner, stile corse clandestine: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-lowballers-customs",
+          "name": "Lowballers Customs",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Vice City, a nord dell'aeroporto, specializzata in lowrider: cerchi e interni per berline classiche: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-stockyard-speedshop",
+          "name": "Stockyard Speedshop",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Stockyard, specializzata in hot rod: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-sound4sound-studio",
+          "name": "Sound4Sound Studio",
+          "kind": "Operazione di gang",
+          "description": "Studio di registrazione nei quartieri nord di Vice City che fa anche da deposito di cocaina. Bottino 8.000–18.900 $. Banda: San4San.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-retro-del-negozio",
+          "name": "Retro del negozio",
+          "kind": "Operazione di gang",
+          "description": "Un negozio nel nord di Vice City con un retrobottega sospetto («Robbery Opportunity»). Banda: San4San.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-janjaks-garage",
+          "name": "JanJak's Garage",
+          "kind": "Operazione di gang",
+          "description": "Officina nel nord di Vice City che copre una piantagione di erba. Bottino 14.300–22.000 $. Banda: San4San.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-palazzo-dei-san4san",
+          "name": "Palazzo dei San4San",
+          "kind": "Operazione di gang",
+          "description": "Condominio nel nord di Vice City dove «spuntano cadaveri» («Robbery Opportunity»). Banda: San4San.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-attivit-criminale-san4san",
+          "name": "Attività criminale San4San",
+          "kind": "Operazione di gang",
+          "description": "Un altro covo nel nord di Vice City («Robbery Opportunity»). Banda: San4San.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-centro-sociale-dei-ptt",
+          "name": "Centro sociale dei PTT",
+          "kind": "Operazione di gang",
+          "description": "Centro sociale di Southside dove nascondono la merce rubata («Robbery Opportunity»). Banda: PTT Youngin$.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-magazzino-dei-ptt",
+          "name": "Magazzino dei PTT",
+          "kind": "Operazione di gang",
+          "description": "Magazzino di Southside con la merce rubata («Robbery Opportunity»). Banda: PTT Youngin$.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-cantiere-dei-guardia",
+          "name": "Cantiere dei Guardia",
+          "kind": "Operazione di gang",
+          "description": "Un cantiere nautico sul fiume di Vice City dove tengono la droga («Robbery Opportunity»). Banda: Guardia Brothers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-casa-guardia",
+          "name": "Casa Guardia",
+          "kind": "Operazione di gang",
+          "description": "Vecchio edificio simbolo di Little Cuba, base per le rapine dei fratelli. Bottino 19.400–27.000 $. Banda: Guardia Brothers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-deposito-spedizioni-dei-guardia",
+          "name": "Deposito spedizioni dei Guardia",
+          "kind": "Operazione di gang",
+          "description": "Struttura di spedizioni a Vice City usata come deposito di droga («Robbery Opportunity»). Banda: Guardia Brothers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-slator-towing-inc",
+          "name": "Slator Towing Inc",
+          "kind": "Operazione di gang",
+          "description": "Deposito di carri attrezzi nel sud-ovest di Vice City che nasconde uno sfasciacarrozze illegale. Bottino 5.500–7.500 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-chatfield-storage-and-logistics",
+          "name": "Chatfield Storage & Logistics",
+          "kind": "Operazione di gang",
+          "description": "Molo sul fiume a Downtown da cui escono auto di lusso rubate. Bottino 5.500–6.500 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-leonida-carrier-warehouse",
+          "name": "Leonida Carrier Warehouse",
+          "kind": "Operazione di gang",
+          "description": "Magazzino nell'ovest di Vice City da cui ex militari esportano armi. Codice della cassaforte: 9256. Bottino 12.000–13.000 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-cigar-import-front",
+          "name": "Cigar Import Front",
+          "kind": "Operazione di gang",
+          "description": "Liquor store nel nord di Vice City che copre un import illegale di sigari. Bottino 9.500–10.500 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-peacock-bay",
+          "name": "Lombank – Peacock Bay",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–20.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-peacock-bay",
+          "name": "Fleeca – Peacock Bay",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–20.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-bayside",
+          "name": "Lombank – Bayside",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 15.000–45.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-vcia",
+          "name": "Fleeca – VCIA",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-tequesta",
+          "name": "Fleeca – Tequesta",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 65.000–110.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-downtown",
+          "name": "Lombank – Downtown",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-downtown",
+          "name": "Fleeca – Downtown",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-payday-loans-southside",
+          "name": "Payday Loans – Southside",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-payday-loans-little-cuba",
+          "name": "Payday Loans – Little Cuba",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 15.000–25.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-payday-loans-rockridge",
+          "name": "Payday Loans – Rockridge",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-quick-buck-la-perle",
+          "name": "Quick Buck – La Perle",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-joyer-a-empenos",
+          "name": "Joyería Empeños",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Banco dei pegni a Rockridge. Sfonda le vetrine e svuota la cassaforte nel retro: bottino 4.500–12.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "xy": [
+            3057,
+            8
+          ],
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-down-town-pawn",
+          "name": "Down Town Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Banco dei pegni a Downtown. Sfonda le vetrine e svuota la cassaforte nel retro: bottino 1.000–10.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -2157,20 +2889,20 @@
       },
       "subAreas": [
         {
-          "name": "Sundown",
-          "note": "comunità residenziale con aeroporto privato"
-        },
-        {
-          "name": "Vinewood Beach",
-          "note": "indicata sui cartelli della I-97"
-        },
-        {
-          "name": "North Beaches",
-          "note": "indicata sui cartelli stradali"
+          "name": "Waning Sands",
+          "note": "la città più grande della contea di Leonard"
         },
         {
           "name": "Belville",
-          "note": "distributore Arrow"
+          "note": "a sud-ovest, con l'ufficio dello sceriffo e il distributore Arrow"
+        },
+        {
+          "name": "Sundown, Sundown Beach, Vinewood Beach, North Beaches",
+          "note": "comunità sulla costa"
+        },
+        {
+          "name": "Leith River",
+          "note": "il fiume della contea"
         }
       ],
       "pois": [
@@ -2275,6 +3007,127 @@
           "example": false,
           "updatedAt": "2026-11-09",
           "image": null
+        },
+        {
+          "id": "poi-leonard-sheriff",
+          "name": "Leonard County Sheriff's Office",
+          "kind": "Polizia",
+          "description": "L'ufficio dello sceriffo della contea di Leonard, a Belville.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtadb.org/map/#L3104",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2817,
+            881
+          ]
+        },
+        {
+          "id": "poi-garage-persistence-road-garage",
+          "name": "Persistence Road Garage",
+          "kind": "Garage in vendita",
+          "description": "Nella contea di Leonard, a nord di Vice City. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 7600,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-seaside",
+          "name": "Meditazione: Seaside",
+          "kind": "Luogo di meditazione",
+          "description": "Su uno sperone di roccia sulla spiaggia, a est di Waning Sands. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-waning-sands",
+          "name": "Top Fun: Waning Sands",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Hot Skidz 1:39 · Thundergolf 1:57 · Evergreen Mall 1:52. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-frontier-adventure-golf",
+          "name": "Frontier Adventure Golf",
+          "kind": "Minigolf",
+          "description": "Minigolf a Waning Sands. Per il 100% bastano 2 minigolf su 3.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mount-hailes-club",
+          "name": "Mount Hailes Club",
+          "kind": "Golf",
+          "description": "Campo da golf a Waning Sands: si gioca la «Mount Hailes Golf Challenge».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-tactical-outlet-guns",
+          "name": "Tactical Outlet Guns",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella contea di Leonard, a nord di Vice City, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-farm-fix-meth-lab",
+          "name": "Farm Fix Meth Lab",
+          "kind": "Operazione di gang",
+          "description": "Laboratorio di metanfetamina in una fattoria nell'entroterra della contea di Leonard. Bottino 22.500–37.600 $. Banda: Final Chapter MC.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-druthers-state-bank",
+          "name": "Druthers State Bank",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 15.000–45.000 $ in banconote segnate. Contea di Leonard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -2303,12 +3156,20 @@
           "note": "la Key più popolata, casa di Jason"
         },
         {
-          "name": "Goose Key",
-          "note": "base aeronavale e Guardia Costiera, sulla US 1"
+          "name": "Mile Zero Air Station",
+          "note": "base militare sull'isola all'estremo sud-ovest"
         },
         {
-          "name": "East Key, Bobcat Key, Airward Key",
-          "note": "altre isole dell'arcipelago"
+          "name": "Southwind",
+          "note": "cittadina delle Keys"
+        },
+        {
+          "name": "Riquezas Keys, Permit Keys, Maroon Key, Abismo Key, Shoeless Keys, Corsair Key",
+          "note": "le altre isole dell'arcipelago"
+        },
+        {
+          "name": "Gambit Bay, Leonida Bay, Leonida Straits",
+          "note": "baie e stretto"
         }
       ],
       "pois": [
@@ -2427,21 +3288,6 @@
           "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3b/GTAVITrailer-GTAVI-SS20.png"
         },
         {
-          "id": "poi-goose-key-base",
-          "name": "Base aeronavale di Goose Key",
-          "kind": "Base",
-          "description": "Due piste incrociate e la stazione della Guardia Costiera; un Dodo vola sopra i ponti. Il nome è sul cartello della US 1.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "leak",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
-          "xy": [
-            -297,
-            -4294
-          ]
-        },
-        {
           "id": "poi-goliath-plant",
           "name": "Goliath Global Plant",
           "kind": "Cementificio",
@@ -2526,18 +3372,149 @@
         },
         {
           "id": "poi-naval-air-station",
-          "name": "Naval Air Station",
-          "kind": "Base navale",
-          "description": "Base aeronavale su Goose Key, all'estremità sud-occidentale delle Leonida Keys, con due piste che si incrociano. Non è ancora chiaro se sia la stessa «Base militare».",
+          "name": "Mile Zero Air Station",
+          "kind": "Base militare",
+          "description": "La base militare sull'isola all'estremo sud-ovest. Nella parte sud ci sono i carri armati (3 stelle e trofeo «Challenging Tank»), nella metà nord i caccia (4 stelle). Si entra dal cancello o col salto accanto all'ingresso sud-est.",
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-military-tank-location/",
           "image": null,
           "xy": [
             -297,
             -4294
           ],
-          "updatedAt": "2026-11-09"
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gambit-bay",
+          "name": "Gambit Bay",
+          "kind": "Baia",
+          "description": "Baia delle Keys, nella contea di Mariana.",
+          "status": "da verificare",
+          "source": "stampa",
+          "image": null,
+          "sourceUrl": "https://www.powerpyx.com/gta-6-full-world-map-revealed/",
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-brian",
+          "name": "Ricettatore: Brian",
+          "kind": "Ricettatore",
+          "description": "A sud di Key Lento. Paga poco per droga, gioielli e banconote segnate. Solo nel capitolo 1. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 1,
+          "example": false,
+          "updatedAt": "2026-11-18",
+          "characterIds": [
+            "chr-brian"
+          ]
+        },
+        {
+          "id": "poi-ricettatore-donnie",
+          "name": "Ricettatore: Donnie",
+          "kind": "Ricettatore",
+          "description": "A sud di Key Lento. Paga poco, un po' meglio di Brian per la droga. Solo nel capitolo 1. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 1,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-casa-di-jason",
+          "name": "Meditazione: Casa di Jason",
+          "kind": "Luogo di meditazione",
+          "description": "Sul balcone di casa, quando al mattino Lucia propone di meditare: segui lei e accetta. Solo nel capitolo 1, poi sparisce. Vale +1 al contatore.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 1,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-barrage-gun-supply",
+          "name": "Barrage Gun Supply",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation sull'isola della Mile Zero Air Station, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-chucks-tackle-and-shot",
+          "name": "Chuck's Tackle & Shot",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nelle Keys centrali, assortimento limitato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-coastal-auto-care",
+          "name": "Coastal Auto Care",
+          "kind": "Officina (mod shop)",
+          "description": "Officina nelle Keys meridionali, specializzata in retrò: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-manatee-motel",
+          "name": "Manatee Motel",
+          "kind": "Operazione di gang",
+          "description": "Motel malandato nelle Keys, base del traffico di animali esotici. Bottino 2.800–6.200 $. Banda: Kingfishers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-exotic-animals-front",
+          "name": "Exotic Animals Front",
+          "kind": "Operazione di gang",
+          "description": "Liquor store delle Keys con un traffico di animali esotici nel retro. Bottino 5.000–7.000 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-key-lento",
+          "name": "Fleeca – Key Lento",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–20.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [
@@ -2614,8 +3591,20 @@
           "note": "il nome è sulla torre dell'acqua; ci si arriva anche solo con i mezzi pubblici"
         },
         {
-          "name": "Emerald Springs, Buckskin",
-          "note": "altre località delle paludi"
+          "name": "Pelican Valley",
+          "note": "le paludi, con Cottonmouth Lake, Gullet Marsh e il Pelican River"
+        },
+        {
+          "name": "Wetman Bay",
+          "note": "baia con le baracche dei pescatori"
+        },
+        {
+          "name": "Bobcat Key, Bobcat Bight, Tola Bay",
+          "note": "isole e baie della costa"
+        },
+        {
+          "name": "Buckskin Swamp, Emerald River, Emerald Springs",
+          "note": "paludi a nord-ovest, già nella contea di Kelly"
         }
       ],
       "pois": [
@@ -2678,16 +3667,177 @@
           "id": "poi-paradise-garage",
           "name": "Paradise Garage",
           "kind": "Garage",
-          "description": "Il garage dell'Ultimate Edition a Watson Bay, con armadietto delle armi e deposito per la merce rubata da ricettare.",
+          "description": "Il garage dell'Ultimate Edition a Watson Bay. Dentro c'è la '67 Vapid Dominator Buggy, segnata sulla mappa nel capitolo 2: prenderla apre le missioni di Wyman per ricostruire cinque auto classiche. Non conta per il trofeo dei garage.",
           "status": "da verificare",
           "source": "community",
-          "sourceUrl": "https://thegamehaus.com/gaming/gta-6-launch-trailer-breakdown-vice-city-story-details/2026/10/15/",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
           "image": "assets/img/luoghi/watson-bay/landmark-l1495.webp",
           "xy": [
             1378,
             -1957
           ],
-          "updatedAt": "2026-11-09"
+          "updatedAt": "2026-11-18",
+          "spoilerLevel": 2
+        },
+        {
+          "id": "poi-meditazione-swamp",
+          "name": "Meditazione: Swamp",
+          "kind": "Luogo di meditazione",
+          "description": "Su un pontile di legno accanto a una torretta di osservazione, in mezzo a Buckskin Swamp (contea di Kelly). Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-worn-stone",
+          "name": "Meditazione: Worn Stone",
+          "kind": "Luogo di meditazione",
+          "description": "Sulla riva dell'Emerald River, a Camp Moonflower (contea di Kelly). Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-watson-bay",
+          "name": "Top Fun: Watson Bay",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Leonida RC Raceway 1:27 · Watson Bay 1:34 · Marshland Animal Park 1:17. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-buckskin-swamp",
+          "name": "Top Fun: Buckskin Swamp",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Kowaachobee Village 1:24 · Swampy Sal's Safari Park 1:40 · Camp Moonflower 1:48. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-king-gator-adventure-golf",
+          "name": "King Gator Adventure Golf",
+          "kind": "Minigolf",
+          "description": "Minigolf a Buckskin Swamp. Per il 100% bastano 2 minigolf su 3.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-guns-aplenty",
+          "name": "Guns Aplenty!",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation sulla costa sud-ovest della contea di Mariana, assortimento da caccia.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-richardson-hunting-supplies",
+          "name": "Richardson Hunting Supplies",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella contea di Mariana, a ovest dell'aeroporto di Vice City, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-fishing-shacks",
+          "name": "Fishing Shacks",
+          "kind": "Operazione di gang",
+          "description": "Baracca da pesca isolata a Wetman Bay, usata per il traffico di cocaina. Bottino 4.000–16.000 $. Banda: Kingfishers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-sunrise-rv-park",
+          "name": "Sunrise RV Park",
+          "kind": "Operazione di gang",
+          "description": "Campeggio per camper ad Alligator Creek: smistamento di cocaina e animali esotici. Bottino 23.800–42.200 $. Banda: Kingfishers.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "xy": [
+            1729,
+            -3143
+          ],
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-palmer-fishing-warehouse",
+          "name": "Palmer Fishing Warehouse",
+          "kind": "Operazione di gang",
+          "description": "Magazzino di pesce sulla costa della contea di Mariana, usato per importare cocaina. Bottino 14.400–22.600 $. Banda: La Polilla Negra.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-gas-station-meth-front",
+          "name": "Gas Station Meth Front",
+          "kind": "Operazione di gang",
+          "description": "Minimarket di un distributore sulla strada a ovest di Vice City, con un laboratorio di metanfetamina nel retro. Bottino 8.100–14.400 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-shorefront-watson-bay",
+          "name": "Shorefront – Watson Bay",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–20.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [
@@ -2755,8 +3905,20 @@
       },
       "subAreas": [
         {
-          "name": "Draper Island",
+          "name": "Gellhorn, Port Gellhorn",
+          "note": "la città e il suo entroterra"
+        },
+        {
+          "name": "Draper Island, Draper Bay",
           "note": "porto e raffineria oltre la baia, Bocamar Bridge"
+        },
+        {
+          "name": "Wild Hog Point, Borrachero Sound, Crude Islands, Sandbars",
+          "note": "costa e isole del Golfo"
+        },
+        {
+          "name": "Frogswater, Manifest Canyon",
+          "note": "nord della contea di Kelly"
         }
       ],
       "pois": [
@@ -2912,19 +4074,19 @@
         },
         {
           "id": "poi-gsm-ammu-nation-gellhorn",
-          "name": "Ammu Nation Gellhorn",
+          "name": "Pawn & Gun – Port Gellhorn",
           "kind": "Armeria",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
+          "description": "Ammu-Nation di Port Gellhorn con assortimento standard.",
           "xy": [
             92,
             1344
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-gsm-port-gellhorn-car-wash",
@@ -3131,6 +4293,281 @@
           "example": false,
           "updatedAt": "2026-11-09",
           "image": null
+        },
+        {
+          "id": "poi-garage-mitchel-auto-center",
+          "name": "Mitchel Auto Center",
+          "kind": "Garage in vendita",
+          "description": "Nell'entroterra della contea di Kelly, tra Port Gellhorn e Ambrosia. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 4000,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-port-gellhorn-station-garage",
+          "name": "Port Gellhorn Station Garage",
+          "kind": "Garage della storia",
+          "description": "A Port Gellhorn. 1 posto auto. Arriva da solo con la storia nel capitolo 2. Non conta per il trofeo dei garage.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-moses",
+          "name": "Ricettatore: Moses",
+          "kind": "Ricettatore",
+          "description": "Il garage di Port Gellhorn dove si portano le auto rubate senza localizzatore: si riverniciano e si registrano. Resta anche dopo la storia. Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ricettatore-dunk",
+          "name": "Ricettatore: Dunk",
+          "kind": "Ricettatore",
+          "description": "A Port Gellhorn. Paga poco per droga e gioielli. Resta dopo la storia (per un tratto sparisce). Sulla mappa ha l'icona verde con le iniziali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-red-rocks",
+          "name": "Meditazione: Red Rocks",
+          "kind": "Luogo di meditazione",
+          "description": "A Manifest Canyon, vicino a dove i binari attraversano l'autostrada. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-port-gellhorn",
+          "name": "Top Fun: Port Gellhorn",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Manifest Canyon 1:28 · Red Apple Orchard 1:12 · Port Gellhorn 1:39. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-draper-island",
+          "name": "Top Fun: Draper Island",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Draper Island Terminal 1:49 · Draper Refinery East 1:44 · Draper Refinery West 1:51. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-rodgers-ranch",
+          "name": "Rodgers Ranch & Shooting Range",
+          "kind": "Poligono di tiro",
+          "description": "Al margine nord-est di Port Gellhorn: 6 prove a punteggio da fermo, 24 ori. Permesso 5 $. La prova «Market Range» principiante dura pochi secondi ed è il modo più rapido per alzare la Concentrazione.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+          "image": null,
+          "price": 5,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-bargain-world",
+          "name": "Bargain World",
+          "kind": "Abbigliamento · cabinato arcade",
+          "description": "Negozio di vestiti di Port Gellhorn; fuori c'è un cabinato di «Bang For Your Buck», l'unico videogioco che non si gioca dalla console di casa.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-dino-golf-challenge",
+          "name": "Dino Golf Challenge",
+          "kind": "Minigolf",
+          "description": "Minigolf a Frogswater, nel nord della contea di Kelly. Per il 100% bastano 2 minigolf su 3.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-gellhorn-outfitters",
+          "name": "Gellhorn Outfitters",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Port Gellhorn, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-whisler-motorsport",
+          "name": "Whisler Motorsport",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Port Gellhorn, specializzata in auto da corsa: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-dirt-merchants",
+          "name": "Dirt Merchants",
+          "kind": "Officina (mod shop)",
+          "description": "Officina sulla costa di Port Gellhorn, specializzata in moto da cross: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-wasteland-off-road",
+          "name": "Wasteland Off-Road",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Port Gellhorn, specializzata in fuoristrada: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-kingpin-bowling",
+          "name": "Kingpin Bowling",
+          "kind": "Operazione di gang",
+          "description": "Bowling abbandonato di Port Gellhorn con dentro un giro di pillole. Bottino 15.100–25.600 $. Banda: Kolt & Associates.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-june-warehouse",
+          "name": "June Warehouse",
+          "kind": "Operazione di gang",
+          "description": "Magazzino di Port Gellhorn dove tengono i furgoni delle pillole. Bottino 5.800–10.200 $. Banda: Kolt & Associates.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-la-cascara-motel",
+          "name": "La Cascara Motel",
+          "kind": "Operazione di gang",
+          "description": "Motel abbandonato di Port Gellhorn: pillole e coltivazione di erba. Bottino 21.600–47.200 $. Banda: Kolt & Associates.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-brooks-boatworks",
+          "name": "Brooks Boatworks",
+          "kind": "Operazione di gang",
+          "description": "Cantiere sul porto di Port Gellhorn da cui passano i farmaci da prescrizione. Bottino 30.100–42.600 $. Banda: Kolt & Associates.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-covo-di-port-gellhorn",
+          "name": "Covo di Port Gellhorn",
+          "kind": "Operazione di gang",
+          "description": "Un altro punto di spaccio a Port Gellhorn («Robbery Opportunity» finché non lo visiti). Banda: Kolt & Associates.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-backroom-weed-front",
+          "name": "Backroom Weed Front",
+          "kind": "Operazione di gang",
+          "description": "Salone di bellezza di Port Gellhorn che copre lo spaccio di erba. Bottino 7.000–13.500 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-avery-pawn",
+          "name": "Avery Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Banco dei pegni di Port Gellhorn pieno di oggetti di valore. Sfonda le vetrine e svuota la cassaforte nel retro: bottino 1.000–10.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -3185,7 +4622,7 @@
     {
       "id": "dis-ambrosia",
       "name": "Ambrosia",
-      "region": "Contea di Ambrosia, entroterra centrale",
+      "region": "Contea di Kelly, sulla sponda sud-ovest del Lake Leonida",
       "tagline": "Zucchero, campi e una banda di motociclisti.",
       "description": "Regione agricola e industriale attorno alla raffineria di zucchero Allied Crystal, che dà lavoro a mezza contea. Una banda di motociclisti locale completa il quadro.",
       "map": {
@@ -3196,7 +4633,15 @@
       "subAreas": [
         {
           "name": "Lake Leonida",
-          "note": "il grande lago centrale"
+          "note": "il grande lago centrale, nella parte nord della contea di Leonard"
+        },
+        {
+          "name": "Richard Barebone State Park",
+          "note": "parco statale vicino al lago"
+        },
+        {
+          "name": "Little Hardin Island",
+          "note": "isola del lago"
         }
       ],
       "pois": [
@@ -3216,14 +4661,15 @@
         },
         {
           "id": "poi-one-eyed-willie",
-          "name": "One-Eyed Willie's Mod Shop",
+          "name": "One-Eyed Willie's Auto Shop",
           "kind": "Officina",
-          "description": "Officina dell'Ultimate Edition, a Lake Leonida.",
+          "description": "Officina fuoristrada dell'Ultimate Edition sul Lake Leonida, famosa per le livree dipinte a mano.",
           "status": "da verificare",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
           "image": "assets/img/poi/poi-one-eyed-willie.jpg",
-          "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg"
+          "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg",
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-ambrosia-raceway",
@@ -3259,12 +4705,13 @@
           "id": "poi-thirsty-wolf",
           "name": "The Thirsty Wolf",
           "kind": "Bar",
-          "description": "Il bar da cui i Final Chapter MC inseguono Jason.",
+          "description": "Il bar dei Final Chapter MC; dentro c'è un avversario di biliardo. Tra i colpi della gang è indicato come punto di passaggio della droga.",
           "characterIds": [],
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": "assets/img/luoghi/ambrosia/landmark-l2938.webp"
+          "image": "assets/img/luoghi/ambrosia/landmark-l2938.webp",
+          "updatedAt": "2026-11-18"
         },
         {
           "id": "poi-xero-gas",
@@ -3360,11 +4807,104 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-garage-wyatt-motors",
+          "name": "Wyatt Motors",
+          "kind": "Garage in vendita",
+          "description": "Ad Ambrosia, vicino al Lake Leonida. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 21600,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-store-n-bolt",
+          "name": "Store n' Bolt",
+          "kind": "Garage in vendita",
+          "description": "Ad Ambrosia, vicino al circuito. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 16800,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-ambrosia",
+          "name": "Top Fun: Ambrosia",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Captain O'Malley Marina 2:03 · Allied Crystal 2:02 · Waste Transfer Services 1:55. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-biffs-gun-supply",
+          "name": "Biff's Gun Supply",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella contea di Kelly, vicino al circuito a ovest del Lake Leonida, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-bar-dei-final-chapter",
+          "name": "Bar dei Final Chapter",
+          "kind": "Operazione di gang",
+          "description": "Un bar della contea di Leonard da cui passa la loro droga («Robbery Opportunity» finché non lo visiti). Banda: Final Chapter MC.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-irons-building-supply",
+          "name": "Irons Building Supply",
+          "kind": "Operazione di gang",
+          "description": "Rivendita di materiali ad Ambrosia: club e snodo della cocaina. Bottino 9.400–24.600 $. Banda: Final Chapter MC.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-shorefront-ambrosia",
+          "name": "Shorefront – Ambrosia",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–15.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
       "image": "assets/img/ambrosia.jpg",
-      "status": "verificato",
+      "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
@@ -3425,12 +4965,24 @@
       },
       "subAreas": [
         {
-          "name": "Domed Hills",
-          "note": "zona collinare del nord"
+          "name": "Grayson, Bonanza, Moreau",
+          "note": "paesi della contea di Lummox; a Moreau la MacAlister Gold Mine e il Moreau River"
         },
         {
-          "name": "Yorktown, Millport, Redhill, Lummox County",
-          "note": "località della contea di Lummox, a nord"
+          "name": "Millport, Millport Basin",
+          "note": "porto a est"
+        },
+        {
+          "name": "Lake Tallaloko, Kalaga Reservoir, Dawson Dam",
+          "note": "laghi e diga"
+        },
+        {
+          "name": "San Malo Bay, Okchioha Bay, Partridge Bay",
+          "note": "baie"
+        },
+        {
+          "name": "Zephyr, Featherstone, Saint Attaway, Hyde e Frampton Islands",
+          "note": "le isole del nord"
         }
       ],
       "pois": [
@@ -3496,6 +5048,140 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-meditazione-water-wheel",
+          "name": "Meditazione: Water Wheel",
+          "kind": "Luogo di meditazione",
+          "description": "Accanto alla ruota idraulica di una cartiera in rovina, lungo un fiume nel sud di Moreau. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-jutting-cliff",
+          "name": "Meditazione: Jutting Cliff",
+          "kind": "Luogo di meditazione",
+          "description": "Vicino a una torre che domina una miniera, nel Mount Kalaga National Park. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-waterfall",
+          "name": "Meditazione: Waterfall",
+          "kind": "Luogo di meditazione",
+          "description": "A nord-ovest di Tallaloko, affacciato su una cascata di un fiume che scorre verso est. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-ascent-mountain",
+          "name": "Meditazione: Ascent Mountain",
+          "kind": "Luogo di meditazione",
+          "description": "In cima al Mount Kalaga, nel cerchio di pietre. Compare sulla mappa solo dopo tutte le altre. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "xy": [
+            1755,
+            3072
+          ],
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-moreau-sawmill",
+          "name": "Top Fun: Moreau Sawmill",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Abandoned Mining Pit 1:03 · Adler Creek 1:21 · MacAlister Gold Mine 0:59. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-millport",
+          "name": "Top Fun: Millport",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Millport 1:31 · Rushwood Logging 2:08 · Tallaloko Lakeside Resort 2:05. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-rusty-willis-jr-hunting-supplies",
+          "name": "Rusty Willis Jr. Hunting Supplies",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella contea di Lummox, verso la costa est, assortimento da caccia.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-ledford-motorcycle-workshop",
+          "name": "Ledford Motorcycle Workshop",
+          "kind": "Officina (mod shop)",
+          "description": "Officina nella contea di Lummox, specializzata in chopper e moto americane classiche: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-covo-m7-nel-nord",
+          "name": "Covo M7 nel nord",
+          "kind": "Operazione di gang",
+          "description": "Complesso con un giro di droga sulla costa est della contea di Lummox («Robbery Opportunity» finché non lo visiti). Banda: M7.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-carter-mining-boathouse",
+          "name": "Carter Mining Boathouse",
+          "kind": "Operazione di gang",
+          "description": "Rimessa abbandonata della Carter Mining a Bonanza, usata per far uscire cocaina. Bottino 18.000–37.000 $. Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [
@@ -3558,12 +5244,7 @@
       "tagline": "Luoghi nominati, ma senza un indirizzo.",
       "description": "Qui trovi i luoghi nominati senza un indirizzo preciso. Quando li trovi giocando, spostali nel distretto giusto.",
       "map": null,
-      "subAreas": [
-        {
-          "name": "Watson Bay",
-          "note": "sede del Paradise Garage"
-        }
-      ],
+      "subAreas": [],
       "pois": [
         {
           "id": "poi-wyman-salvage",
@@ -3589,50 +5270,43 @@
           "image": null
         },
         {
-          "id": "poi-gambit-bay",
-          "name": "Gambit Bay",
-          "kind": "Baia",
-          "description": "Località costiera legata a pesca e navigazione.",
+          "id": "poi-banca-gibson-brothers-bank",
+          "name": "Gibson Brothers Bank",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate. Si trova nella contea di Mariana: posizione da trovare.",
           "status": "da verificare",
-          "source": "community",
-          "image": null
-        },
-        {
-          "id": "poi-base-militare",
-          "name": "Base militare",
-          "kind": "Base",
-          "description": "Una grande base militare tra i punti di riferimento di Leonida. La posizione non è ancora nota.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
-          "image": null
-        },
-        {
-          "id": "poi-anfiteatro",
-          "name": "Anfiteatro",
-          "kind": "Anfiteatro",
-          "description": "Un enorme anfiteatro tra i punti di riferimento di Leonida.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map-locations/",
-          "image": "assets/img/poi/poi-anfiteatro.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L207,ig.jpg"
-        },
-        {
-          "id": "poi-leonard-sheriff",
-          "name": "Leonard County Sheriff's Office",
-          "kind": "Polizia",
-          "description": "L'ufficio dello sceriffo della contea di Leonard, a Belville.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtadb.org/map/#L3104",
-          "spoilerLevel": 0,
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
           "example": false,
-          "updatedAt": "2026-11-07",
-          "xy": [
-            2817,
-            881
-          ]
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-payline-loans-247",
+          "name": "Payline Loans 247",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $. Contea di Vice-Dale: posizione da trovare.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-cash-flow",
+          "name": "Cash Flow",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 2.000–10.000 $. Contea di Kelly: posizione da trovare.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -3967,7 +5641,7 @@
           "id": "poi-shore-court",
           "name": "Shore Court",
           "kind": "Garage",
-          "description": "Il garage personale su Shore Drive, a due passi da Ocean Beach, che ospita la '55 Vapid Stanier del Vintage Vice City Pack: armadietto delle armi e deposito per la merce rubata.",
+          "description": "Il garage personale su Shore Drive, a due passi da Ocean Beach, che ospita la '55 Vapid Stanier del Vintage Vice City Pack: armadietto delle armi e deposito per la merce rubata. Non conta per il trofeo «Posto riservato».",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/",
@@ -4006,11 +5680,11 @@
           "id": "poi-fleeca-ocean-beach",
           "name": "Fleeca (Ocean Beach)",
           "kind": "Banca",
-          "description": "Filiale Fleeca a Ocean Beach.",
+          "description": "Filiale Fleeca a Ocean Beach. Rapinabile dal capitolo 3: 5.000–15.000 $ tra cassa e cassaforte.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://www.gtabase.com/gta-6/map/?feature=bank",
-          "spoilerLevel": 0,
+          "spoilerLevel": 3,
           "example": false,
           "updatedAt": "2026-11-09",
           "image": null
@@ -4027,6 +5701,181 @@
           "example": false,
           "updatedAt": "2026-11-09",
           "image": null
+        },
+        {
+          "id": "poi-garage-bonita-court-garage",
+          "name": "Bonita Court Garage",
+          "kind": "Garage in vendita",
+          "description": "Nella parte nord dell'isola di Vice Beach. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 34000,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-atlantic-court-garage",
+          "name": "Atlantic Court Garage",
+          "kind": "Garage in vendita",
+          "description": "A Vice Beach, accanto al golf di Leaf Links. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 40000,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-garage-thompson-court-garage",
+          "name": "Thompson Court Garage",
+          "kind": "Garage della storia",
+          "description": "A Vice Beach, vicino a Leaf Links. 2 posti auto. Arriva con la storia nel capitolo 4. Non conta per il trofeo dei garage.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-vice-beach",
+          "name": "Top Fun: Vice Beach",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Leaf Links 1:30 · Vice Regal Hotel 1:41 · St. Vitus Medical Center 2:00. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ajax-gym",
+          "name": "Ajax Gym",
+          "kind": "Palestra",
+          "description": "Palestra su SW 4th Street: pesi per la Forza, tapis roulant e cyclette per la Resistenza. Si entra pagando l'abbonamento; ci sono le barrette proteiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+          "image": null,
+          "xy": [
+            4526,
+            433
+          ],
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-prestige-firearms",
+          "name": "Prestige Firearms",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation nella parte nord dell'isola di Vice Beach, assortimento ampliato. Vende anche armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-washington-beach",
+          "name": "Fleeca – Washington Beach",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-ocean-beach",
+          "name": "Lombank – Ocean Beach",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 15.000–45.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-shorefront-ocean-beach",
+          "name": "Shorefront – Ocean Beach",
+          "kind": "Banca (rapina)",
+          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 5.000–15.000 $ in banconote segnate.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-ocean-beach-caveau-1",
+          "name": "Lombank – Ocean Beach (caveau grande)",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-fleeca-ocean-beach-caveau",
+          "name": "Fleeca – Ocean Beach (caveau)",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-lombank-ocean-beach-caveau-2",
+          "name": "Lombank – Ocean Beach (caveau)",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-shorefront-ocean-beach-caveau",
+          "name": "Shorefront – Ocean Beach (caveau)",
+          "kind": "Banca con caveau (rapina)",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 95.000–140.000 $. Scatta subito il livello 4 di ricercato.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 4,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -4081,23 +5930,21 @@
         "y": 740,
         "path": "M560 700 L680 690 L700 760 L640 790 L540 780 L520 730 Z"
       },
-      "subAreas": [],
-      "pois": [
+      "subAreas": [
         {
-          "id": "poi-sara-salon-x",
-          "name": "Sara's Unisex Salon (Hamlet)",
-          "kind": "Parrucchiere",
-          "description": "Il salone dell'Ultimate Edition: tagli firmati, barba, trucco, unghie.",
-          "characterIds": [],
-          "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": "assets/img/luoghi/hamlet/landmark-l360.webp",
-          "xy": [
-            2255,
-            -2520
-          ]
+          "name": "Hamlet",
+          "note": "la città col penitenziario"
         },
+        {
+          "name": "South Vice-Dale County",
+          "note": "la campagna a sud di Vice City"
+        },
+        {
+          "name": "Peregrine Bay",
+          "note": "la baia della centrale; la mappa la elenca con la contea di Mariana"
+        }
+      ],
+      "pois": [
         {
           "id": "poi-phils-ammunation",
           "name": "Phil's Ammu-Nation",
@@ -4351,20 +6198,82 @@
           "updatedAt": "2026-11-09"
         },
         {
-          "id": "poi-ptt-compound",
-          "name": "PTT Youngin$ Illegal Goods Store",
-          "kind": "Negozio clandestino",
-          "description": "Un negozio di merce illegale, contenuto dell'Ultimate Edition. Il nome completo è «PTT YOUNGIN$ Illegal Goods Store»; nell'elenco dello store compare come «Compound».",
+          "id": "poi-top-fun-hamlet",
+          "name": "Top Fun: Hamlet",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Deep Roots 1:31 · Power Station South 1:26 · Power Station North 2:04. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
           "status": "da verificare",
-          "source": "trailer",
-          "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
-          "image": "assets/img/poi/poi-ptt-compound.jpg",
-          "xy": [
-            2734,
-            -1615
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1491,ig.jpg",
-          "updatedAt": "2026-11-09"
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-big-shots",
+          "name": "Big Shots",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Hamlet, assortimento ampliato. Vende anche armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-hamlet-traders",
+          "name": "Hamlet Traders",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Hamlet, assortimento standard.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-gang-m7-compound",
+          "name": "M7 Compound",
+          "kind": "Operazione di gang",
+          "description": "Il complesso della M7 sulla costa a sud di Vice City. Banda: M7.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-quick-buck-hamlet",
+          "name": "Quick Buck – Hamlet",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-smash-hamlet-pawn",
+          "name": "Hamlet Pawn",
+          "kind": "Banco dei pegni (rapina)",
+          "description": "Banco dei pegni a Hamlet. Sfonda le vetrine e svuota la cassaforte nel retro: bottino 4.500–12.000 $.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+          "image": null,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -4389,7 +6298,24 @@
         "y": 580,
         "path": "M200 520 L300 500 L330 580 L290 660 L190 640 L170 570 Z"
       },
-      "subAreas": [],
+      "subAreas": [
+        {
+          "name": "Capri",
+          "note": "la città sul Golfo"
+        },
+        {
+          "name": "Tortoise Lake, Capri Sound",
+          "note": "lago e laguna"
+        },
+        {
+          "name": "Belpoint",
+          "note": "località costiera"
+        },
+        {
+          "name": "North Mariana County, Nehrling River",
+          "note": "l'entroterra a nord"
+        }
+      ],
       "pois": [
         {
           "id": "poi-capri-stadium",
@@ -4437,6 +6363,72 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
+        },
+        {
+          "id": "poi-garage-vela-rota-drive-garage",
+          "name": "Vela Rota Drive Garage",
+          "kind": "Garage in vendita",
+          "description": "A Capri, sulla costa del Golfo. 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2. Conta per il trofeo «Posto riservato» (8 garage, 160.000 $ in tutto).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+          "image": null,
+          "price": 24000,
+          "spoilerLevel": 2,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-meditazione-smooth-sand",
+          "name": "Meditazione: Smooth Sand",
+          "kind": "Luogo di meditazione",
+          "description": "Su un piccolo banco di sabbia al largo della costa ovest di Capri. Icona viola; vale doppio se mediti con Jason e con Lucia (insieme dal capitolo 2).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-top-fun-capri",
+          "name": "Top Fun: Capri",
+          "kind": "Gare di droni Top Fun",
+          "description": "Tre gare a tempo col drone (tempo da battere): Capri Train Station 1:50 · Ravella Drive 1:51 · Capri Lake 2:01. Batti le prime due per aprire la terza; vincerne una vale per il trofeo «Top Fun».",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-ammu-woodhatch",
+          "name": "Woodhatch",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Ammu-Nation a Capri, assortimento ampliato. Vende anche armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi).",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-mod-capri-classic",
+          "name": "Capri Classic",
+          "kind": "Officina (mod shop)",
+          "description": "Officina a Capri, specializzata in muscle car americane: potenziamenti e modifiche estetiche.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
