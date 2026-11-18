@@ -1,10 +1,19 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.32.0",
+  "dataVersion": "0.32.1",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.32.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Recensioni: 99 su Metacritic (come Ocarina of Time) e 99 su OpenCritic, 10 da IGN, GameSpot, Edge e dalle testate italiane. Articolo senza spoiler.",
+        "Game Awards: 8 nomination, Gioco dell'anno compreso. Lancio: mezzanotte in Italia, firmware PS5 14.23 obbligatorio, niente patch del giorno uno oltre la 1.002.001.",
+        "Come si gioca: undici schede arricchite con quello che raccontano le recensioni."
+      ]
+    },
     {
       "version": "0.32.0",
       "date": "2026-11-18",
