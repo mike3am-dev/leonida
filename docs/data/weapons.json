@@ -500,31 +500,6 @@
       "whereToBuy": "Ammu-Nation"
     },
     {
-      "id": "wpn-micro-smg",
-      "name": "Shrewsbury Micro SMG",
-      "manufacturer": "Shrewsbury",
-      "class": "mitra",
-      "description": "Il micro mitra della serie.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "facts": [
-        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
-        "Caricatore da 16 colpi (30 esteso)",
-        "Già in GTA III, Vice City, San Andreas, IV e V"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/micro-smg",
-        "https://gta.wiki/w/Micro_Submachine_Gun"
-      ],
-      "realModel": "Mini Uzi"
-    },
-    {
       "id": "wpn-mp5",
       "name": "Vom Feuer VF5",
       "manufacturer": "Vom Feuer",
@@ -637,7 +612,8 @@
         "https://www.gtabase.com/weapons/gta-6/moreland-850",
         "https://www.gtaboom.com/gta-6-gear-up-mission-walkthrough-26a2",
         "https://beebom.com/gta-6-gear-up-mission/",
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/"
       ],
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
@@ -699,29 +675,6 @@
         "range": 2.5
       },
       "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "id": "wpn-shrewsbury-pump",
-      "name": "Shrewsbury Pump Action",
-      "manufacturer": "Shrewsbury",
-      "class": "fucile-pompa",
-      "description": "Fucile a pompa.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "facts": [
-        "Compare nel leak del settembre 2022",
-        "Serbatoio da 8 colpi"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/pump-action-shotgun"
-      ],
-      "realModel": "Mossberg 590"
     },
     {
       "id": "wpn-bolt-sniper",
@@ -936,7 +889,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-18",
       "seen": [
         {
           "where": "An Extended Look",
@@ -944,11 +897,16 @@
         }
       ],
       "facts": [
-        "Già in GTA III, Vice City, San Andreas, IV, V e in Red Dead Redemption 2"
+        "Già in GTA III, Vice City, San Andreas, IV, V e in Red Dead Redemption 2",
+        "La bottiglia ha l'etichetta della birra Patriot e uno straccio lungo",
+        "Dopo la storia, lanciarne 100 sblocca il trucco «Bottiglie esplosive»"
       ],
       "moreSources": [
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://www.gtabase.com/gta-6/weapons/molotov"
+        "https://www.gtabase.com/gta-6/weapons/molotov",
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://gta.wiki/w/Molotov_Cocktails"
       ]
     },
     {
@@ -956,21 +914,23 @@
       "name": "Granata",
       "manufacturer": null,
       "class": "lancio",
-      "description": "Granata a frammentazione. Tra gli esplosivi ci sono anche flashbang, fumogeno e bomba adesiva.",
+      "description": "Granata a frammentazione.",
       "howToGet": "Da verificare.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "facts": [
-        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
+        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
+        "Dopo la storia, lanciarne 100 sblocca il trucco «Tutte le armi esplosive», che le aggiunge all'arsenale con munizioni piene"
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/grenade",
-        "https://gta.wiki/w/Grenades"
+        "https://gta.wiki/w/Grenades",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
       ],
       "realModel": "Granata M61"
     },
@@ -980,19 +940,21 @@
       "manufacturer": null,
       "class": "lancio",
       "description": "Esplosivo da attaccare e far saltare a distanza: apre le casseforti dei covi e il portellone dei furgoni blindati.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si compra all'Ammu-Nation, tra gli esplosivi.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "facts": [
-        "Già in Vice City, San Andreas, IV e V"
+        "Già in Vice City, San Andreas, IV e V",
+        "PowerPyx le consiglia per far saltare le casseforti dei covi delle gang, come quella del bowling di Port Gellhorn"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/sticky-bomb"
+        "https://www.gtabase.com/weapons/gta-6/sticky-bomb",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
       ],
       "realModel": "Esplosivo C-4",
       "whereToBuy": "Ammu-Nation"
@@ -1024,15 +986,15 @@
       "name": "Mazza da baseball",
       "manufacturer": null,
       "class": "corpo-a-corpo",
-      "description": "La classica. Tra le armi da mischia ci sono anche piede di porco, martello, chiave inglese, stecca da biliardo, mazza da golf, coltello da caccia, tirapugni, coltello a serramanico e torcia.",
+      "description": "La classica mazza da baseball, arma da mischia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-bat.webp",
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-baseballbat-scaled.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
@@ -1044,6 +1006,12 @@
       ],
       "moreSources": [
         "https://gta.wiki/w/Baseball_Bat"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Variante unica «Bae-Luxe's Bat»: ricompensa di una missione principale del capitolo 3."
+        }
       ]
     },
     {
@@ -1070,19 +1038,21 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Si accende dalla ruota degli oggetti: compare una barra blu sopra la salute che assorbe i proiettili. Quando finisce serve un giubbotto nuovo. Occupa lo stesso slot del paracadute.",
-      "howToGet": "Si compra all'Ammu-Nation o si prende dal bagagliaio delle volanti. Dopo la storia c'è anche un trucco, che si sblocca con 100 allenamenti.",
+      "howToGet": "Si compra all'Ammu-Nation: nel primo negozio di Key Lento è appeso alla parete di destra, oppure dal commesso nella sezione Equipaggiamento. Si prende anche dal bagagliaio delle volanti. Dopo la storia c'è anche un trucco.",
       "image": "assets/img/vice/armi/wpn-body-armor.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-equip-body-armor/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "facts": [
         "Nel bagagliaio delle auto della polizia ci sono fucili e giubbotti, ma ogni volante ha un localizzatore"
       ],
       "moreSources": [
-        "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
+        "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/all-stats-tracked-in-gta-6/"
       ],
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-048.jpg",
       "whereToBuy": "Ammu-Nation, dal commesso (sezione Equipaggiamento)"
@@ -1092,36 +1062,23 @@
       "name": "Slim Jim",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "L'attrezzo per aprire le portiere. I furti d'auto vanno per livelli di sicurezza: slim jim, Key Cloner, bypass dell'immobilizer, disturbatore di localizzatori.",
-      "howToGet": "Da verificare.",
+      "description": "Apre le portiere chiuse senza rompere il vetro e senza far scattare l'allarme: trovi il punto giusto con la levetta, ci mette un po' più del gomito. Apre in silenzio anche il bagagliaio, dove a volte ci sono armi, droga o contanti. Non serve con chi è seduto al volante e non avvia le auto keyless: per quelle serve il Key Cloner.",
+      "howToGet": "Te lo dà il meccanico di Port Gellhorn in una missione principale del capitolo 2, giocando con Lucia.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "facts": [
-        "Si usa con un mini-gioco a tempo; rompere il finestrino invece fa rumore e scatena l'allarme"
+        "Rompere il finestrino resta possibile, ma fa rumore e fa partire l'allarme"
       ],
       "moreSources": [
-        "https://www.hotcars.com/rockstar-confirms-gta-6-car-theft-will-mirror-real-world-vulnerabilities/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-slim-jim/",
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/"
       ]
-    },
-    {
-      "id": "wpn-lock-pick",
-      "name": "Grimaldello",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Per le serrature. Fa parte del kit del rapinatore, con fascette, sacca per il bottino, chiavetta USB e attrezzo da taglio.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05"
     },
     {
       "id": "wpn-fishing-rod",
@@ -1140,35 +1097,19 @@
       "whereToBuy": "Ammu-Nation con l'icona del pesce sulla mappa"
     },
     {
-      "id": "wpn-face-wrap",
-      "name": "Bandana",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Coprire il volto conta: la polizia riconosce vestiti, aspetto e veicolo.",
-      "howToGet": "Da verificare.",
-      "image": "assets/img/vice/armi/wpn-face-wrap.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/gta-vi-galerie-lancement-02-jason-lucia-braquage.jpg"
-    },
-    {
       "image": "assets/img/vice/armi/wpn-heavy-pistol.webp",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "wpn-heavy-pistol",
       "name": "Duke 1922",
       "manufacturer": "Duke",
       "class": "pistola",
       "description": "La classica americana in .45: più potere d'arresto delle 9 mm.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "realModel": "M1911 (variante)",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-heavy-pistol.webp",
@@ -1192,7 +1133,8 @@
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_Capo_pistol",
         "https://www.gtabase.com/weapons/gta-6/heavy-pistol",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/"
       ],
       "caliber": ".45",
       "magazine": "8 colpi",
@@ -1203,39 +1145,13 @@
         "handling": 8.0,
         "range": 4.6
       },
-      "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "image": "assets/img/vice/armi/wpn-hl-pistol.jpg",
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "id": "wpn-hl-pistol",
-      "name": "Hawk & Little Pistol",
-      "manufacturer": "Hawk & Little",
-      "class": "pistola",
-      "description": "Ispirata alla Taurus PT92.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "seen": [
+      "whereToBuy": "Ammu-Nation",
+      "extras": [
         {
-          "where": "Artwork del Trailer 1",
-          "what": "In mano a Jason"
+          "source": "stampa",
+          "text": "Variante unica «Monty's 1922»: si raccoglie da terra durante una missione principale di Lucia nel capitolo 3, subito dopo il primo nemico abbattuto; se vai avanti senza prenderla la perdi. PowerPyx la chiama «1992 Pistol», quasi certamente un refuso per 1922."
         }
-      ],
-      "facts": [
-        "Rispetto a GTA V manca la scritta Hawk & Little sul carrello, quindi il produttore non è certo",
-        "Caricatore da 12 colpi (16 esteso)",
-        "Già in GTA III, Vice City, San Andreas, IV e V"
-      ],
-      "moreSources": [
-        "https://gta.wiki/w/Pistol_(HD_Universe)",
-        "https://www.gtabase.com/gta-6/weapons/pistol"
-      ],
-      "realModel": "Taurus PT92AF",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/17/Pistol-GTAVI-Trailer1Artwork.jpg/revision/latest?cb=20250816021143"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-scar.webp",
@@ -1446,20 +1362,21 @@
     {
       "image": null,
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "wpn-flashbang",
       "name": "Flashbang",
       "manufacturer": null,
       "class": "lancio",
-      "description": "Granata stordente.",
+      "description": "Granata stordente (nel gioco «Flash Grenade»): acceca e stordisce chi è vicino.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
-        "Nella serie c'era solo in Chinatown Wars"
+        "Nella serie c'era solo in Chinatown Wars",
+        "Nel capitolo 3 un contatto ne lascia alcune nel bagagliaio di un'auto, insieme a una Klose K17 con silenziatore"
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/flashbang",
@@ -1512,17 +1429,17 @@
     {
       "image": null,
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "wpn-crowbar",
       "name": "Piede di porco",
       "manufacturer": null,
-      "class": "corpo-a-corpo",
-      "description": "Il piede di porco, arma da mischia.",
+      "class": "equipaggiamento",
+      "description": "Forza le casse sigillate: in alcuni colpi ti fa portare via un bottino più grande. È tra i 12 oggetti di Equipaggiamento del menu Progressi.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
     },
     {
       "image": null,
@@ -1612,17 +1529,17 @@
     {
       "image": "assets/img/vice/armi/wpn-pool-cue.webp",
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "wpn-pool-cue",
       "name": "Stecca da biliardo",
       "manufacturer": null,
       "class": "corpo-a-corpo",
       "description": "La stecca da biliardo.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-poolcue-scaled.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
@@ -1636,22 +1553,25 @@
       "moreSources": [
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://gta.wiki/w/Pool_Cue"
+      ],
+      "facts": [
+        "Nei bar con il biliardo si stacca dalla rastrelliera a muro, e si usa anche per colpire"
       ]
     },
     {
       "image": null,
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "wpn-flashlight",
-      "name": "Torcia Vom Feuer",
+      "name": "Torcia",
       "manufacturer": "Vom Feuer",
-      "class": "corpo-a-corpo",
-      "description": "Si usa anche per colpire.",
+      "class": "equipaggiamento",
+      "description": "Fa luce nei posti bui, ma non sostituisce un'arma. È tra i 12 oggetti di Equipaggiamento del menu Progressi.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
       "facts": [
         "Compare nel leak dell'agosto 2026",
         "Già in GTA Online (Halloween Surprise)"
@@ -1664,49 +1584,45 @@
     },
     {
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "wpn-key-cloner",
       "name": "Key Cloner",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Si installa nel telefono e apre le auto di lusso. Quelle che lo richiedono hanno spesso un localizzatore avanzato, che avvisa la polizia quando rallenti: con WAiNK vedi prima che sistema ha l'auto.",
-      "howToGet": "Arriva in automatico a metà del capitolo 3, all'inizio di una missione principale.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "description": "Un'app del telefono per le auto keyless, che non si possono mettere in moto con i fili: davanti alla portiera scegli «Clona chiave» e trovi il punto giusto con la levetta; l'auto si apre e si avvia da sola. Quelle che lo richiedono hanno spesso un localizzatore avanzato, che avvisa la polizia quando rallenti: con WAiNK vedi prima che sistema ha l'auto.",
+      "howToGet": "Arriva in automatico a metà del capitolo 3, all'inizio di una missione principale (verso le 40 ore di gioco).",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-clone-keys/",
+        "https://culturedvultures.com/gta-6-how-to-get-a-key-cloner/",
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-mask.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "wpn-mask",
       "name": "Maschera",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Si indossa durante il crimine e poi si butta: nasconde il volto anche alle telecamere. In auto le maschere hanno una ruota a parte.",
+      "description": "Si indossa durante il crimine e poi si toglie appena sei fuori vista: nasconde il volto anche alle telecamere. In auto le maschere hanno una ruota a parte. Nel capitolo 3 scegli un paio di maschere per i colpi in banca.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-036.jpg"
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "stampa",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "wpn-duffel",
-      "name": "Borsa del bottino",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Il bottino si raccoglie una mazzetta alla volta e sta nelle borse: la capienza dipende dal veicolo.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-036.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+        "https://playday.one/2026/11/18/all-stats-tracked-in-gta-6/"
+      ]
     },
     {
       "image": null,
@@ -1714,14 +1630,37 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
+      "id": "wpn-duffel",
+      "name": "Borsa del bottino",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Il bottino si raccoglie una mazzetta alla volta e sta nelle borse: servono per portare banconote segnate, gioielli e droga fino alla consegna. Ne puoi portare più d'una e passarne una al partner tenendo premuto il tasto; la capienza dipende dal veicolo.",
+      "howToGet": "Da verificare.",
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      ]
+    },
+    {
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
       "id": "wpn-binoculars",
       "name": "Binocolo",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Si sceglie dalla ruota: avvicini l'immagine con la freccia su della croce direzionale e tieni premuto R1 per studiare un animale. Per il 100% bastano 100 animali su 255.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      ]
     },
     {
       "image": null,
@@ -1782,14 +1721,15 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "wpn-headphones",
       "name": "Auricolari",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Per ascoltare radio e podcast a piedi, collegati al telefono.",
+      "description": "Per ascoltare a piedi radio, playlist e podcast.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+      "whereToBuy": "Negozi di elettronica"
     },
     {
       "image": null,
@@ -1836,28 +1776,6 @@
         "https://gta.wiki/w/Unnamed_GTA_VI_mini_golf_club",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
       ]
-    },
-    {
-      "id": "wpn-fire-bottle",
-      "name": "Bottiglia incendiaria",
-      "manufacturer": null,
-      "class": "lancio",
-      "description": "Un ordigno incendiario da lancio diverso dalla molotov.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "leak",
-      "facts": [
-        "Arma nuova, al debutto nella serie; non si modifica",
-        "Compare nel leak del settembre 2022"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/fire-bottle"
-      ],
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/fire-bottle"
     },
     {
       "id": "wpn-hl-knife",
@@ -1908,36 +1826,6 @@
       "sourceUrl": "https://www.gtabase.com/weapons/gta-6/switchblade"
     },
     {
-      "id": "wpn-immobilizer-bypass",
-      "name": "Bypass dell'immobilizer",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "L'attrezzo elettronico per avviare le auto di lusso protette dall'immobilizer.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "leak",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
-      "id": "wpn-tracker-jammer",
-      "name": "Disturbatore di localizzatori",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Blocca il segnale GPS dell'auto rubata, così il localizzatore non la segnala.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "leak",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
       "id": "wpn-painkillers",
       "name": "Antidolorifici",
       "manufacturer": null,
@@ -1953,64 +1841,22 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
-      "id": "wpn-backpack",
-      "name": "Zaino",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Lo zaino dell'equipaggiamento.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "community",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
-      "id": "wpn-zipties",
-      "name": "Fascette",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Per legare gli ostaggi durante i colpi.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "leak",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
       "id": "wpn-cutoff-tool",
       "name": "Attrezzo da taglio",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "L'attrezzo da scasso per tagliare lucchetti e serrature, nel kit del rapinatore.",
-      "howToGet": "Da verificare.",
+      "description": "Piccolo attrezzo che taglia i lucchetti dei container pesanti (i container arancioni SCOOP del porto) e di alcuni veicoli. Non è discreto, ma funziona.",
+      "howToGet": "Te lo danno nella prima parte del capitolo 3, con una missione principale.",
       "image": null,
-      "source": "community",
-      "status": "da verificare",
+      "source": "stampa",
+      "status": "verificato",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
-      "id": "wpn-usb-drive",
-      "name": "Chiavetta USB",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "La chiavetta del kit del rapinatore.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "community",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "updatedAt": "2026-11-18",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-meet-the-heders-walkthrough/",
+      "moreSources": [
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+      ]
     },
     {
       "id": "wpn-food-drink",
@@ -2085,12 +1931,12 @@
       "description": "Pistola pesante in .50: molto più potente di quanto dica la sua taglia.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "caliber": ".50 Magnum",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
@@ -2100,7 +1946,16 @@
         "accuracy": 4.0,
         "handling": 7.8,
         "range": 5.0
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Variante unica «Gil's Kalinga .50»: ricompensa di una missione principale del capitolo 3, se completi fino in fondo l'esercitazione di scasso sulla cassaforte (la puoi ripetere quante volte vuoi)."
+        }
+      ]
     },
     {
       "id": "wpn-hl-38",
@@ -2110,12 +1965,12 @@
       "description": "Il revolver classico di Hawk & Little.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "caliber": ".38 Special",
       "magazine": "6 colpi",
       "fireMode": "Semiautomatica",
@@ -2125,7 +1980,16 @@
         "accuracy": 5.0,
         "handling": 8.6,
         "range": 4.5
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Variante unica «Donnie's H&L .38»: nel capitolo 1 è nel bagagliaio di un'auto durante una missione principale di Jason. Va presa lì: finita la missione non si recupera più."
+        }
+      ]
     },
     {
       "id": "wpn-wortham-wcr1",
@@ -2715,11 +2579,14 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "price": "2.150 $",
       "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
       "moreSources": [
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      ],
+      "facts": [
+        "Non compare nell'elenco di DayOne: è l'unica arma da fuoco confermata solo da PowerPyx"
       ]
     },
     {
@@ -2756,15 +2623,20 @@
       "name": "Snap Gun",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Apre in silenzio le porte con l'allarme, come il retro delle gioiellerie. Resta nell'inventario: quando sei davanti a una porta chiusa scegli se sfondarla o aprirla con la Snap Gun.",
+      "description": "Apre in silenzio le porte chiuse, come il retro delle gioiellerie: trovi il punto giusto con la levetta e premi il grilletto finché la barra si riempie. Non spegne l'allarme: sfondare altre porte, rompere le vetrine o un commesso possono ancora farlo scattare. Dal retro arrivi all'ufficio, dove l'allarme si disattiva.",
       "howToGet": "Te lo dà un ricettatore nel capitolo 3, dopo il primo lavoro in gioielleria.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/",
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+      ]
     },
     {
       "id": "wpn-dye-pack-jammer",
@@ -2772,29 +2644,37 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Neutralizza le cartucce di inchiostro dei contanti. Senza questo attrezzo, le banconote segnate di banche e finanziarie non si possono rivendere.",
-      "howToGet": "Si sblocca a metà del capitolo 3, con una missione principale.",
+      "howToGet": "Si sblocca a metà del capitolo 3, con una missione principale: da lì banche e finanziarie compaiono sulla mappa come colpi possibili.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+      ]
     },
     {
       "id": "wpn-metal-detector",
       "name": "Metal detector",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Sott'acqua cerca i tesori sepolti: quando la luce passa da rossa a verde sei sopra il punto giusto.",
+      "description": "Trova gli oggetti di metallo a corto raggio e funziona anche sott'acqua: sui fondali cerca i tesori sepolti, e quando la luce passa da rossa a verde sei sopra il punto giusto.",
       "howToGet": "Nella ruota delle armi, in basso a destra; serve per i tesori di Kenton.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+      ]
     },
     {
       "id": "wpn-parachute",
@@ -2802,15 +2682,18 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Resta invisibile finché non serve: in una caduta lunga lo apri al volo. Occupa lo slot del giubbotto: per usarlo spegni il giubbotto dalla ruota degli oggetti.",
-      "howToGet": "Si compra all'Ammu-Nation (Equipaggiamento). Dopo la storia c'è anche un trucco, che si sblocca con 50 lanci da oltre 300 piedi.",
+      "howToGet": "Si compra una volta sola all'Ammu-Nation (nel primo negozio di Key Lento è sulla parete in fondo a sinistra; altrimenti nei negozi con l'icona della maglietta o dal commesso, sezione Equipaggiamento). Dopo ogni lancio va ripreso dalla rastrelliera del negozio. Alcuni grattacieli hanno una cassa di paracadute sul tetto e ce n'è uno in cima alla vetta più alta del Mount Kalaga. Dopo la storia c'è anche un trucco, che si sblocca con 50 lanci da oltre 300 piedi.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-parachute/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "whereToBuy": "Ammu-Nation, dal commesso (sezione Equipaggiamento)"
+      "updatedAt": "2026-11-18",
+      "whereToBuy": "Ammu-Nation, dal commesso (sezione Equipaggiamento)",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-parachute-how-to-get/"
+      ]
     }
   ],
   "notes": {

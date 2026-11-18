@@ -17,15 +17,19 @@
     {
       "id": "tip-editions",
       "category": "prima-ora",
-      "title": "La tua Ultimate Edition: cosa trovi il giorno uno",
-      "body": "Hai l'Ultimate Edition (99,99 $ negli USA). Include: la '95 Grotti Cheetah, i revolver Hawk & Little Morgan, varianti personalizzate delle armi, gli abiti «Vice City Style», i veicoli nel rifugio di Jason (Dinka Enduro e kayak Crest), il Ganado Retro Build, il motoscafo Shitzu Squalo, la '67 Vapid Dominator Buggy, la collezione di auto classiche, l'abbigliamento Goodtime Gear, e l'accesso a Rideout Customs, One-Eyed Willie's, Sara's Unisex Salon, Stock 305, Electric Fang Tattoo e il negozio clandestino PTT Youngin$. Avendo comprato prima del 20 novembre hai anche il Vintage Vice City Pack: la '55 Vapid Stanier con garage, abiti e acconciature d'epoca, un motivo esclusivo per le armi. Più un mese di GTA+. Controlla il rifugio e il garage appena entri: le schede sono in Garage e in Radio e Cultura.",
+      "title": "La tua Ultimate Edition: cosa trovi e quando",
+      "body": "Hai l'Ultimate Edition (99,99 $ negli USA). Include: la '95 Grotti Cheetah, i revolver Hawk & Little Morgan, varianti personalizzate delle armi, gli abiti «Vice City Style», i veicoli nel rifugio di Jason (Dinka Enduro e kayak Crest), il Ganado Retro Build, il motoscafo Shitzu Squalo, la '67 Vapid Dominator Buggy, la collezione di auto classiche, l'abbigliamento Goodtime Gear, e l'accesso a Rideout Customs, One-Eyed Willie's, Sara's Unisex Salon, Stock 305, Electric Fang Tattoo e il covo dei PTT Youngin$ da rapinare. Avendo comprato prima del 20 novembre hai anche il Vintage Vice City Pack: la '55 Vapid Stanier con garage, abiti e acconciature d'epoca, un motivo esclusivo per le armi. Più un mese di GTA+. Non arriva tutto il primo giorno: nel capitolo 1 trovi a casa di Jason la Enduro e il kayak e all'Ammu-Nation l'arma personale di Jason, e il Retro Build del Ganado si applica solo nel capitolo 1, da Coastal Auto Care a Key Lento. Il resto si sblocca capitolo dopo capitolo, fino alla Cheetah nel 5; lo Squalo si prende solo durante il capitolo 4. Il calendario completo è in Come si gioca › Bonus Ultimate, preordine e GTA+.",
       "priority": 2,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
+      ]
     },
     {
       "id": "tip-rating",
@@ -202,18 +206,22 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-18",
       "id": "tip-30fps",
       "category": "generale",
       "title": "Frame rate: 30 fps ovunque",
       "priority": 19,
-      "body": "Il gioco punta ai 30 fps su PS5, PS5 Pro e Xbox Series X|S. Sulla PS5 Pro l'immagine è più nitida (PSSR) e le ombre sono in ray tracing, ma la cadenza resta la stessa.",
+      "body": "Il gioco gira a 30 fps su PS5, PS5 Pro e Xbox Series X|S, senza modalità prestazioni. Secondo Digital Foundry è il GTA più fluido di sempre al lancio: sulla PS5 Pro il 30 è quasi perfetto e l'immagine più nitida (PSSR, ombre in ray tracing), sulla PS5 base ci sono piccoli cali nelle scene più caotiche, la Series S scende a 720p e verso i 20 fps.",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
       "extras": [
         {
           "source": "community",
           "text": "Niente visuale in prima persona completa: c'è solo da fermo, mirando con un'arma col mirino o alla guida col telefono in mano."
         }
+      ],
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-the-smoothest-gta-game-in-history-despite-30fps-analysis-finds-but-ps5-pro-is-the-best-way-to-play-this-game-by-far/",
+        "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096"
       ]
     },
     {
@@ -233,14 +241,18 @@
       "id": "tip-trasporti-2",
       "category": "trasporti",
       "title": "Viaggio rapido: taxi e RydeMe",
-      "body": "Il viaggio rapido c'è, ma non dalla mappa: chiami Paradise Taxi dai contatti (da subito) o usi RydeMe (dal capitolo 2), metti un punto sulla mappa, sali e paghi 100 $ per saltare la corsa; oppure ti fai il viaggio intero chiacchierando con l'autista. Autobus, treni, tram e taxi, anche sull'acqua, sono l'alternativa all'auto.",
+      "body": "Il viaggio rapido c'è, ma non dalla mappa: chiami Paradise Taxi dai contatti (dopo la prima missione) o, più avanti, usi l'app RydeMe; metti un punto sulla mappa (va bene anche dove c'è ancora la nebbia), sali e paghi 100 $ in più della corsa per saltare il viaggio; oppure ti fai il viaggio intero chiacchierando con l'autista. Autobus, treni, tram, traghetto e taxi, anche sull'acqua, sono l'alternativa all'auto.",
       "priority": 2,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained/",
+        "https://www.powerpyx.com/gta-6-all-ferry-terminals-locations/"
+      ]
     },
     {
       "id": "tip-trasporti-3",
@@ -421,14 +433,14 @@
       "id": "tip-app",
       "category": "sistemi",
       "title": "Le app del telefono, in breve",
-      "body": "BuckMe (banca), WhatUp (messaggi: rispondi a Lucia, ignorarla rovina il rapporto), RydeMe (corse), Scooter Bros (recupero auto), WAINK (scansione auto), Snapmatic (social, solo in lettura), fitness e sonno, On Demand (podcast). Il passeggero può usare il telefono mentre l'altro guida.",
+      "body": "BuckMe (banca), WhatUp (messaggi: rispondi a Lucia, ignorarla rovina il rapporto), RydeMe (corse), Scooter Bros (recupero auto), WAINK (scansione auto), Snapmatic (social, solo in lettura), fitness e sonno, On Demand (podcast). Il passeggero può usare il telefono mentre l'altro guida.\n\nControlla spesso i Promemoria: ti ricordano chi chiamare e a chi rispondere. Tenendo premuto su sulla croce apri subito WAiNK.",
       "priority": 30,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "tip-comb-1",
@@ -498,28 +510,36 @@
     {
       "id": "tip-storia-1",
       "category": "storia",
-      "title": "Capitoli, scelte e circa 80 ore",
-      "body": "La storia è a capitoli come in Red Dead Redemption 2: servono circa 80 ore, extra compresi. Le scelte hanno conseguenze ritardate e nessuna strada dà bonus: gioca come ti pare. L'avvio è nelle Keys, nella casetta di Jason.",
+      "title": "Capitoli, scelte e 60-80 ore",
+      "body": "La storia è divisa in 5 capitoli, come in Red Dead Redemption 2. Le stime delle guide: 60-80 ore con un po' di esplorazione (PowerPyx ne ha impiegate 70, il recensore di Kotaku circa 90), una cinquantina andando dritti, intorno alle 200 per il 100%. Non c'è una difficoltà da scegliere. Le scelte hanno conseguenze ritardate e nessuna strada dà bonus: gioca come ti pare. L'avvio è nelle Keys, nella casetta di Jason.",
       "priority": 36,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-how-long-to-complete-80-hours/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-game-length-how-long-is-the-story/",
+        "https://kotaku.com/how-long-is-gta-6-2000758029"
+      ]
     },
     {
       "id": "tip-tecnica-1",
       "category": "tecnica",
       "title": "30 fps, e la prima persona solo per mirare",
-      "body": "L'obiettivo è 30 fps su tutte le console, PS5 Pro compresa, che aggiunge PSSR e ombre in ray tracing. Photo Mode c'è, Rockstar Editor no. Le funzioni del DualSense (altoparlante, vibrazione aptica, grilletti adattivi) sono usate in tutto il gioco e si regolano dalle impostazioni di accessibilità.",
+      "body": "L'obiettivo è 30 fps su tutte le console, PS5 Pro compresa, che aggiunge PSSR e ombre in ray tracing. La prima persona c'è solo da fermo o mirando con un'arma col mirino (L2 + R3) e alla guida col telefono in mano. Il fotomodo si chiama Photo Studio e si apre dal menu di pausa; Rockstar Editor non c'è. Le funzioni del DualSense (altoparlante, vibrazione aptica, grilletti adattivi) sono usate in tutto il gioco e si regolano dalle impostazioni di accessibilità.",
       "priority": 37,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.vice.com/en/article/will-gta-6-have-first-person-mode/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-how-to-play-in-first-person-view/",
+        "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/"
+      ]
     },
     {
       "image": null,
@@ -569,13 +589,16 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "tip-lingua",
       "category": "tecnica",
       "title": "Italiano: sottotitoli sì, doppiaggio no",
-      "body": "Interfaccia e sottotitoli in italiano tra tredici lingue; audio solo in inglese, come sempre per Rockstar. Non sono ancora note opzioni di accessibilità, né il supporto a HDR, 120 Hz o VRR.",
+      "body": "Interfaccia e sottotitoli in italiano tra tredici lingue; audio solo in inglese, come sempre per Rockstar. Le opzioni di aiuto e accessibilità sono parecchie (mira, tasti da premere o tenere premuti, minigiochi semplificati, scuotimento della camera, sangue, icone più grandi): le trovi riassunte in Come si gioca › Comandi, impostazioni e prestazioni.",
       "priority": 38,
-      "sourceUrl": "https://leonidaguide.gg/guide/pre-uscita/gta-6-in-italiano/"
+      "sourceUrl": "https://leonidaguide.gg/guide/pre-uscita/gta-6-in-italiano/",
+      "moreSources": [
+        "https://gamingbolt.com/gta-6-15-gameplay-settings-to-change-before-your-first-mission"
+      ]
     },
     {
       "image": null,
@@ -772,6 +795,266 @@
       ],
       "image": null,
       "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-prime-10",
+      "category": "prima-ora",
+      "title": "Le prime 10 cose da fare",
+      "body": "1. Prima di partire, nelle impostazioni: schema dei comandi (lo scatto ora è su L3, c'è anche il classico), tipo di mira e, se vuoi, voce del navigatore e icone più grandi.\n\n2. A casa di Jason sistema la camera (cartongesso e pittura: a Lucia fa piacere), appendi il sacco sotto casa e fai pesi in terrazza.\n\n3. Dai da mangiare al serpente Dolores e sfoglia libri e riviste di casa: alzano il Focus e contano per i collezionabili.\n\n4. Salva a mano (pausa › Gioco): 15 slot e niente replay delle missioni. Tieni un salvataggio all'inizio e alla fine di ogni capitolo.\n\n5. Finché non hai il conto in banca, nascondi i contanti sotto le assi del pavimento della camera: se muori o ti arrestano perdi quelli in tasca. Poi versali al bancomat.\n\n6. Appena hai WAiNK scansiona auto, barche e aerei (tieni premuto su sulla croce); gli animali li studi col binocolo. Per il 100% ne servono 200 e 100: cominciare subito fa risparmiare ore.\n\n7. Mangia e bevi prima di uscire: salute, resistenza e Focus partono più alti. Puoi farlo anche camminando o guidando.\n\n8. Accarezza cani e gatti (L2) e butta la spazzatura nel cestino: alzano il Focus e il profilo criminale.\n\n9. Tieni un cambio d'abiti nel bagagliaio: cambiarsi è il modo più rapido per far perdere le tue tracce alla polizia.\n\n10. Fai gli incarichi facoltativi appena compaiono (bolle nere con lettere rosa o icone viola): alcuni spariscono andando avanti, e per il 100% ne servono 100.",
+      "priority": 1,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
+      "moreSources": [
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
+        "https://www.powerpyx.com/gta-6-how-to-save/",
+        "https://www.powerpyx.com/gta-6-how-to-study-animals-scan-vehicles/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-salva-capitoli",
+      "category": "prima-ora",
+      "title": "Niente replay: salva a ogni capitolo",
+      "body": "Non si rigiocano né le missioni né i capitoli, e non ci sono medaglie. Hai 15 salvataggi manuali più uno automatico: tienine uno all'inizio e uno alla fine di ogni capitolo (5 capitoli, 10 slot) e alterna gli altri dopo ogni missione. Attento: caricare un salvataggio vecchio sovrascrive anche quello automatico. Si salva da pausa › Gioco, fuori dalle missioni.",
+      "priority": 2,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-save/",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-save-game/",
+        "https://www.powerpyx.com/gta-6-is-there-mission-replay/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-soldi-capitoli",
+      "category": "soldi",
+      "title": "Soldi: quando conviene farli",
+      "body": "Nel capitolo 1 non vale la pena accumulare: segui la storia. Dal capitolo 2 vendi a Moses le auto senza localizzatore, circa 1.000 $ l'una. Dal capitolo 3 arrivano gioiellerie (10.000-25.000 $), vendite ai Pay 'n' Spray e le auto di lusso per Randy (30.000 $ e più). I colpi più ricchi, i caveau delle banche grandi (fino a 205.000 $), si aprono alla fine del capitolo 4.",
+      "priority": 6,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-family-savings",
+      "category": "soldi",
+      "title": "Family Savings: soldi al sicuro per sempre",
+      "body": "Nell'app BuckMe puoi spostare soldi nel risparmio «Family Savings»: non li ritiri più, ma non li perdi mai, nemmeno morendo. Ogni traguardo alza il tetto del conto corrente e dà sconti (−20% su RydeMe a 10.000 $, −20% sui garage a 100.000 $), e versare fa piacere al partner. Se il conto corrente è pieno, i pagamenti in arrivo restano in attesa.",
+      "priority": 7,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-focus-l3r3",
+      "category": "esplorazione",
+      "title": "Senti urla o sirene? Accendi il Focus",
+      "body": "Premi insieme le due levette (L3 + R3) per il Focus: fuori dagli scontri non si consuma. Ti indica da dove arrivano urla, sirene e spari (sono eventi casuali da scoprire), mostra in rosso le porte con l'allarme e ti aiuta a trovare i codici delle casseforti.",
+      "priority": 8,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-calma-agente",
+      "category": "combattimento",
+      "title": "A una stella, prova a parlare",
+      "body": "Gli agenti non tirano sempre fuori la pistola. Con una stella, senza arma in mano, tieni premuto L2 sul poliziotto e scegli di calmarlo: spesso la stella sparisce. Funziona con chiunque, anche se qualcuno attacca lo stesso.",
+      "priority": 9,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+      "moreSources": [],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-ripara-pompa",
+      "category": "guida",
+      "title": "Ripara alla pompa di benzina",
+      "body": "Al distributore puoi anche riparare auto e moto per poco, spesso meno che con Scooter Bros. Il gioco ti avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino; nel test di Kotaku un vecchio pick-up resta a secco dopo circa mezz'ora di guida.",
+      "priority": 10,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+      "moreSources": [
+        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-scooter-premium",
+      "category": "trasporti",
+      "title": "Scooter Bros Premium si ripaga",
+      "body": "Dal capitolo 2 Scooter Bros ti porta i veicoli personali, a pagamento. Il Premium costa 12.500 $: tre consegne gratis ogni giorno di gioco, e con quei crediti recuperi gratis anche le auto sequestrate. Abbinalo a taxi e RydeMe: viaggio rapido, poi ti fai portare l'auto.",
+      "priority": 11,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-summon-vehicles/",
+      "moreSources": [
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-nebbia-aereo",
+      "category": "esplorazione",
+      "title": "Togli la nebbia in volo",
+      "body": "La mappa si scopre a settori: basta entrarci un attimo. Il modo più veloce è un aereo agricolo biplano, già nel capitolo 1 (ce n'è uno vicino a Key Lento): tanto carburante e nessun caccia alle calcagna, a differenza dei jet. Servono 2-3 ore e vale un trofeo. Salva spesso: l'automatico scatta di rado.",
+      "priority": 12,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-unfog-the-map-fast-best-plane/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-game-length-how-long-is-the-story/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-focus-poligono",
+      "category": "sistemi",
+      "title": "Alza il Focus al poligono",
+      "body": "Al Rodgers Ranch, a nord-est di Port Gellhorn, compra il pass da 5 $ e fai la prova principiante Market Range: dura cinque secondi e ogni volta alza il Focus per sempre. Esci e ricomincia quante volte vuoi. Lo alzano anche golf, biliardo, pesca, basket e meditazione.",
+      "priority": 13,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+      "moreSources": [
+        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-giorno-notte",
+      "category": "generale",
+      "title": "Un giorno dura 2 ore e 24 minuti",
+      "body": "Un'ora di gioco passa in 6 minuti reali. Di notte molti negozi chiudono, le case sono chiuse a chiave, ci sono meno agenti e meno testimoni, e la polizia arriva più tardi. Per cambiare ora dormi al rifugio (mattina, mezzogiorno, sera o notte): dormire dà anche un bonus.",
+      "priority": 14,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-long-is-1-day-in-game-time/",
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/how-to-change-the-time-of-day-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-how-to-skip-time/",
+        "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-comandi-nuovi",
+      "category": "tecnica",
+      "title": "Comandi nuovi: si corre con L3",
+      "body": "GTA VI cambia i comandi di sempre: si scatta premendo la levetta sinistra, X serve per saltare e arrampicarsi, il corpo a corpo è su Quadrato. Se ti trovi male, nelle impostazioni c'è lo schema classico (e uno per mancini). L'interfaccia è dinamica: minimappa, soldi e barre compaiono premendo giù sulla croce, oppure le fissi dalle impostazioni.",
+      "priority": 3,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
+      "moreSources": [
+        "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
+        "https://gamingbolt.com/gta-6-15-gameplay-settings-to-change-before-your-first-mission"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-vibrazione",
+      "category": "esplorazione",
+      "title": "Il controller vibra a piedi? Scansiona",
+      "body": "Se camminando senti una vibrazione forte e improvvisa, fermati e tira fuori WAiNK (tieni premuto su sulla croce): di solito lì vicino c'è un'opera o qualcos'altro da scansionare.",
+      "priority": 15,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+      "moreSources": [],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-gta-plus",
+      "category": "prima-ora",
+      "title": "GTA+: cosa ti dà il mese gratis",
+      "body": "Col preordine dell'Ultimate hai un mese di GTA+: si riscatta dal menu di pausa, scheda Store, e poi si rinnova da solo a 7,99 € al mese finché non lo disdici. Finché è attivo (serve la connessione) hai una Annis Elegy anni '90 con garage a Crosstown, mezzi pubblici, bici, monopattini e Seashark gratis, sconti su RydeMe, +10% sulla vendita dei veicoli e −10% in alcuni negozi.",
+      "priority": 5,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/",
+      "moreSources": [
+        "https://gamingbolt.com/gta-6-offers-a-supercar-free-public-transport-discounts-and-more-with-gta"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-entrare-edifici",
+      "category": "esplorazione",
+      "title": "Quali edifici si possono visitare",
+      "body": "Sulla mappa gli edifici blu scuro hanno un interno, quelli blu chiaro no. Avvicinandoti, la minimappa mostra la porta d'ingresso con una linea bianca, e anche stanze e scale nascoste. Col Focus le porte bianche si aprono, quelle rosse hanno l'allarme.",
+      "priority": 16,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
+      "moreSources": [],
+      "spoilerLevel": 0,
+      "image": null,
       "example": false,
       "updatedAt": "2026-11-18"
     }

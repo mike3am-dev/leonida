@@ -173,11 +173,15 @@
       "rewards": [
         "Una gioielleria rende da 1.000 a 25.000 $ a colpo.",
         "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con la Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
-        "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato."
+        "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato.",
+        "Un negozio di liquori rende da 100 a 3.000 $."
       ],
       "steps": [
         "Gioielli e contanti vanno venduti a un ricettatore.",
-        "Nel retro distruggi i nastri e spegni l'allarme: il profilo criminale resta «Professional»."
+        "Nel retro distruggi i nastri e spegni l'allarme: il profilo criminale resta «Professional».",
+        "Il codice della cassaforte cambia ogni volta: cercalo scritto nel retro (il Focus aiuta) o fattelo dire puntando l'arma su un dipendente.",
+        "Prima di entrare seleziona il negozio sulla mappa: vedi se ha una cassaforte, quanto è sorvegliato e quanto vale.",
+        "Col Focus le porte collegate all'allarme sono rosse."
       ],
       "image": null,
       "status": "verificato",
@@ -185,8 +189,13 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Lavoretti e crimini"
+      "updatedAt": "2026-11-18",
+      "group": "Lavoretti e crimini",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/",
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://www.powerpyx.com/gta-6-all-liquor-stores-locations/"
+      ]
     },
     {
       "id": "act-rifornimento",
@@ -202,7 +211,8 @@
       ],
       "steps": [
         "L'indicatore del carburante compare sopra la minimappa premendo giù sulla croce direzionale, se lo attivi nelle impostazioni dell'interfaccia.",
-        "In riserva l'indicatore diventa giallo e i distributori più vicini compaiono sulla mappa."
+        "In riserva l'indicatore diventa giallo e i distributori più vicini compaiono sulla mappa.",
+        "Alla pompa puoi anche riparare l'auto o la moto per poco: spesso costa meno di Scooter Bros."
       ],
       "image": null,
       "status": "verificato",
@@ -215,7 +225,9 @@
       "moreSources": [
         "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
         "https://www.powerpyx.com/gta-6-all-challenges-guide/",
-        "https://insider-gaming.com/gta-6-challenges/"
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601"
       ]
     },
     {
@@ -648,7 +660,8 @@
       "rewards": [
         "Trofeo «Il centauro solitario» alla fine della serie di Billy.",
         "Sfida dei veicoli: tre vittorie di fila in un giorno a Mud Club, Gellhorn e Boone.",
-        "Dopo la storia: 10 vittorie tra Gellhorn, Mud Club e Boone sbloccano il trucco Ripara veicolo."
+        "Dopo la storia: 10 vittorie tra Gellhorn, Mud Club e Boone sbloccano il trucco Ripara veicolo.",
+        "Demolition derby all'Ambrosia Raceway: da circa 3.800 a 6.300 $ a vittoria (il percorso a otto paga di più), ripetibili, anche con un'auto noleggiata in pista."
       ],
       "steps": [
         "Al Gellhorn International Raceway fai prima la gara di presentazione: apre la serie amatoriale «Keep it PG», cinque gare.",
@@ -659,7 +672,8 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
-        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/"
+        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/"
       ]
     },
     {
@@ -729,7 +743,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "act-caccia-dettagli",
       "name": "Caccia: le missioni di Bret",
       "type": "attività",
@@ -742,14 +756,18 @@
       "rewards": [
         "Il fucile unico Killtelligence SM-69 alla prima caccia.",
         "Dopo la nona caccia si sblocca lo Shrewsbury SMS-01 negli Ammu-Nation.",
-        "Trofeo «Bersagli leciti»: un animale unico per Bret."
+        "Trofeo «Bersagli leciti»: un animale unico per Bret.",
+        "Bret paga sempre di più: un cinghiale grosso può valere 2.500 $, e gli animali leggendari ancora di più. Le prede piccole le compra direttamente dal bagagliaio, parcheggiato davanti al suo posto."
       ],
       "steps": [
         "Un colpo pulito, alla testa o al cuore, lascia l'animale intatto e rende di più; troppi colpi lo rovinano.",
         "Le cacce aperte sono in Mappa › Attività › Target Deck."
       ],
       "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
-      "group": "Pesca e caccia"
+      "group": "Pesca e caccia",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/"
+      ]
     },
     {
       "image": null,
@@ -1000,7 +1018,8 @@
       "steps": [
         "Per il 100% basta avviare il gioco e uscire subito col touchpad.",
         "Due dei giochi della console li provi già in una missione del capitolo 1.",
-        "Per il trofeo finisci tutti i livelli di uno solo dei quattro giochi."
+        "Per il trofeo finisci tutti i livelli di uno solo dei quattro giochi.",
+        "Il primo livello di Tenebrae Lux, che giochi in una missione del capitolo 1, si risolve in tre mosse: la torre in basso a sinistra verso l'alto, quella centrale verso il basso, quella in alto a destra verso il basso."
       ],
       "image": null,
       "status": "da verificare",
@@ -1011,8 +1030,7 @@
       "updatedAt": "2026-11-18",
       "group": "Svago",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
-        "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/"
+        "https://insider-gaming.com/tenebrae-lux-gta-6/"
       ]
     },
     {
@@ -1062,7 +1080,8 @@
       ],
       "steps": [
         "Andate in due: mentre ti alleni con uno, l'altro finisce da solo il suo.",
-        "Dopo l'allenamento prendi delle proteine: un frullato dal frigo o una barretta in palestra."
+        "Dopo l'allenamento prendi delle proteine: un frullato dal frigo o una barretta in palestra.",
+        "Nel capitolo 1, a casa di Jason, il sacco per il cardio lo appendi tu sotto la casa; i pesi sono in terrazza."
       ],
       "image": null,
       "status": "da verificare",
@@ -1070,8 +1089,12 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Sport e fitness"
+      "updatedAt": "2026-11-18",
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
+        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/"
+      ]
     },
     {
       "id": "act-acrobazie",
@@ -1142,7 +1165,8 @@
       ],
       "steps": [
         "Il caveau dà subito 4 stelle: scappa in moto nel traffico, poi cambia mezzo.",
-        "Porta il partner: quando non hai più posto passagli una borsa."
+        "Porta il partner: quando non hai più posto passagli una borsa.",
+        "Con i lavori di Yasmani (capitolo 3) si aprono anche i bancomat, da strappare dal muro con un mezzo col verricello e poi aprire (con molto rumore), e i furgoni portavalori, da far saltare con le bombe adesive sul portellone: le bombe le trovi nel retro del negozio di Yasmani."
       ],
       "image": null,
       "status": "da verificare",
@@ -1150,8 +1174,12 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Lavoretti e crimini"
+      "updatedAt": "2026-11-18",
+      "group": "Lavoretti e crimini",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/"
+      ]
     },
     {
       "id": "act-laboratori-tyrone",
@@ -1597,6 +1625,62 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "group": "Svago"
+    },
+    {
+      "id": "act-eventi-casuali",
+      "type": "attività",
+      "name": "Eventi casuali e rapine altrui",
+      "districtId": null,
+      "group": "Lavoretti e crimini",
+      "description": "Leonida è piena di episodi che capitano mentre giri: uno scambio di droga finito male, qualcuno che cerca il coniuge sparito dopo una festa, una banda in fuga con le borse dopo una rapina. Spesso li senti prima di vederli: urla, sirene, allarmi, spari, frenate.",
+      "requirements": [],
+      "rewards": [
+        "Il bottino di un'altra banda vale spesso da 1.000 a 15.000 $, più di molti colpi fatti da te, soprattutto nei capitoli 2 e 3."
+      ],
+      "steps": [
+        "Quando senti trambusto premi L3 + R3 per il Focus: ti indica da dove arriva.",
+        "Se vedi rapinatori in fuga con le borse, fermali (anche senza ucciderli) e prendi il bottino; in due ne portate di più.",
+        "Poi sparisci in fretta, perché la polizia passa a cercare te, e vendi tutto a un ricettatore."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+      "moreSources": [
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "act-auto-wyman",
+      "type": "side-quest",
+      "name": "Auto per Wyman (Ultimate Edition)",
+      "districtId": "dis-grassrivers",
+      "group": "Lavoretti e crimini",
+      "description": "Incarichi esclusivi dell'Ultimate Edition: Wyman, che conosci al motel, ti manda a cercare auto classiche da ricostruire. Si aprono dopo aver recuperato la '67 Vapid Dominator Buggy nel capitolo 2.",
+      "requirements": [
+        "Contano come incarichi facoltativi per il 100%: ti permettono di saltarne altri.",
+        "Li trovi nella scheda Esplorazione della mappa (lente), con l'icona viola «W»."
+      ],
+      "rewards": [
+        "Le ricostruzioni di cinque classiche: '67 Transgressor, '70 Riata, '64 Mamba GT, Reynolds Kit Car e '72 Deviant."
+      ],
+      "steps": [
+        "Prima prendi la Dominator Buggy: dopo una gara sullo sterrato al Thrillbilly Mud Club compare con un'icona viola, in un garage di Grassrivers.",
+        "Poi apri gli incarichi di Wyman dalla scheda Esplorazione e segui le indicazioni per ogni auto."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
+      ],
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18"
     }
   ]
 }

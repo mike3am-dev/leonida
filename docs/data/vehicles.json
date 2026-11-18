@@ -80,7 +80,7 @@
     },
     {
       "id": "veh-dinka-enduro",
-      "name": "Dinka Enduro",
+      "name": "'72 Dinka Enduro",
       "manufacturer": "Dinka",
       "class": "moto",
       "description": "Moto da enduro dell'Ultimate Edition, con una livrea ispirata alle mimetiche militari. È tra i veicoli del rifugio di Jason.",
@@ -91,13 +91,17 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/GTAVI-Dinka-Enduro.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda XL350",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione)."
+      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione).",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+      ]
     },
     {
       "id": "veh-crest-kayak",
@@ -162,22 +166,26 @@
       "description": "La moto con cui Jason sfugge alla polizia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-principe-alvino-v1.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c4/OfficialScreenshots-GTAVI-PromotionalWebsite-JasonDuval-SS1.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ducati Panigale V2",
       "seats": 2,
       "drivetrain": "RWD",
-      "seenIn": "Vice City 09"
+      "seenIn": "Vice City 09",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Alvino_V1"
+      ]
     },
     {
       "id": "veh-annis-elegy-90",
-      "name": "Annis Elegy '90",
+      "name": "'90 Annis Elegy",
       "manufacturer": "Annis",
       "class": "sportiva",
       "description": "La sportiva modificata di Yago, pilota di corse clandestine.",
@@ -188,9 +196,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/18/ElegyRetroCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-progen-emerus",
@@ -238,17 +249,21 @@
       "description": "Sportiva elettrica.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pfister-neon.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/neon-2.jpg",
       "imageCredit": "gtabase.com",
       "realModel": "Porsche Mission E",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Neon"
+      ]
     },
     {
       "id": "veh-vysser-neo",
@@ -269,28 +284,32 @@
     },
     {
       "id": "veh-maibatsu-penumbra-ff",
-      "name": "Maibatsu Penumbra FF",
+      "name": "'97 Maibatsu Penumbra FF",
       "manufacturer": "Maibatsu",
       "class": "sportiva",
       "description": "Coupé sportiva anni Novanta.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-maibatsu-penumbra-ff.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/penumbra-ff.jpg",
       "imageCredit": "gtabase.com",
       "realModel": "Mitsubishi Eclipse",
       "seats": 1,
-      "drivetrain": "FWD"
+      "drivetrain": "FWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Penumbra_FF"
+      ]
     },
     {
       "id": "veh-declasse-stallion",
-      "name": "Declasse Stallion",
-      "manufacturer": "Declasse",
+      "name": "'68 Classique Stallion",
+      "manufacturer": "Classique",
       "class": "muscle",
       "description": "Muscle car.",
       "howToGet": "Da verificare.",
@@ -300,9 +319,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stallion.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-vapid-hustler",
@@ -312,7 +334,7 @@
       "description": "Hot rod anni Trenta.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-hustler.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
@@ -368,15 +390,19 @@
       "description": "Cabriolet di lusso.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-buckingham-windsor-drop.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/windsor-drop-screen.jpg",
       "imageCredit": "gtabase.com",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "veh-ubermacht-rebla-gts",
@@ -416,22 +442,26 @@
       "id": "veh-mammoth-patriot-milspec",
       "name": "Mammoth Patriot Mil-Spec",
       "manufacturer": "Mammoth",
-      "class": "fuoristrada",
+      "class": "militare",
       "description": "Fuoristrada militare.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-mammoth-patriot-milspec.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/patriot-mil-spec.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
+      "moreSources": [
+        "https://gta.wiki/w/Patriot_Mil-Spec"
+      ],
+      "whereToFind": "Mile Zero Air Station, la base militare su Goose Key (Mariana County), tra i mezzi parcheggiati."
     },
     {
       "id": "veh-bf-injection",
-      "name": "BF Injection",
+      "name": "'73 BF Injection",
       "manufacturer": "BF",
       "class": "fuoristrada",
       "description": "Il buggy da spiaggia della serie.",
@@ -442,9 +472,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/injection.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-polaris-ranger",
@@ -521,8 +554,8 @@
     },
     {
       "id": "veh-mtl-wastelander",
-      "name": "MTL Wastelander",
-      "manufacturer": "MTL",
+      "name": "HVY Wastelander",
+      "manufacturer": "HVY",
       "class": "servizio",
       "description": "Camion pesante.",
       "howToGet": "Da verificare.",
@@ -532,9 +565,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/service/main/wastelander.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
+      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-rexhall-rose-air",
@@ -568,23 +604,6 @@
       "example": false,
       "updatedAt": "2026-11-05",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/utility/main/fieldmaster.jpg",
-      "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
-    },
-    {
-      "id": "veh-hvy-dozer",
-      "name": "HVY Dozer",
-      "manufacturer": "HVY",
-      "class": "industriale",
-      "description": "Bulldozer.",
-      "howToGet": "Da verificare.",
-      "image": "assets/img/veicoli/veh-hvy-dozer.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/industrial/main/dozer.jpg",
       "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)"
     },
     {
@@ -685,8 +704,8 @@
     },
     {
       "id": "veh-nagasaki-caddy",
-      "name": "Nagasaki Caddy",
-      "manufacturer": "Nagasaki",
+      "name": "Maibatsu Caddy",
+      "manufacturer": "Maibatsu",
       "class": "altro",
       "description": "Il golf cart, da usare sui campi come il Leaf Links.",
       "howToGet": "Da verificare.",
@@ -696,9 +715,12 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caddy.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "id": "veh-scooter-elettrico",
@@ -739,11 +761,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-bravado-banshee.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-bravado-banshee",
       "name": "Bravado Banshee",
       "manufacturer": "Bravado",
@@ -756,7 +778,11 @@
       "realModel": "Dodge Viper",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più. Dopo la storia si evoca anche con un trucco (tutte le sfide di combattimento)."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più. Dopo la storia si evoca anche con un trucco (tutte le sfide di combattimento).",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
@@ -764,9 +790,9 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-dinka-blista-compact",
-      "name": "Dinka Blista Compact",
+      "name": "'85 Dinka Blista",
       "manufacturer": "Dinka",
       "class": "sportiva",
       "description": "La piccola alla Honda CR-X.",
@@ -776,17 +802,20 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda CR-X",
       "seats": 2,
-      "drivetrain": "FWD"
+      "drivetrain": "FWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-bravado-buffalo",
-      "name": "Bravado Buffalo",
+      "name": "'07 Bravado Buffalo",
       "manufacturer": "Bravado",
       "class": "sportiva",
       "description": "Ispirata alla Dodge Charger.",
@@ -796,11 +825,15 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Dodge Charger (6th Generation)",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Buffalo"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-grotti-carbonizzare.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -816,7 +849,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ferrari Portofino / Aston Martin Vanquish Zagato",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Carbonizzare"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pfister-comet-retro-custom.png",
@@ -857,11 +894,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-invetero-coquette",
       "name": "Invetero Coquette",
       "manufacturer": "Invetero",
@@ -873,15 +910,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chevrolet Corvette C7",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Coquette"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette-d10.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-invetero-coquette-d10",
       "name": "Invetero Coquette D10",
       "manufacturer": "Invetero",
@@ -893,15 +934,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chevrolet Corvette C8",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Coquette_D10"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-cypher.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-bermacht-cypher",
       "name": "Übermacht Cypher",
       "manufacturer": "Übermacht",
@@ -913,17 +958,21 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "BMW M2",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Cypher"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-futo.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-karin-futo",
-      "name": "Karin Futo",
+      "name": "'85 Karin Futo",
       "manufacturer": "Karin",
       "class": "sportiva",
       "description": "La Toyota AE86 della serie.",
@@ -933,7 +982,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "whereToFind": "Kelly County, Draper Island: quella che chiede Moses (dal capitolo 2) è nell'edificio sul bordo sud dell'isola, vicino ai posti di guardia sulla strada.",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+        "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
       ]
     },
     {
@@ -976,11 +1026,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-grotti-itali-rsx.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-grotti-itali-rsx",
       "name": "Grotti Itali RSX",
       "manufacturer": "Grotti",
@@ -993,24 +1043,39 @@
       "realModel": "Ferrari SF90 Stradale",
       "seats": 2,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-ocelot-jugular",
       "name": "Ocelot Jugular",
       "manufacturer": "Ocelot",
       "class": "sportiva",
-      "description": "Ispirata alla Jaguar XE Project 8.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina sportiva di lusso Ocelot, ispirata alla Jaguar XE Project 8.",
+      "howToGet": "Si ruba: è tra le auto che vuole Randy.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e4/Jugular-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Jugular"
+      ],
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti ai grandi hotel sul lungomare, a est di Vice City, o in giro per la città. Consegnata intatta rende 30.000 $ e più.",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nella lista di Randy di PowerPyx compare come «Ocelot Jagular»: è un refuso, il nome nel gioco è Jugular."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-obey-omnis-e-gt.jpg",
@@ -1031,7 +1096,7 @@
     },
     {
       "image": "assets/img/veicoli/veh-enus-paragon-r.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -1057,11 +1122,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-maibatsu-penumbra",
       "name": "Maibatsu Penumbra",
       "manufacturer": "Maibatsu",
@@ -1070,15 +1135,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bb/Penumbra-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Penumbra"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-coil-raiden.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-coil-raiden",
       "name": "Coil Raiden",
       "manufacturer": "Coil",
@@ -1087,15 +1156,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/raiden.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Raiden"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dinka-sugoi.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-dinka-sugoi",
       "name": "Dinka Sugoi",
       "manufacturer": "Dinka",
@@ -1107,18 +1180,22 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda Civic Type R FK8",
       "seats": 4,
-      "drivetrain": "FWD"
+      "drivetrain": "FWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Sugoi"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-sultan.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-karin-sultan",
-      "name": "Karin Sultan",
-      "manufacturer": "Karin",
+      "name": "Emperor Sultan",
+      "manufacturer": "Emperor",
       "class": "sportiva",
       "description": "A metà tra la Lexus IS e la Lancer Evo.",
       "howToGet": "Da verificare.",
@@ -1127,15 +1204,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Subaru Impreza WRX STI",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Sultan"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-v-str.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-v-str",
       "name": "Albany V-STR",
       "manufacturer": "Albany",
@@ -1147,15 +1228,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cadillac CTS-V",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/V-STR"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-emperor-vectre.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-emperor-vectre",
       "name": "Emperor Vectre",
       "manufacturer": "Emperor",
@@ -1167,7 +1252,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lexus RC F",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Vectre"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-alpha.jpg",
@@ -1205,11 +1294,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-fathom-fr36.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-fathom-fr36",
       "name": "Fathom FR36",
       "manufacturer": "Fathom",
@@ -1221,11 +1310,15 @@
       "imageCredit": "gtabase.com",
       "realModel": "Infiniti G35 Coupe (V35)",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/FR36"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-grotti-furia.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -1251,11 +1344,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-pegassi-tempesta",
       "name": "Pegassi Tempesta",
       "manufacturer": "Pegassi",
@@ -1268,7 +1361,11 @@
       "realModel": "Lamborghini Huracan",
       "seats": 2,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
@@ -1317,13 +1414,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-albany-buccaneer.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-buccaneer",
-      "name": "Albany Buccaneer",
+      "name": "'65 Albany Buccaneer",
       "manufacturer": "Albany",
       "class": "muscle",
       "description": "La Buick Riviera, anche in versione lowrider Custom.",
@@ -1333,7 +1430,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Buick Riviera",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Buccaneer"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo-stx.png",
@@ -1361,16 +1462,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-chino",
-      "name": "Vapid Chino",
-      "manufacturer": "Vapid",
+      "name": "'65 Dundreary Chino",
+      "manufacturer": "Dundreary",
       "class": "muscle",
       "description": "Ispirata alla Lincoln Continental del 1965.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4e/Chino-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-schyster-deviant.jpg",
@@ -1395,11 +1499,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-dominator.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-dominator",
       "name": "Vapid Dominator",
       "manufacturer": "Vapid",
@@ -1408,7 +1512,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/38/Dominator-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Dominator"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-gauntlet-classic.png",
@@ -1429,30 +1537,34 @@
     },
     {
       "image": "assets/img/veicoli/veh-declasse-impaler-80.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-impaler-80",
-      "name": "Declasse Impaler '80",
+      "name": "'80 Declasse Impaler",
       "manufacturer": "Declasse",
       "class": "muscle",
       "description": "La Impala anni Ottanta; esiste anche la SZ, ispirata a quella del 1994-96.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/87/ImpalerSZ-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Impaler"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-imponte-phoenix.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-imponte-phoenix",
-      "name": "Imponte Phoenix",
+      "name": "'77 Imponte Phoenix",
       "manufacturer": "Imponte",
       "class": "muscle",
       "description": "La Firebird seconda serie.",
@@ -1474,9 +1586,9 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-imponte-ruiner",
-      "name": "Imponte Ruiner",
+      "name": "'82 Imponte Ruiner",
       "manufacturer": "Imponte",
       "class": "muscle",
       "description": "La Trans Am.",
@@ -1486,7 +1598,10 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chevrolet Camaro and Pontiac Firebird",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-sabre-turbo.jpg",
@@ -1527,13 +1642,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tulip.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-tulip",
-      "name": "Declasse Tulip",
+      "name": "'72 Declasse Tulip",
       "manufacturer": "Declasse",
       "class": "muscle",
       "description": "Ispirata alla Chevelle del 1972, è l'auto simbolo dei protagonisti. Esiste anche la Tulip M-100, ispirata alla Malibu.",
@@ -1543,17 +1658,21 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "1972 Chevrolet Chevelle Malibu",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Tulip"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vamos.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-declasse-vamos",
-      "name": "Declasse Vamos",
+      "name": "'74 Declasse Vamos",
       "manufacturer": "Declasse",
       "class": "muscle",
       "description": "Ispirata alla Chevy Nova; è la sua prima apparizione in single player.",
@@ -1565,10 +1684,16 @@
         {
           "source": "stampa",
           "text": "Esiste una Vamos unica, «Martha's Vamos»: scoprirla nel menu Progressi sblocca il trucco del filtro Cataclysm."
+        },
+        {
+          "source": "stampa",
+          "text": "Tra i veicoli speciali c'è anche «Martha's Vamos»: scoprirla nel menu Progressi sblocca, dopo la storia, il filtro «Cataclysm»."
         }
       ],
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-all-cheats/"
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
       ]
     },
     {
@@ -1593,13 +1718,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-ganado-70.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-vapid-ganado-70",
-      "name": "Vapid Ganado '70",
+      "name": "'70 Vapid Ganado",
       "manufacturer": "Vapid",
       "class": "muscle",
       "description": "Il pickup alla Ford Ranchero, veicolo di Jason; il «Ganado Retro Build» dell'Ultimate Edition è il suo kit di preparazione retrò.",
@@ -1619,13 +1744,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-pegassi-infernus-classic",
-      "name": "Pegassi Infernus",
+      "name": "'96 Pegassi Infernus",
       "manufacturer": "Pegassi",
       "class": "classica",
       "description": "La Lamborghini Diablo; ne corre una gialla nelle gare notturne.",
@@ -1650,13 +1775,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-mamba-gt",
-      "name": "Declasse Mamba GT",
+      "name": "'64 Declasse Mamba GT",
       "manufacturer": "Declasse",
       "class": "classica",
       "description": "Ispirata alla Shelby Daytona Coupe.",
@@ -1664,17 +1789,21 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-04-1080.jpg",
       "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
-      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('64 Mamba GT)."
+      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('64 Mamba GT).",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-manana.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-manana",
-      "name": "Albany Manana",
+      "name": "'77 Albany Manana",
       "manufacturer": "Albany",
       "class": "classica",
       "description": "A metà tra la LeSabre e la Eldorado.",
@@ -1684,7 +1813,11 @@
       "imageCredit": "gtabase.com",
       "realModel": "Cadillac Eldorado",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Manana"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
@@ -1692,9 +1825,9 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-bermacht-sentinel-classic",
-      "name": "Übermacht Sentinel Classic",
+      "name": "'85 Übermacht Sentinel",
       "manufacturer": "Übermacht",
       "class": "classica",
       "description": "La cabrio rossa alla BMW E30 M3 guidata da Jason.",
@@ -1704,7 +1837,10 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "BMW E30 M3",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tornado.jpg",
@@ -1776,11 +1912,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-karin-asterope-gz.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-karin-asterope-gz",
       "name": "Karin Asterope GZ",
       "manufacturer": "Karin",
@@ -1789,17 +1925,21 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e0/AsteropeGZ-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Asterope_GZ"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-emperor.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-emperor",
-      "name": "Albany Emperor",
+      "name": "'85 Albany Emperor",
       "manufacturer": "Albany",
       "class": "berlina",
       "description": "Ispirata alla Cadillac Brougham.",
@@ -1808,15 +1948,19 @@
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/51/Emperor-GTAVI-OfficialScreenshot-PortGellhorn04.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cadillac Sedan de Ville, Cadillac Fleetwood Brougham",
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Emperor"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-feroci.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-karin-feroci",
       "name": "Karin Feroci",
       "manufacturer": "Karin",
@@ -1828,7 +1972,11 @@
       "imageCredit": "gtabase.com",
       "realModel": "1993 Toyota Aristo",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Feroci"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-intruder.png",
@@ -1852,11 +2000,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-lowline.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-lowline",
       "name": "Vapid Lowline",
       "manufacturer": "Vapid",
@@ -1865,15 +2013,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/taurus-2.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Lowline"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-schyster-pmp-700.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-schyster-pmp-700",
       "name": "Schyster PMP 700",
       "manufacturer": "Schyster",
@@ -1882,15 +2034,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f3/PMP700-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/PMP_700"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-primo.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-primo",
       "name": "Albany Primo",
       "manufacturer": "Albany",
@@ -1899,11 +2055,15 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/Primo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Primo"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-schafter-v12.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -1922,25 +2082,30 @@
       "drivetrain": "AWD",
       "whereToFind": "Salton (Vice City), nello sfasciacarrozze di una gang: la prima si ruba in una missione principale del capitolo 3. Si entra salendo sul furgone bianco sul lato nord.",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/"
+        "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
       ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-stanier",
-      "name": "Vapid Stanier",
+      "name": "'98 Vapid Stanier",
       "manufacturer": "Vapid",
       "class": "berlina",
       "description": "La Crown Victoria, anche come taxi e volante.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stanier.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Stanier"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-zirconium-stratum.png",
@@ -2046,11 +2211,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-aleutian.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-aleutian",
       "name": "Vapid Aleutian",
       "manufacturer": "Vapid",
@@ -2062,15 +2227,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ford Expedition",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Aleutian"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pfister-astron.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-pfister-astron",
       "name": "Pfister Astron",
       "manufacturer": "Pfister",
@@ -2082,17 +2251,21 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Porsche Macan",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Astron"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-gallivanter-baller-ii.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-gallivanter-baller-ii",
-      "name": "Gallivanter Baller II",
+      "name": "Gallivanter Baller",
       "manufacturer": "Gallivanter",
       "class": "suv",
       "description": "La Range Rover; accanto a Jason ne brucia una. Esiste anche la versione ST-D.",
@@ -2102,15 +2275,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Land Rover Range Rover Sport (L494)",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Baller"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-albany-cavalcade-xl.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-albany-cavalcade-xl",
       "name": "Albany Cavalcade XL",
       "manufacturer": "Albany",
@@ -2119,7 +2296,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/cavalcade-x-l4.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Cavalcade_XL"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-contender.png",
@@ -2143,11 +2324,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-bravado-dorado.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-bravado-dorado",
       "name": "Bravado Dorado",
       "manufacturer": "Bravado",
@@ -2159,15 +2340,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "First Generation Dodge Durango",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Dorado"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-dubsta.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-benefactor-dubsta",
       "name": "Benefactor Dubsta",
       "manufacturer": "Benefactor",
@@ -2180,15 +2365,19 @@
       "realModel": "Mercedes-Benz G-Class",
       "seats": 4,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-granger.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-granger",
       "name": "Declasse Granger",
       "manufacturer": "Declasse",
@@ -2197,15 +2386,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6b/Granger-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Granger"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-jubilee.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-buckingham-jubilee",
       "name": "Buckingham Jubilee",
       "manufacturer": "Buckingham",
@@ -2218,15 +2411,19 @@
       "realModel": "Rolls-Royce Cullinan",
       "seats": 4,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-dundreary-landstalker-xl",
       "name": "Dundreary Landstalker XL",
       "manufacturer": "Dundreary",
@@ -2238,15 +2435,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lincoln Navigator",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Landstalker_XL"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-canis-mesa.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-canis-mesa",
       "name": "Canis Mesa",
       "manufacturer": "Canis",
@@ -2258,15 +2459,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Jeep Wrangler",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Mesa"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-montagne.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-montagne",
       "name": "Vapid Montagne",
       "manufacturer": "Vapid",
@@ -2275,7 +2480,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/montagne.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Montagne"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-lampadati-novak.jpg",
@@ -2331,11 +2540,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-toros.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "veh-pegassi-toros",
       "name": "Pegassi Toros",
       "manufacturer": "Pegassi",
@@ -2348,7 +2557,11 @@
       "realModel": "Lamborghini Urus",
       "seats": 4,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
@@ -2369,11 +2582,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-xls.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-benefactor-xls",
       "name": "Benefactor XLS",
       "manufacturer": "Benefactor",
@@ -2382,7 +2595,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/xls-2.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/XLS"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-900-95-monster-truck.png",
@@ -2443,13 +2660,13 @@
     },
     {
       "image": "assets/img/veicoli/veh-annis-hellion.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-annis-hellion",
-      "name": "Annis Hellion",
+      "name": "'95 Annis Hellion",
       "manufacturer": "Annis",
       "class": "fuoristrada",
       "description": "Ispirato alla Nissan Patrol.",
@@ -2459,15 +2676,19 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Nissan Patrol Safari Y6",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Hellion"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-canis-kamacho.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-canis-kamacho",
       "name": "Canis Kamacho",
       "manufacturer": "Canis",
@@ -2479,7 +2700,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Jeep Crew Chief 715",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Kamacho"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-liberator.jpg",
@@ -2500,7 +2725,7 @@
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-manchez.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -2525,14 +2750,14 @@
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-nagasaki-outlaw",
-      "name": "Nagasaki Outlaw",
-      "manufacturer": "Nagasaki",
+      "name": "Mer-Can Outlaw",
+      "manufacturer": "Mer-Can",
       "class": "fuoristrada",
       "description": "Side-by-side ispirato alla Can-Am Maverick.",
       "howToGet": "Da verificare.",
@@ -2542,17 +2767,21 @@
       "realModel": "Can-Am Maverick X3 Turbo",
       "seats": 2,
       "drivetrain": "AWD",
-      "seenIn": "Vice City 09, Ambrosia 06"
+      "seenIn": "Vice City 09, Ambrosia 06",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Outlaw"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-rancher.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-declasse-rancher",
-      "name": "Declasse Rancher",
+      "name": "'86 Declasse Rancher",
       "manufacturer": "Declasse",
       "class": "fuoristrada",
       "description": "Il fuoristrada a due porte ispirato alla Chevrolet K5 Blazer.",
@@ -2568,6 +2797,10 @@
           "source": "community",
           "text": "La cabina ricorda anche il Ford Bronco, i fari il Dodge Ramcharger."
         }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Rancher"
       ]
     },
     {
@@ -2592,11 +2825,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-reclaimer.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-reclaimer",
       "name": "Vapid Reclaimer",
       "manufacturer": "Vapid",
@@ -2605,7 +2838,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/reclaimer3.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Reclaimer"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
@@ -2642,11 +2879,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-sandking-xl",
       "name": "Vapid Sandking XL",
       "manufacturer": "Vapid",
@@ -2655,15 +2892,19 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/SandkingXL-GTAVI-Trailer1-1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Sandking_XL"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dinka-verus.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-dinka-verus",
       "name": "Dinka Verus",
       "manufacturer": "Dinka",
@@ -2675,7 +2916,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda FourTrax Rancher",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Verus"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-walton-l35.png",
@@ -2699,11 +2944,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-declasse-yosemite-1500.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-yosemite-1500",
       "name": "Declasse Yosemite 1500",
       "manufacturer": "Declasse",
@@ -2715,7 +2960,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chevrolet Silverado",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Yosemite_1500"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-swamp-buggy.png",
@@ -2736,11 +2985,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-lcc-avarus.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-lcc-avarus",
       "name": "LCC Avarus",
       "manufacturer": "LCC",
@@ -2749,7 +2998,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/Avarus-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Avarus"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-bati-801.jpg",
@@ -2834,11 +3087,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-western-nightblade.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-western-nightblade",
       "name": "Western Nightblade",
       "manufacturer": "Western",
@@ -2847,7 +3100,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-electric-fang-01-360.jpg",
-      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Nightblade"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-western-sovereign.png",
@@ -2855,16 +3112,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-western-sovereign",
-      "name": "Western Sovereign",
+      "name": "Western Sovereign 107",
       "manufacturer": "Western",
       "class": "moto",
       "description": "Ispirata alla Road King; esiste anche la 107 della polizia.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/UnnamedSovereignStockMotorcycle-GTAVI-OfficialScreenshot-Ambrosia01.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-western-zombie-chopper.png",
@@ -2947,24 +3207,27 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-scorcher",
-      "name": "Scorcher",
-      "manufacturer": null,
+      "name": "Del Perro Scorcher",
+      "manufacturer": "Del Perro",
       "class": "altro",
       "description": "Mountain bike.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/74/Scorcher-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-clarion.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-clarion",
       "name": "Clarion",
       "manufacturer": null,
@@ -2973,7 +3236,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/UnnamedCigarette38TopGunBoat-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
+        "https://gta.wiki/w/Clarion"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-dinghy.png",
@@ -3011,11 +3278,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-lure-predator-l35p.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-lure-predator-l35p",
       "name": "Lure Predator L35P",
       "manufacturer": "Lure",
@@ -3027,7 +3294,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Contendor 25T",
       "seats": 2,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
+        "https://gta.wiki/w/L35P"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-dinka-marquis.png",
@@ -3048,20 +3319,24 @@
     },
     {
       "image": "assets/img/veicoli/veh-lure-predator-s23.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-lure-predator-s23",
-      "name": "Lure Predator S23",
-      "manufacturer": "Lure",
+      "name": "Bombora S23 CCS",
+      "manufacturer": "Bombora",
       "class": "barca",
       "description": "Ispirato al Contender 25 Bay.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5e/S23-GTAVI-OfficialScreenshot-LeonidaKeys05.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
+        "https://gta.wiki/w/S23_CCS"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-speedophile-seashark.png",
@@ -3158,11 +3433,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-mammoth-dodo.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-mammoth-dodo",
       "name": "Mammoth Dodo",
       "manufacturer": "Mammoth",
@@ -3174,7 +3449,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "DHC-2 Beaver",
       "seats": 4,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/",
+        "https://gta.wiki/w/Dodo"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-western-company-duster.png",
@@ -3184,10 +3463,10 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-western-company-duster",
-      "name": "Western Company Duster",
-      "manufacturer": "Western Company",
+      "name": "Botticher Duster",
+      "manufacturer": "Botticher",
       "class": "aereo",
-      "description": "L'aereo agricolo.",
+      "description": "Il biplano agricolo degli anni Trenta: due ali e grande maneggevolezza, perfetto per le acrobazie.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Duster-GTAVI-OfficialScreenshot-Ambrosia04.png/revision/latest/scale-to-width-down/1000",
@@ -3257,19 +3536,22 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-jobuilt-mammatus",
-      "name": "JoBuilt Mammatus",
-      "manufacturer": "JoBuilt",
+      "name": "Lapwing Mammatus",
+      "manufacturer": "Lapwing",
       "class": "aereo",
-      "description": "Ispirato al Cessna 172.",
+      "description": "Aereo leggero ispirato al Cessna 172, usato dai piloti privati per merci e passeggeri.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/bc/Mammatus-GTAVI-Artwork-LeonidaKeys.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cessna 172",
       "seats": 4,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-nimbus.png",
@@ -3277,19 +3559,22 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-buckingham-nimbus",
-      "name": "Buckingham Nimbus",
-      "manufacturer": "Buckingham",
+      "name": "Lapwing Nimbus",
+      "manufacturer": "Lapwing",
       "class": "aereo",
-      "description": "Jet privato ispirato al Citation X.",
+      "description": "Jet privato bimotore ispirato al Citation X, noleggiato dai ricchi di Leonida.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cd/Nimbus-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cessna Citation X",
       "seats": 8,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-shamal.png",
@@ -3331,27 +3616,31 @@
     {
       "image": "assets/img/veicoli/veh-nagasaki-buzzard.png",
       "status": "da verificare",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-nagasaki-buzzard",
-      "name": "Nagasaki Buzzard",
-      "manufacturer": "Nagasaki",
+      "name": "Botticher Buzzard",
+      "manufacturer": "Botticher",
       "class": "elicottero",
-      "description": "L'elicottero d'attacco; esiste anche la versione Police Buzzard.",
+      "description": "Elicottero militare leggero e agile, in servizio da decenni; ha la sicurezza avanzata.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/91/BuzzardAttackChopper-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ],
+      "whereToFind": "Mile Zero Air Station, la base militare su Goose Key, nell'angolo sud-ovest della mappa (Mariana County). Farsi vedere nella base fa scattare il livello di ricercato."
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-maverick.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-buckingham-maverick",
       "name": "Buckingham Maverick",
       "manufacturer": "Buckingham",
@@ -3360,7 +3649,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6a/Maverick-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/",
+        "https://gta.wiki/w/Maverick"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-sea-sparrow.png",
@@ -3388,11 +3681,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-supervolito.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-buckingham-supervolito",
       "name": "Buckingham SuperVolito",
       "manufacturer": "Buckingham",
@@ -3404,7 +3697,11 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Eurocopter EC145",
       "seats": 4,
-      "drivetrain": null
+      "drivetrain": null,
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-aircraft-in-gta-6/",
+        "https://gta.wiki/w/SuperVolito"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-swift.png",
@@ -3428,20 +3725,30 @@
     },
     {
       "image": "assets/img/veicoli/veh-brute-ambulance.jpg",
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-brute-ambulance",
-      "name": "Brute Ambulance",
-      "manufacturer": "Brute",
+      "name": "Interstate Ambulance",
+      "manufacturer": "Interstate",
       "class": "servizio",
-      "description": "L'ambulanza.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "description": "L'ambulanza dei servizi di emergenza, con sicurezza avanzata.",
+      "howToGet": "Si ruba in strada. Dopo la storia si evoca con un trucco, che si sblocca scoprendo l'ambulanza nel menu Progressi.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ambulance.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nell'elenco dei mezzi di servizio di DayOne compare come «Declasse Ambulance»; il nome del trucco, «Interstate Ambulance», lo riportano sia PowerPyx sia DayOne."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-1800-police.png",
@@ -3459,23 +3766,6 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a6/UnnamedBison2ndGenPoliceTruck-GTAVI-OfficialScreenshot-ViceCity03.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
-    },
-    {
-      "image": "assets/img/veicoli/veh-mtl-fire-truck.jpg",
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "veh-mtl-fire-truck",
-      "name": "MTL Fire Truck",
-      "manufacturer": "MTL",
-      "class": "servizio",
-      "description": "Il camion dei pompieri.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/fire-truck-screen.jpg",
-      "imageCredit": "gtabase.com"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-police-buffalo-stx-pursuit.png",
@@ -3588,20 +3878,24 @@
     },
     {
       "image": "assets/img/veicoli/veh-dashound.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-dashound",
-      "name": "Dashound",
-      "manufacturer": null,
+      "name": "Whiffler Dashound",
+      "manufacturer": "Whiffler",
       "class": "servizio",
       "description": "Il pullman in stile Greyhound.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1a/Dashound-GTAVI-Postcard-LeonidaKeys.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
+        "https://gta.wiki/w/Dashound"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-treno-merci.png",
@@ -3677,16 +3971,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-brute-rental-shuttle-bus",
-      "name": "Brute Rental Shuttle Bus",
+      "name": "Brute Rental Bus",
       "manufacturer": "Brute",
       "class": "servizio",
       "description": "Navetta.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/87/UnnamedBurritoShuttleBus-GTAVI-OfficialScreenshot-LeonidaKeys02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-tow-truck.png",
@@ -3758,20 +4055,24 @@
     },
     {
       "image": "assets/img/veicoli/veh-jacksheepe-excavator.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-jacksheepe-excavator",
-      "name": "Jacksheepe Excavator",
+      "name": "B3000 Excavator",
       "manufacturer": "Jack Sheepe",
       "class": "industriale",
       "description": "L'escavatore.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/excavator.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
+        "https://gta.wiki/w/B3000_Excavator"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-flatbed.png",
@@ -3847,16 +4148,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-benson",
-      "name": "Vapid Benson",
-      "manufacturer": "Vapid",
+      "name": "'97 Interstate Benson",
+      "manufacturer": "Interstate",
       "class": "furgone",
       "description": "Camion box.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/benson.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-hvy-biff.jpg",
@@ -3864,16 +4168,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-hvy-biff",
-      "name": "HVY Biff",
-      "manufacturer": "HVY",
+      "name": "Cartright Biff",
+      "manufacturer": "Cartright",
       "class": "industriale",
       "description": "Il camion della spazzatura.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/biff-2.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-hauler.png",
@@ -3881,16 +4188,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-jobuilt-hauler",
-      "name": "JoBuilt Hauler",
-      "manufacturer": "JoBuilt",
+      "name": "Cartright Hauler",
+      "manufacturer": "Cartright",
       "class": "industriale",
       "description": "Motrice.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/hauler.png",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-mule.jpg",
@@ -3974,11 +4284,11 @@
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-bravado-bison",
       "name": "Bravado Bison",
       "manufacturer": "Bravado",
@@ -3987,17 +4297,21 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9d/Bison-GTAVI-OfficialScreenshot-Grassrivers04.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Bison"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-bobcat-xl.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-bobcat-xl",
-      "name": "Declasse Bobcat XL",
+      "name": "'84 Declasse Bobcat XL",
       "manufacturer": "Declasse",
       "class": "furgone",
       "description": "Pickup.",
@@ -4008,15 +4322,19 @@
       "realModel": "Chevrolet C/K",
       "seats": 2,
       "drivetrain": "RWD",
-      "seenIn": "Ambrosia 04, Grassrivers 02, Leonida Keys 01, Port Gellhorn 05"
+      "seenIn": "Ambrosia 04, Grassrivers 02, Leonida Keys 01, Port Gellhorn 05",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Bobcat_XL"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-brute-boxville.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "veh-brute-boxville",
       "name": "Brute Boxville",
       "manufacturer": "Brute",
@@ -4029,24 +4347,32 @@
       "realModel": "GMC Value Van, Chevrolet Step Van",
       "seats": 4,
       "drivetrain": "RWD",
-      "seenIn": "Ambrosia 02"
+      "seenIn": "Ambrosia 02",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Boxville"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-declasse-burrito.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-declasse-burrito",
-      "name": "Declasse Burrito",
+      "name": "'98 Declasse Burrito",
       "manufacturer": "Declasse",
       "class": "furgone",
       "description": "Il furgone.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/89/Burrito-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Burrito"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-brute-camper.png",
@@ -4071,16 +4397,19 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-zirconium-journey",
-      "name": "Zirconium Journey",
-      "manufacturer": "Zirconium",
+      "name": "'78 Osprey Journey",
+      "manufacturer": "Osprey",
       "class": "furgone",
       "description": "Il camper.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/07/JourneyII-GTAVI-OfficialScreenshot-Grassrivers02.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-minivan.png",
@@ -4105,24 +4434,27 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-bravado-rumpo",
-      "name": "Bravado Rumpo",
-      "manufacturer": "Bravado",
+      "name": "Vapid Rumpo",
+      "manufacturer": "Vapid",
       "class": "furgone",
       "description": "Furgone; esiste anche la versione Custom.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b8/UnnamedThirdGenRamProMasterVan-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-vapid-speedo.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "veh-vapid-speedo",
       "name": "Vapid Speedo",
       "manufacturer": "Vapid",
@@ -4131,7 +4463,11 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f5/Speedo-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Speedo"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-youga-classic.png",
@@ -4401,29 +4737,37 @@
       "description": "Pick-up moderno ispirato al Ram 1500 (DT); esiste anche la variante di polizia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-bison-1800.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-ii",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-2.png"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-2.png",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Bison_1800"
+      ]
     },
     {
       "id": "veh-bravado-bison-900-95",
-      "name": "Bravado Bison 900 '95",
+      "name": "'95 Bravado Bison 900",
       "manufacturer": "Bravado",
       "class": "furgone",
       "description": "Pick-up anni Novanta ispirato al Dodge Ram di seconda generazione: la versione stradale del Bison 900 Monster Truck.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-bison-900-95.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-900-1995",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-900-95-2.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-900-95-2.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Bison_900"
+      ]
     },
     {
       "id": "veh-bravado-gauntlet-hellfire",
@@ -4433,17 +4777,21 @@
       "description": "Muscle car moderna ispirata alla Dodge Challenger Hellcat.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-gauntlet-hellfire.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/gauntlet-hellfire",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg",
       "realModel": "2018 Dodge Challenger SRT Demon",
       "seats": 2,
       "drivetrain": null,
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "veh-bravado-police-cruiser-buffalo",
@@ -4479,19 +4827,23 @@
     },
     {
       "id": "veh-bravado-youga",
-      "name": "Bravado Youga",
+      "name": "'74 Bravado Youga",
       "manufacturer": "Bravado",
       "class": "furgone",
       "description": "Furgone ispirato al Dodge Ram Van, versione moderna del Youga Classic.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-youga.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/youga",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/igallery/5001-5100/GTA5_Youga_RSC-5002-360.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/igallery/5001-5100/GTA5_Youga_RSC-5002-360.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Youga"
+      ]
     },
     {
       "id": "veh-buckingham-police-maverick",
@@ -4680,13 +5032,17 @@
       "description": "SUV full-size ispirato alla Chevrolet Suburban 2015-2020, evoluzione moderna del Granger.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-granger-3600lx.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/granger-3600lx",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-3600-l-x-2.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-3600-l-x-2.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Granger_3600LX"
+      ]
     },
     {
       "id": "veh-declasse-granger-taxi",
@@ -4706,22 +5062,26 @@
     },
     {
       "id": "veh-declasse-impaler-sz",
-      "name": "Declasse Impaler SZ",
+      "name": "'95 Declasse Impaler SZ",
       "manufacturer": "Declasse",
       "class": "muscle",
       "description": "Berlina muscle ispirata alla Chevrolet Impala SS 1994-1996, variante moderna dell'Impaler.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-impaler-sz.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/impaler-sz",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg",
       "realModel": "Chevrolet Impala SS (1994-1996)",
       "seats": 3,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Impaler_SZ"
+      ]
     },
     {
       "id": "veh-declasse-moonbeam",
@@ -4741,22 +5101,26 @@
     },
     {
       "id": "veh-declasse-tulip-m-100",
-      "name": "Declasse Tulip M-100",
+      "name": "'78 Declasse Tulip M-100",
       "manufacturer": "Declasse",
       "class": "muscle",
       "description": "Muscle car ispirata alla Chevrolet Malibu di quarta generazione, variante della Tulip.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-tulip-m-100.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/tulip-m-100",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg",
       "realModel": "1980 Chevrolet Malibu Coupe",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Tulip_M-100"
+      ]
     },
     {
       "id": "veh-dundreary-police-landstalker-xl",
@@ -4846,17 +5210,21 @@
       "description": "SUV di lusso ispirato alla Range Rover L460, versione aggiornata del Baller.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-gallivanter-baller-st-d.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/baller-st-d",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg",
       "realModel": "Range Rover L460",
       "seats": 4,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "veh-gommone-stile-highfield-sport-900",
@@ -4876,19 +5244,23 @@
     },
     {
       "id": "veh-jobuilt-phantom-custom",
-      "name": "JoBuilt Phantom Custom",
+      "name": "'81 JoBuilt Phantom Custom",
       "manufacturer": "JoBuilt",
       "class": "industriale",
       "description": "Motrice con cabina aerodinamica ispirata al GMC General 1984, variante personalizzata del Phantom.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-jobuilt-phantom-custom.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/phantom-custom",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/phantom.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/phantom.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
+        "https://gta.wiki/w/Phantom"
+      ]
     },
     {
       "id": "veh-lombike",
@@ -4940,19 +5312,23 @@
     },
     {
       "id": "veh-moocher",
-      "name": "Moocher",
-      "manufacturer": null,
+      "name": "'83 Willard Moocher",
+      "manufacturer": "Willard",
       "class": "furgone",
       "description": "Camper anni Ottanta ispirato al Fleetwood Southwind, di casa nei parcheggi dei trailer park.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-moocher.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/moocher",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/moocher.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/moocher.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Moocher"
+      ]
     },
     {
       "id": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300",
@@ -5122,16 +5498,20 @@
       "description": "Berlina sportiva ispirata all'Audi RS3, versione aggiornata della Tailgater.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-obey-tailgater-s.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/tailgater-s",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg",
       "realModel": "Audi RS 3 (3rd Generation)",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Tailgater_S"
+      ]
     },
     {
       "id": "veh-offshore-stile-skater-388",
@@ -5380,19 +5760,23 @@
     },
     {
       "id": "veh-shasa",
-      "name": "Shasa",
-      "manufacturer": null,
+      "name": "Calder Shasa",
+      "manufacturer": "Calder",
       "class": "barca",
       "description": "Motoscafo cabinato ispirato al Sea Ray 350 Sundancer.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-shasa.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sea-ray-350-sundancer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/premiere-400.png"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/premiere-400.png",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
+        "https://gta.wiki/w/Shasa"
+      ]
     },
     {
       "id": "veh-sirius",
@@ -5466,13 +5850,17 @@
       "description": "Pick-up fuoristrada ispirato al Ford F-150 Raptor di seconda generazione, variante del Caracara.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-caracara-4x4.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/caracara-4x4",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caracara-4x4.png"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caracara-4x4.png",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Caracara_4x4"
+      ]
     },
     {
       "id": "veh-vapid-dominator-asp",
@@ -5501,13 +5889,17 @@
       "description": "Muscle car moderna ispirata alla Ford Mustang cabrio 2018-2023.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-dominator-gt.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "community",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dominator-gt",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gt-2.jpg"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gt-2.jpg",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://gta.wiki/w/Dominator_GT"
+      ]
     },
     {
       "id": "veh-vapid-dominator-gtx",
@@ -5675,7 +6067,7 @@
     },
     {
       "id": "veh-del-perro-ebike",
-      "name": "Bici elettrica Del Perro",
+      "name": "Del Perro Erode",
       "manufacturer": "Del Perro",
       "class": "altro",
       "description": "Bicicletta elettrica da montagna, ispirata alla Santa Cruz Vala.",
@@ -5686,7 +6078,11 @@
       "sourceUrl": "https://gta.wiki/w/Del_Perro",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+        "https://gta.wiki/w/Erode"
+      ]
     },
     {
       "id": "veh-vapid-dominator-67",
@@ -5701,14 +6097,15 @@
       "seats": 2,
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-67.jpg",
       "imageCredit": "gtabase.com",
-      "status": "da verificare",
+      "status": "verificato",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "moreSources": [
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
-        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
       ]
     },
     {
@@ -5737,7 +6134,7 @@
       "description": "Sportiva di lusso Pegassi.",
       "howToGet": "Si ruba: è tra le auto che vuole Randy.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
@@ -5745,24 +6142,10 @@
       "updatedAt": "2026-11-18",
       "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): Randy ne segnala una a Waning Sands (Leonard County), nella villa a est del Pay 'n' Spray. Si trova anche davanti ai grandi hotel sul mare, a est di Vice City. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/"
+        "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
       ]
-    },
-    {
-      "id": "veh-ocelot-jagular",
-      "name": "Ocelot Jagular",
-      "manufacturer": "Ocelot",
-      "class": "sportiva",
-      "description": "Sportiva di lusso Ocelot.",
-      "howToGet": "Si ruba: è tra le auto che vuole Randy.",
-      "image": null,
-      "status": "da verificare",
-      "source": "stampa",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-19",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "id": "veh-hauners-lazer",
@@ -5796,7 +6179,7 @@
       "name": "MTL Pumper",
       "manufacturer": "MTL",
       "class": "servizio",
-      "description": "Mezzo pesante MTL.",
+      "description": "Il camion dei pompieri MTL.",
       "howToGet": "Dopo la storia si evoca con un trucco, che si sblocca scoprendo il mezzo nel menu Progressi.",
       "image": null,
       "status": "verificato",
@@ -5807,7 +6190,8 @@
       "updatedAt": "2026-11-18",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-cheats/",
-        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://gta.wiki/w/Pumper"
       ]
     },
     {
@@ -5875,7 +6259,7 @@
       "description": "Fuoristrada Canis del 1982.",
       "howToGet": "Si ruba per Moses in una missione principale del capitolo 2.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "spoilerLevel": 2,
@@ -5934,6 +6318,89 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "id": "veh-inflatable-flamingo"
+    },
+    {
+      "id": "veh-annis-elegy-venturas-blvd",
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "spoilerLevel": 0,
+      "name": "'90 Annis Venturas BLVD Elegy",
+      "manufacturer": "Annis",
+      "class": "sportiva",
+      "description": "Elegy '90 elaborata con kit widebody, riservata agli abbonati GTA+. Arriva insieme a un garage da un posto a Crosstown, con armadietto delle armi e ricettazione diretta della refurtiva.",
+      "howToGet": "Abbonamento GTA+ attivo: si riscatta nel capitolo 3 e resta finché l'abbonamento è attivo (i vantaggi si accendono e spengono dalle impostazioni). GTA BOOM la dà disponibile nel capitolo 3, GameSpot dopo averlo finito.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/gta-6-gta-subscription-includes-a-free-supercar-discounts-and-more/",
+      "moreSources": [
+        "https://www.gtaboom.com/gta-members-get-an-exclusive-car-and-garage-in-gta-6-c5ae"
+      ]
+    },
+    {
+      "id": "veh-hauners-brigade",
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "spoilerLevel": 0,
+      "name": "Hauners Brigade",
+      "manufacturer": "Hauners",
+      "class": "servizio",
+      "description": "Il blindato pesante delle forze dell'ordine (SWAT), con sicurezza avanzata: lentissimo, ma se la cava bene fuori strada.",
+      "howToGet": "Da verificare.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-the-cartel-heist-walkthrough/"
+      ]
+    },
+    {
+      "id": "veh-hauners-cargobob",
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "spoilerLevel": 0,
+      "name": "Hauners Cargobob",
+      "manufacturer": "Hauners",
+      "class": "elicottero",
+      "description": "Elicottero militare da trasporto pesante, capace di sollevare carichi enormi; ha la sicurezza avanzata.",
+      "howToGet": "Da verificare.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+    },
+    {
+      "id": "veh-hauners-apc",
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "spoilerLevel": 0,
+      "name": "Hauners APC",
+      "manufacturer": "Hauners",
+      "class": "militare",
+      "description": "Blindato militare per il trasporto truppe.",
+      "howToGet": "Si ruba alla base militare.",
+      "whereToFind": "Mile Zero Air Station, la base militare su Goose Key (Mariana County), nella zona dei carri armati.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/"
+    },
+    {
+      "id": "veh-botticher-015a",
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "spoilerLevel": 0,
+      "name": "Botticher 015A",
+      "manufacturer": "Botticher",
+      "class": "aereo",
+      "description": "Aereo militare parcheggiato alla base.",
+      "howToGet": "Si ruba alla base militare.",
+      "whereToFind": "Mile Zero Air Station, la base militare su Goose Key (Mariana County), sulla pista nella parte nord.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/"
     }
   ]
 }
