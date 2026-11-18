@@ -2768,20 +2768,53 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia arrivano a Vice City e cercano Dre'Quan, il vecchio amico di Jason, al Jack of Hearts di Crosstown. Lì conoscono il suo capo, Boobie Ike, che offre loro un appartamento.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "rifugio",
+          "label": "Bayside Apartments, interno 201"
+        },
+        {
+          "type": "ricettatore",
+          "label": "Pay 'n' Spray: vendita e registrazione delle auto con localizzatore standard"
+        },
+        {
+          "type": "trofeo",
+          "label": "Tits Ass Drug Money (capitolo 2 completato)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-dealers-choice"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Parcheggia nel posto auto coperto: per tutto il capitolo le tue auto restano lì.",
+        "La prossima volta entra dalla porta di fronte ai posti auto, è la più vicina.",
+        "Subito dopo Moses ti scrive: i Pay 'n' Spray ora comprano e registrano anche le auto con localizzatore standard."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "objectives": [
+        "Entra in Vice City e raggiungi il Jack of Hearts",
+        "Gira intorno al locale fino all'ingresso sul retro",
+        "Segui Dre'Quan dentro il club",
+        "Lancia i soldi alle ballerine, se li accetti",
+        "Torna da Dre'Quan e sali a conoscere Boobie",
+        "Guida fino all'appartamento di Bayside ed entra nel 201"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-dealers-choice",
@@ -2791,20 +2824,50 @@
       "order": 2,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Boobie ricorda a Jason che l'appartamento non è gratis e lo manda a fare uno scambio di droga, con Dre'Quan a coprirgli le spalle. Tornati a casa, Cal prova ad aprire il disco rigido senza riuscirci, ma si ricorda di un vecchio contatto di Brian a Vice City.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-dubious-provenance"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-mami-knows-best"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-join-a-street-race"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Tagliata o pura cambia solo le battute dello scambio: nessun effetto dopo.",
+        "Chiudi lo scambio senza violenza: arriva il bonus Professionale sul profilo criminale.",
+        "L'uomo della borsa attacca qualunque cosa rispondi: bastano i pugni."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "objectives": [
+        "Raggiungi Dre'Quan nello studio di registrazione del Jack of Hearts",
+        "Sali da Boobie",
+        "Vai con Dre'Quan a ritirare la merce da Tyrone",
+        "Scegli la merce: tagliata o pura",
+        "Consegna la borsa agli acquirenti e riprendi lo zaino con i soldi",
+        "Stendi l'uomo che dice che la borsa è sua",
+        "Accompagna Dre'Quan a Southside"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-el-effluvia",
@@ -2814,7 +2877,7 @@
       "order": 3,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Dal rifugio di Bayside, per la Rialto Causeway e il Rivo Bridge, fino al rooftop bar Effluvia a Ocean Beach. Brian Heder propone un lavoro, ma il suo contatto vuole uno solo dei due: Lucia se ne va e Jason resta con il lavoro e una Pißwasser. Brian racconta la storia della giostra: sapere quando scendere.",
+      "summary": "Jason e Lucia escono a cena a quattro con Brian e Lori Heder.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -2828,8 +2891,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-brian",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-dubious-provenance",
@@ -2839,20 +2906,56 @@
       "order": 4,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia portano la statua in un negozio di antiquariato di Capri per capire cos'è. La proprietaria li manda via, ma il suo collega inglese Benedict Halifax si offre di valutarla di nascosto, lasciando in pegno il suo orologio.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-dp-orologio",
+          "label": "Lascia la statua a Halifax e prendi l'orologio Crowex Octane «Bobby Ambrose»"
+        },
+        {
+          "id": "obj-dp-bottino",
+          "label": "Fruga nel container finale: circa 2.500 $ in gioielli e contanti"
+        },
+        {
+          "id": "obj-dp-hustler",
+          "label": "Prendi la Hustler del '32 nel deposito (da tenere o vendere)"
+        }
+      ],
+      "tips": [
+        "Capri è all'estremo ovest della mappa: con un RideMe fai prima.",
+        "Per entrare senza rumore: scale sul retro, salto sul tetto basso, finestra sopra il condizionatore.",
+        "Quando Halifax finisce contro l'auto di Lucia scendi subito, usa il Focus e sparagli a una gamba."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Evelyn Andrews (Evelyn Andrews Antiques, Capri)",
+      "objectives": [
+        "Prendi la borsa nell'armadio dell'appartamento e vai a Capri",
+        "Prova la porta dell'antiquario e parla con Evelyn e Halifax",
+        "Decidi se lasciare la statua a Halifax",
+        "Torna al negozio ed entra dalla finestra sul retro",
+        "Trova l'indirizzo nel cassetto della scrivania e cerca Halifax nel motel accanto",
+        "Parla di nuovo con Evelyn e raggiungi la casa che ti indica",
+        "Insegui Halifax in moto d'acqua, a piedi e in bicicletta",
+        "Fermalo con Lucia e chiama Jason"
+      ],
+      "choice": {
+        "irreversible": true,
+        "note": "Dentro la missione ci sono scelte definitive, e una decide se potrai giocarne il seguito. Salva prima di partire per Capri."
+      },
+      "startableBy": [
+        "entrambi"
+      ],
+      "missableNote": "La prima parte serve per la storia; la seconda e la terza no. Se rifiuti di lasciare la statua e non richiami Halifax, il seguito sparisce alla fine del capitolo."
     },
     {
       "id": "mis-mami-knows-best",
@@ -2862,20 +2965,37 @@
       "order": 5,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia rivede la madre Mia, che ha appena aperto un'agenzia immobiliare. La prima casa da vendere, a Hamlet, è in condizioni disastrose e i vicini del M7 non vogliono gente intorno.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "In giardino tieni un'arma a portata: servirà un colpo rapido.",
+        "Chiudi la pinza dell'escavatore per afferrare le auto e sbatterle contro la casa."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Mia (madre di Lucia)",
+      "objectives": [
+        "Raggiungi Mia a Peacock Bay",
+        "Guida l'auto di Mia fino alla casa in vendita a Hamlet",
+        "Controlla le stanze e aiuta Mia a rialzarsi",
+        "Butta i rifiuti del prato nel cassonetto blu",
+        "Tira fuori il materasso dalla piscina con Mia",
+        "Salva Mia",
+        "Distruggi casa e auto dei vicini con l'escavatore",
+        "Torna con Mia al suo ufficio"
+      ],
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-south-leonida-real-estate",
@@ -2885,7 +3005,7 @@
       "order": 6,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia raggiunge di nuovo la madre Mia per un affare. E di nuovo incrocia la gang M7.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -2897,8 +3017,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Mia (madre di Lucia)",
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-get-your-wheels",
@@ -2920,9 +3044,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-join-a-street-race",
@@ -2932,21 +3059,44 @@
       "order": 8,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Manuel invita Jason e Lucia a una gara clandestina degli Hit 'n' Run VC a Salton. Al via conoscono Yago, che ha in mente qualcosa per loro.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "attivita",
+          "label": "Gare clandestine con gli Hit 'n' Run VC"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-bumper-to-bumper"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Prendi l'auto più cara: ha le statistiche migliori e vincere diventa molto più facile.",
+        "Il primo posto vale 3.000 $; anche i piazzamenti pagano qualcosa.",
+        "L'invito arriva da Manuel, il contatto di Dre'Quan che ti aggiunge al suo gruppo."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "chr-yago",
+      "objectives": [
+        "Raggiungi il ritrovo delle gare clandestine a Salton",
+        "Noleggia una delle tre auto (da 600 a 900 $)",
+        "Corri la gara",
+        "Parla con Yago dopo l'arrivo"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-tyrone",
@@ -2956,7 +3106,7 @@
       "order": 9,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason passa da Tyrone, lo spacciatore di Crosstown, a chiedere lavoro.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -2968,8 +3118,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Tyrone",
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-here-kitty-kitty",
@@ -2979,20 +3133,33 @@
       "order": 10,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason torna da Tyrone e si ritrova a cercare un uomo di nome Charles.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "attivita",
+          "label": "Laboratori di Kitty Litter da distruggere per Tyrone (14)"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Dopo la missione i laboratori di Kitty Litter compaiono in viola sulla mappa: ognuno distrutto vale 2.000-2.500 $ da Tyrone.",
+        "I laboratori non scadono: si possono distruggere anche dopo la storia.",
+        "Li trova solo Jason: con Lucia non compaiono."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Tyrone",
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-el-raul",
@@ -3002,7 +3169,7 @@
       "order": 11,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "Lucia guida la Schafter di Raul sull'Admiral Causeway dopo una rapina a Vice Beach: inseguimento, molotov sull'auto, cambio sul Burrito alle Rialto Islands, pagamento a Downtown. È il primo lavoro con il rapinatore che poi insegnerà i colpi grossi.",
+      "summary": "Lucia ruba un'auto su commissione di Raul.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3017,9 +3184,13 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "subtitle": "Car Services (PC Gamer)"
+      "subtitle": "Car Services (PC Gamer)",
+      "contact": "chr-raul",
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-top-billing",
@@ -3029,7 +3200,7 @@
       "order": 12,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason, Lucia e Dre'Quan vanno al concerto dei Real Dimez.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3041,8 +3212,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-boobie-time",
@@ -3052,9 +3227,14 @@
       "order": 13,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason passa la giornata a fare da autista a Boobie per Vice City.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-yasmanis-jewelry-jobs"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [],
@@ -3064,8 +3244,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-boobie",
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-buddy",
@@ -3075,21 +3259,45 @@
       "order": 14,
       "protagonist": "entrambi",
       "districtId": null,
-      "summary": "",
+      "summary": "Kyle manda un messaggio strano e Jason e Lucia tornano alla sua fattoria a controllare. La polizia ha già chiuso la zona.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-bu-premio",
+          "label": "Finale con la polizia: 5.000 $ su BuckMe"
+        }
+      ],
+      "tips": [
+        "Il messaggio di Kyle arriva molto tardi, anche dopo settimane di gioco: intanto vai avanti con la storia.",
+        "Se resti nascosto non farti vedere dagli agenti e non parlare con il capo della polizia.",
+        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per Strangers & Freaks."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "Kyle",
+      "objectives": [
+        "Torna alla fattoria McKittrick a Kelly County",
+        "Decidi se restare nascosto o parlare con la polizia",
+        "Se parli con gli agenti, segui l'uomo della Mutandis e indossa la tuta protettiva",
+        "Raggiungi il fienile",
+        "Chiudi la faccenda con Kyle"
+      ],
+      "choice": {
+        "irreversible": true,
+        "note": "Il modo in cui ti presenti alla fattoria decide come si chiude la storia di Kyle e se c'è una ricompensa. Salva prima di arrivare."
+      },
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-yasmanis-jewelry-jobs",
@@ -3099,21 +3307,54 @@
       "order": 15,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Yasmani vuole tre gioielli precisi, chiusi nelle casseforti di tre gioiellerie del nord di Vice City. Il resto della merce che riesci a portare via è un extra.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "strumento",
+          "label": "Snap Gun (apre le porte senza far scattare l'allarme)"
+        },
+        {
+          "type": "attivita",
+          "label": "Rapine in gioielleria"
+        },
+        {
+          "type": "ricettatore",
+          "label": "Yasmani, il ricettatore che paga di più a Vice City"
+        }
+      ],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-yj-sneak",
+          "label": "Svaligia Richardson o Donovan dal retro senza farti scoprire (trofeo Sneakthief)"
+        }
+      ],
+      "tips": [
+        "Comincia da Casa de Empeño: non ha porta sul retro ma è la più piccola, si entra e si esce in fretta.",
+        "Codici delle casseforti: Casa de Empeño 1680, Richardson Jewelry 6815, Donovan Banks & Co. 0104.",
+        "Con la Snap Gun entri dal retro senza allarme; distruggi i filmati nella centralina e la polizia non avrà la tua descrizione."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "kind": "compito"
+      "kind": "compito",
+      "contact": "Yasmani (ricettatore)",
+      "objectives": [
+        "Svaligia Casa de Empeño: la catena con il teschio di bufalo è nella cassaforte",
+        "Porta la refurtiva a Yasmani e ritira la Snap Gun",
+        "Svaligia Richardson Jewelry: l'anello di diamanti",
+        "Svaligia Donovan Banks & Co.: la collana di ametiste",
+        "Vendi tutto a Yasmani nel suo negozio"
+      ],
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-bumper-to-bumper",
@@ -3123,21 +3364,43 @@
       "order": 16,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Yago, cuoco e pilota clandestino, chiede a Jason di fargli da maestro. Si comincia preparando la sua auto per la prossima gara.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-race-against-yago"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Yago si fa vivo solo dopo qualche giorno di gioco: intanto vai avanti con la storia.",
+        "Se sulla mappa c'è un lucchetto Yago non è disponibile: dormi in appartamento fino al pomeriggio o alla sera.",
+        "La gara non paga: conta solo arrivare in fondo e far perdere le tracce."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "chr-yago",
+      "objectives": [
+        "Raggiungi Yago al suo ristorante di Little Cuba",
+        "Porta la sua auto all'officina vicina",
+        "Monta il kit «Custom Street Racing Build» e il nitro (paga Yago)",
+        "Vai al ritrovo di Salton e segui Yago a piedi",
+        "Corri la gara",
+        "Semina la polizia",
+        "Raggiungi Yago al punto d'incontro nel nord di Vice City"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-first-impressions",
@@ -3147,7 +3410,7 @@
       "order": 17,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia incontrano Raul per la prima volta.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3159,8 +3422,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-caught-slipping",
@@ -3170,7 +3437,7 @@
       "order": 18,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia devono sventare un furto.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3182,8 +3449,11 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-crosstown-traffic",
@@ -3193,7 +3463,7 @@
       "order": 19,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia pedina un membro di una gang per conto di Raul, mentre Jason va a incontrare Karim.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3205,8 +3475,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-credit-check",
@@ -3216,20 +3490,36 @@
       "order": 20,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Raul invita Jason e Lucia nella sua base per presentare la sua squadra.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "strumento",
+          "label": "Dye Pack Jammer (per riciclare le banconote segnate)"
+        },
+        {
+          "type": "attivita",
+          "label": "Rapine in banca (filiali piccole) e Payday Loans"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Da qui puoi rapinare banche e Payday Loans: le banconote segnate vanno riciclate da un ricettatore, e Yasmani paga più di tutti.",
+        "Riciclare 250.000 $ in tutto vale il trofeo Dime on the Dollar."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-clonin-keys-makin-gs",
@@ -3239,21 +3529,41 @@
       "order": 21,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia rubano una Zorrusso di lusso per Randy.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "strumento",
+          "label": "Key Cloner (per aprire le auto sportive di lusso)"
+        },
+        {
+          "type": "attivita",
+          "label": "Randy's Wish List: 16 auto sportive su commissione"
+        },
+        {
+          "type": "ricettatore",
+          "label": "Randy, a ovest di Vice City (icona verde «RK»)"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Dopo la missione Randy ti dà una lista di 16 auto sportive: intatte valgono 35.000 $ e più, e completarla dà il trofeo Supply & Demand.",
+        "Le auto della lista si possono rubare anche in strada: quando ne scansioni o ne guidi una, compare l'avviso per consegnarla."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "subtitle": "Steal the Zorrusso for Randy"
+      "subtitle": "Steal the Zorrusso for Randy",
+      "contact": "chr-randy",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-race-against-yago",
@@ -3263,22 +3573,41 @@
       "order": 22,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Yago invita Jason a una gara, stavolta uno contro l'altro.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-brother-to-brother"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Falla appena compare: ha la clessidra sulla mappa e scade.",
+        "Il primo posto vale 3.800 $."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
       "optional": true,
-      "missable": true
+      "missable": true,
+      "contact": "chr-yago",
+      "objectives": [
+        "Raggiungi il ritrovo delle gare a Salton",
+        "Parla con Santiago e scegli la seconda gara, «Freeway Run»",
+        "Noleggia un'auto",
+        "Arriva al traguardo"
+      ],
+      "startableBy": [
+        "entrambi"
+      ],
+      "missableNote": "Compare con un messaggio di Yago qualche giorno di gioco dopo l'aiuto all'officina e ha la clessidra: se aspetti troppo scade. Non serve per trofei né per il 100%."
     },
     {
       "id": "mis-sinfrontera-national-bank",
@@ -3288,7 +3617,7 @@
       "order": 23,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia vanno a studiare una banca: cominciano i preparativi per un grosso colpo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3300,8 +3629,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-security-expert",
@@ -3311,7 +3644,7 @@
       "order": 24,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia conoscono Nicole, un'esperta di sicurezza che può servire per il colpo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3323,8 +3656,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-ride-or-die",
@@ -3334,7 +3671,7 @@
       "order": 25,
       "protagonist": "jason",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason dà una mano a Dre'Quan.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3346,8 +3683,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-drequan",
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-company-property",
@@ -3357,7 +3698,7 @@
       "order": 26,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia raggiungono Brian e lo aiutano con un carico di armi.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3369,8 +3710,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-brian",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-the-missing-link",
@@ -3380,7 +3725,7 @@
       "order": 27,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia incontra Andrea, e la pista la porta a un combattimento di galli.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3392,8 +3737,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "Andrea",
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-safe-word",
@@ -3403,7 +3752,7 @@
       "order": 28,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia ruba una cassaforte per esercitarsi e impara un nuovo mestiere.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3415,8 +3764,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-brother-to-brother",
@@ -3426,21 +3779,43 @@
       "order": 29,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Yago chiede a Jason di coprirgli le spalle a un incontro con uno spacciatore della zona. L'incontro con i Guardia Brothers prende subito una brutta piega.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
-      "extraObjectives": [],
-      "tips": [],
+      "extraObjectives": [
+        {
+          "id": "obj-bb-auto",
+          "label": "A fine missione porta l'auto da corsa in un tuo garage (o vendila al Pay 'n' Spray)"
+        }
+      ],
+      "tips": [
+        "Raccogli le armi dei nemici: ogni tipo nuovo si segna in Progressi › Armi.",
+        "Porta corpetto e un'arma lunga: i nemici sono tanti.",
+        "La scelta alla fine non cambia l'esito: decidi come vuoi."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/",
-      "optional": true
+      "optional": true,
+      "contact": "chr-yago",
+      "objectives": [
+        "Entra dalla porta sul retro dell'El Rincón Notorio",
+        "Guida fino al luogo dello scambio, a ovest di Vice City",
+        "Parcheggia accanto all'auto da corsa",
+        "Segui Manuel fino al capo dei Guardia Brothers",
+        "Prendi la borsa",
+        "Fatti strada fino all'auto restando vicino a Yago",
+        "Insegui Yago"
+      ],
+      "startableBy": [
+        "jason"
+      ]
     },
     {
       "id": "mis-cooties",
@@ -3450,7 +3825,7 @@
       "order": 30,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Lucia aiuta a girare un video musicale.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3462,8 +3837,11 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "startableBy": [
+        "lucia"
+      ]
     },
     {
       "id": "mis-el-stash-house",
@@ -3473,7 +3851,7 @@
       "order": 31,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia vanno a ritirare droga per Boobie Ike da Raymond, ai Venture Apartments di Rockridge: il socio di Raymond è sparito. Ernesto avvisa al telefono che arriva la task force di Méndez; irruzione armata, sparatoria e fuga dalla finestra di Aunt Tee, poi in auto. Dall'edificio ci sono più vie d'uscita.",
+      "summary": "Jason e Lucia sbrigano un lavoro per Boobie.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3490,8 +3868,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-boobie",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-hidden-charges",
@@ -3501,7 +3883,7 @@
       "order": 32,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Jason e Lucia preparano gli esplosivi per il colpo.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -3513,8 +3895,12 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ]
     },
     {
       "id": "mis-the-cartel-heist",
@@ -3524,20 +3910,35 @@
       "order": 33,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "",
+      "summary": "Il piano è pronto: è ora di colpire la banca.",
       "prerequisites": [],
-      "unlocks": [],
+      "unlocks": [
+        {
+          "type": "trofeo",
+          "label": "Break the Bank"
+        }
+      ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Prima di cominciare salva in uno slot a parte."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/",
+      "contact": "chr-raul",
+      "startableBy": [
+        "entrambi"
+      ],
+      "pointOfNoReturn": {
+        "before": true,
+        "text": "Con questa missione il capitolo si chiude: prima chiudi le faccende in sospeso e le offerte a tempo, perché alcune spariscono e non tornano più."
+      }
     },
     {
       "id": "mis-ocean-beach",
