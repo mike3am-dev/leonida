@@ -14,10 +14,11 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Ferrari Testarossa",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null,
+      "whereToFind": "Tequesta Retreat, nel parcheggio sotterraneo dei Pegassi Residences (rampa a sinistra dell'ingresso): compare sulla mappa nel capitolo 5."
     },
     {
       "id": "veh-vapid-dominator-buggy-67",
@@ -32,12 +33,13 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-vapid-buggy-01-468.jpg",
       "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
-      "realModel": "Unknown",
+      "realModel": null,
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Grassrivers, dentro un garage: compare sulla mappa con l'icona viola poco dopo una missione principale del capitolo 2."
     },
     {
       "id": "veh-vapid-stanier-55",
@@ -52,11 +54,12 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-19",
+      "whereToFind": "Ocean Beach, parcheggiata a bordo strada: compare sulla mappa con l'icona viola all'inizio del capitolo 3."
     },
     {
       "id": "veh-shitzu-squalo",
-      "name": "Shitzu Squalo",
+      "name": "Shitzu Typhoon Squalo",
       "manufacturer": "Shitzu",
       "class": "barca",
       "description": "Motoscafo dell'Ultimate Edition.",
@@ -67,12 +70,13 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/89/Squalo-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Chris-Craft Stinger 390x",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null,
+      "whereToFind": "Ormeggiato a Washington Beach, solo durante il capitolo 4. Ha a bordo una cassa di armi ed esplosivi."
     },
     {
       "id": "veh-dinka-enduro",
@@ -87,12 +91,13 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/GTAVI-Dinka-Enduro.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda XL350",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione)."
     },
     {
       "id": "veh-crest-kayak",
@@ -107,12 +112,13 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/UnnamedKayak-GTAVI-OfficalScreenshot-MountKalaga06.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Crescent Kayak",
       "seats": 1,
-      "drivetrain": "AWD"
+      "drivetrain": null,
+      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione)."
     },
     {
       "id": "veh-ganado-retro-build",
@@ -136,15 +142,15 @@
       "name": "Classic Car Collection",
       "manufacturer": null,
       "class": "classica",
-      "description": "Collezione di auto classiche dell'Ultimate Edition, legata a Wyman e al suo sfasciacarrozze: auto d'epoca e progetti a metà.",
-      "howToGet": "Ultimate Edition.",
+      "description": "Le classiche che Wyman ricostruisce: '67 Transgressor, '70 Riata, '64 Mamba GT, Reynolds Kit Car e '72 Deviant.",
+      "howToGet": "Ultimate Edition: le missioni di Wyman si aprono dopo aver recuperato la Dominator Buggy del '67 (Mappa › Esplorazione › icona viola «W»). Contano come compiti facoltativi per il 100%.",
       "image": "assets/img/veicoli/veh-classic-collection.jpg",
       "status": "da verificare",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-01-1080.jpg",
       "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition, Wyman car collection) via gtabase.com"
     },
@@ -192,10 +198,10 @@
       "manufacturer": "Progen",
       "class": "super",
       "description": "Supercar.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide dei veicoli.",
       "image": "assets/img/veicoli/veh-progen-emerus.jpg",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
@@ -358,9 +364,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/windsor-drop-screen.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "id": "veh-ubermacht-rebla-gts",
@@ -573,14 +580,14 @@
     },
     {
       "id": "veh-rhino-tank",
-      "name": "Rhino Tank",
+      "name": "Hauners Rhino Tank",
       "manufacturer": "Hauners",
       "class": "militare",
       "description": "Il carro armato. C'è una base militare, da qualche parte.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si ruba alla base militare; dopo la storia c'è anche il trucco (tutte le sfide di sopravvivenza).",
       "image": "assets/img/veicoli/veh-rhino-tank.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
@@ -592,7 +599,8 @@
           "source": "leak",
           "text": "Il costruttore è Hauners Industries."
         }
-      ]
+      ],
+      "whereToFind": "Mile Zero Air Station, l'isola militare a sud-ovest della mappa (Mariana County), nella parte sud della base. Rubarlo dà subito 3 stelle e vale il trofeo «Pelle coriacea»; non entra in garage."
     },
     {
       "id": "veh-buckingham-valkyrie",
@@ -721,7 +729,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-banshee",
       "name": "Bravado Banshee",
       "manufacturer": "Bravado",
@@ -733,7 +741,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Dodge Viper",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più. Dopo la storia si evoca anche con un trucco (tutte le sfide di combattimento)."
     },
     {
       "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
@@ -915,7 +924,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-pfister-growler",
       "name": "Pfister Growler",
       "manufacturer": "Pfister",
@@ -927,7 +936,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Porsche 718 Cayman",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-grotti-itali-gto.png",
@@ -952,7 +962,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-grotti-itali-rsx",
       "name": "Grotti Itali RSX",
       "manufacturer": "Grotti",
@@ -964,7 +974,8 @@
       "imageCredit": "gtabase.com",
       "realModel": "Ferrari SF90 Stradale",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
@@ -1018,7 +1029,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Bentley Continental GT",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nella lista dei desideri di Randy compare come «Ascot Paragon»: il marchio va controllato in gioco."
+        }
+      ],
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
@@ -1206,7 +1224,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Pininfarina Battista",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nella lista dei desideri di Randy compare come «Piccia Furia»: il marchio va controllato in gioco."
+        }
+      ],
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
@@ -1214,7 +1239,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-11",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-tempesta",
       "name": "Pegassi Tempesta",
       "manufacturer": "Pegassi",
@@ -1226,15 +1251,16 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lamborghini Huracan",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-zorrusso",
       "name": "GranForma Zorrusso",
       "manufacturer": "GranForma",
@@ -1246,12 +1272,13 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Italdesign Zerouno Duerta",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "La prima si consegna a Randy in una missione principale del capitolo 3; poi è nella sua lista dei desideri."
     },
     {
       "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
@@ -1260,7 +1287,7 @@
       "manufacturer": "Truffade",
       "class": "super",
       "description": "Ispirata alla Bugatti Divo. È la hypercar verde lime del trailer di lancio.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide di shopping.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/thrax-screen.jpg",
       "imageCredit": "gtabase.com",
@@ -1343,7 +1370,8 @@
       "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
       "realModel": "AMC Javelin AMX",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('72 Deviant)."
     },
     {
       "image": "assets/img/veicoli/veh-vapid-dominator.png",
@@ -1584,7 +1612,8 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-04-1080.jpg",
-      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
+      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('64 Mamba GT)."
     },
     {
       "image": "assets/img/veicoli/veh-albany-manana.jpg",
@@ -2083,7 +2112,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-benefactor-dubsta",
       "name": "Benefactor Dubsta",
       "manufacturer": "Benefactor",
@@ -2095,7 +2124,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Mercedes-Benz G-Class",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-declasse-granger.png",
@@ -2120,7 +2150,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-buckingham-jubilee",
       "name": "Buckingham Jubilee",
       "manufacturer": "Buckingham",
@@ -2132,7 +2162,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Rolls-Royce Cullinan",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
@@ -2223,7 +2254,8 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-03-468.jpg",
-      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com"
+      "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
+      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('70 Riata)."
     },
     {
       "image": "assets/img/veicoli/veh-canis-seminole-frontier.jpg",
@@ -2248,7 +2280,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-toros",
       "name": "Pegassi Toros",
       "manufacturer": "Pegassi",
@@ -2260,7 +2292,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lamborghini Urus",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
@@ -2428,7 +2461,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Armstrong MT500",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
@@ -2526,13 +2559,13 @@
       "manufacturer": "Maibatsu",
       "class": "moto",
       "description": "La moto da cross di sempre.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide criminali.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0a/Sanchez-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Yamaha YZ450F",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
@@ -2665,7 +2698,7 @@
     {
       "image": "assets/img/veicoli/veh-nagasaki-carbon-rs.png",
       "status": "da verificare",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
@@ -2674,7 +2707,7 @@
       "manufacturer": "Nagasaki",
       "class": "moto",
       "description": "Ispirata alla Ducati 1199.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide di esplorazione.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a5/UnnamedCarbonRSStockMotorcycle-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
@@ -2700,7 +2733,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda CBR1000RR",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "RWD"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-faggio.png",
@@ -2776,16 +2809,16 @@
     {
       "image": "assets/img/veicoli/veh-bmx.png",
       "status": "da verificare",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05",
       "id": "veh-bmx",
-      "name": "BMX",
-      "manufacturer": null,
+      "name": "Tuff BMX",
+      "manufacturer": "Tuff",
       "class": "altro",
       "description": "Bicicletta BMX.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di fitness.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/68/BMX-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
@@ -2913,7 +2946,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Contendor 25T",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-dinka-marquis.png",
@@ -2967,7 +3000,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Sea-Doo RXT-X",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-speeder.jpg",
@@ -2984,7 +3017,13 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/speeder.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nei trucchi il nome è «Speeder 700 GT» (si sblocca con 5 sfide di combattimento)."
+        }
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-shitzu-tropic.jpg",
@@ -3055,7 +3094,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "DHC-2 Beaver",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-western-company-duster.png",
@@ -3075,7 +3114,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Boeing-Stearman Model 75",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-jet-di-linea.png",
@@ -3094,21 +3133,21 @@
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Jet-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Boeing 747",
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-western-company-mallard.jpg",
       "status": "da verificare",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-05",
       "id": "veh-western-company-mallard",
-      "name": "Western Company Mallard",
-      "manufacturer": "Western Company",
+      "name": "Lapwing Mallard",
+      "manufacturer": "Lapwing",
       "class": "aereo",
       "description": "Aereo acrobatico ispirato all'Extra 300.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide dei veicoli.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mallard.jpg",
       "imageCredit": "gtabase.com"
@@ -3131,7 +3170,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cessna 172",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-nimbus.png",
@@ -3151,7 +3190,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Cessna Citation X",
       "seats": 8,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-shamal.png",
@@ -3171,7 +3210,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Learjet 45",
       "seats": 10,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-mammoth-streamer216.jpg",
@@ -3227,22 +3266,22 @@
     {
       "image": "assets/img/veicoli/veh-sea-sparrow.png",
       "status": "da verificare",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-07",
       "id": "veh-sea-sparrow",
-      "name": "Sea Sparrow",
-      "manufacturer": null,
+      "name": "Nagasaki Sea Sparrow",
+      "manufacturer": "Nagasaki",
       "class": "elicottero",
       "description": "Ispirato al Sikorsky S-300; compare anche in copertina.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di esplorazione.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/SeaSparrow-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Bell H-13 Sioux",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-supervolito.png",
@@ -3262,7 +3301,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Eurocopter EC145",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-swift.png",
@@ -3282,7 +3321,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "AgustaWestland AW109S Grand",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-brute-ambulance.jpg",
@@ -3811,7 +3850,7 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Peterbilt",
       "seats": 2,
-      "drivetrain": "FWD"
+      "drivetrain": null
     },
     {
       "image": "assets/img/veicoli/veh-brute-stockade.jpg",
@@ -4296,11 +4335,12 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/gauntlet-hellfire",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg",
       "realModel": "2018 Dodge Challenger SRT Demon",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": null,
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "id": "veh-bravado-police-cruiser-buffalo",
@@ -4367,7 +4407,7 @@
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/police-maverick-2.png",
       "realModel": "Airbus H125",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": null
     },
     {
       "id": "veh-camion-medio-stile-chevrolet-kodiak",
@@ -4708,11 +4748,12 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/baller-st-d",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg",
       "realModel": "Range Rover L460",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
     },
     {
       "id": "veh-gommone-stile-highfield-sport-900",
@@ -5426,14 +5467,14 @@
     },
     {
       "id": "veh-vapid-stanier-taxi",
-      "name": "Vapid Stanier Taxi",
+      "name": "Vapid Stanier G2 Taxi",
       "manufacturer": "Vapid",
       "class": "servizio",
       "description": "Taxi giallo su base Stanier (Ford Crown Victoria), il classico taxi di Vice City.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide sportive.",
       "image": "assets/img/veicoli/veh-vapid-stanier-taxi.jpg",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/taxi",
       "spoilerLevel": 0,
       "example": false,
@@ -5571,6 +5612,164 @@
       "example": false,
       "updatedAt": "2026-11-09",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/vortex"
+    },
+    {
+      "id": "veh-pegassi-vitello",
+      "name": "Pegassi Vitello",
+      "manufacturer": "Pegassi",
+      "class": "sportiva",
+      "description": "Sportiva di lusso Pegassi.",
+      "howToGet": "Si ruba: è tra le auto che vuole Randy.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+    },
+    {
+      "id": "veh-ocelot-jagular",
+      "name": "Ocelot Jagular",
+      "manufacturer": "Ocelot",
+      "class": "sportiva",
+      "description": "Sportiva di lusso Ocelot.",
+      "howToGet": "Si ruba: è tra le auto che vuole Randy.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+    },
+    {
+      "id": "veh-hauners-lazer",
+      "name": "Hauners P-996 Lazer",
+      "manufacturer": "Hauners",
+      "class": "militare",
+      "description": "Il caccia militare.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Alla Mile Zero Air Station ci sono caccia militari aperti nella parte nord della base: prenderne uno dà subito 4 stelle e due caccia ti inseguono."
+        }
+      ]
+    },
+    {
+      "id": "veh-mtl-pumper",
+      "name": "MTL Pumper",
+      "manufacturer": "MTL",
+      "class": "servizio",
+      "description": "Mezzo pesante MTL.",
+      "howToGet": "Dopo la storia si evoca con un trucco.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-hvy-bulldozer",
+      "name": "HVY Bulldozer",
+      "manufacturer": "HVY",
+      "class": "industriale",
+      "description": "Il bulldozer da cantiere.",
+      "howToGet": "Dopo la storia si evoca con un trucco, dopo averlo scoperto nel menu Progressi.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-brimstone-golfer",
+      "name": "Brimstone Golfer",
+      "manufacturer": "Brimstone",
+      "class": "altro",
+      "description": "Il mezzo dei campi da golf.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide sportive.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-western-zombie-bobber",
+      "name": "Western Zombie Bobber",
+      "manufacturer": "Western",
+      "class": "moto",
+      "description": "Moto custom Western in stile bobber.",
+      "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide criminali.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-canis-crawler-82",
+      "name": "'82 Canis Crawler",
+      "manufacturer": "Canis",
+      "class": "fuoristrada",
+      "description": "Fuoristrada Canis del 1982.",
+      "howToGet": "Si ruba per Moses in una missione principale del capitolo 2.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-transgressor-67",
+      "name": "'67 Transgressor",
+      "manufacturer": null,
+      "class": "classica",
+      "description": "Classica del 1967 da ricostruire con Wyman.",
+      "howToGet": "Ultimate Edition: missioni di Wyman.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-reynolds-kit-car",
+      "name": "Reynolds Kit Car",
+      "manufacturer": null,
+      "class": "classica",
+      "description": "Kit car da ricostruire con Wyman.",
+      "howToGet": "Ultimate Edition: missioni di Wyman.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
     }
   ]
 }

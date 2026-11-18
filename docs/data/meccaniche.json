@@ -8,12 +8,13 @@
       "group": "Personaggi",
       "short": "Passi da Jason a Lucia e viceversa mentre giri per Leonida e, quando la storia lo consente, anche a metà di un inseguimento. Chi lasci continua a vivere la sua giornata.",
       "steps": [
-        "Premi il comando di cambio per passare all'altro protagonista.",
+        "Tieni premuto destra sulla croce direzionale e premi R1 per passare all'altro protagonista; Triangolo per darvi appuntamento. Il cambio si sblocca nel capitolo 2.",
         "Se siete lontani, ritrovi l'altro dov'è in quel momento: al rifugio o in giro per conto suo.",
         "Se siete in auto insieme, cambiando posto passi da guidatore a passeggero.",
         "Da passeggero l'altro guida da solo e tu pensi a sparare agli inseguitori.",
         "In alcuni momenti della storia il cambio è bloccato.",
-        "Alcune missioni sono di uno solo dei due: una missione in un grattacielo è riservata a Jason."
+        "Alcune missioni sono di uno solo dei due: una missione in un grattacielo è riservata a Jason.",
+        "A casa l'altro protagonista può essere non selezionabile: esci e riprova. Sulla mappa l'icona di ogni missione dice con chi va giocata."
       ],
       "details": [
         {
@@ -35,10 +36,6 @@
         "Se non trovi l'altro protagonista, chiamalo o scrivigli per darvi appuntamento."
       ],
       "extras": [
-        {
-          "source": "community",
-          "text": "Il cambio si fa premendo giù sulla croce direzionale."
-        },
         {
           "source": "community",
           "text": "Conto in banca e arsenale sono condivisi tra i due."
@@ -68,7 +65,7 @@
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-relazione",
@@ -171,7 +168,15 @@
         },
         {
           "title": "Effetti",
-          "text": "Il profilo influenza come si svolge la storia. La violenza richiesta dalle missioni non lo rovina."
+          "text": "Il profilo cambia soprattutto come ti tratta la polizia: da Psycho in su gli agenti possono sparare a vista e non puoi più arrenderti. La violenza richiesta dalle missioni non lo rovina."
+        },
+        {
+          "title": "I cinque livelli",
+          "text": "Professional: crimini puliti, senza feriti, prove distrutte. Hardened: metti fuori combattimento senza uccidere, colpendo gambe e spalle. Violent: uccidi nemici, agenti e passanti. Psycho: violenza gratuita, anche sugli animali domestici. Irredeemable: arriva se resti violento a lungo ed è permanente."
+        },
+        {
+          "title": "Focus",
+          "text": "Il profilo decide cosa ricarica il Focus: le eliminazioni silenziose da Professional e Hardened, i colpi alla testa da Violent e Psycho. Da Irredeemable niente."
         }
       ],
       "tips": [
@@ -181,11 +186,7 @@
       ],
       "extras": [
         {
-          "source": "stampa",
-          "text": "Gli stati sono nominati: Professional, Aggressive, Violent, Psycho e oltre. Superato Psycho l'icona si crepa e si rompe per sempre in quella partita."
-        },
-        {
-          "source": "stampa",
+          "source": "testo principale",
           "text": "Jason e Lucia hanno profili separati."
         },
         {
@@ -193,7 +194,7 @@
           "text": "Il profilo cambia l'ostilità dei passanti e la durezza della polizia."
         },
         {
-          "source": "stampa",
+          "source": "testo principale (Impostazioni › Interfaccia › Notifiche HUD › Profilo criminale)",
           "text": "Le notifiche del profilo si possono spegnere."
         }
       ],
@@ -210,7 +211,7 @@
       "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-fisico-salute",
@@ -335,8 +336,8 @@
           "text": "Per Lucia ci sono rossetti, eyeliner, fard e finiture lucide; ci sono anche piercing e smalto."
         },
         {
-          "source": "community",
-          "text": "Electric Fang Tattoo offre oltre 50 tatuaggi esclusivi disegnati dal collettivo FAILE."
+          "source": "stampa",
+          "text": "Electric Fang Tattoo, a Stockyard, è il negozio di tatuaggi dell'Ultimate Edition: oltre 50 disegni esclusivi del collettivo FAILE."
         },
         {
           "source": "community",
@@ -358,7 +359,7 @@
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-rifugi-casa",
@@ -387,6 +388,10 @@
         {
           "title": "Niente spesa",
           "text": "Il frigo non va riempito: il sistema della spesa è stato provato e poi tolto per non appesantire il gioco."
+        },
+        {
+          "title": "Garage",
+          "text": "All'inizio hai un posto solo. Nel capitolo 2 arriva l'app Vice City Real Estate: i garage da comprare sono 8 (da 4.000 a 40.000 $, 160.000 $ in tutto) e altri 4 arrivano con la storia. Al massimo hai 18 posti."
         }
       ],
       "tips": [
@@ -395,10 +400,6 @@
         "Il primo garage serve presto: i posti auto iniziali sono pochi."
       ],
       "extras": [
-        {
-          "source": "stampa",
-          "text": "All'inizio hai tre posti auto: per aggiungere un veicolo ne vendi uno o compri un garage."
-        },
         {
           "source": "stampa",
           "text": "Ogni garage ha un armadietto delle armi, per scegliere cosa tenere nella ruota, e un deposito per la merce rubata."
@@ -430,13 +431,13 @@
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-19"
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-19",
       "id": "mec-furto-auto",
       "title": "Furto d'auto",
       "emoji": "🚗",
@@ -462,6 +463,10 @@
         {
           "title": "Carburante e motore",
           "text": "Ogni veicolo ha la spia del carburante e lo stato del motore. Un'auto a secco o malridotta può rovinarti la fuga."
+        },
+        {
+          "title": "I localizzatori",
+          "text": "Le auto hanno tre livelli: senza localizzatore, con localizzatore standard, con localizzatore avanzato. WAiNK te lo dice prima di rubarla. Senza localizzatore le prende Moses (dal capitolo 2); con quello standard i Pay 'n' Spray (dal capitolo 3); le auto di lusso con quello avanzato servono il Key Cloner, e il localizzatore chiama la polizia appena rallenti."
         }
       ],
       "tips": [
@@ -478,10 +483,6 @@
         {
           "source": "stampa",
           "text": "Il localizzatore va tolto da un meccanico o da un ricettatore prima di registrare o vendere l'auto."
-        },
-        {
-          "source": "stampa",
-          "text": "All'inizio hai tre posti per i veicoli personali; le auto non registrate spariscono al riavvio."
         },
         {
           "source": "stampa",
@@ -519,7 +520,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-polizia-ricercato",
       "title": "Polizia e livello di ricercato",
       "emoji": "🚨",
@@ -570,10 +571,6 @@
           "text": "POACH, i guardaparco, vigilano sulle zone protette: uccidere animali lì funziona come un livello di ricercato."
         },
         {
-          "source": "community",
-          "text": "Circolano anche gli stati intermedi del profilo Aggressive, Violent e Psycho, e un profilo separato per ciascun protagonista."
-        },
-        {
           "source": "stampa",
           "text": "Niente più radar con la posizione degli agenti: la polizia agisce solo in base a quello che sa, ricorda il tuo aspetto e le tue auto, e può usare cani e intercettare le comunicazioni radio."
         },
@@ -607,7 +604,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-14",
+      "updatedAt": "2026-11-19",
       "id": "mec-rapine",
       "title": "Rapine",
       "emoji": "💰",
@@ -637,6 +634,10 @@
         {
           "title": "Bersagli non segnati",
           "text": "Non tutto è sulla mappa: i negozi di riparazione telefoni, per esempio, non hanno icone. Fuori dalla storia molte occasioni si scoprono solo girando."
+        },
+        {
+          "title": "Lo Snap Gun",
+          "text": "Dal capitolo 3 apre in silenzio le porte sul retro: dentro distruggi i nastri, spegni l'allarme e cerca il biglietto col codice della cassaforte."
         }
       ],
       "tips": [
@@ -656,10 +657,6 @@
         },
         {
           "source": "stampa",
-          "text": "Le banche di Leonida sono Fleeca, Lombank, Hobbs Milford e Sinfrontera."
-        },
-        {
-          "source": "stampa",
           "text": "Assaltare un covo di una gang può fruttare droga da rivendere per oltre 4.500 $ in un colpo."
         },
         {
@@ -673,6 +670,10 @@
         {
           "source": "stampa",
           "text": "Mentre uno dei due svuota vetrine, casse e cassaforte, l'altro tiene a bada guardie e impiegati. Le banche si possono rapinare anche fuori dalla storia."
+        },
+        {
+          "source": "stampa",
+          "text": "Le banche rapinabili sono Fleeca, Lombank, Shorefront, Gibson Brothers Bank e Druthers State Bank."
         }
       ],
       "relatedIds": [
@@ -704,7 +705,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-armi",
       "title": "Armi",
       "emoji": "🔫",
@@ -729,7 +730,7 @@
         },
         {
           "title": "Dove comprare",
-          "text": "Le armi si comprano da Ammu-Nation, oppure si prendono ai nemici e dalle volanti."
+          "text": "Gli Ammu-Nation sono 24, di quattro tipi: Limited, Standard, Hunting ed Expanded. Solo i 6 Expanded (Big Shots a Hamlet, Woodhatch a Capri, Phil's, Iron & Oak e Black Eagle a Vice City, Prestige Firearms a Ocean Beach) hanno mitragliatrici, fucili di precisione e lanciarazzi. Ogni negozio ha anche una variante unica. Le armi si prendono anche ai nemici e dal bagagliaio delle volanti."
         }
       ],
       "tips": [
@@ -752,16 +753,12 @@
           "text": "Accessori a strati: silenziatori, red dot, impugnature, calci, torce, caricatori lunghi. Restano montati sulle armi raccolte da terra."
         },
         {
-          "source": "community",
-          "text": "Gli armadietti delle armi arrivano in single player: servono a scegliere cosa tenere nella ruota. Ogni garage, compreso il Paradise Garage, ne ha uno."
+          "source": "stampa",
+          "text": "Gli armadietti delle armi sono negli Ammu-Nation (sulla mappa c'è l'icona dell'armadietto): da lì riprendi le armi che possiedi e le varianti uniche."
         },
         {
-          "source": "community",
+          "source": "testo principale",
           "text": "Le armi gettate non si perdono: si recuperano negli armadietti Ammu-Nation o nel veicolo personale."
-        },
-        {
-          "source": "community",
-          "text": "Le munizioni sono divise per tipo: pistola, fucile a pompa, pesanti, arpioni e razzi. Il punto vendita principale è l'Ammu-Nation di Phil."
         },
         {
           "source": "stampa",
@@ -883,7 +880,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-soldi",
       "title": "Soldi",
       "emoji": "💵",
@@ -908,6 +905,10 @@
         {
           "title": "Altre entrate",
           "text": "La caccia, introdotta da un contatto di Jason, rende soldi. La pesca invece no: è solo cattura e rilascio."
+        },
+        {
+          "title": "Ricettatori",
+          "text": "Ognuno paga in modo diverso droga, gioielli e banconote segnate, e cambiano con la storia. Se siete in due, metti la borsa nel bagagliaio dell'auto personale e chiedi al partner di venderla."
         }
       ],
       "tips": [
@@ -930,8 +931,8 @@
           "text": "La droga presa in un covo di gang può valere oltre 4.500 $ in un colpo."
         },
         {
-          "source": "community",
-          "text": "La refurtiva si deposita nei garage: il Paradise Garage dell'Ultimate Edition e lo Shore Court Garage del Vintage Vice City Pack hanno un posto apposta."
+          "source": "stampa",
+          "text": "Dal capitolo 3 puoi lasciare la refurtiva in un tuo garage e scegliere a quale ricettatore venderla, senza andare fino da lui."
         },
         {
           "source": "stampa",
@@ -1059,7 +1060,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-guida-veicoli",
       "title": "Guida e veicoli",
       "emoji": "🚙",
@@ -1089,6 +1090,14 @@
         {
           "title": "Garage e registrazione",
           "text": "I garage si comprano e ampliano i posti per i veicoli personali; puoi custodirci le auto rubate prima di registrarle. I rifugi invece non si comprano: arrivano con la storia. I modelli di fascia alta non si possono registrare all'inizio."
+        },
+        {
+          "title": "Officine",
+          "text": "Le officine sono 14 e ognuna ha la sua specialità: retrò, muscle, moto sportive, lusso, tuner, lowrider, donk (Ultimate), pellicole, hot rod, auto da corsa, moto da sterrato, fuoristrada (una è Ultimate) e chopper. I Pay 'n' Spray sono 19."
+        },
+        {
+          "title": "Scooter Bros",
+          "text": "Dal capitolo 2 l'app ti porta un veicolo personale dove sei, a pagamento. Il premium da 12.500 $ dà tre consegne gratis al giorno e recupera gratis i veicoli sequestrati."
         }
       ],
       "tips": [
@@ -1099,10 +1108,6 @@
         "Tieni un outfit di ricambio nel bagagliaio del veicolo personale."
       ],
       "extras": [
-        {
-          "source": "stampa",
-          "text": "All'inizio hai tre posti per i veicoli personali; per aggiungerne un altro devi venderne uno o comprare un garage. Ogni garage ha un armadietto delle armi e un deposito per la merce rubata."
-        },
         {
           "source": "stampa",
           "text": "Le auto non registrate spariscono quando riavvii il gioco."
@@ -1116,7 +1121,7 @@
           "text": "Ci sono telecamere opzionali che si attivano negli incidenti più violenti."
         },
         {
-          "source": "community",
+          "source": "stampa",
           "text": "Le officine speciali dell'Ultimate Edition sono Rideout Customs a Crosstown (donk) e One-Eyed Willie's a Lake Leonida (fuoristrada e grafiche dipinte a mano)."
         },
         {
@@ -1128,7 +1133,7 @@
           "text": "Con un pieno una Banshee guidata in autostrada dura circa 18 minuti e mezzo, un'elettrica circa 20: abbastanza per attraversare la mappa. Il gioco avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino."
         },
         {
-          "source": "stampa",
+          "source": "testo principale",
           "text": "Con l'app Scooter Bros ti fai portare un altro dei tuoi veicoli personali."
         },
         {
@@ -1162,7 +1167,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-spostarsi",
       "title": "Spostarsi",
       "emoji": "🚌",
@@ -1188,6 +1193,10 @@
         {
           "title": "Esplorare senza icone",
           "text": "Gran parte della mappa si apre presto. Molte scoperte non hanno segnalini: le trovi girando. Puoi prenderti il tempo che vuoi, anche viaggiando solo con bus e treni."
+        },
+        {
+          "title": "Viaggio rapido",
+          "text": "Non si viaggia dalla mappa: chiami Paradise Taxi dai contatti o, dal capitolo 2, usi RydeMe. Metti un punto sulla mappa, sali e paghi 100 $ per saltare il viaggio. Poi ti fai portare l'auto con Scooter Bros."
         }
       ],
       "tips": [
@@ -1209,7 +1218,7 @@
           "text": "Anche l'acqua ha i suoi taxi."
         },
         {
-          "source": "community",
+          "source": "stampa",
           "text": "Vice City ha una metropolitana (Vice City Metro) e un people mover, il Metro Mule, con stazioni come Crosstown e Vice City Arts Center."
         },
         {
@@ -1221,8 +1230,8 @@
           "text": "Il casello Vice Pass sulla Rialto Causeway potrebbe far pagare un pedaggio."
         },
         {
-          "source": "leak",
-          "text": "La mappa trapelata mostra una grande rete ferroviaria su cinque contee."
+          "source": "stampa",
+          "text": "Il treno attraversa tutte e cinque le contee: le stazioni sono 25, 17 a Vice-Dale County."
         },
         {
           "source": "stampa",
@@ -1258,13 +1267,13 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-19",
       "id": "mec-animali-caccia-pesca",
       "title": "Animali, caccia e pesca",
       "emoji": "🐊",
       "short": "Leonida ha più di 170 specie animali, da studiare e catalogare in un diario senza ucciderle. La pesca è solo cattura e rilascio; la caccia è un lavoro che paga, ma i guardaparco vigilano.",
       "steps": [
-        "Avvicinati a un animale e studialo: entra nel diario con le sue informazioni.",
+        "Prendi il binocolo dalla ruota, avvicina con su sulla croce e tieni R1 per studiare l'animale: entra nel diario.",
         "Cerca le specie Rare, Scopribili e Leggendarie: le leggendarie hanno identità segrete.",
         "Con i cani puoi accarezzarli, sgridarli o studiarli; chiedi prima il permesso al padrone.",
         "Per la pesca prendi la canna: il pesce lo catturi e lo rilasci, non lo tieni.",
@@ -1302,10 +1311,6 @@
         },
         {
           "source": "community",
-          "text": "Non è ancora noto se la caccia dia pelli o carne; il primo luogo di pesca noto è Gambit Bay, e si parla di pesca al persico nei parchi."
-        },
-        {
-          "source": "community",
           "text": "Si caccia tra foreste e canyon di Mount Kalaga: cervi, puma e volpi."
         },
         {
@@ -1325,12 +1330,12 @@
           "text": "La caccia potrebbe avere una stagione: per Gambit Bay si parla di «apertura della stagione di caccia»."
         },
         {
-          "source": "rumor",
-          "text": "Catalogare tutta la fauna peserebbe molto sul Platino, stimato oltre le 200 ore."
+          "source": "stampa",
+          "text": "Nel diario della fauna ci sono anche 34 razze di cani e gatti, oltre ai 60 e più uccelli."
         },
         {
           "source": "stampa",
-          "text": "Nel diario della fauna ci sono anche 34 razze di cani e gatti, oltre ai 60 e più uccelli."
+          "text": "Gli animali da studiare sono 255: ogni razza di cane e gatto conta a parte, e contano anche pesci e uccelli. Per il 100% ne bastano 100, col binocolo, senza cacciarli."
         }
       ],
       "relatedIds": [
@@ -1356,7 +1361,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "mec-attivita-svaghi",
       "title": "Attività e svaghi",
       "emoji": "🎳",
@@ -1404,15 +1409,15 @@
           "text": "Lo strip club ha balli privati a pagamento."
         },
         {
-          "source": "community",
-          "text": "Ambrosia ha il Raceway Park e il Thrillbilly Mud Park; c'è anche un Gellhorn International Raceway."
+          "source": "stampa",
+          "text": "Gli autodromi sono quattro: Ambrosia Raceway, Thrillbilly Mud Club nel nord della Kelly County, Gellhorn International Raceway a sud di Port Gellhorn e Boone Speedway a Hamlet."
         },
         {
           "source": "community",
           "text": "Ci sono combattimenti in gabbia e un fight club clandestino; il football americano è solo un indizio, non si sa se sia giocabile."
         },
         {
-          "source": "community",
+          "source": "stampa",
           "text": "Riviste, fumetti e tesori sommersi sono collezionabili da cercare."
         },
         {
@@ -1425,14 +1430,14 @@
         },
         {
           "source": "stampa",
-          "text": "La JoyStation, console parodia, ha tre o quattro giochi giocabili. In TV si guardano serie e cartoni."
+          "text": "La console di casa si chiama JoySystem e ha tre giochi; il quarto, Bang For Your Buck, è nei cabinati. In TV si guardano serie e cartoni."
         },
         {
           "source": "stampa",
           "text": "Uno zoo e un grande cimitero sono visitabili ma non legati alla storia: Rockstar li tiene «per il futuro»."
         },
         {
-          "source": "stampa",
+          "source": "testo principale",
           "text": "Dopo la storia si sbloccano i trucchi completando delle sfide dalla voce «Trucchi» del menu (salute e munizioni infinite tra i premi)."
         }
       ],
@@ -1663,12 +1668,8 @@
       ],
       "extras": [
         {
-          "source": "leak",
-          "text": "People mover dell'aeroporto (VCIA) (People mover): Collega i terminal alla stazione VCIA (Metro + Amloco)."
-        },
-        {
-          "source": "community",
-          "text": "I nomi ufficiali delle stazioni sono solo tre: Vice City Arts Center, Crosstown e NW 3rd Street. Gli altri nomi delle stazioni sono quelli dei quartieri."
+          "source": "stampa",
+          "text": "Una linea porta all'aeroporto (Mule Airport Line), con le stazioni Vice City Airport Village e Vice City Airport Central; fuori città c'è l'Amloco Railway."
         },
         {
           "source": "stampa",
@@ -1683,7 +1684,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://gta.wiki/w/Vice_City_Metro"
     },
     {
@@ -1695,20 +1696,18 @@
       "steps": [
         "Cerca i raduni di auto: lì nascono le gare su strada e le drag race.",
         "Per il fango e lo sterrato prendi una moto da cross o un fuoristrada.",
-        "Per le gare in pista vai agli autodromi, come il Gellhorn International Raceway e il Boone Speedway di Hamlet.",
-        "Sull'acqua corri con le moto d'acqua lungo la costa."
+        "Per le gare in pista vai agli autodromi, come il Gellhorn International Raceway e il Boone Speedway di Hamlet."
       ],
       "details": [
         {
           "title": "Dove si corre",
-          "text": "Gare su strada e drag race in città, sterrato e fango nelle zone rurali, stock car e monster truck negli autodromi."
+          "text": "Quaranta gare uniche: corse clandestine a Vice City, corse in campagna degli Animal Crackers tra Lummox e Mariana, e gli autodromi (Gellhorn, Boone, Ambrosia, Mud Club). In più 13 sfide a medaglia, a tempo o a punti."
         }
       ],
       "tips": [
         "Prepara l'auto in officina prima di una gara.",
         "Le gare in notturna sono quelle dei raduni clandestini: occhio alla polizia."
       ],
-      "extras": [],
       "relatedIds": [
         "act-car-meet",
         "act-dirt-bike",
@@ -1719,7 +1718,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://insider-gaming.com/new-gta-6-activities-confirmed/"
     },
     {

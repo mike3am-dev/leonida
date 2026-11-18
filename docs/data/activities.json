@@ -41,17 +41,19 @@
       "type": "attività",
       "name": "Caccia",
       "districtId": "dis-mount-kalaga",
-      "description": "La caccia torna: cervi, puma e volpi tra le foreste e i canyon di Mount Kalaga. Gli animali sono rari, scopribili e leggendari.",
+      "description": "Si caccia in campagna e nelle paludi: cinghiali, serpenti a sonagli, pantere, orsi e alligatori. Ci sono 8 animali unici, leggendari.",
       "requirements": [],
-      "rewards": [],
+      "rewards": [
+        "Sfide di sopravvivenza: 3 alligatori, cinghiale + serpente a sonagli + pantera in 15 minuti, tutti gli 8 animali unici."
+      ],
       "steps": [],
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "group": "Pesca e caccia"
     },
     {
@@ -59,35 +61,48 @@
       "type": "attività",
       "name": "Pesca",
       "districtId": "dis-mount-kalaga",
-      "description": "Pesca nei laghi e nei fiumi del parco; non è ancora noto se si possa pescare anche in mare. La canna da pesca fa parte dell'equipaggiamento.",
+      "description": "Si pesca con la canna, che vendono gli Ammu-Nation con l'icona del pesce. Le sfide di pesca di Cal contano come compiti facoltativi per il 100%.",
       "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "rewards": [
+        "Trofeo «Esca preparata»: batti Cal in una sfida di pesca.",
+        "Pescare alza il Focus.",
+        "Sfide di sopravvivenza: un pesce da 20 libbre, 3 pesci con ogni tipo di esca in un giorno, 4 specie in 6 minuti, tutte le specie."
+      ],
+      "steps": [
+        "I pesci contano anche tra gli animali studiati: puoi studiarli nuotando vicino, senza canna."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "group": "Pesca e caccia"
     },
     {
       "id": "act-car-meet",
       "type": "attività",
-      "name": "Raduni di auto e corse clandestine",
+      "name": "Corse su strada: Hit 'N Run VC",
       "districtId": "dis-vice-city",
-      "description": "Raduni con auto di lusso e livree personalizzate, uno anche a Stockyard; c'è il pilota clandestino Yago con la sua Annis Elegy. Le corse su strada sono una colonna portante delle attività.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Nove gare clandestine per Vice City: Salton (3), La Perle (2), Ocean Beach (2), Gloriana Key (2). Il gruppo ti invita all'inizio del capitolo 3; da lì passa anche la serie di Yago.",
+      "requirements": [
+        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "Ogni gara ha una quota d'iscrizione e il noleggio del mezzo: vincendo ci guadagni."
+      ],
+      "rewards": [
+        "Sfida dei veicoli: vinci 3 gare con una muscle, una sportiva e una supercar."
+      ],
+      "steps": [
+        "Le gare compaiono in blu quando sei a meno di 100 metri: Mappa › Attività › Corse."
+      ],
       "image": null,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "group": "Corse",
       "extras": [
         {
@@ -101,17 +116,28 @@
       "type": "attività",
       "name": "Rapine ai negozi",
       "districtId": null,
-      "description": "Si rapinano un distributore e un ristorante di waffle; ci sono ricettatori e scelte su come aprire le casseforti. Tra i bersagli, Hank's Waffles e Uncle Jack's Liquor.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Due tipi di colpo. Le rapine lampo nei minimarket, fast food e negozi di liquori (91 sulla mappa): punti la pistola al cassiere e prendi l'incasso. E i «Smash 'n' Grab», 35 tra banchi dei pegni e gioiellerie: rompi le vetrine e svuoti la cassaforte nel retro.",
+      "requirements": [
+        "Banchi dei pegni da metà del capitolo 2, gioiellerie da metà del capitolo 3.",
+        "Per il 100%: rapine lampo in 50 negozi diversi e 34 Smash 'n' Grab su 35, cassaforte del retro compresa.",
+        "Mappa › Rapine (sacco di soldi): icona verde chiara = fatto."
+      ],
+      "rewards": [
+        "Gioiellerie da 1.000 a 25.000 $ a colpo.",
+        "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con lo Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
+        "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato."
+      ],
+      "steps": [
+        "Gioielli e contanti vanno venduti a un ricettatore.",
+        "Nel retro distruggi i nastri e spegni l'allarme: il profilo resta Professional."
+      ],
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "group": "Lavoretti e crimini"
     },
     {
@@ -119,13 +145,13 @@
       "type": "attività",
       "name": "Rifornimento al distributore",
       "districtId": null,
-      "description": "Jason fa benzina mentre la polizia si avvicina. Non è ancora noto se il carburante sia una meccanica vera: se lo è, cambia il modo di pianificare le fughe.",
+      "description": "Il carburante è una meccanica vera: un pieno basta per attraversare la mappa. Con gli aerei attenzione: a secco precipitano. L'indicatore compare sopra la minimappa, se lo attivi nelle impostazioni.",
       "requirements": [],
       "rewards": [],
       "steps": [],
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
@@ -137,7 +163,7 @@
       "type": "attività",
       "name": "Moto da cross",
       "districtId": "dis-port-gellhorn",
-      "description": "Jason, Lucia e un terzo personaggio su moto da cross, con salti in dirt bike. A Port Gellhorn, la costa dimenticata, la moto da cross è di casa.",
+      "description": "Moto da cross e sterrato: il Waning Sands Motocross Stunt Run e le sfide del Mud Club. A Port Gellhorn la moto da cross è di casa; le officine per le moto da sterrato sono Dirt Merchants, in Kelly County.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -147,17 +173,22 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "group": "Corse"
     },
     {
       "id": "act-sport",
       "type": "attività",
-      "name": "Sport: basket, biliardo, palestra",
+      "name": "Basket",
       "districtId": null,
-      "description": "Basket, biliardo e sollevamento pesi. Dieta, esercizio e sonno cambiano il fisico dei protagonisti.",
-      "requirements": [],
-      "rewards": [],
+      "description": "I canestri sono 100, sparsi per tutta Leonida: a ognuno c'è un pallone. Tiri mirati e a tempo.",
+      "requirements": [
+        "Per il 100% fai canestro in 90 posti diversi: 90 tiri nello stesso posto non contano.",
+        "Mappa › Esplorazione › Punti d'interesse › Canestri: quelli fatti restano segnati."
+      ],
+      "rewards": [
+        "Sfide sportive: canestri in 3 posti in un giorno, 10 di fila in 2 minuti, uno in ogni contea, tutti e 100."
+      ],
       "steps": [],
       "image": null,
       "status": "verificato",
@@ -165,12 +196,8 @@
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "extras": [
-        {
-          "source": "stampa",
-          "text": "Il biliardo non si vede nel video: compare nelle anteprime."
-        },
         {
           "source": "community",
           "text": "A basket i tiri si mirano e si temporizzano a mano, e fare canestro allena il Focus. C'è un canestro anche sotto la casa di Jason a Key Lento."
@@ -189,13 +216,15 @@
       "districtId": null,
       "description": "Lanci dall'alto e paracadutismo.",
       "requirements": [
-        "Per il 100% vanno completati tutti i lanci col paracadute."
+        "Per il 100% non servono tutti: bastano 300 acrobazie su 397 in totale, mescolando salti, voli sotto i ponti, voli tra i palazzi e 25 base jump."
       ],
       "rewards": [
-        "Soldi: di più se atterri vicino al centro e prendi i checkpoint."
+        "Il trofeo «Stunt da capogiro» chiede 250 acrobazie.",
+        "Dopo la storia: 50 lanci da oltre 300 piedi sbloccano il trucco Paracadute."
       ],
       "steps": [
-        "Lanciati e atterra sul bersaglio; alcuni lanci hanno anche checkpoint da attraversare."
+        "Compra il paracadute all'Ammu-Nation (Equipaggiamento) e accendilo dalla ruota degli oggetti: occupa lo slot del giubbotto.",
+        "Lanciati e premi il tasto indicato per aprirlo; ogni base jump ha anche una sfida facoltativa, che non serve per il 100%."
       ],
       "image": null,
       "status": "verificato",
@@ -203,29 +232,30 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "group": "Sport e fitness",
-      "extras": [
-        {
-          "source": "community",
-          "text": "Lanci a bersaglio con premi in denaro e 100%: da confermare in gioco."
-        }
-      ]
+      "updatedAt": "2026-11-19",
+      "group": "Sport e fitness"
     },
     {
       "id": "act-poligono",
       "type": "attività",
       "name": "Poligono di tiro",
       "districtId": null,
-      "description": "Tiro al bersaglio. Non è ancora noto dove si trovi: il posto più probabile è Ammu-Nation.",
+      "description": "Due poligoni con sei sfide ciascuno: il Griffin Shooting Range a nord-ovest di Vice City, percorsi a ostacoli a tempo, e il Rodgers Ranch a nord-est di Port Gellhorn, a punteggio da fermi con moltiplicatore. Ogni sfida ha bronzo, argento e oro.",
       "requirements": [
-        "Per il 100% serve almeno il bronzo in ogni sfida."
+        "Compra il pass da 5 $ dal commesso di ciascun poligono: le sfide compaiono sulla mappa.",
+        "Se non hai l'arma richiesta la noleggi per 10 $: bastano quelle a noleggio.",
+        "Per il 100% servono tutti i 42 ori."
       ],
-      "rewards": [],
+      "rewards": [
+        "Trofeo «Cecchino».",
+        "Ogni sfida, finita o abbandonata, alza il Focus per sempre.",
+        "Dopo la storia: 25 bronzi sbloccano il trucco Munizioni al massimo, 25 argenti Munizioni infinite, 25 ori Niente ricarica."
+      ],
       "steps": [
-        "Scegli una categoria di armi: ognuna ha le sue armi e una serie di sfide.",
-        "Colpisci i bersagli per fare punti: il punteggio decide la medaglia.",
-        "Le sfide allenano l'abilità di tiro di Jason e Lucia."
+        "Al Griffin gioca con Lucia: corre e si muove meglio di Jason.",
+        "Al Griffin spara in fretta: il centro toglie un secondo, ma fermarsi a mirare costa di più.",
+        "Al Rodgers colpisci il corpo una o due volte prima della testa per far salire il moltiplicatore; un colpo a vuoto lo abbassa.",
+        "Per farti il Focus: Market Range, livello principiante, al Rodgers. Dura cinque secondi: esci e ricomincia."
       ],
       "image": null,
       "status": "verificato",
@@ -233,31 +263,30 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "group": "Sport e fitness",
-      "extras": [
-        {
-          "source": "community",
-          "text": "Struttura delle sfide e medaglie per il 100%: da confermare in gioco."
-        }
-      ]
+      "updatedAt": "2026-11-19",
+      "group": "Sport e fitness"
     },
     {
       "id": "act-minigolf-zoo",
       "type": "attività",
-      "name": "Minigolf e zoo",
+      "name": "Minigolf e golf",
       "districtId": null,
-      "description": "Minigolf e una visita a uno zoo interamente esplorabile.",
-      "requirements": [],
-      "rewards": [],
+      "description": "Tre minigolf: King Gator Adventure Golf (Buckskin Swamp), Frontier Adventure Golf (Waning Sands) e Dino Golf Challenge (Frogswater). Due campi veri: Leaf Links a Vice Beach e Mount Hailes Golf Challenge a Waning Sands.",
+      "requirements": [
+        "Per il 100% gioca una partita in 2 minigolf su 3: i due campi grandi non contano."
+      ],
+      "rewards": [
+        "Il golf alza il Focus.",
+        "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti a 3 sotto il par; tutti e due in un giorno al par; due buche in uno di fila."
+      ],
       "steps": [],
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "group": "Svago"
     },
     {
@@ -317,34 +346,44 @@
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-tesoro",
       "name": "Relitti e tesori sommersi",
       "type": "attività",
       "districtId": "dis-keys",
-      "description": "Immersioni sui relitti con tesori da recuperare. Sott'acqua conta la capacità polmonare, al posto della resistenza.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Kenton Rees, a Key Lento, ti manda a ripulire 7 relitti: segna i forzieri viola sulla mappa e tu porti a galla i tesori col metal detector. Dopo il capitolo 1 sparisce per un po' e torna tra il capitolo 2 e il 3.",
+      "requirements": [
+        "Per il 100%: 5 serie di Kenton su 7 e tutte le 33 scoperte sottomarine (per queste servono tutti i relitti)."
+      ],
+      "rewards": [
+        "Trofeo «Ci serve una barca più grossa».",
+        "Sfide di esplorazione: 25 stranezze sul fondale, 85 tesori sottomarini, tutti gli 11 relitti «buco nero»."
+      ],
+      "steps": [
+        "Dalla ruota scegli il metal detector e nuota nella zona rosa finché la luce diventa verde."
+      ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Sport acquatici"
     },
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-riviste",
       "name": "Riviste e fumetti da collezionare",
       "type": "attività",
       "districtId": null,
-      "description": "Riviste e fumetti sparsi per Leonida, da collezionare.",
-      "requirements": [],
+      "description": "27 tra riviste, libri e fumetti e 7 scambi di libri, da trovare e leggere. Contano solo quelli diversi: molti hanno copie in più posti.",
+      "requirements": [
+        "Per il 100% ne servono 30 su 34.",
+        "Alcune copie stanno in edifici della storia che poi chiudono, ma si trovano anche altrove."
+      ],
       "rewards": [],
       "steps": [],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
@@ -353,18 +392,27 @@
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-covi",
       "name": "Raid ai covi delle gang",
       "type": "attività",
       "districtId": null,
-      "description": "I compound criminali si possono assaltare: la droga poi si vende (oltre 4.500 $ in un colpo). Il negozio dei PTT Youngin$ dell'Ultimate Edition è uno di questi.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Le operazioni illegali delle gang sono 39, di 9 bande: Kingfishers, Kolts & Associates, M7, La Polilla Negra, Final Chapter, San4San, PTT Youngin$, Guardia Brothers e altri criminali. Compaiono in giallo sulla mappa quando entri nella zona; 19 le segna la storia.",
+      "requirements": [
+        "Per il 100% vanno completate tutte e 39: prendi ogni oggetto di valore (l'icona dice quanti sono).",
+        "Se dimentichi qualcosa, il covo si ripopola dopo parecchio tempo."
+      ],
+      "rewards": [
+        "Varianti uniche di armi, orologi di lusso, la cassaforte e droga da vendere ai ricettatori.",
+        "Trofeo «Disinfestazione»: un'operazione per ogni banda.",
+        "Il terzo covo dei PTT Youngin$ è dell'Ultimate Edition e non conta per il 100%."
+      ],
+      "steps": [
+        "Porta bombe adesive: aprono le casseforti."
+      ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Lavoretti e crimini"
     },
@@ -389,18 +437,27 @@
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-ricettazione",
       "name": "Furto d'auto su commissione",
       "type": "attività",
       "districtId": null,
-      "description": "I ricettatori (come Randy) chiedono auto precise: WAINK le elenca. Più intatta è, più paga. Alcune sono al deposito della polizia.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Si vendono auto rubate in tre modi: a Moses a Port Gellhorn (dal capitolo 2, solo senza localizzatore, circa 1.000 $), a qualunque Pay 'n' Spray (dal capitolo 3, anche con localizzatore standard, 2.500-4.000 $) e a Randy, che vuole 16 auto di lusso precise (dal capitolo 3, 30.000 $ e più se intatte).",
+      "requirements": [
+        "Per il 100%: 200.000 $ di veicoli venduti (con Randy ci arrivi da solo).",
+        "Scansiona l'auto con WAiNK: vedi se ha il localizzatore e se è nella lista di Randy."
+      ],
+      "rewards": [
+        "Trofeo «Domanda e offerta»: l'ultima missione per Randy.",
+        "Trofeo «Ci metto un secondo»: registra 10 veicoli nell'app Scooter Bros."
+      ],
+      "steps": [
+        "Moses non accetta auto rubate troppo vicino al suo garage: prendile sulla strada principale di Port Gellhorn.",
+        "Dopo ogni vendita a Moses aspetta un paio di minuti."
+      ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Lavoretti e crimini"
     },
@@ -428,14 +485,21 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-monster-truck",
-      "name": "Corse di monster truck e stock car",
+      "name": "Autodromi e Mud Club",
       "type": "attività",
-      "districtId": "dis-ambrosia",
-      "description": "Circuito, dirt bike, fuoristrada, stock car e monster truck. Ambrosia ha il Raceway Park e il Thrillbilly Mud Club.",
-      "requirements": [],
-      "rewards": [],
+      "districtId": null,
+      "description": "Gellhorn International Raceway a sud di Port Gellhorn (11 gare, si apre con la gara di presentazione), Boone Speedway a Hamlet (2 gare a eliminazione), Ambrosia Raceway (2 demolition derby) e Thrillbilly Mud Club nel nord della Kelly County (8 gare su sterrato e ovale).",
+      "requirements": [
+        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "Il Mud Club si apre nel capitolo 2 con la serie di Billy."
+      ],
+      "rewards": [
+        "Trofeo «Il centauro solitario» alla fine della serie di Billy.",
+        "Sfida dei veicoli: tre vittorie di fila in un giorno a Mud Club, Gellhorn e Boone.",
+        "Dopo la storia: 10 vittorie tra Gellhorn, Mud Club e Boone sbloccano il trucco Ripara veicolo."
+      ],
       "steps": [],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Corse"
@@ -479,18 +543,28 @@
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-caccia-dettagli",
-      "name": "Caccia: un contatto di Jason",
+      "name": "Caccia: le missioni di Bret",
       "type": "attività",
       "districtId": "dis-mount-kalaga",
-      "description": "La introduce un personaggio che conosce già Jason: usi quello che prendi per fare soldi. Non è ancora noto se ci siano pelli o carne. POACH, i guardaparco, vigilano: uccidere animali in zona protetta può funzionare come un livello di ricercato.",
-      "requirements": [],
-      "rewards": [],
-      "steps": [],
+      "description": "Bret Vogel, veterano, scrive a Jason dopo metà del capitolo 2 e lo chiama in Lummox County. Poi segna sulla mappa le zone di caccia (icone viola): gli porti gli animali che chiede. Solo Jason.",
+      "requirements": [
+        "Per il 100% servono tutte e 15 le cacce di Bret.",
+        "Solo con Jason: Lucia non riceve il messaggio."
+      ],
+      "rewards": [
+        "Il fucile unico Killtelligence SM-69 alla prima caccia.",
+        "Dopo la nona caccia si sblocca lo Shrewsbury SMS-01 negli Ammu-Nation.",
+        "Trofeo «Bersagli leciti»: un animale unico per Bret."
+      ],
+      "steps": [
+        "Un colpo pulito, alla testa o al cuore, lascia l'animale intatto e rende di più; troppi colpi lo rovinano.",
+        "Mappa › Attività › Target Deck per vedere le cacce aperte."
+      ],
       "sourceUrl": "https://gamerant.com/gta-6-side-activities-fishing-hunting/",
       "group": "Pesca e caccia"
     },
@@ -500,12 +574,12 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "act-zoo-dettagli",
       "name": "Lo zoo, anche come appuntamento",
       "type": "attività",
       "districtId": "dis-vice-city",
-      "description": "Si visita, si studiano gli animali, ed è «tempo di qualità» per Jason e Lucia.",
+      "description": "Il Wildland Zoo di Vice City si visita, si studiano gli animali, ed è «tempo di qualità» per Jason e Lucia. Non è legato alla storia.",
       "requirements": [],
       "rewards": [],
       "steps": [],
@@ -603,21 +677,307 @@
       "group": "Sport e fitness"
     },
     {
-      "id": "act-corse-in-mare",
+      "id": "act-meditazione",
       "type": "attività",
-      "name": "Corse in mare",
+      "name": "Meditazione",
       "districtId": null,
-      "description": "Gare in acqua, come le Sea Races di GTA V: contano per il 100%. Non è ancora noto con quali mezzi si corra né dove partano.",
+      "description": "Diciotto meditazioni in dieci posti panoramici, segnati in viola quando ti avvicini: banco di sabbia a ovest di Capri, Buckskin Swamp, Camp Moonflower, Manifest Canyon, la vecchia cartiera di Moreau, la torre sulla miniera di Mount Kalaga, la cascata a nord-ovest di Tallaloko e gli scogli a est di Waning Sands. Ogni posto vale due meditazioni, una per Jason e una per Lucia.",
+      "requirements": [
+        "Per il 100% ne bastano 15 su 18.",
+        "La prima si fa solo nel capitolo 1, a casa di Jason, quando Lucia propone di meditare sul balcone: dopo non torna.",
+        "L'ultima, in vetta al Mount Kalaga nel cerchio di pietre, compare solo dopo tutte le altre e richiede tutti e due."
+      ],
+      "rewards": [
+        "Trofeo «Mentalità positiva»: medita in ogni luogo.",
+        "Ogni meditazione conta come compito facoltativo per il 100%."
+      ],
+      "steps": [
+        "Chiama il partner e andate insieme: vale doppio.",
+        "Mappa › Esplorazione › Meditate Around Leonida."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Sport e fitness",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Non è ancora chiaro se la meditazione del capitolo 1 serva per il trofeo: fala comunque."
+        }
+      ]
+    },
+    {
+      "id": "act-droni-top-fun",
+      "type": "attività",
+      "name": "Gare di droni Top Fun",
+      "districtId": null,
+      "description": "Quarantadue prove a tempo in 14 posti, tre per posto: Hamlet, Watson Bay, Capri, Buckskin Swamp, Balsero, Downtown, Dalton Island, Vice Beach, Waning Sands, Ambrosia, Port Gellhorn, Draper Island, la segheria di Moreau e Millport. Compaiono in blu a meno di 100 metri.",
+      "requirements": [
+        "Batti il tempo di riferimento nelle prime due per aprire la terza.",
+        "Per il 100% servono tutte e 42; nella terza basta arrivare.",
+        "Dalton Island si raggiunge solo in barca o in volo."
+      ],
+      "rewards": [
+        "Trofeo «Top Fun»: vinci una gara in ogni posto."
+      ],
+      "steps": [
+        "Tieni la levetta sinistra in avanti per tutto il percorso, a velocità massima, ed evita gli urti.",
+        "Ci arrivi in taxi, tranne Dalton Island."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Corse"
+    },
+    {
+      "id": "act-videogiochi",
+      "type": "attività",
+      "name": "Videogiochi e sala giochi",
+      "districtId": null,
+      "description": "Quattro giochi: Tenebrae Lux, Street Trash III e Time Jackers Rewind sulla console JoySystem di casa, e Bang For Your Buck sui cabinati in giro per Leonida (per esempio davanti a Bargain World a Port Gellhorn).",
+      "requirements": [
+        "Per il 100% basta avviare ciascun gioco una volta e uscire.",
+        "La console di casa non è disponibile durante il capitolo 2; torna dal capitolo 3."
+      ],
+      "rewards": [
+        "Trofeo «Smanettone»: finisci tutti i livelli di un gioco."
+      ],
+      "steps": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Svago"
+    },
+    {
+      "id": "act-biliardo",
+      "type": "attività",
+      "name": "Biliardo",
+      "districtId": null,
+      "description": "Diciassette tavoli, sette con un avversario fisso: Skeeter's (Hamlet), Zotico's (Balsero), The Thirsty Wolf (Belville), Jacob's Tavern (Millport), Delights (Port Gellhorn), Kowaachobee Cafe & Bar (Buckskin Swamp). Il settimo non è ancora stato trovato.",
+      "requirements": [
+        "Per il 100% batti 5 avversari su 7.",
+        "Delights chiude per un periodo: se non batti l'avversario entro il capitolo 2, ci torni quando riapre."
+      ],
+      "rewards": [
+        "Il biliardo alza il Focus.",
+        "Sfide sportive: vinci in 3 posti in un giorno, tre sponde prima della buca, 8 in buca al tiro d'apertura."
+      ],
+      "steps": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Sport e fitness"
+    },
+    {
+      "id": "act-palestra",
+      "type": "attività",
+      "name": "Palestra",
+      "districtId": "dis-vice-city",
+      "description": "Ci si iscrive alle palestre pagando l'abbonamento (sono molte, soprattutto a Vice City). I pesi alzano la forza, cioè la salute massima; tapis roulant e cyclette il cardio, cioè la resistenza. Nel capitolo 1 ci sono i pesi sulla terrazza di casa.",
+      "requirements": [
+        "Finisci l'allenamento per tenere i progressi: se lo interrompi li perdi."
+      ],
+      "rewards": [
+        "Sfide di fitness: iscriviti a una palestra, ogni attrezzo in un giorno, forza e cardio al livello 4 per entrambi per 5 giorni.",
+        "Dopo la storia: 100 allenamenti sbloccano il trucco Giubbotto."
+      ],
+      "steps": [
+        "Andate in due: mentre ti alleni con uno, l'altro finisce da solo il suo.",
+        "Dopo, prendi proteine: frullato in frigo o barretta in palestra."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Sport e fitness"
+    },
+    {
+      "id": "act-acrobazie",
+      "type": "attività",
+      "name": "Acrobazie",
+      "districtId": null,
+      "description": "Le acrobazie sono 397, ognuna col suo nome: 130 salti con le rampe, 202 voli sotto i ponti, 40 voli tra i palazzi e 25 base jump.",
+      "requirements": [
+        "Per il 100% ne bastano 300, di qualunque tipo: i voli sotto i ponti sono i più rapidi.",
+        "Le sfide facoltative di ogni acrobazia non servono."
+      ],
+      "rewards": [
+        "Trofeo «Stunt da capogiro»: 250 acrobazie.",
+        "Dopo la storia: 50 salti sbloccano il trucco Nitro infinito."
+      ],
+      "steps": [
+        "Mappa › Esplorazione › Stunt Spots: viola = trovata, bianca = fatta."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Corse"
+    },
+    {
+      "id": "act-sfide",
+      "type": "sfida",
+      "name": "Sfide",
+      "districtId": null,
+      "description": "Ottanta sfide in otto categorie da dieci: combattimento, crimine, esplorazione, fitness, shopping, sport, sopravvivenza e veicoli. Sono tutte disponibili dall'inizio.",
+      "requirements": [
+        "Per il 100% ne servono 70 su 80: lascia le più lunghe."
+      ],
+      "rewards": [
+        "Trofeo «Un'ultima cosa…»: 50 sfide.",
+        "Dopo la storia sbloccano i trucchi dei veicoli: per esempio la Tuff BMX con 5 sfide di fitness, la Progen Emerus con tutte quelle dei veicoli."
+      ],
+      "steps": [
+        "Progressi › Sfide: le completate hanno la spunta."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Svago"
+    },
+    {
+      "id": "act-banche",
+      "type": "attività",
+      "name": "Banche e finanziarie",
+      "districtId": null,
+      "description": "Ventidue banche: 14 piccole (cassetto e cassaforte) e 8 grandi con il caveau, tra Fleeca, Lombank, Shorefront, Gibson Brothers Bank e Druthers State Bank. Più 7 finanziarie Payday Loans e Quick Buck. Si aprono a metà del capitolo 3, quando sblocchi il disturbatore delle cartucce di inchiostro.",
+      "requirements": [
+        "Per il 100%: tutte le 22 banche, le 7 finanziarie, gli 8 caveau, 250.000 $ di banconote segnate rivendute.",
+        "I caveau si aprono alla fine del capitolo 4: segui un furgone portavalori fino alla banca ed entra mentre la guardia porta il contante."
+      ],
+      "rewards": [
+        "Banche piccole 5.000-45.000 $, caveau fino a 205.000 $: il modo più rapido di fare soldi.",
+        "Trofei «Prelievo massimo» (5 caveau) e «Un classico blitz» (un furgone blindato)."
+      ],
+      "steps": [
+        "Il caveau dà subito 4 stelle: scappa in moto nel traffico, poi cambia mezzo.",
+        "Porta il partner: quando non hai più posto passagli una borsa."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Lavoretti e crimini"
+    },
+    {
+      "id": "act-laboratori-tyrone",
+      "type": "attività",
+      "name": "Laboratori della Kitty Litter",
+      "districtId": "dis-vice-city",
+      "description": "Quattordici laboratori della droga da distruggere per Tyrone a Vice City: la zona è segnata in viola, il capannone giusto è quello col fumo rosa. Distruggi l'attrezzatura con esplosivi o fuoco. Solo Jason.",
       "requirements": [],
+      "rewards": [
+        "2.000-2.500 $ per laboratorio.",
+        "Trofeo «Centrifugami questo!» all'ultima missione di Tyrone."
+      ],
+      "steps": [
+        "Puoi trovarli da solo, senza aspettare le soffiate."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Lavoretti e crimini"
+    },
+    {
+      "id": "act-sconosciuti-folli",
+      "type": "side-quest",
+      "name": "Sconosciuti e folli",
+      "districtId": null,
+      "description": "Le serie di missioni dei personaggi incontrati in giro: alcune le segna la storia, altre le trovi solo esplorando. Tra queste Kirk e lo Skunk Ape (capitolo 1, di notte), Kyle (capitolo 2), Yago (capitolo 3) e Pete il pilota (capitolo 4, solo Jason).",
+      "requirements": [
+        "Il trofeo chiede 8 serie, ma non tutte contano: l'unico modo per saperlo è guardare il contatore del trofeo.",
+        "Dopo una missione la successiva arriva per telefono, anche dopo giorni di gioco."
+      ],
+      "rewards": [
+        "Trofeo «Sconosciuti e folli».",
+        "Ogni missione conta come compito facoltativo per il 100%."
+      ],
+      "steps": [
+        "Le serie con trofeo proprio (Kenton, Bret, Andy, Billy, Tyrone) restano disponibili anche dopo la storia."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "group": "Svago"
+    },
+    {
+      "id": "act-animal-crackers",
+      "type": "attività",
+      "name": "Corse in campagna: Animal Crackers",
+      "districtId": null,
+      "description": "Otto gare tra Lummox County e Mariana County, due per posto: Grayson, Redshaw's, Ranchers e Big Pine.",
+      "requirements": [
+        "Le gare uniche sono 40: per il 100% ne vinci 30, per il trofeo «Guadagna i soldi, non la gloria» 20 diverse.",
+        "Ogni gara ha una quota d'iscrizione e il noleggio del mezzo; vincendo una si apre la successiva."
+      ],
       "rewards": [],
       "steps": [],
       "image": null,
       "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/side-missions/gta-6/sea-races",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
+      "group": "Corse"
+    },
+    {
+      "id": "act-sfide-gara",
+      "type": "attività",
+      "name": "Sfide di gara a medaglia",
+      "districtId": null,
+      "description": "Tredici prove a tempo o a punti, con bronzo, argento e oro: Ambrosia Raceway, BMX di Hamlet, Boone Speedway, circuito e dragstrip di Gellhorn, ciclismo sul Kalaga, sei prove al Mud Club (salti, drag, salita, sterrato, ovale, palude) e motocross a Waning Sands.",
+      "requirements": [
+        "Per il 100% servono 10 ori su 13: scegli i più facili."
+      ],
+      "rewards": [],
+      "steps": [
+        "Progressi › Attività › Sfide di gara: la medaglia è in basso a destra."
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
       "group": "Corse"
     }
   ]

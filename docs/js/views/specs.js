@@ -5,7 +5,7 @@
  */
 import { esc } from '../ui/dom.js';
 
-const WEAPON_AXES = [['damage', 'Danno'], ['rate', 'Cadenza'], ['accuracy', 'Precisione'], ['range', 'Gittata']];
+const WEAPON_AXES = [['damage', 'Danno'], ['accuracy', 'Precisione'], ['handling', 'Maneggevolezza'], ['range', 'Gittata']];
 const VEHICLE_AXES = [['speed', 'Velocità'], ['braking', 'Frenata'], ['accel', 'Accelerazione'], ['traction', 'Aderenza']];
 // Profili di esempio per classe (solo per far capire come sarà la scheda: NON sono dati)
 const WEAPON_SAMPLE = { pistola: [4, 4, 6, 3], 'fucile-assalto': [6, 7, 6, 6], mitra: [4, 9, 4, 4], 'fucile-pompa': [9, 3, 3, 2], cecchino: [9, 1, 9, 10], pesante: [10, 2, 3, 7], lancio: [8, 1, 4, 3], 'corpo-a-corpo': [3, 5, 0, 0], equipaggiamento: [0, 0, 0, 0] };

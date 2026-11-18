@@ -7,14 +7,14 @@
       "manufacturer": "Hawk & Little",
       "class": "pistola",
       "description": "I revolver dell'Ultimate Edition: pesanti, lenti, soddisfacenti.",
-      "howToGet": "Ultimate Edition.",
+      "howToGet": "Ultimate Edition: si compra all'Ammu-Nation parlando con il commesso.",
       "image": "assets/img/revolvers.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Smith & Wesson Model 629 Classic",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
@@ -26,7 +26,17 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/morgan-revolver",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": ".44 Magnum",
+      "magazine": "6 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 5.7,
+        "accuracy": 5.4,
+        "handling": 7.8,
+        "range": 6.0
+      },
+      "whereToBuy": "Ammu-Nation, dal commesso: una versione per Jason e una per Lucia"
     },
     {
       "id": "wpn-girardi-es9",
@@ -34,14 +44,14 @@
       "manufacturer": "Girardi",
       "class": "pistola",
       "description": "Pistola semiautomatica, tra i contenuti delle edizioni.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si compra all'Ammu-Nation. La variante Ultimate di Jason, Duval Signature ES9, si ritira dall'armadietto delle armi.",
       "image": "assets/img/vice/armi/wpn-girardi-es9.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Beretta 92FS",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
@@ -66,22 +76,32 @@
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Beretta_92FS-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/girardi-es9",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": "9 mm",
+      "magazine": "15 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 5.2,
+        "handling": 8.4,
+        "range": 4.4
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-klose-k17",
       "name": "Klose K17",
       "manufacturer": "Klose",
       "class": "pistola",
-      "description": "Pistola compatta, tra i contenuti delle edizioni.",
-      "howToGet": "Da verificare.",
+      "description": "La pistola più diffusa di Leonida, tra civili e polizia: affidabile.",
+      "howToGet": "Si compra all'Ammu-Nation. La variante Ultimate di Lucia, Caminos Signature K17, si ritira dall'armadietto delle armi.",
       "image": "assets/img/vice/armi/wpn-klose-k17.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Glock 17, SIG Sauer P320",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
@@ -116,22 +136,32 @@
         "https://gta.fandom.com/wiki/Polymer_Pistol",
         "https://www.gtabase.com/weapons/gta-6/klose-k17",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": "9 mm",
+      "magazine": "17 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 4.0,
+        "accuracy": 4.2,
+        "handling": 8.5,
+        "range": 3.8
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-mustang-357",
-      "name": "Duke Arms Mustang .357",
-      "manufacturer": "Duke Arms",
+      "name": "Duke Mustang .357",
+      "manufacturer": "Duke",
       "class": "pistola",
-      "description": "Revolver .357.",
+      "description": "Revolver .357 con più rinculo: fatto per chiudere con un colpo solo.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-mustang-357.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "realModel": "Colt Python (.357 Magnum)",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-mustang357.webp",
@@ -152,22 +182,32 @@
       "moreSources": [
         "https://gta.fandom.com/wiki/Mustang_.357",
         "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver"
-      ]
+      ],
+      "caliber": ".357 Magnum",
+      "magazine": "6 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 5.7,
+        "accuracy": 4.5,
+        "handling": 8.0,
+        "range": 5.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-nipper-38",
-      "name": "Nipper .38",
-      "manufacturer": null,
+      "name": "Scorpio Nipper .38",
+      "manufacturer": "Scorpio",
       "class": "pistola",
-      "description": "Pistola tascabile.",
+      "description": "Pistola tascabile: piccola e facile da nascondere.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-nipper-38.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Taurus PT 938, Bersa Firestorm 380",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-nipper-38.webp",
@@ -194,7 +234,17 @@
       "moreSources": [
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/nipper-38"
-      ]
+      ],
+      "caliber": ".380",
+      "magazine": "8 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 2.8,
+        "accuracy": 3.0,
+        "handling": 9.0,
+        "range": 3.0
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-coil-shocker",
@@ -221,10 +271,10 @@
     },
     {
       "id": "wpn-duke-556",
-      "name": "Duke Arms 556",
-      "manufacturer": "Duke Arms",
+      "name": "Duke 556",
+      "manufacturer": "Duke",
       "class": "fucile-assalto",
-      "description": "Fucile d'assalto.",
+      "description": "Il fucile d'assalto più amato d'America, da una parte e dall'altra della legge.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-duke-556.webp",
       "status": "verificato",
@@ -232,7 +282,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Colt M4A1",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-service-carbine.webp",
@@ -258,22 +308,32 @@
           "source": "community",
           "text": "Il nome Duke Arms 556 non compare a schermo: è l'identificazione della community."
         }
-      ]
+      ],
+      "caliber": "5,56×45 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 5.0,
+        "accuracy": 6.0,
+        "handling": 5.8,
+        "range": 6.2
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-shrewsbury-akm",
-      "name": "Shrewsbury AKM",
-      "manufacturer": "Shrewsbury",
+      "name": "Kozlov KZ-59",
+      "manufacturer": "Kozlov",
       "class": "fucile-assalto",
-      "description": "Il classico fucile d'assalto.",
+      "description": "Il fucile d'assalto robusto e potente usato da eserciti e milizie di tutto il mondo.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-shrewsbury-akm.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Compare nel leak del settembre 2022",
         "Caricatore da 30 colpi (100 esteso)",
@@ -284,7 +344,17 @@
         "https://gta.fandom.com/wiki/Assault_Rifle"
       ],
       "realModel": "AKM / AK-47",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg"
+      "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg",
+      "caliber": "7,62×39 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 5.4,
+        "accuracy": 5.2,
+        "handling": 5.2,
+        "range": 6.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-duke-ar15",
@@ -323,18 +393,18 @@
     },
     {
       "id": "wpn-vom-feuer-carbine",
-      "name": "Vom Feuer Carbine Rifle",
+      "name": "Vom Feuer VF-G1",
       "manufacturer": "Vom Feuer",
       "class": "fucile-assalto",
-      "description": "Carabina.",
+      "description": "Fucile d'assalto modulare e moderno: professionale ed efficace.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-vom-feuer-carbine.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Remington R5 RGP, HK416",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle.webp",
@@ -346,22 +416,32 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/carbine-rifle"
-      ]
+      ],
+      "caliber": "5,56×45 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 5.0,
+        "accuracy": 6.2,
+        "handling": 5.8,
+        "range": 6.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-micro-draco",
-      "name": "Micro Draco",
-      "manufacturer": null,
+      "name": "Kozlov Hind",
+      "manufacturer": "Kozlov",
       "class": "fucile-assalto",
-      "description": "Fucile compatto.",
+      "description": "Il KZ-59 accorciato: modificato per maneggiarlo negli spazi stretti.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-micro-draco.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Micro Draco",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-compact-rifle.webp",
@@ -372,22 +452,32 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/compact-rifle"
-      ]
+      ],
+      "caliber": "7,62×39 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 5.4,
+        "accuracy": 4.5,
+        "handling": 6.1,
+        "range": 4.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-compact-smg",
-      "name": "Hawk & Little Compact SMG",
-      "manufacturer": "Hawk & Little",
+      "name": "BZI Vatra",
+      "manufacturer": "Bohemia Zbran Industries (BZI)",
       "class": "mitra",
-      "description": "Mitra compatto.",
+      "description": "Mitra compatto a raffica continua, di fabbricazione boema.",
       "howToGet": "Da verificare.",
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Caricatore da 20 colpi (30 esteso)",
@@ -397,7 +487,17 @@
         "https://www.gtabase.com/gta-6/weapons/compact-smg",
         "https://gta.fandom.com/wiki/Compact_Submachine_Gun"
       ],
-      "realModel": "Scorpion (mini SMG)"
+      "realModel": "Scorpion (mini SMG)",
+      "caliber": "9 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 3.8,
+        "handling": 6.5,
+        "range": 4.0
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-micro-smg",
@@ -426,18 +526,18 @@
     },
     {
       "id": "wpn-mp5",
-      "name": "Hawk & Little MP5 SMG",
-      "manufacturer": "Hawk & Little",
+      "name": "Vom Feuer VF5",
+      "manufacturer": "Vom Feuer",
       "class": "mitra",
-      "description": "Mitra.",
+      "description": "Il mitra storico delle squadre speciali.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-mp5.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Heckler & Koch MP5",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-smg.webp",
@@ -462,22 +562,32 @@
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Heckler_%26_Koch_MP5/40-inspired_submachine_gun",
         "https://www.gtabase.com/weapons/gta-6/smg",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": "9 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 5.0,
+        "handling": 6.7,
+        "range": 4.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-combat-mg",
-      "name": "Combat MG",
-      "manufacturer": null,
+      "name": "ADB M350",
+      "manufacturer": "Armurerie de Belgique (AdB)",
       "class": "mitra",
-      "description": "Mitragliatrice leggera.",
+      "description": "Mitragliatrice leggera: spazza via i gruppi di nemici in pochi secondi.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-combat-mg.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "M249 SAW",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-combat-mg.webp",
@@ -490,12 +600,22 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/combat-mg",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": "5,56×45 mm",
+      "magazine": "100 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 6.5,
+        "accuracy": 3.0,
+        "handling": 3.2,
+        "range": 6.2
+      },
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
     },
     {
       "id": "wpn-moreland-850",
       "name": "Moreland 850",
-      "manufacturer": "Moreland",
+      "manufacturer": "Fortune & Son",
       "class": "fucile-pompa",
       "description": "Fucile a pompa; si può impugnare anche con una mano sola.",
       "howToGet": "Da verificare.",
@@ -505,7 +625,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "realModel": "Remington 870",
       "seenIn": "Extended Look",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-moreland-850.webp",
@@ -515,22 +635,38 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/moreland-850"
+      ],
+      "caliber": "Calibro 12",
+      "magazine": "5 colpi",
+      "fireMode": "A pompa",
+      "stats": {
+        "damage": 7.5,
+        "accuracy": 4.2,
+        "handling": 5.6,
+        "range": 2.5
+      },
+      "whereToBuy": "Ammu-Nation",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La variante unica Gutterball Moreland 850 è uno degli oggetti di valore della sala da bowling dei Kolts & Associates, a Port Gellhorn."
+        }
       ]
     },
     {
       "id": "wpn-double-barrel",
-      "name": "Doppietta",
-      "manufacturer": null,
+      "name": "Shrewsbury Drifter",
+      "manufacturer": "Shrewsbury",
       "class": "fucile-pompa",
-      "description": "Fucile a due canne.",
+      "description": "La doppietta da caccia a canne affiancate.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-double-barrel.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Stoeger/IGA Longfowler",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-double-barrel-shotgun.webp",
@@ -548,7 +684,17 @@
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_double-barreled_shotgun",
         "https://www.gtabase.com/weapons/gta-6/double-barrel-shotgun",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": "Calibro 12",
+      "magazine": "2 colpi",
+      "fireMode": "A canne basculanti",
+      "stats": {
+        "damage": 8.0,
+        "accuracy": 4.1,
+        "handling": 5.0,
+        "range": 2.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-shrewsbury-pump",
@@ -575,18 +721,18 @@
     },
     {
       "id": "wpn-bolt-sniper",
-      "name": "Fucile di precisione a otturatore",
-      "manufacturer": null,
+      "name": "Shrewsbury SM-69",
+      "manufacturer": "Shrewsbury",
       "class": "cecchino",
-      "description": "Fucile da cecchino a otturatore.",
+      "description": "Il fucile di precisione affidabile di cacciatori e polizia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-bolt-sniper.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Remington 700 BDL",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-bolt-action-sniper.webp",
@@ -609,22 +755,39 @@
         "https://gta.fandom.com/wiki/Bolt_Action_Sniper",
         "https://www.gtabase.com/gta-6/weapons/bolt-action-sniper",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+      ],
+      "caliber": "7,62×51 mm",
+      "magazine": "5 colpi",
+      "fireMode": "Otturatore girevole",
+      "stats": {
+        "damage": 6.8,
+        "accuracy": 7.6,
+        "handling": 4.0,
+        "range": 7.5
+      },
+      "price": "1.850 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Bret Vogel regala a Jason la variante unica Killtelligence SM-69 nella sua prima caccia; si riprende da qualunque armadietto delle armi Ammu-Nation."
+        }
       ]
     },
     {
       "id": "wpn-hunter-sniper",
-      "name": "Shrewsbury Hunter",
-      "manufacturer": "Shrewsbury",
+      "name": "Fairview FF-SR",
+      "manufacturer": "Fairview Firearms",
       "class": "cecchino",
-      "description": "Fucile da caccia di precisione.",
+      "description": "Fucile di precisione militare: elimina i bersagli da lontano.",
       "howToGet": "Da verificare.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Caricatore da 10 colpi"
@@ -633,22 +796,33 @@
         "https://www.gtabase.com/gta-6/weapons/hunter-sniper",
         "https://gta.fandom.com/wiki/Hunter_Sniper"
       ],
-      "realModel": "Accuracy International Arctic Warfare L96A1"
+      "realModel": "Accuracy International Arctic Warfare L96A1",
+      "caliber": ".338 Magnum",
+      "magazine": "10 colpi",
+      "fireMode": "Otturatore girevole",
+      "stats": {
+        "damage": 8.0,
+        "accuracy": 7.5,
+        "handling": 3.8,
+        "range": 7.5
+      },
+      "price": "2.950 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
     },
     {
       "id": "wpn-grenade-launcher",
-      "name": "Shrewsbury Grenade Launcher",
-      "manufacturer": "Shrewsbury",
+      "name": "Deever Tech GLR40",
+      "manufacturer": "Deever Tech",
       "class": "pesante",
-      "description": "Lanciagranate. Lucia spara da un elicottero con un'arma pesante: non è ancora chiaro se sia il lanciagranate o una minigun.",
+      "description": "Lanciagranate a tamburo rotante: neutralizza più bersagli in fretta.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-grenade-launcher.webp",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "realModel": "Milkor MGL",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-grenadelauncher.webp",
@@ -672,22 +846,33 @@
         "https://gta.fandom.com/wiki/Grenade_Launcher",
         "https://www.noobfeed.com/news/gta-6-launch-trailer-military-jason-lucia",
         "https://www.svg.com/2287842/gta-6-launch-trailer-breakdown-biggest-reveals/"
-      ]
+      ],
+      "caliber": "40 mm",
+      "magazine": "6 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 9.2,
+        "accuracy": 6.0,
+        "handling": 5.0,
+        "range": 4.0
+      },
+      "price": "15.500 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
     },
     {
       "id": "wpn-rpg",
-      "name": "Shrewsbury RPG",
-      "manufacturer": "Shrewsbury",
+      "name": "Hauners H-AT",
+      "manufacturer": "Hauners Industries",
       "class": "pesante",
-      "description": "Lanciarazzi.",
-      "howToGet": "Da verificare.",
+      "description": "Lanciarazzi da spalla: micidiale contro i veicoli.",
+      "howToGet": "Si compra negli Ammu-Nation «Expanded». Dopo la storia un trucco lo aggiunge all'arsenale (si sblocca facendo saltare 100 veicoli).",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Nell'HUD del leak 2022 si chiama «Rocket Launcher», non RPG",
         "Un solo razzo per volta; si può solo verniciare, niente accessori",
@@ -697,7 +882,18 @@
         "https://www.gtabase.com/gta-6/weapons/rpg-rocket-launcher",
         "https://gta.fandom.com/wiki/RPG_(HD_Universe)"
       ],
-      "realModel": "RPG-7"
+      "realModel": null,
+      "caliber": "Razzo da 66 mm",
+      "magazine": "1 colpo",
+      "fireMode": "Colpo singolo",
+      "stats": {
+        "damage": 9.6,
+        "accuracy": 4.5,
+        "handling": 3.0,
+        "range": 8.0
+      },
+      "price": "16.000 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
     },
     {
       "id": "wpn-speargun",
@@ -779,22 +975,23 @@
       "name": "Bomba adesiva",
       "manufacturer": null,
       "class": "lancio",
-      "description": "Esplosivo a detonazione remota.",
+      "description": "Esplosivo da attaccare e far saltare a distanza: apre le casseforti dei covi e il portellone dei furgoni blindati.",
       "howToGet": "Da verificare.",
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Già in Vice City, San Andreas, IV e V"
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/sticky-bomb"
       ],
-      "realModel": "Esplosivo C-4"
+      "realModel": "Esplosivo C-4",
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "id": "wpn-golf-ball",
@@ -868,22 +1065,23 @@
       "name": "Giubbotto antiproiettile",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Protezione. Nell'equipaggiamento ci sono anche zaino, binocolo, kit medico, antidolorifici e un EpiPen.",
-      "howToGet": "Nel bagagliaio delle auto della polizia.",
+      "description": "Si accende dalla ruota degli oggetti: compare una barra blu sopra la salute che assorbe i proiettili. Quando finisce serve un giubbotto nuovo. Occupa lo stesso slot del paracadute.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende dal bagagliaio delle volanti. Dopo la storia c'è anche il trucco (100 allenamenti).",
       "image": "assets/img/vice/armi/wpn-body-armor.jpg",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Nel bagagliaio delle auto della polizia ci sono fucili e giubbotti, ma ogni volante ha un localizzatore"
       ],
       "moreSources": [
         "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more"
       ],
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-048.jpg"
+      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-048.jpg",
+      "whereToBuy": "Ammu-Nation, dal commesso (sezione Equipaggiamento)"
     },
     {
       "id": "wpn-slim-jim",
@@ -930,11 +1128,12 @@
       "howToGet": "Da verificare.",
       "image": null,
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-19",
+      "whereToBuy": "Ammu-Nation con l'icona del pesce sulla mappa"
     },
     {
       "id": "wpn-face-wrap",
@@ -954,16 +1153,16 @@
     },
     {
       "image": "assets/img/vice/armi/wpn-heavy-pistol.webp",
-      "status": "verificato",
-      "source": "trailer",
+      "status": "da verificare",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "wpn-heavy-pistol",
-      "name": "Heavy Pistol",
-      "manufacturer": null,
+      "name": "Duke 1922",
+      "manufacturer": "Duke",
       "class": "pistola",
-      "description": "La 1911 della serie, con caricatore da 18 colpi.",
+      "description": "La classica americana in .45: più potere d'arresto delle 9 mm.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "M1911 (variante)",
@@ -990,7 +1189,17 @@
         "https://gta.fandom.com/wiki/Unnamed_GTA_VI_Capo_pistol",
         "https://www.gtabase.com/weapons/gta-6/heavy-pistol",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
-      ]
+      ],
+      "caliber": ".45",
+      "magazine": "8 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 5.5,
+        "accuracy": 4.8,
+        "handling": 8.0,
+        "range": 4.6
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": "assets/img/vice/armi/wpn-hl-pistol.jpg",
@@ -1027,15 +1236,15 @@
     {
       "image": "assets/img/vice/armi/wpn-scar.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "wpn-scar",
-      "name": "SCAR Assault Rifle",
-      "manufacturer": null,
+      "name": "ADB FRA",
+      "manufacturer": "Armurerie de Belgique (AdB)",
       "class": "fucile-assalto",
-      "description": "Ispirata alla FN SCAR.",
+      "description": "Fucile da battaglia belga: molta potenza e molto rinculo.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "FN SCAR-H / SCAR-L",
@@ -1048,20 +1257,30 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/scar-assault-rifle"
-      ]
+      ],
+      "caliber": "7,62×51 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 5.8,
+        "accuracy": 5.0,
+        "handling": 5.3,
+        "range": 6.9
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": "assets/img/vice/armi/wpn-dw9.webp",
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "wpn-dw9",
-      "name": "S&M DW9",
-      "manufacturer": "S&M",
+      "name": "Schlamm DW-9",
+      "manufacturer": "Schlamm",
       "class": "mitra",
-      "description": "Pistola mitragliatrice.",
+      "description": "Mitra tattico di precisione a raffica continua.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "Brügger & Thomet APC9 K PRO",
@@ -1074,20 +1293,30 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/dw9"
-      ]
+      ],
+      "caliber": "9 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 4.5,
+        "handling": 6.8,
+        "range": 4.0
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": "assets/img/vice/armi/wpn-mac11.webp",
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "wpn-mac11",
-      "name": "MAC-11",
-      "manufacturer": null,
+      "name": "Wortham W-10",
+      "manufacturer": "Wortham",
       "class": "mitra",
-      "description": "Pistola mitragliatrice.",
+      "description": "Mitra leggero: si estrae in un attimo e spara ancora più in fretta.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "Ingram MAC-11",
@@ -1100,7 +1329,17 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/mac-11"
-      ]
+      ],
+      "caliber": "9 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Automatica",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 3.2,
+        "handling": 7.5,
+        "range": 3.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": "assets/img/vice/armi/wpn-mp9.webp",
@@ -1131,15 +1370,15 @@
     {
       "image": "assets/img/vice/armi/wpn-ruger-1022.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "wpn-ruger-1022",
-      "name": "Ruger 10/22",
-      "manufacturer": null,
+      "name": "Wortham W-22",
+      "manufacturer": "Wortham",
       "class": "cecchino",
-      "description": "Carabina.",
+      "description": "Carabina leggera per la piccola selvaggina.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "Ruger 10/22",
@@ -1152,20 +1391,30 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/ruger-10-22-sniper"
-      ]
+      ],
+      "caliber": ".22 LR",
+      "magazine": "15 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 1.5,
+        "accuracy": 8.0,
+        "handling": 5.8,
+        "range": 7.0
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": "assets/img/vice/armi/wpn-m1a.webp",
       "status": "da verificare",
-      "source": "community",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "wpn-m1a",
-      "name": "Springfield M1A",
-      "manufacturer": null,
+      "name": "Hillinger M306",
+      "manufacturer": "Hillinger",
       "class": "cecchino",
-      "description": "Fucile di precisione civile.",
+      "description": "Fucile semiautomatico potente, ex arma militare.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "realModel": "Springfield Armory M1A",
@@ -1178,7 +1427,17 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/springfield-armory-m1a-sniper"
-      ]
+      ],
+      "caliber": "7,62×51 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 6.2,
+        "accuracy": 7.5,
+        "handling": 4.8,
+        "range": 7.5
+      },
+      "whereToBuy": "Ammu-Nation"
     },
     {
       "image": null,
@@ -1405,13 +1664,13 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "wpn-key-cloner",
       "name": "Key Cloner",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "L'attrezzo per le auto moderne con immobilizer: un attacco relay. Si sblocca lavorando per i ricettatori d'auto.",
-      "howToGet": "Da verificare.",
+      "description": "Si installa nel telefono e apre le auto di lusso. Quelle che lo richiedono hanno spesso un localizzatore avanzato, che avvisa la polizia quando rallenti: con WAiNK vedi prima che sistema ha l'auto.",
+      "howToGet": "Arriva in automatico a metà del capitolo 3, all'inizio di una missione principale.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
@@ -1447,48 +1706,56 @@
     },
     {
       "image": null,
-      "status": "da verificare",
-      "source": "leak",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "wpn-binoculars",
       "name": "Binocolo",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Il binocolo.",
+      "description": "Si sceglie dalla ruota: avvicini con su sulla croce e tieni R1 per studiare un animale. Ne bastano 100 su 255 per il 100%.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "wpn-zombix",
       "name": "Zombix",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Il flacone di pillole con l'icona del cuore, nella ruota delle armi (Quadrato); il gioco avverte che l'uso ripetuto riduce l'effetto.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "whereToBuy": "Minimarket"
     },
     {
       "image": null,
       "status": "verificato",
-      "source": "trailer",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "wpn-epipen",
       "name": "EpiPen / adrenalina",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Nello slot Triangolo della ruota delle armi.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "whereToBuy": "Minimarket",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "L'adrenalina allunga la concentrazione in combattimento."
+        }
+      ]
     },
     {
       "image": null,
@@ -1755,6 +2022,788 @@
       "example": false,
       "updatedAt": "2026-11-09",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+    },
+    {
+      "id": "wpn-girardi-es18",
+      "name": "Girardi ES18",
+      "manufacturer": "Girardi",
+      "class": "pistola",
+      "description": "Pistola mitragliatrice a raffica: velocità tenuta sotto controllo.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Raffica da 3",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 4.4,
+        "handling": 8.2,
+        "range": 4.8
+      }
+    },
+    {
+      "id": "wpn-klose-k17-mcd",
+      "name": "Klose K17 MCD",
+      "manufacturer": "Klose",
+      "class": "pistola",
+      "description": "La K17 modificata per il tiro automatico: buona per il fuoco di copertura.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "24 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.0,
+        "accuracy": 3.2,
+        "handling": 8.0,
+        "range": 4.2
+      }
+    },
+    {
+      "id": "wpn-fairview-kalinga",
+      "name": "Fairview Kalinga .50",
+      "manufacturer": "Fairview Firearms",
+      "class": "pistola",
+      "description": "Pistola pesante in .50: picchia ben oltre la sua taglia.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": ".50 Magnum",
+      "magazine": "7 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.0,
+        "accuracy": 4.0,
+        "handling": 7.8,
+        "range": 5.0
+      }
+    },
+    {
+      "id": "wpn-hl-38",
+      "name": "Hawk & Little .38",
+      "manufacturer": "Hawk & Little",
+      "class": "pistola",
+      "description": "Il revolver classico di Hawk & Little.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": ".38 Special",
+      "magazine": "6 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 2.5,
+        "accuracy": 5.0,
+        "handling": 8.6,
+        "range": 4.5
+      }
+    },
+    {
+      "id": "wpn-wortham-wcr1",
+      "name": "Wortham WCR1",
+      "manufacturer": "Wortham",
+      "class": "pistola",
+      "description": "Revolver a canna corta: piccolo e facile da nascondere.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": ".38 Special",
+      "magazine": "5 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 2.2,
+        "accuracy": 3.8,
+        "handling": 9.0,
+        "range": 4.5
+      }
+    },
+    {
+      "id": "wpn-scorpio-akulus",
+      "name": "Scorpio Akulus",
+      "manufacturer": "Scorpio",
+      "class": "pistola",
+      "description": "Revolver pesante in .44 Magnum, con potere d'arresto in abbondanza.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": ".44 Magnum",
+      "magazine": "6 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.0,
+        "accuracy": 4.2,
+        "handling": 7.6,
+        "range": 6.0
+      }
+    },
+    {
+      "id": "wpn-vf5c",
+      "name": "Vom Feuer VF5C",
+      "manufacturer": "Vom Feuer",
+      "class": "mitra",
+      "description": "La versione corta del VF5.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 5.0,
+        "handling": 6.9,
+        "range": 4.0
+      }
+    },
+    {
+      "id": "wpn-zhang-wu-type9",
+      "name": "Zhang Wu Type 9",
+      "manufacturer": "Zhang Wu",
+      "class": "mitra",
+      "description": "Pistola mitragliatrice prodotta in serie: piccola, letale da vicino.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "10 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 3.8,
+        "handling": 7.8,
+        "range": 3.5
+      }
+    },
+    {
+      "id": "wpn-deever-dsg",
+      "name": "Deever Tech DSG",
+      "manufacturer": "Deever Tech",
+      "class": "mitra",
+      "description": "Mitra a raffica da tre colpi, per i tiri precisi.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Raffica da 3",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 4.2,
+        "handling": 6.9,
+        "range": 4.0
+      }
+    },
+    {
+      "id": "wpn-adb-pd80",
+      "name": "ADB PD-80",
+      "manufacturer": "Armurerie de Belgique (AdB)",
+      "class": "mitra",
+      "description": "Mitra compatto e robusto per la difesa personale.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "5,7×28 mm",
+      "magazine": "30 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.2,
+        "accuracy": 4.8,
+        "handling": 6.6,
+        "range": 4.2
+      }
+    },
+    {
+      "id": "wpn-goodwin-lmg6",
+      "name": "Goodwin LMG 6",
+      "manufacturer": "Goodwin",
+      "class": "mitra",
+      "description": "Mitragliatrice leggera per il fuoco prolungato.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "7,62×51 mm",
+      "magazine": "100 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "stats": {
+        "damage": 6.8,
+        "accuracy": 2.8,
+        "handling": 2.8,
+        "range": 6.5
+      }
+    },
+    {
+      "id": "wpn-mk-longshot",
+      "name": "Mason & Keen Longshot",
+      "manufacturer": "Mason & Keen",
+      "class": "fucile-pompa",
+      "description": "Doppietta inglese da caccia, elegante e rifinita.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "2 colpi",
+      "fireMode": "A canne basculanti",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 8.0,
+        "accuracy": 4.1,
+        "handling": 5.0,
+        "range": 2.5
+      }
+    },
+    {
+      "id": "wpn-girardi-verro",
+      "name": "Girardi Verro",
+      "manufacturer": "Girardi",
+      "class": "fucile-pompa",
+      "description": "Fucile semiautomatico corto, leggero e devastante.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "5 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.4,
+        "accuracy": 3.9,
+        "handling": 6.5,
+        "range": 2.0
+      }
+    },
+    {
+      "id": "wpn-girardi-az1200",
+      "name": "Girardi AZ1200",
+      "manufacturer": "Girardi",
+      "class": "fucile-pompa",
+      "description": "Fucile semiautomatico per il fuoco continuo.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "5 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.4,
+        "accuracy": 4.5,
+        "handling": 5.8,
+        "range": 2.5
+      }
+    },
+    {
+      "id": "wpn-fs-gorse-425",
+      "name": "Fortune & Son Gorse 425",
+      "manufacturer": "Fortune & Son",
+      "class": "fucile-pompa",
+      "description": "Fucile a pompa corto, per difendersi.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "5 colpi",
+      "fireMode": "A pompa",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.5,
+        "accuracy": 3.8,
+        "handling": 6.2,
+        "range": 2.0
+      }
+    },
+    {
+      "id": "wpn-shrewsbury-hobo",
+      "name": "Shrewsbury Hobo",
+      "manufacturer": "Shrewsbury",
+      "class": "fucile-pompa",
+      "description": "La doppietta da caccia segata: corta abbastanza per gli spazi stretti.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "2 colpi",
+      "fireMode": "A canne basculanti",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 8.0,
+        "accuracy": 3.6,
+        "handling": 6.4,
+        "range": 2.0
+      }
+    },
+    {
+      "id": "wpn-mk-shortstraw",
+      "name": "Mason & Keen Shortstraw",
+      "manufacturer": "Mason & Keen",
+      "class": "fucile-pompa",
+      "description": "Doppietta corta di Mason & Keen.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "2 colpi",
+      "fireMode": "A canne basculanti",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 8.0,
+        "accuracy": 3.6,
+        "handling": 6.4,
+        "range": 2.0
+      },
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Dopo la storia il trucco «Fucile esplosivo» la aggiunge all'arsenale con cartucce esplosive: si sblocca colpendo 100 nemici con le esplosioni."
+        }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+      ]
+    },
+    {
+      "id": "wpn-goodwin-comshot12",
+      "name": "Goodwin Comshot 12",
+      "manufacturer": "Goodwin",
+      "class": "fucile-pompa",
+      "description": "Semiautomatico robusto, fatto per ripulire un edificio.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "7 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.7,
+        "accuracy": 4.2,
+        "handling": 4.0,
+        "range": 2.5
+      }
+    },
+    {
+      "id": "wpn-girardi-super400",
+      "name": "Girardi Super400",
+      "manufacturer": "Girardi",
+      "class": "fucile-pompa",
+      "description": "Semiautomatico tattico, il preferito dai militari.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "7 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.4,
+        "accuracy": 4.2,
+        "handling": 5.3,
+        "range": 2.5
+      }
+    },
+    {
+      "id": "wpn-kozlov-kvga12",
+      "name": "Kozlov KVGA-12",
+      "manufacturer": "Kozlov",
+      "class": "fucile-pompa",
+      "description": "Fucile a canna liscia automatico: spara quasi come un fucile d'assalto.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "Calibro 12",
+      "magazine": "8 colpi",
+      "fireMode": "Automatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 7.2,
+        "accuracy": 4.5,
+        "handling": 5.1,
+        "range": 2.5
+      }
+    },
+    {
+      "id": "wpn-hillinger-heathen",
+      "name": "Hillinger Heathen",
+      "manufacturer": "Hillinger",
+      "class": "fucile-assalto",
+      "description": "Fucile d'assalto versatile, buono per i colpi di precisione.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "5,56×45 mm",
+      "fireMode": "Raffica da 3",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 5.0,
+        "accuracy": 6.2,
+        "handling": 5.8,
+        "range": 6.2
+      }
+    },
+    {
+      "id": "wpn-hl-mediator",
+      "name": "Hawk & Little Mediator",
+      "manufacturer": "Hawk & Little",
+      "class": "cecchino",
+      "description": "Carabina moderna in 9 mm, adatta a più ruoli.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "9 mm",
+      "magazine": "17 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 4.8,
+        "accuracy": 7.8,
+        "handling": 5.6,
+        "range": 7.0
+      }
+    },
+    {
+      "id": "wpn-wortham-w14",
+      "name": "Wortham W-14",
+      "manufacturer": "Wortham",
+      "class": "cecchino",
+      "description": "Piccolo fucile tattico, preciso e resistente.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "5,56×45 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 5.8,
+        "accuracy": 7.5,
+        "handling": 5.2,
+        "range": 7.2
+      }
+    },
+    {
+      "id": "wpn-hillinger-m306-tmr",
+      "name": "Hillinger M306 TMR",
+      "manufacturer": "Hillinger",
+      "class": "cecchino",
+      "description": "La versione moderna dell'M306, nata per la Marina.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "7,62×51 mm",
+      "magazine": "20 colpi",
+      "fireMode": "Semiautomatica",
+      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "stats": {
+        "damage": 6.2,
+        "accuracy": 7.8,
+        "handling": 5.5,
+        "range": 7.5
+      }
+    },
+    {
+      "id": "wpn-laird-350",
+      "name": "Fortune & Son Laird 350",
+      "manufacturer": "Fortune & Son",
+      "class": "cecchino",
+      "description": "Il fucile di precisione di cui si fidano i cacciatori.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "6,5 mm",
+      "magazine": "5 colpi",
+      "fireMode": "Otturatore girevole",
+      "price": "950 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "stats": {
+        "damage": 6.5,
+        "accuracy": 8.0,
+        "handling": 4.5,
+        "range": 7.5
+      },
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "C'è anche una variante tranquillante, Mister Mangrove Laird 350, che si riceve in una missione facoltativa di Kirk."
+        }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+      ]
+    },
+    {
+      "id": "wpn-ff-50",
+      "name": "Fairview FF-50",
+      "manufacturer": "Fairview Firearms",
+      "class": "cecchino",
+      "description": "Fucile anti-materiale: devastante a distanza.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": ".50 BFG",
+      "magazine": "5 colpi",
+      "fireMode": "Otturatore girevole",
+      "price": "3.975 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "stats": {
+        "damage": 8.5,
+        "accuracy": 7.0,
+        "handling": 3.5,
+        "range": 7.5
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+      ]
+    },
+    {
+      "id": "wpn-sms-01",
+      "name": "Shrewsbury SMS-01",
+      "manufacturer": "Shrewsbury",
+      "class": "cecchino",
+      "description": "Fucile di precisione Shrewsbury che si sblocca con la caccia.",
+      "howToGet": "Si sblocca completando la nona caccia di Bret Vogel (missioni di Jason), poi si compra negli «Expanded».",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "price": "2.150 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+      ]
+    },
+    {
+      "id": "wpn-hillinger-boomer",
+      "name": "Hillinger Boomer",
+      "manufacturer": "Hillinger",
+      "class": "pesante",
+      "description": "Lanciagranate militare a colpo singolo da 40 mm.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-grenade-launcher-rocket-launcher/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "caliber": "40 mm",
+      "magazine": "1 colpo",
+      "fireMode": "Colpo singolo",
+      "price": "12.000 $",
+      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "stats": {
+        "damage": 9.2,
+        "accuracy": 5.0,
+        "handling": 6.0,
+        "range": 4.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+      ]
+    },
+    {
+      "id": "wpn-snap-gun",
+      "name": "Snap Gun",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Apre in silenzio le porte con l'allarme, come il retro delle gioiellerie. Resta nell'inventario: quando sei davanti a una porta chiusa scegli se sfondarla o aprirla con lo Snap Gun.",
+      "howToGet": "Te lo dà un ricettatore nel capitolo 3, dopo il primo lavoro in gioielleria.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-dye-pack-jammer",
+      "name": "Disturbatore delle cartucce di inchiostro",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Neutralizza le cartucce d'inchiostro dei contanti: senza, le banconote segnate di banche e finanziarie non si possono rivendere.",
+      "howToGet": "Si sblocca a metà del capitolo 3, con una missione principale.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-metal-detector",
+      "name": "Metal detector",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Sott'acqua cerca i tesori sepolti: quando la luce passa da rossa a verde sei sopra il punto giusto.",
+      "howToGet": "Nella ruota delle armi, in basso a destra; serve per i tesori di Kenton.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-parachute",
+      "name": "Paracadute",
+      "manufacturer": null,
+      "class": "equipaggiamento",
+      "description": "Resta invisibile finché non serve: in una caduta lunga lo apri al volo. Occupa lo slot del giubbotto: per usarlo spegni il giubbotto dalla ruota degli oggetti.",
+      "howToGet": "Si compra all'Ammu-Nation (Equipaggiamento). Dopo la storia c'è anche il trucco (50 lanci da oltre 300 piedi).",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-parachute/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "whereToBuy": "Ammu-Nation, dal commesso (sezione Equipaggiamento)"
     }
   ],
   "notes": {

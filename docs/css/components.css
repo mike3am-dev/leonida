@@ -1882,3 +1882,5 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .warnbox--ponr { border-color: #d72638; background: color-mix(in srgb, #d72638 9%, transparent); }
 .warnbox--ponr b { color: #d72638; }
 .check__meta .miss { color: #c25e00; font-weight: 600; }
+.spec__bar { grid-template-columns: 132px minmax(0, 1fr); }
+.spec__bar span { letter-spacing: .02em; white-space: nowrap; }

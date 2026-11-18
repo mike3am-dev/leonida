@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.35.0",
+  "dataVersion": "0.36.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.36.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi con i nomi veri del gioco (es. Kozlov KZ-59, Vom Feuer VF5, Hauners H-AT), 32 armi nuove, prezzi, caricatori e le barre vere: Danno, Precisione, Maneggevolezza, Gittata.",
+        "Garage: dove trovare le auto dell'Ultimate e della lista di Randy; Zorrusso è GranForma; trazione corretta su barche, aerei e moto.",
+        "Attività: 12 nuove (meditazione, droni, banche…), requisiti e premi veri; il poligono per il 100% chiede tutti i 42 ori. Tolte le corse in mare, che non esistono.",
+        "Come si gioca: tolte le voci smentite dal gioco, confermate le altre."
+      ]
+    },
     {
       "version": "0.35.0",
       "date": "2026-11-18",
