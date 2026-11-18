@@ -47,6 +47,8 @@ Dal giorno dell'uscita le guide esterne sono la fonte principale per riempire l'
 | Mappa e luoghi | `districts.pois`, `luoghi.json` | gtasixmap, gtadb, MapGenie ✓ |
 | Notizie e recensioni | `news.json` | IGN ✓, Eurogamer ✓, VG247 ✓, PC Gamer ✓, Push Square ✓, GamesRadar ✓, Polygon ✓, Dexerto ✓, RPS ✓, Everyeye ✓, Multiplayer.it ✓; GameSpot ✗, Spaziogames ✗, Reddit ✗ |
 
+Fonti verificate il 18/11 dopo l'uscita (raggiungibilità, qualità, cosa danno): `scripts/fonti-guide.md`. Le più utili: PowerPyx (collezionabili, 100%, missioni), il walkthrough di VGC (seconda fonte per le missioni), l'API di gta.wiki (`api.php`, `recentchanges`), GameSource.it (nomi italiani delle categorie del 100%), RSS di YouTube per i controlli.
+
 Regole del giro guide:
 - Etichette: guide di testate (IGN, PowerPyx, Game8…) → `source: stampa`, `status: da verificare`; diventa `verificato` quando due guide concordano o Mike lo conferma (`gioco-mike`). Mai copiare frasi intere: si riscrive breve, nello stile di STATO 4e.
 - Spoiler: ogni missione e ogni campo che rivela la trama prende lo `spoilerLevel` dell'atto; i nomi delle missioni future non devono comparire da nessuna parte (testi di altre voci, `unlocks`, consigli).
