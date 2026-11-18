@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.32.1",
+  "dataVersion": "0.32.2",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.32.2",
+      "date": "2026-11-18",
+      "changes": [
+        "Platino: pronti gli avvisi «Prima di proseguire» sulle missioni con un punto di non ritorno (dicono cosa fare, non perché) e il riquadro «Da non perdere per il Platino» nei Trofei. Si riempiono con i dati in arrivo."
+      ]
+    },
     {
       "version": "0.32.1",
       "date": "2026-11-18",

@@ -1874,3 +1874,8 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .masthead { padding-right: calc(var(--safe-r) + var(--s-3)); padding-left: calc(var(--safe-l) + var(--s-4)); }
 .sheet-page { padding-right: calc(var(--safe-r) + var(--s-4)); padding-left: calc(var(--safe-l) + var(--s-4)); }
 .side-head { margin: var(--s-4) 0 var(--s-2); }
+/* v0.33 · avvisi per il Platino */
+.warnbox { margin: var(--s-4) 0; padding: 12px 16px; border-radius: var(--radius-sm); border: 2px solid #f4a261; background: color-mix(in srgb, #f4a261 12%, transparent); }
+.warnbox b { display: block; font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: #c25e00; margin-bottom: 4px; }
+.warnbox ul { margin: 0; padding-left: 1.1em; } .warnbox li { margin: 4px 0; }
+.roadmap { margin-bottom: var(--s-4); } .roadmap ul { margin: var(--s-2) 0 0; padding-left: 1.1em; } .roadmap li { margin: 6px 0; }
