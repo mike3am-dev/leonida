@@ -22,8 +22,11 @@ export const cup = (tier, size = 40) => `<span class="cup cup--${esc(tier)}" sty
     <path d="M24 28v6M16 40h16M18 34h12v6H18z" fill="var(--cup-lo)" stroke="var(--cup-lo)" stroke-width="2" stroke-linejoin="round"/><path d="M19 12l2 7" stroke="#fff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/></svg></span>`;
 
 export function render(params, query = {}) {
-  const q = (query.q || '').toLowerCase().trim();
-  const all = vis(db.trophies || []).filter((t) => !q || (t.name + ' ' + (t.description || '')).toLowerCase().includes(q));
+  const fold = (x) => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const q = fold(query.q).trim();
+  const all = vis(db.trophies || []);
+  // La ricerca non guarda dentro i trofei nascosti: il solo fatto di trovarli svelerebbe la storia
+  const found = q ? all.filter((t) => !spoiler.isHidden(t) && fold(t.name + ' ' + (t.description || '') + ' ' + (t.guide || '')).includes(q)) : [];
   const st = progress.get().trophies || {};
   const done = all.filter((t) => st[t.id]).length;
   const cats = [...new Set(all.map((t) => t.category))];
@@ -31,7 +34,19 @@ export function render(params, query = {}) {
   const tiers = ['platino', 'oro', 'argento', 'bronzo'].map((t) => ({ t, ...byTier(t) }));
   const pct = all.length ? Math.round(done / all.length * 100) : 0;
   const official = all.some((t) => t.status === 'verificato');
+  const row = (t) => { const ok = !!st[t.id]; return `
+      <div class="trophy ${ok ? 'is-done' : ''}">
+        <button class="check__box" role="checkbox" aria-checked="${ok}" data-trophy="${esc(t.id)}" aria-label="${esc(plainName(t))}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
+        <button type="button" class="trophy__cup" data-trophy="${esc(t.id)}" aria-label="Segna ${esc(plainName(t))}">${cup(t.tier, 44)}</button>
+        <div class="trophy__body"><div class="trophy__name">${richName(t)} <span class="chip chip--${esc(t.tier)}">${esc(TIER[t.tier] || t.tier)}</span></div>
+          <div class="trophy__desc">${spoiler.text(t, t.description || '')}</div>
+          ${t.guide ? `<div class="small muted">${esc(t.guide)}</div>` : ''}
+          <div class="chips" style="margin-top:4px">${statusChip(t)}</div></div>
+      </div>`; };
   const left = `${sectionHead(section, `${done} / ${all.length}`)}
+    <input class="input" type="search" placeholder="Cerca un trofeo per nome…" value="${esc(q)}" data-trophy-q aria-label="Cerca un trofeo" style="margin:var(--s-4) 0 var(--s-3)">
+    ${q ? `<div class="block trophy-results"><span class="kicker">${found.length ? (found.length === 1 ? '1 trofeo trovato' : `${found.length} trofei trovati`) : 'Nessun trofeo trovato'}</span>
+      ${found.length ? found.map(row).join('') : `<p class="muted">Niente con «${esc(query.q)}». Prova con un'altra parola: si cerca nel nome, nella descrizione e nel consiglio.</p>`}</div>` : ''}
     <div class="trophy-board">
       <div class="trophy-board__plat">${cup('platino', 76)}<div><span class="kicker">Verso il Platino</span><b class="trophy-board__pct">${pct}%</b><span class="small muted">${all.length - done === 1 ? 'Ti manca 1 trofeo' : `Ti mancano ${all.length - done} trofei`}</span></div></div>
       <div class="trophy-board__tiers">${tiers.map(({ t, done: d, total }) => `<div class="tiercount">${cup(t, 30)}<b>${d}</b><span>/ ${total}</span><small>${TIER[t]}</small></div>`).join('')}</div>
@@ -41,17 +56,8 @@ export function render(params, query = {}) {
     ${(db.roadmap || []).length ? `<div class="card roadmap"><span class="kicker kicker--accent">Da non perdere per il Platino</span><ul>${db.roadmap.map((r) => `<li>${esc(r.text)}${r.trophy ? ` <span class="small muted">· «${esc(r.trophy)}»</span>` : ''}</li>`).join('')}</ul></div>` : ''}
     <div class="showcase"><div class="showcase__head"><span class="kicker">La tua bacheca</span><span class="small muted">${done ? `${done} ${done === 1 ? 'trofeo ottenuto' : 'trofei ottenuti'}` : 'Vuota: tocca un trofeo per segnarlo'}</span></div>
       ${['platino', 'oro', 'argento', 'bronzo'].map((tier) => { const l = all.filter((t) => t.tier === tier); return l.length ? `<div class="shelf shelf--${tier}"><div class="shelf__cups">${l.map((t) => `<button type="button" class="shelfcup ${st[t.id] ? 'is-lit' : ''}" data-trophy-open="${esc(t.id)}" aria-pressed="${!!st[t.id]}" aria-label="${esc(plainName(t))}">${cup(tier, tier === 'platino' ? 52 : 36)}<span class="shelfcup__name">${esc(plainName(t))}</span></button>`).join('')}</div><span class="shelf__glass"></span><span class="shelf__label">${TIER[tier]} · ${l.filter((t) => st[t.id]).length}/${l.length}</span></div>` : ''; }).join('')}</div>
-    <input class="input" type="search" placeholder="Cerca un trofeo per nome…" value="${esc(q)}" data-trophy-q aria-label="Cerca un trofeo" style="margin:var(--s-4) 0">
     ${official ? '' : `<div class="callout callout--warn"><strong>Lista ufficiale non ancora pubblicata.</strong> Rockstar la rilascia di solito a ridosso del lancio (per GTA V arrivò pochi giorni prima). Questo è uno schema ricostruito da GTA V e RDR2 per prepararti: nomi e requisiti cambieranno. Appena esce la lista vera, la sostituisco e i tuoi spunti restano.</div>`}
-    ${cats.map((c) => { const list = all.filter((t) => t.category === c); const d = list.filter((t) => st[t.id]).length; return `<div class="block">${acc(`${CAT[c] || c} · ${d}/${list.length}`, list.map((t) => { const ok = !!st[t.id]; return `
-      <div class="trophy ${ok ? 'is-done' : ''}">
-        <button class="check__box" role="checkbox" aria-checked="${ok}" data-trophy="${esc(t.id)}" aria-label="${esc(plainName(t))}"><i><svg aria-hidden="true"><use href="#i-check"/></svg></i></button>
-        <button type="button" class="trophy__cup" data-trophy="${esc(t.id)}" aria-label="Segna ${esc(plainName(t))}">${cup(t.tier, 44)}</button>
-        <div class="trophy__body"><div class="trophy__name">${richName(t)} <span class="chip chip--${esc(t.tier)}">${esc(TIER[t.tier] || t.tier)}</span></div>
-          <div class="trophy__desc">${spoiler.text(t, t.description || '')}</div>
-          ${t.guide ? `<div class="small muted">${esc(t.guide)}</div>` : ''}
-          <div class="chips" style="margin-top:4px">${statusChip(t)}</div></div>
-      </div>`; }).join(''), false)}</div>`; }).join('')}`;
+    ${q ? '' : cats.map((c) => { const list = all.filter((t) => t.category === c); const d = list.filter((t) => st[t.id]).length; return `<div class="block">${acc(`${CAT[c] || c} · ${d}/${list.length}`, list.map(row).join(''), false)}</div>`; }).join('')}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Trofei' };
 }
 

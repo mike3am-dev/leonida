@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.38.2",
+  "dataVersion": "0.38.3",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.38.3",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: la ricerca è in cima alla pagina e mostra subito i trofei trovati, aperti, senza passare dalle categorie. Funziona anche senza accenti («attivita»)."
+      ]
+    },
     {
       "version": "0.38.2",
       "date": "2026-11-18",

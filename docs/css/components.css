@@ -1911,3 +1911,4 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 @keyframes who-pulse { 50% { opacity: .35; } }
 @media (max-width: 560px) { .masthead.has-who .brand__sub { display: none; } }
 @media (max-width: 380px) { .who { max-width: 96px; } }
+.trophy-results { margin-bottom: var(--s-5); }
