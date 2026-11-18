@@ -151,6 +151,10 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Ogni trofeo ha `timing`: `{ story: true }` per quelli della storia, altrimenti `{ from: capitolo da cui si sblocca | assente, until: capitolo entro cui farlo | null, note?, warn? }`. In lista la nota si vede solo se `warn` o `until`; nella scheda sempre.
 - Fonti: guide PowerPyx/stampa già usate per `guide` e per la roadmap. Unico trofeo con scadenza: Mentalità positiva (meditazione del capitolo 1). Quando le guide ne trovano altri, si aggiorna `until`.
 
+## 4q. Armi: ruota filtrata e confronto (v0.40.0, 18/11)
+- I numeri della ruota (`counts` in `armi.js`) seguono il filtro `?have=`; il centro somma solo gli spicchi (79 armi, senza l'equipaggiamento).
+- Confronto: solo dentro una categoria e solo tra armi con `stats` complete. Stato nell'indirizzo (`?cat=…&cmp=id1,id2`): `cmp` presente = modalità scelta, massimo 3 (`CMP_MAX`). Il bottone preseleziona le armi nello zaino. Foglio `compareSheet`: una riga per arma sotto ogni barra, la migliore accesa, «Nel complesso» = media delle quattro. Per i veicoli si può riusare lo stesso schema (classi `.cmp*`).
+
 ## 6. Strumenti e verifiche prima di ogni push
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
 **Attenzione (12/11):** controllare il codice di uscita di `node scripts/validate.mjs` (deve essere 0), non solo l'ultima riga: gli errori «✗» stanno sopra il riepilogo. Le proposte dei giri news a volte usano `"append: …"` dentro un campo (testo da accodare, id da aggiungere, oggetto JSON per `extras`): vanno interpretati, non scritti così.

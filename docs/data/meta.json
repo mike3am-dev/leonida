@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.39.0",
+  "dataVersion": "0.40.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.40.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi: i numeri della ruota seguono il filtro. Con «Nello zaino» contano solo le armi che hai, con «Mi mancano» solo quelle che ti mancano, e dove non c'è niente segna 0.",
+        "Armi: confronto. Apri una categoria, tocca «Confronta le armi», scegli 2 o 3 armi (quelle nello zaino sono già scelte) e vedi le barre una sotto l'altra, con la migliore accesa, più calibro, caricatore, prezzo e dove si compra."
+      ]
+    },
     {
       "version": "0.39.0",
       "date": "2026-11-18",

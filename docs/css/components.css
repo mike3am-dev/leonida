@@ -1923,3 +1923,43 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .when--free { color: #1f8f55; } .when--free .when__dot { background: #2fbf71; }
 .when--miss { color: var(--orange); } .when--miss .when__dot { background: var(--orange); }
 .when__note { margin: 2px 0 var(--s-2); color: var(--ink-2); }
+
+/* ---------- Armi: confronto ---------- */
+.cmpstart { margin: 0 0 var(--s-3); min-height: 40px; }
+.cmpstart svg { width: 18px; height: 18px; }
+.cmpbar { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; gap: var(--s-2); margin: 0 calc(var(--s-4) * -1) var(--s-2); padding: var(--s-2) var(--s-4); background: var(--paper); border-bottom: var(--hair) solid var(--rule); }
+.cmpbar__hint { flex: 1; min-width: 0; font-weight: 600; }
+.cmpbar .btn { min-height: 40px; }
+.cmpbar .btn[disabled] { opacity: .4; }
+button.row { width: 100%; text-align: left; background: none; border-left: 0; border-right: 0; border-top: 0; font: inherit; color: inherit; cursor: pointer; }
+.row--pick[disabled] { opacity: .45; cursor: default; }
+.row--pick .row__end > svg { display: none; }
+.pick { width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--rule-strong); display: grid; place-items: center; font-weight: 700; font-size: var(--fs-sm); color: #fff; }
+.row--pick.is-picked { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+.row--pick.is-picked .pick { background: var(--accent); border-color: var(--accent); color: #120c14; }
+
+.cmp { --c0: var(--magenta); --c1: var(--teal); --c2: var(--orange); }
+.cmp--0 { --c: var(--c0); } .cmp--1 { --c: var(--c1); } .cmp--2 { --c: var(--c2); }
+.cmp__heads { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: var(--s-2); }
+.cmp__head { display: grid; gap: 2px; padding: var(--s-2); border-radius: var(--radius-sm); border: var(--hair) solid var(--rule); border-top: 4px solid var(--c); text-decoration: none; color: inherit; text-align: center; min-width: 0; }
+.cmp__head b { font-size: var(--fs-sm); line-height: 1.2; overflow-wrap: anywhere; }
+.cmp__head .small { font-size: var(--fs-xs); line-height: 1.25; }
+.cmp__img { display: grid; place-items: center; height: 64px; }
+.cmp__img img { max-width: 100%; max-height: 64px; object-fit: contain; border-radius: 6px; }
+.cmp__img svg { width: 32px; height: 32px; color: var(--ink-3); }
+.cmp__verdict { margin: var(--s-4) 0; padding: var(--s-3) var(--s-4); border-radius: var(--radius-sm); background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.cmp__axis { margin-bottom: var(--s-4); }
+.cmp__axis--avg { padding-top: var(--s-3); border-top: var(--hair) solid var(--rule); }
+.cmp__label { font-size: var(--fs-xs); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
+.cmp__row { display: grid; grid-template-columns: minmax(0, 34%) minmax(0, 1fr) 60px; gap: var(--s-2); align-items: center; min-height: 26px; }
+.cmp__name { font-size: var(--fs-sm); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
+.cmp__track { height: 10px; border-radius: 5px; background: var(--bg-2); overflow: hidden; }
+.cmp__track i { display: block; height: 100%; border-radius: 5px; background: var(--c); opacity: .45; }
+.cmp__val { display: inline-flex; align-items: center; justify-content: flex-end; gap: 3px; font-variant-numeric: tabular-nums; font-size: var(--fs-sm); color: var(--ink-2); }
+.cmp__val svg { width: 14px; height: 14px; color: var(--c); }
+.cmp__row:not(.is-best) .cmp__val { padding-right: 17px; }
+.cmp__row.is-best .cmp__track i { opacity: 1; }
+.cmp__row.is-best .cmp__name, .cmp__row.is-best .cmp__val { color: var(--ink); font-weight: 700; }
+.cmp__facts { margin: var(--s-2) 0 var(--s-4); padding-top: var(--s-3); border-top: var(--hair) solid var(--rule); }
+.cmp__cells { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: var(--s-2); margin-bottom: var(--s-3); font-size: var(--fs-sm); }
+.cmp__cells span { padding-left: 8px; border-left: 3px solid var(--c); overflow-wrap: anywhere; }
