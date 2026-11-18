@@ -27,7 +27,7 @@ import * as benvenuto from './views/benvenuto.js';
 import * as profilo from './views/profilo.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.38.1';
+window.__LEONIDA_VERSION__ = 'v0.38.2';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
