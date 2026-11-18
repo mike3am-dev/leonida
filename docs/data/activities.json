@@ -1110,10 +1110,12 @@
       ],
       "rewards": [
         "Trofeo «Un'ultima cosa…»: 50 sfide.",
-        "Dopo la storia sbloccano i trucchi dei veicoli: per esempio la Tuff BMX con 5 sfide di fitness, la Progen Emerus con tutte quelle dei veicoli."
+        "Dopo la storia sbloccano i trucchi dei veicoli: per esempio la Tuff BMX con 5 sfide di fitness, la Progen Emerus con tutte quelle dei veicoli.",
+        "Tutte e 80: trucco del jet Hauners P-996 Lazer. L'elenco dei veicoli per categoria è nelle schede «Sfide: …»."
       ],
       "steps": [
-        "Progressi › Sfide: le completate hanno la spunta."
+        "Progressi › Sfide: le completate hanno la spunta.",
+        "Le dieci sfide di ogni categoria, con cosa fare, sono nelle schede «Sfide: combattimento», «Sfide: crimine» e così via."
       ],
       "image": null,
       "status": "da verificare",
@@ -1121,7 +1123,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "group": "Svago"
     },
     {
@@ -1267,6 +1269,334 @@
         "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
       ]
+    },
+    {
+      "id": "act-sfide-combattimento",
+      "type": "sfida",
+      "name": "Sfide: combattimento",
+      "districtId": null,
+      "description": "Speed Kills, Headshots, Stealth Sniping e le altre: dieci sfide di combattimento, tutte fattibili dall'inizio. Gli scontri con le bande sono il posto giusto.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Le più dure: High Explosive e Long-Range Sniping. Per Headshots riempi prima la barra della concentrazione."
+      ],
+      "rewards": [
+        "5 sfide: trucco del veicolo Speeder 700 GT (dopo la storia).",
+        "Tutte e 10: trucco della Bravado Banshee (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Speed Kills: uccidi 3 nemici in meno di 30 secondi.",
+        "Melee Combat: uccidi o stendi 5 nemici di fila con armi da mischia, senza morire.",
+        "Explosive Combat: uccidi o ferisci 3 nemici con un solo esplosivo.",
+        "Headshots: 4 colpi alla testa mortali in un'unica attivazione della concentrazione in combattimento.",
+        "Drive-Bys: uccidi 5 nemici sparando dal veicolo in meno di un minuto, senza scendere.",
+        "Stealth Sniping: uccidi 7 nemici che non ti hanno visto con un fucile di precisione con mirino, senza morire né farti arrestare.",
+        "Incendiary: uccidi o ferisci 5 nemici col fuoco in meno di 15 secondi.",
+        "Revolver Headshots: 6 colpi alla testa mortali col revolver, senza ricaricare né cambiare arma.",
+        "Long-Range Sniping: uccidi 3 nemici in meno di 10 secondi col fucile di precisione da almeno 300 piedi (circa 90 m).",
+        "High Explosive: uccidi o ferisci 8 nemici con esplosivi in meno di 20 secondi, senza subire danni.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-crimine",
+      "type": "sfida",
+      "name": "Sfide: crimine",
+      "districtId": null,
+      "description": "Scippi, rapine ai negozi, furti d'auto e di auto della polizia: dieci sfide criminali.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Le più lunghe: Stick Up Spree (serve un mezzo veloce o un elicottero) e Carjacking Pro (con le auto della lista di Randy fai prima)."
+      ],
+      "rewards": [
+        "5 sfide: trucco della Maibatsu Sanchez (dopo la storia).",
+        "Tutte e 10: trucco della Western Zombie Bobber (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Mugging: rapina 5 passanti.",
+        "Stick Ups: rapina 3 negozi nello stesso giorno, senza morire né farti arrestare.",
+        "Carjacking: ruba 3 veicoli col conducente a bordo e portali a un Pay 'n' Spray nello stesso giorno, senza morire né farti arrestare.",
+        "Mugging Spree: prendi 500 $ ai passanti nello stesso giorno, senza morire né farti arrestare.",
+        "Cop Car Theft: resta ricercato per 5 minuti su un veicolo delle forze dell'ordine rubato.",
+        "Cop Weapon Theft: prendi un'arma dal bagagliaio di 5 veicoli della polizia diversi, senza morire né farti arrestare.",
+        "Stick Up Spree: rapina 2 negozi in ognuna delle 5 contee in meno di 20 minuti, senza morire né farti arrestare.",
+        "Cop Tow: traina per un miglio un veicolo della polizia con gli agenti a bordo, senza fermarti.",
+        "Carjacking Spree: registra o rivernicia a un Pay 'n' Spray veicoli rubati di 10 marche diverse in meno di 30 minuti, senza morire né farti arrestare.",
+        "Carjacking Pro: guadagna 100.000 $ vendendo veicoli rubati a ricettatori o Pay 'n' Spray nello stesso giorno, senza morire né farti arrestare.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-esplorazione",
+      "type": "sfida",
+      "name": "Sfide: esplorazione",
+      "districtId": null,
+      "description": "WAiNK, grattacieli, carte, fondali e viaggi: dieci sfide di esplorazione, molte si chiudono da sole facendo il 100%.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Encyclopedia, WAiNK Locations e Collectible Cards arrivano da sole scansionando e raccogliendo. Le più dure: Helipad Flyovers e Road Trip."
+      ],
+      "rewards": [
+        "5 sfide: trucco dell'elicottero Nagasaki Sea Sparrow (dopo la storia).",
+        "Tutte e 10: trucco della Nagasaki Carbon RS (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "WAiNK Locations: scansiona con WAiNK 4 monumenti, curiosità o sculture qualsiasi.",
+        "Skyscrapers: sali in cima ai 5 grattacieli più alti della contea di Vice-Dale.",
+        "Collectible Cards: trova 3 carte collezionabili in ognuna delle 5 contee.",
+        "Encyclopedia: scopri 100 tra animali, veicoli e armi.",
+        "Underwater Discoveries: trova ed esplora 25 stranezze sul fondale.",
+        "Rail Tour: fai un miglio in treno in ognuna delle 5 contee nello stesso giorno, senza saltare il viaggio.",
+        "Underwater Treasures: trova 85 tesori sott'acqua.",
+        "Black Hole Wrecks: trova tutti e 11 i relitti «black hole» in mare.",
+        "Road Trip: passa da ogni città e paese di Leonida nello stesso giorno senza scendere dal veicolo, se non per fare benzina.",
+        "Helipad Flyovers: sorvola sotto i 100 piedi (circa 30 m) tutti i 41 eliporti di Vice City e Vice Beach in meno di 10 minuti.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-fitness",
+      "type": "sfida",
+      "name": "Sfide: fitness",
+      "districtId": null,
+      "description": "Palestra, corsa, nuoto e bici: dieci sfide di fitness. Due chiedono Jason e Lucia allenati insieme.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Strength Regime e Cardio Regime si fanno solo quando puoi usare entrambi, dal capitolo 2: allenatevi insieme, così l'altro si allena da solo."
+      ],
+      "rewards": [
+        "5 sfide: trucco della Tuff BMX (dopo la storia).",
+        "Tutte e 10: trucco della '65 Vapid Dominator (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Gym Member: iscriviti a una palestra qualsiasi.",
+        "Foot Travel: percorri 5 miglia a piedi nello stesso giorno.",
+        "Pro Cyclist: pedala per 15 miglia nello stesso giorno.",
+        "Pro Swimmer: nuota per 3 miglia nello stesso giorno.",
+        "Balanced Workout: allenati su ogni tipo di attrezzo della palestra nello stesso giorno.",
+        "Strength Regime: tieni la forza al livello 4 sia con Jason sia con Lucia per 5 giorni di fila.",
+        "Cardio Regime: tieni la resistenza al livello 4 sia con Jason sia con Lucia per 5 giorni di fila.",
+        "Waning Sands Run: dal cancello del molo di The Tip a Waning Sands a piedi in meno di 13 minuti, senza subire danni.",
+        "Tequesta Swim: a nuoto da Tequesta Retreat a Starfish Island in meno di 15 minuti.",
+        "Southwind Cycle: in bici dalla Williams Guest House di Grayson al Chicky's Tiki Bar di Southwind in meno di 22 minuti, senza cadere.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-shopping",
+      "type": "sfida",
+      "name": "Sfide: shopping",
+      "districtId": null,
+      "description": "Officine, Ammu-Nation, vestiti, barbieri e risparmi: dieci sfide di shopping, quasi tutte una questione di soldi.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Vanno insieme al trofeo «Trattati bene» (100.000 $ nei negozi). Nest Egg chiede tanti soldi fermi: lasciala per la fine, quando le rapine ai caveau rendono di più."
+      ],
+      "rewards": [
+        "5 sfide: trucco del Maibatsu Boomazoom (dopo la storia).",
+        "Tutte e 10: trucco della Truffade Thrax (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Vehicle Modder: fai 5 modifiche al veicolo in un'officina.",
+        "Grocery Shopper: spendi più di 250 $ in minimarket o negozi di liquori nello stesso giorno.",
+        "Well Armed: compra 3 armi corte e 3 armi lunghe all'Ammu-Nation.",
+        "Well Groomed: spendi più di 1.000 $ da barbieri, parrucchieri o saloni.",
+        "Stylishly Armed: compra modifiche estetiche per 5 armi corte e 5 armi lunghe all'Ammu-Nation.",
+        "Well Dressed: spendi più di 5.000 $ in vestiti.",
+        "Custom Ride: spendi più di 20.000 $ in una sola visita all'officina.",
+        "Heavily Armed: spendi più di 50.000 $ all'Ammu-Nation.",
+        "Serious Modder: spendi più di 125.000 $ nelle officine.",
+        "Nest Egg: tieni 1.500.000 $ sul conto corrente BuckMe.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-sport",
+      "type": "sfida",
+      "name": "Sfide: sport",
+      "districtId": null,
+      "description": "Basket, minigolf e biliardo: dieci sfide sportive.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Per il 100% servono 90 canestri: Basketball Pro ne chiede 10 in più. 8-Ball Break e Double Hole In One sono soprattutto fortuna: lasciale per ultime."
+      ],
+      "rewards": [
+        "5 sfide: trucco del Vapid Stanier G2 Taxi (dopo la storia).",
+        "Tutte e 10: trucco della Brimstone Golfer (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Basketball Rookie: fai canestro a 3 canestri diversi nello stesso giorno.",
+        "Golf Rookie: 18 buche al King Gator o al Frontier Adventure Golf in meno di 30 minuti, chiudendo almeno 3 sotto il par.",
+        "Basketball Streak: 10 canestri di fila in meno di 2 minuti.",
+        "Pool Streak: vinci a biliardo in 3 posti diversi nello stesso giorno, senza perdere né ritirarti.",
+        "Basketball Tour: fai canestro in ogni contea.",
+        "Golf Pro: 18 buche sia al King Gator sia al Frontier nello stesso giorno, chiudendo al par o meglio.",
+        "Triple Bank: fai toccare 3 sponde alla bilia bianca prima di mandare in buca.",
+        "Basketball Pro: fai canestro a tutti i 100 canestri di Leonida.",
+        "8-Ball Break: vinci una partita mandando in buca la nera al tiro d'apertura.",
+        "Double Hole In One: due buche in uno di fila nella stessa partita, al King Gator o al Frontier.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-sopravvivenza",
+      "type": "sfida",
+      "name": "Sfide: sopravvivenza",
+      "districtId": null,
+      "description": "Caccia, pesca, animali e poligoni di tiro: dieci sfide di sopravvivenza.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Zoologist arriva da sola studiando animali col binocolo per il 100%. Le più lunghe: Pro Angler e Legendary Hunter."
+      ],
+      "rewards": [
+        "5 sfide: trucco dell'Airboat 09 (dopo la storia).",
+        "Tutte e 10: trucco dell'Hauners Rhino Tank (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Alligator Kills: uccidi 3 alligatori selvatici.",
+        "Big Fish: pesca un pesce da almeno 20 libbre (circa 9 kg).",
+        "Marksman: prendi una medaglia in tutti e due i poligoni di tiro nello stesso giorno.",
+        "Catch of the Day: pesca 3 pesci con ciascun tipo di esca nello stesso giorno.",
+        "Zoologist: studia 20 specie di animali diverse.",
+        "Angler: pesca 4 specie diverse in meno di 6 minuti.",
+        "Pro Marksman: oro nel livello Master di 3 prove diverse del poligono di fila, senza fallire né ritirarti.",
+        "Hunting Spree: uccidi un cinghiale, un serpente a sonagli e una pantera in meno di 15 minuti, senza farti ferire da nemici o animali.",
+        "Pro Angler: pesca ogni specie di pesce.",
+        "Legendary Hunter: uccidi tutti e 8 gli animali unici.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
+    },
+    {
+      "id": "act-sfide-veicoli",
+      "type": "sfida",
+      "name": "Sfide: veicoli",
+      "districtId": null,
+      "description": "Velocità, salti, gare e atterraggi sui treni: dieci sfide dei veicoli.",
+      "requirements": [
+        "Ogni sfida conta per il trofeo «Un'ultima cosa…» (50 su 80) e per il 100% (70 su 80): puoi saltarne 10 in tutto.",
+        "Le più difficili: Train Landing, Train Jump e Oceanarium Jump. Per Top Speed serve una supercar su un rettilineo lungo."
+      ],
+      "rewards": [
+        "5 sfide: trucco dell'idrovolante Lapwing Mallard (dopo la storia).",
+        "Tutte e 10: trucco della Progen Emerus (dopo la storia).",
+        "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
+      ],
+      "steps": [
+        "Vehicle Discovery: esamina o scopri 6 veicoli diversi.",
+        "Wheelie: impennata per 0,25 miglia (circa 400 m).",
+        "Winning Streak: vinci 3 gare qualsiasi, una con una muscle car, una con una sportiva e una con una supercar.",
+        "Throttled: resta sopra le 100 miglia orarie (160 km/h) con un veicolo a motore per 2 minuti (Insider Gaming scrive 2 miglia).",
+        "Drawbridge Jump: salta per più di 100 piedi sopra un ponte levatoio 3 volte senza scendere dal veicolo.",
+        "Top Speed: tocca le 175 miglia orarie (circa 280 km/h) in auto, camion o moto.",
+        "Train Landing: fai toccare terra a un aereo in volo sopra un treno in corsa, senza distruggerlo.",
+        "Oceanarium Jump: lanciati da un aereo da almeno mezzo miglio di quota (circa 800 m) e atterra col paracadute nella vasca dell'orca o dei delfini del Vice City Oceanarium, senza morire.",
+        "Rally Winner: vinci 3 gare di fila nello stesso giorno al Thrillbilly Mud Club, al Gellhorn International Raceway e al Boone Speedway, senza ritirarti né ricominciare.",
+        "Train Jump: salta con la moto per almeno 75 piedi e atterra su un treno in corsa, due volte in 20 minuti.",
+        "In Progressi › Sfide le sfide fatte hanno la spunta in basso a destra."
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-challenges/",
+        "https://www.powerpyx.com/gta-6-all-cheats/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "group": "Svago"
     }
   ]
 }

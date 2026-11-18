@@ -3055,7 +3055,7 @@
     },
     {
       "file": "vice/personaggi/chr-cesar.png",
-      "url": "https://static.wikia.nocookie.net/gtawiki/images/f/f2/Unnamed_Businessman_5.png/revision/latest/scale-to-width-down/1000",
+      "url": "https://gta.wiki/images/MegamundoCEO-GTAVI-AnExtendedLook.png",
       "for": "chr-cesar"
     },
     {
@@ -4145,7 +4145,7 @@
     },
     {
       "file": "mondo/brd-v-rock.png",
-      "url": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023",
+      "url": "https://gta.wiki/images/VRock-GTAVI-VideoClip-JasonDuval.png?c49ea",
       "for": "brd-v-rock"
     },
     {
@@ -5097,6 +5097,41 @@
       "file": "mondo/brd-hanks-waffles.png",
       "url": "https://gta.wiki/images/HanksWaffles-GTAVI-AnExtendedLook-SS1.png",
       "for": "brd-hanks-waffles"
+    },
+    {
+      "file": "radio/rad-the-vault.png",
+      "url": "https://gta.wiki/images/Marketing-GTAVI-KioskMiami-TheVault.png?aca12",
+      "for": "rad-the-vault"
+    },
+    {
+      "file": "vice/personaggi/chr-tomas.png",
+      "url": "https://gta.wiki/images/Tom%C3%A1s-GTAVI-Portrait.png",
+      "for": "chr-tomas"
+    },
+    {
+      "file": "vice/personaggi/chr-donnie.png",
+      "url": "https://gta.wiki/images/Donnie-GTAVI-AnExtendedLook-Portrait.png",
+      "for": "chr-donnie"
+    },
+    {
+      "file": "vice/personaggi/chr-kenton-rees.png",
+      "url": "https://gta.wiki/images/KentonRees-GTAVI-Portrait.png",
+      "for": "chr-kenton-rees"
+    },
+    {
+      "file": "vice/personaggi/chr-sir-todd-bancroft.png",
+      "url": "https://gta.wiki/images/SirToddBancroft-GTAVI-Portrait.png",
+      "for": "chr-sir-todd-bancroft"
+    },
+    {
+      "file": "vice/personaggi/chr-mandy.png",
+      "url": "https://gta.wiki/images/Mandy-GTAVI-Portrait.png",
+      "for": "chr-mandy"
+    },
+    {
+      "file": "vice/personaggi/chr-tyrone.png",
+      "url": "https://gta.wiki/images/UnnamedThug-GTAVI-Trailer2-Portrait.png",
+      "for": "chr-tyrone"
     }
   ],
   "zip": {

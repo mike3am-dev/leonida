@@ -1,10 +1,23 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.47.0",
+  "dataVersion": "0.48.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.48.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trucchi: in «Come si gioca» c'è l'elenco dei 61 trucchi, con cosa fanno e come si sbloccano. Si usano solo a storia finita e bloccano salvataggi e trofei.",
+        "Sfide: le 80 sfide una per una, divise in 8 schede, con i veicoli che sbloccano. Trofei corretti: «Shopping compulsivo» va fatto insieme al partner. Primi segreti confermati dalle testate: il Bigfoot a Cottonmouth Lake e l'uovo di Pasqua in cima al ripetitore.",
+        "Missioni: 28 nuove, tra cui la serie di Andy, le missioni 3-5 di Billy, Kirk e lo Skunk Ape, Pilot Pete e le tappe brevi della storia. 18 missioni del capitolo 1 sono confermate da due guide.",
+        "Personaggi: 37 nuovi, con tutti i contatti delle missioni e i conduttori radio, divisi in gruppi. Tolti Kai (non c'è nel gioco) e N3on (è lo streamer vero).",
+        "Radio: 47 canzoni in più (V-Rock, Vice City FM, Flash FM…) e la stazione segreta The Sniper of La Perle. Ogni stazione ha il suo colore.",
+        "Animali: 6 specie nuove, le varianti rare e Dolores, il serpente di Jason.",
+        "Spoiler: tolto dalla scheda dell'album e da una notizia il titolo di un brano che è anche il nome di una missione del capitolo 4."
+      ]
+    },
     {
       "version": "0.47.0",
       "date": "2026-11-18",

@@ -708,6 +708,72 @@
       "body": "Nella scatola non c'è il disco: il codice è stampato dentro la copertina, senza patina da grattare, e vale anche per il Vintage Vice City Pack. Controlla che il cellophane sia intatto (altrimenti rifiuta o segnala subito), filma l'apertura e riscatta il codice appena la apri: il preload parte da lì. Tieni liberi almeno 230 GB.",
       "priority": 3,
       "sourceUrl": "https://vice-central.com/gta-vi-boite-deballage-code-sans-disque/"
+    },
+    {
+      "id": "tip-segreto-bigfoot",
+      "category": "esplorazione",
+      "title": "Il Bigfoot vive a Cottonmouth Lake",
+      "body": "Il Bigfoot è tornato, e stavolta non è un uomo travestito. Vai a Cottonmouth Lake, appena a sud di Hamlet: quando senti un ringhio cupo lo trovi in strada, chino sulla carcassa di un animale. Scappa subito nella palude e sparisce; al suo posto, legato a un albero, c'è uno strano feticcio. Se ti fermi lì vicino perdi i sensi e in una breve scena vedi avvicinarsi solo i suoi enormi piedi. Si può fare presto, appena sei libero di girare. Kotaku segnala anche un granchio gigante con una scena tutta sua, ma non si sa ancora come farla partire.",
+      "priority": 46,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://insider-gaming.com/where-to-find-bigfoot-gta-6/",
+      "moreSources": [
+        "https://www.gamespot.com/articles/bigfoot-is-back-in-gta-6-and-apparently-he-smells-revolting/",
+        "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
+      ],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-segreto-uovo-di-pasqua",
+      "category": "esplorazione",
+      "title": "Un uovo di Pasqua vero, in cima al ripetitore",
+      "body": "Rockstar ha preso «easter egg» alla lettera: in cima al ripetitore radio più alto del gioco c'è un nido con delle uova dipinte come uova di Pasqua. La salita a piedi dura sei-sette minuti. Prendine uno e lancialo di sotto: parte una scenetta in cui l'uovo centra in testa un passante con l'aria da agente immobiliare. Dove sia di preciso la torre, le testate non lo dicono ancora.",
+      "priority": 47,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/gta-6-has-a-hilarious-riff-on-easter-eggs/",
+      "moreSources": [
+        "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
+      ],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-segreto-casa-san-andreas",
+      "category": "esplorazione",
+      "title": "La casa di GTA VI che si vedeva già in San Andreas",
+      "body": "Nella Definitive Edition di GTA: San Andreas (2021) c'era l'immagine di una casa che col gioco non c'entrava niente, e da anni si pensava venisse da GTA VI in lavorazione. Ora l'hanno trovata a Belville: è identica, fino alle piante davanti all'ingresso. Era quasi certamente un'anticipazione nascosta. La scoperta viene dal progetto di mappatura del GTA Wiki.",
+      "priority": 48,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster",
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-segreto-gatti",
+      "category": "esplorazione",
+      "title": "Accarezza i gatti, ma non quelli delle auto rubate",
+      "body": "Cani e gatti si possono accarezzare: Jason ci parla e il gatto gli dà anche un po' di concentrazione, utile prima di un trofeo come «Pistolero». Attento però alle auto che rubi: se dietro c'è il gatto del proprietario, ti salta addosso mentre guidi e devi scrollartelo di dosso premendo i tasti a schermo prima di poterlo far scendere.",
+      "priority": 49,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/jason-loves-cats-in-gta-6-but-not-all-of-them/",
+      "moreSources": [
+        "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
+      ],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
     }
   ]
 }

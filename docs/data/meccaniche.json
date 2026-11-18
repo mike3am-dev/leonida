@@ -1437,8 +1437,8 @@
           "text": "Uno zoo e un grande cimitero sono visitabili ma non legati alla storia: Rockstar li tiene «per il futuro»."
         },
         {
-          "source": "testo principale",
-          "text": "Dopo la storia si sbloccano i trucchi completando delle sfide dalla voce «Trucchi» del menu (salute e munizioni infinite tra i premi)."
+          "source": "stampa",
+          "text": "Dopo la storia si sbloccano i trucchi completando delle sfide: la voce «Trucchi» compare nel menu Progressi. Tra i premi munizioni infinite, concentrazione infinita e veicoli; un trucco per la salute infinita non c'è. Elenco completo nella scheda «Trucchi»."
         }
       ],
       "relatedIds": [
@@ -1461,7 +1461,8 @@
         "new-20261014-bloomberg",
         "new-20260905-fisico",
         "tip-completista",
-        "brd-thrillbilly-mud-park"
+        "brd-thrillbilly-mud-park",
+        "mec-trucchi"
       ],
       "status": "verificato",
       "source": "trailer",
@@ -1754,6 +1755,102 @@
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
       "relatedIds": []
+    },
+    {
+      "id": "mec-trucchi",
+      "title": "Trucchi",
+      "emoji": "🎮",
+      "group": "Mondo e vita",
+      "short": "Sessantuno trucchi (personaggio, combattimento, veicoli, mondo e filtri dello schermo) che si usano solo a storia finita. Ognuno si sblocca con una piccola sfida; mentre ne usi uno non puoi salvare e i trofei sono bloccati.",
+      "steps": [
+        "Finisci la storia: solo dopo l'ultima missione principale compare la voce «Trucchi», in fondo al menu Progressi (apri la mappa e scorri le schede con L1/R1). Durante la storia i codici non funzionano.",
+        "Nel menu ogni trucco ha la sua condizione di sblocco: una sfida, un conteggio o un oggetto da scoprire. Conta anche quello che hai fatto prima di finire la storia.",
+        "Tre sono pronti appena scorrono i titoli di coda: 250.000 $, Unlimited Focus e Attack Force.",
+        "Per attivarne uno: premi su sulla croce direzionale per prendere il telefono, tieni premuto L1, premi R1 e inserisci la sequenza di frecce.",
+        "Quando un trucco è sbloccato, il menu ti mostra anche la sua sequenza: non serve impararle a memoria. Un codice inserito prima dello sblocco non fa niente.",
+        "Con un trucco attivo il gioco avvisa che non puoi salvare e che trofei e obiettivi restano bloccati fino a quando chiudi la sessione: salva prima, poi ricarica quel salvataggio per tornare a giocare normale."
+      ],
+      "details": [
+        {
+          "title": "Personaggio (10)",
+          "text": "$250,000: 250.000 $ subito — finisci la storia (↑ → ↓ ← ↑ ← ↓ →) · Drunk: tu e il partner vi ubriacate all'istante — spendi 2.500 $ in alcolici · Raise Heat Level: alza il livello di allerta su tutta la mappa — fai perdere le tracce 25 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ ↓ ↑) · Raise Wanted Level: alza il livello di ricercato — fai perdere le tracce 50 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ → ↑, lo dà solo GamesRadar) · Unlimited Focus: la concentrazione non finisce mai — finisci la storia (↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →) · No Fall Damage: niente danni da caduta — sopravvivi 20 volte a una caduta libera da 40 piedi (circa 12 m) · Parachute: ti dà un paracadute — 50 lanci col paracadute o base jump da almeno 300 piedi (circa 90 m) · Body Armor: ti dà un giubbotto antiproiettile — 100 allenamenti (↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓) · Repair Vehicle: ripara del tutto il veicolo — 10 primi posti nelle gare di Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway · Unlimited Nitrous: nitro e benzina infiniti — 50 salti acrobatici con la rampa"
+        },
+        {
+          "title": "Combattimento (11)",
+          "text": "Max Ammo: munizioni al massimo — 25 medaglie di bronzo o meglio ai poligoni di tiro (↓ ↑ → ↓ ← ← ↑ ↑ ↓ ←) · Infinite Ammo: munizioni infinite — 25 argenti o meglio ai poligoni (↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↓) · No Reload: munizioni infinite e niente ricarica — 25 ori ai poligoni (↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↑) · All Explosive Weapons: tutti gli esplosivi con munizioni piene — lancia 100 granate · Incendiary Ammo: tutti i colpi diventano incendiari — brucia 100 nemici · Exploding Bottles: le bottiglie esplodono se colpite — lancia 100 molotov · Explosive Shotgun: un Mason & Keen Shortstraw a cartucce esplosive — colpisci 100 nemici con esplosioni · Hauners H-AT: ti dà il lanciarazzi Hauners H-AT — fai saltare in aria 100 veicoli · Attack Force: proiettili e colpi corpo a corpo scaraventano via i bersagli — finisci la storia (↓ ↑ ← ← → ↓ ↓ ↑ ↓) · Exploding Balls: i palloni esplodono quando colpiscono — colpisci 20 nemici con esplosioni (↓ ↑ ← ← → ↓ ↓ ↑ →) · Vehicle Force: gli urti col veicolo scaraventano via i bersagli — uccidi 25 nemici con un veicolo; contano anche i passanti investiti (↓ ↑ ← ← → ↓ ← ↑ ↓)"
+        },
+        {
+          "title": "Veicoli dalle sfide (16)",
+          "text": "Ogni categoria di sfide dà due veicoli: uno con 5 sfide, l'altro con tutte e 10. Speeder 700 GT — 5 sfide di combattimento · Bravado Banshee — tutte le sfide di combattimento · Maibatsu Sanchez — 5 sfide criminali · Western Zombie Bobber — tutte le sfide criminali · Nagasaki Sea Sparrow — 5 sfide di esplorazione · Nagasaki Carbon RS — tutte le sfide di esplorazione · Tuff BMX — 5 sfide di fitness · '65 Vapid Dominator — tutte le sfide di fitness · Maibatsu Boomazoom — 5 sfide di shopping (← ↑ → ↓ ← ← ↑ ←) · Truffade Thrax — tutte le sfide di shopping · Vapid Stanier G2 Taxi — 5 sfide sportive · Brimstone Golfer — tutte le sfide sportive · Airboat 09 — 5 sfide di sopravvivenza · Hauners Rhino Tank — tutte le sfide di sopravvivenza · Lapwing Mallard — 5 sfide dei veicoli · Progen Emerus — tutte le sfide dei veicoli"
+        },
+        {
+          "title": "Altri veicoli (5)",
+          "text": "Hauners P-996 Lazer — tutte e 80 le sfide · Inflatable Flamingo — distruggi 50 fenicotteri della cocaina · Interstate Ambulance — scoprila (scansionala) così che compaia nel menu Progressi · MTL Pumper — scoprilo nel menu Progressi (← ↑ → ↓ ← → → ↑) · HVY Bulldozer — scoprilo nel menu Progressi (← ↑ → ↓ ← → → ↓)"
+        },
+        {
+          "title": "Mondo (3)",
+          "text": "Move Time Forward: manda avanti l'ora — trova 10 orologi da collezione · Pause Time of Day: ferma l'ora del giorno — trova 20 orologi da collezione · Cycle Weather: cambia il meteo — togli la nebbia da tutta la mappa; per PowerPyx basta finire la storia (↓ → ↑ ↓ → ↑ →)"
+        },
+        {
+          "title": "Filtri dello schermo: coppia e svaghi (8)",
+          "text": "Golden Hour: luce dorata e formato panoramico — 4 ore mano nella mano col partner · Dollhouse: colori accesi e formato stretto — 8 ore in compagnia del partner (↓ ↓ ↑ → → ↑ ← ← ↓ →) · Videotape: effetto videocassetta — 50 attività col partner · Pinhole: effetto foro stenopeico — 25 operazioni delle bande col partner (↓ ↓ ↑ → → ↑ ← ← ↑ ↓, lo dà solo DayOne) · Faded Glory: vecchia TV a colori — rapina 50 negozi col partner (↓ ↓ ↑ → → ↑ ← ← ← →) · Fast Forward: scia di movimento e nuvole accelerate — 50 meditazioni · Fisheye: effetto fish-eye — pesca 100 pesci · Bubblegum: mondo viola e giallo, scintillante — tutte le 24 carte dei Vice City Flamingos"
+        },
+        {
+          "title": "Filtri dello schermo: scoperte e soldi (8)",
+          "text": "Powdered Sugar: mondo bianco e scintillante — scansiona con WAiNK tutti i detriti spaziali · Neon Jungle: luci al neon ovunque — scopri tutti e 16 i veicoli Girlypop · Yesteryear: vecchia TV in bianco e nero — scopri la Ridgway · Cataclysm: fumo torbido su tutta la mappa — scopri la Martha's Vamos nel menu Progressi (↓ ↓ ↑ → → ↑ ← ← → →) · Dark Mirror: mondo capovolto e nero — guadagna 500.000 $ vendendo veicoli · Migraine: immagine sfocata e distorta — resisti 6 minuti con 6 stelle · Pixel Art: immagine pixelata — guadagna 250.000 $ vendendo oggetti da collezione · Hellscape: mondo rosso e arancio, aria che tremola — ruba 100 veicoli della polizia"
+        },
+        {
+          "title": "Codici che mancano",
+          "text": "Le guide hanno pubblicato finora una ventina di sequenze su 61: le altre si leggono nel menu appena sblocchi il trucco. Le frecce qui sopra sono quelle che due o più guide riportano uguali, salvo dove è indicato."
+        }
+      ],
+      "tips": [
+        "Non usarli finché lavori al Platino: con un trucco attivo non salvi e i trofei non scattano.",
+        "Molti si sbloccano da soli facendo il 100%: ori ai poligoni, gare, acrobazie, meditazioni e sfide.",
+        "Tutte e 80 le sfide danno il jet Hauners P-996 Lazer; per il 100% ne bastano 70, quindi il jet chiede 10 sfide in più.",
+        "Tieni uno slot di salvataggio solo per giocare con i trucchi dopo il Platino."
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Cycle Weather: secondo GamesRadar e DayOne si sblocca togliendo la nebbia da tutta la mappa, secondo PowerPyx basta finire la storia."
+        },
+        {
+          "source": "stampa",
+          "text": "Max Ammo: PC Gamer scrive 20 medaglie di bronzo, PowerPyx, GamesRadar e DayOne 25."
+        },
+        {
+          "source": "stampa",
+          "text": "Body Armor: DayOne riporta una freccia su in più rispetto a PowerPyx e GamesRadar; qui c'è la versione di questi ultimi due."
+        },
+        {
+          "source": "stampa",
+          "text": "In GTA V i trucchi funzionavano dalla prima ora e lasciavano salvare; in GTA VI arrivano solo a storia finita e bloccano il salvataggio."
+        }
+      ],
+      "relatedIds": [
+        "act-sfide",
+        "new-20261118-trucchi-dopo-la-storia",
+        "tip-completista",
+        "veh-hauners-lazer",
+        "veh-rhino-tank",
+        "veh-inflatable-flamingo",
+        "wpn-mk-shortstraw",
+        "wpn-rpg"
+      ],
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
+        "https://www.gtaboom.com/how-gta-6-cheats-work-and-why-you-have-to-finish-the-whole-story-first-f2f7"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18"
     }
   ]
 }

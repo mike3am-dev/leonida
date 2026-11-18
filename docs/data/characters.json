@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/ss-jason-lucia-14.jpg",
         "assets/img/jason.jpg"
@@ -147,7 +147,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Doppiatore non annunciato. Il nome più ricorrente è Dylan Rourke; circola anche Gregory Connors."
+          "text": "Interprete non ancora ufficiale al 18/11: a differenza di Lucia, non è tra i candidati ai The Game Awards. Il nome più ricorrente è Dylan Rourke (gta.wiki lo indica già come voce e motion capture, ma senza fonte); circola anche Gregory Connors."
         },
         {
           "source": "stampa",
@@ -165,7 +165,8 @@
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-prologo-lucia",
       "relations": [
-        "chr-jason"
+        "chr-jason",
+        "chr-stefanie"
       ],
       "image": "assets/img/ss-lucia-caminos-11.jpg",
       "status": "verificato",
@@ -173,7 +174,7 @@
       "sourceUrl": "https://www.gamereactor.eu/gta-6-lucia-actress-manni-l-perez-who-is-she/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/ss-jason-lucia-14.jpg",
         "assets/img/lucia.jpg"
@@ -289,6 +290,11 @@
           "Braccialetto elettronico",
           "Alla caviglia, dopo la scarcerazione",
           "Riportato"
+        ],
+        [
+          "Interprete",
+          "Manni L. Perez, voce e motion capture (candidatura ai The Game Awards 2026)",
+          "Confermato"
         ]
       ],
       "insightUrl": "https://vice-central.com/personnages/lucia-caminos/",
@@ -297,6 +303,10 @@
           "source": "stampa",
           "text": "La interpreta Manni L. Perez, candidata a «Best Performance» ai The Game Awards 2026. Dal 2019 dà la voce anche a una croupier del Diamond Casino in GTA Online."
         }
+      ],
+      "moreSources": [
+        "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
+        "https://gta.wiki/w/Manni_L._Perez"
       ]
     },
     {
@@ -318,7 +328,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/cal-hampton.jpg"
       ],
@@ -424,7 +434,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Doppiatore non annunciato. Il nome più ricorrente è Bobby Moynihan, ex del Saturday Night Live."
+          "text": "Doppiatore non annunciato al 18/11. Il nome più ricorrente è Bobby Moynihan, ex del Saturday Night Live, a cui la voce di Cal somiglia molto."
         }
       ]
     },
@@ -447,7 +457,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/boobie-ike.jpg"
       ],
@@ -540,11 +550,20 @@
         ],
         [
           "Interprete",
-          "Non comunicato",
-          "Sconosciuto"
+          "Non comunicato; il rapper Kia Shine pensa di essere lui",
+          "Voce"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/boobie-ike/"
+      "insightUrl": "https://vice-central.com/personnages/boobie-ike/",
+      "extras": [
+        {
+          "source": "rumor",
+          "text": "Il rapper di Memphis Kia Shine dice di aver registrato 200-300 battute per due personaggi di GTA VI senza sapere quali, e crede che uno sia Boobie. È una sua ipotesi, non una conferma."
+        }
+      ],
+      "moreSources": [
+        "https://www.gtaboom.com/a-memphis-rapper-just-confirmed-he-recorded-200-to-300-lines-for-two-gta-6-characters-ca21"
+      ]
     },
     {
       "id": "chr-drequan",
@@ -791,14 +810,17 @@
       "bio": "Rapinatore esperto: sicurezza, fascino e astuzia. Va a caccia di talenti disposti a rischiare, perché i colpi che ha in mente non sono per tutti. È spericolato, e la sua squadra prima o poi dovrà decidere se raddoppiare la posta o ritirare le fiches. Quando i due giovani arrivano a Vice City, una città che lui conosce a fondo, è il mentore che insegna loro i colpi grossi. Lo si vede anche in un interrogatorio.",
       "districtId": null,
       "firstMissionId": "mis-el-raul",
-      "relations": [],
+      "relations": [
+        "chr-jason",
+        "chr-lucia"
+      ],
       "image": "assets/img/ss-raul-bautista-01.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/raul-bautista.jpg"
       ],
@@ -932,7 +954,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "gallery": [
         "assets/img/brian-heder.jpg"
       ],
@@ -1037,14 +1059,24 @@
           "Passato comune con Raul Bautista",
           "Ex compagni di cella",
           "Voce"
+        ],
+        [
+          "Interprete",
+          "Stephen Root (confermato da lui, il personaggio è dedotto dalla voce)",
+          "Riportato"
         ]
       ],
       "insightUrl": "https://vice-central.com/personnages/brian-heder/",
       "extras": [
         {
-          "source": "community",
-          "text": "La voce è attribuita a Stephen Root (King of the Hill, Barry, Office Space): l'attore ha confermato di essere nel gioco, senza dire con quale personaggio. Rockstar non ha annunciato nessun doppiatore."
+          "source": "stampa",
+          "text": "Lo interpreta Stephen Root (King of the Hill, Barry, Office Space). A settembre l'attore ha confermato all'Associated Press di essere nel gioco («mi riconoscono dalla voce»), senza nominare il personaggio; le testate e gta.wiki lo danno per Brian. Rockstar non ha ancora pubblicato il cast."
         }
+      ],
+      "moreSources": [
+        "https://www.pushsquare.com/news/2026/09/the-first-gta-6-actor-has-confirmed-their-involvement-and-nobodys-surprised",
+        "https://insider-gaming.com/gta-6s-first-voice-actor-has-been-confirmed/",
+        "https://gta.wiki/w/Stephen_Root"
       ]
     },
     {
@@ -1172,16 +1204,18 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "chr-mendez",
       "name": "Mendez",
-      "role": "Agente del VCPD",
+      "role": "Capitano del VCPD",
       "isProtagonist": false,
       "tagline": "La legge di Vice City, con un nome.",
       "bio": "Agente della polizia di Vice City. Guida la task force antidroga che fa irruzione alla casa di Raymond e spara a un sospetto che si arrende: ha i modi del poliziotto corrotto ed è un possibile antagonista. Compare anche nel trailer di lancio.",
       "districtId": "dis-vice-city",
-      "firstMissionId": "mis-el-stash-house",
-      "relations": [],
+      "firstMissionId": "mis-tourist-trap",
+      "relations": [
+        "chr-raymond"
+      ],
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/mendez.jpg",
       "galleryX": [
@@ -1252,12 +1286,21 @@
           "Voce"
         ],
         [
-          "Nome e interprete",
-          "Non comunicati",
+          "Grado",
+          "Capitano, nelle guide",
+          "Riportato"
+        ],
+        [
+          "Interprete",
+          "Non comunicato",
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/mendez/"
+      "insightUrl": "https://vice-central.com/personnages/mendez/",
+      "moreSources": [
+        "https://gta.wiki/w/M%C3%A9ndez",
+        "https://www.powerpyx.com/gta-6-bricked-up-return-to-the-apartment-walkthrough/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-andres.jpg",
@@ -1265,13 +1308,13 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "id": "chr-andres",
       "name": "Andrés de León",
-      "role": "Uomo d'affari, Megamundo",
+      "role": "Ospite d'onore di Megamundo",
       "isProtagonist": false,
       "tagline": "Il cliente che vale la scorta.",
-      "bio": "Ricco socio di Megamundo, festaiolo e consumatore di droghe, conoscente di Petra Navarro. Jason e Lucia lo incontrano in aeroporto e lo scortano a una festa che finisce con l'irruzione di uomini mascherati e armati.",
+      "bio": "Ricco, festaiolo e amante della bella vita, legato a Valentina e ai dirigenti di Megamundo come Petra Navarro; sembra lavorare nello spettacolo (parla della sua «roadmap creativa» con due amici produttori di un certo Elonzo). Jason e Lucia lo prendono in aeroporto e lo scortano all'inaugurazione della torre Megamundo, che finisce con l'irruzione di uomini mascherati e armati.",
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-el-megamundo",
       "relations": [
@@ -1343,11 +1386,14 @@
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/andres-de-leon/"
+      "insightUrl": "https://vice-central.com/personnages/andres-de-leon/",
+      "moreSources": [
+        "https://gta.wiki/w/Andr%C3%A9s_de_Le%C3%B3n"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-petra.jpg",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
@@ -1378,7 +1424,7 @@
           "caption": "Nell'ascensore della torre Megamundo: Jason in completo con Valentina e Petra Navarro."
         }
       ],
-      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata di inaugurazione, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nPetra è la direttrice operativa (COO) di Megamundo; l'amministratore delegato è Cesar. È lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo è il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Petra chiede a Jason di andare a cercare Andrés, salito a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame tra Petra, Megamundo e la storia di Jason e Lucia non è ancora noto. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, dicono che Megamundo ha dei nemici.",
+      "insight": "Petra Navarro è la dirigente di Megamundo in GTA VI, un'azienda che inaugura la sua prima sede americana in una torre di Vice City riconoscibile dall'insegna arcobaleno. Caschetto castano e abito argentato, è la padrona di casa della serata di inaugurazione, e quella che vede la sua festa finire in tragedia.\n\n## La dirigente di Megamundo\n\nPetra è la direttrice operativa (COO) di Megamundo; l'amministratore delegato, che nel gioco non ha un nome noto, tiene il discorso della serata. È lei a ricevere gli invitati la sera dell'inaugurazione. Megamundo è il volto della Vice City delle grandi aziende, lucido in facciata e molto più pericoloso dietro le quinte.\n\n## La serata di inaugurazione\n\nJason e Lucia, ingaggiati da Valentina per scortare Andrés de León, le vengono presentati in piena serata. Petra chiede a Jason di andare a cercare Andrés, salito a festeggiare al piano di sopra, per il discorso di apertura. È in quel momento che uomini armati e mascherati fanno irruzione. Visibilmente sopraffatta, Petra sbotta: «E questi chi cazzo sono?»\n\nIl legame tra Petra, Megamundo e la storia di Jason e Lucia non è ancora noto. Ma un'azienda che ricorre a criminali per la sicurezza di un invitato, e una serata attaccata da un commando, dicono che Megamundo ha dei nemici.",
       "firstSeen": "Extended Look (27 agosto 2026), serata Megamundo",
       "idCard": [
         {
@@ -1434,7 +1480,11 @@
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/petra-navarro/"
+      "insightUrl": "https://vice-central.com/personnages/petra-navarro/",
+      "moreSources": [
+        "https://vice-central.com/personnages/petra-navarro/",
+        "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-valentina.jpg",
@@ -1552,7 +1602,9 @@
       "bio": "Ex cocainomane, dopo la riabilitazione è diventato un pilota di corse clandestine. Guida una Annis Elegy '90 modificata e urla contro i rivali dalla linea di partenza.",
       "districtId": "dis-vice-city",
       "firstMissionId": "mis-join-a-street-race",
-      "relations": [],
+      "relations": [
+        "chr-jason"
+      ],
       "sourceUrl": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/",
       "imageUrl": "https://gta.wiki/images/Yago-GTAVI-OfficialScreenshot-JasonDuval19.jpg",
       "imageCredit": "Screenshot ufficiale Rockstar (Jason Duval 19) via GTA Wiki (gta.wiki)",
@@ -1744,23 +1796,23 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-stefanie.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-18",
       "id": "chr-stefanie",
       "name": "Stefanie Gates",
       "role": "Assistente sociale del penitenziario",
       "isProtagonist": false,
       "tagline": "La prima voce del Trailer 1.",
-      "bio": "Assistente sociale del Leonida Department of Corrections: la sua è la prima voce che si sente nel Trailer 1, mentre parla con Lucia. Il suo ruolo dopo l'uscita di Lucia dalla prigione non è ancora noto.",
+      "bio": "Assistente sociale (counselor) del Leonida Department of Corrections, appena trasferita al penitenziario. Nel prologo fa il colloquio a Lucia sul suo arresto e sulla possibilità di uscire prima: la sua è anche la prima voce del Trailer 1. Il cognome viene da GTABase: sulla targhetta della scrivania si legge solo «Stefanie G.».",
       "districtId": "dis-hamlet",
       "firstMissionId": "mis-prologo-lucia",
       "relations": [
         "chr-lucia"
       ],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-prologue-walkthrough/",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/stefanie-gates.jpg",
       "galleryX": [
         {
@@ -1830,7 +1882,11 @@
           "Sconosciuto"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/stefanie-gates/"
+      "insightUrl": "https://vice-central.com/personnages/stefanie-gates/",
+      "moreSources": [
+        "https://gta.wiki/w/Stefanie_Gates",
+        "https://gtabase.com/gta-6/characters/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-wyman.jpg",
@@ -1847,7 +1903,9 @@
       "bio": "Meccanico, collezionista eccentrico e faccendiere locale, legato allo sfasciacarrozze Wyman's World e alla collezione di auto classiche dell'Ultimate Edition. Nella versione di sviluppo trapelata nel 2022 era un complottista che viveva in un motel vicino a Port Gellhorn, legato a Shanese.",
       "districtId": "dis-da-collocare",
       "firstMissionId": "mis-coffee-break",
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "sourceUrl": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/ue-wyman-collection-scaled.jpg",
       "galleryX": [
@@ -1921,11 +1979,11 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-camillo.jpg",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-18",
       "id": "chr-camillo",
       "name": "Camilo",
       "role": "Livestreamer",
@@ -1934,8 +1992,10 @@
       "bio": "Streamer di Vice City, parodia di N3on. Fa la «Trunk Challenge» dal bagagliaio di una Buffalo quando Lucia la ruba, e continua la diretta, con la chat in sovrimpressione, durante l'inseguimento su Shore Drive. N3on ha reagito in diretta e ha rifatto la scena dal vivo.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": [],
-      "sourceUrl": "https://gtabase.com/gta-6/characters/",
+      "relations": [
+        "chr-lucia"
+      ],
+      "sourceUrl": "https://gta.wiki/w/Camilo",
       "imageUrl": "https://vice-central.com/wp-content/themes/vice-new/assets/images/personnages/camilo.jpg",
       "galleryX": [
         {
@@ -2005,7 +2065,11 @@
           "Voce"
         ]
       ],
-      "insightUrl": "https://vice-central.com/personnages/camilo/"
+      "insightUrl": "https://vice-central.com/personnages/camilo/",
+      "moreSources": [
+        "https://gtabase.com/gta-6/characters/",
+        "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-phil.jpg",
@@ -2092,27 +2156,36 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-cesar.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-cesar",
-      "name": "Cesar",
-      "role": "Dirigente Megamundo",
+      "name": "Il CEO di Megamundo",
+      "role": "Amministratore delegato di Megamundo",
       "isProtagonist": false,
       "tagline": "Il discorso della «prima sede americana».",
-      "bio": "È l'amministratore delegato di Megamundo e tiene il discorso all'inaugurazione della torre. Lo accompagnano Gustavo, Elonzo e un'assistente senza nome. Il nome Cesar compariva già nella versione di sviluppo trapelata nel 2022.",
+      "bio": "L'amministratore delegato di Megamundo. All'inaugurazione della torre di Vice City, la prima sede americana dell'azienda, tiene il discorso agli invitati finché un commando armato non interrompe la festa; la sicurezza porta via lui e Petra Navarro.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [
         "chr-andres",
         "chr-petra"
       ],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f2/Unnamed_Businessman_5.png/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "Frame dell'Extended Look (discorso all'inaugurazione Megamundo, scheda «Unnamed Businessman») via GTA Wiki (gta.fandom.com)",
-      "insight": ""
+      "sourceUrl": "https://gta.wiki/w/Megamundo_CEO",
+      "imageUrl": "https://gta.wiki/images/MegamundoCEO-GTAVI-AnExtendedLook.png",
+      "imageCredit": "gta.wiki (CC BY-SA), sostituisce il vecchio link a gta.fandom.com",
+      "insight": "",
+      "moreSources": [
+        "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look"
+      ],
+      "extras": [
+        {
+          "source": "community",
+          "text": "Il nome «Cesar» circola tra i fan (gtavice.net, dal leak del 2022) ma non compare nel trailer né nelle guide: per gta.wiki il CEO non ha nome."
+        }
+      ]
     },
     {
       "status": "verificato",
@@ -2146,15 +2219,20 @@
       "role": "Ricettatore d'auto",
       "isProtagonist": false,
       "tagline": "Se trovi l'auto che vuole, portagliela.",
-      "bio": "Ricettatore d'auto: se trovi un veicolo che Randy vuole, puoi rubarlo e consegnarglielo.",
+      "bio": "Randy Kozlov, concessionario d'auto a Balsero e ricettatore di auto di lusso: le auto della sua lista (16 modelli) rendono 30.000 $ e più se le porti intatte. Prende anche auto con localizzatore standard.",
       "districtId": null,
       "firstMissionId": "mis-el-raul",
-      "relations": [],
+      "relations": [
+        "chr-raul",
+        "chr-lucia"
+      ],
       "sourceUrl": "https://www.gtavice.net/characters",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
-        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/"
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+        "https://gta.wiki/w/Randy_(GTA_VI)",
+        "https://www.powerpyx.com/gta-6-clonin-keys-makin-gs-steal-the-zorrusso-for-randy-walkthrough/"
       ]
     },
     {
@@ -2163,7 +2241,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-macca",
       "name": "Macca the Gator",
       "role": "Mascotte TV",
@@ -2172,7 +2250,11 @@
       "bio": "Alligatore rosa con occhiali viola e camicia hawaiana, protagonista di «Macca & Friends», la serie animata di Weazel che si guarda sulla TV di Leonida: per pagare l'affitto al granchio Pinche si inventa una truffa dopo l'altra con i suoi amici delle paludi. Da lui nascono anche la linea Goodtime Gear e la statuina del cofanetto da 399,99 $.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-chunkee-the-manatee",
+        "chr-pinche-the-crab",
+        "chr-fede-the-flamingo"
+      ],
       "sourceUrl": "https://www.gtavice.net/characters",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/GTAVI-Macca-the-Gator.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "Artwork Goodtime State – Vice City Collection via GTA Wiki (gta.fandom.com)",
@@ -2180,24 +2262,29 @@
     },
     {
       "image": "assets/img/vice/personaggi/chr-erin-henshaw.png",
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-erin-henshaw",
       "name": "Erin Henshaw",
-      "role": "Candidata sindaca di Ambrosia",
+      "role": "Candidato sindaco di Ambrosia",
       "isProtagonist": false,
-      "tagline": "Sostenuta dallo zucchero.",
-      "bio": "Candidata a sindaco: compare sui cartelli elettorali, appoggiata dalla raffineria Allied Crystal. Non è ancora noto se si veda di persona.",
+      "tagline": "Sostenuto dallo zucchero.",
+      "bio": "Candidato a sindaco di Ambrosia contro Krever, appoggiato da Allied Crystal, l'azienda della raffineria di zucchero. In città ci sono i suoi cartelli e striscioni; alla radio passano spot, chiamate automatiche e talk show sulla campagna. Per gta.wiki è un uomo; finora non si vede di persona.",
       "districtId": "dis-ambrosia",
       "firstMissionId": null,
-      "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "relations": [
+        "chr-krever"
+      ],
+      "sourceUrl": "https://gta.wiki/w/Erin_Henshaw",
       "imageUrl": "https://gta.wiki/images/ErinHenshaw-GTAVI-OfficialScreenshot-Ambrosia01.png",
       "imageCredit": "Screenshot ufficiale Rockstar (Ambrosia, cartellone elettorale) via GTA Wiki (gta.wiki)",
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.instagram.com/p/Dd_z3a9DR3S/"
+      ]
     },
     {
       "image": "assets/img/vice/personaggi/chr-billy.png",
@@ -2227,41 +2314,25 @@
       ]
     },
     {
-      "image": null,
-      "status": "da verificare",
-      "source": "leak",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "chr-kai",
-      "name": "Kai",
-      "role": "Nome nel menu di sviluppo",
-      "isProtagonist": false,
-      "tagline": "Il quarto protagonista che non c'è.",
-      "bio": "Il suo nome compare nel menu di sviluppo trapelato nel 2022 ed è associato al «Gold Chain Guy» del Trailer 1. Rockstar aveva pensato a quattro protagonisti, poi ha rinunciato all'idea.",
-      "districtId": null,
-      "firstMissionId": null,
-      "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
-    },
-    {
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-shanese",
       "name": "Shanese (@Shaneycee)",
       "role": "Profilo social",
       "isProtagonist": false,
       "tagline": "Commenta le dirette di strada.",
-      "bio": "Un profilo social con questo nome commenta la diretta di un raduno nel Trailer 1. Il nome compare anche nei menu di sviluppo trapelati nel 2022. È un'amica di Lucia.",
+      "bio": "Un profilo Snapmatic, @Shaneycee, che commenta la diretta delle Real Dimez nel Trailer 1. Il nome compariva già nei menu di sviluppo trapelati nel 2022 («Watching Shanese», «Shanese Chat»), e in un video trapelato un amico di Wyman guarda un suo video su Lifeinvader.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
       "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
+      "sourceUrl": "https://gta.wiki/w/Shanese",
+      "insight": "",
+      "imageUrl": "https://gta.wiki/images/Shanese-GTAVI-Trailer1-SnapmaticProfilePicture.png",
+      "imageCredit": "gta.wiki (CC BY-SA)",
+      "image": "assets/img/vice/personaggi/chr-shanese.png"
     },
     {
       "image": "assets/img/vice/personaggi/chr-hammer-lady.png",
@@ -2327,43 +2398,24 @@
       "insight": ""
     },
     {
-      "image": null,
-      "status": "da verificare",
-      "source": "stampa",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "chr-n3on",
-      "name": "N3on (parodia)",
-      "role": "Riferimento reale",
-      "isProtagonist": false,
-      "tagline": "«Felice e benedetto di essere visto così».",
-      "bio": "Lo streamer di Kick a cui somiglia Camilo: ha reagito in diretta alla scena. Anche IShowSpeed, Kai Cenat, Jynxzi e Adin Ross hanno notato la somiglianza durante le loro dirette.",
-      "districtId": null,
-      "firstMissionId": null,
-      "relations": [
-        "chr-camillo"
-      ],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
-    },
-    {
       "image": "assets/img/vice/personaggi/chr-kodak-black.jpg",
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-kodak-black",
       "name": "Kodak Black",
-      "role": "Cameo",
+      "role": "Cameo (interpreta sé stesso)",
       "isProtagonist": false,
       "tagline": "Un drink in mano, tra due donne.",
-      "bio": "Il rapper compare in un'immagine della Launch Gallery, tra due donne, con un drink in mano. La sua «Skrilla» è tra le canzoni dell'Extended Look.",
+      "bio": "Il rapper della Florida interpreta sé stesso: in uno screenshot ufficiale è al Jack of Hearts tra le ballerine, con la sua vera catena «1800 Golden Acres». La sua «Skrilla» si sente nell'Extended Look, e Rupert Humphries di Rockstar l'ha citato a Dazed tra le ispirazioni musicali del gioco.",
       "districtId": "dis-vice-city",
       "firstMissionId": null,
-      "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
+      "relations": [
+        "chr-boobie"
+      ],
+      "sourceUrl": "https://gta.wiki/w/Kodak_Black",
       "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-ViceCity25.jpg",
       "imageCredit": "Screenshot ufficiale Rockstar (Vice City 25, Jack of Hearts) via GTA Wiki (gta.wiki)",
       "insight": ""
@@ -2397,18 +2449,32 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-mud-dog-mike",
       "name": "Mud Dog Mike",
       "role": "Conduttore radio",
       "isProtagonist": false,
       "tagline": "Il meteorologo di palude.",
-      "bio": "Conduce Back Country Radio da Grassrivers, a bordo di un idroscivolante. Lo interpreta Jeremy Dufrene.",
+      "bio": "Il «roving reporter» e meteorologo di palude di Back Country Radio: si collega dal posto di guida del suo idroscivolante nelle Grassrivers. È l'amante neanche tanto segreto della conduttrice Delta Dawne.",
       "districtId": "dis-grassrivers",
       "firstMissionId": null,
-      "relations": [],
-      "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
+      "relations": [
+        "chr-delta-dawne",
+        "chr-mw"
+      ],
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "insight": "",
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-reveals-a-handful-of-radio-stations-djs-and-songs-ahead-of-release",
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/Mud_Dog_Mike"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Lo interpreta Jeremy Dufrene, che nella vita guida davvero idroscivolanti in Louisiana ed è il marito di Lana Del Rey (Delta Dawne)."
+        }
+      ]
     },
     {
       "image": null,
@@ -2416,31 +2482,37 @@
       "source": "leak",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-18",
       "id": "chr-leak-names",
       "name": "Nomi dal leak 2022",
       "role": "Elenco",
       "isProtagonist": false,
-      "tagline": "Vicki, Iris, Zach, Kolt, RB Shaw, Kenny Brewster, Dale, Chester, Danny, Donnie, Dre, Tit, YJ.",
-      "bio": "Nomi dai menu di sviluppo trapelati: Iris (Iris Laundry, contatto per la ricettazione), Kolt (missioni di carico), RB Shaw («nuovi contatti»), Sam (habitué del Jack of Hearts), Chester (Chester's Music), Dale (Dale's Shopwell), Dre (manager di un nightclub), Tit (DJ), DJ Clipse. Jay Norris di Lifeinvader è citato in un dialogo.",
+      "tagline": "Chi c'è davvero nel gioco, e chi no.",
+      "bio": "Nomi dai menu di sviluppo trapelati nel 2022. Nel gioco finito ci sono davvero Vicki, Zach (un ospite del motel che ti manda da lei), Donnie, Billy e i Kolts, che però sono una gang di Port Gellhorn e non un personaggio. Ancora senza riscontro nelle guide: Kai (il nome che aveva fatto pensare a quattro protagonisti), Iris (Iris Laundry, contatto per la ricettazione d'arte), RB Shaw («nuovi contatti»), Sam (habitué del Jack of Hearts), Chester (Chester's Music), Dale (Dale's Shopwell), Dre (manager di un nightclub), Tit (DJ), DJ Clipse. Jay Norris di Lifeinvader è citato in un dialogo.",
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
       "sourceUrl": "https://www.gtavice.net/characters",
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://gta.wiki/w/Kai_(GTA_VI)"
+      ]
     },
     {
       "id": "chr-ricky",
       "name": "Ricky",
       "role": "Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Membro del Thrillbilly Mud Club e vecchio amico di Billy: dice che si conoscono dal primo spinello, nell'ora di ginnastica di terza media. Compare in un'immagine ufficiale con gli altri soci del club ed è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
+      "bio": "Ricardo, detto Ricky: membro del Thrillbilly Mud Club e vecchio amico di Billy, che dice di conoscerlo dal primo spinello, nell'ora di ginnastica di terza media. È nello screenshot ufficiale dei soci del club ed è tra gli avversari di Jason e Lucia nella gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": "mis-thrillbillies",
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "image": "assets/img/vice/personaggi/chr-ricky.png",
       "gallery": [],
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
       "spoilerLevel": 0,
@@ -2448,7 +2520,10 @@
       "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "isProtagonist": false,
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Ricky"
+      ]
     },
     {
       "id": "chr-sam-mud-club",
@@ -2458,18 +2533,23 @@
       "bio": "Socia storica del Thrillbilly Mud Club. Compare con gli altri membri del club, fugge in sella a una Sanchez con Jason e Billy attraverso Gator Plaza e gareggia contro Jason e Lucia sulla pista del club.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "image": "assets/img/vice/personaggi/chr-sam-mud-club.png",
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "stampa",
       "sourceUrl": "https://gta.wiki/w/Sam_(Mud_Club)",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Sam-MudClub-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "isProtagonist": false,
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-mall-rats-walkthrough/"
+      ]
     },
     {
       "id": "chr-brittney",
@@ -2479,10 +2559,12 @@
       "bio": "Nuova arrivata nel Thrillbilly Mud Club. Compare con gli altri membri del club ed è tra gli avversari della gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": "mis-thrillbillies",
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "image": "assets/img/vice/personaggi/chr-brittney.png",
       "gallery": [],
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
       "spoilerLevel": 0,
@@ -2490,7 +2572,10 @@
       "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Brittney-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "isProtagonist": false,
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Brittney"
+      ]
     },
     {
       "id": "chr-ej",
@@ -2500,15 +2585,17 @@
       "bio": "Membro del Thrillbilly Mud Club, trattato dal giro di Billy come «quello lento». È tra gli avversari della gara fuoristrada organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "image": null,
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
+      "source": "leak",
       "sourceUrl": "https://gta.wiki/w/EJ",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2520,35 +2607,43 @@
       "bio": "Membro del Thrillbilly Mud Club. Con gli altri soci è avversario di Jason nella gara di iniziazione in dirt bike organizzata da Billy.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-billy"
+      ],
       "image": null,
       "gallery": [],
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gta.wiki/w/Ian",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-hometown-heroes-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
-      "insight": ""
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Ian"
+      ]
     },
     {
       "id": "chr-sparky-malarky",
       "name": "Sparky Malarky",
       "role": "Meccanico del Thrillbilly Mud Club",
       "tagline": "",
-      "bio": "Il meccanico del Thrillbilly Mud Club.",
+      "bio": "Il meccanico del Thrillbilly Mud Club, detto anche Sparks. Finora si vede solo nel video trapelato a ottobre 2026 con la presentazione di Billy; le guide non lo nominano ancora.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-billy",
+        "chr-wyman"
+      ],
       "image": null,
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
+      "source": "leak",
       "sourceUrl": "https://gta.wiki/w/Sparky_Malarky",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2557,18 +2652,20 @@
       "name": "Krever",
       "role": "Candidato sindaco di Ambrosia",
       "tagline": "",
-      "bio": "Il rivale di Erin Henshaw nella corsa a sindaco di Ambrosia. I suoi cartelli elettorali sono affissi in città, in parte coperti.",
+      "bio": "Il rivale di Erin Henshaw nella corsa a sindaco di Ambrosia. I suoi cartelli si vedono, in parte coperti, in uno screenshot ufficiale; il nome intero è uscito solo con i leak dell'agosto 2026.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-erin-henshaw"
+      ],
       "image": null,
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
+      "source": "leak",
       "sourceUrl": "https://gta.wiki/w/Krever",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2580,7 +2677,9 @@
       "bio": "Personaggio minore: lavora allo strip club Jack of Hearts di Crosstown, a Vice City. Il nome gioca sulla Monna Lisa di Leonardo.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-boobie"
+      ],
       "image": "assets/img/vice/personaggi/chr-monalisa.png",
       "gallery": [],
       "status": "da verificare",
@@ -2588,7 +2687,7 @@
       "sourceUrl": "https://gta.wiki/w/Monali$a",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Monali%24a-GTAVI-Portrait.png",
       "isProtagonist": false,
       "insight": ""
@@ -2601,7 +2700,9 @@
       "bio": "Uno dei protagonisti del cartone Macca & Friends, insieme a Macca the Gator. È sulle pubblicità dello show (chioschi digitali, cartellone vicino all'arena) e su un crop top di Lucia. Esiste anche come oggetto da collezione vero, nel cofanetto Vice City Collection.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-macca"
+      ],
       "image": "assets/img/vice/personaggi/chr-chunkee-the-manatee.png",
       "gallery": [],
       "status": "verificato",
@@ -2609,7 +2710,7 @@
       "sourceUrl": "https://gta.wiki/w/Chunkee_the_Manatee",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Macca%26Friends-ChunkeeTheManatee-GTAVI-CE-Artwork.png",
       "isProtagonist": false,
       "insight": ""
@@ -2622,7 +2723,9 @@
       "bio": "Granchio del cartone Macca & Friends. Compare nelle pubblicità dello show sparse per Vice City e in un artwork animato della Vice City Collection.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-macca"
+      ],
       "image": "assets/img/vice/personaggi/chr-pinche-the-crab.png",
       "gallery": [],
       "status": "verificato",
@@ -2630,7 +2733,7 @@
       "sourceUrl": "https://gta.wiki/w/Pinche_the_Crab",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://gta.wiki/images/Macca%26Friends-PincheTheCrab-GTAVI-CE-Artwork.png",
       "isProtagonist": false,
       "insight": ""
@@ -2643,7 +2746,9 @@
       "bio": "Amico d'infanzia di Brian Heder, di cui Brian parla sul tetto dell'Effluvia. Da ragazzini si intrufolarono in un luna park e fecero partire una giostra: Brian saltò giù in tempo, Jimmy si spaccò la testa e morì quella notte. Brian usa la storia per mettere in guardia Jason e Lucia.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-brian"
+      ],
       "image": null,
       "gallery": [],
       "status": "verificato",
@@ -2651,7 +2756,7 @@
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2667,11 +2772,11 @@
       "image": null,
       "gallery": [],
       "status": "da verificare",
-      "source": "community",
+      "source": "leak",
       "sourceUrl": "https://gta.wiki/w/Lil_Ricky_Sawdust",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2683,14 +2788,16 @@
       "bio": "Cantante country: il suo nome in corsivo rosso compare sulla maglietta di Brian Heder, con il titolo di un disco o di una canzone, «I Gotta Big Truck With Your Face On It!». Parodia di un cantautore americano.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-brian"
+      ],
       "gallery": [],
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gta.wiki/w/Kenny_Brewster",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "isProtagonist": false,
       "insight": ""
     },
@@ -2818,15 +2925,952 @@
       "bio": "Il fenicottero di «Macca & Friends», il cartone di Weazel con Macca the Gator. È sul crop top di Lucia dell'Ultimate Edition, sulle pubblicità dello show e tra gli oggetti da collezione veri del cofanetto Vice City Collection.",
       "districtId": null,
       "firstMissionId": null,
-      "relations": [],
+      "relations": [
+        "chr-macca"
+      ],
       "gallery": [],
       "insight": "",
       "example": false,
       "status": "verificato",
       "source": "trailer",
       "spoilerLevel": 0,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "sourceUrl": "https://gta.wiki/w/Fede_the_Flamingo"
+    },
+    {
+      "id": "chr-tomas",
+      "name": "Tomás",
+      "role": "Personaggio del prologo",
+      "isProtagonist": false,
+      "tagline": "Il motivo per cui Lucia vuole uscire.",
+      "bio": "Il figlio piccolo di Lucia, che lo chiama Tommy. Compare nel prologo, nel ricordo dell'arresto di Lucia: è il motivo per cui lei vuole uscire presto dal penitenziario.",
+      "districtId": null,
+      "firstMissionId": "mis-prologo-lucia",
+      "relations": [
+        "chr-lucia"
+      ],
+      "image": "assets/img/vice/personaggi/chr-tomas.png",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-prologue-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Tom%C3%A1s"
+      ],
+      "imageUrl": "https://gta.wiki/images/Tom%C3%A1s-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-donnie",
+      "name": "Donnie",
+      "role": "Pilota di Brian",
+      "isProtagonist": false,
+      "tagline": "Berretto rosso, idrovolante, guai.",
+      "bio": "Il pilota della marina di Brian: dal suo idrovolante lancia in mare i pacchi che Jason e Cal ripescano. Berretto rosso, occhiali a goccia gialli e marsupio turchese; si vedeva già nel Trailer 2 mentre carica il Dodo con Jason e Cal. Nella prima missione di Jason va tirato fuori dal campo dei Kingfishers, nelle paludi. Accetta anche la droga trovata in mare, come ricettatore.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-prologo-keys",
+      "relations": [
+        "chr-brian",
+        "chr-jason",
+        "chr-cal"
+      ],
+      "image": "assets/img/vice/personaggi/chr-donnie.png",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-gone-fishing-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Donnie",
+        "https://www.powerpyx.com/gta-6-find-the-lost-drugs-walkthrough/"
+      ],
+      "imageUrl": "https://gta.wiki/images/Donnie-GTAVI-AnExtendedLook-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-kenton-rees",
+      "name": "Kenton Rees",
+      "role": "Cacciatore di tesori",
+      "isProtagonist": false,
+      "tagline": "Conosce i relitti come le sue tasche.",
+      "bio": "Cacciatore di tesori originario di Trinidad e caro amico di Brian. A Key Lento ha un negozio di immersioni sulla spiaggia, che usa come copertura per esplorare i relitti da quando il rivale Sir Todd Bancroft gli ha fatto togliere i permessi. Da lì ti affida le serie di relitti da ripulire con il metal detector, con un trofeo alla fine.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-hey-arnold",
+      "relations": [
+        "chr-brian",
+        "chr-jason"
+      ],
+      "image": "assets/img/vice/personaggi/chr-kenton-rees.png",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Kenton_Rees"
+      ],
+      "imageUrl": "https://gta.wiki/images/KentonRees-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-sir-todd-bancroft",
+      "name": "Sir Todd Bancroft",
+      "role": "Esploratore rivale di Kenton",
+      "isProtagonist": false,
+      "tagline": "«L'esploratore definitivo», dice lui.",
+      "bio": "Ricco esploratore inglese che si definisce «l'esploratore definitivo». È il rivale di Kenton Rees: lo ha denunciato alle autorità e si è preso i permessi ufficiali per esplorare i relitti di Leonida.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-island-dreams",
+      "relations": [
+        "chr-kenton-rees"
+      ],
+      "image": "assets/img/vice/personaggi/chr-sir-todd-bancroft.png",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://gta.wiki/w/Sir_Todd_Bancroft",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "imageUrl": "https://gta.wiki/images/SirToddBancroft-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-mandy",
+      "name": "Mandy",
+      "role": "Inquilina di Brian",
+      "isProtagonist": false,
+      "tagline": "Paga solo se le aggiusti il lavandino.",
+      "bio": "Inquilina di Brian a Key Lento, in Peach Palm Drive. Non paga l'affitto finché qualcuno non le sistema il lavandino, e con Jason ci prova in modo imbarazzante. Se raccogli la scatola che butta in strada, ti porti via dei sigari Macizo.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-pipework",
+      "relations": [
+        "chr-brian",
+        "chr-jason"
+      ],
+      "image": "assets/img/vice/personaggi/chr-mandy.png",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-pipework-collect-mandys-rent-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Mandy"
+      ],
+      "imageUrl": "https://gta.wiki/images/Mandy-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-shirley",
+      "name": "Shirley",
+      "role": "Vicina di casa di Jason",
+      "isProtagonist": false,
+      "tagline": "Ha sempre sete di rum.",
+      "bio": "La vicina di casa di Jason a Key Lento: ti chiama quando passi e chiede piccoli favori, prima il suo rum e poi uno scooter. Le sue due missioni esistono solo nel capitolo 1 e non servono per trofei o 100%.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-get-shirleys-rum",
+      "relations": [
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-get-shirleys-rum-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-steal-the-scooter-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-joey",
+      "name": "Joey",
+      "role": "Meccanico di Key Lento",
+      "isProtagonist": false,
+      "tagline": "Rimette in strada la Ganado.",
+      "bio": "Il meccanico della Coastal Auto Care di Key Lento. Ripara gratis il motore della Ganado di Jason e la rivernicia: ti mostra come funzionano le officine, dove puoi tornare per le modifiche.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-just-a-scratch",
+      "relations": [
+        "chr-jason",
+        "chr-brian"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Joey"
+      ]
+    },
+    {
+      "id": "chr-arnold",
+      "name": "Arnold",
+      "role": "Intermediario di Brian",
+      "isProtagonist": false,
+      "tagline": "Ha smesso di rispondere a Brian.",
+      "bio": "L'intermediario di fiducia di Brian da anni. Dopo il guaio con i Kingfishers smette di farsi sentire, e Brian manda Jason e Cal a cercarlo a Key Lento. Cosa farne alla fine lo decidi tu: la scelta non cambia il resto del gioco.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-hey-arnold",
+      "relations": [
+        "chr-brian",
+        "chr-jason",
+        "chr-cal"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-andy",
+      "name": "Andy",
+      "role": "Amica di Lucia",
+      "isProtagonist": false,
+      "tagline": "Tiene da parte i vestiti di Lucia.",
+      "bio": "Amica di Lucia: lavora al bar Manatee's Rest di Key Lento e le tiene da parte dei vestiti per quando esce di prigione. Ha la stessa taglia di Lucia. Più avanti ha una sua serie di missioni secondarie, solo per Lucia, con un trofeo.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-get-lucias-clothes",
+      "relations": [
+        "chr-lucia",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-get-lucias-clothes-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "id": "chr-kat",
+      "name": "Kat",
+      "role": "Ex compagna di cella di Lucia",
+      "isProtagonist": false,
+      "tagline": "Dalla cella allo yacht.",
+      "bio": "Ex compagna di cella di Lucia, incinta, compagna del ricco Mattia. La rivedi alla festa al Rusty Anchor e poi in barca con Mattia, Jason e Lucia.",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-coming-home",
+      "relations": [
+        "chr-lucia",
+        "chr-mattia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-mattia",
+      "name": "Mattia",
+      "role": "Compagno di Kat",
+      "isProtagonist": false,
+      "tagline": "Yacht, moto d'acqua e soldi non suoi.",
+      "bio": "Il compagno di Kat. Ama le feste in yacht, le moto d'acqua e i locali di Vice City, e dice di lavorare per qualcuno molto ricco. Si porta dietro un tirapiedi, Burim. Sfida Jason a biliardo e propone alla coppia lavori «facili».",
+      "districtId": "dis-keys",
+      "firstMissionId": "mis-coming-home",
+      "relations": [
+        "chr-kat",
+        "chr-lucia",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-kirk",
+      "name": "Kirk",
+      "role": "Cacciatore dello Skunk Ape",
+      "isProtagonist": false,
+      "tagline": "Insegue Mr. Mangrove con un drone.",
+      "bio": "Dà la caccia allo Skunk Ape, che chiama Mr. Mangrove, di notte nelle paludi della contea di Mariana, con un drone. Ha il viso segnato e dà la colpa al «polline» della creatura. Lo trovi leggendo uno dei suoi volantini (ce n'è uno allo Skeeter's di Hamlet) e chiamandolo. Tre missioni tra il capitolo 1 e il 2; valgono per il trofeo «Sconosciuti e folli».",
+      "districtId": "dis-grassrivers",
+      "firstMissionId": null,
+      "relations": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "id": "chr-pilot-pete",
+      "name": "Pilot Pete",
+      "role": "Pilota contrabbandiere",
+      "isProtagonist": false,
+      "tagline": "Un vecchio contatto di Brian, in volo.",
+      "bio": "Pilota di contrabbando, vecchio contatto di Brian. La prima volta scorti il suo aereo fino a una pista nelle paludi. Dal capitolo 4 chiama Jason per una serie di consegne in aereo, pagate fino a 20.000 $ l'una: solo Jason, valgono per il trofeo «Sconosciuti e folli». Nel suo hangar c'è il suo fucile d'assalto unico.",
+      "districtId": null,
+      "firstMissionId": "mis-clear-skies",
+      "relations": [
+        "chr-brian",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-clear-skies-join-donnie-on-a-job-walkthrough/",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-the-last-mile-passing-the-torch-recover-petes-plane-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "id": "chr-linda",
+      "name": "Linda",
+      "role": "Direttrice dello Starlet Motel",
+      "isProtagonist": false,
+      "tagline": "Prima si paga, poi si parla.",
+      "bio": "Gestisce la reception dello Starlet Motel, nella contea di Kelly. Poco accogliente: vuole subito i soldi della stanza e, finché non paghi, tiene in pegno quello che le lasci.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-overnight-charges",
+      "relations": [
+        "chr-lucia",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-vicki",
+      "name": "Vicki",
+      "role": "Vicina di stanza al motel",
+      "isProtagonist": false,
+      "tagline": "Stanza 10: sa dove trovare le pillole.",
+      "bio": "Sta nella stanza 10 dello Starlet Motel e sa dove procurarsi le pillole. Lavora al Delights, lo strip club di Port Gellhorn, e fa conoscere a Lucia e Jason gente del posto come Dunk e Moses. Il suo nome era già nei menu di sviluppo trapelati nel 2022.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-girls-trip",
+      "relations": [
+        "chr-lucia",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+        "https://gta.wiki/w/Vicki_(GTA_VI)"
+      ]
+    },
+    {
+      "id": "chr-moses",
+      "name": "Moses",
+      "role": "Meccanico e ricettatore di Port Gellhorn",
+      "isProtagonist": false,
+      "tagline": "Auto senza localizzatore, nessuna domanda.",
+      "bio": "Meccanico di Port Gellhorn. Registra come veicolo personale le auto rubate senza localizzatore, ti regala lo Slim Jim per aprire le portiere senza far scattare l'allarme e compra auto rubate (circa 1.000 $).",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-moses",
+      "relations": [
+        "chr-vicki"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-dunk",
+      "name": "Dunk",
+      "role": "Ricettatore di Port Gellhorn",
+      "isProtagonist": false,
+      "tagline": "Vive in roulotte, conosce tutti.",
+      "bio": "Vive in una roulotte a Port Gellhorn e si arrangia come può: promette di trovare antidolorifici più forti per Jason e poi diventa uno dei tuoi ricettatori. Dà anche soffiate sulle rapine.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-girls-trip",
+      "relations": [
+        "chr-vicki",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-painkiller-supplier-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/"
+      ]
+    },
+    {
+      "id": "chr-kyle",
+      "name": "Kyle",
+      "role": "Pilota agricolo della McKittrick Farm",
+      "isProtagonist": false,
+      "tagline": "Si è fatto male a una mano.",
+      "bio": "Pilota di aerei agricoli alla McKittrick Farm, nella contea di Kelly. Si è ferito a una mano e cerca qualcuno che irrori i campi al posto suo: lo trovi dal volantino appeso fuori dalla reception dello Starlet Motel. Tre missioni; valgono per il trofeo «Sconosciuti e folli».",
+      "districtId": null,
+      "firstMissionId": "mis-check-out-mckittrick-farm",
+      "relations": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "id": "chr-bret-vogel",
+      "name": "Bret Vogel",
+      "role": "Veterano e cacciatore",
+      "isProtagonist": false,
+      "tagline": "Vende sale «aromatizzato» alla paura.",
+      "bio": "Vecchio amico di Jason e veterano. Con la sua azienda Killtelligence vende la «Kill Salt», un sale che secondo lui sa di animale appena cacciato, e vuole una mano con la caccia vicino al Mount Kalaga, in Lummox County. Scrive solo a Jason, che deve andarci da solo. Alla prima uscita gli regala il fucile Killtelligence SM-69, poi segna sulla mappa 15 cacce, con un trofeo.",
+      "districtId": "dis-mount-kalaga",
+      "firstMissionId": "mis-veteran-hunted",
+      "relations": [
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "id": "chr-mia",
+      "name": "Mia Caminos",
+      "role": "Madre di Lucia",
+      "isProtagonist": false,
+      "tagline": "Agente immobiliare, a modo suo.",
+      "bio": "La madre di Lucia, arrivata da Liberty City. A Vice City ha appena aperto un'agenzia immobiliare, ma la prima casa da vendere, a Hamlet, è in condizioni disastrose e ha per vicini la gang M7.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-mami-knows-best",
+      "relations": [
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-mami-knows-best-catch-up-with-mia-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-south-leonida-real-estate-meet-mia-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-tyrone",
+      "name": "Tyrone",
+      "role": "Spacciatore di La Perle",
+      "isProtagonist": false,
+      "tagline": "Prima chiede se sei un federale.",
+      "bio": "Spacciatore di La Perle, conoscente di Dre'Quan: è l'uomo del Trailer 2 che chiede a Dre'Quan se Jason sia un federale. Vende a Jason la merce da piazzare e poi gli affida altri lavori, compresa la serie contro i laboratori della Kitty Litter, che ha un trofeo.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-dealers-choice",
+      "relations": [
+        "chr-drequan",
+        "chr-jason"
+      ],
+      "image": "assets/img/vice/personaggi/chr-tyrone.png",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-dealers-choice-go-see-drequan-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://gta.wiki/w/Tyrone",
+        "https://www.powerpyx.com/gta-6-here-kitty-kitty-speak-with-tyrone-walkthrough/"
+      ],
+      "imageUrl": "https://gta.wiki/images/UnnamedThug-GTAVI-Trailer2-Portrait.png",
+      "imageCredit": "Frame del Trailer 2 via gta.wiki (CC BY-SA)"
+    },
+    {
+      "id": "chr-yasmani",
+      "name": "Yasmani",
+      "role": "Ricettatore di Little Cuba",
+      "isProtagonist": false,
+      "tagline": "Paga meglio gioielli e banconote segnate.",
+      "bio": "Uomo d'affari di Little Cuba che compra refurtiva: per gioielli e banconote segnate paga più degli altri ricettatori. Te lo presenta Boobie in una tabaccheria. Ti chiede pezzi precisi da prendere nelle gioiellerie, ti dà la Snap Gun per aprire le porte senza allarme e più avanti vende le soffiate sui furgoni portavalori.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-boobie-time",
+      "relations": [
+        "chr-boobie",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-boobie-time-talk-to-boobie-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
+        "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-karim",
+      "name": "Karim",
+      "role": "Tecnico della squadra di Raul",
+      "isProtagonist": false,
+      "tagline": "Taglia gli allarmi.",
+      "bio": "L'esperto di tecnologia della squadra di Raul: taglia gli allarmi durante i colpi e procura l'attrezzatura, come il disturbatore per le cariche di inchiostro (Dye Pack Jammer) e le cariche esplosive.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-crosstown-traffic",
+      "relations": [
+        "chr-raul",
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-crosstown-traffic-meet-raul-walkthrough/",
+        "https://www.powerpyx.com/gta-6-hidden-charges-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-andrea",
+      "name": "Andrea",
+      "role": "Comunicazioni e travestimenti per Raul",
+      "isProtagonist": false,
+      "tagline": "Le maschere le sceglie da lei.",
+      "bio": "Nella squadra di Raul si occupa delle comunicazioni e dei travestimenti: è da lei che scegli le maschere per i colpi. Lavora anche sul campo con Lucia.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-credit-check",
+      "relations": [
+        "chr-raul",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-felipe",
+      "name": "Felipe",
+      "role": "Autista della squadra di Raul",
+      "isProtagonist": false,
+      "tagline": "Quello al volante.",
+      "bio": "L'autista della squadra di Raul, presentato insieme a Karim e Andrea nella base di Stockyard.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-credit-check",
+      "relations": [
+        "chr-raul"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-nicole",
+      "name": "Nicole",
+      "role": "Esperta di sicurezza",
+      "isProtagonist": false,
+      "tagline": "Conosce la cassaforte giusta.",
+      "bio": "Esperta di sicurezza, finora al servizio della Polilla Negra. Raul la vuole nella squadra: sa che cassaforte c'è nella banca da colpire e fa esercitare Lucia a scassinarla.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-security-expert",
+      "relations": [
+        "chr-raul",
+        "chr-lucia",
+        "chr-jason"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-security-expert-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/"
+      ]
+    },
+    {
+      "id": "chr-evelyn-andrews",
+      "name": "Evelyn Andrews",
+      "role": "Antiquaria di Capri",
+      "isProtagonist": false,
+      "tagline": "Guarda la statua e vi mette alla porta.",
+      "bio": "Ha un negozio di antiquariato a Capri, l'Evelyn Andrews Antiques. Jason e Lucia le portano una statua per capire che cos'è: lei li manda via in fretta.",
+      "districtId": "dis-capri",
+      "firstMissionId": "mis-dubious-provenance",
+      "relations": [
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-halifax",
+      "name": "Benedict Halifax",
+      "role": "Antiquario inglese",
+      "isProtagonist": false,
+      "tagline": "Valuta tutto, fuori dai registri.",
+      "bio": "Antiquario inglese, collega di Evelyn Andrews. Raggiunge Jason e Lucia fuori dal negozio e si offre di valutare la statua di nascosto, lasciando in pegno il suo orologio, un Crowex di valore.",
+      "districtId": "dis-capri",
+      "firstMissionId": "mis-dubious-provenance",
+      "relations": [
+        "chr-evelyn-andrews",
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-monty",
+      "name": "Monty",
+      "role": "Uomo della Polilla Negra",
+      "isProtagonist": false,
+      "tagline": "Lo trovi ai combattimenti di galli.",
+      "bio": "Uno degli uomini di peso della Polilla Negra. Andrea e Lucia lo vanno a cercare a un combattimento di galli a Watson Bay, perché sa cose che servono alla squadra di Raul.",
+      "districtId": null,
+      "firstMissionId": "mis-the-missing-link",
+      "relations": [
+        "chr-andrea",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-gil",
+      "name": "Gil",
+      "role": "Produttore di film per adulti",
+      "isProtagonist": false,
+      "tagline": "Una villa, un set e una cassaforte.",
+      "bio": "Produttore di film per adulti con una villa a Vice City: nel suo ufficio c'è la cassaforte, uguale in piccolo a quella della banca, che serve a Lucia per esercitarsi.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-safe-word",
+      "relations": [
+        "chr-nicole"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/",
+      "spoilerLevel": 3,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-eddie-acosta",
+      "name": "Eddie Acosta",
+      "role": "Appassionato di criptovalute",
+      "isProtagonist": false,
+      "tagline": "Ti vuole far «investire».",
+      "bio": "Fanatico di criptovalute che attacca bottone al bar della piscina dello Y Hotel e qualche giorno dopo ti invita a una festa a Heathcliff Heights. È una trappola: ti chiude sul tetto finché non «investi» 50.000 $, in cambio di un NFT che non vale niente. Non pagare. Ha una sola missione, non conta per «Sconosciuti e folli»; ci vai da solo.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-pool-day",
+      "relations": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-abe-gonzalez",
+      "name": "Abe Gonzalez",
+      "role": "Avvocato",
+      "isProtagonist": false,
+      "tagline": "L'avvocato a cui si rivolgono Jason e Lucia.",
+      "bio": "Avvocato di Vice City: quando a Jason e Lucia serve un legale, il nome è il suo. Torna più volte e ogni volta c'è una parcella da pagare.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-lawyer-up",
+      "relations": [
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-shayna",
+      "name": "Shayna",
+      "role": "Chiama Lucia dal carcere",
+      "isProtagonist": false,
+      "tagline": "Una telefonata a carico.",
+      "bio": "Chiama Lucia dal carcere con una telefonata a carico e le chiede di andarla a prendere. È una missione facoltativa solo per Lucia, a tempo: se aspetti troppo la perdi.",
+      "districtId": null,
+      "firstMissionId": "mis-this-is-a-free-call-from",
+      "relations": [
+        "chr-lucia"
+      ],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": ""
+    },
+    {
+      "id": "chr-delta-dawne",
+      "name": "Delta Dawne",
+      "role": "Conduttrice di Back Country Radio",
+      "isProtagonist": false,
+      "tagline": "Country ribelle, con MW.",
+      "bio": "Conduce Back Country Radio, il country «da idroscivolante» che arriva fino alle Grassrivers e a Port Gellhorn, insieme a MW. Mud Dog Mike, il meteorologo di palude della stazione, è il suo amante neanche tanto segreto.",
+      "districtId": "dis-grassrivers",
+      "firstMissionId": null,
+      "relations": [
+        "chr-mw",
+        "chr-mud-dog-mike"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-reveals-a-handful-of-radio-stations-djs-and-songs-ahead-of-release",
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/Delta_Dawne"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La interpreta Lana Del Rey (annuncio delle radio di Rockstar, ripreso da IGN). Il nome viene dalla canzone country «Delta Dawn»."
+        }
+      ]
+    },
+    {
+      "id": "chr-mw",
+      "name": "MW",
+      "role": "Conduttore di Back Country Radio",
+      "isProtagonist": false,
+      "tagline": "Le iniziali dicono già tutto.",
+      "bio": "Conduce Back Country Radio con Delta Dawne: country fuori dagli schemi per l'entroterra di Leonida.",
+      "districtId": "dis-grassrivers",
+      "firstMissionId": null,
+      "relations": [
+        "chr-delta-dawne",
+        "chr-mud-dog-mike"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-reveals-a-handful-of-radio-stations-djs-and-songs-ahead-of-release",
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/MW"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Lo interpreta Morgan Wallen, che firma anche un brano originale dell'album di GTA VI (annuncio delle radio di Rockstar, ripreso da IGN)."
+        }
+      ]
+    },
+    {
+      "id": "chr-el-martillo",
+      "name": "El Martillo",
+      "role": "Conduttore di Cocoteo FM",
+      "isProtagonist": false,
+      "tagline": "El party que nunca se apaga.",
+      "bio": "Conduce Cocoteo FM, la stazione della musica latina di Leonida (bachata, merengue, dembow, reggaeton), insieme a La Gata.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [
+        "chr-la-gata"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-reveals-a-handful-of-radio-stations-djs-and-songs-ahead-of-release",
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/El_Martillo"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Lo interpreta Bad Bunny (annuncio delle radio di Rockstar, ripreso da IGN)."
+        }
+      ]
+    },
+    {
+      "id": "chr-la-gata",
+      "name": "La Gata",
+      "role": "Conduttrice di Cocoteo FM",
+      "isProtagonist": false,
+      "tagline": "La voce latina di Leonida.",
+      "bio": "Conduce Cocoteo FM con El Martillo: la musica latina di oggi, dalla bachata al reggaeton.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [
+        "chr-el-martillo"
+      ],
+      "image": null,
+      "status": "verificato",
+      "source": "trailer",
+      "sourceUrl": "https://www.rockstargames.com/VI/music",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "insight": "",
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-reveals-a-handful-of-radio-stations-djs-and-songs-ahead-of-release",
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/La_Gata"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La interpreta la cantante portoricana RaiNao (annuncio delle radio di Rockstar, ripreso da IGN)."
+        }
+      ]
     }
   ],
   "schemaVersion": 1

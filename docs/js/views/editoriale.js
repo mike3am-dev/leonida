@@ -14,16 +14,19 @@ const fonte = (x) => `<p class="source-line">Fonte: ${esc(x.source)}${x.sourceUr
 /* ---------- Personaggi ---------- */
 const secP = sectionOf('personaggi');
 const GROUPS = [
-  ['🌴', 'Le Keys: la famiglia di Jason', 'Contrabbando, barche e vita di provincia tra le isole.', ['chr-brian', 'chr-lori', 'chr-cal']],
-  ['🎤', 'Vice City: la scena musicale', 'Rapper, produttori e leggende dei club.', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
-  ['💰', 'Il colpo grosso', 'Chi vive di rapine.', ['chr-raul']],
+  ['🌴', 'Le Keys: la famiglia di Jason', 'Contrabbando, barche e vita di provincia tra le isole.', ['chr-brian', 'chr-lori', 'chr-cal', 'chr-donnie', 'chr-arnold', 'chr-joey', 'chr-mandy', 'chr-shirley', 'chr-kenton-rees', 'chr-sir-todd-bancroft', 'chr-kirk', 'chr-pilot-pete']],
+  ['🌺', 'Il mondo di Lucia', 'La famiglia, le amiche e chi le tiene da parte le cose.', ['chr-tomas', 'chr-mia', 'chr-kat', 'chr-mattia', 'chr-andy']],
+  ['🏨', 'Port Gellhorn e lo Starlet Motel', 'Motel, roulotte e gente che sa sempre qualcosa.', ['chr-linda', 'chr-vicki', 'chr-shayna']],
+  ['🎤', 'Vice City: la scena musicale', 'Rapper, produttori e leggende dei club.', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-bae-luxe', 'chr-roxy', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
+  ['💰', 'Il colpo grosso', 'Chi vive di rapine, e chi le rende possibili.', ['chr-raul', 'chr-karim', 'chr-andrea', 'chr-felipe', 'chr-nicole', 'chr-yasmani', 'chr-gil', 'chr-monty', 'chr-evelyn-andrews', 'chr-halifax']],
   ['🏢', 'Megamundo', 'Soldi, potere e sorrisi di plastica.', ['chr-andres', 'chr-petra', 'chr-valentina', 'chr-cesar']],
-  ['🏁', 'Strada, gang e corse', 'San4San, corse clandestine e quartieri caldi.', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee']],
-  ['🚔', 'La legge e lo Stato', 'Polizia, penitenziario e politica.', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw']],
-  ['🔧', 'Affari e mezzi', 'Meccanici, ricettatori e club di fango.', ['chr-wyman', 'chr-randy', 'chr-billy']],
-  ['📺', 'Voci, schermi e cult', 'Streamer, mascotte, comparse diventate meme.', ['chr-camillo', 'chr-n3on', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
+  ['🏁', 'Strada, gang e corse', 'San4San, corse clandestine e quartieri caldi.', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee', 'chr-tyrone', 'chr-dunk']],
+  ['🚔', 'La legge e lo Stato', 'Polizia, penitenziario, tribunali e politica.', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw', 'chr-abe-gonzalez']],
+  ['🔧', 'Affari e mezzi', 'Meccanici, ricettatori, cacciatori e club di fango.', ['chr-wyman', 'chr-randy', 'chr-moses', 'chr-eddie-acosta', 'chr-bret-vogel', 'chr-kyle', 'chr-billy']],
+  ['📻', 'Le voci della radio', 'Chi parla tra una canzone e l\'altra.', ['chr-el-martillo', 'chr-la-gata', 'chr-mw', 'chr-delta-dawne']],
+  ['📺', 'Voci, schermi e cult', 'Streamer, mascotte, comparse diventate meme.', ['chr-camillo', 'chr-phil', 'chr-mud-dog-mike', 'chr-macca', 'chr-fede-the-flamingo', 'chr-hammer-lady', 'chr-rudi', 'chr-leonida-joker']],
   ['🎸', 'Band, locali e comparse', 'Gruppi musicali, mascotte e volti visti di sfuggita nei trailer.', ['chr-gutless-wonders', 'chr-the-hummers-the-strummers', 'chr-dolls-of-destruction', 'chr-monalisa', 'chr-sparky-malarky', 'chr-chunkee-the-manatee', 'chr-pinche-the-crab', 'chr-ricky', 'chr-sam-mud-club', 'chr-brittney', 'chr-ej', 'chr-ian', 'chr-krever', 'chr-jimmy-canto', 'chr-lil-ricky-sawdust', 'chr-kenny-brewster']],
-  ['🕵️', 'Dai leak (da verificare)', 'Nomi emersi dal leak del 2022: prendili con le pinze.', ['chr-kai', 'chr-shanese', 'chr-leak-names']],
+  ['🕵️', 'Dai leak (da verificare)', 'Nomi emersi dal leak del 2022: prendili con le pinze.', ['chr-shanese', 'chr-leak-names']],
 ];
 const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
 const monogram = (x) => { const h = HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length]; const ini = x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join(''); return `<span class="monogram" style="--h:${h}">${esc(ini.toUpperCase())}</span>`; };

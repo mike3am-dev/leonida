@@ -20,36 +20,44 @@
       "id": "brd-the-album",
       "name": "Grand Theft Auto VI: The Album",
       "category": "Colonna sonora",
-      "description": "34 brani originali, in uscita il 19 novembre insieme al gioco. Singoli già annunciati: «That's It» di Yung Lean con Future e Metro Boomin, «RHYNO» di Travis Scott, «Sexy Magic» di CA7RIEL & Paco Amoroso con PinkPantheress, Fred again.. ed Etienne de Crécy, «Flower in a Hurricane» dei Justice, «Last Thing You Need» di Morgan Wallen, «Suzuki» dei Fuerza Regida, «Macacoa 2000» di Rauw Alejandro, «Don't Chart» di Cardi B, «Bright Lights, Big City» di Keith Richards, «Blood in Your Eyes» di Tove Lo. In vinile standard ed esclusivo.",
+      "description": "34 brani originali scritti per il gioco, pubblicati con Atlantic Records: esce il 19 novembre insieme a GTA VI, in digitale, vinile e CD. Lo aprono i Justice con Michael McDonald; dentro ci sono Travis Scott, Playboi Carti, Dua Lipa, Lana Del Rey, Jennie, Cardi B, Burna Boy, Morgan Wallen, Rauw Alejandro e Keith Richards. Diversi brani passano anche alla radio, soprattutto su VCRR.",
       "image": "assets/img/the-album.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-17",
+      "updatedAt": "2026-11-18",
       "extras": [
         {
-          "source": "leak",
-          "text": "La scaletta completa letta sul retro del vinile aggiunge 24 inediti, tra cui «Go Easy» di Dua Lipa, «Crazy for You» di Lana Del Rey, «Power Trip» di Jennie, «Ahh Yea» di Playboi Carti, «Fast Emotion» di Zara Larsson, «Sweet Like Candy» di Camila Cabello, «Bigger» di Burna Boy e «Starting From Zero» dei Justice con Michael McDonald, che apre il disco."
+          "source": "stampa",
+          "text": "La scaletta completa, confermata da Billboard dopo la foto del vinile: il brano d'apertura dei Justice con Michael McDonald (titolo omesso: è anche il nome di una missione), «That's It» (Yung Lean con Future e Metro Boomin), «Ahh Yea» (Playboi Carti), «RHYNO» (Travis Scott), «Sexy Magic» (CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. ed Étienne de Crécy), «Flower in a Hurricane» (Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard), «Go Easy» (Dua Lipa), «Last Thing You Need» (Morgan Wallen), «X» (Jhayco), «Suzuki» (Fuerza Regida), «Macacoa 2000» (Rauw Alejandro), «Dance With Me» (A Boogie wit da Hoodie con Elkan), «Bigger» (Burna Boy), «Count Up» (Gunna), «Let's Rock» (Kodak Black e Don Toliver), «Wakin Up Flex» (Young Thug), «IKYFL» (Tee Grizzley), «TF?» (Don Toliver), «Don't Chart» (Cardi B), «GMA» (JT), «Power Trip» (Jennie), «Blood in Your Eyes» (Tove Lo), «Fast Emotion» (Zara Larsson), «Sweet Like Candy» (Camila Cabello), «Only One» (Fcukers), «Sandunguea» (Arca), «TRDWFE» (Rina Sawayama), «All Again» (Rose Gray), «Crazy for You» (Lana Del Rey), «Largate» (Kali Uchis e Helado Negro), «No Me Busques» (Omar Apollo), «Bright Lights, Big City» (Keith Richards), «Stone Kold Krazy Luuv» (Jesse Johnson e Dâm-Funk), «Overtown Lights» (Stanley Clarke, Yussef Dayes e Robert Glasper)."
         }
       ],
       "relatedIds": [
-        "new-20261114-the-album-scaletta-34-brani"
+        "new-20261114-the-album-scaletta-34-brani",
+        "rad-vcrr"
+      ],
+      "moreSources": [
+        "https://manofmany.com/entertainment/gaming/gta-6-soundtrack-radio-stations-score",
+        "https://hiphopwired.com/3069461/gta-vi-hip-hop-lineup/"
       ]
     },
     {
       "id": "brd-score-justice",
       "name": "Grand Theft Auto VI: Original Score",
       "category": "Colonna sonora",
-      "description": "La partitura originale firmata dai Justice, il duo francese di Gaspard Augé e Xavier de Rosnay: 30 tracce che seguono Vice City e Leonida, in uscita l'11 dicembre in streaming, CD doppio e triplo vinile trasparente. Singoli: «Flower in a Hurricane» con Tame Impala, SZA e King Gizzard & The Lizard Wizard, e «Pusher» con Gesaffelstein.",
+      "description": "La partitura originale firmata dai Justice, il duo francese di Gaspard Augé e Xavier de Rosnay: 30 tracce che seguono Vice City e Leonida, più alcune tracce bonus solo in digitale (circa tre ore di musica in tutto, secondo i Justice). Esce l'11 dicembre in streaming, CD doppio e triplo vinile trasparente. Singoli: «Flower in a Hurricane» con Tame Impala, SZA e King Gizzard & The Lizard Wizard, e «Pusher» con Gesaffelstein.",
       "image": "assets/img/the-score.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Grand_Theft_Auto_VI:_Original_Score"
+      ]
     },
     {
       "id": "brd-hawk-little-morgan",
@@ -309,14 +317,21 @@
       "id": "brd-canzoni-trailer",
       "name": "Le canzoni dei trailer",
       "category": "Musica",
-      "description": "Trailer 1 (dicembre 2023): «Love Is a Long Road» di Tom Petty, i cui ascolti sono esplosi nei giorni successivi. Trailer 2 (maggio 2025): «Hot Together» dei Pointer Sisters come brano principale, e in sottofondo «Thunder Island» di Jay Ferguson, «Child Support» degli Zenglen, «Everybody Have Fun Tonight» dei Wang Chung dall'autoradio, «Talkin' to Myself Again» di Tammy Wynette, più «I Love Rock 'n' Roll» degli Arrows nello spot di Ammu-Nation. Trailer di lancio (ottobre 2026): «Flower in a Hurricane» dei Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard. Trailer del preload (10 novembre 2026): «Blood in Your Eyes» di Tove Lo. Su quale stazione suoneranno, lo scopri tu.",
+      "description": "Trailer 1 (dicembre 2023): «Love Is a Long Road» di Tom Petty, i cui ascolti sono esplosi nei giorni successivi. Trailer 2 (maggio 2025): «Hot Together» dei Pointer Sisters come brano principale, e in sottofondo «Thunder Island» di Jay Ferguson, «Child Support» degli Zenglen, «Everybody Have Fun Tonight» dei Wang Chung dall'autoradio, «Talkin' to Myself Again» di Tammy Wynette, più «I Love Rock 'n' Roll» degli Arrows nello spot di Ammu-Nation. Trailer di lancio (ottobre 2026): «Flower in a Hurricane» dei Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard. Trailer del preload (10 novembre 2026): «Blood in Your Eyes» di Tove Lo. Nel gioco, secondo il GTA Wiki, «Thunder Island» passa su V-Rock, «Hot Together» ed «Everybody Have Fun Tonight» su Vice City FM.",
       "image": null,
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/radio-stations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-10"
+      "updatedAt": "2026-11-18",
+      "moreSources": [
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ],
+      "relatedIds": [
+        "rad-v-rock",
+        "rad-vice-city-fm"
+      ]
     },
     {
       "id": "brd-catene-banche",
@@ -618,11 +633,17 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-18",
       "name": "On Demand",
       "category": "App",
-      "description": "Podcast e show da ascoltare anche a piedi, con gli auricolari.",
-      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      "description": "Podcast e show da ascoltare anche a piedi, con gli auricolari. Qui finisce anche la playlist segreta The Sniper of La Perle, che si sblocca scansionando quattro poster a Vice City.",
+      "sourceUrl": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+      "relatedIds": [
+        "rad-sniper-la-perle"
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/"
+      ]
     },
     {
       "id": "brd-lifeinvader",
@@ -684,31 +705,43 @@
       "id": "brd-vice-city-fm",
       "name": "Vice City FM",
       "category": "Radio",
-      "description": "Stazione radio pubblicizzata sui totem digitali di Wynwood a Miami il 19 ottobre 2026, mai annunciata da Rockstar per GTA VI. Il nome viene da GTA IV (2008).",
+      "description": "Stazione radio pubblicizzata sui totem digitali di Wynwood a Miami il 19 ottobre 2026, con gli slogan «Take it back» e «Non-stop 80's», prima che Rockstar ne parlasse. Nel gioco c'è: pop e new wave degli anni Ottanta. Il nome viene da The Ballad of Gay Tony, l'episodio di GTA IV del 2009.",
       "image": "assets/img/mondo/brd-vice-city-fm.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://vice-central.com/gta-vi-vice-city-fm-v-rock-radios-miami",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-vice-city-fm-borne-wynwood.jpg",
-      "imageCredit": "Pubblicità reale di GTA VI a Miami per Vice City FM, foto di vice-central.com"
+      "imageCredit": "Pubblicità reale di GTA VI a Miami per Vice City FM, foto di vice-central.com",
+      "relatedIds": [
+        "rad-vice-city-fm"
+      ],
+      "moreSources": [
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "brd-v-rock",
       "name": "V-Rock",
       "category": "Radio",
-      "description": "Stazione rock pubblicizzata sui totem digitali di Wynwood accanto a Vice City FM, non presente tra le sei stazioni annunciate da Rockstar. Storica radio di GTA Vice City (2002).",
+      "description": "Stazione rock pubblicizzata sui totem digitali di Wynwood accanto a Vice City FM, con lo slogan «Circling the carcass of rock». Nel gioco c'è, con classic rock da Bon Jovi ai Queen, e a Downtown c'è anche il V-Rock Café. Storica radio di GTA Vice City (2002).",
       "image": "assets/img/mondo/brd-v-rock.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://vice-central.com/gta-vi-vice-city-fm-v-rock-radios-miami",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/VRock-GTAVI-VideoClip-JasonDuval.png/revision/latest?cb=20250509093023",
-      "imageCredit": "Maglietta con logo V-Rock in un video ufficiale di Jason, da GTA Wiki"
+      "updatedAt": "2026-11-18",
+      "imageUrl": "https://gta.wiki/images/VRock-GTAVI-VideoClip-JasonDuval.png?c49ea",
+      "imageCredit": "gta.wiki (CC BY-SA): sostituisce il vecchio URL di Fandom",
+      "relatedIds": [
+        "rad-v-rock"
+      ],
+      "moreSources": [
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      ]
     },
     {
       "id": "brd-burger-shot",

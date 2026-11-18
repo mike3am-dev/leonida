@@ -260,7 +260,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/alligator.jpg",
       "group": "paludi",
       "emoji": "🐊",
@@ -292,7 +292,7 @@
       "trivia": [
         "Specie nativa di Leonida.",
         "La scena della piscina richiama i post social di «OfficialPOACH».",
-        "L'arma migliore per cacciarlo non è ancora nota."
+        "Per cacciarlo il gioco consiglia lo Shrewsbury SM-69, da lontano."
       ],
       "imageFocus": [
         50,
@@ -306,7 +306,10 @@
         "dis-grassrivers",
         "dis-vice-city"
       ],
-      "protectedReal": "regolamentato (specie tutelata, caccia solo a stagione con permesso)"
+      "protectedReal": "regolamentato (specie tutelata, caccia solo a stagione con permesso)",
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-iguana",
@@ -321,7 +324,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
       "group": "domestici",
       "emoji": "🦎",
@@ -353,7 +356,19 @@
         "dis-keys",
         "dis-vice-city"
       ],
-      "protectedReal": "no (invasiva, rimozione incoraggiata)"
+      "protectedReal": "no (invasiva, rimozione incoraggiata)",
+      "varieties": [
+        {
+          "name": "Iguana blu axantica (Blue Axanthic Iguana)",
+          "note": "Variante rara azzurro elettrico, senza rosso né giallo: coste e città del sud"
+        }
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-cervo",
@@ -368,7 +383,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/deer.jpg",
       "group": "foresta",
       "emoji": "🦌",
@@ -410,7 +425,16 @@
         "dis-mount-kalaga",
         "dis-grassrivers"
       ],
-      "protectedReal": "regolamentato (cacciabile a stagione); il cervo delle Keys è in pericolo e protetto"
+      "protectedReal": "regolamentato (cacciabile a stagione); il cervo delle Keys è in pericolo e protetto",
+      "varieties": [
+        {
+          "name": "Maschio pezzato (Piebald Whitetail Buck)",
+          "note": "Variante rara a macchie, nei boschi e nelle zone umide"
+        }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-puma",
@@ -461,9 +485,9 @@
     {
       "id": "col-fauna-volpe",
       "categoryId": "cat-fauna",
-      "name": "Volpe",
+      "name": "Volpi",
       "districtId": "dis-mount-kalaga",
-      "directions": "Vive a Mount Kalaga insieme a cervi e puma: corre tra i cespugli su un sentiero, vicino a delle moto.",
+      "directions": "Nel gioco ce ne sono due: la volpe rossa (American Red Fox) e la volpe grigia (Gray Fox). Vivono nei boschi e si cacciano. A Mount Kalaga se ne vede una correre tra i cespugli su un sentiero.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-volpe.jpg",
       "status": "da verificare",
@@ -471,37 +495,56 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-renard.jpg",
       "group": "foresta",
       "emoji": "🦊",
-      "short": "Abita Mount Kalaga insieme a cervi e puma.",
+      "short": "Volpe rossa e volpe grigia, nei boschi.",
       "seen": [
         {
           "where": "Mount Kalaga",
           "what": "Tra i cespugli, corre su un sentiero vicino a delle moto"
         }
       ],
-      "trivia": [],
+      "trivia": [
+        "Il gioco consiglia la Hawk & Little Mediator."
+      ],
       "imageFocus": [
         22,
         58,
         1.8
       ],
-      "scientificName": "Vulpes vulpes (volpe rossa) o Urocyon cinereoargenteus (volpe grigia): dallo screenshot non si distingue",
+      "scientificName": "Vulpes vulpes (volpe rossa) e Urocyon cinereoargenteus (volpe grigia): nel gioco ci sono tutte e due",
       "temperament": "innocuo",
-      "habitat": "Boschi e sentieri di Mount Kalaga",
+      "habitat": "Boschi (Mount Kalaga)",
       "districtIds": [
         "dis-mount-kalaga"
       ],
-      "protectedReal": "no"
+      "protectedReal": "no",
+      "varieties": [
+        {
+          "name": "Volpe rossa (American Red Fox)",
+          "note": "Boschi"
+        },
+        {
+          "name": "Volpe grigia (Gray Fox)",
+          "note": "Boschi"
+        }
+      ],
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-orso-nero",
       "categoryId": "cat-fauna",
       "name": "Orso nero",
       "districtId": "dis-mount-kalaga",
-      "directions": "Una sagoma sfocata a Mount Kalaga: la specie non si distingue. Non è ancora certo che l'orso ci sia.",
+      "directions": "C'è nel gioco (American Black Bear): vive nei boschi e nelle zone umide e si caccia. Meglio colpirlo da lontano.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -509,10 +552,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🐻",
-      "short": "Una sagoma sfocata a Mount Kalaga: non è ancora certo che sia un orso.",
+      "short": "L'orso nero c'è: boschi e zone umide, si caccia da lontano.",
       "seen": [
         {
           "where": "Mount Kalaga",
@@ -525,11 +568,21 @@
       ],
       "scientificName": "Ursus americanus floridanus",
       "temperament": "territoriale",
-      "habitat": "Mount Kalaga National Park",
+      "habitat": "Boschi e zone umide (Mount Kalaga)",
       "districtIds": [
         "dis-mount-kalaga"
       ],
-      "protectedReal": "regolamentato (caccia riaperta in Florida a dicembre 2025, con pochi permessi)"
+      "protectedReal": "regolamentato (caccia riaperta in Florida a dicembre 2025, con pochi permessi)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia lo Shrewsbury SM-69 e di colpirlo da lontano."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-cinghiale",
@@ -559,7 +612,8 @@
         }
       ],
       "trivia": [
-        "Lo spot TV dell'Extended Look usava immagini di RDR2, ma il cinghiale nel gioco c'è."
+        "Lo spot TV dell'Extended Look usava immagini di RDR2, ma il cinghiale nel gioco c'è.",
+        "Nel gioco è il Wild Boar, tra boschi e campagne. Il gioco consiglia lo Shrewsbury SM-69 e di colpirlo da lontano."
       ],
       "scientificName": "Sus scrofa",
       "temperament": "territoriale",
@@ -567,14 +621,20 @@
       "districtIds": [
         "dis-grassrivers"
       ],
-      "protectedReal": "no (invasivo, cacciabile tutto l'anno)"
+      "protectedReal": "no (invasivo, cacciabile tutto l'anno)",
+      "actions": [
+        "Cacciare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-lince",
       "categoryId": "cat-fauna",
       "name": "Lince rossa",
       "districtId": "dis-grassrivers",
-      "directions": "Un «gatto selvatico» morto sulla panca accanto ai cacciatori di Grassrivers, forse una lince rossa.",
+      "directions": "Nel gioco si chiama Leonida Bobcat: vive nei boschi e nelle zone umide e si caccia. Nel materiale promozionale se ne vedeva uno morto sulla panca accanto ai cacciatori di Grassrivers.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -582,10 +642,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🐈",
-      "short": "Un «gatto selvatico» visto morto accanto a dei cacciatori: forse una lince.",
+      "short": "La lince rossa c'è (Leonida Bobcat): boschi e zone umide.",
       "seen": [
         {
           "where": "Grassrivers",
@@ -593,23 +653,29 @@
         }
       ],
       "trivia": [
-        "L'identificazione come lince rossa è incerta.",
-        "Non figura tra le specie confermate."
+        "Il gioco consiglia la Hawk & Little Mediator."
       ],
       "scientificName": "Lynx rufus",
       "temperament": "predatore",
-      "habitat": "Grassrivers (un esemplare ucciso dai bracconieri)",
+      "habitat": "Boschi e zone umide; uno morto accanto ai cacciatori di Grassrivers",
       "districtIds": [
         "dis-grassrivers"
       ],
-      "protectedReal": "no (caccia consentita a stagione)"
+      "protectedReal": "no (caccia consentita a stagione)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-armadillo",
       "categoryId": "cat-fauna",
       "name": "Armadillo",
       "districtId": null,
-      "directions": "È l'armadillo a nove fasce, ma non è ancora stato avvistato.",
+      "directions": "C'è nel gioco (Nine-Banded Armadillo): vive nei boschi e si caccia.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -617,17 +683,24 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🦔",
-      "short": "L'armadillo a nove fasce, non ancora avvistato.",
+      "short": "L'armadillo a nove fasce c'è: lo trovi nei boschi.",
       "trivia": [
-        "Nessun avvistamento confermato."
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
       ],
       "scientificName": "Dasypus novemcinctus",
       "temperament": "innocuo",
-      "habitat": "Campagne e boschi (Ambrosia, Mount Kalaga): non ancora avvistato",
-      "protectedReal": "no (specie introdotta)"
+      "habitat": "Boschi",
+      "protectedReal": "no (specie introdotta)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-castoro",
@@ -656,7 +729,7 @@
       "categoryId": "cat-fauna",
       "name": "Lontra",
       "districtId": null,
-      "directions": "Fa parte della fauna di Leonida, ma non è ancora stata avvistata.",
+      "directions": "C'è nel gioco: vive lungo i corsi d'acqua e nelle zone umide. Esiste anche una rara variante col pelo bianco (White River Otter).",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -664,14 +737,30 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🦦",
-      "short": "Non ancora avvistata.",
+      "short": "Corsi d'acqua e zone umide; c'è anche una rara lontra bianca.",
       "scientificName": "Lontra canadensis",
       "temperament": "innocuo",
-      "habitat": "Fiumi e paludi (Grassrivers): non ancora avvistata",
-      "protectedReal": "no"
+      "habitat": "Corsi d'acqua e zone umide",
+      "protectedReal": "no",
+      "varieties": [
+        {
+          "name": "Lontra di fiume bianca (White River Otter)",
+          "note": "Variante rara col pelo bianco, nelle zone umide"
+        }
+      ],
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-procione",
@@ -738,7 +827,7 @@
       "categoryId": "cat-fauna",
       "name": "Moffetta",
       "districtId": null,
-      "directions": "Fa parte della fauna di Leonida, ma non è ancora stata avvistata.",
+      "directions": "C'è nel gioco: è la moffetta maculata orientale (Eastern Spotted Skunk). La trovi nei boschi, in città e nelle zone umide.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -746,14 +835,24 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🦨",
-      "short": "Non ancora avvistata.",
-      "scientificName": "Mephitis mephitis",
+      "short": "La moffetta maculata: boschi, città e zone umide.",
+      "scientificName": "Spilogale putorius",
       "temperament": "innocuo",
-      "habitat": "Boschi e campagne: non ancora avvistata",
-      "protectedReal": "no"
+      "habitat": "Boschi, città e zone umide",
+      "protectedReal": "no",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-macaco",
@@ -785,7 +884,7 @@
       "categoryId": "cat-fauna",
       "name": "Rospo delle canne",
       "districtId": null,
-      "directions": "Specie invasiva, non ancora avvistata.",
+      "directions": "Specie invasiva. C'è nel gioco (Cane Toad): lo trovi sulla costa e si può cacciare.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -793,21 +892,31 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "paludi",
       "emoji": "🐸",
-      "short": "Specie invasiva, non ancora avvistata.",
+      "short": "Specie invasiva: lo trovi sulla costa.",
       "scientificName": "Rhinella marina",
       "temperament": "innocuo",
-      "habitat": "Giardini, canali e paludi del sud: non ancora avvistato",
-      "protectedReal": "no (invasivo)"
+      "habitat": "Coste e zone umide",
+      "protectedReal": "no (invasivo)",
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-serpente",
       "categoryId": "cat-fauna",
       "name": "Serpenti",
       "districtId": "dis-keys",
-      "directions": "Nella casa di Jason e Lucia c'è un serpente del grano nell'acquario, forse un animale domestico. In natura c'è il pitone delle Everglades, specie introdotta, non ancora avvistato.",
+      "directions": "Nella casa di Jason c'è il suo serpente, Dolores: puoi dargli da mangiare un topo e Jason recupera un po' di Focus. È l'unico animale che puoi tenere nella storia. In natura si cacciano il crotalo diamantino orientale (coste e boschi) e il mocassino acquatico (coste e zone umide); il pitone delle Everglades non è ancora stato avvistato.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
       "status": "da verificare",
@@ -815,14 +924,22 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "paludi",
       "emoji": "🐍",
-      "short": "Ci sono sia in casa, come animali domestici, sia in natura tra le specie invasive.",
+      "short": "Il serpente di casa di Jason, Dolores, e i serpenti velenosi che si cacciano in natura.",
       "varieties": [
         {
-          "name": "Serpente del grano",
-          "note": "Nell'acquario della casa di Jason e Lucia"
+          "name": "Serpente del grano (Dolores)",
+          "note": "Nell'acquario della casa di Jason: dagli un topo per un po' di Focus"
+        },
+        {
+          "name": "Crotalo diamantino orientale (Eastern Diamondback Rattlesnake)",
+          "note": "Coste e boschi; serve anche per la sfida Hunting Spree"
+        },
+        {
+          "name": "Mocassino acquatico (Leonida Cottonmouth)",
+          "note": "Coste e zone umide"
         },
         {
           "name": "Pitone delle Everglades",
@@ -836,7 +953,8 @@
         }
       ],
       "trivia": [
-        "A Leonida ci sono animali nativi e non, come i pitoni che hanno colonizzato le Everglades."
+        "A Leonida ci sono animali nativi e non, come i pitoni che hanno colonizzato le Everglades.",
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
       ],
       "mergedIds": [
         "col-fauna-serpente-del-grano",
@@ -867,7 +985,17 @@
         "dis-grassrivers",
         "dis-keys"
       ],
-      "protectedReal": "no (il pitone birmano è invasivo, la sua cattura è incoraggiata)"
+      "protectedReal": "no (il pitone birmano è invasivo, la sua cattura è incoraggiata)",
+      "actions": [
+        "Cacciare",
+        "Studiare",
+        "Dare da mangiare (Dolores)"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+        "https://mashable.com/entertainment/gta-6-animals-wildlife-guide",
+        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"
+      ]
     },
     {
       "id": "col-fauna-tartaruga",
@@ -903,7 +1031,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/squirrel.jpg",
       "group": "foresta",
       "emoji": "🐿️",
@@ -921,7 +1049,13 @@
       "districtIds": [
         "dis-mount-kalaga"
       ],
-      "protectedReal": "no"
+      "protectedReal": "no",
+      "trivia": [
+        "Nel gioco è l'Eastern Gray Squirrel: oltre ai boschi sta sulla costa, in città e nelle zone umide. Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-ratto",
@@ -987,7 +1121,7 @@
       "categoryId": "cat-fauna",
       "name": "Cani",
       "districtId": null,
-      "directions": "Avvicinati a un cane e tieni R1 per Accarezzare, Sgridare o Studiare. Quando lo accarezzi suona una campanella e compare il diavoletto con l'aureola: conta per il Profilo criminale. Razze: Chihuahua (fa jogging sulla spiaggia di Vice City), Dobermann (seduto accanto al padrone, una razza inedita per la serie), Rottweiler (a Vice City), Pastore australiano (nelle Keys, al guinzaglio di un ciclista), Labrador (sulla spiaggia con la padrona), Pastore tedesco, Pitbull, Border Collie, Barboncino e meticci, più un cane di razza non identificata a Port Gellhorn. In giro ci sono anche un chihuahua con tutù viola e ali da fata, un cane con gli occhialoni in elicottero e uno vestito. Non è ancora noto se si possa avere un cane tutto tuo.",
+      "directions": "Avvicinati a un cane e tieni R1 per Accarezzare, Sgridare o Studiare. Quando lo accarezzi suona una campanella e compare il diavoletto con l'aureola: conta per il Profilo criminale. Se il padrone è d'accordo puoi dargli un premio (i croccantini li vendono alcune stazioni di servizio). Ogni razza conta a parte tra i 255 animali, e alcuni esemplari unici valgono da soli: il Festive Poodle e il Cartoon Labrador, tutti e due a Key Lento. Razze viste: Chihuahua, Dobermann, Rottweiler, Pastore australiano, Labrador, Pastore tedesco, Pitbull, Border Collie, Barboncino, Yorkshire Terrier e meticci. Al largo c'è perfino un cane con gli occhialoni su una moto d'acqua: puoi salirci dietro. Non puoi tenere un cane tutto tuo: nella storia l'unico animale di Jason è il suo serpente.",
       "reward": null,
       "image": "assets/img/vice/fauna/col-fauna-cani.jpg",
       "status": "da verificare",
@@ -995,7 +1129,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg",
       "group": "domestici",
       "emoji": "🐕",
@@ -1004,7 +1138,8 @@
       "actions": [
         "Accarezzare (tieni R1)",
         "Sgridare (tieni R1)",
-        "Studiare (tieni R1)"
+        "Studiare (tieni R1)",
+        "Dare un premio (se il padrone è d'accordo)"
       ],
       "danger": 2,
       "dangerNote": "I cani K-9 della polizia possono atterrare Jason.",
@@ -1044,6 +1179,18 @@
         {
           "name": "Razza non identificata",
           "note": "A Port Gellhorn, fotografato da un'abitante"
+        },
+        {
+          "name": "Festive Poodle (esemplare unico)",
+          "note": "Key Lento: nel giardino della casa addobbata per Natale, sulla fila di case sul mare a nord"
+        },
+        {
+          "name": "Cartoon Labrador (esemplare unico)",
+          "note": "Key Lento: nella casa delle feste all'angolo sud-est"
+        },
+        {
+          "name": "Yorkshire Terrier",
+          "note": "Belville: abbaia dentro la lavanderia abbandonata a nord-ovest, a sud del covo dei biker (si entra dal buco nel tetto)"
         }
       ],
       "seen": [
@@ -1058,6 +1205,10 @@
         {
           "where": "Trailer di lancio",
           "what": "Un cane con gli occhialoni in elicottero e uno vestito"
+        },
+        {
+          "where": "Al largo della costa",
+          "what": "Un cane con gli occhialoni su una moto d'acqua; Jason sale dietro"
         }
       ],
       "trivia": [
@@ -1099,7 +1250,12 @@
       "scientificName": "Canis lupus familiaris",
       "temperament": "innocuo",
       "habitat": "Ovunque, con i padroni; i K-9 della polizia durante gli inseguimenti",
-      "protectedReal": "no"
+      "protectedReal": "no",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://mashable.com/entertainment/gta-6-animals-wildlife-guide",
+        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"
+      ]
     },
     {
       "id": "col-fauna-gatto",
@@ -1114,7 +1270,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg",
       "group": "domestici",
       "emoji": "🐈",
@@ -1127,6 +1283,10 @@
         {
           "where": "Grassrivers",
           "what": "Un gatto morto"
+        },
+        {
+          "where": "Un'auto rubata",
+          "what": "Il gatto del proprietario, sul sedile dietro, salta addosso a Jason"
         }
       ],
       "trivia": [
@@ -1144,7 +1304,17 @@
         "dis-vice-city",
         "dis-grassrivers"
       ],
-      "protectedReal": "no (i gatti selvatici sono una specie invasiva)"
+      "protectedReal": "no (i gatti selvatici sono una specie invasiva)",
+      "behavior": "Accarezzarlo dà a Jason un po' di Focus; puoi anche lodarlo o sgridarlo. Se rubi un'auto con un gatto a bordo, mentre guidi ti salta addosso: respingilo col tasto indicato, poi accosta e fallo scendere oppure tira dritto. Ogni razza conta a parte tra i 255 animali.",
+      "actions": [
+        "Accarezzare (tieni R1)",
+        "Sgridare (tieni R1)",
+        "Studiare (tieni R1)"
+      ],
+      "moreSources": [
+        "https://mashable.com/entertainment/gta-6-animals-wildlife-guide",
+        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"
+      ]
     },
     {
       "id": "col-fauna-fenicottero",
@@ -1362,7 +1532,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-canards-marbres.jpg",
       "group": "uccelli",
       "emoji": "🦆",
@@ -1375,6 +1545,10 @@
         {
           "name": "Moretta americana minore",
           "note": "In uno spot TV, identificazione incerta"
+        },
+        {
+          "name": "Anatra marmorizzata «mosaico» (Mosaic Mottled Duck)",
+          "note": "Variante rara di colore, nelle zone umide d'acqua dolce"
         }
       ],
       "seen": [
@@ -1401,7 +1575,13 @@
       "districtIds": [
         "dis-grassrivers"
       ],
-      "protectedReal": "regolamentato (cacciabile a stagione)"
+      "protectedReal": "regolamentato (cacciabile a stagione)",
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-gabbiano",
@@ -1808,17 +1988,17 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "col-pesca-gambit-bay",
       "categoryId": "cat-fauna",
       "name": "Punto di pesca: Gambit Bay",
       "districtId": null,
-      "directions": "L'unico luogo di pesca noto finora: si pesca con cattura e rilascio e ci sono delle sfide.",
+      "directions": "Uno dei luoghi di pesca: si pesca con cattura e rilascio e ci sono delle sfide.",
       "reward": null,
       "sourceUrl": "https://gta6-life.com/en/guides/gta-6-fishing/",
       "group": "pesci",
       "emoji": "🎣",
-      "short": "L'unico luogo di pesca noto finora.",
+      "short": "Uno dei luoghi di pesca, con cattura e rilascio.",
       "actions": [
         "Pescare (cattura e rilascio)",
         "Sfide di pesca"
@@ -1855,7 +2035,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "id": "col-fauna-coccodrillo",
       "categoryId": "cat-fauna",
       "name": "Coccodrillo",
@@ -1875,7 +2055,16 @@
         "dis-keys",
         "dis-grassrivers"
       ],
-      "protectedReal": "sì (minacciato)"
+      "protectedReal": "sì (minacciato)",
+      "trivia": [
+        "Nel gioco è l'American Crocodile, sulla costa. Il gioco consiglia lo Shrewsbury SM-69 e di colpirlo da lontano."
+      ],
+      "actions": [
+        "Cacciare"
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "image": null,
@@ -2181,7 +2370,7 @@
       "categoryId": "cat-fauna",
       "name": "Conigli",
       "districtId": null,
-      "directions": "Compaiono solo in una pubblicità televisiva, non nel mondo aperto.",
+      "directions": "C'è nel gioco (Eastern Cottontail Rabbit): lo trovi nei boschi e nelle zone umide e si caccia. Prima dell'uscita si era visto solo in uno spot TV.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -2189,10 +2378,10 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "group": "foresta",
       "emoji": "🐇",
-      "short": "Compaiono solo in una pubblicità TV, non ancora nel mondo aperto.",
+      "short": "Il coniglio selvatico c'è: boschi e zone umide.",
       "seen": [
         {
           "where": "Spot TV dell'Extended Look",
@@ -2201,8 +2390,18 @@
       ],
       "scientificName": "Sylvilagus floridanus",
       "temperament": "innocuo",
-      "habitat": "Solo in uno spot TV, non nel mondo aperto",
-      "protectedReal": "no"
+      "habitat": "Boschi e zone umide",
+      "protectedReal": "no",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-pesce-leone",
@@ -2228,12 +2427,12 @@
     {
       "id": "col-fauna-varano",
       "categoryId": "cat-fauna",
-      "name": "Varano",
+      "name": "Varano del Nilo",
       "group": "paludi",
       "emoji": "🦎",
       "districtId": "dis-grassrivers",
       "short": "Grosso rettile invasivo che si muove nelle acque basse delle paludi. Passa accanto a Jason mentre guada l'acqua armato insieme ad altri due uomini. Ha morso e artigli: meglio non provocarlo.",
-      "scientificName": "Varanus niloticus (varano del Nilo, la specie invasiva della Florida del sud), identificazione non certa",
+      "scientificName": "Varanus niloticus (nel gioco: Nile Monitor)",
       "temperament": "territoriale",
       "habitat": "Acque basse e paludi",
       "protectedReal": "no (invasivo)",
@@ -2242,9 +2441,15 @@
       "sourceUrl": "https://gta.wiki/w/Monitor_Lizards",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-18",
       "image": "assets/img/vice/fauna/col-fauna-varano.png",
-      "imageUrl": "https://gta.wiki/images/MonitorLizard-GTAVI-LaunchTrailer.png"
+      "imageUrl": "https://gta.wiki/images/MonitorLizard-GTAVI-LaunchTrailer.png",
+      "trivia": [
+        "Nel gioco si chiama Nile Monitor e vive nelle zone umide. Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+      ]
     },
     {
       "id": "col-fauna-cicogna",
@@ -4382,12 +4587,15 @@
       "name": "Key Lento Bridge West",
       "districtId": "dis-keys",
       "directions": "Key Lento: lato ovest del ponte, la rampa sul ponte basso verso Abismo Key.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-salti-5",
@@ -5144,12 +5352,15 @@
       "name": "Monumento · Lawton Co. Paper Mill",
       "districtId": "dis-mount-kalaga",
       "directions": "Moreau: la cartiera in rovina subito a nord del 247 Gas West Kalaga.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-waink-2",
@@ -5170,12 +5381,15 @@
       "name": "Monumento · Gellhorn Fun Fair",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: la grande ruota panoramica del luna park.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-waink-4",
@@ -5196,12 +5410,15 @@
       "name": "Monumento · Kalaga Lookout",
       "districtId": "dis-mount-kalaga",
       "directions": "Mount Kalaga: su una vetta proprio sotto la scritta «Mount» della mappa; segui i graffiti.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-landmark-scan-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-waink-6",
@@ -5235,12 +5452,15 @@
       "name": "Scultura · Triangler Sculpture",
       "districtId": "dis-keys",
       "directions": "Corsair Key: la statua del delfino in acqua vicino alla strada che esce verso ovest.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-sculptures-scan-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-sculptures-scan-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-waink-9",
@@ -5352,12 +5572,15 @@
       "name": "Curiosità · Imperial Spanish Ruins",
       "districtId": "dis-mount-kalaga",
       "directions": "Mount Kalaga: le rovine in cima alla vetta sud-ovest del parco.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-curiosities-scan-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-curiosities-scan-locations/",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-waink-18",
@@ -6255,6 +6478,195 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+    },
+    {
+      "id": "col-fauna-coyote",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Coyote",
+      "group": "foresta",
+      "emoji": "🐺",
+      "short": "Nel gioco si chiama Northern Coyote: lo trovi nei boschi e nelle zone umide e si caccia.",
+      "scientificName": "Canis latrans",
+      "temperament": "predatore",
+      "habitat": "Boschi e zone umide",
+      "protectedReal": "no",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia la Hawk & Little Mediator."
+      ]
+    },
+    {
+      "id": "col-fauna-nutria",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Nutria",
+      "group": "paludi",
+      "emoji": "🦫",
+      "short": "Grosso roditore delle zone umide (Nutria nel gioco); si caccia.",
+      "scientificName": "Myocastor coypus",
+      "temperament": "innocuo",
+      "habitat": "Zone umide e paludi",
+      "protectedReal": "no (invasiva)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ]
+    },
+    {
+      "id": "col-fauna-tacchino",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Tacchino selvatico",
+      "group": "foresta",
+      "emoji": "🦃",
+      "short": "Il Leonida Wild Turkey vive tra boschi e zone umide; esiste anche un maschio bianco, più raro.",
+      "scientificName": "Meleagris gallopavo osceola (tacchino di Osceola, la sottospecie della Florida)",
+      "temperament": "innocuo",
+      "habitat": "Boschi, radure erbose e zone umide",
+      "protectedReal": "regolamentato (cacciabile a stagione)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "varieties": [
+        {
+          "name": "Leonida Wild Turkey",
+          "note": "Il tacchino comune, nei boschi e nelle zone umide"
+        },
+        {
+          "name": "Leonida Wild White Tom",
+          "note": "Variante rara dalle piume bianche, nei boschi e nelle radure erbose"
+        }
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ]
+    },
+    {
+      "id": "col-fauna-tartaruga-scatola",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Tartaruga scatola",
+      "group": "foresta",
+      "emoji": "🐢",
+      "short": "La Box Turtle del gioco: piccola tartaruga di terra che trovi sulla costa, nei boschi e perfino in città.",
+      "scientificName": "Terrapene carolina",
+      "temperament": "innocuo",
+      "habitat": "Coste, boschi e città",
+      "protectedReal": "sì (in Florida non si può raccogliere né tenere)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ]
+    },
+    {
+      "id": "col-fauna-tartaruga-azzannatrice",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Tartaruga azzannatrice",
+      "group": "paludi",
+      "emoji": "🐢",
+      "short": "La Snapping Turtle del gioco vive nelle zone umide; ha un morso potente.",
+      "scientificName": "Chelydra serpentina",
+      "temperament": "territoriale",
+      "habitat": "Zone umide e paludi",
+      "protectedReal": "regolamentato (in Florida la cattura è vietata)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ]
+    },
+    {
+      "id": "col-fauna-topo-muschiato",
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Topo muschiato",
+      "group": "paludi",
+      "emoji": "🐀",
+      "short": "Nel gioco è il Round-Tailed Muskrat, un piccolo roditore delle paludi tipico della Florida; si caccia.",
+      "scientificName": "Neofiber alleni",
+      "temperament": "innocuo",
+      "habitat": "Paludi (DayOne indica una zona chiamata «Westland»)",
+      "protectedReal": "no",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
+      ]
+    },
+    {
+      "id": "col-fauna-snook",
+      "categoryId": "cat-fauna",
+      "districtId": "dis-vice-city",
+      "status": "da verificare",
+      "source": "leak",
+      "sourceUrl": "https://gta.wiki/w/Common_Snook",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "name": "Snook",
+      "group": "pesci",
+      "emoji": "🐟",
+      "short": "Pesce da pesca sportiva: alle Rialto Islands, nella Catalan Bay, c'è un punto di pesca per gli esemplari grandi. Equipaggia la canna e prova a prenderne uno.",
+      "scientificName": "Centropomus undecimalis",
+      "temperament": "innocuo",
+      "habitat": "Acque costiere della Catalan Bay (Rialto Islands)",
+      "protectedReal": "regolamentato (pesca a stagione, con misure minime)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ]
     }
   ],
   "cento": [

@@ -102,7 +102,7 @@
       "description": "Completa il Capitolo 4.",
       "tier": "bronzo",
       "category": "storia",
-      "guide": "",
+      "guide": "Si ottiene con la storia.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -630,7 +630,7 @@
       "description": "Azzera un livello di sospetto a 4 stelle insieme al partner e perdi il livello di allerta.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Dal capitolo 2, quando potete girare insieme: chiama il partner, arriva a 4 stelle facendo caos e scappa, meglio su una moto sportiva nel traffico.",
+      "guide": "Dal capitolo 2, quando potete girare insieme: chiama il partner, arriva a 4 stelle facendo caos e poi esci dalla zona rossa di allerta (non basta uscire dal cerchio di ricerca). Il modo più sicuro è una moto sportiva nel traffico, oppure la galleria ferroviaria a nord di Ambrosia, dove polizia ed elicottero ti perdono. Se non lo prendi prima, arriva da solo con le rapine ai caveau del capitolo 4, che danno sempre 4 stelle.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -650,7 +650,7 @@
       "description": "Rapina 3 negozi di fila insieme al partner senza far azzerare il livello di sospetto.",
       "tier": "bronzo",
       "category": "attivita",
-      "guide": "Dal capitolo 2: rapina 3 obiettivi (icone verdi) di fila senza mai perdere il livello di ricercato. Porta giubbotto antiproiettile, bombe adesive e cure.",
+      "guide": "Dal capitolo 2, insieme al partner (chiamalo prima): rapina 3 obiettivi (icone verdi) uno dopo l'altro senza mai far sparire le stelle di ricercato. Porta giubbotto, bombe adesive e cure. Dal capitolo 3 vanno bene le 3 gioiellerie nel nord di Vice City: in ognuna prendi qualche gioiello e apri la cassaforte nel retro. Il trofeo arriva con mezzo minuto di ritardo; se non scatta, fai un quarto negozio.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -662,7 +662,10 @@
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-whip-it-good",
@@ -689,7 +692,7 @@
       "description": "Uccidi 5 nemici durante un'unica attivazione della concentrazione in combattimento.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Attiva la concentrazione in combattimento mirando con un'arma e abbatti 5 nemici prima che finisca; prima riempi la barra viola mangiando o bevendo.",
+      "guide": "Mirando con un'arma attiva la concentrazione in combattimento e abbatti 5 nemici prima che finisca. Prima riempi la barra viola (mangiando, bevendo, lavandoti; anche accarezzare un gatto aiuta) e prendi l'adrenalina per farla durare di più. Fallo contro i criminali delle operazioni delle bande, con un fucile d'assalto e il giubbotto: soldati, poliziotti e passanti sembrano non contare. Più sali di livello di concentrazione (fino a 4), più è facile.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -700,7 +703,11 @@
       "nameEn": "Gunslinger",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gamespot.com/articles/jason-loves-cats-in-gta-6-but-not-all-of-them/"
+      ]
     },
     {
       "id": "tro-catch-me-if-you-can",
@@ -766,7 +773,7 @@
       "description": "Svaligia i caveau di 5 banche e completa la fuga.",
       "tier": "argento",
       "category": "completamento",
-      "guide": "Si sblocca con una missione opzionale del capitolo 4 che introduce le rapine ai caveau: segui il furgone portavalori fino alla banca ed entra quando aprono il caveau. Ripeti per 5 banche.",
+      "guide": "Si sblocca con una missione opzionale del capitolo 4 che introduce le rapine ai caveau: segui il furgone portavalori fino alla banca ed entra quando aprono il caveau. Ripeti per 5 banche su 8 (per il 100% servono tutte). Dopo quella missione Yasmani ti vende per 10.000 $ le soffiate sui furgoni, che compaiono in viola sulla mappa (prima devi aver fatto i suoi incarichi). Porta il partner: da solo non porti via tutti i sacchi. Ogni caveau rende fino a 205.000 $ e ti mette subito 4 stelle.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -778,7 +785,10 @@
       "timing": {
         "from": 4,
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-a-classic-blitz-play",
@@ -844,7 +854,7 @@
       "description": "Goditi un cocktail con vista su Ocean Beach.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: come si sblocca di preciso non è ancora noto. Indizio: un cocktail con vista su Ocean Beach.",
+      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (PowerPyx e GTABase, sera del 18/11). La descrizione dice di gustarti un cocktail con vista sulla spiaggia di Vice City: prova a ordinare da bere in un bar o in una terrazza sul lungomare. Attenzione: una missione principale del capitolo 4 porta il nome di quella spiaggia; se il trofeo fosse legato a un momento della storia si potrebbe perdere, perché le missioni non si rigiocano. Nel dubbio, se una scena ti offre un drink con vista sul mare, accetta.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -854,8 +864,14 @@
       "updatedAt": "2026-11-18",
       "nameEn": "In The Beginning…",
       "timing": {
-        "until": null
-      }
+        "until": null,
+        "note": "Metodo non ancora noto: potrebbe essere legato a una missione del capitolo 4. Nel dubbio accetta ogni drink con vista sul mare.",
+        "warn": true
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
     },
     {
       "id": "tro-capital-offense",
@@ -863,7 +879,7 @@
       "description": "Fuggi da un autosalone proprio come ai bei vecchi tempi.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: come si sblocca di preciso non è ancora noto. Indizio: sfondare l'uscita di un autosalone con un veicolo.",
+      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (PowerPyx e GTABase, sera del 18/11). La descrizione indica di uscire da un autosalone sfondando la vetrina con un'auto.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -874,7 +890,11 @@
       "nameEn": "Capital Offense",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
     },
     {
       "id": "tro-let-s-go-bowling",
@@ -943,7 +963,7 @@
       "description": "La seconda volta è quella buona.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: come si sblocca non è ancora noto.",
+      "guide": "Trofeo segreto: il metodo non è ancora uscito (sera del 18/11). La descrizione dice «La seconda volta è quella buona»; PowerPyx pensa che riguardi la finanziaria Payday Loans che compare all'inizio della storia, forse da rapinare una seconda volta.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -954,7 +974,11 @@
       "nameEn": "Bad Luck, I Guess",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
     },
     {
       "id": "tro-the-truth-is-out-there",
@@ -962,7 +986,7 @@
       "description": "Che cacchio è successo?",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: come si sblocca non è ancora noto.",
+      "guide": "Trofeo segreto: il metodo non è ancora uscito (sera del 18/11). PowerPyx pensa che arrivi da una serie di missioni sugli UFO, che nessuno ha ancora trovato.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -973,7 +997,11 @@
       "nameEn": "The Truth Is Out There",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
     },
     {
       "id": "tro-ten-pin",
@@ -981,7 +1009,7 @@
       "description": "Stendili usando l'attacco corpo a corpo da un veicolo.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: come si sblocca di preciso non è ancora noto. Indizio: un attacco corpo a corpo da un veicolo che «abbatte i birilli».",
+      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (sera del 18/11). La descrizione parla di un attacco corpo a corpo da un veicolo che butta giù la gente come birilli: PowerPyx pensa ai calci dalla moto in corsa. Prova su una moto contro un gruppo di nemici.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -992,7 +1020,11 @@
       "nameEn": "Ten Pin",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
     },
     {
       "id": "tro-dime-on-the-dollar",
