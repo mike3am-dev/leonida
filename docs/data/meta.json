@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.30.3",
-  "updatedAt": "2026-11-17",
+  "dataVersion": "0.31.0",
+  "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.31.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei ufficiali: i 55 veri con i nomi italiani di PlayStation (1 platino, 2 oro, 6 argento, 46 bronzo) e un consiglio per ciascuno. I 28 nascosti hanno nome e descrizione sotto l'inchiostro: i nomi della storia svelano le missioni.",
+        "Le spunte sui vecchi trofei di prova non ci sono più (erano segnaposto)."
+      ]
+    },
     {
       "version": "0.30.3",
       "date": "2026-11-17",
