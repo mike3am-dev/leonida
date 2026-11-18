@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.46.1",
+  "dataVersion": "0.47.0",
   "updatedAt": "2026-11-18",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.47.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Radio rifatta. In cima c'è un giradischi con il disco della stazione che gira, il braccio sul vinile, il nome al neon, la scaletta e una sintonia per passare alla stazione prima o dopo. Sotto c'è la cassa dei dischi: ogni stazione ha la sua copertina con il vinile che esce, e un tocco la mette sul piatto. Ogni stazione ha il suo colore."
+      ]
+    },
     {
       "version": "0.46.1",
       "date": "2026-11-18",

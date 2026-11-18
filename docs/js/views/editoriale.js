@@ -5,6 +5,7 @@ import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableH
 import * as progress from '../store/progress.js';
 import * as spoiler from '../spoiler.js';
 import * as playlist from './playlist.js';
+import * as radioView from './radio.js';
 
 const SRC = { stampa: 'stampa', rumor: 'rumor', leak: 'leak', community: 'community' };
 const srcNote = (x) => srcBadge(x);
@@ -82,7 +83,9 @@ const MUSIC_CATS = ['Colonna sonora', 'Musica'];
 const appleSearch = (q) => `https://music.apple.com/it/search?term=${encodeURIComponent(q)}`;
 export function renderCultura(params, query = {}) {
   const radio = vis(db.radio), music = vis(db.brands).filter((b) => MUSIC_CATS.includes(b.category));
-  const it = params.id ? byId(params.id) : null;
+  let it = params.id ? byId(params.id) : null;
+  // Una stazione si apre sul giradischi, non in una scheda a parte
+  if (it && it._type === 'radio') { query = { ...query, st: it.id, v: '' }; it = null; }
   // Un marchio che non è musica si apre nel Mondo, non nella Radio
   if (it && it._type === 'brand' && !MUSIC_CATS.includes(it.category)) return renderMondo(params);
   if (it) {
@@ -104,11 +107,7 @@ export function renderCultura(params, query = {}) {
   const head = `${sectionHead(secR, `${radio.length} stazioni`)}${playlist.tabs(view, playlist.allSongs().length, (progress.get().playlist || []).length)}`;
   if (view === 'canzoni') return { left: head + playlist.songsView(query), right: '', show: 'left', accent: secR.accent, title: 'Canzoni' };
   if (view === 'playlist') return { left: head + playlist.playlistView(), right: '', show: 'left', accent: secR.accent, title: 'La mia playlist' };
-  const left = `${head}
-    <img class="radio-logo" src="assets/img/sfondi/vice-city-logo.png" alt="Vice City">
-    <div class="cards">${radio.map((r) => `<a class="cardx" href="#/cultura/${esc(r.id)}"><div class="cardx__img cardx__img--logo">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-radio"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(r.name)}</div><div class="cardx__meta">${esc(r.genre || '')}${r.host ? ' · ' + esc(r.host) : ''}</div></div></a>`).join('')}</div>
-    <span class="kicker" style="display:block;margin:var(--s-5) 0 var(--s-2)">Dischi e canzoni</span>
-    <div class="cards">${music.map((b) => `<a class="cardx" href="#/cultura/${esc(b.id)}"><div class="cardx__img cardx__img--logo">${b.image ? `<img src="${esc(b.image)}" alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-star"/></svg>'}</div><div class="cardx__body"><div class="cardx__title">${esc(b.name)}</div><div class="cardx__meta">${esc(b.category || '')}</div></div></a>`).join('')}</div>`;
+  const left = head + radioView.stationsView(query, music);
   return { left, right: '', show: 'left', accent: secR.accent, title: 'Radio' };
 }
 

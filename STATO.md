@@ -170,6 +170,10 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - `docs/js/views/playlist.js`: `allSongs()` unisce `tracks` e `highlights` di radio.json, id stabile `sng-<stazione>-<artista>-<titolo>`. Tre schede in `#/cultura` (`?v=canzoni`, `?v=playlist`). Il cuore salva in `progress.playlist` (campo nuovo in emptyState, niente migrazione: `migrate` completa i campi mancanti), quindi viaggia anche con il profilo online. Canzoni aggiunte a mano: `custom: true`.
 - Apple Music: solo link di ricerca (una playlist vera richiederebbe MusicKit e l'accesso all'account). «Copia l'elenco» / «Condividi» per passare la lista ad altre app.
 
+## 4t. Radio come giradischi (v0.47.0, 18/11)
+- `docs/js/views/radio.js`: scheda «Stazioni» = giradischi (`.deck`: disco `.disc` che gira, braccio, «In onda» con equalizzatore, nome in Pricedown al neon, sintonia prev/next, scaletta con le prime 8 canzoni e il resto in «Altre N canzoni») + cassa dei dischi (`.crate` / `.sleeve`: copertina quadrata col vinile che sporge e scivola fuori al passaggio). La stazione scelta sta in `?st=` e in localStorage (`leonida:radio:last`); `#/cultura/<id stazione>` apre il giradischi su quella stazione.
+- Colore della stazione: campo `color` in radio.json se c'è, altrimenti la tabella COLORS in radio.js. Logo assente → iniziali in Pricedown sull'etichetta.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

@@ -2008,3 +2008,94 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .pl-add summary { list-style: none; cursor: pointer; min-height: var(--tap); display: flex; align-items: center; }
 .pl-add summary::-webkit-details-marker { display: none; }
 .pl-add form { margin-top: var(--s-3); }
+
+/* ===================== RADIO: giradischi e cassa dei dischi ===================== */
+/* Il disco: solchi, riflessi, etichetta con il logo, foro centrale */
+.disc { position: relative; display: block; aspect-ratio: 1; border-radius: 50%;
+  background:
+    conic-gradient(from 30deg, transparent 0 12%, rgba(255,255,255,.10) 16%, transparent 22% 58%, rgba(255,255,255,.08) 63%, transparent 69%),
+    repeating-radial-gradient(circle at 50% 50%, #121016 0 1.6px, #1d1a23 1.6px 3.2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.55), inset 0 0 0 2px rgba(255,255,255,.05), inset 0 0 0 9px #0c0b0f; }
+.disc__label { position: absolute; inset: 31%; border-radius: 50%; display: grid; place-items: center; overflow: hidden;
+  background: radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--st, #ff3d8b) 70%, #fff), var(--st, #ff3d8b) 70%); box-shadow: 0 0 0 3px rgba(0,0,0,.35); }
+.disc__label img { position: absolute; inset: 9%; width: 82%; height: 82%; object-fit: contain; filter: drop-shadow(0 1px 1px rgba(0,0,0,.35)); }
+.disc__label b { font-family: var(--font-gta); font-weight: 400; color: #fff; font-size: clamp(14px, 4cqi, 26px); letter-spacing: .02em; text-shadow: 0 2px 0 rgba(0,0,0,.35); }
+.disc__label img.is-loaded + b { display: none; }
+.disc::after { content: ""; position: absolute; left: 50%; top: 50%; width: 4%; height: 4%; transform: translate(-50%, -50%); border-radius: 50%; background: #0b0a0f; box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
+.disc.is-spinning { animation: disc-spin 1.8s linear infinite; }
+@keyframes disc-spin { to { transform: rotate(360deg); } }
+
+/* Il giradischi: piatto a sinistra, stazione a destra, scaletta sotto */
+.deck { position: relative; display: grid; grid-template-columns: minmax(150px, 40%) minmax(0, 1fr); gap: var(--s-4) var(--s-5); align-items: center;
+  margin: var(--s-4) 0 var(--s-6); padding: var(--s-5); border-radius: 22px; overflow: hidden; color: #f6eff4;
+  background:
+    radial-gradient(120% 90% at 0% 0%, color-mix(in srgb, var(--st) 55%, transparent), transparent 60%),
+    radial-gradient(90% 80% at 100% 100%, color-mix(in srgb, var(--st) 30%, transparent), transparent 70%),
+    linear-gradient(160deg, #1b1622, #0d0b12);
+  box-shadow: 0 24px 60px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.07); }
+.deck::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+  background: repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 1px, transparent 1px 4px); }
+.deck > * { position: relative; }
+.deck__platter { position: relative; container-type: inline-size; padding: 6%; border-radius: 50%;
+  background: radial-gradient(circle, #26222c 0 60%, #19161e 61% 100%); box-shadow: inset 0 2px 10px rgba(0,0,0,.6), 0 0 0 4px rgba(255,255,255,.04); }
+.deck__arm { position: absolute; right: -2%; top: -4%; width: 22%; height: 68%; transform-origin: 70% 10%; transform: rotate(24deg); transition: transform .8s cubic-bezier(.3,.7,.2,1); }
+.deck__arm::before { content: ""; position: absolute; right: 18%; top: 0; width: 26%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #d9d4dc, #6d6873); box-shadow: 0 3px 8px rgba(0,0,0,.5); }
+.deck__arm i { position: absolute; right: 29%; top: 8%; width: 5px; height: 86%; border-radius: 3px; background: linear-gradient(90deg, #a9a3ad, #f1edf2, #8d8792); transform: rotate(-4deg); transform-origin: top; }
+.deck__arm i::after { content: ""; position: absolute; left: -5px; bottom: -6px; width: 15px; height: 18px; border-radius: 3px; background: #2a2630; box-shadow: inset 0 0 0 1px rgba(255,255,255,.2); }
+.deck__onair { display: inline-flex; align-items: center; gap: 8px; padding: 5px 11px; border-radius: 999px; background: color-mix(in srgb, var(--st) 25%, rgba(0,0,0,.4)); border: 1px solid color-mix(in srgb, var(--st) 60%, transparent);
+  font-size: var(--fs-xs); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #fff; }
+.eq { display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }
+.eq b { width: 3px; height: 100%; border-radius: 1px; background: var(--st); animation: eq 1s ease-in-out infinite; transform-origin: bottom; }
+.eq b:nth-child(2) { animation-delay: -.3s; } .eq b:nth-child(3) { animation-delay: -.6s; } .eq b:nth-child(4) { animation-delay: -.15s; } .eq b:nth-child(5) { animation-delay: -.45s; }
+@keyframes eq { 0%, 100% { transform: scaleY(.25); } 50% { transform: scaleY(1); } }
+.deck__name { font-family: var(--font-gta); font-weight: 400; font-size: clamp(2.1rem, 7vw, 3.6rem); line-height: .95; margin: var(--s-3) 0 4px; letter-spacing: .01em;
+  color: #fff; text-shadow: 0 0 18px color-mix(in srgb, var(--st) 80%, transparent), 0 0 2px var(--st), 0 3px 0 rgba(0,0,0,.4); }
+.deck__genre { margin: 0; font-size: var(--fs-sm); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--st); }
+.deck__host { margin: 6px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1.05rem; color: rgba(246,239,244,.85); }
+.deck__desc { margin: var(--s-3) 0; font-size: var(--fs-sm); color: rgba(246,239,244,.78); line-height: 1.5; }
+.deck__desc p { margin: 0; }
+.deck .chips { margin-top: var(--s-2); }
+.tuner { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: var(--s-2); margin-top: var(--s-4); }
+.tuner__btn { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); }
+.tuner__btn svg { width: 20px; height: 20px; }
+.tuner__band { position: relative; height: 26px; border-radius: 6px; background: repeating-linear-gradient(90deg, rgba(255,255,255,.35) 0 1px, transparent 1px 8px) center / 100% 40% no-repeat, rgba(0,0,0,.35); box-shadow: inset 0 0 0 1px rgba(255,255,255,.1); }
+.tuner__band i { position: absolute; top: -3px; bottom: -3px; width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--st); box-shadow: 0 0 10px var(--st); transition: left .5s ease; }
+.deck__tracks { grid-column: 1 / -1; margin-top: var(--s-2); padding: var(--s-3) var(--s-4) var(--s-2); border-radius: 16px; background: rgba(10,8,14,.55); box-shadow: inset 0 0 0 1px rgba(255,255,255,.06); }
+.deck__side { display: flex; justify-content: space-between; gap: var(--s-3); font-size: var(--fs-xs); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: rgba(246,239,244,.6); padding-bottom: var(--s-2); }
+.deck__tracks .song { border-color: rgba(255,255,255,.08); }
+.deck__tracks .song__title { color: #fff; }
+.deck__tracks .song__meta, .deck__tracks .song__fav { color: rgba(246,239,244,.6); }
+.deck__tracks .song.is-on .song__fav { color: var(--st); }
+.deck__tracks .song__go { color: #fff; border-color: rgba(255,255,255,.22); }
+.deck__more summary { cursor: pointer; padding: var(--s-3) 0; font-weight: 600; color: var(--st); list-style: none; }
+.deck__more summary::-webkit-details-marker { display: none; }
+.deck__empty { margin: var(--s-2) 0 var(--s-3); color: rgba(246,239,244,.7); font-size: var(--fs-sm); }
+@container (max-width: 560px) {
+  .deck { grid-template-columns: 1fr; padding: var(--s-4); text-align: center; }
+  .deck__platter { width: 72%; margin: 0 auto; }
+  .deck__info { display: grid; justify-items: center; }
+  .deck__info .tuner { width: 100%; }
+  .deck__tracks { padding: var(--s-3); text-align: left; }
+}
+
+/* La cassa dei dischi: copertina quadrata con il vinile che esce */
+.crate__head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-3); margin: 0 0 var(--s-3); }
+.crate { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-5) var(--s-4); }
+.sleeve { display: block; text-decoration: none; color: inherit; outline-offset: 4px; }
+.sleeve__art { position: relative; display: block; aspect-ratio: 1; margin-right: 18%; container-type: inline-size; }
+.sleeve__art .disc { position: absolute; top: 4%; left: 4%; width: 92%; transform: translateX(17%); transition: transform .55s cubic-bezier(.3,.7,.2,1); }
+.sleeve__cover { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; border-radius: 6px; overflow: hidden;
+  background: radial-gradient(120% 120% at 20% 10%, color-mix(in srgb, var(--st) 75%, #fff 10%), color-mix(in srgb, var(--st) 55%, #000) 75%);
+  box-shadow: 0 10px 22px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.15); }
+.sleeve__cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, rgba(255,255,255,.22), transparent 40%); pointer-events: none; }
+.sleeve__cover img { position: absolute; inset: 12%; width: 76%; height: 76%; object-fit: contain; filter: drop-shadow(0 4px 8px rgba(0,0,0,.35)); }
+.sleeve__cover b { position: relative; font-family: var(--font-gta); font-weight: 400; font-size: clamp(20px, 15cqi, 40px); line-height: .95; text-align: center; color: #fff; padding: 0 10%; text-shadow: 0 3px 0 rgba(0,0,0,.3); }
+.sleeve__cover img.is-loaded + b { display: none; }
+.sleeve:hover .disc, .sleeve:focus-visible .disc { transform: translateX(34%) rotate(70deg); }
+.sleeve.is-on .disc { transform: translateX(38%) rotate(120deg); }
+.sleeve.is-on .sleeve__cover { box-shadow: 0 0 0 3px var(--st), 0 12px 28px color-mix(in srgb, var(--st) 45%, transparent); }
+.sleeve__name { display: block; margin-top: var(--s-3); font-weight: 700; line-height: 1.2; }
+.sleeve.is-on .sleeve__name { color: var(--st); }
+.sleeve__meta { display: block; margin-top: 2px; font-size: var(--fs-xs); color: var(--ink-3); }
+@media (max-width: 430px) { .crate { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-5) var(--s-3); } }
+@media (prefers-reduced-motion: reduce) { .disc.is-spinning, .eq b { animation: none; } .sleeve__art .disc, .deck__arm { transition: none; } }
