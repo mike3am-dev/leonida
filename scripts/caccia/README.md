@@ -48,7 +48,15 @@
 - **gta.wiki**: registro dei caricamenti per trovare i ritratti (`list=logevents&letype=upload`), miniature con `iiurlwidth=600`, categoria `Businesses_in_GTA_VI` (454 aziende), marker di gtasixmap (`…workers.dev/markers`, stesso sistema `xy` dei nostri POI).
 - Da scartare (aggiunte): eGamers.io, games.gg, Music Mundial, cwibc, demokratis; Sportskeeda mai da sola.
 
-## Cosa manca alla fine del giro del 19/11 pomeriggio (da ricontrollare per primo)
+## Cosa manca alla fine del giro del 19/11 sera (da ricontrollare per primo)
+- **Fatto in questo giro:** soluzioni del capitolo 4 (9 missioni), 3 facoltative nuove, cast dai titoli di coda ufficiali, tutte le voci radio (831 canzoni), carte 480/480, 35 pesci, 12 garage, 21 punti dalla mappa ufficiale, 35 nomi di veicoli, metodo di «In principio…» e «La verità è là fuori».
+- **Missioni:** capitolo 5 senza soluzioni; seconda fonte per i capitoli 3-4; titoli italiani 27/168 (nessuna fonte completa).
+- **Collezionabili:** fenicotteri 22/125, stili 11/79, animali 95/255, scoperte subacquee 6/33, riviste 23/27; garage 15 in guida contro 12 dichiarati: ricontare.
+- **Arsenale:** veicoli confermati 180/557; armi con dati 53/72.
+- **Mappa e Mondo:** punti con coordinate 213/621 (MapGenie e IGN restano in attesa del permesso di Mike); personaggi confermati 57/103; 3 stazioni radio senza scaletta.
+- I dubbi aperti del pomeriggio (sotto) non sono stati ricontrollati tutti.
+
+## (Storico) Cosa mancava alla fine del giro del 19/11 pomeriggio
 - **Missioni:** soluzioni dei capitoli 3 (seconda fonte), 4 e 5: nessuna guida le ha (IGN ed Eurogamer sono fermi al capitolo 2); 11 missioni senza passi; «Mandy's Dark Secret» (IGN 404); da verificare Clock Out, Donnie's Lost Drugs, Veteran Hunted, Painkiller Supplier; chi riceve la caccia a Mr. Mangrove (PowerPyx: solo Lucia dal capitolo 2; IGN: Jason dal capitolo 1). Titoli italiani: nessuna fonte.
 - **Trofei:** 4 segreti senza metodo (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
 - **Collezionabili:** fenicotteri 22/125, stili 11/79, animali 63/255 (e gli 8 di Bret), scoperte subacquee 6/33 (GameSpot ha una guida ma blocca), riviste 23/27, 5 murales 1010, 1 salto, 3 carte.
