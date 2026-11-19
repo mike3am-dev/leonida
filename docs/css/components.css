@@ -2302,3 +2302,38 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .ttip.is-got .ttip__cup { background: color-mix(in srgb, var(--teal) 18%, transparent); color: var(--teal); }
 .ttip.is-got .ttip__kind { color: var(--teal); }
 .ttip.is-got .ttip__text { color: var(--ink-3); }
+
+/* Barra in basso degli iPhone: quattro voci fisse (anteprima 1.1) */
+html[data-posture="closed"] .tabbar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; padding: 6px max(var(--safe-r), var(--s-3)) max(var(--safe-b), 6px) max(var(--safe-l), var(--s-3)); overflow: visible; }
+.tab--four { min-height: 58px; gap: 3px; font-size: .75rem; font-weight: 600; letter-spacing: .01em; color: var(--ink-3); }
+.tab--four .tab__pill { display: grid; place-items: center; width: 64px; height: 32px; border-radius: 999px; transition: background var(--dur) var(--ease); }
+.tab--four svg { width: 24px; height: 24px; }
+.tab--four[aria-current="page"] { color: var(--ink); }
+.tab--four[aria-current="page"] .tab__pill { background: color-mix(in srgb, var(--magenta) 18%, transparent); }
+.tab--four[aria-current="page"] svg { color: var(--magenta); }
+.tab--four.tab--home svg { width: 26px; height: 26px; margin-top: 0; }
+.tab--four.tab--home span:last-child { font-family: var(--font-text); font-style: normal; font-size: .75rem; }
+/* Pagina «Game»: i tasselli delle sezioni */
+.ghead h1 { font-family: var(--font-gta); font-weight: 400; font-size: 2.6rem; line-height: 1; margin: 0; }
+.ghead { margin-bottom: var(--s-4); }
+.gtile { --c: hsl(var(--h) 78% 56%); position: relative; display: grid; gap: var(--s-2); align-content: space-between; min-height: 124px; padding: var(--s-3); border-radius: 18px; text-decoration: none; color: var(--ink); background: linear-gradient(150deg, color-mix(in srgb, var(--c) 22%, var(--paper)), var(--paper) 70%); border: 1px solid color-mix(in srgb, var(--c) 40%, var(--rule)); box-shadow: var(--shadow); }
+.gtile__icon { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: color-mix(in srgb, var(--c) 26%, transparent); color: var(--c); }
+.gtile__icon svg { width: 26px; height: 26px; }
+.gtile__text { display: grid; gap: 2px; min-width: 0; }
+.gtile__name { font-weight: 700; font-size: 1.0625rem; line-height: 1.15; }
+.gtile__num { font-size: var(--fs-sm); color: var(--ink-2); }
+.ggrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-3); margin-top: var(--s-3); }
+.gtile--big { grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; align-content: center; gap: var(--s-4); min-height: 104px; padding: var(--s-4); background: linear-gradient(120deg, color-mix(in srgb, var(--c) 34%, var(--paper)), color-mix(in srgb, var(--c) 8%, var(--paper))); border-width: 2px; }
+.gtile--big .gtile__icon { width: 60px; height: 60px; border-radius: 18px; }
+.gtile--big .gtile__icon svg { width: 34px; height: 34px; }
+.gtile--big .gtile__name { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.6rem; }
+.gtile__kicker { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--c); }
+.gtile__go { width: 22px; height: 22px; color: var(--ink-2); }
+.glinks { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); margin: var(--s-4) 0; }
+.glinks .btn { justify-content: center; }
+/* Riquadro del capitolo nella pagina Missioni: sugli iPhone i trattini andavano a capo fuori dal riquadro */
+.storyboard__text { min-width: 0; max-width: 100%; }
+.storyboard__dots { flex-wrap: wrap; row-gap: 6px; }
+@container (max-width: 420px) { .storyboard__text { width: 100%; } .storyboard__dots .dot { width: 10px; } }
+.storyboard__dots { flex-wrap: nowrap; gap: 4px; width: 100%; }
+.storyboard__dots .dot { flex: 1 1 0; min-width: 4px; max-width: 14px; width: auto; }

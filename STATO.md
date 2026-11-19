@@ -265,6 +265,13 @@ Passata da tre anteprime (`1.0.1-a`, `-b`, `-c`); Mike ha detto «pubblica la 1.
 - **Scatti**: `scatto_cancella` (autore o admin, cancella anche il file), `scatto_modifica`, `commento_cancella`, admin con codice (`scripts/supabase/admin-codice.sql` + `scatti-admin.sql`, da lanciare da Mike). Il primo codice scelto da Mike è finito in uno screenshot in chat: deve sceglierne un altro.
 - **Screenshot per Mike**: sempre Duo aperto (703×1000) e iPhone Pro Max (440×956), con `scratchpad/rc/vedi.cjs` (da portare in `scripts/`).
 
+## 5d. Versione 1.1 in anteprima: barra a quattro voci (dal 19/11 sera) — NON online
+Sul ramo di lavoro, anteprima `1.1-a`. Solo per i telefoni (`html[data-posture="closed"]`): sul Duo aperto la fila a sinistra non cambia.
+- Barra: Home · Game · Social · News (`navHtml` in app.js). Game = tutte le sezioni di gioco (`game.isGamePath`), Social = La banda con gli Scatti (poi i Thread), News = News.
+- Pagina `#/game` (`docs/js/views/game.js`): tassello grande «Riprendi da» (l'ultima sezione di gioco aperta, `localStorage leonida:game:ultima`) e un tassello per sezione con un numero vivo; in fondo Trucchi e Cerca. La pagina «Altro» resta raggiungibile ma non è più nella barra.
+- Da decidere con Mike e Lollo: cosa vuol dire «ogni utente ne sceglie una» (oggi: l'ultima aperta; alternativa: una preferita fissata a mano), se serve un «‹ Game» in cima alle sezioni, dove mettere i Thread.
+- Corretto insieme: i trattini del capitolo nella pagina Missioni uscivano dal riquadro sugli iPhone.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

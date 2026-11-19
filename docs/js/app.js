@@ -10,6 +10,7 @@ import { startPosture, isOpen } from './posture.js';
 import { esc, toast } from './ui/dom.js';
 import { closeSheet } from './ui/sheet.js';
 import { SECTIONS } from './views/shared.js';
+import * as game from './views/game.js';
 import * as sessione from './views/sessione.js';
 import * as missioni from './views/missioni.js';
 import * as atlante from './views/atlante.js';
@@ -54,9 +55,10 @@ function navHtml(activePath, forRail) {
       <svg aria-hidden="true"><use href="#n-${s.id}"/></svg><span>${esc(label)}</span></a>`;
   });
   if (!forRail) {
-    // Telefono: tutte le sezioni scorrono in orizzontale, «Altro» resta fisso a destra
-    const moreActive = activePath === '/altro';
-    return `<div class="tabbar__track" data-tabtrack>${tabs.join('')}</div><a class="tab tab--more" href="#/altro" ${moreActive ? 'aria-current="page"' : ''}><svg aria-hidden="true"><use href="#n-altro"/></svg><span>Altro</span></a>`;
+    // Telefono: quattro voci fisse. «Game» raccoglie tutte le sezioni del gioco (pagina a tasselli), «Social» è La banda con gli Scatti
+    const four = [['/', 'home', 'Home', activePath === '/'], ['/game', 'meccaniche', 'Game', game.isGamePath(activePath)],
+      ['/banda', 'banda', 'Social', activePath.startsWith('/banda') || activePath.startsWith('/scatti')], ['/news', 'news', 'News', activePath.startsWith('/news')]];
+    return four.map(([path, icon, label, on]) => `<a class="tab tab--four ${path === '/' ? 'tab--home' : ''}" href="#${path}" ${on ? 'aria-current="page"' : ''}><span class="tab__pill"><svg aria-hidden="true"><use href="#n-${icon}"/></svg></span><span>${label}</span></a>`).join('');
   }
   return tabs.join('');
 }
@@ -75,6 +77,7 @@ const views = {
   '/missioni/:id?': missioni.render,
   '/meccaniche/:id?': (p, q) => meccaniche.render(p, q),
   '/trucchi': () => meccaniche.renderTrucchi(),
+  '/game': () => game.render(),
   '/banda': () => banda.render(),
   '/scatti': () => { setTimeout(() => document.getElementById('scatti')?.scrollIntoView({ block: 'start' }), 120); return banda.render(); },
   '/mappa/:id?/:poi?': atlante.render,
@@ -102,7 +105,8 @@ function followBar() {
   const home = (location.hash.replace(/^#/, '').split('?')[0] || '/') === '/';
   const here = !!m && location.hash.split('?')[0] === `#/missioni/${m.id}`;   // sei già nella pagina di quella missione
   const list = location.hash.split('?')[0] === '#/missioni';   // nell'elenco la missione in corso è già in evidenza
-  if (!m || home || here || list) { bar.hidden = true; bar.innerHTML = ''; return; }
+  const hub = location.hash.split('?')[0] === '#/game';   // nella pagina Game c'è già «Riprendi da»
+  if (!m || home || here || list || hub) { bar.hidden = true; bar.innerHTML = ''; return; }
   bar.hidden = false;
   bar.innerHTML = `<a class="follow-bar" href="#/missioni/${esc(m.id)}" style="padding:0;background:none;border:0;min-height:0;flex:1"><span class="follow-bar__dot" aria-hidden="true"></span><span class="follow-bar__text">Ora stai giocando <b>${esc(m.title)}</b></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
     <button class="icon-btn" type="button" data-action="note" aria-label="Appunto rapido"><svg aria-hidden="true"><use href="#i-pen"/></svg></button>`;
@@ -197,6 +201,7 @@ function render(match, { dir, refresh } = {}) {
   { // la barra in basso mantiene lo scorrimento e porta in vista la sezione attiva
     const prevX = $('tabbar').querySelector('[data-tabtrack]')?.scrollLeft || 0;
     $('tabbar').innerHTML = navHtml(match.path, false);
+    game.remember(match.path);
     const tr = $('tabbar').querySelector('[data-tabtrack]');
     if (tr) { tr.scrollLeft = prevX; const a = tr.querySelector('[aria-current="page"]'); if (a && (a.offsetLeft < tr.scrollLeft || a.offsetLeft + a.offsetWidth > tr.scrollLeft + tr.clientWidth)) tr.scrollTo({ left: a.offsetLeft - (tr.clientWidth - a.offsetWidth) / 2, behavior: 'smooth' }); }
   }
