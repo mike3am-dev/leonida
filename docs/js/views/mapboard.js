@@ -42,10 +42,10 @@ const luoghi = () => (db.luoghi || []).filter((l) => l.xy);
 function youAreHere() {
   const m = currentMission(); const centers = districtCenters();
   if (m?.districtId && centers[m.districtId]) return { ...centers[m.districtId], label: byId(m.districtId)?.name || '' };
-  const pen = (db.luoghi || []).flatMap((l) => l.landmarks || []).find((k) => k.xy && /Penitentiary/i.test(k.name));
-  if (pen) return { ...toPx(pen.xy[0], pen.xy[1]), label: 'Leonida Penitentiary' };
+  const pen = (db.luoghi || []).flatMap((l) => l.landmarks || []).find((k) => k.xy && /Penitentiary|Correctional/i.test(k.name));
+  if (pen) return { ...toPx(pen.xy[0], pen.xy[1]), label: 'Hamlet Correctional Facility' };
   const hamlet = luoghi().find((l) => l.slug === 'hamlet');
-  return hamlet ? { ...toPx(hamlet.xy[0], hamlet.xy[1]), label: 'Leonida Penitentiary (Hamlet)' } : null;
+  return hamlet ? { ...toPx(hamlet.xy[0], hamlet.xy[1]), label: 'Hamlet Correctional Facility' } : null;
 }
 function districtCenters() {
   const acc = {};

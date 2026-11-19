@@ -357,10 +357,11 @@
         "https://www.videogameschronicle.com/guide/gta-6-just-a-scratch-mission-walkthrough/",
         "https://gta.wiki/wiki/Just_a_Scratch",
         "https://www.gtaboom.com/gta-6-just-a-scratch-mission-walkthrough-da82",
-        "https://www.eurogamer.net/gta-6-fix-your-car-walkthrough"
+        "https://www.eurogamer.net/gta-6-fix-your-car-walkthrough",
+        "https://www.youtube.com/watch?v=-cqOagZ7N8Y"
       ],
       "titleEn": "Just a Scratch",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
+      "titleNote": "Titolo italiano da un solo giocatore italiano (IosonoOtakuman, nei capitoli del video). GTABase.it non conta: traduce i titoli in automatico e il gioco l'ha già smentito almeno una volta. Da confermare a schermo."
     },
     {
       "id": "mis-lab-fees",
@@ -699,7 +700,7 @@
     },
     {
       "id": "mis-island-dreams",
-      "title": "Sogni d'isola",
+      "title": "Island Dreams",
       "actId": "act-1",
       "chapter": 1,
       "order": 10,
@@ -747,10 +748,12 @@
         "https://www.videogameschronicle.com/guide/gta-6-island-dreams-walkthrough/",
         "https://gta.wiki/wiki/Island_Dreams",
         "https://www.gtaboom.com/gta-6-island-dreams-walkthrough-2362",
-        "https://www.eurogamer.net/gta-6-island-dreams-walkthrough"
+        "https://www.eurogamer.net/gta-6-island-dreams-walkthrough",
+        "https://www.youtube.com/watch?v=IeNdZoCPEhE",
+        "https://www.youtube.com/watch?v=NQRSDzFZ-_4"
       ],
       "titleEn": "Island Dreams",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it).",
+      "titleNote": "Nella versione italiana il titolo resta in inglese: «Island Dreams» nei video di due giocatori italiani (PANZA MARANZA GAMING, che il 19/11 ha corretto il suo titolo da «Sogni d'isola», e Jugin Gamer). «Sogni d'isola» era la traduzione automatica di GTABase.it.",
       "trophyTips": [
         {
           "trophyId": "tro-this-was-no-boat-accident",
@@ -827,7 +830,9 @@
         "https://www.videogameschronicle.com/guide/gta-6-feng-shui-mission-walkthrough/",
         "https://gta.wiki/wiki/Feng_Shui",
         "https://www.gtaboom.com/gta-6-feng-shui-walkthrough-f85d",
-        "https://www.eurogamer.net/gta-6-feng-shui-walkthrough"
+        "https://www.eurogamer.net/gta-6-feng-shui-walkthrough",
+        "https://www.youtube.com/watch?v=_tLdeC4UGHo",
+        "https://www.youtube.com/watch?v=HxEPuHX-jvA"
       ],
       "trophyTips": [
         {
@@ -840,14 +845,16 @@
           "tipo": "occasione",
           "testo": "Da qui in poi Cal ti scrive e segna in viola un posto di pesca: segui le sue sfide di pesca finché lo batti."
         }
-      ]
+      ],
+      "titleEn": "Feng Shui",
+      "titleNote": "Anche nella versione italiana il titolo resta «Feng Shui» (video di PANZA MARANZA GAMING e Jugin Gamer)."
     },
     {
       "id": "mis-pick-up-groceries",
       "title": "Pick Up Groceries",
       "actId": "act-1",
       "chapter": 1,
-      "order": 14,
+      "order": 15,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Lucia chiede di riempire il frigo prima del suo ritorno. La spesa si fa al market di Key Lento.",
@@ -887,7 +894,7 @@
       "title": "Buy Flowers",
       "actId": "act-1",
       "chapter": 1,
-      "order": 15,
+      "order": 16,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Un mazzo di fiori da far trovare a casa a Lucia. Basta comprarlo: a casa arriva da solo.",
@@ -924,7 +931,7 @@
       "title": "Buy Lucia a Necklace",
       "actId": "act-1",
       "chapter": 1,
-      "order": 16,
+      "order": 17,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Jason fa incidere una catenina d'oro per Lucia. Un regalo che non resta solo un regalo.",
@@ -963,7 +970,7 @@
       "title": "Get The Chop",
       "actId": "act-1",
       "chapter": 1,
-      "order": 17,
+      "order": 18,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Jason si dà una sistemata prima di andare a prendere Lucia. Si sceglie taglio, colore e barba.",
@@ -1006,7 +1013,7 @@
       "title": "If the Clothes Fit",
       "actId": "act-1",
       "chapter": 1,
-      "order": 18,
+      "order": 19,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Lucia chiede a Jason di ritirare dei vestiti dall'amica Andy. Vanno portati con te quando vai a prenderla.",
@@ -1051,7 +1058,7 @@
       "title": "Bentornata a casa",
       "actId": "act-1",
       "chapter": 1,
-      "order": 19,
+      "order": 20,
       "protagonist": "jason",
       "districtId": "dis-hamlet",
       "summary": "Lucia esce dal penitenziario e Jason la va a prendere. La serata di festa al Rusty Anchor finisce come spesso finiscono le serate nelle Keys.",
@@ -1131,7 +1138,7 @@
       "title": "Tasche bucate",
       "actId": "act-1",
       "chapter": 1,
-      "order": 21,
+      "order": 22,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "A Lucia serve un conto per ricevere i pagamenti dei servizi sociali. In banca va peggio del previsto e la soluzione è un'app.",
@@ -1186,7 +1193,7 @@
       "title": "Deposit Cash Into BuckMe",
       "actId": "act-1",
       "chapter": 1,
-      "order": 23,
+      "order": 24,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Il primo versamento sul conto BuckMe: un compito breve che trovi nell'elenco delle missioni.",
@@ -1224,7 +1231,7 @@
       "title": "Save for the Future",
       "actId": "act-1",
       "chapter": 1,
-      "order": 24,
+      "order": 25,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Il risparmio di famiglia ha dei traguardi da raggiungere: è un compito che porti avanti per tutta la storia.",
@@ -1263,7 +1270,7 @@
       "title": "Ripulisci le tracce di Donnie",
       "actId": "act-1",
       "chapter": 1,
-      "order": 20,
+      "order": 21,
       "protagonist": "jason",
       "districtId": "dis-hamlet",
       "summary": "Uno dei pacchi dello scambio andato male manda ancora segnale vicino a un punto di pesca di Hamlet. Jason va a recuperarlo prima che lo trovino altri.",
@@ -1312,7 +1319,7 @@
       "title": "Piedi per terra",
       "actId": "act-1",
       "chapter": 1,
-      "order": 22,
+      "order": 23,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Lucia vuole vedere in cosa consiste il lavoro di Jason alla marina. Da una barca da lavare si arriva a una consegna in idrovolante, e a casa c'è una visita inattesa.",
@@ -1390,7 +1397,7 @@
       "title": "Find the Lost Drugs",
       "actId": "act-1",
       "chapter": 1,
-      "order": 25,
+      "order": 26,
       "protagonist": "jason",
       "districtId": "dis-grassrivers",
       "summary": "Altri pacchi persi sono sparsi in quattro zone delle paludi. Si recuperano e si rivendono a un ricettatore.",
@@ -1442,7 +1449,7 @@
       "title": "Apriti cielo",
       "actId": "act-1",
       "chapter": 1,
-      "order": 26,
+      "order": 27,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Brian ha un lavoro per Jason e Donnie: scortare in volo un carico fino a una pista nelle paludi. Lo scambio con i biker dei Final Chapter non va come previsto.",
@@ -1498,7 +1505,7 @@
       "title": "Building a Life",
       "actId": "act-1",
       "chapter": 1,
-      "order": 27,
+      "order": 28,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Jason e Lucia sistemano casa insieme. Un momento tranquillo, mobile da montare compreso.",
@@ -1538,7 +1545,7 @@
       "title": "Permesso premio",
       "actId": "act-1",
       "chapter": 1,
-      "order": 28,
+      "order": 29,
       "protagonist": "entrambi",
       "districtId": "dis-keys",
       "summary": "Kat, ex compagna di cella di Lucia, e il suo ricco compagno Mattia invitano la coppia a far festa. Si parte dalle Keys e si arriva, per la prima volta, fino a Vice City.",
@@ -1596,7 +1603,7 @@
       "title": "Clock Out",
       "actId": "act-1",
       "chapter": 1,
-      "order": 29,
+      "order": 30,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Lucia finisce prima il turno e chiede un passaggio. Bisogna arrivare entro le quattro.",
@@ -1638,7 +1645,7 @@
       "title": "Nel fango fino al collo",
       "actId": "act-1",
       "chapter": 1,
-      "order": 31,
+      "order": 32,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Brian vuole chiudere i conti con i Kingfishers e porta Jason al loro campo. È una trappola.",
@@ -1684,17 +1691,19 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-swamped-mission-walkthrough/",
-        "https://www.eurogamer.net/gta-6-swamped-walkthrough"
+        "https://www.eurogamer.net/gta-6-swamped-walkthrough",
+        "https://www.youtube.com/watch?v=CuuhOcUiEKM",
+        "https://www.youtube.com/watch?v=CUoCelHWlwI"
       ],
       "titleEn": "Swamped",
-      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
+      "titleNote": "Titolo italiano da due giocatori italiani (Jugin Gamer e PANZA MARANZA GAMING)."
     },
     {
       "id": "mis-don-gone",
       "title": "Don Gone",
       "actId": "act-1",
       "chapter": 1,
-      "order": 32,
+      "order": 33,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Brian vuole che sembri che Donnie abbia fatto le valigie e lasciato le Keys. Jason ripulisce la sua roulotte.",
@@ -1747,7 +1756,7 @@
       "title": "Donnie's Lost Drugs",
       "actId": "act-1",
       "chapter": 1,
-      "order": 33,
+      "order": 34,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Sul fondo al largo di Corsair Key c'è una barca affondata con della droga a bordo. Basta andarla a prendere.",
@@ -1784,7 +1793,7 @@
       "title": "Ricalibrarsi",
       "actId": "act-1",
       "chapter": 1,
-      "order": 34,
+      "order": 35,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Cal sta passando un brutto momento e Jason e Lucia lo vanno a tirare su. Birra, pesca e grigliata.",
@@ -1824,10 +1833,12 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-recalibration-mission-walkthrough/",
-        "https://www.eurogamer.net/gta-6-recalibration-walkthrough"
+        "https://www.eurogamer.net/gta-6-recalibration-walkthrough",
+        "https://www.youtube.com/watch?v=KkkrCaqK3sY",
+        "https://www.youtube.com/watch?v=C28VDHSMQTw"
       ],
       "titleEn": "Recalibration",
-      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo.",
+      "titleNote": "Titolo italiano da due giocatori italiani (Jugin Gamer e PANZA MARANZA GAMING).",
       "trophyTips": [
         {
           "trophyId": "tro-positive-mental-attitude",
@@ -1841,7 +1852,7 @@
       "title": "Trappola per turisti",
       "actId": "act-1",
       "chapter": 1,
-      "order": 35,
+      "order": 36,
       "protagonist": "entrambi",
       "districtId": "dis-keys",
       "summary": "Mattia propone un lavoro facile: ritirare una borsa da un armadietto in un centro visitatori. Ovviamente non è facile.",
@@ -1894,10 +1905,11 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-tourist-trap-mission-walkthrough/",
         "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
-        "https://www.eurogamer.net/gta-6-tourist-trap-walkthrough"
+        "https://www.eurogamer.net/gta-6-tourist-trap-walkthrough",
+        "https://www.youtube.com/watch?v=aVh-UPLrznc"
       ],
       "titleEn": "Tourist Trap",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it).",
+      "titleNote": "Titolo italiano da un solo giocatore italiano (Jugin Gamer). GTABase.it non conta: traduce i titoli in automatico e il gioco l'ha già smentito almeno una volta. Da confermare a schermo.",
       "trophyTips": [
         {
           "trophyId": "tro-positive-mental-attitude",
@@ -1911,7 +1923,7 @@
       "title": "Casa dolce casa",
       "actId": "act-1",
       "chapter": 1,
-      "order": 36,
+      "order": 37,
       "protagonist": "lucia",
       "districtId": "dis-keys",
       "summary": "Lucia torna a casa per prendere le cose di Jason prima di sparire. La casa non è vuota.",
@@ -1943,17 +1955,18 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-home-sweet-home-mission-walkthrough/",
-        "https://www.eurogamer.net/gta-6-home-sweet-home-walkthrough"
+        "https://www.eurogamer.net/gta-6-home-sweet-home-walkthrough",
+        "https://www.youtube.com/watch?v=aVh-UPLrznc"
       ],
       "titleEn": "Home Sweet Home",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
+      "titleNote": "Titolo italiano da un solo giocatore italiano (Jugin Gamer). GTABase.it non conta: traduce i titoli in automatico e il gioco l'ha già smentito almeno una volta. Da confermare a schermo."
     },
     {
       "id": "mis-discharge-time",
       "title": "Dimissioni anticipate",
       "actId": "act-1",
       "chapter": 1,
-      "order": 37,
+      "order": 38,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
       "summary": "Lucia corre all'ospedale di Vice City da Jason. Non è l'unica che lo sta cercando.",
@@ -2647,6 +2660,10 @@
         {
           "type": "app",
           "label": "Vice City Real Estate (acquisto dei garage)"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-steal-vehicles-for-moses"
         }
       ],
       "rewards": [],
@@ -2693,7 +2710,7 @@
       "title": "Slam Dunk",
       "actId": "act-2",
       "chapter": 2,
-      "order": 15,
+      "order": 17,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
       "summary": "Dunk ha una pista: un medico in pensione che procurava farmaci. Lucia lo accompagna a incontrarlo, ma l'affare passa dai Kolt.",
@@ -2750,7 +2767,7 @@
       "title": "Collect Chemicals for Kyle",
       "actId": "act-2",
       "chapter": 2,
-      "order": 16,
+      "order": 18,
       "protagonist": "entrambi",
       "districtId": null,
       "summary": "Kyle ha bisogno di prodotti chimici per i suoi raccolti e ti manda a prenderli in un deposito della Final Chapter.",
@@ -2809,7 +2826,7 @@
       "title": "Colazione on the road",
       "actId": "act-2",
       "chapter": 2,
-      "order": 17,
+      "order": 19,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
       "summary": "Jason chiama Lucia al motel: è tempo di vedere come sta. Da lì parte una mattinata di colpi in giro per Kelly County.",
@@ -2864,7 +2881,7 @@
       "title": "Coffee Break",
       "actId": "act-2",
       "chapter": 2,
-      "order": 18,
+      "order": 20,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Jason e Lucia si siedono davanti a un caffè per decidere cosa fare. Serve un colpo più grosso per andarsene a Vice City.",
@@ -2951,7 +2968,7 @@
       "title": "Thrillbillies",
       "actId": "act-2",
       "chapter": 2,
-      "order": 20,
+      "order": 22,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Wyman ha parlato delle gare nel fango al Thrillbilly Mud Club, con premi in denaro. Jason e Lucia vanno a vedere.",
@@ -3015,7 +3032,7 @@
       "title": "Twist Wrist, Smash, Grab",
       "actId": "act-2",
       "chapter": 2,
-      "order": 21,
+      "order": 23,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Billy, conosciuto al Mud Club, prepara un colpo e gli manca un pilota. Si va in moto.",
@@ -3071,7 +3088,7 @@
       "title": "Hit Avery Pawn",
       "actId": "act-2",
       "chapter": 2,
-      "order": 22,
+      "order": 24,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Lucia propone di ripulire insieme il banco dei pegni di Port Gellhorn. Dentro ci sono parecchi oggetti di valore.",
@@ -3114,7 +3131,7 @@
       "title": "Hit Kingpin Bowling",
       "actId": "act-2",
       "chapter": 2,
-      "order": 23,
+      "order": 25,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "La sala da bowling di Port Gellhorn è finita in mano ai Kolt. È il prossimo bersaglio di Jason e Lucia.",
@@ -3188,7 +3205,7 @@
       "title": "Impounded Vehicle",
       "actId": "act-2",
       "chapter": 2,
-      "order": 24,
+      "order": 26,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "L'auto di Lucia è finita nel deposito della polizia. Va ripresa.",
@@ -3228,7 +3245,7 @@
       "title": "Prepare for Vice City",
       "actId": "act-2",
       "chapter": 2,
-      "order": 25,
+      "order": 27,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Mentre Dre'Quan cerca un posto a Vice City, Jason e Lucia devono mettere insieme i soldi per partire.",
@@ -3272,7 +3289,7 @@
       "title": "Veteran Hunted",
       "actId": "act-2",
       "chapter": 2,
-      "order": 26,
+      "order": 28,
       "protagonist": "jason",
       "districtId": "dis-mount-kalaga",
       "summary": "Bret Vogel, vecchio compagno d'armi di Jason, ha un'attività di caccia vicino al Mount Kalaga e gli chiede una mano.",
@@ -3329,7 +3346,7 @@
       "title": "Afternoon Delight",
       "actId": "act-2",
       "chapter": 2,
-      "order": 27,
+      "order": 29,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Vicki vuole derubare il suo capo, Frankie, e dividere i soldi. L'appuntamento è al Delights.",
@@ -3374,7 +3391,7 @@
       "title": "Checking Out",
       "actId": "act-2",
       "chapter": 2,
-      "order": 28,
+      "order": 30,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
       "summary": "Con i soldi messi da parte, Jason e Lucia fanno i bagagli per raggiungere Dre'Quan a Vice City. Prima però bisogna uscire dal motel.",
@@ -5233,16 +5250,12 @@
       "order": 1,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia si sistemano a Ocean Beach, sul lungomare di Vice City.",
+      "summary": "Jason e Lucia lasciano l'appartamento di Bayside e si trasferiscono in una suite dello Y Hotel, sul lungomare, sistemata da Valentina.",
       "prerequisites": [],
       "unlocks": [
         {
           "type": "rifugio",
-          "label": "Camera allo Y Hotel, Ocean Beach"
-        },
-        {
-          "type": "app",
-          "label": "BuckMe Premium"
+          "label": "Stanza 701 dello Y Hotel, Ocean Beach"
         },
         {
           "type": "ultimate",
@@ -5260,8 +5273,10 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
+        "Parte dall'appartamento di Bayside: subito dopo il colpo che chiude il capitolo 3, oppure la prossima volta che ci torni.",
+        "All'ingresso dell'hotel il concierge ti prende l'auto.",
+        "Nel guardaroba della suite ci sono vestiti nuovi per questo capitolo.",
         "Solo con la Ultimate Edition: al molo del canale di Washington Beach c'è il motoscafo Squalo con la cassa di armi ed esplosivi (lo trovi nella sezione Personale dell'indice della mappa). C'è solo nel capitolo 4: prendilo subito.",
-        "Il conto BuckMe passa da solo a Premium: il conto corrente arriva fino a 2 milioni e le livree costano il 10% in meno.",
         "Appena inizia il capitolo fai un salvataggio manuale in uno slot a parte: le missioni non si possono rigiocare."
       ],
       "secrets": [],
@@ -5270,14 +5285,23 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ocean-beach-walkthrough/",
       "startableBy": [
         "entrambi"
       ],
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-        "https://www.gtabase.com/gta-6/missions/ocean-beach"
+        "https://www.gtabase.com/gta-6/missions/ocean-beach",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      ],
+      "objectives": [
+        "Guida fino allo Y Hotel, dalla parte di Vice Beach",
+        "Entra nell'hotel e raggiungi Valentina, seduta sulla destra",
+        "Seguila all'ascensore e sali al 7° piano",
+        "Vai alla stanza 701, in fondo al corridoio a sinistra",
+        "Esplora la suite con Lucia e apri il guardaroba",
+        "Porta a Lucia un bicchiere di champagne sul balcone"
       ]
     },
     {
@@ -5288,9 +5312,13 @@
       "order": 2,
       "protagonist": "lucia",
       "districtId": "dis-vice-city",
-      "summary": "Lucia ripensa al suo passato.",
+      "summary": "Un ricordo di Lucia: l'ultima mattina passata con Tomás, prima dell'arresto.",
       "prerequisites": [],
       "unlocks": [
+        {
+          "type": "app",
+          "label": "Conto BuckMe Premium (fino a 2 milioni sul conto corrente)"
+        },
         {
           "type": "mission",
           "ref": "mis-pool-day"
@@ -5298,21 +5326,26 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Parte da sola, appena passi a Lucia dopo la sistemazione in hotel.",
+        "Alla fine il conto BuckMe passa da solo a Premium (nel messaggio lo chiamano «BuckMe Black»): il conto corrente arriva fino a 2 milioni e le livree costano il 10% in meno."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-another-life-walkthrough/",
       "startableBy": [
         "lucia"
       ],
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-        "https://www.gtabase.com/gta-6/missions/another-life"
+        "https://www.gtabase.com/gta-6/missions/another-life",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+        "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/"
       ],
       "trophyTips": [
         {
@@ -5320,6 +5353,15 @@
           "tipo": "arriva",
           "testo": "Arriva da solo a fine missione: chiude il capitolo 3."
         }
+      ],
+      "contact": "chr-lucia",
+      "objectives": [
+        "Prendi il telefono sul tavolo",
+        "Vai da Tomás nella stanza in fondo al corridoio",
+        "Prendilo in braccio dalla culla",
+        "Torna in soggiorno e usa gli oggetti indicati per calmarlo",
+        "Alza il volume della radio sul bancone",
+        "Balla con Tomás in soggiorno con i tasti a schermo"
       ]
     },
     {
@@ -5344,13 +5386,18 @@
         {
           "type": "mission",
           "ref": "mis-company-cars"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-lawyer-up"
         }
       ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Se dici di no, Lucia resta sul balcone ad aspettare: la missione parte solo quando accetti.",
-        "[spoiler] Al bar ti si presenta Eddie Acosta, un tipo fissato con le cripto: qualche giorno dopo ti scrive per una festa."
+        "Se dici di no, Lucia resta sul balcone ad aspettare: la missione parte solo quando accetti. Se provi a uscire dalla suite, ti richiama.",
+        "[spoiler] Al bar ti si presenta Eddie Acosta, un tipo fissato con le cripto: puoi accettare o rifiutare, l'invito alla sua festa arriva comunque e ti segna una missione facoltativa.",
+        "Alla fine ti chiama Valentina e sulla mappa compaiono due missioni nuove."
       ],
       "secrets": [],
       "image": null,
@@ -5359,16 +5406,20 @@
       "spoilerLevel": 4,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-pool-day-walkthrough/",
       "kind": "compito",
       "contact": "chr-lucia",
       "objectives": [
-        "Parla con Lucia sul balcone della camera",
-        "Accetta di scendere in piscina",
-        "Prendi da bere per Lucia al bar"
+        "Raggiungi Lucia sul balcone e accetta di scendere in piscina",
+        "Al bar oltre la piscina prendi un Tequila Sunrise per Lucia",
+        "Porta il drink a Lucia e guarda la gente intorno con lei",
+        "Segui Lucia fino alla spiaggia"
       ],
       "startableBy": [
         "jason"
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/"
       ]
     },
     {
@@ -5379,21 +5430,23 @@
       "order": 7,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Il concierge dell'hotel ha qualcosa per Jason e Lucia: auto nuove.",
+      "summary": "Il concierge Santino ha un regalo di Valentina: Jason e Lucia scelgono due auto di lusso alla Status Auto Imports.",
       "prerequisites": [],
       "unlocks": [
         {
           "type": "garage",
           "label": "Garage di Thompson Court (2 posti)"
-        },
-        {
-          "type": "mission",
-          "ref": "mis-lawyer-up"
         }
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Se subito dopo la piscina l'obiettivo ha il lucchetto, vai comunque da Santino: puoi parlarci lo stesso.",
+        "Il servizio auto dell'hotel funziona come un taxi gratis: lo prendi davanti all'ingresso.",
+        "Nel salone ci sono auto di lusso da scansionare con WAiNK.",
+        "La Pfister Comet S2 ha le statistiche di base migliori. Le due auto restano tue: puoi modificarle o venderle. Per Lucia un pickup o un SUV bilanciano il garage.",
+        "Se le ammacchi durante la gara non succede niente, ma Lucia ti prende in giro."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5401,13 +5454,21 @@
       "spoilerLevel": 4,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
-      "contact": "Concierge dell'hotel",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-company-cars-speak-to-the-concierge-walkthrough/",
+      "contact": "Santino (concierge dello Y Hotel)",
       "objectives": [
-        "Parla con il concierge"
+        "Parla con Santino nell'atrio dell'hotel (puoi farti portare subito alla concessionaria)",
+        "Parla con il venditore accanto all'auto rossa",
+        "Segui Rob dall'altra parte del salone",
+        "Scegli l'auto di Jason",
+        "Scegli l'auto di Lucia",
+        "Insegui Lucia e fai a gara con lei fino all'hotel"
       ],
       "startableBy": [
         "entrambi"
+      ],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-garage-locations/"
       ]
     },
     {
@@ -5418,17 +5479,26 @@
       "order": 8,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "A Jason e Lucia serve un avvocato, e il nome è Abe Gonzalez.",
+      "summary": "Valentina ha trovato un avvocato: Jason e Lucia incontrano Abe Gonzalez nel suo studio a Downtown.",
       "prerequisites": [],
       "unlocks": [
         {
           "type": "mission",
+          "ref": "mis-heavy-lifting"
+        },
+        {
+          "type": "mission",
           "ref": "mis-its-a-date"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-el-megamundo"
         }
       ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
+        "Valentina ti chiama dopo la giornata in piscina.",
         "Qualche missione più avanti Abe chiede di pagare la sua parcella: tieni da parte un po' di soldi."
       ],
       "secrets": [],
@@ -5437,11 +5507,13 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
-      "contact": "Abe Gonzalez",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-lawyer-up-meet-abe-gonzalez-walkthrough/",
+      "contact": "chr-valentina",
       "objectives": [
-        "Incontra l'avvocato Abe Gonzalez"
+        "Vai allo studio di Abe Gonzalez a Downtown e parla con la receptionist",
+        "Vai sul retro da Sandy, l'assistente di Abe",
+        "Sali nell'ufficio di Abe al piano di sopra"
       ],
       "startableBy": [
         "entrambi"
@@ -5457,7 +5529,7 @@
       "title": "It's A Date!",
       "actId": "act-4",
       "chapter": 4,
-      "order": 9,
+      "order": 10,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
       "summary": "Serata libera: è il momento di un appuntamento.",
@@ -5479,7 +5551,7 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
       "kind": "compito",
       "objectives": [
@@ -5498,22 +5570,28 @@
       "title": "Party Hard",
       "actId": "act-4",
       "chapter": 4,
-      "order": 10,
+      "order": 11,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia fanno da scorta a una celebrità.",
+      "summary": "Valentina procura a Jason e Lucia un lavoro da guardie del corpo: devono scortare Andrés de León, star delle telenovelas, all'inaugurazione della sede Megamundo.",
       "prerequisites": [],
       "unlocks": [
         {
           "type": "mission",
-          "ref": "mis-heavy-lifting"
+          "ref": "mis-photoshoot"
+        },
+        {
+          "type": "mission",
+          "ref": "mis-bad-driver"
         }
       ],
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "La missione nel grattacielo si gioca solo con Jason.",
-        "Il Focus evidenzia i punti deboli: in rosso quelli letali, in giallo quelli per mettere fuori combattimento."
+        "[spoiler] Nel grattacielo si passa da Jason a Lucia più volte. Con Lucia hai solo una pistola silenziata senza munizioni di scorta: non sprecare colpi.",
+        "Il Focus evidenzia i punti deboli: in rosso quelli letali, in giallo quelli per mettere fuori combattimento. Tenuto premuto senza mirare, mostra anche i nemici vicini.",
+        "[spoiler] Se ti scoprono o spari con un'arma rumorosa, ti cercano tutti. Quando spari verso il piano di sotto attento agli ostaggi.",
+        "[spoiler] Nelle lotte corpo a corpo premi ripetutamente il tasto indicato; sulle scale, quando compare il comando, colpiscilo con la scarpa a terra."
       ],
       "secrets": [
         "Nell'ascensore suona «Against All Odds» di Phil Collins."
@@ -5523,10 +5601,16 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-party-hard-work-personal-security-walkthrough/",
       "objectives": [
-        "Lavora come guardia del corpo"
+        "All'aeroporto VCIA fai da autista ad Andrés e segui l'auto davanti",
+        "Ritira la sua ordinazione a Little Cuba, poi vai agli uffici Megamundo a Downtown",
+        "Segui Andrés e Petra in ascensore e raggiungi la sala riunioni",
+        "Con Jason fatti strada nel piano e prendi la radio indicata",
+        "Con Lucia scendi accovacciata lungo il lato sinistro fino alle scale, poi sali e passa dal condotto d'aria",
+        "Al piano della festa elimina gli uomini armati senza colpire gli ostaggi, poi libera Valentina e controlla i Navarro",
+        "Con Jason salta sull'elicottero che decolla, recupera Andrés e riatterra sul tetto del Megamundo"
       ],
       "startableBy": [
         "entrambi"
@@ -5534,28 +5618,32 @@
       "subtitle": "Work Personal Security",
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-        "https://www.gtabase.com/gta-6/missions/party-hard"
-      ]
+        "https://www.gtabase.com/gta-6/missions/party-hard",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      ],
+      "contact": "chr-valentina"
     },
     {
       "id": "mis-heavy-lifting",
       "title": "Heavy Lifting",
       "actId": "act-4",
       "chapter": 4,
-      "order": 11,
+      "order": 9,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Jason e Lucia hanno una consegna da fare.",
+      "summary": "Raul vuole vedere l'hard disk e ha un piano nuovo: Jason e Lucia vanno a spiare una banda rivale all'Ajax Gym.",
       "prerequisites": [],
-      "unlocks": [
-        {
-          "type": "mission",
-          "ref": "mis-photoshoot"
-        }
-      ],
+      "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Raul ti chiama poco dopo l'incontro con l'avvocato: l'hard disk è nel deposito, si sale con l'ascensore.",
+        "Sul tapis roulant premi a ritmo il tasto indicato.",
+        "Nel solarium Jason distrae il commesso: passa in fretta. Nate è nella seconda stanza a destra.",
+        "Sul telefono di Nate apri WhatUp, scorri i messaggi ed esci subito.",
+        "Pedinamento: resta abbastanza lontano da tenere bianca la freccia sopra di loro; se si riempie di giallo sei troppo vicino. Dura parecchio.",
+        "Prima di uscire dalla palestra puoi rimetterti i vestiti normali."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5563,15 +5651,25 @@
       "spoilerLevel": 4,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-heavy-lifting-bring-raul-the-hard-drive-walkthrough/",
       "startableBy": [
         "entrambi"
       ],
-      "objectives": [],
+      "objectives": [
+        "Prendi l'hard disk nel magazzino e portalo sulla casa galleggiante di Raul, nella Leonard County",
+        "Raggiungi in barca l'Ajax Gym e attracca al molo",
+        "Entra, parla con la reception e fai il giro della palestra con J-Wang",
+        "Con Lucia cambiati nello spogliatoio e fruga nello zaino di Raina",
+        "Tieni il passo sul tapis roulant (Jason) e fai le estensioni per le gambe (Lucia)",
+        "Nel solarium chiudi Nate nel lettino con una cinghia, leggi i suoi messaggi su WhatUp e poi liberalo",
+        "Di notte pedina i culturisti fino al Grand Majestic Aparthotel e sali con l'ascensore fino al tetto"
+      ],
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-        "https://www.gtabase.com/gta-6/missions/heavy-lifting"
-      ]
+        "https://www.gtabase.com/gta-6/missions/heavy-lifting",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      ],
+      "contact": "chr-raul"
     },
     {
       "id": "mis-photoshoot",
@@ -5581,7 +5679,7 @@
       "order": 13,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
-      "summary": "Dre'Quan ha bisogno di un promo e Jason e Lucia ci mettono la faccia.",
+      "summary": "Dre'Quan organizza un servizio fotografico per le Real Dimez su un elicottero, in cima a un grattacielo di Tequesta.",
       "prerequisites": [],
       "unlocks": [
         {
@@ -5591,18 +5689,26 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "[spoiler] Nell'inseguimento in moto non puoi sparare all'auto che insegui; dopo il secondo salto arrivano altre auto, e a quelle sì.",
+        "[spoiler] Sotto la sopraelevata i nemici arrivano in auto da destra e dalle saracinesche a sinistra.",
+        "Ricompensa: 6.000 $ e due varianti della W-10, quella di Roxy e quella di Bae-Luxe."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-photoshoot-shoot-a-promo-walkthrough/",
       "contact": "chr-drequan",
       "objectives": [
-        "Gira un promo con Dre'Quan"
+        "Raggiungi Dre'Quan a Tequesta e sali con lui sul tetto",
+        "Con Lucia fotografa le Dimez in elicottero con la fotocamera del telefono",
+        "Con Jason pilota l'elicottero e insegui l'auto di Dre'Quan",
+        "Quando l'auto entra in un edificio passa a Lucia e inseguila in moto",
+        "Fatti strada fino all'auto in fondo al vicolo sotto la sopraelevata"
       ],
       "startableBy": [
         "entrambi"
@@ -5610,7 +5716,8 @@
       "subtitle": "Shoot a Promo",
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-        "https://www.gtabase.com/gta-6/missions/photo-shoot"
+        "https://www.gtabase.com/gta-6/missions/photo-shoot",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
       ]
     },
     {
@@ -5620,32 +5727,50 @@
       "chapter": 4,
       "order": 14,
       "protagonist": "entrambi",
-      "districtId": "dis-vice-city",
-      "summary": "Bisogna rintracciare un certo Felipe.",
+      "districtId": "dis-mount-kalaga",
+      "summary": "Andrea ha rintracciato Felipe, che vi ha piantati in asso prima del grande colpo: è in un bar di Millport.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [],
+      "tips": [
+        "Per fermarlo sparagli alle gambe o alla schiena, poi raggiungilo e colpiscilo corpo a corpo.",
+        "Non serve per trofei né per il 100%, ma se la salti perdi la ricompensa."
+      ],
       "secrets": [],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-bad-driver-find-felipe-walkthrough/",
       "optional": true,
       "objectives": [
-        "Trova Felipe"
+        "Vai al bar segnato a Millport e cammina verso il fondo",
+        "Insegui Felipe verso il bosco e fermalo",
+        "Tieni L2 per il Focus su di lui, fagli le domande e decidi cosa farne"
       ],
       "startableBy": [
         "entrambi"
       ],
       "subtitle": "Find Felipe",
       "moreSources": [
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/"
-      ]
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+        "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      ],
+      "contact": "chr-andrea",
+      "missable": true,
+      "missables": [
+        {
+          "when": "prima di iniziare",
+          "text": "Sparisce per sempre a metà capitolo 4, dopo una missione di Lucia con la banda di Kordell: falla appena Andrea ti scrive."
+        }
+      ],
+      "choice": {
+        "irreversible": true,
+        "note": "Se lo uccidi Andrea ti manda 20.000 $. Se lo risparmi, più tardi Felipe ti scrive e ti lascia il suo veicolo, da ritirare con una missione facoltativa."
+      }
     },
     {
       "id": "mis-attend-eddie-acostas-party",
@@ -6988,7 +7113,7 @@
       "updatedAt": "2026-11-19",
       "title": "Search for Tree Effigies",
       "actId": "act-1",
-      "order": 13,
+      "order": 14,
       "protagonist": "entrambi",
       "startableBy": [
         "jason",
@@ -7045,7 +7170,7 @@
       "title": "Help Kirk Find Mr. Mangrove",
       "subtitle": "Advanced Skunk Apeonomics",
       "actId": "act-2",
-      "order": 19,
+      "order": 21,
       "protagonist": "lucia",
       "startableBy": [
         "lucia"
@@ -8183,7 +8308,7 @@
       "title": "Ring the Bell!",
       "actId": "act-1",
       "chapter": 1,
-      "order": 30,
+      "order": 31,
       "protagonist": "jason",
       "startableBy": [
         "jason"
@@ -8213,12 +8338,157 @@
       "extraObjectives": [],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.ign.com/wikis/gta-6/Ring_the_Bell!_Walkthrough"
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Ring_the_Bell!_Walkthrough",
+      "moreSources": [
+        "https://www.eurogamer.net/gta-6-ring-the-bell-walkthrough"
+      ]
+    },
+    {
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "id": "mis-catch-a-bigger-fish",
+      "title": "Catch a Bigger Fish",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 13,
+      "protagonist": "jason",
+      "startableBy": [
+        "jason"
+      ],
+      "districtId": "dis-keys",
+      "optional": true,
+      "contact": "chr-cal",
+      "summary": "Cal sfida Jason a pescare un pesce pappagallo più grosso del suo, in un punto preciso di Gambit Bay.",
+      "objectives": [
+        "Leggi il messaggio di Cal e raggiungi in barca il punto viola a Gambit Bay",
+        "Getta l'ancora dal menu del veicolo per fermare la barca",
+        "Prendi la canna (casella in basso a destra della ruota delle armi) e lancia con l'esca base da acqua salata",
+        "Cattura un pesce pappagallo di oltre 2 libbre e invialo a Cal"
+      ],
+      "tips": [
+        "Cal ti scrive dopo la serata passata con lui a sistemare casa, nel capitolo 1.",
+        "Finito il capitolo 1 la barca di casa non c'è più: rubane una, per esempio tra i pescherecci al molo vicino al Rusty Anchor.",
+        "Ricompensa: un aumento di Focus. Non conta per il trofeo «Sconosciuti e folli» e resta disponibile anche dopo il capitolo 1."
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-baited-my-tackle",
+          "tipo": "arriva",
+          "testo": "Arriva quando batti Cal: basta un pesce pappagallo di oltre 2 libbre nel punto che ti indica."
+        }
+      ],
+      "spoilerLevel": 1,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "prerequisites": [],
+      "unlocks": [
+        {
+          "type": "mission",
+          "ref": "mis-collect-moses-gift"
+        }
+      ],
+      "rewards": [],
+      "extraObjectives": [],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "id": "mis-steal-vehicles-for-moses",
+      "title": "Steal Vehicles for Moses",
+      "actId": "act-2",
+      "chapter": 2,
+      "order": 15,
+      "protagonist": "entrambi",
+      "startableBy": [
+        "lucia",
+        "jason"
+      ],
+      "districtId": "dis-port-gellhorn",
+      "optional": true,
+      "contact": "chr-moses",
+      "summary": "Recuperato il fuoristrada, Moses ti manda uno alla volta sei veicoli da rubare e portare alla sua officina di Port Gellhorn.",
+      "objectives": [
+        "Ruba il Declasse Yosemite 1500 su Bastion St., a Port Gellhorn",
+        "Ruba la Karin Futo chiusa in un box di Draper Island",
+        "Ruba la Annis Hellion su Orchard Avenue, a Port Gellhorn",
+        "Ruba la BF Bandito a Buckskin Swamp",
+        "Ruba la Declasse Vamos vicino a Grayson",
+        "Ruba la Western Nightblade dei Final Chapter ad Ambrosia",
+        "Consegna ogni veicolo all'officina di Moses"
+      ],
+      "tips": [
+        "Le richieste arrivano una alla volta, nell'ordine dell'elenco. Paga per veicolo (1.850, 1.500, 1.400, 3.350, 4.200 e 6.310 $: 18.610 $ in tutto) più un bonus se è integro.",
+        "Yosemite: la stanno portando via col carro attrezzi nel vialetto di una casa. Stendi il conducente e sgancia il pickup dal retro del carro.",
+        "Futo: a Draper Island gli operai chiamano la sorveglianza se ti vedono. Lascia il mezzo prima dei cancelli e scavalca le recinzioni; entra dalla porta sul lato nord, la saracinesca si apre col pulsante.",
+        "Hellion: è nel vialetto della casa al centro della zona. Il cane abbaia ma basta accarezzarlo.",
+        "Bandito: è l'auto argentata del gruppo che corre nella palude. Parla al pilota per farlo scendere; ha un solo posto, quindi manda via il partner. Gli amici del pilota ti inseguono sparando.",
+        "Vamos: è nel capanno a est della casa. Il codice della porta (2727) è scritto sui cartelli dentro la roulotte; gli abitanti sparano se ti vedono e qualcuno prova a fermarti sulla strada.",
+        "Nightblade: è la moto arancione nel garage centrale dell'operazione illegale dei Final Chapter. Porta giubbotto e un'arma lunga; per entrare di nascosto sali sul container verde a nord e salta la recinzione.",
+        "Non conta per il trofeo «Sconosciuti e folli»."
+      ],
+      "spoilerLevel": 2,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
+    },
+    {
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "id": "mis-collect-moses-gift",
+      "title": "Collect Moses' Gift",
+      "actId": "act-2",
+      "chapter": 2,
+      "order": 16,
+      "protagonist": "entrambi",
+      "startableBy": [
+        "lucia",
+        "jason"
+      ],
+      "districtId": "dis-port-gellhorn",
+      "optional": true,
+      "contact": "chr-moses",
+      "summary": "Consegnati tutti i veicoli, Moses ti lascia un regalo nella sua officina.",
+      "objectives": [
+        "Leggi il messaggio di Moses",
+        "Apri il garage piccolo accanto all'officina di Port Gellhorn",
+        "Prendi la Sultan di Moses"
+      ],
+      "tips": [
+        "Ricompensa: la Sultan di Moses, un'auto da corsa unica. Puoi registrarla per tenerla oppure venderla."
+      ],
+      "spoilerLevel": 2,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-collect-moses-gift-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+      ]
     }
   ]
 }

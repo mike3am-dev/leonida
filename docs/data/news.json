@@ -2,6 +2,244 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261119-cast-ufficiale-titoli",
+      "date": "2026-11-19",
+      "title": "Ufficiale il cast: Rockstar pubblica i titoli completi, Jason è Dylan Rourke",
+      "body": "Cosa è uscito: giovedì 19 Rockstar ha messo online la pagina con i titoli completi del gioco (circa 6.000 nomi secondo IGN), cast compreso. È la conferma ufficiale di quello che si sapeva solo dai titoli di coda: Lucia è Manni L. Perez, Jason è Dylan Rourke. Nel pomeriggio i due attori si sono fatti vedere insieme per la prima volta, in una foto davanti a un cartellone del gioco, e Rourke ha scritto su Instagram un messaggio firmato «Jay ♥️ Lu»: «Ci vediamo a Leonida».\n\nGli altri nomi: Bobby Moynihan (ex Saturday Night Live) è Cal, Brad Carter è Donnie, Stephen Root è Brian, Orlagh Cassidy è Lori, il cantante di Trinidad Machel Montano è Kenton Rees. Tra le voci delle radio ci sono «Weird Al» Yankovic, Brigitte Nielsen, Bad Bunny, Jeremy Irons, Keith Richards, Brian Posehn e Gloria ed Emilio Estefan nel ruolo di sé stessi.\n\nAttenzione: più giù nell'elenco del cast c'è un nome che IGN, GameSpot e Eurogamer considerano uno spoiler. Qui non lo riportiamo; se non vuoi sorprese, non scorrere tutta la pagina di Rockstar.\n\nNei titoli: in testa c'è Sam Houser; non compare Dan Houser, uscito da Rockstar nel 2020, ed è il primo grande GTA in 3D senza il suo nome.",
+      "topic": "personaggi",
+      "outlet": "Rockstar Games / IGN / Eurogamer / GameSpot",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/rockstar-publishes-full-gta-6-credits-but-beware-they-contain-major-spoilers",
+      "relatedIds": [
+        "new-20261117-game-awards-8-nomination",
+        "new-20261030-rob-brinkmann-smentisce-di-essere-jason",
+        "new-20261118-weird-al-vice-city-fm",
+        "chr-jason",
+        "chr-lucia",
+        "chr-cal",
+        "chr-donnie",
+        "chr-brian",
+        "chr-lori",
+        "chr-kenton-rees",
+        "chr-el-martillo"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits",
+        "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
+        "https://www.gamespot.com/articles/gta-6s-stars-release-a-very-nice-statement-as-game-goes-live/"
+      ]
+    },
+    {
+      "id": "new-20261119-mappa-ufficiale-online",
+      "date": "2026-11-19",
+      "title": "La mappa ufficiale di Leonida è online: si scarica gratis dal sito di Rockstar e si può stampare",
+      "body": "Dove: dal 19 novembre, nella sezione Media del sito di GTA VI, c'è «The Great State of Leonida», la mappa completa dello Stato in alta risoluzione, gratis e pronta da stampare, insieme al poster con l'illustrazione della copertina. È fatta come un dépliant turistico: legenda delle strade, griglia da A a M e da 1 a 9, e in basso il sigillo dello Stato con il motto «Palus Dei». Non mostra nulla della storia.\n\nCosa si legge: le cinque contee (Vice-Dale, Mariana, Kelly, Leonard e Lummox), per la prima volta i quartieri di Vice City con il loro nome (Downtown, Little Cuba, Crosstown, La Perle, Tequesta, Southside e altri), Starfish Island in mezzo alla baia come in Vice City del 2002, il Lake Leonida al centro e il Mount Kalaga National Park nel nord. Corregge anche qualche nome letto male nella foto della mappa del Collector's Box: il paese del nord è Bonanza, non «Manzana».\n\nLa versione di carta: il poster fisico fronte-retro arriverà a breve sul Rockstar Store (0,99 dollari negli Stati Uniti, o gratis con un altro acquisto). Nelle scatole del gioco, che contengono solo un codice, la mappa di carta non c'è.",
+      "topic": "mappa",
+      "outlet": "Rockstar Games / Vice Central / Rockstar Intel / PC Gamer",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.rockstargames.com/VI/media",
+      "relatedIds": [
+        "new-20261106-mappa-poster",
+        "new-20261112-mappa-collector-trapelata",
+        "dis-vice-city",
+        "dis-mount-kalaga"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/",
+        "https://rockstarintel.com/full-gta-vi-map-officially-revealed/",
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/"
+      ]
+    },
+    {
+      "id": "new-20261119-sensor-tower-19-milioni",
+      "date": "2026-11-19",
+      "title": "Vendite, nuova stima: 19,1 milioni di copie e 1,84 miliardi di dollari la mattina dell'uscita, ma il titolo Take-Two apre in calo",
+      "body": "La stima: secondo Sensor Tower, ripreso da Reuters, la mattina di giovedì 19 GTA VI era già a 19,1 milioni di copie, circa 1,84 miliardi di dollari. Sono due milioni in più del conteggio di mercoledì a mezzogiorno di New York (17,1 milioni e 1,65 miliardi), fatto prima che il gioco si sbloccasse in Europa e in America. Per confronto, GTA V nel primo giorno del 2013 aveva incassato 815,7 milioni di dollari.\n\nLa Borsa: dopo il +6,2% di mercoledì, il titolo Take-Two ha aperto giovedì in calo dell'1,84%.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar non hanno ancora dato numeri; gli analisti si aspettano un primo bilancio nei prossimi giorni.",
+      "topic": "business",
+      "outlet": "Vice Central / Reuters / Sensor Tower",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-19-millions-exemplaires-sensor-tower-action-take-two/",
+      "relatedIds": [
+        "new-20261119-vendite-17-milioni-stime",
+        "new-20261118-take-two-borsa-wells-fargo"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-ampere-nuova-zelanda-2-milioni",
+      "date": "2026-11-19",
+      "title": "Il trucco della Nuova Zelanda in numeri: oltre due milioni di giocatori Xbox tra Stati Uniti e Regno Unito hanno giocato in anticipo",
+      "body": "Il dato: secondo la società di analisi Ampere Analysis, per l'uscita di GTA VI 1,5 milioni di giocatori Xbox negli Stati Uniti e 600.000 nel Regno Unito hanno cambiato per qualche ora il paese della console in Nuova Zelanda, dove il gioco si è sbloccato per primo. Altri 200.000 in Canada, 200.000 in Brasile e 100.000 in Messico. Su PlayStation, negli Stati Uniti, sono stati appena 100.000: lì serve un account di un altro paese pagato nella valuta locale, e Sony aveva avvertito che si rischia la sospensione.\n\nCuriosità: l'ente del turismo neozelandese ha risposto ai «visitatori virtuali» con un video: «ci piacerebbe avervi qui».\n\nDa sapere: sono stime di Ampere riprese da Eurogamer, non dati di Microsoft o Sony.",
+      "topic": "uscita",
+      "outlet": "Eurogamer / Ampere Analysis",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
+      "relatedIds": [
+        "new-20261118-xfinity-traffico-xbox",
+        "new-20261109-sony-avverte-trucco-nuova-zelanda",
+        "new-20261118-uscita-nuova-zelanda"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-circana-ottobre-xbox",
+      "date": "2026-11-19",
+      "title": "Effetto GTA sulle console: a ottobre negli Stati Uniti la spesa per le Xbox Series sale del 42%, le PS5 del 20%",
+      "body": "I numeri: secondo il rapporto mensile di Circana, a ottobre negli Stati Uniti la spesa per le console Xbox Series è cresciuta del 42% rispetto a un anno prima, quella per le PS5 del 20%; Switch è scesa dell'11%. Le Xbox vendute sono aumentate del 10%: il resto della crescita viene dal prezzo, oggi più alto del 29%.\n\nPerché: per l'analista Mat Piscatella hanno pesato l'attesa di GTA VI e l'uscita di Gears of War: E-Day; i conti veri si faranno con novembre, il mese di GTA VI.",
+      "topic": "business",
+      "outlet": "Kotaku / Circana / Multiplayer.it",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/xbox-hardware-finally-saw-major-surge-gta-us-2000758382",
+      "relatedIds": [
+        "new-20261029-circana-29-di-intenzione-d-acquisto-reco"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://multiplayer.it/notizie/a-ottobre-le-vendite-di-xbox-series-x-e-s-sono-cresciute-del-42-negli-stati-uniti-e-leffetto-gta-6.html"
+      ]
+    },
+    {
+      "id": "new-20261119-perche-niente-disney-ne-proprieta",
+      "date": "2026-11-19",
+      "title": "Perché non ci sono un parco come Disney World né attività da comprare: Rockstar spiega le scelte",
+      "body": "Il parco a tema: per Rob Nelson, a capo di Rockstar North, un parco divertimenti andava fatto «funzionante» davvero, con le giostre, ed era troppo lavoro senza un motivo nella storia per portare Jason e Lucia fin là: Orlando, del resto, è fuori dalla mappa. «Contrariamente a quello che si pensa, non abbiamo soldi, tempo e risorse infiniti», ha detto a VGC e IGN.\n\nNiente case né attività: a IGN Italia Stephen Donkin, vicepresidente del design, spiega che possedere locali o appartamenti «non si adattava alla storia» di Jason e Lucia, che seguono un piano preciso e non mettono radici. Si possono però comprare garage per le auto, e una casa dove tornare c'è sempre.\n\nAltre assenze: per Ahron Mason, che ha diretto le attività del mondo aperto, sono rimaste le attività che sembravano un'estensione naturale di Leonida; tennis, triathlon e gioco d'azzardo non ci sono. La mappa è pensata «per il lungo periodo», con spazio per contenuti futuri.",
+      "topic": "gameplay",
+      "outlet": "IGN / VGC / IGN Italia / GameSpot",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/where-is-gta-6s-disney-world-parody-rockstar-north-co-studio-head-explains-no-show",
+      "relatedIds": [
+        "new-20260930-niente-orlando-disney-world-cape-canaver",
+        "new-20261119-niente-freccette",
+        "new-20261118-casino-chiusi-niente-siti"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://it.ign.com/grand-theft-auto-vi/229289/gta-vi-e-la-mancanza-di-business-e-appartamenti-acquistabili-rockstar-games-spiega-la-decisione",
+        "https://www.gamespot.com/articles/why-gta-6-doesnt-include-disney-world/"
+      ]
+    },
+    {
+      "id": "new-20261119-little-sam-cameo",
+      "date": "2026-11-19",
+      "title": "C'è Sam Houser nel gioco? In una missione compare «Little Sam», e Rockstar non conferma né smentisce",
+      "body": "La scoperta: in una missione della seconda metà della storia compare per pochi secondi un uomo anziano con una scopa e una maglietta bianca con il logo Rockstar, chiamato «Little Sam», che non dice una parola. Somiglia molto a Sam Houser, presidente e cofondatore di Rockstar.\n\nLa risposta: a Kotaku Rob Nelson, che ha guidato lo sviluppo, ha riso: «non posso confermare né smentire», poi ha aggiunto che non si stupirebbe se fosse lui. Non sarebbe la prima volta: in GTA III Sam Houser dava la voce a un commesso di Ammu-Nation.",
+      "topic": "personaggi",
+      "outlet": "Kotaku / GameSpot / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 3,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/rockstar-wouldnt-confirm-or-deny-if-thats-studio-president-sam-houser-in-gta-6-2000758489",
+      "relatedIds": [
+        "new-20261118-sam-houser-messaggio"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.gamespot.com/articles/gta-6-has-a-surprise-cameo-from-someone-you-probably-didnt-expect/"
+      ]
+    },
+    {
+      "id": "new-20261119-videogiochi-nel-gioco",
+      "date": "2026-11-19",
+      "title": "I videogiochi dentro GTA VI li ha fatti una squadra apposta: Rockstar racconta come sono nati",
+      "body": "Cosa dice Rockstar: i giochi di GTA V non si potevano portare nel nuovo motore, così una piccola squadra interna, «un team di sviluppo dentro il team di sviluppo», ne ha creati di nuovi, ha spiegato Rob Nelson a Kotaku. Tra questi uno sparatutto con gli zombie, uno di fantascienza visto dall'alto e un gioco di caccia con i fucili di plastica, come quelli dei bar.\n\nTenebrae Lux: è il preferito in ufficio, una presa in giro affettuosa dei giochi indipendenti «d'autore» come The Witness. Secondo Kotaku non sono minigiochi ma giochi veri, con filmati, menu e più livelli.",
+      "topic": "gameplay",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta-6-arcade-games-console-rob-nelson-vice-city-interview-gta6-2000757904",
+      "relatedIds": [
+        "brd-joysystem-8"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-bigfoot-ufo-rob-nelson",
+      "date": "2026-11-19",
+      "title": "Bigfoot e gli UFO ci sono già: i giocatori li trovano nelle prime ore, e Rockstar spiega perché li mette sempre",
+      "body": "Le scoperte: nelle paludi intorno a Cottonmouth Lake, nella contea di Mariana, c'è lo Skunk Ape, il «Bigfoot» della Florida: lo si segue dal ruggito e la traccia porta a uno strano albero dalla forma umana. Sparargli non serve. Nella contea di Kelly, su una strada sterrata vicino allo Starlet Motel, a est di Port Gellhorn, di notte (meglio dopo le 2) può capitare un incontro con un UFO, una volta finito il capitolo 1: si parte da un'auto ferma con il bagagliaio aperto: vale il trofeo bronzo «La verità è là fuori». Nessuno dei due conta per il 100%.\n\nPerché: a Kotaku Rob Nelson dice che a Rockstar «queste cose piacciono», che la Florida è un posto stranissimo e che vogliono giocare con i giocatori: «È davvero Bigfoot? O è un tizio con la maschera?». Eurogamer nota che nessuno ha ancora trovato un mistero lungo come quello del Monte Chiliad di GTA V.",
+      "topic": "community",
+      "outlet": "Kotaku / Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/why-rockstar-games-includes-bigfoot-and-ufos-to-find-in-its-big-open-world-games-we-love-that-stuff-2000758423",
+      "relatedIds": [
+        "tip-segreto-bigfoot",
+        "tro-the-truth-is-out-there"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs"
+      ]
+    },
+    {
+      "id": "new-20261119-doja-cat-esclusa",
+      "date": "2026-11-19",
+      "title": "Doja Cat non è nelle radio di GTA VI, e se la prende con Rockstar: «mi avete spezzato il cuore»",
+      "body": "Cosa è successo: la cantante e rapper, che aveva citato il gioco nella sua canzone «All Mine», ha scritto su X che le sarebbe piaciuto avere la sua musica in GTA VI e di essere «amareggiata», poi si è rivolta direttamente a Rockstar con qualche parolaccia e un «mi hai spezzato il cuore» in spagnolo. Il tono è scherzoso.\n\nDa sapere: nessuna sua canzone è nelle radio del gioco. Rockstar non ha risposto; in passato ha aggiunto brani con gli aggiornamenti, ma per GTA VI non ne ha annunciati.",
+      "topic": "musica",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta6-grand-theft-auto-6-doja-cat-soundtrack-radio-2000758471",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-de-cix-record-europa",
+      "date": "2026-11-19",
+      "title": "Record anche in Europa: lo scambio internet DE-CIX tocca 33,03 terabit al secondo la sera prima dell'uscita",
+      "body": "Il dato: DE-CIX, uno dei più grandi punti di scambio del traffico internet al mondo (il nodo principale è a Francoforte), ha toccato il suo massimo di sempre, 33,03 terabit al secondo, mercoledì 18 novembre alle 20:20 ora italiana, con gli ultimi scaricamenti prima dello sblocco. Il record precedente, 33,01, era di martedì 10, il giorno dell'apertura del preload; prima ancora il massimo era 26,99. Durante la settimana del lancio il traffico è stato circa il 25% sopra il normale.\n\nDa sapere: sono i dati della rete DE-CIX, non di tutto internet. Il gioco pesa circa 210 GB.",
+      "topic": "tecnica",
+      "outlet": "GTA BOOM / DE-CIX",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gtaboom.com/gta-6-just-set-an-all-time-internet-traffic-record-at-launch-3040",
+      "relatedIds": [
+        "new-20261119-internet-record-regno-unito"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
       "id": "new-20261119-internet-record-regno-unito",
       "date": "2026-11-19",
       "title": "Il giorno dell'uscita nel Regno Unito: BT ed EE parlano del loro picco di traffico più alto di sempre, CityFibre batte il record",
@@ -15,7 +253,8 @@
       "sourceUrl": "https://www.ispreview.co.uk/index.php/2026/11/linx-and-hyperoptic-reveal-early-uk-network-traffic-data-for-todays-gta6-launch.html",
       "relatedIds": [
         "new-20261111-preload-record-reti",
-        "new-20261118-xfinity-traffico-xbox"
+        "new-20261118-xfinity-traffico-xbox",
+        "new-20261119-de-cix-record-europa"
       ],
       "updatedAt": "2026-11-19",
       "image": null,
@@ -130,7 +369,7 @@
       "id": "new-20261119-streamer-11-ore-perse",
       "date": "2026-11-19",
       "title": "Uno streamer perde 11 ore di gioco spegnendo la PS5 per sbaglio: il consiglio è salvare a mano, in più slot",
-      "body": "Cosa è successo: JasonTheWeen, 1,3 milioni di iscritti su YouTube, durante una maratona in diretta ha spento la console per errore e ha perso tutti i progressi, un intero capitolo; poco dopo, sempre in diretta, la polizia è arrivata a casa sua per una chiamata falsa (swatting). Ha chiesto aiuto a Rockstar e Sony, finora senza risposta.\n\nPerché può succedere: il gioco salva da solo alla fine delle missioni; se spegni la console proprio mentre salva, il file si può rovinare. Il consiglio di IGN: salva anche a mano, usando più dei 15 slot disponibili, e non spegnere mentre compare l'icona di salvataggio.",
+      "body": "Cosa è successo: JasonTheWeen, 1,3 milioni di iscritti su YouTube, durante una maratona in diretta ha spento la console per errore e ha perso tutti i progressi, un intero capitolo; poco dopo, sempre in diretta, la polizia è arrivata a casa sua per una chiamata falsa (swatting). Ha chiesto aiuto a Rockstar e Sony, finora senza risposta.\n\nPerché può succedere: il gioco salva da solo alla fine delle missioni; se spegni la console proprio mentre salva, il file si può rovinare. Il consiglio di IGN: salva anche a mano, usando più dei 15 slot disponibili, e non spegnere mentre compare l'icona di salvataggio.\n\nCome funziona il salvataggio (Kotaku, 19/11): il gioco salva da solo alla fine delle missioni della storia e di quelle secondarie più grandi, mai durante una missione; le attività libere (rapine a un negozio, commissioni, soldi raccolti in giro) non fanno scattare il salvataggio. Prima di spegnere conviene salvare a mano: menu, sezione Gioco, Salva. Non si può durante una missione, in combattimento, con la polizia alle calcagna o mentre il personaggio è in movimento. Qualche giocatore dice di aver perso soldi e una carta collezionabile anche dopo un salvataggio manuale: per ora sono segnalazioni isolate.",
       "topic": "community",
       "outlet": "IGN",
       "source": "stampa",
@@ -142,7 +381,10 @@
         "new-20261118-missioni-niente-rigioco"
       ],
       "updatedAt": "2026-11-19",
-      "image": null
+      "image": null,
+      "moreSources": [
+        "https://kotaku.com/be-careful-with-auto-saving-in-gta-6-it-doesnt-happen-as-often-as-you-think-2000758487"
+      ]
     },
     {
       "id": "new-20261119-furry-fuorilegge",
@@ -229,7 +471,8 @@
       "sourceUrl": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
       "relatedIds": [
         "new-20261117-sensor-tower-15-milioni-ultimate",
-        "new-20261118-take-two-borsa-wells-fargo"
+        "new-20261118-take-two-borsa-wells-fargo",
+        "new-20261119-sensor-tower-19-milioni"
       ],
       "updatedAt": "2026-11-19",
       "image": null,
@@ -434,7 +677,7 @@
       "id": "new-20261118-giappone-censura",
       "date": "2026-11-18",
       "title": "Giappone, versione censurata: i nudi maschili sono coperti da un perizoma nero",
-      "body": "Cosa cambia: chi gioca in Giappone ha scoperto che Jason sotto la doccia, e altri uomini in alcune scene, indossano un sottile perizoma nero, mentre nelle altre versioni sono nudi. Era atteso: la classificazione giapponese non citava contenuti sessuali e il gioco là pesa meno.\n\nNon si sa ancora se siano stati cambiati altri contenuti: lo si capirà man mano che i giocatori giapponesi andranno avanti. Non è un caso isolato: anche GTA V, in Giappone, aveva perso una scena.\n\nPer chi gioca in Italia non cambia nulla.",
+      "body": "Cosa cambia: chi gioca in Giappone ha scoperto che Jason sotto la doccia, e altri uomini in alcune scene, indossano un sottile perizoma nero, mentre nelle altre versioni sono nudi. Era atteso: la classificazione giapponese non citava contenuti sessuali e il gioco là pesa meno.\n\nNon si sa ancora se siano stati cambiati altri contenuti: lo si capirà man mano che i giocatori giapponesi andranno avanti. Non è un caso isolato: anche GTA V, in Giappone, aveva perso una scena.\n\nPer chi gioca in Italia non cambia nulla.\n\nAggiornamento di giovedì 19: secondo VGC, che riprende il sito giapponese GameSpark, in Giappone è ridotto anche il sangue di nemici feriti e morti, senza un'opzione per alzarlo, e le decapitazioni sono state tolte del tutto. Sotto la doccia Jason e Lucia indossano sempre il costume da bagno. Il gioco resta violento come altrove: cambia solo quello che si vede. Nelle altre versioni sangue e smembramenti si possono ridurre o spegnere dalle impostazioni dello schermo.",
       "topic": "uscita",
       "outlet": "Eurogamer",
       "source": "stampa",
@@ -444,7 +687,11 @@
       "sourceUrl": "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship",
       "relatedIds": [],
       "updatedAt": "2026-11-19",
-      "image": null
+      "image": null,
+      "moreSources": [
+        "https://www.videogameschronicle.com/news/japan-censors-gta-6s-violence-and-nudity-including-jason-in-the-shower/",
+        "https://www.pushsquare.com/news/2026/11/gta-6-censorship-in-japan-sees-characters-shower-in-underwear-as-sex-and-violence-are-toned-down"
+      ]
     },
     {
       "id": "new-20261118-ultimate-a-capitoli",
@@ -495,7 +742,8 @@
       "sourceUrl": "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity",
       "relatedIds": [
         "new-20261118-uscita-nuova-zelanda",
-        "new-20261109-sony-avverte-trucco-nuova-zelanda"
+        "new-20261109-sony-avverte-trucco-nuova-zelanda",
+        "new-20261119-ampere-nuova-zelanda-2-milioni"
       ],
       "updatedAt": "2026-11-19",
       "image": null
@@ -611,7 +859,7 @@
       "id": "new-20261118-rockstar-tribunale-sindacato",
       "date": "2026-11-18",
       "title": "Glasgow: finite le arringhe sui 34 licenziati, la giudice decide nelle prossime settimane; intanto 1.600 dipendenti votano il sindacato",
-      "body": "Il processo: il 17 e 18 novembre si sono tenute le arringhe finali davanti al tribunale del lavoro di Glasgow. La giudice Lucy Wiseman deciderà nelle prossime settimane; non c'è una data. Per Rockstar i licenziamenti di fine ottobre 2025 sono per colpa grave: i dipendenti avrebbero condiviso informazioni riservate su GTA VI in un server Discord. Per il sindacato IWGB erano licenziamenti legati all'attività sindacale. Ventitré dei 34 licenziati hanno fatto causa.\n\nNei titoli di coda: Eurogamer ha confrontato l'elenco dei 34 con i titoli di coda del gioco e ne ha trovati almeno 28.\n\nIl voto: più di 1.600 dipendenti di Rockstar nel Regno Unito votano fino al 26 novembre per riconoscere il Rockstar Games Workers Union, che sarebbe il sindacato più grande del settore nel Paese. Rockstar dice che al gioco hanno lavorato più di 4.711 persone in 12 studi.",
+      "body": "Il processo: il 17 e 18 novembre si sono tenute le arringhe finali davanti al tribunale del lavoro di Glasgow. La giudice Lucy Wiseman deciderà nelle prossime settimane; non c'è una data. Per Rockstar i licenziamenti di fine ottobre 2025 sono per colpa grave: i dipendenti avrebbero condiviso informazioni riservate su GTA VI in un server Discord. Per il sindacato IWGB erano licenziamenti legati all'attività sindacale. Ventitré dei 34 licenziati hanno fatto causa.\n\nNei titoli di coda: Eurogamer aveva trovato almeno 28 dei 34 nei titoli di coda del gioco; dopo la pubblicazione dei titoli completi sul sito di Rockstar, il 19, IGN scrive che ci sono tutti e 34.\n\nIl voto: più di 1.600 dipendenti di Rockstar nel Regno Unito votano fino al 26 novembre per riconoscere il Rockstar Games Workers Union, che sarebbe il sindacato più grande del settore nel Paese. Rockstar dice che al gioco hanno lavorato più di 4.711 persone in 12 studi.\n\nAggiornamento di giovedì 19: la giudice ha detto di non poter dare una data, ma che farà «il più presto possibile»; secondo il giornalista Chris Bratt, che segue il processo, possono servire da qualche settimana a qualche mese.",
       "topic": "business",
       "outlet": "Vice Central / Eurogamer / PC Gamer",
       "source": "stampa",
@@ -622,8 +870,12 @@
       "relatedIds": [
         "new-20260910-processo-di-glasgow-10-settembre-16-otto"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.ign.com/articles/rockstar-publishes-full-gta-6-credits-but-beware-they-contain-major-spoilers",
+        "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict"
+      ]
     },
     {
       "id": "new-20261118-motivi-tropicali-armi",
@@ -1619,7 +1871,7 @@
       "id": "new-20261112-mappa-collector-trapelata",
       "date": "2026-11-12",
       "title": "La mappa di carta del Collector's Box trapela da Selfridges: cinque contee, come diceva la fuga di agosto",
-      "body": "Cosa è successo: giovedì 12 novembre la mappa ufficiale del Collector's Box «The Goodtime State, Vice City Collection» (399,99 €) compare piegata a fisarmonica nella vetrina di Selfridges a Manchester, Exchange Square. Nel pomeriggio su X girano le foto della mappa aperta, scattate prima della vendita: secondo chi le ha pubblicate, da un dipendente. Rockstar non l'ha pubblicata e non commenta. È lo stesso oggetto esposto in negozio: nomi e disegno coincidono.\n\nLe contee: sono cinque, gli stessi nomi della mappa di CyberLeek di agosto. Vice-Dale (sud-est, intorno a Vice City), Mariana (sud-ovest: Grassrivers, Pelican Valley, Hamlet, Watson Bay), Kelly (ovest: Port Gellhorn, Capri), Leonard (centro: Ambrosia, Emerald Springs, Buckskin Swamp, Breakwater Quarry), Lummox (tutto il nord: Moreau, Manzana, Grayson, Millport, il grande Lake Leonida e al largo le Featherstone Islands, Hyde Island e le Frampton Islands).\n\nIntorno a Vice City: Little Cuba, Crosstown, Port Vice City, Tequesta Retreat, Rialto Islands e Starfish Island; più a sud South Vice-Dale, Southside e Peacock Bay, poi Catalan Key, Gloriana Key e Corsair Key. In vetrina si leggevano anche Southwind, il casello «Toll 1A», Key Lento e Goose Key. Le strade hanno scudi da autostrada americana: la Interstate 404 attraversa lo stato da ovest a est, la 97 scende verso Vice City, la 397 porta a Vice Beach.\n\nCosa manca: la foto taglia il fondo (le Leonida Keys) e il bordo destro; Mount Kalaga non si legge.\n\nAttenzione: la versione «in alta definizione» che circola è ingrandita con l'intelligenza artificiale e inventa lettere (Breakwater Quarry diventa «Beceeante Queen»). Vale solo la foto originale. La mappa vera si vede in gioco dal 19, e lo stesso giorno Rockstar regala il poster digitale di Leonida.",
+      "body": "Cosa è successo: giovedì 12 novembre la mappa ufficiale del Collector's Box «The Goodtime State, Vice City Collection» (399,99 €) compare piegata a fisarmonica nella vetrina di Selfridges a Manchester, Exchange Square. Nel pomeriggio su X girano le foto della mappa aperta, scattate prima della vendita: secondo chi le ha pubblicate, da un dipendente. Rockstar non l'ha pubblicata e non commenta. È lo stesso oggetto esposto in negozio: nomi e disegno coincidono.\n\nLe contee: sono cinque, gli stessi nomi della mappa di CyberLeek di agosto. Vice-Dale (sud-est, intorno a Vice City), Mariana (sud-ovest: Grassrivers, Pelican Valley, Hamlet, Watson Bay), Kelly (ovest: Port Gellhorn, Capri), Leonard (centro: Ambrosia, Emerald Springs, Buckskin Swamp, Breakwater Quarry), Lummox (tutto il nord: Moreau, Manzana, Grayson, Millport, il grande Lake Leonida e al largo le Featherstone Islands, Hyde Island e le Frampton Islands).\n\nIntorno a Vice City: Little Cuba, Crosstown, Port Vice City, Tequesta Retreat, Rialto Islands e Starfish Island; più a sud South Vice-Dale, Southside e Peacock Bay, poi Catalan Key, Gloriana Key e Corsair Key. In vetrina si leggevano anche Southwind, il casello «Toll 1A», Key Lento e Goose Key. Le strade hanno scudi da autostrada americana: la Interstate 404 attraversa lo stato da ovest a est, la 97 scende verso Vice City, la 397 porta a Vice Beach.\n\nCosa manca: la foto taglia il fondo (le Leonida Keys) e il bordo destro; Mount Kalaga non si legge.\n\nAttenzione: la versione «in alta definizione» che circola è ingrandita con l'intelligenza artificiale e inventa lettere (Breakwater Quarry diventa «Beceeante Queen»). Vale solo la foto originale. La mappa vera si vede in gioco dal 19, e lo stesso giorno Rockstar regala il poster digitale di Leonida.\n\nCorrezione del 19 novembre: la mappa ufficiale pubblicata da Rockstar mostra che il paese del nord si chiama Bonanza, non «Manzana» come si era letto nella foto di sbieco. Secondo Vice Central, che ha letto la mappa ufficiale, Emerald Springs e Buckskin Swamp stanno dalla parte della contea di Kelly e Breakwater Quarry in quella di Vice-Dale, alle porte di Vice City; il Lake Leonida è al centro dello Stato. I confini delle contee, però, non sono disegnati.",
       "topic": "mappa",
       "outlet": "Video Games Chronicle / Insider Gaming / Rockstar Intel / Vice Central",
       "source": "leak",
@@ -1636,10 +1888,14 @@
         "dis-ambrosia",
         "dis-keys",
         "dis-vice-city",
-        "dis-port-gellhorn"
+        "dis-port-gellhorn",
+        "new-20261119-mappa-ufficiale-online"
       ],
-      "updatedAt": "2026-11-12",
-      "example": false
+      "updatedAt": "2026-11-19",
+      "example": false,
+      "moreSources": [
+        "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+      ]
     },
     {
       "id": "new-20261112-corea-classificazione-al-pelo",
@@ -2291,7 +2547,6 @@
       "relatedIds": [
         "brd-the-album",
         "brd-score-justice",
-        "chr-travis-scott",
         "new-20261104-club-space-the-vault",
         "new-20261106-miami-heat-svelate-le-maglie-vice-city-d",
         "new-20261009-cardi-b-e-fuerza-regida",
@@ -2440,7 +2695,7 @@
       "id": "new-20261109-selfridges-aperto",
       "date": "2026-11-09",
       "title": "Selfridges si trasforma in Vice City: 60 articoli in vendita, esauriti in meno di un'ora",
-      "body": "Dove e quando: l'esperienza GTA VI di Selfridges ha aperto il 9 novembre alle 10 di Londra (le 11 in Italia) nel grande magazzino di 400 Oxford Street, dieci giorni prima dell'uscita e il giorno prima del preload. Non è stata comunicata una data di chiusura né il piano del negozio che la ospita. La vetrina natalizia dedicata a Vice City della serie «Christmas and the City» e lo spettacolo di luci sulla facciata restano per tutto il periodo delle feste.\n\nCosa c'è: le vetrine su Oxford Street portano un grande logo VI e la scritta «Welcome to Vice City». Dentro ci sono palme, insegne al neon, la scritta «Vice» e grandi statue di Macca the Gator, l'alligatore rosa mascotte di Leonida, una delle quali su un piedistallo con un cocktail in mano. Esposta anche una Grotti Cheetah vera, l'auto in versione reale arrivata da Miami.\n\nIl merchandising: circa 60 articoli, in vendita sia in negozio sia sul sito di Selfridges, dai 5 £ del bicchierino «I ♥ VC» ai 2.500 £ della giacca college «Goodtime State». C'è una linea GTA VI (magliette con logo a 55 £, magliette di Macca a 60 £, foulard di seta a 50 £, borse e teli da spiaggia rosa o azzurri a 45–50 £, cappellini a 25 £, tazza a 15 £, portachiavi a 8 £, un bersaglio per freccette Winmau a 275 £, un pallone da basket a 110 £, una giacca college nera a 1.750 £) e una dedicata ai marchi del gioco: grembiule Burger Shot firmato Hedley & Bennett a 250 £, borsa da asporto Burger Shot in pelle a 125 £, divisa del fast food, giacca dei Vice City Manatees a 280 £ e peluche a 40 £, articoli dei Vice City Narcos, portachiavi Grotti a 12 £. Alcune magliette sono le stesse del Rockstar Store, dove costano 29,99 $.\n\nCode ed esauriti: online si è formata subito una coda virtuale con oltre 80.000 persone, arrivata vicino alle 100.000; chi entra ha 10 minuti per completare l'acquisto. Alle 10:40 italiane quasi tutti gli articoli esclusivi risultavano già esauriti. Non sono stati annunciati riassortimenti né spedizioni fuori dal Regno Unito.\n\nComunicazione: l'iniziativa è stata annunciata da Selfridges su Instagram. Rockstar non l'ha promossa sui propri canali e non ci sono eventi, DJ set o omaggi annunciati.\n\nAltre città: non risultano iniziative simili a Parigi, Milano, New York o Tokyo; le altre vetrine natalizie di Selfridges sono dedicate a quelle città ma non al gioco. Negli Stati Uniti l'appuntamento più vicino resta la «Night in Vice City» dei Miami Heat del 18 novembre.",
+      "body": "Dove e quando: l'esperienza GTA VI di Selfridges ha aperto il 9 novembre alle 10 di Londra (le 11 in Italia) nel grande magazzino di 400 Oxford Street, dieci giorni prima dell'uscita e il giorno prima del preload. Il negozio, nel Corner Shop di Selfridges, resta aperto fino al 28 novembre. La vetrina natalizia dedicata a Vice City della serie «Christmas and the City» e lo spettacolo di luci sulla facciata restano per tutto il periodo delle feste.\n\nCosa c'è: le vetrine su Oxford Street portano un grande logo VI e una scritta di benvenuto a Vice City. Dentro ci sono palme, insegne al neon, la scritta «Vice» e grandi statue di Macca the Gator, l'alligatore rosa mascotte di Leonida, una delle quali su un piedistallo con un cocktail in mano. Esposta anche una Grotti Cheetah vera, l'auto in versione reale arrivata da Miami.\n\nIl merchandising: circa 60 articoli, in vendita sia in negozio sia sul sito di Selfridges, dai 5 £ del bicchierino «I ♥ VC» ai 2.500 £ della giacca college «Goodtime State». C'è una linea GTA VI (magliette con logo a 55 £, magliette di Macca a 60 £, foulard di seta a 50 £, borse e teli da spiaggia rosa o azzurri a 45–50 £, cappellini a 25 £, tazza a 15 £, portachiavi a 8 £, un bersaglio per freccette Winmau a 275 £, un pallone da basket a 110 £, una giacca college nera a 1.750 £) e una dedicata ai marchi del gioco: grembiule Burger Shot firmato Hedley & Bennett a 250 £, borsa da asporto Burger Shot in pelle a 125 £, divisa del fast food, giacca dei Vice City Manatees a 280 £ e peluche a 40 £, articoli dei Vice City Narcos, portachiavi Grotti a 12 £. Alcune magliette sono le stesse del Rockstar Store, dove costano 29,99 $.\n\nCode ed esauriti: online si è formata subito una coda virtuale con oltre 80.000 persone, arrivata vicino alle 100.000; chi entra ha 10 minuti per completare l'acquisto. Alle 10:40 italiane quasi tutti gli articoli esclusivi risultavano già esauriti. In negozio arrivano riassortimenti di tanto in tanto, con un massimo di sei articoli a persona e senza doppioni; nessuna spedizione fuori dal Regno Unito annunciata. Parte della linea è anche nei Selfridges di Manchester e Birmingham.\n\nComunicazione: l'iniziativa è stata annunciata da Selfridges su Instagram. Rockstar non l'ha promossa sui propri canali e non ci sono eventi, DJ set o omaggi annunciati.\n\nAltre città: non risultano iniziative simili a Parigi, Milano, New York o Tokyo; le altre vetrine natalizie di Selfridges sono dedicate a quelle città ma non al gioco. Negli Stati Uniti l'appuntamento più vicino resta la «Night in Vice City» dei Miami Heat del 18 novembre.",
       "topic": "community",
       "outlet": "Insider Gaming / Sportskeeda / Resell Calendar",
       "source": "stampa",
@@ -2454,23 +2709,11 @@
         "brd-macca-the-gator",
         "brd-burger-shot",
         "brd-sport",
-        "veh-grotti-cheetah-95"
+        "veh-grotti-cheetah-95",
+        "new-20261109-cheetah-vera-un-milione"
       ],
       "updatedAt": "2026-11-09",
-      "example": false,
-      "body_replace": [
-        [
-          "Non è stata comunicata una data di chiusura né il piano del negozio che la ospita.",
-          "Il negozio, nel Corner Shop di Selfridges, resta aperto fino al 28 novembre."
-        ],
-        [
-          "Non sono stati annunciati riassortimenti né spedizioni fuori dal Regno Unito.",
-          "In negozio arrivano riassortimenti di tanto in tanto, con un massimo di sei articoli a persona e senza doppioni; nessuna spedizione fuori dal Regno Unito annunciata. Parte della linea è anche nei Selfridges di Manchester e Birmingham."
-        ]
-      ],
-      "relatedIds_add": [
-        "new-20261109-cheetah-vera-un-milione"
-      ]
+      "example": false
     },
     {
       "id": "new-20261109-sony-avverte-trucco-nuova-zelanda",
@@ -2732,12 +2975,11 @@
       "status": "da verificare",
       "spoilerLevel": 0,
       "sourceUrl": "https://vice-central.com/gta-vi-jelous-panneau-vice-city-miami-kaseya/",
-      "relatedIds": [],
-      "updatedAt": "2026-11-09",
-      "example": false,
-      "relatedIds_add": [
+      "relatedIds": [
         "new-20261105-murale-di-brooklyn"
-      ]
+      ],
+      "updatedAt": "2026-11-09",
+      "example": false
     },
     {
       "id": "new-20261108-polizia-greensboro",
@@ -2820,15 +3062,17 @@
       "id": "new-20261106-mappa-poster",
       "date": "2026-11-06",
       "title": "Mappa di Leonida gratis il 19 e poster fisico a 0,99 $ sul Rockstar Store",
-      "body": "Dal 19 novembre su PS5 e Xbox si scarica gratis una mappa digitale di Leonida pronta da stampare, insieme a un poster con l'illustrazione ufficiale della copertina. Poco dopo il lancio il Rockstar Store venderà anche un poster fisico fronte-retro: negli Stati Uniti costa 0,99 dollari oppure è gratis con qualsiasi acquisto sullo store. La disponibilità fuori dagli USA non è ancora nota.",
+      "body": "Dal 19 novembre su PS5 e Xbox si scarica gratis una mappa digitale di Leonida pronta da stampare, insieme a un poster con l'illustrazione ufficiale della copertina. Poco dopo il lancio il Rockstar Store venderà anche un poster fisico fronte-retro: negli Stati Uniti costa 0,99 dollari oppure è gratis con qualsiasi acquisto sullo store. La disponibilità fuori dagli USA non è ancora nota.\n\nAggiornamento del 19 novembre: la mappa e il poster sono online, nella sezione Media del sito di GTA VI. Il poster di carta sul Rockstar Store non è ancora in vendita.",
       "topic": "uscita",
       "outlet": "Everyeye.it / Rockstar Newswire",
       "source": "trailer",
       "status": "verificato",
       "spoilerLevel": 0,
       "sourceUrl": "https://www.everyeye.it/notizie/rockstar-sorprende-fan-mappa-ufficiale-leonida-gta-6-gratis-tutti-909575.html",
-      "relatedIds": [],
-      "updatedAt": "2026-11-07",
+      "relatedIds": [
+        "new-20261119-mappa-ufficiale-online"
+      ],
+      "updatedAt": "2026-11-19",
       "example": false
     },
     {

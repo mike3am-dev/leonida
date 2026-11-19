@@ -3094,11 +3094,6 @@
       "for": "chr-kodak-black"
     },
     {
-      "file": "vice/personaggi/chr-travis-scott.webp",
-      "url": "https://gta.wiki/images/TravisScott-Musician.png",
-      "for": "chr-travis-scott"
-    },
-    {
       "file": "vice/personaggi/chr-ricky.png",
       "url": "https://gta.wiki/images/Ricky-GTAVI-OfficialScreenshot-EdgeMagazine08.png",
       "for": "chr-ricky"
@@ -5297,6 +5292,16 @@
       "file": "vice/armi/wpn-molotov.png",
       "url": "https://gta.wiki/images/thumb/Molotov-GTAVI-AnExtendedLook.png/600px-Molotov-GTAVI-AnExtendedLook.png?e5c14",
       "for": "wpn-molotov"
+    },
+    {
+      "file": "vice/personaggi/chr-peggy.png",
+      "url": "https://gta.wiki/images/thumb/Peggy-GTAVI-Portrait.png/600px-Peggy-GTAVI-Portrait.png?5b50d",
+      "for": "chr-peggy"
+    },
+    {
+      "file": "vice/personaggi/chr-ms-sharleen.png",
+      "url": "https://gta.wiki/images/thumb/MsSharleen-GTAVI-Portrait.png/600px-MsSharleen-GTAVI-Portrait.png?74e33",
+      "for": "chr-ms-sharleen"
     }
   ],
   "zip": {

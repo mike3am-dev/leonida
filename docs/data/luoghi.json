@@ -1086,7 +1086,7 @@
       "slug": "hamlet",
       "url": "https://www.gtasixmap.com/locations/hamlet",
       "name": "Hamlet",
-      "lead": "Hamlet è la cittadina agricola di GTA VI all'estremità meridionale della terraferma di Leonida: ospita il Leonida Penitentiary, una torre dell'acqua che fa da punto di riferimento, il salone di Sara e la strada per le Keys.",
+      "lead": "Hamlet è la cittadina agricola di GTA VI all'estremità meridionale della terraferma di Leonida: ospita il Hamlet Correctional Facility, una torre dell'acqua che fa da punto di riferimento, il salone di Sara e la strada per le Keys.",
       "badges": [
         "Confermato da Rockstar",
         "Posizione stimata",
@@ -1106,7 +1106,7 @@
         -2386.0
       ],
       "marker": "loc-hamlet",
-      "summary": "Hamlet è l'ultima città sulla terraferma di Leonida prima della strada sopraelevata per le Keys. È una cittadina agricola calda e bassa, fatta di centri commerciali, motel e frutteti, nota soprattutto per ospitare il Leonida Penitentiary, dove inizia la storia di Lucia.",
+      "summary": "Hamlet è l'ultima città sulla terraferma di Leonida prima della strada sopraelevata per le Keys. È una cittadina agricola calda e bassa, fatta di centri commerciali, motel e frutteti, nota soprattutto per ospitare il Hamlet Correctional Facility, dove inizia la storia di Lucia.",
       "facts": {
         "Regione": "Vice-Dale County, punta meridionale della terraferma",
         "Ispirazione reale": "Homestead, Florida",
@@ -1126,9 +1126,9 @@
         },
         {
           "id": "leonida-penitentiary",
-          "title": "Leonida Penitentiary",
+          "title": "Hamlet Correctional Facility",
           "paragraphs": [
-            "L'edificio più importante di Hamlet è la sua prigione. Lottare per la sua famiglia ha portato Lucia nel Leonida Penitentiary: la storia comincia con lei in tuta arancione che parla del suo rilascio con un'agente. Jason la aspetta fuori dai cancelli per venirla a prendere.",
+            "L'edificio più importante di Hamlet è la sua prigione. Lottare per la sua famiglia ha portato Lucia nel Hamlet Correctional Facility: la storia comincia con lei in tuta arancione che parla del suo rilascio con un'agente. Jason la aspetta fuori dai cancelli per venirla a prendere.",
             "Il complesso ha un alto edificio principale, un anello di torrette di guardia e un cancello d'ingresso recintato sulla strada. Le uniformi portano il distintivo del Leonida Department of Corrections.",
             "Aspettati che la prigione sia off-limits al di fuori delle missioni della storia. In GTA V, intrufolarsi nel Bolingbroke Penitentiary faceva scattare istantaneamente il livello di ricercato, e niente suggerisce che le guardie di Leonida saranno più amichevoli."
           ],
@@ -1142,9 +1142,9 @@
           ],
           "bullets": [
             "Visita Sara's Unisex Salon sulla via principale: è un bonus della Ultimate Edition, con acconciature, barba, trucco e unghie esclusivi per Jason e Lucia.",
-            "Passa davanti al Leonida Penitentiary per vedere dove inizia la storia, idealmente al tramonto, quando le torrette di guardia si stagliano contro il cielo.",
+            "Passa davanti al Hamlet Correctional Facility per vedere dove inizia la storia, idealmente al tramonto, quando le torrette di guardia si stagliano contro il cielo.",
             "Usa la città come base per Grassrivers, la cui palude inizia appena a sud-ovest di Hamlet.",
-            "Segui la strada costiera verso est fino alla Fuzzard Power Station a Peregrine Bay, la centrale elettrica che vedi all'orizzonte."
+            "Segui la strada costiera verso est fino alla T.H. Power Station a Peregrine Bay, la centrale elettrica che vedi all'orizzonte."
           ]
         },
         {
@@ -1193,7 +1193,7 @@
           ]
         },
         {
-          "name": "Cancello principale del Leonida Penitentiary",
+          "name": "Cancello principale del Hamlet Correctional Facility",
           "real": "New River Correctional Institution, Raiford, Florida",
           "text": "L'ingresso recintato sulla strada davanti alla prigione, dove Jason aspetta Lucia.",
           "image": "https://www.gtasixmap.com/images/locations/hamlet/landmark-l1129.webp",
@@ -1254,7 +1254,7 @@
         },
         {
           "src": "https://www.gtasixmap.com/images/locations/hamlet/lucia-caminos-05.webp",
-          "alt": "Lucia e un'altra detenuta in tuta arancione vengono scortate davanti a una finestra per le visite all'interno del Leonida Penitentiary.",
+          "alt": "Lucia e un'altra detenuta in tuta arancione vengono scortate davanti a una finestra per le visite all'interno del Hamlet Correctional Facility.",
           "credit": "Immagine: Rockstar Games",
           "local": "assets/img/luoghi/hamlet/lucia-caminos-05-640.webp"
         }
@@ -1266,7 +1266,7 @@
         },
         {
           "q": "La prigione di GTA VI è a Hamlet?",
-          "a": "Sì. Il Leonida Penitentiary, dove Lucia è detenuta all'inizio della storia, si trova ai margini di Hamlet. La posizione esatta sulla mappa è indicativa."
+          "a": "Sì. Il Hamlet Correctional Facility, dove Lucia è detenuta all'inizio della storia, si trova ai margini di Hamlet. La posizione esatta sulla mappa è indicativa."
         },
         {
           "q": "A quale luogo reale si ispira Hamlet?",
@@ -1293,7 +1293,7 @@
         },
         {
           "url": "https://gta.wiki/w/Leonida_Penitentiary",
-          "title": "GTA Wiki — Leonida Penitentiary"
+          "title": "GTA Wiki — Hamlet Correctional Facility"
         },
         {
           "url": "https://gta.wiki/w/Keys_Causeway",
@@ -1337,7 +1337,7 @@
         },
         {
           "url": "#leonida-penitentiary",
-          "title": "Leonida Penitentiary"
+          "title": "Hamlet Correctional Facility"
         },
         {
           "url": "#things-to-do-in-hamlet",
@@ -11201,7 +11201,7 @@
       "slug": "peregrine-bay",
       "url": "https://www.gtasixmap.com/locations/peregrine-bay",
       "name": "Peregrine Bay (Turkey Point)",
-      "lead": "Peregrine Bay è la Turkey Point di GTA VI: la Fuzzard Power Station e i suoi bacini di raffreddamento sulla baia tra Hamlet e Vice City, all'orizzonte della prima inquadratura del Trailer 1.",
+      "lead": "Peregrine Bay è la Turkey Point di GTA VI: la T.H. Power Station e i suoi bacini di raffreddamento sulla baia tra Hamlet e Vice City, all'orizzonte della prima inquadratura del Trailer 1.",
       "badges": [
         "Luogo non confermato",
         "Posizione stimata",
@@ -11210,8 +11210,8 @@
       "updated": "2026-10-07",
       "hero": {
         "src": "https://www.gtasixmap.com/images/locations/peregrine-bay/trailer-1-3-5s.webp",
-        "alt": "L'inquadratura di apertura del Trailer 1: un'autostrada al tramonto attraverso la terraferma meridionale, con una prigione e la Fuzzard Power Station all'orizzonte.",
-        "caption": "L'inquadratura di apertura del Trailer 1: un'autostrada al tramonto attraverso la terraferma meridionale, con una prigione e la Fuzzard Power Station all'orizzonte.",
+        "alt": "L'inquadratura di apertura del Trailer 1: un'autostrada al tramonto attraverso la terraferma meridionale, con una prigione e la T.H. Power Station all'orizzonte.",
+        "caption": "L'inquadratura di apertura del Trailer 1: un'autostrada al tramonto attraverso la terraferma meridionale, con una prigione e la T.H. Power Station all'orizzonte.",
         "credit": "Immagine: Rockstar Games, GTA VI Trailer 1",
         "local": "assets/img/luoghi/peregrine-bay/trailer-1-3-5s.webp"
       },
@@ -11221,7 +11221,7 @@
         -2662.0
       ],
       "marker": "loc-peregrine-bay",
-      "summary": "Peregrine Bay è il litorale industriale a sud di Vice City, dominato dalla Fuzzard Power Station e da una griglia di bacini di raffreddamento scavati tra le mangrovie. Vista all'orizzonte, dietro Hamlet e la sua prigione, è la primissima immagine del Trailer 1.",
+      "summary": "Peregrine Bay è il litorale industriale a sud di Vice City, dominato dalla T.H. Power Station e da una griglia di bacini di raffreddamento scavati tra le mangrovie. Vista all'orizzonte, dietro Hamlet e la sua prigione, è la primissima immagine del Trailer 1.",
       "facts": {
         "Regione": "Terraferma meridionale, sulla baia tra Hamlet e Vice City",
         "Ispirazione reale": "Turkey Point e Homestead Bayfront, Florida",
@@ -11233,7 +11233,7 @@
           "id": "what-peregrine-bay-is-like",
           "title": "Com'è Peregrine Bay",
           "paragraphs": [
-            "GTA VI si apre qui: la prima inquadratura del Trailer 1 mostra la terraferma meridionale in un tramonto velato, con un'autostrada in primo piano e, all'orizzonte, una prigione e una centrale elettrica. È la Fuzzard Power Station, ricalcata edificio per edificio sulla centrale di Turkey Point a sud di Miami.",
+            "GTA VI si apre qui: la prima inquadratura del Trailer 1 mostra la terraferma meridionale in un tramonto velato, con un'autostrada in primo piano e, all'orizzonte, una prigione e una centrale elettrica. È la T.H. Power Station, ricalcata edificio per edificio sulla centrale di Turkey Point a sud di Miami.",
             "Intorno alla centrale il terreno è piatto e umido: litorale di mangrovie, canali di drenaggio come il Fuzzard Drain Canal, un impianto di trattamento delle acque reflue e i lunghi bacini di raffreddamento rettangolari che rendono la zona facile da individuare dall'alto.",
             "Il nome Peregrine Bay non è ufficiale e sostituisce un uccello con un altro: il sito reale si chiama Turkey Point (turkey è il tacchino, peregrine il falco pellegrino)."
           ],
@@ -11246,10 +11246,10 @@
             "Questa è una costa industriale operativa più che una meta, ma ha il suo fascino."
           ],
           "bullets": [
-            "Trova la Fuzzard Power Station, il punto di riferimento che domina l'orizzonte del sud.",
+            "Trova la T.H. Power Station, il punto di riferimento che domina l'orizzonte del sud.",
             "Segui le strade costiere e i canali tra la centrale e le mangrovie.",
             "Guarda oltre la baia verso Catalan Key e lo skyline di Vice City a nord.",
-            "Abbina la gita a Hamlet e alla Leonida Penitentiary, a meno di un chilometro a ovest."
+            "Abbina la gita a Hamlet e alla Hamlet Correctional Facility, a meno di un chilometro a ovest."
           ]
         },
         {
@@ -11283,7 +11283,7 @@
       ],
       "landmarks": [
         {
-          "name": "Fuzzard Power Station",
+          "name": "T.H. Power Station",
           "real": "Centrale di Turkey Point",
           "text": "La centrale che domina l'orizzonte, con edifici e unità principali ricalcati su quelli reali.",
           "image": null,
@@ -11336,7 +11336,7 @@
       "faq": [
         {
           "q": "C'è una centrale elettrica in GTA VI?",
-          "a": "Sì. La Fuzzard Power Station si staglia all'orizzonte della prima inquadratura del Trailer 1 ed è ispirata a Turkey Point, in Florida."
+          "a": "Sì. La T.H. Power Station si staglia all'orizzonte della prima inquadratura del Trailer 1 ed è ispirata a Turkey Point, in Florida."
         },
         {
           "q": "Peregrine Bay è confermata in GTA VI?",
@@ -13944,7 +13944,7 @@
         },
         {
           "t": "p",
-          "text": "La prigione sembra trovarsi vicino a Hamlet, la piccola città all'estremità meridionale della terraferma dove inizia la strada sopraelevata per le Keys. La GTA Wiki la chiama Leonida Penitentiary. Questo colloca il punto di partenza di Lucia a pochi minuti d'auto da quello di Jason."
+          "text": "La prigione sembra trovarsi vicino a Hamlet, la piccola città all'estremità meridionale della terraferma dove inizia la strada sopraelevata per le Keys. La GTA Wiki la chiama Hamlet Correctional Facility. Questo colloca il punto di partenza di Lucia a pochi minuti d'auto da quello di Jason."
         },
         {
           "t": "img",
@@ -13986,7 +13986,7 @@
         },
         {
           "t": "p",
-          "text": "Sembra trovarsi vicino a Hamlet, all'estremità meridionale della terraferma di Leonida. La GTA Wiki la chiama Leonida Penitentiary. Rockstar non ha pubblicato una mappa che lo confermi."
+          "text": "Sembra trovarsi vicino a Hamlet, all'estremità meridionale della terraferma di Leonida. La GTA Wiki la chiama Hamlet Correctional Facility. Rockstar non ha pubblicato una mappa che lo confermi."
         },
         {
           "t": "p",
