@@ -124,7 +124,8 @@
             3321,
             112
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fd/JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png/revision/latest?cb=20250509112212"
+          "imageUrl": "https://gta.wiki/images/thumb/JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png/600px-JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png?9fa4f",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-boobie-studio",
@@ -236,33 +237,25 @@
           "status": "da verificare",
           "source": "community",
           "image": "assets/img/poi/poi-sinfrontera.png",
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/83/SinfronteraNationalBank-GTAVI-Trailer2-Logo.png/revision/latest?cb=20250812034513"
+          "imageUrl": "https://gta.wiki/images/SinfronteraNationalBank-GTAVI-Trailer2-Logo.png?74540",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-nine1nine",
           "name": "NINE1NINE",
-          "kind": "Nightclub",
-          "description": "Locale notturno di Vice City.",
+          "kind": "Strip club",
+          "description": "Downtown Vice City, accanto al club The Vault, vicino al grande svincolo autostradale. Lo strip club più elegante e più caro: si beve, si balla e ci sono i balli privati (300 $, mancia 50 $). Aperto da subito.",
           "status": "da verificare",
-          "source": "community",
+          "source": "stampa",
           "image": "assets/img/luoghi/bayside-bayfront/landmark-l190.webp",
           "xy": [
             3331,
             -304
-          ]
-        },
-        {
-          "id": "poi-ocean-view-hotel",
-          "name": "Ocean View Hotel",
-          "kind": "Hotel",
-          "description": "Albergo sul lungomare di Ocean Beach. Un nome che i veterani della serie ricordano bene.",
-          "status": "da verificare",
-          "source": "community",
-          "image": "assets/img/luoghi/ocean-beach/landmark-l36.webp",
-          "xy": [
-            4834,
-            -206
-          ]
+          ],
+          "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-ammu-nation",
@@ -274,21 +267,6 @@
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
           "image": "assets/img/poi/poi-ammu-nation.jpg",
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg",
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-leaf-links",
-          "name": "Leaf Links",
-          "kind": "Golf",
-          "description": "Il campo da golf di Vice Beach: si gioca la «Leaf Links Golf Challenge» e c'è una delle gare di droni Top Fun.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/",
-          "image": null,
-          "xy": [
-            4048,
-            895
-          ],
           "updatedAt": "2026-11-18"
         },
         {
@@ -334,7 +312,8 @@
             3455,
             -184
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/40/PalaestraTower-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251015092931"
+          "imageUrl": "https://gta.wiki/images/thumb/PalaestraTower-GTAVI-OfficialScreenshot-ViceCity08.png/600px-PalaestraTower-GTAVI-OfficialScreenshot-ViceCity08.png?14c0a",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-galina-opera",
@@ -363,7 +342,8 @@
             3541,
             -326
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/SaharaArena-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251211020457"
+          "imageUrl": "https://gta.wiki/images/thumb/SaharaArena-GTAVI-OfficialScreenshot-ViceCity08.png/600px-SaharaArena-GTAVI-OfficialScreenshot-ViceCity08.png?ad612",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-ferris-wheel",
@@ -570,7 +550,8 @@
             3541,
             -326
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1f/ViceCityNarcos-GTAVI-OfficialScreenshot-ViceCity08-Logo.jpg/revision/latest?cb=20250521225732"
+          "imageUrl": "https://gta.wiki/images/ViceCityNarcos-GTAVI-OfficialScreenshot-ViceCity08-Logo.jpg?8c230",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-the-sumerian",
@@ -605,21 +586,6 @@
           "imageUrl": "https://gta.wiki/images/ArcadiaTowers-GTAVI-OfficialScreenshot-UltimateEdition-Squalo01.png?55396"
         },
         {
-          "id": "poi-vice-museum",
-          "name": "Vice Museum of Art",
-          "kind": "Museo",
-          "description": "Il museo d'arte di Downtown.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": "assets/img/luoghi/vice-beach/landmark-l85.webp",
-          "xy": [
-            4738,
-            271
-          ]
-        },
-        {
           "id": "poi-lombank",
           "name": "Lombank",
           "kind": "Banca",
@@ -635,22 +601,6 @@
           ]
         },
         {
-          "id": "poi-y-vice-city",
-          "name": "Y Vice City",
-          "kind": "Palestra",
-          "description": "La palestra (la «Y») nella zona di Washington Beach e Downtown.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": "assets/img/poi/poi-y-vice-city.png",
-          "xy": [
-            4830,
-            338
-          ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/08/YViceCity-GTAVI-Trailer1.png/revision/latest?cb=20250318150656"
-        },
-        {
           "id": "poi-concert-hall",
           "name": "Vice City Concert Hall",
           "kind": "Teatro",
@@ -664,7 +614,8 @@
             3498,
             -152
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b4/UnnamedConcertHall-GTAVI-OfficialScreenshot-ViceCity08.png/revision/latest?cb=20251015092859"
+          "imageUrl": "https://gta.wiki/images/thumb/UnnamedConcertHall-GTAVI-OfficialScreenshot-ViceCity08.png/600px-UnnamedConcertHall-GTAVI-OfficialScreenshot-ViceCity08.png?c3450",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-catalan-blvd",
@@ -676,53 +627,8 @@
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
           "image": "assets/img/poi/poi-catalan-blvd.png",
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ea/USRoute3-GTAVI-Trailer1Screenshot.png/revision/latest?cb=20250227222004"
-        },
-        {
-          "id": "poi-effluvia",
-          "name": "Effluvia",
-          "kind": "Bar sul tetto",
-          "description": "Il rooftop bar di Ocean Beach dove Brian Heder propone il lavoro a Jason: Lucia se ne va, Jason resta con il lavoro e una Pißwasser.",
-          "characterIds": [
-            "chr-brian",
-            "chr-jason",
-            "chr-lucia"
-          ],
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": "assets/img/luoghi/ocean-beach/landmark-l104.webp",
-          "insight": "Effluvia è un bar-ristorante su una terrazza di Vice City, uno degli indirizzi più chic della città. Il nome, leggibile sull'insegna, è una tipica presa in giro di Rockstar: in inglese «effluvia» indica delle esalazioni, il più delle volte un cattivo odore.\n\nUN PRANZO DI FAMIGLIA CHE DIVENTA AMBIGUO. Jason e Lucia ci ritrovano Brian Heder e Lori per un pranzo in terrazza. L'atmosfera, all'inizio calorosa, cambia quando a tavola si parla a mezze parole di un «lavoro» che qualcuno vuole «discreto, una sola persona»; poi il pranzo riprende come se niente fosse.\n\nIL PRANZO. Jason e Lucia attraversano il bar sul tetto mano nella mano (basta premere un tasto), salutano Brian e Lori al bancone e si siedono a un tavolo in pieno sole, cocktail e fiori in tavola, con lo skyline di Vice City sullo sfondo. Il bar si trova nel quartiere di Vice Beach; il punto esatto non è ancora noto.",
-          "insightUrl": "https://vice-central.com/lieux/efflavia/",
-          "keyFacts": [
-            {
-              "label": "Nome",
-              "value": "Effluvia, leggibile sull'insegna",
-              "reliability": "Confermato"
-            },
-            {
-              "label": "Tipo",
-              "value": "Bar-ristorante su un tetto-terrazza di Vice City",
-              "reliability": "Confermato"
-            },
-            {
-              "label": "Scena",
-              "value": "Pranzo di Jason e Lucia con Brian e Lori",
-              "reliability": "Confermato"
-            },
-            {
-              "label": "Quartiere",
-              "value": "Vice Beach",
-              "reliability": "Riportato"
-            }
-          ],
-          "toSee": "La terrazza sul tetto con lo skyline di Vice City, l'insegna ironica",
-          "whoYouMeet": "Brian Heder, Lori, Jason Duval, Lucia Caminos",
-          "updatedAt": "2026-11-06",
-          "xy": [
-            4567,
-            196
-          ]
+          "imageUrl": "https://gta.wiki/images/thumb/USRoute3-GTAVI-Trailer1Screenshot.png/600px-USRoute3-GTAVI-Trailer1Screenshot.png?3632d",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-venture-apartments",
@@ -865,7 +771,8 @@
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
           "image": "assets/img/poi/poi-i97.png",
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/62/Interstate97-GTAVI-Trailer2.png/revision/latest?cb=20251027160045"
+          "imageUrl": "https://gta.wiki/images/thumb/Interstate97-GTAVI-Trailer2.png/600px-Interstate97-GTAVI-Trailer2.png?661a9",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-portvicecity",
@@ -881,7 +788,8 @@
             4055,
             -814
           ],
-          "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b1/GTAVITrailer-GTAVI-SS12.png/revision/latest?cb=20231206020448"
+          "imageUrl": "https://gta.wiki/images/thumb/GTAVITrailer-GTAVI-SS12.png/600px-GTAVITrailer-GTAVI-SS12.png?25a7e",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
         },
         {
           "id": "poi-vcia-x",
@@ -1917,22 +1825,6 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-07"
-        },
-        {
-          "id": "poi-submerged-tank",
-          "name": "Carro armato sommerso",
-          "kind": "Relitto",
-          "description": "Un carro armato adagiato sul fondale, da trovare in immersione; è legato a un evento casuale.",
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gtadb.org/map/#L734",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07",
-          "xy": [
-            5172,
-            627
-          ]
         },
         {
           "id": "poi-rifugio-bayside",
@@ -4150,6 +4042,19 @@
           "spoilerLevel": 3,
           "example": false,
           "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-the-vault-club",
+          "name": "The Vault",
+          "kind": "Nightclub",
+          "description": "Downtown Vice City: il club accanto al NINE1NINE.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],
@@ -4238,18 +4143,19 @@
       "pois": [
         {
           "id": "poi-evergreen-mall",
-          "name": "Evergreen Shopping Mall",
+          "name": "Evergreen Mall",
           "kind": "Centro commerciale",
-          "description": "Il grande centro commerciale di Waning Sands.",
+          "description": "Il grande centro commerciale di Waning Sands, a ovest della Interstate 97 (il nome completo è Evergreen Mall of Waning Sands). Negozi di lusso e accessori, come Sessanta Nove, Ferruccio Tucci e Kowalski, e un negozio Fruit; c'è anche una gara di droni Top Fun. Ricalca il Sawgrass Mills di Sunrise.",
           "status": "da verificare",
           "source": "community",
-          "sourceUrl": "https://gtabase.com/gta-6/map/?feature=landmark",
+          "sourceUrl": "https://gta.wiki/w/Evergreen_Mall",
           "image": "assets/img/poi/poi-evergreen-mall.jpg",
           "xy": [
             3399,
             1754
           ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L549,ig.jpg"
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L549,ig.jpg",
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-sundown-airfield",
@@ -5083,30 +4989,20 @@
           "updatedAt": "2026-11-18"
         },
         {
-          "id": "poi-gang-manatee-motel",
-          "name": "Manatee Motel",
-          "kind": "Operazione di gang",
-          "description": "Motel malandato nelle Keys, base del traffico di animali esotici. Bottino 2.800–6.200 $. Banda: Kingfishers.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
-          "image": null,
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
           "id": "poi-gang-exotic-animals-front",
           "name": "Exotic Animals Front",
           "kind": "Operazione di gang",
-          "description": "Negozio di liquori delle Keys con un traffico di animali esotici nel retro. Bottino 5.000–7.000 $. Banda: Altri criminali.",
-          "status": "da verificare",
+          "description": "Key Lento, nel retro del Three Sheets Liquor: il commesso è distratto da qualcosa dietro. Traffico di animali esotici. Bottino 5.000–7.000 $. Banda: Altri criminali.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Exotic_Animals_Front"
+          ]
         },
         {
           "id": "poi-banca-fleeca-key-lento",
@@ -5384,7 +5280,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-leonida-keys-07.jpg"
       ],
@@ -5409,7 +5305,7 @@
         {
           "label": "Contea",
           "value": "Mariana",
-          "reliability": "Riportato"
+          "reliability": "Confermato"
         },
         {
           "label": "Key Lento",
@@ -5633,20 +5529,23 @@
           "name": "Fishing Shacks",
           "kind": "Operazione di gang",
           "description": "Baracca da pesca isolata a Wetman Bay, usata per il traffico di cocaina. Bottino 4.000–16.000 $. Banda: Kingfishers.",
-          "status": "da verificare",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Fishing_Shacks"
+          ]
         },
         {
           "id": "poi-gang-sunrise-rv-park",
           "name": "Sunrise RV Park",
           "kind": "Operazione di gang",
-          "description": "Campeggio per camper ad Alligator Creek: smistamento di cocaina e animali esotici. Bottino 23.800–42.200 $. Banda: Kingfishers.",
-          "status": "da verificare",
+          "description": "Campeggio per camper sulla Cottonmouth Bay, a nord-ovest di Key Lento: smistamento di cocaina e allevamento di animali esotici. Bottino 23.800–42.200 $. Banda: Kingfishers.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
@@ -5656,7 +5555,10 @@
           ],
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Sunrise_RV_Park"
+          ]
         },
         {
           "id": "poi-gang-palmer-fishing-warehouse",
@@ -5817,6 +5719,35 @@
             992,
             -1112
           ]
+        },
+        {
+          "id": "poi-gang-industrial-weed-grow",
+          "name": "Industrial Weed Grow",
+          "kind": "Operazione di gang",
+          "description": "Fabbrica isolata nel nord della contea di Mariana, a nord-ovest delle Grassrivers e a nord-est di Tola Bay. Compare sulla mappa («Robbery Opportunity») solo quando entri nella zona. Sicurezza alta: si entra da un varco nella recinzione sul lato sud. Tre oggetti chiave: un pick-up nel capannone, una cassaforte senza codice nell'ufficio sul lato ovest e un mitra unico nell'armeria a est. Banda non indicata.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.ign.com/wikis/gta-6/Industrial_Weed_Grow",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-gang-manatee-motel",
+          "name": "Manatee Motel",
+          "kind": "Operazione di gang",
+          "description": "Motel malandato a nord-est del Cottonmouth Lake, nelle paludi della contea di Mariana: base del traffico di animali esotici. Sicurezza alta. Bottino 2.800–6.200 $. Banda: Kingfishers.",
+          "status": "verificato",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Manatee_Motel"
+          ]
         }
       ],
       "activityIds": [
@@ -5828,7 +5759,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-grassrivers-07.jpg"
       ],
@@ -5853,7 +5784,7 @@
         {
           "label": "Contea",
           "value": "Contea di Mariana",
-          "reliability": "Riportato"
+          "reliability": "Confermato"
         },
         {
           "label": "Pesca e caccia",
@@ -5947,22 +5878,28 @@
           "id": "poi-starlet-motel",
           "name": "Starlet Motel",
           "kind": "Motel / rifugio",
-          "description": "Il motel al neon con la rissa nel parcheggio; è uno dei rifugi.",
+          "description": "Motel al neon a est di Port Gellhorn, con un distributore di fronte. Nel capitolo 2 è la casa di Jason e Lucia: una stanza in affitto da pagare a Linda, la direttrice. Le stanze interne (cucina, reception, mensa) chiudono quando ve ne andate: le carte e le riviste che ci sono vanno prese nel capitolo 2.",
           "characterIds": [],
           "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
           "image": "assets/img/luoghi/port-gellhorn/landmark-l304.webp",
           "xy": [
             654,
             1407
-          ]
+          ],
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/"
+          ],
+          "spoilerLevel": 1,
+          "example": false,
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-delights",
           "name": "Delights Cabaret",
           "kind": "Strip club",
-          "description": "Il cabaret «Delights», uno dei simboli del declino di Port Gellhorn. Al centro del locale c'è un avversario di biliardo: se non lo batti entro la fine del capitolo 2, potrai rientrare più avanti, quando il locale riapre.",
+          "description": "Il cabaret «Delights», uno dei simboli del declino di Port Gellhorn. È lo strip club più economico: ballo privato 40 $, mancia 10 $, 5 $ per la mancia sul palco; ci sono anche i tavoli da biliardo. Al centro del locale c'è un avversario di biliardo: se non lo batti entro la fine del capitolo 2, potrai rientrare più avanti, quando il locale riapre.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -5972,7 +5909,10 @@
             88,
             1501
           ],
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/"
+          ]
         },
         {
           "id": "poi-hanks-waffles-x",
@@ -6454,79 +6394,97 @@
           "id": "poi-gang-kingpin-bowling",
           "name": "Kingpin Bowling",
           "kind": "Operazione di gang",
-          "description": "Bowling abbandonato di Port Gellhorn con dentro un giro di pillole. Bottino 15.100–25.600 $. Banda: Kolts & Associates.",
-          "status": "da verificare",
+          "description": "Bowling abbandonato di Port Gellhorn con dentro un giro di pillole. Bottino 15.100–25.600 $. Banda: Kolt & Associates.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Kingpin_Bowling"
+          ]
         },
         {
           "id": "poi-gang-june-warehouse",
           "name": "June Warehouse",
           "kind": "Operazione di gang",
-          "description": "Magazzino di Port Gellhorn dove tengono i furgoni delle pillole. Bottino 5.800–10.200 $. Banda: Kolts & Associates.",
-          "status": "da verificare",
+          "description": "Magazzino di Port Gellhorn dove tengono i furgoni delle pillole. Bottino 5.800–10.200 $. Banda: Kolt & Associates.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/June_Warehouse"
+          ]
         },
         {
           "id": "poi-gang-la-cascara-motel",
           "name": "La Cascara Motel",
           "kind": "Operazione di gang",
-          "description": "Motel abbandonato di Port Gellhorn: pillole e coltivazione di erba. Bottino 21.600–47.200 $. Banda: Kolts & Associates.",
-          "status": "da verificare",
+          "description": "Motel abbandonato di Port Gellhorn: pillole e coltivazione di erba. Bottino 21.600–47.200 $. Banda: Kolt & Associates.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/La_Cascara_Motel"
+          ]
         },
         {
           "id": "poi-gang-brooks-boatworks",
           "name": "Brooks Boatworks",
           "kind": "Operazione di gang",
-          "description": "Cantiere sul porto di Port Gellhorn da cui passano i farmaci da prescrizione. Bottino 30.100–42.600 $. Banda: Kolts & Associates.",
-          "status": "da verificare",
+          "description": "Cantiere sul porto di Port Gellhorn da cui passano i farmaci da prescrizione. Bottino 30.100–42.600 $. Banda: Kolt & Associates.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Brooks_Boatworks"
+          ]
         },
         {
           "id": "poi-gang-covo-di-port-gellhorn",
-          "name": "Covo di Port Gellhorn",
+          "name": "Stash House",
           "kind": "Operazione di gang",
-          "description": "Un altro punto di spaccio a Port Gellhorn («Robbery Opportunity» finché non lo visiti). Banda: Kolts & Associates.",
-          "status": "da verificare",
+          "description": "Casa a Port Gellhorn, appena a nord-ovest dell'officina Wasteland Off-Road, con membri della gang davanti all'ingresso: preparati a combattere. Compare sulla mappa nel capitolo 2, quando Vicki dice che lì spacciano. Due oggetti chiave: un fucile d'assalto unico in cucina e una cassaforte senza codice nella stanza accanto; dietro una grata nel muro ci sono altri 1.000 $. Sicurezza media. Banda: Kolt & Associates.",
+          "status": "verificato",
           "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "sourceUrl": "https://www.ign.com/wikis/gta-6/Stash_House",
           "image": null,
-          "spoilerLevel": 0,
+          "spoilerLevel": 2,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/"
+          ]
         },
         {
           "id": "poi-gang-backroom-weed-front",
           "name": "Backroom Weed Front",
           "kind": "Operazione di gang",
-          "description": "Salone di bellezza di Port Gellhorn che copre lo spaccio di erba. Bottino 7.000–13.500 $. Banda: Altri criminali.",
-          "status": "da verificare",
+          "description": "Il Pearl House Hair Salon di Port Gellhorn: nel retro del salone si spaccia erba. Bottino 7.000–13.500 $. Banda: Altri criminali.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Backroom_Weed_Front"
+          ]
         },
         {
           "id": "poi-smash-avery-pawn",
@@ -6708,7 +6666,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-port-gellhorn-07.jpg"
       ],
@@ -6733,17 +6691,12 @@
         {
           "label": "Contea",
           "value": "Kelly County",
-          "reliability": "Riportato"
+          "reliability": "Confermato"
         },
         {
           "label": "Ispirazione",
           "value": "Panama City e la Forgotten Coast",
           "reliability": "Riportato"
-        },
-        {
-          "label": "Nascondiglio allo Starlet Motel",
-          "value": "Uno dei nascondigli di Jason e Lucia",
-          "reliability": "Rumor"
         }
       ],
       "toSee": "Cabaret «Delights», Starlet Motel, centri commerciali deserti",
@@ -7185,7 +7138,7 @@
         {
           "label": "Contea",
           "value": "Contea di Kelly (la «contea di Ambrosia» di un primo screenshot è stata tolta durante lo sviluppo)",
-          "reliability": "Riportato"
+          "reliability": "Confermato"
         },
         {
           "label": "Lago Leonida",
@@ -7286,9 +7239,9 @@
         },
         {
           "id": "poi-st-lummox-county-train-station",
-          "name": "Stazione della contea di Lummox",
+          "name": "Stazione di Grayson",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Nella contea di Lummox l'elenco della mappa ha solo due stazioni, Grayson e Millport: questa, più a ovest, con ogni probabilità è quella di Grayson.",
+          "description": "La stazione dei treni di Grayson, la cittadina sulla costa nord-ovest della contea di Lummox: è una delle due stazioni della contea nell'elenco della mappa (l'altra è Millport).",
           "xy": [
             645,
             3373
@@ -7298,7 +7251,7 @@
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-meditazione-water-wheel",
@@ -7581,22 +7534,6 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-st-redhill-train-station",
-          "name": "Stazione di Redhill",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali), a Redhill.",
-          "xy": [
-            1510,
-            3588
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [
@@ -8752,6 +8689,143 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-sixth-harper",
+          "name": "Sixth & Harper",
+          "kind": "Centro commerciale",
+          "description": "Vice Beach, all'angolo con Seaview Boulevard: centro commerciale con parcheggio e food court. Tra i negozi Alpha Sports, Legendary Custom Jewelry, Burger Shot, Bean Machine e Leonida Credit Union. Sul tetto c'è un collezionabile. Ricalca il Fifth & Alton di Miami Beach.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/Sixth_%26_Harper",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-y-vice-city",
+          "name": "Y Vice City",
+          "kind": "Hotel",
+          "description": "Grande albergo sulla spiaggia al margine sud di Washington Beach, a Vice Beach; è uno dei pochi con il nome in facciata. Ricalca il W South Beach. Slogan: «Y even ask?».",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/Y_Hotel_Vice_City",
+          "image": "assets/img/poi/poi-y-vice-city.png",
+          "xy": [
+            4830,
+            338
+          ],
+          "imageUrl": "https://gta.wiki/images/thumb/YViceCity-GTAVI-Trailer1.png/600px-YViceCity-GTAVI-Trailer1.png?3a5a4",
+          "updatedAt": "2026-11-19",
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+        },
+        {
+          "id": "poi-vice-museum",
+          "name": "Vice Museum of Art",
+          "kind": "Museo",
+          "description": "Il museo d'arte di Vice Beach, in un parco alberato appena dietro la strada della spiaggia. Ricalca il Bass Museum di Miami Beach.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/Vice_Museum_of_Art",
+          "image": "assets/img/luoghi/vice-beach/landmark-l85.webp",
+          "xy": [
+            4738,
+            271
+          ],
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-ocean-view-hotel",
+          "name": "Ocean View Hotel",
+          "kind": "Hotel",
+          "description": "Albergo sul lungomare di Ocean Beach. Un nome che i veterani della serie ricordano bene.",
+          "status": "da verificare",
+          "source": "community",
+          "image": "assets/img/luoghi/ocean-beach/landmark-l36.webp",
+          "xy": [
+            4834,
+            -206
+          ]
+        },
+        {
+          "id": "poi-effluvia",
+          "name": "Effluvia",
+          "kind": "Bar sul tetto",
+          "description": "Il rooftop bar di Ocean Beach dove Brian Heder propone il lavoro a Jason: Lucia se ne va, Jason resta con il lavoro e una Pißwasser.",
+          "characterIds": [
+            "chr-brian",
+            "chr-jason",
+            "chr-lucia"
+          ],
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
+          "image": "assets/img/luoghi/ocean-beach/landmark-l104.webp",
+          "insight": "Effluvia è un bar-ristorante su una terrazza di Vice City, uno degli indirizzi più chic della città. Il nome, leggibile sull'insegna, è una tipica presa in giro di Rockstar: in inglese «effluvia» indica delle esalazioni, il più delle volte un cattivo odore.\n\nUN PRANZO DI FAMIGLIA CHE DIVENTA AMBIGUO. Jason e Lucia ci ritrovano Brian Heder e Lori per un pranzo in terrazza. L'atmosfera, all'inizio calorosa, cambia quando a tavola si parla a mezze parole di un «lavoro» che qualcuno vuole «discreto, una sola persona»; poi il pranzo riprende come se niente fosse.\n\nIL PRANZO. Jason e Lucia attraversano il bar sul tetto mano nella mano (basta premere un tasto), salutano Brian e Lori al bancone e si siedono a un tavolo in pieno sole, cocktail e fiori in tavola, con lo skyline di Vice City sullo sfondo. Il bar si trova nel quartiere di Vice Beach; il punto esatto non è ancora noto.",
+          "insightUrl": "https://vice-central.com/lieux/efflavia/",
+          "keyFacts": [
+            {
+              "label": "Nome",
+              "value": "Effluvia, leggibile sull'insegna",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Tipo",
+              "value": "Bar-ristorante su un tetto-terrazza di Vice City",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Scena",
+              "value": "Pranzo di Jason e Lucia con Brian e Lori",
+              "reliability": "Confermato"
+            },
+            {
+              "label": "Quartiere",
+              "value": "Vice Beach",
+              "reliability": "Riportato"
+            }
+          ],
+          "toSee": "La terrazza sul tetto con lo skyline di Vice City, l'insegna ironica",
+          "whoYouMeet": "Brian Heder, Lori, Jason Duval, Lucia Caminos",
+          "updatedAt": "2026-11-06",
+          "xy": [
+            4567,
+            196
+          ]
+        },
+        {
+          "id": "poi-leaf-links",
+          "name": "Leaf Links",
+          "kind": "Golf",
+          "description": "Il campo da golf di Vice Beach: si gioca la «Leaf Links Golf Challenge» e c'è una delle gare di droni Top Fun.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtabase.com/gta-6/map/",
+          "image": null,
+          "xy": [
+            4048,
+            895
+          ],
+          "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-submerged-tank",
+          "name": "Carro armato sommerso",
+          "kind": "Relitto",
+          "description": "Un carro armato adagiato sul fondale, da trovare in immersione; è legato a un evento casuale.",
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gtadb.org/map/#L734",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07",
+          "xy": [
+            5172,
+            627
+          ]
         }
       ],
       "activityIds": [],
@@ -9098,14 +9172,17 @@
           "id": "poi-gang-m7-compound",
           "name": "M7 Compound",
           "kind": "Operazione di gang",
-          "description": "Il complesso della M7 sulla costa a sud di Vice City. Banda: M7.",
+          "description": "Il complesso della M7 a Hamlet, accanto alla superstrada (sulla mappa compare come «M7 Compound»). IGN lo chiama Nova Auto Junkyard: uno sfasciacarrozze a nord-est di Hamlet, subito a est dello studio Layin' Ink, molto sorvegliato. Tre oggetti chiave: un fucile d'assalto unico sotto la tettoia a nord, una cassaforte nell'ufficio accanto allo scuolabus giallo (il codice è scritto sul muro) e una muscle car nel garage. Banda: M7.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/Nova_Auto_Junkyard"
+          ]
         },
         {
           "id": "poi-prestiti-quick-buck-hamlet",

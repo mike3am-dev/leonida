@@ -2,6 +2,220 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261119-internet-record-regno-unito",
+      "date": "2026-11-19",
+      "title": "Il giorno dell'uscita nel Regno Unito: BT ed EE parlano del loro picco di traffico più alto di sempre, CityFibre batte il record",
+      "body": "I numeri: BT ed EE dicono che mercoledì 18 sera, con l'ultimo scaricamento prima dello sblocco, le loro reti di casa hanno avuto il picco più alto mai registrato: +34% rispetto a un mercoledì normale e il 4% sopra il record precedente. Il paese con l'aumento più forte è Fort Augustus, sul Loch Ness. CityFibre ha toccato 6,65 terabit al secondo (il record era 5,45), Gigaclear la notte più trafficata della sua storia, e lo scambio internet LINX segna +16% a mezzanotte, +41% a Manchester.\n\nDa sapere: sono dati comunicati dagli operatori; ISPreview nota che BT non ha pubblicato misure dettagliate. Nessun guasto segnalato. Il gioco pesa circa 212 GB, quanto quasi 80 ore di video in alta definizione.",
+      "topic": "tecnica",
+      "outlet": "ISPreview / BT Newsroom / Advanced Television",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ispreview.co.uk/index.php/2026/11/linx-and-hyperoptic-reveal-early-uk-network-traffic-data-for-todays-gta6-launch.html",
+      "relatedIds": [
+        "new-20261111-preload-record-reti",
+        "new-20261118-xfinity-traffico-xbox"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://newsroom.bt.com/gta-vi-download-frenzy-triggers-biggest-broadband-traffic-peak-ever-on-bt-and-ee-networks",
+        "https://www.advanced-television.com/2026/11/19/gta-vi-sets-record-broadband-traffic-for-bt-ee/"
+      ]
+    },
+    {
+      "id": "new-20261119-digital-foundry-classifica-vrr",
+      "date": "2026-11-19",
+      "title": "Su quale console gira meglio: prima la PS5 Pro, poi PS5 e Series X alla pari, ultima la Series S; su Xbox il VRR aiuta",
+      "body": "La classifica di Digital Foundry: la PS5 Pro ha l'immagine più nitida (1440p ricostruiti quasi in 4K con il PSSR) e tiene i 30 fps quasi sempre; PS5 e Series X sono appaiate, con un'immagine più morbida e cali nelle scene affollate; la Series S è la più debole, intorno ai 25 fps in sparatorie e inseguimenti e verso i 20 nel caos più pesante.\n\nIl vantaggio di Xbox: le Series X|S fanno girare il gioco dentro una cornice a 120 Hz con refresh variabile (VRR) decisa dal sistema, quindi con un televisore compatibile i cali si sentono un po' meno. Su PS5 il VRR del sistema funziona solo sopra i 48 fps e qui non entra in gioco. Non vuol dire che il gioco vada a 120 fps: resta a 30 ovunque.\n\nCome si attiva su Xbox: Impostazioni › Generale › Opzioni TV e schermo › Modalità video › «Consenti frequenza di aggiornamento variabile» (serve un TV o un monitor che la supporti).",
+      "topic": "tecnica",
+      "outlet": "Digital Foundry / Rockstar Intel / GTA BOOM / Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/why-xbox-has-a-secret-gta-vi-performance-advantage-over-ps5",
+      "relatedIds": [
+        "new-20261118-ps5-pro-mai-60-fps",
+        "new-20261117-digital-foundry-30-fps"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.gtaboom.com/digital-foundry-finds-that-gta-6-indeed-runs-best-on-ps5-pro-b72f",
+        "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
+        "https://www.gtaboom.com/no-gta-6-does-not-run-at-120-fps-on-xbox-fb13"
+      ]
+    },
+    {
+      "id": "new-20261119-sfondi-ps5-xbox",
+      "date": "2026-11-19",
+      "title": "Le console si vestono da GTA VI: cinque sfondi nuovi su PS5, e su Xbox uno sfondo imposto a tutti che fa arrabbiare",
+      "body": "PS5: la pagina di benvenuto della console ha un riquadro dedicato al gioco (si può chiudere) e una cartella «GTA 6» con cinque sfondi illustrati nuovi, quasi tutti con Jason e Lucia, da scegliere tra gli sfondi della pagina di benvenuto.\n\nXbox: con gli «Event Backgrounds» Microsoft ha sostituito lo sfondo personalizzato con un'immagine di Jason e Lucia, attivata di default; molti si lamentano di una pubblicità forzata e Microsoft ha aperto un sondaggio per chiedere un parere sulla funzione. Per toglierla: Impostazioni › Personalizzazione › Il mio sfondo › togli la spunta agli sfondi a tema evento.\n\nCuriosità: per via dell'accordo di marketing con PlayStation, Xbox nelle sue comunicazioni festeggia il 19 novembre senza mai scrivere il nome del gioco.",
+      "topic": "community",
+      "outlet": "Push Square / IGN / Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
+      "relatedIds": [
+        "new-20261116-marchi-dr-xbox-kfc-subway-devolver"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.ign.com/articles/microsoft-polls-users-after-plastering-gta-6-artwork-over-xbox-custom-dashboard-backgrounds",
+        "https://www.eurogamer.net/xbox-cant-say-grand-theft-auto-6-marketing"
+      ]
+    },
+    {
+      "id": "new-20261119-gamestop-ceo-digitale",
+      "date": "2026-11-19",
+      "title": "Il capo di GameStop contro il gioco senza disco: «il digitale ha danneggiato i consumatori», ma le scatole con il codice si vendono",
+      "body": "Cosa ha detto: Ryan Cohen, amministratore delegato di GameStop, a Bloomberg: un gioco comprato si dovrebbe poter rivendere, scambiare o prestare, e il passaggio al solo digitale ha fatto male ai giocatori e alla sua azienda. Senza nominare GTA VI, ma il giorno della sua uscita; due giorni prima aveva scritto sui social «GTA. Su disco. In una custodia».\n\nIl contesto: anche l'edizione in scatola di GTA VI contiene solo un codice da riscattare. Cohen ammette comunque che «ne vendiamo tanto». L'usato vale circa un quinto dei ricavi di GameStop.",
+      "topic": "business",
+      "outlet": "Kotaku / Bloomberg",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gamestop-ceo-criticizes-digital-only-games-gta-6-releases-without-a-disc-2000758233",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-burger-king-heartwhopper",
+      "date": "2026-11-19",
+      "title": "Burger King Belgio risponde a Burger Shot con lo «HeartWhopper» da sette hamburger, ma si vince solo con un concorso",
+      "body": "Cosa è: un Whopper con sette strati di carne, ispirato al «Heart Stopper», il panino di Burger Shot reso famoso dalle pubblicità radio di GTA IV («credo che il mio cuore si sia appena fermato»). Burger Shot è da sempre la parodia di Burger King nella serie.\n\nCome si ha: non è nel menu. Per due settimane Burger King Belgio ne regala uno al giorno a chi pubblica sui social un video mentre mangia un panino al Burger Shot del gioco. Non è un'iniziativa di Rockstar.",
+      "topic": "community",
+      "outlet": "IGN / Dexerto",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/burger-king-parodies-gtas-heart-stopper-burger-with-real-life-7-patty-heartwhopper",
+      "relatedIds": [
+        "new-20261112-popeyes-kick-promozioni",
+        "brd-burger-shot"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.dexerto.com/entertainment/burger-king-brings-gta-inspired-burger-to-life-with-massive-7-patty-whopper-3429710/"
+      ]
+    },
+    {
+      "id": "new-20261119-niente-freccette",
+      "date": "2026-11-19",
+      "title": "Perché non ci sono le freccette né il bowling: Rockstar dice che non avrebbe fatto in tempo a farli bene",
+      "body": "Cosa dice Rob Nelson, co-direttore di Rockstar North: le freccette erano nei due GTA precedenti, ma «non abbiamo tempo illimitato, nemmeno noi», e invece di un minigioco fatto male hanno preferito lasciarlo fuori. Da Red Dead Redemption 2 i minigiochi sono diventati «attività» che usano gli stessi comandi del resto del gioco.\n\nGli esempi: il biliardo ha una fisica vera ed è un gioco completo; il sollevamento pesi imita il movimento invece di chiedere di premere un tasto; a basket non si fanno partite intere, ma si corre e si tira in modo fluido.",
+      "topic": "gameplay",
+      "outlet": "VGC",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.videogameschronicle.com/news/rockstar-explains-why-you-cant-play-darts-in-gta-6-we-dont-have-unlimited-time/",
+      "relatedIds": [
+        "new-20261118-casino-chiusi-niente-siti"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-streamer-11-ore-perse",
+      "date": "2026-11-19",
+      "title": "Uno streamer perde 11 ore di gioco spegnendo la PS5 per sbaglio: il consiglio è salvare a mano, in più slot",
+      "body": "Cosa è successo: JasonTheWeen, 1,3 milioni di iscritti su YouTube, durante una maratona in diretta ha spento la console per errore e ha perso tutti i progressi, un intero capitolo; poco dopo, sempre in diretta, la polizia è arrivata a casa sua per una chiamata falsa (swatting). Ha chiesto aiuto a Rockstar e Sony, finora senza risposta.\n\nPerché può succedere: il gioco salva da solo alla fine delle missioni; se spegni la console proprio mentre salva, il file si può rovinare. Il consiglio di IGN: salva anche a mano, usando più dei 15 slot disponibili, e non spegnere mentre compare l'icona di salvataggio.",
+      "topic": "community",
+      "outlet": "IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/streamer-loses-11-hours-of-gta-6-progress-gets-swatted-immediately-afterwards",
+      "relatedIds": [
+        "new-20261118-missioni-niente-rigioco"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-furry-fuorilegge",
+      "date": "2026-11-19",
+      "title": "Satira alla Rockstar: a Leonida essere furry è vietato, e di notte puoi aiutarne uno a scappare dalla polizia",
+      "body": "Cosa hanno trovato i giocatori: in TV passa lo spot dell'«Anti-Furry Association», che invita a denunciare chi scrive «uwu» o «rawr xD»; su un giornale del gioco si legge che il governatore ha dichiarato Leonida «libera dai furry», e un gruppo segreto, i Furverts, si organizza di nascosto.\n\nL'incontro casuale: di notte può capitare un uomo in costume da volpe inseguito da un elicottero della polizia. Il recensore di CNET, con Lucia, ha forzato il posto di blocco, l'ha liberato e l'ha accompagnato con gli altri fino a un rifugio; a quello di GQ è capitato di vederlo arrestare. Non si sa se si possa comprare un costume per Jason o Lucia.",
+      "topic": "gameplay",
+      "outlet": "Dexerto / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.dexerto.com/gta/gta-6-outlaws-furries-and-lets-you-help-them-escape-the-cops-3429724/",
+      "relatedIds": [
+        "brd-anti-furry-association"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/furries-are-outlawed-in-gta-6-and-form-an-underground-furverts-group-but-you-can-still-help-them-escape-the-cops/"
+      ]
+    },
+    {
+      "id": "new-20261119-caviar-fold8-ocean-drive",
+      "date": "2026-11-19",
+      "title": "Caviar fa un Galaxy Z Fold8 placcato d'oro ispirato a GTA VI: da 11.560 dollari, e non è un prodotto ufficiale",
+      "body": "Cosa è: il marchio russo di lusso Caviar presenta il Galaxy Z Fold8 «Ocean Drive», placcato in oro 24 carati, con motivi ispirati agli hotel Art Déco di Ocean Drive a Miami e al centro il simbolo delle sei stelle del livello di ricercato.\n\nPrezzi: 11.560 dollari da 256 GB, 11.920 da 512 GB, 12.270 da 1 TB. Rockstar non è citata: non risulta una licenza ufficiale.",
+      "topic": "community",
+      "outlet": "Multiplayer.it / Android Authority",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://multiplayer.it/notizie/caviar-presenta-il-galaxy-z-fold8-edizione-gta-vi-oro-24-carati-e-prezzo-esorbitante.html",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-hollywood-red-dead",
+      "date": "2026-11-19",
+      "title": "Film o serie TV: secondo The Ankler Rockstar dice no a Hollywood per GTA, ma è più aperta su Red Dead Redemption",
+      "body": "La voce: il sito di cinema The Ankler scrive, citando fonti anonime, che Rockstar continua a rifiutare gli adattamenti di GTA ma sarebbe più disponibile per Red Dead Redemption, chiedendo oltre 100 milioni di dollari solo per i diritti.\n\nDa sapere: nessuna conferma di Rockstar o Take-Two, né trattative note. Uno sceneggiatore sentito dal sito osserva che i giochi guadagnano molto più di quanto potrebbe rendere un film.",
+      "topic": "business",
+      "outlet": "The Ankler / Multiplayer.it",
+      "source": "rumor",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://multiplayer.it/notizie/rockstar-games-potrebbe-aprire-a-hollywood-ma-con-red-dead-redemption-e-non-con-gta.html",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-sviluppatore-paura-licenziamenti",
+      "date": "2026-11-19",
+      "title": "Un programmatore di Rockstar North sul Guardian: «anche noi, con il gioco più grande di sempre, temiamo i licenziamenti»",
+      "body": "Cosa scrive: Nestor Uriarte, programmatore delle animazioni a Rockstar North, dice che dopo l'uscita non ci sono segnali di tagli in arrivo, ma che nel settore nessuno si sente al sicuro finché i lavoratori non si organizzano. Invita i colleghi a votare sì al sindacato.\n\nIl contesto: i 1.600 dipendenti di Rockstar nel Regno Unito votano fino al 26 novembre per riconoscere il Rockstar Games Workers Union; la sentenza sui 34 licenziati del 2025 arriverà tra settimane. Nel 2026, secondo i conteggi di settore, nei videogiochi hanno perso il lavoro più di 12.000 persone.",
+      "topic": "business",
+      "outlet": "The Guardian / Eurogamer / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-rockstar-developers-layoffs-worries",
+      "relatedIds": [
+        "new-20261118-rockstar-tribunale-sindacato"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
       "id": "new-20261119-vendite-17-milioni-stime",
       "date": "2026-11-19",
       "title": "Vendite: oltre 17 milioni di copie e circa 1,65 miliardi di dollari già al lancio, secondo le stime; tre su quattro su PlayStation",
@@ -550,7 +764,7 @@
       "id": "new-20261118-ps5-pro-mai-60-fps",
       "date": "2026-11-18",
       "title": "Rockstar: i 60 fps non arriveranno mai su PS5 Pro, il processore «non è abbastanza potente»; la Series S parte da 720p",
-      "body": "Cosa dice Rockstar: Marc Chambers, direttore della produzione tecnologica, spiega che la grafica di base usa riflessi e illuminazione globale in ray tracing; su PS5 Pro si aggiungono le ombre in ray tracing e l'upscaling PSSR. La GPU della Pro aiuta l'immagine, ma il processore è solo un po' migliore di quello della PS5 e «non è abbastanza potente» per far girare la simulazione del mondo a 60 fotogrammi al secondo. Niente 60 né 40 fps nemmeno con un aggiornamento futuro, su queste console.\n\nLe risoluzioni: PS5, PS5 Pro e Xbox Series X partono da 1440p; PS5 e Series X usano l'antialiasing temporale di Rockstar, la Pro il PSSR 2.0. La Series S parte da 720p e sale a 1080p con l'FSR 4.1 di AMD: l'immagine è più seghettata sui bordi lontani e sui capelli, con qualche calo verso i 25 fps.\n\nDigital Foundry: nell'analisi uscita con le recensioni parla di un risultato che ridefinisce una generazione di console; l'HDR supera i 1.500 nit, i capelli di tutti i personaggi sono simulati ciocca per ciocca e sulla PS5 base, nelle esplosioni più grandi, si scende verso i 25 fps.",
+      "body": "Cosa dice Rockstar: Marc Chambers, direttore della produzione tecnologica, spiega che la grafica di base usa riflessi e illuminazione globale in ray tracing; su PS5 Pro si aggiungono le ombre in ray tracing e l'upscaling PSSR. La GPU della Pro aiuta l'immagine, ma il processore è solo un po' migliore di quello della PS5 e «non è abbastanza potente» per far girare la simulazione del mondo a 60 fotogrammi al secondo. Niente 60 né 40 fps nemmeno con un aggiornamento futuro, su queste console.\n\nLe risoluzioni: PS5, PS5 Pro e Xbox Series X partono da 1440p; PS5 e Series X usano l'antialiasing temporale di Rockstar, la Pro il PSSR 2.0. La Series S parte da 720p e sale a 1080p con l'FSR 4.1 di AMD: l'immagine è più seghettata sui bordi lontani e sui capelli, ed è la versione che soffre di più: Digital Foundry la misura intorno ai 25 fps in sparatorie e inseguimenti e verso i 20 nel caos più pesante (per qualche secondo anche 18-19).\n\nDigital Foundry: nell'analisi uscita con le recensioni parla di un risultato che ridefinisce una generazione di console; l'HDR supera i 1.500 nit, i capelli di tutti i personaggi sono simulati ciocca per ciocca e sulla PS5 base, nelle esplosioni più grandi, si scende verso i 25 fps.",
       "topic": "tecnica",
       "outlet": "Kotaku / IGN / Digital Foundry",
       "source": "trailer",
@@ -560,10 +774,14 @@
       "sourceUrl": "https://kotaku.com/gta-6-wont-get-a-60-fps-mode-even-on-ps5-pro-because-its-not-powerful-enough-2000755979",
       "relatedIds": [
         "new-20261117-digital-foundry-30-fps",
-        "new-20261103-60fps"
+        "new-20261103-60fps",
+        "new-20261119-digital-foundry-classifica-vrr"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096"
+      ]
     },
     {
       "id": "new-20261118-record-streaming-6-milioni",
@@ -5896,19 +6114,25 @@
     {
       "id": "new-20261106-travis-scott-mostra-le-nike-air-force-1-",
       "date": "2026-11-06",
-      "title": "Travis Scott mostra le Nike Air Force 1 Low «GTA VI» Multicolor; le altre due a 130 $ dal 19 novembre (non ufficiale)",
-      "body": "Travis Scott ha pubblicato sui social le foto della versione Multicolor delle Air Force 1 Low nate dalla collaborazione Cactus Jack x Rockstar Games x Nike, in rosa, nero e bianco, con fascetta portasoldi brandizzata GTA e stelle sulla suola. Dai listini dei rivenditori: le colorazioni Black/Fire Pink (JJ7604-001) e White/Fire Pink (JJ7602-100) sono attese il 19 novembre a 130 dollari via SNKRS e negozi selezionati; la Multicolor (JJ7603-900) sarebbe riservata a friends & family e pochi altri. Né Nike né Rockstar hanno annunciato ufficialmente la collezione.",
+      "title": "Le Nike Air Force 1 Low «GTA VI» di Travis Scott: la data passa al 21 novembre su SNKRS, 130 $ (non ufficiale)",
+      "body": "Le scarpe: tre Air Force 1 Low della collaborazione Cactus Jack x Rockstar Games x Nike, in rosa, nero e bianco, con fascetta portasoldi a tema GTA e stelle sulla suola. Travis Scott ha mostrato sui social la versione Multicolor (JJ7603-900), che non andrà in vendita: la regala lui ad amici e collaboratori.\n\nLe date, aggiornate: i listini davano il 19 novembre, giorno dell'uscita del gioco, ma secondo i siti di sneaker la Black/Fire Pink (JJ7604-001) e la White/Fire Pink (JJ7602-100) escono sabato 21 su Nike SNKRS a 130 dollari, con un'anteprima da Selfridges a Londra venerdì 20 e altri modelli esclusivi su cactusjack.com lunedì 23. Lo stesso 21 esce anche una linea di abbigliamento Nike x GTA VI di Travis Scott (dalle 10 di New York, le 16 italiane).\n\nDa sapere: né Nike né Rockstar hanno annunciato ufficialmente prezzi e date.",
       "topic": "community",
-      "outlet": "Everyeye",
+      "outlet": "Everyeye / Sneaker News / Sole Retriever",
       "source": "rumor",
       "status": "da verificare",
       "sourceUrl": "https://www.everyeye.it/notizie/travis-scott-mostra-foto-spettacolari-nike-air-force-1-low-gta-6-910153.html",
-      "relatedIds": [],
+      "relatedIds": [
+        "new-20261118-festival-orari-beneficenza"
+      ],
       "image": null,
       "imageUrl": "https://images.everyeye.it/img-screenshot/gta-6-v1-943773-640.webp",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://sneakernews.com/2026/11/17/travis-scott-nike-air-force-1-low-gta-6/",
+        "https://www.soleretriever.com/news/articles/travis-scott-nike-gta-6-clothing-capsule-release-date-november-2026"
+      ]
     },
     {
       "id": "new-20261106-primo-sconto-black-friday-best-buy-d-50-",

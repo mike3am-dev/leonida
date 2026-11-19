@@ -818,7 +818,7 @@
       "id": "tip-prime-10",
       "category": "prima-ora",
       "title": "Le prime 10 cose da fare",
-      "body": "1. Prima di partire, nelle impostazioni: schema dei comandi (lo scatto ora è su L3, c'è anche il classico), tipo di mira e, se vuoi, voce del navigatore e icone più grandi.\n\n2. A casa di Jason sistema la camera (cartongesso e pittura: a Lucia fa piacere), appendi il sacco sotto casa e fai pesi in terrazza.\n\n3. Dai da mangiare al serpente Dolores e sfoglia libri e riviste di casa: alzano il Focus e contano per i collezionabili.\n\n4. Salva a mano (pausa › Gioco): 15 slot e niente replay delle missioni. Tieni un salvataggio all'inizio e alla fine di ogni capitolo.\n\n5. Finché non hai il conto in banca, nascondi i contanti sotto le assi del pavimento della camera: se muori o ti arrestano perdi quelli in tasca. Poi versali al bancomat.\n\n6. Appena hai WAiNK scansiona auto, barche e aerei (tieni premuto su sulla croce); gli animali li studi col binocolo. Per il 100% ne servono 200 e 100: cominciare subito fa risparmiare ore.\n\n7. Mangia e bevi prima di uscire: salute, resistenza e Focus partono più alti. Puoi farlo anche camminando o guidando.\n\n8. Accarezza cani e gatti (L2) e butta la spazzatura nel cestino: alzano il Focus e il profilo criminale.\n\n9. Tieni un cambio d'abiti nel bagagliaio: cambiarsi è il modo più rapido per far perdere le tue tracce alla polizia.\n\n10. Fai gli incarichi facoltativi appena compaiono (bolle nere con lettere rosa o icone viola): alcuni spariscono andando avanti, e per il 100% ne servono 100.",
+      "body": "1. Prima di partire, nelle impostazioni: schema dei comandi (lo scatto ora è su L3, c'è anche il classico), tipo di mira e, se vuoi, voce del navigatore e icone più grandi.\n\n2. Prima che Lucia torni a casa fai i lavori di casa di Jason (icona del pennello): scale, tetto, parete e pittura della camera, ringhiera della terrazza. Dopo non si possono più fare, e finiti tutti fanno partire la relazione molto più in alto. Poi appendi il sacco sotto casa e fai pesi in terrazza.\n\n3. Dai da mangiare al serpente Dolores e sfoglia libri e riviste di casa: alzano il Focus e contano per i collezionabili.\n\n4. Salva a mano (pausa › Gioco): 15 slot e niente replay delle missioni. Tieni un salvataggio all'inizio e alla fine di ogni capitolo, e salva circa ogni mezz'ora: quello automatico è poco affidabile. Non spegnere la console mentre il gioco salva.\n\n5. Finché non hai il conto in banca, nascondi i contanti sotto le assi del pavimento della camera: se muori o ti arrestano perdi quelli in tasca. Poi versali al bancomat, ma tieni sempre qualche centinaio di dollari addosso: taxi e diversi incontri per strada vogliono contanti.\n\n6. Appena hai WAiNK scansiona auto, barche e aerei (tieni premuto su sulla croce); gli animali li studi col binocolo. Per il 100% ne servono 200 e 100: cominciare subito fa risparmiare ore.\n\n7. Mangia e bevi prima di uscire: salute, resistenza e Focus partono più alti. Puoi farlo anche camminando o guidando.\n\n8. Accarezza cani e gatti (L2) e butta la spazzatura nel cestino: alzano il Focus e il profilo criminale.\n\n9. Tieni un cambio d'abiti nel bagagliaio: cambiarsi è il modo più rapido per far perdere le tue tracce alla polizia.\n\n10. Fai gli incarichi facoltativi appena compaiono (bolle nere con lettere rosa o icone viola): alcuni spariscono andando avanti, e per il 100% ne servono 100.",
       "priority": 1,
       "status": "da verificare",
       "source": "stampa",
@@ -829,12 +829,16 @@
         "https://www.powerpyx.com/gta-6-how-to-save/",
         "https://www.powerpyx.com/gta-6-how-to-study-animals-scan-vehicles/",
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
+        "https://www.videogameschronicle.com/guide/gta-6-jasons-house-how-to-fix-all-projects-around-jasons-house/",
+        "https://www.eurogamer.net/gta-6-home-improvements",
+        "https://insider-gaming.com/gta-6-auto-save-how-to-save-game-wipe-issues/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bank-cash/"
       ],
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "tip-salva-capitoli",
@@ -926,7 +930,7 @@
       "id": "tip-ripara-pompa",
       "category": "guida",
       "title": "Ripara alla pompa, ma solo i danni leggeri",
-      "body": "Alla pompa del distributore (premi X) fai il pieno e puoi riparare auto e moto, ma solo i danni leggeri: per Kotaku costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray o di un'officina, dove vai comunque se il motore è in rosso. Il gioco ti avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino; nel test di Kotaku un vecchio pick-up resta a secco dopo circa mezz'ora di guida.",
+      "body": "Alla pompa del distributore (premi X) fai il pieno e puoi riparare auto e moto, ma solo i danni leggeri; il prezzo dipende da quanto è rovinata (PC Gamer). Per Kotaku costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray o di un'officina, dove vai comunque se il motore è in rosso. Il gioco ti avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino; nel test di Kotaku un vecchio pick-up resta a secco dopo circa mezz'ora di guida.",
       "priority": 10,
       "status": "da verificare",
       "source": "stampa",
@@ -934,7 +938,8 @@
       "moreSources": [
         "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-repair-car-bike-how-to/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-refuel-repair-cars/"
       ],
       "spoilerLevel": 0,
       "image": null,
@@ -1173,6 +1178,21 @@
       "moreSources": [
         "https://www.youtube.com/watch?v=KPmMFfUvslg"
       ],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-segreto-monumento-stelle",
+      "category": "esplorazione",
+      "title": "Strani segni sul monumento di Manifest Canyon",
+      "body": "A Manifest Canyon, a nord di Port Gellhorn, c'è il Monument of Leonidan Supremacy, una delle sculture da scansionare con WAiNK. Guarda le teste dei cavalli: portano sculture di metallo che sembrano mappe di stelle. Le ha notate un giocatore su Reddit e IGN si chiede se siano il primo indizio di un mistero lungo, come quello del Monte Chiliad in GTA V. Per ora è solo un'ipotesi: nessuno ha capito a cosa portino. Su uno dei cavalli c'è anche un cono stradale, come sulla statua di Wellington davanti alla Gallery of Modern Art di Glasgow: un saluto alla Scozia, casa di Rockstar North.",
+      "priority": 50,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/articles/gta-6-mount-chiliad-mystery",
+      "moreSources": [],
       "image": null,
       "spoilerLevel": 0,
       "example": false,

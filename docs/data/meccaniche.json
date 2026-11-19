@@ -61,6 +61,14 @@
         {
           "source": "stampa",
           "text": "Appena cambi personaggio, quello che lasci a volte chiama un RydeMe e se ne va: per qualche istante il cambio può restare grigio."
+        },
+        {
+          "source": "stampa",
+          "text": "Jason e Lucia hanno le stesse capacità: velocità, forza, guida e mira sono uguali, e non c'è un'abilità speciale come in GTA V. Cambiano le statistiche da allenare, i vestiti e le missioni di ciascuno (TheGamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per TheGamer il capitolo 2 si gioca prima con la sola Lucia e il controllo libero di tutti e due arriva verso la fine del capitolo; altre guide dicono a metà."
         }
       ],
       "relatedIds": [
@@ -77,7 +85,9 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "moreSources": [
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/",
+        "https://www.thegamer.com/gta-6-how-to-unlock-play-as-lucia-chapter-story-mode-progression-guide/",
+        "https://www.eurogamer.net/how-to-switch-between-jason-lucia-gta-6"
       ]
     },
     {
@@ -117,6 +127,10 @@
         {
           "title": "Quando si sblocca",
           "text": "Da subito, nel capitolo 1, anche se con Lucia giochi davvero solo dal capitolo 2: da lì il rapporto lo costruiscono tutti e due."
+        },
+        {
+          "title": "Se la trascuri",
+          "text": "Se Jason e Lucia restano lontani a lungo diventano distanti: perdi dialoghi e alcune opzioni nelle missioni, e al gradino più basso partono scene apposta. Il gioco ti avvisa prima, non si lasciano mai del tutto e dal fondo bastano pochi gesti per risalire. In un punto della storia il livello scende di un gradino per copione: si recupera in fretta (VGC)."
         }
       ],
       "tips": [
@@ -125,7 +139,11 @@
         "In auto uno guida e l'altro usa il telefono: anche i giri in macchina contano.",
         "Lo zoo è un appuntamento comodo dentro Vice City.",
         "Dopo una giornata passata insieme sulla mappa compare un cuoricino sul rifugio, o è il partner a proporlo: è il momento di tornare a casa a dormire insieme.",
-        "Quando siete vicini, tieni premuto L2 sul partner: parlate e puoi passargli quello che hai in mano, come cibo e bevande."
+        "Quando siete vicini, tieni premuto L2 sul partner: parlate e puoi passargli quello che hai in mano, come cibo e bevande.",
+        "Nel capitolo 1, prima che Lucia torni a casa, finisci i lavori di casa e prepara quello che ti chiede: la relazione parte molto più in alto e il ritorno a casa cambia.",
+        "Quando siete lontani, tieni premuto destra sulla croce o apri WhatUp per un rapido messaggio di «check in»; quando siete vicini, a volte L2 offre di farlo di persona.",
+        "Resta fedele: nei locali non ballare con altre donne e non dare corda a chi ci prova con Jason (Eurogamer).",
+        "Quando compare un cuore rosa vicino al partner, prendilo: e fallo con tutti e due, perché il gradino più alto chiede gesti da entrambi."
       ],
       "extras": [
         {
@@ -154,7 +172,7 @@
         },
         {
           "source": "stampa",
-          "text": "Insider Gaming chiama il secondo livello «Not So Hot» invece di «Partners in Crime»."
+          "text": "Anche VGC conferma i quattro nomi, con «Partners in Crime» al secondo gradino (Insider Gaming lo chiamava «Not So Hot»)."
         },
         {
           "source": "stampa",
@@ -177,7 +195,10 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "moreSources": [
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/",
+        "https://www.videogameschronicle.com/guide/gta-6-jason-lucia-relationship-levels-explained-how-to-improve-jason-and-lucias-relationship/",
+        "https://www.eurogamer.net/how-to-increase-relationship-gta-6",
+        "https://www.eurogamer.net/gta-6-home-improvements"
       ]
     },
     {
@@ -427,6 +448,14 @@
         {
           "source": "stampa",
           "text": "Gli abiti comprati li indossi dall'armadio di casa, dai camerini dei negozi o dal bagagliaio; gli outfit salvati sono al massimo 15."
+        },
+        {
+          "source": "stampa",
+          "text": "I tatuaggi si aprono finito il prologo: il primo studio, The Inked Mermaid, è poco a est di casa di Jason (sulla mappa un cuore attraversato da una barra). Alcuni tatuaggi, segnati da una linea rossa, e alcuni studi chiedono il conto in banca (GameRant)."
+        },
+        {
+          "source": "stampa",
+          "text": "In negozio, sotto il prezzo, il gioco ti dice se quel capo cancella uno degli indizi della polizia. Aspetto (capelli, barba, cappello, occhiali) e vestiti sono due indizi separati: cambiane uno solo e ti riconoscono ancora. Le bandane si comprano all'Ammu-Nation (Eurogamer)."
         }
       ],
       "relatedIds": [
@@ -444,12 +473,14 @@
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
         "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
         "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/",
-        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://gamerant.com/gta-6-how-get-tattoo-piercings-shop-bank-account/",
+        "https://www.eurogamer.net/how-to-change-your-appearance-gta-6"
       ]
     },
     {
@@ -496,6 +527,10 @@
         {
           "title": "Quando si sblocca",
           "text": "La casa di Jason a Key Lento è tua dalla prima missione. Gli altri rifugi arrivano con la storia; i garage si comprano dal capitolo 2."
+        },
+        {
+          "title": "I lavori di casa di Jason",
+          "text": "Sono cinque, segnati dall'icona del pennello: le scale d'ingresso (le ripari per forza, per entrare in casa), il tetto che perde (sali dalla scala accanto alla porta), la parete della camera e poi la sua pittura (tre colori, cambia solo l'aspetto) e la ringhiera della terrazza, che si ripara dal ponte di sotto, dove c'è la palestra, guardando verso la casa. Si fanno a qualsiasi ora, ma solo finché Lucia non esce di prigione: finiti tutti, il suo ritorno a casa è più romantico e la relazione parte molto più in alto."
         }
       ],
       "tips": [
@@ -521,6 +556,10 @@
         {
           "source": "stampa",
           "text": "Su PS5 i salvataggi su cloud passano da PS Plus; non c'è progressione condivisa tra piattaforme."
+        },
+        {
+          "source": "stampa",
+          "text": "Per Eurogamer solo alcuni garage hanno l'armadietto delle armi, non tutti; la mappa degli Ammu-Nation dice quali negozi ce l'hanno."
         }
       ],
       "relatedIds": [
@@ -543,7 +582,11 @@
         "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
         "https://www.powerpyx.com/gta-6-how-to-skip-time/",
         "https://www.powerpyx.com/gta-6-all-garage-locations/",
-        "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee"
+        "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee",
+        "https://www.eurogamer.net/gta-6-home-improvements",
+        "https://www.videogameschronicle.com/guide/gta-6-jasons-house-how-to-fix-all-projects-around-jasons-house/",
+        "https://www.gamesradar.com/games/grand-theft-auto/how-to-fix-the-railing-in-gta-6/",
+        "https://www.eurogamer.net/how-to-unlock-garages-gta-6"
       ]
     },
     {
@@ -669,7 +712,7 @@
       "details": [
         {
           "title": "Cosa dicono le stelle",
-          "text": "Le stelle arrivano a sei. Se sono piene, ti vedono; se sono vuote, il crimine è segnalato ma non sanno chi sei; se sono rosse, sei fuggito ma sei ancora dentro l'area di ricerca."
+          "text": "Le stelle arrivano a sei: il numero dice quanto è grave, il colore cosa fa la polizia. Grigie piene: gli agenti stanno arrivando sul posto, e se scappi subito li eviti. Vuote: il crimine è segnalato ma non sanno chi sei. Bianche piene: ti vedono e ti inseguono. Lampeggianti: ti hanno perso di vista. Rosse: sei fuggito, ma nella zona hai ancora «calore». Nere col bordo rosso: non hanno più la tua descrizione, ma lì continuano a cercare."
         },
         {
           "title": "Il Profilo criminale",
@@ -728,6 +771,14 @@
         {
           "source": "stampa",
           "text": "Il telefono di Jason e Lucia ha un'app scanner della polizia: per questo sentono le comunicazioni radio, e i due commentano quando hanno segnalato la loro auto o i vestiti."
+        },
+        {
+          "source": "stampa",
+          "text": "Seguendo la storia non arrivi mai a sei stelle: al massimo cinque in qualche missione (IGN, GamesRadar). Il trucco che alza il livello di ricercato si ferma a cinque."
+        },
+        {
+          "source": "stampa",
+          "text": "Le zone calde sono segnate in rosso su mappa e minimappa: selezionandone una vedi quali indizi ha la polizia lì. Se il crimine l'ha commesso solo Jason, Lucia ci passa senza problemi, e viceversa (Eurogamer)."
         }
       ],
       "relatedIds": [
@@ -757,7 +808,11 @@
         "https://www.gamespot.com/articles/the-gta-6-police-dont-have-equal-response-times-for-all-crimes/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/",
         "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.eurogamer.net/gta-6-heat-wanted-level",
+        "https://www.eurogamer.net/how-lose-heat-gta-6",
+        "https://www.ign.com/articles/you-have-to-become-a-complete-psychopath-to-get-a-6-star-wanted-level-in-gta-6",
+        "https://www.gamesradar.com/games/grand-theft-auto/how-to-get-a-six-star-wanted-level-gta-6/"
       ]
     },
     {
@@ -937,7 +992,7 @@
       "tips": [
         "Prima di una sparatoria prevista, passa dal bagagliaio: là dentro hai tutto.",
         "Un'arma in spalla la gente la tollera; imbracciata fa scappare o chiamare la polizia.",
-        "Nelle volanti ci sono fucili e giubbotti nel bagagliaio.",
+        "Nel bagagliaio delle volanti trovi spesso fucili d'assalto, fucili a pompa o un giubbotto. I pick-up della polizia (come il Bravado Bison) hanno una cassa sul cassone che apri senza allarme; il bagagliaio di una volante invece suona: con lo slim jim (dal capitolo 2) apri prima la portiera e il bagagliaio si sblocca, senza lo forzi col cacciavite e scatta l'allarme. Meglio le volanti vuote, per esempio parcheggiate davanti a una stazione di polizia.",
         "Parcheggia l'auto personale vicino al bersaglio: è il tuo armadio.",
         "Le varianti uniche si riconoscono da un'icona dorata a forma di pistola sulla minimappa: stanno soprattutto nei covi delle bande e in posti speciali.",
         "Rifornisci spesso il giubbotto antiproiettile: aumenta parecchio la sopravvivenza. Munizioni ed esplosivi per le casseforti si comprano all'Ammu-Nation."
@@ -970,6 +1025,10 @@
         {
           "source": "stampa",
           "text": "In sicurezza porti due armi corte e una lunga in spalla: se equipaggi una seconda arma lunga la tieni in mano, e gente e polizia reagiscono."
+        },
+        {
+          "source": "stampa",
+          "text": "Alcune armi speciali dell'Ammu-Nation si comprano solo se hai il conto in banca, che arriva a metà del capitolo 1 (Eurogamer, PC Gamer)."
         }
       ],
       "relatedIds": [
@@ -1001,7 +1060,10 @@
         "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-manage-loadout/",
         "https://www.gamesradar.com/games/grand-theft-auto/how-to-remove-guns-from-trunk-recover-weapons-ammu-nation-gta-6/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-free-guns-cop-cars/",
+        "https://www.eurogamer.net/gta-6-get-a-bank-account-walkthrough",
+        "https://www.eurogamer.net/how-to-use-storage-gta-6"
       ]
     },
     {
@@ -1135,10 +1197,10 @@
       "emoji": "💵",
       "short": "I soldi servono davvero: alcune missioni della storia si aprono solo quando Jason e Lucia ne hanno abbastanza. Li fai con rapine, furti d'auto su commissione e refurtiva venduta ai ricettatori.",
       "steps": [
-        "Tieni d'occhio il saldo nell'app BuckMe, che arriva verso metà del capitolo 1 con 100 $ di benvenuto. Per GamesRadar Jason e Lucia hanno ciascuno il proprio conto corrente; il risparmio Family Savings invece è in comune.",
+        "Tieni d'occhio il saldo nell'app BuckMe, che arriva verso metà del capitolo 1 con 100 $ di benvenuto. Per GamesRadar Jason e Lucia hanno ciascuno il proprio conto corrente; il risparmio Family Savings invece è in comune (lo dice anche PC Gamer).",
         "Prima di BuckMe nascondi i contanti sotto le assi del pavimento della camera di Jason: se muori o ti arrestano perdi quelli che hai in tasca.",
         "Versa i contanti a un bancomat: in BuckMe, in fondo, «ATM Finder» ti segna il più vicino (li trovi anche nell'indice della mappa, scheda Personale). Al bancomat premi Triangolo: versi o prelevi fino a 20.000 $ alla volta.",
-        "Sotto i 1.000 $ paghi in contanti; da 1.000 $ in su, o se in tasca hai zero, paga BuckMe. Girare con i contanti non serve.",
+        "Sotto i 1.000 $ paghi in contanti; da 1.000 $ in su, o se in tasca hai zero, paga BuckMe. Tieni comunque qualche centinaio di dollari in tasca: il taxi, alcuni venditori, qualche mancia per entrare dove non si potrebbe e diversi incontri per strada vogliono solo contanti.",
         "Quando la storia chiede soldi, rapina: minimarket, distributori e gioiellerie sono i bersagli più rapidi.",
         "Ruba le auto richieste dai ricettatori, elencate in WAiNK, e consegnale intatte.",
         "La refurtiva non è denaro finché non la vendi: portala a un ricettatore.",
@@ -1168,7 +1230,7 @@
         },
         {
           "title": "Quando si sblocca",
-          "text": "Contanti da subito; BuckMe e bancomat da metà del capitolo 1. Prima di allora i ricettatori pagano in contanti, che arrivano dopo un po' nella cassetta della posta di casa di Jason."
+          "text": "Contanti da subito; BuckMe e bancomat da metà del capitolo 1. Prima di allora i ricettatori pagano in contanti, che arrivano dopo un po' nella cassetta della posta di casa di Jason. Il conto in banca sblocca anche alcune armi speciali dell'Ammu-Nation (Eurogamer, PC Gamer) e certi tatuaggi e negozi, che senza conto non compri (GameRant)."
         }
       ],
       "tips": [
@@ -1203,6 +1265,14 @@
         {
           "source": "stampa",
           "text": "Versare soldi nel Family Savings fa piacere al partner e conta per la relazione; secondo GamesRadar il risparmio cambia anche alcuni dialoghi tra i due e conta per la storia."
+        },
+        {
+          "source": "stampa",
+          "text": "Per PC Gamer, se muori o ti arrestano paghi una penale di qualche centinaio di dollari; altre guide parlano di tutti i contanti in tasca. In ogni caso versa spesso al bancomat."
+        },
+        {
+          "source": "stampa",
+          "text": "GamesRadar parla di un conto «BuckMe Premium» dal capitolo 3, con il 20% di sconto su RydeMe: probabilmente è lo stesso sconto del traguardo da 10.000 $ del Family Savings."
         }
       ],
       "relatedIds": [
@@ -1238,7 +1308,10 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-atm/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-family-savings/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bank-cash/",
+        "https://www.eurogamer.net/gta-6-get-a-bank-account-walkthrough",
+        "https://www.eurogamer.net/gta-6-money-making-methods"
       ]
     },
     {
@@ -1284,7 +1357,7 @@
         },
         {
           "title": "Quando arrivano le app",
-          "text": "Capitolo 1: Paradise Taxi tra i contatti (dopo la prima missione), il meccanico Joey, WAiNK e lo scanner della polizia (te li installa Cal), BuckMe a metà capitolo. RydeMe: arriva col conto in banca secondo VGC e GamesRadar, nel capitolo 2 secondo PowerPyx. Capitolo 2: Scooter Bros e, più avanti, Vice City Real Estate per i garage. Capitolo 3: il Key Cloner, che si installa nelle impostazioni del telefono."
+          "text": "Capitolo 1: Paradise Taxi tra i contatti (dopo la prima missione), il meccanico Joey, WAiNK e lo scanner della polizia (te li installa Cal), BuckMe a metà capitolo. RydeMe: dal capitolo 2 secondo PowerPyx e GamesRadar; per VGC arriva già con il conto in banca, a metà del capitolo 1. Capitolo 2: Scooter Bros e, più avanti, Vice City Real Estate per i garage. Capitolo 3: il Key Cloner, che si installa nelle impostazioni del telefono."
         },
         {
           "title": "Fotocamera e Photo Studio",
@@ -1317,6 +1390,10 @@
         {
           "source": "stampa",
           "text": "Niente siti web: Rockstar non li ha ritenuti necessari, e il telefono passa solo da app e social. Tra le app ci sono Snapmatic e RydeMe, e si ascoltano podcast."
+        },
+        {
+          "source": "stampa",
+          "text": "RydeMe si paga dal conto BuckMe, Paradise Taxi solo in contanti. In RydeMe scegli il rifugio, il punto segnato sulla mappa o una destinazione nuova; durante la corsa, con L2 sull'autista, paghi 100 $ in più per saltare il viaggio. Se il posto non è raggiungibile in auto, la corsa si annulla."
         }
       ],
       "relatedIds": [
@@ -1347,7 +1424,8 @@
         "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
         "https://gamerant.com/gta-6-how-change-phone-ringtone/",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-fast-travel/"
       ]
     },
     {
@@ -1368,7 +1446,7 @@
         "Scegli il mezzo in base al bottino: la moto non porta quasi nulla, auto, furgone e camion sempre di più.",
         "Registra un'auto rubata, pagando, per farla diventare tua; prima va tolto il localizzatore.",
         "Tieni premuto sinistra sulla croce per il menu del veicolo (luci, bagagliaio, capote); un tocco a sinistra o a destra mette la freccia. Il bagagliaio si chiude da solo quando riparti.",
-        "Alla pompa puoi anche riparare, ma solo i danni leggeri: per Kotaku costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray. Con il motore in rosso vai in officina."
+        "Alla pompa, nel menu Servizi, c'è anche Ripara: il prezzo dipende dai danni (PC Gamer). Per Kotaku ripara solo i danni leggeri e costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray. Con il motore in rosso vai in officina."
       ],
       "details": [
         {
@@ -1475,6 +1553,18 @@
         {
           "source": "stampa",
           "text": "Guidando puoi colpire chi passa aprendo di colpo la portiera, o con un calcio dalla moto."
+        },
+        {
+          "source": "stampa",
+          "text": "Al Pay 'n' Spray, dal menu, vendi l'auto con cui sei entrato; con R1 passi alla scheda dei veicoli in garage e li vendi anche tutti insieme. I soldi vanno su BuckMe, se il conto non è al tetto. Per un'auto di lusso un ricettatore paga di più (GamesRadar)."
+        },
+        {
+          "source": "stampa",
+          "text": "Scooter Bros costa circa 100 $ a consegna e ripara anche l'auto, a un prezzo che cresce col valore del veicolo (Eurogamer). Per il Premium Eurogamer scrive 12.000 $, PowerPyx 12.500 $."
+        },
+        {
+          "source": "stampa",
+          "text": "Da Moses la prima registrazione è gratis; prima di registrare l'auto va riverniciata, e serve un posto libero in garage (Eurogamer)."
         }
       ],
       "relatedIds": [
@@ -1512,7 +1602,11 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/",
         "https://gamerant.com/gta-6-how-honk-flip-people-off/",
         "https://insider-gaming.com/gta-6-control-settings/",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-refuel-repair-cars/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-cars-bikes-how-to/",
+        "https://www.eurogamer.net/how-to-summon-vehicles-gta-6",
+        "https://www.eurogamer.net/gta-6-register-cars"
       ]
     },
     {
@@ -1548,7 +1642,7 @@
         },
         {
           "title": "Viaggio rapido",
-          "text": "Non si viaggia dalla mappa. Dopo la prima missione chiami Paradise Taxi (telefono › Contatti › Tutti i contatti); più avanti arriva l'app RydeMe, più comoda, che fa pagare in base alla distanza. Metti un punto sulla mappa (va bene anche nelle zone ancora coperte), sali, parla con l'autista e paga 100 $ in più della corsa per saltare il viaggio. Poi ti fai portare l'auto con Scooter Bros."
+          "text": "Non si viaggia dalla mappa. Dopo la prima missione chiami Paradise Taxi (telefono › Contatti › Tutti i contatti), che accetta solo contanti; più avanti arriva l'app RydeMe, più comoda, che paga dal conto BuckMe e fa pagare in base alla distanza. Metti un punto sulla mappa (va bene anche nelle zone ancora coperte), sali, parla con l'autista e paga 100 $ in più della corsa per saltare il viaggio. Poi ti fai portare l'auto con Scooter Bros."
         },
         {
           "title": "Traghetto",
@@ -1556,7 +1650,7 @@
         },
         {
           "title": "Quando si sblocca",
-          "text": "Mezzi pubblici e taxi da subito. RydeMe arriva col conto in banca, a metà del capitolo 1, secondo VGC e GamesRadar; PowerPyx lo colloca nel capitolo 2."
+          "text": "Mezzi pubblici e taxi da subito. RydeMe dal capitolo 2 secondo PowerPyx e GamesRadar; VGC lo lega al conto in banca, a metà del capitolo 1."
         }
       ],
       "tips": [
@@ -1629,14 +1723,15 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/",
-        "https://insider-gaming.com/gta-6-control-settings/"
+        "https://insider-gaming.com/gta-6-control-settings/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-fast-travel/"
       ]
     },
     {
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-animali-caccia-pesca",
       "title": "Animali, caccia e pesca",
       "emoji": "🐊",
@@ -1678,7 +1773,8 @@
         "Studia, non sparare: il diario non chiede di uccidere niente.",
         "Accarezzare un cane o sfamare un randagio conta per il tuo Profilo criminale.",
         "Occhio all'acqua dolce e alle piscine nelle zone di palude: gli alligatori ci sono davvero.",
-        "La caccia rende soldi: utile quando la storia ti chiede contanti."
+        "La caccia rende soldi: utile quando la storia ti chiede contanti.",
+        "Con cani e gatti tieni premuto L2 e lodali qualche volta: poi compare l'opzione per accarezzarli (non sempre funziona). Un gatto da coccolare sta al Key Lento Mini Mart, vicino a casa di Jason (GamesRadar)."
       ],
       "extras": [
         {
@@ -1740,7 +1836,8 @@
         "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
         "https://www.powerpyx.com/gta-6-how-to-study-animals-scan-vehicles/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
-        "https://www.gamespot.com/articles/jason-loves-cats-in-gta-6-but-not-all-of-them/"
+        "https://www.gamespot.com/articles/jason-loves-cats-in-gta-6-but-not-all-of-them/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pet-animals/"
       ]
     },
     {
@@ -2346,7 +2443,9 @@
       ],
       "tips": [
         "Nelle sessioni lunghe, per esempio mentre voli per togliere la nebbia dalla mappa, salva a mano spesso: il salvataggio automatico scatta di rado.",
-        "Su PS5 i salvataggi su cloud passano da PS Plus."
+        "Su PS5 i salvataggi su cloud passano da PS Plus.",
+        "Il salvataggio automatico scatta dopo le missioni, quando muori o ti arrestano, dopo un incontro importante e quando dormi, ma non è affidabile: Insider Gaming ha perso progressi più di una volta. Salva a mano circa ogni mezz'ora.",
+        "Non spegnere la console mentre il gioco salva: un salvataggio interrotto può rovinarsi. Per IGN è così che uno streamer ha perso 11 ore di gioco."
       ],
       "relatedIds": [
         "tip-salvataggi",
@@ -2363,7 +2462,10 @@
         "https://gamingbolt.com/gta-6-15-gameplay-settings-to-change-before-your-first-mission",
         "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://insider-gaming.com/gta-6-auto-save-how-to-save-game-wipe-issues/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/",
+        "https://www.ign.com/articles/streamer-loses-11-hours-of-gta-6-progress-gets-swatted-immediately-afterwards"
       ],
       "spoilerLevel": 0,
       "example": false,
@@ -2459,7 +2561,7 @@
         },
         {
           "title": "Photo Studio",
-          "text": "Il fotomodo si apre dal menu di pausa, anche con Quadrato: personaggio, colori, profondità di campo, luci e filtri. Ora e meteo non si cambiano; nei filmati funziona solo in parte."
+          "text": "Il fotomodo si apre dal menu di pausa, anche con Quadrato: fotocamera (obiettivo, profondità di campo, messa a fuoco), effetti di colore, fino a cinque luci, il veicolo con i suoi fari e 17 filtri, tra cui Key Lento, Capri, Pixel Art e Cartoon Universe. Ora e meteo non si cambiano; nei filmati funziona solo in parte."
         },
         {
           "title": "Quando si sblocca",
@@ -2490,11 +2592,24 @@
         "https://www.powerpyx.com/gta-6-how-to-play-in-first-person-view/",
         "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.eurogamer.net/how-to-use-photo-mode-gta-6",
+        "https://insider-gaming.com/does-gta-6-have-director-mode-explained/",
+        "https://www.thegamer.com/gta-6-international-censorship-details-confirmed/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Non c'è una modalità Director come in GTA V: niente personaggi da scegliere o oggetti da far comparire (Insider Gaming)."
+        },
+        {
+          "source": "stampa",
+          "text": "La versione giapponese è censurata: niente regolazione del sangue, smembramenti più leggeri e qualche scena ritoccata (TheGamer, Kotaku). Quella italiana ha tutte le opzioni."
+        }
+      ]
     },
     {
       "id": "mec-bonus-edizioni",
@@ -2625,6 +2740,10 @@
         {
           "title": "Quando si sblocca",
           "text": "Radio e On Demand da subito; le cuffie appena trovi un negozio di elettronica, già nelle Keys."
+        },
+        {
+          "title": "I podcast",
+          "text": "In On Demand ci sono cinque serie di podcast, ognuna con più puntate: F*ck, Marry, Murder, The Safe Trip, Vice City True Stories, Drunk Kings e Final Act. Alcune puntate ci sono da subito, le altre si sbloccano andando avanti; nella pagina di ogni serie vedi quali hai già ascoltato (VGC)."
         }
       ],
       "tips": [
@@ -2639,7 +2758,8 @@
       "source": "stampa",
       "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
       "moreSources": [
-        "https://insider-gaming.com/gta-6-control-settings/"
+        "https://insider-gaming.com/gta-6-control-settings/",
+        "https://www.videogameschronicle.com/guide/gta-6-podcasts-explained-how-to-listen-to-podcasts-in-gta-6/"
       ],
       "spoilerLevel": 0,
       "example": false,

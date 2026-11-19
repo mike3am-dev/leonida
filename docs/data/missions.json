@@ -601,7 +601,7 @@
         "Durante l'inseguimento puoi sparare dall'auto: usa il rallentatore per mirare.",
         "I salti acrobatici sul ponte restano segnati sulla mappa sotto Esplorazione.",
         "Arnold è alla stazione radar.",
-        "Sparargli o lasciarlo andare cambia solo il profilo criminale. Se usi un'arma rumorosa, allontanati prima che arrivi la polizia."
+        "Arnold, in ginocchio sul molo: per risparmiarlo tieni L2 e usa la concentrazione su di lui. Risparmiarlo spinge il profilo verso il professionista e, secondo Eurogamer, molto più avanti nella storia ti frutta un regalo di 10.000 $; ucciderlo chiude la faccenda. Se usi un'arma rumorosa, allontanati prima che arrivi la polizia."
       ],
       "secrets": [],
       "image": null,
@@ -627,8 +627,14 @@
         "https://www.videogameschronicle.com/guide/gta-6-hey-arnold-walkthrough/",
         "https://gta.wiki/wiki/Hey_Arnold!",
         "https://www.gtaboom.com/gta-6-hey-arnold-walkthrough-858d",
-        "https://www.eurogamer.net/gta-6-hey-arnold-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-hey-arnold-walkthrough",
+        "https://www.eurogamer.net/save-or-kill-arnold-gta-6",
+        "https://www.ign.com/wikis/gta-6/Hey_Arnold!_Walkthrough"
+      ],
+      "choice": {
+        "irreversible": true,
+        "note": "Risparmiare o uccidere Arnold non si può cambiare: risparmiarlo conviene (profilo più professionale e, a quanto riporta Eurogamer, un premio in denaro più avanti)."
+      }
     },
     {
       "id": "mis-island-dreams",
@@ -1022,6 +1028,10 @@
         {
           "when": "prima di iniziare",
           "text": "Prima di andare a prendere Lucia fai le 5 commissioni facoltative: spesa, fiori, collana, taglio di capelli e vestiti da Andy (tienili nel bagagliaio). Migliorano il rapporto con Lucia."
+        },
+        {
+          "when": "prima di iniziare",
+          "text": "Finisci prima i 5 lavori di casa di Jason (scale, tetto, parete, pittura, ringhiera): dopo che Lucia esce di prigione non si possono più fare. Con la casa sistemata il rientro cambia e il rapporto con lei parte più in alto."
         }
       ],
       "moreSources": [
@@ -1098,15 +1108,15 @@
       "extraObjectives": [],
       "tips": [
         "Non ha un segnalino sulla mappa: si trova nell'elenco delle missioni.",
-        "C'è un bancomat vicino a casa di Jason."
+        "Il bancomat più vicino a casa di Jason è fuori dal Chuck's Tackle & Shot: «Trova bancomat» nell'app BuckMe lo segna sulla mappa. Puoi versare una parte o tutti i contanti."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-deposit-cash-into-buckme-walkthrough/",
       "kind": "compito",
       "contact": "app BuckMe",
@@ -1116,6 +1126,9 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Buck_Me_Walkthrough"
       ]
     },
     {
@@ -1132,24 +1145,29 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Ogni traguardo alza il limite del conto e dà sconti; non serve per la storia."
+        "Resta aperta a lungo nell'elenco delle missioni: si chiude traguardo dopo traguardo.",
+        "Ogni traguardo alza il limite del conto e dà sconti. I soldi versati nel Risparmio Familiare non si ritirano più."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/",
       "optional": true,
       "kind": "compito",
       "contact": "app BuckMe",
       "objectives": [
-        "Sposta soldi nel risparmio di famiglia fino al prossimo traguardo"
+        "Versa 5.000 $ nel Risparmio Familiare (primo traguardo)",
+        "Continua a versare per i traguardi successivi"
       ],
       "startableBy": [
         "jason"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Buck_Me_Walkthrough"
       ]
     },
     {
@@ -1284,7 +1302,9 @@
         "I pacchi fanno un bip e hanno una luce gialla lampeggiante.",
         "A Pelican Valley spara agli alligatori per farli spostare: i pacchi sono sotto di loro.",
         "Nella zona ricreativa un pacco è incastrato su un albero: elimina chi lo sorveglia e fallo cadere.",
-        "Consegnali alla roulotte di Donnie o al magazzino di Brian. Se muori o ti arrestano, la borsa si perde."
+        "Consegnali alla roulotte di Donnie o al magazzino di Brian. Se muori o ti arrestano, la borsa si perde.",
+        "Vendili a Donnie: paga 3.400 $, Brian 2.720 $. Più avanti nel capitolo il nascondiglio di Donnie non c'è più e resta solo Brian.",
+        "Porta un'arma: in quasi tutte le zone c'è qualcuno a sorvegliare. Alla Thorpe Adventures il pacco è stato aperto: la droga è sul bancone della casa."
       ],
       "secrets": [],
       "image": null,
@@ -1306,7 +1326,15 @@
         "jason"
       ],
       "moreSources": [
-        "https://www.eurogamer.net/gta-6-donnies-packages-walkthrough"
+        "https://www.eurogamer.net/gta-6-donnies-packages-walkthrough",
+        "https://www.ign.com/wikis/gta-6/Find_the_Lost_Drugs_Walkthrough"
+      ],
+      "missable": true,
+      "missables": [
+        {
+          "when": "durante",
+          "text": "Si fa solo nel capitolo 1: Cal te la manda con un messaggio. Falla presto, quando puoi ancora vendere a Donnie che paga di più."
+        }
       ]
     },
     {
@@ -1504,7 +1532,7 @@
       "title": "Swamped",
       "actId": "act-1",
       "chapter": 1,
-      "order": 30,
+      "order": 31,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Brian vuole chiudere i conti con i Kingfishers e porta Jason al loro campo. È una trappola.",
@@ -1558,7 +1586,7 @@
       "title": "Don Gone",
       "actId": "act-1",
       "chapter": 1,
-      "order": 31,
+      "order": 32,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Brian vuole che sembri che Donnie abbia fatto le valigie e lasciato le Keys. Jason ripulisce la sua roulotte.",
@@ -1611,7 +1639,7 @@
       "title": "Donnie's Lost Drugs",
       "actId": "act-1",
       "chapter": 1,
-      "order": 32,
+      "order": 33,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Sul fondo al largo di Corsair Key c'è una barca affondata con della droga a bordo. Basta andarla a prendere.",
@@ -1648,7 +1676,7 @@
       "title": "Recalibration",
       "actId": "act-1",
       "chapter": 1,
-      "order": 33,
+      "order": 34,
       "protagonist": "jason",
       "districtId": "dis-keys",
       "summary": "Cal sta passando un brutto momento e Jason e Lucia lo vanno a tirare su. Birra, pesca e grigliata.",
@@ -1696,7 +1724,7 @@
       "title": "Tourist Trap",
       "actId": "act-1",
       "chapter": 1,
-      "order": 34,
+      "order": 35,
       "protagonist": "entrambi",
       "districtId": "dis-keys",
       "summary": "Mattia propone un lavoro facile: ritirare una borsa da un armadietto in un centro visitatori. Ovviamente non è facile.",
@@ -1757,7 +1785,7 @@
       "title": "Home Sweet Home",
       "actId": "act-1",
       "chapter": 1,
-      "order": 35,
+      "order": 36,
       "protagonist": "lucia",
       "districtId": "dis-keys",
       "summary": "Lucia torna a casa per prendere le cose di Jason prima di sparire. La casa non è vuota.",
@@ -1797,7 +1825,7 @@
       "title": "Discharge Time",
       "actId": "act-1",
       "chapter": 1,
-      "order": 36,
+      "order": 37,
       "protagonist": "entrambi",
       "districtId": "dis-vice-city",
       "summary": "Lucia corre all'ospedale di Vice City da Jason. Non è l'unica che lo sta cercando.",
@@ -1872,7 +1900,7 @@
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -1886,6 +1914,10 @@
       ],
       "startableBy": [
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-whats-in-the-bag-walkthrough/",
+        "https://www.ign.com/wikis/gta-6/What%27s_In_the_Bag%3F_Walkthrough"
       ]
     },
     {
@@ -1903,7 +1935,8 @@
       "extraObjectives": [],
       "tips": [
         "Non ha un segnalino: la trovi in Mappa › Storia e si chiude da sola più avanti nel capitolo.",
-        "Quando il motel diventa rosa, tornaci: è obbligatorio per far andare avanti la storia."
+        "Quando il motel diventa rosa, tornaci: è obbligatorio per far andare avanti la storia.",
+        "Se tardi troppo a tornare al motel, la scena cambia: Lucia sembra meno in pensiero."
       ],
       "secrets": [],
       "image": null,
@@ -1923,8 +1956,10 @@
         "lucia"
       ],
       "moreSources": [
-        "https://www.eurogamer.net/gta-6-see-linda-the-manager-just-moved-in-walkthroughs"
-      ]
+        "https://www.eurogamer.net/gta-6-see-linda-the-manager-just-moved-in-walkthroughs",
+        "https://www.ign.com/wikis/gta-6/Play_Nurse_Walkthrough"
+      ],
+      "subtitle": "Play Nurse"
     },
     {
       "id": "mis-overnight-charges",
@@ -2084,7 +2119,8 @@
       "extraObjectives": [],
       "tips": [
         "All'autolavaggio scegli due volte di calmare la situazione: eviti lo scontro e guadagni reputazione da professionista.",
-        "I 50 $ spesi per le pillole tornano indietro su BuckMe."
+        "I 50 $ spesi per le pillole tornano indietro su BuckMe.",
+        "IGN la divide in due: la prima parte, fino alla porta della stanza 10, la chiama «Got Pills?». Danny, che pulisce la stanza 8, ti manda da Vicki."
       ],
       "secrets": [],
       "image": null,
@@ -2101,14 +2137,16 @@
         "Portale a Jason, poi torna da Vicki",
         "Accompagna Vicki al Delights",
         "Cerca Dunk: roulotte, cantiere navale, autolavaggio",
-        "Affronta i Kolts e insegui Dunk",
+        "Affronta i Kolt e insegui Dunk",
         "Riporta Dunk alla sua roulotte"
       ],
       "startableBy": [
         "lucia"
       ],
       "moreSources": [
-        "https://www.eurogamer.net/gta-6-girls-trip-walkthrough"
+        "https://www.eurogamer.net/gta-6-girls-trip-walkthrough",
+        "https://www.ign.com/wikis/gta-6/Got_Pills%3F_Walkthrough",
+        "https://www.ign.com/wikis/gta-6/Girls%27_Trip_Walkthrough"
       ]
     },
     {
@@ -2130,11 +2168,12 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Dura un minuto. Le missioni facoltative come questa contano per il 100%: ne servono 100 in tutto."
+        "Dura un minuto. Le missioni facoltative come questa contano per il 100%: ne servono 100 in tutto.",
+        "Se nel capitolo 1 hai lasciato armi nell'armadietto o nel bagagliaio, riprenderle è gratis. Da comprare, la più economica è la Scorpio Nipper .38 a 495 $. Nessuna ricompensa."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2148,6 +2187,9 @@
       ],
       "startableBy": [
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Pick_Up_a_Gun_Walkthrough"
       ]
     },
     {
@@ -2229,11 +2271,13 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Se mancano i soldi, svuota la cassa di un negozio o rapina un passante."
+        "Se mancano i soldi, svuota la cassa di un negozio o rapina un passante.",
+        "Basta una pettinatura nuova; le prove sono gratis. Tieni circa 150 $ se vuoi anche colore e trucco.",
+        "Il trucco sbiadisce col tempo e si lava via in acqua."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2247,6 +2291,9 @@
       ],
       "startableBy": [
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/New_Look_Walkthrough"
       ]
     },
     {
@@ -2268,11 +2315,12 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Va bene qualsiasi capo: basta prendere una cosa da mettere sopra e una sotto."
+        "Va bene qualsiasi capo: basta prendere una cosa da mettere sopra e una sotto.",
+        "Il modo più rapido: il completo sul manichino del Bargain World, 46 $. Nel cesto delle offerte vicino alla porta sul retro vesti Lucia anche con 9 $."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2286,6 +2334,9 @@
       ],
       "startableBy": [
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/How_Do_I_Look%3F_Walkthrough"
       ]
     },
     {
@@ -2349,11 +2400,13 @@
       "tips": [
         "Per decollare basta andare dritto e tirare indietro la levetta sinistra.",
         "Non si perde: la serie resta disponibile anche dopo la fine della storia.",
-        "Kyle si rifà vivo dopo un po' con il resto della sua serie."
+        "Kyle si rifà vivo dopo un po' con il resto della sua serie.",
+        "Kyle si sposta col pickup nel campo: quando compare il punto rosa, passaci sopra tenendo R1. Servono tre passaggi.",
+        "Kyle ti paga 400 $ su BuckMe."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2372,6 +2425,9 @@
       "startableBy": [
         "jason",
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
       ]
     },
     {
@@ -2472,7 +2528,7 @@
       "order": 15,
       "protagonist": "lucia",
       "districtId": "dis-port-gellhorn",
-      "summary": "Dunk ha una pista: un medico in pensione che procurava farmaci. Lucia lo accompagna a incontrarlo, ma l'affare passa dai Kolts.",
+      "summary": "Dunk ha una pista: un medico in pensione che procurava farmaci. Lucia lo accompagna a incontrarlo, ma l'affare passa dai Kolt.",
       "prerequisites": [],
       "unlocks": [
         {
@@ -2507,8 +2563,8 @@
       "objectives": [
         "Vai alla roulotte di Dunk e seguilo",
         "Aspetta Dr. Bill al negozio e seguilo all'auto",
-        "Guida fino al porto e poi all'ufficio dei Kolts",
-        "Scappa dal recinto e semina i Kolts",
+        "Guida fino al porto e poi all'ufficio dei Kolt",
+        "Scappa dal recinto e semina i Kolt",
         "Riprendi Dr. Bill",
         "Vai al punto d'incontro all'aerodromo",
         "Difenditi e trova Dunk",
@@ -2544,13 +2600,14 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Non sei obbligato a pagare 5.000 $: puoi prenderti il furgone, ma poi ti inseguono e hai 2 stelle.",
+        "Il furgone si può avere gratis: scegli Negozia, poi Pago dopo e lascia in garanzia l'aereo di Kyle. Con Negozia › Pago meno costa 3.000 $ invece di 5.000. Prenderlo con la forza scatena la gang e ti dà 2 stelle.",
         "Se il cancello non si apre, scendi a piedi: si apre da solo.",
-        "Non si perde: la serie resta disponibile anche dopo la fine della storia."
+        "Non si perde: la serie resta disponibile anche dopo la fine della storia.",
+        "Kyle ti paga 1.000 $. La fragola gigante nel fienile si può mangiare: dà un bonus."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2567,6 +2624,9 @@
       "startableBy": [
         "jason",
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
       ]
     },
     {
@@ -2834,7 +2894,7 @@
       "order": 23,
       "protagonist": "entrambi",
       "districtId": "dis-port-gellhorn",
-      "summary": "La sala da bowling di Port Gellhorn è finita in mano ai Kolts. È il prossimo bersaglio di Jason e Lucia.",
+      "summary": "La sala da bowling di Port Gellhorn è finita in mano ai Kolt. È il prossimo bersaglio di Jason e Lucia.",
       "prerequisites": [],
       "unlocks": [],
       "rewards": [],
@@ -2854,7 +2914,7 @@
       ],
       "tips": [
         "Prima compra bombe adesive all'Ammu-Nation: servono per la cassaforte.",
-        "Porta giubbotto e Zombix: dentro ci sono molti Kolts.",
+        "Porta giubbotto e Zombix: dentro ci sono molti Kolt.",
         "Se ti sfugge qualcosa, l'operazione torna disponibile più avanti: il trofeo non si perde."
       ],
       "secrets": [],
@@ -2869,7 +2929,7 @@
       "contact": "chr-lucia",
       "objectives": [
         "Chiama il partner perché ti aiuti",
-        "Entra nella sala da bowling dei Kolts",
+        "Entra nella sala da bowling dei Kolt",
         "Prendi l'orologio di lusso nella stanza a sud-est",
         "Prendi il fucile sul tavolo da biliardo a nord-est",
         "Fai saltare la cassaforte nell'ufficio a nord-est",
@@ -2905,11 +2965,11 @@
       "extraObjectives": [],
       "tips": [
         "Usa le auto rubate per i colpi: l'auto personale lasciata nella zona di ricerca finisce sotto sequestro.",
-        "Più avanti la riprendi dall'app Scooter Bros pagando una tassa."
+        "In alternativa usa l'app Scooter Bros: con l'abbonamento Premium un ritiro dal deposito al giorno è gratis, ma consuma le consegne gratuite del giorno. Nel bagagliaio restano armi e refurtiva: riprendi l'auto presto."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -2925,6 +2985,9 @@
       "startableBy": [
         "jason",
         "lucia"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/How_to_Get_Car_From_Impound"
       ]
     },
     {
@@ -3085,11 +3148,14 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Non morire durante l'inseguimento in moto: c'è un errore che fa sparire Jason dalla mappa. Se capita, riavvia la missione."
+        "Non morire durante l'inseguimento in moto: c'è un errore che fa sparire Jason dalla mappa. Se capita, riavvia la missione.",
+        "Se lasci Lucia indietro e scappi da solo il rapporto di coppia scende.",
+        "Nella cucina, tra la macchinetta del caffè e il lavello, c'è un armadietto con Zombix e adrenalina.",
+        "Abbatti subito il motociclista armato all'uscita dal motel, o riparti dal checkpoint."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
@@ -3101,8 +3167,8 @@
         "Prendi il fucile a pompa dal letto",
         "Raggiungi Lucia alla caffetteria del motel",
         "Difenditi",
-        "Insegui in moto l'auto del partner",
-        "Salta sull'auto quando te lo chiede",
+        "Con Lucia, sali sulla moto da cross e segui l'auto di Jason",
+        "Avvicinati e salta sull'auto quando te lo chiede",
         "Scappa e spara alle gomme degli inseguitori"
       ],
       "startableBy": [
@@ -3116,13 +3182,14 @@
       "missables": [
         {
           "when": "prima di iniziare",
-          "text": "Questa missione chiude il capitolo 2 e non tornerai più allo Starlet Motel. Prima prendi le 2 carte collezionabili (Vicki nel bagno dell'ufficio, Victor Maravilla sul frigo della cucina) e leggi le 2 riviste (reception e mensa). Devi anche avere almeno 15.000 $.",
+          "text": "Questa missione chiude il capitolo 2 e non tornerai più allo Starlet Motel. Prima prendi le 2 carte collezionabili (Vicki nel bagno dell'ufficio, Victor Maravilla sul frigo della cucina) e leggi le 2 riviste (reception e mensa). Con 15.000 $ sul conto BuckMe la missione arriva prima.",
           "trophy": "Non toccare il mio mazzo",
           "ponr": true
         }
       ],
       "moreSources": [
-        "https://www.eurogamer.net/gta-6-checking-out-walkthrough"
+        "https://www.eurogamer.net/gta-6-checking-out-walkthrough",
+        "https://www.ign.com/wikis/gta-6/Checking_Out_Walkthrough"
       ]
     },
     {
@@ -3792,7 +3859,8 @@
       "tips": [
         "Il messaggio di Kyle arriva molto tardi, anche dopo settimane di gioco: intanto vai avanti con la storia.",
         "Se resti nascosto non farti vedere dagli agenti e non parlare con il capo della polizia.",
-        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per il trofeo «Sconosciuti e folli»."
+        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per il trofeo «Sconosciuti e folli».",
+        "Dopo la scena al fienile c'è un'ultima tappa senza segnalino: torna al laboratorio della Final Chapter in Leonard County e cerca Kyle dentro il capannone grande. Poi puoi saccheggiare il posto senza resistenza: cassaforte (codice 2121), un fucile a pompa unico e una moto speciale."
       ],
       "secrets": [],
       "image": null,
@@ -3800,7 +3868,7 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-buddy-check-on-kyle-walkthrough/",
       "optional": true,
       "contact": "Kyle",
@@ -3817,6 +3885,9 @@
       },
       "startableBy": [
         "entrambi"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
       ]
     },
     {
@@ -6441,11 +6512,12 @@
         "Si gioca solo di notte: se è giorno, dormi a casa per far passare il tempo.",
         "Prendi la torcia dalla ruota delle armi (casella in basso a destra) per vedere al buio.",
         "Vicino al furgone il cinghiale ti carica comunque: è previsto, la scena finisce bene.",
-        "Ricompensa: 1.000 $. La serie di Kirk conta per il trofeo «Sconosciuti e folli» e resta disponibile dopo la storia."
+        "Ricompensa: 1.000 $. La serie di Kirk conta per il trofeo «Sconosciuti e folli» e resta disponibile dopo la storia.",
+        "Il volantino più comodo è dentro il Rusty Anchor di Key Lento, nell'angolo a destra appena entri. Kirk ti aspetta verso le 22 a Pelican Bay: segui le luci dei droni."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "example": false,
       "updatedAt": "2026-11-19",
@@ -6472,7 +6544,8 @@
       ],
       "sourceUrl": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 1,
       "spoilerLevel": 1
@@ -6490,11 +6563,12 @@
       "extraObjectives": [],
       "tips": [
         "Il messaggio di Kirk può tardare parecchio: intanto vai avanti con altro.",
-        "La missione si chiude da sola al terzo idolo. Nessuna ricompensa in denaro."
+        "La missione si chiude da sola al terzo idolo. Nessuna ricompensa in denaro.",
+        "Gli idoli sono 9, di tre tipi: ne bastano 3 qualsiasi. Con la concentrazione lampeggiano di bianco."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "example": false,
       "updatedAt": "2026-11-19",
@@ -6517,7 +6591,8 @@
       ],
       "sourceUrl": "https://www.powerpyx.com/gta-6-search-for-tree-effigies-locations-walkthrough/",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 1,
       "spoilerLevel": 1
@@ -6534,14 +6609,15 @@
         }
       ],
       "tips": [
-        "Il messaggio arriva solo giocando con Lucia, dal capitolo 2: nel capitolo 1 non parte.",
+        "Le guide non concordano su chi la riceve: PowerPyx l'ha avuta solo con Lucia dal capitolo 2, IGN l'ha giocata con Jason già nel capitolo 1. Se il messaggio non arriva, prova con l'altro personaggio.",
         "Sull'elicottero ricevi il fucile tranquillante unico «Mister Mangrove Laird 350».",
         "Dall'elicottero non puoi fermarlo: scappa sempre nella baracca, inutile sprecare colpi.",
-        "Le mosche sono sopra il cinghiale morto, sotto la lanterna e vicino alla carcassa sotto il molo; poi, da mosca, vola a est fino all'elicottero."
+        "Le mosche sono sopra il cinghiale morto, sotto la lanterna e vicino alla carcassa sotto il molo; poi, da mosca, vola a est fino all'elicottero.",
+        "Qualunque finale scegli ricevi 30.000 $ e il fucile tranquillante resta tuo."
       ],
       "secrets": [],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "example": false,
       "updatedAt": "2026-11-19",
@@ -6556,9 +6632,9 @@
       "districtId": "dis-grassrivers",
       "optional": true,
       "contact": "chr-kirk",
-      "summary": "Kirk ritenta la caccia a Mr. Mangrove, stavolta dall'elicottero. Ti aspetta di notte vicino a Cottonmouth Lake, e solo Lucia può andarci.",
+      "summary": "Kirk ritenta la caccia a Mr. Mangrove, stavolta dall'elicottero. Ti aspetta di notte vicino a Cottonmouth Lake.",
       "objectives": [
-        "Di notte, con Lucia, raggiungi Kirk vicino a Cottonmouth Lake",
+        "Di notte raggiungi Kirk vicino a Cottonmouth Lake",
         "Sali sull'elicottero e usa il fucile tranquillante",
         "A terra cerca Mr. Mangrove nella baracca a destra",
         "Raccoglilo da terra",
@@ -6567,11 +6643,12 @@
       ],
       "choice": {
         "irreversible": true,
-        "note": "La scelta finale decide come si chiude la storia di Kirk e se c'è una ricompensa. Salva prima di partire."
+        "note": "La scelta finale decide come si chiude la storia di Kirk. La ricompensa è la stessa con tutti e due i finali."
       },
       "sourceUrl": "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 2,
       "spoilerLevel": 2
@@ -7590,6 +7667,48 @@
       ],
       "chapter": 5,
       "spoilerLevel": 5
+    },
+    {
+      "id": "mis-ring-the-bell",
+      "title": "Ring the Bell!",
+      "actId": "act-1",
+      "chapter": 1,
+      "order": 30,
+      "protagonist": "jason",
+      "startableBy": [
+        "jason"
+      ],
+      "districtId": "dis-keys",
+      "optional": true,
+      "contact": "chr-cal",
+      "summary": "Dopo la festa con Kat e Mattia, mentre Jason sta andando da Brian al porto, Cal gli scrive per bere qualcosa insieme al Rusty Anchor. Una serata tra amici che finisce con un passaggio a casa.",
+      "objectives": [
+        "Rispondi al messaggio di Cal e vai al Rusty Anchor",
+        "Nel retro del locale parla con Cal e Rhonda",
+        "Bevi i bicchierini con Cal oppure rifiutali",
+        "Segui Cal dentro il locale e parlagli",
+        "Scegli di dargli un passaggio a casa",
+        "Aiutalo ad arrivare al pickup e a salire",
+        "Guida fino a casa di Cal e accompagnalo su per le scale"
+      ],
+      "tips": [
+        "Cal scrive due volte: se la prima volta dici che non hai tempo, insiste. Passa al Rusty Anchor prima di andare da Brian.",
+        "Se bevi tutti e tre i bicchierini la vista si annebbia e l'auto tira da una parte mentre guidi.",
+        "Se rifiuti due volte il passaggio, Cal se ne va da solo e la missione finisce senza premio. Anche se lo pianti a metà strada perdi il premio.",
+        "Premio: più tardi Cal ti chiede di ritirare il suo premio al Rusty Anchor; da allora puoi comprare lì la maglietta bianca e il cappellino del locale."
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "rewards": [],
+      "extraObjectives": [],
+      "secrets": [],
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Ring_the_Bell!_Walkthrough"
     }
   ]
 }
