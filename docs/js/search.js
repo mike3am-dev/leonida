@@ -27,7 +27,7 @@ function fieldsOf(item) {
   const f = [item.title, item.titleEn, item.name, item.summary, item.short, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet, item.outlet, item.topic];
   if (item.short) f.push(item.short);
   (item.steps || []).forEach((t) => f.push(t));
-  (item.tips || []).forEach((t) => f.push(t));
+  (item.tips || []).forEach((t) => { if (typeof t === 'string' && !t.startsWith('[spoiler]')) f.push(t); });   // i consigli con spoiler non entrano nella ricerca
   (item.secrets || []).forEach((t) => f.push(t));
   (item.pois || []).forEach((p) => f.push(p.name));
   (item.highlights || []).forEach((h) => f.push(typeof h === 'string' ? h : h.title));

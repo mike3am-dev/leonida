@@ -27,8 +27,22 @@ export function missionRevealed(m) {
   if (!m) return false;
   return !!progress.get().missions[m.id]?.state || !progress.settings().spoilerShield;
 }
+/** Il capitolo in cui sei: quello della prima missione principale non ancora completata */
+export function reachedAct() {
+  const st = progress.get().missions;
+  const list = (db.missions || []).slice().sort((a, b) => actNum(a.actId) - actNum(b.actId) || (a.order || 0) - (b.order || 0));
+  const next = list.find((m) => st[m.id]?.state !== 'completata');
+  return Math.max(currentAct(), next ? actNum(next.actId) : 99);
+}
+/** Dal 19/11 (richiesta di Mike): i TITOLI delle missioni del capitolo in cui sei (e di quelli già fatti) si vedono in chiaro;
+ *  restano nascosti quelli dei capitoli futuri. Il contenuto della missione (passi, consigli) si apre solo quando la inizi.
+ *  In modalità vergine i titoli restano coperti come prima. */
+export function missionNamed(m) {
+  if (!m) return false;
+  return missionRevealed(m) || (!virgin() && actNum(m.actId) <= reachedAct());
+}
 /** Nome della missione o «Missione bloccata» */
-export function missionName(m, locked = 'Missione bloccata') { return missionRevealed(m) ? m.title : locked; }
+export function missionName(m, locked = 'Missione bloccata') { return missionNamed(m) ? m.title : locked; }
 
 export function isHidden(item) {
   if (virgin() && item?._type === 'teoria') return true;

@@ -127,7 +127,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "La fuga non si può vincere: puoi correre sui tetti o rubare un'auto, ma la scena prosegue da sola. Non sprecare tempo a cercare vie d'uscita.",
+        "[spoiler] La fuga non si può vincere: puoi correre sui tetti o rubare un'auto, ma la scena prosegue da sola. Non sprecare tempo a cercare vie d'uscita.",
         "È la missione che insegna i comandi base (corsa, salto, mira): prova tutto qui.",
         "Per minacciare il cassiere mira e poi premi Quadrato; se qualcuno ti placca, liberati sempre con Quadrato.",
         "La compagna di cella con il cruciverba cerca la parola «Venus»."
@@ -251,7 +251,7 @@
     },
     {
       "id": "mis-gear-up",
-      "title": "Gear Up",
+      "title": "Armi in spalla",
       "actId": "act-1",
       "chapter": 1,
       "order": 2,
@@ -269,8 +269,8 @@
       "extraObjectives": [],
       "tips": [
         "In questa missione il fucile a pompa Moreland 850 costa la metà: 350 $ invece di 700.",
-        "Fuori dal negozio, se combatti a mani nude la polizia arriva molto più tardi che se spari.",
-        "Se muori nello scontro fuori dal negozio, la missione si chiude lo stesso, senza conseguenze."
+        "[spoiler] Fuori dal negozio, se combatti a mani nude la polizia arriva molto più tardi che se spari.",
+        "[spoiler] Se muori nello scontro fuori dal negozio, la missione si chiude lo stesso, senza conseguenze."
       ],
       "secrets": [],
       "image": null,
@@ -298,11 +298,13 @@
         "https://gta.wiki/wiki/Gear_Up",
         "https://www.gtaboom.com/gta-6-gear-up-mission-walkthrough-26a2",
         "https://www.eurogamer.net/gta-6-pick-up-another-gun-walkthrough"
-      ]
+      ],
+      "titleEn": "Gear Up",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-just-a-scratch",
-      "title": "Just a Scratch",
+      "title": "Solo un graffio",
       "actId": "act-1",
       "chapter": 1,
       "order": 3,
@@ -320,7 +322,7 @@
       "extraObjectives": [],
       "tips": [
         "Riparazione e verniciatura sono gratis: approfittane.",
-        "Evita potenziamenti costosi: questa auto non resta per sempre.",
+        "[spoiler] Evita potenziamenti costosi: questa auto non resta per sempre.",
         "Per il motore scegli Stock Engine (Restore), segnato gratis, e aspetta la scritta Applied.",
         "Con la Ultimate Edition, in Pro Builds › Full Kits c'è il kit Retro Build gratis.",
         "Da qui in poi puoi chiamare Joey dal telefono per far riparare o consegnare il Ganado (a pagamento)."
@@ -349,7 +351,9 @@
         "https://gta.wiki/wiki/Just_a_Scratch",
         "https://www.gtaboom.com/gta-6-just-a-scratch-mission-walkthrough-da82",
         "https://www.eurogamer.net/gta-6-fix-your-car-walkthrough"
-      ]
+      ],
+      "titleEn": "Just a Scratch",
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
     },
     {
       "id": "mis-lab-fees",
@@ -373,7 +377,7 @@
         "Il codice della porta del laboratorio è 0420 (scritto su un blocco note nella stanza); quello del magazzino di Brian è 7700.",
         "Senza conto in banca il compenso arriva nella cassetta della posta di casa: controllala.",
         "La boutique è la Moonstone Boutique ad Artist Village; il magazzino di Brian è nel parcheggio del club privato Isla Tropical, accanto al murale con il pesce.",
-        "Il commesso prende una mazza da baseball: strappagliela e minaccialo, non serve colpirlo. Se lo uccidi arriva la polizia.",
+        "[spoiler] Il commesso prende una mazza da baseball: strappagliela e minaccialo, non serve colpirlo. Se lo uccidi arriva la polizia.",
         "Nel laboratorio prendi anche la cassetta con i contanti.",
         "Lì vicino c'è la grande statua della balena: scansionala con WAiNK."
       ],
@@ -431,7 +435,7 @@
         }
       ],
       "tips": [
-        "La polizia ti vede comunque all'uscita: preparati a scappare subito.",
+        "[spoiler] La polizia ti vede comunque all'uscita: preparati a scappare subito.",
         "Dopo la fuga cambia auto o vestiti: la polizia ricorda come sei vestito e cosa guidi.",
         "Con l'app WAiNK scansiona le auto che incontri: servono per il 100%.",
         "Per entrare vai a sinistra del deposito: in cima al muro c'è un varco da scavalcare.",
@@ -491,7 +495,7 @@
       ],
       "tips": [
         "Uscendo raccogli la scatola di sigari che Mandy butta in strada.",
-        "Mandy non si può corteggiare: comunque rispondi, finisce lì."
+        "[spoiler] Mandy non si può corteggiare: comunque rispondi, finisce lì."
       ],
       "secrets": [],
       "image": null,
@@ -629,7 +633,7 @@
         "Durante l'inseguimento puoi sparare dall'auto: usa il rallentatore per mirare.",
         "I salti acrobatici sul ponte restano segnati sulla mappa sotto Esplorazione.",
         "Arnold è alla stazione radar.",
-        "Arnold, in ginocchio sul molo: per risparmiarlo tieni L2 e usa la concentrazione su di lui. Risparmiarlo spinge il profilo verso il professionista e, secondo Eurogamer, molto più avanti nella storia ti frutta un regalo di 10.000 $; ucciderlo chiude la faccenda. Se usi un'arma rumorosa, allontanati prima che arrivi la polizia."
+        "[spoiler] Arnold, in ginocchio sul molo: per risparmiarlo tieni L2 e usa la concentrazione su di lui. Risparmiarlo spinge il profilo verso il professionista e, secondo Eurogamer, molto più avanti nella storia ti frutta un regalo di 10.000 $; ucciderlo chiude la faccenda. Se usi un'arma rumorosa, allontanati prima che arrivi la polizia."
       ],
       "secrets": [],
       "image": null,
@@ -670,7 +674,7 @@
     },
     {
       "id": "mis-island-dreams",
-      "title": "Island Dreams",
+      "title": "Sogni d'isola",
       "actId": "act-1",
       "chapter": 1,
       "order": 10,
@@ -688,9 +692,9 @@
       ],
       "tips": [
         "Il tesoro è fuori dal relitto: cerca finché la luce del detector diventa verde.",
-        "Tieni pronto l'arpione: arriva uno squalo.",
+        "[spoiler] Tieni pronto l'arpione: arriva uno squalo.",
         "Sott'acqua studia i pesci: contano per il 100%.",
-        "Spara allo squalo da vicino: il fucile subacqueo perde molta precisione con la distanza.",
+        "[spoiler] Spara allo squalo da vicino: il fucile subacqueo perde molta precisione con la distanza.",
         "Il tesoro che lasci nel relitto si recupera dopo: da qui Kenton ti presta barca e attrezzatura quando vuoi."
       ],
       "secrets": [],
@@ -719,7 +723,9 @@
         "https://gta.wiki/wiki/Island_Dreams",
         "https://www.gtaboom.com/gta-6-island-dreams-walkthrough-2362",
         "https://www.eurogamer.net/gta-6-island-dreams-walkthrough"
-      ]
+      ],
+      "titleEn": "Island Dreams",
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
     },
     {
       "id": "mis-feng-shui",
@@ -761,7 +767,7 @@
       "extraObjectives": [],
       "tips": [
         "Tenebrae Lux non va finito: se vuoi risolvi i primi rompicapi (le pedine con le punte e quelle triple eliminano quelle piatte), altrimenti esci dal menu del minigioco.",
-        "A Street Trash III gioca finché non perdi: poi la scena va avanti da sola.",
+        "[spoiler] A Street Trash III gioca finché non perdi: poi la scena va avanti da sola.",
         "Spostare il tavolino più volte non cambia niente."
       ],
       "secrets": [],
@@ -883,7 +889,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Costa 475 $ ma vale la spesa: torna utile più avanti nella storia.",
+        "[spoiler] Costa 475 $ ma vale la spesa: torna utile più avanti nella storia.",
         "La collana arriva a casa da sola dopo un paio di giorni: non c'è niente da ritirare.",
         "Se mancano soldi, svuota qualche registratore di cassa."
       ],
@@ -965,7 +971,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Tieni la borsa nel bagagliaio fino al giorno dell'uscita di Lucia: lei si cambierà al bar.",
+        "[spoiler] Tieni la borsa nel bagagliaio fino al giorno dell'uscita di Lucia: lei si cambierà al bar.",
         "Mettila in un veicolo tuo: in un'auto che non è tua i vestiti si possono perdere.",
         "È a tempo: va fatta prima di andare a prendere Lucia al penitenziario."
       ],
@@ -1029,8 +1035,8 @@
       ],
       "tips": [
         "Prima di andare fai le cinque commissioni per Lucia e sistema la casa: il rapporto con lei parte da un livello più alto.",
-        "Nella rissa tieni premuto per parare quando l'avversario ruota le spalle.",
-        "Aiutare Cal con l'app d'incontri o accettare l'offerta di Donnie non cambia niente.",
+        "[spoiler] Nella rissa tieni premuto per parare quando l'avversario ruota le spalle.",
+        "[spoiler] Aiutare Cal con l'app d'incontri o accettare l'offerta di Donnie non cambia niente.",
         "Accetta di ballare con Lucia: il rapporto sale subito."
       ],
       "secrets": [],
@@ -1078,7 +1084,7 @@
     },
     {
       "id": "mis-buck-me",
-      "title": "Buck Me",
+      "title": "Tasche bucate",
       "actId": "act-1",
       "chapter": 1,
       "order": 21,
@@ -1127,7 +1133,9 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-buck-me-mission-walkthrough/"
-      ]
+      ],
+      "titleEn": "Buck Me",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-deposit-cash-into-buckme",
@@ -1208,7 +1216,7 @@
     },
     {
       "id": "mis-clean-up-after-donnie",
-      "title": "Clean Up After Donnie",
+      "title": "Ripulisci le tracce di Donnie",
       "actId": "act-1",
       "chapter": 1,
       "order": 20,
@@ -1223,8 +1231,8 @@
         "Il pescatore sul molo ti indica dov'è il pacco.",
         "Accanto al pacco c'è una barca: usala per raggiungere la baracca e per tornare.",
         "Il compenso arriva più tardi nella cassetta della posta.",
-        "Alla baracca i Kingfishers attaccano comunque: spara per primo, la barca ti copre poco.",
-        "Nella baracca c'è un fucile di precisione: prendilo, dopo arrivano altri Kingfishers in barca.",
+        "[spoiler] Alla baracca i Kingfishers attaccano comunque: spara per primo, la barca ti copre poco.",
+        "[spoiler] Nella baracca c'è un fucile di precisione: prendilo, dopo arrivano altri Kingfishers in barca.",
         "Il pacco va nella vecchia cassetta degli attrezzi dietro la roulotte di Donnie."
       ],
       "secrets": [],
@@ -1251,7 +1259,9 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-clean-up-after-donnie-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-donnies-packages-walkthrough"
-      ]
+      ],
+      "titleEn": "Clean Up After Donnie",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-down-to-earth",
@@ -1342,7 +1352,7 @@
         "A Pelican Valley spara agli alligatori per farli spostare: i pacchi sono sotto di loro.",
         "Nella zona ricreativa un pacco è incastrato su un albero: elimina chi lo sorveglia e fallo cadere.",
         "Consegnali alla roulotte di Donnie o al magazzino di Brian. Se muori o ti arrestano, la borsa si perde.",
-        "Vendili a Donnie: paga 3.400 $, Brian 2.720 $. Più avanti nel capitolo il nascondiglio di Donnie non c'è più e resta solo Brian.",
+        "[spoiler] Vendili a Donnie: paga 3.400 $, Brian 2.720 $. Più avanti nel capitolo il nascondiglio di Donnie non c'è più e resta solo Brian.",
         "Porta un'arma: in quasi tutte le zone c'è qualcuno a sorvegliare. Alla Thorpe Adventures il pacco è stato aperto: la droga è sul bancone della casa."
       ],
       "secrets": [],
@@ -1396,10 +1406,10 @@
       "extraObjectives": [],
       "tips": [
         "Vola proprio sopra l'altro aereo per coprirlo dal radar.",
-        "Dopo la sparatoria scansiona le moto dei biker con WAiNK.",
+        "[spoiler] Dopo la sparatoria scansiona le moto dei biker con WAiNK.",
         "Se Donnie muore si riparte dal checkpoint: proteggilo mentre uscite.",
         "Atterra con calma sulla seconda pista: se distruggi l'aereo la missione fallisce.",
-        "Donnie è nell'hangar: elimina subito chi lo tiene, o la missione fallisce."
+        "[spoiler] Donnie è nell'hangar: elimina subito chi lo tiene, o la missione fallisce."
       ],
       "secrets": [],
       "image": null,
@@ -1574,7 +1584,7 @@
     },
     {
       "id": "mis-swamped",
-      "title": "Swamped",
+      "title": "Nel fango fino al collo",
       "actId": "act-1",
       "chapter": 1,
       "order": 31,
@@ -1595,7 +1605,7 @@
         "Fai in fretta: i colpi nemici rompono il motore.",
         "A casa racconta tutto a Lucia: la relazione sale.",
         "Dall'elicottero colpisci il camion: salta in aria con molti Kingfishers.",
-        "Sulla barca puoi anche sparare al pilota invece di saltare a bordo; si fallisce se scappano con Lori o se colpisci lei."
+        "[spoiler] Sulla barca puoi anche sparare al pilota invece di saltare a bordo; si fallisce se scappano con Lori o se colpisci lei."
       ],
       "secrets": [],
       "image": null,
@@ -1624,7 +1634,9 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-swamped-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-swamped-walkthrough"
-      ]
+      ],
+      "titleEn": "Swamped",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-don-gone",
@@ -1718,7 +1730,7 @@
     },
     {
       "id": "mis-recalibration",
-      "title": "Recalibration",
+      "title": "Ricalibrarsi",
       "actId": "act-1",
       "chapter": 1,
       "order": 34,
@@ -1762,11 +1774,13 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-recalibration-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-recalibration-walkthrough"
-      ]
+      ],
+      "titleEn": "Recalibration",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-tourist-trap",
-      "title": "Tourist Trap",
+      "title": "Trappola per turisti",
       "actId": "act-1",
       "chapter": 1,
       "order": 35,
@@ -1779,7 +1793,7 @@
       "extraObjectives": [],
       "tips": [
         "Prima di parlare con Lucia sulla spiaggia salva in uno slot a parte e chiudi le cose rimaste nel capitolo.",
-        "Qui uccidere poliziotti non pesa sul profilo criminale."
+        "[spoiler] Qui uccidere poliziotti non pesa sul profilo criminale."
       ],
       "secrets": [],
       "image": null,
@@ -1823,11 +1837,13 @@
         "https://www.videogameschronicle.com/guide/gta-6-tourist-trap-mission-walkthrough/",
         "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
         "https://www.eurogamer.net/gta-6-tourist-trap-walkthrough"
-      ]
+      ],
+      "titleEn": "Tourist Trap",
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
     },
     {
       "id": "mis-home-sweet-home",
-      "title": "Home Sweet Home",
+      "title": "Casa dolce casa",
       "actId": "act-1",
       "chapter": 1,
       "order": 36,
@@ -1839,9 +1855,9 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Non c'è tempo per i soldi: esci subito dalla porta.",
-        "Muoviti accovacciata al buio e resta lontana dalla polizia.",
-        "Per uscire dalla zona hai più strade: chiamare Andy e raggiungere di nascosto la sua auto, una barca, o l'idrovolante alla marina di Brian. Secondo VGC, con Andy ricevi una giacca unica."
+        "[spoiler] Non c'è tempo per i soldi: esci subito dalla porta.",
+        "[spoiler] Muoviti accovacciata al buio e resta lontana dalla polizia.",
+        "[spoiler] Per uscire dalla zona hai più strade: chiamare Andy e raggiungere di nascosto la sua auto, una barca, o l'idrovolante alla marina di Brian. Secondo VGC, con Andy ricevi una giacca unica."
       ],
       "secrets": [],
       "image": null,
@@ -1863,11 +1879,13 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-home-sweet-home-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-home-sweet-home-walkthrough"
-      ]
+      ],
+      "titleEn": "Home Sweet Home",
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
     },
     {
       "id": "mis-discharge-time",
-      "title": "Discharge Time",
+      "title": "Dimissioni anticipate",
       "actId": "act-1",
       "chapter": 1,
       "order": 37,
@@ -1880,7 +1898,7 @@
       "extraObjectives": [],
       "tips": [
         "La stanza è la 203: segui la linea rosa a terra.",
-        "Ogni colpo di fucile spinge indietro la sedia a rotelle: tienine conto."
+        "[spoiler] Ogni colpo di fucile spinge indietro la sedia a rotelle: tienine conto."
       ],
       "secrets": [],
       "image": null,
@@ -1903,7 +1921,9 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-discharge-time-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-discharge-time-walkthrough"
-      ]
+      ],
+      "titleEn": "Discharge Time",
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
     },
     {
       "id": "mis-whats-in-the-bag",
@@ -1940,7 +1960,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "È una scena brevissima: da qui in poi, per quasi tutto il capitolo, giochi con Lucia.",
+        "[spoiler] È una scena brevissima: da qui in poi, per quasi tutto il capitolo, giochi con Lucia.",
         "Il trofeo del capitolo 1 arriva alla fine di questa missione."
       ],
       "secrets": [],
@@ -1981,7 +2001,7 @@
       "tips": [
         "Non ha un segnalino: la trovi in Mappa › Storia e si chiude da sola più avanti nel capitolo.",
         "Quando il motel diventa rosa, tornaci: è obbligatorio per far andare avanti la storia.",
-        "Se tardi troppo a tornare al motel, la scena cambia: Lucia sembra meno in pensiero."
+        "[spoiler] Se tardi troppo a tornare al motel, la scena cambia: Lucia sembra meno in pensiero."
       ],
       "secrets": [],
       "image": null,
@@ -2025,7 +2045,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
+        "[spoiler] Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
         "Esamina la cartina appesa in reception: rivela sulla mappa tutta Port Gellhorn."
       ],
       "secrets": [],
@@ -2063,7 +2083,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Durante l'inseguimento basta restarle vicino: si ferma da sola contro un albero.",
+        "[spoiler] Durante l'inseguimento basta restarle vicino: si ferma da sola contro un albero.",
         "Prima di bruciarla sali dietro e prendi i medicinali rimasti.",
         "Se hai una pistola, puoi anche lanciare la tanica nel retro dell'ambulanza e spararle."
       ],
@@ -2163,7 +2183,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "All'autolavaggio scegli due volte di calmare la situazione: eviti lo scontro e guadagni reputazione da professionista.",
+        "[spoiler] All'autolavaggio scegli due volte di calmare la situazione: eviti lo scontro e guadagni reputazione da professionista.",
         "I 50 $ spesi per le pillole tornano indietro su BuckMe.",
         "IGN la divide in due: la prima parte, fino alla porta della stanza 10, la chiama «Got Pills?». Danny, che pulisce la stanza 8, ti manda da Vicki."
       ],
@@ -2858,7 +2878,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Non serve sparare al furgone: si schianta da solo contro un albero.",
+        "[spoiler] Non serve sparare al furgone: si schianta da solo contro un albero.",
         "Tieni la Highwayman Sanchez: mettila in garage e registrala da Moses, è ottima per i salti.",
         "Non si perde: la serie resta disponibile anche dopo la fine della storia."
       ],
@@ -3196,7 +3216,7 @@
         "Non morire durante l'inseguimento in moto: c'è un errore che fa sparire Jason dalla mappa. Se capita, riavvia la missione.",
         "Se lasci Lucia indietro e scappi da solo il rapporto di coppia scende.",
         "Nella cucina, tra la macchinetta del caffè e il lavello, c'è un armadietto con Zombix e adrenalina.",
-        "Abbatti subito il motociclista armato all'uscita dal motel, o riparti dal checkpoint."
+        "[spoiler] Abbatti subito il motociclista armato all'uscita dal motel, o riparti dal checkpoint."
       ],
       "secrets": [],
       "image": null,
@@ -3326,7 +3346,7 @@
       "tips": [
         "Tagliata o pura cambia solo le battute dello scambio: nessun effetto dopo.",
         "Chiudi lo scambio senza violenza: sul profilo criminale arriva il bonus «Professional».",
-        "L'uomo della borsa attacca qualunque cosa rispondi: bastano i pugni."
+        "[spoiler] L'uomo della borsa attacca qualunque cosa rispondi: bastano i pugni."
       ],
       "secrets": [],
       "image": null,
@@ -3435,7 +3455,7 @@
       "tips": [
         "Capri è all'estremo ovest della mappa: con un RydeMe fai prima.",
         "Per entrare senza rumore: scale sul retro, salto sul tetto basso, finestra sopra il condizionatore.",
-        "Quando Halifax finisce contro l'auto di Lucia scendi subito, usa il Focus e sparagli a una gamba."
+        "[spoiler] Quando Halifax finisce contro l'auto di Lucia scendi subito, usa il Focus e sparagli a una gamba."
       ],
       "secrets": [],
       "image": null,
@@ -3479,7 +3499,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "In giardino tieni un'arma a portata: servirà un colpo rapido.",
+        "[spoiler] In giardino tieni un'arma a portata: servirà un colpo rapido.",
         "Chiudi la pinza dell'escavatore per afferrare le auto e sbatterle contro la casa."
       ],
       "secrets": [],
@@ -3521,8 +3541,8 @@
       "tips": [
         "Mia si fa viva molti giorni di gioco dopo la prima casa, anche verso la fine del capitolo: intanto vai avanti.",
         "Nel pedinamento resta lontano: se l'indicatore sopra l'auto si riempie di giallo ti stanno notando.",
-        "Parti senza le tue armi: oltre alla pistola raccogli quelle dei nemici a terra.",
-        "Nella stanza finale tieni pronta la pistola: un colpo rapido chiude la situazione.",
+        "[spoiler] Parti senza le tue armi: oltre alla pistola raccogli quelle dei nemici a terra.",
+        "[spoiler] Nella stanza finale tieni pronta la pistola: un colpo rapido chiude la situazione.",
         "La commissione di Mia (2.000 $) arriva solo molti giorni di gioco dopo."
       ],
       "secrets": [],
@@ -3691,7 +3711,7 @@
         "Dopo la missione i laboratori di Kitty Litter compaiono in viola sulla mappa: ognuno distrutto vale 2.000-2.500 $ da Tyrone.",
         "I laboratori non scadono: si possono distruggere anche dopo la storia.",
         "Li trova solo Jason: con Lucia non compaiono.",
-        "I senzatetto che ti attaccano lungo le scale basta stenderli a pugni."
+        "[spoiler] I senzatetto che ti attaccano lungo le scale basta stenderli a pugni."
       ],
       "secrets": [],
       "image": null,
@@ -3903,9 +3923,9 @@
       ],
       "tips": [
         "Il messaggio di Kyle arriva molto tardi, anche dopo settimane di gioco: intanto vai avanti con la storia.",
-        "Se resti nascosto non farti vedere dagli agenti e non parlare con il capo della polizia.",
-        "Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per il trofeo «Sconosciuti e folli».",
-        "Dopo la scena al fienile c'è un'ultima tappa senza segnalino: torna al laboratorio della Final Chapter in Leonard County e cerca Kyle dentro il capannone grande. Poi puoi saccheggiare il posto senza resistenza: cassaforte (codice 2121), un fucile a pompa unico e una moto speciale."
+        "[spoiler] Se resti nascosto non farti vedere dagli agenti e non parlare con il capo della polizia.",
+        "[spoiler] Parlando con la polizia rispondi «Amico di Kyle» e poi «Sto bene»; i due finali valgono entrambi per il trofeo «Sconosciuti e folli».",
+        "[spoiler] Dopo la scena al fienile c'è un'ultima tappa senza segnalino: torna al laboratorio della Final Chapter in Leonard County e cerca Kyle dentro il capannone grande. Poi puoi saccheggiare il posto senza resistenza: cassaforte (codice 2121), un fucile a pompa unico e una moto speciale."
       ],
       "secrets": [],
       "image": null,
@@ -4102,7 +4122,7 @@
       "extraObjectives": [],
       "tips": [
         "Non si avvia da un segnalino: parte da sola quando rientri all'appartamento di Bayside, dopo il giro con Boobie e il primo incontro con Raul.",
-        "Con il Focus mira alle gambe dei ladri: si fermano subito."
+        "[spoiler] Con il Focus mira alle gambe dei ladri: si fermano subito."
       ],
       "secrets": [],
       "image": null,
@@ -4572,9 +4592,9 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Non immergerlo del tutto: se rispondi a tutte le domande senza incidenti prendi il bonus Professional.",
+        "[spoiler] Non immergerlo del tutto: se rispondi a tutte le domande senza incidenti prendi il bonus Professional.",
         "Nel capannone, quando arrivi nella sala grande, i nemici entrano in moto e in auto dal garage a destra.",
-        "Alla fine decidi tu cosa fare di Monty: la guida non segnala conseguenze."
+        "[spoiler] Alla fine decidi tu cosa fare di Monty: la guida non segnala conseguenze."
       ],
       "secrets": [],
       "image": null,
@@ -4681,7 +4701,7 @@
       "tips": [
         "Raccogli le armi dei nemici: ogni tipo nuovo si segna in Progressi › Armi.",
         "Porta corpetto e un'arma lunga: i nemici sono tanti.",
-        "La scelta alla fine non cambia l'esito: decidi come vuoi."
+        "[spoiler] La scelta alla fine non cambia l'esito: decidi come vuoi."
       ],
       "secrets": [],
       "image": null,
@@ -4768,12 +4788,12 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Méndez spara a chi si arrende: non aspettare di trattare.",
+        "[spoiler] Méndez spara a chi si arrende: non aspettare di trattare.",
         "Con tre stelle, scappare a piedi per le scale funziona meglio che in auto.",
         "Boobie ti chiama solo quando hai finito le altre missioni principali del capitolo, comprese le cariche sulle torri.",
         "Se parcheggi davanti all'ingresso l'auto finisce sotto sequestro.",
         "Parti con le sole pistole: le armi della polizia hanno la torcia, utile al terzo piano al buio.",
-        "Quando l'ascensore si blocca, premi ripetutamente il tasto per aprire le porte."
+        "[spoiler] Quando l'ascensore si blocca, premi ripetutamente il tasto per aprire le porte."
       ],
       "secrets": [
         "Il cane nel cortile ti salta addosso durante la retata."
@@ -4887,7 +4907,7 @@
         "Ferma per primo chi corre verso l'uscita: Karim te lo segnala. Spara alle mani di chi estrae l'arma per restare Professional.",
         "Caveau: stavolta si muovono entrambe le lancette del trapano, e il cavo gira subito tutto a destra.",
         "Contro la SWAT resta al riparo finché passa l'accecamento della flashbang; poi usa il lanciafumogeni sulle auto davanti alla banca.",
-        "Sull'autobus il lanciagranate ha colpi infiniti; l'elicottero si colpisce meglio quando ti si mette dietro.",
+        "[spoiler] Sull'autobus il lanciagranate ha colpi infiniti; l'elicottero si colpisce meglio quando ti si mette dietro.",
         "Ricompensa: 120.000 $."
       ],
       "secrets": [],
@@ -5052,7 +5072,7 @@
       "extraObjectives": [],
       "tips": [
         "Se dici di no, Lucia resta sul balcone ad aspettare: la missione parte solo quando accetti.",
-        "Al bar ti si presenta Eddie Acosta, un tipo fissato con le cripto: qualche giorno dopo ti scrive per una festa."
+        "[spoiler] Al bar ti si presenta Eddie Acosta, un tipo fissato con le cripto: qualche giorno dopo ti scrive per una festa."
       ],
       "secrets": [],
       "image": null,
@@ -6515,7 +6535,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Dopo questa missione si torna al gioco libero: tutto quello che serve per trofei e 100% resta disponibile.",
+        "[spoiler] Dopo questa missione si torna al gioco libero: tutto quello che serve per trofei e 100% resta disponibile.",
         "Le missioni non si possono rigiocare: se vuoi rivederla, tieni un salvataggio prima di iniziarla.",
         "La lista del 100% (Progressi › Statistiche) si apre solo dopo questa missione; quello che hai già fatto conta."
       ],
@@ -6556,7 +6576,7 @@
         "Un volantino è allo Skeeter's bar di Hamlet.",
         "Si gioca solo di notte: se è giorno, dormi a casa per far passare il tempo.",
         "Prendi la torcia dalla ruota delle armi (casella in basso a destra) per vedere al buio.",
-        "Vicino al furgone il cinghiale ti carica comunque: è previsto, la scena finisce bene.",
+        "[spoiler] Vicino al furgone il cinghiale ti carica comunque: è previsto, la scena finisce bene.",
         "Ricompensa: 1.000 $. La serie di Kirk conta per il trofeo «Sconosciuti e folli» e resta disponibile dopo la storia.",
         "Il volantino più comodo è dentro il Rusty Anchor di Key Lento, nell'angolo a destra appena entri. Kirk ti aspetta verso le 22 a Pelican Bay: segui le luci dei droni."
       ],
@@ -6656,9 +6676,9 @@
       "tips": [
         "Le guide non concordano su chi la riceve: PowerPyx l'ha avuta solo con Lucia dal capitolo 2, IGN l'ha giocata con Jason già nel capitolo 1. Se il messaggio non arriva, prova con l'altro personaggio.",
         "Sull'elicottero ricevi il fucile tranquillante unico «Mister Mangrove Laird 350».",
-        "Dall'elicottero non puoi fermarlo: scappa sempre nella baracca, inutile sprecare colpi.",
-        "Le mosche sono sopra il cinghiale morto, sotto la lanterna e vicino alla carcassa sotto il molo; poi, da mosca, vola a est fino all'elicottero.",
-        "Qualunque finale scegli ricevi 30.000 $ e il fucile tranquillante resta tuo."
+        "[spoiler] Dall'elicottero non puoi fermarlo: scappa sempre nella baracca, inutile sprecare colpi.",
+        "[spoiler] Le mosche sono sopra il cinghiale morto, sotto la lanterna e vicino alla carcassa sotto il molo; poi, da mosca, vola a est fino all'elicottero.",
+        "[spoiler] Qualunque finale scegli ricevi 30.000 $ e il fucile tranquillante resta tuo."
       ],
       "secrets": [],
       "image": null,
@@ -7038,7 +7058,7 @@
         "La chiamata di Andy arriva nel capitolo 3, giocando con Lucia, dopo le sue prime missioni a Vice City.",
         "Nel kit ci sono il cappellino Cellerica e un Manifestick.",
         "In garage, accanto al terzo pacco, c'è una rivista da collezione: leggila.",
-        "Al terzo indirizzo non dare il pacco al tizio che si spaccia per il padrone: se lo fai devi rincorrerlo e spingerlo per riaverlo.",
+        "[spoiler] Al terzo indirizzo non dare il pacco al tizio che si spaccia per il padrone: se lo fai devi rincorrerlo e spingerlo per riaverlo.",
         "La serie di Andy non conta per «Sconosciuti e folli», ma l'ultima missione dà un trofeo."
       ],
       "secrets": [],
@@ -7221,7 +7241,7 @@
       "tips": [
         "Nella villa prendi la porta di destra dell'atrio, sali le scale ed entra nella porta in fondo al corridoio.",
         "Fuori dal magazzino prendi un veicolo qualsiasi per arrivare alla villa.",
-        "Nella stanza in fondo al corridoio tieni l'arma pronta: serve un colpo rapido.",
+        "[spoiler] Nella stanza in fondo al corridoio tieni l'arma pronta: serve un colpo rapido.",
         "Ricompensa: 10.000 $ e il trofeo che chiude la serie di Andy."
       ],
       "secrets": [],
@@ -7271,7 +7291,7 @@
         "Si apre quando hai distrutto abbastanza laboratori della Kitty Litter.",
         "Appena arrivi vicino alla tavola calda parti in auto con Tyrone e Dook: giubbotto e arma lunga vanno presi prima.",
         "Per restare in silenzio stendi alle spalle la guardia davanti alla porta verde.",
-        "Nel tubo è inutile sparare a Rocky: corri fino in fondo.",
+        "[spoiler] Nel tubo è inutile sparare a Rocky: corri fino in fondo.",
         "Ricompensa: 10.000 $."
       ],
       "secrets": [],
@@ -7411,7 +7431,7 @@
       "extraObjectives": [],
       "tips": [
         "Le prime due compaiono insieme e si fanno in qualunque ordine.",
-        "A Southpoint non serve eliminare chi spara: prendi la borsa e riparti.",
+        "[spoiler] A Southpoint non serve eliminare chi spara: prendi la borsa e riparti.",
         "Evita i cerchi rossi sulla mappa: fanno scattare il livello di ricercato."
       ],
       "secrets": [],
