@@ -121,7 +121,7 @@ function closeAllDossier() { const n = curPos - dossierStart + 1; if (n >= 1) hi
 const sectionOfPath = (p) => SECTIONS.find((s) => p === s.path || (s.path !== '/' && p.startsWith(s.path)));
 
 /* ---------- Fascicolo: la scheda scivola da destra sopra l'indice, che resta dov'è ---------- */
-function openDossier(html, { replace = false } = {}) {
+function openDossier(html, { replace = false, keepScroll = replace } = {}) {
   let d = $('dossier');
   if (!d) {
     d = document.createElement('aside'); d.id = 'dossier'; d.className = 'dossier';
@@ -130,7 +130,7 @@ function openDossier(html, { replace = false } = {}) {
     $('app').append(d);
   }
   const inner = d.querySelector('.dossier__inner');
-  const keep = replace ? d.querySelector('.dossier__panel').scrollTop : 0;
+  const keep = replace && keepScroll ? d.querySelector('.dossier__panel').scrollTop : 0;   // scheda nuova (per esempio «Inizia la prossima»): si riparte dall'inizio
   inner.innerHTML = html;
   const panel = d.querySelector('.dossier__panel'); panel.scrollTop = keep;
   if (!replace) { dossierStart = curPos; d.classList.remove('is-closing'); void d.offsetWidth; d.classList.add('is-open'); }
@@ -164,7 +164,7 @@ function render(match, { dir, refresh } = {}) {
 
   // Scheda aperta come fascicolo sopra l'indice della stessa sezione
   if (detail && (dossierPath || indexBeneath) && !refresh) {
-    openDossier(`<div class="page__inner">${out.right || ''}</div>`, { replace: !!dossierPath });
+    openDossier(`<div class="page__inner">${out.right || ''}</div>`, { replace: !!dossierPath, keepScroll: dossierPath === match.path });
     dossierPath = match.path; lastMatch = match; followBar(); return;
   }
   if (detail && refresh && dossierPath) { openDossier(`<div class="page__inner">${out.right || ''}</div>`, { replace: true }); followBar(); return; }
