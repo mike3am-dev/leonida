@@ -1,16 +1,20 @@
 #!/usr/bin/env node
 /**
  * Grafico a barre della completezza della guida (da mandare a Mike a fine aggiornamento).
- * Uso:  node scripts/grafico-completezza.mjs <file.png> [titolo]
+ * Uso:  node scripts/grafico-completezza.mjs <file.png> [titolo] [--ieri]
  * Legge l'ultima riga di scripts/completezza-storico.json e la confronta con quella prima.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 
-const out = process.argv[2]; const titolo = process.argv[3] || 'Completezza della guida';
+const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const out = args[0]; const titolo = args[1] || 'Completezza della guida';
 const storico = JSON.parse(readFileSync(new URL('./completezza-storico.json', import.meta.url), 'utf8'));
-const now = storico[storico.length - 1], prev = storico[storico.length - 2];
+// --ieri: confronta con l'ultima riga salvata in un giorno precedente (non con la riga subito prima).
+const ieri = process.argv.includes('--ieri');
+const now = storico[storico.length - 1];
+const prev = ieri ? [...storico].reverse().find((r) => r.data < now.data) : storico[storico.length - 2];
 const dati = JSON.parse(execFileSync('node', [new URL('./completezza.mjs', import.meta.url).pathname]).toString());
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const groups = [...new Set(dati.rows.map((r) => r.gruppo))];
@@ -36,7 +40,7 @@ h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6b5a76;ma
 </style><h1>${esc(titolo)} <span class="media">${dati.media.toLocaleString('it-IT')}%</span></h1>
 <div class="sub">${esc(now.versione)} del ${esc(now.data)}${prev ? ` · confronto con ${esc(prev.versione)} (media ${prev.media.toLocaleString('it-IT')}%)` : ''}</div>
 ${groups.map((g) => `<h2>${esc(g)}</h2>${dati.rows.filter((r) => r.gruppo === g).map(bar).join('')}`).join('')}
-<div class="legend"><span><b style="background:#c2185b"></b>già nella guida</span>${prev ? '<span><b style="background:#f48fb1"></b>aggiunto in questo aggiornamento</span>' : ''}<span>i numeri a destra: voci nella guida / totale del gioco</span></div>`;
+<div class="legend"><span><b style="background:#c2185b"></b>già nella guida</span>${prev ? `<span><b style="background:#f48fb1"></b>${ieri ? 'aggiunto da ieri' : 'aggiunto in questo aggiornamento'}</span>` : ''}<span>i numeri a destra: voci nella guida / totale del gioco</span></div>`;
 const tmp = out.replace(/\.png$/, '.html'); writeFileSync(tmp, html);
 const require = createRequire(import.meta.url);
 const { chromium } = require('/opt/node-tools/node_modules/playwright/index.js');
