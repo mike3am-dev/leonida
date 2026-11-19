@@ -47,7 +47,7 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 9. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
 
 ### Da Mike
-10. **Immagini sul Mac**: `git pull` → `node scripts/scarica-immagini.mjs` → `git add -A` → `git commit -m "immagini"` → `git push`. Circa 180 file elencati in `scripts/immagini.json` non sono ancora nel repo: oggi si vedono solo online.
+10. ~~Immagini sul Mac~~ fatto il 19/11 sera: tutte le 1.059 immagini dell'elenco sono nel repo (push di 128 MB) e le miniature sono state rifatte. Da fare (tecnico): molte foto sono PNG enormi (fino a 9,7 MB l'una, 224 MB in tutto in `docs/assets`): vanno ridotte e convertite in JPEG/WebP, d'accordo con Mike, perché pesano sul telefono e sul limite di GitHub Pages (1 GB).
 11. **Decisione sulle mappe IGN e MapGenie**: le coordinate di tutti i punti stanno nei loro servizi interni (GraphQL). Non vanno interrogati senza il suo sì. Con il sì: `xy` per i ~390 POI che non le hanno, nomi di palestre e club, stazioni doppie.
 12. **Conferme dal gioco** (diventano `verificato` con source `gioco-mike`): conti in banca separati (solo il Risparmio Familiare in comune); RydeMe dal capitolo 1 o 2; motoscafo Squalo solo nel capitolo 4; Arnold risparmiato vale 10.000 $?; chi riceve la caccia a Mr. Mangrove; nome «Radio La Ola».
 
