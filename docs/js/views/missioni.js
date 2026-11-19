@@ -79,13 +79,7 @@ function index() {
 
   return `${sectionHead(section, `${totalDone} fatte`)}
     ${recap(missions, st)}
-    <div class="storyboard"><div class="storyboard__ring">${ringHtml(chapterPct, curLabel, '')}</div>
-      <div class="storyboard__text"><span class="kicker kicker--accent">${esc(curLabel)}${cs.started && cur.title.replace(/^Capitolo \d+:\s*/, '') !== cur.title ? ' · ' + esc(cur.title.replace(/^Capitolo \d+:\s*/, '')) : ''}</span>
-        <h2>${curMission ? esc(curMission.title) : cs.list.length ? (cs.complete ? 'Capitolo completato' : `${left} mission${left === 1 ? 'e' : 'i'} da fare`) : 'In arrivo'}</h2>
-        <p class="small muted">${curMission ? 'La stai giocando adesso.' : nx ? 'Un tocco e ci sei: il nome si scopre quando parti.' : cs.list.length ? '' : 'Le missioni di questo capitolo arrivano giocando.'}</p>
-        ${cs.list.length ? `<div class="storyboard__dots">${cs.list.map((m) => `<i class="dot ${st.missions[m.id]?.state === 'completata' ? 'is-done' : st.missions[m.id]?.state === 'in-corso' ? 'is-cur' : ''}"></i>`).join('')}</div>` : ''}
-        ${cta ? `<div class="storyboard__cta">${cta}</div>` : ''}
-      </div></div>
+    ${chapterCard(cur, cs, chapterPct, curMission, nx, missions, st)}
     ${shield ? '' : '<p class="callout callout--warn small">Scudo spoiler spento: vedi tutti i nomi. Riaccendilo in Impostazioni.</p>'}
     <div class="chapters">${acts.map((a) => {
       const c = chapterState(a, missions);
@@ -105,6 +99,30 @@ function index() {
         })()}</div></div>`; }).join('')}</div>
     ${db.actsExtras?.length ? `<div class="block"><span class="kicker">Indiscrezioni sulla struttura</span>${spoiler.wrap({ spoilerLevel: 9 }, extrasHtml({ extras: db.actsExtras }))}</div>` : ''}`;
 }
+
+/** Il riquadro del capitolo in cima alla pagina Missioni (ridisegnato il 19/11: era troppo vuoto) */
+function chapterCard(a, cs, pct, curMission, nx, missions, st) {
+  if (!a) return '';
+  const name = a.title.replace(/^Capitolo \d+:\s*/, '').replace(/^Prologo$/, '');
+  const named = cs.started || !progress.settings().spoilerShield || a.number <= 1;
+  const side = vis(db.sideMissions || []).filter((m) => m.actId === a.id);
+  const sideDone = side.filter((m) => st.missions[m.id]?.state === 'completata').length;
+  const left = cs.list.length - cs.done;
+  const m = curMission || nx;
+  const bg = SECTIONS_BG[a.number] || 'rapina.jpg';
+  return `<section class="chapcard" style="--chap-img:url(../assets/img/sfondi/${bg})">
+    <div class="chapcard__top">
+      <div class="chapcard__ring">${ringHtml(pct, '', '')}</div>
+      <div class="chapcard__head"><span class="chapcard__kicker">${esc(actName(a))}${cs.complete ? ' · completato' : ''}</span>
+        <h2 class="chapcard__title">${esc(named && name ? name : actName(a))}</h2>
+        <p class="chapcard__count"><b>${cs.done}</b> di ${cs.list.length} missioni della storia${left && cs.list.length ? ` · ne mancano ${left}` : ''}</p></div>
+    </div>
+    ${cs.list.length ? `<div class="chapcard__bar" role="img" aria-label="${cs.done} missioni fatte su ${cs.list.length}">${cs.list.map((x) => `<i class="${st.missions[x.id]?.state === 'completata' ? 'is-done' : st.missions[x.id]?.state === 'in-corso' ? 'is-cur' : ''}"></i>`).join('')}</div>` : ''}
+    ${side.length ? `<p class="chapcard__side">Facoltative e compiti: <b>${sideDone}</b> di ${side.length}</p>` : ''}
+    ${m ? `<a class="chapcard__cta" href="#/missioni/${esc(m.id)}"><span class="chapcard__cta-dot ${curMission ? 'is-cur' : ''}" aria-hidden="true"></span><span class="chapcard__cta-text"><small>${curMission ? 'In corso' : 'La prossima'}</small><b>${esc(spoiler.missionName(m, 'Si scopre quando parti'))}</b></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
+  </section>`;
+}
+const SECTIONS_BG = { 0: 'rapina.jpg', 1: 'molo.jpg', 2: 'palme.jpg', 3: 'oceandrive.jpg', 4: 'oceanview-notte.jpg', 5: 'keyart.jpg' };
 
 /** Titolo come nel gioco in italiano, con l'originale inglese tra parentesi (se diverso) */
 export const titleHtml = (m) => `${esc(m.title)}${m.titleEn && m.titleEn !== m.title ? ` <span class="title-en">(${esc(m.titleEn)})</span>` : ''}`;

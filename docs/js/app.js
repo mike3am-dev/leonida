@@ -105,20 +105,8 @@ function gameBack(path) {
   if (b) b.hidden = !show;
   mh.classList.toggle('has-back', show);
 }
-function followBar() {
-  const bar = $('follow-bar');
-  const id = progress.get().current.missionId;
-  const m = id ? byId(id) : null;
-  // In Home la missione in corso è già nella copertina: la striscia servirebbe solo a ripeterla
-  const home = (location.hash.replace(/^#/, '').split('?')[0] || '/') === '/';
-  const here = !!m && location.hash.split('?')[0] === `#/missioni/${m.id}`;   // sei già nella pagina di quella missione
-  const list = location.hash.split('?')[0] === '#/missioni';   // nell'elenco la missione in corso è già in evidenza
-  const hub = location.hash.split('?')[0] === '#/game';   // nella pagina Game c'è già «Riprendi da»
-  if (!m || home || here || list || hub) { bar.hidden = true; bar.innerHTML = ''; return; }
-  bar.hidden = false;
-  bar.innerHTML = `<a class="follow-bar" href="#/missioni/${esc(m.id)}" style="padding:0;background:none;border:0;min-height:0;flex:1"><span class="follow-bar__dot" aria-hidden="true"></span><span class="follow-bar__text">Ora stai giocando <b>${esc(m.title)}</b></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
-    <button class="icon-btn" type="button" data-action="note" aria-label="Appunto rapido"><svg aria-hidden="true"><use href="#i-pen"/></svg></button>`;
-}
+/** La striscia «Ora stai giocando» è stata tolta (Mike, 19/11): la missione in corso sta in Home. */
+function followBar() { const bar = $('follow-bar'); bar.hidden = true; bar.innerHTML = ''; }
 
 const REDIRECT = { '/atlante': '/mappa', '/novita': '/news', '/prima-ora': '/news', '/online': '/' };
 let lastMatch = null, dossierPath = null, lastLeftHtml = '';
