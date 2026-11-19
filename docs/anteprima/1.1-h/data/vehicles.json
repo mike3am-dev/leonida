@@ -129,10 +129,12 @@
       "realModel": "Honda XL350",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione).",
+      "whereToFind": "Alla casa di Jason nelle Keys, dopo la prima missione: si possono usare solo durante il capitolo 1.",
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/",
+        "https://gamerant.com/gta-6-ultimate-edition-bonuses-unlock-time/"
       ],
       "stats": {
         "speed": 3.9,
@@ -161,24 +163,32 @@
       "realModel": "Crescent Kayak",
       "seats": 1,
       "drivetrain": null,
-      "whereToFind": "Alla casa di Jason nelle Keys, dal capitolo 1 (dopo la prima missione)."
+      "whereToFind": "Alla casa di Jason nelle Keys, dopo la prima missione: si possono usare solo durante il capitolo 1.",
+      "moreSources": [
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/",
+        "https://gamerant.com/gta-6-ultimate-edition-bonuses-unlock-time/"
+      ]
     },
     {
       "id": "veh-ganado-retro-build",
       "name": "Ganado Retro Build",
       "manufacturer": "Ganado",
       "class": "altro",
-      "description": "Preparazione in stile retrò dell'Ultimate Edition, nota anche come «Vapid Ganado». Il tipo di mezzo non è ancora noto.",
-      "howToGet": "Ultimate Edition.",
+      "description": "Non è un veicolo a parte: è il kit di preparazione «Retro Build: Ultimate Edition» per il '70 Vapid Ganado di Jason. Oltre all'aspetto migliora un po' velocità e accelerazione.",
+      "howToGet": "Ultimate Edition, solo nel capitolo 1: porta il Ganado da Coastal Auto Care a Key Lento (l'officina dove ti manda Joey a inizio capitolo), riparalo e riverniscilo, poi scegli Pro Builds › Full Kits › Retro Build: Ultimate Edition.",
       "image": "../../assets/img/veicoli/veh-ganado-retro-build.jpg",
-      "status": "da verificare",
-      "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.eurogamer.net/how-to-unlock-ultimate-edition-ganado-retro-build-gta-6",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/60/GTAVI-Vapid-Ganado-Safehouse.jpg/revision/latest/scale-to-width-down/1000",
-      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games"
+      "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
+      "moreSources": [
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/",
+        "https://gamerant.com/gta-6-ultimate-edition-bonuses-unlock-time/"
+      ]
     },
     {
       "id": "veh-classic-collection",
@@ -358,7 +368,7 @@
       "manufacturer": "Maibatsu",
       "class": "sportiva",
       "description": "Coupé sportiva anni Novanta.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si ruba in strada; la versione di Fast & Furious sta in un garage fisso e si prende già dal capitolo 1.",
       "image": "../../assets/img/veicoli/veh-maibatsu-penumbra-ff.jpg",
       "status": "verificato",
       "source": "community",
@@ -374,7 +384,9 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Penumbra_FF",
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://insider-gaming.com/paul-walker-gta-6-easter-egg/",
+        "https://gamerant.com/gta-6-how-get-paul-walker-mitsubishi-eclipse-fast-and-furious-easter-egg/"
       ],
       "stats": {
         "speed": 5.1,
@@ -383,7 +395,14 @@
         "offroad": 4.3,
         "strength": 3.0
       },
-      "price": "Registrazione 6.750 $ · venduta rende circa 2.035 $"
+      "price": "Registrazione 6.750 $ · venduta rende circa 2.035 $",
+      "whereToFind": "La versione con la livrea dell'auto di Paul Walker in Fast & Furious è chiusa nel garage di una villa a Vespucci Island (Vice City): al primo incrocio sull'isola gira a sinistra, è la prima casa a destra. Sfonda la porticina accanto al garage (scatta l'allarme), spegni l'allarme dal pannello sulla parete in fondo, dove c'è anche il comando della serranda, poi rompi il finestrino e mettila in moto.",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nel bagagliaio della stessa auto c'è un altro omaggio: aprendolo ti salta addosso un serpente, la battuta di Toy Story sul serpente nello stivale (in inglese «boot» è anche il bagagliaio)."
+        }
+      ]
     },
     {
       "id": "veh-declasse-stallion",
@@ -622,20 +641,32 @@
     },
     {
       "id": "veh-polaris-ranger",
-      "name": "Polaris Ranger",
-      "manufacturer": null,
+      "name": "Mer-Can Blast",
+      "manufacturer": "Mer-Can",
       "class": "fuoristrada",
-      "description": "Side-by-side da fuoristrada.",
-      "howToGet": "Da verificare.",
+      "description": "Side-by-side da fuoristrada piccolo, robusto e molto maneggevole, ispirato al Polaris Ranger.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-polaris-ranger.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/polaris-ranger.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "realModel": "Polaris Ranger",
+      "moreSources": [
+        "https://gta.wiki/w/Blast",
+        "https://gtabase.com/gta-6/vehicles/"
+      ],
+      "stats": {
+        "speed": 2.0,
+        "accel": 3.4,
+        "handling": 2.5,
+        "offroad": 6.5,
+        "strength": 3.5
+      }
     },
     {
       "id": "veh-western-cliffhanger",
@@ -1127,7 +1158,7 @@
       "manufacturer": "Invetero",
       "class": "sportiva",
       "description": "La Corvette C8.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si ruba con il Key Cloner: è tra le auto che vuole Randy.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://gta.wiki/images/thumb/CoquetteD10-GTAVI-OfficialScreenshot-JasonDuval04.png/600px-CoquetteD10-GTAVI-OfficialScreenshot-JasonDuval04.png?fb9a6",
       "imageCredit": "gta.wiki / Rockstar Games",
@@ -1136,7 +1167,8 @@
       "drivetrain": "RWD",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://gta.wiki/w/Coquette_D10"
+        "https://gta.wiki/w/Coquette_D10",
+        "https://www.radiotimes.com/technology/gaming/gta-6-randys-wishlist-cars/"
       ],
       "stats": {
         "speed": 7.0,
@@ -1144,7 +1176,8 @@
         "handling": 6.5,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto, segnalato da una sola guida (Radio Times): accanto a un container rosso sui moli occidentali di Waxman Island."
     },
     {
       "image": "../../assets/img/veicoli/veh-bermacht-cypher.png",
@@ -1691,7 +1724,7 @@
       "realModel": "Italdesign Zerouno Duerta",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "La prima si consegna a Randy in una missione principale del capitolo 3; poi è nella sua lista dei desideri.",
+      "whereToFind": "La prima si consegna a Randy in una missione principale del capitolo 3; poi è nella sua lista dei desideri. Un posto, segnalato da una sola guida (Radio Times): al primo piano del parcheggio multipiano degli Hathaway Apartments; serve il Key Cloner.",
       "stats": {
         "speed": 7.5,
         "accel": 7.8,
@@ -1700,7 +1733,8 @@
         "strength": 3.0
       },
       "moreSources": [
-        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.radiotimes.com/technology/gaming/gta-6-randys-wishlist-cars/"
       ]
     },
     {
@@ -2136,7 +2170,8 @@
         "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
         "https://www.powerpyx.com/gta-6-how-to-summon-vehicles/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://www.eurogamer.net/how-to-unlock-ultimate-edition-ganado-retro-build-gta-6"
       ],
       "stats": {
         "speed": 4.7,
@@ -2145,7 +2180,13 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 6.500 $ · venduta rende circa 1.980 $"
+      "price": "Registrazione 6.500 $ · venduta rende circa 1.980 $",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il kit Retro Build dell'Ultimate Edition si monta solo nel capitolo 1, da Coastal Auto Care a Key Lento (Pro Builds › Full Kits)."
+        }
+      ]
     },
     {
       "image": "../../assets/img/veicoli/veh-pegassi-infernus-classic.png",
@@ -2207,7 +2248,9 @@
       "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('64 Mamba GT).",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations",
+        "https://www.radiotimes.com/technology/gaming/gta-6-randys-wishlist-cars/"
       ],
       "stats": {
         "speed": 6.9,
@@ -2215,7 +2258,13 @@
         "handling": 6.3,
         "offroad": 3.2,
         "strength": 3.0
-      }
+      },
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Più avanti Randy aggiunge alla sua lista dei desideri anche una Mamba GT: è dietro una villa di Leaf Links, a Vice Beach. Serve la chiave, in una ciotola sul tavolo dietro al divano dell'ingresso: per entrare in casa usa lo Snap Gun. Ha un localizzatore, quindi guida veloce (Push Square, Radio Times)."
+        }
+      ]
     },
     {
       "image": "../../assets/img/veicoli/veh-albany-manana.jpg",
@@ -5305,7 +5354,7 @@
       "name": "Vapid Speedo",
       "manufacturer": "Vapid",
       "class": "furgone",
-      "description": "Furgone.",
+      "description": "Furgone ispirato al Ford E-Series del 2008-2014.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://gta.wiki/images/Speedo-GTAVI-Trailer1.png?74d20",
@@ -5320,7 +5369,8 @@
         "handling": 3.1,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "realModel": "Ford E-Series (2008-2014)"
     },
     {
       "image": "../../assets/img/veicoli/veh-bravado-youga-classic.png",
@@ -5440,147 +5490,193 @@
     },
     {
       "id": "veh-barca-da-pesca-sportiva-stile-contender-",
-      "name": "Barca da pesca sportiva (stile Contender 39ST)",
-      "manufacturer": null,
+      "name": "Rugger Rhode",
+      "manufacturer": "Rugger",
       "class": "barca",
-      "description": "Barca da pesca sportiva in stile Contender 39ST. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Barca a quattro motori per la pesca o le gite, ispirata alla Contender 39ST. La polizia ne usa una versione.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-barca-da-pesca-sportiva-stile-contender-.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/contender-39st",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/contender-39st.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/contender-39st.jpg",
+      "realModel": "Contender 39ST",
+      "moreSources": [
+        "https://gta.wiki/w/Rhode",
+        "https://www.gtabase.com/vehicles/gta-6/contender-39st"
+      ]
     },
     {
       "id": "veh-berlina-stile-buick-regal",
-      "name": "Berlina (stile Buick Regal)",
-      "manufacturer": null,
+      "name": "Willard Transient",
+      "manufacturer": "Willard",
       "class": "berlina",
-      "description": "Berlina in stile Buick Regal. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina di lusso moderna e sportiva, spaziosa, ispirata alla Buick Regal del 2018.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-berlina-stile-buick-regal.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-regal-6th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/regal-3.jpg"
-    },
-    {
-      "id": "veh-berlina-stile-buick-skylark",
-      "name": "Berlina (stile Buick Skylark)",
-      "manufacturer": null,
-      "class": "berlina",
-      "description": "Berlina in stile Buick Skylark. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
-      "image": "../../assets/img/veicoli/veh-berlina-stile-buick-skylark.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-skylark-6th-gen",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/skylark.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/regal-3.jpg",
+      "realModel": "Buick Regal (sesta generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Transient",
+        "https://www.gtabase.com/vehicles/gta-6/buick-regal-6th-gen"
+      ],
+      "stats": {
+        "speed": 4.8,
+        "accel": 5.2,
+        "handling": 3.9,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-berlina-stile-chevrolet-impala-2014",
-      "name": "Berlina (stile Chevrolet Impala 2014)",
-      "manufacturer": null,
+      "name": "'20 Declasse Impaler",
+      "manufacturer": "Declasse",
       "class": "berlina",
-      "description": "Berlina in stile Chevrolet Impala 2014. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "La Impaler di oggi, ispirata alla Chevrolet Impala del 2014-2020.",
+      "howToGet": "Si ruba in strada, senza localizzatore.",
       "image": "../../assets/img/veicoli/veh-berlina-stile-chevrolet-impala-2014.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-impala-10th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impala.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impala.jpg",
+      "realModel": "Chevrolet Impala (decima generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Impaler",
+        "https://www.gtabase.com/vehicles/gta-6/chevrolet-impala-10th-gen"
+      ],
+      "stats": {
+        "speed": 4.6,
+        "accel": 5.3,
+        "handling": 3.9,
+        "offroad": 4.3,
+        "strength": 3.0
+      },
+      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $"
     },
     {
       "id": "veh-berlina-stile-chrysler-sebring-dodge-str",
-      "name": "Berlina (stile Chrysler Sebring / Dodge Stratus)",
-      "manufacturer": null,
+      "name": "Bravado Bogan",
+      "manufacturer": "Bravado",
       "class": "berlina",
-      "description": "Berlina in stile Chrysler Sebring / Dodge Stratus. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina dei primi anni Duemila, ispirata alla Dodge Stratus e alla Chrysler Sebring.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-berlina-stile-chrysler-sebring-dodge-str.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-sebring-2nd-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stratus.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stratus.jpg",
+      "realModel": "Dodge Stratus / Chrysler Sebring",
+      "moreSources": [
+        "https://gta.wiki/w/Bogan",
+        "https://www.gtabase.com/vehicles/gta-6/chrysler-sebring-2nd-gen"
+      ],
+      "stats": {
+        "speed": 4.2,
+        "accel": 4.1,
+        "handling": 3.3,
+        "offroad": 4.0,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-berlina-stile-honda-accord-2018",
-      "name": "Berlina (stile Honda Accord 2018)",
-      "manufacturer": null,
+      "name": "Dinka Chavos XS",
+      "manufacturer": "Dinka",
       "class": "berlina",
-      "description": "Berlina in stile Honda Accord 2018. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina spaziosa e comoda, ispirata alla Honda Accord del 2018.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-berlina-stile-honda-accord-2018.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/honda-accord-10th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/accord.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/accord.jpg",
+      "realModel": "Honda Accord (decima generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Chavos_XS",
+        "https://www.gtabase.com/vehicles/gta-6/honda-accord-10th-gen"
+      ],
+      "stats": {
+        "speed": 5.2,
+        "accel": 5.7,
+        "handling": 3.9,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-berlina-stile-mercedes-classe-c-w205",
-      "name": "Berlina (stile Mercedes Classe C W205)",
-      "manufacturer": null,
+      "name": "Benefactor Schafter S",
+      "manufacturer": "Benefactor",
       "class": "berlina",
-      "description": "Berlina in stile Mercedes Classe C W205. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina compatta agile e versatile, ispirata alla Mercedes Classe C (W205); può avere una sicurezza moderna.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-berlina-stile-mercedes-classe-c-w205.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-c-class-w205",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-benz-c.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-benz-c.png",
+      "realModel": "Mercedes-Benz Classe C (W205)",
+      "moreSources": [
+        "https://gta.wiki/w/Schafter_S",
+        "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-c-class-w205"
+      ],
+      "stats": {
+        "speed": 4.8,
+        "accel": 5.7,
+        "handling": 4.4,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-berlina-compatta-stile-volkswagen-jetta",
-      "name": "Berlina compatta (stile Volkswagen Jetta)",
-      "manufacturer": null,
+      "name": "BF Greta",
+      "manufacturer": "BF",
       "class": "berlina",
-      "description": "Berlina compatta in stile Volkswagen Jetta. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Berlina compatta dalla linea sobria, comoda in città: ricalca la Volkswagen Jetta.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-berlina-compatta-stile-volkswagen-jetta.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/volkswagen-jetta",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jetta.jpg"
-    },
-    {
-      "id": "veh-berlina-sportiva-stile-audi-rs7",
-      "name": "Berlina sportiva (stile Audi RS7)",
-      "manufacturer": null,
-      "class": "berlina",
-      "description": "Berlina sportiva in stile Audi RS7. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
-      "image": "../../assets/img/veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/audi-a7-rs7-2nd-gen",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jetta.jpg",
+      "realModel": "Volkswagen Jetta (sesta generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Greta",
+        "https://www.gtabase.com/vehicles/gta-6/volkswagen-jetta"
+      ],
+      "stats": {
+        "speed": 4.3,
+        "accel": 4.7,
+        "handling": 4.1,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-bravado-bison-1800",
@@ -5752,19 +5848,26 @@
     },
     {
       "id": "veh-camion-medio-stile-chevrolet-kodiak",
-      "name": "Camion medio (stile Chevrolet Kodiak)",
-      "manufacturer": null,
+      "name": "Declasse D7700",
+      "manufacturer": "Declasse",
       "class": "industriale",
-      "description": "Camion medio in stile Chevrolet Kodiak. Il nome in gioco non è ancora noto.",
+      "description": "Camion medio ispirato al GMC TopKick / Chevrolet Kodiak: si vede con il cassone furgonato o come carro attrezzi.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-camion-medio-stile-chevrolet-kodiak.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-kodiak-gmc-topkick",
+      "sourceUrl": "https://gta.wiki/w/D7700",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kodiak.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/kodiak.jpg",
+      "realModel": "GMC TopKick / Chevrolet Kodiak",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/chevrolet-kodiak-gmc-topkick"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-camion-pesante-stile-silverado-6500-hd",
@@ -5784,131 +5887,158 @@
     },
     {
       "id": "veh-camioncino-stile-isuzu-elf-250",
-      "name": "Camioncino (stile Isuzu Elf 250)",
-      "manufacturer": null,
+      "name": "Maibatsu Iota",
+      "manufacturer": "Maibatsu",
       "class": "industriale",
-      "description": "Camioncino in stile Isuzu Elf 250. Il nome in gioco non è ancora noto.",
+      "description": "Camioncino a cabina avanzata ispirato all'Isuzu Elf, spesso con il pianale.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-camioncino-stile-isuzu-elf-250.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/isuzu-elf-250",
+      "sourceUrl": "https://gta.wiki/w/Iota",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/isuzu-elf.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/isuzu-elf.jpg",
+      "realModel": "Isuzu Elf 250",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/isuzu-elf-250"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-carro-attrezzi-stile-ford-f-series",
-      "name": "Carro attrezzi (stile Ford F-Series)",
-      "manufacturer": null,
+      "name": "Vapid Reclaimer (carro attrezzi)",
+      "manufacturer": "Vapid",
       "class": "servizio",
-      "description": "Carro attrezzi in stile Ford F-Series. Il nome in gioco non è ancora noto.",
+      "description": "Carro attrezzi su base Reclaimer anni Settanta; Wyman ne usa uno al suo sfasciacarrozze.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-carro-attrezzi-stile-ford-f-series.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-tow-truck",
+      "sourceUrl": "https://gta.wiki/w/Reclaimer_(tow_truck)",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/f-series-tow-truck.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/f-series-tow-truck.jpg",
+      "realModel": "Ford F-Series",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/ford-f-series-tow-truck"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-catamarano-a-motore-stile-horizon-pc60",
-      "name": "Catamarano a motore (stile Horizon PC60)",
-      "manufacturer": null,
+      "name": "Calder CB69",
+      "manufacturer": "Calder",
       "class": "barca",
-      "description": "Catamarano a motore in stile Horizon PC60. Il nome in gioco non è ancora noto.",
+      "description": "Catamarano a motore ispirato all'Horizon PC60: si vede al largo di Vice Beach e nelle Keys.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-catamarano-a-motore-stile-horizon-pc60.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/horizon-power-catamarans-pc60",
+      "sourceUrl": "https://gta.wiki/w/CB69",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-4-yacht.jpg"
-    },
-    {
-      "id": "veh-compatta-stile-chevrolet-sonic",
-      "name": "Compatta (stile Chevrolet Sonic)",
-      "manufacturer": null,
-      "class": "coupe",
-      "description": "Compatta in stile Chevrolet Sonic. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
-      "image": "../../assets/img/veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chevrolet-sonic",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/boat-4-yacht.jpg",
+      "realModel": "Horizon PC60",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/horizon-power-catamarans-pc60"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-coup-stile-lincoln-mark-viii",
-      "name": "Coupé (stile Lincoln Mark VIII)",
-      "manufacturer": null,
+      "name": "'93 Dundreary Arcturus",
+      "manufacturer": "Dundreary",
       "class": "coupe",
-      "description": "Coupé in stile Lincoln Mark VIII. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Coupé di lusso anni Novanta ispirata alla Lincoln Mark VIII.",
+      "howToGet": "Si ruba in strada, senza localizzatore.",
       "image": "../../assets/img/veicoli/veh-coup-stile-lincoln-mark-viii.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/lincoln-mark-viii",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mark-viii-2.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mark-viii-2.jpg",
+      "realModel": "Lincoln Mark VIII",
+      "moreSources": [
+        "https://gta.wiki/w/Arcturus",
+        "https://www.gtabase.com/vehicles/gta-6/lincoln-mark-viii"
+      ],
+      "stats": {
+        "speed": 4.7,
+        "accel": 5.0,
+        "handling": 3.6,
+        "offroad": 4.4,
+        "strength": 3.0
+      },
+      "price": "Registrazione 3.250 $ · venduta rende circa 990 $"
     },
     {
       "id": "veh-coup-stile-mercedes-cle",
-      "name": "Coupé (stile Mercedes CLE)",
-      "manufacturer": null,
+      "name": "Benefactor Schutzen",
+      "manufacturer": "Benefactor",
       "class": "coupe",
-      "description": "Coupé in stile Mercedes CLE. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Coupé cabrio di lusso dalle linee futuristiche, ispirata alla Mercedes CLE cabrio: spesso ha una sicurezza avanzata.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-coup-stile-mercedes-cle.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-cle-class-a236",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-cle-a236.jpg"
-    },
-    {
-      "id": "veh-coup-cabrio-stile-buick-reatta",
-      "name": "Coupé cabrio (stile Buick Reatta)",
-      "manufacturer": null,
-      "class": "coupe",
-      "description": "Coupé cabrio in stile Buick Reatta. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
-      "image": "../../assets/img/veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/buick-reatta-convertible",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-cle-a236.jpg",
+      "realModel": "Mercedes-Benz CLE Cabriolet",
+      "moreSources": [
+        "https://gta.wiki/w/Schutzen",
+        "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-cle-class-a236"
+      ],
+      "stats": {
+        "speed": 6.7,
+        "accel": 7.1,
+        "handling": 5.9,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-coup-classica-stile-cadillac-eldorado-19",
-      "name": "Coupé classica (stile Cadillac Eldorado 1959)",
-      "manufacturer": null,
-      "class": "coupe",
-      "description": "Coupé classica in stile Cadillac Eldorado 1959: pinne e cromature anni Cinquanta. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "name": "'59 Albany DeVanity",
+      "manufacturer": "Albany",
+      "class": "classica",
+      "description": "Coupé del 1959 con pinne e cromature, ispirata alla Cadillac Coupe de Ville e alla Eldorado di quell'anno.",
+      "howToGet": "Si ruba in strada, con localizzatore.",
       "image": "../../assets/img/veicoli/veh-coup-classica-stile-cadillac-eldorado-19.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/cadillac-eldorado-1959",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/cadillac-eldorado.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/cadillac-eldorado.jpg",
+      "realModel": "Cadillac Coupe de Ville (1959)",
+      "moreSources": [
+        "https://gta.wiki/w/DeVanity",
+        "https://www.gtabase.com/vehicles/gta-6/cadillac-eldorado-1959"
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 4.5,
+        "handling": 3.2,
+        "offroad": 4.2,
+        "strength": 3.0
+      },
+      "price": "Registrazione 21.750 $ · venduta rende circa 6.490 $"
     },
     {
       "id": "veh-declasse-granger-3600lx",
@@ -6049,68 +6179,78 @@
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/landstalker-x-l-police.jpg"
     },
     {
-      "id": "veh-furgone-stile-ford-econoline",
-      "name": "Furgone (stile Ford Econoline)",
-      "manufacturer": null,
-      "class": "furgone",
-      "description": "Furgone in stile Ford Econoline. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
-      "image": "../../assets/img/veicoli/veh-furgone-stile-ford-econoline.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-econoline-4th-gen",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-econoline.png"
-    },
-    {
       "id": "veh-furgone-stile-ford-transit",
-      "name": "Furgone (stile Ford Transit)",
-      "manufacturer": null,
+      "name": "Vapid Shuttle",
+      "manufacturer": "Vapid",
       "class": "furgone",
-      "description": "Furgone in stile Ford Transit. Il nome in gioco non è ancora noto.",
+      "description": "Furgone per passeggeri ispirato al Ford Transit; c'è anche con la livrea dei tour di Stockyard.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-furgone-stile-ford-transit.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-transit-4th-gen",
+      "sourceUrl": "https://gta.wiki/w/Shuttle",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-transit.jpeg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-transit.jpeg",
+      "realModel": "Ford Transit (quarta generazione)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/ford-transit-4th-gen"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-furgone-stile-mercedes-sprinter",
-      "name": "Furgone (stile Mercedes Sprinter)",
-      "manufacturer": null,
+      "name": "Benefactor Spritz",
+      "manufacturer": "Benefactor",
       "class": "furgone",
-      "description": "Furgone in stile Mercedes Sprinter. Il nome in gioco non è ancora noto.",
+      "description": "Furgone ispirato al Mercedes Sprinter; si vede anche con la livrea del Banner Hotel & Spa.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-furgone-stile-mercedes-sprinter.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-sprinter-2nd-gen",
+      "sourceUrl": "https://gta.wiki/w/Spritz",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sprinter.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sprinter.jpg",
+      "realModel": "Mercedes-Benz Sprinter (seconda generazione)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/mercedes-benz-sprinter-2nd-gen"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-furgone-cargo-stile-ford-transit-cargo",
-      "name": "Furgone cargo (stile Ford Transit Cargo)",
-      "manufacturer": null,
+      "name": "Vapid Shifter",
+      "manufacturer": "Vapid",
       "class": "furgone",
-      "description": "Furgone cargo in stile Ford Transit Cargo. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Furgone da lavoro moderno con porte di carico laterali e posteriori, ispirato al Ford Transit.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-furgone-cargo-stile-ford-transit-cargo.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-transit-cargo-4th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ford-transit-cargo.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/ford-transit-cargo.jpg",
+      "realModel": "Ford Transit (quarta generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Shifter",
+        "https://www.gtabase.com/vehicles/gta-6/ford-transit-cargo-4th-gen"
+      ],
+      "stats": {
+        "speed": 3.6,
+        "accel": 4.2,
+        "handling": 3.6,
+        "offroad": 3.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-gallivanter-baller-st-d",
@@ -6220,19 +6360,31 @@
     },
     {
       "id": "veh-monovolume-stile-chrysler-town-country",
-      "name": "Monovolume (stile Chrysler Town & Country)",
-      "manufacturer": null,
+      "name": "Bravado Sojourn",
+      "manufacturer": "Bravado",
       "class": "furgone",
-      "description": "Monovolume in stile Chrysler Town & Country. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Monovolume comodo e spazioso, amato dalle famiglie: ricalca la Chrysler Town & Country. Esiste anche come taxi.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-monovolume-stile-chrysler-town-country.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-5th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-caravan.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/dodge-caravan.png",
+      "realModel": "Chrysler Town & Country (quinta generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Sojourn",
+        "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-5th-gen"
+      ],
+      "stats": {
+        "speed": 4.5,
+        "accel": 4.8,
+        "handling": 3.9,
+        "offroad": 4.1,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-moocher",
@@ -6264,19 +6416,26 @@
     },
     {
       "id": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300",
-      "name": "Moto d'acqua (stile Sea-Doo RXT-X 300)",
-      "manufacturer": null,
+      "name": "Seashark Sedna",
+      "manufacturer": "Seashark",
       "class": "barca",
-      "description": "Moto d'acqua in stile Sea-Doo RXT-X 300. Il nome in gioco non è ancora noto.",
+      "description": "Moto d'acqua gialla ispirata alla Sea-Doo RXT-X 300.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-moto-d-acqua-stile-sea-doo-rxt-x-300.png",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/sea-doo-rxt-x-300",
+      "sourceUrl": "https://gta.wiki/w/Sedna",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sea-doo.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sea-doo.png",
+      "realModel": "Sea-Doo RXT-X 300",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/sea-doo-rxt-x-300"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-moto-sportiva-stile-suzuki-gsx-r1000",
@@ -6312,35 +6471,45 @@
     },
     {
       "id": "veh-motoscafo-stile-crownline-275-ss",
-      "name": "Motoscafo (stile Crownline 275 SS)",
-      "manufacturer": null,
+      "name": "Nagasaki Tao",
+      "manufacturer": "Nagasaki",
       "class": "barca",
-      "description": "Motoscafo in stile Crownline 275 SS. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Motoscafo da diporto ispirato al Crownline 275 SS; spesso si vede su un carrello trainato da un pick-up.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-motoscafo-stile-crownline-275-ss.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/crownline-275-ss",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yamaha-255xd.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/yamaha-255xd.png",
+      "realModel": "Crownline 275 SS",
+      "moreSources": [
+        "https://gta.wiki/w/Tao_(boat)",
+        "https://www.gtabase.com/vehicles/gta-6/crownline-275-ss"
+      ]
     },
     {
       "id": "veh-motoscafo-cabinato-stile-azimut-atlantis",
-      "name": "Motoscafo cabinato (stile Azimut Atlantis 45)",
-      "manufacturer": null,
+      "name": "Calder Torlan",
+      "manufacturer": "Calder",
       "class": "barca",
-      "description": "Motoscafo cabinato in stile Azimut Atlantis 45. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Piccolo yacht sportivo ed elegante, ben rifinito, ispirato all'Azimut Atlantis 45.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-motoscafo-cabinato-stile-azimut-atlantis.png",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/azimut-atlantis-45",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/atlantis-45.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/atlantis-45.png",
+      "realModel": "Azimut Atlantis 45",
+      "moreSources": [
+        "https://gta.wiki/w/Torlan",
+        "https://www.gtabase.com/vehicles/gta-6/azimut-atlantis-45"
+      ]
     },
     {
       "id": "veh-motoscafo-di-lusso-stile-frauscher-1017-",
@@ -6376,19 +6545,26 @@
     },
     {
       "id": "veh-motovedetta-stile-rb-s",
-      "name": "Motovedetta (stile RB-S)",
+      "name": "Garda",
       "manufacturer": null,
       "class": "barca",
-      "description": "Pattugliatore della Guardia Costiera in stile RB-S. Il nome in gioco non è ancora noto.",
+      "description": "Pattugliatore grigio ispirato alle barche classe Defender (RB-S) della Guardia Costiera.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-motovedetta-stile-rb-s.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/rb-s",
+      "sourceUrl": "https://gta.wiki/w/Garda",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/r-b-s.jpg",
+      "realModel": "Defender class (RB-S)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/rb-s"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-motrice-stile-international-s-series",
@@ -6486,19 +6662,26 @@
     },
     {
       "id": "veh-pick-up-suv-stile-ford-explorer-sport-tr",
-      "name": "Pick-up SUV (stile Ford Explorer Sport Trac)",
-      "manufacturer": null,
+      "name": "Vapid Montagne Pickup",
+      "manufacturer": "Vapid",
       "class": "fuoristrada",
-      "description": "Pick-up SUV in stile Ford Explorer Sport Trac. Il nome in gioco non è ancora noto.",
+      "description": "Pick-up a doppia cabina ispirato alla Ford Explorer Sport Trac.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-pick-up-suv-stile-ford-explorer-sport-tr.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac",
+      "sourceUrl": "https://gta.wiki/w/Montagne_Pickup",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sport-trac4.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/sport-trac4.jpg",
+      "realModel": "Ford Explorer Sport Trac (seconda generazione)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-pick-up-cabrio-stile-dodge-dakota-conver",
@@ -6518,51 +6701,84 @@
     },
     {
       "id": "veh-pick-up-classico-stile-ford-f-series-ann",
-      "name": "Pick-up classico (stile Ford F-Series anni Cinquanta)",
-      "manufacturer": null,
+      "name": "'55 Declasse Bobcat 500",
+      "manufacturer": "Declasse",
       "class": "furgone",
-      "description": "Pick-up classico in stile Ford F-Series anni Cinquanta. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Pick-up del 1955 ispirato al Ford F-Series degli anni Cinquanta.",
+      "howToGet": "Si ruba in strada, con localizzatore.",
       "image": "../../assets/img/veicoli/veh-pick-up-classico-stile-ford-f-series-ann.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-3rd-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-f-series-3rd.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-f-series-3rd.jpg",
+      "realModel": "Ford F-Series (terza generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Bobcat_500",
+        "https://www.gtabase.com/vehicles/gta-6/ford-f-series-3rd-gen"
+      ],
+      "stats": {
+        "speed": 3.0,
+        "accel": 2.6,
+        "handling": 3.1,
+        "offroad": 2.8,
+        "strength": 3.0
+      },
+      "price": "Registrazione 14.750 $ · venduta rende circa 4.400 $"
     },
     {
       "id": "veh-pick-up-con-cassone-piatto-stile-ford-f-",
-      "name": "Pick-up con cassone piatto (stile Ford F-Series 6ª gen.)",
-      "manufacturer": null,
+      "name": "'70 Vapid Reclaimer",
+      "manufacturer": "Vapid",
       "class": "furgone",
-      "description": "Pick-up con cassone piatto in stile Ford F-Series 6ª gen. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Pick-up anni Settanta con il cassone piatto, ispirato al Ford F-250 del 1979: la vecchia generazione del Reclaimer.",
+      "howToGet": "Si ruba in strada, senza localizzatore.",
       "image": "../../assets/img/veicoli/veh-pick-up-con-cassone-piatto-stile-ford-f-.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-f-series-6th-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/f-series-flatbed.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/f-series-flatbed.jpg",
+      "realModel": "Ford F-250 (sesta generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Reclaimer_(1970)",
+        "https://www.gtabase.com/vehicles/gta-6/ford-f-series-6th-gen"
+      ],
+      "stats": {
+        "speed": 2.8,
+        "accel": 2.7,
+        "handling": 3.0,
+        "offroad": 3.6,
+        "strength": 3.0
+      },
+      "price": "Registrazione 7.500 $ · venduta rende circa 2.255 $"
     },
     {
       "id": "veh-pick-up-dei-bagnini-stile-explorer-sport",
-      "name": "Pick-up dei bagnini (stile Explorer Sport Trac)",
-      "manufacturer": null,
+      "name": "Vapid Montagne Pickup (bagnini)",
+      "manufacturer": "Vapid",
       "class": "servizio",
-      "description": "Pick-up dei bagnini in stile Explorer Sport Trac, sulle spiagge di Vice Beach. Il nome in gioco non è ancora noto.",
+      "description": "Il pick-up bianco a strisce arancioni dei bagnini di Vice Beach, con l'attrezzatura sul tetto e nel cassone.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-pick-up-dei-bagnini-stile-explorer-sport.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac-lifeguard",
+      "sourceUrl": "https://gta.wiki/w/Montagne_Pickup_(lifeguard)",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-lifeguard.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-lifeguard.jpg",
+      "realModel": "Ford Explorer Sport Trac",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/ford-explorer-sport-trac-lifeguard"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-pick-up-fuoristrada-stile-jeep-scrambler",
@@ -6582,19 +6798,26 @@
     },
     {
       "id": "veh-pick-up-pesante-stile-ram-3500",
-      "name": "Pick-up pesante (stile RAM 3500)",
-      "manufacturer": null,
+      "name": "Bravado Bison 3800",
+      "manufacturer": "Bravado",
       "class": "furgone",
-      "description": "Pick-up pesante in stile RAM 3500. Il nome in gioco non è ancora noto.",
+      "description": "Pick-up pesante a doppia cabina con le ruote posteriori gemellate, ispirato al Ram Heavy Duty.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-pick-up-pesante-stile-ram-3500.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ram-3500",
+      "sourceUrl": "https://gta.wiki/w/Bison_3800",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/suv-3-dodge-ram.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/suv-3-dodge-ram.jpg",
+      "realModel": "Ram Heavy Duty (quinta generazione)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/ram-3500"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-pomazoom-scooter-per-anziani",
@@ -6642,35 +6865,54 @@
     },
     {
       "id": "veh-suv-stile-dodge-durango",
-      "name": "SUV (stile Dodge Durango)",
-      "manufacturer": null,
+      "name": "Bravado Gresley XT",
+      "manufacturer": "Bravado",
       "class": "suv",
-      "description": "SUV in stile Dodge Durango. Il nome in gioco non è ancora noto.",
+      "description": "SUV a tre file ispirato alla Dodge Durango.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-suv-stile-dodge-durango.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dodge-durango-3rd-gen",
+      "sourceUrl": "https://gta.wiki/w/Gresley_XT",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/durango-2.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/durango-2.jpg",
+      "realModel": "Dodge Durango (terza generazione)",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/dodge-durango-3rd-gen"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-suv-anni-novanta-stile-ford-explorer-2-g",
-      "name": "SUV anni Novanta (stile Ford Explorer 2ª gen.)",
-      "manufacturer": null,
+      "name": "Vapid Montagne XL",
+      "manufacturer": "Vapid",
       "class": "suv",
-      "description": "SUV anni Novanta in stile Ford Explorer 2ª gen. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "SUV compatto di fine anni Novanta, ispirato alla Ford Explorer di seconda generazione: poco robusto ma agile.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-suv-anni-novanta-stile-ford-explorer-2-g.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/ford-explorer-2nd-gen",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-2nd.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-explorer-2nd.jpg",
+      "realModel": "Ford Explorer (seconda generazione)",
+      "moreSources": [
+        "https://gta.wiki/w/Montagne_XL",
+        "https://www.gtabase.com/vehicles/gta-6/ford-explorer-2nd-gen"
+      ],
+      "stats": {
+        "speed": 3.8,
+        "accel": 3.7,
+        "handling": 3.5,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-suv-compatto-stile-toyota-rav4",
@@ -6690,19 +6932,31 @@
     },
     {
       "id": "veh-scooter-stile-yamaha-bws-125",
-      "name": "Scooter (stile Yamaha BWs 125)",
-      "manufacturer": null,
+      "name": "Nagasaki Nimbe",
+      "manufacturer": "Nagasaki",
       "class": "moto",
-      "description": "Scooter in stile Yamaha BWs 125. Il nome in gioco non è ancora noto; il più probabile è il Faggio Sport.",
-      "howToGet": "Da verificare.",
+      "description": "Scooter leggero, comodo nel traffico e nei vicoli: ricalca lo Yamaha BWs 125.",
+      "howToGet": "Si ruba in strada.",
       "image": "../../assets/img/veicoli/veh-scooter-stile-yamaha-bws-125.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/yamaha-bws-125",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-bike-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/faggio-sport.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/faggio-sport.jpg",
+      "realModel": "Yamaha BWs 125",
+      "moreSources": [
+        "https://gta.wiki/w/Nimbe",
+        "https://www.gtabase.com/vehicles/gta-6/yamaha-bws-125"
+      ],
+      "stats": {
+        "speed": 2.6,
+        "accel": 3.5,
+        "handling": 3.6,
+        "offroad": 1.7,
+        "strength": 4.0
+      }
     },
     {
       "id": "veh-shasa",
@@ -6758,35 +7012,55 @@
     },
     {
       "id": "veh-station-wagon-stile-chrysler-lebaron-tow",
-      "name": "Station wagon (stile Chrysler LeBaron Town & Country)",
-      "manufacturer": null,
+      "name": "'85 Schyster Woodland",
+      "manufacturer": "Schyster",
       "class": "berlina",
-      "description": "Station wagon anni Ottanta in stile Chrysler LeBaron Town & Country, con fiancate in finto legno. Il nome in gioco non è ancora noto.",
-      "howToGet": "Da verificare.",
+      "description": "Station wagon anni Ottanta con le fiancate in finto legno, ispirata alla Chrysler LeBaron Town & Country.",
+      "howToGet": "Si ruba in strada, senza localizzatore.",
       "image": "../../assets/img/veicoli/veh-station-wagon-stile-chrysler-lebaron-tow.jpg",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-lebaron-town-country",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/le-baron.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/le-baron.jpg",
+      "realModel": "Chrysler LeBaron Town & Country (1986-1988)",
+      "moreSources": [
+        "https://gta.wiki/w/Woodland",
+        "https://www.gtabase.com/vehicles/gta-6/chrysler-lebaron-town-country"
+      ],
+      "stats": {
+        "speed": 3.8,
+        "accel": 3.4,
+        "handling": 3.3,
+        "offroad": 3.4,
+        "strength": 3.0
+      },
+      "price": "Registrazione 7.400 $ · venduta rende circa 2.200 $"
     },
     {
       "id": "veh-taxi-monovolume-stile-dodge-grand-carava",
-      "name": "Taxi monovolume (stile Dodge Grand Caravan)",
-      "manufacturer": null,
+      "name": "Bravado Sojourn (taxi)",
+      "manufacturer": "Bravado",
       "class": "servizio",
-      "description": "Taxi giallo di Vice City su base monovolume, in stile Dodge Grand Caravan. Il nome in gioco non è ancora noto.",
+      "description": "Il taxi giallo di Vice City su base Sojourn, la monovolume alla Chrysler Town & Country.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-taxi-monovolume-stile-dodge-grand-carava.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-taxi",
+      "sourceUrl": "https://gta.wiki/w/Sojourn_(taxi)",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/chrysler-taxi.jpeg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/chrysler-taxi.jpeg",
+      "realModel": "Chrysler Town & Country",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/chrysler-town-country-taxi"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-vapid-caracara-4x4",
@@ -6963,35 +7237,49 @@
     },
     {
       "id": "veh-yacht-stile-azimut-85",
-      "name": "Yacht (stile Azimut 85)",
-      "manufacturer": null,
+      "name": "Calder Dibnah",
+      "manufacturer": "Calder",
       "class": "barca",
-      "description": "Yacht a motore di lusso in stile Azimut 85, nei porti di Vice City. Il nome in gioco non è ancora noto.",
+      "description": "Yacht a motore di lusso ispirato all'Azimut 85, tra le isole Rialto.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-yacht-stile-azimut-85.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/azimut-85",
+      "sourceUrl": "https://gta.wiki/w/Dibnah",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/azimut-85.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/azimut-85.jpg",
+      "realModel": "Azimut 85",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/azimut-85"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-yacht-stile-de-hoop-brion",
-      "name": "Yacht (stile De Hoop Brion)",
-      "manufacturer": null,
+      "name": "Hulls Flatdeck",
+      "manufacturer": "Hulls",
       "class": "barca",
-      "description": "Yacht in stile De Hoop Brion. Il nome in gioco non è ancora noto.",
+      "description": "Non è uno yacht ma una chiatta: trasporta file di container ed è ispirata alla Brion di Shipyard De Hoop.",
       "howToGet": "Da verificare.",
       "image": "../../assets/img/veicoli/veh-yacht-stile-de-hoop-brion.jpg",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/shipyard-de-hoop-brion",
+      "sourceUrl": "https://gta.wiki/w/Flatdeck",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/shipyard.jpg"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/shipyard.jpg",
+      "realModel": "Shipyard De Hoop Brion",
+      "moreSources": [
+        "https://www.gtabase.com/vehicles/gta-6/shipyard-de-hoop-brion"
+      ],
+      "facts": [
+        "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
+      ]
     },
     {
       "id": "veh-yacht-stile-riva-86-domino",
@@ -7442,7 +7730,8 @@
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://gta.wiki/w/Akane"
       ],
       "spoilerLevel": 0,
       "stats": {
@@ -7454,7 +7743,11 @@
       },
       "price": "Registrazione 5.250 $ · venduta rende circa 1.595 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "realModel": "Chevrolet Sonic",
+      "image": "../../assets/img/veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-ubermacht-apoc",
@@ -7492,7 +7785,8 @@
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://gta.wiki/w/Lasso"
       ],
       "spoilerLevel": 0,
       "stats": {
@@ -7504,7 +7798,11 @@
       },
       "price": "Registrazione 13.750 $ · venduta rende circa 4.125 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "realModel": "Buick Reatta Convertible",
+      "image": "../../assets/img/veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-declasse-picador-72",
@@ -7567,7 +7865,8 @@
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://gta.wiki/w/Animus"
       ],
       "spoilerLevel": 0,
       "stats": {
@@ -7579,7 +7878,11 @@
       },
       "price": "Registrazione 8.650 $ · venduta rende circa 2.585 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "realModel": "Audi A7 / S7 (seconda generazione)",
+      "image": "../../assets/img/veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
+      "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg",
+      "imageCredit": "gtabase.com"
     },
     {
       "id": "veh-willard-grouse-92",
@@ -7592,7 +7895,8 @@
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/every-car-in-gta-6/",
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Vehicles"
+        "https://www.ign.com/wikis/gta-6/Vehicles",
+        "https://gta.wiki/w/Grouse"
       ],
       "spoilerLevel": 0,
       "stats": {
@@ -7604,7 +7908,8 @@
       },
       "price": "Registrazione 1.400 $ · venduta rende circa 440 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "realModel": "Buick Skylark (1992-1995)"
     },
     {
       "id": "veh-declasse-parkland-71",
@@ -7680,6 +7985,141 @@
       "price": "Registrazione 10.650 $ · venduta rende circa 3.190 $",
       "example": false,
       "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "veh-invetero-coquette-64",
+      "name": "'64 Invetero Coquette",
+      "manufacturer": "Invetero",
+      "class": "classica",
+      "description": "La Coquette classica del 1964, sportiva ispirata alla Corvette C2 Sting Ray.",
+      "realModel": "Chevrolet Corvette C2",
+      "howToGet": "Si ruba in strada, con localizzatore.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
+      "moreSources": [
+        "https://gta.wiki/w/Coquette_Classic"
+      ],
+      "spoilerLevel": 0,
+      "image": "../../assets/img/veicoli/veh-invetero-coquette-64.png",
+      "stats": {
+        "speed": 5.9,
+        "accel": 5.7,
+        "handling": 3.3,
+        "offroad": 4.4,
+        "strength": 3.0
+      },
+      "price": "Registrazione 29.150 $ · venduta rende circa 12.320 $",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/thumb/CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png/600px-CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png?eac0e",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+    },
+    {
+      "id": "veh-sirius-sungrazer-61",
+      "name": "'61 Sirius Sungrazer",
+      "manufacturer": "Sirius",
+      "class": "classica",
+      "description": "Berlina compatta d'inizio anni Sessanta ispirata alla Mercury Comet; piace a chi fa lowrider.",
+      "realModel": "Mercury Comet (1960-1961)",
+      "howToGet": "Si ruba in strada, con localizzatore.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
+      "moreSources": [
+        "https://gta.wiki/w/Sungrazer"
+      ],
+      "spoilerLevel": 0,
+      "image": "../../assets/img/veicoli/veh-sirius-sungrazer-61.png",
+      "stats": {
+        "speed": 3.6,
+        "accel": 3.6,
+        "handling": 3.3,
+        "offroad": 3.4,
+        "strength": 3.0
+      },
+      "price": "Registrazione 15.500 $ · venduta rende circa 4.620 $",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/thumb/Sungrazer-GTAVI-FrontQuarter.png/600px-Sungrazer-GTAVI-FrontQuarter.png?e3cd7",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+    },
+    {
+      "id": "veh-willard-trotter-95",
+      "name": "'95 Willard Trotter",
+      "manufacturer": "Willard",
+      "class": "furgone",
+      "description": "Camper (motorhome) anni Novanta ispirato al Rexhall RoseAir: lentissimo.",
+      "realModel": "Rexhall RoseAir",
+      "howToGet": "Si ruba in strada, senza localizzatore.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
+      "moreSources": [
+        "https://gta.wiki/w/Trotter"
+      ],
+      "spoilerLevel": 0,
+      "image": "../../assets/img/veicoli/veh-willard-trotter-95.png",
+      "stats": {
+        "speed": 2.4,
+        "accel": 1.6,
+        "handling": 2.8,
+        "offroad": 2.6,
+        "strength": 3.0
+      },
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/thumb/Trotter1995-GTAVI-FrontQuarter.png/600px-Trotter1995-GTAVI-FrontQuarter.png?21cc7",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+    },
+    {
+      "id": "veh-rugger-fortune",
+      "name": "Rugger Fortune",
+      "manufacturer": "Rugger",
+      "class": "barca",
+      "description": "Vecchio peschereccio per gamberi degli anni Cinquanta, con gli alberi per le reti: ha retto al tempo ed è sorprendentemente versatile.",
+      "realModel": "Peschereccio per gamberi",
+      "howToGet": "Si ruba in strada.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-watercraft-in-gta-6/",
+      "moreSources": [
+        "https://gta.wiki/w/Fortune_(boat)"
+      ],
+      "spoilerLevel": 0,
+      "image": "../../assets/img/veicoli/veh-rugger-fortune.png",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/UnnamedShrimpBoat-GTAVI-Trailer1.png?f8eb6",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+    },
+    {
+      "id": "veh-shift-e-fan-e",
+      "name": "Shift-E Fan-E",
+      "manufacturer": "Shift-E",
+      "class": "moto",
+      "description": "Monopattino elettrico a noleggio, leggero ed economico: il mezzo più lento del gioco.",
+      "realModel": "Bird One (monopattino a noleggio)",
+      "howToGet": "Si ruba in strada.",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/every-bike-in-gta-6/",
+      "moreSources": [
+        "https://gta.wiki/w/Fan-E"
+      ],
+      "spoilerLevel": 0,
+      "image": "../../assets/img/veicoli/veh-shift-e-fan-e.png",
+      "stats": {
+        "speed": 0.7,
+        "accel": 0.2,
+        "handling": 1.1,
+        "offroad": 1.3,
+        "strength": 4.0
+      },
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://gta.wiki/images/thumb/UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png/600px-UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png?b372f",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
     }
   ]
 }

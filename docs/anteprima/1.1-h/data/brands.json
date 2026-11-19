@@ -20,7 +20,7 @@
       "id": "brd-the-album",
       "name": "Grand Theft Auto VI: The Album",
       "category": "Colonna sonora",
-      "description": "34 brani originali scritti per il gioco, pubblicati con Atlantic Records: è uscito il 19 novembre insieme a GTA VI, in digitale, vinile e CD. Lo aprono i Justice con Michael McDonald; dentro ci sono Travis Scott, Playboi Carti, Dua Lipa, Lana Del Rey, Jennie, Cardi B, Burna Boy, Morgan Wallen, Rauw Alejandro e Keith Richards. Molti brani passano anche alla radio: soprattutto su VCRR, ma anche su Cocoteo FM, Leonida Jazz Radio e, secondo alcune guide, Back Country Radio, Stockyard FM e Gloriana Blues Radio.",
+      "description": "34 brani originali scritti per il gioco, pubblicati con Atlantic Records: è uscito il 19 novembre insieme a GTA VI, in digitale, vinile e CD. Lo aprono i Justice con Michael McDonald; dentro ci sono Travis Scott, Playboi Carti, Dua Lipa, Lana Del Rey, Jennie, Cardi B, Burna Boy, Morgan Wallen, Rauw Alejandro e Keith Richards. In gioco quasi tutti i brani passano alla radio (titoli di coda di Rockstar): dieci su Flash FM (tra cui Dua Lipa, Jennie, Lana Del Rey, Morgan Wallen, Tove Lo e Zara Larsson), cinque su Cocoteo FM (Arca, Fuerza Regida, Jhayco, Kali Uchis con Helado Negro, Rauw Alejandro), i brani rap su Vice City Rap Radio (alcuni nei mix di DJ Stevie J e Bodega the DJ), Burna Boy su AfroBank FM, Keith Richards su Gloriana Blues Radio, Fcukers su Stockyard FM, Jesse Johnson e Dâm-Funk e Omar Apollo su WorldWide FM, «Overtown Lights» su Leonida Jazz Radio. I due brani dei Justice fanno parte della colonna sonora originale.",
       "image": "../../assets/img/the-album.jpg",
       "status": "verificato",
       "source": "trailer",
@@ -38,11 +38,13 @@
         "new-20261114-the-album-scaletta-34-brani",
         "rad-vcrr",
         "rad-cocoteo",
-        "rad-leonida-jazz"
+        "rad-leonida-jazz",
+        "rad-flash-fm"
       ],
       "moreSources": [
         "https://manofmany.com/entertainment/gaming/gta-6-soundtrack-radio-stations-score",
-        "https://hiphopwired.com/3069461/gta-vi-hip-hop-lineup/"
+        "https://hiphopwired.com/3069461/gta-vi-hip-hop-lineup/",
+        "https://www.rockstargames.com/VI/credits"
       ]
     },
     {
@@ -337,20 +339,24 @@
       "id": "brd-canzoni-trailer",
       "name": "Le canzoni dei trailer",
       "category": "Musica",
-      "description": "Trailer 1 (dicembre 2023): «Love Is a Long Road» di Tom Petty, i cui ascolti sono esplosi nei giorni successivi. Trailer 2 (maggio 2025): «Hot Together» dei Pointer Sisters come brano principale, e in sottofondo «Thunder Island» di Jay Ferguson, «Child Support» degli Zenglen, «Everybody Have Fun Tonight» dei Wang Chung dall'autoradio, «Talkin' to Myself Again» di Tammy Wynette, più «I Love Rock 'n' Roll» degli Arrows nello spot di Ammu-Nation. Trailer di lancio (ottobre 2026): «Flower in a Hurricane» dei Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard. Trailer del preload (10 novembre 2026): «Blood in Your Eyes» di Tove Lo. Nel gioco, secondo il GTA Wiki, «Thunder Island» passa su V-Rock, «Hot Together» ed «Everybody Have Fun Tonight» su Vice City FM.",
+      "description": "Trailer 1 (dicembre 2023): «Love Is a Long Road» di Tom Petty, i cui ascolti sono esplosi nei giorni successivi. Trailer 2 (maggio 2025): «Hot Together» dei Pointer Sisters come brano principale, e in sottofondo «Thunder Island» di Jay Ferguson, «Child Support» degli Zenglen, «Everybody Have Fun Tonight» dei Wang Chung dall'autoradio, «Talkin' to Myself Again» di Tammy Wynette, più «I Love Rock 'n' Roll» degli Arrows nello spot di Ammu-Nation. Trailer di lancio (ottobre 2026): «Flower in a Hurricane» dei Justice con Tame Impala, SZA e King Gizzard & The Lizard Wizard. Trailer del preload (10 novembre 2026): «Blood in Your Eyes» di Tove Lo. Nel gioco, secondo i titoli di coda di Rockstar: «Love Is a Long Road» e «Thunder Island» passano su V-Rock, «Hot Together» ed «Everybody Have Fun Tonight» su Vice City FM, «Talkin' to Myself Again» su Back Country Radio, «Blood in Your Eyes» su Flash FM e «Child Support» nella playlist The Sniper of La Perle; «Flower in a Hurricane» è nella colonna sonora originale dei Justice.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
+      "status": "verificato",
+      "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/radio-stations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
-        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+        "https://www.rockstargames.com/VI/credits"
       ],
       "relatedIds": [
         "rad-v-rock",
-        "rad-vice-city-fm"
+        "rad-vice-city-fm",
+        "rad-back-country",
+        "rad-flash-fm",
+        "rad-sniper-la-perle"
       ]
     },
     {
@@ -1583,17 +1589,20 @@
     },
     {
       "id": "brd-fuzzard-power-station",
-      "name": "Fuzzard Power Station",
+      "name": "T.H. Power Station",
       "category": "Azienda",
-      "description": "La centrale elettrica di Peregrine Bay, con bacini di raffreddamento e il Fuzzard Drain Canal; i suoi edifici ricalcano la centrale di Turkey Point.",
+      "description": "La centrale elettrica sulla Peregrine Bay, a sud-est di Hamlet, con i bacini di raffreddamento; i suoi edifici ricalcano la centrale di Turkey Point. La mappa ufficiale di Rockstar la chiama T.H. Power Station; prima dell'uscita la community la chiamava Fuzzard Power Station, dal vicino Fuzzard Drain Canal.",
       "image": "../../assets/img/mondo/brd-fuzzard-power-station.webp",
       "status": "da verificare",
       "source": "community",
-      "sourceUrl": "https://www.gtasixmap.com/locations/peregrine-bay",
+      "sourceUrl": "https://www.rockstargames.com/VI/media",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/UnnamedHamletPowerPlant-GTAVI-OfficialScreenshot-LeonidaKeys01.png"
+      "updatedAt": "2026-11-19",
+      "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/UnnamedHamletPowerPlant-GTAVI-OfficialScreenshot-LeonidaKeys01.png",
+      "moreSources": [
+        "https://www.gtasixmap.com/locations/peregrine-bay"
+      ]
     },
     {
       "id": "brd-diamond-dawgs",
@@ -1695,14 +1704,14 @@
       "id": "brd-leonida-department-of-corrections",
       "name": "Leonida Department of Corrections",
       "category": "Forze dell'ordine",
-      "description": "Il dipartimento penitenziario statale (LDC), ricalcato su quello della Florida. Gestisce il Leonida Penitentiary, dove è rinchiusa Lucia: il distintivo è sulle uniformi delle guardie e sul cartellino di Stefanie, l'assistente sociale con cui Lucia parla del suo rilascio.",
+      "description": "Il dipartimento penitenziario statale (LDC), ricalcato su quello della Florida. Gestisce la prigione di Hamlet dove è rinchiusa Lucia (Hamlet Correctional Facility, «Leonida Penitentiary» nei testi promozionali): il distintivo è sulle uniformi delle guardie e sul cartellino di Stefanie, l'assistente sociale con cui Lucia parla del suo rilascio.",
       "image": "../../assets/img/mondo/brd-leonida-department-of-corrections.webp",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.gtasixmap.com/locations/hamlet",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/71/CorrectionsOfficer-GTAVI-PortraitTrailer2.png"
     },
     {
@@ -3321,6 +3330,22 @@
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/furries-are-outlawed-in-gta-6-and-form-an-underground-furverts-group-but-you-can-still-help-them-escape-the-cops/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "brd-cellerica",
+      "name": "Cellerica",
+      "category": "Azienda",
+      "description": "Il gruppo «del benessere» di Belville che vende i Manifestick, bastoncini da svapare (il più forte è il Cloud Manifestick), e il cappellino Cellerica. Sulla mappa ufficiale di Rockstar ci sono «Cellerica» a Belville e «Chateau Cellerica» poco più a nord.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/",
+      "moreSources": [
+        "https://www.rockstargames.com/VI/media"
+      ],
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19"

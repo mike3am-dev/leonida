@@ -9,8 +9,8 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "description": "Ci sono 255 animali da studiare con il binocolo (zoom e tieni premuto): non serve cacciarli. Ogni razza di cane e di gatto conta a parte; valgono anche i pesci (basta nuotarci vicino) e gli uccelli. Si dividono in 61 prede di caccia, 35 pesci, 18 mammiferi, 34 cani e gatti, 6 rettili, 60 uccelli, 18 animali acquatici e 23 altri. Gli animali selvatici abbondano nelle paludi e nelle campagne del nord. Per il 100% ne bastano 100. Trofeo collegato: Bersagli leciti (la caccia a un animale unico per Bret).",
-      "updatedAt": "2026-11-18",
+      "description": "Ci sono 255 animali da studiare con il binocolo (zoom e tieni premuto): non serve cacciarli. Ogni razza di cane e di gatto conta a parte; valgono anche i pesci (basta nuotarci vicino) e gli uccelli. Si dividono in 61 prede di caccia, 35 pesci, 18 mammiferi, 34 cani e gatti, 6 rettili, 60 uccelli, 18 animali acquatici e 23 altri. Gli animali selvatici abbondano nelle paludi e nelle campagne del nord. Per il 100% ne bastano 100. Trofeo collegato: Bersagli leciti (la caccia a un animale unico per Bret). I 35 pesci compaiono in ordine alfabetico nella scheda Pesca dei Progressi. Per pescarli servono esche diverse per acqua dolce e salata, in tre misure: le compri negli Ammu-Nation che hanno l'icona del pesce (Medium Freshwater 40 $, Medium Saltwater 50 $, Large Saltwater 112 $). Quando prendi un pesce, il suo punto di pesca compare sulla mappa con un'icona viola.",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "total": 255
     },
@@ -1908,9 +1908,9 @@
     {
       "id": "col-fauna-anguilla",
       "categoryId": "cat-fauna",
-      "name": "Murena",
+      "name": "Murena verde (Green Moray Eel)",
       "districtId": "dis-keys",
-      "directions": "La murena abita i fondali corallini delle Keys.",
+      "directions": "Abita i fondali corallini delle Keys. Per pescarla il punto migliore secondo IGN è il Millport Basin, al largo della costa est della contea di Lummox. Esca: Large Saltwater Lure (112 $).",
       "reward": null,
       "image": "../../assets/img/vice/fauna/col-fauna-anguilla.jpg",
       "status": "da verificare",
@@ -1918,10 +1918,10 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/eel.jpg",
-      "group": "marini",
-      "emoji": "🐍",
+      "group": "pesci",
+      "emoji": "🐟",
       "short": "Abita i fondali corallini delle Keys.",
       "seen": [
         {
@@ -1935,13 +1935,21 @@
         45,
         1.6
       ],
-      "scientificName": "Gymnothorax funebris (murena verde)",
+      "scientificName": "Gymnothorax funebris",
       "temperament": "territoriale",
-      "habitat": "Fondali corallini delle Keys",
+      "habitat": "Fondali corallini delle Keys; si pesca nel Millport Basin (costa est della contea di Lummox)",
       "districtIds": [
-        "dis-keys"
+        "dis-keys",
+        "dis-mount-kalaga"
       ],
-      "protectedReal": "no"
+      "protectedReal": "no",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Fishing"
+      ]
     },
     {
       "id": "col-fauna-gambero",
@@ -2428,9 +2436,17 @@
       "sourceUrl": "https://gta.wiki/w/Lionfish",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "image": "../../assets/img/vice/fauna/col-fauna-pesce-leone.webp",
-      "imageUrl": "https://gta.wiki/images/RedLionfish-GTAVI-OfficialScreenshot-LeonidaKeys07.png"
+      "imageUrl": "https://gta.wiki/images/RedLionfish-GTAVI-OfficialScreenshot-LeonidaKeys07.png",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Fishing"
+      ],
+      "directions": "In immersione nelle grotte sommerse delle Leonida Keys. Per pescarlo (nel gioco: Red Lionfish) il punto migliore secondo IGN è il Golfo di Leonida, poco a ovest di Bobcat Bight, Bobcat Key e Tola Bay. Esca: Medium Saltwater Lure (50 $)."
     },
     {
       "id": "col-fauna-varano",
@@ -2502,26 +2518,32 @@
       "categoryId": "cat-carte",
       "name": "America's Next Top Hooker · Kalvyn (base)",
       "districtId": "dis-vice-city",
-      "directions": "Crosstown: sul tetto del Big House Storage Inc, nella cassetta telefonica accanto alla porta delle scale. Seconda copia a Decor District, nella scatola gialla sul lato nord dell'edificio accessibile subito a ovest di Roval Jewelry.",
+      "directions": "Crosstown: sul tetto del Big House Storage Inc, nella cassetta telefonica accanto alla porta delle scale. Seconda copia a Decor District, nella scatola gialla sul lato nord dell'edificio accessibile subito a ovest di Roval Jewelry. Un'altra copia (IGN) sta a Ocean Beach, sul tetto basso centrale dell'Harmony Plaza, su Atlantic Ave.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-2",
       "categoryId": "cat-carte",
       "name": "America's Next Top Hooker · Chastity (base)",
       "districtId": "dis-vice-city",
-      "directions": "Decor District: nel garage illuminato al neon pieno di robot, a nord-est dello Stockyard Speedshop, su un tavolo in fondo.",
+      "directions": "Decor District: nel garage illuminato al neon pieno di robot, a nord-est dello Stockyard Speedshop, su un tavolo in fondo. Un'altra copia (IGN) sta a Salton est, sotto la mano di un manichino appoggiata a un bidone rosso davanti al club Lusting Sensations, su Westbrook Dr.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-3",
@@ -2529,12 +2551,15 @@
       "name": "America's Next Top Hooker · Kalisha (argento)",
       "districtId": "dis-mount-kalaga",
       "directions": "Bonanza: a sud-ovest del paese, in fondo a un pontile.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-americas-next-top-hooker-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-4",
@@ -2542,12 +2567,15 @@
       "name": "America's Next Top Hooker · Drake (argento)",
       "districtId": "dis-keys",
       "directions": "Key Lento: sull'isoletta a est del Pay 'n' Spray, vicino a una tenda e a una sdraio.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-5",
@@ -2568,12 +2596,15 @@
       "name": "America's Next Top Hooker · Drake (bronzo)",
       "districtId": "dis-port-gellhorn",
       "directions": "Manifest Canyon, lato nord-est: in un box del bagno degli uomini vicino al ponte sulla strada che esce verso est.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-7",
@@ -2581,25 +2612,15 @@
       "name": "America's Next Top Hooker · Crystal (base)",
       "districtId": "dis-port-gellhorn",
       "directions": "North Kelly County: in un box del bagno, negli edifici subito a sud-est del Bunch Farms County Store.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
-    },
-    {
-      "id": "col-carte-8",
-      "categoryId": "cat-carte",
-      "name": "America's Next Top Hooker · Dominant",
-      "districtId": "dis-keys",
-      "directions": "Riquezas Keys, isola grande a sud-ovest: accanto alla sdraio con la radio accesa, vicino a una moto d'acqua abbandonata.",
-      "status": "da verificare",
-      "source": "stampa",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-9",
@@ -2607,12 +2628,15 @@
       "name": "America's Next Top Hooker · Angel (bronzo)",
       "districtId": "dis-capri",
       "directions": "Sandbars, a nord di Belpoint: in cima al pontile dell'isola più grande e più a nord.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_America%27s_Next_Top_Hooker_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-10",
@@ -2646,12 +2670,15 @@
       "name": "Backyard Wrestling · Shovel (base)",
       "districtId": "dis-port-gellhorn",
       "directions": "Wild Hog Point: in una roulotte sulla punta.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_B.A.M._Backyard_Wrestling_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-13",
@@ -2659,25 +2686,31 @@
       "name": "Backyard Wrestling · Blood Smith (base)",
       "districtId": "dis-port-gellhorn",
       "directions": "Manifest Canyon, a sud: in cima alla struttura a casa sull'albero sotto il fiumiciattolo, poco a sud-est del Top Fun Drones di Port Gellhorn (gli edifici non si vedono sulla mappa).",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_B.A.M._Backyard_Wrestling_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-14",
       "categoryId": "cat-carte",
       "name": "Backyard Wrestling · Chico Bonez (base)",
       "districtId": "dis-ambrosia",
-      "directions": "Belville: nel garage a nord-ovest dello Xero Food Mart. Un'altra copia sta nella cassetta sul lato destro del pontile a T sulla riva sud del Lake Leonida.",
+      "directions": "Belville: nel garage a nord-ovest dello Xero Food Mart. Un'altra copia sta nella cassetta sul lato destro del pontile a T sulla riva sud del Lake Leonida. Un'altra copia (IGN) sta a Hamlet, sulle gradinate di legno del ring di wrestling dietro una casa bianca e verde su Grisette Ave.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_B.A.M._Backyard_Wrestling_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-15",
@@ -2685,20 +2718,23 @@
       "name": "Backyard Wrestling · Judas Sterling (base)",
       "districtId": "dis-vice-city",
       "directions": "Gloriana Key: sul tetto dello stadio abbandonato, nella zona costruita a sud dell'isola.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_B.A.M._Backyard_Wrestling_Novelty_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-16",
       "categoryId": "cat-carte",
       "name": "Delights Dancers · Vicki (base)",
       "districtId": "dis-port-gellhorn",
-      "directions": "Starlet Motel (Gellhorn): nel bagno dell'ufficio, a terra vicino al water.",
-      "missable": "Dopo il capitolo 2 questa parte dello Starlet Motel non è più accessibile.",
+      "directions": "Starlet Motel (Gellhorn): nel bagno dell'ufficio, a terra vicino al water. Un'altra copia (IGN) sta a Southside, sotto una sedia sul tetto più alto dei palazzi tra SW 10th Ave e SW 11th St.",
+      "missable": "Dopo il capitolo 2 la copia dello Starlet Motel non è più raggiungibile, ma la carta si trova anche altrove.",
       "chapter": 2,
       "status": "verificato",
       "source": "stampa",
@@ -2707,7 +2743,8 @@
       "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
       ]
     },
     {
@@ -2723,7 +2760,8 @@
       "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
       ]
     },
     {
@@ -2731,13 +2769,16 @@
       "categoryId": "cat-carte",
       "name": "Delights Dancers · Amber (base)",
       "districtId": "dis-port-gellhorn",
-      "directions": "Draper Island, bordo sud: nella cassetta telefonica gialla sul lato nord di un edificio vicino ai posti di guardia. Seconda copia a Ocean Beach, nella cassetta gialla sul tetto dell'edificio a ovest del Cafe Orquidea: si sale dalle scale del palazzo accanto e si salta giù.",
+      "directions": "Draper Island, bordo sud: nella cassetta telefonica gialla sul lato nord di un edificio vicino ai posti di guardia. Seconda copia a Ocean Beach, nella cassetta gialla sul tetto dell'edificio a ovest del Cafe Orquidea: si sale dalle scale del palazzo accanto e si salta giù. Un'altra copia (IGN) sta nella South Leonard County, sotto una sedia sulla sporgenza accanto alla porta della torre mineraria Agricore.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-19",
@@ -2761,12 +2802,15 @@
       "name": "Delights Dancers · Nevaeh (base)",
       "districtId": "dis-mount-kalaga",
       "directions": "Bonanza: a sud del paese, nell'edificio mezzo crollato giù dalla scogliera.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-21",
@@ -2774,12 +2818,15 @@
       "name": "Delights Dancers · Thelma (base)",
       "districtId": "dis-keys",
       "directions": "Key Lento: nella sala di controllo un piano sotto la cima della torre al centro dell'isola.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-22",
@@ -2787,12 +2834,15 @@
       "name": "Delights Dancers · Nicole (base)",
       "districtId": "dis-hamlet",
       "directions": "Hamlet: nell'appartamento in alto a destra della fila centrale di palazzine a sud del penitenziario.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-23",
@@ -2813,12 +2863,15 @@
       "name": "Delights Dancers · Cleo (base)",
       "districtId": "dis-mount-kalaga",
       "directions": "Kalaga Reservoir: nell'edificio sulla sponda sud.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Delights_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-25",
@@ -2826,12 +2879,15 @@
       "name": "Ed Comics Universe · Side Effect (azzurra)",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: tra le roulotte a nord-ovest di quella di Dunk, nella camera da letto della roulotte visitabile al centro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Ed_Universe_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-26",
@@ -2839,12 +2895,15 @@
       "name": "Ed Comics Universe · Dr. Placebo (azzurra)",
       "districtId": "dis-vice-city",
       "directions": "La Perle: nell'edificio a sud-ovest del Pay 'n' Spray, sullo scaffale del grande stanzone al piano terra.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Ed_Universe_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-27",
@@ -2856,10 +2915,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Ed_Universe_Comic_Card_Locations"
       ]
     },
     {
@@ -2868,12 +2928,15 @@
       "name": "Ed Comics Universe · Ratface (bronzo)",
       "districtId": "dis-vice-city",
       "directions": "La Perle: nel grande magazzino subito a ovest del Pay 'n' Spray, sul divano contro la parete sud.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-ed-comics-universe-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Ed_Universe_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-29",
@@ -2894,12 +2957,15 @@
       "name": "Ed Comics Universe · Funny Bones (arancione)",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: in cima al serbatoio dell'acqua a nord della città.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Ed_Universe_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-31",
@@ -2907,12 +2973,15 @@
       "name": "Jack of Hearts Dancers · Kadisha (rosa)",
       "districtId": "dis-vice-city",
       "directions": "VCIA: nella roulotte visitabile a sud-ovest del Pawn City, sul materasso a terra.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-32",
@@ -2920,12 +2989,15 @@
       "name": "Jack of Hearts Dancers · Kelly (viola)",
       "districtId": "dis-vice-city",
       "directions": "Tequesta: a ovest dei Vice Seven Condominiums, sopra i container a ovest dei due motel a forma di C.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-33",
@@ -2946,12 +3018,15 @@
       "name": "Jack of Hearts Dancers · Brianna Blue (rosso scuro)",
       "districtId": "dis-grassrivers",
       "directions": "Gullet Marsh / Pelican Valley: sull'isoletta con molti edifici al bordo ovest, nell'edificio quadrato a nord, su uno scaffale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-jack-of-hearts-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-35",
@@ -2959,12 +3034,15 @@
       "name": "Jack of Hearts Dancers · Brianna Blue (viola)",
       "districtId": "dis-capri",
       "directions": "Capri: nel retro della stazione di servizio a sud della città.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-36",
@@ -3001,12 +3079,15 @@
       "name": "Jack of Hearts Dancers · Lexi Campbell (oro)",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: nel ripostiglio del drive-in a nord del Pay 'n' Spray.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-39",
@@ -3027,12 +3108,15 @@
       "name": "Jack of Hearts Dancers · MonaLi$a (oro)",
       "districtId": "dis-keys",
       "directions": "Abismo Key: sull'isoletta a sud-est, accanto a una barca abbandonata.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-41",
@@ -3040,12 +3124,15 @@
       "name": "Jack of Hearts Dancers · MonaLi$a (argento)",
       "districtId": "dis-mount-kalaga",
       "directions": "Featherstone Islands: in cima alla sala di controllo del relitto del Meerwunder, sull'isola a sud-est.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-42",
@@ -3053,12 +3140,15 @@
       "name": "Jack of Hearts Dancers · Zaria «Ri Ri» Luckett (oro)",
       "districtId": "dis-ambrosia",
       "directions": "Little Hardin Island: sulla spiaggia sud, vicino a una sdraio e a una moto d'acqua.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Jack_of_Hearts_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-43",
@@ -3095,12 +3185,15 @@
       "name": "Liberty City Penetrators · Alexander Avain (blu navy)",
       "districtId": "dis-hamlet",
       "directions": "Hamlet: nel retro dell'LTD Food Mart.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-46",
@@ -3112,10 +3205,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
       ]
     },
     {
@@ -3124,12 +3218,15 @@
       "name": "Liberty City Penetrators · Remy Herbert (blu navy)",
       "districtId": "dis-capri",
       "directions": "Capri: nella palestra di casa della villa a ovest del Volcano Coffee Co.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-48",
@@ -3137,12 +3234,15 @@
       "name": "Liberty City Penetrators · Rion Yapa (argento)",
       "districtId": "dis-vice-city",
       "directions": "Crosstown: a ovest del Down Town Pawn, nel garage pieno di scatole di sneaker sotto la sopraelevata.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-49",
@@ -3150,25 +3250,31 @@
       "name": "Liberty City Penetrators · Demario Richardson (oro)",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: nel retro del Buck's Jewelry & Pawn, su uno scaffale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-penetrators-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-50",
       "categoryId": "cat-carte",
       "name": "Liberty City Penetrators · D'Angelou Miles (base)",
       "districtId": "dis-keys",
-      "directions": "Key Lento: nell'edificio rettangolare visitabile subito a sud del Rusty Anchor, dentro una scatola.",
+      "directions": "Key Lento: nell'edificio rettangolare visitabile subito a sud del Rusty Anchor, dentro una scatola. Un'altra copia (IGN) sta a Waning Sands, sul divano a L del balcone all'ultimo piano, sul retro della casa color sabbia sull'acqua su Catalan Blvd.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-51",
@@ -3189,12 +3295,15 @@
       "name": "Liberty City Penetrators · Noah Marcus (bronzo)",
       "districtId": null,
       "directions": "Vespucci Island, lato est: su un tavolo da biliardo in un garage a sud del ponte che esce dall'isola.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-53",
@@ -3218,12 +3327,15 @@
       "name": "Liberty City Swingers · Seo-Jun Kim (base)",
       "districtId": "dis-vice-beach",
       "directions": "Ocean Beach: nell'angolo nord-ovest del parco, in cima alla scalinata alta degli spalti del campo da baseball. Un'altra copia sta nella cassetta in cima alla torre a est del Pay 'n' Spray di Port Gellhorn.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-swingers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-swingers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-56",
@@ -3235,10 +3347,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-swingers-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations"
       ]
     },
     {
@@ -3246,13 +3359,16 @@
       "categoryId": "cat-carte",
       "name": "Liberty City Swingers · Juan Carlos Garcia (base)",
       "districtId": "dis-keys",
-      "directions": "Key Lento: dentro una scatola in un garage al centro dell'isola.",
+      "directions": "Key Lento: dentro una scatola in un garage al centro dell'isola. Un'altra copia (IGN) sta a Downtown, a terra accanto alla panchina della fermata del bus North Vice Ave - A.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-58",
@@ -3260,12 +3376,15 @@
       "name": "Liberty City Swingers · Ichiro Yamada (argento)",
       "districtId": "dis-vice-city",
       "directions": "Port VC Terminal: su un tavolo nei magazzini del porto.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-59",
@@ -3273,12 +3392,15 @@
       "name": "Liberty City Swingers · Ichiro Yamada (bronzo)",
       "districtId": null,
       "directions": "Vespucci Island: nel garage pieno di vestiti, a sud della villa da rapinare.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-60",
@@ -3299,12 +3421,15 @@
       "name": "Liberty City Wrath · Anthony Poke II (rosso scuro)",
       "districtId": "dis-vice-beach",
       "directions": "Oldby Island (Vickery Dr): nell'Ajax Gym, su una bacheca nel corridoio superiore. Ci si arriva dal tetto, salendo dalla stanza privata che Lucia ottiene con la storia, o dalla porta dietro i tapis roulant, in cima alle scale della sala pesi.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Wrath_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-62",
@@ -3316,10 +3441,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Wrath_Football_Card_Locations"
       ]
     },
     {
@@ -3328,25 +3454,31 @@
       "name": "Liberty City Wrath · Robbie Stine (bronzo)",
       "districtId": "dis-vice-city",
       "directions": "Catalan Key: nel garage di una villa della comunità recintata a sud dell'isola.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Wrath_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-64",
       "categoryId": "cat-carte",
       "name": "Liberty City Wrath · Dartanyon Pearson (base)",
       "districtId": "dis-keys",
-      "directions": "Key Lento: sul caminetto della casa da scassinare nel centro-nord dell'isola.",
+      "directions": "Key Lento: sul caminetto della casa da scassinare nel centro-nord dell'isola. Un'altra copia (IGN) sta nel sud-ovest di Key Lento, sulla mensola sotto la TV della casa bianca sull'acqua su Sunset Dr.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Liberty_City_Wrath_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-65",
@@ -3366,15 +3498,18 @@
       "categoryId": "cat-carte",
       "name": "Los Santos Corkers · Victor Maravilla (base)",
       "districtId": "dis-port-gellhorn",
-      "directions": "Starlet Motel (Gellhorn): nella cucina, sul frigorifero.",
-      "missable": "Dopo il capitolo 2 questa parte dello Starlet Motel non è più accessibile.",
+      "directions": "Starlet Motel (Gellhorn): nella cucina, sul frigorifero. Un'altra copia (IGN) sta ad Ambrosia ovest, sul bordo della panchina nel dugout del campo da baseball.",
+      "missable": "Dopo il capitolo 2 la copia dello Starlet Motel non è più raggiungibile, ma la carta si trova anche altrove.",
       "chapter": 2,
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Corkers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-67",
@@ -3386,10 +3521,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Corkers_Baseball_Card_Locations"
       ]
     },
     {
@@ -3398,12 +3534,15 @@
       "name": "Los Santos Corkers · Franklin Turner (oro)",
       "districtId": "dis-capri",
       "directions": "Capri: sul pianerottolo al piano di sopra di una casa all'inizio della penisola a sud-est.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Corkers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-69",
@@ -3411,12 +3550,15 @@
       "name": "Los Santos Corkers · Carlos Larios (bronzo)",
       "districtId": "dis-vice-beach",
       "directions": "Ocean Beach: nel campo da baseball all'angolo nord-ovest del parco, a terra nella panchina ovest.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-corkers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Corkers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-70",
@@ -3424,12 +3566,15 @@
       "name": "Los Santos Corkers · Xavier Gomez (base)",
       "districtId": "dis-hamlet",
       "directions": "Hamlet: nell'ufficio dell'autolavaggio subito a nord-est del Boone Speedway.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Corkers_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-71",
@@ -3457,7 +3602,8 @@
       "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Panic_Basketball_Card_Locations"
       ]
     },
     {
@@ -3466,12 +3612,15 @@
       "name": "Los Santos Panic · Nikkander Orlov (argento)",
       "districtId": "dis-grassrivers",
       "directions": "Watson Bay, bordo est: sullo scaffale di una tettoia accanto a una casa.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Panic_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-74",
@@ -3505,12 +3654,15 @@
       "name": "Los Santos Panic · Santiago Lopez (base)",
       "districtId": "dis-keys",
       "directions": "Key Lento: nella roulotte subito a ovest del primo rifugio.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Panic_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-77",
@@ -3531,12 +3683,15 @@
       "name": "Los Santos Pounders · Sione Apa (rosso scuro)",
       "districtId": "dis-vice-city",
       "directions": "Tequesta: nella palestra dei Vice Seven Condominiums, nello spogliatoio sud.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-79",
@@ -3544,12 +3699,15 @@
       "name": "Los Santos Pounders · Maximus Goldbart (gialla)",
       "districtId": "dis-waning-sands",
       "directions": "Waning Sands: nel garage della villa a est del Pay 'n' Spray.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-80",
@@ -3561,10 +3719,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations"
       ]
     },
     {
@@ -3573,12 +3732,15 @@
       "name": "Los Santos Pounders · Laki Maivia (oro)",
       "districtId": null,
       "directions": "Casanova Island: nella sala pesi al piano di sopra della casa visitabile a nord dell'isola.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-82",
@@ -3612,12 +3774,15 @@
       "name": "Los Santos Pounders · Granian Beach (base)",
       "districtId": "dis-grassrivers",
       "directions": "Watson Bay: nella camera di una casa sotto il ponte che esce a nord dal paese.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-85",
@@ -3625,12 +3790,15 @@
       "name": "Nine1Nine Dancers · Serena (oro)",
       "districtId": "dis-vice-city",
       "directions": "Peacock Estates: nel garage della villa più a sud.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-nine1nine-dancers-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-nine1nine-dancers-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Nine1Nine_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-86",
@@ -3651,12 +3819,15 @@
       "name": "Nine1Nine Dancers · Clarissa (argento)",
       "districtId": "dis-capri",
       "directions": "Capri: nel garage di una casa sulla penisola a nord-ovest.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Nine1Nine_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-88",
@@ -3664,12 +3835,15 @@
       "name": "Nine1Nine Dancers · Braelynn (rosso scuro)",
       "districtId": "dis-port-gellhorn",
       "directions": "North Kelly County: dentro l'Hoffman Observatory, sulla vetta a ovest. Si sale sul rottame d'auto, poi sull'impalcatura, e si entra dalla finestra aperta.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Nine1Nine_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-89",
@@ -3677,12 +3851,15 @@
       "name": "Nine1Nine Dancers · Lavinia (rosso scuro)",
       "districtId": "dis-port-gellhorn",
       "directions": "Draper Island: nell'ufficio del magazzino visitabile dentro l'area riservata.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Nine1Nine_Dancers_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-90",
@@ -3703,12 +3880,15 @@
       "name": "Right Wing: America's Hero · Flamer (rossa)",
       "districtId": "dis-mount-kalaga",
       "directions": "Grayson: al centro del paese, sulla passerella superiore della Williams Guest House, su uno scaffale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Right_Wing:_America%27s_Hero_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-92",
@@ -3716,27 +3896,31 @@
       "name": "Right Wing: America's Hero · Flamer (bianca)",
       "districtId": "dis-grassrivers",
       "directions": "Watson Bay, campeggio sul bordo est: attaccata a una bacheca sul fianco dei bagni al centro del campeggio.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Right_Wing:_America%27s_Hero_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-93",
       "categoryId": "cat-carte",
       "name": "Right Wing: America's Hero · Right Wing (rossa)",
       "districtId": "dis-vice-city",
-      "directions": "Bayside: nell'atrio al piano terra dei Bayside Apartments, sul tavolino della stanza con i giochi da piscina.",
+      "directions": "Bayside: nell'atrio al piano terra dei Bayside Apartments, sul tavolino della stanza con i giochi da piscina. Un'altra copia (IGN) sta a Grassrivers, sul ripiano basso di uno scaffale nel magazzino della stazione Xero sulla US-82.",
       "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-right-wing-americas-hero-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Right_Wing:_America%27s_Hero_Comic_Card_Locations"
       ]
     },
     {
@@ -3745,12 +3929,15 @@
       "name": "Right Wing: America's Hero · Right Wing vs Left Wing (rossa)",
       "districtId": "dis-port-gellhorn",
       "directions": "Port Gellhorn: dentro l'autoscontro del luna park abbandonato.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Right_Wing:_America%27s_Hero_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-95",
@@ -3775,10 +3962,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Legends_of_Ratface_Comic_Card_Locations"
       ]
     },
     {
@@ -3787,12 +3975,15 @@
       "name": "The Legends of Ratface · Illuminaughty (blu)",
       "districtId": "dis-hamlet",
       "directions": "Hamlet: sul frigorifero di un appartamento al piano alto, nella palazzina più a sinistra a sud del penitenziario.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Legends_of_Ratface_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-98",
@@ -3813,12 +4004,15 @@
       "name": "The Legends of Ratface · The Ratster (viola)",
       "districtId": "dis-grassrivers",
       "directions": "Buckskin Swamp: sulla torre di avvistamento al centro della palude, all'ultimo piano, sulla ringhiera tra i binocoli.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Legends_of_Ratface_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-100",
@@ -3826,12 +4020,15 @@
       "name": "The Legends of Ratface · Wokester (blu)",
       "districtId": "dis-keys",
       "directions": "Key Lento: su una panchina sul lato nord-est del negozio The Wonder Whale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-the-legends-of-ratface-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Legends_of_Ratface_Comic_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-101",
@@ -3851,13 +4048,16 @@
       "categoryId": "cat-carte",
       "name": "Vice City Club De Fútbol · Ayokunumi Kasimu (base)",
       "districtId": "dis-vice-city",
-      "directions": "Decor District: a nord dell'edificio subito a ovest di Roval Jewelry, dentro un container giallo SCOOP da aprire con il tronchese.",
+      "directions": "Decor District: a nord dell'edificio subito a ovest di Roval Jewelry, dentro un container giallo SCOOP da aprire con il tronchese. Un'altra copia (IGN) sta a Port Gellhorn ovest, sull'ultima fila della tribuna più a est del campetto malandato, accanto a uno zaino.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/"
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-103",
@@ -3865,12 +4065,15 @@
       "name": "Vice City Club De Fútbol · Ian Harris (argento)",
       "districtId": "dis-vice-beach",
       "directions": "Ocean Beach: nella torretta arancione del bagnino, sulla spiaggia a est dell'Ocean View Rooftop Bar.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-104",
@@ -3891,12 +4094,15 @@
       "name": "Vice City Club De Fútbol · Ian Harris (oro)",
       "districtId": "dis-vice-beach",
       "directions": "Leaf Links: in un garage nella parte ovest.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-106",
@@ -3904,12 +4110,15 @@
       "name": "Vice City Club De Fútbol · Badge (argento)",
       "districtId": "dis-mount-kalaga",
       "directions": "Mount Kalaga: nella capanna vicino alla vetta, al piano di sopra (scala a pioli).",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-club-de-futbol-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-107",
@@ -3946,12 +4155,15 @@
       "name": "Vice City Flamingos · Julian Cruz (oro)",
       "districtId": "dis-vice-city",
       "directions": "Little Cuba: nell'edificio subito a sud del negozio di Yasmani, nell'ufficio sul lato nord del lungo corridoio, su una bacheca.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-110",
@@ -3972,12 +4184,15 @@
       "name": "Vice City Flamingos · Ulysses Whitlock (argento)",
       "districtId": "dis-vice-city",
       "directions": "Tequesta: sul tetto dell'edificio con l'eliporto a est del Grand Majestic Gym, in cima alla scala a chiocciola. Si sale con l'ascensore interno.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-112",
@@ -3997,13 +4212,16 @@
       "categoryId": "cat-carte",
       "name": "Vice City Flamingos · Charlie Spears (base)",
       "districtId": "dis-port-gellhorn",
-      "directions": "Gellhorn Speedway: nell'edificio riservato vicino all'eliporto, in una cassetta chiusa nel ripostiglio al piano di sopra.",
+      "directions": "Gellhorn Speedway: nell'edificio riservato vicino all'eliporto, in una cassetta chiusa nel ripostiglio al piano di sopra. Un'altra copia (IGN) sta a Little Cuba, attaccata al frigorifero nella cucina di una casa blu su Northbrook Dr.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-114",
@@ -4011,12 +4229,15 @@
       "name": "Vice City Flamingos · Elias Delgado (argento)",
       "districtId": "dis-grassrivers",
       "directions": "Watson Bay: nel garage appena oltre il fiume, accanto a un'Imponte Soaring Phoenix.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-115",
@@ -4024,12 +4245,15 @@
       "name": "Vice City Flamingos · Angel Cienfuegos (argento)",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nel garage della casa subito sotto il laghetto a forma di O, a nord del centro.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-116",
@@ -4037,12 +4261,15 @@
       "name": "Vice City Flamingos · Harold Toye (rosa)",
       "districtId": "dis-waning-sands",
       "directions": "Waning Sands, sud-est: nel garage pieno di oggetti rosa.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Flamingos_Baseball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-117",
@@ -4057,7 +4284,8 @@
       "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-manatees-collectible-card-set-locations/",
       "moreSources": [
-        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Manatees_Football_Card_Locations"
       ]
     },
     {
@@ -4097,13 +4325,16 @@
       "categoryId": "cat-carte",
       "name": "Vice City Manatees · Reggie Pierce (base)",
       "districtId": "dis-port-gellhorn",
-      "directions": "Port Gellhorn: sul tetto del drive-in a nord del Pay 'n' Spray.",
+      "directions": "Port Gellhorn: sul tetto del drive-in a nord del Pay 'n' Spray. Un'altra copia (IGN) sta a Rockridge, sotto una panchina della passerella sopraelevata tra il Fleeca Field e la stazione Manatees Stadium della Central Line.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Manatees_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-121",
@@ -4111,12 +4342,15 @@
       "name": "Vice City Manatees · Dominic Brizzolato (oro)",
       "districtId": "dis-vice-city",
       "directions": "Catalan Key: nel Vice City Oceanarium, sotto la cupola, dentro la grande bocca di squalo accanto alla tartaruga.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Manatees_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-122",
@@ -4124,12 +4358,15 @@
       "name": "Vice City Manatees · John Morgan (verde)",
       "districtId": null,
       "directions": "Casanova Island: nel garage di una casa a metà della fila sul bordo sud.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Manatees_Football_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-123",
@@ -4186,12 +4423,15 @@
       "name": "Vice City Narcos · Nicky McVee (argento)",
       "districtId": "dis-grassrivers",
       "directions": "Watson Bay: sul frigorifero della casetta a sud-ovest del Top Fun Drones, sul lato sud della strada principale.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Narcos_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-127",
@@ -4199,12 +4439,15 @@
       "name": "Vice City Narcos · Leroy Rook (oro)",
       "districtId": "dis-ambrosia",
       "directions": "Belville: nella cassaforte in camera da letto della casa poco a sud-est del campus Cellerica.",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/All_Vice_City_Narcos_Basketball_Card_Locations"
+      ]
     },
     {
       "id": "col-carte-128",
@@ -4227,15 +4470,18 @@
     {
       "id": "col-carte-129",
       "categoryId": "cat-carte",
-      "name": "Set da identificare · Immigrantasma (Staks)",
+      "name": "Right Wing: America's Hero · Immigrintasma (rossa)",
       "districtId": "dis-keys",
-      "directions": "Abismo Key: nel bagno pubblico delle donne sotto il ponte a ovest dell'isola.",
+      "directions": "Abismo Key, ovest: sopra il water del bagno pubblico nel parco statale, sotto il ponte. IGN dice il bagno degli uomini, The Big Lead quello delle donne: guarda in tutti e due.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Right_Wing:_America%27s_Hero_Comic_Card_Locations",
+      "moreSources": [
+        "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/"
+      ]
     },
     {
       "id": "col-riviste-1",
@@ -6832,23 +7078,31 @@
       "categoryId": "cat-fauna",
       "districtId": "dis-vice-city",
       "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Common_Snook",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "name": "Snook",
+      "updatedAt": "2026-11-19",
+      "name": "Common Snook",
       "group": "pesci",
       "emoji": "🐟",
-      "short": "Pesce da pesca sportiva: alle Rialto Islands, nella Catalan Bay, c'è un punto di pesca per gli esemplari grandi. Equipaggia la canna e prova a prenderne uno.",
+      "short": "Si pesca con la Medium Saltwater Lure. Quando entri in un posto di pesca per gli esemplari grandi, un messaggio ti avvisa.",
       "scientificName": "Centropomus undecimalis",
       "temperament": "innocuo",
-      "habitat": "Acque costiere della Catalan Bay (Rialto Islands)",
+      "habitat": "Acque della baia tra Vice City e Vice Beach (Rialto Islands, Catalan, Vespucci, Waxman e Starfish Island)",
       "protectedReal": "regolamentato (pesca a stagione, con misure minime)",
       "actions": [
         "Pescare",
         "Studiare"
-      ]
+      ],
+      "districtIds": [
+        "dis-vice-city",
+        "dis-vice-beach"
+      ],
+      "moreSources": [
+        "https://gta.wiki/w/Common_Snook"
+      ],
+      "directions": "Nelle acque tra Vice City e Vice Beach, a nord di Waxman Island e Starfish Island e a sud di Catalan, Vespucci e Rialto Islands: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $)."
     },
     {
       "id": "col-carte-130",
@@ -20134,6 +20388,934 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/BASE_Jumps"
+    },
+    {
+      "id": "col-fauna-anguilla-americana",
+      "categoryId": "cat-fauna",
+      "name": "American Eel",
+      "districtId": "dis-grassrivers",
+      "directions": "Cottonmouth Lake (contea di Mariana): il punto migliore secondo IGN. Esca: Medium Freshwater Lure (40 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Cottonmouth Lake (contea di Mariana)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è anguilla americana. Si pesca con la Medium Freshwater Lure.",
+      "scientificName": "Anguilla rostrata"
+    },
+    {
+      "id": "col-fauna-atlantic-spadefish",
+      "categoryId": "cat-fauna",
+      "name": "Atlantic Spadefish",
+      "districtId": "dis-keys",
+      "directions": "Stretto di Leonida, a sud della contea di Mariana: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $). È uno dei pesci delle sfide di pesca con Cal.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Stretto di Leonida, a sud della contea di Mariana",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Medium Saltwater Lure. È uno dei pesci delle sfide di pesca con Cal.",
+      "scientificName": "Chaetodipterus faber"
+    },
+    {
+      "id": "col-fauna-spanish-mackerel",
+      "categoryId": "cat-fauna",
+      "name": "Atlantic Spanish Mackerel",
+      "districtId": "dis-keys",
+      "directions": "A sud di Key Lento, verso lo Stretto di Leonida: il punto migliore secondo IGN. Esca: un'esca da acqua salata.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "A sud di Key Lento, verso lo Stretto di Leonida",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con un'esca da acqua salata.",
+      "scientificName": "Scomberomorus maculatus"
+    },
+    {
+      "id": "col-fauna-tarpone",
+      "categoryId": "cat-fauna",
+      "name": "Atlantic Tarpon",
+      "districtId": "dis-port-gellhorn",
+      "directions": "Port Gellhorn, nord-ovest (contea di Kelly): il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Port Gellhorn, nord-ovest (contea di Kelly)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è tarpone. Si pesca con la Large Saltwater Lure.",
+      "scientificName": "Megalops atlanticus"
+    },
+    {
+      "id": "col-fauna-thread-herring",
+      "categoryId": "cat-fauna",
+      "name": "Atlantic Thread Herring",
+      "districtId": "dis-vice-beach",
+      "directions": "Nell'Atlantico, a nord-est di Vice Beach: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nell'Atlantico, a nord-est di Vice Beach",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Large Saltwater Lure.",
+      "scientificName": "Opisthonema oglinum"
+    },
+    {
+      "id": "col-fauna-bluegill",
+      "categoryId": "cat-fauna",
+      "name": "Bluegill",
+      "districtId": "dis-capri",
+      "directions": "Nehrling River (North Mariana County): il punto migliore secondo IGN. Esca: Small Freshwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nehrling River (North Mariana County)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Freshwater Lure.",
+      "scientificName": "Lepomis macrochirus"
+    },
+    {
+      "id": "col-fauna-candy-fish",
+      "categoryId": "cat-fauna",
+      "name": "Candy Fish",
+      "districtId": "dis-ambrosia",
+      "directions": "Lake Leonida: il punto migliore secondo IGN. Esca: Candy Cane Lure. L'esca speciale non si compra: la trovi nel garage di una casa ad Ambrosia.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Lake Leonida",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Candy Cane Lure. L'esca speciale non si compra: la trovi nel garage di una casa ad Ambrosia."
+    },
+    {
+      "id": "col-fauna-pesce-gatto",
+      "categoryId": "cat-fauna",
+      "name": "Channel Catfish",
+      "districtId": "dis-grassrivers",
+      "directions": "Buckskin Swamp (South Kelly County): il punto migliore secondo IGN. Esca: Medium Freshwater Lure (40 $). È uno dei pesci delle sfide di pesca con Cal.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Buckskin Swamp (South Kelly County)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è pesce gatto punteggiato. Si pesca con la Medium Freshwater Lure. È uno dei pesci delle sfide di pesca con Cal.",
+      "scientificName": "Ictalurus punctatus"
+    },
+    {
+      "id": "col-fauna-lake-chubsucker",
+      "categoryId": "cat-fauna",
+      "name": "Lake Chubsucker",
+      "districtId": "dis-mount-kalaga",
+      "directions": "Lake Tallaloko (East Lummox County): il punto migliore secondo IGN. Esca: Small Freshwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Lake Tallaloko (East Lummox County)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Freshwater Lure.",
+      "scientificName": "Erimyzon sucetta"
+    },
+    {
+      "id": "col-fauna-ricciola",
+      "categoryId": "cat-fauna",
+      "name": "Greater Amberjack",
+      "districtId": "dis-vice-beach",
+      "directions": "Nell'Atlantico, al largo della costa sud-est di Dalton Island: il punto migliore secondo IGN. Esca: Small Saltwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nell'Atlantico, al largo della costa sud-est di Dalton Island",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è ricciola. Si pesca con la Small Saltwater Lure.",
+      "scientificName": "Seriola dumerili"
+    },
+    {
+      "id": "col-fauna-barracuda",
+      "categoryId": "cat-fauna",
+      "name": "Great Barracuda",
+      "districtId": "dis-keys",
+      "directions": "Stretto di Leonida, vicino a Key Lento: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "predatore",
+      "habitat": "Stretto di Leonida, vicino a Key Lento",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è barracuda. Si pesca con la Large Saltwater Lure.",
+      "scientificName": "Sphyraena barracuda"
+    },
+    {
+      "id": "col-fauna-persico-trota",
+      "categoryId": "cat-fauna",
+      "name": "Largemouth Bass",
+      "districtId": "dis-grassrivers",
+      "directions": "Gullet Marsh, vicino a Watson Bay: il punto migliore secondo IGN. Esca: Small Freshwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Gullet Marsh, vicino a Watson Bay",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è persico trota. Si pesca con la Small Freshwater Lure.",
+      "scientificName": "Micropterus salmoides"
+    },
+    {
+      "id": "col-fauna-rock-sea-bass",
+      "categoryId": "cat-fauna",
+      "name": "Rock Sea Bass",
+      "districtId": "dis-grassrivers",
+      "directions": "A ovest di Watson Bay: il punto migliore secondo IGN. Esca: Small Saltwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "A ovest di Watson Bay",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Saltwater Lure.",
+      "scientificName": "Centropristis philadelphica"
+    },
+    {
+      "id": "col-fauna-spigola-striata",
+      "categoryId": "cat-fauna",
+      "name": "Striped Bass",
+      "districtId": "dis-mount-kalaga",
+      "directions": "Patridge Bay, nel nord della contea di Lummox: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Patridge Bay, nel nord della contea di Lummox",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è spigola striata. Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Morone saxatilis"
+    },
+    {
+      "id": "col-fauna-cobia",
+      "categoryId": "cat-fauna",
+      "name": "Cobia",
+      "districtId": "dis-vice-beach",
+      "directions": "Nell'Atlantico, a est di Vice Beach: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $). È uno dei pesci delle sfide di pesca con Cal.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nell'Atlantico, a est di Vice Beach",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è cobia. Si pesca con la Large Saltwater Lure. È uno dei pesci delle sfide di pesca con Cal.",
+      "scientificName": "Rachycentron canadum"
+    },
+    {
+      "id": "col-fauna-black-drum",
+      "categoryId": "cat-fauna",
+      "name": "Black Drum",
+      "districtId": "dis-mount-kalaga",
+      "directions": "Okchiloha Bay, nel nord-ovest della contea di Lummox: il punto migliore secondo IGN.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Okchiloha Bay, nel nord-ovest della contea di Lummox",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Uno dei 35 pesci della collezione Animali.",
+      "scientificName": "Pogonias cromis"
+    },
+    {
+      "id": "col-fauna-murena-maculata",
+      "categoryId": "cat-fauna",
+      "name": "Spotted Moray Eel",
+      "districtId": "dis-ambrosia",
+      "directions": "Nell'Atlantico, a est della contea di Leonard: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "territoriale",
+      "habitat": "Nell'Atlantico, a est della contea di Leonard",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è murena maculata. Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Gymnothorax moringa"
+    },
+    {
+      "id": "col-fauna-leonida-gar",
+      "categoryId": "cat-fauna",
+      "name": "Leonida Gar",
+      "districtId": "dis-grassrivers",
+      "directions": "Grassrivers, a ovest di Hamlet: il punto migliore secondo IGN. Esca: Medium Freshwater Lure (40 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Grassrivers, a ovest di Hamlet",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Medium Freshwater Lure."
+    },
+    {
+      "id": "col-fauna-cernia-nera",
+      "categoryId": "cat-fauna",
+      "name": "Black Grouper",
+      "districtId": "dis-keys",
+      "directions": "Leonida Bay, a nord della Mile Zero Air Station: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Leonida Bay, a nord della Mile Zero Air Station",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è cernia nera. Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Mycteroperca bonaci"
+    },
+    {
+      "id": "col-fauna-cernia-tigre",
+      "categoryId": "cat-fauna",
+      "name": "Tiger Grouper",
+      "districtId": "dis-port-gellhorn",
+      "directions": "Draper Bay, lato ovest (contea di Kelly): il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Draper Bay, lato ovest (contea di Kelly)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è cernia tigre. Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Mycteroperca tigris"
+    },
+    {
+      "id": "col-fauna-bluestriped-grunt",
+      "categoryId": "cat-fauna",
+      "name": "Bluestriped Grunt",
+      "districtId": "dis-keys",
+      "directions": "Abismo Key, tra Key Lento e la Mile Zero Air Station: il punto migliore secondo IGN. Esca: Small Saltwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Abismo Key, tra Key Lento e la Mile Zero Air Station",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Saltwater Lure.",
+      "scientificName": "Haemulon sciurus"
+    },
+    {
+      "id": "col-fauna-hogfish",
+      "categoryId": "cat-fauna",
+      "name": "Hogfish",
+      "districtId": "dis-keys",
+      "directions": "Stretto di Leonida, a nord-est di Key Lento e a est di Gambit Bay: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Stretto di Leonida, a nord-est di Key Lento e a est di Gambit Bay",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Lachnolaimus maximus"
+    },
+    {
+      "id": "col-fauna-lampuga",
+      "categoryId": "cat-fauna",
+      "name": "Mahi Mahi",
+      "districtId": "dis-keys",
+      "directions": "A sud delle Riquezas Keys e a ovest della Mile Zero Air Station: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "A sud delle Riquezas Keys e a ovest della Mile Zero Air Station",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è lampuga. Si pesca con la Large Saltwater Lure.",
+      "scientificName": "Coryphaena hippurus"
+    },
+    {
+      "id": "col-fauna-pesce-pappagallo",
+      "categoryId": "cat-fauna",
+      "name": "Stoplight Parrotfish",
+      "districtId": "dis-keys",
+      "directions": "Shoeless Keys, lato sud-est: il punto migliore secondo IGN. Esca: Small Saltwater Lure. È il pesce della prima sfida di Cal, nel capitolo 1: devi prenderne uno sopra le 2 libbre.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Shoeless Keys, lato sud-est",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è pesce pappagallo. Si pesca con la Small Saltwater Lure. È il pesce della prima sfida di Cal, nel capitolo 1: devi prenderne uno sopra le 2 libbre.",
+      "scientificName": "Sparisoma viride"
+    },
+    {
+      "id": "col-fauna-permit",
+      "categoryId": "cat-fauna",
+      "name": "Permit",
+      "districtId": "dis-hamlet",
+      "directions": "Stretto di Leonida, a sud della contea di Vice-Dale e a est della South Vice-Dale County: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $). È uno dei pesci delle sfide di pesca con Cal.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Stretto di Leonida, a sud della contea di Vice-Dale e a est della South Vice-Dale County",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Large Saltwater Lure. È uno dei pesci delle sfide di pesca con Cal.",
+      "scientificName": "Trachinotus falcatus"
+    },
+    {
+      "id": "col-fauna-redfin-pickerel",
+      "categoryId": "cat-fauna",
+      "name": "Redfin Pickerel",
+      "districtId": "dis-grassrivers",
+      "directions": "A sud-ovest della South Kelly County e di Buckskin Swamp: il punto migliore secondo IGN. Esca: Small Freshwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "A sud-ovest della South Kelly County e di Buckskin Swamp",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Freshwater Lure.",
+      "scientificName": "Esox americanus americanus"
+    },
+    {
+      "id": "col-fauna-littlehead-porgy",
+      "categoryId": "cat-fauna",
+      "name": "Littlehead Porgy",
+      "districtId": null,
+      "directions": "Nel Golfo di Leonida, a sud delle Crude Islands e a ovest della South Kelly County: il punto migliore secondo IGN. Esca: Small Saltwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nel Golfo di Leonida, a sud delle Crude Islands e a ovest della South Kelly County",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Saltwater Lure.",
+      "scientificName": "Calamus proridens"
+    },
+    {
+      "id": "col-fauna-salt-fish",
+      "categoryId": "cat-fauna",
+      "name": "Salt Fish",
+      "districtId": "dis-ambrosia",
+      "directions": "Lake Leonida, a sud della North Leonard County: il punto migliore secondo IGN. Esca: Medium Freshwater Lure (40 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Lake Leonida, a sud della North Leonard County",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Medium Freshwater Lure."
+    },
+    {
+      "id": "col-fauna-red-snapper",
+      "categoryId": "cat-fauna",
+      "name": "Northern Red Snapper",
+      "districtId": "dis-grassrivers",
+      "directions": "Leonida Bay, nord-ovest, a sud-ovest di Grassrivers: il punto migliore secondo IGN. Esca: Medium Saltwater Lure (50 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Leonida Bay, nord-ovest, a sud-ovest di Grassrivers",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è lutiano rosso. Si pesca con la Medium Saltwater Lure.",
+      "scientificName": "Lutjanus campechanus"
+    },
+    {
+      "id": "col-fauna-yellowtail-snapper",
+      "categoryId": "cat-fauna",
+      "name": "Yellowtail Snapper",
+      "districtId": "dis-keys",
+      "directions": "Stretto di Leonida, tra la Mile Zero Air Station e Abismo Key: il punto migliore secondo IGN. Esca: Small Saltwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Stretto di Leonida, tra la Mile Zero Air Station e Abismo Key",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Saltwater Lure.",
+      "scientificName": "Ocyurus chrysurus"
+    },
+    {
+      "id": "col-fauna-redbreast-sunfish",
+      "categoryId": "cat-fauna",
+      "name": "Redbreast Sunfish",
+      "districtId": "dis-port-gellhorn",
+      "directions": "Lungo il tratto nord dell'Emerald River (contea di Kelly): il punto migliore secondo IGN. Esca: Small Freshwater Lure.",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Lungo il tratto nord dell'Emerald River (contea di Kelly)",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Si pesca con la Small Freshwater Lure.",
+      "scientificName": "Lepomis auritus"
+    },
+    {
+      "id": "col-fauna-tonno-pinna-gialla",
+      "categoryId": "cat-fauna",
+      "name": "Yellowfin Tuna",
+      "districtId": null,
+      "directions": "Nel Golfo di Leonida, a ovest di Tola Bay: il punto migliore secondo IGN. Esca: Large Saltwater Lure (112 $).",
+      "group": "pesci",
+      "emoji": "🐟",
+      "temperament": "innocuo",
+      "habitat": "Nel Golfo di Leonida, a ovest di Tola Bay",
+      "actions": [
+        "Pescare",
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Fishing",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "short": "Il nome comune italiano è tonno pinna gialla. Si pesca con la Large Saltwater Lure.",
+      "scientificName": "Thunnus albacares"
+    },
+    {
+      "id": "col-carte-480",
+      "categoryId": "cat-carte",
+      "name": "Liberty City Swingers · Steven Kendricks (base)",
+      "districtId": "dis-vice-beach",
+      "directions": "Ocean Beach: sul davanzale della torretta panoramica più alta dei Wheeler Apartments, su Atlantic Ave.",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Liberty_Swingers_Baseball_Card_Locations",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-carte-481",
+      "categoryId": "cat-carte",
+      "name": "Liberty City Penetrators · Wenyen Deng (base)",
+      "districtId": "dis-grassrivers",
+      "directions": "Watson Bay, sud-ovest: su una cassetta elettrica nell'angolo della piattaforma sull'acqua tra lo Yellow Jack Sports Bar e il capanno dietro il bancomat, su Longship Dr.",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Liberty_City_Penetrators_Basketball_Card_Locations",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-carte-482",
+      "categoryId": "cat-carte",
+      "name": "Los Santos Pounders · Zander Paton (base)",
+      "districtId": "dis-waning-sands",
+      "directions": "Waning Sands: sulla balaustra di pietra dietro il padiglione, sulla costa nord dell'isola orientale.",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Los_Santos_Pounders_Football_Card_Locations",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-mitchell",
+      "categoryId": "cat-rifugi",
+      "name": "Mitchell Auto Center",
+      "districtId": "dis-port-gellhorn",
+      "directions": "Nell'entroterra della contea di Kelly, tra Port Gellhorn e Ambrosia. Costa 4.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-7th-avenue",
+      "categoryId": "cat-rifugi",
+      "name": "7th Avenue Garage",
+      "districtId": "dis-vice-city",
+      "directions": "Vice City, appena a est dell'aeroporto. Costa 12.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-vela-rota",
+      "categoryId": "cat-rifugi",
+      "name": "Vela Rota Drive Garage",
+      "districtId": "dis-capri",
+      "directions": "Capri, sulla costa del Golfo. Costa 24.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-persistence-road",
+      "categoryId": "cat-rifugi",
+      "name": "Persistence Road Garage",
+      "districtId": "dis-waning-sands",
+      "directions": "Contea di Leonard, a nord di Vice City. Costa 7.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-wyatt-motors",
+      "categoryId": "cat-rifugi",
+      "name": "Wyatt Motors",
+      "districtId": "dis-ambrosia",
+      "directions": "Ambrosia, vicino al Lake Leonida. Costa 21.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-bonita-court",
+      "categoryId": "cat-rifugi",
+      "name": "Bonita Court Garage",
+      "districtId": "dis-vice-beach",
+      "directions": "Vice Beach, nella parte nord dell'isola. Costa 34.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-atlantic-court",
+      "categoryId": "cat-rifugi",
+      "name": "Atlantic Court Garage",
+      "districtId": "dis-vice-beach",
+      "directions": "Vice Beach, accanto al golf di Leaf Links. Costa 40.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-store-n-bolt",
+      "categoryId": "cat-rifugi",
+      "name": "Store n' Bolt",
+      "districtId": "dis-ambrosia",
+      "directions": "Ambrosia, vicino al circuito. Costa 16.800 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-port-gellhorn-station",
+      "categoryId": "cat-rifugi",
+      "name": "Port Gellhorn Station Garage",
+      "districtId": "dis-port-gellhorn",
+      "directions": "Port Gellhorn. 1 posto auto. Arriva da solo con la storia nel capitolo 2. Non si compra e non conta per il trofeo dei garage.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 2,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-thompson-court",
+      "categoryId": "cat-rifugi",
+      "name": "Thompson Court Garage",
+      "districtId": "dis-vice-beach",
+      "directions": "Vice Beach, vicino a Leaf Links. 2 posti auto. Arriva con la storia nel capitolo 4. Non si compra e non conta per il trofeo dei garage.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-ne-15th-street",
+      "categoryId": "cat-rifugi",
+      "name": "NE 15th Street Garage",
+      "districtId": "dis-vice-city",
+      "directions": "Vice City, a nord di Downtown. 2 posti auto. Arriva con la storia nel capitolo 5. Non si compra e non conta per il trofeo dei garage.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 5,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "col-garage-pegassi-residences",
+      "categoryId": "cat-rifugi",
+      "name": "Pegassi Residences Garage",
+      "districtId": "dis-vice-city",
+      "directions": "Sotto le torri Pegassi di Tequesta Retreat. 3 posti auto. Arriva con la storia nel capitolo 5. Non si compra e non conta per il trofeo dei garage.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 5,
+      "example": false,
+      "updatedAt": "2026-11-19"
     }
   ],
   "cento": [

@@ -396,7 +396,7 @@
       "type": "attività",
       "name": "Vita notturna: club, strip club, fight club",
       "districtId": "dis-vice-city",
-      "description": "Locali notturni da visitare: il Jack of Hearts di Boobie a Crosstown, il cabaret Delights a Port Gellhorn e The Vault, il nightclub di Downtown, a Vice City. Il fight club visto nei trailer non compare tra le attività del menu Progressi.",
+      "description": "Locali notturni da visitare: il Jack of Hearts di Boobie a Crosstown, il NINE1NINE nel nord di Downtown, il cabaret Delights a Port Gellhorn e The Vault, il nightclub di Downtown, a Vice City. Il fight club visto nei trailer non compare tra le attività del menu Progressi.",
       "requirements": [
         "Per il 100% servono le 2 playlist uniche, e passano dai locali: The Vault Radio si sblocca con un poster nel club; The Sniper of La Perle con 4 poster tra La Perle e Crosstown, uno dentro il Jack of Hearts."
       ],
@@ -407,7 +407,9 @@
       "steps": [
         "A The Vault scansiona con WAiNK il poster rosso all'ingresso.",
         "Al Jack of Hearts il poster è al secondo piano, nella sala di registrazione sul lato est, appoggiato su una cassa.",
-        "Al Delights c'è anche uno degli avversari di biliardo; il locale resta chiuso per un periodo durante la storia."
+        "Al Delights c'è anche uno degli avversari di biliardo; il locale resta chiuso per un periodo durante la storia.",
+        "Gli strip club sono tre. Il NINE1NINE è il più vicino a Key Lento e si apre subito, ma è caro; il Delights costa meno; il Jack of Hearts si apre solo con una missione del capitolo 3 (GamesRadar).",
+        "Negli strip club lanci soldi alle ballerine o paghi un ballo privato VIP, con Jason e con Lucia (Eurogamer)."
       ],
       "image": null,
       "status": "verificato",
@@ -415,13 +417,15 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "group": "Svago",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
         "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/",
+        "https://www.eurogamer.net/gta-6-romance-how-jason-lucias-relationship-works"
       ]
     },
     {
@@ -547,10 +551,19 @@
         "Il terzo covo dei PTT Youngin$ è dell'Ultimate Edition e non conta per il 100%."
       ],
       "steps": [
-        "Porta bombe adesive: aprono le casseforti."
+        "Porta bombe adesive: aprono le casseforti.",
+        "Avvicinati dal lato coperto: per i covi sull'acqua arriva in barca, da dove non ti vedono. Col Focus vedi in rosso guardie, esplosivi e animali pericolosi (in alcuni covi ci sono alligatori o una tigre).",
+        "L'arma unica del covo raccoglila almeno una volta: da quel momento resta tua per sempre, nel veicolo personale (GTA BOOM). Prendila prima del resto.",
+        "Dopo i primi spari arrivano rinforzi della banda e poi la polizia: raccogli in fretta contanti e droga, carica le borse nel veicolo (comando per depositarle) e vendi la droga a un ricettatore."
       ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
-      "group": "Lavoretti e crimini"
+      "group": "Lavoretti e crimini",
+      "moreSources": [
+        "https://www.eurogamer.net/gta-6-fishing-shacks-walkthrough",
+        "https://www.eurogamer.net/gta-6-exotic-animals-front-walkthrough",
+        "https://www.gtaboom.com/gta-6-early-money-motel-tiger-attack-614c",
+        "https://www.gtaboom.com/gta-6-apollo-aggregates-warehouse-stash-5820"
+      ]
     },
     {
       "image": null,
