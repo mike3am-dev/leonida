@@ -36,7 +36,7 @@ export function render() {
   const tile = (s) => `<a class="gtile" href="#${s.path}" style="--h:${s.hue}">
       <span class="gtile__icon" aria-hidden="true"><svg><use href="#n-${s.id}"/></svg></span>
       <span class="gtile__text"><span class="gtile__name">${esc(s.title)}</span><span class="gtile__num">${esc(n[s.id] || s.tagline || '')}</span></span></a>`;
-  const left = `<header class="ghead"><h1>Game</h1><p class="small muted">Tutto il gioco, sezione per sezione</p></header>
+  const left = `<header class="ghead"><h1>Game</h1><p class="ghead__sub">Missioni, mappa, armi, trofei, segreti: Leonida è tutta qui. Scegli da dove cominciare.</p></header>
     <div class="ggrid">${secs.map(tile).join('')}</div>
     <div class="glinks"><a class="btn btn--ghost" href="#/trucchi">Trucchi</a><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
   return { left, right: '', show: 'left', accent: 'teal', title: 'Game' };

@@ -2370,3 +2370,4 @@ html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] span:last-ch
 .masthead.has-back .brand { display: none; }
 /* Sui telefoni la scheda che scivola da destra parte sotto la barra in alto: «‹ Game» resta visibile e toccabile */
 html[data-posture="closed"] .dossier { top: calc(var(--masthead-h) + var(--safe-t)); }
+.ghead__sub { margin: 6px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1.1rem; line-height: 1.35; color: var(--ink-2); max-width: 32ch; }
