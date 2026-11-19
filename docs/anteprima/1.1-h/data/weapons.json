@@ -26,7 +26,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/morgan-revolver",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://www.ign.com/wikis/gta-6/Weapons"
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/"
       ],
       "caliber": ".44 Magnum",
       "magazine": "6 colpi",
@@ -37,7 +38,13 @@
         "handling": 7.8,
         "range": 6.0
       },
-      "whereToBuy": "Ammu-Nation, dal commesso: una versione per Jason e una per Lucia"
+      "whereToBuy": "Ammu-Nation, dal commesso: una versione per Jason e una per Lucia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Calendario dei bonus (Radio Times): i revolver Morgan arrivano dal capitolo 2 nell'armadietto di qualsiasi Ammu-Nation; PowerPyx invece dice che si comprano dal commesso."
+        }
+      ]
     },
     {
       "id": "wpn-girardi-es9",
@@ -78,7 +85,8 @@
         "https://www.gtabase.com/weapons/gta-6/girardi-es9",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/"
       ],
       "caliber": "9 mm",
       "magazine": "15 colpi",
@@ -94,6 +102,10 @@
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Quarter Mile ES9» nell'operazione illegale «Chatfield Storage & Logistics»; «Sand Storm ES9» in vetrina, a caro prezzo, da Big Shots."
+        },
+        {
+          "source": "stampa",
+          "text": "La Duval Signature ES9 è nella sezione Varianti dell'armadietto delle armi dal capitolo 1 (Radio Times)."
         }
       ]
     },
@@ -146,7 +158,8 @@
         "https://www.gtabase.com/weapons/gta-6/klose-k17",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/"
       ],
       "caliber": "9 mm",
       "magazine": "17 colpi",
@@ -162,6 +175,10 @@
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «PTT Youngin$ K17» nell'operazione illegale «Kamar Devon Community Center»; «San4San K17» nell'operazione illegale «Sound4Sound Studio»; «Nite Raptor K17» in vetrina, a caro prezzo, da Black Eagle. Altre 2 si ottengono con la storia o in altro modo non ancora indicato."
+        },
+        {
+          "source": "stampa",
+          "text": "La Caminos Signature K17 di Lucia è nella sezione Varianti dell'armadietto delle armi dal capitolo 2 (Radio Times)."
         }
       ]
     },
@@ -905,25 +922,25 @@
     },
     {
       "id": "wpn-speargun",
-      "name": "Fucile subacqueo",
-      "manufacturer": null,
+      "name": "Arras Bullhead",
+      "manufacturer": "Arras",
       "class": "pesante",
-      "description": "Fucile da pesca subacquea, con munizioni proprie («lance»).",
-      "howToGet": "Da verificare.",
+      "description": "Il fucile subacqueo ad arpione: si usa sott'acqua e ha munizioni proprie.",
+      "howToGet": "Te lo dà Kenton, con il metal detector, quando accompagni i suoi clienti in immersione (lavoro secondario del capitolo 1). Si sceglie dal lato sinistro della ruota delle armi.",
       "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "facts": [
-        "Compare in un solo spezzone del leak 2022",
-        "Si usa in una missione per colpire uno squalo",
-        "Munizioni proprie: «Spear Ammo»"
+        "Nome nel gioco: Arras Bullhead (PowerPyx e GTA BOOM)",
+        "Munizioni proprie: «Spear Ammo»",
+        "Si vedeva già in uno spezzone del leak del 2022"
       ],
       "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/speargun",
+        "https://www.gtaboom.com/gta-6-island-dreams-walkthrough-2362",
         "https://gta.wiki/w/Speargun"
       ]
     },
@@ -1682,9 +1699,24 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Il flacone di pillole con l'icona del cuore, nella ruota delle armi (Quadrato); il gioco avverte che l'uso ripetuto riduce l'effetto.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si compra nei minimarket a 15 $ il flacone, dal commesso o prendendolo dagli scaffali. Gratis: nei kit di pronto soccorso, a volte sui lavandini dei bagni, negli ospedali e nel retro delle ambulanze (non tutte ne hanno).",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "whereToBuy": "Minimarket"
+      "whereToBuy": "Minimarket: 15 $ il flacone",
+      "price": "15 $",
+      "facts": [
+        "Se ne portano al massimo 5 per personaggio",
+        "Cura solo fino alla linea bianca della barra della salute; più in là servono cibo o una dormita"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Un posto sicuro: al Vice City Hospital di Rockridge, entrando dall'ingresso nord-ovest e girando a sinistra dopo la reception, ci sono almeno due flaconi sui banchi della farmacia (IGN, DayOne)."
+        }
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Where_to_Get_More_Zombix_and_Adrenaline",
+        "https://playday.one/2026/11/19/gta-6-zombix-adrenaline-locations/"
+      ]
     },
     {
       "image": null,
@@ -1698,30 +1730,23 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Nello slot Triangolo della ruota delle armi.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Non si compra: si trova gratis nei kit di pronto soccorso e traumatologici, cioè borse rosse o, più spesso, armadietti bianchi a muro con l'etichetta verde (bagni dei distributori, cucine comuni, uffici, magazzini). Ne hanno anche gli ospedali e il retro di alcune ambulanze.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "whereToBuy": "Minimarket",
+      "whereToBuy": "Non si vende nei negozi",
       "extras": [
         {
           "source": "stampa",
           "text": "L'adrenalina allunga la concentrazione in combattimento."
         }
+      ],
+      "facts": [
+        "Se ne portano al massimo 3 per personaggio",
+        "Dà una spinta temporanea a tutte le statistiche"
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Where_to_Get_More_Zombix_and_Adrenaline",
+        "https://playday.one/2026/11/19/gta-6-zombix-adrenaline-locations/"
       ]
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "wpn-trauma-kit",
-      "name": "Kit traumatologico",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Tra gli oggetti, insieme ad antidolorifici, bibite e vino.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
       "image": null,
@@ -1811,21 +1836,6 @@
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons"
     },
     {
-      "id": "wpn-painkillers",
-      "name": "Antidolorifici",
-      "manufacturer": null,
-      "class": "equipaggiamento",
-      "description": "Ripristinano la salute e hanno uno slot dedicato nella ruota; usati troppo spesso fanno meno effetto.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "community",
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
-    },
-    {
       "id": "wpn-cutoff-tool",
       "name": "Attrezzo da taglio",
       "manufacturer": null,
@@ -1848,15 +1858,18 @@
       "name": "Cibo e bevande",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Snack, bibite e vino: si consumano per recuperare salute.",
-      "howToGet": "Da verificare.",
+      "description": "Quasi tutto il cibo e le bevande danno un bonus a salute, resistenza o concentrazione (le icone accanto al nome). Per curarsi in fretta i più comodi sono mele e snack dei distributori.",
+      "howToGet": "Le mele sono spesso gratis in reception, salotti e cucine, o costano 1 $ in minimarket, alimentari e caffè. I distributori di gomme da masticare stanno davanti o appena dentro molti negozi.",
       "image": null,
-      "source": "community",
+      "source": "stampa",
       "status": "da verificare",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Where_to_Get_More_Zombix_and_Adrenaline",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Gear_Up_Walkthrough"
+      ]
     },
     {
       "id": "wpn-girardi-es18",

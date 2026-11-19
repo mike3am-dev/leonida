@@ -14,10 +14,6 @@
       },
       "subAreas": [
         {
-          "name": "Ocean Beach",
-          "note": "spiaggia e alberghi art déco; sulla mappa di gioco fa parte di Vice Beach"
-        },
-        {
           "name": "Little Cuba",
           "note": "le panaderie"
         },
@@ -71,15 +67,15 @@
         },
         {
           "name": "Catalan Key (Catalan Bay)",
-          "note": "isola con l'Oceanarium e il faro"
+          "note": "isola con l'Oceanarium, il faro e Courtland Park"
         },
         {
           "name": "Tequesta Retreat",
           "note": "isola artificiale con le torri Pegassi"
         },
         {
-          "name": "Rialto Islands",
-          "note": "le isole artificiali"
+          "name": "Rialto Islands, Casanova Island, Vespucci Island, Catalan Island, Salton Memorial Island",
+          "note": "le isole artificiali della baia, tra Vice City e Vice Beach"
         },
         {
           "name": "Balsero",
@@ -102,8 +98,16 @@
           "note": "isola nella baia"
         },
         {
-          "name": "Starfish Island, Rialto Islands, Dalton Island",
-          "note": "le isole della baia"
+          "name": "Dalton Island",
+          "note": "isola a est di Port Vice City, oltre la Catalan Bay"
+        },
+        {
+          "name": "Peacock Estates",
+          "note": "le ville sulle isolette a sud di Peacock Bay"
+        },
+        {
+          "name": "Breakwater Quarry, West Vice-Dale County",
+          "note": "la grande cava a ovest del VCIA, con il cementificio Goliath e il Three Toe Lake"
         }
       ],
       "pois": [
@@ -111,7 +115,7 @@
           "id": "poi-jack-of-hearts",
           "name": "Jack of Hearts",
           "kind": "Strip club",
-          "description": "Lo strip club di Boobie Ike, parte del suo impero insieme a immobili e studio di registrazione. Dre'Quan ci prenotava artisti prima di mettersi in proprio.",
+          "description": "Lo strip club di Boobie Ike, all'estremità nord di Crosstown, parte del suo impero insieme a immobili e studio di registrazione. Dre'Quan ci prenotava artisti prima di mettersi in proprio. A differenza del NINE1NINE e del Delights, non si entra subito: si apre con una missione del capitolo 3.",
           "characterIds": [
             "chr-boobie",
             "chr-drequan"
@@ -125,7 +129,11 @@
             112
           ],
           "imageUrl": "https://gta.wiki/images/thumb/JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png/600px-JackofHearts-GTAVI-Logo-OfficialScreenshot-BoobieIke04.png?9fa4f",
-          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+          "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA",
+          "moreSources": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/"
+          ],
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-boobie-studio",
@@ -245,7 +253,7 @@
           "name": "NINE1NINE",
           "kind": "Strip club",
           "description": "Downtown Vice City, accanto al club The Vault, vicino al grande svincolo autostradale. Lo strip club più elegante e più caro: si beve, si balla e ci sono i balli privati (300 $, mancia 50 $). Aperto da subito.",
-          "status": "da verificare",
+          "status": "verificato",
           "source": "stampa",
           "image": "../../assets/img/luoghi/bayside-bayfront/landmark-l190.webp",
           "xy": [
@@ -255,7 +263,10 @@
           "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/"
+          ]
         },
         {
           "id": "poi-ammu-nation",
@@ -1644,19 +1655,22 @@
         },
         {
           "id": "poi-st-vcia-metro-station",
-          "name": "VCIA Metro Station",
+          "name": "Vice City Airport Central",
           "kind": "Stazione · Vice City Metro",
-          "description": "Al Vice City International Airport, accanto alla stazione dei treni, con i cartelli «Vice City Metro».",
+          "description": "Fermata della metropolitana (Central Line) all'aeroporto, accanto alla stazione Vice City Central, con i cartelli «Vice City Metro». Nell'elenco del gioco ci sono due stazioni con questo nome: l'altra è la fermata del Mule Airport Line, lì accanto.",
           "xy": [
             2838,
             -708
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro"
+          ]
         },
         {
           "id": "poi-st-crosstown-mover-station",
@@ -1746,85 +1760,75 @@
         },
         {
           "id": "poi-st-vcia-metro-mover-station",
-          "name": "VCIA Metro Mover Station",
+          "name": "Vice City Airport Central",
           "kind": "Stazione · People mover dell'aeroporto (VCIA)",
-          "description": "Il treno blu e bianco dell'aeroporto, che corre accanto ai convogli Metro Mule.",
+          "description": "Fermata del Mule Airport Line, il treno blu e bianco dell'aeroporto, nello snodo accanto a Vice City Central; ha lo stesso nome della fermata della metropolitana lì vicino.",
           "xy": [
             2825,
             -737
           ],
           "status": "da verificare",
-          "source": "leak",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07",
+          "updatedAt": "2026-11-19",
           "image": "../../assets/img/poi/poi-st-vcia-metro-mover-station.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L218,ig.jpg"
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L218,ig.jpg",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro"
+          ]
         },
         {
           "id": "poi-st-vcia-terminal-mover-station",
-          "name": "Stazione mover del terminal (VCIA)",
+          "name": "Vice City Airport Terminal",
           "kind": "Stazione · People mover dell'aeroporto (VCIA)",
-          "description": "gtadb: unconfirmed.",
+          "description": "Fermata del Mule Airport Line dentro il terminal dell'aeroporto.",
           "xy": [
             2484,
             -1016
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-st-north-airport-mover-station",
-          "name": "Stazione mover di Salton",
+          "name": "Vice City Airport Village",
           "kind": "Stazione · People mover dell'aeroporto (VCIA)",
-          "description": "La posizione esatta della stazione non è ancora certa.",
+          "description": "Fermata del Mule Airport Line a nord-est dell'aeroporto, verso Salton.",
           "xy": [
             2362,
             -470
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-st-vcia-train-station",
-          "name": "VCIA Train Station",
+          "name": "Vice City Central",
           "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Segnalata dal cartello autostradale «Amloco · Vice City Metro · Park-Ride».",
+          "description": "La stazione dei treni regionali Amloco accanto all'aeroporto, sul lato est del VCIA: nell'elenco della mappa si chiama Vice City Central. La segnala il cartello autostradale «Amloco · Vice City Metro · Park-Ride».",
           "xy": [
             2853,
             -698
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
-          "id": "poi-st-vice-dale-county-train-station",
-          "name": "Stazione della contea di Vice-Dale",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali) nella contea di Vice-Dale; non è ancora confermata.",
-          "xy": [
-            2343,
-            279
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro"
+          ]
         },
         {
           "id": "poi-rifugio-bayside",
@@ -3871,80 +3875,41 @@
         {
           "id": "poi-st-shoreline-park-station",
           "name": "Shoreline Park",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "kind": "Stazione · Metro Mule – City Mule Line",
+          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-st-downtown-north-station",
           "name": "Downtown North",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "kind": "Stazione · Metro Mule – City Mule Line",
+          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-st-courthouse-station",
           "name": "Courthouse",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
+          "kind": "Stazione · Metro Mule – City Mule Line",
+          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-st-vice-city-airport-village-station",
-          "name": "Vice City Airport Village",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-          "image": null,
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-st-vice-city-central-station",
-          "name": "Vice City Central",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-          "image": null,
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-st-vice-city-airport-central-station",
-          "name": "Vice City Airport Central",
-          "kind": "Stazione",
-          "description": "Una delle 19 stazioni della contea di Vice-Dale nell'elenco della mappa (Map > Vehicles > Train Stations). Linea e posizione esatta da precisare: potrebbe coincidere con una stazione già in elenco con un nome provvisorio.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-          "image": null,
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-garage-gtaplus-crosstown",
@@ -3979,14 +3944,14 @@
           "id": "poi-vice-city-casino",
           "name": "Vice City Casino",
           "kind": "Casinò",
-          "description": "Sulla Leonida State Route 91, vicino alla US 70, con una pista per le corse. Nel gioco ci sono due grandi casinò ma non si entra: Rockstar dice che la storia di Jason e Lucia non era il posto giusto per il gioco d'azzardo. Il nome viene dal materiale trapelato.",
+          "description": "Sulla Leonida State Route 91, vicino alla US 70, con una pista per le corse. Nel gioco ci sono due grandi casinò ma non si entra (l'altro è il Merlin's Palace Casino di Balsero): Rockstar dice che la storia di Jason e Lucia non era il posto giusto per il gioco d'azzardo. Il nome viene dal materiale trapelato.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18",
+          "updatedAt": "2026-11-19",
           "moreSources": [
             "https://gta.wiki/w/Vice_City_Casino"
           ],
@@ -4055,6 +4020,36 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-merlins-palace-casino",
+          "name": "Merlin's Palace Casino",
+          "kind": "Casinò",
+          "description": "Balsero, parte sud, su NW 15th Ave, poco a nord-ovest dell'officina Lowballers Customs. È il secondo grande casinò di Vice City: si vede ma non si entra, e la storia non ci passa mai. Rockstar dice che la storia di Jason e Lucia non era il posto giusto per il gioco d'azzardo e che alcune zone della mappa restano «opzioni per il futuro».",
+          "status": "verificato",
+          "source": "stampa",
+          "sourceUrl": "https://insider-gaming.com/gta-6-casino/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.ign.com/wikis/gta-6/All_Nine1Nine_Dancers_Card_Locations",
+            "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338"
+          ]
+        },
+        {
+          "id": "poi-vice-seven-gym",
+          "name": "Vice Seven Condominiums Gym",
+          "kind": "Palestra",
+          "description": "Tequesta, dentro il condominio Vice Seven su SW 4th St. Palestra del palazzo: nello spogliatoio sud c'è una carta collezionabile dei Los Santos Pounders.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],
@@ -4064,7 +4059,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "../../assets/img/ss-vice-city-27.jpg"
       ],
@@ -4116,7 +4111,7 @@
       "name": "Waning Sands",
       "region": "Contea di Leonard, a nord di Vice City",
       "tagline": "La città dei centri commerciali, appena fuori dalla metropoli.",
-      "description": "Città separata a nord di Vice City, nella parte sud della contea di Leonard, fuori da Vice City: centri commerciali e catene di vestiti, scarpe e fast food, il campo da golf del Mount Hailes Club e un minigolf. A sud-ovest c'è Belville. Non è tra le sei regioni delle cartoline ufficiali.",
+      "description": "Città separata a nord di Vice City, sulla costa atlantica della contea di Leonard, a est del Lake Leonida: centri commerciali e catene di vestiti, scarpe e fast food (l'Evergreen Mall of Waning Sands), il golf del Mount Hailes Country Club e un minigolf. A sud-ovest c'è Belville, sull'isola davanti la spiaggia di Vinewood Beach. Non è tra le sei regioni delle cartoline ufficiali.",
       "map": {
         "x": 790,
         "y": 400,
@@ -4138,6 +4133,26 @@
         {
           "name": "Leith River",
           "note": "il fiume della contea"
+        },
+        {
+          "name": "Sabal Palms",
+          "note": "quartiere a ovest di Waning Sands"
+        },
+        {
+          "name": "Richard Barebone State Park, Little Hardin Island",
+          "note": "il parco statale sulla costa a nord e l'isola davanti, nell'Atlantico"
+        },
+        {
+          "name": "Mount Hailes Country Club",
+          "note": "il golf tra il Lake Leonida e la costa"
+        },
+        {
+          "name": "Cellerica, Chateau Cellerica",
+          "note": "a Belville e poco più a nord"
+        },
+        {
+          "name": "North Leonard County, South Leonard County",
+          "note": "le campagne verso Millport e verso Vice City"
         }
       ],
       "pois": [
@@ -4171,17 +4186,6 @@
             3246,
             1921
           ]
-        },
-        {
-          "id": "poi-ws-metro",
-          "name": "Stazione Waning Sands Metro",
-          "kind": "Stazione",
-          "description": "Capolinea nord della metropolitana, vicino alla Waning Sands PD e alla Flamingo Parkway.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null
         },
         {
           "id": "poi-billie-bob-s",
@@ -4321,14 +4325,17 @@
           "id": "poi-mount-hailes-club",
           "name": "Mount Hailes Club",
           "kind": "Golf",
-          "description": "Campo da golf a Waning Sands: si gioca la «Mount Hailes Golf Challenge».",
+          "description": "Campo da golf della contea di Leonard: si gioca la «Mount Hailes Golf Challenge». Sulla mappa ufficiale si chiama Mount Hailes Country Club ed è a nord di Waning Sands, tra il Lake Leonida e il Richard Barebone State Park (riquadro D7).",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.rockstargames.com/VI/media"
+          ]
         },
         {
           "id": "poi-ammu-tactical-outlet-guns",
@@ -4649,6 +4656,61 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-richard-barebone-park",
+          "name": "Richard Barebone State Park",
+          "kind": "Parco",
+          "description": "Contea di Leonard: sulla mappa ufficiale «The Great State of Leonida» è sulla costa atlantica tra Millport e Waning Sands, accanto al Mount Hailes Country Club e di fronte a Little Hardin Island (riquadro D7).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-sabal-palms",
+          "name": "Sabal Palms",
+          "kind": "Residenziale",
+          "description": "Contea di Leonard: sulla mappa ufficiale «The Great State of Leonida» è il quartiere subito a ovest di Waning Sands, tra il Lake Leonida e la I-97 (riquadro E7).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-cellerica",
+          "name": "Cellerica e Chateau Cellerica",
+          "kind": "Sede aziendale",
+          "description": "Contea di Leonard: sulla mappa ufficiale «The Great State of Leonida» «Cellerica» è a Belville (riquadro F6) e «Chateau Cellerica» poco più a nord, verso Ambrosia (riquadro E6). Cellerica è il gruppo che vende i Manifestick: a Belville ha la sede e un magazzino.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/",
+            "https://www.powerpyx.com/gta-6-peach-join-the-cellerica-initiation-walkthrough/"
+          ]
         }
       ],
       "activityIds": [],
@@ -4658,7 +4720,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-full-world-map-revealed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "dis-keys",
@@ -4678,7 +4740,7 @@
         },
         {
           "name": "Mile Zero Air Station",
-          "note": "base militare sull'isola all'estremo sud-ovest"
+          "note": "base militare su Goose Key, l'isola all'estremo sud-ovest"
         },
         {
           "name": "Southwind",
@@ -5066,14 +5128,17 @@
           "id": "poi-salon-barnacle-beauties",
           "name": "Barnacle Beauties",
           "kind": "Parrucchiere",
-          "description": "Nelle Keys, nella parte sud. Cambi taglio di capelli e barba: unisex, rilassato, da spiaggia. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "description": "Nelle Keys, nella parte sud. Cambi taglio di capelli e barba: unisex, rilassato, da spiaggia. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni. Prezzi visti con Jason: tagli 34–66 $, colore 35–45 $, barba 15–31 $, colore della barba 20–33 $.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://gta.wiki/w/Barnacle_Beauties"
+          ]
         },
         {
           "id": "poi-salon-lori-scott-hair-beauty",
@@ -5354,11 +5419,15 @@
         },
         {
           "name": "Bobcat Key, Bobcat Bight, Tola Bay",
-          "note": "isole e baie della costa"
+          "note": "isole e baie della costa, con l'Henry J Edwards Airport"
         },
         {
           "name": "Buckskin Swamp, Emerald River, Emerald Springs",
           "note": "paludi a nord-ovest, già nella contea di Kelly"
+        },
+        {
+          "name": "Big Pine, Paradise RV Park, Sahara Network Data Center",
+          "note": "località del nord della contea di Mariana, tra la palude e la cava"
         }
       ],
       "pois": [
@@ -5403,19 +5472,24 @@
         },
         {
           "id": "poi-gsm-cedar-key-airport",
-          "name": "Watson Bay Airport",
+          "name": "Henry J Edwards Airport",
           "kind": "Aeroporto",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
+          "description": "Contea di Mariana: sulla mappa ufficiale «The Great State of Leonida» è il piccolo aeroporto sulla costa del Golfo, di fronte a Bobcat Key, tra la Tola Bay e Watson Bay (riquadro I4). Prima dell'uscita lo chiamavamo Watson Bay Airport.",
           "xy": [
             386,
             -1972
           ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
         },
         {
           "id": "poi-paradise-garage",
@@ -5709,7 +5783,7 @@
           "id": "poi-goliath-plant",
           "name": "Goliath Global Plant",
           "kind": "Cementificio",
-          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph.",
+          "description": "Il cementificio dentro la Breakwater Quarry, la grande cava a ovest del VCIA (riquadro H4 della mappa ufficiale, dove la cava compare sotto la scritta West Vice-Dale County); è visibile dagli hangar Autograph.",
           "characterIds": [],
           "status": "da verificare",
           "source": "leak",
@@ -5718,7 +5792,11 @@
           "xy": [
             992,
             -1112
-          ]
+          ],
+          "moreSources": [
+            "https://www.rockstargames.com/VI/media"
+          ],
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-gang-industrial-weed-grow",
@@ -5747,6 +5825,77 @@
           "updatedAt": "2026-11-19",
           "moreSources": [
             "https://www.ign.com/wikis/gta-6/Manatee_Motel"
+          ]
+        },
+        {
+          "id": "poi-sahara-network-data-center",
+          "name": "Sahara Network Data Center",
+          "kind": "Data center",
+          "description": "Contea di Mariana: sulla mappa ufficiale «The Great State of Leonida» è lungo la US 82, subito a sud della Breakwater Quarry e a est di Big Pine (riquadro I5). Accanto c'è la stazione dei treni regionali «SND Data Center».",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-big-pine",
+          "name": "Big Pine",
+          "kind": "Cittadina",
+          "description": "Contea di Mariana: sulla mappa ufficiale «The Great State of Leonida» è a nord delle Grassrivers, vicino alla Tola Bay e alla US 82, a ovest del Sahara Network Data Center (riquadro I4). Qui partono due gare Animal Crackers.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/",
+            "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/"
+          ]
+        },
+        {
+          "id": "poi-paradise-rv-park",
+          "name": "Paradise RV Park",
+          "kind": "Campeggio",
+          "description": "Contea di Mariana: sulla mappa ufficiale «The Great State of Leonida» è nelle Grassrivers, a nord-est di Watson Bay e appena a nord del Pelican River (riquadro I5).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-st-snd-data-center-station",
+          "name": "SND Data Center",
+          "kind": "Stazione · Amloco (treni regionali)",
+          "description": "Stazione dei treni regionali Amloco accanto al Sahara Network Data Center, nel nord della contea di Mariana (riquadro I5 della mappa ufficiale). Nell'elenco della mappa del gioco è una delle due stazioni della contea di Mariana, con Capri.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.rockstargames.com/VI/media"
           ]
         }
       ],
@@ -5824,11 +5973,19 @@
         },
         {
           "name": "Wild Hog Point, Borrachero Sound, Crude Islands, Sandbars",
-          "note": "costa e isole del Golfo"
+          "note": "costa e isole del Golfo; a Wild Hog Point c'è il Wild Hog Airfield"
         },
         {
           "name": "Frogswater, Manifest Canyon",
           "note": "nord della contea di Kelly"
+        },
+        {
+          "name": "Leonida State Prison, Burial Creek",
+          "note": "la prigione di stato e il torrente a est di Gellhorn"
+        },
+        {
+          "name": "Father Scrumpy's Red Apple Orchard",
+          "note": "il meleto tra Draper Island e il Manifest Canyon"
         }
       ],
       "pois": [
@@ -6532,14 +6689,17 @@
           "id": "poi-salon-pearl-house-hair-salon",
           "name": "Pearl House Hair Salon",
           "kind": "Parrucchiere",
-          "description": "Port Gellhorn. Cambi taglio di capelli e barba: unisex, tagli spicci, il meglio della città. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni.",
+          "description": "Port Gellhorn. Cambi taglio di capelli e barba: unisex, tagli spicci, il meglio della città. Le acconciature base sono ovunque, quelle «firma» solo qui. Sulla mappa: forbici arancioni. Prezzi visti con Lucia: acconciature 52–95 $, colore 35–45 $, trucco 40–50 $. Nel retro del salone c'è un'operazione illegale (Backroom Weed Front).",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://gta.wiki/w/Pearl_House_Hair_Salon"
+          ]
         },
         {
           "id": "poi-elec-game-horde",
@@ -6657,6 +6817,60 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-leonida-state-prison",
+          "name": "Leonida State Prison",
+          "kind": "Prigione",
+          "description": "Contea di Kelly: sulla mappa ufficiale «The Great State of Leonida» sta a est di Gellhorn, lungo la US 183 poco a nord dello svincolo con la I-404 (riquadro F4). È un'altra prigione rispetto a quella di Hamlet dove inizia la storia di Lucia.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-father-scrumpys-orchard",
+          "name": "Father Scrumpy's Red Apple Orchard",
+          "kind": "Fattoria",
+          "description": "Contea di Kelly (nord): sulla mappa ufficiale «The Great State of Leonida» il meleto è a nord-est di Port Gellhorn, tra Draper Island e il Manifest Canyon (riquadro D4).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-wild-hog-airfield",
+          "name": "Wild Hog Airfield",
+          "kind": "Aeroporto privato",
+          "description": "Contea di Kelly: sulla mappa ufficiale «The Great State of Leonida» è la pista sulla penisola di Wild Hog Point, nella Draper Bay di fronte a Port Gellhorn (riquadro E3).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
         }
       ],
       "activityIds": [],
@@ -6717,15 +6931,15 @@
       "subAreas": [
         {
           "name": "Lake Leonida",
-          "note": "il grande lago centrale, nella parte nord della contea di Leonard; Ambrosia sta sulla sponda sud-ovest"
+          "note": "il grande lago centrale, nella contea di Leonard; Ambrosia sta sulla sponda sud-ovest"
         },
         {
-          "name": "Richard Barebone State Park",
-          "note": "parco statale vicino al lago, già nella contea di Leonard"
+          "name": "Ambrosia Raceway Park, Ambrosia Rodeo Association",
+          "note": "il circuito e il rodeo a nord del paese"
         },
         {
-          "name": "Little Hardin Island",
-          "note": "isola del lago, contea di Leonard"
+          "name": "Howe Dairy, Tucker's Citrus Farms",
+          "note": "aziende agricole della contea di Kelly, verso Emerald Springs"
         }
       ],
       "pois": [
@@ -7104,6 +7318,60 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-howe-dairy",
+          "name": "Howe Dairy",
+          "kind": "Fattoria",
+          "description": "Contea di Kelly: sulla mappa ufficiale «The Great State of Leonida» è tra Port Gellhorn ed Emerald Springs, a ovest delle Tucker's Citrus Farms (riquadro E4). Sul cumulo di terra della fattoria c'è un salto acrobatico.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-tuckers-citrus-farms",
+          "name": "Tucker's Citrus Farms",
+          "kind": "Fattoria",
+          "description": "Contea di Kelly: sulla mappa ufficiale «The Great State of Leonida» gli agrumeti sono subito a est di Howe Dairy, a nord di Emerald Springs (riquadro E5). Lo spaccio delle Tucker's Citrus Farms è tra i minimarket della campagna di Ambrosia.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-ambrosia-rodeo",
+          "name": "Ambrosia Rodeo Association",
+          "kind": "Arena",
+          "description": "Contea di Kelly: sulla mappa ufficiale «The Great State of Leonida» è ad Ambrosia, a nord-ovest del centro e vicino alla US 35, tra il paese e l'Ambrosia Raceway Park (riquadro E5).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
         }
       ],
       "activityIds": [],
@@ -7178,15 +7446,19 @@
         },
         {
           "name": "Lake Tallaloko, Kalaga Reservoir, Dawson Dam",
-          "note": "laghi e diga"
+          "note": "laghi e diga; sulla riva nord del Lake Tallaloko il Tallaloko Lakeside Resort"
         },
         {
-          "name": "San Malo Bay, Okchioha Bay, Partridge Bay",
+          "name": "San Malo Bay, Okchiloha Bay, Partridge Bay",
           "note": "baie"
         },
         {
           "name": "Zephyr, Featherstone, Saint Attaway, Hyde e Frampton Islands",
           "note": "le isole del nord"
+        },
+        {
+          "name": "South West Lummox County, East Lummox County",
+          "note": "le zone intorno a Grayson e verso Millport"
         }
       ],
       "pois": [
@@ -7534,6 +7806,42 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-macalister-gold-mine",
+          "name": "MacAlister Gold Mine",
+          "kind": "Miniera",
+          "description": "Contea di Lummox: sulla mappa ufficiale «The Great State of Leonida» la miniera d'oro è tra Bonanza (a nord) e Moreau (a est), sulle colline del parco (riquadro C5).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-tallaloko-resort",
+          "name": "Tallaloko Lakeside Resort",
+          "kind": "Resort",
+          "description": "Contea di Lummox: sulla mappa ufficiale «The Great State of Leonida» è sulla riva nord del Lake Tallaloko, a nord-ovest di Millport (riquadro C6).",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
         }
       ],
       "activityIds": [
@@ -7546,7 +7854,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-12",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "../../assets/img/ss-mount-kalaga-01.jpg"
       ],
@@ -7657,6 +7965,10 @@
         {
           "name": "Leaf Links",
           "note": "golf"
+        },
+        {
+          "name": "Washington Island, Penmarch Isle, Oldby Island",
+          "note": "le isole di Washington Beach sul lato della baia"
         }
       ],
       "pois": [
@@ -8085,7 +8397,7 @@
           "id": "poi-ajax-gym",
           "name": "Ajax Gym",
           "kind": "Palestra",
-          "description": "Palestra su SW 4th Street: pesi per la Forza, tapis roulant e cyclette per la Resistenza. Si entra pagando l'abbonamento; ci sono le barrette proteiche.",
+          "description": "Palestra su SW 4th Street, a Washington Beach (Vice Beach), con un pontile sull'acqua: ci si arriva anche in barca. Pesi per la Forza, tapis roulant e cyclette per la Resistenza. Si entra pagando l'abbonamento; ci sono le barrette proteiche.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
@@ -8096,7 +8408,11 @@
           ],
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://gta.wiki/w/Ajax_Gym",
+            "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/"
+          ]
         },
         {
           "id": "poi-ammu-prestige-firearms",
@@ -8826,6 +9142,32 @@
             5172,
             627
           ]
+        },
+        {
+          "id": "poi-trinity-apartments",
+          "name": "Trinity Apartments",
+          "kind": "Residenziale",
+          "description": "Washington Island, Vice Beach: il complesso sull'acqua che ricalca la casa di Dexter Morgan della serie TV «Dexter» (il nome cita il Trinity Killer). Alla porta si arriva ma non si entra; sul tetto c'è un kit da serial killer (coltello, nastro, corda, siringa) e lì vicino si può rubare la barca Lure Predator L35P, simile alla «Slice of Life» di Dexter.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-venus-fitness",
+          "name": "Venus Fitness",
+          "kind": "Palestra",
+          "description": "Vice Beach, parte sud, su Indigo St. Palestra: in fondo, su una panca, c'è una carta collezionabile del Vice City Club de Fútbol.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],
@@ -8835,7 +9177,7 @@
       "sourceUrl": "https://gta.wiki/w/Vice_Beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-19",
       "insight": "Vice Beach è la città balneare sull'isola di fronte a Vice City (i cartelli dicono «Vice Beaches»): strisce di sabbia, passeggiate e grattacieli sullo sfondo.\n\nOCEAN BEACH, LA STRISCIA SIMBOLO. La spiaggia più in vista è Ocean Beach, con gli hotel art déco dalle tinte pastello e la sabbia di un bianco abbagliante, omaggio a Ocean Drive e South Beach a Miami. Facciate colorate di giorno, luci al neon quando scende la notte.\n\nIL POSTO DELLE ATTIVITÀ SECONDARIE. Su questo litorale si concentrano tante attività secondarie: moto d'acqua tra amici al tramonto, una corsa che finisce in mare tra i delfini, immersioni, relax in riva al mare. Lungo il lungomare ci sono hotel e un molo.\n\nCOSA DICE LA CARTOLINA DI VICE CITY. Il testo ufficiale di Vice City cita per prima la spiaggia: «hotel art déco pastello e sabbia bianca di Ocean Beach». Spiagge affollate, ombrelloni a perdita d'occhio, culturisti e turisti, e un viale sul mare al neon che ricorda Ocean Drive, già al centro di GTA Vice City nel 2002. Ogni passante ha la sua silhouette: la varietà degli abitanti è curatissima.\n\nLA VERA MIAMI BEACH. Vice Beaches riprende Miami Beach, e Ocean Beach il suo quartiere storico di South Beach, uno degli scenari più fotografati della Florida. Il legame va oltre l'estetica: la città di Miami Beach ha votato a favore di una partnership intorno al gioco, nonostante le critiche. Anche l'Effluvia, il bar sul tetto dove Jason e Lucia ritrovano Brian e Lori, si trova nel quartiere.",
       "insightUrl": "https://vice-central.com/lieux/vice-beaches/",
       "keyFacts": [
@@ -8874,7 +9216,7 @@
       "name": "Hamlet",
       "region": "Contea di Vice-Dale, punta sud della terraferma",
       "tagline": "La cittadina agricola prima delle Keys.",
-      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, le Grassrivers e Bluegrass. Qui si trovano il Leonida Penitentiary, il salone di Sara, due Ammu-Nation (Big Shots e Hamlet Traders) e lo speedway. All'ingresso, il cartello «Welcome to Hamlet».",
+      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, le Grassrivers e Bluegrass. Qui si trovano la prigione dove inizia la storia di Lucia (Hamlet Correctional Facility; nei testi promozionali Leonida Penitentiary), il salone di Sara, due Ammu-Nation (Big Shots e Hamlet Traders) e il Boone Speedway; sulla costa c'è la T.H. Power Station. All'ingresso, il cartello «Welcome to Hamlet».",
       "map": {
         "x": 610,
         "y": 740,
@@ -9098,9 +9440,9 @@
         },
         {
           "id": "poi-penitenziario",
-          "name": "Leonida Penitentiary",
+          "name": "Hamlet Correctional Facility",
           "kind": "Penitenziario",
-          "description": "Il carcere di stato dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Da qui arriva una chiamata a carico del destinatario «da Lucia Caminos». È noto anche come Leonida Department of Corrections.",
+          "description": "Il carcere di stato ai margini di Hamlet, dove Lucia ha scontato la pena per aver difeso la sua famiglia, e da cui è uscita per pura fortuna. Sulla mappa del gioco si chiama Hamlet Correctional Facility, sulla mappa ufficiale stampabile Hamlet Correctional Institution (riquadro I5), nei testi promozionali Leonida Penitentiary. Da qui arriva una chiamata a carico del destinatario «da Lucia Caminos». Lo gestisce il Leonida Department of Corrections.",
           "characterIds": [
             "chr-lucia",
             "chr-stefanie"
@@ -9112,7 +9454,13 @@
           "xy": [
             2183,
             -2257
-          ]
+          ],
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/",
+            "https://gta.wiki/w/Hamlet_Correctional_Facility",
+            "https://www.rockstargames.com/VI/media"
+          ],
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-sara-salon",
@@ -9369,6 +9717,37 @@
             2261,
             -1912
           ]
+        },
+        {
+          "id": "poi-th-power-station",
+          "name": "T.H. Power Station",
+          "kind": "Centrale elettrica",
+          "description": "Contea di Vice-Dale: sulla mappa ufficiale «The Great State of Leonida» è sulla costa a sud-est di Hamlet, affacciata sulla Peregrine Bay (riquadro J6). È la centrale all'orizzonte nella prima inquadratura del Trailer 1; prima dell'uscita la community la chiamava Fuzzard Power Station, dal canale Fuzzard Drain Canal lì vicino.",
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://www.rockstargames.com/VI/media",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19",
+          "moreSources": [
+            "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+            "https://insider-gaming.com/gta-6-map-location-poi/",
+            "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
+          ]
+        },
+        {
+          "id": "poi-bantam-boxing-gym",
+          "name": "Bantam Boxing Gym",
+          "kind": "Palestra",
+          "description": "Hamlet sud, su Pusley Ln. Palestra di boxe: nel cortile sul retro c'è uno dei canestri da basket del 100%.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.ign.com/wikis/gta-6/Basketball_Hoop_Locations",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],

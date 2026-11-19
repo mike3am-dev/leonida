@@ -215,7 +215,7 @@ function poiDetail(d, p) {
   const chars = vis(db.characters).filter((c) => (p.characterIds || []).includes(c.id));
   return `
     ${backLink('/mappa?zona=' + d.id, d.name)}
-    ${hero(p, { kicker: `${d.name} · ${p.kind || 'Luogo'}`, title: p.name, lede: p.tagline || '', chips: statusChip(p) })}
+    ${hero(p, { kicker: `${d.name} · ${p.kind || 'Luogo'}${mapboard.riquadro(p.xy) ? ' · riquadro ' + mapboard.riquadro(p.xy) : ''}`, title: p.name, lede: p.tagline || '', chips: statusChip(p) })}
     <div class="whats" style="margin-bottom:var(--s-4)">${whatThere(p)}</div>
     <div class="prose">${spoiler.wrap(p, `<p class="dropcap">${esc(p.description || 'Descrizione in arrivo.')}</p>`)}</div>
     ${p.insight ? `<div class="block">${acc('Approfondimento', `<div class="prose prose--guide">${p.inspiration ? `<p><b>Ispirato a:</b> ${esc(p.inspiration)}</p>` : ''}${insightHtml(p.insight)}${p.toSee ? `<h3>Da vedere</h3><p>${esc(Array.isArray(p.toSee) ? p.toSee.join(' · ') : p.toSee)}</p>` : ''}${p.whoYouMeet ? `<h3>Chi incontri</h3><p>${esc(Array.isArray(p.whoYouMeet) ? p.whoYouMeet.join(', ') : p.whoYouMeet)}</p>` : ''}${p.keyFacts?.length ? `<h3>Cosa ricordare</h3><div class="table-wrap"><table><tr><th>Informazione</th><th>Dettaglio</th><th>Affidabilità</th></tr>${p.keyFacts.map((f) => `<tr><td>${esc(f.label)}</td><td>${esc(f.value)}</td><td>${esc(f.reliability || '')}</td></tr>`).join('')}</table></div>` : ''}<p class="source-line">Tradotto da <a href="${esc(p.insightUrl || 'https://vice-central.com/lieux/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}

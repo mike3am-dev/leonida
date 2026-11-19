@@ -760,19 +760,22 @@
       "description": "Rapina una gioielleria senza farti notare.",
       "tier": "bronzo",
       "category": "attivita",
-      "guide": "Dopo le missioni di Yasmani del capitolo 3 ottieni la pistola grimaldello: entra in una gioielleria dalla porta sul retro e svuotala senza farti vedere.",
+      "guide": "Dopo le missioni di Yasmani del capitolo 3 ottieni la pistola grimaldello, che resta sempre nell'inventario. Scegli una gioielleria (icona verde sulla mappa; PowerPyx consiglia la Richardson Jewelry & Diamonds di Vice City), apri la porta sul retro con la pistola grimaldello invece di sfondarla, che fa scattare l'allarme. Nel retro trova il foglietto con la combinazione e svuota la cassaforte. Prima di uscire distruggi le registrazioni delle telecamere e spegni l'allarme, sempre nel retro: senza questi due passi il trofeo non arriva. Scatta poco dopo che sei uscito dal negozio.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Sneakthief",
       "timing": {
         "from": 3,
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-maximum-withdrawal",
@@ -861,7 +864,7 @@
       "description": "Goditi un cocktail con vista su Ocean Beach.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto. Al 19/11 pomeriggio nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Push Square, Insider Gaming, GTA BOOM). Di sicuro non arriva da solo con la storia: PowerPyx l'ha finita e non ce l'ha. La descrizione chiede un cocktail con vista su quella spiaggia di Vice City: entra in un bar o in una terrazza affacciati sul mare e ordina da bere.",
+      "guide": "Trofeo segreto. Vai all'Ocean View Rooftop Bar, la terrazza in cima all'Ocean View Hotel sul lungomare di Vice City, e compra un Apple Martini al bancone. Bevilo restando in piedi accanto al bar: il trofeo scatta mentre bevi. Il nome richiama la prima missione del primo Vice City, che dava a Tommy Vercetti proprio l'Ocean View Hotel come rifugio. Il metodo per ora lo dà solo PowerPyx.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -872,12 +875,13 @@
       "nameEn": "In The Beginning…",
       "timing": {
         "until": null,
-        "note": "Metodo non ancora noto. Non arriva con la storia, quindi con ogni probabilità resta fattibile anche dopo i titoli di coda."
+        "note": "Nessun limite di capitolo: basta poter arrivare all'hotel, e si può fare anche dopo la storia."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
+        "https://gta.wiki/w/Ocean_View_Hotel_(3D_Universe)"
       ]
     },
     {
@@ -974,7 +978,7 @@
       "description": "La seconda volta è quella buona.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto. Al 19/11 pomeriggio nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Push Square, Insider Gaming, GTA BOOM). La descrizione dice «La seconda volta è quella buona». PowerPyx pensa alla finanziaria Payday Loans che compare all'inizio della storia: forse va rapinata una seconda volta, più avanti (le rapine alle finanziarie si sbloccano a metà capitolo 3). Non l'ha ottenuto finendo la storia, quindi serve un'azione precisa.",
+      "guide": "Trofeo segreto. Al 19/11 sera nessuna guida firmata ha ancora il metodo (PowerPyx, GamesRadar, PC Gamer, Push Square, Eurogamer, Insider Gaming, GTA BOOM). La descrizione dice «La seconda volta è quella buona». PowerPyx pensa alla finanziaria Payday Loans che compare all'inizio della storia: forse va rapinata una seconda volta, più avanti (le rapine alle finanziarie si sbloccano a metà capitolo 3). Non l'ha ottenuto finendo la storia, quindi serve un'azione precisa.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -998,7 +1002,7 @@
       "description": "Che cacchio è successo?",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto. Al 19/11 pomeriggio nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Push Square, Insider Gaming, GTA BOOM). La descrizione è «Ma che diavolo è appena successo?». PowerPyx pensa a una serie di missioni sugli UFO, che nessuno ha ancora trovato (anche GamesRadar aspetta di vederli).",
+      "guide": "Trofeo segreto: è l'incontro con l'UFO. Finito il capitolo 1, vai da solo (senza il partner) sulla strada sterrata a nord-ovest dello Starlet Motel, nella Kelly County a est di Port Gellhorn, di notte dopo le 2. Se a bordo strada c'è un'auto abbandonata con le luci che lampeggiano e il bagagliaio aperto, l'evento è pronto; se non c'è, allontanati e torna più tardi. Segui il sentiero nel bosco verso la luce azzurra: l'UFO lascia cadere una donna rapita. Parlale, offriti di aiutarla e torna con lei alla sua auto: l'UFO ritorna per te, svieni e ti risvegli tre giorni dopo. Il trofeo arriva lì. Vale con Jason o con Lucia e non serve per il 100%.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
@@ -1008,13 +1012,15 @@
       "updatedAt": "2026-11-19",
       "nameEn": "The Truth Is Out There",
       "timing": {
+        "from": 2,
         "until": null,
-        "note": "Metodo non ancora noto; PowerPyx non l'ha avuto con la storia."
+        "note": "Dopo il capitolo 1, solo di notte dopo le 2 e da solo; non sempre compare al primo tentativo. Si può fare anche dopo la storia."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-        "https://www.sportskeeda.com/gta/are-aliens-gta-6"
+        "https://www.powerpyx.com/gta-6-ufo-aliens-easter-egg-location/",
+        "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
       ]
     },
     {
@@ -1023,7 +1029,7 @@
       "description": "Stendili usando l'attacco corpo a corpo da un veicolo.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto. Al 19/11 pomeriggio nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Push Square, Insider Gaming, GTA BOOM). La descrizione chiede di buttare giù la gente come birilli con un attacco corpo a corpo da un veicolo in corsa. PowerPyx pensa ai calci dalla moto: guida una moto accanto a un gruppo di persone e usa l'attacco corpo a corpo mentre passi. Il nome (in inglese «Ten Pin» è il bowling a dieci birilli) fa pensare che ne servano diversi in una volta.",
+      "guide": "Trofeo segreto. Al 19/11 sera nessuna guida firmata ha ancora il metodo (PowerPyx, GamesRadar, PC Gamer, Push Square, Eurogamer, Insider Gaming, GTA BOOM). La descrizione chiede di buttare giù la gente come birilli con un attacco corpo a corpo da un veicolo in corsa. PowerPyx pensa ai calci dalla moto: guida una moto accanto a un gruppo di persone e usa l'attacco corpo a corpo mentre passi. Il nome (in inglese «Ten Pin» è il bowling a dieci birilli) fa pensare che ne servano diversi in una volta.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
