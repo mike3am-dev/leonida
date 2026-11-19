@@ -2371,3 +2371,36 @@ html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] span:last-ch
 /* Sui telefoni la scheda che scivola da destra parte sotto la barra in alto: «‹ Game» resta visibile e toccabile */
 html[data-posture="closed"] .dossier { top: calc(var(--masthead-h) + var(--safe-t)); }
 .ghead__sub { margin: 6px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1.1rem; line-height: 1.35; color: var(--ink-2); max-width: 32ch; }
+
+/* Meno spazio sopra il titolo delle pagine (Mike, 19/11): la sezione vuota in cima non aggiunge più 32 px */
+.page--top:empty + .page { margin-top: 0; }
+html[data-posture="closed"] .sheet-page { padding-top: var(--s-4); }
+/* Il «bordino» intorno alle testate con la foto: la foto passava sotto il bordo semitrasparente e gli angoli non coincidevano */
+.section-head--img { background-clip: padding-box; }
+/* Riquadro del capitolo nella pagina Missioni */
+.chapcard { position: relative; display: grid; gap: var(--s-3); padding: var(--s-4); margin: 0 0 var(--s-4); border-radius: 18px; overflow: hidden; color: #fff; background: linear-gradient(180deg, rgba(11,10,15,.55), rgba(11,10,15,.92)), var(--chap-img) center 35% / cover no-repeat, #1a0f22; box-shadow: var(--shadow); }
+.chapcard__top { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: var(--s-4); }
+.chapcard__ring .ring { --size: 84px; }
+.chapcard__ring .ring__label b { font-size: 1.35rem; color: #fff; }
+.chapcard__ring .ring__label small { display: none; }
+.chapcard__ring .ring__track { stroke: rgba(255,255,255,.18); }
+.chapcard__head { min-width: 0; display: grid; gap: 2px; }
+.chapcard__kicker { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #ffb3d1; }
+.chapcard__title { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: clamp(1.5rem, 6.5vw, 2rem); line-height: 1.1; color: #fff; text-wrap: balance; }
+.chapcard__count { margin: 2px 0 0; font-size: var(--fs-sm); color: rgba(255,255,255,.8); }
+.chapcard__count b { color: #fff; }
+.chapcard__bar { display: flex; gap: 3px; }
+.chapcard__bar i { flex: 1 1 0; height: 6px; border-radius: 3px; background: rgba(255,255,255,.2); }
+.chapcard__bar i.is-done { background: var(--teal); }
+.chapcard__bar i.is-cur { background: var(--magenta); box-shadow: 0 0 8px var(--magenta); }
+.chapcard__side { margin: 0; font-size: var(--fs-sm); color: rgba(255,255,255,.75); }
+.chapcard__side b { color: #fff; }
+.chapcard__cta { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--s-3); min-height: 56px; padding: 10px var(--s-4); border-radius: 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.28); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); color: #fff; text-decoration: none; }
+.chapcard__cta-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,.6); }
+.chapcard__cta-dot.is-cur { background: var(--magenta); box-shadow: 0 0 8px var(--magenta); }
+.chapcard__cta-text { display: grid; min-width: 0; }
+.chapcard__cta-text small { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.7); }
+.chapcard__cta-text b { font-size: 1.05rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chapcard__cta svg { width: 20px; height: 20px; }
+/* la lineetta al neon a sinistra della testata stava SOTTO il velo scuro della foto e sembrava un'ombra: ora sta sopra */
+.section-head--img::before { z-index: 2; }
