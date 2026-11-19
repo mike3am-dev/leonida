@@ -88,13 +88,17 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "tip-switch",
       "category": "generale",
       "title": "Cambiare protagonista: destra + R1",
       "priority": 11,
-      "body": "Dal capitolo 2 passi da Jason a Lucia tenendo premuto destra sulla croce direzionale e premendo R1; con Triangolo invece vi date appuntamento. A volte il cambio è bloccato, per esempio in casa o in certi momenti della storia. Chi non controlli continua ad aiutarti in combattimento. Il conto in banca è condiviso; le armi no, ognuno ha le sue.",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-switch-between-playing-as-lucia-jason/"
+      "body": "Dal capitolo 2 passi da Jason a Lucia tenendo premuto destra sulla croce direzionale e premendo R1; con Triangolo invece vi date appuntamento. A volte il cambio è bloccato, per esempio in casa o in certi momenti della storia: sulla mappa la J o la L sull'icona dice con chi va giocata una missione. Chi non controlli continua ad aiutarti in combattimento. Le armi non si condividono; per GamesRadar anche il conto corrente è di ciascuno, mentre il Family Savings è in comune.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-switch-between-playing-as-lucia-jason/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/",
+        "https://insider-gaming.com/when-can-switch-lucia-gta-6-fastest-method/"
+      ]
     },
     {
       "image": null,
@@ -297,14 +301,17 @@
       "id": "tip-guida-1",
       "category": "guida",
       "title": "Fai benzina, ma senza ansia",
-      "body": "Ogni auto ha carburante e salute del motore; si va lontano prima di dover fare il pieno, che richiede dieci secondi di R2 al distributore. Conta davvero solo quando rubi un'auto a caso per scappare.",
+      "body": "Ogni auto ha carburante e salute del motore, che vedi premendo giù sulla croce; si va lontano prima di dover fare il pieno: accosti a una pompa, premi X e scegli il rifornimento. Le elettriche si ricaricano alle colonnine. Conta davvero solo quando rubi un'auto a caso per scappare.",
       "priority": 20,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/"
+      ]
     },
     {
       "id": "tip-guida-2",
@@ -394,14 +401,18 @@
       "id": "tip-soldi-1",
       "category": "soldi",
       "title": "Deposita i contanti",
-      "body": "I contanti in tasca si perdono se muori o vieni arrestato; sul conto BuckMe ne perdi solo una parte, e i soldi messi nel «Family Savings» non si perdono mai (ma non si ritirano più). Gli acquisti da 1.000 $ in su si pagano dal conto. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
+      "body": "I contanti in tasca (al massimo 20.000 $ a testa) si perdono se muori o vieni arrestato; sul conto BuckMe ne perdi solo una parte, e i soldi messi nel «Family Savings» non si perdono mai (ma non si ritirano più). Gli acquisti da 1.000 $ in su si pagano dal conto. Il bottino non è denaro finché un ricettatore non lo compra: e i ricettatori si sbloccano con la storia, quindi potresti ritrovarti con merce e nessun compratore.",
       "priority": 27,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-money-buckme-bank-account-manage/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-atm/"
+      ]
     },
     {
       "id": "tip-soldi-2",
@@ -654,13 +665,16 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "tip-armi-wheel",
       "category": "combattimento",
       "title": "La ruota delle armi non mette in pausa",
-      "body": "C'è una sola ruota: con R1 passi tra ARMI e OGGETTI, che hanno slot con un ruolo fisso (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. Il gioco continua mentre scegli. In auto c'è una ruota a parte per le maschere.",
+      "body": "C'è una sola ruota (L1 tenuto): con R1 passi tra ARMI e OGGETTI. ARMI ha posti per due armi corte, le mani, l'equipaggiamento, due armi lunghe, un'arma da mischia e gli esplosivi; OGGETTI per maschera, cuffie, cappello, outfit, borse, attrezzatura, occhiali, fumo e sostanze. Quadrato usa lo Zombix, Triangolo l'adrenalina. Il gioco continua mentre scegli. In auto c'è una ruota a parte per le maschere.",
       "priority": 42,
-      "sourceUrl": "https://allthings.how/gta-6-how-the-weapon-wheel-and-inventory-work/"
+      "sourceUrl": "https://allthings.how/gta-6-how-the-weapon-wheel-and-inventory-work/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-manage-loadout/"
+      ]
     },
     {
       "image": null,
@@ -736,19 +750,21 @@
       "id": "tip-segreto-bigfoot",
       "category": "esplorazione",
       "title": "Il Bigfoot vive a Cottonmouth Lake",
-      "body": "Il Bigfoot è tornato, e stavolta non è un uomo travestito. Vai a Cottonmouth Lake, appena a sud di Hamlet: quando senti un ringhio cupo lo trovi in strada, chino sulla carcassa di un animale. Scappa subito nella palude e sparisce; al suo posto, legato a un albero, c'è uno strano feticcio. Se ti fermi lì vicino perdi i sensi e in una breve scena vedi avvicinarsi solo i suoi enormi piedi. Si può fare presto, appena sei libero di girare. Kotaku segnala anche un granchio gigante con una scena tutta sua, ma non si sa ancora come farla partire.",
+      "body": "Il Bigfoot è tornato, e stavolta non è un uomo travestito. Vai a Cottonmouth Lake, appena a sud di Hamlet: quando senti un ringhio cupo lo trovi in strada, chino sulla carcassa di un animale. Scappa subito nella palude e sparisce; al suo posto, legato a un albero, c'è uno strano feticcio. Se ti fermi lì vicino perdi i sensi e in una breve scena vedi avvicinarsi solo i suoi enormi piedi. Si può fare presto, appena sei libero di girare. Kotaku segnala anche un granchio gigante con una scena tutta sua, ma non si sa ancora come farla partire. Questo è solo l'inizio: la storia completa del Bigfoot, che qui chiamano Skunk Ape, è nella serie di incarichi di Kirk nelle paludi della Pelican Valley (dal capitolo 1), che vale anche per il trofeo «Sconosciuti e folli». GameSpot colloca l'incontro a Gullet Marsh.",
       "priority": 46,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://insider-gaming.com/where-to-find-bigfoot-gta-6/",
       "moreSources": [
         "https://www.gamespot.com/articles/bigfoot-is-back-in-gta-6-and-apparently-he-smells-revolting/",
-        "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
+        "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
+        "https://www.powerpyx.com/gta-6-bigfoot-sasquatch-easter-egg-location/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-sightings-are-already-ramping-up-as-rockstar-honors-a-22-year-old-grand-theft-auto-legend/"
       ],
       "image": null,
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "tip-segreto-uovo-di-pasqua",
@@ -909,19 +925,21 @@
     {
       "id": "tip-ripara-pompa",
       "category": "guida",
-      "title": "Ripara alla pompa di benzina",
-      "body": "Al distributore puoi anche riparare auto e moto per poco, spesso meno che con Scooter Bros. Il gioco ti avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino; nel test di Kotaku un vecchio pick-up resta a secco dopo circa mezz'ora di guida.",
+      "title": "Ripara alla pompa, ma solo i danni leggeri",
+      "body": "Alla pompa del distributore (premi X) fai il pieno e puoi riparare auto e moto, ma solo i danni leggeri: per Kotaku costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray o di un'officina, dove vai comunque se il motore è in rosso. Il gioco ti avvisa a metà serbatoio e in riserva e segna sulla bussola il distributore più vicino; nel test di Kotaku un vecchio pick-up resta a secco dopo circa mezz'ora di guida.",
       "priority": 10,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
       "moreSources": [
-        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601"
+        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-repair-car-bike-how-to/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/"
       ],
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "tip-scooter-premium",
@@ -1057,6 +1075,108 @@
       "image": null,
       "example": false,
       "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tip-fine-capitolo-1",
+      "category": "storia",
+      "title": "Capitolo 1: c'è un punto di non ritorno",
+      "body": "Le ultime tre missioni principali del capitolo 1 vanno di fila: una volta avviata la prima, non torni a girare libero finché non sei nel capitolo 2, e i veicoli dell'Ultimate Edition a casa di Jason restano lontani per un po'. Prima di cominciarle chiudi quello che ti interessa nelle Keys: il Retro Build del Ganado da Coastal Auto Care, la meditazione con Lucia sul balcone (si fa solo ora), i lavori di casa. Versa in banca i contanti e metti almeno 5.000 $ nel Risparmio Familiare: i soldi in tasca non passano al capitolo dopo. Nella pagina Missioni, il riquadro «Da non perdere» del capitolo 1 ti dice quando ci sei.",
+      "priority": 4,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+      ],
+      "relatedIds": [],
+      "spoilerLevel": 1,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-aerei-elicotteri",
+      "category": "trasporti",
+      "title": "Dove prendere aerei ed elicotteri",
+      "body": "Non rubare i jet dell'aeroporto di Vice City: hanno il localizzatore e ti mandano dietro i caccia. Meglio le piste senza sorveglianza: vicino a Key Lento (comoda per togliere la nebbia), a ovest delle paludi della Mariana County, a sud di Port Gellhorn, al centro e nel nord della Kelly County. Gli elicotteri stanno sugli eliporti, segnati con (H) zoomando sulla mappa: molti sono sui grattacieli di Vice City, dove sali in ascensore, uno sul tetto di un albergo sul mare a Vice City, altri a est di Hamlet, a Flamingo Island, nel nord di Ambrosia e all'estremo nord. Aerei ed elicotteri consumano benzina: a secco prendine un altro, ricompaiono negli stessi posti.",
+      "priority": 24,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-helicopter-plane-locations/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-first-plane-and-helicopter/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-indice-mappa",
+      "category": "esplorazione",
+      "title": "Non sai cosa fare? Guarda l'indice della mappa",
+      "body": "Apri la mappa col touchpad e premi destra sulla croce: si apre l'indice. In Storia trovi le missioni principali e, sotto, quelle facoltative; con X ne fai la destinazione. Le altre schede elencano rapine, attività, esplorazione, veicoli, armi, negozi e cibo, a partire dal posto più vicino, e un rombo arancione segna quello che hai appena scoperto. In Personale ritrovi il tuo veicolo, il rifugio, i garage e i bancomat.",
+      "priority": 6,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/",
+      "moreSources": [
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-segreto-dexter",
+      "category": "esplorazione",
+      "title": "L'appartamento di Dexter a Washington Island",
+      "body": "A Vice City c'è il condominio di Dexter Morgan, il serial killer della serie TV: sta a Washington Island, vicino al negozio di droni Top Fun di Vice Beach. Non si entra, quindi niente vetrini nascosti nel condizionatore; ma la barca ormeggiata lì accanto somiglia parecchio alla Slice of Life di Dexter. Puoi andarci prima che la storia ti porti a Vice City.",
+      "priority": 50,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-segreto-libri",
+      "category": "esplorazione",
+      "title": "Libri che parlano di Red Dead e Liberty City",
+      "body": "Libri e riviste si possono sfogliare, e alcuni strizzano l'occhio agli altri giochi Rockstar. A casa di Jason, già nel capitolo 1, sul tavolino vicino alla porta sul retro c'è il memoir di un ex mafioso di Liberty City che racconta fatti del 2008, l'anno di GTA IV. Alla Jacob's Tavern di Millport trovi invece un romanzo western su un cowboy di New Austin, la regione di Red Dead Redemption.",
+      "priority": 51,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-segreto-cane-moto-acqua",
+      "category": "esplorazione",
+      "title": "Il cane con la moto d'acqua",
+      "body": "Uno degli incontri più assurdi: in mare può venirti a soccorrere un cane con gli occhialini alla guida di una moto d'acqua, e poi ci fai un giro insieme. L'hanno visto Kotaku e il canale GTA Series Videos; come farlo comparire non si sa ancora.",
+      "priority": 52,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
+      "moreSources": [
+        "https://www.youtube.com/watch?v=KPmMFfUvslg"
+      ],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
     }
   ]
 }

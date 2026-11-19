@@ -916,37 +916,6 @@
           ]
         },
         {
-          "id": "poi-peregrine-bay",
-          "name": "Peregrine Bay",
-          "kind": "Baia",
-          "description": "La baia a sud della contea, ispirata a Turkey Point, indicata da un cartello a Southside.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "leak",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": "assets/img/poi/poi-peregrine-bay.png",
-          "xy": [
-            2807,
-            -2662
-          ],
-          "imageUrl": "https://gta.wiki/images/PeregrineBayPowerStation-GTAVI-OfficialScreenshot-Grassrivers02.png?03e19"
-        },
-        {
-          "id": "poi-bluegrass",
-          "name": "Bluegrass",
-          "kind": "Cittadina agricola",
-          "description": "Cittadina a nord di Hamlet, ispirata a Redland; il Bluegrass Radio Mast è la struttura più alta di Leonida.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "leak",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
-          "xy": [
-            2261,
-            -1912
-          ]
-        },
-        {
           "id": "poi-pegassi-x",
           "name": "Akio Hotel",
           "kind": "Hotel",
@@ -1139,7 +1108,7 @@
           "id": "poi-josefina-perfect-image",
           "name": "Josefina Perfect Image",
           "kind": "Centro estetico",
-          "description": "Centro estetico su Catalan Boulevard: ciglia, trattamenti viso e unghie. Sta accanto a Perkins Deli, nel vicolo dove Jason e Lucia si separano da Raul.",
+          "description": "Centro estetico su Catalan Boulevard: ciglia, trattamenti viso e unghie. Sta accanto a Perkins Deli, nel vicolo dove Jason e Lucia si separano da Raul.\n\nNon è tra i 18 saloni della mappa dove si cambiano taglio e trucco (elenco di PowerPyx e della mappa di IGN): è un'insegna sulla strada.",
           "xy": [
             3507,
             382
@@ -1309,7 +1278,7 @@
           "id": "poi-core-software",
           "name": "Core Software",
           "kind": "Elettronica e software",
-          "description": "Negozio di software del Cipher Mall di Rockridge.",
+          "description": "Negozio di software del Cipher Mall di Rockridge.\n\nNon è tra i 15 negozi di elettronica della mappa di gioco (PowerPyx): è un'insegna del centro commerciale.",
           "xy": [
             2938,
             -64
@@ -1934,22 +1903,6 @@
           "updatedAt": "2026-11-07"
         },
         {
-          "id": "poi-st-redhill-train-station",
-          "name": "Stazione di Redhill",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali), a Redhill.",
-          "xy": [
-            1510,
-            3588
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
           "id": "poi-st-vice-dale-county-train-station",
           "name": "Stazione della contea di Vice-Dale",
           "kind": "Stazione · Amloco (treni regionali)",
@@ -2085,7 +2038,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            2832,
+            -508
+          ]
         },
         {
           "id": "poi-anfiteatro",
@@ -3280,7 +3237,11 @@
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2707,
+            -2008
+          ]
         },
         {
           "id": "poi-ff-peewees-southside",
@@ -3293,7 +3254,11 @@
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2770,
+            -1927
+          ]
         },
         {
           "id": "poi-ff-frank-s-waffles",
@@ -3988,7 +3953,11 @@
           "image": null,
           "spoilerLevel": 3,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            3489,
+            -854
+          ]
         },
         {
           "id": "poi-banca-shorefront-rockridge",
@@ -4001,7 +3970,11 @@
           "image": null,
           "spoilerLevel": 3,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2944,
+            -114
+          ]
         },
         {
           "id": "poi-st-shoreline-park-station",
@@ -4124,7 +4097,59 @@
           "updatedAt": "2026-11-18",
           "moreSources": [
             "https://gta.wiki/w/Vice_City_Casino"
+          ],
+          "xy": [
+            3615,
+            1205
           ]
+        },
+        {
+          "id": "poi-elec-zekes-gadgets",
+          "name": "Zekes Gadgets",
+          "kind": "Elettronica e software",
+          "description": "Southside, a sud dell'aeroporto. Cuffie, auricolari da indossare e cover per personalizzare il telefono. Sulla mappa: cuffie arancioni.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-phils-ammunation",
+          "name": "Phil's Ammu-Nation",
+          "kind": "Armeria (Ammu-Nation)",
+          "description": "Southside, dentro il centro commerciale Gator Plaza: l'armeria dello spot con Phil. Assortimento ampliato, con armi pesanti (mitragliatrici, cecchini, lanciagranate, lanciarazzi), vestiti, armadietto delle armi ed esche da pesca.",
+          "characterIds": [
+            "chr-phil"
+          ],
+          "status": "verificato",
+          "source": "trailer",
+          "sourceUrl": "https://gta.wiki/w/Phil%27s_Ammu-Nation",
+          "image": "assets/img/poi/poi-phils-ammunation.jpg",
+          "xy": [
+            2678,
+            -1979
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg",
+          "moreSources": [
+            "https://playday.one/2026/11/18/every-ammu-nation-store-in-gta-6/",
+            "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/"
+          ],
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-prestiti-payline-loans-247",
+          "name": "Payline Loans 247",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Vice City, zona sud: tra l'aeroporto e Southside. Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $; sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],
@@ -4311,7 +4336,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            3273,
+            1052
+          ]
         },
         {
           "id": "poi-leonard-sheriff",
@@ -4875,21 +4904,6 @@
           "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3b/GTAVITrailer-GTAVI-SS20.png"
         },
         {
-          "id": "poi-goliath-plant",
-          "name": "Goliath Global Plant",
-          "kind": "Cementificio",
-          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph.",
-          "characterIds": [],
-          "status": "da verificare",
-          "source": "leak",
-          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
-          "image": null,
-          "xy": [
-            992,
-            -1112
-          ]
-        },
-        {
           "id": "poi-gsm-key-lento-store",
           "name": "Key Lento Store",
           "kind": "Minimarket",
@@ -4981,7 +4995,11 @@
           "source": "stampa",
           "image": null,
           "sourceUrl": "https://www.powerpyx.com/gta-6-full-world-map-revealed/",
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2126,
+            -3564
+          ]
         },
         {
           "id": "poi-ricettatore-brian",
@@ -5185,7 +5203,11 @@
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            2567,
+            -3624
+          ]
         },
         {
           "id": "poi-liquor-one-stop-liquor-key-lento",
@@ -5780,6 +5802,21 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-goliath-plant",
+          "name": "Goliath Global Plant",
+          "kind": "Cementificio",
+          "description": "Nel cuore della contea di Mariana, visibile dagli hangar Autograph.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null,
+          "xy": [
+            992,
+            -1112
+          ]
         }
       ],
       "activityIds": [
@@ -6206,7 +6243,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            699,
+            1467
+          ]
         },
         {
           "id": "poi-watkins-auto-parts",
@@ -6219,7 +6260,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            31,
+            1302
+          ]
         },
         {
           "id": "poi-garage-mitchel-auto-center",
@@ -6549,7 +6594,11 @@
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-18",
+          "xy": [
+            83,
+            1647
+          ]
         },
         {
           "id": "poi-smash-buck-s-jewelry-pawn",
@@ -6621,6 +6670,35 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-prestiti-cash-flow",
+          "name": "Cash Flow",
+          "kind": "Agenzia di prestiti (rapina)",
+          "description": "Port Gellhorn, nel centro vicino alla costa. Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 2.000–10.000 $; sicurezza media.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-19"
+        },
+        {
+          "id": "poi-st-draper-island-train-station",
+          "name": "Stazione di Draper Island",
+          "kind": "Stazione · Amloco (treni regionali)",
+          "description": "Stazione della linea Amloco (treni regionali) a Draper Island, l'isola del porto di Port Gellhorn (contea di Kelly).",
+          "xy": [
+            -497,
+            2354
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],
@@ -6686,15 +6764,15 @@
       "subAreas": [
         {
           "name": "Lake Leonida",
-          "note": "il grande lago centrale, nella parte nord della contea di Leonard"
+          "note": "il grande lago centrale, nella parte nord della contea di Leonard; Ambrosia sta sulla sponda sud-ovest"
         },
         {
           "name": "Richard Barebone State Park",
-          "note": "parco statale vicino al lago"
+          "note": "parco statale vicino al lago, già nella contea di Leonard"
         },
         {
           "name": "Little Hardin Island",
-          "note": "isola del lago"
+          "note": "isola del lago, contea di Leonard"
         }
       ],
       "pois": [
@@ -6716,13 +6794,13 @@
           "id": "poi-one-eyed-willie",
           "name": "One-Eyed Willie's Auto Shop",
           "kind": "Officina",
-          "description": "Officina fuoristrada dell'Ultimate Edition sul Lake Leonida, famosa per le livree dipinte a mano.",
+          "description": "Officina fuoristrada dell'Ultimate Edition sul Lake Leonida, nella contea di Leonard: famosa per le livree dipinte a mano.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
           "image": "assets/img/poi/poi-one-eyed-willie.jpg",
           "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-PromotionalWebsite-UltimateEdition-OneEyedWillie03.jpg",
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-19"
         },
         {
           "id": "poi-ambrosia-raceway",
@@ -7082,7 +7160,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-ambrosia-06.jpg"
       ],
@@ -7503,6 +7581,22 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-st-redhill-train-station",
+          "name": "Stazione di Redhill",
+          "kind": "Stazione · Amloco (treni regionali)",
+          "description": "Stazione della linea Amloco (treni regionali), a Redhill.",
+          "xy": [
+            1510,
+            3588
+          ],
+          "status": "da verificare",
+          "source": "community",
+          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-07"
         }
       ],
       "activityIds": [
@@ -7589,45 +7683,6 @@
           "source": "community",
           "sourceUrl": "https://gtabase.com/gta-6/map/",
           "image": null
-        },
-        {
-          "id": "poi-banca-gibson-brothers-bank",
-          "name": "Gibson Brothers Bank",
-          "kind": "Banca (rapina)",
-          "description": "Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate. Si trova nella contea di Mariana; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Mariana (Keys, Grassrivers o Capri): posizione esatta da precisare.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
-          "image": null,
-          "spoilerLevel": 3,
-          "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-prestiti-payline-loans-247",
-          "name": "Payline Loans 247",
-          "kind": "Agenzia di prestiti (rapina)",
-          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 5.000–15.000 $. È nella contea di Vice-Dale; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Vice-Dale: posizione esatta da precisare.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
-          "image": null,
-          "spoilerLevel": 3,
-          "example": false,
-          "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-prestiti-cash-flow",
-          "name": "Cash Flow",
-          "kind": "Agenzia di prestiti (rapina)",
-          "description": "Punta la pistola al cassiere, prendi i contanti e svuota la cassaforte nel retro. Bottino 2.000–10.000 $. È nella contea di Kelly; la posizione esatta non è ancora nota.\n\nSi trova nella contea di Kelly: posizione esatta da precisare.",
-          "status": "da verificare",
-          "source": "stampa",
-          "sourceUrl": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
-          "image": null,
-          "spoilerLevel": 3,
-          "example": false,
-          "updatedAt": "2026-11-18"
         }
       ],
       "activityIds": [],
@@ -7995,7 +8050,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            4550,
+            437
+          ]
         },
         {
           "id": "poi-fleeca-ocean-beach",
@@ -8008,7 +8067,11 @@
           "spoilerLevel": 3,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            4683,
+            -546
+          ]
         },
         {
           "id": "poi-hobbs-milford-ocean-beach",
@@ -8021,7 +8084,11 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-09",
-          "image": null
+          "image": null,
+          "xy": [
+            4660,
+            -111
+          ]
         },
         {
           "id": "poi-garage-bonita-court-garage",
@@ -8733,7 +8800,7 @@
       "name": "Hamlet",
       "region": "Contea di Vice-Dale, punta sud della terraferma",
       "tagline": "La cittadina agricola prima delle Keys.",
-      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, Grassrivers e Bluegrass. Qui si trovano il Leonida Penitentiary, il salone di Sara, Phil's Ammu-Nation e lo speedway. All'ingresso, il cartello «Welcome to Hamlet».",
+      "description": "Piccola città suburbana e agricola alla punta sud della terraferma (la Homestead di Leonida), tra le Keys, le Grassrivers e Bluegrass. Qui si trovano il Leonida Penitentiary, il salone di Sara, due Ammu-Nation (Big Shots e Hamlet Traders) e lo speedway. All'ingresso, il cartello «Welcome to Hamlet».",
       "map": {
         "x": 610,
         "y": 740,
@@ -8754,24 +8821,6 @@
         }
       ],
       "pois": [
-        {
-          "id": "poi-phils-ammunation",
-          "name": "Phil's Ammu-Nation",
-          "kind": "Armeria",
-          "description": "L'armeria dello spot con Phil.",
-          "characterIds": [
-            "chr-phil"
-          ],
-          "status": "verificato",
-          "source": "trailer",
-          "sourceUrl": "https://www.gtabase.com/gta-6/map/",
-          "image": "assets/img/poi/poi-phils-ammunation.jpg",
-          "xy": [
-            2678,
-            -1979
-          ],
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1074,ig.jpg"
-        },
         {
           "id": "poi-boone-speedway",
           "name": "Boone Speedway",
@@ -9212,6 +9261,37 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-peregrine-bay",
+          "name": "Peregrine Bay",
+          "kind": "Baia",
+          "description": "La baia a sud della contea, ispirata a Turkey Point, indicata da un cartello a Southside.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": "assets/img/poi/poi-peregrine-bay.png",
+          "xy": [
+            2807,
+            -2662
+          ],
+          "imageUrl": "https://gta.wiki/images/PeregrineBayPowerStation-GTAVI-OfficialScreenshot-Grassrivers02.png?03e19"
+        },
+        {
+          "id": "poi-bluegrass",
+          "name": "Bluegrass",
+          "kind": "Cittadina agricola",
+          "description": "Cittadina a nord di Hamlet, ispirata a Redland; il Bluegrass Radio Mast è la struttura più alta di Leonida.",
+          "characterIds": [],
+          "status": "da verificare",
+          "source": "leak",
+          "sourceUrl": "https://gta.wiki/w/State_of_Leonida",
+          "image": null,
+          "xy": [
+            2261,
+            -1912
+          ]
         }
       ],
       "activityIds": [],
@@ -9221,7 +9301,7 @@
       "sourceUrl": "https://gta.wiki/w/Hamlet",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-06",
+      "updatedAt": "2026-11-19",
       "toSee": "Stazione di servizio, torre ferroviaria, prigione",
       "whoYouMeet": null
     },
@@ -9278,22 +9358,6 @@
           "xy": [
             -10,
             -281
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
-          "id": "poi-st-draper-island-train-station",
-          "name": "Stazione di Draper Island",
-          "kind": "Stazione · Amloco (treni regionali)",
-          "description": "Stazione della linea Amloco (treni regionali), a Draper Island.",
-          "xy": [
-            -497,
-            2354
           ],
           "status": "da verificare",
           "source": "community",
@@ -9483,6 +9547,19 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
+        },
+        {
+          "id": "poi-banca-gibson-brothers-bank",
+          "name": "Gibson Brothers Bank",
+          "kind": "Banca (rapina)",
+          "description": "Capri, sulla costa del Golfo. Banca piccola: minaccia il cassiere e svuota anche la cassaforte. Bottino 10.000–30.000 $ in banconote segnate; sicurezza alta.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+          "image": null,
+          "spoilerLevel": 3,
+          "example": false,
+          "updatedAt": "2026-11-19"
         }
       ],
       "activityIds": [],

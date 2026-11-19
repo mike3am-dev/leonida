@@ -37,12 +37,14 @@
       "tips": [
         "Nelle fughe in auto lascia guidare il partner e usa il passeggero come tiratore.",
         "Dividervi durante una fuga confonde la polizia: le prove sul complice saltano.",
-        "Se non trovi l'altro protagonista, chiamalo o scrivigli per darvi appuntamento."
+        "Se non trovi l'altro protagonista, chiamalo o scrivigli per darvi appuntamento.",
+        "Dal menu del partner (tieni premuto destra sulla croce) gli chiedi di guidare: vicino al veicolo personale ti siedi accanto, segni la destinazione sulla mappa e ti ci porta. Dallo stesso menu gli dici di accelerare, rallentare o separarvi.",
+        "Se vi separate dopo un colpo, il partner può andare da solo a vendere la refurtiva (pagano un po' meno) e poi ti scrive su WhatUp: rispondigli, ignorarlo pesa sulla relazione."
       ],
       "extras": [
         {
-          "source": "community",
-          "text": "Il conto in banca è condiviso tra i due; le armi no, ognuno ha le sue."
+          "source": "stampa",
+          "text": "Le armi non si condividono: ognuno ha le sue. Per GamesRadar anche il conto corrente BuckMe è di ciascuno; in comune c'è il risparmio Family Savings."
         },
         {
           "source": "stampa",
@@ -73,7 +75,10 @@
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
+      ]
     },
     {
       "id": "mec-relazione",
@@ -118,7 +123,9 @@
         "Non ignorare i messaggi: ignorarli a ripetizione rovina un po' il rapporto.",
         "La palestra in due allena entrambi e conta come tempo insieme.",
         "In auto uno guida e l'altro usa il telefono: anche i giri in macchina contano.",
-        "Lo zoo è un appuntamento comodo dentro Vice City."
+        "Lo zoo è un appuntamento comodo dentro Vice City.",
+        "Dopo una giornata passata insieme sulla mappa compare un cuoricino sul rifugio, o è il partner a proporlo: è il momento di tornare a casa a dormire insieme.",
+        "Quando siete vicini, tieni premuto L2 sul partner: parlate e puoi passargli quello che hai in mano, come cibo e bevande."
       ],
       "extras": [
         {
@@ -168,7 +175,10 @@
       "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
+      ]
     },
     {
       "id": "mec-profilo-criminale",
@@ -291,7 +301,10 @@
         "Prima di uscire mangia e bevi qualcosa: salute, resistenza e Focus partono più alti. Puoi mangiare anche camminando, guidando o sparando.",
         "Una gomma o uno snack comprati in un negozio mentre ti nascondi danno un piccolo bonus salute.",
         "Per il Focus la via più rapida è la prova principiante Market Range al Rodgers Ranch (pass da 5 $): dura cinque secondi e si ripete all'infinito.",
-        "Antidolorifici e Zombix funzionano meno se ne abusi."
+        "Antidolorifici e Zombix funzionano meno se ne abusi.",
+        "Lo Zombix ridà solo metà salute; l'adrenalina dà una spinta più grande.",
+        "Non dormire più volte di fila senza mangiare né allenarti: le statistiche calano in fretta.",
+        "Pesi in terrazza: per lo swing col kettlebell tieni premuti L2 e R2 e rilasciali in cima; nella panca li tieni per sollevare e li rilasci piano per abbassare. Una barretta proteica dopo l'allenamento dimezza il recupero."
       ],
       "extras": [
         {
@@ -340,11 +353,13 @@
       "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
         "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
-        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee"
       ]
     },
     {
@@ -486,7 +501,9 @@
       "tips": [
         "Le auto abbandonate in una fuga possono finire sotto sequestro: recuperarle costa di più.",
         "Con Scooter Bros ti fai consegnare il veicolo personale in pochi secondi.",
-        "Il primo garage serve presto: i posti auto iniziali sono pochi."
+        "Il primo garage serve presto: i posti auto iniziali sono pochi.",
+        "Al nascondiglio sotto le assi scegli «Contanti» per spostare soldi tra tasca e nascondiglio: l'icona della casa accanto al saldo mostra quanto c'è nascosto.",
+        "I soldi che Donnie ti lascia arrivano nella cassetta della posta sulla strada e finiscono in tasca, non nel nascondiglio."
       ],
       "extras": [
         {
@@ -520,19 +537,20 @@
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-details-netflix-extended-look-previews/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
         "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
         "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
         "https://www.powerpyx.com/gta-6-how-to-skip-time/",
-        "https://www.powerpyx.com/gta-6-all-garage-locations/"
+        "https://www.powerpyx.com/gta-6-all-garage-locations/",
+        "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-furto-auto",
       "title": "Furto d'auto",
       "emoji": "🚗",
@@ -573,7 +591,8 @@
         "Un'auto rubata vale di più se passi in officina prima della consegna.",
         "Per i colpi, il veicolo della polizia è una tentazione: prendi il fucile dal bagagliaio, non l'auto.",
         "Pay 'n' Spray ripara, ridipinge e azzera il «calore» del veicolo.",
-        "Di notte, con meno traffico, prendi un'auto che sta per entrare in autostrada: la polizia fa più fatica a starti dietro."
+        "Di notte, con meno traffico, prendi un'auto che sta per entrare in autostrada: la polizia fa più fatica a starti dietro.",
+        "Nei minigiochi di slim jim, clonazione e avviamento coi fili muovi le levette fino al punto rosa: è lì che fai prima."
       ],
       "extras": [
         {
@@ -625,14 +644,15 @@
         "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-slim-jim/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-clone-keys/",
-        "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained/"
+        "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-polizia-ricercato",
       "title": "Polizia e livello di ricercato",
       "emoji": "🚨",
@@ -684,7 +704,9 @@
         "Prima di un colpo copriti il volto: una maschera buttata dopo il crimine non ti collega ai filmati.",
         "Cappello e occhiali non bastano: serve un outfit diverso o un taglio dal barbiere. Tieni un cambio nel bagagliaio.",
         "La scena del crimine resta zona calda per un po': non tornarci subito.",
-        "Se uno dei due viene arrestato, l'altro resta libero."
+        "Se uno dei due viene arrestato, l'altro resta libero.",
+        "Dalla quarta stella, con gli elicotteri addosso, segui i binari nel sud-ovest di Vice City o nel nord di Ambrosia (c'è una galleria): lungo la ferrovia le volanti compaiono poco. Sparando agli elicotteri li fai desistere; poi riverniciati al Pay 'n' Spray.",
+        "Dalla ruota degli oggetti metti e togli bandana, occhiali e cappello: la polizia fa più fatica a riconoscerti."
       ],
       "extras": [
         {
@@ -734,14 +756,15 @@
         "https://www.videogameschronicle.com/guide/how-to-change-the-time-of-day-in-gta-6/",
         "https://www.gamespot.com/articles/the-gta-6-police-dont-have-equal-response-times-for-all-crimes/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/",
-        "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960"
+        "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-rapine",
       "title": "Rapine",
       "emoji": "💰",
@@ -827,6 +850,10 @@
         {
           "source": "stampa",
           "text": "Piccole entrate: rapinare un passante rende poche centinaia di dollari; nei bagagliai, sui tetti (cassette con contanti) e nelle barche arenate sulla costa trovi qualcosa."
+        },
+        {
+          "source": "stampa",
+          "text": "In coppia, prima di entrare, dal menu del partner (tieni premuto destra) gli chiedi di aspettarti in auto; a colpo iniziato, di entrare a coprirti. Se minacci guardie o cassieri, il partner li tiene sotto tiro mentre tu ti muovi. Passando sulla mappa sopra il bersaglio vedi quanto è sorvegliato: da medio in su porta l'altro."
         }
       ],
       "relatedIds": [
@@ -858,14 +885,15 @@
         "https://www.powerpyx.com/gta-6-how-to-hand-items-to-your-partner/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
         "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-armi",
       "title": "Armi",
       "emoji": "🔫",
@@ -910,7 +938,9 @@
         "Prima di una sparatoria prevista, passa dal bagagliaio: là dentro hai tutto.",
         "Un'arma in spalla la gente la tollera; imbracciata fa scappare o chiamare la polizia.",
         "Nelle volanti ci sono fucili e giubbotti nel bagagliaio.",
-        "Parcheggia l'auto personale vicino al bersaglio: è il tuo armadio."
+        "Parcheggia l'auto personale vicino al bersaglio: è il tuo armadio.",
+        "Le varianti uniche si riconoscono da un'icona dorata a forma di pistola sulla minimappa: stanno soprattutto nei covi delle bande e in posti speciali.",
+        "Rifornisci spesso il giubbotto antiproiettile: aumenta parecchio la sopravvivenza. Munizioni ed esplosivi per le casseforti si comprano all'Ammu-Nation."
       ],
       "extras": [
         {
@@ -919,7 +949,7 @@
         },
         {
           "source": "stampa",
-          "text": "C'è una sola ruota: con R1 passi tra ARMI e OGGETTI, che hanno slot dedicati (Disarmato, Arma secondaria, Esplosivi, Giubbotto). Quadrato usa lo Zombix, Triangolo l'adrenalina. In auto c'è una ruota a parte per le maschere."
+          "text": "C'è una sola ruota (L1 tenuto): con R1 passi tra ARMI e OGGETTI. ARMI ha posti per due armi corte, le mani, l'equipaggiamento, due armi lunghe, un'arma da mischia e gli esplosivi; OGGETTI per maschera, cuffie, cappello, outfit, borse, attrezzatura, occhiali, fumo e sostanze. Quadrato usa lo Zombix, Triangolo l'adrenalina. In auto c'è una ruota a parte per le maschere."
         },
         {
           "source": "stampa",
@@ -927,7 +957,7 @@
         },
         {
           "source": "stampa",
-          "text": "Gli armadietti delle armi sono negli Ammu-Nation (sulla mappa c'è l'icona dell'armadietto): da lì riprendi le armi che possiedi e le varianti uniche."
+          "text": "L'armadietto verde c'è in quasi tutti gli Ammu-Nation (non in quelli dei banchi dei pegni): L1 per sistemare la ruota, Triangolo per «Gestisci armi». Da lì riprendi le armi che possiedi e le varianti uniche, e con Quadrato decidi quali tenere nel bagagliaio dell'auto personale."
         },
         {
           "source": "testo principale",
@@ -968,14 +998,17 @@
         "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/",
         "https://gamerant.com/gta-6-how-weapons-work/",
         "https://www.powerpyx.com/gta-6-how-to-equip-body-armor/",
-        "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/"
+        "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-manage-loadout/",
+        "https://www.gamesradar.com/games/grand-theft-auto/how-to-remove-guns-from-trunk-recover-weapons-ammu-nation-gta-6/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-combattimento",
       "title": "Combattimento",
       "emoji": "🎯",
@@ -1054,6 +1087,14 @@
         {
           "source": "stampa",
           "text": "Nei comandi predefiniti il corpo a corpo è su Quadrato."
+        },
+        {
+          "source": "stampa",
+          "text": "Da dietro, R2 afferra un nemico e lo stendi in silenzio senza ucciderlo. Nel mirino una X gialla vuol dire che l'hai messo fuori combattimento, una X rossa che l'hai ucciso."
+        },
+        {
+          "source": "stampa",
+          "text": "Nel corpo a corpo L2 aggancia l'avversario, R2 lo afferra e X para o schiva."
         }
       ],
       "relatedIds": [
@@ -1079,22 +1120,24 @@
       "moreSources": [
         "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
         "https://gamingbolt.com/gta-6-15-gameplay-settings-to-change-before-your-first-mission",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://insider-gaming.com/gta-6-control-settings/"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-soldi",
       "title": "Soldi",
       "emoji": "💵",
       "short": "I soldi servono davvero: alcune missioni della storia si aprono solo quando Jason e Lucia ne hanno abbastanza. Li fai con rapine, furti d'auto su commissione e refurtiva venduta ai ricettatori.",
       "steps": [
-        "Tieni d'occhio il saldo: il conto è nell'app BuckMe ed è condiviso tra Jason e Lucia. Arriva verso metà del capitolo 1, con 100 $ di benvenuto.",
+        "Tieni d'occhio il saldo nell'app BuckMe, che arriva verso metà del capitolo 1 con 100 $ di benvenuto. Per GamesRadar Jason e Lucia hanno ciascuno il proprio conto corrente; il risparmio Family Savings invece è in comune.",
         "Prima di BuckMe nascondi i contanti sotto le assi del pavimento della camera di Jason: se muori o ti arrestano perdi quelli che hai in tasca.",
-        "Versa i contanti a un bancomat: in BuckMe la ricerca dei bancomat ti segna il più vicino. Lì puoi anche prelevare.",
+        "Versa i contanti a un bancomat: in BuckMe, in fondo, «ATM Finder» ti segna il più vicino (li trovi anche nell'indice della mappa, scheda Personale). Al bancomat premi Triangolo: versi o prelevi fino a 20.000 $ alla volta.",
         "Sotto i 1.000 $ paghi in contanti; da 1.000 $ in su, o se in tasca hai zero, paga BuckMe. Girare con i contanti non serve.",
         "Quando la storia chiede soldi, rapina: minimarket, distributori e gioiellerie sono i bersagli più rapidi.",
         "Ruba le auto richieste dai ricettatori, elencate in WAiNK, e consegnale intatte.",
@@ -1132,12 +1175,14 @@
         "Prima di una missione che chiede soldi, fai qualche colpo piccolo invece di uno grosso e rischioso.",
         "Ripara l'auto rubata in officina prima della consegna: incassi di più.",
         "Un covo di gang svuotato può valere quanto parecchie rapine ai negozi.",
-        "Abbandonare l'auto in un inseguimento costa: recuperarla dal deposito è più caro."
+        "Abbandonare l'auto in un inseguimento costa: recuperarla dal deposito è più caro.",
+        "Per rapinare un passante puntagli l'arma e premi Triangolo; alla cassa di un negozio, di un fast food o di un distributore punta l'arma sul commesso e premi Quadrato. Rendono poco: servono per qualche spicciolo.",
+        "Nei primi capitoli i soldi facili arrivano dai covi delle bande (icone gialle); da metà del capitolo 3, con le gioiellerie, il denaro smette di essere un problema."
       ],
       "extras": [
         {
           "source": "stampa",
-          "text": "I contanti in tasca si perdono se muori o vieni arrestato; dal conto ne perdi solo una parte. Le guide uscite finora non parlano di un limite ai contanti (le anteprime dicevano 20.000 $): il tetto confermato è quello del conto corrente, che sale con il Family Savings."
+          "text": "I contanti in tasca si perdono se muori o vieni arrestato, e un passante molto aggressivo può portarteli via; dal conto ne perdi solo una parte. In tasca porti al massimo 20.000 $ a testa (GamesRadar); il tetto del conto corrente sale con il Family Savings."
         },
         {
           "source": "stampa",
@@ -1157,7 +1202,7 @@
         },
         {
           "source": "stampa",
-          "text": "Versare soldi nel Family Savings fa piacere al partner e conta per la relazione."
+          "text": "Versare soldi nel Family Savings fa piacere al partner e conta per la relazione; secondo GamesRadar il risparmio cambia anche alcuni dialoghi tra i due e conta per la storia."
         }
       ],
       "relatedIds": [
@@ -1188,21 +1233,26 @@
         "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
         "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
-        "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/"
+        "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-money-buckme-bank-account-manage/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-atm/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-family-savings/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ]
     },
     {
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-telefono-app",
       "title": "Telefono e app",
       "emoji": "📱",
       "short": "Il telefono è il tuo centro di comando: banca, messaggi, corse, recupero dell'auto, scanner dei veicoli e social. È un oggetto fisico: lo tieni in mano e la fotocamera è quella del personaggio.",
       "steps": [
         "Apri il telefono per accedere alle app: ognuna fa una cosa sola e la fa bene.",
-        "Usa BuckMe per gestire il conto in banca, condiviso tra Jason e Lucia.",
+        "Usa BuckMe per il conto in banca: versamenti, bancomat più vicino e risparmio Family Savings, che è in comune tra Jason e Lucia.",
         "Usa WhatUp per scrivere o chiamare l'altro protagonista e darvi appuntamento.",
         "Prima di rubare un'auto, puntala con WAiNK: vedi sicurezza, attrezzo necessario, localizzatore, costo di registrazione e valore dal ricettatore.",
         "Chiama RydeMe per farti portare a destinazione, saltando il viaggio o facendolo tutto.",
@@ -1210,8 +1260,10 @@
         "Scorri Snapmatic e i feed social per seguire le storie del mondo e scoprire eventi a cui andare.",
         "Ascolta podcast e show con On Demand, anche a piedi con gli auricolari.",
         "Tieni premuto su sulla croce per aprire subito WAiNK; con un tocco apri il telefono, con l'ora in alto a sinistra.",
-        "Controlla spesso i Promemoria: ti ricordano chi chiamare e a chi rispondere, e da lì scrivi ai contatti (a Randy, per esempio, per sapere dove trovare le auto).",
-        "Su Snapmatic metti «mi piace», leggi i commenti e segni sulla mappa il posto di una foto."
+        "Controlla spesso i Promemoria (dal telefono, con Quadrato): ti ricordano chi chiamare e a chi rispondere, e raccolgono anche le notizie importanti. Da lì scrivi ai contatti (a Randy, per esempio, per sapere dove trovare le auto).",
+        "Su Snapmatic metti «mi piace», leggi i commenti e segni sulla mappa il posto di una foto.",
+        "Leggi anche l'app delle notizie: come Snapmatic, a volte segna sulla mappa un posto da visitare.",
+        "Nelle impostazioni del telefono (icona dell'ingranaggio) cambi suoneria e sfondo; in fondo agli sfondi ci sono paesaggi e una foto di Jason e Lucia. Le tue foto non si possono usare come sfondo."
       ],
       "details": [
         {
@@ -1292,28 +1344,31 @@
         "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
         "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
         "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained/",
-        "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/"
+        "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://gamerant.com/gta-6-how-change-phone-ringtone/",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ]
     },
     {
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-guida-veicoli",
       "title": "Guida e veicoli",
       "emoji": "🚙",
       "short": "Ogni veicolo ha benzina e salute del motore, e la guida è più fisica e impegnativa che in GTA V. Ripari e ridipingi al Pay 'n' Spray, personalizzi nelle officine, e il bagagliaio decide quanto bottino porti via.",
       "steps": [
-        "Guarda le spie: carburante e stato del motore sono sempre visibili.",
-        "Per fare il pieno fermati al distributore e tieni premuto R2 per una decina di secondi; le elettriche si ricaricano alle colonnine.",
-        "Il distributore ripara anche i danni; il Pay 'n' Spray ripara, cambia colore e azzera il «calore» dell'auto.",
+        "Guarda le spie: premendo giù sulla croce compaiono sopra la minimappa l'icona del motore e quella della benzina, dentro un cerchio colorato. Motore: verde a posto, arancione danni medi, rosso danni gravi, croce rossa distrutto. Benzina: verde piena, gialla in riserva, rossa a secco.",
+        "Per fare il pieno accosta a una pompa e premi X: dal menu scegli il rifornimento, a pochi dollari. Le auto elettriche si ricaricano alle colonnine (indice della mappa › Veicoli › Colonnine elettriche).",
+        "Il Pay 'n' Spray e le officine riparano qualsiasi danno; il Pay 'n' Spray cambia anche colore e azzera il «calore» dell'auto, ma non ci entri mentre la polizia ti vede (stelle piene).",
         "Per personalizzare vai in officina: le opzioni base ci sono quasi ovunque, quelle speciali solo in certe zone.",
         "Apri il menu del veicolo per aprire il bagagliaio o abbassare la capote.",
         "Scegli il mezzo in base al bottino: la moto non porta quasi nulla, auto, furgone e camion sempre di più.",
         "Registra un'auto rubata, pagando, per farla diventare tua; prima va tolto il localizzatore.",
         "Tieni premuto sinistra sulla croce per il menu del veicolo (luci, bagagliaio, capote); un tocco a sinistra o a destra mette la freccia. Il bagagliaio si chiude da solo quando riparti.",
-        "Alla pompa di benzina puoi anche riparare l'auto o la moto per poco: spesso costa meno di Scooter Bros."
+        "Alla pompa puoi anche riparare, ma solo i danni leggeri: per Kotaku costa spesso meno di Scooter Bros, per GamesRadar più di un Pay 'n' Spray. Con il motore in rosso vai in officina."
       ],
       "details": [
         {
@@ -1334,7 +1389,7 @@
         },
         {
           "title": "Officine",
-          "text": "Le officine sono 14 e ognuna ha la sua specialità: retrò, muscle, moto sportive, lusso, tuner, lowrider, donk (Ultimate), pellicole, hot rod, auto da corsa, moto da sterrato, fuoristrada (una è Ultimate) e chopper. I Pay 'n' Spray sono 19."
+          "text": "Le officine sono 14 e ognuna ha la sua specialità: retrò, muscle, moto sportive, lusso, tuner, lowrider, donk (Ultimate), pellicole, hot rod, auto da corsa, moto da sterrato, fuoristrada (una è Ultimate) e chopper. I Pay 'n' Spray sono 19. Nell'indice della mappa (Veicoli › Officine) una chiave inglese blu accanto al nome vuol dire che quell'officina è specializzata nel tuo veicolo e ha pezzi esclusivi."
         },
         {
           "title": "Scooter Bros",
@@ -1404,6 +1459,22 @@
         {
           "source": "stampa",
           "text": "Gli autolavaggi sono 6, tutti a Vice City; riparare l'auto la pulisce anche."
+        },
+        {
+          "source": "stampa",
+          "text": "Clacson su L3; con un tocco di R3 Jason o Lucia insultano chi guida o cammina vicino, e a volte mostrano il dito medio. Con gli agenti non farlo: scatta una stella."
+        },
+        {
+          "source": "stampa",
+          "text": "Tieni premuto Cerchio alla guida per abbassarti dietro il volante: così passi accanto agli agenti senza farti riconoscere. Con lo stesso tasto, premuto una volta, accendi e spegni i fari."
+        },
+        {
+          "source": "stampa",
+          "text": "Un veicolo che non è tuo resta solo se lo lasci in un posto auto del rifugio o in un garage: se va distrutto lo perdi, con tutto quello che c'era nel bagagliaio. L'ultimo che hai lasciato è segnato nell'indice della mappa, scheda Personale."
+        },
+        {
+          "source": "stampa",
+          "text": "Guidando puoi colpire chi passa aprendo di colpo la portiera, o con un calcio dalla moto."
         }
       ],
       "relatedIds": [
@@ -1434,21 +1505,28 @@
         "https://www.powerpyx.com/gta-6-impounded-vehicle-walkthrough/",
         "https://www.powerpyx.com/gta-6-how-to-unfog-the-map-fast-best-plane/",
         "https://gamerant.com/gta-6-auto-drive-turn-on-how/",
-        "https://www.powerpyx.com/gta-6-all-car-washes-locations/"
+        "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-repair-car-bike-how-to/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-respray-cars-how-to/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-personal-vehicles-how-to-register-switch-recover-car/",
+        "https://gamerant.com/gta-6-how-honk-flip-people-off/",
+        "https://insider-gaming.com/gta-6-control-settings/",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ]
     },
     {
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-spostarsi",
       "title": "Spostarsi",
       "emoji": "🚌",
       "short": "Leonida si attraversa senza caricamenti. Puoi guidare, prendere autobus, treni, tram e taxi, o chiamare RydeMe: il viaggio rapido si fa in taxi o con RydeMe, pagando per saltare la corsa.",
       "steps": [
-        "Apri la mappa in pausa: è satellitare, con la nebbia sulle zone non ancora esplorate.",
-        "Tieni premuto giù sulla croce: il tempo rallenta e vedi i punti vicini (missioni, negozi, distributori); con L1 e R1 li scorri e ne segni uno come destinazione.",
+        "Apri la mappa con il touchpad (c'è anche nel menu di pausa): è satellitare, con la nebbia sulle zone non ancora esplorate.",
+        "Tieni premuto giù sulla croce: il tempo rallenta e vedi i punti vicini (missioni, negozi, distributori). Evidenziane uno e premi R3: il navigatore ti traccia il percorso.",
         "Per l'autobus vai a una fermata segnata sulla minimappa e aspetta: non si ferma al volo.",
         "A bordo sei un passeggero: niente benzina, niente danni.",
         "Con RydeMe scegli se saltare il viaggio o farlo tutto chiacchierando con l'autista.",
@@ -1548,7 +1626,10 @@
         "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
         "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained/",
         "https://www.powerpyx.com/gta-6-all-ferry-terminals-locations/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/",
+        "https://insider-gaming.com/gta-6-control-settings/"
       ]
     },
     {
@@ -1666,7 +1747,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "mec-attivita-svaghi",
       "title": "Attività e svaghi",
       "emoji": "🎳",
@@ -1707,7 +1788,8 @@
         "Le attività senza icona sono le più interessanti: esplora a piedi e ascolta la gente.",
         "Fai palestra in coppia: un allenamento vale per due.",
         "Tra una missione e l'altra le corse e le soffiate ti fanno racimolare i soldi che la storia può chiederti.",
-        "Sott'acqua conta la capacità polmonare, non la resistenza: allenala prima dei relitti più profondi."
+        "Sott'acqua conta la capacità polmonare, non la resistenza: allenala prima dei relitti più profondi.",
+        "Nei motel e negli alberghi guarda dépliant e cartine: segnano sulla mappa attività e luoghi della zona."
       ],
       "extras": [
         {
@@ -1781,7 +1863,8 @@
       "moreSources": [
         "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
-        "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/"
+        "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/"
       ]
     },
     {
@@ -2102,15 +2185,19 @@
         }
       ],
       "tips": [
-        "Le serie di Shirley, Billy, Moses, Andy, Yasmani, Tyrone ed Eddie non contano per questo trofeo (per Randy non è ancora chiaro), ma valgono per il 100% come incarichi facoltativi."
+        "Le serie di Shirley, Billy, Moses, Andy, Yasmani, Tyrone ed Eddie non contano per questo trofeo (per Randy non è ancora chiaro), ma valgono per il 100% come incarichi facoltativi.",
+        "Per far arrivare la missione dopo, vai a fare altro: dormire più volte di fila di solito non serve, e per gli Sconosciuti e folli possono volerci alcune ore di gioco reali."
       ],
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
-      "relatedIds": []
+      "relatedIds": [],
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
+      ]
     },
     {
       "id": "mec-trucchi",
@@ -2122,14 +2209,14 @@
         "Finisci la storia: solo dopo l'ultima missione principale compare la voce «Trucchi», in fondo al menu Progressi (apri la mappa e scorri le schede con L1/R1). Durante la storia i codici non funzionano.",
         "Nel menu ogni trucco ha la sua condizione di sblocco: una sfida, un conteggio o un oggetto da scoprire. Conta anche quello che hai fatto prima di finire la storia.",
         "Tre sono pronti appena scorrono i titoli di coda: 250.000 $, Unlimited Focus e Attack Force.",
-        "Per attivarne uno: premi su sulla croce direzionale per prendere il telefono, tieni premuto L1, premi R1 e inserisci la sequenza di frecce.",
+        "Per attivarne uno: premi su sulla croce direzionale per prendere il telefono, tieni premuti L1 e R1 e, sempre tenendoli, inserisci la sequenza di frecce.",
         "Quando un trucco è sbloccato, il menu ti mostra anche la sua sequenza: non serve impararle a memoria. Un codice inserito prima dello sblocco non fa niente.",
         "Con un trucco attivo il gioco avvisa che non puoi salvare e che trofei e obiettivi restano bloccati fino a quando chiudi la sessione: salva prima, poi ricarica quel salvataggio per tornare a giocare normale."
       ],
       "details": [
         {
           "title": "Personaggio (10)",
-          "text": "$250,000: 250.000 $ subito — finisci la storia (↑ → ↓ ← ↑ ← ↓ →) · Drunk: tu e il partner vi ubriacate all'istante — spendi 2.500 $ in alcolici · Raise Heat Level: alza il livello di allerta su tutta la mappa — fai perdere le tracce 25 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ ↓ ↑) · Raise Wanted Level: alza il livello di ricercato — fai perdere le tracce 50 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ → ↑, lo dà solo GamesRadar) · Unlimited Focus: la concentrazione non finisce mai — finisci la storia (↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →) · No Fall Damage: niente danni da caduta — sopravvivi 20 volte a una caduta libera da 40 piedi (circa 12 m) · Parachute: ti dà un paracadute — 50 lanci col paracadute o base jump da almeno 300 piedi (circa 90 m) · Body Armor: ti dà un giubbotto antiproiettile — 100 allenamenti (↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓) · Repair Vehicle: ripara del tutto il veicolo — 10 primi posti nelle gare di Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway · Unlimited Nitrous: nitro e benzina infiniti — 50 salti acrobatici con la rampa"
+          "text": "$250,000: 250.000 $ subito — finisci la storia (↑ → ↓ ← ↑ ← ↓ →) · Drunk: tu e il partner vi ubriacate all'istante — spendi 2.500 $ in alcolici (↑ ← → ↑ ↑ ← → ↑ ← →, lo dà solo Polygon) · Raise Heat Level: alza il livello di allerta su tutta la mappa — fai perdere le tracce 25 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ ↓ ↑) · Raise Wanted Level: alza il livello di ricercato — fai perdere le tracce 50 volte a un ricercato da 3 stelle (← ↓ → ↓ ↑ → ↑, lo dà solo GamesRadar) · Unlimited Focus: la concentrazione non finisce mai — finisci la storia (↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ →) · No Fall Damage: niente danni da caduta — sopravvivi 20 volte a una caduta libera da 40 piedi (circa 12 m) · Parachute: ti dà un paracadute — 50 lanci col paracadute o base jump da almeno 300 piedi (circa 90 m) · Body Armor: ti dà un giubbotto antiproiettile — 100 allenamenti (↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓) · Repair Vehicle: ripara del tutto il veicolo — 10 primi posti nelle gare di Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway · Unlimited Nitrous: nitro e benzina infiniti — 50 salti acrobatici con la rampa"
         },
         {
           "title": "Combattimento (11)",
@@ -2169,7 +2256,7 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Cycle Weather: secondo GamesRadar e DayOne si sblocca togliendo la nebbia da tutta la mappa, secondo PowerPyx basta finire la storia."
+          "text": "Cycle Weather: secondo GamesRadar, DayOne e Polygon si sblocca togliendo la nebbia da tutta la mappa, secondo PowerPyx basta finire la storia."
         },
         {
           "source": "stampa",
@@ -2182,6 +2269,14 @@
         {
           "source": "stampa",
           "text": "In GTA V i trucchi funzionavano dalla prima ora e lasciavano salvare; in GTA VI arrivano solo a storia finita e bloccano il salvataggio."
+        },
+        {
+          "source": "stampa",
+          "text": "$250,000: PowerPyx e GamesRadar dicono che è pronto a fine storia; Polygon scrive invece che si sblocca piazzando 250.000 $ di merce rubata dai ricettatori."
+        },
+        {
+          "source": "stampa",
+          "text": "Per inserire i codici GamesRadar e Polygon dicono di tenere premuti L1 e R1 insieme; PowerPyx scrive «tieni L1 e premi R1». Tenendoli premuti entrambi funziona in tutti e due i casi."
         }
       ],
       "relatedIds": [
@@ -2202,11 +2297,12 @@
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
         "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
-        "https://www.gtaboom.com/how-gta-6-cheats-work-and-why-you-have-to-finish-the-whole-story-first-f2f7"
+        "https://www.gtaboom.com/how-gta-6-cheats-work-and-why-you-have-to-finish-the-whole-story-first-f2f7",
+        "https://www.polygon.com/gta-6-cheat-codes-list-unlock/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-salvataggi",
@@ -2242,6 +2338,10 @@
         {
           "title": "Quando si sblocca",
           "text": "Da subito: si salva appena sei nel mondo aperto, dopo la prima missione."
+        },
+        {
+          "title": "Aiuti e trofei",
+          "text": "Combattimento accessibile e Danni ridotti ai veicoli, in fondo a Impostazioni › Gioco, rendono il gioco più facile ma non toccano la storia e non bloccano i trofei. PowerPyx consiglia di usarli solo se resti bloccato in una missione o per ripulire la mappa a storia finita."
         }
       ],
       "tips": [
@@ -2261,11 +2361,13 @@
         "https://www.powerpyx.com/gta-6-game-length-how-long-is-the-story/",
         "https://kotaku.com/yes-you-can-keep-playing-gta-6-after-the-credits-roll-and-dont-worry-thats-not-a-spoiler-2000756333",
         "https://gamingbolt.com/gta-6-15-gameplay-settings-to-change-before-your-first-mission",
-        "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/"
+        "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-mappa",
@@ -2274,14 +2376,15 @@
       "group": "Mondo e vita",
       "short": "Leonida misura circa 175 km² in cinque contee, per un terzo acqua. La mappa parte coperta dalla nebbia, che si toglie a settori; filtri e contatori ti dicono quanti negozi e servizi hai già trovato.",
       "steps": [
-        "Apri la mappa dal menu di pausa: le zone che non hai ancora visitato sono coperte.",
+        "Apri la mappa con il touchpad (o dal menu di pausa): le zone che non hai ancora visitato sono coperte.",
         "La nebbia non si toglie in un cerchio intorno a te: la mappa è divisa in tanti settori e basta entrarci un attimo.",
         "Per scoprirla in fretta usa un aereo agricolo biplano: ha tanto carburante e non fa arrivare i caccia. Servono 2-3 ore, si può fare già nel capitolo 1 e togliere tutta la nebbia vale un trofeo.",
-        "Usa i filtri: Veicoli (officine, Pay 'n' Spray, distributori, autolavaggi, stazioni), Stile (vestiti, scarpe, parrucchieri, tatuaggi, elettronica), Cibo e bevande, Ammu-Nation, Rapine. In basso a sinistra c'è il contatore di quanti ne hai trovati.",
+        "Usa l'indice sul lato della mappa (destra sulla croce per entrarci): Personale (veicoli personali, rifugio, garage, bancomat), Storia (missioni principali e, sotto, quelle facoltative), Rapine, Attività, Esplorazione, Veicoli (officine, Pay 'n' Spray, distributori, colonnine, stazioni, traghetti, garage), Armi, Stile, Cibo. Ogni elenco parte dal posto più vicino; un rombo arancione segna le novità. In basso a sinistra c'è il contatore di quanti ne hai trovati.",
         "Passa sopra un'icona per leggere i dettagli: cosa vende un negozio, quanto paga un ricettatore, quanto è protetta e quanto vale una rapina.",
         "Gli edifici blu scuro hanno un interno visitabile, quelli blu chiaro no. Vicino a un edificio la minimappa mostra la porta d'ingresso (una linea bianca) e anche stanze e scale nascoste.",
-        "Tieni premuto giù sulla croce per vedere i punti vicini senza aprire la mappa, scorrerli con L1 e R1 e segnarne uno.",
-        "Le missioni sono nell'elenco con l'icona del libro; gli incarichi da esplorazione, come i bonus dell'Ultimate, nella scheda con la lente."
+        "Tieni premuto giù sulla croce per vedere i punti vicini senza aprire la mappa: evidenziane uno e premi R3 per farti guidare dal navigatore.",
+        "Le missioni sono nell'elenco con l'icona del libro; gli incarichi da esplorazione, come i bonus dell'Ultimate, nella scheda con la lente.",
+        "Sulla mappa premi Quadrato per lasciare un segnalino: puoi metterne più d'uno, ma la destinazione attiva (X) è una sola."
       ],
       "details": [
         {
@@ -2299,7 +2402,9 @@
       ],
       "tips": [
         "In volo, quando la benzina diventa gialla, atterra alla pista più vicina e prendi un altro aereo: ricompaiono. Ogni tanto salva a mano.",
-        "Le piste con gli aerei agricoli sono vicino a Key Lento, in Mariana County e al centro della mappa, nella Kelly County."
+        "Le piste con gli aerei agricoli sono vicino a Key Lento, in Mariana County e al centro della mappa, nella Kelly County.",
+        "Nei motel e negli alberghi cerca i dépliant e le cartine del posto: guardandoli segni sulla mappa luoghi e attività della zona.",
+        "Elicotteri: zoomando sulla mappa gli eliporti hanno l'icona (H), e su molti grattacieli di Vice City ci arrivi in ascensore. Aerei: piste vicino a Key Lento, a ovest delle paludi della Mariana County, a sud di Port Gellhorn, al centro e nel nord della Kelly County. Lascia stare i jet dell'aeroporto: hanno il localizzatore e arrivano i caccia."
       ],
       "extras": [
         {
@@ -2318,11 +2423,15 @@
         "https://www.powerpyx.com/gta-6-how-to-unfog-the-map-fast-best-plane/",
         "https://www.videogameschronicle.com/guide/gta-6-beginners-guide/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
-        "https://www.powerpyx.com/gta-6-pick-up-a-gun-walkthrough/"
+        "https://www.powerpyx.com/gta-6-pick-up-a-gun-walkthrough/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/",
+        "https://www.powerpyx.com/gta-6-helicopter-plane-locations/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-impostazioni",
@@ -2332,10 +2441,10 @@
       "short": "GTA VI cambia i comandi storici di Rockstar: si scatta premendo la levetta sinistra. C'è lo schema classico, ci sono molti aiuti e opzioni di accessibilità, e il gioco gira a 30 fps su tutte le console.",
       "steps": [
         "Scatto su L3, salto e arrampicata su X, corpo a corpo su Quadrato. Se preferisci i comandi di GTA V scegli lo schema classico nelle impostazioni; c'è anche uno schema per mancini. I tasti non si rimappano liberamente.",
-        "La croce direzionale: su apre il telefono (tenuto premuto WAiNK); sinistra la radio (in auto le frecce, tenuto premuto il menu del veicolo); destra il menu del partner (tenuto premuto); giù obiettivo e minimappa (tenuto premuto la navigazione rapida).",
+        "La croce direzionale: su apre il telefono (tenuto premuto WAiNK); sinistra la radio (in auto le frecce, tenuto premuto il menu del veicolo); destra il menu del partner (tenuto premuto); giù obiettivo e minimappa (tenuto premuto la navigazione rapida). Un tocco a destra fa esplodere le cariche piazzate. Il touchpad apre la mappa; Cerchio, tenuto premuto, ti fa accovacciare o sedere a riposare.",
         "L'interfaccia è dinamica: minimappa, soldi e barre di salute, resistenza e Focus compaiono premendo giù sulla croce. Puoi tenerle fisse a schermo dalle impostazioni.",
         "Mira: scegli tra aggancio, parziale e libera, e l'aiuto da 0 a 5. Si regolano anche l'aiuto nei drive-by e l'estrazione rapida dell'ultima arma con L2 e R2.",
-        "Aiuti: tasti da premere a ripetizione fino a 5 volte più veloci, tasti da tenere premuti fino a 4 volte più veloci, minigiochi semplificati (palestra, canestri, avviamento coi fili), meno danni ai veicoli, scontri più accessibili.",
+        "Aiuti: tasti da premere a ripetizione fino a 5 volte più veloci, tasti da tenere premuti fino a 4 volte più veloci, minigiochi semplificati (palestra, canestri, avviamento coi fili), meno danni ai veicoli, scontri più accessibili. In fondo a Impostazioni › Gioco ci sono Combattimento accessibile (meno danni a te, più ai nemici) e Danni ridotti ai veicoli: non cambiano la storia e non bloccano i trofei.",
         "Mappa: icone più grandi su mappa e minimappa, e la voce del navigatore, spenta in partenza.",
         "Comfort: traiettoria delle granate visibile, scuotimento della camera spento, inquadrature cinematografiche di uccisioni e incidenti da 0 a 5, sangue a tre livelli, smembramenti disattivabili, musica su licenza muta per chi trasmette."
       ],
@@ -2359,7 +2468,9 @@
       ],
       "tips": [
         "Se la telecamera ti dà fastidio, spegni lo scuotimento: rende più facile seguire l'azione.",
-        "Se registri o trasmetti, attiva la musica su licenza muta."
+        "Se registri o trasmetti, attiva la musica su licenza muta.",
+        "Di notte il gioco è molto buio: regola Impostazioni › Schermo › Calibrazione luminosità, oppure dormi fino al mattino.",
+        "Nelle impostazioni dell'interfaccia accendi tutte le notifiche: ti avvisano dei collezionabili trovati e di come cambia il Profilo criminale."
       ],
       "relatedIds": [
         "tip-comandi-nuovi",
@@ -2377,11 +2488,13 @@
         "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-the-smoothest-gta-game-in-history-despite-30fps-analysis-finds-but-ps5-pro-is-the-best-way-to-play-this-game-by-far/",
         "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
         "https://www.powerpyx.com/gta-6-how-to-play-in-first-person-view/",
-        "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/"
+        "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
+        "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
+        "https://www.powerpyx.com/gta-6-tips-tricks/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19"
     },
     {
       "id": "mec-bonus-edizioni",
@@ -2433,6 +2546,104 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "mec-cibo-sostanze",
+      "title": "Cibo, alcol e sostanze",
+      "emoji": "🍔",
+      "group": "Personaggi",
+      "short": "Quello che Jason e Lucia mangiano, bevono e fumano conta: cibo e bevande danno salute, resistenza e Focus per un po', medicine e adrenalina ti rimettono in piedi negli scontri, e le droghe danno vantaggi pagati con la salute.",
+      "steps": [
+        "Prima di uscire mangia e bevi qualcosa: salute, resistenza e Focus partono più alti. Puoi farlo anche camminando, guidando o sparando, con il cibo in mano.",
+        "Quando prendi qualcosa scegli «Mangia» o «Bevi»: se chiudi il menu con l'oggetto in mano non lo consumi.",
+        "A casa trovi caffè (resistenza e Focus), frullati proteici (salute e resistenza), barrette e acqua; fuori, caffè, fast food, chioschi, bar e minimarket.",
+        "Lo Zombix ti cura in combattimento (Quadrato nella ruota degli oggetti) ma ridà solo metà salute; l'adrenalina (Triangolo) dà di più. Lo Zombix chiedilo al commesso del minimarket: spesso non è sullo scaffale.",
+        "Sigarette, sigari e alcolici si comprano nei negozi di liquori, nei minimarket e negli alimentari; le sigarette ricaricano il Focus.",
+        "Le droghe non si comprano: le trovi addosso ai nemici, nei luoghi delle missioni e negli eventi casuali. Si consumano dalla ruota degli oggetti (L1, poi R1), nel posto per fumo e sostanze.",
+        "Accanto al partner tieni premuto L2 per offrirgli quello che hai in mano: fa piacere e conta per la relazione."
+      ],
+      "details": [
+        {
+          "title": "Effetti",
+          "text": "Cibo e bevande danno bonus temporanei; le proteine dopo l'allenamento accorciano il recupero. Le droghe hanno un rovescio: la cocaina, per esempio, spinge resistenza e aggressività ma abbassa la salute. Antidolorifici e Zombix funzionano meno se ne abusi."
+        },
+        {
+          "title": "Il corpo ne tiene conto",
+          "text": "Mangiare troppo cibo spazzatura fa ingrassare, mangiare poco o a orari sballati fa dimagrire; l'app Fitness conta le calorie. Dormire più volte di fila senza mangiare né allenarti fa calare le statistiche."
+        },
+        {
+          "title": "Quando si sblocca",
+          "text": "Dal capitolo 1: a casa di Jason ci sono frigo, caffè e dispensa, e nelle Keys i primi negozi."
+        }
+      ],
+      "tips": [
+        "Tieni una barretta proteica per dopo l'allenamento.",
+        "La droga trovata nei covi rende di più venduta a un ricettatore che consumata."
+      ],
+      "relatedIds": [
+        "mec-fisico-salute",
+        "wpn-zombix",
+        "wpn-cigarettes",
+        "act-palestra",
+        "tip-fisico"
+      ],
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://insider-gaming.com/how-to-take-drugs-in-gta-6/",
+      "moreSources": [
+        "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee",
+        "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "mec-radio-cuffie",
+      "title": "Radio, podcast e cuffie",
+      "emoji": "🎧",
+      "group": "Mondo e vita",
+      "short": "La radio si ascolta in auto, in barca, in aereo, al rifugio e dalle radio che trovi in giro; con le cuffie anche a piedi. Le stazioni non stanno più su una ruota: si scorrono una alla volta, e accanto c'è On Demand con i podcast.",
+      "steps": [
+        "Tieni premuto sinistra sulla croce: si apre il menu della radio. Scorri le stazioni con L1 e R1 o con la levetta destra e lascia il tasto su quella che vuoi. Con X spegni la radio.",
+        "Nello stesso menu spingi giù la levetta destra per On Demand: podcast e programmi. Con Quadrato scorri gli episodi, con X ne avvii uno.",
+        "Se metti in pausa un podcast da On Demand, quando lo riprendi, a piedi o in auto, riparte da dove eri rimasto.",
+        "Per ascoltare a piedi compra delle cuffie o degli auricolari in un negozio di elettronica (indice della mappa › Stile › Elettronica): da circa 100 $ in su. Jason e Lucia devono comprarle ognuno per sé.",
+        "Indossale dalla ruota degli oggetti (L1, poi R1), nel posto del copricapo; poi tieni premuto sinistra come in auto."
+      ],
+      "details": [
+        {
+          "title": "Occhio alle risse",
+          "text": "Se ti attaccano mentre hai le cuffie, possono caderti: raccoglile finita la lotta, o le perdi per sempre."
+        },
+        {
+          "title": "Chi trasmette",
+          "text": "Nelle impostazioni c'è un'opzione che toglie la musica su licenza, per registrare o trasmettere senza problemi di diritti."
+        },
+        {
+          "title": "Quando si sblocca",
+          "text": "Radio e On Demand da subito; le cuffie appena trovi un negozio di elettronica, già nelle Keys."
+        }
+      ],
+      "tips": [
+        "La musica dei locali, come quella del Vault, si sblocca come playlist da ascoltare poi in auto e in cuffia."
+      ],
+      "relatedIds": [
+        "mec-telefono-app",
+        "mec-impostazioni",
+        "act-nightlife"
+      ],
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-control-settings/"
+      ],
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19"
     }
   ]
 }

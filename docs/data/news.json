@@ -2,6 +2,291 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261119-vendite-17-milioni-stime",
+      "date": "2026-11-19",
+      "title": "Vendite: oltre 17 milioni di copie e circa 1,65 miliardi di dollari già al lancio, secondo le stime; tre su quattro su PlayStation",
+      "body": "Le stime: secondo i dati dei tracker indipendenti ripresi da Kotaku, tra preordini e prime vendite GTA VI ha superato i 17 milioni di copie digitali e circa 1,65 miliardi di dollari al momento del lancio. Circa tre copie su quattro sono per PS5; il resto per Xbox Series.\n\nDa sapere: sono stime di analisti, non dati ufficiali. Rockstar e Take-Two non hanno ancora comunicato cifre: IGN si aspetta un primo bilancio entro la fine della settimana o all'inizio della prossima. Per confronto, l'ultimo dato di Sensor Tower, del 17 novembre, era 15,88 milioni di preordini digitali.",
+      "topic": "business",
+      "outlet": "Kotaku / IGN / investingLive",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
+      "relatedIds": [
+        "new-20261117-sensor-tower-15-milioni-ultimate",
+        "new-20261118-take-two-borsa-wells-fargo"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity"
+      ]
+    },
+    {
+      "id": "new-20261119-primi-bug-virali",
+      "date": "2026-11-19",
+      "title": "I primi bug che girano sui social: camion catapultati, una barca incastrata e personaggi che passano attraverso il pavimento",
+      "body": "Cosa si vede: clip di giocatori e streamer con problemi di fisica e collisioni, come un camion lanciato lontanissimo, un'auto che decolla dopo un piccolo urto e una grande barca che trema incastrata sotto un ponte; poi personaggi che attraversano un mobile o il pavimento (a Kai Cenat è successo durante un arresto, che così ha evitato) e cadute sotto la mappa con ricomparsa dopo pochi secondi.\n\nQuanto è grave: sono episodi isolati, non un problema riconosciuto. Nessuno ha documentato bug che bloccano la partita, e chi paragona il lancio a Cyberpunk 2077 esagera: le misure di Digital Foundry descrivono un gioco stabile a 30 fps, con più fatica solo sulla Series S.\n\nRockstar: per ora nessun commento e nessuna patch annunciata dopo la 1.002.001 del 16 novembre.",
+      "topic": "tecnica",
+      "outlet": "Vice Central / Gulf News / Sportskeeda",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-premiers-bugs-sortie-clips-viraux/",
+      "relatedIds": [
+        "new-20261116-patch-1-002-001",
+        "new-20261118-ps5-pro-mai-60-fps"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261119-overmono-musica-aggiuntiva",
+      "date": "2026-11-19",
+      "title": "Non solo Justice: nei titoli d'apertura compare il duo britannico Overmono, accreditato per la musica aggiuntiva",
+      "body": "La scoperta: nei titoli che aprono la partita si legge «Additional Score: Overmono». Overmono sono i fratelli gallesi Tom e Ed Russell, duo di elettronica (UK garage e breakbeat) dell'etichetta XL Recordings, noto per l'album «Good Lies» del 2023. Prima dell'uscita Rockstar aveva nominato solo Justice come autori della colonna sonora originale.\n\nCosa non si sa: né Rockstar né il duo hanno commentato; non si sa quali brani abbiano scritto né se finiranno su un disco. Justice restano i compositori principali: il loro album «Grand Theft Auto VI: Original Score», 30 brani, esce l'11 dicembre.",
+      "topic": "musica",
+      "outlet": "Vice Central / Rockstar Intel",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-overmono-musique-additionnelle-justice/",
+      "relatedIds": [
+        "new-20261029-score"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-psn-problemi-vigilia",
+      "date": "2026-11-18",
+      "title": "PlayStation Network a singhiozzo la sera prima dell'uscita: errori di accesso e di licenza, poi tutto torna a posto",
+      "body": "Cosa è successo: mercoledì 18, dal pomeriggio americano (la sera in Italia), molti utenti PS5 hanno visto messaggi come «I servizi Sony sono occupati» o «Troppi tentativi di connessione non riusciti», con i codici WS-116449-5, CE-34861-2 e WS-37505-0. Le segnalazioni su Downdetector sono salite di colpo: problemi di accesso, di download degli aggiornamenti e di riscatto dei codici.\n\nLa pagina ufficiale dello stato dei servizi Sony intanto risultava tutta verde, e i problemi sono stati a ondate. Il gioco è solo per giocatore singolo, ma la licenza digitale va verificata online quando il gioco si sblocca nel tuo paese: alcuni giocatori hanno dovuto riprovare per qualche minuto prima di entrare.\n\nSe ricapita: riavvia la console e riprova; controlla di avere il software di sistema 14.23, senza il quale il gioco non parte.",
+      "topic": "tecnica",
+      "outlet": "Polygon / Push Square / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.polygon.com/gta-6-is-psn-down-detector-account-services-busy-server-connection-error/",
+      "relatedIds": [
+        "new-20261118-uscita-nuova-zelanda",
+        "new-20261117-firmware-ps5-14-23"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.pushsquare.com/news/2026/11/psn-down-sporadically-for-some-as-gta-6-launches-around-the-world",
+        "https://www.gamesradar.com/games/grand-theft-auto/ps5-users-report-playstation-network-errors-as-gta-6-fever-hits-with-some-struggling-to-redeem-codes/"
+      ]
+    },
+    {
+      "id": "new-20261118-take-two-borsa-wells-fargo",
+      "date": "2026-11-18",
+      "title": "Take-Two vola in Borsa dopo le recensioni (+6,2%), e Wells Fargo ora prevede 65 milioni di copie entro marzo",
+      "body": "La Borsa: mercoledì 18 il titolo Take-Two ha chiuso a 216,61 dollari, +6,2% rispetto ai 203,93 del giorno prima, dopo essere salito anche oltre l'8% durante la seduta: il rialzo più forte del Nasdaq-100. Il titolo recupera così parte del calo dopo i risultati del 10 novembre.\n\nLe previsioni: Wells Fargo alza la sua stima da 35 a circa 65 milioni di copie vendute entro il 31 marzo 2027, la fine dell'anno fiscale di Take-Two; Oppenheimer si aspetta 1,85 miliardi di dollari di incassi lordi nei primi tre giorni.\n\nDa sapere: sono previsioni di banche. Rockstar e Take-Two non hanno ancora dato numeri di vendita ufficiali.",
+      "topic": "business",
+      "outlet": "Vice Central / Reuters",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/take-two-bourse-gta-vi-wells-fargo-65-millions/",
+      "relatedIds": [
+        "new-20261118-metacritic-99-record",
+        "new-20261117-sensor-tower-15-milioni-ultimate"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-niente-prostitute",
+      "date": "2026-11-18",
+      "title": "Per la prima volta dal 2001 un GTA senza prostitute da «ingaggiare»: Rockstar spiega che il gioco segue la storia di una coppia",
+      "body": "La novità: da GTA III in poi, in ogni capitolo principale si potevano pagare le prostitute per strada. In GTA VI non ci sono.\n\nIl perché, secondo Rockstar (intervista a Shacknews): GTA VI parla di «una coppia nei guai, amanti in fuga». Tutto ciò che è stato messo nel gioco serve allo spirito della storia e ai sistemi che volevano ampliare, come la polizia, la radio, le rapine e i furti d'auto; molte cose dei capitoli precedenti mancano, e quello che c'è è stato scelto apposta.\n\nCosa resta: gli strip club, con nudità, ci sono ancora.",
+      "topic": "gameplay",
+      "outlet": "Kotaku / Shacknews / IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/rockstar-explains-why-gta-6-has-no-prostitutes-in-it-a-hallmark-of-the-series-since-2001",
+      "relatedIds": [
+        "new-20261118-dalle-recensioni-come-si-gioca"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-doesnt-let-players-pick-up-prostitutes-but-rockstar-has-a-logical-reason-for-it"
+      ]
+    },
+    {
+      "id": "new-20261118-weird-al-vice-city-fm",
+      "date": "2026-11-18",
+      "title": "Sorpresa alla radio: «Weird Al» Yankovic è uno dei due conduttori di Vice City FM",
+      "body": "Chi è: il re delle parodie musicali americane fa il DJ su Vice City FM, la stazione dei successi anni Ottanta. Kotaku ha riconosciuto la voce giocando e Rockstar gliel'ha confermato. Nei giorni prima dell'uscita lui stesso aveva lasciato intendere di essere in un grande gioco.\n\nCome suona: il suo personaggio è sopra le righe, a volte urla per una canzone o racconta ricordi assurdi.\n\nCosa non c'è: le sue canzoni e le sue parodie non sono nella scaletta, e lui non compare di persona nel gioco: si sente solo la voce.",
+      "topic": "musica",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140",
+      "relatedIds": [
+        "rad-vice-city-fm"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-festival-orari-beneficenza",
+      "date": "2026-11-18",
+      "title": "The Festival di sabato 21: Rockstar pubblica gli orari, Travis Scott chiude la notte e tutti gli incassi dei biglietti vanno in beneficenza a Miami",
+      "body": "Gli orari (ora di Miami, tra parentesi l'ora italiana, che è sei ore avanti): cancelli aperti alle 16 (22). Sul palco 1 Ca7riel & Paco Amoroso alle 18 (00:00), Cardi B alle 19:45 (1:45), Justice in DJ set dalle 21 alle 22 (3-4), Rauw & Friends con Tainy dalle 23 (5) e in chiusura, dalle 0:40 alle 2 (6:40-8), Cactus Jack con Travis Scott, Don Toliver, Kodak Black e SoFaygo. Sul palco 2 Suero dalle 16, Nick León e DJ Python, The Dare e Fcukers, Prospa e Skream, e Metro Boomin a mezzanotte (6). I concerti dei due palchi non si accavallano mai; gli orari possono cambiare la sera stessa.\n\nLa beneficenza: «come ringraziamento a Miami», tutti gli incassi dei biglietti vanno a nove associazioni locali.\n\nAltro: allo Store di Mana Wynwood ci sarà merce speciale di GTA VI. Nessuna diretta annunciata.",
+      "topic": "community",
+      "outlet": "Rockstar Games (X) / Vice Central / GTA BOOM",
+      "source": "trailer",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-the-festival-horaires-associations-miami/",
+      "relatedIds": [
+        "new-20261109-the-festival-miami"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.gtaboom.com/rockstar-drops-gta-6-festival-set-times-with-cactus-jack-finale-071f"
+      ]
+    },
+    {
+      "id": "new-20261118-truffe-malwarebytes",
+      "date": "2026-11-18",
+      "title": "Attenzione alle truffe: Malwarebytes ne conta sette, dai codici gratis alla finta versione per telefono",
+      "body": "Le trappole: un sito che regala il gioco dopo una finta «verifica» con l'account Google (la pagina di accesso è una copia che ruba la password); generatori di codici che ti fanno compilare questionari senza mai dare nulla; chiavi scontate su negozi anonimi da pagare con bonifico o criptovalute; una «mappa segreta» di Leonida sbloccabile solo con abbonamenti o app; un falso GTA VI per Android da scaricare come file APK; finti token e portafogli crypto «GTA6»; gadget inventati con immagini fatte con l'IA.\n\nLa regola: GTA VI esiste solo su PS5 e Xbox Series X|S. Non c'è una versione PC, Android o iPhone, né codici gratis. Si compra solo da PlayStation Store, Microsoft Store, Rockstar Store o negozi conosciuti.",
+      "topic": "community",
+      "outlet": "Malwarebytes / Vice Central / TechRadar",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-arnaques-sortie-malwarebytes-faux-codes/",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-soldati-rafferma-giorni-liberi",
+      "date": "2026-11-18",
+      "title": "Hanno rinnovato la ferma anche per giocarci: 43 soldati americani avranno quattro giorni liberi per GTA VI",
+      "body": "La storia: ad agosto un battaglione del genio di Fort Stewart, in Georgia, aveva promesso quattro giorni liberi, dal 20 al 23 novembre, a chi rinnovava la ferma. Ora si sa che hanno accettato in 43. Uno di loro, un sergente, ha firmato per altri sei anni (con un premio legato alla sua specializzazione) e conta di passare «una buona ventina di ore» sulla storia.\n\nL'idea è della consulente per le carriere del battaglione: per lei non è il motivo per cui qualcuno resta nell'esercito, ma un modo per farsi notare e mostrare che i comandanti si interessano a quello che piace ai soldati.",
+      "topic": "community",
+      "outlet": "IGN / Kotaku / Task & Purpose",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/43-army-members-reenlisted-in-exchange-for-paid-time-off-to-play-gta-6",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://kotaku.com/43-soldiers-re-enlisted-in-the-army-in-exchange-for-time-off-to-play-grand-theft-auto-6-im-all-about-the-heist-2000758133"
+      ]
+    },
+    {
+      "id": "new-20261118-casa-belville-san-andreas-2021",
+      "date": "2026-11-18",
+      "title": "La teoria era giusta: la foto di una casa appesa in GTA San Andreas Definitive Edition, nel 2021, era una casa di Belville",
+      "body": "La teoria: nel 2021, nel bar Lil' Probe Inn di GTA San Andreas Definitive Edition, tutte le foto alle pareti mostravano luoghi di altri giochi Rockstar tranne una, una villetta con due palme e lo steccato bianco. Molti pensavano fosse un'anticipazione di GTA VI.\n\nLa conferma: il giorno dell'uscita un utente della comunità dei cartografi l'ha trovata identica nel quartiere di Belville, a Leonida: palme, aiuole, garage e finestre al loro posto. Per IGN è la conferma ufficiale di una teoria vecchia di cinque anni, con una sorpresa all'interno della casa.",
+      "topic": "community",
+      "outlet": "Kotaku / IGN / VGC",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/turns-out-gta-san-andreas-remastered-was-teasing-gta-6-back-in-2021-2000758132",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.ign.com/articles/a-gta-6-location-was-teased-by-rockstar-all-the-way-back-in-2021-and-whats-inside-was-worth-the-wait"
+      ]
+    },
+    {
+      "id": "new-20261118-giappone-censura",
+      "date": "2026-11-18",
+      "title": "Giappone, versione censurata: i nudi maschili sono coperti da un perizoma nero",
+      "body": "Cosa cambia: chi gioca in Giappone ha scoperto che Jason sotto la doccia, e altri uomini in alcune scene, indossano un sottile perizoma nero, mentre nelle altre versioni sono nudi. Era atteso: la classificazione giapponese non citava contenuti sessuali e il gioco là pesa meno.\n\nNon si sa ancora se siano stati cambiati altri contenuti: lo si capirà man mano che i giocatori giapponesi andranno avanti. Non è un caso isolato: anche GTA V, in Giappone, aveva perso una scena.\n\nPer chi gioca in Italia non cambia nulla.",
+      "topic": "uscita",
+      "outlet": "Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-ultimate-a-capitoli",
+      "date": "2026-11-18",
+      "title": "Ultimate Edition: quasi tutto si sblocca andando avanti nella storia, e alcuni bonus si usano solo nel capitolo 1",
+      "body": "Come funziona: i contenuti della Ultimate arrivano un po' alla volta con la storia, come indicato nel negozio del gioco. I negozi esclusivi si aprono nel capitolo 1, molte altre cose entro la fine del capitolo 2 (per Eurogamer anche 25 ore di gioco); il motoscafo Shitzu Squalo e gli abiti e i tatuaggi «Vice City Style» nel capitolo 4, la '95 Grotti Cheetah nel 5, cioè verso le 60 ore.\n\nDa non perdere: alcuni bonus sono temporanei. La Dinka Enduro e il kayak Crest di Jason si usano solo durante il capitolo 1, come il Ganado in versione Retro Build da Coastal Auto Care a Key Lento: conviene provarli subito.",
+      "topic": "gameplay",
+      "outlet": "Eurogamer / IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
+      "relatedIds": [
+        "tip-editions",
+        "mec-bonus-edizioni"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-montagne-lummox",
+      "date": "2026-11-18",
+      "title": "Perché in Florida ci sono le montagne: Rockstar spiega Lummox County, con la mappa iniziata nel 2015",
+      "body": "La domanda: la Florida è piatta, eppure nel nord di Leonida, a Lummox County, si fanno escursioni e si caccia in montagna.\n\nLa risposta (Rob Nelson, co-direttore di Rockstar North, a Polygon): la squadra della mappa ha cominciato nel 2015, prima di tutto il resto dello studio. Fare un'altra città era la parte facile; il difficile era la campagna intorno, perché una Florida fedele sarebbe stata piatta, mentre da un GTA moderno ci si aspetta varietà di altitudini, come in GTA V. Così hanno aggiunto le montagne.\n\nCosa ci trovi: spazio aperto per fuoristrada, bici e piste naturali da BMX in discesa.",
+      "topic": "mappa",
+      "outlet": "Polygon",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.polygon.com/gta-6-rockstar-lummox-county/",
+      "relatedIds": [],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "new-20261118-xfinity-traffico-xbox",
+      "date": "2026-11-18",
+      "title": "Il trucco della Nuova Zelanda si vede nei dati: negli Stati Uniti il traffico delle Xbox quadruplica all'ora del lancio neozelandese",
+      "body": "Il dato: il provider americano Xfinity ha registrato un traffico delle console Xbox quattro volte più alto del normale nel momento in cui GTA VI si è sbloccato in Nuova Zelanda, cioè quando chi aveva cambiato regione alla console ha cominciato a scaricare e giocare.\n\nPerché conta: su Xbox il trucco ha funzionato, ed è anche per questo che i video del gioco hanno invaso i social già mercoledì; su PS5 resta il rischio di sospensione dell'account di cui ha parlato Sony.",
+      "topic": "tecnica",
+      "outlet": "IGN / Xfinity",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity",
+      "relatedIds": [
+        "new-20261118-uscita-nuova-zelanda",
+        "new-20261109-sony-avverte-trucco-nuova-zelanda"
+      ],
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
       "id": "new-20261118-missioni-niente-rigioco",
       "date": "2026-11-18",
       "title": "Le missioni non si rigiocano: Rockstar le ha rese «più difficili da fallire» e ti lascia 15 salvataggi",
@@ -166,7 +451,7 @@
       "id": "new-20261118-recensioni-capolavoro",
       "date": "2026-11-18",
       "title": "Recensioni: GTA VI è un capolavoro quasi per tutti, con il 10 di IGN, GameSpot, Edge e Game Informer e qualche riserva su storia e 30 fps",
-      "body": "L'embargo: è caduto mercoledì 18 novembre alle 12:00 italiane, nello stesso momento in cui il gioco si sbloccava in Nuova Zelanda. Le testate hanno giocato su PS5 e PS5 Pro, alcune su Xbox Series X; quasi nessuna ha provato la Series S. Tutte le recensioni sono senza spoiler sulla trama, e così questo riassunto.\n\nI voti: 10/10 per IGN («Masterpiece»: il gioco più impressionante mai provato dal recensore), GameSpot (alza «a un'altezza impossibile» l'asticella dei mondi aperti), Edge, Game Informer (un gioco generazionale, all'altezza della grande narrativa criminale), Push Square (il mondo aperto più grande mai fatto) e Pure Xbox (splendido anche su Series X). 5 stelle su 5 per Eurogamer (un gioco di contrasti, enorme e minuzioso), The Guardian (il mondo più dettagliato mai creato, e un GTA che finalmente fa spazio all'empatia), VGC (uno dei migliori giochi di sempre), GamesRadar+ (scala, ampiezza e qualità sorprendenti, acquisto obbligato) e Windows Central. Polygon, Kotaku e The Verge non danno voti ma sono tutti entusiasti; PC Gamer, che non può recensirlo perché manca la versione PC, dopo 100 ore lo giudica «per lo più ottimo». I voti più bassi sono dei 9 (PlayStation LifeStyle, TheSixthAxis, Noisy Pixel): nessuno scende sotto il 90.\n\nCosa piace: il mondo di Leonida, descritto ovunque come il più vivo e dettagliato mai visto, con passanti credibili ed eventi imprevisti a ogni angolo; Jason e Lucia, con interpretazioni lodate da tutti; la nuova polizia, che agisce solo in base a quello che sa di te; la guida, giudicata la migliore della serie; le rapine, anche quelle improvvisate fuori dalla storia; l'illuminazione con il ray tracing e la colonna sonora, con una ventina di radio e la musica dei Justice. Bug pochissimi: IGN non ne ha trovati, altri parlano di un crash o di qualche obiettivo che non si attiva.\n\nCosa non convince: la cadenza fissa a 30 fotogrammi al secondo su tutte le console, senza modalità prestazioni, con qualche calo sulla PS5 base nelle scene più caotiche; una storia che per una parte della stampa perde forza nella seconda metà; un avvio lento e un ritmo più posato, più vicino a Red Dead Redemption 2 che a un gioco da sfogo; comandi carichi, che chiedono qualche ora di adattamento; missioni principali molto guidate; e, per GameSpot, i momenti in cui la storia si ferma finché non metti da parte abbastanza soldi.\n\nIn Italia: 10 per Multiplayer.it (un mondo che reagisce al giocatore invece di fare da sfondo; difetti: qualche missione troppo guidata, poca varietà di paesaggi, i 30 fps su PS5 Pro «un'occasione mancata»), Everyeye (un mondo denso e nuovo punto di riferimento del genere), Spaziogames («Amore criminale»: personaggi, attività secondarie e radio tengono vivo il mondo; contro i 30 fps e un download oltre i 200 GB) e Gamesurf; 9,5 per IGN Italia (un'opera smisurata che sorprende dopo decine di ore; pesano qualche compromesso tecnico e alcuni personaggi poco approfonditi). Il gioco è in inglese con sottotitoli e testi in italiano.",
+      "body": "L'embargo: è caduto mercoledì 18 novembre alle 12:00 italiane, nello stesso momento in cui il gioco si sbloccava in Nuova Zelanda. Le testate hanno giocato su PS5 e PS5 Pro, alcune su Xbox Series X; quasi nessuna ha provato la Series S. Tutte le recensioni sono senza spoiler sulla trama, e così questo riassunto.\n\nI voti: 10/10 per IGN («Masterpiece»: il gioco più impressionante mai provato dal recensore), GameSpot (alza «a un'altezza impossibile» l'asticella dei mondi aperti), Edge, Game Informer (un gioco generazionale, all'altezza della grande narrativa criminale), Push Square (il mondo aperto più grande mai fatto) e Pure Xbox (splendido anche su Series X). 5 stelle su 5 per Eurogamer (un gioco di contrasti, enorme e minuzioso), The Guardian (il mondo più dettagliato mai creato, e un GTA che finalmente fa spazio all'empatia), VGC (uno dei migliori giochi di sempre), GamesRadar+ (scala, ampiezza e qualità sorprendenti, acquisto obbligato) e Windows Central. Polygon, Kotaku e The Verge non danno voti ma sono tutti entusiasti; PC Gamer, che non può recensirlo perché manca la versione PC, dopo 100 ore lo giudica «per lo più ottimo». Tra le testate più note i voti più bassi sono dei 9 (PlayStation LifeStyle, TheSixthAxis, Noisy Pixel); su Metacritic l'unico voto sotto il 90 è l'80 dell'australiana ScreenHub.\n\nCosa piace: il mondo di Leonida, descritto ovunque come il più vivo e dettagliato mai visto, con passanti credibili ed eventi imprevisti a ogni angolo; Jason e Lucia, con interpretazioni lodate da tutti; la nuova polizia, che agisce solo in base a quello che sa di te; la guida, giudicata la migliore della serie; le rapine, anche quelle improvvisate fuori dalla storia; l'illuminazione con il ray tracing e la colonna sonora, con una ventina di radio e la musica dei Justice. Bug pochissimi: IGN non ne ha trovati, altri parlano di un crash o di qualche obiettivo che non si attiva.\n\nCosa non convince: la cadenza fissa a 30 fotogrammi al secondo su tutte le console, senza modalità prestazioni, con qualche calo sulla PS5 base nelle scene più caotiche; una storia che per una parte della stampa perde forza nella seconda metà; un avvio lento e un ritmo più posato, più vicino a Red Dead Redemption 2 che a un gioco da sfogo; comandi carichi, che chiedono qualche ora di adattamento; missioni principali molto guidate; e, per GameSpot, i momenti in cui la storia si ferma finché non metti da parte abbastanza soldi.\n\nIn Italia: 10 per Multiplayer.it (un mondo che reagisce al giocatore invece di fare da sfondo; difetti: qualche missione troppo guidata, poca varietà di paesaggi, i 30 fps su PS5 Pro «un'occasione mancata»), Everyeye (un mondo denso e nuovo punto di riferimento del genere), Spaziogames («Amore criminale»: personaggi, attività secondarie e radio tengono vivo il mondo; contro i 30 fps e un download oltre i 200 GB) e Gamesurf; 9,5 per IGN Italia (un'opera smisurata che sorprende dopo decine di ore; pesano qualche compromesso tecnico e alcuni personaggi poco approfonditi). Il gioco è in inglese con sottotitoli e testi in italiano.",
       "topic": "uscita",
       "outlet": "Metacritic / IGN / GameSpot / Eurogamer / Multiplayer.it e altre",
       "source": "stampa",
@@ -178,14 +463,14 @@
         "new-20261117-recensioni-domani",
         "new-20261117-digital-foundry-30-fps"
       ],
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "image": null
     },
     {
       "id": "new-20261118-metacritic-99-record",
       "date": "2026-11-18",
       "title": "99 su Metacritic, come Ocarina of Time: GTA VI è il gioco più votato di sempre insieme a Zelda, e su OpenCritic tutti lo consigliano",
-      "body": "Metacritic: alle 15 italiane il Metascore della versione PS5 è 99 su 153 recensioni, tutte positive e nessuna mista o negativa. Anche su Xbox Series X è 99, ma su appena 14 recensioni. Solo un altro gioco aveva mai raggiunto 99: The Legend of Zelda: Ocarina of Time, nel 1998.\n\nI record di Rockstar: GTA VI supera GTA IV (98) e stacca GTA V e Red Dead Redemption 2 (97). È anche il gioco con il voto più alto del 2026.\n\nOpenCritic: media dei critici principali 99 (98,6), il 100% dei critici lo consiglia, 75 recensioni di cui 51 di testate «top», fascia «Mighty».\n\nDa sapere: i numeri possono ancora scendere di un punto man mano che arrivano altre recensioni. Il giorno prima Metacritic aveva tolto cinque finti voti degli utenti, pubblicati prima dell'uscita, che avevano fatto scendere il gioco a 6,5. Il voto degli utenti si apre con l'uscita.",
+      "body": "Metacritic: alle 15 italiane il Metascore della versione PS5 è 99 su 153 recensioni, tutte positive e nessuna mista o negativa. Anche su Xbox Series X è 99, ma su appena 14 recensioni. Solo un altro gioco aveva mai raggiunto 99: The Legend of Zelda: Ocarina of Time, nel 1998.\n\nI record di Rockstar: GTA VI supera GTA IV (98) e stacca GTA V e Red Dead Redemption 2 (97). È anche il gioco con il voto più alto del 2026.\n\nOpenCritic: media dei critici principali 99 (98,6), il 100% dei critici lo consiglia, 75 recensioni di cui 51 di testate «top», fascia «Mighty».\n\nAggiornamento di giovedì 19 (mattina): la versione PS5 resta a 99 (98,8) con 156 recensioni, 150 delle quali positive; il voto più basso è un 80 dell'australiana ScreenHub, tutti gli altri sono da 90 in su. Su Xbox Series X è 99 su 14 recensioni.\n\nDa sapere: i numeri possono ancora scendere di un punto man mano che arrivano altre recensioni. Il giorno prima Metacritic aveva tolto cinque finti voti degli utenti, pubblicati prima dell'uscita, che avevano fatto scendere il gioco a 6,5. Il voto degli utenti si apre con l'uscita.",
       "topic": "uscita",
       "outlet": "Metacritic / OpenCritic",
       "source": "stampa",
@@ -196,8 +481,11 @@
       "relatedIds": [
         "new-20261118-recensioni-capolavoro"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-metacritic-score-maintains-goat-status/"
+      ]
     },
     {
       "id": "new-20261117-game-awards-8-nomination",
@@ -222,7 +510,7 @@
       "id": "new-20261118-uscita-nuova-zelanda",
       "date": "2026-11-18",
       "title": "GTA VI è uscito: alle 12 italiane si gioca in Nuova Zelanda, poi Australia e Giappone; in Italia si sblocca a mezzanotte",
-      "body": "Gli orari: il gioco si sblocca alla mezzanotte locale di ogni paese. In ora italiana: Nuova Zelanda alle 12 di mercoledì 18, Australia alle 14, Giappone e Corea del Sud alle 16, Grecia e Finlandia alle 23. L'Italia, con il resto dell'Europa centrale, alle 00:00 di giovedì 19; il Regno Unito all'1, gli Stati Uniti della costa est alle 6.\n\nServer: nelle prime ore non risultano blackout di PlayStation Network, Xbox Live o dei servizi Rockstar; qualche giocatore ha segnalato errori di rete generici o caricamenti bloccati, senza conferme ufficiali. Dopo la 1.002.001 del 16 novembre non è stata annunciata un'altra patch.\n\nPrima di mezzanotte: su PS5 serve il software di sistema 14.23 (Impostazioni › Sistema › Software di sistema). Conviene controllare che il gioco sia aggiornato e completo.\n\nIl trucco della Nuova Zelanda: su Xbox molti giocatori hanno cambiato fuso orario e giocano già; l'ente del turismo neozelandese ci scherza su Instagram («ci farebbe piacere avervi»). Su PS5 resta il rischio di sospensione dell'account di cui ha parlato Sony.\n\nSpoiler: Rockstar ha pubblicato nel suo Discord ufficiale un «Spoiler Alert»: la storia si discute solo nei nuovi canali dedicati, con i tag spoiler, e chi pubblica spoiler apposta per provocare viene espulso.",
+      "body": "Gli orari: il gioco si sblocca alla mezzanotte locale di ogni paese. In ora italiana: Nuova Zelanda alle 12 di mercoledì 18, Australia alle 14, Giappone e Corea del Sud alle 16, Grecia e Finlandia alle 23. L'Italia, con il resto dell'Europa centrale, alle 00:00 di giovedì 19; il Regno Unito all'1, gli Stati Uniti della costa est alle 6.\n\nServer: nelle prime ore non risultano blackout di PlayStation Network, Xbox Live o dei servizi Rockstar; qualche giocatore ha segnalato errori di rete generici o caricamenti bloccati, senza conferme ufficiali. In serata PlayStation Network ha avuto problemi a ondate (vedi la notizia dedicata). Dopo la 1.002.001 del 16 novembre non è stata annunciata un'altra patch.\n\nPrima di mezzanotte: su PS5 serve il software di sistema 14.23 (Impostazioni › Sistema › Software di sistema). Conviene controllare che il gioco sia aggiornato e completo.\n\nIl trucco della Nuova Zelanda: su Xbox molti giocatori hanno cambiato fuso orario e giocano già; l'ente del turismo neozelandese ci scherza su Instagram («ci farebbe piacere avervi»). Su PS5 resta il rischio di sospensione dell'account di cui ha parlato Sony.\n\nSpoiler: Rockstar ha pubblicato nel suo Discord ufficiale un «Spoiler Alert»: la storia si discute solo nei nuovi canali dedicati, con i tag spoiler, e chi pubblica spoiler apposta per provocare viene espulso.",
       "topic": "uscita",
       "outlet": "Vice Central / Eurogamer / GTA BOOM",
       "source": "stampa",
@@ -234,9 +522,10 @@
         "new-20261105-sblocco-a-mezzanotte-locale-in-italia-si",
         "new-20261116-patch-1-002-001",
         "new-20261109-sony-avverte-trucco-nuova-zelanda",
-        "new-20261116-twitch-trucco-nuova-zelanda"
+        "new-20261116-twitch-trucco-nuova-zelanda",
+        "new-20261118-psn-problemi-vigilia"
       ],
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "image": null
     },
     {
@@ -279,8 +568,8 @@
     {
       "id": "new-20261118-record-streaming-6-milioni",
       "date": "2026-11-18",
-      "title": "Record di streaming: un'ora e mezza dopo lo sblocco in Nuova Zelanda, più di 6,3 milioni di persone guardano GTA VI in diretta",
-      "body": "Il numero: alle 13:30 italiane, secondo Streams Charts, 6,38 milioni di spettatori guardavano GTA VI nello stesso momento tra Twitch, YouTube e Kick. Il record precedente per il lancio di un gioco era la beta chiusa di Valorant del 2020, con circa 1,74 milioni: GTA VI l'ha più che triplicato con il gioco sbloccato in un solo paese.\n\nIl dato è provvisorio: Europa e Americhe non hanno ancora il gioco.\n\nSpoiler: con milioni di dirette già in corso, chi vuole arrivare alla storia senza sorprese farebbe bene a evitare i live e silenziare le parole chiave sui social fino a mezzanotte.",
+      "title": "Record di streaming: GTA VI supera i 7,8 milioni di spettatori in diretta e batte il record di Twitch per un gioco",
+      "body": "Il numero: alle 13:30 italiane, secondo Streams Charts, 6,38 milioni di spettatori guardavano GTA VI nello stesso momento tra Twitch, YouTube e Kick. Il record precedente per il lancio di un gioco era la beta chiusa di Valorant del 2020, con circa 1,74 milioni: GTA VI l'ha più che triplicato con il gioco sbloccato in un solo paese.\n\nAggiornamento di giovedì 19: il conteggio provvisorio di Streams Charts è salito a oltre 7,88 milioni di spettatori in contemporanea, raggiunti in meno di tre ore. Su Twitch GTA VI ha toccato 3,29 milioni, il record di sempre per un gioco, davanti a League of Legends (3,11 milioni nel 2022) e Fortnite; su YouTube 3,19 milioni, su Kick 1,49 milioni. È il record per un gioco, non per Twitch in assoluto (che appartiene a eventi come la boxe di La Velada). Sono spettatori, non giocatori né copie vendute.\n\nSpoiler: con milioni di dirette già in corso, chi vuole arrivare alla storia senza sorprese farebbe bene a evitare i live e silenziare le parole chiave sui social fino a mezzanotte.",
       "topic": "community",
       "outlet": "Vice Central / Streams Charts",
       "source": "stampa",
@@ -291,8 +580,11 @@
       "relatedIds": [
         "new-20261118-uscita-nuova-zelanda"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://vice-central.com/gta-vi-record-twitch-league-of-legends/"
+      ]
     },
     {
       "id": "new-20261117-youtube-diretta-24-ore",
@@ -315,8 +607,8 @@
     {
       "id": "new-20261118-miami-heat-stasera-vice-city",
       "date": "2026-11-18",
-      "title": "Stasera i Miami Heat giocano da «Vice City»: parquet a tema, Burger Shot e Cluckin' Bell nell'arena e una PS5 Pro esclusiva regalata ai giocatori",
-      "body": "La partita: mercoledì 18 alle 19 di Miami (l'1 di notte in Italia) contro i Milwaukee Bucks al Kaseya Center. Il parquet, mostrato il 17, ha il logo Vice City a centrocampo, il «VI» nelle aree e la scritta «I ♥ Vice City» ai lati, e si usa solo stasera.\n\nNell'arena: stand Burger Shot (settori 105, 120, 308 e 324) e Cluckin' Bell (settore 325), auto del gioco esposte nella West Plaza e musica delle radio di GTA VI per tutta la sera. La maglia «Vice City» Nike x Cactus Jack si vende solo all'evento, una per biglietto.\n\nIl regalo: Rockstar ha dato a ogni giocatore degli Heat una valigetta con una PS5 Pro personalizzata (nera o grigia, palme incise e strisce illuminate dal verde acqua al magenta), due DualSense abbinati e il gioco. Non è in vendita.",
+      "title": "I Miami Heat hanno giocato da «Vice City» e vinto 137-130: parquet a tema, Burger Shot e Cluckin' Bell nell'arena e una PS5 Pro esclusiva per i giocatori",
+      "body": "La partita: si è giocata mercoledì 18 alle 19 di Miami (l'1 di notte in Italia) contro i Milwaukee Bucks al Kaseya Center. Il parquet, mostrato il 17, ha il logo Vice City a centrocampo, il «VI» nelle aree e la scritta «I ♥ Vice City» ai lati, ed è stato usato solo quella sera.\n\nNell'arena: stand Burger Shot (settori 105, 120, 308 e 324) e Cluckin' Bell (settore 325), auto del gioco esposte nella West Plaza e musica delle radio di GTA VI per tutta la sera. La maglia «Vice City» Nike x Cactus Jack si vende solo all'evento, una per biglietto.\n\nIl regalo: Rockstar ha dato a ogni giocatore degli Heat una valigetta con una PS5 Pro personalizzata (nera o grigia, palme incise e strisce illuminate dal verde acqua al magenta), due DualSense abbinati e il gioco. Non è in vendita.\n\nIl risultato: «Vice City 137, Bucks 130», come l'ha annunciato il club. Gli Heat erano avanti 74-48 all'intervallo e di 30 punti al massimo, poi hanno rischiato nel finale. Travis Scott era a bordo campo; per la maglia «Vice City» venduta solo all'evento, Kotaku racconta code da Black Friday.",
       "topic": "community",
       "outlet": "Miami HEAT / Kotaku / PC Gamer",
       "source": "stampa",
@@ -330,8 +622,12 @@
         "brd-burger-shot",
         "brd-cluckin-bell"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://vice-central.com/gta-vi-heat-vice-city-victoire-bucks-137-130/",
+        "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204"
+      ]
     },
     {
       "id": "new-20261117-kfc-cluck-n-bell-londra",
@@ -356,7 +652,7 @@
       "id": "new-20261118-gta-plus-vantaggi",
       "date": "2026-11-18",
       "title": "GTA+ in GTA VI: una Elegy widebody con garage a Crosstown, sconti del 10%, mezzi pubblici gratis; si può spegnere",
-      "body": "I vantaggi: una Annis Elegy del '90 Venturas BLVD con carrozzeria widebody esclusiva e un garage da un posto a Crosstown, con armadietto delle armi e ricettazione diretta della refurtiva; Scooter Bros Premium, abbonamento premium a RydeMe, noleggi gratis di monopattini, bici e Seashark e corse gratis su tutti i mezzi pubblici di Leonida; +10% quando vendi i tuoi veicoli; -10% in armerie, negozi di vestiti, parrucchieri, tatuatori, officine e altre attività.\n\nCosti: chi ha preordinato ha un mese gratis, da riscattare entro il 31 marzo 2027; poi si rinnova da solo a 6,99 £ / 7,99 $ al mese. GTA+ include anche la libreria di giochi Rockstar.\n\nPer i puristi: i vantaggi si disattivano dalle impostazioni del gioco. Rockstar non ha ancora detto nulla di una componente online.",
+      "body": "I vantaggi: una Annis Elegy del '90 Venturas BLVD con carrozzeria widebody esclusiva e un garage da un posto a Crosstown, con armadietto delle armi e ricettazione diretta della refurtiva; Scooter Bros Premium, abbonamento premium a RydeMe, noleggi gratis di monopattini, bici e Seashark e corse gratis su tutti i mezzi pubblici di Leonida; +10% quando vendi i tuoi veicoli; -10% in armerie, negozi di vestiti, parrucchieri, tatuatori, officine e altre attività.\n\nCosti: chi ha preordinato ha un mese gratis, da riscattare entro il 31 marzo 2027; poi si rinnova da solo a 6,99 £ / 7,99 $ al mese. GTA+ include anche la libreria di giochi Rockstar.\n\nPer i puristi: i vantaggi si disattivano dalle impostazioni del gioco. Rockstar non ha ancora detto nulla di una componente online.\n\nAttenzione al rinnovo: quando riscatti il mese gratis, il rinnovo automatico è già attivo (7,99 € al mese in Europa). Se non vuoi pagare, su PS5 vai nel PlayStation Store › «…» › Abbonamenti › GTA+ › Annulla abbonamento: il mese gratis resta tutto.",
       "topic": "business",
       "outlet": "IGN",
       "source": "stampa",
@@ -367,8 +663,11 @@
       "relatedIds": [
         "new-20261106-supporto-edizioni"
       ],
-      "updatedAt": "2026-11-18",
-      "image": null
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.pushsquare.com/news/2026/11/new-gta-6-players-be-careful-when-claiming-your-gtaplus-pre-order-bonus"
+      ]
     },
     {
       "id": "new-20261118-casino-chiusi-niente-siti",
@@ -1780,9 +2079,10 @@
         "new-20261009-cardi-b-e-fuerza-regida",
         "new-20261111-copie-fisiche-in-anticipo",
         "new-20261112-clevelander-festa-lancio",
-        "new-20261112-youtube-diretta-24-ore"
+        "new-20261112-youtube-diretta-24-ore",
+        "new-20261118-festival-orari-beneficenza"
       ],
-      "updatedAt": "2026-11-11",
+      "updatedAt": "2026-11-19",
       "example": false
     },
     {
@@ -2147,7 +2447,6 @@
       "spoilerLevel": 0,
       "sourceUrl": "https://www.everyeye.it/notizie/trofei-achievement-gta-6-910395.html",
       "relatedIds": [
-        "tro-platino",
         "new-20261115-durata-50-ore-platino-200"
       ],
       "updatedAt": "2026-11-08",

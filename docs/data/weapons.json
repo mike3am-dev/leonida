@@ -883,7 +883,7 @@
       "class": "lancio",
       "description": "Bottiglia incendiaria.",
       "howToGet": "Da verificare.",
-      "image": null,
+      "image": "assets/img/vice/armi/wpn-molotov.png",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
@@ -907,7 +907,9 @@
         "https://www.powerpyx.com/gta-6-all-cheats/",
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
         "https://gta.wiki/w/Molotov_Cocktails"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Molotov-GTAVI-AnExtendedLook.png/600px-Molotov-GTAVI-AnExtendedLook.png?e5c14",
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
     },
     {
       "id": "wpn-grenade",
@@ -940,21 +942,23 @@
       "manufacturer": null,
       "class": "lancio",
       "description": "Esplosivo da attaccare e far saltare a distanza: apre le casseforti dei covi e il portellone dei furgoni blindati.",
-      "howToGet": "Si compra all'Ammu-Nation, tra gli esplosivi.",
+      "howToGet": "Si compra all'Ammu-Nation, tra gli esplosivi; dopo i suoi primi incarichi se ne trovano anche nel retro del negozio di Yasmani, il ricettatore del capitolo 3.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Già in Vice City, San Andreas, IV e V",
         "PowerPyx le consiglia per far saltare le casseforti dei covi delle gang, come quella del bowling di Port Gellhorn"
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/sticky-bomb",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+        "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/"
       ],
       "realModel": "Esplosivo C-4",
       "whereToBuy": "Ammu-Nation"
@@ -1086,15 +1090,18 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "La pesca torna. Mount Kalaga e le Keys sono i posti da provare.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si compra negli Ammu-Nation che sulla mappa mostrano l'icona del pesce: sono 8 su 24.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "whereToBuy": "Ammu-Nation con l'icona del pesce sulla mappa"
+      "whereToBuy": "Ammu-Nation con l'icona del pesce: Chuck's Tackle & Shot (Key Lento), Barrage Gun Supply (Keys, vicino alla Mile Zero Air Station), Woodhatch (Capri), Phil's Ammu-Nation (sud di Vice City), Prestige Firearms (Vice Beach), Gellhorn Outfitters (Port Gellhorn), Biff's Gun Supply (Ambrosia), Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park)",
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-ammu-nation-store-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-heavy-pistol.webp",

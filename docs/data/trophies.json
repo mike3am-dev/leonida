@@ -471,18 +471,21 @@
       "description": "Completa 8 serie di missioni per degli sconosciuti in tutto lo Stato della Leonida.",
       "tier": "argento",
       "category": "storia",
-      "guide": "Valgono solo alcune serie di «Sconosciuti e folli» trovate in giro (non contano Moses, Tyrone, Yasmani, Andy, Billy, Eddie). Il contatore è nella lista trofei; restano tutte dopo la storia.",
+      "guide": "Servono 8 serie, e valgono solo quelle di «Sconosciuti e folli» trovate in giro (non contano Moses, Tyrone, Yasmani, Andy, Billy, Eddie). Sicure finora: lo Skunk Ape di Kirk (capitolo 1, paludi della Pelican Valley), Kyle e la fattoria McKittrick (capitolo 2), le corse di Yago (capitolo 3) e il pilota Pete (capitolo 4, solo Jason); le altre 4 non sono ancora note. Il contatore è nella lista trofei; restano tutte dopo la storia.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Strangers & Freaks",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-supply-demand",
@@ -530,20 +533,24 @@
       "description": "Medita in ogni luogo di meditazione della Leonida.",
       "tier": "bronzo",
       "category": "attivita",
-      "guide": "Si può perdere: la prima meditazione si fa solo nel capitolo 1, a casa di Jason (al mattino Lucia, in cucina, propone di meditare: seguila sul balcone e accetta). Non è chiaro se conti, ma conviene farla. Le altre 17, negli altri 9 punti, restano disponibili anche dopo.",
+      "guide": "Si può perdere: la prima meditazione si fa solo nel capitolo 1, a casa di Jason. Una mattina Lucia, in cucina, dice che va a meditare: seguila sul balcone dei pesi, guardala e scegli «Accetta». Falla prima di avviare le ultime tre missioni principali del capitolo 1: sono legate fra loro e, una volta partite, a Key Lento non torni per diverse ore. Non è ancora chiaro se conti per il trofeo (non è segnata come punto di meditazione), ma PowerPyx l'ha ottenuto avendola fatta. Le altre 17, negli altri 9 punti, restano disponibili anche dopo; l'ultima compare quando hai fatto tutte le altre.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Positive Mental Attitude",
       "timing": {
         "from": 1,
         "until": 1,
-        "note": "La prima meditazione si fa solo nel capitolo 1, a casa di Jason con Lucia: dopo non si può più."
-      }
+        "note": "La prima meditazione si fa solo nel capitolo 1, a casa di Jason con Lucia, prima delle ultime tre missioni principali del capitolo: dopo non si può più."
+      },
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      ]
     },
     {
       "id": "tro-fair-game",
@@ -854,23 +861,23 @@
       "description": "Goditi un cocktail con vista su Ocean Beach.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (PowerPyx e GTABase, sera del 18/11). La descrizione dice di gustarti un cocktail con vista sulla spiaggia di Vice City: prova a ordinare da bere in un bar o in una terrazza sul lungomare. Attenzione: una missione principale del capitolo 4 porta il nome di quella spiaggia; se il trofeo fosse legato a un momento della storia si potrebbe perdere, perché le missioni non si rigiocano. Nel dubbio, se una scena ti offre un drink con vista sul mare, accetta.",
+      "guide": "Trofeo segreto. Mattina del 19/11: nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Insider Gaming, GTA BOOM). Di sicuro non arriva da solo con la storia: PowerPyx l'ha finita e non ce l'ha. La descrizione chiede un cocktail con vista su quella spiaggia di Vice City: entra in un bar o in una terrazza affacciati sul mare e ordina da bere.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "In The Beginning…",
       "timing": {
         "until": null,
-        "note": "Metodo non ancora noto: potrebbe essere legato a una missione del capitolo 4. Nel dubbio accetta ogni drink con vista sul mare.",
-        "warn": true
+        "note": "Metodo non ancora noto. Non arriva con la storia, quindi con ogni probabilità resta fattibile anche dopo i titoli di coda."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/"
       ]
     },
     {
@@ -879,17 +886,18 @@
       "description": "Fuggi da un autosalone proprio come ai bei vecchi tempi.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (PowerPyx e GTABase, sera del 18/11). La descrizione indica di uscire da un autosalone sfondando la vetrina con un'auto.",
+      "guide": "Trofeo segreto. Mattina del 19/11: nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Insider Gaming, GTA BOOM). La descrizione chiede di uscire da un autosalone sfondando tutto «in stile classico»: quasi certamente buttandosi con un'auto contro la vetrina, come Michael e Franklin dalla concessionaria di Simeon in GTA V. Prova così: entra in un autosalone, sali su un'auto esposta e lanciati fuori attraverso la vetrata. Non arriva con la storia: PowerPyx l'ha finita e non ce l'ha.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Capital Offense",
       "timing": {
-        "until": null
+        "until": null,
+        "note": "Metodo non ancora noto, ma non è legato alla storia: si può fare quando vuoi."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
@@ -902,21 +910,23 @@
       "description": "Vai fino in fondo alla sala da bowling dei Kolt e soci",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Nell'operazione della banda al Kingpin Bowling di Port Gellhorn (dal capitolo 2) prendi tutti e 3 gli oggetti di valore; porta bombe adesive per la cassaforte.",
+      "guide": "Nell'operazione della banda al Kingpin Bowling di Port Gellhorn (dal capitolo 2) prendi tutti e 3 gli oggetti di valore: l'orologio di lusso nell'ufficio a sud-est, il fucile a pompa unico «Gutterball» sul tavolo nell'angolo nord-est e il contenuto della cassaforte nell'ufficio del corridoio nord-est (porta bombe adesive per aprirla). Il trofeo scatta quando semini la polizia, non quando prendi l'ultimo oggetto; uccidere i nemici non serve.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Let’s Go Bowling",
       "timing": {
         "from": 2,
         "until": null,
-        "note": "Se lasci indietro un oggetto puoi tornare, ma il posto si rigenera solo molto più avanti.",
-        "warn": true
-      }
+        "note": "Puoi prendere gli oggetti anche in più visite: se ne lasci uno, torna quando l'icona ricompare (ci vuole molto)."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-personal-best",
@@ -963,17 +973,18 @@
       "description": "La seconda volta è quella buona.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: il metodo non è ancora uscito (sera del 18/11). La descrizione dice «La seconda volta è quella buona»; PowerPyx pensa che riguardi la finanziaria Payday Loans che compare all'inizio della storia, forse da rapinare una seconda volta.",
+      "guide": "Trofeo segreto. Mattina del 19/11: nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Insider Gaming, GTA BOOM). La descrizione dice «La seconda volta è quella buona». PowerPyx pensa alla finanziaria Payday Loans che compare all'inizio della storia: forse va rapinata una seconda volta, più avanti (le rapine alle finanziarie si sbloccano a metà capitolo 3). Non l'ha ottenuto finendo la storia, quindi serve un'azione precisa.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Bad Luck, I Guess",
       "timing": {
-        "until": null
+        "until": null,
+        "note": "Metodo non ancora noto; PowerPyx non l'ha avuto con la storia."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
@@ -986,21 +997,23 @@
       "description": "Che cacchio è successo?",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: il metodo non è ancora uscito (sera del 18/11). PowerPyx pensa che arrivi da una serie di missioni sugli UFO, che nessuno ha ancora trovato.",
+      "guide": "Trofeo segreto. Mattina del 19/11: nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Insider Gaming, GTA BOOM). La descrizione è «Ma che diavolo è appena successo?». PowerPyx pensa a una serie di missioni sugli UFO, che nessuno ha ancora trovato (anche GamesRadar aspetta di vederli).",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "The Truth Is Out There",
       "timing": {
-        "until": null
+        "until": null,
+        "note": "Metodo non ancora noto; PowerPyx non l'ha avuto con la storia."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+        "https://www.sportskeeda.com/gta/are-aliens-gta-6"
       ]
     },
     {
@@ -1009,17 +1022,18 @@
       "description": "Stendili usando l'attacco corpo a corpo da un veicolo.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Trofeo segreto: il metodo preciso non è ancora uscito (sera del 18/11). La descrizione parla di un attacco corpo a corpo da un veicolo che butta giù la gente come birilli: PowerPyx pensa ai calci dalla moto in corsa. Prova su una moto contro un gruppo di nemici.",
+      "guide": "Trofeo segreto. Mattina del 19/11: nessuna guida firmata ha ancora il metodo (PowerPyx, GTABase, GamesRadar, PC Gamer, Insider Gaming, GTA BOOM). La descrizione chiede di buttare giù la gente come birilli con un attacco corpo a corpo da un veicolo in corsa. PowerPyx pensa ai calci dalla moto: guida una moto accanto a un gruppo di persone e usa l'attacco corpo a corpo mentre passi. Il nome (in inglese «Ten Pin» è il bowling a dieci birilli) fa pensare che ne servano diversi in una volta.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "nameEn": "Ten Pin",
       "timing": {
-        "until": null
+        "until": null,
+        "note": "Metodo non ancora noto, ma non è legato alla storia."
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",

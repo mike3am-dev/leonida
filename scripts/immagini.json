@@ -5104,36 +5104,6 @@
       "for": "rad-the-vault"
     },
     {
-      "file": "vice/personaggi/chr-tomas.png",
-      "url": "https://gta.wiki/images/Tom%C3%A1s-GTAVI-Portrait.png",
-      "for": "chr-tomas"
-    },
-    {
-      "file": "vice/personaggi/chr-donnie.png",
-      "url": "https://gta.wiki/images/Donnie-GTAVI-AnExtendedLook-Portrait.png",
-      "for": "chr-donnie"
-    },
-    {
-      "file": "vice/personaggi/chr-kenton-rees.png",
-      "url": "https://gta.wiki/images/KentonRees-GTAVI-Portrait.png",
-      "for": "chr-kenton-rees"
-    },
-    {
-      "file": "vice/personaggi/chr-sir-todd-bancroft.png",
-      "url": "https://gta.wiki/images/SirToddBancroft-GTAVI-Portrait.png",
-      "for": "chr-sir-todd-bancroft"
-    },
-    {
-      "file": "vice/personaggi/chr-mandy.png",
-      "url": "https://gta.wiki/images/Mandy-GTAVI-Portrait.png",
-      "for": "chr-mandy"
-    },
-    {
-      "file": "vice/personaggi/chr-tyrone.png",
-      "url": "https://gta.wiki/images/UnnamedThug-GTAVI-Trailer2-Portrait.png",
-      "for": "chr-tyrone"
-    },
-    {
       "file": "mondo/brd-m7.jpg",
       "url": "https://gta.wiki/images/OfficialScreenshots-GTAVI-EdgeMagazine04.jpg",
       "for": "brd-m7"
@@ -5142,6 +5112,201 @@
       "file": "mondo/brd-joysystem-8.png",
       "url": "https://gta.wiki/images/JoySystem8-GTAVI-Trailer2.png",
       "for": "brd-joysystem-8"
+    },
+    {
+      "file": "vice/personaggi/chr-aunt-tee.png",
+      "url": "https://gta.wiki/images/AuntTee-GTAVI-AnExtendedLook-Portrait.png?cdb41",
+      "for": "chr-aunt-tee"
+    },
+    {
+      "file": "vice/personaggi/chr-shirley.png",
+      "url": "https://gta.wiki/images/thumb/Shirley-GTAVI-Portrait.png/600px-Shirley-GTAVI-Portrait.png?56789",
+      "for": "chr-shirley"
+    },
+    {
+      "file": "vice/personaggi/chr-arnold.png",
+      "url": "https://gta.wiki/images/thumb/Arnold-GTAVI-Portrait.png/600px-Arnold-GTAVI-Portrait.png?daf6c",
+      "for": "chr-arnold"
+    },
+    {
+      "file": "vice/personaggi/chr-mattia.png",
+      "url": "https://gta.wiki/images/thumb/Mattia-GTAVI-Portrait.png/600px-Mattia-GTAVI-Portrait.png?139f1",
+      "for": "chr-mattia"
+    },
+    {
+      "file": "vice/personaggi/chr-joey.png",
+      "url": "https://gta.wiki/images/thumb/Joey-GTAVI-Portrait.png/600px-Joey-GTAVI-Portrait.png?cc712",
+      "for": "chr-joey"
+    },
+    {
+      "file": "vice/personaggi/chr-andy.png",
+      "url": "https://gta.wiki/images/thumb/Andy-GTAVI-Portrait.png/600px-Andy-GTAVI-Portrait.png?97099",
+      "for": "chr-andy"
+    },
+    {
+      "file": "vice/personaggi/chr-kat.png",
+      "url": "https://gta.wiki/images/UnnamedFemaleFriend-GTAVI-Trailer2-Portrait.png?3c426",
+      "for": "chr-kat"
+    },
+    {
+      "file": "vice/personaggi/chr-fede-the-flamingo.png",
+      "url": "https://gta.wiki/images/thumb/Macca%26Friends-FedeTheFlamingo-GTAVI-CE-Artwork.png/600px-Macca%26Friends-FedeTheFlamingo-GTAVI-CE-Artwork.png?95759",
+      "for": "chr-fede-the-flamingo"
+    },
+    {
+      "file": "vice/personaggi/chr-lil-ricky-sawdust.jpg",
+      "url": "https://gta.wiki/images/thumb/Marketing-GTAVI-CaribbeanClubTRALilRickySawdust.jpg/600px-Marketing-GTAVI-CaribbeanClubTRALilRickySawdust.jpg?c5f80",
+      "for": "chr-lil-ricky-sawdust"
+    },
+    {
+      "file": "vice/personaggi/chr-tomas.png",
+      "url": "https://gta.wiki/images/thumb/Tom%C3%A1s-GTAVI-Portrait.png/600px-Tom%C3%A1s-GTAVI-Portrait.png?8aa1d",
+      "for": "chr-tomas"
+    },
+    {
+      "file": "vice/personaggi/chr-donnie.png",
+      "url": "https://gta.wiki/images/thumb/Donnie-GTAVI-AnExtendedLook-Portrait.png/600px-Donnie-GTAVI-AnExtendedLook-Portrait.png?56468",
+      "for": "chr-donnie"
+    },
+    {
+      "file": "vice/personaggi/chr-kenton-rees.png",
+      "url": "https://gta.wiki/images/thumb/KentonRees-GTAVI-Portrait.png/600px-KentonRees-GTAVI-Portrait.png?e7c63",
+      "for": "chr-kenton-rees"
+    },
+    {
+      "file": "vice/personaggi/chr-sir-todd-bancroft.png",
+      "url": "https://gta.wiki/images/thumb/SirToddBancroft-GTAVI-Portrait.png/600px-SirToddBancroft-GTAVI-Portrait.png?14de9",
+      "for": "chr-sir-todd-bancroft"
+    },
+    {
+      "file": "vice/personaggi/chr-mandy.png",
+      "url": "https://gta.wiki/images/thumb/Mandy-GTAVI-Portrait.png/600px-Mandy-GTAVI-Portrait.png?d744d",
+      "for": "chr-mandy"
+    },
+    {
+      "file": "vice/personaggi/chr-tyrone.png",
+      "url": "https://gta.wiki/images/thumb/UnnamedThug-GTAVI-Trailer2-Portrait.png/600px-UnnamedThug-GTAVI-Trailer2-Portrait.png?da163",
+      "for": "chr-tyrone"
+    },
+    {
+      "file": "vice/personaggi/chr-bae-luxe.png",
+      "url": "https://gta.wiki/images/thumb/BaeLuxe-GTAVI-Portrait.png/600px-BaeLuxe-GTAVI-Portrait.png?cc5e5",
+      "for": "chr-bae-luxe"
+    },
+    {
+      "file": "vice/personaggi/chr-roxy.png",
+      "url": "https://gta.wiki/images/thumb/Roxy-GTAVI-Portrait.png/600px-Roxy-GTAVI-Portrait.png?f42e3",
+      "for": "chr-roxy"
+    },
+    {
+      "file": "vice/personaggi/chr-moses.jpg",
+      "url": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-moses-4-768x432.jpg",
+      "for": "chr-moses"
+    },
+    {
+      "file": "vice/personaggi/chr-halifax.jpg",
+      "url": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dubious-provenance-10-768x432.jpg",
+      "for": "chr-halifax"
+    },
+    {
+      "file": "vice/personaggi/chr-linda.jpg",
+      "url": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-overnight-charges-3-768x432.jpg",
+      "for": "chr-linda"
+    },
+    {
+      "file": "mondo/brd-mailo.png",
+      "url": "https://gta.wiki/images/CervezaMailo-GTAVI.png?f52c6",
+      "for": "brd-mailo"
+    },
+    {
+      "file": "mondo/brd-lavazas.png",
+      "url": "https://gta.wiki/images/thumb/Lavazas-GTAVI-Trailer1.png/600px-Lavazas-GTAVI-Trailer1.png?d2371",
+      "for": "brd-lavazas"
+    },
+    {
+      "file": "mondo/brd-pindayho.png",
+      "url": "https://gta.wiki/images/thumb/PindayhoCerveza-GTAVI-Trailer1.png/600px-PindayhoCerveza-GTAVI-Trailer1.png?e578a",
+      "for": "brd-pindayho"
+    },
+    {
+      "file": "mondo/brd-salty-squid.png",
+      "url": "https://gta.wiki/images/SaltySquid-GTAVI-AnExtendedLook-Poster.png?ed633",
+      "for": "brd-salty-squid"
+    },
+    {
+      "file": "mondo/brd-resaca-extra.png",
+      "url": "https://gta.wiki/images/ResacaExtra-GTAVI-Trailer1.png?2d93b",
+      "for": "brd-resaca-extra"
+    },
+    {
+      "file": "mondo/brd-thaw.jpg",
+      "url": "https://gta.wiki/images/Thaw-GTAVI-Infobox-CoverArt.jpg?dfea8",
+      "for": "brd-thaw"
+    },
+    {
+      "file": "mondo/brd-vice-city-inquirer.png",
+      "url": "https://gta.wiki/images/thumb/TheViceCityInquirer-GTAVI-Newspapers.png/600px-TheViceCityInquirer-GTAVI-Newspapers.png?34c31",
+      "for": "brd-vice-city-inquirer"
+    },
+    {
+      "file": "mondo/brd-tiny-frank.jpg",
+      "url": "https://gta.wiki/images/thumb/TinyFrank-GTAVI-OfficialScreenshot-Ambrosia01.jpg/600px-TinyFrank-GTAVI-OfficialScreenshot-Ambrosia01.jpg?ac702",
+      "for": "brd-tiny-frank"
+    },
+    {
+      "file": "mondo/brd-mastodon-usa.png",
+      "url": "https://gta.wiki/images/thumb/MastodonUSA-GTAVI-AnExtendedLook.png/600px-MastodonUSA-GTAVI-AnExtendedLook.png?99634",
+      "for": "brd-mastodon-usa"
+    },
+    {
+      "file": "mondo/brd-sol-sisters.png",
+      "url": "https://gta.wiki/images/SolSisters-GTAVI-Trailer1Logo.png?c4e0e",
+      "for": "brd-sol-sisters"
+    },
+    {
+      "file": "mondo/brd-lure-reel.png",
+      "url": "https://gta.wiki/images/Lure%26Reel-GTAVI-OfficialScreenshot-CalHampton04.png?7c6a0",
+      "for": "brd-lure-reel"
+    },
+    {
+      "file": "mondo/brd-airgator.png",
+      "url": "https://gta.wiki/images/AirgatorAirboats-GTAVI-LaunchTrailer.png?3779f",
+      "for": "brd-airgator"
+    },
+    {
+      "file": "mondo/brd-scoop.png",
+      "url": "https://gta.wiki/images/Scoop-GTAVI-AnExtendedLook.png?d2402",
+      "for": "brd-scoop"
+    },
+    {
+      "file": "mondo/brd-usnms.png",
+      "url": "https://gta.wiki/images/USNMSPostbox-GTAVI-OfficialScreenshots-EdgeMagazine07.png?ea633",
+      "for": "brd-usnms"
+    },
+    {
+      "file": "mondo/brd-leonida-city-tours.png",
+      "url": "https://gta.wiki/images/thumb/Buster-GTAVI-AnExtendedLook-Tour.png/600px-Buster-GTAVI-AnExtendedLook-Tour.png?fd5d4",
+      "for": "brd-leonida-city-tours"
+    },
+    {
+      "file": "mondo/brd-easy-going-coaches.png",
+      "url": "https://gta.wiki/images/EasyGoingCoaches-GTAVI-AnExtendedLook-Logo.png?718e8",
+      "for": "brd-easy-going-coaches"
+    },
+    {
+      "file": "mondo/brd-whs.png",
+      "url": "https://gta.wiki/images/WeHaveShoes-GTAVI-BillboardTrailer1.PNG?b8461",
+      "for": "brd-whs"
+    },
+    {
+      "file": "radio/rad-stockyard-fm.png",
+      "url": "https://gta.wiki/images/StockyardFM-GTAVI-Logo.png",
+      "for": "rad-stockyard-fm"
+    },
+    {
+      "file": "vice/armi/wpn-molotov.png",
+      "url": "https://gta.wiki/images/thumb/Molotov-GTAVI-AnExtendedLook.png/600px-Molotov-GTAVI-AnExtendedLook.png?e5c14",
+      "for": "wpn-molotov"
     }
   ],
   "zip": {

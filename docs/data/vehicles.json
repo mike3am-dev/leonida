@@ -39,7 +39,17 @@
       "realModel": null,
       "seats": 2,
       "drivetrain": "AWD",
-      "whereToFind": "Grassrivers, dentro un garage: compare sulla mappa con l'icona viola poco dopo una missione principale del capitolo 2."
+      "whereToFind": "Grassrivers, dentro un garage: compare sulla mappa con l'icona viola poco dopo una missione principale del capitolo 2.",
+      "stats": {
+        "speed": 5.0,
+        "accel": 6.1,
+        "handling": 3.5,
+        "offroad": 6.7,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-vapid-stanier-55",
@@ -55,7 +65,17 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
-      "whereToFind": "Ocean Beach, parcheggiata a bordo strada: compare sulla mappa con l'icona viola all'inizio del capitolo 3."
+      "whereToFind": "Ocean Beach, parcheggiata a bordo strada: compare sulla mappa con l'icona viola all'inizio del capitolo 3.",
+      "stats": {
+        "speed": 3.9,
+        "accel": 3.7,
+        "handling": 3.2,
+        "offroad": 3.7,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-shitzu-squalo",
@@ -91,7 +111,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/ab/GTAVI-Dinka-Enduro.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Honda XL350",
@@ -101,7 +121,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.9,
+        "accel": 5.7,
+        "handling": 5.2,
+        "offroad": 7.6,
+        "strength": 4.0
+      }
     },
     {
       "id": "veh-crest-kayak",
@@ -171,7 +198,7 @@
       "sourceUrl": "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c4/OfficialScreenshots-GTAVI-PromotionalWebsite-JasonDuval-SS1.jpg/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Ducati Panigale V2",
@@ -181,7 +208,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://gta.wiki/w/Alvino_V1"
-      ]
+      ],
+      "stats": {
+        "speed": 6.9,
+        "accel": 7.9,
+        "handling": 7.9,
+        "offroad": 2.3,
+        "strength": 4.0
+      }
     },
     {
       "id": "veh-annis-elegy-90",
@@ -196,12 +230,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/18/ElegyRetroCustom-GTAVI-Trailer1.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.5,
+        "accel": 6.4,
+        "handling": 4.9,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-progen-emerus",
@@ -216,13 +257,21 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/emerus.jpg",
       "imageCredit": "gtabase.com",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-cheats/",
-        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ],
+      "stats": {
+        "speed": 8.3,
+        "accel": 8.3,
+        "handling": 8.4,
+        "offroad": 3.4,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-grotti-bestia-gts",
@@ -254,7 +303,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/neon-2.jpg",
       "imageCredit": "gtabase.com",
       "realModel": "Porsche Mission E",
@@ -263,7 +312,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Neon"
-      ]
+      ],
+      "stats": {
+        "speed": 7.1,
+        "accel": 7.4,
+        "handling": 5.9,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-vysser-neo",
@@ -295,7 +351,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/penumbra-ff.jpg",
       "imageCredit": "gtabase.com",
       "realModel": "Mitsubishi Eclipse",
@@ -304,7 +360,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Penumbra_FF"
-      ]
+      ],
+      "stats": {
+        "speed": 5.1,
+        "accel": 5.5,
+        "handling": 4.4,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-declasse-stallion",
@@ -319,12 +382,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/stallion.jpg",
       "imageCredit": "gtabase.com",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.5,
+        "accel": 5.7,
+        "handling": 3.7,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-vapid-hustler",
@@ -339,14 +409,21 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/muscle/main/hustler.jpg",
       "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
       "whereToFind": "Capri (Mariana County), in un container dove finisce una missione principale del capitolo 3: puoi tenerla o rivenderla.",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.2,
+        "accel": 2.7,
+        "handling": 3.3,
+        "offroad": 3.0,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-willard-faction-donk",
@@ -395,14 +472,21 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/windsor-drop-screen.jpg",
       "imageCredit": "gtabase.com",
       "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+      ],
+      "stats": {
+        "speed": 6.0,
+        "accel": 6.9,
+        "handling": 4.7,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-ubermacht-rebla-gts",
@@ -417,9 +501,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/rebla-g-t-s2.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "stats": {
+        "speed": 4.7,
+        "accel": 5.8,
+        "handling": 4.5,
+        "offroad": 5.0,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "id": "veh-canis-terminus",
@@ -472,12 +566,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/off-road/main/injection.jpg",
       "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.0,
+        "accel": 6.0,
+        "handling": 3.9,
+        "offroad": 7.3,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-polaris-ranger",
@@ -565,12 +666,19 @@
       "sourceUrl": "https://gtabase.com/gta-6/vehicles/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-5/vehicles/service/main/wastelander.jpg",
       "imageCredit": "gtabase.com (immagine dal capitolo precedente, modello omonimo)",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.1,
+        "accel": 3.8,
+        "handling": 2.6,
+        "offroad": 7.0,
+        "strength": 3.5
+      }
     },
     {
       "id": "veh-rexhall-rose-air",
@@ -765,7 +873,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-banshee",
       "name": "Bravado Banshee",
       "manufacturer": "Bravado",
@@ -778,11 +886,19 @@
       "realModel": "Dodge Viper",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più. Dopo la storia si evoca anche con un trucco (tutte le sfide di combattimento).",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: parcheggiata davanti al Sweetbay Inn, su East Buckley Dr a Capri, di notte (verso le 3). Consegnata intatta rende 30.000 $ e più. Dopo la storia si evoca anche con un trucco (tutte le sfide di combattimento).",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-all-cheats/"
-      ]
+        "https://www.powerpyx.com/gta-6-all-cheats/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 6.0,
+        "accel": 6.3,
+        "handling": 5.8,
+        "offroad": 3.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
@@ -790,7 +906,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-dinka-blista-compact",
       "name": "'85 Dinka Blista",
       "manufacturer": "Dinka",
@@ -805,7 +921,14 @@
       "drivetrain": "FWD",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.5,
+        "accel": 4.7,
+        "handling": 3.8,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo.png",
@@ -813,7 +936,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-buffalo",
       "name": "'07 Bravado Buffalo",
       "manufacturer": "Bravado",
@@ -829,7 +952,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Buffalo"
-      ]
+      ],
+      "stats": {
+        "speed": 5.2,
+        "accel": 5.4,
+        "handling": 4.3,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-grotti-carbonizzare.png",
@@ -837,7 +967,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-grotti-carbonizzare",
       "name": "Grotti Carbonizzare",
       "manufacturer": "Grotti",
@@ -853,7 +983,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Carbonizzare"
-      ]
+      ],
+      "stats": {
+        "speed": 6.3,
+        "accel": 7.1,
+        "handling": 6.0,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pfister-comet-retro-custom.png",
@@ -898,7 +1035,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-invetero-coquette",
       "name": "Invetero Coquette",
       "manufacturer": "Invetero",
@@ -914,7 +1051,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Coquette"
-      ]
+      ],
+      "stats": {
+        "speed": 6.1,
+        "accel": 6.8,
+        "handling": 5.5,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette-d10.png",
@@ -922,7 +1066,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-invetero-coquette-d10",
       "name": "Invetero Coquette D10",
       "manufacturer": "Invetero",
@@ -938,7 +1082,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Coquette_D10"
-      ]
+      ],
+      "stats": {
+        "speed": 7.0,
+        "accel": 7.5,
+        "handling": 6.5,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-cypher.png",
@@ -946,7 +1097,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bermacht-cypher",
       "name": "Übermacht Cypher",
       "manufacturer": "Übermacht",
@@ -962,7 +1113,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Cypher"
-      ]
+      ],
+      "stats": {
+        "speed": 6.5,
+        "accel": 7.2,
+        "handling": 4.9,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-futo.png",
@@ -970,7 +1128,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-karin-futo",
       "name": "'85 Karin Futo",
       "manufacturer": "Karin",
@@ -984,12 +1142,19 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.3,
+        "accel": 4.5,
+        "handling": 3.5,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pfister-growler.png",
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19",
@@ -999,13 +1164,16 @@
       "class": "sportiva",
       "description": "Ispirata alla Porsche 718 Cayman.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/Growler-GTAVI-Trailer2.png/revision/latest/scale-to-width-down/1000",
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Porsche 718 Cayman",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: in un parcheggio multipiano su Fig St (Vice Beach), verso le 17. Consegnata intatta rende 30.000 $ e più.",
+      "moreSources": [
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-grotti-itali-gto.png",
@@ -1030,7 +1198,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-grotti-itali-rsx",
       "name": "Grotti Itali RSX",
       "manufacturer": "Grotti",
@@ -1047,7 +1215,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+      ],
+      "stats": {
+        "speed": 7.5,
+        "accel": 8.1,
+        "handling": 7.0,
+        "offroad": 3.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
@@ -1055,7 +1230,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-ocelot-jugular",
       "name": "Ocelot Jugular",
       "manufacturer": "Ocelot",
@@ -1075,7 +1250,14 @@
           "source": "stampa",
           "text": "Nella lista di Randy di PowerPyx compare come «Ocelot Jagular»: è un refuso, il nome nel gioco è Jugular."
         }
-      ]
+      ],
+      "stats": {
+        "speed": 6.5,
+        "accel": 7.3,
+        "handling": 5.8,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-obey-omnis-e-gt.jpg",
@@ -1100,7 +1282,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-enus-paragon-r",
       "name": "Ascot Paragon",
       "manufacturer": "Ascot",
@@ -1114,11 +1296,19 @@
       "seats": 2,
       "drivetrain": "AWD",
       "extras": [],
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: davanti al bar The Banana Hole, su Shore Dr (Vice Beach, sul lungomare), verso le 18. Ha il localizzatore: guida veloce fino a Randy. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 6.2,
+        "accel": 7.2,
+        "handling": 5.8,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
@@ -1126,7 +1316,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-maibatsu-penumbra",
       "name": "Maibatsu Penumbra",
       "manufacturer": "Maibatsu",
@@ -1139,7 +1329,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Penumbra"
-      ]
+      ],
+      "stats": {
+        "speed": 5.2,
+        "accel": 5.7,
+        "handling": 4.2,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-coil-raiden.jpg",
@@ -1147,7 +1344,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-coil-raiden",
       "name": "Coil Raiden",
       "manufacturer": "Coil",
@@ -1160,7 +1357,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Raiden"
-      ]
+      ],
+      "stats": {
+        "speed": 6.7,
+        "accel": 7.7,
+        "handling": 4.7,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-dinka-sugoi.png",
@@ -1168,7 +1372,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-dinka-sugoi",
       "name": "Dinka Sugoi",
       "manufacturer": "Dinka",
@@ -1184,7 +1388,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Sugoi"
-      ]
+      ],
+      "stats": {
+        "speed": 5.0,
+        "accel": 5.8,
+        "handling": 4.3,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-sultan.png",
@@ -1216,7 +1427,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-v-str",
       "name": "Albany V-STR",
       "manufacturer": "Albany",
@@ -1232,7 +1443,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/V-STR"
-      ]
+      ],
+      "stats": {
+        "speed": 7.0,
+        "accel": 7.2,
+        "handling": 4.5,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-emperor-vectre.png",
@@ -1240,7 +1458,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-emperor-vectre",
       "name": "Emperor Vectre",
       "manufacturer": "Emperor",
@@ -1256,7 +1474,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Vectre"
-      ]
+      ],
+      "stats": {
+        "speed": 5.6,
+        "accel": 6.5,
+        "handling": 5.1,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-albany-alpha.jpg",
@@ -1298,7 +1523,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-fathom-fr36",
       "name": "Fathom FR36",
       "manufacturer": "Fathom",
@@ -1314,7 +1539,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/FR36"
-      ]
+      ],
+      "stats": {
+        "speed": 5.3,
+        "accel": 5.8,
+        "handling": 4.2,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-grotti-furia.png",
@@ -1322,7 +1554,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-grotti-furia",
       "name": "Piccia Furia",
       "manufacturer": "Piccia",
@@ -1336,11 +1568,19 @@
       "seats": 2,
       "drivetrain": "AWD",
       "extras": [],
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: nella villa su Palladia Ln, Peacock Estates (Peacock Bay, Vice City). Invece del cancello prendi il sentiero a sinistra e scavalca la siepe: l'auto è nel garage sulla destra. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 7.8,
+        "accel": 8.2,
+        "handling": 7.3,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
@@ -1348,7 +1588,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-tempesta",
       "name": "Pegassi Tempesta",
       "manufacturer": "Pegassi",
@@ -1361,11 +1601,19 @@
       "realModel": "Lamborghini Huracan",
       "seats": 2,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Può comparire in un evento casuale su NE 3rd St, a Vice City (verso le 13): il proprietario aggredisce l'uomo del carro attrezzi; lo minacci, sganci l'auto e la porti a Randy. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 7.6,
+        "accel": 7.8,
+        "handling": 6.9,
+        "offroad": 3.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
@@ -1386,7 +1634,17 @@
       "realModel": "Italdesign Zerouno Duerta",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "La prima si consegna a Randy in una missione principale del capitolo 3; poi è nella sua lista dei desideri."
+      "whereToFind": "La prima si consegna a Randy in una missione principale del capitolo 3; poi è nella sua lista dei desideri.",
+      "stats": {
+        "speed": 7.5,
+        "accel": 7.8,
+        "handling": 7.1,
+        "offroad": 3.8,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
@@ -1418,7 +1676,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-buccaneer",
       "name": "'65 Albany Buccaneer",
       "manufacturer": "Albany",
@@ -1434,7 +1692,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Buccaneer"
-      ]
+      ],
+      "stats": {
+        "speed": 4.2,
+        "accel": 4.1,
+        "handling": 3.2,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo-stx.png",
@@ -1462,7 +1727,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-chino",
       "name": "'65 Dundreary Chino",
       "manufacturer": "Dundreary",
@@ -1474,7 +1739,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.9,
+        "accel": 4.2,
+        "handling": 3.3,
+        "offroad": 4.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-schyster-deviant.jpg",
@@ -1503,7 +1775,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-dominator",
       "name": "Vapid Dominator",
       "manufacturer": "Vapid",
@@ -1516,7 +1788,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Dominator"
-      ]
+      ],
+      "stats": {
+        "speed": 5.6,
+        "accel": 6.0,
+        "handling": 4.4,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-gauntlet-classic.png",
@@ -1541,7 +1820,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-impaler-80",
       "name": "'80 Declasse Impaler",
       "manufacturer": "Declasse",
@@ -1554,7 +1833,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Impaler"
-      ]
+      ],
+      "stats": {
+        "speed": 4.1,
+        "accel": 4.0,
+        "handling": 3.4,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-imponte-phoenix.png",
@@ -1562,7 +1848,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-imponte-phoenix",
       "name": "'77 Imponte Phoenix",
       "manufacturer": "Imponte",
@@ -1578,7 +1864,14 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.3,
+        "accel": 4.7,
+        "handling": 3.4,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-imponte-ruiner.png",
@@ -1586,7 +1879,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-imponte-ruiner",
       "name": "'82 Imponte Ruiner",
       "manufacturer": "Imponte",
@@ -1601,7 +1894,14 @@
       "drivetrain": "RWD",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.5,
+        "accel": 4.6,
+        "handling": 3.7,
+        "offroad": 4.1,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-sabre-turbo.jpg",
@@ -1646,7 +1946,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-tulip",
       "name": "'72 Declasse Tulip",
       "manufacturer": "Declasse",
@@ -1662,7 +1962,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Tulip"
-      ]
+      ],
+      "stats": {
+        "speed": 5.1,
+        "accel": 4.8,
+        "handling": 3.4,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vamos.jpg",
@@ -1722,7 +2029,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-ganado-70",
       "name": "'70 Vapid Ganado",
       "manufacturer": "Vapid",
@@ -1740,7 +2047,14 @@
         "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
         "https://www.powerpyx.com/gta-6-how-to-summon-vehicles/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.7,
+        "accel": 5.3,
+        "handling": 3.6,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
@@ -1748,7 +2062,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-infernus-classic",
       "name": "'96 Pegassi Infernus",
       "manufacturer": "Pegassi",
@@ -1761,7 +2075,7 @@
       "realModel": "Lamborghini Diablo",
       "seats": 2,
       "drivetrain": "RWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti ai grandi hotel sul mare, a est di Vice City, o in giro per la città. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: al settimo piano del parcheggio della Crosstown Police Station (NW 9th St, Vice City). Si entra dal cancello quando esce un agente, senza farsi vedere; per uscire c'è un salto acrobatico dall'ultimo piano. Ha il localizzatore: tieni alta la velocità. Consegnata intatta rende 30.000 $ e più.",
       "extras": [
         {
           "source": "stampa",
@@ -1770,8 +2084,16 @@
       ],
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-car-in-gta-6/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 7.1,
+        "accel": 7.3,
+        "handling": 6.5,
+        "offroad": 4.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
@@ -1779,7 +2101,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-mamba-gt",
       "name": "'64 Declasse Mamba GT",
       "manufacturer": "Declasse",
@@ -1793,7 +2115,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
-      ]
+      ],
+      "stats": {
+        "speed": 6.9,
+        "accel": 7.2,
+        "handling": 6.3,
+        "offroad": 3.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-albany-manana.jpg",
@@ -1801,7 +2130,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-manana",
       "name": "'77 Albany Manana",
       "manufacturer": "Albany",
@@ -1817,7 +2146,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Manana"
-      ]
+      ],
+      "stats": {
+        "speed": 3.7,
+        "accel": 3.6,
+        "handling": 3.4,
+        "offroad": 3.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
@@ -1825,7 +2161,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bermacht-sentinel-classic",
       "name": "'85 Übermacht Sentinel",
       "manufacturer": "Übermacht",
@@ -1840,7 +2176,14 @@
       "drivetrain": "RWD",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.7,
+        "accel": 4.9,
+        "handling": 4.2,
+        "offroad": 3.7,
+        "strength": 3.7
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tornado.jpg",
@@ -1916,7 +2259,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-karin-asterope-gz",
       "name": "Karin Asterope GZ",
       "manufacturer": "Karin",
@@ -1929,7 +2272,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Asterope_GZ"
-      ]
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 4.5,
+        "handling": 3.4,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-albany-emperor.png",
@@ -1937,7 +2287,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-emperor",
       "name": "'85 Albany Emperor",
       "manufacturer": "Albany",
@@ -1952,7 +2302,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Emperor"
-      ]
+      ],
+      "stats": {
+        "speed": 3.3,
+        "accel": 3.0,
+        "handling": 2.7,
+        "offroad": 3.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-feroci.jpg",
@@ -1960,9 +2317,9 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-karin-feroci",
-      "name": "Karin Feroci",
+      "name": "'98 Karin Feroci",
       "manufacturer": "Karin",
       "class": "berlina",
       "description": "Ispirata alla Lexus GS.",
@@ -1976,7 +2333,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Feroci"
-      ]
+      ],
+      "stats": {
+        "speed": 5.0,
+        "accel": 5.4,
+        "handling": 4.0,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-intruder.png",
@@ -2004,7 +2368,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-lowline",
       "name": "Vapid Lowline",
       "manufacturer": "Vapid",
@@ -2017,7 +2381,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Lowline"
-      ]
+      ],
+      "stats": {
+        "speed": 4.8,
+        "accel": 5.6,
+        "handling": 4.5,
+        "offroad": 4.4,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-schyster-pmp-700.png",
@@ -2025,7 +2396,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-schyster-pmp-700",
       "name": "Schyster PMP 700",
       "manufacturer": "Schyster",
@@ -2038,7 +2409,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/PMP_700"
-      ]
+      ],
+      "stats": {
+        "speed": 5.8,
+        "accel": 6.4,
+        "handling": 4.3,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-albany-primo.png",
@@ -2046,7 +2424,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-primo",
       "name": "Albany Primo",
       "manufacturer": "Albany",
@@ -2059,7 +2437,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Primo"
-      ]
+      ],
+      "stats": {
+        "speed": 4.0,
+        "accel": 4.1,
+        "handling": 3.0,
+        "offroad": 4.1,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-schafter-v12.png",
@@ -2067,7 +2452,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-benefactor-schafter-v12",
       "name": "Benefactor Schafter V12",
       "manufacturer": "Benefactor",
@@ -2084,7 +2469,14 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 6.0,
+        "accel": 6.6,
+        "handling": 4.5,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
@@ -2092,7 +2484,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-stanier",
       "name": "'98 Vapid Stanier",
       "manufacturer": "Vapid",
@@ -2105,7 +2497,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Stanier"
-      ]
+      ],
+      "stats": {
+        "speed": 4.5,
+        "accel": 4.6,
+        "handling": 4.0,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-zirconium-stratum.png",
@@ -2215,7 +2614,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-aleutian",
       "name": "Vapid Aleutian",
       "manufacturer": "Vapid",
@@ -2231,7 +2630,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Aleutian"
-      ]
+      ],
+      "stats": {
+        "speed": 4.3,
+        "accel": 5.1,
+        "handling": 4.3,
+        "offroad": 4.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pfister-astron.png",
@@ -2239,7 +2645,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-pfister-astron",
       "name": "Pfister Astron",
       "manufacturer": "Pfister",
@@ -2255,7 +2661,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Astron"
-      ]
+      ],
+      "stats": {
+        "speed": 5.3,
+        "accel": 6.5,
+        "handling": 5.1,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-gallivanter-baller-ii.png",
@@ -2263,7 +2676,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-gallivanter-baller-ii",
       "name": "Gallivanter Baller",
       "manufacturer": "Gallivanter",
@@ -2279,7 +2692,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Baller"
-      ]
+      ],
+      "stats": {
+        "speed": 5.1,
+        "accel": 6.2,
+        "handling": 4.4,
+        "offroad": 5.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-albany-cavalcade-xl.jpg",
@@ -2287,7 +2707,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-albany-cavalcade-xl",
       "name": "Albany Cavalcade XL",
       "manufacturer": "Albany",
@@ -2300,7 +2720,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Cavalcade_XL"
-      ]
+      ],
+      "stats": {
+        "speed": 4.7,
+        "accel": 5.8,
+        "handling": 4.2,
+        "offroad": 5.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-contender.png",
@@ -2308,7 +2735,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-contender",
       "name": "Karin Contender",
       "manufacturer": "Karin",
@@ -2320,7 +2747,17 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Toyota Tundra Devolro",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "stats": {
+        "speed": 4.5,
+        "accel": 5.5,
+        "handling": 3.4,
+        "offroad": 6.7,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-car-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-bravado-dorado.png",
@@ -2328,7 +2765,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-dorado",
       "name": "Bravado Dorado",
       "manufacturer": "Bravado",
@@ -2344,7 +2781,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Dorado"
-      ]
+      ],
+      "stats": {
+        "speed": 3.7,
+        "accel": 3.6,
+        "handling": 3.1,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-dubsta.png",
@@ -2352,7 +2796,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-benefactor-dubsta",
       "name": "Benefactor Dubsta",
       "manufacturer": "Benefactor",
@@ -2369,7 +2813,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+      ],
+      "stats": {
+        "speed": 4.7,
+        "accel": 5.5,
+        "handling": 3.9,
+        "offroad": 5.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-granger.png",
@@ -2377,7 +2828,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-granger",
       "name": "Declasse Granger",
       "manufacturer": "Declasse",
@@ -2390,7 +2841,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Granger"
-      ]
+      ],
+      "stats": {
+        "speed": 3.6,
+        "accel": 4.0,
+        "handling": 3.7,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-jubilee.png",
@@ -2398,7 +2856,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-buckingham-jubilee",
       "name": "Buckingham Jubilee",
       "manufacturer": "Buckingham",
@@ -2415,7 +2873,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.4,
+        "accel": 6.1,
+        "handling": 4.4,
+        "offroad": 5.1,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
@@ -2447,7 +2912,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-canis-mesa",
       "name": "Canis Mesa",
       "manufacturer": "Canis",
@@ -2463,7 +2928,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Mesa"
-      ]
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 5.4,
+        "handling": 3.2,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-montagne.jpg",
@@ -2471,7 +2943,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-montagne",
       "name": "Vapid Montagne",
       "manufacturer": "Vapid",
@@ -2484,7 +2956,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Montagne"
-      ]
+      ],
+      "stats": {
+        "speed": 4.0,
+        "accel": 4.6,
+        "handling": 4.0,
+        "offroad": 4.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-lampadati-novak.jpg",
@@ -2544,7 +3023,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-pegassi-toros",
       "name": "Pegassi Toros",
       "manufacturer": "Pegassi",
@@ -2557,11 +3036,19 @@
       "realModel": "Lamborghini Urus",
       "seats": 4,
       "drivetrain": "AWD",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: davanti all'ingresso dei Pegassi Residences, su Bayside Dr a Tequesta Retreat, verso le 18:30. C'è un po' di sorveglianza. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 6.0,
+        "accel": 7.0,
+        "handling": 4.6,
+        "offroad": 5.1,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
@@ -2586,7 +3073,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-benefactor-xls",
       "name": "Benefactor XLS",
       "manufacturer": "Benefactor",
@@ -2599,7 +3086,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/XLS"
-      ]
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 5.3,
+        "handling": 4.2,
+        "offroad": 4.8,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-900-95-monster-truck.png",
@@ -2664,7 +3158,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-annis-hellion",
       "name": "'95 Annis Hellion",
       "manufacturer": "Annis",
@@ -2680,7 +3174,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Hellion"
-      ]
+      ],
+      "stats": {
+        "speed": 3.1,
+        "accel": 3.4,
+        "handling": 3.0,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-canis-kamacho.jpg",
@@ -2729,7 +3230,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-maibatsu-manchez",
       "name": "Maibatsu Manchez",
       "manufacturer": "Maibatsu",
@@ -2746,7 +3247,14 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
         "https://playday.one/2026/11/18/every-bike-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.9,
+        "accel": 5.8,
+        "handling": 5.2,
+        "offroad": 7.7,
+        "strength": 4.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
@@ -2754,7 +3262,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-nagasaki-outlaw",
       "name": "Mer-Can Outlaw",
       "manufacturer": "Mer-Can",
@@ -2771,7 +3279,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Outlaw"
-      ]
+      ],
+      "stats": {
+        "speed": 3.3,
+        "accel": 5.8,
+        "handling": 3.2,
+        "offroad": 8.4,
+        "strength": 3.5
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-rancher.png",
@@ -2779,7 +3294,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-rancher",
       "name": "'86 Declasse Rancher",
       "manufacturer": "Declasse",
@@ -2801,7 +3316,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Rancher"
-      ]
+      ],
+      "stats": {
+        "speed": 3.1,
+        "accel": 3.1,
+        "handling": 3.1,
+        "offroad": 6.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-karin-rebel.png",
@@ -2829,7 +3351,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-reclaimer",
       "name": "Vapid Reclaimer",
       "manufacturer": "Vapid",
@@ -2842,7 +3364,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Reclaimer"
-      ]
+      ],
+      "stats": {
+        "speed": 4.0,
+        "accel": 5.3,
+        "handling": 3.2,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
@@ -2904,7 +3433,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-dinka-verus",
       "name": "Dinka Verus",
       "manufacturer": "Dinka",
@@ -2920,7 +3449,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://gta.wiki/w/Verus"
-      ]
+      ],
+      "stats": {
+        "speed": 2.8,
+        "accel": 4.6,
+        "handling": 3.3,
+        "offroad": 7.1,
+        "strength": 4.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-walton-l35.png",
@@ -2948,7 +3484,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-yosemite-1500",
       "name": "Declasse Yosemite 1500",
       "manufacturer": "Declasse",
@@ -2964,7 +3500,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Yosemite_1500"
-      ]
+      ],
+      "stats": {
+        "speed": 4.3,
+        "accel": 4.5,
+        "handling": 3.7,
+        "offroad": 4.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-swamp-buggy.png",
@@ -2989,7 +3532,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-lcc-avarus",
       "name": "LCC Avarus",
       "manufacturer": "LCC",
@@ -3002,7 +3545,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://gta.wiki/w/Avarus"
-      ]
+      ],
+      "stats": {
+        "speed": 3.6,
+        "accel": 4.7,
+        "handling": 4.8,
+        "offroad": 2.7,
+        "strength": 4.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-bati-801.jpg",
@@ -3027,7 +3577,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-nagasaki-carbon-rs",
       "name": "Nagasaki Carbon RS",
       "manufacturer": "Nagasaki",
@@ -3042,8 +3592,16 @@
       "drivetrain": "RWD",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-cheats/",
-        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/"
+      ],
+      "stats": {
+        "speed": 6.7,
+        "accel": 7.7,
+        "handling": 7.6,
+        "offroad": 2.3,
+        "strength": 4.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-dinka-double-t.png",
@@ -3091,7 +3649,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-western-nightblade",
       "name": "Western Nightblade",
       "manufacturer": "Western",
@@ -3104,7 +3662,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://gta.wiki/w/Nightblade"
-      ]
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 5.9,
+        "handling": 5.8,
+        "offroad": 3.0,
+        "strength": 4.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-western-sovereign.png",
@@ -3729,7 +4294,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-brute-ambulance",
       "name": "Interstate Ambulance",
       "manufacturer": "Interstate",
@@ -3748,7 +4313,14 @@
           "source": "stampa",
           "text": "Nell'elenco dei mezzi di servizio di DayOne compare come «Declasse Ambulance»; il nome del trucco, «Interstate Ambulance», lo riportano sia PowerPyx sia DayOne."
         }
-      ]
+      ],
+      "stats": {
+        "speed": 3.0,
+        "accel": 2.6,
+        "handling": 2.9,
+        "offroad": 2.9,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-1800-police.png",
@@ -3828,7 +4400,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "veh-brute-police-riot",
       "name": "Brute Police Riot",
       "manufacturer": "Brute",
@@ -3840,7 +4412,17 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "realModel": "Lenco BEAR",
       "seats": 8,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "stats": {
+        "speed": 2.4,
+        "accel": 2.0,
+        "handling": 2.8,
+        "offroad": 2.6,
+        "strength": 4.4
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-airport-bus.jpg",
@@ -3882,7 +4464,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-dashound",
       "name": "Whiffler Dashound",
       "manufacturer": "Whiffler",
@@ -3895,7 +4477,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
         "https://gta.wiki/w/Dashound"
-      ]
+      ],
+      "stats": {
+        "speed": 2.0,
+        "accel": 1.3,
+        "handling": 2.1,
+        "offroad": 2.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-treno-merci.png",
@@ -3971,7 +4560,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-brute-rental-shuttle-bus",
       "name": "Brute Rental Bus",
       "manufacturer": "Brute",
@@ -3983,7 +4572,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.7,
+        "accel": 2.4,
+        "handling": 2.8,
+        "offroad": 3.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-tow-truck.png",
@@ -4148,7 +4744,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-benson",
       "name": "'97 Interstate Benson",
       "manufacturer": "Interstate",
@@ -4160,7 +4756,14 @@
       "imageCredit": "gtabase.com",
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.4,
+        "accel": 1.7,
+        "handling": 2.6,
+        "offroad": 2.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-hvy-biff.jpg",
@@ -4168,7 +4771,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-hvy-biff",
       "name": "Cartright Biff",
       "manufacturer": "Cartright",
@@ -4180,7 +4783,14 @@
       "imageCredit": "gtabase.com",
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.2,
+        "accel": 1.7,
+        "handling": 2.7,
+        "offroad": 2.7,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-jobuilt-hauler.png",
@@ -4188,7 +4798,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-jobuilt-hauler",
       "name": "Cartright Hauler",
       "manufacturer": "Cartright",
@@ -4200,7 +4810,14 @@
       "imageCredit": "gtabase.com",
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.1,
+        "accel": 1.4,
+        "handling": 2.3,
+        "offroad": 2.5,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-mule.jpg",
@@ -4208,7 +4825,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-19",
       "id": "veh-maibatsu-mule",
       "name": "Maibatsu Mule",
       "manufacturer": "Maibatsu",
@@ -4217,7 +4834,17 @@
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/mule-3.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "stats": {
+        "speed": 2.6,
+        "accel": 1.9,
+        "handling": 2.5,
+        "offroad": 2.8,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
+      ]
     },
     {
       "image": "assets/img/veicoli/veh-mtl-packer.jpg",
@@ -4225,7 +4852,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "veh-mtl-packer",
       "name": "MTL Packer",
       "manufacturer": "MTL",
@@ -4243,6 +4870,16 @@
           "source": "community",
           "text": "Ricorda anche l'International 9000/9200 del 1994."
         }
+      ],
+      "stats": {
+        "speed": 2.6,
+        "accel": 1.7,
+        "handling": 2.2,
+        "offroad": 2.5,
+        "strength": 3.0
+      },
+      "moreSources": [
+        "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/"
       ]
     },
     {
@@ -4288,7 +4925,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-bison",
       "name": "Bravado Bison",
       "manufacturer": "Bravado",
@@ -4301,7 +4938,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Bison"
-      ]
+      ],
+      "stats": {
+        "speed": 4.2,
+        "accel": 4.6,
+        "handling": 3.8,
+        "offroad": 5.0,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-bobcat-xl.png",
@@ -4309,7 +4953,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-bobcat-xl",
       "name": "'84 Declasse Bobcat XL",
       "manufacturer": "Declasse",
@@ -4326,7 +4970,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Bobcat_XL"
-      ]
+      ],
+      "stats": {
+        "speed": 4.2,
+        "accel": 4.7,
+        "handling": 3.2,
+        "offroad": 4.9,
+        "strength": 3.2
+      }
     },
     {
       "image": "assets/img/veicoli/veh-brute-boxville.png",
@@ -4334,7 +4985,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-brute-boxville",
       "name": "Brute Boxville",
       "manufacturer": "Brute",
@@ -4351,7 +5002,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Boxville"
-      ]
+      ],
+      "stats": {
+        "speed": 2.6,
+        "accel": 2.7,
+        "handling": 2.7,
+        "offroad": 3.4,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-burrito.png",
@@ -4359,7 +5017,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-declasse-burrito",
       "name": "'98 Declasse Burrito",
       "manufacturer": "Declasse",
@@ -4372,7 +5030,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Burrito"
-      ]
+      ],
+      "stats": {
+        "speed": 3.4,
+        "accel": 3.8,
+        "handling": 3.4,
+        "offroad": 3.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-brute-camper.png",
@@ -4397,7 +5062,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-zirconium-journey",
       "name": "'78 Osprey Journey",
       "manufacturer": "Osprey",
@@ -4409,7 +5074,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.4,
+        "accel": 1.8,
+        "handling": 2.5,
+        "offroad": 2.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-minivan.png",
@@ -4434,7 +5106,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-bravado-rumpo",
       "name": "Vapid Rumpo",
       "manufacturer": "Vapid",
@@ -4446,7 +5118,14 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 3.2,
+        "accel": 3.7,
+        "handling": 3.1,
+        "offroad": 3.3,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-vapid-speedo.png",
@@ -4454,7 +5133,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "veh-vapid-speedo",
       "name": "Vapid Speedo",
       "manufacturer": "Vapid",
@@ -4467,7 +5146,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Speedo"
-      ]
+      ],
+      "stats": {
+        "speed": 3.4,
+        "accel": 3.6,
+        "handling": 3.1,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-bravado-youga-classic.png",
@@ -4742,12 +5428,19 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-ii",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-2.png",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Bison_1800"
-      ]
+      ],
+      "stats": {
+        "speed": 4.0,
+        "accel": 4.7,
+        "handling": 3.2,
+        "offroad": 4.7,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-bravado-bison-900-95",
@@ -4762,12 +5455,19 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/bison-900-1995",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/bison-900-95-2.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Bison_900"
-      ]
+      ],
+      "stats": {
+        "speed": 4.1,
+        "accel": 4.6,
+        "handling": 2.8,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-bravado-gauntlet-hellfire",
@@ -4782,16 +5482,24 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/gauntlet-hellfire",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/gauntlet-hellfire-2.jpg",
       "realModel": "2018 Dodge Challenger SRT Demon",
       "seats": 2,
       "drivetrain": null,
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): spesso parcheggiata davanti agli hotel di Ocean Beach e Vice Beach o in giro per Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto sicuro: in fondo allo sfasciacarrozze della M7, a est del Boone Speedway (Galerina St, Hamlet). Apri prima il cancello d'ingresso e passa basso sul lato destro per non farti scoprire. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 7.8,
+        "accel": 7.8,
+        "handling": 5.7,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-bravado-police-cruiser-buffalo",
@@ -4838,12 +5546,19 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/youga",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/igallery/5001-5100/GTA5_Youga_RSC-5002-360.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Youga"
-      ]
+      ],
+      "stats": {
+        "speed": 3.0,
+        "accel": 2.6,
+        "handling": 3.2,
+        "offroad": 3.1,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-buckingham-police-maverick",
@@ -5037,12 +5752,19 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/granger-3600lx",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/granger-3600-l-x-2.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Granger_3600LX"
-      ]
+      ],
+      "stats": {
+        "speed": 4.0,
+        "accel": 4.5,
+        "handling": 3.8,
+        "offroad": 4.4,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-declasse-granger-taxi",
@@ -5073,7 +5795,7 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/impaler-sz",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/impaler-s-z-2.jpg",
       "realModel": "Chevrolet Impala SS (1994-1996)",
       "seats": 3,
@@ -5081,7 +5803,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Impaler_SZ"
-      ]
+      ],
+      "stats": {
+        "speed": 3.5,
+        "accel": 4.8,
+        "handling": 3.8,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-declasse-moonbeam",
@@ -5112,7 +5841,7 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/tulip-m-100",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tulip-m-100.jpg",
       "realModel": "1980 Chevrolet Malibu Coupe",
       "seats": 2,
@@ -5120,7 +5849,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Tulip_M-100"
-      ]
+      ],
+      "stats": {
+        "speed": 3.7,
+        "accel": 3.7,
+        "handling": 3.2,
+        "offroad": 3.8,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-dundreary-police-landstalker-xl",
@@ -5215,7 +5951,7 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/baller-st-d",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/baller-std-2.jpg",
       "realModel": "Range Rover L460",
       "seats": 4,
@@ -5224,7 +5960,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.3,
+        "accel": 6.4,
+        "handling": 4.2,
+        "offroad": 5.0,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-gommone-stile-highfield-sport-900",
@@ -5255,12 +5998,19 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/phantom-custom",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/phantom.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-service-and-utility-vehicle-in-gta-6/",
         "https://gta.wiki/w/Phantom"
-      ]
+      ],
+      "stats": {
+        "speed": 2.0,
+        "accel": 2.0,
+        "handling": 2.2,
+        "offroad": 2.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-lombike",
@@ -5323,12 +6073,19 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/moocher",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/moocher.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Moocher"
-      ]
+      ],
+      "stats": {
+        "speed": 2.5,
+        "accel": 1.4,
+        "handling": 2.8,
+        "offroad": 2.6,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300",
@@ -5503,7 +6260,7 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/tailgater-s",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/tailgater-s-2.jpg",
       "realModel": "Audi RS 3 (3rd Generation)",
       "seats": 4,
@@ -5511,7 +6268,14 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Tailgater_S"
-      ]
+      ],
+      "stats": {
+        "speed": 4.8,
+        "accel": 5.9,
+        "handling": 4.4,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-offshore-stile-skater-388",
@@ -5670,13 +6434,20 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mobility-scooter.jpeg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
         "https://playday.one/2026/11/18/every-bike-in-gta-6/",
         "https://gta.wiki/w/Boomazoom"
-      ]
+      ],
+      "stats": {
+        "speed": 0.2,
+        "accel": 0.1,
+        "handling": 0.2,
+        "offroad": 0.7,
+        "strength": 4.0
+      }
     },
     {
       "id": "veh-suv-stile-audi-q7",
@@ -5855,12 +6626,19 @@
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/caracara-4x4",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/caracara-4x4.png",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Caracara_4x4"
-      ]
+      ],
+      "stats": {
+        "speed": 4.2,
+        "accel": 5.1,
+        "handling": 3.3,
+        "offroad": 6.7,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-vapid-dominator-asp",
@@ -5894,12 +6672,19 @@
       "sourceUrl": "https://www.gtabase.com/vehicles/gta-6/dominator-gt",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/dominator-gt-2.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Dominator_GT"
-      ]
+      ],
+      "stats": {
+        "speed": 6.3,
+        "accel": 6.8,
+        "handling": 5.7,
+        "offroad": 3.9,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-vapid-dominator-gtx",
@@ -6100,13 +6885,20 @@
       "status": "verificato",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "moreSources": [
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.powerpyx.com/gta-6-all-cheats/"
-      ]
+      ],
+      "stats": {
+        "speed": 5.1,
+        "accel": 5.6,
+        "handling": 3.7,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-airboat-stile-panther",
@@ -6139,13 +6931,21 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3): Randy ne segnala una a Waning Sands (Leonard County), nella villa a est del Pay 'n' Spray. Si trova anche davanti ai grandi hotel sul mare, a est di Vice City. Consegnata intatta rende 30.000 $ e più.",
+      "updatedAt": "2026-11-19",
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Randy ne segnala una a Waning Sands (Leonard County), nella villa su Flamingo Pkwy a est di Belville: è nel garage più vicino alla casa, a destra guardando l'ingresso. Si trova anche davanti ai grandi hotel sul mare, a est di Vice City. Consegnata intatta rende 30.000 $ e più.",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
-      ]
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.pushsquare.com/guides/gta-6-randys-wish-list-vehicle-locations"
+      ],
+      "stats": {
+        "speed": 8.2,
+        "accel": 8.4,
+        "handling": 8.2,
+        "offroad": 3.8,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-hauners-lazer",
@@ -6245,11 +7045,19 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-cheats/",
-        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
-      ]
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://playday.one/2026/11/18/every-bike-in-gta-6/"
+      ],
+      "stats": {
+        "speed": 4.4,
+        "accel": 5.3,
+        "handling": 5.5,
+        "offroad": 2.9,
+        "strength": 4.0
+      }
     },
     {
       "id": "veh-canis-crawler-82",
@@ -6264,12 +7072,19 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "whereToFind": "La prima si ruba per Moses in una missione principale del capitolo 2: è parcheggiata vicino al vecchio edificio del Trader's Union.",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "stats": {
+        "speed": 2.7,
+        "accel": 3.0,
+        "handling": 3.3,
+        "offroad": 6.6,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-transgressor-67",

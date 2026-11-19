@@ -210,9 +210,9 @@
         "Sfida di esplorazione «Road Trip»: passa da ogni città e paese di Leonida in un giorno senza scendere dal veicolo, se non per fare benzina."
       ],
       "steps": [
-        "L'indicatore del carburante compare sopra la minimappa premendo giù sulla croce direzionale, se lo attivi nelle impostazioni dell'interfaccia.",
+        "L'indicatore del carburante compare sopra la minimappa premendo giù sulla croce direzionale: verde pieno, giallo in riserva, rosso a secco.",
         "In riserva l'indicatore diventa giallo e i distributori più vicini compaiono sulla mappa.",
-        "Alla pompa puoi anche riparare l'auto o la moto per poco: spesso costa meno di Scooter Bros."
+        "Alla pompa premi X: fai il pieno e puoi riparare i danni leggeri (per quelli gravi serve un Pay 'n' Spray o un'officina)."
       ],
       "image": null,
       "status": "verificato",
@@ -220,14 +220,16 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "group": "Svago",
       "moreSources": [
         "https://gamingbolt.com/grand-theft-auto-6-launch-screenshots-tease-new-characters-activities-and-crimes",
         "https://www.powerpyx.com/gta-6-all-challenges-guide/",
         "https://insider-gaming.com/gta-6-challenges/",
         "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
-        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601"
+        "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-refuel-car-bike-how-to/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-repair-car-bike-how-to/"
       ]
     },
     {

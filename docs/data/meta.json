@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.52.1",
-  "updatedAt": "2026-11-18",
+  "dataVersion": "0.52.2",
+  "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.52.2",
+      "date": "2026-11-19",
+      "changes": [
+        "Giro grande con dieci squadre: news, missioni, personaggi, collezionabili, armi e veicoli, radio, trofei e segreti, Come si gioca, mappa e Mondo.",
+        "Missioni: corretto il Prologo (Lucia non può seminare la polizia e viene arrestata) e ricontrollate con due guide tutte le missioni del Prologo e dei capitoli 1 e 2. Corrette anche Clear Skies, Home Sweet Home e il colpo del capitolo 3. Nei capitoli 4 e 5 tolti i passi che non venivano dal gioco.",
+        "Collezionabili: tutte le 480 carte, i 100 canestri, i 202 passaggi sotto i ponti, i 108 luoghi WAiNK, 112 pezzi di street art, i 15 rottami di Wyman e i 7 scambi di libri, con il punto preciso.",
+        "Radio: da 273 a 462 canzoni. Vice City FM è condotta da «Weird Al» Yankovic, Kaleidoscope da Jeremy Irons.",
+        "Garage: le cinque barre del gioco per 111 veicoli e il posto preciso di 9 auto della lista di Randy.",
+        "Personaggi: 20 ritratti nuovi e 3 schede nuove (Cecilia, Frankie Delight, Manuel). Jason è interpretato da Dylan Rourke (riportato dalla stampa).",
+        "Come si gioca: corretti mappa (si apre dal touchpad), soldi (20.000 $ in tasca al massimo, conti separati), benzina e riparazioni; due schede nuove su cibo e sostanze e su radio e cuffie.",
+        "News: 15 notizie del lancio (vendite stimate, PSN in tilt, cosa dà la Ultimate capitolo per capitolo) e 7 notizie di ieri aggiornate.",
+        "Mappa e Mondo: 9 punti spostati nella regione giusta, le schede ufficiali delle 8 gang, 22 voci nuove."
+      ]
+    },
     {
       "version": "0.52.1",
       "date": "2026-11-19",

@@ -15,12 +15,12 @@ const fonte = (x) => `<p class="source-line">Fonte: ${esc(x.source)}${x.sourceUr
 const secP = sectionOf('personaggi');
 const GROUPS = [
   ['🌴', 'Le Keys: la famiglia di Jason', 'Contrabbando, barche e vita di provincia tra le isole.', ['chr-brian', 'chr-lori', 'chr-cal', 'chr-donnie', 'chr-arnold', 'chr-joey', 'chr-mandy', 'chr-shirley', 'chr-kenton-rees', 'chr-sir-todd-bancroft', 'chr-kirk', 'chr-pilot-pete']],
-  ['🌺', 'Il mondo di Lucia', 'La famiglia, le amiche e chi le tiene da parte le cose.', ['chr-tomas', 'chr-mia', 'chr-kat', 'chr-mattia', 'chr-andy']],
-  ['🏨', 'Port Gellhorn e lo Starlet Motel', 'Motel, roulotte e gente che sa sempre qualcosa.', ['chr-linda', 'chr-vicki', 'chr-shayna']],
+  ['🌺', 'Il mondo di Lucia', 'La famiglia, le amiche e chi le tiene da parte le cose.', ['chr-tomas', 'chr-mia', 'chr-kat', 'chr-mattia', 'chr-andy', 'chr-cecilia']],
+  ['🏨', 'Port Gellhorn e lo Starlet Motel', 'Motel, roulotte e gente che sa sempre qualcosa.', ['chr-linda', 'chr-vicki', 'chr-shayna', 'chr-frankie-delight']],
   ['🎤', 'Vice City: la scena musicale', 'Rapper, produttori e leggende dei club.', ['chr-boobie', 'chr-drequan', 'chr-real-dimez', 'chr-bae-luxe', 'chr-roxy', 'chr-dwnply', 'chr-travis-scott', 'chr-kodak-black']],
   ['💰', 'Il colpo grosso', 'Chi vive di rapine, e chi le rende possibili.', ['chr-raul', 'chr-karim', 'chr-andrea', 'chr-felipe', 'chr-nicole', 'chr-yasmani', 'chr-gil', 'chr-monty', 'chr-evelyn-andrews', 'chr-halifax']],
   ['🏢', 'Megamundo', 'Soldi, potere e sorrisi di plastica.', ['chr-andres', 'chr-petra', 'chr-valentina', 'chr-cesar']],
-  ['🏁', 'Strada, gang e corse', 'San4San, corse clandestine e quartieri caldi.', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee', 'chr-tyrone', 'chr-dunk']],
+  ['🏁', 'Strada, gang e corse', 'San4San, corse clandestine e quartieri caldi.', ['chr-raymond', 'chr-ernesto', 'chr-yago', 'chr-aunt-tee', 'chr-tyrone', 'chr-dunk', 'chr-manuel']],
   ['🚔', 'La legge e lo Stato', 'Polizia, penitenziario, tribunali e politica.', ['chr-mendez', 'chr-stefanie', 'chr-erin-henshaw', 'chr-abe-gonzalez']],
   ['🔧', 'Affari e mezzi', 'Meccanici, ricettatori, cacciatori e club di fango.', ['chr-wyman', 'chr-randy', 'chr-moses', 'chr-eddie-acosta', 'chr-bret-vogel', 'chr-kyle', 'chr-billy']],
   ['📻', 'Le voci della radio', 'Chi parla tra una canzone e l\'altra.', ['chr-el-martillo', 'chr-la-gata', 'chr-mw', 'chr-delta-dawne']],

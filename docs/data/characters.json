@@ -20,7 +20,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/ss-jason-lucia-14.jpg",
         "assets/img/jason.jpg"
@@ -141,18 +141,28 @@
           "Auto personale",
           "Ganado del 1970 turchese, associata a Jason",
           "Riportato"
+        ],
+        [
+          "Interprete",
+          "Dylan Rourke, voce e motion capture",
+          "Riportato"
         ]
       ],
       "insightUrl": "https://vice-central.com/personnages/jason-duval/",
       "extras": [
         {
-          "source": "community",
-          "text": "Interprete non ancora ufficiale al 18/11: a differenza di Lucia, non è tra i candidati ai The Game Awards. Il nome più ricorrente è Dylan Rourke (gta.wiki lo indica già come voce e motion capture, ma senza fonte); circola anche Gregory Connors."
+          "source": "stampa",
+          "text": "Lo interpreta Dylan Rourke, voce e motion capture: attore americano di teatro, tv (Station 19, Grey's Anatomy) e improvvisazione. Il nome è riportato da SVG e da Men's Journal, che cita la recensione di IGN; Rockstar non ha ancora pubblicato un cast ufficiale."
         },
         {
           "source": "stampa",
           "text": "In alcune anteprime Jason è descritto come ex membro delle forze speciali."
         }
+      ],
+      "moreSources": [
+        "https://www.svg.com/2321409/jason-duval-gta-6-actor-dylan-rourke/",
+        "https://www.mensjournal.com/news/grand-theft-auto-vi-who-is-dylan-rourke-the-actor-behind-jason-duval",
+        "https://gta.wiki/w/Dylan_Rourke"
       ]
     },
     {
@@ -954,7 +964,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "gallery": [
         "assets/img/brian-heder.jpg"
       ],
@@ -1070,13 +1080,14 @@
       "extras": [
         {
           "source": "stampa",
-          "text": "Lo interpreta Stephen Root (King of the Hill, Barry, Office Space). A settembre l'attore ha confermato all'Associated Press di essere nel gioco («mi riconoscono dalla voce»), senza nominare il personaggio; le testate e gta.wiki lo danno per Brian. Rockstar non ha ancora pubblicato il cast."
+          "text": "Lo interpreta Stephen Root (King of the Hill, Barry, Office Space). A settembre l'attore ha confermato all'Associated Press di essere nel gioco; dal 18/11 Insider Gaming lo elenca tra gli interpreti confermati, nel ruolo di Brian. Rockstar non ha ancora pubblicato il cast."
         }
       ],
       "moreSources": [
         "https://www.pushsquare.com/news/2026/09/the-first-gta-6-actor-has-confirmed-their-involvement-and-nobodys-surprised",
         "https://insider-gaming.com/gta-6s-first-voice-actor-has-been-confirmed/",
-        "https://gta.wiki/w/Stephen_Root"
+        "https://gta.wiki/w/Stephen_Root",
+        "https://insider-gaming.com/gta-6-voice-actors/"
       ]
     },
     {
@@ -2205,7 +2216,10 @@
         "chr-raymond"
       ],
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
-      "insight": ""
+      "insight": "",
+      "image": "assets/img/vice/personaggi/chr-aunt-tee.png",
+      "imageUrl": "https://gta.wiki/images/AuntTee-GTAVI-AnExtendedLook-Portrait.png?cdb41",
+      "imageCredit": "gta.wiki"
     },
     {
       "image": null,
@@ -2769,7 +2783,7 @@
       "districtId": null,
       "firstMissionId": null,
       "relations": [],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-lil-ricky-sawdust.jpg",
       "gallery": [],
       "status": "da verificare",
       "source": "leak",
@@ -2778,7 +2792,9 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "isProtagonist": false,
-      "insight": ""
+      "insight": "",
+      "imageUrl": "https://gta.wiki/images/thumb/Marketing-GTAVI-CaribbeanClubTRALilRickySawdust.jpg/600px-Marketing-GTAVI-CaribbeanClubTRALilRickySawdust.jpg?c5f80",
+      "imageCredit": "gta.wiki (locandina)"
     },
     {
       "id": "chr-kenny-brewster",
@@ -2881,13 +2897,15 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "image": "assets/img/ss-real-dimez-01.jpg",
+      "image": "assets/img/vice/personaggi/chr-bae-luxe.png",
       "insight": "",
       "firstMissionId": "mis-top-billing",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
         "https://www.gtabase.com/gta-6/missions/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/BaeLuxe-GTAVI-Portrait.png/600px-BaeLuxe-GTAVI-Portrait.png?cc5e5",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-roxy",
@@ -2908,13 +2926,15 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18",
-      "image": "assets/img/ss-real-dimez-01.jpg",
+      "image": "assets/img/vice/personaggi/chr-roxy.png",
       "insight": "",
       "firstMissionId": "mis-top-billing",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
         "https://www.gtabase.com/gta-6/missions/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Roxy-GTAVI-Portrait.png/600px-Roxy-GTAVI-Portrait.png?f42e3",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-fede-the-flamingo",
@@ -2935,7 +2955,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://gta.wiki/w/Fede_the_Flamingo"
+      "sourceUrl": "https://gta.wiki/w/Fede_the_Flamingo",
+      "image": "assets/img/vice/personaggi/chr-fede-the-flamingo.png",
+      "imageUrl": "https://gta.wiki/images/thumb/Macca%26Friends-FedeTheFlamingo-GTAVI-CE-Artwork.png/600px-Macca%26Friends-FedeTheFlamingo-GTAVI-CE-Artwork.png?95759",
+      "imageCredit": "gta.wiki (artwork Rockstar)"
     },
     {
       "id": "chr-tomas",
@@ -2960,8 +2983,8 @@
       "moreSources": [
         "https://gta.wiki/w/Tom%C3%A1s"
       ],
-      "imageUrl": "https://gta.wiki/images/Tom%C3%A1s-GTAVI-Portrait.png",
-      "imageCredit": "gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/Tom%C3%A1s-GTAVI-Portrait.png/600px-Tom%C3%A1s-GTAVI-Portrait.png?8aa1d",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-donnie",
@@ -2989,8 +3012,8 @@
         "https://gta.wiki/w/Donnie",
         "https://www.powerpyx.com/gta-6-find-the-lost-drugs-walkthrough/"
       ],
-      "imageUrl": "https://gta.wiki/images/Donnie-GTAVI-AnExtendedLook-Portrait.png",
-      "imageCredit": "gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/Donnie-GTAVI-AnExtendedLook-Portrait.png/600px-Donnie-GTAVI-AnExtendedLook-Portrait.png?56468",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-kenton-rees",
@@ -3016,8 +3039,8 @@
       "moreSources": [
         "https://gta.wiki/w/Kenton_Rees"
       ],
-      "imageUrl": "https://gta.wiki/images/KentonRees-GTAVI-Portrait.png",
-      "imageCredit": "gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/KentonRees-GTAVI-Portrait.png/600px-KentonRees-GTAVI-Portrait.png?e7c63",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-sir-todd-bancroft",
@@ -3039,8 +3062,8 @@
       "example": false,
       "updatedAt": "2026-11-18",
       "insight": "",
-      "imageUrl": "https://gta.wiki/images/SirToddBancroft-GTAVI-Portrait.png",
-      "imageCredit": "gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/SirToddBancroft-GTAVI-Portrait.png/600px-SirToddBancroft-GTAVI-Portrait.png?14de9",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-mandy",
@@ -3066,8 +3089,8 @@
       "moreSources": [
         "https://gta.wiki/w/Mandy"
       ],
-      "imageUrl": "https://gta.wiki/images/Mandy-GTAVI-Portrait.png",
-      "imageCredit": "gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/Mandy-GTAVI-Portrait.png/600px-Mandy-GTAVI-Portrait.png?d744d",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-shirley",
@@ -3081,7 +3104,7 @@
       "relations": [
         "chr-jason"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-shirley.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-get-shirleys-rum-walkthrough/",
@@ -3091,7 +3114,9 @@
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-steal-the-scooter-walkthrough/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Shirley-GTAVI-Portrait.png/600px-Shirley-GTAVI-Portrait.png?56789",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-joey",
@@ -3106,7 +3131,7 @@
         "chr-jason",
         "chr-brian"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-joey.png",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
@@ -3116,7 +3141,9 @@
       "insight": "",
       "moreSources": [
         "https://gta.wiki/w/Joey"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Joey-GTAVI-Portrait.png/600px-Joey-GTAVI-Portrait.png?cc712",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-arnold",
@@ -3132,14 +3159,16 @@
         "chr-jason",
         "chr-cal"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-arnold.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
       "spoilerLevel": 1,
       "example": false,
       "updatedAt": "2026-11-18",
-      "insight": ""
+      "insight": "",
+      "imageUrl": "https://gta.wiki/images/thumb/Arnold-GTAVI-Portrait.png/600px-Arnold-GTAVI-Portrait.png?daf6c",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-andy",
@@ -3154,7 +3183,7 @@
         "chr-lucia",
         "chr-jason"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-andy.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-get-lucias-clothes-walkthrough/",
@@ -3165,7 +3194,9 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/",
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Andy-GTAVI-Portrait.png/600px-Andy-GTAVI-Portrait.png?97099",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-kat",
@@ -3180,7 +3211,7 @@
         "chr-lucia",
         "chr-mattia"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-kat.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
@@ -3190,7 +3221,9 @@
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/UnnamedFemaleFriend-GTAVI-Trailer2-Portrait.png?3c426",
+      "imageCredit": "gta.wiki (frame del Trailer 2)"
     },
     {
       "id": "chr-mattia",
@@ -3206,7 +3239,7 @@
         "chr-lucia",
         "chr-jason"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-mattia.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
@@ -3216,7 +3249,9 @@
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Mattia-GTAVI-Portrait.png/600px-Mattia-GTAVI-Portrait.png?139f1",
+      "imageCredit": "gta.wiki"
     },
     {
       "id": "chr-kirk",
@@ -3226,7 +3261,7 @@
       "tagline": "Insegue Mr. Mangrove con un drone.",
       "bio": "Dà la caccia allo Skunk Ape, che chiama Mr. Mangrove, di notte nelle paludi della contea di Mariana, con un drone. Ha il viso segnato e dà la colpa al «polline» della creatura. Lo trovi leggendo uno dei suoi volantini (ce n'è uno allo Skeeter's di Hamlet) e chiamandolo. Tre missioni tra il capitolo 1 e il 2; valgono per il trofeo «Sconosciuti e folli».",
       "districtId": "dis-grassrivers",
-      "firstMissionId": null,
+      "firstMissionId": "mis-search-for-the-skunk-ape",
       "relations": [],
       "image": null,
       "status": "da verificare",
@@ -3234,7 +3269,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
@@ -3280,7 +3315,7 @@
         "chr-lucia",
         "chr-jason"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-linda.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/",
@@ -3290,7 +3325,9 @@
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/"
-      ]
+      ],
+      "imageUrl": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-overnight-charges-3-768x432.jpg",
+      "imageCredit": "PowerPyx (screenshot)"
     },
     {
       "id": "chr-vicki",
@@ -3330,7 +3367,7 @@
       "relations": [
         "chr-vicki"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-moses.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
@@ -3340,7 +3377,9 @@
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/"
-      ]
+      ],
+      "imageUrl": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-moses-4-768x432.jpg",
+      "imageCredit": "PowerPyx (screenshot)"
     },
     {
       "id": "chr-dunk",
@@ -3464,8 +3503,8 @@
         "https://gta.wiki/w/Tyrone",
         "https://www.powerpyx.com/gta-6-here-kitty-kitty-speak-with-tyrone-walkthrough/"
       ],
-      "imageUrl": "https://gta.wiki/images/UnnamedThug-GTAVI-Trailer2-Portrait.png",
-      "imageCredit": "Frame del Trailer 2 via gta.wiki (CC BY-SA)"
+      "imageUrl": "https://gta.wiki/images/thumb/UnnamedThug-GTAVI-Trailer2-Portrait.png/600px-UnnamedThug-GTAVI-Trailer2-Portrait.png?da163",
+      "imageCredit": "gta.wiki (frame del Trailer 2)"
     },
     {
       "id": "chr-yasmani",
@@ -3628,14 +3667,16 @@
         "chr-jason",
         "chr-lucia"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-halifax.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
       "spoilerLevel": 3,
       "example": false,
       "updatedAt": "2026-11-18",
-      "insight": ""
+      "insight": "",
+      "imageUrl": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dubious-provenance-10-768x432.jpg",
+      "imageCredit": "PowerPyx (screenshot)"
     },
     {
       "id": "chr-monty",
@@ -3870,6 +3911,81 @@
           "source": "stampa",
           "text": "La interpreta la cantante portoricana RaiNao (annuncio delle radio di Rockstar, ripreso da IGN)."
         }
+      ]
+    },
+    {
+      "isProtagonist": false,
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "insight": "",
+      "id": "chr-cecilia",
+      "name": "Cecilia",
+      "role": "Fondatrice della Cellerica",
+      "tagline": "Il suo volto è su tutti gli striscioni.",
+      "bio": "Fondatrice della Cellerica, il gruppo del benessere in cui Andy trascina Lucia a Belville. La sua faccia è sugli striscioni del complesso, ma all'inizio la senti solo dagli altoparlanti; dopo l'iniziazione ti riceve nella sua villa, dove ad aprire la porta è il suo domestico Felix. Ti affida altri lavori, solo con Lucia.",
+      "districtId": null,
+      "firstMissionId": "mis-peach",
+      "relations": [
+        "chr-andy",
+        "chr-lucia"
+      ],
+      "spoilerLevel": 3,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-peach-join-the-cellerica-initiation-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-read-the-label-retrieve-the-cellerica-van-walkthrough/",
+        "https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/"
+      ]
+    },
+    {
+      "isProtagonist": false,
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "insight": "",
+      "id": "chr-frankie-delight",
+      "name": "Frankie Delight",
+      "role": "Proprietario del Delights",
+      "tagline": "Paga lui, a modo suo.",
+      "bio": "Il proprietario del Delights, lo strip club di Port Gellhorn dove lavora Vicki. Lo conosci quando accompagni Vicki a ritirare la paga; più avanti è lei a proporti di prendere di mira proprio lui.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-girls-trip",
+      "relations": [
+        "chr-vicki"
+      ],
+      "spoilerLevel": 2,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/"
+      ]
+    },
+    {
+      "isProtagonist": false,
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "insight": "",
+      "id": "chr-manuel",
+      "name": "Manuel",
+      "role": "Giro delle corse clandestine",
+      "tagline": "Ti aggiunge al gruppo, poi pensa Yago al resto.",
+      "bio": "Un contatto di Dre'Quan legato alle corse clandestine di Vice City. Nel capitolo 3 scrive a Jason e lo aggiunge a una chat di gruppo per una gara a Salton, dove conosci Yago; lo rivedi più avanti nella serie di Yago.",
+      "districtId": "dis-vice-city",
+      "firstMissionId": "mis-join-a-street-race",
+      "relations": [
+        "chr-yago",
+        "chr-drequan"
+      ],
+      "spoilerLevel": 3,
+      "sourceUrl": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-brother-to-brother-back-up-yago-walkthrough/"
       ]
     }
   ],

@@ -20,14 +20,14 @@
       "id": "brd-the-album",
       "name": "Grand Theft Auto VI: The Album",
       "category": "Colonna sonora",
-      "description": "34 brani originali scritti per il gioco, pubblicati con Atlantic Records: esce il 19 novembre insieme a GTA VI, in digitale, vinile e CD. Lo aprono i Justice con Michael McDonald; dentro ci sono Travis Scott, Playboi Carti, Dua Lipa, Lana Del Rey, Jennie, Cardi B, Burna Boy, Morgan Wallen, Rauw Alejandro e Keith Richards. Diversi brani passano anche alla radio, soprattutto su VCRR.",
+      "description": "34 brani originali scritti per il gioco, pubblicati con Atlantic Records: è uscito il 19 novembre insieme a GTA VI, in digitale, vinile e CD. Lo aprono i Justice con Michael McDonald; dentro ci sono Travis Scott, Playboi Carti, Dua Lipa, Lana Del Rey, Jennie, Cardi B, Burna Boy, Morgan Wallen, Rauw Alejandro e Keith Richards. Molti brani passano anche alla radio: soprattutto su VCRR, ma anche su Cocoteo FM, Leonida Jazz Radio e, secondo alcune guide, Back Country Radio, Stockyard FM e Gloriana Blues Radio.",
       "image": "assets/img/the-album.jpg",
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.rockstargames.com/VI/music",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "extras": [
         {
           "source": "stampa",
@@ -36,7 +36,9 @@
       ],
       "relatedIds": [
         "new-20261114-the-album-scaletta-34-brani",
-        "rad-vcrr"
+        "rad-vcrr",
+        "rad-cocoteo",
+        "rad-leonida-jazz"
       ],
       "moreSources": [
         "https://manofmany.com/entertainment/gaming/gta-6-soundtrack-radio-stations-score",
@@ -177,7 +179,7 @@
       "updatedAt": "2026-11-19",
       "name": "San4San",
       "category": "Gang",
-      "description": "La gang di Raymond ed Ernesto, con una casa dello spaccio e un laboratorio. Si riconosce dalla catena «S4S» che un membro porta al collo e dal graffito «SAN 4 SAN» sui muri, che si vede durante un intervento della polizia. La bandana blu ricorda gli Haitians del primo Vice City: per questo si pensa a una gang haitiana.",
+      "description": "Una delle gang più radicate di Vice City, attiva da decenni, con base a La Perle: è dentro la vita del quartiere, nella scena musicale e nello spaccio. È la gang di Raymond ed Ernesto; le sue cinque operazioni da rapinare sono tutte nel nord di Vice City. Si riconosce dalla catena «S4S» e dal graffito «SAN 4 SAN» sui muri.",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5",
       "extras": [
@@ -185,6 +187,9 @@
           "source": "community",
           "text": "Detti anche S4S. La loro catena si vede anche a un raduno d'auto, e sono loro ad aprire l'Extended Look."
         }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ]
     },
     {
@@ -581,7 +586,7 @@
       "updatedAt": "2026-11-19",
       "name": "Final Chapter MC",
       "category": "Gang",
-      "description": "Il club motociclistico di Ambrosia, vestito di nero e armato di revolver Mustang .357: sono i biker che inseguono Jason dal Thirsty Wolf. Le toppe sui gilet indicano che il club è nato nel 1982; un membro barbuto con il cappellino Liberty City Cycles porta la toppa di grado «Enforcer». L'emblema è un teschio incappucciato sopra un libro aperto con le lettere M e C e mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.",
+      "description": "Il club motociclistico di Ambrosia, vestito di nero e armato di revolver Mustang .357: sono i biker che inseguono Jason dal Thirsty Wolf. Le toppe sui gilet indicano che il club è nato nel 1982; un membro barbuto con il cappellino Liberty City Cycles porta la toppa di grado «Enforcer». L'emblema è un teschio incappucciato sopra un libro aperto con le lettere M e C e mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.\n\nNella scheda di gioco: in pubblico è un club patriottico e per famiglie che organizza beneficenza per i veterani; dietro le porte spaccia metanfetamina, fa estorsioni e racket. Le sue quattro operazioni da rapinare sono quasi tutte intorno ad Ambrosia.",
       "sourceUrl": "https://gta.wiki/w/Final_Chapter_MC",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/12/Final_Chapter_MC_promo_4.png/revision/latest?cb=20261030064921",
       "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki",
@@ -590,6 +595,9 @@
           "source": "community",
           "text": "Colori e toppe ricordano i Bandidos MC, la presenza nella contea i Warlocks MC. Guidano moto LCC Avarus e Western Sovereign."
         }
+      ],
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ]
     },
     {
@@ -602,10 +610,13 @@
       "updatedAt": "2026-11-19",
       "name": "PTT Youngin$",
       "category": "Gang",
-      "description": "Gang di Southside. Il loro negozio di merce illegale, con una missione esclusiva, arriva con l'Ultimate Edition.",
+      "description": "La nuova generazione di gangster di Vice City, con base a Southside: famosi per i video virali quanto per la strada, giovani e imprevedibili. Hanno due operazioni da rapinare nella parte centro-ovest della città; una terza, il loro negozio di merce illegale, arriva con l'Ultimate Edition e non conta per il 100%.",
       "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/PTT-Youngins-Illegal-Goods-Store.jpg/revision/latest?cb=20261103133127",
-      "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza"
+      "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza",
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
+      ]
     },
     {
       "id": "brd-forze-ordine",
@@ -2495,42 +2506,48 @@
       "id": "brd-kingfishers",
       "name": "Kingfishers",
       "category": "Gang",
-      "description": "Gang delle paludi e delle Keys, nella contea di Mariana: traffica cocaina e animali esotici. Ha tre operazioni da rapinare: le Fishing Shacks di Wetman Bay, il Sunrise RV Park di Alligator Creek e il Manatee Motel.",
+      "description": "Gang delle paludi e delle Keys, nella contea di Mariana: traffica cocaina e animali esotici. Ha tre operazioni da rapinare: le Fishing Shacks di Wetman Bay, il Sunrise RV Park di Alligator Creek e il Manatee Motel.\n\nNella scheda di gioco: nati e cresciuti nelle Grassrivers, ne escono di rado; conoscono le paludi meglio di chiunque e le usano per portare droga e contrabbando dalla costa al sud di Leonida.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
+      ]
     },
     {
       "id": "brd-kolts-associates",
       "name": "Kolts & Associates",
       "category": "Gang",
-      "description": "L'organizzazione che spaccia pillole e farmaci da prescrizione a Port Gellhorn. Le sue cinque operazioni da rapinare sono tutte in città: Kingpin Bowling, June Warehouse, La Cascara Motel, Brooks Boatworks e un quinto covo.",
+      "description": "L'organizzazione che spaccia pillole e farmaci da prescrizione a Port Gellhorn. Le sue cinque operazioni da rapinare sono tutte in città: Kingpin Bowling, June Warehouse, La Cascara Motel, Brooks Boatworks e un quinto covo.\n\nNella scheda di gioco: clan di balordi di Port Gellhorn che controlla quasi tutto il traffico di antidolorifici lungo la costa del Golfo.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
+      ]
     },
     {
       "id": "brd-m7",
-      "name": "M7 (Marabunta Grande)",
+      "name": "M7",
       "category": "Gang",
-      "description": "La gang salvadoregna già vista in GTA V, riconoscibile dai tatuaggi M7. A Leonida ha due operazioni da rapinare: il complesso sulla costa a sud di Vice City e un covo sulla costa est della contea di Lummox.",
+      "description": "Gang salvadoregna con base a Hamlet, riconoscibile dai tatuaggi che coprono la faccia e dai titoli di Weazel News: violenza estrema, estorsioni e spaccio di metanfetamina. Ha due operazioni da rapinare: il complesso sulla costa a sud di Vice City e un covo all'estremo nord, vicino alla montagna. In GTA V la gang salvadoregna era la Marabunta Grande: il legame non è confermato.",
       "image": "assets/img/mondo/brd-m7.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
-        "https://gta.wiki/w/Marabunta_Grande"
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ],
       "imageUrl": "https://gta.wiki/images/OfficialScreenshots-GTAVI-EdgeMagazine04.jpg",
       "imageCredit": "GTA Wiki (gta.wiki), screenshot ufficiale Rockstar da Edge (membri M7)"
@@ -2539,29 +2556,33 @@
       "id": "brd-la-polilla-negra",
       "name": "La Polilla Negra",
       "category": "Gang",
-      "description": "Banda che importa cocaina dal mare. Delle sue due operazioni se ne conosce una: il Palmer Fishing Warehouse, magazzino di pesce sulla costa della contea di Mariana.",
+      "description": "Il più grande e pericoloso cartello colombiano, fatto di ex paramilitari: Leonida è una delle sue porte d'ingresso negli Stati Uniti e la cocaina arriva dal mare. Ha due operazioni da rapinare, entrambe a nord-ovest delle Grassrivers: una è il Palmer Fishing Warehouse, magazzino di pesce sulla costa della contea di Mariana.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
+      ]
     },
     {
       "id": "brd-guardia-brothers",
       "name": "Guardia Brothers",
       "category": "Gang",
-      "description": "Gang di Little Cuba, a Vice City. Ha tre operazioni da rapinare: Casa Guardia, vecchio edificio simbolo del quartiere, un cantiere nautico sul fiume e un deposito di spedizioni usati per la droga.",
+      "description": "Gang di Little Cuba, a Vice City. Ha tre operazioni da rapinare: Casa Guardia, vecchio edificio simbolo del quartiere, un cantiere nautico sul fiume e un deposito di spedizioni usati per la droga.\n\nNella scheda di gioco: fratellanza di mafiosi cubani da più generazioni, con le mani in tutto (droga, rapine, dirottamenti, estorsioni, sequestri, omicidi e politica) e sempre in mostra per le strade di Little Cuba.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "moreSources": [
-        "https://gta.wiki/w/Guardia_Brothers"
+        "https://gta.wiki/w/Guardia_Brothers",
+        "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ]
     },
     {
@@ -2874,16 +2895,21 @@
     },
     {
       "id": "brd-whs",
-      "name": "WHS",
+      "name": "WHS (We Have Shoes)",
       "category": "Moda",
-      "description": "Catena di scarpe: Little Cuba, due negozi a Downtown, Ocean Beach e Port Gellhorn.",
-      "image": null,
+      "description": "Catena di scarpe con cinque negozi: Little Cuba, due a Downtown, uno a Vice Beach e uno a Port Gellhorn. Il cartellone di Port Gellhorn, già nel primo trailer, mostra i marchi che vende, come Rearwall, Hinterland e Lobon Sportswear.",
+      "image": "assets/img/mondo/brd-whs.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-footwear-stores-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-19",
+      "moreSources": [
+        "https://gta.wiki/w/We_Have_Shoes"
+      ],
+      "imageUrl": "https://gta.wiki/images/WeHaveShoes-GTAVI-BillboardTrailer1.PNG?b8461",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
     },
     {
       "id": "brd-callus",
@@ -2949,6 +2975,327 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brd-altri-criminali",
+      "name": "Altri criminali (Other Criminals)",
+      "category": "Gang",
+      "description": "La nona voce delle bande nel menu Progressi: non è una gang ma i piccoli criminali sparsi per tutta Leonida. Hanno 13 operazioni da rapinare, dai finti negozi che coprono traffici (sigari, animali esotici, erba, metanfetamina) ai magazzini di auto rubate e armi.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null,
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/"
+      ]
+    },
+    {
+      "id": "brd-kaufman-cabs",
+      "name": "Kaufman Cabs",
+      "category": "Servizi",
+      "description": "Compagnia di taxi di Leonida: nome e logo vengono dalla Kaufman Cabs di Vice City degli anni Ottanta. Secondo GTA Wiki è uno dei taxi che puoi chiamare per farti venire a prendere; dal telefono il contatto indicato dalle guide è Paradise Taxi.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Kaufman_Cabs",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "brd-mailo",
+      "name": "Mailó",
+      "category": "Bevande",
+      "description": "Birra cubana in bottiglia verde, con la bandiera di Cuba sull'etichetta e una palma dentro una stella rossa. I cartoni sono nei minimarket e nei negozi di liquori. «Mailó» nello slang cubano vuol dire rilassato.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Mail%C3%B3",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-mailo.png",
+      "imageUrl": "https://gta.wiki/images/CervezaMailo-GTAVI.png?f52c6",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-lavazas",
+      "name": "Lavazas",
+      "category": "Bevande",
+      "description": "Birra messicana: le casse sono sugli scaffali dell'Uncle Jack's Liquor, un cartellone a Vice City dice «Fun has no borders» e due bottiglie aperte stanno sul tavolino della casa sulle palafitte di Jason.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Lavazas",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-lavazas.png",
+      "imageUrl": "https://gta.wiki/images/thumb/Lavazas-GTAVI-Trailer1.png/600px-Lavazas-GTAVI-Trailer1.png?d2371",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-pindayho",
+      "name": "Pindayho Cerveza",
+      "category": "Bevande",
+      "description": "Birra messicana: è quella con cui Jason e Lucia brindano nel secondo trailer. Il poster è sulla porta dell'Uncle Jack's Liquor; gagliardetto e insegna a forma di tappo sono al Rusty Anchor.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Pindayho_Cerveza",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-pindayho.png",
+      "imageUrl": "https://gta.wiki/images/thumb/PindayhoCerveza-GTAVI-Trailer1.png/600px-PindayhoCerveza-GTAVI-Trailer1.png?e578a",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-salty-squid",
+      "name": "Salty Squid",
+      "category": "Bevande",
+      "description": "Rum caraibico: la pubblicità è dietro il bancone dell'Uncle Jack's Liquor di Port Gellhorn, con le bottiglie sugli scaffali.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Salty_Squid",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-salty-squid.png",
+      "imageUrl": "https://gta.wiki/images/SaltySquid-GTAVI-AnExtendedLook-Poster.png?ed633",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-resaca-extra",
+      "name": "Resaca Extra",
+      "category": "Bevande",
+      "description": "Alcolico messicano: l'adesivo sul controllo dei documenti è sulla porta dell'Uncle Jack's Liquor, le bottiglie nei frigoriferi del Rusty Anchor.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Resaca_Extra",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-resaca-extra.png",
+      "imageUrl": "https://gta.wiki/images/ResacaExtra-GTAVI-Trailer1.png?2d93b",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-thaw",
+      "name": "Thaw",
+      "category": "Bevande",
+      "description": "Bibita in lattina rosa, a 2,50 $ sulla porta dell'Uncle Jack's Liquor. È la lattina che una ragazza tiene in mano sulla copertina del gioco.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Thaw",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-thaw.jpg",
+      "imageUrl": "https://gta.wiki/images/Thaw-GTAVI-Infobox-CoverArt.jpg?dfea8",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-raptorade",
+      "name": "Raptorade",
+      "category": "Bevande",
+      "description": "Bevanda per sportivi: è sul frigorifero di un minimarket Xero e sulla livrea di due auto da corsa al Gellhorn International Raceway.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Raptorade",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "brd-chateau-de-buff",
+      "name": "Chateau de Buff",
+      "category": "Bevande",
+      "description": "Champagne francese con espositori e manifesti nei negozi di liquori di Leonida; il nome riprende un vino della Vice City anni Ottanta.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Chateau_de_Buff",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "brd-vice-city-inquirer",
+      "name": "The Vice City Inquirer",
+      "category": "Azienda",
+      "description": "Il giornale scandalistico di Vice City, sugli scaffali dei minimarket. Titoli come «Venduto al cartello da mia nonna» o «Come il mio cane è diventato il capo di una setta». Era già il giornale-manuale di Vice City Stories.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Vice_City_Inquirer_(HD_Universe)",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-vice-city-inquirer.png",
+      "imageUrl": "https://gta.wiki/images/thumb/TheViceCityInquirer-GTAVI-Newspapers.png/600px-TheViceCityInquirer-GTAVI-Newspapers.png?34c31",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-obeseco",
+      "name": "Obeseco",
+      "category": "Azienda",
+      "description": "Azienda di merendine (tra cui i biscotti Black Holes) con una flotta di camion col suo marchio; il nome prende in giro l'obesità.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Obeseco",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "brd-tiny-frank",
+      "name": "Tiny Frank",
+      "category": "Azienda",
+      "description": "Dolci confezionati (biscotti, brownie, girelle) con espositori nei minimarket e furgoni per le consegne, visti anche ad Ambrosia.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Tiny_Frank",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-tiny-frank.jpg",
+      "imageUrl": "https://gta.wiki/images/thumb/TinyFrank-GTAVI-OfficialScreenshot-Ambrosia01.jpg/600px-TinyFrank-GTAVI-OfficialScreenshot-Ambrosia01.jpg?ac702",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-mastodon-usa",
+      "name": "Mastodon U.S.A",
+      "category": "Azienda",
+      "description": "Impresa edile con betoniere e camion ribaltabili; il suo impianto con i mezzi parcheggiati è a Crosstown.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Mastodon_U.S.A",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-mastodon-usa.png",
+      "imageUrl": "https://gta.wiki/images/thumb/MastodonUSA-GTAVI-AnExtendedLook.png/600px-MastodonUSA-GTAVI-AnExtendedLook.png?99634",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-sol-sisters",
+      "name": "Sol Sisters",
+      "category": "Azienda",
+      "description": "Società di gestione di spiagge e alberghi: il suo marchio è sugli ombrelloni di Vice Beach.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Sol_Sisters",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-sol-sisters.png",
+      "imageUrl": "https://gta.wiki/images/SolSisters-GTAVI-Trailer1Logo.png?c4e0e",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-lure-reel",
+      "name": "Lure & Reel",
+      "category": "Azienda",
+      "description": "Marca di attrezzatura da pesca: le sue canne sono in vendita all'Uncle Jack's Liquor e il logo è sulla felpa di Cal in uno screenshot ufficiale.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Lure_%26_Reel",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-lure-reel.png",
+      "imageUrl": "https://gta.wiki/images/Lure%26Reel-GTAVI-OfficialScreenshot-CalHampton04.png?7c6a0",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-airgator",
+      "name": "Airgator Airboats",
+      "category": "Azienda",
+      "description": "Produttore di airboat, le barche a ventola delle paludi: il logo con l'alligatore è sulle pinne posteriori delle barche da caccia nelle Grassrivers.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Airgator_Airboats",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-airgator.png",
+      "imageUrl": "https://gta.wiki/images/AirgatorAirboats-GTAVI-LaunchTrailer.png?3779f",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-scoop",
+      "name": "Scoop",
+      "category": "Logistica",
+      "description": "Corriere con furgoni marroni e lo slogan «Experts in commerce conveyance».",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Scoop",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-scoop.png",
+      "imageUrl": "https://gta.wiki/images/Scoop-GTAVI-AnExtendedLook.png?d2402",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-usnms",
+      "name": "U.S. National Mail Service",
+      "category": "Logistica",
+      "description": "Le poste di Leonida: furgoni sulle strade di Vice City e cassette postali blu.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/U.S._National_Mail_Service",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-usnms.png",
+      "imageUrl": "https://gta.wiki/images/USNMSPostbox-GTAVI-OfficialScreenshots-EdgeMagazine07.png?ea633",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-leonida-city-tours",
+      "name": "Leonida City Tours",
+      "category": "Trasporti",
+      "description": "Compagnia di giri turistici con gli autobus decorati con un fenicottero.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Leonida_City_Tours",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-leonida-city-tours.png",
+      "imageUrl": "https://gta.wiki/images/thumb/Buster-GTAVI-AnExtendedLook-Tour.png/600px-Buster-GTAVI-AnExtendedLook-Tour.png?fd5d4",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
+    },
+    {
+      "id": "brd-stockyard-art-tours",
+      "name": "Stockyard Art Tours",
+      "category": "Trasporti",
+      "description": "Tour in furgone tra i murales di Stockyard, con una livrea tutta sua.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Stockyard_Art_Tours",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": null
+    },
+    {
+      "id": "brd-easy-going-coaches",
+      "name": "Easy Going Coaches",
+      "category": "Trasporti",
+      "description": "Compagnia di pullman con la sua livrea.",
+      "status": "da verificare",
+      "source": "community",
+      "sourceUrl": "https://gta.wiki/w/Easy_Going_Coaches",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "image": "assets/img/mondo/brd-easy-going-coaches.png",
+      "imageUrl": "https://gta.wiki/images/EasyGoingCoaches-GTAVI-AnExtendedLook-Logo.png?718e8",
+      "imageCredit": "GTA Wiki (gta.wiki), CC BY-SA"
     }
   ]
 }
