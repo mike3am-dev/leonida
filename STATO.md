@@ -38,18 +38,20 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 **Funzioni nuove (chieste da Mike)**
 4. **Confronto anche per le auto**, come quello delle armi (STATO 4q: pulsante «Confronta» visibile ovunque, ricerca, fino a 3 insieme, pochi tocchi). Da fare appena i veicoli hanno abbastanza dati: oggi 133 su 339 hanno le 5 barre (`speed, accel, handling, offroad, strength`) e 41 il prezzo (registrazione + vendita). Confrontare solo veicoli della stessa famiglia (auto con auto, moto con moto); barche e aerei quando arrivano le loro barre. Insieme: «Ordina per» in Garage e Armi (FABLE.md, «Altre idee»).
-5. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
+5. **Un «social» dentro l'app** (Mike, 19/11 sera): uno spazio dove la banda si scrive e condivide, oltre a classifica e Scatti. Mike manda uno screenshot di Lollo come esempio: aspettarlo prima di progettare. Si appoggia a Supabase come banda e scatti (funzioni RPC, tabelle chiuse da RLS); attenzione agli spoiler (stesso scudo degli Scatti) e a chi può cancellare cosa.
+6. **Bug grafici sugli iPhone «normali»** (non il Duo di Mike, che si apre a 703×1000): li segnala Mike con gli screenshot. Prima di ogni rilascio provare anche a 390×844 e 375×667, oltre a 430×932.
+7. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
 
 **Contenuti da riempire (giro di caccia ogni 12 ore, solo col sì di Mike; dettagli e fonti in `scripts/caccia/README.md`, «Cosa manca alla fine del giro del 19/11 pomeriggio»)**
-6. Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
-7. Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
-8. Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
-9. Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
-10. Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
+8. Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
+9. Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
+10. Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
+11. Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
+12. Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
 
 **Tecnico**
-11. Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
-12. Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
+13. Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
+14. Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
 
 ## 4b. Cosa è cambiato nella v0.16.0
 - Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
