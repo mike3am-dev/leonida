@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 19 novembre 2026 sera, versione live **v1.0.1**. Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nelle sezioni 4, 4o-4z, 5-5c.
+Aggiornato il 19 novembre 2026 sera, versione live **v1.1.0**. Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nelle sezioni 4, 4o-4z, 5-5d.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -39,7 +39,7 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 ### Versione 1.1 (funzioni nuove)
 5. **«Thread»: un social dentro l'app** (idea di Lollo, screenshot di Threads del 19/11). Ognuno scrive impressioni e commenti, mette «mi piace», risponde; un flusso unico con il più recente in alto, come Threads. Per ora **solo testo**. Le foto ci sono già negli Scatti: se un giorno servono anche nei thread, si riusa lo stesso bucket. Peso su Supabase (piano gratuito: 500 MB di database e 1 GB di file): un messaggio di testo pesa circa 1 KB, cioè centinaia di migliaia di messaggi; una foto rimpicciolita circa 300 KB, cioè circa 3.000 foto. Il limite vero sono le foto, non il testo. Stesse regole di banda e Scatti: tabelle chiuse da RLS, funzioni RPC, scudo spoiler (capitolo nel post, sfocato per chi è più indietro), l'autore cancella il suo e l'admin tutto (voce 5).
-6. **Riordinare i pulsanti della barra** (proposta di Lollo, voce «snellire le icone» di Mike). Sul Duo aperto resta la fila completa a sinistra, che a Mike piace. Sugli iPhone (Pro e Pro Max) solo **4 voci fisse in basso: Home, Game, Social, News**. «Game» apre una pagina di tasselloni grandi con tutte le sezioni del gioco (Missioni, Come si gioca, Mappa, Personaggi, Armi, Garage, Collezionabili, Trofei, Radio, Mondo…). Da chiarire con Mike: cosa vuol dire «ogni utente ne sceglie una» (forse un tassello preferito messo in evidenza o fissato in barra?); dove finiscono La banda, gli Appunti e le Impostazioni (probabilmente Social = Thread + La banda + Scatti). Prima di pubblicare, provarla con Mike e Lollo.
+6. ~~Fatto con la 1.1.0 (STATO 5d).~~ **Riordinare i pulsanti della barra** (proposta di Lollo, voce «snellire le icone» di Mike). Sul Duo aperto resta la fila completa a sinistra, che a Mike piace. Sugli iPhone (Pro e Pro Max) solo **4 voci fisse in basso: Home, Game, Social, News**. «Game» apre una pagina di tasselloni grandi con tutte le sezioni del gioco (Missioni, Come si gioca, Mappa, Personaggi, Armi, Garage, Collezionabili, Trofei, Radio, Mondo…). Da chiarire con Mike: cosa vuol dire «ogni utente ne sceglie una» (forse un tassello preferito messo in evidenza o fissato in barra?); dove finiscono La banda, gli Appunti e le Impostazioni (probabilmente Social = Thread + La banda + Scatti). Prima di pubblicare, provarla con Mike e Lollo.
 7. **Confronto anche per le auto**, come quello delle armi (STATO 4q: pulsante «Confronta» visibile ovunque, ricerca, fino a 3 insieme, pochi tocchi). Da fare appena i veicoli hanno abbastanza dati: oggi 133 su 339 hanno le 5 barre (`speed, accel, handling, offroad, strength`) e 41 il prezzo (registrazione + vendita). Confrontare solo veicoli della stessa famiglia (auto con auto, moto con moto); barche e aerei quando arrivano le loro barre. Insieme: «Ordina per» in Garage e Armi (FABLE.md, «Altre idee»).
 
 ### Più avanti
@@ -50,12 +50,12 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 10. **Decisione sulle mappe IGN e MapGenie**: le coordinate di tutti i punti stanno nei loro servizi interni (GraphQL). Non vanno interrogati senza il suo sì. Con il sì: `xy` per i ~390 POI che non le hanno, nomi di palestre e club, stazioni doppie.
 11. **Conferme dal gioco** (diventano `verificato` con source `gioco-mike`): conti in banca separati (solo il Risparmio Familiare in comune); RydeMe dal capitolo 1 o 2; motoscafo Squalo solo nel capitolo 4; Arnold risparmiato vale 10.000 $?; chi riceve la caccia a Mr. Mangrove; nome «Radio La Ola».
 
-**Contenuti da riempire (giro di caccia ogni 12 ore, solo col sì di Mike; dettagli e fonti in `scripts/caccia/README.md`, «Cosa manca alla fine del giro del 19/11 pomeriggio»)**
-- Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
-- Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
-- Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
+**Contenuti da riempire (giro di caccia ogni 12 ore, solo col sì di Mike; dettagli e fonti in `scripts/caccia/README.md`, «Cosa manca alla fine del giro del 19/11 sera»)**
+- Missioni: soluzioni del capitolo 5; seconda fonte per i capitoli 3-4; titoli italiani (27 su 168).
+- Trofei: metodo di Sfortuna forse e Strike!; 41 sequenze dei trucchi.
+- Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto. Garage: 15 in guida contro 12 dichiarati, ricontare.
 - Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
-- Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
+- Personaggi: 35 ritratti, schede dei capitoli 4-5 (il cast è completo dai titoli di coda). Radio: 13 loghi, 3 stazioni senza scaletta.
 
 **Tecnico**
 - Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
@@ -265,8 +265,8 @@ Passata da tre anteprime (`1.0.1-a`, `-b`, `-c`); Mike ha detto «pubblica la 1.
 - **Scatti**: `scatto_cancella` (autore o admin, cancella anche il file), `scatto_modifica`, `commento_cancella`, admin con codice (`scripts/supabase/admin-codice.sql` + `scatti-admin.sql`, da lanciare da Mike). Il primo codice scelto da Mike è finito in uno screenshot in chat: deve sceglierne un altro.
 - **Screenshot per Mike**: sempre Duo aperto (703×1000) e iPhone Pro Max (440×956), con `scratchpad/rc/vedi.cjs` (da portare in `scripts/`).
 
-## 5d. Versione 1.1 in anteprima: barra a quattro voci (dal 19/11 sera) — NON online
-Sul ramo di lavoro, anteprima `1.1-a`. Solo per i telefoni (`html[data-posture="closed"]`): sul Duo aperto la fila a sinistra non cambia.
+## 5d. Versione 1.1.0: barra a quattro voci (online dal 19/11 sera, con l'OK di Mike)
+Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai dati del giro di caccia della sera (capitolo 4, cast, radio, carte, pesci, garage, 21 luoghi della mappa ufficiale, nomi dei veicoli). Monogrammi: le iniziali saltano i soprannomi tra «» («Francisco «Cisco» Delgado» → FD). Grafico di completezza: `--ieri` confronta con l'ultima riga del giorno prima (74,2% contro 46,7%). Solo per i telefoni (`html[data-posture="closed"]`): sul Duo aperto la fila a sinistra non cambia.
 - Barra: Home · Game · Social · News (`navHtml` in app.js). Game = tutte le sezioni di gioco (`game.isGamePath`), Social = La banda con gli Scatti (poi i Thread), News = News.
 - Pagina `#/game` (`docs/js/views/game.js`): un tassello per sezione con un numero vivo, tutti uguali (il «Riprendi da» è stato tolto su richiesta di Mike); in fondo Trucchi e Cerca. La pagina «Altro» resta raggiungibile ma non è più nella barra.
 - Dentro una sezione di gioco, sui telefoni, in alto a sinistra al posto di «GTA VI» c'è il pulsante «‹ Game» (`gameBack` in app.js) che riporta SEMPRE ai tasselli; le schede che scivolano da destra partono sotto la barra in alto, così il pulsante resta toccabile. Sui telefoni lo scorrimento col dito NON torna più indietro tra le pagine (Mike: «si comporta in modo strano»); chiude solo i fogli. Sul Duo tutto come prima.
