@@ -1,0 +1,43 @@
+/**
+ * «Game»: sugli iPhone la barra in basso ha quattro voci fisse (Home, Game, Social, News).
+ * Game apre questa pagina: un tassello grande per ogni sezione del gioco, con un numero vivo.
+ * Dentro ogni sezione, in alto a sinistra, il pulsante «‹ Game» riporta qui (app.js, `gameBack`). Sul Duo aperto resta la fila a sinistra.
+ * (Proposta di Lollo, 19/11; in anteprima dalla 1.1.)
+ */
+import { db } from '../data.js';
+import * as progress from '../store/progress.js';
+import { esc } from '../ui/dom.js';
+import { SECTIONS, stats, vis, isMet } from './shared.js';
+
+/** Le sezioni che stanno dentro «Game» (tutto tranne Home, La banda e News) */
+export const GAME_IDS = ['missioni', 'meccaniche', 'mappa', 'personaggi', 'armi', 'garage', 'collezionabili', 'trofei', 'radio', 'mondo', 'diario'];
+export const isGamePath = (p) => p === '/game' || p === '/trucchi' || p === '/altro' || SECTIONS.some((s) => GAME_IDS.includes(s.id) && (p === s.path || p.startsWith(s.path + '/')));
+function numbers() {
+  const st = progress.get(), s = stats();
+  const chars = vis(db.characters || []);
+  return {
+    missioni: `${s.missions.done} / ${s.missions.total} fatte`,
+    meccaniche: `${vis(db.meccaniche || []).length} schede`,
+    mappa: `${vis(db.districts || []).filter((d) => d.id !== 'dis-da-collocare').length} regioni`,
+    personaggi: `${chars.filter(isMet).length} / ${chars.length} incontrati`,
+    armi: `${vis(db.weapons || []).filter((w) => st.owned?.[w.id]).length} / ${vis(db.weapons || []).length} nello zaino`,
+    garage: `${vis(db.vehicles || []).filter((v) => st.owned?.[v.id]).length} / ${vis(db.vehicles || []).length} nel garage`,
+    collezionabili: `${s.collectibles.done} / ${s.collectibles.total} trovati`,
+    trofei: `${vis(db.trophies || []).filter((t) => st.trophies?.[t.id]).length} / ${vis(db.trophies || []).length}`,
+    radio: `${vis(db.radio || []).length} stazioni`,
+    mondo: `${vis(db.brands || []).length} voci`,
+    diario: (st.notes || []).length ? `${st.notes.length} appunti` : 'Il taccuino da gioco',
+  };
+}
+
+export function render() {
+  const n = numbers();
+  const secs = GAME_IDS.map((id) => SECTIONS.find((s) => s.id === id)).filter(Boolean);
+  const tile = (s) => `<a class="gtile" href="#${s.path}" style="--h:${s.hue}">
+      <span class="gtile__icon" aria-hidden="true"><svg><use href="#n-${s.id}"/></svg></span>
+      <span class="gtile__text"><span class="gtile__name">${esc(s.title)}</span><span class="gtile__num">${esc(n[s.id] || s.tagline || '')}</span></span></a>`;
+  const left = `<header class="ghead"><h1>Game</h1><p class="ghead__sub">Missioni, mappa, armi, trofei, segreti: Leonida è tutta qui. Scegli da dove cominciare.</p></header>
+    <div class="ggrid">${secs.map(tile).join('')}</div>
+    <div class="glinks"><a class="btn btn--ghost" href="#/trucchi">Trucchi</a><a class="btn btn--ghost" href="#/ricerca"><svg aria-hidden="true"><use href="#i-search"/></svg>Cerca nella guida</a></div>`;
+  return { left, right: '', show: 'left', accent: 'teal', title: 'Game' };
+}
