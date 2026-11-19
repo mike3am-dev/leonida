@@ -2345,3 +2345,20 @@ html[data-posture="closed"] .tabbar .tab--four span:last-child { font-family: va
 html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] { background: color-mix(in srgb, var(--magenta) 20%, transparent); color: var(--magenta); }
 html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] svg { color: var(--magenta); }
 html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] span:last-child { color: var(--magenta); font-weight: 800; }
+
+/* Difetti grafici sugli iPhone (controllo del 19/11 su 393 e 440 px; il Duo aperto non cambia) */
+@media (max-width: 599px) {
+  /* Titoli grandi delle sezioni: il contatore va sotto, così la parola non viene tagliata */
+  .section-head--band { flex-wrap: wrap; row-gap: var(--s-2); }
+  .section-head--band > div { flex: 1 1 calc(100% - 50px); }
+  .section-head--band h1 { font-size: clamp(1.7rem, 8.4vw, 2.2rem); overflow-wrap: normal; }
+  .section-head--band .count:not(:empty) { margin-left: calc(34px + var(--s-4)); flex: none; }
+  .section-head--band .count:empty { display: none; }
+  /* Schede «a colpo d'occhio»: l'etichetta va sopra il valore, che così ha tutta la larghezza */
+  .card--glance .facts, .facts:not(.facts--row) { grid-template-columns: 1fr; }
+  .card--glance .facts dt, .facts:not(.facts--row) dt { border-bottom: 0; padding-bottom: 0; }
+}
+/* Indirizzi web e parole lunghissime vanno a capo invece di uscire dal bordo */
+.prose li, .prose p, .facts dd { overflow-wrap: anywhere; }
+.switch-row--select .select { width: auto; max-width: 48vw; }
+@media (max-width: 599px) { .switch-row--select { grid-template-columns: 1fr; } .switch-row--select .select { width: 100%; max-width: none; } }

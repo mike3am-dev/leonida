@@ -27,8 +27,8 @@ export function render() {
     <div class="block"><span class="kicker">Spoiler</span>
       ${sw('spoilerShield', 'Scudo spoiler', 'Nasconde le missioni che non hai ancora iniziato e sfoca i contenuti oltre il punto della storia in cui sei. Si rivelano con un tocco.')}
       ${sw('virginMode', 'Modalità vergine', 'Per chi non ha visto i trailer: nasconde anche i personaggi che non hai ancora incontrato, le teorie e gli estratti della ricerca.')}
-      <div class="switch-row"><div><div>Atto raggiunto</div><p>Per impostazione predefinita segue le missioni che segni. Oggi: atto ${currentAct()}.</p></div>
-        <select class="select" style="width:auto" data-manual-act aria-label="Atto raggiunto">
+      <div class="switch-row switch-row--select"><div><div>Capitolo raggiunto</div><p>Di solito segue le missioni che segni. Oggi: ${currentAct() === 0 ? 'Prologo' : `capitolo ${currentAct()}`}.</p></div>
+        <select class="select" data-manual-act aria-label="Capitolo raggiunto">
           <option value="" ${s.manualAct === null ? 'selected' : ''}>Automatico</option>
           ${db.acts.map((a) => `<option value="${a.number}" ${s.manualAct === a.number ? 'selected' : ''}>${esc(a.title)}</option>`).join('')}
         </select></div>
