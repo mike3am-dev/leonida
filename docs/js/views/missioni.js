@@ -138,12 +138,27 @@ function recap(missions, st) {
     </section>`;
 }
 
+/** Trofei legati a questa missione (campo `trophyTips`: arriva da solo / attento a non perderlo / buona occasione).
+ *  Stanno in cima ai consigli, ben visibili; il trofeo già preso è spuntato. */
+const TRO_KIND = { arriva: 'Arriva da solo', attento: 'Da non perdere', occasione: 'Buona occasione' };
+function trophyTipsHtml(m, open) {
+  const st = progress.get();
+  const rows = (m.trophyTips || []).map((x) => ({ ...x, t: byId(x.trophyId) })).filter((x) => x.t);
+  if (!rows.length) return '';
+  return `<ul class="ttips">${rows.map((x) => { const got = !!st.trophies?.[x.t.id]; const secret = spoiler.isHidden(x.t) && !got;
+    return `<li class="ttip ttip--${esc(x.tipo)} ${got ? 'is-got' : ''}"><span class="ttip__cup" aria-hidden="true"><svg><use href="#i-${got ? 'check' : 'trophy'}"/></svg></span>
+      <span class="ttip__body"><span class="ttip__head"><a href="#/trofei">${esc(secret ? 'Un trofeo' : x.t.name)}</a><span class="ttip__kind">${esc(got ? 'Già preso' : TRO_KIND[x.tipo] || 'Trofeo')}</span></span>
+      <span class="ttip__text">${x.spoiler && !open ? spoiler.ink(esc(x.testo), { inline: true }) : esc(x.testo)}</span></span></li>`; }).join('')}</ul>`;
+}
+
 /** Consigli della missione: quelli che anticipano la trama iniziano con «[spoiler] » nei dati e restano sotto l'inchiostro */
 function tipsHtml(m) {
   const tips = (m.tips || []).filter((t) => typeof t === 'string' && t.trim());
-  if (!tips.length) return '';
-  return `<div class="notebook__part notebook__tips"><span class="kicker">Consigli prima di partire</span><ul>${tips.map((t) => (t.startsWith('[spoiler]')
-    ? `<li class="is-spoiler">${spoiler.ink(esc(t.replace(/^\[spoiler\]\s*/, '')), { inline: true })}</li>` : `<li>${esc(t)}</li>`)).join('')}</ul>${tips.some((t) => t.startsWith('[spoiler]')) ? '<p class="small muted">I consigli coperti anticipano qualcosa della missione: toccali solo se vuoi saperlo prima.</p>' : ''}</div>`;
+  const open = progress.get().missions[m.id]?.state === 'completata';   // a missione compiuta non c'è più niente da nascondere
+  const tro = trophyTipsHtml(m, open);
+  if (!tips.length && !tro) return '';
+  return `<div class="notebook__part notebook__tips"><span class="kicker">${open ? 'Consigli' : 'Consigli prima di partire'}</span>${tro}${tips.length ? '<ul>' : ''}${tips.map((t) => (t.startsWith('[spoiler]') && !open
+    ? `<li class="is-spoiler">${spoiler.ink(esc(t.replace(/^\[spoiler\]\s*/, '')), { inline: true })}</li>` : `<li>${esc(t.replace(/^\[spoiler\]\s*/, ''))}</li>`)).join('')}${tips.length ? '</ul>' : ''}</div>`;
 }
 
 /* Platino: cose da fare PRIMA di questa missione (punto di non ritorno), senza spoiler */
@@ -238,7 +253,7 @@ function detail(m) {
     <p class="small muted"><button type="button" class="linkbtn" data-mission="${esc(m.id)}" data-set="">Non la sto giocando</button></p>` : state === 'completata' ? `<div class="actions"><button class="btn btn--ghost" type="button" data-action="note" data-mission-ctx="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>` : ''}
     ${m.rewards?.length ? `<div class="block"><span class="kicker">Ricompense</span><div class="prose">${list(m.rewards)}</div></div>` : ''}
     ${(() => { const a = db.acts.find((x) => x.id === m.actId); return a ? chapterMissables(a, st, progress.settings().spoilerShield, false, { title: a.number === 0 ? 'Da non perdere nel Prologo' : `Da non perdere nel capitolo ${a.number}`, skipMission: m.id }) : ''; })()}
-    ${m.secrets?.length ? `<div class="block"><span class="kicker">Segreti</span><div class="prose">${spoiler.ink(list(m.secrets))}</div></div>` : ''}
+    ${m.secrets?.length ? `<div class="block"><span class="kicker">Segreti</span><div class="prose">${state === 'completata' ? list(m.secrets) : spoiler.ink(list(m.secrets))}</div></div>` : ''}
     ${reqs.length || unlNames.length ? `<p class="small muted mission-links">${reqs.length ? `Dopo: ${reqs.map((p) => `<a href="#/missioni/${esc(p.id)}">${esc(spoiler.missionName(p, 'una missione precedente'))}</a>`).join(', ')}.` : ''} ${unlNames.length ? `Sblocca: ${unlNames.map(esc).join(', ')}.` : ''}</p>` : ''}
 `;
 }

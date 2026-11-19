@@ -2283,3 +2283,22 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .notebook__tips li.is-spoiler { list-style: none; margin-left: -1.15em; }
 /* I due pulsanti della copertina della Home sono grandi uguali */
 .home-hero__actions { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+
+/* Trofei legati alla missione, in cima ai consigli (v1.0.1) */
+.ttips { list-style: none !important; margin: var(--s-2) 0 var(--s-3) !important; padding: 0 !important; display: grid; gap: 8px; }
+.ttip { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: var(--s-3); align-items: start; padding: 10px var(--s-3); border-radius: 12px; background: color-mix(in srgb, #e2a93b 12%, transparent); border: 1px solid color-mix(in srgb, #e2a93b 45%, transparent); }
+.ttip__cup { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, #e2a93b 28%, transparent); color: #b9831b; }
+:root[data-theme="dark"] .ttip__cup { color: #f0c264; }
+.ttip__cup svg { width: 18px; height: 18px; }
+.ttip__body { min-width: 0; display: grid; gap: 3px; }
+.ttip__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.ttip__head a { font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.ttip__kind { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #b9831b; }
+:root[data-theme="dark"] .ttip__kind { color: #f0c264; }
+.ttip--attento { border-color: color-mix(in srgb, var(--orange) 70%, transparent); background: color-mix(in srgb, var(--orange) 12%, transparent); }
+.ttip--attento .ttip__kind { color: var(--orange); }
+.ttip__text { font-size: var(--fs-md); line-height: 1.45; color: var(--ink); }
+.ttip.is-got { background: transparent; border-color: var(--rule); }
+.ttip.is-got .ttip__cup { background: color-mix(in srgb, var(--teal) 18%, transparent); color: var(--teal); }
+.ttip.is-got .ttip__kind { color: var(--teal); }
+.ttip.is-got .ttip__text { color: var(--ink-3); }
