@@ -1,10 +1,27 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "1.0.1",
+  "dataVersion": "1.1.0",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2026-11-19",
+      "changes": [
+        "iPhone: in basso quattro tasti fissi, Home, Game, Social e News. Quello in cui sei è colorato di rosa. Sul Duo non cambia niente.",
+        "Game: una pagina a riquadri con tutte le sezioni del gioco (missioni, mappa, armi, garage, trofei, collezionabili…). Dentro ogni sezione, «‹ Game» in alto a sinistra ti riporta lì.",
+        "iPhone: lo scorrimento col dito non cambia più pagina; sparisce la barra «Riprendi da».",
+        "Missioni: il riquadro del capitolo è nuovo, con foto, percentuale, trattini delle missioni, facoltative e la prossima da fare. «Inizia la prossima» apre la missione dall'inizio.",
+        "Mappa: c'è anche la mappa ufficiale di Rockstar («Mappa ufficiale»). Ogni luogo dice in che riquadro della griglia si trova, per ritrovarlo sulla cartina.",
+        "Missioni: soluzioni del capitolo 4 e tre missioni facoltative nuove. Nel capitolo 1 un avviso: i bonus della Ultimate (Ganado Retro, Dinka Enduro, kayak) si usano solo lì.",
+        "Personaggi: cast completo dai titoli di coda ufficiali.",
+        "Radio: tutte le scalette conosciute (831 canzoni) e tutti i conduttori.",
+        "Collezionabili: carte complete (480 su 480), i pesci e i garage. Mappa: 21 luoghi nuovi dalla mappa ufficiale e nomi corretti.",
+        "Garage: 35 nomi veri e 5 auto nuove; tolti i doppioni.",
+        "Grafica: meno spazio sopra i titoli e qualche ritocco sugli iPhone."
+      ]
+    },
     {
       "version": "1.0.1",
       "date": "2026-11-19",
