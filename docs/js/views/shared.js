@@ -172,7 +172,13 @@ export const passHave = (have, ok) => !have || (have === 'si' ? ok : !ok);
 
 /** Iniziali colorate al posto della foto che non c'è */
 const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
-export const monoParts = (x) => ({ h: HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length], ini: x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() });
+export const monoParts = (x) => ({ h: HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length], ini: monoIni(x.name) });
+/** Iniziali per il monogramma: salta soprannomi tra «» o virgolette e segni di punteggiatura («Francisco «Cisco» Delgado» → FD). */
+const monoIni = (name = '') => {
+  const words = (s) => s.split(/[\s(]+/).filter((w) => /^[\p{L}\p{N}]/u.test(w));
+  const w = words(name.replace(/«[^»]*»|"[^"]*"|“[^”]*”/g, ' '));
+  return (w.length ? w : words(name).length ? words(name) : [name]).slice(0, 2).map((x) => x[0] || '').join('').toUpperCase();
+};
 export const monogram = (x) => { const { h, ini } = monoParts(x); return `<span class="monogram" style="--h:${h}">${esc(ini)}</span>`; };
 /** Volto di un personaggio (o logo di una voce): foto locale, altrimenti quella online (`imageUrl`), altrimenti le iniziali.
  *  Se la foto non si carica, app.js mette le iniziali al suo posto (data-mono). */
