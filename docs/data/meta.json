@@ -1,10 +1,20 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.52.4",
+  "dataVersion": "1.0.0",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Leonida 1.0: la prima versione per tutti.",
+        "Dentro: la storia capitolo per capitolo con lo scudo spoiler, i «Da non perdere» di ogni capitolo, i 55 trofei con le scadenze, oltre 2.000 collezionabili con il punto preciso, la mappa con le 10 regioni, armi e veicoli con le barre del gioco, 462 canzoni della radio, il Mondo di Leonida e le news.",
+        "Entra con la tua email (Impostazioni › Profilo) per salvare i progressi online, comparire nella classifica della banda e condividere i tuoi scatti.",
+        "La guida si aggiorna di continuo: il numero in alto a destra ti dice quale versione stai guardando."
+      ]
+    },
     {
       "version": "0.52.4",
       "date": "2026-11-19",

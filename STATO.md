@@ -1,6 +1,6 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato l'8 novembre 2026, versione live **v0.29.0** (dati 0.29.0). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**.
+Aggiornato il 19 novembre 2026, versione live **v1.0.0** (prima versione pubblica, data ai colleghi di Mike). Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nelle sezioni 4, 4o-4z.
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -28,13 +28,28 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Le immagini le scarica lui sul Mac (`git pull` → `node scripts/scarica-immagini.mjs` → commit/push): noi mettiamo le URL in `scripts/immagini.json`; finché mancano l'app le mostra online con `data-fallback`.
 - Fino a giovedì lavora con Opus 5.5 (Fable esaurito).
 
-## 4. Prossimi passi (in ordine)
-1. **Giro di impressioni sulla v0.22.0**: Mike lo farà; aspettare la lista.
-2. **Lista trofei ufficiale** (appena esce, probabilmente a ridosso del 19): sostituire `trophies.json` (nomi italiani ufficiali, descrizione come su PlayStation, livello), tenere gli id dove il nome coincide. Fonti: psnprofiles, exophase, playstationtrophies (bloccano i bot: passare da chi li riprende).
-3. **Giri news** solo quando Mike dice «fai un giro di aggiornamento news» (routine in CLAUDE.md). Date: 9/11 risultati Take-Two (call 22:30 it), 10/11 preload, 18/11 fine embargo recensioni, 19/11 uscita. Ogni giro aggiunge anche i marchi citati a `brands.json`.
-4. **Dal 19**: gli Appunti con il «Pacchetto per Claude» diventano la fonte di verità (source `gioco-mike`, status `verificato`). Popolare missioni vere, nomi dei capitoli, prima missione di ogni personaggio (`firstMissionId`) e regione (`districtId` delle missioni): è ciò che accende cast e regioni in Home.
-5. **Supabase** (opzionale): Mike ha chiesto se i progressi «si salvano». Oggi solo localStorage; `docs/js/store/adapter.js` è pronto per un adapter remoto. Serve un progetto Supabase gratuito e la chiave; sincronizzerebbe iPhone e Mac.
-6. **Foto mancanti**: DWNPLY, Randy, Kai, N3on, Mud Dog Mike (nessuna fonte); 4 pin di regione senza luoghi gtasixmap (Waning Sands e Vice Beach hanno il badge solo se un luogo ci cade dentro).
+## 4. Cose da fare (taccuino, aggiornato al 19/11 sera, dopo la v1.0.0)
+Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sezione della versione.
+
+**Da Mike**
+1. **Immagini sul Mac**: `git pull` → `node scripts/scarica-immagini.mjs` → `git add -A` → `git commit -m "immagini"` → `git push`. Circa 180 file elencati in `scripts/immagini.json` non sono ancora nel repo: oggi si vedono solo online.
+2. **Decisione sulle mappe IGN e MapGenie**: le coordinate di tutti i punti stanno nei loro servizi interni (GraphQL). Non vanno interrogati senza il suo sì. Con il sì: `xy` per i ~390 POI che non le hanno, nomi di palestre e club, stazioni doppie.
+3. **Conferme dal gioco** (diventano `verificato` con source `gioco-mike`): conti in banca separati (solo il Risparmio Familiare in comune); RydeMe dal capitolo 1 o 2; motoscafo Squalo solo nel capitolo 4; Arnold risparmiato vale 10.000 $?; chi riceve la caccia a Mr. Mangrove; nome «Radio La Ola».
+
+**Funzioni nuove (chieste da Mike)**
+4. **Confronto anche per le auto**, come quello delle armi (STATO 4q: pulsante «Confronta» visibile ovunque, ricerca, fino a 3 insieme, pochi tocchi). Da fare appena i veicoli hanno abbastanza dati: oggi 133 su 339 hanno le 5 barre (`speed, accel, handling, offroad, strength`) e 41 il prezzo (registrazione + vendita). Confrontare solo veicoli della stessa famiglia (auto con auto, moto con moto); barche e aerei quando arrivano le loro barre. Insieme: «Ordina per» in Garage e Armi (FABLE.md, «Altre idee»).
+5. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
+
+**Contenuti da riempire (giro di caccia ogni 12 ore, solo col sì di Mike; dettagli e fonti in `scripts/caccia/README.md`, «Cosa manca alla fine del giro del 19/11 pomeriggio»)**
+6. Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
+7. Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
+8. Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
+9. Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
+10. Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
+
+**Tecnico**
+11. Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
+12. Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
 
 ## 4b. Cosa è cambiato nella v0.16.0
 - Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
@@ -215,6 +230,10 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Nove squadre, solo sulle novità uscite dopo le 07 UTC (BRIEF con la sezione «Oggi»; compiti con la riga «STATO AL … giro 3»). Nuovo `scripts/caccia/dopo.py` (news in testa, immagini, elenco delle cose da fare a mano).
 - Applicato: 11 news; 170 collezionabili (salti 129/130, voli 40/40, lanci 25/25); armi riconciliate con la tabella di IGN (7 nuove, 8 tolte: wpn-coil-shocker, wpn-duke-ar15, wpn-mp9, wpn-smoke, wpn-golf-ball, wpn-golf-club, wpn-pipe-wrench, wpn-hl-knife), varianti uniche negli `extras`; 11 veicoli nuovi, `price` = registrazione e valore di vendita; 115 + 38 `imageUrl` passati da Fandom a gta.wiki; interpreti di 25 personaggi; mis-ring-the-bell; «Kolts» → «Kolt» ovunque; 7 POI spostati (6 a Vice Beach), tolta poi-st-redhill-train-station.
 - Ancora aperto: vedi «Cosa manca alla fine del giro del 19/11 pomeriggio» in `scripts/caccia/README.md`.
+
+## 5. Versione 1.0 (19/11 pomeriggio)
+- Mike ha confermato la v0.52.4 e ha chiesto di pubblicare la 1.0 per darla ai colleghi. È la stessa guida della v0.52.4 con il numero 1.0.0 e il changelog per chi arriva nuovo. Da qui in poi le versioni sono 1.x: 1.0.1, 1.0.2… per giri di dati e correzioni, 1.1.0 per una funzione nuova (per esempio il confronto delle auto).
+- Nella banda c'è già Lollo, un collega di Mike: da ora i profili su Supabase non sono più solo di prova. Niente test che scrivano nel database vero; il profilo `prova@leonida.test` resta nascosto dalla banda.
 
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
