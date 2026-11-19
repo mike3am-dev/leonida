@@ -98,7 +98,10 @@ function followBar() {
   const bar = $('follow-bar');
   const id = progress.get().current.missionId;
   const m = id ? byId(id) : null;
-  if (!m) { bar.hidden = true; bar.innerHTML = ''; return; }
+  // In Home la missione in corso è già nella copertina: la striscia servirebbe solo a ripeterla
+  const home = (location.hash.replace(/^#/, '').split('?')[0] || '/') === '/';
+  const here = !!m && location.hash.split('?')[0] === `#/missioni/${m.id}`;   // sei già nella pagina di quella missione
+  if (!m || home || here) { bar.hidden = true; bar.innerHTML = ''; return; }
   bar.hidden = false;
   bar.innerHTML = `<a class="follow-bar" href="#/missioni/${esc(m.id)}" style="padding:0;background:none;border:0;min-height:0;flex:1"><span class="follow-bar__dot" aria-hidden="true"></span><span class="follow-bar__text">Ora stai giocando <b>${esc(m.title)}</b></span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
     <button class="icon-btn" type="button" data-action="note" aria-label="Appunto rapido"><svg aria-hidden="true"><use href="#i-pen"/></svg></button>`;
@@ -225,7 +228,9 @@ function bindGlobal() {
   document.addEventListener('load', (e) => { if (e.target?.tagName === 'IMG') e.target.classList.add('is-loaded'); }, true);
   document.addEventListener('error', (e) => {
     const im = e.target; if (im?.tagName !== 'IMG') return;
-    if (im.dataset.fallback && im.src !== im.dataset.fallback) { im.src = im.dataset.fallback; delete im.dataset.fallback; return; }
+    // data-fallback può avere più indirizzi separati da «|»: si provano in ordine (miniatura → foto locale → copia online)
+    if (im.dataset.fallback) { const [next, ...rest] = im.dataset.fallback.split('|'); if (rest.length) im.dataset.fallback = rest.join('|'); else delete im.dataset.fallback; if (next) { im.src = next; return; } }
+    if (im.dataset.pinicon) { im.insertAdjacentHTML('afterend', `<svg aria-hidden="true"><use href="#i-${im.dataset.pinicon}"/></svg>`); im.remove(); return; }
     if (im.dataset.mono && !im.classList.contains('pop__img')) { const m = document.createElement('span'); m.className = 'monogram'; m.style.setProperty('--h', im.dataset.hue || '340'); m.textContent = im.dataset.mono; im.replaceWith(m); return; }
     im.closest('figure, .placecard__img, .nearcard__img, .lmk__photo')?.classList.add('is-empty'); im.remove();
   }, true);
@@ -298,7 +303,8 @@ function bindGlobal() {
 /* ---------- Service worker e aggiornamenti ---------- */
 let swReg = null;
 async function registerSW() {
-  if (!('serviceWorker' in navigator)) return;
+  // Le anteprime (docs/anteprima/<nome>/) non installano il service worker: devono mostrare sempre i file appena pubblicati
+  if (!('serviceWorker' in navigator) || location.pathname.includes('/anteprima/')) return;
   try {
     swReg = await navigator.serviceWorker.register('sw.js');
     swReg.addEventListener('updatefound', () => {

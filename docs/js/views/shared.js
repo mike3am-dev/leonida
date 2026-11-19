@@ -176,8 +176,12 @@ export const monoParts = (x) => ({ h: HUES[[...x.id].reduce((a, c) => a + c.char
 export const monogram = (x) => { const { h, ini } = monoParts(x); return `<span class="monogram" style="--h:${h}">${esc(ini)}</span>`; };
 /** Volto di un personaggio (o logo di una voce): foto locale, altrimenti quella online (`imageUrl`), altrimenti le iniziali.
  *  Se la foto non si carica, app.js mette le iniziali al suo posto (data-mono). */
-export function face(x, { cls = '', lazy = true, alt = '' } = {}) {
-  const src = x.image || x.imageUrl; if (!src) return monogram(x);
+/** Miniatura leggera di una foto locale (scripts/miniature.py): `mini` 160 px, `mini-m` 480 px. Null se la foto non è locale. */
+export const mini = (path, folder = 'mini') => { const m = typeof path === 'string' ? /^((?:\.\.\/)*assets\/img\/)(?!mini)(.+?)\.[a-z0-9]+$/i.exec(path) : null; return m ? `${m[1]}${folder}/${m[2]}.jpg` : null; };
+/** `small: true` dove il volto è piccolo (cerchi in Home, legami, taccuino): usa la miniatura, così il telefono non carica le foto intere */
+export function face(x, { cls = '', lazy = true, alt = '', small = false } = {}) {
+  const chain = [small ? mini(x.image) : null, x.image, x.imageUrl].filter((u, i, a) => u && a.indexOf(u) === i);
+  if (!chain.length) return monogram(x);
   const { h, ini } = monoParts(x);
-  return `<img ${cls ? `class="${cls}" ` : ''}src="${esc(src)}" ${x.image && x.imageUrl && x.imageUrl !== x.image ? `data-fallback="${esc(x.imageUrl)}" ` : ''}data-mono="${esc(ini)}" data-hue="${h}" alt="${esc(alt)}"${lazy ? ' loading="lazy"' : ''}>`;
+  return `<img ${cls ? `class="${cls}" ` : ''}src="${esc(chain[0])}" ${chain.length > 1 ? `data-fallback="${esc(chain.slice(1).join('|'))}" ` : ''}data-mono="${esc(ini)}" data-hue="${h}" alt="${esc(alt)}"${lazy ? ' loading="lazy"' : ''} decoding="async">`;
 }

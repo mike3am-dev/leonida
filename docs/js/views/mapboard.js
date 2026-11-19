@@ -9,7 +9,7 @@ import { esc } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
 import { panzoom } from '../ui/panzoom.js';
 import { img, TERRITORY_SLUGS } from './atlante.js';
-import { currentMission, isFound } from './shared.js';
+import { currentMission, isFound, mini } from './shared.js';
 
 const BASES = {
   giorno: { src: 'assets/img/mappa/leonida-giorno-media.jpg', w: 2896, h: 3700, geo: true, tiles: 'standard' },
@@ -91,6 +91,12 @@ const KIND_LABEL = { luogo: 'Luogo', poi: "Punto d'interesse", lmk: 'Punto di ri
 const prefs = () => { try { return JSON.parse(localStorage.getItem('leonida:mappa') || '{}'); } catch { return {}; } };
 const savePref = (k, v) => { const p = prefs(); p[k] = v; localStorage.setItem('leonida:mappa', JSON.stringify(p)); };
 
+/** Foto dentro il segnaposto: solo la miniatura (160 px). Senza miniatura, un'icona: mai la foto intera,
+ *  perché centinaia di foto grandi sulla mappa riempivano la memoria dell'iPhone e l'app si chiudeva. */
+function pinPhoto(q) {
+  const icon = q.kind === 'lmk' ? 'eye' : 'pin', m = mini(q.img[0]);
+  return m ? `<img src="${esc(m)}" data-pinicon="${icon}" alt="" loading="lazy" decoding="async">` : `<svg aria-hidden="true"><use href="#i-${icon}"/></svg>`;
+}
 /** HTML del tavolo */
 export function boardHtml(districts) {
   const p = prefs();
@@ -104,7 +110,7 @@ export function boardHtml(districts) {
   const here = youAreHere();
   const hereHtml = here ? `<div class="mb-here" style="left:${here.x}px;top:${here.y}px" title="Tu sei qui"><span class="mb-here__pulse"></span><span class="mb-here__dot"></span><span class="mb-here__label">Tu sei qui</span></div>` : '';
   const pts = mapPoints();
-  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (q.seen ? 'is-seen' : regionOpen(q.districtId) ? 'is-unseen' : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${q.kind === 'poi' ? `<span class="mb-pin__ico" aria-hidden="true">${poiIcon(q.ref)}</span>` : !q.img[0] && !q.img[1] ? `<svg aria-hidden="true"><use href="#i-${q.kind === 'lmk' ? 'eye' : 'pin'}"/></svg>` : img(q.img[0], q.img[1])}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
+  const pinOf = (q) => { const c = toPx(q.xy[0], q.xy[1]); const gameCls = mode === 'gioco' ? (q.seen ? 'is-seen' : regionOpen(q.districtId) ? 'is-unseen' : 'is-hidden') : ''; return `<button type="button" class="mb-pin mb-pin--${q.kind} ${gameCls}" style="left:${c.x}px;top:${c.y}px" data-mb-point="${esc(q.key)}" aria-label="${esc(q.name)}">${q.kind === 'poi' ? `<span class="mb-pin__ico" aria-hidden="true">${poiIcon(q.ref)}</span>` : pinPhoto(q)}${q.seen ? '<i class="mb-pin__tick"></i>' : ''}<span class="mb-pin__label">${esc(q.name)}</span></button>`; };
   const pins = pts.filter((q) => q.kind === 'luogo').map(pinOf).join('');
   const poiPins = pts.filter((q) => q.kind === 'poi').map(pinOf).join('');
   const lmkPins = pts.filter((q) => q.kind === 'lmk').map(pinOf).join('');
@@ -114,7 +120,7 @@ export function boardHtml(districts) {
     return { d, i, px, py, c, rot: ((i * 7) % 11) - 5 };
   });
   const threads = photos.map(({ px, py, c }) => { const ax = px, ay = py - PH / 2 + 18; const mx = (ax + c.x) / 2, my = Math.max(ay, c.y) + 90; return `<path d="M${ax} ${ay} Q${mx} ${my} ${c.x} ${c.y}"/><circle class="mb-thread__end" cx="${c.x}" cy="${c.y}" r="11"/>`; }).join('');
-  const photoHtml = photos.map(({ d, px, py, rot }) => `<button type="button" class="mb-photo" style="left:${px - PW / 2}px;top:${py - PH / 2}px;width:${PW}px;--rot:${rot}deg" data-mb-fly="${esc(d.id)}" aria-label="${esc(d.name)}"><span class="mb-photo__pin"></span><span class="mb-photo__img">${d.image ? `<img src="${esc(d.image)}" alt="" loading="lazy">` : ''}</span><span class="mb-photo__cap">${esc(d.name.replace(' National Park', ''))}</span></button>`).join('');
+  const photoHtml = photos.map(({ d, px, py, rot }) => `<button type="button" class="mb-photo" style="left:${px - PW / 2}px;top:${py - PH / 2}px;width:${PW}px;--rot:${rot}deg" data-mb-fly="${esc(d.id)}" aria-label="${esc(d.name)}"><span class="mb-photo__pin"></span><span class="mb-photo__img">${d.image ? `<img src="${esc(mini(d.image, 'mini-m') || d.image)}" ${mini(d.image, 'mini-m') ? `data-fallback="${esc(d.image)}"` : ''} alt="" loading="lazy" decoding="async">` : ''}</span><span class="mb-photo__cap">${esc(d.name.replace(' National Park', ''))}</span></button>`).join('');
   const tool = (k, icon, label, on) => `<button type="button" class="mb-tool ${on ? 'is-on' : ''}" data-mb-tool="${k}" aria-pressed="${on}" aria-label="${esc(label)}" title="${esc(label)}"><svg aria-hidden="true"><use href="#i-${icon}"/></svg><span class="mb-tool__label">${esc(label)}</span></button>`;
   return `<div class="mapboard ${base.geo ? '' : 'is-poster'} is-locked" data-mode="${mode}" data-z="lo" data-style="${style}" data-layers="${Object.entries(layers).filter(([, v]) => v).map(([k]) => k).join(' ')}">
     <div class="mapboard__viewport">

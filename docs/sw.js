@@ -41,6 +41,8 @@ self.addEventListener('message', (e) => { if (e.data?.type === 'SKIP_WAITING') s
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
+  // Le anteprime per Mike (anteprima/<nome>/) passano sempre dalla rete: niente cache
+  if (url.pathname.includes('/anteprima/')) return;
 
   // Dati: network-first
   if (url.pathname.includes('/data/') && url.pathname.endsWith('.json')) {

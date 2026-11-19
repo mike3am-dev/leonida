@@ -246,6 +246,16 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 - Mike ha confermato la v0.52.4 e ha chiesto di pubblicare la 1.0 per darla ai colleghi. È la stessa guida della v0.52.4 con il numero 1.0.0 e il changelog per chi arriva nuovo. Da qui in poi le versioni sono 1.x: 1.0.1, 1.0.2… per giri di dati e correzioni, 1.1.0 per una funzione nuova (per esempio il confronto delle auto).
 - Nella banda c'è già Lollo, un collega di Mike: da ora i profili su Supabase non sono più solo di prova. Niente test che scrivano nel database vero; il profilo `prova@leonida.test` resta nascosto dalla banda.
 
+## 5b. Anteprima: Mike approva prima che vada online (dal 19/11 sera)
+Da quando la guida è pubblica (colleghi che la usano), **niente va su `main` in `docs/` senza il via libera di Mike**, soprattutto la grafica. Le eccezioni le decide lui (per esempio i giri di soli dati).
+- **Dove si lavora**: sul ramo di lavoro della sessione (`claude/…`), con commit e push **solo su quel ramo**. `main` resta alla versione online.
+- **Come si fa vedere**: `node scripts/anteprima.mjs <nome> --radice <checkout di main>` copia `docs/` (css, js, data, index) in `docs/anteprima/<nome>/` di un checkout separato di `main` (`git worktree add <scratchpad>/main-wt origin/main`), con i percorsi di immagini/font/icone riscritti (`../../`), senza service worker e con la fascetta gialla «Anteprima». Lì si fa commit e `git push origin HEAD:main`: su `main` arriva solo la cartella `anteprima/` (più eventuali immagini nuove), non il codice della guida. Indirizzo: `https://mike3am-dev.github.io/leonida/anteprima/<nome>/`.
+- **Nome nuovo a ogni giro** (`1.0.1-a`, `1.0.1-b`…): il telefono tiene in memoria i file già visti. Lo script cancella le anteprime vecchie.
+- **Insieme al link** si mandano a Mike gli screenshot (iPhone 393×852 e Duo 703×1000, chiaro e scuro) con SendUserFile.
+- **Via libera**: sul ramo di lavoro `git merge origin/main`, si cancella `docs/anteprima/`, si alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, e solo allora `git push origin HEAD:main`.
+- L'anteprima usa gli stessi progressi (se aperta nello stesso browser) e lo stesso Supabase della guida vera: in un'anteprima non si cambia il formato dei progressi e non si lanciano SQL nuovi che rompano l'app online (le funzioni nuove si aggiungono, le vecchie restano).
+- Le miniature (`python3 scripts/miniature.py`, serve Pillow: si lancia in sessione) vanno rifatte dopo che Mike ha scaricato immagini nuove.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

@@ -24,7 +24,7 @@
       "spoilerLevel": 1,
       "example": false,
       "placeholder": false,
-      "title": "Capitolo 1: Just Like Paradise",
+      "title": "Capitolo 1: Come in paradiso",
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/",
       "missables": [
@@ -42,7 +42,8 @@
           "id": "soldi",
           "title": "Metti al sicuro i soldi"
         }
-      ]
+      ],
+      "titleEn": "Just Like Paradise"
     },
     {
       "id": "act-2",
@@ -52,9 +53,10 @@
       "spoilerLevel": 2,
       "example": false,
       "placeholder": false,
-      "title": "Capitolo 2: Paradise Lost",
+      "title": "Capitolo 2: Paradiso perduto",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "Paradise Lost"
     },
     {
       "id": "act-3",
@@ -64,9 +66,10 @@
       "spoilerLevel": 3,
       "example": false,
       "placeholder": false,
-      "title": "Capitolo 3: Tits Ass Drug Money",
+      "title": "Capitolo 3: T***e, culi, bei soldoni",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "Tits Ass Drug Money"
     },
     {
       "id": "act-4",
@@ -76,7 +79,7 @@
       "spoilerLevel": 4,
       "example": false,
       "placeholder": false,
-      "title": "Capitolo 4: Vice City, Baby",
+      "title": "Capitolo 4: Vice City, baby!",
       "updatedAt": "2026-11-18",
       "sourceUrl": "https://www.powerpyx.com/",
       "missables": [
@@ -87,7 +90,8 @@
           "id": "squalo",
           "title": "Motoscafo Squalo (Ultimate Edition)"
         }
-      ]
+      ],
+      "titleEn": "Vice City, Baby"
     },
     {
       "id": "act-5",
@@ -97,15 +101,16 @@
       "spoilerLevel": 5,
       "example": false,
       "placeholder": false,
-      "title": "Capitolo 5: Top of the World, Ma",
+      "title": "Capitolo 5: Sulla vetta del mondo, ma'",
       "updatedAt": "2026-11-18",
-      "sourceUrl": "https://www.powerpyx.com/"
+      "sourceUrl": "https://www.powerpyx.com/",
+      "titleEn": "Top of the World, Ma"
     }
   ],
   "items": [
     {
       "id": "mis-prologo-lucia",
-      "title": "Prologue",
+      "title": "Prologo",
       "actId": "act-0",
       "chapter": 0,
       "order": 1,
@@ -151,8 +156,13 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-prologue-mission-walkthrough/",
         "https://www.eurogamer.net/gta-6-prologue-walkthrough",
-        "https://gta.wiki/wiki/Prologue"
-      ]
+        "https://gta.wiki/wiki/Prologue",
+        "https://www.youtube.com/watch?v=lWVubHlmQZM",
+        "https://www.youtube.com/watch?v=6uGn8At8QX0",
+        "https://www.youtube.com/watch?v=_Mj0HVL-INs",
+        "https://www.youtube.com/watch?v=UjPK_TO9b4E"
+      ],
+      "titleEn": "Prologue"
     },
     {
       "id": "mis-prologo-keys",
@@ -231,7 +241,12 @@
         "https://www.videogameschronicle.com/guide/gta-6-gone-fishing-mission-walkthrough/",
         "https://gta.wiki/wiki/Gone_Fishing_(GTA_VI)",
         "https://www.gtaboom.com/gta-6-gone-fishing-mission-walkthrough-ff86",
-        "https://www.eurogamer.net/gta-6-gone-fishing-walkthrough"
+        "https://www.eurogamer.net/gta-6-gone-fishing-walkthrough",
+        "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+        "https://www.youtube.com/watch?v=ByUB_T80coc",
+        "https://www.youtube.com/watch?v=54vNaYMJHRo",
+        "https://www.youtube.com/watch?v=CAUXneHZe7M",
+        "https://www.youtube.com/watch?v=hPU-YfnPHsY"
       ]
     },
     {
@@ -338,7 +353,7 @@
     },
     {
       "id": "mis-lab-fees",
-      "title": "Lab Fees",
+      "title": "Un colpo al cerchio e uno alla boutique",
       "actId": "act-1",
       "chapter": 1,
       "order": 4,
@@ -385,12 +400,16 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-lab-fees-mission-walkthrough/",
         "https://gta.wiki/wiki/Lab_Fees",
-        "https://www.gtaboom.com/gta-6-lab-fees-mission-walkthrough-a2c7"
-      ]
+        "https://www.gtaboom.com/gta-6-lab-fees-mission-walkthrough-a2c7",
+        "https://www.youtube.com/watch?v=-cqOagZ7N8Y",
+        "https://www.youtube.com/watch?v=xiDIMRyNVCs",
+        "https://www.youtube.com/watch?v=GoxYZcYgCpI"
+      ],
+      "titleEn": "Lab Fees"
     },
     {
       "id": "mis-unwanted-attention",
-      "title": "Unwanted Attention",
+      "title": "Attenzioni indesiderate",
       "actId": "act-1",
       "chapter": 1,
       "order": 5,
@@ -445,12 +464,16 @@
         "https://www.videogameschronicle.com/guide/gta-6-unwanted-attention-mission-walkthrough/",
         "https://gta.wiki/wiki/Unwanted_Attention",
         "https://www.gtaboom.com/gta-6-unwanted-attention-walkthrough-40ae",
-        "https://www.eurogamer.net/gta-6-unwanted-attention-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-unwanted-attention-walkthrough",
+        "https://www.youtube.com/watch?v=GWOM6Ppe2Zs",
+        "https://www.youtube.com/watch?v=1-coXAsVaFo",
+        "https://www.youtube.com/watch?v=u9r8NPGk458"
+      ],
+      "titleEn": "Unwanted Attention"
     },
     {
       "id": "mis-pipework",
-      "title": "Pipework",
+      "title": "Chi ti si intuba",
       "actId": "act-1",
       "chapter": 1,
       "order": 6,
@@ -493,8 +516,13 @@
         "https://www.videogameschronicle.com/guide/gta-6-pipework-mission-walkthrough/",
         "https://gta.wiki/wiki/Pipework",
         "https://www.gtaboom.com/gta-6-pipework-walkthrough-dac2",
-        "https://www.eurogamer.net/gta-6-pipework-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-pipework-walkthrough",
+        "https://www.youtube.com/watch?v=-cqOagZ7N8Y",
+        "https://www.youtube.com/watch?v=mhc3ch5jPZg",
+        "https://www.youtube.com/watch?v=Kq7AtOD8EdU",
+        "https://www.youtube.com/watch?v=QEnpkcUa3A8"
+      ],
+      "titleEn": "Pipework"
     },
     {
       "id": "mis-get-shirleys-rum",
@@ -586,7 +614,7 @@
     },
     {
       "id": "mis-hey-arnold",
-      "title": "Hey Arnold!",
+      "title": "Ciao, Arnold!",
       "actId": "act-1",
       "chapter": 1,
       "order": 9,
@@ -629,12 +657,16 @@
         "https://www.gtaboom.com/gta-6-hey-arnold-walkthrough-858d",
         "https://www.eurogamer.net/gta-6-hey-arnold-walkthrough",
         "https://www.eurogamer.net/save-or-kill-arnold-gta-6",
-        "https://www.ign.com/wikis/gta-6/Hey_Arnold!_Walkthrough"
+        "https://www.ign.com/wikis/gta-6/Hey_Arnold!_Walkthrough",
+        "https://www.youtube.com/watch?v=g9PRL6ZK44E",
+        "https://www.youtube.com/watch?v=NQRSDzFZ-_4",
+        "https://www.youtube.com/watch?v=6Yn6Iv93d5k"
       ],
       "choice": {
         "irreversible": true,
         "note": "Risparmiare o uccidere Arnold non si può cambiare: risparmiarlo conviene (profilo più professionale e, a quanto riporta Eurogamer, un premio in denaro più avanti)."
-      }
+      },
+      "titleEn": "Hey Arnold!"
     },
     {
       "id": "mis-island-dreams",
@@ -966,7 +998,7 @@
     },
     {
       "id": "mis-coming-home",
-      "title": "Coming Home",
+      "title": "Bentornata a casa",
       "actId": "act-1",
       "chapter": 1,
       "order": 19,
@@ -1037,8 +1069,12 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-coming-home-mission-walkthrough/",
         "https://www.gtaboom.com/gta-6-coming-home-walkthrough-bb69",
-        "https://www.eurogamer.net/gta-6-lucias-release-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-lucias-release-walkthrough",
+        "https://www.youtube.com/watch?v=96BW5whqLgc",
+        "https://www.youtube.com/watch?v=1C7iMprxyFE",
+        "https://www.youtube.com/watch?v=Gbh87dnThW8"
+      ],
+      "titleEn": "Coming Home"
     },
     {
       "id": "mis-buck-me",
@@ -1219,7 +1255,7 @@
     },
     {
       "id": "mis-down-to-earth",
-      "title": "Down to Earth",
+      "title": "Piedi per terra",
       "actId": "act-1",
       "chapter": 1,
       "order": 22,
@@ -1282,8 +1318,11 @@
         }
       ],
       "moreSources": [
-        "https://www.videogameschronicle.com/guide/gta-6-down-to-earth-mission-walkthrough/"
-      ]
+        "https://www.videogameschronicle.com/guide/gta-6-down-to-earth-mission-walkthrough/",
+        "https://www.youtube.com/watch?v=pAi0ZeNp8ig",
+        "https://www.youtube.com/watch?v=63SbhtRpXAY"
+      ],
+      "titleEn": "Down to Earth"
     },
     {
       "id": "mis-find-the-lost-drugs",
@@ -1339,7 +1378,7 @@
     },
     {
       "id": "mis-clear-skies",
-      "title": "Clear Skies",
+      "title": "Apriti cielo",
       "actId": "act-1",
       "chapter": 1,
       "order": 26,
@@ -1387,8 +1426,11 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-clear-skies-mission-walkthrough/",
-        "https://www.eurogamer.net/gta-6-clear-skies-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-clear-skies-walkthrough",
+        "https://www.youtube.com/watch?v=bf7xTfJV-JM",
+        "https://www.youtube.com/watch?v=jvL4fh_SKYY"
+      ],
+      "titleEn": "Clear Skies"
     },
     {
       "id": "mis-building-a-life",
@@ -1432,7 +1474,7 @@
     },
     {
       "id": "mis-day-release",
-      "title": "Day Release",
+      "title": "Permesso premio",
       "actId": "act-1",
       "chapter": 1,
       "order": 28,
@@ -1482,8 +1524,11 @@
       ],
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-day-release-mission-walkthrough/",
-        "https://www.eurogamer.net/gta-6-day-release-walkthrough"
-      ]
+        "https://www.eurogamer.net/gta-6-day-release-walkthrough",
+        "https://www.youtube.com/watch?v=-HTUSf6jKAw",
+        "https://www.youtube.com/watch?v=18gTaBALOy0"
+      ],
+      "titleEn": "Day Release"
     },
     {
       "id": "mis-clock-out",

@@ -157,7 +157,7 @@ function notebook(m) {
     <div class="notebook__part"><span class="kicker">Cosa devi fare</span>
       ${obj.length ? obj.map((o, i) => checkHtml(m.id, `obj-${i + 1}`, o, !!ex[`obj-${i + 1}`])).join('') : '<p class="small muted">Nessuna guida ha ancora pubblicato i passi di questa missione: li aggiungiamo appena escono.</p>'}
     </div>
-    ${people.length ? `<div class="notebook__part"><span class="kicker">Chi incontri</span><div class="notebook__people">${people.map((c) => `<a class="notebook__person" href="#/personaggi/${esc(c.id)}">${face(c)}<span>${esc(c.name)}</span></a>`).join('')}</div></div>` : ''}
+    ${people.length ? `<div class="notebook__part"><span class="kicker">Chi incontri</span><div class="notebook__people">${people.map((c) => `<a class="notebook__person" href="#/personaggi/${esc(c.id)}">${face(c, { small: true })}<span>${esc(c.name)}</span></a>`).join('')}</div></div>` : ''}
     ${extra.length ? `<div class="notebook__part"><span class="kicker">Per il 100%</span>${extra.map((o) => checkHtml(m.id, o.id, o.label, !!ex[o.id])).join('')}</div>` : ''}
   </section>`;
 }
@@ -194,7 +194,7 @@ function detail(m) {
   const unlNames = [...new Set(unl.map((u) => (typeof u === 'string' ? u : u.label || (u?.type === 'mission' && byId(u.ref) ? byId(u.ref).title : ''))).filter(Boolean))];
   return `
     ${backLink('/missioni', 'Missioni')}
-    ${hero(m, { kicker: `${pl.act} · ${pl.side ? pl.side : pl.i + ' di ' + pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, chips: statusChip(m) + protagonistChip(m.protagonist) })}
+    ${hero(m, { kicker: `${pl.act} · ${pl.side ? pl.side : pl.i + ' di ' + pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, lede: m.titleEn && m.titleEn !== m.title ? `In inglese: ${m.titleEn}` : '', chips: statusChip(m) + protagonistChip(m.protagonist) })}
     ${state === 'completata' ? `<div class="passed">
         <span class="passed__title">Missione compiuta</span>
         <div class="actions">${next ? (st.missions[next.id]?.state ? `<a class="btn btn--solid" href="#/missioni/${esc(next.id)}">Vai alla prossima</a>` : `<button class="btn btn--solid" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia la prossima</button>`) : ''}<a class="btn btn--ghost" href="#/missioni">Torna alle missioni</a></div>

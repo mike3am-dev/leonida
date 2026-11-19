@@ -56,6 +56,23 @@ export async function uploadPhoto(path, blob) {
   if (!res.ok) { let m = ''; try { m = (await res.json()).message || ''; } catch {} throw new Error(`Caricamento non riuscito (${res.status}) ${m}`.trim()); }
 }
 
+/** Cancella dal bucket un file che la funzione `scatto_cancella` ha appena messo nel cestino */
+export async function deletePhoto(path) {
+  const res = await fetch(`${BASE}/storage/v1/object/scatti/${path}`, { method: 'DELETE', headers: { apikey: KEY } });
+  return res.ok;
+}
+
+/** Admin: il codice sta solo su questo telefono (mai nel profilo online) e ogni funzione lo ricontrolla sul server */
+const ADM = 'leonida:admin';
+export const adminCode = () => { try { return localStorage.getItem(ADM) || ''; } catch { return ''; } };
+export const isAdmin = () => !!adminCode();
+export async function adminLogin(code) {
+  const ok = await rpc('leonida_admin_ok', { p_codice: String(code || '').trim() });
+  if (ok === true) { try { localStorage.setItem(ADM, String(code).trim()); } catch {} }
+  return ok === true;
+}
+export function adminLogout() { try { localStorage.removeItem(ADM); } catch {} }
+
 /** { savedAt, state } oppure null se il profilo non esiste */
 export async function readRemote(email) {
   const d = await rpc('leggi_profilo', { p_email: normalize(email) });

@@ -24,7 +24,7 @@ function lev(a, b) {
 }
 
 function fieldsOf(item) {
-  const f = [item.title, item.name, item.summary, item.short, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet, item.outlet, item.topic];
+  const f = [item.title, item.titleEn, item.name, item.summary, item.short, item.description, item.tagline, item.bio, item.body, item.directions, item.region, item.genre, item.host, item.role, item.category, item.manufacturer, item.kind, item.howToGet, item.outlet, item.topic];
   if (item.short) f.push(item.short);
   (item.steps || []).forEach((t) => f.push(t));
   (item.tips || []).forEach((t) => f.push(t));

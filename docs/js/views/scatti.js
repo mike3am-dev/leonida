@@ -82,6 +82,30 @@ function uploadSheet(prep) {
   showSheet({ title: 'Nuovo scatto', body });
 }
 
+/** Il server risponde 404 se una funzione nuova non è ancora stata creata in Supabase */
+const OLD_SERVER = /404|PGRST202/;
+
+/** L'autore corregge didascalia, zona e spoiler della sua foto */
+function editSheet(s) {
+  const zones = vis(db.districts || []).filter((d) => d.id !== 'dis-da-collocare');
+  const body = document.createElement('div');
+  body.innerHTML = `<img class="shot-prev" src="${esc(cloud.photoUrl(s.percorso))}" alt="">
+    <form data-shot-edit-form>
+      <label class="field"><span>Didascalia</span><input class="input" name="did" maxlength="280" value="${esc(s.didascalia || '')}" autocomplete="off"></label>
+      <label class="field"><span>Zona</span><select class="select" name="zona"><option value="">Non lo dico</option>${zones.map((d) => `<option ${d.name === s.zona ? 'selected' : ''}>${esc(d.name)}</option>`).join('')}</select></label>
+      <label class="field"><span>Spoiler?</span><select class="select" name="sp"><option value="0">Nessuno spoiler</option>${[1, 2, 3, 4, 5].map((n) => `<option value="${n}" ${Number(s.spoiler) === n ? 'selected' : ''}>Sì, del capitolo ${n}</option>`).join('')}</select></label>
+      <button class="btn btn--accent btn--block" type="submit">Salva le modifiche</button>
+    </form>`;
+  body.querySelector('form').addEventListener('submit', async (e) => {
+    e.preventDefault(); const f = e.target, btn = f.querySelector('button'); btn.disabled = true;
+    try {
+      await cloud.call('scatto_modifica', { p_id: s.id, p_didascalia: f.did.value.trim(), p_zona: f.zona.value, p_spoiler: Number(f.sp.value) });
+      closeSheet(); toast('Foto aggiornata'); cache = null; load();
+    } catch (err) { btn.disabled = false; toast(OLD_SERVER.test(String(err?.message)) ? 'La modifica non è ancora attiva: manca un passaggio in Supabase.' : errMsg(err), { ms: 5000 }); }
+  });
+  showSheet({ title: 'Modifica la foto', body });
+}
+
 async function shotSheet(s) {
   const body = document.createElement('div'); body.className = 'shotview';
   const paint = (comments) => {
@@ -90,9 +114,10 @@ async function shotSheet(s) {
       ${s.didascalia ? `<p>${esc(s.didascalia)}</p>` : ''}
       <div class="btn-row"><button class="btn ${s.piace ? 'btn--accent' : ''} shot-like" type="button" data-like>${heart(s.piace)} ${s.likes}</button>
         <a class="btn btn--ghost" href="${esc(cloud.photoUrl(s.percorso))}" target="_blank" rel="noopener">Apri la foto</a>
-        ${s.mio ? '<button class="btn btn--ghost" type="button" data-shot-del style="color:var(--orange)">Togli</button>' : ''}</div>
+        ${s.mio ? '<button class="btn btn--ghost" type="button" data-shot-edit>Modifica</button>' : ''}
+        ${s.mio || cloud.isAdmin() ? `<button class="btn btn--ghost" type="button" data-shot-del style="color:var(--orange)">Cancella${s.mio ? '' : ' (admin)'}</button>` : ''}</div>
       <h3 class="fsec__t">Commenti</h3>
-      ${comments === null ? '<p class="muted small">Carico…</p>' : comments.length ? `<ul class="cmts">${comments.map((c) => `<li><b>${esc(c.nick)}</b> <span class="small muted">${esc(when(c.creato))}</span>${c.mio ? ` <button type="button" class="linkbtn small" data-cmt-del="${esc(c.id)}">togli</button>` : ''}<p>${esc(c.testo)}</p></li>`).join('')}</ul>` : '<p class="muted small">Nessun commento: scrivi il primo.</p>'}
+      ${comments === null ? '<p class="muted small">Carico…</p>' : comments.length ? `<ul class="cmts">${comments.map((c) => `<li><b>${esc(c.nick)}</b> <span class="small muted">${esc(when(c.creato))}</span>${c.mio || cloud.isAdmin() ? ` <button type="button" class="linkbtn small" data-cmt-del="${esc(c.id)}">cancella</button>` : ''}<p>${esc(c.testo)}</p></li>`).join('')}</ul>` : '<p class="muted small">Nessun commento: scrivi il primo.</p>'}
       <form data-cmt-form class="cmt-form"><input class="input" name="t" maxlength="500" placeholder="Scrivi un commento…" autocomplete="off"><button class="btn btn--solid" type="submit">Invia</button></form>`;
   };
   const reload = async () => { try { paint(await cloud.call('scatto_commenti', { p_id: s.id }) || []); } catch (e) { paint([]); toast(errMsg(e)); } };
@@ -102,13 +127,27 @@ async function shotSheet(s) {
       try { s.piace = await cloud.call('scatto_piace', { p_id: s.id }); s.likes += s.piace ? 1 : -1; reload(); document.dispatchEvent(new CustomEvent('leonida:rerender')); } catch (err) { toast(errMsg(err)); }
       return;
     }
+    if (e.target.closest('[data-shot-edit]')) { editSheet(s); return; }
     if (e.target.closest('[data-shot-del]')) {
-      if (!confirm('Togliere questo scatto dalla galleria?')) return;
-      try { await cloud.call('scatto_togli', { p_id: s.id }); closeSheet(); toast('Scatto tolto'); cache = null; load(); } catch (err) { toast(errMsg(err)); }
+      if (!confirm(s.mio ? 'Sei sicuro? La foto sparisce per tutti, con i suoi commenti, e non si può recuperare.' : `Sei sicuro di cancellare la foto di ${s.nick}? Sparisce per tutti e non si può recuperare.`)) return;
+      try {
+        let path;
+        try { path = await cloud.call('scatto_cancella', { p_id: s.id, p_codice: cloud.adminCode() || null }); }
+        catch (err) { if (!s.mio || !OLD_SERVER.test(String(err?.message))) throw err; await cloud.call('scatto_togli', { p_id: s.id }); }   // server non ancora aggiornato: almeno la nasconde
+        if (path) await cloud.deletePhoto(path);
+        closeSheet(); toast('Foto cancellata'); cache = null; load();
+      } catch (err) { toast(errMsg(err)); }
       return;
     }
     const d = e.target.closest('[data-cmt-del]');
-    if (d) { try { await cloud.call('commento_togli', { p_id: d.dataset.cmtDel }); reload(); } catch (err) { toast(errMsg(err)); } }
+    if (d) {
+      if (!confirm('Cancellare questo commento?')) return;
+      try {
+        try { await cloud.call('commento_cancella', { p_id: d.dataset.cmtDel, p_codice: cloud.adminCode() || null }); }
+        catch (err) { if (!OLD_SERVER.test(String(err?.message))) throw err; await cloud.call('commento_togli', { p_id: d.dataset.cmtDel }); }
+        s.commenti = Math.max(0, s.commenti - 1); reload();
+      } catch (err) { toast(errMsg(err)); }
+    }
   });
   body.addEventListener('submit', async (e) => {
     const f = e.target.closest('[data-cmt-form]'); if (!f) return; e.preventDefault();

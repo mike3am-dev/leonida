@@ -58,6 +58,7 @@ export function panelHtml({ compact = false } = {}) {
         <button class="switch" role="switch" aria-checked="${progress.settings().banda !== false}" data-switch="banda" aria-label="Mostrami nella banda"></button></div>`}
       ${compact ? '' : `<div class="btn-row"><button class="btn btn--solid" type="button" data-cloud-now>Salva progressi</button>
       <button class="btn btn--ghost" type="button" data-cloud-out>Esci</button></div>`}
+      ${compact ? '' : `<p class="small muted acct__admin">${cloud.isAdmin() ? 'Su questo telefono sei <b>admin</b>: puoi cancellare qualsiasi foto e commento degli Scatti. <button type="button" class="linkbtn small" data-admin-out>Smetti di essere admin</button>' : '<button type="button" class="linkbtn small" data-admin-in>Ho un codice admin</button>'}</p>`}
     </div>`;
   }
   return `<form class="acct" data-login-form novalidate>
@@ -116,6 +117,13 @@ export function bind(root, rerender, { after } = {}) {
       const ni = root.querySelector('[data-nick-form] input');
       if (ni && cleanNick(ni.value) !== (progress.settings().nick || '')) progress.setSetting('nick', cleanNick(ni.value));
       await cloud.flush(); await cloud.sync(); toast(cloud.getStatus() === 'saved' ? 'Salvato online' : statusText()); rerender(); return; }
+    if (e.target.closest('[data-admin-in]')) {
+      const code = prompt('Codice admin'); if (!code) return;
+      try { if (await cloud.adminLogin(code)) { toast('Ora su questo telefono sei admin'); rerender(); } else toast('Codice non valido'); }
+      catch { toast('Non riesco a controllare il codice: la funzione admin non è ancora attiva o manca la rete.', { ms: 5000 }); }
+      return;
+    }
+    if (e.target.closest('[data-admin-out]')) { cloud.adminLogout(); rerender(); toast('Non sei più admin su questo telefono'); return; }
     if (e.target.closest('[data-cloud-out]')) {
       if (!confirm('Uscire dal profilo? I progressi restano anche su questo telefono, ma non si salvano più online finché non rientri.')) return;
       await cloud.flush(); cloud.logout(); rerender(); toast('Sei uscito dal profilo');

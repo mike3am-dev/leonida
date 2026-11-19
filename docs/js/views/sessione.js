@@ -53,16 +53,7 @@ export function render() {
   const metCount = chars.filter(met).length, foundCount = zones.filter((z) => z.found).length;
 
   const left = `
-    <section class="home-hero">
-      <img src="${HERO}" alt="">
-      <div class="home-hero__veil"></div>
-      <div class="home-hero__text">
-        <span class="kicker">GTA VI · Guida di gioco</span>
-        ${cur ? `<span class="home-hero__eyebrow"><span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando · ${esc(missionActLabel(cur))}</span><h1 class="home-hero__title">${esc(cur.title)}</h1><a class="btn btn--accent" href="#/missioni/${esc(cur.id)}">Apri la missione</a>` : countdownHtml()}
-      </div>
-    </section>
-
-    ${whereCard(st)}
+    ${storyHero(st)}
 
     <section class="profile">
       <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di GTA VI</span></div>
@@ -92,7 +83,7 @@ export function render() {
 
     <section class="block">
       <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span></div>
-      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring">${!ok && spoiler.virgin() ? '<span class="story__unknown" aria-hidden="true">?</span>' : face(c)}</span><span class="story__name">${!ok && spoiler.virgin() ? '???' : esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
+      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring">${!ok && spoiler.virgin() ? '<span class="story__unknown" aria-hidden="true">?</span>' : face(c, { small: true })}</span><span class="story__name">${!ok && spoiler.virgin() ? '???' : esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
     </section>
 
     <section class="block">
@@ -107,22 +98,38 @@ export function render() {
   return { left, right: '', show: 'left', accent: section.accent, title: 'Home' };
 }
 
-/** Dove sei nella storia: una riga sola che ti porta dove serve */
-function whereCard(st) {
+/** La copertina della Home: un banner solo con dove sei nella storia (missione, capitolo, «N di X») e i suoi pulsanti.
+ *  Prima (fino alla v1.0.0) la missione in corso compariva tre volte: striscia in alto, copertina e riquadro sotto. */
+function storyHero(st) {
   const missions = vis(db.missions);
-  const any = missions.some((m) => st.missions[m.id]?.state);
-  if (!any && new Date(db.meta.releaseDate + 'T00:00:00') > Date.now()) {
-    return `<section class="where-mini"><svg aria-hidden="true"><use href="#i-lock"/></svg><span><b>La storia parte il 19 novembre.</b> Da quel giorno qui trovi la missione che stai giocando.</span></section>`;
-  }
   const cur = missions.find((m) => st.missions[m.id]?.state === 'in-corso');
   const lastDone = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
   const next = cur ? null : missions.slice(lastDone + 1).find((m) => !st.missions[m.id]?.state);
-  const lab = (m) => { const a = db.acts.find((x) => x.id === m.actId); const l = missions.filter((x) => x.actId === m.actId); return `${a ? (a.number === 0 ? 'Prologo' : 'Capitolo ' + a.number) : ''} · ${l.indexOf(m) + 1} di ${l.length}`; };
-  if (cur) return `<section class="where2 where2--cur"><div class="where2__text"><span class="kicker kicker--accent">Ora stai giocando · ${esc(lab(cur))}</span><b>${esc(cur.title)}</b></div>
-    <div class="where2__actions"><a class="btn btn--solid" href="#/missioni/${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-book"/></svg>Taccuino</a><button class="btn btn--ghost" type="button" data-mission="${esc(cur.id)}" data-set="completata"><svg aria-hidden="true"><use href="#i-check"/></svg>Compiuta</button></div></section>`;
-  if (next) return `<section class="where2"><div class="where2__text"><span class="kicker kicker--accent">La prossima · ${esc(lab(next))}</span><b>${esc(spoiler.missionName(next, 'Si scopre quando parti'))}</b></div>
-    <div class="where2__actions"><button class="btn btn--solid" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia</button></div></section>`;
-  return `<section class="where2"><div class="where2__text"><span class="kicker kicker--accent">La storia</span><b>Completata. Bravo.</b></div></section>`;
+  const m = cur || next;
+  const day = countdown();
+  const tag = day.after ? `<span class="home-hero__tag">Giorno ${day.days} a Leonida</span>` : '';
+  let body;
+  if (m) {
+    const a = db.acts.find((x) => x.id === m.actId), list = missions.filter((x) => x.actId === m.actId);
+    const i = list.indexOf(m) + 1, done = list.filter((x) => st.missions[x.id]?.state === 'completata').length;
+    const chapter = a ? (a.number === 0 ? 'Prologo' : `Capitolo ${a.number}`) : '';
+    const chapterName = a && (cur || lastDone >= 0 || !progress.settings().spoilerShield || a.number <= 1) ? a.title.replace(/^Capitolo \d+:\s*/, '').replace(/^Prologo$/, '') : '';
+    body = `<span class="home-hero__eyebrow">${cur ? '<span class="follow-bar__dot" aria-hidden="true"></span> Ora stai giocando' : lastDone < 0 ? 'Si comincia da qui' : 'La prossima missione'}</span>
+        <h1 class="home-hero__title">${esc(cur ? cur.title : spoiler.missionName(next, 'Si scopre quando parti'))}</h1>
+        <div class="home-hero__where"><span>${esc(chapter)}${chapterName ? ` · ${esc(chapterName)}` : ''}</span><b>${i} di ${list.length}</b></div>
+        <div class="home-hero__bar" role="img" aria-label="${done} missioni fatte su ${list.length} in questo capitolo"><i style="width:${list.length ? (done / list.length) * 100 : 0}%"></i></div>
+        <div class="home-hero__actions">${cur
+          ? `<a class="btn btn--accent" href="#/missioni/${esc(cur.id)}"><svg aria-hidden="true"><use href="#i-book"/></svg>Apri la missione</a><button class="btn home-hero__done" type="button" data-mission="${esc(cur.id)}" data-set="completata"><svg aria-hidden="true"><use href="#i-check"/></svg>Compiuta</button>`
+          : `<button class="btn btn--accent" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia</button><a class="btn home-hero__done" href="#/missioni">Tutte le missioni</a>`}</div>`;
+  } else if (missions.length) {
+    body = `<span class="home-hero__eyebrow">La storia</span><h1 class="home-hero__title">Completata. Bravo.</h1><div class="home-hero__actions"><a class="btn btn--accent" href="#/trofei">Verso il Platino</a><a class="btn home-hero__done" href="#/collezionabili">Collezionabili</a></div>`;
+  } else body = countdownHtml();
+  return `<section class="home-hero home-hero--story">
+      <img src="${HERO}" alt="">
+      <div class="home-hero__veil"></div>
+      ${tag}
+      <div class="home-hero__text">${body}</div>
+    </section>`;
 }
 
 /** Taccuino in Home: compatto, con la «i» che spiega */
