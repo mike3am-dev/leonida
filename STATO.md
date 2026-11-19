@@ -204,6 +204,13 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Immagini: 179 file elencati in `scripts/immagini.json` non sono ancora scaricati (l'app usa la copia online). Mike deve lanciare `node scripts/scarica-immagini.mjs` sul Mac prima della 1.0.
 - Cosa manca e fonti nuove: `scripts/caccia/README.md` («Cosa manca alla fine del giro del 19/11», «Fonti nuove»).
 
+## 4y. Giro errori, ultima pre-release prima della 1.0 (v0.52.3, 19/11)
+- I tre errori di Mike: (1) Prologo sbagliato → squadra `controllo-missioni` (4x); (2) volti mancanti → `face(x)` e `monogram(x)` in shared.js (foto locale → `imageUrl` online → iniziali; app.js mette le iniziali se la foto non si carica, `data-mono`), in Home entrano tutti i personaggi con `firstMissionId`; (3) «Da non perdere» illeggibile → `chapterMissables` riscritto: lista con sezioni «Prima che il capitolo finisca» / «Nelle missioni» / avvisi futuri sotto inchiostro / missioni già fatte, chiuso di partenza (stato in sessionStorage `leonida:dnp:<act>`), spunte automatiche (trofeo, collezionabile, missione) e manuali solo per `acts[].missables` (`progress.toggleCheck`, mappa `checks` nello stato), collezionabili con lo stesso motivo in una riga con le pillole.
+- specs.js: assi dei veicoli `speed, accel, handling, offroad, strength`; niente più barre di esempio (se mancano i dati, «In arrivo: barre delle statistiche»).
+- collezionabili.js: le card mostrano `fatti / total del gioco` + «N posizioni note».
+- Controllo automatico (script nello scratchpad `rc/crawl.cjs`): apre tutte le pagine raggiungibili dai link (3.620) e cerca errori JS, «undefined/NaN/null», pagine vuote, immagini 404. Pulito, a parte le 179 immagini da scaricare.
+- **La 1.0 si pubblica solo quando Mike conferma.** Prima deve lanciare `node scripts/scarica-immagini.mjs` sul Mac (poi `git add -A`, commit, push).
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

@@ -1,10 +1,22 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.52.2",
+  "dataVersion": "0.52.3",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.52.3",
+      "date": "2026-11-19",
+      "changes": [
+        "Giro errori prima della 1.0.",
+        "«Da non perdere» del capitolo rifatto da capo: non è più un muro di testo ma una lista di cose da fare, divisa in «Prima che il capitolo finisca» e «Nelle missioni». Parte chiuso, si spunta da solo (trofeo preso, rivista letta, missione fatta) e le riviste dello stesso posto stanno in una riga sola.",
+        "Volti dei personaggi: quando la foto non è ancora sul telefono la guida prende quella online; dove una foto non esiste da nessuna parte compaiono le iniziali, non più un cerchio vuoto. In Home ci sono tutti i personaggi della storia.",
+        "Garage: le cinque barre vere del gioco (velocità, accelerazione, tenuta su strada, fuoristrada, robustezza). Tolte le barre «di esempio» da armi e veicoli che non hanno ancora i dati.",
+        "Collezionabili: ogni categoria mostra il totale vero del gioco e quante posizioni conosce la guida (per esempio 0 / 125, 22 posizioni note).",
+        "Tolti i testi rimasti da prima dell'uscita («arrivano dal 19 novembre») e la scritta doppia «Capitolo 1 · Capitolo 1» nella pagina Missioni. Gli Appunti si spiegano in modo diverso a chi non cura la guida."
+      ]
+    },
     {
       "version": "0.52.2",
       "date": "2026-11-19",

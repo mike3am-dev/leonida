@@ -2107,21 +2107,66 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .cheat-gate p { text-align: left; }
 
 /* Missioni: «Da non perdere in questo capitolo» */
-.dnp { margin: var(--s-2) 0 var(--s-4); padding: var(--s-3) var(--s-4); border-radius: 14px; border: 1px solid color-mix(in srgb, var(--orange) 55%, transparent); background: color-mix(in srgb, var(--orange) 9%, var(--paper)); }
-.dnp summary { display: flex; align-items: center; justify-content: space-between; gap: var(--s-2); cursor: pointer; list-style: none; min-height: 36px; }
-.dnp summary::-webkit-details-marker { display: none; }
-.dnp__title { font-weight: 700; color: var(--orange); }
-.dnp__n { min-width: 26px; height: 26px; padding: 0 8px; border-radius: 999px; display: grid; place-items: center; background: var(--orange); color: #1b1024; font-weight: 700; font-size: var(--fs-sm); }
-.dnp ul { list-style: none; margin: var(--s-2) 0 0; padding: 0; display: grid; gap: var(--s-3); }
-.dnp li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: var(--s-2); font-size: var(--fs-sm); line-height: 1.45; }
-.dnp__icon { font-size: 1.05rem; line-height: 1.3; }
-.dnp__where { display: block; font-weight: 700; margin-bottom: 2px; }
-.dnp__where a { color: inherit; }
-.dnp__more { margin-top: var(--s-3); border-top: 1px dashed color-mix(in srgb, var(--orange) 45%, transparent); padding-top: var(--s-2); }
-.dnp__more > summary { display: block; cursor: pointer; font-weight: 600; font-size: var(--fs-sm); color: var(--ink-2); list-style: none; min-height: 0; padding: var(--s-2) 0; }
+/* «Da non perdere» del capitolo: lista di cose da fare (v0.52.3) */
+.dnp { margin: var(--s-2) 0 var(--s-4); border-radius: 16px; border: 1px solid var(--rule-strong); background: var(--paper); box-shadow: var(--shadow); overflow: hidden; }
+.dnp > summary { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto 20px; grid-template-areas: "mark text n chev" "meter meter meter meter"; align-items: center; column-gap: var(--s-3); row-gap: var(--s-3); padding: var(--s-3) var(--s-4) 0; cursor: pointer; list-style: none; min-height: 64px; }
+.dnp > summary::-webkit-details-marker { display: none; }
+.dnp__mark { grid-area: mark; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: color-mix(in srgb, var(--orange) 18%, transparent); color: var(--orange); }
+.dnp__mark svg { width: 22px; height: 22px; }
+.dnp__headtext { grid-area: text; display: grid; gap: 2px; min-width: 0; }
+.dnp__title { font-family: var(--font-display); font-size: var(--fs-lg); font-weight: 600; line-height: 1.15; color: var(--ink); }
+.dnp__sub { font-size: var(--fs-sm); color: var(--ink-2); }
+.dnp__n { grid-area: n; min-width: 30px; height: 30px; padding: 0 9px; border-radius: 999px; display: grid; place-items: center; background: var(--orange); color: #1b1024; font-weight: 700; font-size: var(--fs-sm); }
+.dnp__chev { grid-area: chev; width: 20px; height: 20px; color: var(--ink-3); transition: transform var(--dur) var(--ease); }
+.dnp[open] > summary .dnp__chev { transform: rotate(90deg); }
+.dnp__meter { grid-area: meter; height: 3px; margin: 0 calc(var(--s-4) * -1); background: var(--rule); }
+.dnp__meter i { display: block; height: 100%; background: var(--teal); }
+.dnp__body { padding: var(--s-2) var(--s-4) var(--s-4); }
+.dnp__sec + .dnp__sec, .dnp__sec + .dnp__more { margin-top: var(--s-4); }
+.dnp__h { margin: var(--s-4) 0 var(--s-1); display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--s-2); font-family: var(--font-text); font-size: var(--fs-xs); font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink); }
+.dnp__h span { font-weight: 500; letter-spacing: 0; text-transform: none; font-size: var(--fs-sm); color: var(--ink-3); }
+.dnp ul { list-style: none; margin: 0; padding: 0; }
+.dnp__row { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: var(--s-3); padding: var(--s-3) 0; border-top: var(--hair) solid var(--rule); --tone: var(--ink-2); }
+.dnp ul > .dnp__row:first-child { border-top: 0; }
+.dnp__row[data-tone="magenta"] { --tone: var(--magenta); }
+.dnp__row[data-tone="teal"] { --tone: var(--teal); }
+.dnp__row[data-tone="orange"] { --tone: var(--orange); }
+.dnp__row[data-tone="gold"] { --tone: #e2a93b; }
+.dnp__row[data-tone="red"] { --tone: #ff5a5a; }
+.dnp__badge, .dnp__tick { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--tone) 16%, transparent); color: var(--tone); }
+.dnp__badge svg, .dnp__tick svg { width: 19px; height: 19px; }
+.dnp__tick { border: 2px solid var(--tone); background: transparent; cursor: pointer; padding: 0; position: relative; }
+.dnp__tick::after { content: ""; position: absolute; inset: -6px; }
+.dnp__tick svg { opacity: 0; }
+.dnp__tick[aria-checked="true"] { background: var(--teal); border-color: var(--teal); color: #0b0a0f; }
+.dnp__tick[aria-checked="true"] svg { opacity: 1; }
+.dnp__main { min-width: 0; }
+.dnp__top { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.dnp__tag { font-size: var(--fs-xs); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--tone); }
+.dnp__tag--gold, .dnp__tag--soft { text-transform: none; letter-spacing: 0; font-weight: 600; padding: 1px 8px; border-radius: 999px; }
+.dnp__tag--gold { color: #b9831b; background: color-mix(in srgb, #e2a93b 20%, transparent); }
+:root[data-theme="dark"] .dnp__tag--gold { color: #f0c264; }
+.dnp__tag--soft { color: var(--ink-2); background: var(--rule); }
+.dnp__name { font-weight: 700; font-size: var(--fs-md); line-height: 1.25; margin-bottom: 2px; }
+.dnp__name a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.dnp__text { margin: 0; font-size: var(--fs-md); line-height: 1.5; color: var(--ink); max-width: 62ch; }
+.dnp__lead { display: block; }
+.dnp__rest { display: block; margin-top: 4px; font-size: var(--fs-sm); color: var(--ink-2); }
+.dnp__chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: var(--s-2); }
+.dnp__chip { display: inline-flex; align-items: center; min-height: 32px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--rule-strong); font-size: var(--fs-sm); color: var(--ink); text-decoration: none; }
+.dnp__chip.is-done { border-color: transparent; background: color-mix(in srgb, var(--teal) 18%, transparent); color: var(--ink-2); text-decoration: line-through; }
+.dnp__row.is-done { --tone: var(--teal); }
+.dnp__row.is-done .dnp__name, .dnp__row.is-done .dnp__text { color: var(--ink-3); }
+.dnp__row.is-done .dnp__name a { color: var(--ink-3); }
+.dnp__row.is-done .dnp__rest { display: none; }
+.dnp__more { margin-top: var(--s-4); border-radius: 12px; background: var(--paper-2); border: 1px dashed var(--rule-strong); }
+.dnp__more > summary { display: grid; gap: 2px; padding: var(--s-3) var(--s-4); cursor: pointer; list-style: none; font-weight: 600; font-size: var(--fs-sm); color: var(--ink); min-height: var(--tap); align-content: center; }
 .dnp__more > summary::-webkit-details-marker { display: none; }
-.dnp__more > summary::before { content: "▸ "; color: var(--orange); }
-.dnp__more[open] > summary::before { content: "▾ "; }
+.dnp__more > summary span::before { content: "＋ "; color: var(--orange); font-weight: 700; }
+.dnp__more[open] > summary span::before { content: "－ "; }
+.dnp__more > summary small { font-weight: 400; color: var(--ink-3); font-size: var(--fs-xs); }
+.dnp__more > ul { padding: 0 var(--s-4) var(--s-2); }
+.dnp__more--past { border-style: solid; border-color: var(--rule); background: transparent; }
 
 /* ===================== La banda ===================== */
 .banda-in { margin-top: var(--s-4); }
@@ -2177,3 +2222,9 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .shots-head svg { width: 34px; height: 34px; color: var(--orange); flex: none; }
 .shots-head h2 { font-family: var(--font-gta); font-weight: 400; font-size: 2rem; margin: 0; line-height: 1; }
 .shots-head p { margin: 2px 0 0; }
+
+/* Volti: iniziali al posto della foto che manca (v0.52.3) */
+.story__ring .monogram { border-radius: 50%; border: 2px solid var(--bg); font-size: 1.35rem; box-sizing: border-box; }
+.story.is-locked .story__ring .monogram { filter: grayscale(1) brightness(.65); }
+.notebook__person .monogram { width: 30px; height: 30px; border-radius: 50%; font-size: .8rem; flex: none; }
+.catcard__note { font-size: var(--fs-xs); color: var(--ink-3); margin-top: -2px; }

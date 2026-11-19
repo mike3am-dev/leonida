@@ -31,7 +31,7 @@ import * as banda from './views/banda.js';
 import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'v0.52.2';
+window.__LEONIDA_VERSION__ = 'v0.52.3';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -226,6 +226,7 @@ function bindGlobal() {
   document.addEventListener('error', (e) => {
     const im = e.target; if (im?.tagName !== 'IMG') return;
     if (im.dataset.fallback && im.src !== im.dataset.fallback) { im.src = im.dataset.fallback; delete im.dataset.fallback; return; }
+    if (im.dataset.mono && !im.classList.contains('pop__img')) { const m = document.createElement('span'); m.className = 'monogram'; m.style.setProperty('--h', im.dataset.hue || '340'); m.textContent = im.dataset.mono; im.replaceWith(m); return; }
     im.closest('figure, .placecard__img, .nearcard__img, .lmk__photo')?.classList.add('is-empty'); im.remove();
   }, true);
   spoiler.bind(root);

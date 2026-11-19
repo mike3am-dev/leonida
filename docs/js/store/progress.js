@@ -82,6 +82,11 @@ export function isDiscovered(id) { return !!state.discovered?.[id]; }
 export function toggleDiscovered(id) {
   update((s) => { s.discovered = s.discovered || {}; if (s.discovered[id]) delete s.discovered[id]; else s.discovered[id] = new Date().toISOString(); });
 }
+/** Spunte libere (es. i bonus del «Da non perdere» di un capitolo) */
+export function isChecked(id) { return !!state.checks?.[id]; }
+export function toggleCheck(id) {
+  update((s) => { s.checks = s.checks || {}; if (s.checks[id]) delete s.checks[id]; else s.checks[id] = new Date().toISOString(); });
+}
 export function toggleTrophy(id) {
   update((s) => { s.trophies = s.trophies || {}; if (s.trophies[id]) delete s.trophies[id]; else s.trophies[id] = new Date().toISOString(); });
 }

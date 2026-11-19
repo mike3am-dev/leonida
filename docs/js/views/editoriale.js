@@ -1,7 +1,7 @@
 /** Personaggi, Radio, Mondo */
 import { db, byId } from '../data.js';
 import { esc, statusChip, srcBadge } from '../ui/dom.js';
-import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet, extrasHtml, haveFilter, passHave } from './shared.js';
+import { sectionHead, backLink, hero, row, acc, galleryHtml, insightHtml, tableHtml, vis, sectionOf, discoverBtn, isMet, extrasHtml, haveFilter, passHave, monogram, face } from './shared.js';
 import * as progress from '../store/progress.js';
 import * as spoiler from '../spoiler.js';
 import * as playlist from './playlist.js';
@@ -28,8 +28,6 @@ const GROUPS = [
   ['🎸', 'Band, locali e comparse', 'Gruppi musicali, mascotte e volti visti di sfuggita nei trailer.', ['chr-gutless-wonders', 'chr-the-hummers-the-strummers', 'chr-dolls-of-destruction', 'chr-monalisa', 'chr-sparky-malarky', 'chr-chunkee-the-manatee', 'chr-pinche-the-crab', 'chr-ricky', 'chr-sam-mud-club', 'chr-brittney', 'chr-ej', 'chr-ian', 'chr-krever', 'chr-jimmy-canto', 'chr-lil-ricky-sawdust', 'chr-kenny-brewster']],
   ['🕵️', 'Dai leak (da verificare)', 'Nomi emersi dal leak del 2022: prendili con le pinze.', ['chr-shanese', 'chr-leak-names']],
 ];
-const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
-const monogram = (x) => { const h = HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length]; const ini = x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join(''); return `<span class="monogram" style="--h:${h}">${esc(ini.toUpperCase())}</span>`; };
 export function renderPersonaggi(params, query = {}) {
   const q = (query.q || '').toLowerCase().trim();
   const have = query.have || '';
@@ -45,7 +43,7 @@ export function renderPersonaggi(params, query = {}) {
   if (c) {
     const right = `
       ${backLink('/personaggi', 'Personaggi')}
-      ${c.image ? hero(c, { kicker: `${c.role || 'Personaggio'}${c.districtId ? ' · ' + (byId(c.districtId)?.name || '') : ''}`, title: c.name, lede: c.tagline || '', chips: statusChip(c) })
+      ${c.image || c.imageUrl ? hero(c, { kicker: `${c.role || 'Personaggio'}${c.districtId ? ' · ' + (byId(c.districtId)?.name || '') : ''}`, title: c.name, lede: c.tagline || '', chips: statusChip(c) })
         : `<div class="hero hero--mono">${monogram(c)}<div class="hero__text"><span class="kicker">${esc(c.role || 'Personaggio')}${c.districtId ? ' · ' + esc(byId(c.districtId)?.name || '') : ''}</span><h1>${esc(c.name)}</h1>${c.tagline ? `<p class="lede">${esc(c.tagline)}</p>` : ''}<div class="chips">${statusChip(c)}</div></div></div>`}
       <div class="prose">${spoiler.wrap(c, `<p class="dropcap">${esc(c.bio || 'Scheda in arrivo.')}</p>`)}</div>
       ${extrasHtml(c)}
@@ -53,13 +51,13 @@ export function renderPersonaggi(params, query = {}) {
       ${c.idCard?.length ? `<dl class="facts">${c.idCard.map((f) => `<dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd>`).join('')}${c.firstSeen ? `<dt>Prima apparizione</dt><dd>${esc(c.firstSeen)}</dd>` : ''}</dl>` : ''}
       ${galleryHtml(c)}
       ${c.insight ? `<div class="block">${acc('Approfondimento', `<div class="prose prose--guide">${spoiler.wrap(c, insightHtml(c.insight))}${tableHtml(c.summaryTable)}<p class="source-line">Tradotto da <a href="${esc(c.insightUrl || 'https://vice-central.com/personnages/')}" target="_blank" rel="noopener">vice-central.com</a>.</p></div>`)}</div>` : ''}
-      ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="threads"><a class="thread thread--me" href="#/personaggi/${esc(c.id)}"><span class="thread__ava">${c.image ? `<img src="${esc(c.image)}" alt="">` : monogram(c)}</span><span class="thread__name">${esc(c.name.split(' ')[0])}</span></a>${c.relations.map((id) => { const r = byId(id); return r ? `<a class="thread" href="#/personaggi/${esc(id)}"><span class="thread__ava">${r.image ? `<img src="${esc(r.image)}" alt="">` : monogram(r)}</span><span class="thread__name">${esc(r.name.split(' ')[0])}</span><span class="thread__role">${esc((r.role || '').slice(0, 28))}</span></a>` : ''; }).join('')}</div></div>` : ''}
+      ${c.relations?.length ? `<div class="block"><span class="kicker">Legami</span><div class="threads"><a class="thread thread--me" href="#/personaggi/${esc(c.id)}"><span class="thread__ava">${face(c, { lazy: false })}</span><span class="thread__name">${esc(c.name.split(' ')[0])}</span></a>${c.relations.map((id) => { const r = byId(id); return r ? `<a class="thread" href="#/personaggi/${esc(id)}"><span class="thread__ava">${face(r)}</span><span class="thread__name">${esc(r.name.split(' ')[0])}</span><span class="thread__role">${esc((r.role || '').slice(0, 28))}</span></a>` : ''; }).join('')}</div></div>` : ''}
       ${c.firstMissionId ? `<div class="block"><span class="kicker">Prima apparizione</span><a class="btn" href="#/missioni/${esc(c.firstMissionId)}">${esc(byId(c.firstMissionId) ? spoiler.missionName(byId(c.firstMissionId)) : 'Missione bloccata')}</a></div>` : ''}
       ${fonte(c)}`;
     return { left: '', right, show: 'right', accent: secP.accent, title: c.name };
   }
   const card = (x) => `<a class="cardx cardx--person" href="#/personaggi/${esc(x.id)}">
-    <div class="cardx__img cardx__img--face">${x.image ? `<img src="${esc(x.image)}" alt="" loading="lazy">` : monogram(x)}</div>
+    <div class="cardx__img cardx__img--face">${face(x)}</div>
     <div class="cardx__body"><div class="cardx__title">${esc(x.name)}</div><div class="cardx__meta">${esc(x.role || '')}${srcNote(x)}</div></div></a>`;
   const used = new Set();
   const groupHtml = GROUPS.map(([emoji, title, sub, ids]) => {
@@ -74,7 +72,7 @@ export function renderPersonaggi(params, query = {}) {
     <input class="input" type="search" placeholder="Cerca un personaggio…" value="${esc(q)}" data-char-q aria-label="Cerca un personaggio" style="margin-bottom:var(--s-3)">
     ${haveFilter(have, (v) => `#/personaggi${v ? '?have=' + v : ''}`, { yes: 'Incontrati', no: 'Da incontrare' })}
     ${q ? `<div class="cards">${chars.map(card).join('') || '<p class="muted small">Nessuno.</p>'}</div>` : `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">⭐</span><div><h2>Protagonisti</h2><p>Jason e Lucia: due vite legate da un colpo andato storto.</p></div></div>
-    <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel castboard__panel--static" href="#/personaggi/${esc(x.id)}"><img src="${esc(x.image)}" alt=""><span class="castboard__veil"></span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
+    <div class="castboard">${chars.filter((x) => x.isProtagonist).map((x, i) => `<a class="castboard__panel castboard__panel--static" href="#/personaggi/${esc(x.id)}">${face(x, { lazy: false })}<span class="castboard__veil"></span><span class="castboard__text"><span class="castboard__name">${esc(x.name)}</span><span class="castboard__role">${esc(x.role || '')}</span></span></a>`).join('')}</div>
     ${groupHtml}
     ${rest.length ? `<div class="group-head"><span class="group-head__emoji" aria-hidden="true">👥</span><div><h2>Altri</h2></div></div><div class="cards">${rest.map(card).join('')}</div>` : ''}`}`;
   return { left, right: '', show: 'left', accent: secP.accent, title: 'Personaggi' };

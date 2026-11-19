@@ -3,7 +3,7 @@ import { db, byId, actNum } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, fmtDate, relTime, statusChip } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isMet, isFound } from './shared.js';
+import { stats, districtStats, currentMission, nextMission, vis, sectionOf, missionActLabel, isMet, isFound, face } from './shared.js';
 import { currentAct } from './missioni.js';
 import { newsImgTag } from './novita.js';
 import { cup } from './trofei.js';
@@ -39,7 +39,7 @@ export function render() {
   const st = progress.get();
   const districts = vis(db.districts).filter((d) => d.id !== 'dis-da-collocare');
   const zones = storyOrder(districts, firstMissionOfDistrict).map((d) => ({ d, s: districtStats(d.id), found: isFound(d) }));
-  const chars = storyOrder(vis(db.characters).filter((c) => c.image), (c) => c.firstMissionId);
+  const chars = storyOrder(vis(db.characters).filter((c) => c.image || c.imageUrl || c.firstMissionId), (c) => c.firstMissionId);
   const met = isMet;
   const lockLabel = (c) => { const m = c.firstMissionId ? byId(c.firstMissionId) : null; const a = m ? db.acts.find((x) => x.id === m.actId) : null; return a ? (a.number === 0 ? 'Prologo' : `Cap. ${a.number}`) : '?'; };
   const latestNews = vis(db.news).slice(0, 3);
@@ -92,7 +92,7 @@ export function render() {
 
     <section class="block">
       <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span></div>
-      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring">${!ok && spoiler.virgin() ? '<span class="story__unknown" aria-hidden="true">?</span>' : `<img src="${esc(c.image)}" alt="" loading="lazy">`}</span><span class="story__name">${!ok && spoiler.virgin() ? '???' : esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
+      <div class="stories">${chars.map((c) => { const ok = met(c); return `<button type="button" class="story ${ok ? 'is-met' : 'is-locked'}" data-home-char="${esc(c.id)}"><span class="story__ring">${!ok && spoiler.virgin() ? '<span class="story__unknown" aria-hidden="true">?</span>' : face(c)}</span><span class="story__name">${!ok && spoiler.virgin() ? '???' : esc(c.name.split(' ')[0])}</span>${ok ? '' : `<span class="story__lock">${esc(lockLabel(c))}</span>`}</button>`; }).join('')}</div>
     </section>
 
     <section class="block">
@@ -130,11 +130,18 @@ function notesCard(st) {
   const notes = st.notes || []; const pending = notes.filter((n) => !n.exported);
   return `<section class="notesbox"><div class="block__head"><span class="kicker">Appunti${notes.length ? ` · ${notes.length}` : ''}</span><button type="button" class="info-btn" data-home-notes-info aria-label="Come funzionano gli appunti">i</button></div>
     <div class="actions" style="margin:0 0 var(--s-3)"><button class="btn btn--solid" type="button" data-action="note"><svg aria-hidden="true"><use href="#i-pen"/></svg>Nuovo appunto</button>${progress.settings().creatorTools ? `<a class="btn ${pending.length ? 'btn--accent' : 'btn--ghost'}" href="#/diario${notes.length ? '?pacchetto=1' : ''}">Pacchetto per Claude${pending.length ? ` · ${pending.length}` : ''}</a>` : ''}</div>
-    ${notes.slice(0, 3).map((n) => `<div class="note-mini"><span class="note__time">${esc(relTime(n.ts))}</span>${esc(n.text.slice(0, 110))}${n.text.length > 110 ? '…' : ''}</div>`).join('') || '<p class="small muted">Scrivi mentre giochi: posti, trucchi, domande con «?». Poi il pacchetto li porta a Claude e diventano guida.</p>'}
+    ${notes.slice(0, 3).map((n) => `<div class="note-mini"><span class="note__time">${esc(relTime(n.ts))}</span>${esc(n.text.slice(0, 110))}${n.text.length > 110 ? '…' : ''}</div>`).join('') || `<p class="small muted">${progress.settings().creatorTools ? 'Scrivi mentre giochi: posti, trucchi, domande con «?». Poi il pacchetto li porta a Claude e diventano guida.' : 'Scrivi mentre giochi: posti, trucchi, cose da ricordare. Ogni appunto si aggancia da solo alla missione che stai giocando e alla zona.'}</p>`}
     ${notes.length > 3 ? `<a class="small" href="#/diario">Tutti gli appunti</a>` : ''}</section>`;
 }
 function notesInfoSheet() {
   const body = document.createElement('div');
+  if (!progress.settings().creatorTools) {
+    body.innerHTML = `<ol class="steps">
+      <li><b>Giochi e scrivi.</b> Un appunto per ogni cosa che vuoi ricordare: un posto, un trucco, un collezionabile, una cosa da rifare.</li>
+      <li><b>Si aggancia da solo.</b> Ogni appunto prende la missione che stai giocando e la zona: li ritrovi nella pagina Appunti e nel taccuino della missione.</li>
+      <li><b>Restano tuoi.</b> Gli appunti stanno sul tuo telefono e, se sei entrato con l’email, nel tuo profilo online. Gli amici della banda non li vedono.</li></ol>`;
+    showSheet({ title: 'Come funzionano gli appunti', body }); return;
+  }
   body.innerHTML = `<ol class="steps">
       <li><b>Giochi e scrivi.</b> Un appunto per ogni cosa che scopri: una missione, un posto, un collezionabile, un trucco. Metti un «?» se è da verificare. L’appunto si aggancia da solo alla missione in corso e alla regione.</li>
       <li><b>Tocchi «Pacchetto per Claude».</b> L’app impacchetta gli appunti non ancora inviati in un testo già formattato, con le istruzioni e gli id della guida.</li>
@@ -149,7 +156,7 @@ function charSheet(c) {
   const st = progress.get(); const ok = c.firstMissionId && st.missions[c.firstMissionId]?.state;
   const m = c.firstMissionId ? byId(c.firstMissionId) : null;
   const body = document.createElement('div');
-  body.innerHTML = `${c.image ? `<img class="pop__img ${ok ? '' : 'is-locked'}" src="${esc(c.image)}" alt="">` : ''}
+  body.innerHTML = `${c.image || c.imageUrl ? face(c, { cls: `pop__img ${ok ? '' : 'is-locked'}`, lazy: false }) : ''}
     <div class="chips" style="margin:var(--s-2) 0">${statusChip(c)}${c.role ? `<span class="chip">${esc(c.role)}</span>` : ''}</div>
     <p class="small">${ok ? esc((c.tagline || c.bio || '').slice(0, 220)) : (m ? `Lo incontri in una missione del ${esc(missionActLabel(m).replace(/:.*$/, ''))}. Si accende da solo quando la inizi, oppure segnalo tu.` : 'Non sappiamo ancora quando lo incontri: segnalo tu quando succede.')}</p>
     <div class="actions" style="margin-bottom:0"><a class="btn btn--solid" href="#/personaggi/${esc(c.id)}">Scheda completa</a>${ok && c.firstMissionId && st.missions[c.firstMissionId]?.state ? '' : discoverBtnLocal(c, 'Incontrato', 'Incontrato ✓')}</div>`;

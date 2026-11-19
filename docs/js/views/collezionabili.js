@@ -25,19 +25,20 @@ export function render(params, query) {
   const link = (k, v) => { const p = new URLSearchParams(); if (cat) p.set('cat', cat); if (dis) p.set('dis', dis); if (grp) p.set('gruppo', grp); if (have) p.set('have', have); if (v) p.set(k, v); else p.delete(k); return `#/collezionabili${p.toString() ? '?' + p : ''}`; };
   const active = cat ? byId(cat) : null;
 
-  const catCard = (c) => { const items = all.filter((x) => x.categoryId === c.id); const d = items.filter((x) => st.collectibles[x.id]).length; return `
+  const catCard = (c) => { const items = all.filter((x) => x.categoryId === c.id); const d = items.filter((x) => st.collectibles[x.id]).length; const tot = Math.max(Number(c.total) || 0, items.length); return `
     <a class="catcard ${cat === c.id ? 'is-active' : ''} ${items.length ? '' : 'is-empty'}" href="${cat === c.id ? '#/collezionabili' : `#/collezionabili?cat=${c.id}`}">
       <span class="catcard__icon"><svg aria-hidden="true"><use href="#i-${esc(c.icon || 'star')}"/></svg></span>
       <span class="catcard__name">${esc(c.name.replace('ESEMPIO — ', ''))}</span>
-      <span class="catcard__count">${items.length ? `${d} / ${items.length}` : 'in arrivo'}</span>
-      <span class="progress"><i style="--p:${items.length ? Math.round(d / items.length * 100) : 0}%"></i></span>
+      <span class="catcard__count">${items.length ? `${d} / ${tot}` : (c.total ? `${c.total} nel gioco` : 'in arrivo')}</span>
+      ${items.length && tot > items.length ? `<span class="catcard__note">${items.length} ${items.length === 1 ? 'posizione nota' : 'posizioni note'}</span>` : !items.length ? '<span class="catcard__note">posizioni in arrivo</span>' : ''}
+      <span class="progress"><i style="--p:${tot ? Math.round(d / tot * 100) : 0}%"></i></span>
     </a>`; };
 
   const left = `${sectionHead(section, `${totalDone} / ${all.length}`)}
     <div class="progress" style="margin-bottom:var(--s-4)"><i style="--p:${all.length ? Math.round(totalDone / all.length * 100) : 0}%"></i></div>
     <div class="catgrid">${cats.map(catCard).join('')}</div>
     ${!active && db.cento?.length ? `<div class="block">${acc(`Lista del 100% · ${db.cento.length} voci`, `<ul class="flist">${db.cento.map((x) => `<li><b>${esc(x.name)}: ${esc(x.requirement)}</b>${x.notes ? `<span>${esc(x.notes)}</span>` : ''}</li>`).join('')}</ul>`)}</div>` : ''}
-    ${active ? `<div class="card" style="margin-top:var(--s-4)"><span class="kicker kicker--accent">${esc(active.name)}</span><p class="small" style="margin:var(--s-2) 0 0">${esc(active.description || '')}</p><div class="chips" style="margin-top:var(--s-2)">${statusChip(active)}</div></div>` : ''}
+    ${active ? `<div class="card" style="margin-top:var(--s-4)"><span class="kicker kicker--accent">${esc(active.name)}</span><p class="small" style="margin:var(--s-2) 0 0">${esc(active.description || '')}</p>${Number(active.total) > all.filter((x) => x.categoryId === active.id).length ? `<p class="small" style="margin:var(--s-2) 0 0"><b>Nel gioco sono ${active.total}.</b> La guida per ora conosce ${all.filter((x) => x.categoryId === active.id).length === 1 ? 'una posizione' : `${all.filter((x) => x.categoryId === active.id).length} posizioni`}: le altre arrivano appena le guide le pubblicano.</p>` : ''}<div class="chips" style="margin-top:var(--s-2)">${statusChip(active)}</div></div>` : ''}
     ${active ? `${active.id === 'cat-fauna' ? `<div class="filters" style="margin-top:var(--s-4)"><a class="filter" role="button" aria-pressed="${!grp}" href="${link('gruppo', '')}">Tutti gli habitat</a>${Object.entries(GROUP_LABEL).filter(([g]) => all.some((c) => c.categoryId === 'cat-fauna' && c.group === g)).map(([g, l]) => `<a class="filter" role="button" aria-pressed="${grp === g}" href="${link('gruppo', g)}">${l}</a>`).join('')}</div>` : ''}
     <div style="margin-top:var(--s-3)">${haveFilter(have, (v) => link('have', v), { yes: 'Trovati', no: 'Da trovare' })}</div>
     <div class="filters" style="margin-top:var(--s-2)">
@@ -101,7 +102,7 @@ function stickerSheet(c) {
 }
 
 function checklist(list, st) {
-  if (!list.length) return `<div class="placeholder"><strong>Ancora nessuna voce</strong>Di questa categoria non si sa ancora dove siano i pezzi: la lista si riempie giocando (Appunti → Pacchetto per Claude).</div>`;
+  if (!list.length) return `<div class="placeholder"><strong>Ancora nessuna voce</strong>Di questa categoria le guide non hanno ancora pubblicato le posizioni: le aggiungiamo appena escono.</div>`;
   return list.map((c) => { const done = !!st.collectibles[c.id]; return `
     <button type="button" class="check check--rich check--open" data-done="${done}" data-col-open="${esc(c.id)}">
       <span class="check__box" aria-hidden="true"><i><svg><use href="#i-check"/></svg></i></span>

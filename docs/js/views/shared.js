@@ -117,7 +117,7 @@ export function missionActLabel(m) {
   return a ? a.title : '';
 }
 export function hero(item, { kicker = '', title = '', lede = '', chips = '' } = {}) {
-  const img = item.image;
+  const img = item.image || item.imageUrl;
   return `<div class="hero ${img ? '' : 'hero--text'}">
     ${img ? `<img src="${esc(img)}" ${item.imageUrl && item.imageUrl !== img ? `data-fallback="${esc(item.imageUrl)}"` : ''} alt="">` : ''}
     ${img ? '<div class="hero__veil"></div>' : ''}
@@ -169,3 +169,15 @@ export function haveFilter(current, href, { yes = "Ce l'ho", no = 'Mi mancano', 
   return `<div class="segmented havefilter" role="group" aria-label="Filtro">${opt('', 'Tutti')}${opt('si', yes, counts?.[0])}${opt('no', no, counts?.[1])}</div>`;
 }
 export const passHave = (have, ok) => !have || (have === 'si' ? ok : !ok);
+
+/** Iniziali colorate al posto della foto che non c'è */
+const HUES = [340, 24, 174, 265, 200, 48, 300, 120];
+export const monoParts = (x) => ({ h: HUES[[...x.id].reduce((a, c) => a + c.charCodeAt(0), 0) % HUES.length], ini: x.name.split(/[\s(]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase() });
+export const monogram = (x) => { const { h, ini } = monoParts(x); return `<span class="monogram" style="--h:${h}">${esc(ini)}</span>`; };
+/** Volto di un personaggio (o logo di una voce): foto locale, altrimenti quella online (`imageUrl`), altrimenti le iniziali.
+ *  Se la foto non si carica, app.js mette le iniziali al suo posto (data-mono). */
+export function face(x, { cls = '', lazy = true, alt = '' } = {}) {
+  const src = x.image || x.imageUrl; if (!src) return monogram(x);
+  const { h, ini } = monoParts(x);
+  return `<img ${cls ? `class="${cls}" ` : ''}src="${esc(src)}" ${x.image && x.imageUrl && x.imageUrl !== x.image ? `data-fallback="${esc(x.imageUrl)}" ` : ''}data-mono="${esc(ini)}" data-hue="${h}" alt="${esc(alt)}"${lazy ? ' loading="lazy"' : ''}>`;
+}
