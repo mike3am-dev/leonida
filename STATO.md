@@ -41,18 +41,19 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 5. **Un «social» dentro l'app** (Mike, 19/11 sera): uno spazio dove la banda si scrive e condivide, oltre a classifica e Scatti. Mike manda uno screenshot di Lollo come esempio: aspettarlo prima di progettare. Si appoggia a Supabase come banda e scatti (funzioni RPC, tabelle chiuse da RLS); attenzione agli spoiler (stesso scudo degli Scatti) e a chi può cancellare cosa.
 6. **Bug grafici sugli iPhone «normali»** (non il Duo di Mike, che si apre a 703×1000): li segnala Mike con gli screenshot. Prima di ogni rilascio provare anche a 390×844 e 375×667, oltre a 430×932.
 7. **Snellire le icone della barra** (Mike, 19/11 sera): troppe icone. Da chiarire con Mike quale barra intende (la barra in basso con le sezioni, oppure la barra in alto con pallino/nick, versione, cerca, impostazioni) e quali voci tenere in vista e quali spostare in «Altro».
-8. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
+8. **Mike admin degli Scatti** (Mike, 19/11 sera): come amministratore Mike deve poter cancellare qualsiasi foto della galleria, non solo le sue (oggi `scatto_togli` nasconde solo le foto dell'autore, e il file resta nel bucket). Idea: elenco di email admin in una tabella chiusa o nella funzione SQL; `scatto_togli` e `commento_togli` accettano anche l'admin; nell'app il tasto «Togli» compare a lui su ogni foto e ogni commento. Per cancellare anche il file serve la chiave segreta, che non deve mai stare nell'app: si fa con una funzione SQL `security definer` che cancella da `storage.objects`, oppure Mike svuota dal pannello Storage. Attenzione: l'accesso è solo con l'email, quindi chiunque scriva l'email di Mike diventa admin. Prima di farlo serve un controllo in più (un codice admin scelto da Mike, mai in chat).
+9. **Trofei PSN automatici** con Supabase e il codice NPSSO di Mike (idea già approvata; il codice Mike lo mette da solo, mai in chat).
 
 **Contenuti da riempire (giro di caccia ogni 12 ore, solo col sì di Mike; dettagli e fonti in `scripts/caccia/README.md`, «Cosa manca alla fine del giro del 19/11 pomeriggio»)**
-9. Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
-10. Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
-11. Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
-12. Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
-13. Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
+10. Missioni: soluzioni dei capitoli 4-5 e 11 missioni senza passi; seconda fonte per il capitolo 3; titoli italiani.
+11. Trofei: metodo di 4 segreti (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
+12. Collezionabili: fenicotteri, stili, animali (e gli 8 di Bret), scoperte subacquee, 4 riviste, 5 murales 1010, 1 salto, 3 carte.
+13. Arsenale: prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; veicoli «Standout»; 18 `imageUrl` ancora su Fandom.
+14. Personaggi: resto del cast, 35 ritratti, schede dei capitoli 4-5. Radio: 13 loghi, scalette di The Vault e The Sniper of La Perle.
 
 **Tecnico**
-14. Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
-15. Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
+15. Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
+16. Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
 
 ## 4b. Cosa è cambiato nella v0.16.0
 - Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
