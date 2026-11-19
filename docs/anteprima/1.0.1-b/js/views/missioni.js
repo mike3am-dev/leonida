@@ -78,7 +78,7 @@ function index() {
     : nx ? `<button class="btn btn--solid" type="button" data-start-mission="${esc(nx.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia la prossima</button>` : '';
 
   return `${sectionHead(section, `${totalDone} fatte`)}
-    ${db.synopsis ? `<blockquote class="synopsis"><span class="kicker kicker--accent">La storia</span><p>${esc(db.synopsis)}</p><span class="chips">${statusChip({ status: 'verificato' })}</span></blockquote>` : ''}
+    ${recap(missions, st)}
     <div class="storyboard"><div class="storyboard__ring">${ringHtml(chapterPct, curLabel, '')}</div>
       <div class="storyboard__text"><span class="kicker kicker--accent">${esc(curLabel)}${cs.started && cur.title.replace(/^Capitolo \d+:\s*/, '') !== cur.title ? ' · ' + esc(cur.title.replace(/^Capitolo \d+:\s*/, '')) : ''}</span>
         <h2>${curMission ? esc(curMission.title) : cs.list.length ? (cs.complete ? 'Capitolo completato' : `${left} mission${left === 1 ? 'e' : 'i'} da fare`) : 'In arrivo'}</h2>
@@ -98,25 +98,52 @@ function index() {
         <button class="acc__btn chapter__btn" type="button" aria-expanded="${isCur}">
           <span class="chapter__num" aria-hidden="true">${pad2(a.number)}</span><span class="chapter__text"><span class="chapter__title">${esc(title)}</span><span class="chapter__meta">${off ? 'in arrivo' : `${c.done} di ${c.list.length}${c.complete ? ' · completato' : ''}`}</span>${off || !c.started ? '' : `<span class="progress"><i style="--p:${p}%"></i></span>`}</span>
           <span class="chapter__pct">${off || !c.started ? '' : p + '%'}</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-        <div class="acc__body">${c.started || isCur || !shield ? chapterMissables(a, st, shield, isCur) : ''}${off ? `<p class="small muted" style="padding:var(--s-2) 0 var(--s-3)">${esc(db.actsNote || 'Capitolo segnaposto.')}</p>` : ''}${c.list.map((m, i) => {
-          const s = st.missions[m.id]?.state;
-          const shown = !!s || !shield;
-          const isNext = nx && nx.id === m.id;
-          const end = s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : isNext ? '' : '<svg aria-hidden="true" style="color:var(--ink-3)"><use href="#i-lock"/></svg>';
-          return row({ href: `#/missioni/${m.id}`, num: String(i + 1), done: s === 'completata', end,
-            title: shown ? esc(m.title) : isNext ? '<b>La prossima</b>' : '<span class="muted">Bloccata</span>',
-            meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.protagonist ? ' · ' + esc({ jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason & Lucia' }[m.protagonist]) : ''}${s === 'in-corso' ? ' · in corso' : ''}` : isNext ? (warnings(m, 'before').length ? '⚠ Prima leggi l\'avviso' : 'Tocca per iniziarla') : '' });
-        }).join('')}${(() => {
+        <div class="acc__body">${off ? `<p class="small muted" style="padding:var(--s-2) 0 var(--s-3)">${esc(db.actsNote || 'Capitolo segnaposto.')}</p>` : ''}${c.list.length ? `<ol class="mlist">${c.list.map((m, i) => missionRow(m, { n: i + 1, state: st.missions[m.id]?.state, next: nx && nx.id === m.id })).join('')}</ol>` : ''}${(() => {
           const side = vis(db.sideMissions || []).filter((m) => m.actId === a.id);
-          if (!side.length || (!c.started && shield)) return '';
-          return `<p class="kicker side-head">Facoltative e compiti · ${side.filter((m) => st.missions[m.id]?.state === 'completata').length} di ${side.length}</p>` + side.map((m, i) => {
-            const s = st.missions[m.id]?.state; const shown = !!s || !shield;
-            return row({ href: `#/missioni/${m.id}`, num: '·', done: s === 'completata', end: s === 'completata' ? '<svg aria-hidden="true" style="color:var(--teal)"><use href="#i-check"/></svg>' : s === 'in-corso' ? '<span class="follow-bar__dot" aria-hidden="true"></span>' : '',
-              title: shown ? esc(m.title) : `<span class="muted">${m.kind === 'compito' ? 'Compito' : 'Facoltativa'} ${i + 1}</span>`,
-              meta: shown ? `${esc(byId(m.districtId)?.name || '')}${m.missable ? ' · si può perdere' : ''}` : (m.missable ? 'Si può perdere a fine capitolo' : 'Si scopre quando la inizi') });
-          }).join('');
+          if (!side.length || (!c.started && !isCur && shield)) return '';
+          return `<p class="kicker side-head">Facoltative e compiti · ${side.filter((m) => st.missions[m.id]?.state === 'completata').length} di ${side.length}</p><ol class="mlist mlist--side">${side.map((m, i) => missionRow(m, { n: i + 1, state: st.missions[m.id]?.state, side: true })).join('')}</ol>`;
         })()}</div></div>`; }).join('')}</div>
     ${db.actsExtras?.length ? `<div class="block"><span class="kicker">Indiscrezioni sulla struttura</span>${spoiler.wrap({ spoilerLevel: 9 }, extrasHtml({ extras: db.actsExtras }))}</div>` : ''}`;
+}
+
+/** Titolo come nel gioco in italiano, con l'originale inglese tra parentesi (se diverso) */
+export const titleHtml = (m) => `${esc(m.title)}${m.titleEn && m.titleEn !== m.title ? ` <span class="title-en">(${esc(m.titleEn)})</span>` : ''}`;
+const WHO = { jason: 'Jason', lucia: 'Lucia', entrambi: 'Jason e Lucia' };
+
+/** Una riga dell'elenco: numero, titolo in chiaro (se il capitolo è raggiunto), zona e protagonista, e lo stato detto a parole */
+function missionRow(m, { n, state, next = false, side = false }) {
+  const named = spoiler.missionNamed(m);
+  const cls = state === 'completata' ? 'is-done' : state === 'in-corso' ? 'is-cur' : next ? 'is-next' : '';
+  const tag = state === 'in-corso' ? '<span class="mrow__tag mrow__tag--cur"><i aria-hidden="true"></i>In corso</span>' : next ? '<span class="mrow__tag mrow__tag--next">La prossima</span>'
+    : state === 'completata' ? '<span class="mrow__tag mrow__tag--done"><svg aria-hidden="true"><use href="#i-check"/></svg>Fatta</span>' : '';
+  const kind = side ? (m.kind === 'compito' ? 'Compito' : 'Facoltativa') : '';
+  const meta = named ? [kind, byId(m.districtId)?.name, WHO[m.protagonist], m.missable ? 'si può perdere' : ''].filter(Boolean).join(' · ') : (side ? 'Si scopre giocando' : 'Capitolo non ancora raggiunto');
+  return `<li><a class="mrow ${cls}" href="#/missioni/${esc(m.id)}" ${state === 'in-corso' ? 'aria-current="true"' : ''}>
+      <span class="mrow__n" aria-hidden="true">${side ? '·' : n}</span>
+      <span class="mrow__text"><span class="mrow__title">${named ? titleHtml(m) : `<span class="muted">${side ? `${kind} ${n}` : `Missione ${n}`}</span>`}</span>${meta ? `<span class="mrow__meta">${esc(meta)}</span>` : ''}</span>
+      ${tag}<svg class="mrow__go" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>`;
+}
+
+/** «Dove eravamo rimasti»: cosa è successo nelle ultime missioni fatte (solo quelle fatte: niente spoiler).
+ *  Chi non ha ancora iniziato vede la presentazione ufficiale della storia. */
+function recap(missions, st) {
+  const done = missions.filter((m) => st.missions[m.id]?.state === 'completata');
+  if (!done.length) return db.synopsis ? `<blockquote class="synopsis"><span class="kicker kicker--accent">La storia</span><p>${esc(db.synopsis)}</p></blockquote>` : '';
+  const last = done[done.length - 1], before = done.slice(-4, -1).reverse();
+  const dot = (t) => (/[.!?…]$/.test(t) ? t : t + '.');   // «Chi dorme…» ha già la sua punteggiatura
+  const first = (t) => { const i = String(t || '').search(/[.!?](\s|$)/); return i > 0 ? t.slice(0, i + 1) : (t || ''); };
+  return `<section class="recap"><span class="kicker kicker--accent">Dove eravamo rimasti</span>
+      <p class="recap__last"><b>${esc(dot(last.title))}</b> ${esc(last.summary || '')}</p>
+      ${before.length ? `<details class="recap__more"><summary>Prima ancora</summary><ul>${before.map((m) => `<li><b>${esc(dot(m.title))}</b> ${esc(first(m.summary))}</li>`).join('')}</ul></details>` : ''}
+    </section>`;
+}
+
+/** Consigli della missione: quelli che anticipano la trama iniziano con «[spoiler] » nei dati e restano sotto l'inchiostro */
+function tipsHtml(m) {
+  const tips = (m.tips || []).filter((t) => typeof t === 'string' && t.trim());
+  if (!tips.length) return '';
+  return `<div class="notebook__part notebook__tips"><span class="kicker">Consigli prima di partire</span><ul>${tips.map((t) => (t.startsWith('[spoiler]')
+    ? `<li class="is-spoiler">${spoiler.ink(esc(t.replace(/^\[spoiler\]\s*/, '')), { inline: true })}</li>` : `<li>${esc(t)}</li>`)).join('')}</ul>${tips.some((t) => t.startsWith('[spoiler]')) ? '<p class="small muted">I consigli coperti anticipano qualcosa della missione: toccali solo se vuoi saperlo prima.</p>' : ''}</div>`;
 }
 
 /* Platino: cose da fare PRIMA di questa missione (punto di non ritorno), senza spoiler */
@@ -130,7 +157,7 @@ function warnings(m, phase = 'any') {
 function warnHtml(m, phase = 'any') {
   const w = warnings(m, phase);
   if (!w.length) return '';
-  return `<div class="warnbox ${w.some((x) => x.ponr) ? 'warnbox--ponr' : ''}" role="note"><b>${w.some((x) => x.ponr) ? 'Punto di non ritorno' : 'Prima di proseguire'}</b><ul>${w.map((x) => `<li>${esc(x.text)}${x.trophy ? ` <span class="small muted">· trofeo «${esc(x.trophy)}»</span>` : ''}</li>`).join('')}</ul></div>`;
+  return `<div class="warnbox ${w.some((x) => x.ponr) ? 'warnbox--ponr' : ''}" role="note"><b>${w.some((x) => x.ponr) ? 'Da non perdere · punto di non ritorno' : 'Da non perdere in questa missione'}</b><ul>${w.map((x) => `<li>${esc(x.text)}${x.trophy ? ` <span class="small muted">· trofeo «${esc(x.trophy)}»</span>` : ''}</li>`).join('')}</ul></div>`;
 }
 
 /* Timbro «Scelta senza ritorno» */
@@ -154,6 +181,7 @@ function notebook(m) {
       ${contact ? `<div><span class="kicker">Chi te la dà</span><b>${contact}</b></div>` : ''}
       ${d ? `<div><span class="kicker">Dove</span><b>${esc(d.name)}</b></div><a class="btn btn--ghost btn--sm" href="#/mappa?zona=${esc(d.id)}"><svg aria-hidden="true"><use href="#i-map"/></svg>Mappa</a>` : ''}
     </div>` : ''}
+    ${tipsHtml(m)}
     <div class="notebook__part"><span class="kicker">Cosa devi fare</span>
       ${obj.length ? obj.map((o, i) => checkHtml(m.id, `obj-${i + 1}`, o, !!ex[`obj-${i + 1}`])).join('') : '<p class="small muted">Nessuna guida ha ancora pubblicato i passi di questa missione: li aggiungiamo appena escono.</p>'}
     </div>
@@ -194,7 +222,7 @@ function detail(m) {
   const unlNames = [...new Set(unl.map((u) => (typeof u === 'string' ? u : u.label || (u?.type === 'mission' && byId(u.ref) ? byId(u.ref).title : ''))).filter(Boolean))];
   return `
     ${backLink('/missioni', 'Missioni')}
-    ${hero(m, { kicker: `${pl.act} · ${pl.side ? pl.side : pl.i + ' di ' + pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, lede: m.titleEn && m.titleEn !== m.title ? `In inglese: ${m.titleEn}` : '', chips: statusChip(m) + protagonistChip(m.protagonist) })}
+    ${hero(m, { kicker: `${pl.act} · ${pl.side ? pl.side : pl.i + ' di ' + pl.n}${district ? ' · ' + district.name : ''}`, title: m.title, lede: m.titleEn && m.titleEn !== m.title ? `(${m.titleEn})` : '', chips: statusChip(m) + protagonistChip(m.protagonist) })}
     ${state === 'completata' ? `<div class="passed">
         <span class="passed__title">Missione compiuta</span>
         <div class="actions">${next ? (st.missions[next.id]?.state ? `<a class="btn btn--solid" href="#/missioni/${esc(next.id)}">Vai alla prossima</a>` : `<button class="btn btn--solid" type="button" data-start-mission="${esc(next.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia la prossima</button>`) : ''}<a class="btn btn--ghost" href="#/missioni">Torna alle missioni</a></div>
@@ -209,7 +237,7 @@ function detail(m) {
     </div>
     <p class="small muted"><button type="button" class="linkbtn" data-mission="${esc(m.id)}" data-set="">Non la sto giocando</button></p>` : state === 'completata' ? `<div class="actions"><button class="btn btn--ghost" type="button" data-action="note" data-mission-ctx="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>` : ''}
     ${m.rewards?.length ? `<div class="block"><span class="kicker">Ricompense</span><div class="prose">${list(m.rewards)}</div></div>` : ''}
-    ${m.tips?.length ? `<div class="block"><span class="kicker">Consigli</span><div class="prose">${list(m.tips)}</div></div>` : ''}
+    ${(() => { const a = db.acts.find((x) => x.id === m.actId); return a ? chapterMissables(a, st, progress.settings().spoilerShield, false, { title: a.number === 0 ? 'Da non perdere nel Prologo' : `Da non perdere nel capitolo ${a.number}`, skipMission: m.id }) : ''; })()}
     ${m.secrets?.length ? `<div class="block"><span class="kicker">Segreti</span><div class="prose">${spoiler.ink(list(m.secrets))}</div></div>` : ''}
     ${reqs.length || unlNames.length ? `<p class="small muted mission-links">${reqs.length ? `Dopo: ${reqs.map((p) => `<a href="#/missioni/${esc(p.id)}">${esc(spoiler.missionName(p, 'una missione precedente'))}</a>`).join(', ')}.` : ''} ${unlNames.length ? `Sblocca: ${unlNames.map(esc).join(', ')}.` : ''}</p>` : ''}
 `;
@@ -231,7 +259,7 @@ function dnpText(text) {
   const m = /^(.{24,}?[.!?])\s+(?=[A-ZÀ-Ý«])([\s\S]+)$/.exec(String(text || ''));
   return m ? `<span class="dnp__lead">${esc(m[1])}</span><span class="dnp__rest">${esc(m[2])}</span>` : `<span class="dnp__lead">${esc(text)}</span>`;
 }
-function chapterMissables(a, st, shield, cur = false) {
+function chapterMissables(a, st, shield, cur = false, { title = 'Da non perdere', skipMission = null } = {}) {
   const n = a.number;
   const due = [], inMission = [], later = [], past = [];
   (a.missables || []).forEach((x, i) => {
@@ -254,6 +282,7 @@ function chapterMissables(a, st, shield, cur = false) {
   const WHEN = { 'prima di iniziare': 'Prima di iniziarla', durante: 'Durante la missione', 'fine capitolo': 'Prima di chiudere il capitolo' };
   const all = [...vis(db.missions || []), ...vis(db.sideMissions || [])].filter((m) => m.actId === a.id);
   for (const m of all) {
+    if (m.id === skipMission) continue;   // gli avvisi di questa missione sono già in cima alla sua pagina
     const state = st.missions[m.id]?.state, known = !!state || !shield;
     for (const w of m.missables || []) {
       const o = { kind: w.ponr ? 'ponr' : 'missione', when: WHEN[w.when] || '', trophy: w.trophy || '', done: state === 'completata' };
@@ -275,7 +304,7 @@ function chapterMissables(a, st, shield, cur = false) {
   const bits = [due.filter((x) => !x.done).length && `${due.filter((x) => !x.done).length} ${due.filter((x) => !x.done).length === 1 ? 'scadenza' : 'scadenze'}`, (inMission.length + later.length) && `${inMission.length + later.length} nelle missioni`, done && `${done} ${done === 1 ? 'fatta' : 'fatte'}`].filter(Boolean).join(' · ');
   return `<details class="dnp" data-dnp="${esc(a.id)}" ${dnpOpen(a.id, cur) ? 'open' : ''}>
     <summary><span class="dnp__mark" aria-hidden="true"><svg><use href="#i-alert"/></svg></span>
-      <span class="dnp__headtext"><span class="dnp__title">Da non perdere</span><span class="dnp__sub">${esc(bits || 'Tutto fatto')}</span></span>
+      <span class="dnp__headtext"><span class="dnp__title">${esc(title)}</span><span class="dnp__sub">${esc(bits || 'Tutto fatto')}</span></span>
       <span class="dnp__meter" aria-hidden="true"><i style="width:${total ? (done / total) * 100 : 0}%"></i></span>
       <span class="dnp__n" aria-label="${todo} da fare">${todo}</span><svg class="dnp__chev" aria-hidden="true"><use href="#i-arrow"/></svg></summary>
     <div class="dnp__body">

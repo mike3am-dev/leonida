@@ -2245,3 +2245,41 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .home-hero__done:hover { background: rgba(255,255,255,.24); }
 .acct__admin { margin-top: var(--s-3); }
 .home-hero--story .home-hero__veil { background: linear-gradient(180deg, rgba(11,10,15,.1) 0%, rgba(11,10,15,0) 28%, rgba(11,10,15,.62) 58%, rgba(11,10,15,.96) 100%), linear-gradient(20deg, rgba(255,61,139,.4), transparent 45%); }
+
+/* Missioni: elenco con i titoli in chiaro e lo stato detto a parole (v1.0.1) */
+.title-en { font-family: var(--font-text); font-style: normal; font-weight: 400; font-size: .82em; color: var(--ink-3); white-space: nowrap; }
+.hero .title-en { color: inherit; opacity: .75; }
+.mlist { list-style: none; margin: var(--s-2) 0 0; padding: 0; display: grid; gap: 6px; }
+.mrow { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto 18px; align-items: center; gap: var(--s-3); min-height: 60px; padding: 10px var(--s-3); border-radius: 12px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); text-decoration: none; }
+.mrow__n { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1rem; color: var(--ink-2); background: var(--rule); }
+.mrow__text { min-width: 0; display: grid; gap: 2px; }
+.mrow__title { font-weight: 650; font-size: var(--fs-md); line-height: 1.25; }
+.mrow__meta { font-size: var(--fs-sm); color: var(--ink-3); }
+.mrow__go { width: 18px; height: 18px; color: var(--ink-3); }
+.mrow__tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: var(--fs-xs); font-weight: 700; white-space: nowrap; }
+.mrow__tag svg { width: 13px; height: 13px; }
+.mrow__tag--done { color: var(--teal); background: color-mix(in srgb, var(--teal) 14%, transparent); }
+.mrow__tag--cur { color: #fff; background: var(--magenta); }
+.mrow__tag--cur i { width: 7px; height: 7px; border-radius: 50%; background: #fff; }
+.mrow__tag--next { color: var(--ink); border: 1px solid var(--rule-strong); }
+.mrow.is-done { background: transparent; }
+.mrow.is-done .mrow__title { color: var(--ink-2); font-weight: 500; }
+.mrow.is-done .mrow__n { background: color-mix(in srgb, var(--teal) 16%, transparent); color: var(--teal); }
+.mrow.is-cur { border: 2px solid var(--magenta); background: color-mix(in srgb, var(--magenta) 10%, var(--paper)); box-shadow: 0 6px 22px -10px var(--magenta); min-height: 72px; }
+.mrow.is-cur .mrow__n { background: var(--magenta); color: #fff; }
+.mrow.is-cur .mrow__title { font-size: var(--fs-lg); }
+.mrow.is-next { border-color: var(--rule-strong); }
+.mlist--side .mrow { min-height: 52px; }
+.mlist--side .mrow__n { background: transparent; border: 1px dashed var(--rule-strong); }
+@container (max-width: 420px) { .mrow { grid-template-columns: 30px minmax(0, 1fr) 16px; } .mrow__n { width: 30px; height: 30px; font-size: .9rem; } .mrow__tag { grid-column: 2; grid-row: 2; justify-self: start; } .mrow__go { grid-column: 3; grid-row: 1 / span 2; } }
+/* «Dove eravamo rimasti» */
+.recap { margin: 0 0 var(--s-4); padding: var(--s-4); border-radius: var(--radius); background: var(--paper); border: 1px solid var(--rule); }
+.recap__last { margin: 6px 0 0; font-size: var(--fs-md); line-height: 1.5; color: var(--ink); max-width: 68ch; }
+.recap__more { margin-top: var(--s-3); }
+.recap__more summary { cursor: pointer; font-size: var(--fs-sm); font-weight: 600; color: var(--ink-2); min-height: 32px; }
+.recap__more ul { margin: var(--s-2) 0 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: var(--fs-sm); color: var(--ink-2); line-height: 1.45; }
+/* Consigli dentro il taccuino, prima dei passi */
+.notebook__tips ul { margin: var(--s-2) 0 0; padding-left: 1.15em; display: grid; gap: 8px; line-height: 1.45; }
+.notebook__tips li.is-spoiler { list-style: none; margin-left: -1.15em; }
+/* I due pulsanti della copertina della Home sono grandi uguali */
+.home-hero__actions { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
