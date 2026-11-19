@@ -32,7 +32,7 @@ import * as banda from './views/banda.js';
 import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'prova 1.1-d';
+window.__LEONIDA_VERSION__ = 'prova 1.1-e';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -97,6 +97,14 @@ const views = {
 };
 for (const [pattern, fn] of Object.entries(views)) router.register(pattern, fn);
 
+/** Sui telefoni, dentro una sezione di gioco: al posto di «GTA VI» c'è «‹ Game», che riporta sempre ai tasselli */
+function gameBack(path) {
+  const mh = $('masthead'); let b = mh.querySelector('.mh-back');
+  const show = !isOpen() && path !== '/game' && game.isGamePath(path);
+  if (show && !b) { b = document.createElement('a'); b.className = 'mh-back'; b.href = '#/game'; b.innerHTML = '<svg aria-hidden="true"><use href="#i-back"/></svg><span>Game</span>'; mh.prepend(b); }
+  if (b) b.hidden = !show;
+  mh.classList.toggle('has-back', show);
+}
 function followBar() {
   const bar = $('follow-bar');
   const id = progress.get().current.missionId;
@@ -201,7 +209,7 @@ function render(match, { dir, refresh } = {}) {
   { // la barra in basso mantiene lo scorrimento e porta in vista la sezione attiva
     const prevX = $('tabbar').querySelector('[data-tabtrack]')?.scrollLeft || 0;
     $('tabbar').innerHTML = navHtml(match.path, false);
-    game.remember(match.path);
+    gameBack(match.path);
     const tr = $('tabbar').querySelector('[data-tabtrack]');
     if (tr) { tr.scrollLeft = prevX; const a = tr.querySelector('[aria-current="page"]'); if (a && (a.offsetLeft < tr.scrollLeft || a.offsetLeft + a.offsetWidth > tr.scrollLeft + tr.clientWidth)) tr.scrollTo({ left: a.offsetLeft - (tr.clientWidth - a.offsetWidth) / 2, behavior: 'smooth' }); }
   }
@@ -290,6 +298,7 @@ function bindGlobal() {
     if (sOk && dx > 80 && dy < 60 && dx > dy * 2 && Date.now() - st < 800) {
       const sheet = document.querySelector('.sheet-backdrop');
       if (sheet) { sheet.click(); }
+      else if (!isOpen()) { /* sui telefoni le pagine non tornano indietro con lo scorrimento (Mike, 19/11): c'è «‹ Game» in alto */ }
       else { const back = document.querySelector('#dossier .back-link') || document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') { if (navCount > 0) history.back(); else location.hash = !isOpen() && game.isGamePath(location.hash.slice(1).split('?')[0]) && location.hash !== '#/game' ? '#/game' : '#/'; } }
     }
     sx = null;
