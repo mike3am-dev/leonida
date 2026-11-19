@@ -3609,11 +3609,6 @@
       "for": "veh-berlina-stile-buick-regal"
     },
     {
-      "file": "veicoli/veh-berlina-stile-buick-skylark.jpg",
-      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/skylark.jpg",
-      "for": "veh-berlina-stile-buick-skylark"
-    },
-    {
       "file": "veicoli/veh-berlina-stile-chevrolet-impala-2014.jpg",
       "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/impala.jpg",
       "for": "veh-berlina-stile-chevrolet-impala-2014"
@@ -3637,11 +3632,6 @@
       "file": "veicoli/veh-berlina-compatta-stile-volkswagen-jetta.jpg",
       "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/jetta.jpg",
       "for": "veh-berlina-compatta-stile-volkswagen-jetta"
-    },
-    {
-      "file": "veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
-      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg",
-      "for": "veh-berlina-sportiva-stile-audi-rs7"
     },
     {
       "file": "veicoli/veh-bravado-bison-1800.png",
@@ -3704,11 +3694,6 @@
       "for": "veh-catamarano-a-motore-stile-horizon-pc60"
     },
     {
-      "file": "veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
-      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg",
-      "for": "veh-compatta-stile-chevrolet-sonic"
-    },
-    {
       "file": "veicoli/veh-coup-stile-lincoln-mark-viii.jpg",
       "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/mark-viii-2.jpg",
       "for": "veh-coup-stile-lincoln-mark-viii"
@@ -3717,11 +3702,6 @@
       "file": "veicoli/veh-coup-stile-mercedes-cle.jpg",
       "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/mercedes-cle-a236.jpg",
       "for": "veh-coup-stile-mercedes-cle"
-    },
-    {
-      "file": "veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
-      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg",
-      "for": "veh-coup-cabrio-stile-buick-reatta"
     },
     {
       "file": "veicoli/veh-coup-classica-stile-cadillac-eldorado-19.jpg",
@@ -3757,11 +3737,6 @@
       "file": "veicoli/veh-dundreary-police-landstalker-xl.jpg",
       "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/landstalker-x-l-police.jpg",
       "for": "veh-dundreary-police-landstalker-xl"
-    },
-    {
-      "file": "veicoli/veh-furgone-stile-ford-econoline.png",
-      "url": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/ford-econoline.png",
-      "for": "veh-furgone-stile-ford-econoline"
     },
     {
       "file": "veicoli/veh-furgone-stile-ford-transit.jpg",
@@ -5302,6 +5277,31 @@
       "file": "vice/personaggi/chr-ms-sharleen.png",
       "url": "https://gta.wiki/images/thumb/MsSharleen-GTAVI-Portrait.png/600px-MsSharleen-GTAVI-Portrait.png?74e33",
       "for": "chr-ms-sharleen"
+    },
+    {
+      "file": "veicoli/veh-invetero-coquette-64.png",
+      "url": "https://gta.wiki/images/thumb/CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png/600px-CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png?eac0e",
+      "for": "veh-invetero-coquette-64"
+    },
+    {
+      "file": "veicoli/veh-sirius-sungrazer-61.png",
+      "url": "https://gta.wiki/images/thumb/Sungrazer-GTAVI-FrontQuarter.png/600px-Sungrazer-GTAVI-FrontQuarter.png?e3cd7",
+      "for": "veh-sirius-sungrazer-61"
+    },
+    {
+      "file": "veicoli/veh-willard-trotter-95.png",
+      "url": "https://gta.wiki/images/thumb/Trotter1995-GTAVI-FrontQuarter.png/600px-Trotter1995-GTAVI-FrontQuarter.png?21cc7",
+      "for": "veh-willard-trotter-95"
+    },
+    {
+      "file": "veicoli/veh-rugger-fortune.png",
+      "url": "https://gta.wiki/images/UnnamedShrimpBoat-GTAVI-Trailer1.png?f8eb6",
+      "for": "veh-rugger-fortune"
+    },
+    {
+      "file": "veicoli/veh-shift-e-fan-e.png",
+      "url": "https://gta.wiki/images/thumb/UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png/600px-UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png?b372f",
+      "for": "veh-shift-e-fan-e"
     }
   ],
   "zip": {
