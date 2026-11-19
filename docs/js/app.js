@@ -280,6 +280,8 @@ function bindGlobal() {
   });
   // Swipe verso destra, da qualsiasi punto della pagina = indietro (tutta l'app).
   // Si ignora se il dito parte da un elemento che scorre in orizzontale (gallerie, filtri, mappa).
+  // Se la guida è stata aperta direttamente su una sezione non c'è una «pagina prima»: sul telefono si torna ai tasselli di Game
+  let navCount = 0; addEventListener('hashchange', () => { navCount++; });
   let sx = null, sy = null, st = 0, sOk = false;
   const scrollsX = (el) => { for (let n = el; n && n !== document.body; n = n.parentElement) { if (n.scrollWidth > n.clientWidth + 4 && /auto|scroll/.test(getComputedStyle(n).overflowX)) return true; } return false; };
   addEventListener('touchstart', (e) => { const t = e.touches[0]; sx = t.clientX; sy = t.clientY; st = Date.now(); sOk = !scrollsX(e.target) && !e.target.closest('input,textarea,select,.map-full,.map-frame,.mapboard,.wheel'); }, { passive: true });
@@ -288,7 +290,7 @@ function bindGlobal() {
     if (sOk && dx > 80 && dy < 60 && dx > dy * 2 && Date.now() - st < 800) {
       const sheet = document.querySelector('.sheet-backdrop');
       if (sheet) { sheet.click(); }
-      else { const back = document.querySelector('#dossier .back-link') || document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') history.back(); }
+      else { const back = document.querySelector('#dossier .back-link') || document.querySelector('.back-link'); if (back) { location.hash = back.getAttribute('href'); } else if (location.hash && location.hash !== '#/' && location.hash !== '') { if (navCount > 0) history.back(); else location.hash = !isOpen() && game.isGamePath(location.hash.slice(1).split('?')[0]) && location.hash !== '#/game' ? '#/game' : '#/'; } }
     }
     sx = null;
   }, { passive: true });

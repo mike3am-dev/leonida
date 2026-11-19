@@ -31,11 +31,11 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 ## 4. Cose da fare (taccuino, aggiornato al 19/11 sera, dopo la v1.0.0)
 Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sezione della versione. **Regola di Mike (19/11 sera): queste voci si segnano e basta; si lavora solo quando lui dice di partire.**
 
-### Dopo la 1.0.1: cose rimaste da confermare
-1. **Mappa su iPhone**: la 1.0.1 alleggerisce le foto (da ~315 a ~37 MB in memoria), ma nessuno l'ha ancora provata su un iPhone vero. Chiedere a Dada (iPhone 16 o 17, iOS 27, app sulla schermata Home) se si chiude ancora. Se sì: togliere il livello composito grande (`translate3d` su `.mapboard__content`) su iOS e usare tessere a risoluzione normale.
-2. **Titoli italiani del capitolo 1**: 6 hanno una fonte sola (`titleNote` nei dati). Mike deve dire cosa legge sulla TV per «Gear Up»: «Armi in spalla» (nostra fonte) o «Preparati» (GTABase.it). Le facoltative del capitolo 1 e i capitoli 2-5 sono ancora quasi tutti in inglese: cercarli nei video dei canali italiani (elenco dei canali nel rapporto del 19/11: IosonoOtakuman, PANZA MARANZA GAMING, Jugin Gamer, ATLAS, Gameataly, Playstream Chronicles; solo feed RSS, i titoli tradotti in automatico da YouTube non valgono).
-3. **Cancellazione vera di una foto**: le funzioni SQL ci sono e rispondono (controllate senza scrivere), ma la cancellazione del file dal bucket non è mai stata provata sul Supabase vero. Mike prova: codice admin in Impostazioni, carica, modifica, cancella; poi si controlla che l'indirizzo pubblico del file non risponda più.
-4. **Consigli e spoiler**: i passi («Cosa devi fare») sono in chiaro per scelta, anche quando raccontano la missione. Se Mike li vuole coperti uno a uno finché non spunta il precedente, è un lavoro a parte.
+### Dopo la 1.0.1: risposte di Mike (19/11 sera)
+1. **Mappa su iPhone**: per Mike va bene così finché Dada non dice altro. Se torna a chiudersi: togliere il livello composito grande (`translate3d` su `.mapboard__content`) su iOS e usare tessere a risoluzione normale.
+2. **Titoli italiani del capitolo 1**: «Armi in spalla» resta, per ora (Mike). 6 titoli hanno una fonte sola (`titleNote`). Facoltative del capitolo 1 e capitoli 2-5 ancora quasi tutti in inglese: cercarli nei feed RSS dei canali italiani (IosonoOtakuman, PANZA MARANZA GAMING, Jugin Gamer, ATLAS, Gameataly, Playstream Chronicles).
+3. **Foto degli Scatti**: per Mike va bene così. La cancellazione del file dal bucket non è stata provata sul Supabase vero: se una foto cancellata resta raggiungibile dal suo indirizzo, guardare le due policy di `scatti-admin.sql`.
+4. **Consigli e spoiler**: i passi («Cosa devi fare») sono in chiaro per scelta.
 
 ### Versione 1.1 (funzioni nuove)
 5. **«Thread»: un social dentro l'app** (idea di Lollo, screenshot di Threads del 19/11). Ognuno scrive impressioni e commenti, mette «mi piace», risponde; un flusso unico con il più recente in alto, come Threads. Per ora **solo testo**. Le foto ci sono già negli Scatti: se un giorno servono anche nei thread, si riusa lo stesso bucket. Peso su Supabase (piano gratuito: 500 MB di database e 1 GB di file): un messaggio di testo pesa circa 1 KB, cioè centinaia di migliaia di messaggi; una foto rimpicciolita circa 300 KB, cioè circa 3.000 foto. Il limite vero sono le foto, non il testo. Stesse regole di banda e Scatti: tabelle chiuse da RLS, funzioni RPC, scudo spoiler (capitolo nel post, sfocato per chi è più indietro), l'autore cancella il suo e l'admin tutto (voce 5).
@@ -269,7 +269,7 @@ Passata da tre anteprime (`1.0.1-a`, `-b`, `-c`); Mike ha detto «pubblica la 1.
 Sul ramo di lavoro, anteprima `1.1-a`. Solo per i telefoni (`html[data-posture="closed"]`): sul Duo aperto la fila a sinistra non cambia.
 - Barra: Home · Game · Social · News (`navHtml` in app.js). Game = tutte le sezioni di gioco (`game.isGamePath`), Social = La banda con gli Scatti (poi i Thread), News = News.
 - Pagina `#/game` (`docs/js/views/game.js`): tassello grande «Riprendi da» (l'ultima sezione di gioco aperta, `localStorage leonida:game:ultima`) e un tassello per sezione con un numero vivo; in fondo Trucchi e Cerca. La pagina «Altro» resta raggiungibile ma non è più nella barra.
-- Da decidere con Mike e Lollo: cosa vuol dire «ogni utente ne sceglie una» (oggi: l'ultima aperta; alternativa: una preferita fissata a mano), se serve un «‹ Game» in cima alle sezioni, dove mettere i Thread.
+- Mike (19/11 sera): va bene così. «Riprendi da» resta l'ultima sezione aperta; niente «‹ Game» in cima; ordine dei tasselli quello della fila del Duo. Per tornare alla pagina prima vale lo scorrimento con il dito verso destra che c'è in tutta l'app (app.js, `touchend`): se la guida è stata aperta direttamente su una sezione, sul telefono porta a `#/game`. I Thread andranno in Social.
 - Corretto insieme: i trattini del capitolo nella pagina Missioni uscivano dal riquadro sugli iPhone.
 
 ## 6. Strumenti e verifiche prima di ogni push
