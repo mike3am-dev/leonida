@@ -48,7 +48,18 @@
 - **gta.wiki**: registro dei caricamenti per trovare i ritratti (`list=logevents&letype=upload`), miniature con `iiurlwidth=600`, categoria `Businesses_in_GTA_VI` (454 aziende), marker di gtasixmap (`…workers.dev/markers`, stesso sistema `xy` dei nostri POI).
 - Da scartare (aggiunte): eGamers.io, games.gg, Music Mundial, cwibc, demokratis; Sportskeeda mai da sola.
 
-## Cosa manca alla fine del giro del 19/11 mattina (da ricontrollare per primo)
+## Cosa manca alla fine del giro del 19/11 pomeriggio (da ricontrollare per primo)
+- **Missioni:** soluzioni dei capitoli 3 (seconda fonte), 4 e 5: nessuna guida le ha (IGN ed Eurogamer sono fermi al capitolo 2); 11 missioni senza passi; «Mandy's Dark Secret» (IGN 404); da verificare Clock Out, Donnie's Lost Drugs, Veteran Hunted, Painkiller Supplier; chi riceve la caccia a Mr. Mangrove (PowerPyx: solo Lucia dal capitolo 2; IGN: Jason dal capitolo 1). Titoli italiani: nessuna fonte.
+- **Trofei:** 4 segreti senza metodo (In principio…, Sfortuna forse, La verità è là fuori, Strike!); 41 sequenze dei trucchi.
+- **Collezionabili:** fenicotteri 22/125, stili 11/79, animali 63/255 (e gli 8 di Bret), scoperte subacquee 6/33 (GameSpot ha una guida ma blocca), riviste 23/27, 5 murales 1010, 1 salto, 3 carte.
+- **Arsenale:** prezzi delle armi comuni e degli accessori; auto 11-22 di Randy; barre di barche e aerei; 281 veicoli «Standout»; candidati con una sola fonte (16 auto IGN, 13 auto e 5 moto DayOne); armi dubbie ancora in elenco (martello, fucile subacqueo, stecca, mazza da minigolf, tanica).
+- **Personaggi:** resto del cast (la pagina dei titoli di coda di Rockstar dà 404), 35 ritratti, schede dei capitoli 4-5.
+- **Radio:** 13 loghi; scalette di The Vault e The Sniper of La Perle; «Radio La Ola» è il nome nel gioco? (solo VGC).
+- **Mappa:** MapGenie ha aperto (`mapgenie.io/grand-theft-auto-6/maps/leonida`) ma le posizioni stanno nel servizio interno: serve il permesso di Mike, come per IGN; nomi di 9 palestre e 5 club; 6 operazioni delle gang; stazioni doppie.
+- **Dubbi aperti:** conti correnti separati (solo GamesRadar); RydeMe dal capitolo 2 (PowerPyx, GamesRadar) o col conto in banca (VGC); Squalo solo nel capitolo 4; Arnold risparmiato vale 10.000 $ (Eurogamer) o niente (IGN); Duke 1992/1922; PD-80/PD-90.
+- **Fonti nuove:** IGN Wiki `Weapons`, `Unique_Weapon_Variants`, `Vehicles` (tabelle dentro `__NEXT_DATA__ → apolloState`, compresse con lz-string), `Stunt_Jumps`, `Knife_Flights`, `BASE_Jumps`, `<Missione>_Walkthrough`, `Illegal_Operations`; GamesRadar e The Big Lead per il cast; VGC per podcast e interviste; Digital Foundry via Kotaku.
+
+## (Storico) Cosa mancava alla fine del giro del 19/11 mattina
 - **Missioni:** passi di 11 missioni (Tyrone, Get Your Wheels, Ocean Beach, Another Life, Tie Up Loose Ends, Rafa's Kidnapping, Heist Plans in Place, Starting From Zero, Taking Liberties, Unfinished Business, The End of the Road) e soluzioni vere di quasi tutti i capitoli 4-5 (16 missioni hanno solo l'obiettivo di partenza: i passi dedotti dai riassunti sono stati tolti). Seconda fonte per il capitolo 3 (oggi solo PowerPyx). Da verificare: Deposit Cash, Save for the Future, Clock Out, Donnie's Lost Drugs, Pick Up a Gun, Impounded Vehicle, Checking Out (chi è in moto). IGN elenca «Mandy's Dark Secret» e «Ring the Bell!» (capitolo 1): pagine ancora vuote. Titoli italiani: nessuna fonte.
 - **Trofei:** metodo dei 5 segreti (nessuna guida); 41 sequenze dei trucchi su 61.
 - **Collezionabili:** salti 24/130, voli tra i palazzi 0/40, lanci 0/25, fenicotteri 22/125, stili 11/79, animali 63/255 (e gli 8 unici di Bret), scoperte subacquee 6/33, riviste 23/27, 5 murales 1010, 3 carte senza posizione.

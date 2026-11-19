@@ -1,10 +1,26 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "0.52.3",
+  "dataVersion": "0.52.4",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "0.52.4",
+      "date": "2026-11-19",
+      "changes": [
+        "Terzo giro, con quello che le guide hanno pubblicato tra mattina e pomeriggio del 19.",
+        "Collezionabili: 105 salti acrobatici nuovi (129 su 130), tutti i 40 voli tra i palazzi e tutti i 25 lanci col paracadute, con il punto preciso.",
+        "Armi: i nomi veri delle 9 armi bianche e dei 4 esplosivi, in quale tipo di Ammu-Nation si compra ogni arma e dove si trovano le varianti uniche. Tolte 8 armi che nel gioco non esistono (venivano dai leak).",
+        "Garage: 11 veicoli nuovi, quanto costa registrare un'auto e quanto rende venderla (41 veicoli).",
+        "Missioni: altre 14 missioni dei capitoli 1 e 2 confermate da una seconda guida, una facoltativa nuova (Ring the Bell!) e cinque correzioni (per esempio: i 15.000 $ prima della fine del capitolo 2 non sono obbligatori).",
+        "Da non perdere, capitolo 1: i 5 lavori di casa di Jason vanno finiti prima che Lucia esca di prigione.",
+        "Trofei: il metodo del trofeo segreto «Corsia preferenziale». Per gli altri quattro segreti nessuna guida ha ancora il metodo.",
+        "Personaggi: gli interpreti di 25 personaggi, dai titoli di coda.",
+        "Come si gioca: salva a mano (il salvataggio automatico non è affidabile), tieni qualche centinaio di dollari in contanti, cosa sblocca il conto in banca.",
+        "News: 11 notizie di oggi. Mappa: 7 punti spostati nella regione giusta e il nome corretto della gang Kolt & Associates."
+      ]
+    },
     {
       "version": "0.52.3",
       "date": "2026-11-19",

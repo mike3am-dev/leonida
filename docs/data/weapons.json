@@ -25,7 +25,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/morgan-revolver",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "caliber": ".44 Magnum",
       "magazine": "6 colpi",
@@ -75,7 +76,9 @@
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_Beretta_92FS-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/girardi-es9",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "9 mm",
       "magazine": "15 colpi",
@@ -86,7 +89,13 @@
         "handling": 8.4,
         "range": 4.4
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Quarter Mile ES9» nell'operazione illegale «Chatfield Storage & Logistics»; «Sand Storm ES9» in vetrina, a caro prezzo, da Big Shots."
+        }
+      ]
     },
     {
       "id": "wpn-klose-k17",
@@ -135,7 +144,9 @@
       "moreSources": [
         "https://gta.wiki/w/Polymer_Pistol",
         "https://www.gtabase.com/weapons/gta-6/klose-k17",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "9 mm",
       "magazine": "17 colpi",
@@ -146,7 +157,13 @@
         "handling": 8.5,
         "range": 3.8
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «PTT Youngin$ K17» nell'operazione illegale «Kamar Devon Community Center»; «San4San K17» nell'operazione illegale «Sound4Sound Studio»; «Nite Raptor K17» in vetrina, a caro prezzo, da Black Eagle. Altre 2 si ottengono con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-mustang-357",
@@ -156,7 +173,7 @@
       "description": "Revolver .357 con più rinculo: fatto per chiudere con un colpo solo.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-mustang-357.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -181,7 +198,9 @@
       ],
       "moreSources": [
         "https://gta.wiki/w/Mustang_.357",
-        "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver"
+        "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": ".357 Magnum",
       "magazine": "6 colpi",
@@ -192,7 +211,13 @@
         "handling": 8.0,
         "range": 5.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Couch Potato Mustang .357» in giro per il mondo (il punto non è ancora indicato); «Honky Tonk Mustang .357» in vetrina, a caro prezzo, da Phil's Ammu-Nation."
+        }
+      ]
     },
     {
       "id": "wpn-nipper-38",
@@ -202,7 +227,7 @@
       "description": "Pistola tascabile: piccola e facile da nascondere.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-nipper-38.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -233,7 +258,9 @@
       ],
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
-        "https://www.gtabase.com/weapons/gta-6/nipper-38"
+        "https://www.gtabase.com/weapons/gta-6/nipper-38",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": ".380",
       "magazine": "8 colpi",
@@ -244,30 +271,13 @@
         "handling": 9.0,
         "range": 3.0
       },
-      "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "id": "wpn-coil-shocker",
-      "name": "Coil Shocker",
-      "manufacturer": "Coil",
-      "class": "pistola",
-      "description": "Lo storditore elettrico.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "facts": [
-        "Storditore: spara un dardo che immobilizza per qualche istante",
-        "C'era già in GTA V; compare nel leak dell'agosto 2026"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/shocker"
-      ],
-      "realModel": "TASER Axon (7, 10 e X26/26P)"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Assassin Nipper .38» con l'enigma «Big War Puzzle» (Spy Boat); «Turnt Nipper .38» vicino a un parapendio precipitato; «Zodiac Nipper .38» nell'operazione illegale di un laboratorio di droga in città. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-duke-556",
@@ -301,12 +311,18 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/service-carbine",
-        "https://gta.wiki/w/Unnamed_GTA_VI_Duke_carbine"
+        "https://gta.wiki/w/Unnamed_GTA_VI_Duke_carbine",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "extras": [
         {
           "source": "community",
           "text": "Il nome Duke Arms 556 non compare a schermo."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Clunker 556» nell'operazione illegale «Brooks Boatworks»; «Cockroach Xtreme 556» in un magazzino di un survivalista (Prepper Storage Unit); «Cold War 556» con l'enigma «Big War Puzzle» (botola segreta); «GRX 556» (Ultimate Edition) nell'operazione illegale «Leonida Carrier Warehouse»; «Kolt & Associates 556» nell'operazione illegale «Stash House»; «Star Spangled 556» in vetrina, a caro prezzo, da Phil's Ammu-Nation. Altre 2 si ottengono con la storia o in altro modo non ancora indicato."
         }
       ],
       "caliber": "5,56×45 mm",
@@ -318,7 +334,7 @@
         "handling": 5.8,
         "range": 6.2
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia"
     },
     {
       "id": "wpn-shrewsbury-akm",
@@ -341,7 +357,9 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/assault-rifle",
-        "https://gta.wiki/w/Assault_Rifle"
+        "https://gta.wiki/w/Assault_Rifle",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "realModel": "AKM / AK-47",
       "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg",
@@ -354,41 +372,12 @@
         "handling": 5.2,
         "range": 6.5
       },
-      "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "id": "wpn-duke-ar15",
-      "name": "Duke Arms AR-15 Carbine",
-      "manufacturer": "Duke Arms",
-      "class": "fucile-assalto",
-      "description": "Carabina.",
-      "howToGet": "Da verificare.",
-      "image": "assets/img/vice/armi/wpn-duke-ar15.webp",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "realModel": "AR-15 (variante), M4A1 Block II",
-      "seenIn": "Screenshot ufficiali",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle-mk-ii.webp",
-      "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Carabina ispirata a una variante dell'AR-15 e all'M4A1 Block II.",
-      "seen": [
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
         {
-          "where": "Video sul sito ufficiale",
-          "what": "Raul Bautista la usa per tenere a bada gli agenti del VCPD (la «Duke special ops carbine»)"
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Drug Mule KZ-59» tra i pacchi di droga in mare; «La Polilla Negra KZ-59» nell'operazione illegale «Palmer Fishing Warehouse»; «Marabunta Grande KZ-59» nell'operazione illegale «Nova Auto Junkyard»; «San4San KZ-59» nell'operazione illegale «Janjak's Garage». Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ],
-      "facts": [
-        "Canna più corta e calcio diverso rispetto all'altra carabina Duke",
-        "Accessori: calcio Magpul MOE, caricatore Magpul PMAG, guardamano Daniel Defense RIS II",
-        "Caricatore da 30 colpi (60 esteso)"
-      ],
-      "moreSources": [
-        "https://gta.wiki/w/Unnamed_GTA_VI_Duke_special_ops_carbine",
-        "https://www.gtabase.com/weapons/gta-6/carbine-rifle-mk-ii"
       ]
     },
     {
@@ -399,7 +388,7 @@
       "description": "Fucile d'assalto modulare e moderno: professionale ed efficace.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-vom-feuer-carbine.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -415,7 +404,9 @@
         "Arma storica della serie: c'era già da GTA III a GTA V"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/carbine-rifle"
+        "https://www.gtabase.com/weapons/gta-6/carbine-rifle",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "5,56×45 mm",
       "magazine": "30 colpi",
@@ -426,7 +417,13 @@
         "handling": 5.8,
         "range": 6.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «La Polilla Negra VF-G1» nell'operazione illegale «Watson Bay Safehouse»."
+        }
+      ]
     },
     {
       "id": "wpn-micro-draco",
@@ -436,7 +433,7 @@
       "description": "Il KZ-59 accorciato: modificato per maneggiarlo negli spazi stretti.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-micro-draco.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -451,7 +448,9 @@
         "C'era già in GTA Online come Compact Rifle"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/compact-rifle"
+        "https://www.gtabase.com/weapons/gta-6/compact-rifle",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "7,62×39 mm",
       "magazine": "30 colpi",
@@ -462,7 +461,13 @@
         "handling": 6.1,
         "range": 4.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Little Cuba Hind» in vetrina, a caro prezzo, da Martez Empeños."
+        }
+      ]
     },
     {
       "id": "wpn-compact-smg",
@@ -472,7 +477,7 @@
       "description": "Mitra compatto a raffica continua, di fabbricazione boema.",
       "howToGet": "Da verificare.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -485,7 +490,9 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/compact-smg",
-        "https://gta.wiki/w/Compact_Submachine_Gun"
+        "https://gta.wiki/w/Compact_Submachine_Gun",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "realModel": "Scorpion (mini SMG)",
       "caliber": "9 mm",
@@ -497,7 +504,13 @@
         "handling": 6.5,
         "range": 4.0
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Chronic Vatra» nell'operazione illegale «Industrial Weed Grow»; «Double Cross Vatra» in giro per il mondo (il punto non è ancora indicato); «Kolt & Associates Vatra» nell'operazione illegale «June Warehouse»; «Spangled Vatra» in vetrina, a caro prezzo, da Jackson Firearms."
+        }
+      ]
     },
     {
       "id": "wpn-mp5",
@@ -507,7 +520,7 @@
       "description": "Il mitra storico delle squadre speciali.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-mp5.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -536,7 +549,9 @@
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_Heckler_%26_Koch_MP5/40-inspired_submachine_gun",
         "https://www.gtabase.com/weapons/gta-6/smg",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "9 mm",
       "magazine": "30 colpi",
@@ -547,7 +562,13 @@
         "handling": 6.7,
         "range": 4.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Crabshack VF5» in giro per il mondo (il punto non è ancora indicato); «Guardia Brothers VF5» nell'operazione illegale «Saber Shipping Facility». Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-combat-mg",
@@ -557,7 +578,7 @@
       "description": "Mitragliatrice leggera: spazza via i gruppi di nemici in pochi secondi.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-combat-mg.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -574,7 +595,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/combat-mg",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "caliber": "5,56×45 mm",
       "magazine": "100 colpi",
@@ -585,7 +607,7 @@
         "handling": 3.2,
         "range": 6.2
       },
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)"
     },
     {
       "id": "wpn-moreland-850",
@@ -600,7 +622,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "realModel": "Remington 870",
       "seenIn": "Extended Look",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-moreland-850.webp",
@@ -613,7 +635,9 @@
         "https://www.gtaboom.com/gta-6-gear-up-mission-walkthrough-26a2",
         "https://beebom.com/gta-6-gear-up-mission/",
         "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/"
+        "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
@@ -624,11 +648,15 @@
         "handling": 5.6,
         "range": 2.5
       },
-      "whereToBuy": "Ammu-Nation",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "extras": [
         {
           "source": "stampa",
           "text": "La variante unica Gutterball Moreland 850 è uno degli oggetti di valore della sala da bowling dei Kolt & Associates, a Port Gellhorn."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Watcher Pro Moreland 850» in vetrina, a caro prezzo, da Tactical Outlet Guns. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
       ],
       "price": "700 $"
@@ -641,7 +669,7 @@
       "description": "La doppietta da caccia a canne affiancate.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-double-barrel.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
@@ -663,7 +691,9 @@
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_double-barreled_shotgun",
         "https://www.gtabase.com/weapons/gta-6/double-barrel-shotgun",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
@@ -674,7 +704,13 @@
         "handling": 5.0,
         "range": 2.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Dirty Drifter» in giro per il mondo (il punto non è ancora indicato); «Darknite Drifter» in vetrina, a caro prezzo, in un Ammu-Nation (IGN non dice quale)."
+        }
+      ]
     },
     {
       "id": "wpn-bolt-sniper",
@@ -711,7 +747,9 @@
       "moreSources": [
         "https://gta.wiki/w/Bolt_Action_Sniper",
         "https://www.gtabase.com/gta-6/weapons/bolt-action-sniper",
-        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/"
+        "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "7,62×51 mm",
       "magazine": "5 colpi",
@@ -723,11 +761,15 @@
         "range": 7.5
       },
       "price": "1.850 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!",
       "extras": [
         {
           "source": "stampa",
           "text": "Bret Vogel regala a Jason la variante unica Killtelligence SM-69 nella sua prima caccia; si riprende da qualunque armadietto delle armi Ammu-Nation."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Cruel Huntsman's SM-69» in giro per il mondo (il punto non è ancora indicato); «Firebreak SM-69» in vetrina, a caro prezzo, da R. Willis Jr. Supplies. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
       ]
     },
@@ -751,7 +793,9 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/hunter-sniper",
-        "https://gta.wiki/w/Hunter_Sniper"
+        "https://gta.wiki/w/Hunter_Sniper",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "realModel": "Accuracy International Arctic Warfare L96A1",
       "caliber": ".338 Magnum",
@@ -764,7 +808,13 @@
         "range": 7.5
       },
       "price": "2.950 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Internal Affairs FF-SR» nel mistero n. 4 del corriere ucciso da un cecchino (Sniped Drug Runner)."
+        }
+      ]
     },
     {
       "id": "wpn-grenade-launcher",
@@ -837,7 +887,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/rpg-rocket-launcher",
-        "https://gta.wiki/w/RPG_(HD_Universe)"
+        "https://gta.wiki/w/RPG_(HD_Universe)",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "realModel": null,
       "caliber": "Razzo da 66 mm",
@@ -850,7 +901,7 @@
         "range": 8.0
       },
       "price": "16.000 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)"
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)"
     },
     {
       "id": "wpn-speargun",
@@ -889,7 +940,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "seen": [
         {
           "where": "An Extended Look",
@@ -906,7 +957,8 @@
         "https://www.gtabase.com/gta-6/weapons/molotov",
         "https://www.powerpyx.com/gta-6-all-cheats/",
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
-        "https://gta.wiki/w/Molotov_Cocktails"
+        "https://gta.wiki/w/Molotov_Cocktails",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "imageUrl": "https://gta.wiki/images/thumb/Molotov-GTAVI-AnExtendedLook.png/600px-Molotov-GTAVI-AnExtendedLook.png?e5c14",
       "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
@@ -924,7 +976,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Dopo la storia, lanciarne 100 sblocca il trucco «Tutte le armi esplosive», che le aggiunge all'arsenale con munizioni piene"
@@ -932,7 +984,8 @@
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/grenade",
         "https://gta.wiki/w/Grenades",
-        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/"
+        "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "realModel": "Granata M61"
     },
@@ -958,32 +1011,11 @@
         "https://www.gtabase.com/weapons/gta-6/sticky-bomb",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
-        "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/"
+        "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "realModel": "Esplosivo C-4",
       "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "id": "wpn-golf-ball",
-      "name": "Pallina da golf",
-      "manufacturer": null,
-      "class": "lancio",
-      "description": "Sì, una pallina da golf. È tra gli oggetti da lancio, insieme alla tanica di benzina.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "facts": [
-        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
-      ],
-      "moreSources": [
-        "https://gta.wiki/w/Golf_Balls",
-        "https://www.gtabase.com/gta-6/weapons/golf-ball"
-      ]
     },
     {
       "id": "wpn-bat",
@@ -998,7 +1030,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-baseballbat-scaled.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
@@ -1009,12 +1041,17 @@
         }
       ],
       "moreSources": [
-        "https://gta.wiki/w/Baseball_Bat"
+        "https://gta.wiki/w/Baseball_Bat",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Variante unica «Bae-Luxe's Bat»: ricompensa di una missione principale del capitolo 3."
+        },
+        {
+          "source": "stampa",
+          "text": "Variante unica «Brontasaurus Bat»: al parco Dino World, a Frogswater (IGN)."
         }
       ]
     },
@@ -1105,13 +1142,13 @@
     },
     {
       "image": "assets/img/vice/armi/wpn-heavy-pistol.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "wpn-heavy-pistol",
-      "name": "Duke 1922",
+      "name": "Duke 1992",
       "manufacturer": "Duke",
       "class": "pistola",
       "description": "La classica americana in .45: più potere d'arresto delle 9 mm.",
@@ -1135,13 +1172,16 @@
       "facts": [
         "Nel gioco la produce Duke; la pistola del primo trailer aveva invece un logo Capo",
         "Ha la base di una M1911, la guardia del grilletto di una Beretta 92FS e un'incisione sulla canna come le Staccato 2011",
-        "Caricatore da 8 colpi; si compra da Ammu-Nation"
+        "Caricatore da 8 colpi; si compra da Ammu-Nation",
+        "Il nome è «1992»: così lo scrivono IGN (anche per le sue nove varianti uniche) e PowerPyx; DayOne scrive «1922»"
       ],
       "moreSources": [
         "https://gta.wiki/w/Unnamed_GTA_VI_Capo_pistol",
         "https://www.gtabase.com/weapons/gta-6/heavy-pistol",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/"
+        "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": ".45",
       "magazine": "8 colpi",
@@ -1152,17 +1192,21 @@
         "handling": 8.0,
         "range": 4.6
       },
-      "whereToBuy": "Ammu-Nation",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "extras": [
         {
           "source": "stampa",
-          "text": "Variante unica «Monty's 1922»: si raccoglie da terra durante una missione principale di Lucia nel capitolo 3, subito dopo il primo nemico abbattuto; se vai avanti senza prenderla la perdi. PowerPyx la chiama «1992 Pistol», quasi certamente un refuso per 1922."
+          "text": "Variante unica «Monty's 1992»: si raccoglie da terra durante una missione principale di Lucia nel capitolo 3, subito dopo il primo nemico abbattuto; se vai avanti senza prenderla la perdi."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Deadringer 1992» in giro per il mondo (il punto non è ancora indicato); «Martha's 1992» in giro per il mondo (il punto non è ancora indicato); «Money Bag 1992» in giro per il mondo (il punto non è ancora indicato); «The Silver 1992» in vetrina, a caro prezzo, da Big Shots. Altre 4 si ottengono con la storia o in altro modo non ancora indicato."
         }
       ]
     },
     {
       "image": "assets/img/vice/armi/wpn-scar.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
@@ -1183,7 +1227,9 @@
         "C'era già in GTA Online"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/scar-assault-rifle"
+        "https://www.gtabase.com/weapons/gta-6/scar-assault-rifle",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
@@ -1194,11 +1240,17 @@
         "handling": 5.3,
         "range": 6.9
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Guardia Brothers FRA» nell'operazione illegale «Casa Guardia»."
+        }
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-dw9.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
@@ -1219,7 +1271,9 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/dw9"
+        "https://www.gtabase.com/weapons/gta-6/dw9",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "9 mm",
       "magazine": "30 colpi",
@@ -1230,11 +1284,17 @@
         "handling": 6.8,
         "range": 4.0
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Dazzler DQ-9» in vetrina, a caro prezzo, da Iron & Oak. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-mac11.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
@@ -1255,7 +1315,9 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/mac-11"
+        "https://www.gtabase.com/weapons/gta-6/mac-11",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": "9 mm",
       "magazine": "20 colpi",
@@ -1266,37 +1328,17 @@
         "handling": 7.5,
         "range": 3.5
       },
-      "whereToBuy": "Ammu-Nation"
-    },
-    {
-      "image": "assets/img/vice/armi/wpn-mp9.webp",
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "id": "wpn-mp9",
-      "name": "SPP / MP9",
-      "manufacturer": null,
-      "class": "mitra",
-      "description": "Pistola mitragliatrice.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "realModel": "Steyr SPP, Brügger & Thomet MP9",
-      "seenIn": "Screenshot ufficiali",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-spp-mp9.webp",
-      "imageCredit": "vice-central.com / Rockstar Games",
-      "insight": "Pistola mitragliatrice ispirata a Steyr SPP e Brügger & Thomet MP9.",
-      "facts": [
-        "Arma nuova, al debutto nella serie; accetta accessori e tinte"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/spp-mp9"
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Chromium W-10» nell'operazione illegale «La Perle Trap House»; «Little Friend W-10» in giro per il mondo (il punto non è ancora indicato); «Moneymaker W-10» in vetrina, a caro prezzo, da Tequesta Guns. Altre 3 si ottengono con la storia o in altro modo non ancora indicato."
+        }
       ]
     },
     {
       "image": "assets/img/vice/armi/wpn-ruger-1022.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
@@ -1317,7 +1359,9 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/ruger-10-22-sniper"
+        "https://www.gtabase.com/weapons/gta-6/ruger-10-22-sniper",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "caliber": ".22 LR",
       "magazine": "15 colpi",
@@ -1328,11 +1372,17 @@
         "handling": 5.8,
         "range": 7.0
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Solo nei due Ammu-Nation da caccia: Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingfishers W-22» nell'operazione illegale «Fishing Shacks»; «Redneck W-22» in giro per il mondo (il punto non è ancora indicato)."
+        }
+      ]
     },
     {
       "image": "assets/img/vice/armi/wpn-m1a.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
@@ -1353,7 +1403,8 @@
         "Arma nuova, al debutto nella serie; accetta accessori e tinte"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/springfield-armory-m1a-sniper"
+        "https://www.gtabase.com/weapons/gta-6/springfield-armory-m1a-sniper",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
@@ -1364,54 +1415,34 @@
         "handling": 4.8,
         "range": 7.5
       },
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!"
     },
     {
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "id": "wpn-flashbang",
-      "name": "Flashbang",
+      "name": "Flash Grenade",
       "manufacturer": null,
       "class": "lancio",
       "description": "Granata stordente (nel gioco «Flash Grenade»): acceca e stordisce chi è vicino.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Nella serie c'era solo in Chinatown Wars",
-        "Nel capitolo 3 un contatto ne lascia alcune nel bagagliaio di un'auto, insieme a una Klose K17 con silenziatore"
+        "Nel capitolo 3 un contatto ne lascia alcune nel bagagliaio di un'auto, insieme a una Klose K17 con silenziatore",
+        "È uno dei 4 esplosivi del gioco con molotov, granata e bomba adesiva (IGN; PowerPyx ne conta 4)"
       ],
       "moreSources": [
         "https://www.gtabase.com/gta-6/weapons/flashbang",
-        "https://gta.wiki/w/Flashbangs"
+        "https://gta.wiki/w/Flashbangs",
+        "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
       ]
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "id": "wpn-smoke",
-      "name": "Hawk & Little Smoke Grenade",
-      "manufacturer": "Hawk & Little",
-      "class": "lancio",
-      "description": "Granata fumogena.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "facts": [
-        "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/smoke-grenade",
-        "https://gta.wiki/w/Smoke_Grenades"
-      ],
-      "realModel": "Fumogeno M18"
     },
     {
       "image": "assets/img/vice/armi/wpn-jerry-can.webp",
@@ -1451,87 +1482,57 @@
     {
       "image": null,
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
+      "updatedAt": "2026-11-19",
       "id": "wpn-knife",
       "name": "Coltello da caccia",
       "manufacturer": null,
       "class": "corpo-a-corpo",
       "description": "Coltello da caccia; accetta accessori e tinte.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
       "facts": [
-        "Compare nel leak dell'agosto 2026",
-        "C'era già in Red Dead Redemption 2"
+        "Una delle 9 armi bianche del gioco (IGN), sei delle quali sono coltelli"
       ],
       "moreSources": [
-        "https://www.gtabase.com/weapons/gta-6/hunting-knife"
-      ]
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-07",
-      "id": "wpn-golf-club",
-      "name": "Mazza da golf",
-      "manufacturer": null,
-      "class": "corpo-a-corpo",
-      "description": "Driver, ferro, putter e wedge.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
-      "facts": [
-        "Driver, ferro, putter e wedge sono quattro armi separate, ognuna col suo nome sull'HUD del leak 2022"
+        "https://www.gtabase.com/weapons/gta-6/hunting-knife",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
-      "moreSources": [
-        "https://gta.wiki/w/Golf_Driver",
-        "https://www.gtabase.com/gta-6/weapons/golf-club"
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Coltelli unici da trovare in giro (IGN; non dice di che tipo sono): Shark Knife a Hyde Island, Explorer's Knife nelle sorgenti sott'acqua di Emerald Springs, Tallaloko Knife al lago Tallaloko (enigma del Tallaloko Hotel). Altri due, Cursed Knife e il coltello di Donnie, si ottengono in altro modo."
+        }
       ]
     },
     {
       "image": "assets/img/vice/armi/wpn-knuckles.webp",
       "status": "da verificare",
-      "source": "leak",
+      "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-19",
       "id": "wpn-knuckles",
       "name": "Tirapugni",
       "manufacturer": null,
       "class": "corpo-a-corpo",
       "description": "Il tirapugni, arma da mischia.",
       "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
       "realModel": "tirapugni",
       "seenIn": "Trailer di lancio",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-knuckle-dusters.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
       "insight": "Tirapugni.",
       "facts": [
-        "Già in Vice City, San Andreas e GTA V"
+        "Già in Vice City, San Andreas e GTA V",
+        "Una delle 9 armi bianche del gioco (IGN)"
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/knuckle-dusters"
       ]
-    },
-    {
-      "image": null,
-      "status": "da verificare",
-      "source": "leak",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-05",
-      "id": "wpn-pipe-wrench",
-      "name": "Chiave inglese",
-      "manufacturer": null,
-      "class": "corpo-a-corpo",
-      "description": "Un'uccisione con la chiave inglese fa scattare due stelle.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
     {
       "image": "assets/img/vice/armi/wpn-pool-cue.webp",
@@ -1785,30 +1786,6 @@
       ]
     },
     {
-      "id": "wpn-hl-knife",
-      "name": "Coltello Hawk & Little",
-      "manufacturer": "Hawk & Little",
-      "class": "corpo-a-corpo",
-      "description": "Il coltello da combattimento a doppio filo, con il dorso seghettato.",
-      "howToGet": "Da verificare.",
-      "image": null,
-      "source": "leak",
-      "realModel": "UC-RB1",
-      "facts": [
-        "Compare nel leak del settembre 2022",
-        "Non si personalizza",
-        "Già in Vice City, San Andreas, IV, V e in Red Dead Redemption 2"
-      ],
-      "moreSources": [
-        "https://www.gtabase.com/gta-6/weapons/knife"
-      ],
-      "status": "da verificare",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/gta-6/weapons/knife"
-    },
-    {
       "id": "wpn-switchblade",
       "name": "Coltello a serramanico",
       "manufacturer": null,
@@ -1816,12 +1793,13 @@
       "description": "Il coltello a scatto: sta in tasca e si apre in un attimo.",
       "howToGet": "Da verificare.",
       "image": null,
-      "source": "leak",
+      "source": "stampa",
       "realModel": "Stiletto italiano della Seconda guerra mondiale",
       "facts": [
         "Si può solo verniciare, niente accessori",
         "Compare nel leak dell'agosto 2026",
-        "C'era già in GTA Online"
+        "C'era già in GTA Online",
+        "Una delle 9 armi bianche del gioco (IGN)"
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/switchblade"
@@ -1829,8 +1807,8 @@
       "status": "da verificare",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-09",
-      "sourceUrl": "https://www.gtabase.com/weapons/gta-6/switchblade"
+      "updatedAt": "2026-11-19",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons"
     },
     {
       "id": "wpn-painkillers",
@@ -1888,7 +1866,7 @@
       "description": "Pistola mitragliatrice a raffica: spara veloce ma resta controllabile.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -1897,13 +1875,23 @@
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Raffica da 3",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 4.2,
         "accuracy": 4.4,
         "handling": 8.2,
         "range": 4.8
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «The Guardian ES18» nell'operazione illegale «Saber Shipping Yard»."
+        }
+      ]
     },
     {
       "id": "wpn-klose-k17-mcd",
@@ -1913,7 +1901,7 @@
       "description": "La K17 modificata per il tiro automatico: buona per il fuoco di copertura.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -1922,13 +1910,23 @@
       "caliber": "9 mm",
       "magazine": "24 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 4.0,
         "accuracy": 3.2,
         "handling": 8.0,
         "range": 4.2
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Stoner K17 MCD» in giro per il mondo (il punto non è ancora indicato). Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-fairview-kalinga",
@@ -1943,11 +1941,11 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "caliber": ".50 Magnum",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 7.0,
         "accuracy": 4.0,
@@ -1955,12 +1953,18 @@
         "range": 5.0
       },
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/"
+        "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Variante unica «Gil's Kalinga .50»: ricompensa di una missione principale del capitolo 3, se completi fino in fondo l'esercitazione di scasso sulla cassaforte (la puoi ripetere quante volte vuoi)."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Black Eagle Import Kalinga» in giro per il mondo (il punto non è ancora indicato). Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
       ]
     },
@@ -1977,11 +1981,11 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "caliber": ".38 Special",
       "magazine": "6 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 2.5,
         "accuracy": 5.0,
@@ -1989,12 +1993,18 @@
         "range": 4.5
       },
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/"
+        "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Variante unica «Donnie's H&L .38»: nel capitolo 1 è nel bagagliaio di un'auto durante una missione principale di Jason. Va presa lì: finita la missione non si recupera più."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Cargo H&L .38» in giro per il mondo (il punto non è ancora indicato); «Lyle's H&L .38» in giro per il mondo (il punto non è ancora indicato); «Ride Free H&L .38» nell'operazione illegale «Biker Hideout»; «Jack Sheepe H&L .38» (Ultimate Edition) in vetrina, a caro prezzo, da Biff's Gun Supply."
         }
       ]
     },
@@ -2006,7 +2016,7 @@
       "description": "Revolver a canna corta: piccolo e facile da nascondere.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2015,13 +2025,23 @@
       "caliber": ".38 Special",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 2.2,
         "accuracy": 3.8,
         "handling": 9.0,
         "range": 4.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Iron & Oak WCR-1» in vetrina, a caro prezzo, da Iron & Oak."
+        }
+      ]
     },
     {
       "id": "wpn-scorpio-akulus",
@@ -2031,7 +2051,7 @@
       "description": "Revolver pesante in .44 Magnum, con potere d'arresto in abbondanza.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2040,13 +2060,23 @@
       "caliber": ".44 Magnum",
       "magazine": "6 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!",
       "stats": {
         "damage": 7.0,
         "accuracy": 4.2,
         "handling": 7.6,
         "range": 6.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingfishers Akulus» nell'operazione illegale «Sunrise RV Park»; «Swamp Bait Akulus» in giro per il mondo (il punto non è ancora indicato)."
+        }
+      ]
     },
     {
       "id": "wpn-vf5c",
@@ -2056,7 +2086,7 @@
       "description": "La versione corta del VF5.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2065,13 +2095,23 @@
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 4.2,
         "accuracy": 5.0,
         "handling": 6.9,
         "range": 4.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Scrapper VF5C» nell'operazione illegale «La Cascara Motel»."
+        }
+      ]
     },
     {
       "id": "wpn-zhang-wu-type9",
@@ -2081,7 +2121,7 @@
       "description": "Pistola mitragliatrice prodotta in serie: piccola, letale da vicino.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2090,13 +2130,23 @@
       "caliber": "9 mm",
       "magazine": "10 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 4.2,
         "accuracy": 3.8,
         "handling": 7.8,
         "range": 3.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Marabunta Grande Type 9» nell'operazione illegale «Weed Grow»; «Neon Sunset Type 9» in vetrina, a caro prezzo, da Vice City Firearms; «Conspiracist Type 9» in giro per il mondo (il punto non è ancora indicato)."
+        }
+      ]
     },
     {
       "id": "wpn-deever-dsg",
@@ -2106,7 +2156,7 @@
       "description": "Mitra a raffica da tre colpi, per i tiri precisi.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2115,13 +2165,23 @@
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Raffica da 3",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 4.2,
         "accuracy": 4.2,
         "handling": 6.9,
         "range": 4.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Eris Fresh DSG» nell'operazione illegale «Illegal Goods Store»."
+        }
+      ]
     },
     {
       "id": "wpn-adb-pd80",
@@ -2140,13 +2200,19 @@
       "caliber": "5,7×28 mm",
       "magazine": "30 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 4.2,
         "accuracy": 4.8,
         "handling": 6.6,
         "range": 4.2
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons"
+      ],
+      "facts": [
+        "Barre, calibro e caricatore coincidono tra DayOne e IGN, ma il nome no: DayOne scrive PD-80, IGN PD-90"
+      ]
     },
     {
       "id": "wpn-goodwin-lmg6",
@@ -2156,7 +2222,7 @@
       "description": "Mitragliatrice leggera per il fuoco prolungato.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2165,13 +2231,23 @@
       "caliber": "7,62×51 mm",
       "magazine": "100 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 6.8,
         "accuracy": 2.8,
         "handling": 2.8,
         "range": 6.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Mercenary LMG 6» in giro per il mondo (il punto non è ancora indicato). Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-mk-longshot",
@@ -2181,7 +2257,7 @@
       "description": "Doppietta inglese da caccia, elegante e rifinita.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2190,13 +2266,23 @@
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "stats": {
         "damage": 8.0,
         "accuracy": 4.1,
         "handling": 5.0,
         "range": 2.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Woodhatch Longshot» in vetrina, a caro prezzo, da Woodhatch."
+        }
+      ]
     },
     {
       "id": "wpn-girardi-verro",
@@ -2206,7 +2292,7 @@
       "description": "Fucile semiautomatico corto, leggero e devastante.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2215,13 +2301,23 @@
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 7.4,
         "accuracy": 3.9,
         "handling": 6.5,
         "range": 2.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Throttler Vero» nell'operazione illegale «Farm Fix Meth Lab»."
+        }
+      ]
     },
     {
       "id": "wpn-girardi-az1200",
@@ -2231,7 +2327,7 @@
       "description": "Fucile semiautomatico per il fuoco continuo.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2240,13 +2336,23 @@
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "stats": {
         "damage": 7.4,
         "accuracy": 4.5,
         "handling": 5.8,
         "range": 2.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Nitepower AZ1200» in vetrina, a caro prezzo, da Black Eagle."
+        }
+      ]
     },
     {
       "id": "wpn-fs-gorse-425",
@@ -2256,7 +2362,7 @@
       "description": "Fucile a pompa corto, per difendersi.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2265,13 +2371,23 @@
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "A pompa",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 7.5,
         "accuracy": 3.8,
         "handling": 6.2,
         "range": 2.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «San4San Gorse 425» nell'operazione illegale «Parlor Apartments»; «Smuggler Gorse 425» su una zattera abbandonata con sigari di contrabbando; «Basher Gorse 425» in vetrina, a caro prezzo, da Pawn & Gun (Gellhorn)."
+        }
+      ]
     },
     {
       "id": "wpn-shrewsbury-hobo",
@@ -2281,7 +2397,7 @@
       "description": "La doppietta da caccia segata: corta abbastanza per gli spazi stretti.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2290,13 +2406,23 @@
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 8.0,
         "accuracy": 3.6,
         "handling": 6.4,
         "range": 2.0
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Backdoor Hobo» in vetrina, a caro prezzo, da Zenon's Pawn Shop. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-mk-shortstraw",
@@ -2315,7 +2441,7 @@
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 8.0,
         "accuracy": 3.6,
@@ -2326,10 +2452,16 @@
         {
           "source": "stampa",
           "text": "Dopo la storia il trucco «Fucile esplosivo» la aggiunge all'arsenale con cartucce esplosive: si sblocca colpendo 100 nemici con le esplosioni."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Final Chapter Shortstraw» nell'operazione illegale «Hog Stars Garage»."
         }
       ],
       "moreSources": [
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ]
     },
     {
@@ -2340,7 +2472,7 @@
       "description": "Semiautomatico robusto, fatto per ripulire un edificio.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2349,13 +2481,23 @@
       "caliber": "Calibro 12",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 7.7,
         "accuracy": 4.2,
         "handling": 4.0,
         "range": 2.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Hellspawn Comshot 12» in giro per il mondo (il punto non è ancora indicato); «Unpacked Comshot 12» in giro per il mondo (il punto non è ancora indicato)."
+        }
+      ]
     },
     {
       "id": "wpn-girardi-super400",
@@ -2365,7 +2507,7 @@
       "description": "Semiautomatico tattico, il preferito dai militari.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2374,13 +2516,23 @@
       "caliber": "Calibro 12",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 7.4,
         "accuracy": 4.2,
         "handling": 5.3,
         "range": 2.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Hostile Super400» nell'operazione illegale «Mill Station Radar Base»; «Bruiser Super400» in vetrina, a caro prezzo, da Vice City Gun & Pawn."
+        }
+      ]
     },
     {
       "id": "wpn-kozlov-kvga12",
@@ -2390,7 +2542,7 @@
       "description": "Fucile a canna liscia automatico: spara quasi come un fucile d'assalto.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2399,13 +2551,23 @@
       "caliber": "Calibro 12",
       "magazine": "8 colpi",
       "fireMode": "Automatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 7.2,
         "accuracy": 4.5,
         "handling": 5.1,
         "range": 2.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Final Chapter KVGA-12» nell'operazione illegale «Irons Building Supply»."
+        }
+      ]
     },
     {
       "id": "wpn-hillinger-heathen",
@@ -2415,7 +2577,7 @@
       "description": "Fucile d'assalto versatile, buono per i colpi di precisione.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2423,13 +2585,23 @@
       "updatedAt": "2026-11-19",
       "caliber": "5,56×45 mm",
       "fireMode": "Raffica da 3",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 5.0,
         "accuracy": 6.2,
         "handling": 5.8,
         "range": 6.2
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingpin Heathen» nell'operazione illegale «Vespucci Mansion»; «Vice City Heathen» in vetrina, a caro prezzo, da Prestige Firearms."
+        }
+      ]
     },
     {
       "id": "wpn-hl-mediator",
@@ -2439,16 +2611,16 @@
       "description": "Carabina moderna in 9 mm, adatta a più ruoli.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici. Alla prima visita di Jason, nel capitolo 1, costa 450 $ (forse un prezzo scontato, come per il fucile a pompa).",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "caliber": "9 mm",
       "magazine": "17 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "stats": {
         "damage": 4.8,
         "accuracy": 7.8,
@@ -2456,7 +2628,15 @@
         "range": 7.0
       },
       "moreSources": [
-        "https://beebom.com/gta-6-gear-up-mission/"
+        "https://beebom.com/gta-6-gear-up-mission/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Mossy Mediator» in vetrina, a caro prezzo, da Barrage Gun Supply."
+        }
       ]
     },
     {
@@ -2467,7 +2647,7 @@
       "description": "Piccolo fucile tattico, preciso e resistente.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2476,13 +2656,23 @@
       "caliber": "5,56×45 mm",
       "magazine": "20 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Negli Ammu-Nation con assortimento Standard e nei 6 «Expanded»; non nei due negozi da caccia",
       "stats": {
         "damage": 5.8,
         "accuracy": 7.5,
         "handling": 5.2,
         "range": 7.2
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Ha anche una variante unica (IGN): si ottiene con la storia o in altro modo non ancora indicato."
+        }
+      ]
     },
     {
       "id": "wpn-hillinger-m306-tmr",
@@ -2492,7 +2682,7 @@
       "description": "La versione moderna dell'M306, nata per la Marina.",
       "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
@@ -2501,13 +2691,23 @@
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
       "fireMode": "Semiautomatica",
-      "whereToBuy": "Ammu-Nation (24 negozi; il catalogo completo nei 6 «Expanded»)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 6.2,
         "accuracy": 7.8,
         "handling": 5.5,
         "range": 7.5
-      }
+      },
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Black Eagle Import M306 TMR» in giro per il mondo (il punto non è ancora indicato)."
+        }
+      ]
     },
     {
       "id": "wpn-laird-350",
@@ -2527,7 +2727,7 @@
       "magazine": "5 colpi",
       "fireMode": "Otturatore girevole",
       "price": "950 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
       "stats": {
         "damage": 6.5,
         "accuracy": 8.0,
@@ -2538,10 +2738,16 @@
         {
           "source": "stampa",
           "text": "C'è anche una variante tranquillante, Mister Mangrove Laird 350, che si riceve in una missione facoltativa di Kirk."
+        },
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingfishers Laird 350» nell'operazione illegale «Manatee Motel»; «Twin's Laird 350» in giro per il mondo (il punto non è ancora indicato); «Fincredible Laird 350» in vetrina, a caro prezzo, da Guns Aplenty!. Altre 2 si ottengono con la storia o in altro modo non ancora indicato."
         }
       ],
       "moreSources": [
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ]
     },
     {
@@ -2562,7 +2768,7 @@
       "magazine": "5 colpi",
       "fireMode": "Otturatore girevole",
       "price": "3.975 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 8.5,
         "accuracy": 7.0,
@@ -2570,7 +2776,15 @@
         "range": 7.5
       },
       "moreSources": [
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Ha anche una variante unica (IGN): si ottiene con la storia o in altro modo non ancora indicato."
+        }
       ]
     },
     {
@@ -2581,19 +2795,36 @@
       "description": "Fucile di precisione Shrewsbury che si sblocca con la caccia.",
       "howToGet": "Si sblocca completando la nona caccia di Bret Vogel (missioni di Jason), poi si compra negli «Expanded».",
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-19",
       "price": "2.150 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!",
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
       ],
       "facts": [
-        "Non compare nell'elenco di DayOne: è l'unica arma da fuoco confermata solo da PowerPyx"
+        "Confermato da PowerPyx e dalla tabella delle armi di IGN (barre comprese)"
+      ],
+      "stats": {
+        "damage": 6.8,
+        "accuracy": 8.6,
+        "handling": 3.3,
+        "range": 8.4
+      },
+      "caliber": "7,62×51 mm",
+      "magazine": "5 colpi",
+      "fireMode": "Otturatore girevole",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Ha anche 2 varianti uniche (IGN): si ottengono con la storia o in altro modo non ancora indicato."
+        }
       ]
     },
     {
@@ -2614,7 +2845,7 @@
       "magazine": "1 colpo",
       "fireMode": "Colpo singolo",
       "price": "12.000 $",
-      "whereToBuy": "Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak e Black Eagle (Vice City), Prestige Firearms (Ocean Beach)",
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
       "stats": {
         "damage": 9.2,
         "accuracy": 5.0,
@@ -2622,7 +2853,8 @@
         "range": 4.0
       },
       "moreSources": [
-        "https://playday.one/2026/11/18/all-weapons-in-gta-6/"
+        "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Weapons"
       ]
     },
     {
@@ -2701,6 +2933,157 @@
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-parachute-how-to-get/"
       ]
+    },
+    {
+      "id": "wpn-schlamm-drx",
+      "name": "Schlamm DRX",
+      "manufacturer": "Schlamm",
+      "class": "pistola",
+      "description": "Pistola tattica in 9 mm con caricatore da 17: precisa e maneggevole, mancava nelle prime liste.",
+      "howToGet": "Si compra all'Ammu-Nation o si prende ai nemici.",
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "caliber": "9 mm",
+      "magazine": "17 colpi",
+      "fireMode": "Semiautomatica",
+      "stats": {
+        "damage": 4.0,
+        "accuracy": 4.2,
+        "handling": 8.2,
+        "range": 4.2
+      },
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "È la 53ª arma da fuoco dell'elenco di IGN; DayOne non la riporta ancora"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «The Patriarch DRX» in giro per il mondo (il punto non è ancora indicato); «Rogue Alpha DRX» in vetrina, a caro prezzo, da Quickscope."
+        }
+      ],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+      ]
+    },
+    {
+      "id": "wpn-baton",
+      "name": "Baton",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Il manganello: una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-bushcraft-knife",
+      "name": "Bushcraft Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltello da campo e da sopravvivenza nei boschi: una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-combat-knife",
+      "name": "Combat Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltello da combattimento militare: una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Variante unica «Soldier's Combat Knife»: a Bobcat Key, dentro il carro armato sommerso; si raggiunge solo con la bassa marea (IGN)."
+        }
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-diving-knife",
+      "name": "Diving Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltello da sub: una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-edc-knife",
+      "name": "EDC Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltellino da tasca «da tutti i giorni» (EDC, everyday carry): una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "wpn-survival-knife",
+      "name": "Survival Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltello da sopravvivenza: una delle 9 armi bianche del gioco.",
+      "howToGet": "Si trova giocando o si compra; le guide non dicono ancora dove.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "spoilerLevel": 0,
+      "image": null,
+      "facts": [
+        "Nome inglese del gioco; il nome italiano non è ancora noto"
+      ],
+      "example": false,
+      "updatedAt": "2026-11-19"
     }
   ],
   "notes": {

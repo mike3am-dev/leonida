@@ -211,6 +211,11 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Controllo automatico (script nello scratchpad `rc/crawl.cjs`): apre tutte le pagine raggiungibili dai link (3.620) e cerca errori JS, «undefined/NaN/null», pagine vuote, immagini 404. Pulito, a parte le 179 immagini da scaricare.
 - **La 1.0 si pubblica solo quando Mike conferma.** Prima deve lanciare `node scripts/scarica-immagini.mjs` sul Mac (poi `git add -A`, commit, push).
 
+## 4z. Terzo giro (v0.52.4, 19/11 pomeriggio)
+- Nove squadre, solo sulle novità uscite dopo le 07 UTC (BRIEF con la sezione «Oggi»; compiti con la riga «STATO AL … giro 3»). Nuovo `scripts/caccia/dopo.py` (news in testa, immagini, elenco delle cose da fare a mano).
+- Applicato: 11 news; 170 collezionabili (salti 129/130, voli 40/40, lanci 25/25); armi riconciliate con la tabella di IGN (7 nuove, 8 tolte: wpn-coil-shocker, wpn-duke-ar15, wpn-mp9, wpn-smoke, wpn-golf-ball, wpn-golf-club, wpn-pipe-wrench, wpn-hl-knife), varianti uniche negli `extras`; 11 veicoli nuovi, `price` = registrazione e valore di vendita; 115 + 38 `imageUrl` passati da Fandom a gta.wiki; interpreti di 25 personaggi; mis-ring-the-bell; «Kolts» → «Kolt» ovunque; 7 POI spostati (6 a Vice Beach), tolta poi-st-redhill-train-station.
+- Ancora aperto: vedi «Cosa manca alla fine del giro del 19/11 pomeriggio» in `scripts/caccia/README.md`.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
