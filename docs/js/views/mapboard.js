@@ -14,10 +14,21 @@ import { currentMission, isFound, mini } from './shared.js';
 const BASES = {
   giorno: { src: 'assets/img/mappa/leonida-giorno-media.jpg', w: 2896, h: 3700, geo: true, tiles: 'standard' },
   poster: { src: 'assets/img/mappa-leonida.jpg', w: 1640, h: 2048, geo: false },
+  // Mappa ufficiale di Rockstar («The Great State of Leonida», 19/11), riallineata sulla base del gioco: i punti cadono negli stessi pixel
+  ufficiale: { src: 'assets/img/mappa/leonida-ufficiale.webp', w: 2896, h: 3700, geo: true, tiles: null },
 };
 const WORLD = 4096, X0 = 1200, Y0 = 260;        // ritaglio fatto sulla mappa intera a zoom 3 (@2x)
 const TILE_HOST = 'https://tiles.gtasixmap.com/tiles';
 export const toPx = (x, y) => ({ x: WORLD * (x + 6000) / 12000 - X0, y: WORLD * (6000 - y) / 12000 - Y0 });
+/** Riquadro della griglia della mappa ufficiale (colonne 1-9, righe A-M) per un punto con coordinate di gioco.
+ *  Trasformazione ricavata allineando le coste delle due mappe (scratchpad del 19/11, `mu/reg.py`): base del gioco → pixel della mappa stampabile 5775×7900. */
+const G2U = [[1.92425, 0.000229, 169.857], [-0.0021955, 1.922885, 437.6525]], FRAME = [191, 191, 5580, 7705];
+export function riquadro(xy) {
+  if (!xy) return '';
+  const g = toPx(xy[0], xy[1]); const ux = G2U[0][0] * g.x + G2U[0][1] * g.y + G2U[0][2], uy = G2U[1][0] * g.x + G2U[1][1] * g.y + G2U[1][2];
+  const c = Math.floor((ux - FRAME[0]) / ((FRAME[2] - FRAME[0]) / 9)), r = Math.floor((uy - FRAME[1]) / ((FRAME[3] - FRAME[1]) / 13));
+  return c >= 0 && c < 9 && r >= 0 && r < 13 ? 'ABCDEFGHIJKLM'[r] + (c + 1) : '';
+}
 
 /** Dove stanno le Polaroid: sul mare, vicino alla regione (pixel della mappa base 2896×3700) */
 const PHOTO_POS = {
@@ -100,7 +111,7 @@ function pinPhoto(q) {
 /** HTML del tavolo */
 export function boardHtml(districts) {
   const p = prefs();
-  const style = p.style === 'poster' ? 'poster' : 'giorno';
+  const style = p.style === 'ufficiale' ? 'ufficiale' : 'giorno';   // il poster vecchio non si sceglie più
   const layers = { territori: p.territori ?? true, luoghi: p.luoghi ?? true, poi: p.poi ?? true, lmk: p.lmk ?? true, foto: p.foto ?? true };
   const mode = p.mode === 'gioco' ? 'gioco' : 'anteprima';
   const centers = districtCenters();
@@ -138,6 +149,7 @@ export function boardHtml(districts) {
       <button type="button" class="mb-explore" data-mb-tool="explore"><svg aria-hidden="true"><use href="#i-lock"/></svg><span>Tocca per esplorare la mappa</span></button>
     </div>
     <div class="mapboard__tools">
+      <div class="mb-mode mb-base" role="group" aria-label="Quale mappa"><button type="button" data-mb-base="giorno" aria-pressed="${style === 'giorno'}">Mappa del gioco</button><button type="button" data-mb-base="ufficiale" aria-pressed="${style === 'ufficiale'}">Mappa ufficiale</button></div>
       <div class="mb-mode" role="group" aria-label="Cosa mostrare"><button type="button" data-mb-mode="anteprima" aria-pressed="${mode === 'anteprima'}">Anteprima</button><button type="button" data-mb-mode="gioco" aria-pressed="${mode === 'gioco'}">Gioco</button></div>
       <span class="mb-mode__hint">${mode === 'gioco' ? 'Gioco: vedi solo quello che hai segnato come trovato (con la spunta). Nelle regioni che la storia ti ha aperto compare in grigio anche quello che ti manca.' : 'Anteprima: tutto quello che si sa, per studiare.'}</span>
       ${tool('territori', 'map', 'Regioni', layers.territori)}${tool('luoghi', 'photo', 'Luoghi', layers.luoghi)}${tool('poi', 'pin', 'Punti d’interesse', layers.poi)}${tool('lmk', 'eye', 'Punti di riferimento', layers.lmk)}${tool('foto', 'bookmark', 'Polaroid', layers.foto)}
@@ -153,7 +165,7 @@ function lock(on) { if (!board) return; board.classList.toggle('is-locked', on);
 function updateTiles() {
   if (!board || !pz) return;
   const base = BASES[board.dataset.style]; const layer = board.querySelector('.mapboard__tiles');
-  if (!base?.geo) { layer.innerHTML = ''; return; }
+  if (!base?.geo || !base.tiles) { layer.innerHTML = ''; return; }
   const { s } = pz.state();
   // La base è leggera (metà risoluzione: Safari la disegna sempre intera); i dettagli arrivano a quadratini appena ingrandisci
   if (s < 0.45 || !navigator.onLine) { layer.innerHTML = ''; return; }
@@ -195,7 +207,7 @@ function pointSheet(q) {
   const text = q.kind === 'lmk' ? q.ref.text : q.kind === 'luogo' ? q.ref.lead : q.ref.description;
   const link = q.kind === 'lmk' ? `#/mappa/luogo/${q.luogo.slug}` : q.kind === 'luogo' ? `#/mappa/luogo/${q.ref.slug}` : `#/mappa/${q.districtId}/${q.ref.id}`;
   body.innerHTML = `${q.img[0] || q.img[1] ? img(q.img[0], q.img[1], 'pop__img') : ''}
-    <div class="chips" style="margin:var(--s-2) 0"><span class="chip">${KIND_LABEL[q.kind]}</span>${d ? `<span class="chip">${esc(d.name)}</span>` : ''}${q.kind === 'lmk' && q.ref.real ? `<span class="chip">Nel mondo reale: ${esc(q.ref.real)}</span>` : ''}</div>
+    <div class="chips" style="margin:var(--s-2) 0"><span class="chip">${KIND_LABEL[q.kind]}</span>${d ? `<span class="chip">${esc(d.name)}</span>` : ''}${q.kind === 'lmk' && q.ref.real ? `<span class="chip">Nel mondo reale: ${esc(q.ref.real)}</span>` : ''}${riquadro(q.xy) ? `<span class="chip">Riquadro ${riquadro(q.xy)} della mappa ufficiale</span>` : ''}</div>
     ${text ? `<p class="small">${esc(text.slice(0, 260))}${text.length > 260 ? '…' : ''}</p>` : ''}
     <div class="actions" style="margin-bottom:0"><button class="btn ${q.seen ? 'btn--accent' : 'btn--ghost'}" type="button" data-mb-seen ${toggle}><svg aria-hidden="true"><use href="#i-${q.seen ? 'check' : 'eye'}"/></svg>${q.seen ? 'Trovato ✓' : 'Trovato / visitato'}</button><a class="btn btn--solid" href="${link}">${q.kind === 'lmk' ? 'Apri la guida del luogo' : 'Apri la scheda'}</a></div>`;
   body.addEventListener('click', (e) => { if (e.target.closest('a')) setTimeout(() => document.querySelector('.sheet-backdrop')?.click(), 0); });
@@ -240,7 +252,7 @@ function setStyle(style) {
   board.dataset.style = style; board.classList.toggle('is-poster', !base.geo);
   content.style.width = base.w + 'px'; content.style.height = base.h + 'px'; im.src = base.src; im.width = base.w; im.height = base.h;
   pz.setContentSize(base.w, base.h); pz.fit({ animate: true }); updateTiles();
-  const pb = board.querySelector('[data-mb-tool="poster"]'); pb.classList.toggle('is-on', !base.geo); pb.setAttribute('aria-pressed', !base.geo);
+  board.querySelectorAll('[data-mb-base]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.mbBase === style));
   savePref('style', style);
 }
 
@@ -255,6 +267,8 @@ export function bind(root) {
   });
   root.addEventListener('click', (e) => {
     if (!board || !root.contains(board)) return;
+    const mb = e.target.closest('[data-mb-base]');
+    if (mb) { setStyle(mb.dataset.mbBase); return; }
     const md = e.target.closest('[data-mb-mode]');
     if (md) { savePref('mode', md.dataset.mbMode); document.dispatchEvent(new CustomEvent('leonida:rerender')); return; }
     const tool = e.target.closest('[data-mb-tool]');
