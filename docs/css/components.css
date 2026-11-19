@@ -2337,3 +2337,11 @@ html[data-posture="closed"] .tabbar { display: grid; grid-template-columns: repe
 @container (max-width: 420px) { .storyboard__text { width: 100%; } .storyboard__dots .dot { width: 10px; } }
 .storyboard__dots { flex-wrap: nowrap; gap: 4px; width: 100%; }
 .storyboard__dots .dot { flex: 1 1 0; min-width: 4px; max-width: 14px; width: auto; }
+/* Barra a quattro voci: la voce attiva è marcata come sul Duo (riquadro rosa) e il rosa colora icona e scritta, Home compresa */
+html[data-posture="closed"] .tabbar .tab--four { margin: 0 4px; border-radius: 16px; color: var(--ink-3); transition: background var(--dur) var(--ease), color var(--dur) var(--ease); }
+html[data-posture="closed"] .tabbar .tab--four .tab__pill { width: auto; height: 28px; background: none !important; }
+html[data-posture="closed"] .tabbar .tab--four svg, html[data-posture="closed"] .tabbar .tab--four.tab--home svg { width: 26px; height: 26px; color: currentColor; margin-top: 0; }
+html[data-posture="closed"] .tabbar .tab--four span:last-child { font-family: var(--font-text); font-style: normal; font-size: .78rem; font-weight: 600; }
+html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] { background: color-mix(in srgb, var(--magenta) 20%, transparent); color: var(--magenta); }
+html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] svg { color: var(--magenta); }
+html[data-posture="closed"] .tabbar .tab--four[aria-current="page"] span:last-child { color: var(--magenta); font-weight: 800; }
