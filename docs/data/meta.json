@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "1.0.0",
+  "dataVersion": "1.0.1",
   "updatedAt": "2026-11-19",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "1.0.1",
+      "date": "2026-11-19",
+      "changes": [
+        "Mappa: non dovrebbe più far chiudere l'app sull'iPhone. I segnaposto ora usano miniature leggere al posto delle foto intere.",
+        "Home: un banner solo con la missione che stai giocando, il capitolo, «5 di 21» e i pulsanti «Apri la missione» e «Compiuta».",
+        "Missioni: i titoli del capitolo in cui sei sono in chiaro, in italiano come nel gioco e con l'originale inglese tra parentesi. La missione in corso è l'unica in evidenza e lo stato è scritto a parole (Fatta, In corso, La prossima).",
+        "Missioni: in alto c'è «Dove eravamo rimasti», il riassunto dell'ultima missione fatta, al posto della presentazione della storia.",
+        "Scheda della missione: i consigli stanno prima dei passi. Quelli che anticipano qualcosa sono coperti e si scoprono con un tocco; a missione compiuta è tutto in chiaro.",
+        "Trofei: in cima ai consigli di ogni missione trovi i trofei che la riguardano (arriva da solo, da non perdere, buona occasione) e cosa fare.",
+        "Da non perdere: gli avvisi di una missione stanno in cima alla sua scheda; le scadenze del capitolo in un riquadro in fondo.",
+        "Scatti: puoi modificare e cancellare le tue foto (la cancellazione è definitiva).",
+        "Immagini più leggere: le pagine con tante foto si caricano prima."
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-11-19",
