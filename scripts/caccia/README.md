@@ -15,6 +15,7 @@
    - unisci i file in uno: le update sullo stesso id di squadre diverse si sostituiscono (i campi interi: liste comprese) → guarda i doppioni prima;
    - `python3 -I scripts/caccia/prova.py <unione.json>` → «OK»;
    - `python3 -I scripts/caccia/applica.py scripts/caccia/vuoto.json <unione.json>`;
+   - `python3 -I scripts/caccia/dopo.py <cartella del giro>`: porta in testa le notizie nuove, collega le immagini dei file `*-immagini.json` (voce + `scripts/immagini.json`) ed elenca ciò che resta da fare a mano;
    - file `*-togliere.json`: le cancellazioni le fai a mano (controlla i riferimenti con grep: relatedIds, GROUPS in `docs/js/views/editoriale.js`);
    - file `*-immagini.json`: metti `image` (percorso locale) + `imageUrl` (fallback) nella voce e aggiungi la riga in `scripts/immagini.json`;
    - personaggi nuovi → aggiungili ai gruppi `GROUPS` di `editoriale.js`; missioni nuove → rinumera `order` per atto con interi.
