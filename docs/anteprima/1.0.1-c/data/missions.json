@@ -247,6 +247,13 @@
         "https://www.youtube.com/watch?v=54vNaYMJHRo",
         "https://www.youtube.com/watch?v=CAUXneHZe7M",
         "https://www.youtube.com/watch?v=hPU-YfnPHsY"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-just-like-paradise",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -378,8 +385,7 @@
         "Senza conto in banca il compenso arriva nella cassetta della posta di casa: controllala.",
         "La boutique è la Moonstone Boutique ad Artist Village; il magazzino di Brian è nel parcheggio del club privato Isla Tropical, accanto al murale con il pesce.",
         "[spoiler] Il commesso prende una mazza da baseball: strappagliela e minaccialo, non serve colpirlo. Se lo uccidi arriva la polizia.",
-        "Nel laboratorio prendi anche la cassetta con i contanti.",
-        "Lì vicino c'è la grande statua della balena: scansionala con WAiNK."
+        "Nel laboratorio prendi anche la cassetta con i contanti."
       ],
       "secrets": [],
       "image": null,
@@ -409,7 +415,14 @@
         "https://www.youtube.com/watch?v=xiDIMRyNVCs",
         "https://www.youtube.com/watch?v=GoxYZcYgCpI"
       ],
-      "titleEn": "Lab Fees"
+      "titleEn": "Lab Fees",
+      "trophyTips": [
+        {
+          "trophyId": "tro-you-wainker",
+          "tipo": "occasione",
+          "testo": "Scansiona con WAiNK la grande statua della balena qui vicino: è uno dei 100 luoghi che servono."
+        }
+      ]
     },
     {
       "id": "mis-unwanted-attention",
@@ -437,7 +450,6 @@
       "tips": [
         "[spoiler] La polizia ti vede comunque all'uscita: preparati a scappare subito.",
         "Dopo la fuga cambia auto o vestiti: la polizia ricorda come sei vestito e cosa guidi.",
-        "Con l'app WAiNK scansiona le auto che incontri: servono per il 100%.",
         "Per entrare vai a sinistra del deposito: in cima al muro c'è un varco da scavalcare.",
         "La Phoenix è sul carro attrezzi: sgancia il cavo, mettila in moto e sfonda il cancello.",
         "Si fallisce solo se la Phoenix si distrugge: guida con attenzione."
@@ -473,7 +485,14 @@
         "https://www.youtube.com/watch?v=1-coXAsVaFo",
         "https://www.youtube.com/watch?v=u9r8NPGk458"
       ],
-      "titleEn": "Unwanted Attention"
+      "titleEn": "Unwanted Attention",
+      "trophyTips": [
+        {
+          "trophyId": "tro-whip-it-good",
+          "tipo": "occasione",
+          "testo": "Da qui scansiona con WAiNK ogni veicolo nuovo che incontri, anche barche e aerei: ne servono 100 (200 per il 100%)."
+        }
+      ]
     },
     {
       "id": "mis-pipework",
@@ -631,7 +650,6 @@
       "extraObjectives": [],
       "tips": [
         "Durante l'inseguimento puoi sparare dall'auto: usa il rallentatore per mirare.",
-        "I salti acrobatici sul ponte restano segnati sulla mappa sotto Esplorazione.",
         "Arnold è alla stazione radar.",
         "[spoiler] Arnold, in ginocchio sul molo: per risparmiarlo tieni L2 e usa la concentrazione su di lui. Risparmiarlo spinge il profilo verso il professionista e, secondo Eurogamer, molto più avanti nella storia ti frutta un regalo di 10.000 $; ucciderlo chiude la faccenda. Se usi un'arma rumorosa, allontanati prima che arrivi la polizia."
       ],
@@ -670,7 +688,14 @@
         "irreversible": true,
         "note": "Risparmiare o uccidere Arnold non si può cambiare: risparmiarlo conviene (profilo più professionale e, a quanto riporta Eurogamer, un premio in denaro più avanti)."
       },
-      "titleEn": "Hey Arnold!"
+      "titleEn": "Hey Arnold!",
+      "trophyTips": [
+        {
+          "trophyId": "tro-cunning-stunts",
+          "tipo": "occasione",
+          "testo": "Il salto acrobatico sul ponte resta segnato in Mappa › Esplorazione: conta tra le 250 acrobazie, puoi rifarlo quando vuoi."
+        }
+      ]
     },
     {
       "id": "mis-island-dreams",
@@ -725,7 +750,14 @@
         "https://www.eurogamer.net/gta-6-island-dreams-walkthrough"
       ],
       "titleEn": "Island Dreams",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it).",
+      "trophyTips": [
+        {
+          "trophyId": "tro-this-was-no-boat-accident",
+          "tipo": "occasione",
+          "testo": "Qualche tempo dopo Kenton ti chiama (icona verde «KR» a Key Lento) per i recuperi nei 7 relitti: falli tutti. Se sparisce per un po', torna."
+        }
+      ]
     },
     {
       "id": "mis-feng-shui",
@@ -796,6 +828,18 @@
         "https://gta.wiki/wiki/Feng_Shui",
         "https://www.gtaboom.com/gta-6-feng-shui-walkthrough-f85d",
         "https://www.eurogamer.net/gta-6-feng-shui-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-stick-fiddler",
+          "tipo": "occasione",
+          "testo": "Qui provi i giochi della TV di casa: per il trofeo basta finire tutti i livelli di uno solo, anche più avanti (nel capitolo 2 la console non c'è)."
+        },
+        {
+          "trophyId": "tro-baited-my-tackle",
+          "tipo": "occasione",
+          "testo": "Da qui in poi Cal ti scrive e segna in viola un posto di pesca: segui le sue sfide di pesca finché lo batti."
+        }
       ]
     },
     {
@@ -1332,7 +1376,14 @@
         "https://www.youtube.com/watch?v=pAi0ZeNp8ig",
         "https://www.youtube.com/watch?v=63SbhtRpXAY"
       ],
-      "titleEn": "Down to Earth"
+      "titleEn": "Down to Earth",
+      "trophyTips": [
+        {
+          "trophyId": "tro-positive-mental-attitude",
+          "tipo": "attento",
+          "testo": "A fine missione segui Lucia sulla terrazza e medita con lei. Se la perdi, una mattina in cucina te lo ripropone: accetta. Solo nel capitolo 1."
+        }
+      ]
     },
     {
       "id": "mis-find-the-lost-drugs",
@@ -1776,7 +1827,14 @@
         "https://www.eurogamer.net/gta-6-recalibration-walkthrough"
       ],
       "titleEn": "Recalibration",
-      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo."
+      "titleNote": "Titolo italiano da una sola fonte (un giocatore italiano): da confermare a schermo.",
+      "trophyTips": [
+        {
+          "trophyId": "tro-positive-mental-attitude",
+          "tipo": "attento",
+          "testo": "Il capitolo 1 sta per chiudersi: se non hai ancora meditato con Lucia sul balcone di casa, fallo ora. Dopo non si può più."
+        }
+      ]
     },
     {
       "id": "mis-tourist-trap",
@@ -1839,7 +1897,14 @@
         "https://www.eurogamer.net/gta-6-tourist-trap-walkthrough"
       ],
       "titleEn": "Tourist Trap",
-      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it)."
+      "titleNote": "Titolo italiano da due fonti (un giocatore italiano e GTABase.it).",
+      "trophyTips": [
+        {
+          "trophyId": "tro-positive-mental-attitude",
+          "tipo": "attento",
+          "testo": "Prima di parlare con Lucia sulla spiaggia fai la meditazione con lei a casa di Jason: da qui non torni più a Key Lento nel capitolo 1."
+        }
+      ]
     },
     {
       "id": "mis-home-sweet-home",
@@ -1960,8 +2025,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "[spoiler] È una scena brevissima: da qui in poi, per quasi tutto il capitolo, giochi con Lucia.",
-        "Il trofeo del capitolo 1 arriva alla fine di questa missione."
+        "[spoiler] È una scena brevissima: da qui in poi, per quasi tutto il capitolo, giochi con Lucia."
       ],
       "secrets": [],
       "image": null,
@@ -1983,6 +2047,18 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-whats-in-the-bag-walkthrough/",
         "https://www.ign.com/wikis/gta-6/What%27s_In_the_Bag%3F_Walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-paradise-lost",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude il capitolo 1."
+        },
+        {
+          "trophyId": "tro-don-t-touch-my-deck",
+          "tipo": "occasione",
+          "testo": "Da qui abiti allo Starlet Motel: prendi le 2 carte (a terra nel bagno dell'ufficio, sul frigo della cucina). Dopo il capitolo 2 non ci entri più."
+        }
       ]
     },
     {
@@ -2045,8 +2121,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "[spoiler] Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
-        "Esamina la cartina appesa in reception: rivela sulla mappa tutta Port Gellhorn."
+        "[spoiler] Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza."
       ],
       "secrets": [],
       "image": null,
@@ -2067,6 +2142,13 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-see-linda-the-manager-just-moved-in-walkthroughs"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-goodtime-state",
+          "tipo": "occasione",
+          "testo": "Esamina la cartina appesa in reception: scopre sulla mappa tutta Port Gellhorn, un pezzo di nebbia in meno da togliere."
+        }
       ]
     },
     {
@@ -2315,6 +2397,13 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-moses-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-on-the-spot",
+          "tipo": "occasione",
+          "testo": "Da qui hai l'app Scooter Bros: registra 10 veicoli rubati da Moses (Respray e Register). Prima ti servono abbastanza posti nei garage."
+        }
       ]
     },
     {
@@ -2493,6 +2582,13 @@
       ],
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Prima missione della serie di Kyle (3 in tutto): finiscila tutta, conta tra le 8 serie del trofeo. Resta anche dopo la storia."
+        }
       ]
     },
     {
@@ -2583,6 +2679,13 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-ambulance-chaser-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-little-boxes",
+          "tipo": "occasione",
+          "testo": "Dopo la missione arriva l'app Vice City Real Estate: compra dal telefono tutti gli 8 garage in vendita, circa 160.000 $ in tutto."
+        }
       ]
     },
     {
@@ -2692,6 +2795,13 @@
       ],
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Seconda missione della serie di Kyle: vale per le 8 serie del trofeo solo se arrivi in fondo."
+        }
       ]
     },
     {
@@ -2740,6 +2850,13 @@
       "titleEn": "Breakfast Run",
       "moreSources": [
         "https://www.eurogamer.net/gta-6-breakfast-run-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-trust",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -2805,6 +2922,28 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-coffee-break-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-hot-together",
+          "tipo": "occasione",
+          "testo": "Da ora potete girare in coppia: chiama il partner, arriva a 4 stelle e uscite dalla zona rossa di allerta (la galleria a nord di Ambrosia aiuta)."
+        },
+        {
+          "trophyId": "tro-retail-therapy",
+          "tipo": "occasione",
+          "testo": "Da ora, col partner, rapina 3 obiettivi (icone verdi) uno dopo l'altro senza mai far sparire le stelle. Porta giubbotto, bombe adesive e cure."
+        },
+        {
+          "trophyId": "tro-personal-best",
+          "tipo": "occasione",
+          "testo": "Da ora allenatevi in palestra in coppia: la forza sale a tutti e due. Serve la forza al massimo sia per Jason sia per Lucia."
+        },
+        {
+          "trophyId": "tro-fair-game",
+          "tipo": "occasione",
+          "testo": "Da qui in poi, giocando con Jason, arriva il messaggio di Bret Vogel per le cacce nella Lummox County: Lucia non lo riceve."
+        }
       ]
     },
     {
@@ -2857,6 +2996,18 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-coffee-break-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-lone-rider",
+          "tipo": "occasione",
+          "testo": "Prima delle 5 missioni di Billy al Thrillbilly Mud Club: finiscile tutte. Restano anche dopo la storia."
+        },
+        {
+          "trophyId": "tro-earn-cash-not-kudos",
+          "tipo": "occasione",
+          "testo": "Al Mud Club ci sono 8 delle 40 gare: ogni gara diversa che vinci conta per le 20 del trofeo."
+        }
       ]
     },
     {
@@ -2906,6 +3057,13 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-twist-wrist-smash-grab-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-lone-rider",
+          "tipo": "occasione",
+          "testo": "Seconda delle 5 missioni di Billy: la serie va finita tutta (non conta però tra le serie di sconosciuti)."
+        }
       ]
     },
     {
@@ -2978,9 +3136,7 @@
         }
       ],
       "tips": [
-        "Prima compra bombe adesive all'Ammu-Nation: servono per la cassaforte.",
-        "Porta giubbotto e Zombix: dentro ci sono molti Kolt.",
-        "Se ti sfugge qualcosa, l'operazione torna disponibile più avanti: il trofeo non si perde."
+        "Porta giubbotto e Zombix: dentro ci sono molti Kolt."
       ],
       "secrets": [],
       "image": null,
@@ -3013,6 +3169,18 @@
       ],
       "moreSources": [
         "https://www.eurogamer.net/gta-6-coffee-break-walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-let-s-go-bowling",
+          "tipo": "attento",
+          "testo": "Compra prima le bombe adesive. Prendi l'orologio (ufficio sud-est), il fucile Gutterball (tavolo nord-est) e la cassaforte (ufficio nord-est), poi semina la polizia."
+        },
+        {
+          "trophyId": "tro-pest-control",
+          "tipo": "occasione",
+          "testo": "Il bowling è un'operazione dei Kolt & Associates: completarla conta come quella della loro banda (ne serve una per ciascuna delle 9)."
+        }
       ]
     },
     {
@@ -3147,6 +3315,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-fair-game",
+          "tipo": "occasione",
+          "testo": "Prima caccia di Bret (solo Jason): segui le sue richieste nelle zone viola finché ti chiede un animale unico."
+        }
       ]
     },
     {
@@ -3255,6 +3430,13 @@
       "moreSources": [
         "https://www.eurogamer.net/gta-6-checking-out-walkthrough",
         "https://www.ign.com/wikis/gta-6/Checking_Out_Walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-don-t-touch-my-deck",
+          "tipo": "attento",
+          "testo": "Prima di iniziarla prendi le 2 carte dello Starlet Motel (bagno dell'ufficio, frigo della cucina): dopo non torni più al motel."
+        }
       ]
     },
     {
@@ -3315,6 +3497,13 @@
       "moreSources": [
         "https://www.eurogamer.net/gta-6-welcome-to-vice-city-walkthrough",
         "https://www.gtabase.com/gta-6/missions/welcome-to-vice-city"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-t-s-ass-drug-money",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude il capitolo 2."
+        }
       ]
     },
     {
@@ -3647,6 +3836,18 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Al via conosci Yago: è la prima missione della sua serie (4 in tutto), che conta tra le 8 serie del trofeo."
+        },
+        {
+          "trophyId": "tro-earn-cash-not-kudos",
+          "tipo": "occasione",
+          "testo": "Da qui si aprono le gare clandestine di Vice City: ogni gara diversa che vinci conta per le 20 del trofeo."
+        }
       ]
     },
     {
@@ -3736,6 +3937,13 @@
       "moreSources": [
         "https://www.gtabase.com/gta-6/missions/here-kitty-kitty",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-spin-on-this",
+          "tipo": "occasione",
+          "testo": "Distruggi i laboratori viola della Kitty Litter (solo Jason): quando ne hai distrutti abbastanza Tyrone ti dà l'ultima missione, che vale il trofeo."
+        }
       ]
     },
     {
@@ -3953,6 +4161,13 @@
       ],
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/McKittrick_Farm_Walkthrough"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Chiude la serie di Kyle: conta tra le 8 serie del trofeo qualunque finale scegli."
+        }
       ]
     },
     {
@@ -4010,6 +4225,18 @@
       ],
       "startableBy": [
         "entrambi"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-sneakthief",
+          "tipo": "occasione",
+          "testo": "Con la Snap Gun entra dal retro di una gioielleria (Richardson è comoda), distruggi i filmati, spegni l'allarme e svuota la cassaforte senza farti vedere."
+        },
+        {
+          "trophyId": "tro-retail-therapy",
+          "tipo": "occasione",
+          "testo": "Anche le 3 gioiellerie del nord vanno bene: rapinale di fila col partner senza far sparire le stelle (non nella stessa visita del colpo silenzioso)."
+        }
       ]
     },
     {
@@ -4056,6 +4283,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Seconda missione della serie di Yago: vale per le 8 serie del trofeo solo se arrivi in fondo."
+        }
       ]
     },
     {
@@ -4234,7 +4468,6 @@
       "extraObjectives": [],
       "tips": [
         "Da qui puoi rapinare banche e Payday Loans: le banconote segnate vanno riciclate da un ricettatore, e Yasmani paga più di tutti.",
-        "Riciclare 250.000 $ in tutto vale il trofeo «Un centesimo dopo l'altro».",
         "Prima di entrare in ogni banca indossa la maschera dall'inventario (Oggetti, primo slot).",
         "Minaccia subito le guardie: se estraggono l'arma colpisci la mano o le ginocchia per restare Professional.",
         "Alla seconda banca fatti dare dal cassiere il codice della cassaforte: eviti il secondo esplosivo.",
@@ -4242,7 +4475,7 @@
         "Nell'ultima banca lascia perdere la cassaforte: scatta l'allarme e la polizia arriva subito.",
         "Fra una banca e l'altra gira al largo dalla zona di ricerca della precedente.",
         "Sulla scrivania accanto a Karim puoi prendere anche delle Stick Bomb.",
-        "Ricompensa: 6.000 $. Da qui contano anche i caveau per il trofeo «Prelievo massimo»."
+        "Ricompensa: 6.000 $."
       ],
       "secrets": [],
       "image": null,
@@ -4269,6 +4502,13 @@
       "moreSources": [
         "https://www.gtabase.com/gta-6/missions/credit-check",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-dime-on-the-dollar",
+          "tipo": "occasione",
+          "testo": "Da qui puoi rapinare banche e Payday Loans: porta le banconote segnate a un ricettatore (Yasmani paga di più) fino a 250.000 $ riciclati."
+        }
       ]
     },
     {
@@ -4327,6 +4567,18 @@
       "moreSources": [
         "https://www.gtabase.com/gta-6/missions/clonin-keys-makin-gs",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-supply-demand",
+          "tipo": "occasione",
+          "testo": "Dopo la missione Randy ti dà la lista di 16 auto sportive: consegnagliele tutte (anche rubate in strada), meglio se intatte."
+        },
+        {
+          "trophyId": "tro-capital-offense",
+          "tipo": "occasione",
+          "testo": "Ora che hai il Key Cloner: clona la Banshee blu dell'autosalone nel sud di Vice City e sfonda la vetrina. Scatta mentre ti allontani."
+        }
       ]
     },
     {
@@ -4376,6 +4628,13 @@
         {
           "when": "durante",
           "text": "Con Jason: falla appena compare, perché scade. Anche se la perdi, la serie di Yago vale comunque per il trofeo."
+        }
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "attento",
+          "testo": "Ha la clessidra e scade: falla appena compare. Anche se perdi la gara, la serie di Yago conta lo stesso."
         }
       ]
     },
@@ -4724,6 +4983,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Chiude la serie di Yago: +1 al contatore delle 8 serie (lo vedi nella lista trofei)."
+        }
       ]
     },
     {
@@ -4950,6 +5216,13 @@
       "moreSources": [
         "https://www.gtabase.com/gta-6/missions/the-cartel-heist",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-break-the-bank",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -5025,9 +5298,7 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Finita questa missione si sblocca da solo il trofeo del capitolo 3."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5042,6 +5313,13 @@
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
         "https://www.gtabase.com/gta-6/missions/another-life"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-vice-city-baby",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude il capitolo 3."
+        }
       ]
     },
     {
@@ -5425,9 +5703,7 @@
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Allenarsi in palestra in coppia fa salire la forza di tutti e due: con la forza al massimo per entrambi arriva il trofeo «Record personale»."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5443,6 +5719,13 @@
       ],
       "startableBy": [
         "lucia"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-personal-best",
+          "tipo": "occasione",
+          "testo": "Allenatevi in palestra in coppia: la forza sale a tutti e due. Il trofeo arriva con la forza al massimo sia per Jason sia per Lucia."
+        }
       ]
     },
     {
@@ -5587,9 +5870,7 @@
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Fuori dalla missione, ruba un aereo di linea attaccato a un finger (il più comodo è ai gate E3/E4) e allontanati di 1 km: vale il trofeo «Prova a prendermi»."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5603,6 +5884,13 @@
       ],
       "startableBy": [
         "jason"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-catch-me-if-you-can",
+          "tipo": "occasione",
+          "testo": "Fuori dalla missione ruba un aereo di linea attaccato a un finger (comodo ai gate E3/E4), decolla e allontanati di 1 km dall'aeroporto."
+        }
       ]
     },
     {
@@ -5723,9 +6011,7 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Il trofeo legato a questa missione si sblocca da solo: non c'è niente da fare in più."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5746,6 +6032,13 @@
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
         "https://www.gtabase.com/gta-6/missions/childs-play",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-family-matters",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -5805,9 +6098,7 @@
       "unlocks": [],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Il trofeo legato a questa missione si sblocca da solo: non c'è niente da fare in più."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -5822,6 +6113,13 @@
       ],
       "startableBy": [
         "entrambi"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-dwnfall",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -5975,8 +6273,7 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "Dopo il colpo compare una missione facoltativa di Yasmani che apre i caveau delle banche: è il modo più veloce per fare soldi.",
-        "Il trofeo legato al colpo si sblocca da solo completando la missione."
+        "Dopo il colpo compare una missione facoltativa di Yasmani che apre i caveau delle banche: è il modo più veloce per fare soldi."
       ],
       "secrets": [],
       "image": null,
@@ -5999,6 +6296,13 @@
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
         "https://www.gtabase.com/gta-6/missions/vcia-takedown",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-hi-jacked",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -6067,7 +6371,6 @@
       "tips": [
         "Il colpo dà subito 4 stelle e la banca non ha uscita sul retro: esci dal davanti pronto a sparare, poi cambia auto, togli il travestimento e metti cappello e occhiali dall'inventario.",
         "Le borse non bastano per tutto: tieni premuto destra sulla croce direzionale e poi Cerchio per passarne una al partner.",
-        "Finita la missione vendi le banconote segnate a Yasmani: con tutte le borse piene sono circa 80.000 $. Se non l'avevi ancora, arriva anche il trofeo «Un classico blitz».",
         "Non scade: resta disponibile anche dopo la storia, e i caveau servono per il 100%."
       ],
       "secrets": [],
@@ -6090,6 +6393,28 @@
       ],
       "startableBy": [
         "entrambi"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-a-classic-blitz-play",
+          "tipo": "arriva",
+          "testo": "Svaligiare questo caveau conta anche come furgone blindato: arriva quando completi la fuga, se non l'avevi già."
+        },
+        {
+          "trophyId": "tro-maximum-withdrawal",
+          "tipo": "occasione",
+          "testo": "È il primo dei caveau: ne servono 5 su 8. Dopo, Yasmani ti vende per 10.000 $ le soffiate sui furgoni portavalori."
+        },
+        {
+          "trophyId": "tro-dime-on-the-dollar",
+          "tipo": "occasione",
+          "testo": "Vendi le banconote segnate del caveau a Yasmani: con tutte le borse piene sono circa 80.000 $ verso i 250.000."
+        },
+        {
+          "trophyId": "tro-hot-together",
+          "tipo": "occasione",
+          "testo": "Il caveau ti dà subito 4 stelle: se esci dalla zona rossa insieme al partner, arriva anche questo trofeo."
+        }
       ]
     },
     {
@@ -6157,9 +6482,7 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Completandola si sblocca da solo il trofeo del capitolo 4."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -6187,6 +6510,13 @@
         "https://www.gtabase.com/gta-6/missions/chapter-4-finale",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-top-of-the-world-ma",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude il capitolo 4."
+        }
       ]
     },
     {
@@ -6371,9 +6701,7 @@
       ],
       "rewards": [],
       "extraObjectives": [],
-      "tips": [
-        "Il trofeo della missione si sblocca da solo: non c'è niente da fare in più."
-      ],
+      "tips": [],
       "secrets": [],
       "image": null,
       "status": "da verificare",
@@ -6393,6 +6721,13 @@
         "https://www.gtabase.com/gta-6/missions/operation-savage-glory",
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://www.powerpyx.com/gta-6-all-garage-locations/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-snow-storm",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -6559,6 +6894,13 @@
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
         "https://www.gtabase.com/gta-6/missions/chapter-5-finale",
         "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+      ],
+      "trophyTips": [
+        {
+          "trophyId": "tro-you-gotta-know-when-to-get-off",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: non c'è niente da fare in più."
+        }
       ]
     },
     {
@@ -6613,7 +6955,14 @@
         "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 1,
-      "spoilerLevel": 1
+      "spoilerLevel": 1,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Prima missione della serie di Kirk (3 in tutto): finiscila tutta, conta tra le 8 serie del trofeo. Resta anche dopo la storia."
+        }
+      ]
     },
     {
       "id": "mis-search-for-tree-effigies",
@@ -6660,7 +7009,14 @@
         "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 1,
-      "spoilerLevel": 1
+      "spoilerLevel": 1,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Seconda missione della serie di Kirk: vale per le 8 serie del trofeo solo se arrivi in fondo."
+        }
+      ]
     },
     {
       "id": "mis-help-kirk-find-mr-mangrove",
@@ -6716,7 +7072,14 @@
         "https://www.ign.com/wikis/gta-6/Skunk_Apeology_101_Walkthrough"
       ],
       "chapter": 2,
-      "spoilerLevel": 2
+      "spoilerLevel": 2,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Chiude la serie di Kirk: +1 al contatore delle 8 serie (lo vedi nella lista trofei)."
+        }
+      ]
     },
     {
       "id": "mis-send-money-to-lorena",
@@ -6943,7 +7306,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-lone-rider",
+          "tipo": "occasione",
+          "testo": "Terza delle 5 missioni di Billy: la serie va finita tutta per il trofeo."
+        }
+      ]
     },
     {
       "id": "mis-the-impaler",
@@ -6992,7 +7362,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-lone-rider",
+          "tipo": "occasione",
+          "testo": "Quarta delle 5 missioni di Billy: la serie va finita tutta per il trofeo."
+        }
+      ]
     },
     {
       "id": "mis-hometown-heroes",
@@ -7041,7 +7418,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-the-lone-rider",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude la serie di Billy."
+        }
+      ]
     },
     {
       "id": "mis-climbing-the-cellerichain",
@@ -7058,8 +7442,7 @@
         "La chiamata di Andy arriva nel capitolo 3, giocando con Lucia, dopo le sue prime missioni a Vice City.",
         "Nel kit ci sono il cappellino Cellerica e un Manifestick.",
         "In garage, accanto al terzo pacco, c'è una rivista da collezione: leggila.",
-        "[spoiler] Al terzo indirizzo non dare il pacco al tizio che si spaccia per il padrone: se lo fai devi rincorrerlo e spingerlo per riaverlo.",
-        "La serie di Andy non conta per «Sconosciuti e folli», ma l'ultima missione dà un trofeo."
+        "[spoiler] Al terzo indirizzo non dare il pacco al tizio che si spaccia per il padrone: se lo fai devi rincorrerlo e spingerlo per riaverlo."
       ],
       "secrets": [],
       "image": null,
@@ -7090,7 +7473,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-road-to-rehabilitation",
+          "tipo": "occasione",
+          "testo": "Prima delle 5 missioni di Andy, solo con Lucia: finiscile tutte (non contano però tra le serie di sconosciuti). Restano dopo la storia."
+        }
+      ]
     },
     {
       "id": "mis-pay-the-cellerica-fee",
@@ -7132,7 +7522,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-road-to-rehabilitation",
+          "tipo": "occasione",
+          "testo": "Seconda delle 5 missioni di Andy: la serie va finita tutta per il trofeo."
+        }
+      ]
     },
     {
       "id": "mis-peach",
@@ -7180,7 +7577,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-road-to-rehabilitation",
+          "tipo": "occasione",
+          "testo": "Terza delle 5 missioni di Andy: la serie va finita tutta per il trofeo."
+        }
+      ]
     },
     {
       "id": "mis-read-the-label",
@@ -7225,7 +7629,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-road-to-rehabilitation",
+          "tipo": "occasione",
+          "testo": "Quarta delle 5 missioni di Andy: la serie va finita tutta per il trofeo."
+        }
+      ]
     },
     {
       "id": "mis-puff-puff-pass",
@@ -7274,7 +7685,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-road-to-rehabilitation",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude la serie di Andy."
+        }
+      ]
     },
     {
       "id": "mis-spin-on-this",
@@ -7325,7 +7743,14 @@
         "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/"
       ],
       "chapter": 3,
-      "spoilerLevel": 3
+      "spoilerLevel": 3,
+      "trophyTips": [
+        {
+          "trophyId": "tro-spin-on-this",
+          "tipo": "arriva",
+          "testo": "Arriva da solo a fine missione: chiude la serie di Tyrone."
+        }
+      ]
     },
     {
       "id": "mis-the-last-mile-passing-the-torch",
@@ -7341,8 +7766,7 @@
       "tips": [
         "Sul tavolo del retro c'è l'arma unica «Pete's KZ-59 Assault Rifle»: prendila.",
         "La cassaforte si apre con il codice 3718.",
-        "Ricompensa: 12.000 $ su BuckMe. Le consegne successive di Pete valgono 20.000 $ l'una.",
-        "La serie di Pete conta per il trofeo «Sconosciuti e folli»."
+        "Ricompensa: 12.000 $ su BuckMe. Le consegne successive di Pete valgono 20.000 $ l'una."
       ],
       "secrets": [],
       "image": null,
@@ -7374,7 +7798,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 4,
-      "spoilerLevel": 4
+      "spoilerLevel": 4,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Prima missione della serie di Pete (solo Jason): finiscila tutta, conta tra le 8 serie del trofeo. Resta anche dopo la storia."
+        }
+      ]
     },
     {
       "id": "mis-the-last-mile-backseat-pilot",
@@ -7421,7 +7852,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 4,
-      "spoilerLevel": 4
+      "spoilerLevel": 4,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Fa parte della serie di Pete: vale per le 8 serie del trofeo solo se arrivi in fondo."
+        }
+      ]
     },
     {
       "id": "mis-petes-deliveries",
@@ -7462,7 +7900,14 @@
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
       ],
       "chapter": 4,
-      "spoilerLevel": 4
+      "spoilerLevel": 4,
+      "trophyTips": [
+        {
+          "trophyId": "tro-strangers-freaks",
+          "tipo": "occasione",
+          "testo": "Le ultime consegne chiudono la serie di Pete: +1 al contatore delle 8 serie (lo vedi nella lista trofei)."
+        }
+      ]
     },
     {
       "id": "mis-pay-abes-fee",

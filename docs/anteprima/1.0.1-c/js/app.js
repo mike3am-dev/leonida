@@ -31,7 +31,7 @@ import * as banda from './views/banda.js';
 import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'prova 1.0.1-b';
+window.__LEONIDA_VERSION__ = 'prova 1.0.1-c';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
