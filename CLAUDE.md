@@ -17,7 +17,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 
 ## Le chat di Leonida (dal 20/11 sera)
 Mike lavora con più chat, una per tipo di lavoro. Le chat non si parlano: si passano tutto attraverso i file del repo (CLAUDE.md, STATO.md, `scripts/caccia/`). **A fine lavoro ogni chat scrive in STATO.md cosa ha fatto e cosa resta**, poi commit e push.
-- **Caccia e news**: giri di caccia (`scripts/caccia/README.md`), giri news, giri guide. Il promemoria delle 12 ore (scheduled task «Promemoria giro di caccia», `trig_01Q3XBNUHuyUn74MzqGTGLgA`) nasceva nella prima chat: quando Mike lo chiede, la chat Caccia lo cancella e ne crea uno uguale legato a sé (stesso testo, ogni 12 ore).
+- **Caccia e news**: giri di caccia (`scripts/caccia/README.md`), giri news, giri guide. Il promemoria delle 12 ore è stato cancellato il 20/11 su richiesta di Mike: niente più promemoria programmati, **il giro di caccia parte solo quando Mike lo dice** (non ricrearlo).
 - **Dal gioco**: schermate di Mike (`Screenshot/`), Pacchetti per Claude, conferme. Fonte di verità (`scripts/caccia/gioco-mike.md`): aggiorna i dati, i termini e le schede di «Come si gioca».
 - **Grafica e nuove funzioni**: sezioni nuove e ritocchi, sempre in anteprima (STATO 5b); il taccuino delle cose da fare è STATO sezione 4.
 - **Bug**: correzioni piccole e rapide, in anteprima se toccano la grafica.
@@ -70,7 +70,7 @@ Regole del giro guide:
 - Fine giro: validazione, versione, commit, push, verifica live, riepilogo in chat con le 5 cose più importanti.
 
 ## «Giro di caccia» — ogni 12 ore finché la guida non è esaustiva
-Passata a tappeto con otto squadre in parallelo per trovare quello che manca o è superato (musica, trucchi/sfide/segreti, missioni, mappa e Mondo, personaggi, collezionabili, Come si gioca, armi e veicoli). Si fa quando Mike dice sì (c'è un promemoria ogni 12 ore). Procedura, compiti delle squadre, strumenti (`prova.py`, `applica.py`) e fonti che funzionano: `scripts/caccia/README.md`.
+Passata a tappeto con otto squadre in parallelo per trovare quello che manca o è superato (musica, trucchi/sfide/segreti, missioni, mappa e Mondo, personaggi, collezionabili, Come si gioca, armi e veicoli). Si fa solo quando Mike lo chiede (dal 20/11 nessun promemoria programmato). Procedura, compiti delle squadre, strumenti (`prova.py`, `applica.py`) e fonti che funzionano: `scripts/caccia/README.md`.
 
 ## Struttura
 - `docs/js/app.js` router hash + render a colonna unica; `docs/js/views/*.js` una vista per sezione (`sessione` = Home, `atlante` = Mappa e luoghi, `novita` = News e guide, `editoriale` = Personaggi/Radio/Mondo, `veicoli` = Veicoli (prima «Garage»), `diario` = Appunti).
