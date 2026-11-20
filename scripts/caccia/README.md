@@ -2,7 +2,7 @@
 
 **Cos'è.** Una passata a tappeto per trovare quello che manca nella guida o che è superato: otto squadre in parallelo, una per ambito, che confrontano i dati con tutto ciò che le fonti hanno pubblicato fino a quel momento. Nata il 18/11/2026 notte, quando Mike ha trovato da solo «Feels» su Flash FM e la guida non ce l'aveva: quel giro ha portato 61 trucchi, 80 sfide, 28 missioni, 37 personaggi, 221 punti d'interesse e ha scovato uno spoiler già online.
 
-**Quando.** Ogni 12 ore finché la guida non è esaustiva (Mike, 18/11). C'è un promemoria programmato che lo ricorda; il giro parte solo quando Mike dice sì. Momenti in cui le fonti esplodono: l'uscita in America (sera del 18/11 ora italiana) e il primo weekend (21-23/11).
+**Quando.** Ogni 12 ore finché la guida non è esaustiva (Mike, 18/11). Dal 20/11 non c'è più il promemoria programmato: il giro parte solo quando Mike lo chiede. Momenti in cui le fonti esplodono: l'uscita in America (sera del 18/11 ora italiana) e il primo weekend (21-23/11).
 
 ## Procedura (coordinatore)
 1. **Prima di partire**: leggi CLAUDE.md, STATO.md (sezioni 4u e successive: cosa è stato fatto e cosa manca), lancia `node scripts/completezza.mjs` per avere i numeri attuali.
@@ -47,6 +47,11 @@
 - **DayOne** via API REST (`https://playday.one/wp-json/wp/v2/posts?slug=…`): gang con scheda di gioco, Ammu-Nation per zona, veicoli con le 5 barre (`speed, accel, handling, offroad, strength`).
 - **gta.wiki**: registro dei caricamenti per trovare i ritratti (`list=logevents&letype=upload`), miniature con `iiurlwidth=600`, categoria `Businesses_in_GTA_VI` (454 aziende), marker di gtasixmap (`…workers.dev/markers`, stesso sistema `xy` dei nostri POI).
 - Da scartare (aggiunte): eGamers.io, games.gg, Music Mundial, cwibc, demokratis; Sportskeeda mai da sola.
+
+## Dal gioco di Mike (20/11 mattina, schermate in italiano) — fonte `gioco-mike`, vale più delle guide
+- **Statistiche, sezione «Progressi col partner»:** Completamento della storia (%), Tempo di gioco, Tempo nei panni di Jason / di Lucia, **Veicoli di spicco trovati 0/280**, **Varianti uniche di armi trovate 0/130**, **Abbonamenti in palestra acquistati 0/8**, Negozi scoperti (33 dopo 1h30), Officine trovate (3). Sezione **«Benessere»**: Potenziamenti della salute, Superpotenziamenti della salute. → i totali veri di «Standout» (280, non 281) e delle varianti uniche (130); le palestre sono 8 (non 9).
+- **Progresso / Veicoli:** sei schede, Auto · Motocicli, quad e bici · Imbarcazioni · Velivoli · Servizio · Speciali. Le Auto hanno 9 classi; ogni classe ha una frase e «Scoperti X / Y»: **Coupé** «Auto per passeggeri, agili e compatte» 18; **Veicoli muscle** «Veicoli rumorosi, potenti e dallo stile aggressivo» 26. Le altre 7 classi e i totali delle altre schede: da chiedere a Mike o cercare.
+- **Scheda del veicolo:** nome col modello prima dell'anno («Vapid Ganado '70»), frase del gioco («Muscle truck potente con profilo aggressivo e pianale lungo»), «Statistiche del modello base»: Velocità, Accelerazione, **Manovrabilità sull'asfalto**, **Manovrabilità fuoristrada**, Robustezza (0-10, un decimale), più «Valutazione» con due numeri (330 e 458 per il Ganado, icone asfalto/fuoristrada?). Le barre del Ganado coincidono con le nostre (4,7 · 5,3 · 3,6 · 4,5 · 3,0): i `stats` che abbiamo sono quelli del gioco.
 
 ## Cosa manca alla fine del giro del 19/11 sera (da ricontrollare per primo)
 - **Fatto in questo giro:** soluzioni del capitolo 4 (9 missioni), 3 facoltative nuove, cast dai titoli di coda ufficiali, tutte le voci radio (831 canzoni), carte 480/480, 35 pesci, 12 garage, 21 punti dalla mappa ufficiale, 35 nomi di veicoli, metodo di «In principio…» e «La verità è là fuori».
