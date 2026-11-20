@@ -1,10 +1,11 @@
 /** Appunti: il taccuino da gioco. Scrivi, ritrova, passa a Claude. */
-import { db, byId } from '../data.js';
+import { db, byId, actNum } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, fmtDate, fmtTime, relTime, toast } from '../ui/dom.js';
 import { showSheet, closeSheet } from '../ui/sheet.js';
 import { sectionHead, acc, vis, sectionOf, currentMission } from './shared.js';
 import * as spoiler from '../spoiler.js';
+import { cup } from './trofei.js';
 
 const section = sectionOf('diario');
 
@@ -153,6 +154,37 @@ export function openNoteSheet(ctx = {}) {
   showSheet({ title: 'Appunto rapido', body });
 }
 
+/** Trofei legati alla missione appena finita (richiesta di Mike, 20/11): così non deve andarli a cercare.
+ *  - presi: trofei con `missions` che contiene la missione, o `chapterDone` del capitolo appena chiuso;
+ *  - ora puoi farli: `openedBy` che contiene la missione, o `timing.from` = capitolo che si apre;
+ *  - da non perdere: `timing.until` = questo capitolo, quando mancano 3 missioni o meno alla fine. */
+function trophyHint(m) {
+  const all = vis(db.trophies || []);
+  if (!all.length) return '';
+  const st = progress.get();
+  const got = st.trophies || {};
+  const main = vis(db.missions).filter((x) => x.actId === m.actId && !x.optional && !x.kind);
+  const isMain = main.includes(m);
+  const left = isMain ? main.filter((x) => st.missions[x.id]?.state !== 'completata').length : -1;
+  const chapterClosed = isMain && left === 0;
+  const n = actNum(m.actId);
+  const earned = all.filter((t) => (t.missions || []).includes(m.id) || (chapterClosed && t.chapterDone === m.actId));
+  const opened = all.filter((t) => !got[t.id] && !earned.includes(t) && ((t.openedBy || []).includes(m.id) || (chapterClosed && t.timing?.from === n + 1)));
+  const closing = left > 0 && left <= 3 ? all.filter((t) => !got[t.id] && t.timing?.until === n && !opened.includes(t)) : [];
+  if (!earned.length && !opened.length && !closing.length) return '';
+  // Il trofeo appena preso si vede in chiaro; quelli ancora coperti dallo scudo spoiler si scoprono con un tocco
+  const txt = (t, clear) => { const h = `<b>${esc(t.name)}</b><small>${esc(clear ? t.description || '' : t.guide || t.description || '')}</small>`; return clear || !spoiler.isHidden(t) ? h : spoiler.ink(h); };
+  const row = (t, btn) => `<div class="tro-hint__row">${cup(t.tier, 32)}<span class="tro-hint__txt">${txt(t, btn)}</span>${btn ? `<button type="button" class="pq__chip" data-trophy-got="${esc(t.id)}" aria-pressed="${!!got[t.id]}">${got[t.id] ? 'Preso' : 'Preso?'}</button>` : ''}</div>`;
+  const MAX = 4;
+  const block = (title, list, btn) => (list.length ? `<div class="pq"><span>${title}</span>${list.slice(0, btn ? 99 : MAX).map((t) => row(t, btn)).join('')}${!btn && list.length > MAX ? `<p class="small tro-hint__more">e altri ${list.length - MAX} nella pagina dei trofei</p>` : ''}</div>` : '');
+  return `<div class="passed-sheet__q tro-hint">
+    ${block(earned.length > 1 ? 'Trofei sbloccati' : 'Trofeo sbloccato', earned, true)}
+    ${block(chapterClosed ? `Dal capitolo ${n + 1} puoi fare` : 'Adesso puoi fare', opened, false)}
+    ${block(`Prima che finisca il capitolo${left === 1 ? ' (manca 1 missione)' : ` (mancano ${left} missioni)`}`, closing, false)}
+    ${opened.length || closing.length ? '<button type="submit" class="linkbtn small" data-go="trofei">Vai ai trofei</button>' : ''}
+  </div>`;
+}
+
 /** Missione compiuta: schermata in stile GTA con la prossima mossa. Per Mike (curatore) anche tre domande per il Pacchetto. */
 export function openMissionDone(m, { next = null, onNext = null } = {}) {
   if (!m) return;
@@ -162,6 +194,7 @@ export function openMissionDone(m, { next = null, onNext = null } = {}) {
   body.className = 'passed-sheet';
   body.innerHTML = `
     <div class="passed-sheet__hero"><span class="passed-sheet__big">Missione compiuta</span><span class="passed-sheet__name">${esc(m.title)}</span></div>
+    ${trophyHint(m)}
     ${creator ? `<div class="passed-sheet__q">
       <p class="passed-sheet__lead">Per la guida, tre tocchi:</p>
       <label class="pq"><span>Chi te l'ha data</span><input class="pq__input" name="contact" autocomplete="off" placeholder="Lucia, Brian, una telefonata…"></label>
@@ -189,11 +222,13 @@ export function openMissionDone(m, { next = null, onNext = null } = {}) {
     progress.addNote({ text: `Fine missione «${m.title}». ${parts.join(' · ')}`, missionId: m.id, districtId: dis, kind: 'scheda-missione', fields: { contatto: contact || null, distretto: dis, scelta: choice, altro: extra || null } });
   };
   body.addEventListener('click', (e) => {
+    const tg = e.target.closest('[data-trophy-got]');
+    if (tg) { progress.toggleTrophy(tg.dataset.trophyGot); const on = !!progress.get().trophies?.[tg.dataset.trophyGot]; tg.setAttribute('aria-pressed', String(on)); tg.textContent = on ? 'Preso' : 'Preso?'; return; }
     const b = e.target.closest('[data-pick]');
     if (b) { const on = b.getAttribute('aria-pressed') !== 'true'; body.querySelectorAll(`[data-pick="${b.dataset.pick}"]`).forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', String(on)); return; }
     const g = e.target.closest('[data-go]'); if (g) go = g.dataset.go;
   });
-  body.onsubmit = (e) => { e.preventDefault(); save(); closeSheet(); if (go === 'next') onNext?.(); };
+  body.onsubmit = (e) => { e.preventDefault(); save(); closeSheet(); if (go === 'next') onNext?.(); else if (go === 'trofei') location.hash = '/trofei'; };
   showSheet({ title: 'Missione compiuta', body, cls: 'sheet--passed', onClose: save });
 }
 
