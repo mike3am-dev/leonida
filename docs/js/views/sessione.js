@@ -8,6 +8,7 @@ import { currentAct } from './missioni.js';
 import { newsImgTag } from './novita.js';
 import { cup } from './trofei.js';
 import * as spoiler from '../spoiler.js';
+import * as criminale from './criminale.js';
 
 const section = sectionOf('home');
 const HERO = 'assets/img/sfondi/keyart.jpg';
@@ -80,6 +81,8 @@ export function render() {
         <dt>Appunti</dt><dd>${st.notes.length ? `<a href="#/diario">${st.notes.length}${st.notes.filter((n) => !n.exported).length ? `, ${st.notes.filter((n) => !n.exported).length} da passare` : ''}</a>` : '<a href="#/diario">scrivi il primo</a>'}</dd>
       </dl>
     </section>
+
+    ${criminale.homeCard()}
 
     <section class="block">
       <div class="block__head"><span class="kicker">Personaggi incontrati · ${metCount} / ${chars.length}</span></div>

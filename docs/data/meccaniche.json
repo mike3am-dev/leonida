@@ -304,6 +304,33 @@
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-criminal-profiles/"
+      ],
+      "profileTypes": [
+        {
+          "id": "professionale",
+          "name": "Professionale",
+          "color": "#f2c230",
+          "halo": true,
+          "short": "Crimini puliti: nessun ferito, prove distrutte."
+        },
+        {
+          "id": "senza-scrupoli",
+          "name": "Senza scrupoli",
+          "color": "#ff8a3d",
+          "short": "Metti fuori combattimento senza uccidere."
+        },
+        {
+          "id": "violento",
+          "name": "Violento",
+          "color": "#a66bf2",
+          "short": "Uccidi nemici, agenti e passanti."
+        },
+        {
+          "id": "folle",
+          "name": "Folle",
+          "color": "#c4c2cc",
+          "short": "Violenza gratuita, anche sugli animali."
+        }
       ]
     },
     {

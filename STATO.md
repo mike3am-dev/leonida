@@ -301,6 +301,14 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 
 **Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
 
+## 5f. Profilo criminale dichiarato (chat Grafica, 20/11 sera) — IN ATTESA DELL'OK DI MIKE, solo sul ramo di sessione `claude/great-turing-94rkcc`
+Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a colpo d'occhio in classifica. Schermate mandate a Mike (regola degli schizzi, CLAUDE.md); **non è su `sviluppo`** finché non approva.
+- Dati: `meccaniche.json → mec-profilo-criminale.profileTypes` (id, name, color del diavoletto del gioco, short). Progressi: `state.crime` = id (campo facoltativo, niente migrazione).
+- `docs/js/views/criminale.js`: riquadro in Home sotto «I tuoi progressi» (4 pulsanti col diavoletto, uno acceso; ritocco = spento), `tag()` per l'etichetta in classifica e nel confronto della banda.
+- Banda: gli altri si leggono da `progressi.crime`. **Serve che Mike rilanci in Supabase la funzione `banda` di `scripts/supabase/community.sql`** (aggiunge solo la chiave `crime` dentro `progressi`: l'app online continua a funzionare). Finché non lo fa ognuno vede solo il suo.
+- Da chiedere a Mike: nel gioco Jason e Lucia hanno un profilo a testa? Oggi se ne dichiara uno solo per giocatore. Quinto livello («Irredeemable») non incluso: manca il nome italiano.
+- Nelle prove con Playwright le chiamate a Supabase vanno intercettate con `p.route(/supabase\.co/, …)` (il motivo a glob `**/supabase.co/**` NON le ferma).
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

@@ -4,6 +4,7 @@
 
 -- ---------- La banda ----------
 -- Restituisce nick e progressi (solo missioni, collezionabili, trofei, attività: niente appunti, niente email)
+-- più 'crime' = il profilo criminale dichiarato in Home (dal 20/11),
 -- di chi non ha spento «Mostrami nella banda». sei_tu dice quale riga è la tua.
 create or replace function public.banda(p_email text)
 returns table(nick text, sei_tu boolean, aggiornato timestamptz, progressi jsonb)
@@ -16,7 +17,8 @@ language sql security definer set search_path = public as $$
       'missions',     coalesce(p.dati->'state'->'missions', '{}'::jsonb),
       'collectibles', coalesce(p.dati->'state'->'collectibles', '{}'::jsonb),
       'trophies',     coalesce(p.dati->'state'->'trophies', '{}'::jsonb),
-      'activities',   coalesce(p.dati->'state'->'activities', '{}'::jsonb))
+      'activities',   coalesce(p.dati->'state'->'activities', '{}'::jsonb),
+      'crime',        coalesce(p.dati->'state'->>'crime', ''))
   from profili p
   where coalesce(p.dati->'state'->'settings'->>'banda', 'true') <> 'false'
   order by p.aggiornato desc
