@@ -2,6 +2,611 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261120-sensor-tower-24-milioni",
+      "date": "2026-11-20",
+      "title": "Vendite, la stima di fine giornata: 24,6 milioni di copie e 2,36 miliardi di dollari, quasi tre volte il primo giorno di GTA V",
+      "body": "La stima: secondo Sensor Tower, ripresa da Reuters, VGC e GamesRadar+, la sera di giovedì 19 GTA VI era a 24,58 milioni di copie tra preordini e vendite del primo giorno, circa 2,36 miliardi di dollari. Sono 5,5 milioni in più della stima del mattino (19,1 milioni). Tre copie su quattro sono per PS5. GTA V nel 2013 aveva incassato circa 800 milioni nelle prime 24 ore.\n\nAltri numeri: Cloudflare dice alla BBC che nel Regno Unito gli scaricamenti dalle PS5 sono arrivati a 8,6 volte il normale all'ora dello sblocco, e che il traffico verso i servizi di Rockstar ha toccato 11,2 volte il normale in Australia.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar parlano solo di una domanda «senza precedenti» e non hanno ancora dato numeri.",
+      "topic": "business",
+      "outlet": "Sensor Tower / Reuters / VGC / GamesRadar+ / BBC",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-sold-around-25-million-copies-and-made-2-36-billion-in-its-first-day-estimates-suggest/",
+      "relatedIds": [
+        "new-20261119-sensor-tower-19-milioni",
+        "new-20261119-vendite-17-milioni-stime",
+        "new-20261118-take-two-borsa-wells-fargo"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://vice-central.com/gta-vi-24-millions-exemplaires-soir-sortie-sensor-tower/",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sales-are-almost-at-25-million-as-rockstar-earns-usd2-36-billion-in-revenue-analysts-estimate/",
+        "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o"
+      ]
+    },
+    {
+      "id": "new-20261120-the-album-uscito",
+      "date": "2026-11-20",
+      "title": "«Grand Theft Auto VI: The Album» è uscito in streaming: 34 brani e 1 ora e 37 minuti, e la scaletta trapelata era giusta",
+      "body": "Cosa è uscito: dalla mezzanotte italiana di venerdì 20 l'album completo è su Spotify, Apple Music, YouTube Music e le altre piattaforme. Rockstar lo annuncia sul Newswire. Sono 34 brani, coprodotti con Atlantic Records: ai dieci già usciti da settembre (tra cui «RHYNO» di Travis Scott, «Last Thing You Need» di Morgan Wallen e «Blood In Your Eyes» di Tove Lo) si aggiungono 24 inediti, da Dua Lipa («Go Easy») a Lana Del Rey, Jennie, Playboi Carti e Keith Richards. La scaletta è quella del retro del vinile circolato il 14 novembre.\n\nDa sapere: le edizioni in CD e vinile restano in programma. La colonna sonora originale di Justice è un album a parte, «Original Score», atteso l'11 dicembre.",
+      "topic": "musica",
+      "outlet": "Rockstar Games / Vice Central",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-the-album-sortie-34-titres-streaming/",
+      "relatedIds": [
+        "new-20261114-the-album-scaletta-34-brani",
+        "new-20261112-the-album-ascolti-negozi",
+        "new-20261029-score"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.rockstargames.com/VI/music"
+      ]
+    },
+    {
+      "id": "new-20261120-premier-britannico",
+      "date": "2026-11-20",
+      "title": "Il primo ministro britannico non ci giocherà, ma per Downing Street Rockstar è «un successo britannico»",
+      "body": "La dichiarazione: un portavoce del primo ministro Andy Burnham ha detto all'Independent che «Rockstar Games è un successo britannico fatto a Edimburgo» (il gioco nasce da Rockstar North, in Scozia) e che per molti fan GTA «valeva l'attesa». Burnham però non ci giocherà: ha «l'agenda molto piena». Il governo ricorda anche che questa settimana i ragazzi devono stare a scuola.\n\nPerché fa notizia: lo scorso anno il predecessore Keir Starmer aveva definito «molto preoccupante» il licenziamento dei 34 dipendenti di Rockstar, la causa che è ancora in attesa di sentenza a Glasgow.",
+      "topic": "business",
+      "outlet": "Eurogamer / GameSpot / The Independent",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham",
+      "relatedIds": [
+        "new-20261118-rockstar-tribunale-sindacato"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.gamespot.com/articles/gta-6-is-a-british-success-story-prime-minister-says-but-he-wont-play-it/"
+      ]
+    },
+    {
+      "id": "new-20261120-truffe-pc-kaspersky-nordvpn",
+      "date": "2026-11-20",
+      "title": "Truffe, i numeri dell'uscita: 27.416 file infetti a nome di GTA VI secondo Kaspersky e un «kit» per truffatori da 200 dollari",
+      "body": "I numeri: Kaspersky ha contato 27.416 rilevamenti di programmi dannosi legati a GTA VI tra giugno e novembre: finti installatori per PC, «preload anticipati», generatori di chiavi e trucchi, che contengono virus o pubblicità invadente. NordVPN ha trovato in vendita sul dark web, a 200 dollari, un «kit» pronto con una finta versione PC, un falso «GTA6 Keygen.exe» che ruba gli account, un programma che svuota i portafogli crypto e un robot che lo diffonde su YouTube Shorts.\n\nAnche su Steam: il giorno dell'uscita SteamDB ha segnalato una pagina «Grand Theft Auto 6» senza editore né immagini, tornata attiva all'improvviso. Non è di Rockstar.\n\nLa regola non cambia: GTA VI esiste solo su PS5 e Xbox Series X|S. Ogni «download per PC» è falso.",
+      "topic": "community",
+      "outlet": "Vice Central / Kaspersky / PC Gamer / NordVPN",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-fausse-version-pc-kaspersky-page-steam/",
+      "relatedIds": [
+        "new-20261118-truffe-malwarebytes",
+        "new-20261120-cyberleek-build-xbox"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/"
+      ]
+    },
+    {
+      "id": "new-20261120-primo-speedrun-39-ore",
+      "date": "2026-11-20",
+      "title": "La prima corsa al finale: lo streamer BrycexD arriva ai titoli di coda in 39 ore e 38 minuti, senza mai dormire",
+      "body": "Il record: lo streamer BrycexD dice di essere il primo al mondo ad aver finito la storia, in diretta e senza pause: 39:38:22, dopo oltre 50 ore sveglio. È il primo «speedrun» noto.\n\nDa sapere: non è un record ufficiale. Le classifiche di speedrun.com per GTA VI apriranno tra circa 41 giorni, e qualcuno potrebbe aver finito prima senza registrarlo. Chi vuole evitare il finale stia lontano dalle sue clip.",
+      "topic": "community",
+      "outlet": "GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/the-first-gta-6-speedrun-is-less-than-40-hours-with-no-breaks-from-a-streamer-who-stayed-up-for-50-plus-hours/",
+      "relatedIds": [
+        "new-20261120-streaming-125-milioni-ore"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-ragazza-bikini-trailer",
+      "date": "2026-11-20",
+      "title": "Trovata nel gioco la ragazza in bikini del primo trailer, e Lucia le chiede: «Sei famosa?»",
+      "body": "La scoperta: un utente di r/GTA6 ha trovato su uno yacht, durante una missione con Lucia, la donna in bikini che si vede nel primo trailer del 2023 e che molti avevano scambiato per Lucia. Se Lucia le parla, le dice: «Hai un'aria familiare, sei una celebrità?».\n\nPerché è divertente: è una piccola battuta di Rockstar sulle teorie dei fan di allora. È un personaggio di contorno, non ha un ruolo nella storia.",
+      "topic": "community",
+      "outlet": "Rockstar Intel / Reddit r/GTA6",
+      "source": "community",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/gta-vis-famous-bikini-girl-from-trailer-1-has-been-found/",
+      "relatedIds": [],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-riferimenti-red-dead",
+      "date": "2026-11-20",
+      "title": "Red Dead e GTA nello stesso universo? Un libro nel porticciolo di Brian racconta la fine di un fuorilegge di Red Dead Redemption 2",
+      "body": "La scoperta: nel Brian's Marina c'è un libro il cui protagonista, Rust McCreary, trova il fuorilegge Flaco Hernandez «morto nella neve» a Cairn Lake: è proprio quello che succede in una missione secondaria di Red Dead Redemption 2 con Arthur Morgan. Il libro cita anche Blackwater, New Austin, Armadillo, Ambarino e Chuparosa, e nel gioco c'è una targa del New Austin.\n\nDa sapere: Rockstar non ha mai detto ufficialmente se le due serie stanno nello stesso mondo. Sulle banconote di Leonida ci sono anche i presidenti dei giochi di Red Dead.",
+      "topic": "community",
+      "outlet": "Rockstar Intel / IGN / GameRoll",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/gta-vi-features-multiple-references-to-red-dead-redemption/",
+      "relatedIds": [
+        "brd-brian-s-marina"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.spaziogames.it/notizie/gta-6-nasconde-un-legame-diretto-con-red-dead-redemption-2"
+      ]
+    },
+    {
+      "id": "new-20261120-trucco-soldi-infiniti",
+      "date": "2026-11-20",
+      "title": "Scoperti i primi trucchi per i soldi infiniti, ma molti giocatori li snobbano: «non ho aspettato 13 anni per questo»",
+      "body": "Come funzionano: si basano sul far ripartire i negozi e gli edifici già svuotati. In uno si rapinano dei negozi e poi si avvia e si annulla una missione al momento del filmato; in un altro si mette la refurtiva nel bagagliaio, si salva e si ricarica, e l'edificio ritorna pieno mentre le borse restano in auto.\n\nDa sapere: sono errori del gioco che Rockstar con ogni probabilità correggerà. IGN ricorda che i soldi non mancano comunque: i negozi rapinati riaprono dopo un po' e andando avanti nella storia arrivano colpi più ricchi. Chi gioca senza trucchi non perde nulla.",
+      "topic": "gameplay",
+      "outlet": "IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/gta-6-players-multiple-money-glitches",
+      "relatedIds": [],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-cygnus-personaggio-non-binario",
+      "date": "2026-11-20",
+      "title": "Cygnus, il primo personaggio non binario di GTA: chi lo interpreta racconta che Rockstar l'ha reso impossibile da colpire",
+      "body": "Chi è: Cygnus è il curatore del museo di Vice City. Lo interpreta Jesse James Rose, che sui social racconta di aver girato per settimane, tre anni prima dell'uscita, senza sapere per quale gioco (ha firmato 17 accordi di riservatezza), su un set che descrive tra i più inclusivi della sua carriera. Nei titoli di coda il suo nome è tra le riprese in motion capture aggiuntive.\n\nIl dettaglio: per evitare violenze contro le persone trans, Rockstar gli ha assicurato che nel gioco i giocatori non possono fare del male a Cygnus.",
+      "topic": "personaggi",
+      "outlet": "Polygon / Instagram / Rockstar Games",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.polygon.com/gta-6-grand-theft-auto-cygnus-non-binary-character-actor/",
+      "relatedIds": [
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ]
+    },
+    {
+      "id": "new-20261120-personaggi-che-tornano",
+      "date": "2026-11-20",
+      "title": "Chi torna dai vecchi GTA: i nomi nei titoli di coda e un cameo nel finale (spoiler)",
+      "body": "Cosa si sa: tra i titoli di coda ufficiali ci sono Michael Hollick, la voce di Niko Bellic in GTA IV, e Danny Tamberelli, Jimmy De Santa in GTA V. Kotaku conferma che Niko compare davvero, con un cameo nell'ultimo capitolo; secondo GTA BOOM Jimmy è un influencer delle criptovalute che Jason conosce da tempo. Nel cast principale c'è anche Valentina (Josephine Phoenix), già vista in GTA Online.\n\nDa sapere: Rockstar non ne ha parlato. Non diciamo altro su cosa succede: il cameo di Niko gira molto sui social, chi vuole la sorpresa eviti i video sul finale.",
+      "topic": "personaggi",
+      "outlet": "Kotaku / GTA BOOM / IGN / Rockstar Games",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 5,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta-6-has-a-surprising-late-game-cameo-that-knocked-me-on-my-ass-2000758623",
+      "relatedIds": [
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.gtaboom.com/gta-6-brings-back-niko-bellic-jimmy-de-santa-and-valentina-7c7e",
+        "https://www.rockstargames.com/VI/credits"
+      ]
+    },
+    {
+      "id": "new-20261120-florida-joker-titoli",
+      "date": "2026-11-20",
+      "title": "Il «Florida Joker» è davvero nel gioco: il suo nome è nei titoli di coda, ma come comparsa",
+      "body": "La notizia: Lawrence Sullivan, l'uomo tatuato della Florida diventato famoso per una foto segnaletica e che nel 2023 aveva chiesto soldi a Rockstar per il personaggio dai capelli viola del primo trailer, compare nei titoli di coda ufficiali, nella sezione «The Local Population», quella delle scansioni dei volti e delle comparse.\n\nDa sapere: in un video virale dice di essere «il doppiatore ufficiale», ma nessuna fonte ufficiale lo conferma: il suo nome non è nel cast principale.",
+      "topic": "personaggi",
+      "outlet": "GTA BOOM / Rockstar Games",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face",
+      "relatedIds": [
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ]
+    },
+    {
+      "id": "new-20261120-matty-matheson-non-e-cal",
+      "date": "2026-11-20",
+      "title": "Matty Matheson di «The Bear»: «Cal non sono io, non è la mia voce»",
+      "body": "La smentita: da anni i fan dicono che Cal, l'amico chiacchierone di Jason, è identico a Matty Matheson, lo chef attore della serie «The Bear». Lui su Instagram ha chiarito: «Non sono in GTA 6. Non sono io, non è la mia voce».\n\nDa sapere: nei titoli ufficiali Cal è interpretato da Bobby Moynihan, ex attore del Saturday Night Live.",
+      "topic": "personaggi",
+      "outlet": "GamesRadar+ / Instagram / Rockstar Games",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-blatant-matty-matheson-like-character-isnt-really-matty-matheson-confirms-the-bear-star-thats-not-me-its-not-my-voice/",
+      "relatedIds": [
+        "chr-cal",
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ]
+    },
+    {
+      "id": "new-20261120-mandy-attrice-lexie-shoaibi",
+      "date": "2026-11-20",
+      "title": "Mandy, il personaggio di cui parlano tutti, ha un volto: è l'attrice Lexie Shoaibi",
+      "body": "La notizia: Mandy, l'ex di Jason che si incontra nelle prime ore di gioco, è diventata uno dei personaggi più discussi sui social. L'attrice Lexie Shoaibi ha svelato su Instagram di interpretarla: le dà la voce e i movimenti in motion capture. «Se giocate, fatemi sapere se mi trovate», scrive.\n\nDa sapere: nei titoli ufficiali il suo nome compare tra «The Faces of Vice City». Rockstar ha spiegato che con Mandy non si può tradire Lucia.",
+      "topic": "personaggi",
+      "outlet": "PC Gamer / Push Square / Instagram",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me/",
+      "relatedIds": [
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.pushsquare.com/news/2026/11/gta-6s-mandy-is-a-lot-of-fun-says-real-life-actress-as-ps5-players-are-smitten",
+        "https://www.rockstargames.com/VI/credits"
+      ]
+    },
+    {
+      "id": "new-20261120-bimyou-giappone",
+      "date": "2026-11-20",
+      "title": "In Giappone si ride di Bimyou, il finto ristorante giapponese di Vice City: il nome vuol dire «mediocre»",
+      "body": "Lo scherzo: a Vice City c'è Bimyou, un locale che sull'insegna promette sushi e ramen. Dentro è una caffetteria, e «sushi» e «ramen» sono i nomi dei suoi panini. In giapponese «bimyou» significa «mediocre», «così così».\n\nLa reazione: in Giappone il post su X che lo mostra è diventato virale. I giocatori ci vedono la parodia dei tanti locali occidentali che usano parole giapponesi a caso; c'è chi ricorda che in GTA V c'era un ristorante chiamato Nutsaki.",
+      "topic": "community",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/grand-theft-auto-vi-gta6-rockstar-japanese-restaurant-puns-2000758644",
+      "relatedIds": [
+        "brd-bimyou",
+        "new-20261118-giappone-censura"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-italiano-giannuario",
+      "date": "2026-11-20",
+      "title": "C'è anche un italiano dietro i vestiti di Jason e Lucia: il foggiano Mattia Giannuario, artista dei materiali a Rockstar North",
+      "body": "Chi è: Mattia Giannuario, trentenne di Foggia, lavora come artista a Rockstar North. Nei titoli ufficiali è nella squadra «Character Material & Surfacing», quella che dà tessuti, pieghe e materiali agli abiti dei personaggi; secondo i giornali della sua città si è occupato dell'abbigliamento e delle tute dei piloti.\n\nDa sapere: il suo nome era già nei titoli di GTA Online. La notizia viene dai giornali locali (FoggiaToday, Foggia Reporter) e da Quotidiano Nazionale; il ruolo è confermato dai titoli di Rockstar.",
+      "topic": "community",
+      "outlet": "Quotidiano Nazionale / FoggiaToday / Rockstar Games",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.rockstargames.com/VI/credits",
+      "relatedIds": [
+        "new-20261119-cast-ufficiale-titoli"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.foggiatoday.it/social/grand-theft-auto-matteo-giannuario-foggia-abbigliamento-personaggi.html"
+      ]
+    },
+    {
+      "id": "new-20261120-xbox-ban-clip-automatiche",
+      "date": "2026-11-20",
+      "title": "Su Xbox c'è chi viene sospeso per le clip caricate in automatico: meglio spegnere il caricamento",
+      "body": "Il problema: su Xbox le clip e gli screenshot vengono caricati da soli e controllati da un sistema automatico che cerca nudità, droga e violenza estrema. Secondo segnalazioni su Reddit riprese da Pure Xbox, alcuni giocatori hanno avuto due giorni di sospensione per clip girate sulle spiagge di Leonida, e il ricorso non sembra possibile.\n\nCosa fare: Impostazioni > Preferenze > Acquisizione e condivisione > Caricamento automatico su «Non caricare». Su PS5 il problema non è segnalato.",
+      "topic": "tecnica",
+      "outlet": "Pure Xbox / Reddit",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.purexbox.com/news/2026/11/gta-6-players-warned-to-turn-off-auto-uploads-or-risk-getting-banned-on-xbox",
+      "relatedIds": [],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-streaming-125-milioni-ore",
+      "date": "2026-11-20",
+      "title": "125,5 milioni di ore guardate in 24 ore: il lancio di GTA VI fa girare tutta l'economia di streamer e creatori",
+      "body": "I numeri: secondo Streams Charts, citato da CNBC, nelle prime 24 ore sono state guardate 125,5 milioni di ore di dirette e video su GTA VI tra Twitch, YouTube e Kick. Il più seguito è IShowSpeed, con 4,47 milioni di ore; Kai Cenat ha fatto una diretta di circa 36 ore, quasi 2 milioni di ore guardate. Rockstar aveva preparato con YouTube una diretta di lancio di 24 ore.\n\nDa sapere: sono ore di visione, non copie vendute. I guadagni dei piccoli canali citati da CNBC sono stime non verificate.",
+      "topic": "community",
+      "outlet": "Vice Central / CNBC / Streams Charts",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-125-millions-heures-streaming-economie-createurs/",
+      "relatedIds": [
+        "new-20261118-record-streaming-6-milioni"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-cyberleek-build-xbox",
+      "date": "2026-11-19",
+      "title": "Cyberleek torna e dice di aver messo online una versione Xbox completa del gioco: manca il file per avviarla, e può contenere virus",
+      "body": "Cosa dice: la sera di giovedì 19 il gruppo Cyberleek, quello dei video rubati dei mesi scorsi, ha pubblicato un link a una «Xbox build 1.0.2.1 (nov 2026)» da oltre 200 GB, cioè i file della versione Xbox Series del gioco. Tiene però per sé l'eseguibile, il file che fa partire il gioco: promette di liberarlo se la sua criptovaluta arriva a 15 milioni di dollari di valore, o comunque il 23 novembre. Dice che così il gioco potrà girare sul PC con un emulatore «entro una settimana».\n\nCosa si sa: secondo PC Gamer alcuni esperti di sicurezza ritengono i file autentici, ma nessuno ha potuto avviarli. È la stessa tattica già vista in ottobre con la criptovaluta, poi crollata. Take-Two ha chiesto a Discord e Microsoft di aiutarla a identificare il gruppo.\n\nDa sapere: scaricare questi file è illegale e pericoloso: Kaspersky avverte che i finti «portali» e torrent di GTA VI sono il modo più usato per diffondere programmi che rubano password e portafogli crypto. Per chi gioca su PS5 non cambia nulla.",
+      "topic": "tecnica",
+      "outlet": "VGC / PC Gamer / GameSpot / Eurogamer",
+      "source": "leak",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/",
+      "relatedIds": [
+        "new-20261105-netcraft-121-domini-a-nome-cyberleek",
+        "new-20261010-sondaggi-a-pagamento-in-crypto",
+        "new-20260820-cyberleek"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/",
+        "https://www.gamespot.com/articles/a-playable-gta-6-build-could-leak-but-theres-a-15-million-catch/",
+        "https://www.eurogamer.net/cyberleek-gta-6-dev-build"
+      ]
+    },
+    {
+      "id": "new-20261120-ps5-errore-ce-108255-1",
+      "date": "2026-11-19",
+      "title": "Su alcune PS5 il gioco si chiude sempre nello stesso punto con l'errore CE-108255-1: per ora non c'è una soluzione",
+      "body": "Il problema: decine di giocatori su Reddit raccontano blocchi ripetuti con l'errore CE-108255-1, sulle PS5 normali, Slim e anche Pro. A qualcuno capita già nel prologo, ad altri sempre nello stesso momento di una delle prime missioni con Mandy, così non si va avanti con la storia. Anche su Xbox Series X c'è chi segnala chiusure dopo pochi minuti.\n\nCosa non funziona: svuotare la cache, ricostruire il database, reinstallare o ripristinare le licenze non ha aiutato nessuno. La pagina di Rockstar sugli errori rimanda all'assistenza di Sony, che per quel codice consiglia solo di aggiornare il gioco; ma dopo la 1.002.001 del 16 novembre non è uscito nessun aggiornamento.\n\nDa sapere: sono segnalazioni sparse, non un guasto di massa. GamesRadar+ ha chiesto un commento a Sony e Rockstar. Chi ha il problema non mandi la console in riparazione a pagamento: si aspetta la prima patch.",
+      "topic": "tecnica",
+      "outlet": "GamesRadar+ / Dexerto",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/ps5-error-ce-108255-1-is-ruining-gta-6-for-some-players-and-rockstar-and-sony-arent-very-helpful-try-updating-your-game/",
+      "relatedIds": [
+        "new-20261119-primi-bug-virali",
+        "new-20261116-patch-1-002-001"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.dexerto.com/gta/gta-6-players-report-game-breaking-crashes-on-ps5-and-xbox-3430090/"
+      ]
+    },
+    {
+      "id": "new-20261120-zelnick-gta-7-orologio",
+      "date": "2026-11-19",
+      "title": "GTA 7? Il capo di Take-Two guarda l'orologio: «È ancora il 19 novembre e mi chiedete di GTA 7»",
+      "body": "La scena: la sera dell'uscita Strauss Zelnick, amministratore delegato di Take-Two, era ospite di TBPN, trasmissione americana di tecnologia. Alla domanda se GTA 7 potrebbe essere «una versione dal vivo del mondo intero», ha risposto: «Abbiamo lanciato GTA 6 il 19 novembre. Fatemi guardare l'orologio. Oh, è ancora il 19 novembre. E mi chiedete di GTA 7». La clip ha fatto il giro dei social.\n\nDa sapere: non ha annunciato nulla. Nell'intervista di 53 minuti parla del successo di GTA V e dei voti perfetti («non sono arrivati per caso»), ma non dà date per il PC né per la parte online; GTA VI resta solo in singolo, su PS5 e Xbox Series.",
+      "topic": "business",
+      "outlet": "TBPN / Vice Central / GTA BOOM / Dexerto",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-7-strauss-zelnick-montre-tbpn/",
+      "relatedIds": [
+        "new-20261118-battuta-gta-7",
+        "new-20261119-hollywood-red-dead"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.gtaboom.com/strauss-zelnick-waved-off-a-gta-7-question-on-gta-6-launch-day-902d",
+        "https://www.dexerto.com/gta/take-two-ceo-is-shutting-down-questions-about-gta-7-just-days-after-gta-6s-launch-3430074/"
+      ]
+    },
+    {
+      "id": "new-20261120-polizia-usa-non-siamo-png",
+      "date": "2026-11-19",
+      "title": "«I nostri agenti non sono PNG»: le polizie americane chiedono ai giocatori di lasciare il crimine dentro il gioco",
+      "body": "I messaggi: intorno all'uscita le polizie di Atlanta e South Fulton (Georgia), di San Juan e di Floresville (Texas) hanno pubblicato avvisi per i giocatori. Atlanta ricorda che «GTA non è un posto vero, Atlanta sì»; South Fulton che nella realtà non si rinasce e non si ricarica la partita. San Juan usa la scritta «Busted» della serie.\n\nLa battuta migliore: Floresville avverte che la città «NON è un'estensione di Los Santos NÉ di Vice City», che i suoi agenti «NON sono PNG» e che entrare nel parcheggio di un supermercato per cambiare colore all'auto non fa sparire il livello di sospetto.\n\nDa sapere: sono messaggi di prevenzione, come a ogni uscita di un GTA; non citano fatti reali legati al gioco.",
+      "topic": "community",
+      "outlet": "Vice Central / Dexerto / San Antonio Express-News",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-police-americaine-pas-des-pnj-avertissements/",
+      "relatedIds": [
+        "new-20261118-fox-news-lucia"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.dexerto.com/gta/us-police-forces-worried-gta-6-players-will-start-committing-real-crimes-warn-officers-are-not-npcs-3430007/"
+      ]
+    },
+    {
+      "id": "new-20261120-heinz-ketchup-gorge",
+      "date": "2026-11-19",
+      "title": "Heinz fa davvero il ketchup GORGE del gioco: 50 bottiglie in palio negli Stati Uniti, senza accordi con Rockstar",
+      "body": "Cosa succede: in GTA VI c'è GORGE, un ketchup parodia con la bottiglia identica a quella di Heinz. Il giorno dell'uscita Heinz ha pubblicato su Instagram una sua bottiglia vera con l'etichetta GORGE e lo slogan «It has to be», e l'ha messa in palio: 50 bottiglie da 590 ml in edizione limitata.\n\nChi può partecipare: solo maggiorenni residenti negli Stati Uniti, fino al 27 novembre, seguendo @heinz e taggando due amici sotto il post.\n\nDa sapere: Heinz ha confermato alla rivista Parade che non c'è nessuna collaborazione ufficiale con Rockstar.",
+      "topic": "community",
+      "outlet": "Vice Central / Parade / Heinz",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/gta-vi-heinz-ketchup-gorge-bouteille/",
+      "relatedIds": [
+        "brd-gorge",
+        "new-20261119-burger-king-heartwhopper"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.instagram.com/heinz/"
+      ]
+    },
+    {
+      "id": "new-20261120-battlefield-vice-city-30hz",
+      "date": "2026-11-19",
+      "title": "Battlefield 6 punzecchia GTA VI la notte dell'uscita: un finto server «Vice City Conquest» a «30 Hz»",
+      "body": "Il messaggio: alla mezzanotte italiana del 19 l'account ufficiale di Battlefield ha pubblicato un video di Battlefield 6 con palme, cielo viola e auto della polizia, intitolato come i vecchi server della comunità: «[EU] 24/7 Vice City Conquest // 4000 TICKETS // 30Hz». Molti l'hanno letto come una frecciata ai 30 fotogrammi al secondo di GTA VI.\n\nDa sapere: Electronic Arts non ha commentato. Non è l'unico: la notte dell'uscita molti altri giochi, da The Sims a S.T.A.L.K.E.R., hanno pubblicato omaggi a GTA VI nello stile delle sue copertine.",
+      "topic": "community",
+      "outlet": "Vice Central / Battlefield (X)",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://vice-central.com/battlefield-6-vice-city-conquest-30hz-gta-vi/",
+      "relatedIds": [
+        "new-20261118-ps5-pro-mai-60-fps"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-prima-persona-glitch",
+      "date": "2026-11-19",
+      "title": "La visuale in prima persona c'è, con un trucco: si attiva uscendo dal telefono, e si guida e si spara come in un FPS",
+      "body": "Come si fa: nelle impostazioni dei comandi si assegna la regolazione della telecamera al touchpad (PS5) o al tasto Visualizza (Xbox). Poi, in auto, si guarda il telefono e, mentre lo si mette via, si preme subito quel tasto: la visuale resta in prima persona senza il telefono davanti. Così si guida, si spara e si raccolgono oggetti.\n\nDa sapere: è un errore del gioco, non un'opzione: GTA VI non ha la prima persona nel menu. La visuale torna normale quando si apre un menu con una telecamera sua, come quello di un Ammu-Nation o di un'officina. Una patch potrebbe toglierla.",
+      "topic": "gameplay",
+      "outlet": "VGC / PC Gamer / Dexerto / Pure Xbox",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-glitch-grand-theft-auto/",
+      "relatedIds": [
+        "new-20260828-30fps"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/"
+      ]
+    },
+    {
+      "id": "new-20261120-game-informer-coppia",
+      "date": "2026-11-19",
+      "title": "Jason e Lucia raccontati da Rockstar: le scene cambiano secondo il vostro rapporto, e tra i modelli ci sono Bonnie e Clyde e «True Romance»",
+      "body": "Cosa dicono: a Game Informer il direttore del design Luke Howard spiega che molti momenti forti della storia hanno «diverse varianti», registrate dagli attori in più modi, che cambiano secondo il rapporto tra Jason e Lucia e il profilo criminale. Se la storia d'amore si spegne non si perde nulla: restano comunque soci.\n\nLe ispirazioni: Rupert Humphries, a capo della scrittura, cita i film di «coppie in fuga» (Bonnie and Clyde, The Getaway, True Romance, Thelma & Louise, Out of Sight) e le coppie dei film d'azione, come Riggs e Murtaugh di Arma letale, Butch Cassidy e Sundance Kid o i Bad Boys. Da Pulp Fiction e Assassini nati viene l'idea di due personaggi che possono finire più o meno presi dal gusto del crimine, a seconda di come giocate.",
+      "topic": "personaggi",
+      "outlet": "Game Informer / GamesRadar+ / Insider Gaming",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-prepared-several-variations-for-gta-6-story-moments-based-on-how-you-treat-lucia-and-jasons-relationship/",
+      "relatedIds": [
+        "chr-jason",
+        "chr-lucia"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null,
+      "moreSources": [
+        "https://insider-gaming.com/gta-6-devs-reveal-movie-inspirations-for-jason-and-lucia/"
+      ]
+    },
+    {
+      "id": "new-20261120-doordash-miami",
+      "date": "2026-11-19",
+      "title": "La notte dell'uscita a Miami: ordini a domicilio di notte quasi +25%, controller +450% e cavi HDMI +440%",
+      "body": "I numeri: secondo DoorDash, la notte del lancio gli ordini notturni a Miami sono saliti di quasi il 25%, il balzo più grande tra le città che segue. Rispetto a un mercoledì normale: controller e accessori +450%, cavi HDMI +440%, cuffie +70%, bevande energetiche oltre +20%, patatine, hamburger e pizza oltre +10%. Prima dell'uscita le ricerche «GTA VI» nell'app erano cresciute di oltre il 940%.\n\nDa sapere: sono dati interni di DoorDash, non verificati da altri. Lo stesso fenomeno lo racconta il New York Times per le altre app di consegne.",
+      "topic": "business",
+      "outlet": "GTA BOOM / DoorDash / The New York Times",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gtaboom.com/miami-doordashed-the-most-launch-night-takeout-ever-for-gta-6-53ca",
+      "relatedIds": [
+        "new-20261118-miami-heat-stasera-vice-city"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-fortnite-roman-bellic",
+      "date": "2026-11-19",
+      "title": "Anche Fortnite festeggia: sei missioni segrete con le telefonate di «cugino!», un omaggio a Roman Bellic di GTA IV",
+      "body": "Cosa c'è: dal 19 novembre in Fortnite Peely, la banana, telefona ai giocatori come faceva Roman Bellic con Niko in GTA IV («Cousin! We should hang out!») e chiede sei piccole imprese, tra cui abbattere dei birilli da bowling, come gli inviti di Roman. In premio 120.000 punti esperienza, fino al 5 dicembre.\n\nDa sapere: è un'iniziativa di Epic Games, non di Rockstar.",
+      "topic": "community",
+      "outlet": "IGN",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/fortnite-secret-gta-quests-roman-bellic",
+      "relatedIds": [],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-kfc-spagna-disco",
+      "date": "2026-11-19",
+      "title": "KFC Spagna regala il «disco» che manca nella scatola: un medaglione di pollo fritto per chi porta la custodia del gioco",
+      "body": "L'iniziativa: le scatole di GTA VI contengono solo un codice. KFC Spagna ha risposto con «The Replacement Disc»: il 19 e il 20 novembre, dalle 16 alle 20, in dieci ristoranti di Madrid, Barcellona, Valencia, Saragozza e Malaga, chi presenta la custodia del gioco riceve gratis un disco di pollo fritto in una confezione da videogioco con il Colonnello Sanders in copertina, fino a esaurimento.\n\nDa sapere: non è un'iniziativa di Rockstar e in Italia non c'è.",
+      "topic": "community",
+      "outlet": "Dexerto",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.dexerto.com/food/kfc-is-replacing-gta-6s-missing-physical-disc-with-fried-chicken-3430001/",
+      "relatedIds": [
+        "new-20261119-gamestop-ceo-digitale"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-fact-check-locali-aerei",
+      "date": "2026-11-19",
+      "title": "Due voci false sui social: non c'è un locale gay dove non si può sparare, e gli aerei non «rimbalzano» sui grattacieli per censura",
+      "body": "Le voci: girano clip che dicono che Rockstar ha ammorbidito la violenza, impedendo di sparare in un locale gay e facendo rimbalzare gli aerei sui palazzi per evitare richiami all'11 settembre.\n\nCome stanno le cose, secondo PC Gamer: nei locali notturni, come Nine1nine e The Vault, non si usano armi da fuoco, come già in GTA V, ma nessun locale del gioco è presentato come gay. Gli aerei che urtano i grattacieli senza danni sono di chi ha attivato l'opzione «danni ridotti ai veicoli» nelle impostazioni di gioco; senza, si schiantano.",
+      "topic": "gameplay",
+      "outlet": "PC Gamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
+      "relatedIds": [
+        "brd-vault"
+      ],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
+      "id": "new-20261120-cane-moto-acqua-loosy",
+      "date": "2026-11-19",
+      "title": "Il cane sulla moto d'acqua che ti riporta a riva sembra ispirato a Loosy, un golden retriever famoso in Florida",
+      "body": "La scoperta: chi nuota troppo al largo incontra un cane con gli occhialini su una moto d'acqua che lo riaccompagna verso la costa. Secondo GameSpot l'idea viene da Loosy, golden retriever di Fort Lauderdale diventato virale con il suo padrone Eddie Inch, che lo trainava sulla moto d'acqua mentre volava su un hoverboard.\n\nDa sapere: nel gioco il cane è di un'altra razza e né Loosy né Inch sono nei titoli di coda: è un omaggio, non confermato da Rockstar.",
+      "topic": "community",
+      "outlet": "GameSpot",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamespot.com/articles/gta-6-dog-who-saves-you-is-seemingly-based-on-a-very-cool-real-life-dog/",
+      "relatedIds": [],
+      "updatedAt": "2026-11-20",
+      "image": null
+    },
+    {
       "id": "new-20261119-cast-ufficiale-titoli",
       "date": "2026-11-19",
       "title": "Ufficiale il cast: Rockstar pubblica i titoli completi, Jason è Dylan Rourke",
@@ -187,7 +792,7 @@
       "id": "new-20261119-bigfoot-ufo-rob-nelson",
       "date": "2026-11-19",
       "title": "Bigfoot e gli UFO ci sono già: i giocatori li trovano nelle prime ore, e Rockstar spiega perché li mette sempre",
-      "body": "Le scoperte: nelle paludi intorno a Cottonmouth Lake, nella contea di Mariana, c'è lo Skunk Ape, il «Bigfoot» della Florida: lo si segue dal ruggito e la traccia porta a uno strano albero dalla forma umana. Sparargli non serve. Nella contea di Kelly, su una strada sterrata vicino allo Starlet Motel, a est di Port Gellhorn, di notte (meglio dopo le 2) può capitare un incontro con un UFO, una volta finito il capitolo 1: si parte da un'auto ferma con il bagagliaio aperto: vale il trofeo bronzo «La verità è là fuori». Nessuno dei due conta per il 100%.\n\nPerché: a Kotaku Rob Nelson dice che a Rockstar «queste cose piacciono», che la Florida è un posto stranissimo e che vogliono giocare con i giocatori: «È davvero Bigfoot? O è un tizio con la maschera?». Eurogamer nota che nessuno ha ancora trovato un mistero lungo come quello del Monte Chiliad di GTA V.",
+      "body": "Le scoperte: nelle paludi intorno a Cottonmouth Lake, nella contea di Mariana, c'è lo Skunk Ape, il «Bigfoot» della Florida: lo si segue dal ruggito e la traccia porta a uno strano albero dalla forma umana. Sparargli non serve. Nella contea di Kelly, su una strada sterrata vicino allo Starlet Motel, a est di Port Gellhorn, di notte (meglio dopo le 2) può capitare un incontro con un UFO, una volta finito il capitolo 1: si parte da un'auto ferma con il bagagliaio aperto: vale il trofeo bronzo «La verità è là fuori». Nessuno dei due conta per il 100%.\n\nPerché: a Kotaku Rob Nelson dice che a Rockstar «queste cose piacciono», che la Florida è un posto stranissimo e che vogliono giocare con i giocatori: «È davvero Bigfoot? O è un tizio con la maschera?». Eurogamer nota che nessuno ha ancora trovato un mistero lungo come quello del Monte Chiliad di GTA V.\n\nNon solo: in una missione secondaria si aiuta un contadino a far crescere fragole giganti con prodotti chimici poco raccomandabili, e il risultato è un omone rosso «alla Hulk», ripreso anche da IShowSpeed in diretta. Nelson racconta a Kotaku che con idee così a Rockstar si chiedono spesso «stiamo esagerando?», ma se una cosa è divertente la tengono.",
       "topic": "community",
       "outlet": "Kotaku / Eurogamer",
       "source": "stampa",
@@ -199,10 +804,11 @@
         "tip-segreto-bigfoot",
         "tro-the-truth-is-out-there"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
-        "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs"
+        "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+        "https://kotaku.com/are-we-going-too-crazy-heres-why-rockstar-put-a-red-hulk-in-gta-6-2000758505"
       ]
     },
     {
@@ -411,7 +1017,7 @@
       "id": "new-20261119-caviar-fold8-ocean-drive",
       "date": "2026-11-19",
       "title": "Caviar fa un Galaxy Z Fold8 placcato d'oro ispirato a GTA VI: da 11.560 dollari, e non è un prodotto ufficiale",
-      "body": "Cosa è: il marchio russo di lusso Caviar presenta il Galaxy Z Fold8 «Ocean Drive», placcato in oro 24 carati, con motivi ispirati agli hotel Art Déco di Ocean Drive a Miami e al centro il simbolo delle sei stelle del livello di ricercato.\n\nPrezzi: 11.560 dollari da 256 GB, 11.920 da 512 GB, 12.270 da 1 TB. Rockstar non è citata: non risulta una licenza ufficiale.",
+      "body": "Cosa è: il marchio russo di lusso Caviar presenta il Galaxy Z Fold8 «Ocean Drive», placcato in oro 24 carati, con motivi ispirati agli hotel Art Déco di Ocean Drive a Miami e al centro il simbolo delle sei stelle del livello di sospetto.\n\nPrezzi: 11.560 dollari da 256 GB, 11.920 da 512 GB, 12.270 da 1 TB. Rockstar non è citata: non risulta una licenza ufficiale.",
       "topic": "community",
       "outlet": "Multiplayer.it / Android Authority",
       "source": "stampa",
@@ -658,7 +1264,7 @@
       "id": "new-20261118-casa-belville-san-andreas-2021",
       "date": "2026-11-18",
       "title": "La teoria era giusta: la foto di una casa appesa in GTA San Andreas Definitive Edition, nel 2021, era una casa di Belville",
-      "body": "La teoria: nel 2021, nel bar Lil' Probe Inn di GTA San Andreas Definitive Edition, tutte le foto alle pareti mostravano luoghi di altri giochi Rockstar tranne una, una villetta con due palme e lo steccato bianco. Molti pensavano fosse un'anticipazione di GTA VI.\n\nLa conferma: il giorno dell'uscita un utente della comunità dei cartografi l'ha trovata identica nel quartiere di Belville, a Leonida: palme, aiuole, garage e finestre al loro posto. Per IGN è la conferma ufficiale di una teoria vecchia di cinque anni, con una sorpresa all'interno della casa.",
+      "body": "La teoria: nel 2021, nel bar Lil' Probe Inn di GTA San Andreas Definitive Edition, tutte le foto alle pareti mostravano luoghi di altri giochi Rockstar tranne una, una villetta con due palme e lo steccato bianco. Molti pensavano fosse un'anticipazione di GTA VI.\n\nLa conferma: il giorno dell'uscita un utente della comunità dei cartografi l'ha trovata identica nel quartiere di Belville, a Leonida: palme, aiuole, garage e finestre al loro posto. Per IGN è la conferma ufficiale di una teoria vecchia di cinque anni, con una sorpresa all'interno della casa.\n\nLa sorpresa dentro: di giorno si entra nel garage, e sulla parete c'è una grande bacheca di un complottista con la scritta «IT'S A SIMULATION» («è una simulazione») e appunti come «persone identiche: 140». In giro ci sono dépliant di una barca, come se il padrone di casa volesse prendere il largo per uscire dalla mappa (PC Gamer).",
       "topic": "community",
       "outlet": "Kotaku / IGN / VGC",
       "source": "community",
@@ -667,10 +1273,11 @@
       "example": false,
       "sourceUrl": "https://kotaku.com/turns-out-gta-san-andreas-remastered-was-teasing-gta-6-back-in-2021-2000758132",
       "relatedIds": [],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
-        "https://www.ign.com/articles/a-gta-6-location-was-teased-by-rockstar-all-the-way-back-in-2021-and-whats-inside-was-worth-the-wait"
+        "https://www.ign.com/articles/a-gta-6-location-was-teased-by-rockstar-all-the-way-back-in-2021-and-whats-inside-was-worth-the-wait",
+        "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/"
       ]
     },
     {
@@ -936,7 +1543,7 @@
       "id": "new-20261118-metacritic-99-record",
       "date": "2026-11-18",
       "title": "99 su Metacritic, come Ocarina of Time: GTA VI è il gioco più votato di sempre insieme a Zelda, e su OpenCritic tutti lo consigliano",
-      "body": "Metacritic: alle 15 italiane il Metascore della versione PS5 è 99 su 153 recensioni, tutte positive e nessuna mista o negativa. Anche su Xbox Series X è 99, ma su appena 14 recensioni. Solo un altro gioco aveva mai raggiunto 99: The Legend of Zelda: Ocarina of Time, nel 1998.\n\nI record di Rockstar: GTA VI supera GTA IV (98) e stacca GTA V e Red Dead Redemption 2 (97). È anche il gioco con il voto più alto del 2026.\n\nOpenCritic: media dei critici principali 99 (98,6), il 100% dei critici lo consiglia, 75 recensioni di cui 51 di testate «top», fascia «Mighty».\n\nAggiornamento di giovedì 19 (mattina): la versione PS5 resta a 99 (98,8) con 156 recensioni, 150 delle quali positive; il voto più basso è un 80 dell'australiana ScreenHub, tutti gli altri sono da 90 in su. Su Xbox Series X è 99 su 14 recensioni.\n\nDa sapere: i numeri possono ancora scendere di un punto man mano che arrivano altre recensioni. Il giorno prima Metacritic aveva tolto cinque finti voti degli utenti, pubblicati prima dell'uscita, che avevano fatto scendere il gioco a 6,5. Il voto degli utenti si apre con l'uscita.",
+      "body": "Metacritic: alle 15 italiane il Metascore della versione PS5 è 99 su 153 recensioni, tutte positive e nessuna mista o negativa. Anche su Xbox Series X è 99, ma su appena 14 recensioni. Solo un altro gioco aveva mai raggiunto 99: The Legend of Zelda: Ocarina of Time, nel 1998.\n\nI record di Rockstar: GTA VI supera GTA IV (98) e stacca GTA V e Red Dead Redemption 2 (97). È anche il gioco con il voto più alto del 2026.\n\nOpenCritic: media dei critici principali 99 (98,6), il 100% dei critici lo consiglia, 75 recensioni di cui 51 di testate «top», fascia «Mighty».\n\nAggiornamento di giovedì 19 (mattina): la versione PS5 resta a 99 (98,8) con 156 recensioni, 150 delle quali positive; il voto più basso è un 80 dell'australiana ScreenHub, tutti gli altri sono da 90 in su. Su Xbox Series X è 99 su 14 recensioni.\n\nAggiornamento di venerdì 20: sempre 99 (98,8) su PS5, ora con 158 recensioni, e 99 su 14 recensioni per Xbox Series X. Non ci sono voti misti né negativi.\n\nDa sapere: i numeri possono ancora scendere di un punto man mano che arrivano altre recensioni. Il giorno prima Metacritic aveva tolto cinque finti voti degli utenti, pubblicati prima dell'uscita, che avevano fatto scendere il gioco a 6,5. Il voto degli utenti si apre con l'uscita.",
       "topic": "uscita",
       "outlet": "Metacritic / OpenCritic",
       "source": "stampa",
@@ -947,7 +1554,7 @@
       "relatedIds": [
         "new-20261118-recensioni-capolavoro"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
         "https://insider-gaming.com/gta-6-metacritic-score-maintains-goat-status/"
@@ -1039,7 +1646,7 @@
       "id": "new-20261118-record-streaming-6-milioni",
       "date": "2026-11-18",
       "title": "Record di streaming: GTA VI supera i 7,8 milioni di spettatori in diretta e batte il record di Twitch per un gioco",
-      "body": "Il numero: alle 13:30 italiane, secondo Streams Charts, 6,38 milioni di spettatori guardavano GTA VI nello stesso momento tra Twitch, YouTube e Kick. Il record precedente per il lancio di un gioco era la beta chiusa di Valorant del 2020, con circa 1,74 milioni: GTA VI l'ha più che triplicato con il gioco sbloccato in un solo paese.\n\nAggiornamento di giovedì 19: il conteggio provvisorio di Streams Charts è salito a oltre 7,88 milioni di spettatori in contemporanea, raggiunti in meno di tre ore. Su Twitch GTA VI ha toccato 3,29 milioni, il record di sempre per un gioco, davanti a League of Legends (3,11 milioni nel 2022) e Fortnite; su YouTube 3,19 milioni, su Kick 1,49 milioni. È il record per un gioco, non per Twitch in assoluto (che appartiene a eventi come la boxe di La Velada). Sono spettatori, non giocatori né copie vendute.\n\nSpoiler: con milioni di dirette già in corso, chi vuole arrivare alla storia senza sorprese farebbe bene a evitare i live e silenziare le parole chiave sui social fino a mezzanotte.",
+      "body": "Il numero: alle 13:30 italiane, secondo Streams Charts, 6,38 milioni di spettatori guardavano GTA VI nello stesso momento tra Twitch, YouTube e Kick. Il record precedente per il lancio di un gioco era la beta chiusa di Valorant del 2020, con circa 1,74 milioni: GTA VI l'ha più che triplicato con il gioco sbloccato in un solo paese.\n\nAggiornamento di giovedì 19: il conteggio provvisorio di Streams Charts è salito a oltre 7,88 milioni di spettatori in contemporanea, raggiunti in meno di tre ore. Su Twitch GTA VI ha toccato 3,29 milioni, il record di sempre per un gioco, davanti a League of Legends (3,11 milioni nel 2022) e Fortnite; su YouTube 3,19 milioni, su Kick 1,49 milioni. È il record per un gioco, non per Twitch in assoluto (che appartiene a eventi come la boxe di La Velada). Sono spettatori, non giocatori né copie vendute.\n\nAggiornamento di venerdì 20: secondo Streams Charts, nelle prime 24 ore sono state guardate 125,5 milioni di ore di dirette e video sul gioco; il più seguito è IShowSpeed (4,47 milioni di ore).\n\nSpoiler: c'è già chi ha finito la storia in diretta, e le clip del finale girano sui social. Chi vuole evitarle silenzi le parole chiave e stia lontano dalle dirette.",
       "topic": "community",
       "outlet": "Vice Central / Streams Charts",
       "source": "stampa",
@@ -1048,9 +1655,11 @@
       "example": false,
       "sourceUrl": "https://vice-central.com/gta-vi-record-streaming-twitch-youtube-kick/",
       "relatedIds": [
-        "new-20261118-uscita-nuova-zelanda"
+        "new-20261118-uscita-nuova-zelanda",
+        "new-20261120-streaming-125-milioni-ore",
+        "new-20261120-primo-speedrun-39-ore"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
         "https://vice-central.com/gta-vi-record-twitch-league-of-legends/"
@@ -1078,7 +1687,7 @@
       "id": "new-20261118-miami-heat-stasera-vice-city",
       "date": "2026-11-18",
       "title": "I Miami Heat hanno giocato da «Vice City» e vinto 137-130: parquet a tema, Burger Shot e Cluckin' Bell nell'arena e una PS5 Pro esclusiva per i giocatori",
-      "body": "La partita: si è giocata mercoledì 18 alle 19 di Miami (l'1 di notte in Italia) contro i Milwaukee Bucks al Kaseya Center. Il parquet, mostrato il 17, ha il logo Vice City a centrocampo, il «VI» nelle aree e la scritta «I ♥ Vice City» ai lati, ed è stato usato solo quella sera.\n\nNell'arena: stand Burger Shot (settori 105, 120, 308 e 324) e Cluckin' Bell (settore 325), auto del gioco esposte nella West Plaza e musica delle radio di GTA VI per tutta la sera. La maglia «Vice City» Nike x Cactus Jack si vende solo all'evento, una per biglietto.\n\nIl regalo: Rockstar ha dato a ogni giocatore degli Heat una valigetta con una PS5 Pro personalizzata (nera o grigia, palme incise e strisce illuminate dal verde acqua al magenta), due DualSense abbinati e il gioco. Non è in vendita.\n\nIl risultato: «Vice City 137, Bucks 130», come l'ha annunciato il club. Gli Heat erano avanti 74-48 all'intervallo e di 30 punti al massimo, poi hanno rischiato nel finale. Travis Scott era a bordo campo; per la maglia «Vice City» venduta solo all'evento, Kotaku racconta code da Black Friday.",
+      "body": "La partita: si è giocata mercoledì 18 alle 19 di Miami (l'1 di notte in Italia) contro i Milwaukee Bucks al Kaseya Center. Il parquet, mostrato il 17, ha il logo Vice City a centrocampo, il «VI» nelle aree e la scritta «I ♥ Vice City» ai lati, ed è stato usato solo quella sera.\n\nNell'arena: stand Burger Shot (settori 105, 120, 308 e 324) e Cluckin' Bell (settore 325), auto del gioco esposte nella West Plaza e musica delle radio di GTA VI per tutta la sera. La maglia «Vice City» Nike x Cactus Jack si vende solo all'evento, una per biglietto.\n\nIl regalo: Rockstar ha dato a ogni giocatore degli Heat una valigetta con una PS5 Pro personalizzata (nera o grigia, palme incise e strisce illuminate dal verde acqua al magenta), due DualSense abbinati e il gioco. Non è in vendita.\n\nIl risultato: «Vice City 137, Bucks 130», come l'ha annunciato il club. Gli Heat erano avanti 74-48 all'intervallo e di 30 punti al massimo, poi hanno rischiato nel finale. Travis Scott era a bordo campo; per la maglia «Vice City» venduta solo all'evento, Kotaku racconta code da Black Friday.\n\nAggiornamento di venerdì 20: secondo un rappresentante degli Heat sentito da Axios Miami, quella sera il club ha venduto oltre 1,5 milioni di dollari di articoli a tema. La maglia «Vice City» (circa 120 dollari) è finita in circa 90 minuti, con la gente in coda sotto la pioggia. È una stima del club, non un dato certificato.",
       "topic": "community",
       "outlet": "Miami HEAT / Kotaku / PC Gamer",
       "source": "stampa",
@@ -1092,11 +1701,12 @@
         "brd-burger-shot",
         "brd-cluckin-bell"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
         "https://vice-central.com/gta-vi-heat-vice-city-victoire-bucks-137-130/",
-        "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204"
+        "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204",
+        "https://www.gtaboom.com/the-miami-heat-sold-over-15-million-in-vice-city-merch-on-gta-6-launch-eve-72c0"
       ]
     },
     {
@@ -3574,7 +4184,7 @@
       "id": "new-20260902-profilo",
       "date": "2026-09-02",
       "title": "Il «Criminal Profile»: non un barometro morale, ma un contesto",
-      "body": "È un'evoluzione dell'Onore di Red Dead Redemption 2: il Profilo criminale registra come Jason e Lucia commettono i crimini, su una scala da «Professional» a «Irredeemable», con un'icona a forma di diavoletto: con l'aureola per le buone azioni, col ghigno per quelle cattive. Sparare per difendersi non penalizza, esagerare senza motivo sì; anche i piccoli gesti, come dare da mangiare a un randagio, vengono registrati. Il profilo influenza come si svolge la storia. Nel gioco uscito i livelli sono cinque, «Professional», «Hardened», «Violent», «Psycho» e «Irredeemable» (nelle anteprime il secondo si chiamava «Aggressive»), e ognuno dei due protagonisti ha il suo profilo. Le notifiche si possono spegnere.",
+      "body": "È un'evoluzione dell'Onore di Red Dead Redemption 2: il Profilo criminale registra come Jason e Lucia commettono i crimini, su una scala che va dal profilo più pulito al più violento, con un'icona a forma di diavoletto: con l'aureola per le buone azioni, col ghigno per quelle cattive. Sparare per difendersi non penalizza, esagerare senza motivo sì; anche i piccoli gesti, come dare da mangiare a un randagio, vengono registrati. Il profilo influenza come si svolge la storia. Nel gioco italiano i tipi sono «Professionale», «Senza scrupoli», «Violento» e «Folle» (in inglese Professional, Hardened, Violent e Psycho; nelle anteprime il secondo si chiamava «Aggressive»), più un quinto, permanente, che le guide inglesi chiamano «Irredeemable», e ognuno dei due protagonisti ha il suo profilo. Le notifiche si possono spegnere.",
       "topic": "gameplay",
       "outlet": "Rockstar/IGN via Console Monster",
       "relatedIds": [],
@@ -3775,8 +4385,8 @@
     {
       "id": "new-20260905-combattimento",
       "date": "2026-09-05",
-      "title": "Mira libera di default, Focus per i punti deboli, due pistole sempre addosso",
-      "body": "La mira assistita classica, quella che aggancia il bersaglio, non è più attiva di default: si parte con una mira più libera e un leggero aiuto, regolabile nelle impostazioni. Il Focus rallenta il tempo ed evidenzia i punti deboli (in rosso quelli letali, in giallo quelli che mettono fuori combattimento) e i componenti dei veicoli. Addosso si portano sempre due pistole nascoste e due armi lunghe, una a tracolla e l'altra in mano, ben visibile; l'arsenale completo sta nel bagagliaio dell'auto personale, come sul cavallo di Arthur. Il rinculo è più forte e i fucili perdono precisione nelle raffiche lunghe. Niente mira in prima persona completa, niente doppia arma, niente posizione prona.",
+      "title": "Mira libera di default, concentrazione per i punti deboli, due pistole sempre addosso",
+      "body": "La mira assistita classica, quella che aggancia il bersaglio, non è più attiva di default: si parte con una mira più libera e un leggero aiuto, regolabile nelle impostazioni. La concentrazione rallenta il tempo ed evidenzia i punti deboli (in rosso quelli letali, in giallo quelli che mettono fuori combattimento) e i componenti dei veicoli. Addosso si portano sempre due pistole nascoste e due armi lunghe, una a tracolla e l'altra in mano, ben visibile; l'arsenale completo sta nel bagagliaio dell'auto personale, come sul cavallo di Arthur. Il rinculo è più forte e i fucili perdono precisione nelle raffiche lunghe. Niente mira in prima persona completa, niente doppia arma, niente posizione prona.",
       "topic": "gameplay",
       "outlet": "VICE",
       "relatedIds": [
@@ -3846,7 +4456,7 @@
       "id": "new-20261007-doccia",
       "date": "2026-10-07",
       "title": "Il protagonista che non controlli ha una vita sua",
-      "body": "Cambiando personaggio, Nelson è passato a Jason e l'ha trovato sotto la doccia. Rockstar aveva testato una versione con quattro protagonisti, poi ridotta a due. Nell'intervista si parlava anche di armi passate tra i due; nel gioco uscito ognuno ha il suo inventario e si passano solo le borse del bottino.",
+      "body": "Cambiando personaggio, Nelson è passato a Jason e l'ha trovato sotto la doccia. Rockstar aveva testato una versione con quattro protagonisti, poi ridotta a due. Nell'intervista si parlava anche di armi passate tra i due; nel gioco uscito ognuno ha il suo inventario e si passano solo le borse della refurtiva.",
       "topic": "gameplay",
       "outlet": "IGN via GTAVice.net",
       "relatedIds": [],
@@ -6656,7 +7266,7 @@
       "id": "new-20260918-pacifista",
       "date": "2026-09-18",
       "title": "Si può giocare senza uccidere: colpi di avvertimento, armi strappate di mano e gomme della polizia",
-      "body": "Rob Nelson spiega che il combattimento lascia più spazio alle scelte non letali: si spara vicino a un nemico per intimidirlo o per costringerlo al riparo, alcuni scappano appena vedono un'arma, con il Focus si colpiscono braccia e gambe per mettere fuori combattimento senza uccidere, e un colpo preciso fa volare l'arma dalle mani. Anche una rapina può filare liscia senza far scattare allarmi, sparando alle telecamere e forzando le serrature. In fuga si possono bucare le gomme dell'auto della polizia o colpire solo l'autista. Secondo Nelson è la prima volta che la serie lo permette.",
+      "body": "Rob Nelson spiega che il combattimento lascia più spazio alle scelte non letali: si spara vicino a un nemico per intimidirlo o per costringerlo al riparo, alcuni scappano appena vedono un'arma, con la concentrazione si colpiscono braccia e gambe per mettere fuori combattimento senza uccidere, e un colpo preciso fa volare l'arma dalle mani. Anche una rapina può filare liscia senza far scattare allarmi, sparando alle telecamere e forzando le serrature. In fuga si possono bucare le gomme dell'auto della polizia o colpire solo l'autista. Secondo Nelson è la prima volta che la serie lo permette.",
       "topic": "gameplay",
       "outlet": "GTABase",
       "relatedIds": [

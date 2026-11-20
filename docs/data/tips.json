@@ -106,12 +106,12 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-20",
       "id": "tip-wanted",
       "category": "combattimento",
       "title": "Polizia: sei stelle e un profilo criminale",
       "priority": 12,
-      "body": "Sei livelli di ricercato. Sotto le stelle, delle icone mostrano cosa sa la polizia: il tuo aspetto, se eri solo o in coppia, i vestiti, l'auto, l'arma, le telecamere. Ogni elemento si cancella a parte: separati dal partner, cambiati, abbandona l'auto, butta l'arma. Se le stelle sono vuote non sanno chi sei: allontanati dalla zona.",
+      "body": "Sei stelle di sospetto. Sotto le stelle, le icone dei riconoscimenti mostrano cosa sa la polizia: il tuo aspetto, se eri solo o in coppia, i vestiti, il veicolo, l'arma, i filmati della videosorveglianza. Ogni riconoscimento si supera a parte: separati dal partner, cambiati, abbandona il veicolo, butta l'arma. Se le stelle sono vuote sei un sospettato ignoto: allontanati dalla zona.",
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "extras": [
         {
@@ -126,12 +126,12 @@
       "source": "community",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-20",
       "id": "tip-focus",
       "category": "combattimento",
-      "title": "Copertura, focus e punti deboli",
+      "title": "Copertura, concentrazione e punti deboli",
       "priority": 13,
-      "body": "Si combatte da dietro le coperture, con un indicatore di focus che rallenta il tempo e nemici con zone deboli; le armi si raccolgono da terra. C'è anche un fucile a pompa che si usa con una mano sola.",
+      "body": "Si combatte da dietro le coperture, con un indicatore di concentrazione che rallenta il tempo e nemici con zone deboli; le armi si raccolgono da terra. C'è anche un fucile a pompa che si usa con una mano sola.",
       "sourceUrl": "https://vgtimes.com/articles/165665-gta-6-an-extended-look-breakdown.html"
     },
     {
@@ -210,7 +210,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "id": "tip-30fps",
       "category": "generale",
       "title": "Frame rate: 30 fps ovunque",
@@ -220,7 +220,7 @@
       "extras": [
         {
           "source": "community",
-          "text": "Niente visuale in prima persona completa: c'è solo da fermo, mirando con un'arma col mirino o alla guida col telefono in mano."
+          "text": "Niente visuale in prima persona completa: c'è solo da fermo, mirando con un'arma col mirino o alla guida col telefono in mano. I giocatori però hanno trovato un trucco per restarci sempre (PC Gamer, VGC): è spiegato in «Comandi, impostazioni e prestazioni»."
         }
       ],
       "moreSources": [
@@ -330,27 +330,27 @@
       "id": "tip-guida-3",
       "category": "guida",
       "title": "Il bottino sta nel bagagliaio, non in tasca",
-      "body": "Le borse del bottino occupano spazio: in moto non ci sta quasi niente, in auto poco, in un furgone tanto. Scegli il mezzo prima della rapina. Pay 'n' Spray azzera il «calore» dell'auto e la ridipinge.",
+      "body": "Le borse della refurtiva occupano spazio: in moto non ci sta quasi niente, in auto poco, in un furgone tanto. Scegli il mezzo prima della rapina. Il Pay 'n' Spray rivernicia l'auto e ti fa superare il riconoscimento del veicolo.",
       "priority": 22,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-polizia-1",
       "category": "combattimento",
       "title": "Leggi le icone sotto le stelle",
-      "body": "Le icone sotto le stelle dicono cosa sa la polizia di te: vestiti, arma, auto, complice, filmati. Elimina una prova alla volta. Dividervi può togliere una stella intera. Sulla minimappa non ci sono i puntini degli agenti: senti la polizia con il Focus, e vedi solo il perimetro rosso della ricerca.",
+      "body": "Le icone sotto le stelle sono i riconoscimenti, cioè quello che la polizia sa di te: vestiti, arma, veicolo, complice, filmati. Superane uno alla volta. Dividervi può togliere una stella intera. Sulla minimappa non ci sono i puntini degli agenti: senti la polizia con la concentrazione, e vedi solo il perimetro rosso della ricerca.",
       "priority": 23,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.consolemonster.com/news/rockstar-details-gta-6s-overhauled-wanted-system-and-criminal-profile/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-polizia-2",
@@ -382,18 +382,18 @@
       "id": "tip-profilo",
       "category": "sistemi",
       "title": "Il Profilo criminale ricorda tutto",
-      "body": "Il Profilo criminale va da «Professional» a «Irredeemable»: un diavoletto con l'aureola segna le buone azioni, uno col ghigno quelle cattive. Sparare per difenderti non ti penalizza, esagerare senza motivo sì. Contano anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino. E la storia ne tiene conto.",
+      "body": "Il Profilo criminale ha quattro tipi: «Professionale», «Senza scrupoli», «Violento» e «Folle». Un diavoletto con l'aureola segna le buone azioni, uno col ghigno quelle cattive. Sparare per difenderti non ti penalizza, esagerare senza motivo sì. Contano anche i piccoli gesti, come accarezzare un cane o buttare la spazzatura nel cestino. E la storia ne tiene conto.",
       "priority": 26,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "extras": [
         {
           "source": "community",
-          "text": "I livelli sono cinque: «Professional», «Hardened», «Violent», «Psycho» e «Irredeemable» (nelle anteprime il secondo si chiamava «Aggressive»). Se resti a lungo «Psycho» l'icona si crepa e diventi «Irredeemable» per sempre, in quella partita. Jason e Lucia hanno profili separati."
+          "text": "In inglese i tipi sono Professional, Hardened, Violent e Psycho (nelle anteprime il secondo si chiamava «Aggressive»). Le guide inglesi ne citano un quinto: se resti a lungo «Folle» l'icona si crepa e diventi «Irredeemable» per sempre, in quella partita (il nome italiano non l'abbiamo ancora visto). Jason e Lucia hanno profili separati."
         }
       ]
     },
@@ -539,14 +539,14 @@
       "id": "tip-tecnica-1",
       "category": "tecnica",
       "title": "30 fps, e la prima persona solo per mirare",
-      "body": "L'obiettivo è 30 fps su tutte le console, PS5 Pro compresa, che aggiunge PSSR e ombre in ray tracing. La prima persona c'è solo da fermo o mirando con un'arma col mirino (L2 + R3) e alla guida col telefono in mano. Il fotomodo si chiama Photo Studio e si apre dal menu di pausa; Rockstar Editor non c'è. Le funzioni del DualSense (altoparlante, vibrazione aptica, grilletti adattivi) sono usate in tutto il gioco e si regolano dalle impostazioni di accessibilità.",
+      "body": "L'obiettivo è 30 fps su tutte le console, PS5 Pro compresa, che aggiunge PSSR e ombre in ray tracing. La prima persona c'è solo da fermo o mirando con un'arma col mirino (L2 + R3) e alla guida col telefono in mano; con un trucco del telefono (scheda «Comandi, impostazioni e prestazioni») ci resti anche mentre giochi. Il fotomodo si chiama Photo Studio e si apre dal menu di pausa; Rockstar Editor non c'è. Le funzioni del DualSense (altoparlante, vibrazione aptica, grilletti adattivi) sono usate in tutto il gioco e si regolano dalle impostazioni di accessibilità.",
       "priority": 37,
       "status": "verificato",
       "source": "trailer",
       "sourceUrl": "https://www.vice.com/en/article/will-gta-6-have-first-person-mode/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-how-to-play-in-first-person-view/",
         "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/"
@@ -665,11 +665,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "tip-armi-wheel",
       "category": "combattimento",
       "title": "La ruota delle armi non mette in pausa",
-      "body": "C'è una sola ruota (L1 tenuto): con R1 passi tra ARMI e OGGETTI. ARMI ha posti per due armi corte, le mani, l'equipaggiamento, due armi lunghe, un'arma da mischia e gli esplosivi; OGGETTI per maschera, cuffie, cappello, outfit, borse, attrezzatura, occhiali, fumo e sostanze. Quadrato usa lo Zombix, Triangolo l'adrenalina. Il gioco continua mentre scegli. In auto c'è una ruota a parte per le maschere.",
+      "body": "C'è una sola ruota (L1 tenuto): con R1 passi tra ARMI e OGGETTI. ARMI ha posti per due armi corte, le mani, l'equipaggiamento, due armi lunghe, un'arma da mischia e gli esplosivi; OGGETTI per maschera, cuffie, cappello, outfit, borse, attrezzatura, occhiali, fumo e sostanze. Quadrato usa lo Zombix, Triangolo una dose di adrenalina. Il gioco continua mentre scegli. In auto c'è una ruota a parte per le maschere.",
       "priority": 42,
       "sourceUrl": "https://allthings.how/gta-6-how-the-weapon-wheel-and-inventory-work/",
       "moreSources": [
@@ -710,11 +710,11 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-20",
       "id": "tip-localizzatori",
       "category": "guida",
       "title": "Telecamere autostradali e localizzatori",
-      "body": "Le telecamere sull'autostrada riconoscono le auto rubate: scattano due stelle e una zona di ricerca rossa. Il localizzatore va tolto da un meccanico o da un ricettatore prima di registrare o vendere l'auto. Ogni volante ne ha uno.",
+      "body": "Le telecamere sull'autostrada riconoscono le auto rubate: scattano due stelle di sospetto e una zona di ricerca rossa. Il localizzatore va tolto da un meccanico o da un ricettatore prima di registrare o vendere l'auto. Ogni volante ne ha uno.",
       "priority": 45,
       "sourceUrl": "https://www.eldorado.gg/blog/grand-theft-auto-en/gta-6-leaks/"
     },
@@ -790,15 +790,19 @@
       "id": "tip-segreto-casa-san-andreas",
       "category": "esplorazione",
       "title": "La casa di GTA VI che si vedeva già in San Andreas",
-      "body": "Nella Definitive Edition di GTA: San Andreas (2021) c'era l'immagine di una casa che col gioco non c'entrava niente, e da anni si pensava venisse da GTA VI in lavorazione. Ora l'hanno trovata a Belville: è identica, fino alle piante davanti all'ingresso. Era quasi certamente un'anticipazione nascosta. La scoperta viene dal progetto di mappatura del GTA Wiki.",
+      "body": "Nella Definitive Edition di GTA: San Andreas (2021), tra le foto del bar a tema UFO Lil' Probe'Inn, c'era l'immagine di una casa con un UFO sopra che col gioco non c'entrava niente, e da anni si pensava venisse da GTA VI in lavorazione. Ora l'hanno trovata a Belville: è identica, fino al garage e alle palme davanti all'ingresso. La scoperta viene dal progetto di mappatura del GTA Wiki. Di giorno puoi entrare nel garage: è il covo di un complottista convinto di vivere in un videogioco, con una mappa dei suoi pensieri sul muro e la scritta «IT'S A SIMULATION». Nei suoi appunti racconta che non riesce a comprare un biglietto per Los Santos né a uscire dai confini dello Stato, nota passanti tutti uguali e porte che non portano da nessuna parte, e pensa di scappare in barca. Parla anche di due persone, «J» e «L», a cui le regole del suo mondo non si applicano.",
       "priority": 48,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster",
       "image": null,
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/",
+        "https://www.dexerto.com/gta/gta-6-screenshot-hidden-in-san-andreas-back-in-2021-was-real-and-the-house-has-a-dark-secret-3429837/"
+      ]
     },
     {
       "id": "tip-segreto-gatti",
@@ -821,7 +825,7 @@
       "id": "tip-prime-10",
       "category": "prima-ora",
       "title": "Le prime 10 cose da fare",
-      "body": "1. Prima di partire, nelle impostazioni: schema dei comandi (lo scatto ora è su L3, c'è anche il classico), tipo di mira e, se vuoi, voce del navigatore e icone più grandi.\n\n2. Prima che Lucia torni a casa fai i lavori di casa di Jason (icona del pennello): scale, tetto, parete e pittura della camera, ringhiera della terrazza. Dopo non si possono più fare, e finiti tutti fanno partire la relazione molto più in alto. Poi appendi il sacco sotto casa e fai pesi in terrazza.\n\n3. Dai da mangiare al serpente Dolores e sfoglia libri e riviste di casa: alzano il Focus e contano per i collezionabili.\n\n4. Salva a mano (pausa › Gioco): 15 slot e niente replay delle missioni. Tieni un salvataggio all'inizio e alla fine di ogni capitolo, e salva circa ogni mezz'ora: quello automatico è poco affidabile. Non spegnere la console mentre il gioco salva.\n\n5. Finché non hai il conto in banca, nascondi i contanti sotto le assi del pavimento della camera: se muori o ti arrestano perdi quelli in tasca. Poi versali al bancomat, ma tieni sempre qualche centinaio di dollari addosso: taxi e diversi incontri per strada vogliono contanti.\n\n6. Appena hai WAiNK scansiona auto, barche e aerei (tieni premuto su sulla croce); gli animali li studi col binocolo. Per il 100% ne servono 200 e 100: cominciare subito fa risparmiare ore.\n\n7. Mangia e bevi prima di uscire: salute, resistenza e Focus partono più alti. Puoi farlo anche camminando o guidando.\n\n8. Accarezza cani e gatti (L2) e butta la spazzatura nel cestino: alzano il Focus e il profilo criminale.\n\n9. Tieni un cambio d'abiti nel bagagliaio: cambiarsi è il modo più rapido per far perdere le tue tracce alla polizia.\n\n10. Fai gli incarichi facoltativi appena compaiono (bolle nere con lettere rosa o icone viola): alcuni spariscono andando avanti, e per il 100% ne servono 100.",
+      "body": "1. Prima di partire, nelle impostazioni: schema dei comandi (lo scatto ora è su L3, c'è anche il classico), tipo di mira e, se vuoi, voce del navigatore e icone più grandi.\n\n2. Prima che Lucia torni a casa fai i lavori di casa di Jason (icona del pennello): scale, tetto, parete e pittura della camera, ringhiera della terrazza. Dopo non si possono più fare, e finiti tutti fanno partire la relazione molto più in alto. Poi appendi il sacco sotto casa e fai pesi in terrazza.\n\n3. Dai da mangiare al serpente Dolores e sfoglia libri e riviste di casa: alzano la concentrazione e contano per i collezionabili.\n\n4. Salva a mano (pausa › Gioco): 15 slot e niente replay delle missioni. Tieni un salvataggio all'inizio e alla fine di ogni capitolo, e salva circa ogni mezz'ora: quello automatico è poco affidabile. Non spegnere la console mentre il gioco salva.\n\n5. Finché non hai il conto in banca, nascondi i contanti sotto le assi del pavimento della camera: se muori o ti arrestano perdi quelli in tasca. Poi versali al bancomat, ma tieni sempre qualche centinaio di dollari addosso: taxi e diversi incontri per strada vogliono contanti.\n\n6. Appena hai WAiNK scansiona auto, barche e aerei (tieni premuto su sulla croce); gli animali li studi col binocolo. Per il 100% ne servono 200 e 100: cominciare subito fa risparmiare ore.\n\n7. Mangia e bevi prima di uscire: salute, resistenza e concentrazione partono più alte. Puoi farlo anche camminando o guidando.\n\n8. Accarezza cani e gatti (L2) e butta la spazzatura nel cestino: alzano la concentrazione e il profilo criminale.\n\n9. Tieni un cambio d'abiti nel bagagliaio: cambiarsi è il modo più rapido per far perdere le tue tracce alla polizia.\n\n10. Fai gli incarichi facoltativi appena compaiono (bolle nere con lettere rosa o icone viola): alcuni spariscono andando avanti, e per il 100% ne servono 100.",
       "priority": 1,
       "status": "da verificare",
       "source": "stampa",
@@ -841,7 +845,7 @@
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-salva-capitoli",
@@ -899,8 +903,8 @@
     {
       "id": "tip-focus-l3r3",
       "category": "esplorazione",
-      "title": "Senti urla o sirene? Accendi il Focus",
-      "body": "Premi insieme le due levette (L3 + R3) per il Focus: fuori dagli scontri non si consuma. Ti indica da dove arrivano urla, sirene e spari (sono eventi casuali da scoprire), mostra in rosso le porte con l'allarme e ti aiuta a trovare i codici delle casseforti.",
+      "title": "Senti urla o sirene? Accendi la concentrazione",
+      "body": "Premi insieme le due levette (L3 + R3) per la concentrazione: fuori dagli scontri non si consuma. Ti indica da dove arrivano urla, sirene e spari (sono eventi casuali da scoprire), mostra in rosso le porte con l'allarme e ti aiuta a trovare i codici delle casseforti.",
       "priority": 8,
       "status": "verificato",
       "source": "stampa",
@@ -912,7 +916,7 @@
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-calma-agente",
@@ -986,8 +990,8 @@
     {
       "id": "tip-focus-poligono",
       "category": "sistemi",
-      "title": "Alza il Focus al poligono",
-      "body": "Al Rodgers Ranch, a nord-est di Port Gellhorn, compra il pass da 5 $ e fai la prova principiante Market Range: dura cinque secondi e ogni volta alza il Focus per sempre. Esci e ricomincia quante volte vuoi. Lo alzano anche golf, biliardo, pesca, basket e meditazione.",
+      "title": "Alza la concentrazione al poligono",
+      "body": "Al Rodgers Ranch, a nord-est di Port Gellhorn, compra il pass da 5 $ e fai la prova principiante Market Range: dura cinque secondi e ogni volta alza la concentrazione per sempre. Esci e ricomincia quante volte vuoi. La alzano anche golf, biliardo, pesca, basket e meditazioni.",
       "priority": 13,
       "status": "da verificare",
       "source": "stampa",
@@ -998,7 +1002,7 @@
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-giorno-notte",
@@ -1076,7 +1080,7 @@
       "id": "tip-entrare-edifici",
       "category": "esplorazione",
       "title": "Quali edifici si possono visitare",
-      "body": "Sulla mappa gli edifici blu scuro hanno un interno, quelli blu chiaro no. Avvicinandoti, la minimappa mostra la porta d'ingresso con una linea bianca, e anche stanze e scale nascoste. Col Focus le porte bianche si aprono, quelle rosse hanno l'allarme.",
+      "body": "Sulla mappa gli edifici blu scuro hanno un interno, quelli blu chiaro no. Avvicinandoti, la minimappa mostra la porta d'ingresso con una linea bianca, e anche stanze e scale nascoste. Con la concentrazione le porte bianche si aprono, quelle rosse hanno l'allarme.",
       "priority": 16,
       "status": "da verificare",
       "source": "stampa",
@@ -1085,7 +1089,7 @@
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "tip-fine-capitolo-1",
@@ -1163,16 +1167,22 @@
       "id": "tip-segreto-libri",
       "category": "esplorazione",
       "title": "Libri che parlano di Red Dead e Liberty City",
-      "body": "Libri e riviste si possono sfogliare, e alcuni strizzano l'occhio agli altri giochi Rockstar. A casa di Jason, già nel capitolo 1, sul tavolino vicino alla porta sul retro c'è il memoir di un ex mafioso di Liberty City che racconta fatti del 2008, l'anno di GTA IV. Alla Jacob's Tavern di Millport trovi invece un romanzo western su un cowboy di New Austin, la regione di Red Dead Redemption.",
+      "body": "Libri e riviste si possono sfogliare, e alcuni strizzano l'occhio agli altri giochi Rockstar. A casa di Jason, già nel capitolo 1, sul tavolino vicino alla porta sul retro c'è il memoir di un ex mafioso di Liberty City che racconta fatti del 2008, l'anno di GTA IV. Alla Jacob's Tavern di Millport trovi invece un romanzo western su un cowboy di New Austin, la regione di Red Dead Redemption. Al Brian's Boat Works & Marina di Key Lento c'è un libro su Flaco Hernandez, il pistolero che Arthur Morgan affronta in Red Dead Redemption 2: il narratore, Rust McCreary, ne trova il corpo nella neve a Cairn Lake, proprio dove lo lascia Arthur, e cita Blackwater, Armadillo e Chuparosa. In giro si vedono anche targhe del New Austin, e sulle banconote ci sono i presidenti di Red Dead.",
       "priority": 51,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.gamespot.com/articles/gta-6-easter-eggs-list-and-locations/",
-      "moreSources": [],
+      "moreSources": [
+        "https://www.ign.com/articles/gta-6-red-dead-redemption-2-same-timeline",
+        "https://www.rockstarintel.com/gta-vi-features-multiple-references-to-red-dead-redemption/"
+      ],
       "image": null,
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "relatedIds": [
+        "poi-brian-boat-yard"
+      ]
     },
     {
       "id": "tip-segreto-cane-moto-acqua",
@@ -1335,6 +1345,136 @@
       "spoilerLevel": 3,
       "example": false,
       "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "tip-segreto-fabien-larouche",
+      "category": "esplorazione",
+      "title": "Fabien LaRouche, il guru di GTA V, è finito in una rivista",
+      "body": "Nella casa di Jason a Key Lento, già nella prima ora di gioco, c'è la rivista di fitness Body Copy (è anche uno dei collezionabili). Sfogliala fino all'ultimo articolo: è un'intervista a Fabien LaRouche, l'insegnante di yoga che in GTA V si portò via Amanda De Santa. Dopo i guai di Los Santos ha girato ashram, resort di lusso e cliniche di chirurgia estetica, e ora tiene lezioni in una residenza per anziani di Leonida, la Dwindle Wood Retirement Community. Un dettaglio piccolo, ma dice che GTA V e GTA VI stanno nello stesso mondo.",
+      "priority": 53,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "relatedIds": [
+        "col-riviste-5"
+      ]
+    },
+    {
+      "id": "tip-segreto-bikini-girl",
+      "category": "esplorazione",
+      "title": "La ragazza in bikini del primo trailer",
+      "body": "Ricordi la ragazza in bikini del primo trailer, quella che in tanti credevano fosse Lucia? Nel gioco c'è, ed è un'altra persona. La incontri nel capitolo 1, nella prima vera missione di Lucia: quando arrivi alla festa sullo yacht, prenditi un momento e vai verso poppa. Avvicinati: Lucia può dirle che ha una faccia nota, e lei risponde che è una modella famosa. È la risposta scherzosa di Rockstar a tutte le teorie dei fan.",
+      "priority": 54,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/articles/gta-6-bikini-girl-trailer-easter-egg",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "tip-segreto-hotel-marbelle",
+      "category": "esplorazione",
+      "title": "L'hotel stregato di Crosstown",
+      "body": "Nel sud di Crosstown, a Vice City (contea di Vice-Dale), su NW 8th St c'è l'hotel abbandonato Marbelle. Entra dalla porta sul retro: c'è una cassaforte, ma il codice ancora non ce l'hai. Sali le scale e una porta si apre da sola. Appena entri le luci si spengono, sui muri e sul soffitto compaiono strani simboli e si sentono sussurri, un omaggio a Silent Hill. Quando finisce si apre la porta del tetto: per terra c'è un vecchio biglietto con il codice cerchiato, 955214. Finché non apri la cassaforte intorno restano notte e nebbia. Dentro ci sono qualche migliaio di dollari e l'orologio da collezione Crowex Ambassador «Breakfast». Sul mobile davanti alla scala c'è anche una carta di Ratface. Per ora lo racconta solo GameRant.",
+      "priority": 55,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://gamerant.com/gta-6-silent-hill-easter-egg-haunted-hotel-location/",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "relatedIds": [
+        "col-carte-218"
+      ]
+    },
+    {
+      "id": "tip-segreto-kalaga",
+      "category": "esplorazione",
+      "title": "In vetta al Mount Kalaga: pietre, meridiana e uno scooter",
+      "body": "Il Mount Kalaga, nel nord della mappa, è candidato a diventare il Monte Chiliad di GTA VI. A metà del sentiero di salita c'è un meteorite caduto. In cima trovi un cerchio di pietre con quella che sembra una meridiana: nessuno ha ancora capito a cosa serva. Lì accanto c'è anche uno scooter elettrico per anziani, chissà come arrivato fin lassù: puoi usarlo per scendere, oppure buttarti col paracadute, che fa partire uno dei lanci a tempo. Per ora lo racconta solo GameRant.",
+      "priority": 56,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://gamerant.com/gta-6-mount-kalaga-location-meteorite-mystery/",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "relatedIds": [
+        "cat-meteoriti",
+        "tip-segreto-monumento-stelle"
+      ]
+    },
+    {
+      "id": "tip-segreto-orso-polare",
+      "category": "esplorazione",
+      "title": "L'orso polare scappato dal camion",
+      "body": "Tra gli incontri casuali sulle strade ce n'è uno con un camion che porta un orso polare allo zoo: l'orso sfonda il rimorchio e scappa. Se ti capita più avanti, quando hai già conosciuto il cacciatore Bret Vogel (con Jason, dal capitolo 2), puoi vendergli l'orso morto. Lo racconta Kotaku tra i dettagli scoperti dai giocatori; non è un evento fisso, quindi non è detto che tu lo veda.",
+      "priority": 57,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435",
+      "moreSources": [],
+      "image": null,
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "tip-prima-persona-trucco",
+      "category": "tecnica",
+      "title": "Prima persona: il trucco del telefono",
+      "body": "Una vera visuale in prima persona nel menu non c'è, ma si può ottenere. In Impostazioni › Controller assegna al touchpad la telecamera al posto della mappa. Sali in auto, apri il telefono con la croce e, mentre lo chiudi con Cerchio, premi subito il touchpad: se sei rapido resti in prima persona e puoi guidare, sparare e raccogliere oggetti. Torni normale ricaricando un salvataggio (anche appena fatto) o entrando in un menu che sposta l'inquadratura, come quelli dell'Ammu-Nation o dell'officina. È un difetto del gioco, non un'opzione: un aggiornamento potrebbe toglierlo.",
+      "priority": 45,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-glitch-grand-theft-auto/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "tip-scelte-aspetta",
+      "category": "storia",
+      "title": "Davanti a una scelta, prova anche ad aspettare",
+      "body": "Quando la storia ti chiede di decidere, a volte non fare niente cambia la scena: può succedere che il gioco scelga per te, ma altre volte compaiono opzioni nuove. E se in missione volevi passare inosservato o senza vittime e qualcosa va storto, riparti dall'ultimo checkpoint: sono frequenti e fai prima che ricaricando un salvataggio.",
+      "priority": 46,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.eurogamer.net/gta-6-spoiler-free-advice",
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "tip-salva-ricarica-ripara",
+      "category": "guida",
+      "title": "Auto ammaccata? Salva e ricarica",
+      "body": "Un salvataggio manuale seguito dal suo caricamento ripara il veicolo gratis. Nel capitolo 1 ti riporta anche a casa di Jason, come un viaggio rapido; più avanti il gioco ti fa ricomparire vicino a dove hai salvato.",
+      "priority": 47,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-tips-tricks/",
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-20"
     }
   ]
 }

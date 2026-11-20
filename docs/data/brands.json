@@ -178,10 +178,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "name": "San4San",
       "category": "Gang",
-      "description": "Una delle gang più radicate di Vice City, attiva da decenni, con base a La Perle: è dentro la vita del quartiere, nella scena musicale e nello spaccio. È la gang di Raymond ed Ernesto; le sue cinque operazioni da rapinare sono tutte nel nord di Vice City. Si riconosce dalla catena «S4S» e dal graffito «SAN 4 SAN» sui muri.",
+      "description": "Una delle gang più radicate di Vice City, attiva da decenni, con base a La Perle: è dentro la vita del quartiere, nella scena musicale e nello spaccio. È la gang di Raymond ed Ernesto; le sue cinque operazioni da rapinare (Sound4Sound Studio, La Perle Trap House, Illegal Sneaker Trade, JanJak's Garage e Parlor Apartments) sono tutte nel nord di Vice City. Si riconosce dalla catena «S4S» e dal graffito «SAN 4 SAN» sui muri.",
       "sourceUrl": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
       "imageUrl": "https://gta.wiki/images/San4San-GTAVI-AnExtendedLook-Chain.png?978d5",
       "extras": [
@@ -589,10 +589,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "name": "Final Chapter MC",
       "category": "Gang",
-      "description": "Il club motociclistico di Ambrosia, vestito di nero e armato di revolver Mustang .357: sono i biker che inseguono Jason dal Thirsty Wolf. Le toppe sui gilet indicano che il club è nato nel 1982; un membro barbuto con il cappellino Liberty City Cycles porta la toppa di grado «Enforcer». L'emblema è un teschio incappucciato sopra un libro aperto con le lettere M e C e mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.\n\nNella scheda di gioco: in pubblico è un club patriottico e per famiglie che organizza beneficenza per i veterani; dietro le porte spaccia metanfetamina, fa estorsioni e racket. Le sue quattro operazioni da rapinare sono quasi tutte intorno ad Ambrosia.",
+      "description": "Il club motociclistico di Ambrosia, vestito di nero e armato di revolver Mustang .357: sono i biker che inseguono Jason dal Thirsty Wolf. Le toppe sui gilet indicano che il club è nato nel 1982; un membro barbuto con il cappellino Liberty City Cycles porta la toppa di grado «Enforcer». L'emblema è un teschio incappucciato sopra un libro aperto con le lettere M e C e mani scheletriche sulle pagine, in nero, bianco e oro. Anche una donna del club porta un revolver.\n\nNella scheda di gioco: in pubblico è un club patriottico e per famiglie che organizza beneficenza per i veterani; dietro le porte spaccia metanfetamina, fa estorsioni e racket. Le sue quattro operazioni da rapinare (Farm Fix Meth Lab, Biker Hideout, Hog Stars Garage e Irons Building Supply) sono quasi tutte intorno ad Ambrosia.",
       "sourceUrl": "https://gta.wiki/w/Final_Chapter_MC",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/12/Final_Chapter_MC_promo_4.png/revision/latest?cb=20261030064921",
       "imageCredit": "Immagine promozionale con i biker del Final Chapter MC, da GTA Wiki",
@@ -613,10 +613,10 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "name": "PTT Youngin$",
       "category": "Gang",
-      "description": "La nuova generazione di gangster di Vice City, con base a Southside: famosi per i video virali quanto per la strada, giovani e imprevedibili. Hanno due operazioni da rapinare nella parte centro-ovest della città; una terza, il loro negozio di merce illegale, arriva con l'Ultimate Edition e non conta per il 100%.",
+      "description": "La nuova generazione di gangster di Vice City, con base a Southside: famosi per i video virali quanto per la strada, giovani e imprevedibili. Hanno due operazioni da rapinare a Southside, il Kamar Devon Community Center e la Southside Trap House; una terza, il loro negozio di merce illegale, arriva con l'Ultimate Edition e non conta per il 100%.",
       "sourceUrl": "https://gta.wiki/w/Grand_Theft_Auto_VI:_Ultimate_Edition",
       "imageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/PTT-Youngins-Illegal-Goods-Store.jpg/revision/latest?cb=20261103133127",
       "imageCredit": "Immagine dei PTT Youngin$ (negozio di merce illegale), da GTA Wiki: verificare la provenienza",
@@ -1664,15 +1664,18 @@
       "id": "brd-ajax-gym",
       "name": "Ajax Gym",
       "category": "Servizi",
-      "description": "Palestra su SW 4th Street a Vice Beach.",
+      "description": "Palestra su SW 4th Street a Washington Beach (Vice Beach), nell'edificio del Lawton Theater: nell'elenco della mappa si chiama «Ajax Gym / Lawton Theater» ed è la più cara delle palestre, con l'abbonamento da 1.800 $.",
       "image": "assets/img/mondo/brd-ajax-gym.webp",
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://www.gtasixmap.com/locations/vice-beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
-      "imageUrl": "https://gta.wiki/images/AjaxGym-GTAVI-AnExtendedLook.png?36f82"
+      "updatedAt": "2026-11-20",
+      "imageUrl": "https://gta.wiki/images/AjaxGym-GTAVI-AnExtendedLook.png?36f82",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+      ]
     },
     {
       "id": "brd-vyb",
@@ -2476,14 +2479,18 @@
       "id": "brd-coastal-auto-care",
       "name": "Coastal Auto Care",
       "category": "Servizi",
-      "description": "Officina delle Leonida Keys: è il posto dove far sistemare i fari prima di guidare sotto la pioggia notturna.",
+      "description": "Officina delle Leonida Keys, a Key Lento, specializzata in auto d'epoca (pezzi e modifiche retrò): è anche il posto dove far sistemare i fari prima di guidare sotto la pioggia notturna. È tra i luoghi più visitati nelle statistiche del gioco di Mike.",
       "image": null,
-      "status": "da verificare",
-      "source": "trailer",
+      "status": "verificato",
+      "source": "gioco-mike",
       "sourceUrl": "https://x.com/weatherchannel/status/2122429589326798848",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-17"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://x.com/weatherchannel/status/2122429589326798848",
+        "https://www.powerpyx.com/gta-6-all-mod-shops-locations/"
+      ]
     },
     {
       "name": "Race and Chase",
@@ -2549,14 +2556,14 @@
       "id": "brd-m7",
       "name": "M7",
       "category": "Gang",
-      "description": "Gang salvadoregna con base a Hamlet, riconoscibile dai tatuaggi che coprono la faccia e dai titoli di Weazel News: violenza estrema, estorsioni e spaccio di metanfetamina. Ha due operazioni da rapinare: il complesso di Hamlet (per IGN è il Nova Auto Junkyard) e un covo all'estremo nord, vicino alla montagna. In GTA V la gang salvadoregna era la Marabunta Grande: il legame non è confermato.",
+      "description": "Gang salvadoregna con base a Hamlet, riconoscibile dai tatuaggi che coprono la faccia e dai titoli di Weazel News: violenza estrema, estorsioni e spaccio di metanfetamina. Ha due operazioni da rapinare: il complesso di Hamlet (per IGN è il Nova Auto Junkyard) e il Weed Grow, un complesso di capannoni all'estremo nord, sulla costa della contea di Lummox. In GTA V la gang salvadoregna era la Marabunta Grande: il legame non è confermato.",
       "image": "assets/img/mondo/brd-m7.jpg",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ],
@@ -2567,14 +2574,14 @@
       "id": "brd-la-polilla-negra",
       "name": "La Polilla Negra",
       "category": "Gang",
-      "description": "Il più grande e pericoloso cartello colombiano, fatto di ex paramilitari: Leonida è una delle sue porte d'ingresso negli Stati Uniti e la cocaina arriva dal mare. Ha due operazioni da rapinare, entrambe a nord-ovest delle Grassrivers: una è il Palmer Fishing Warehouse, magazzino di pesce sulla costa della contea di Mariana.",
+      "description": "Il più grande e pericoloso cartello colombiano, fatto di ex paramilitari: Leonida è una delle sue porte d'ingresso negli Stati Uniti e la cocaina arriva dal mare. Ha due operazioni da rapinare nella contea di Mariana, verso Watson Bay: il Palmer Fishing Warehouse, magazzino di pesce sulla costa, e la Watson Bay Safehouse, una casa isolata e sorvegliata.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
       ]
@@ -2583,14 +2590,14 @@
       "id": "brd-guardia-brothers",
       "name": "Guardia Brothers",
       "category": "Gang",
-      "description": "Gang di Little Cuba, a Vice City. Ha tre operazioni da rapinare: Casa Guardia, vecchio edificio simbolo del quartiere, un cantiere nautico sul fiume e un deposito di spedizioni usati per la droga.\n\nNella scheda di gioco: fratellanza di mafiosi cubani da più generazioni, con le mani in tutto (droga, rapine, dirottamenti, estorsioni, sequestri, omicidi e politica) e sempre in mostra per le strade di Little Cuba.",
+      "description": "Gang di Little Cuba, a Vice City. Ha tre operazioni da rapinare: Casa Guardia, vecchio edificio simbolo del quartiere, e sul fiume il cantiere Saber Shipping Yard e il deposito Saber Shipping Facility, usati per la droga.\n\nNella scheda di gioco: fratellanza di mafiosi cubani da più generazioni, con le mani in tutto (droga, rapine, dirottamenti, estorsioni, sequestri, omicidi e politica) e sempre in mostra per le strade di Little Cuba.",
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://gta.wiki/w/Guardia_Brothers",
         "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
@@ -2991,13 +2998,13 @@
       "id": "brd-altri-criminali",
       "name": "Altri criminali (Other Criminals)",
       "category": "Gang",
-      "description": "La nona voce delle bande nel menu Progressi: non è una gang ma i piccoli criminali sparsi per tutta Leonida. Hanno 13 operazioni da rapinare, dai finti negozi che coprono traffici (sigari, animali esotici, erba, metanfetamina) ai magazzini di auto rubate e armi.",
+      "description": "La nona voce delle bande nel menu Progressi: non è una gang ma i piccoli criminali sparsi per tutta Leonida. Hanno 13 operazioni da rapinare, dai finti negozi che coprono traffici (sigari, animali esotici, erba, metanfetamina) ai magazzini di auto rubate e armi; ci sono anche una vecchia base radar nella contea di Mariana (Mill Station Radar Base), un laboratorio in un garage di Ocean Beach, una villa sulle isole della baia (Vespucci Mansion) e una fattoria nella contea di Kelly (Walker Farm).",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": null,
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/"
@@ -3349,6 +3356,32 @@
       "spoilerLevel": 0,
       "example": false,
       "updatedAt": "2026-11-19"
+    },
+    {
+      "id": "brd-gorge",
+      "name": "GORGE",
+      "category": "Azienda",
+      "description": "Il ketchup parodia di Heinz: bottiglia rossa col tappo bianco, etichetta a scudo con il pomodoro e il nome che in inglese vuol dire «abbuffarsi». Il 19 novembre Heinz ne ha fatto una vera edizione limitata per un concorso negli Stati Uniti, senza accordi con Rockstar.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://vice-central.com/gta-vi-heinz-ketchup-gorge-bouteille/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": "brd-bimyou",
+      "name": "Bimyou",
+      "category": "Luoghi di ritrovo",
+      "description": "Finto ristorante giapponese di Vice City: l'insegna promette sushi e ramen, ma dentro è una caffetteria e «sushi» e «ramen» sono i nomi dei suoi panini. In giapponese «bimyou» vuol dire «mediocre»: in Giappone la battuta è diventata virale.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://kotaku.com/grand-theft-auto-vi-gta6-rockstar-japanese-restaurant-puns-2000758644",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20"
     }
   ]
 }
