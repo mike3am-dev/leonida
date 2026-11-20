@@ -45,7 +45,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sezione della versione. **Regola di Mike (19/11 sera): queste voci si segnano e basta; si lavora solo quando lui dice di partire.**
 
 ### Dopo la 1.0.1: risposte di Mike (19/11 sera)
-1. **Mappa su iPhone**: per Mike va bene così finché Dada non dice altro. Se torna a chiudersi: togliere il livello composito grande (`translate3d` su `.mapboard__content`) su iOS e usare tessere a risoluzione normale.
+1. **Mappa su iPhone**: Dada (17 Pro Max, iOS 27.2) il 20/11 sera ha ancora il crash di Safari sulla mappa sbloccata e in Veicoli: corretto dalla chat Bug (STATO 5f). Se torna ancora: nascondere le Polaroid a zoom alto e aggiornare `--s` dei segnaposto solo a fine gesto.
 2. **Titoli italiani del capitolo 1**: «Armi in spalla» resta, per ora (Mike). 6 titoli hanno una fonte sola (`titleNote`). Facoltative del capitolo 1 e capitoli 2-5 ancora quasi tutti in inglese: cercarli nei feed RSS dei canali italiani (IosonoOtakuman, PANZA MARANZA GAMING, Jugin Gamer, ATLAS, Gameataly, Playstream Chronicles).
 3. **Foto degli Scatti**: per Mike va bene così. La cancellazione del file dal bucket non è stata provata sul Supabase vero: se una foto cancellata resta raggiungibile dal suo indirizzo, guardare le due policy di `scatti-admin.sql`.
 4. **Consigli e spoiler**: i passi («Cosa devi fare») sono in chiaro per scelta.
@@ -300,6 +300,12 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 **«Come si gioca» è il posto dove finisce quello che scopriamo (Mike, 20/11 sera):** niente pagina «Statistiche» a parte e niente contatori dettagliati da compilare (né nei personaggi né altrove). Le statistiche del gioco e tutto ciò che scopriamo man mano arricchiscono, correggono o confermano le descrizioni delle schede di «Come si gioca» (`meccaniche.json`).
 
 **Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
+
+## 5f. Bug: Safari si chiude su iPhone, mappa e Veicoli (chat Bug, 20/11 sera)
+Segnalazione di Mike: Dada (iPhone 17 Pro Max, iOS 27.2) ha ancora il crash di Safari quando sblocca la mappa per esplorare e quando è in Veicoli. Entrambi sono memoria piena (non si riproduce su Chromium: corretto per ragionamento, da far provare a Dada).
+- **Veicoli**: le schede e le righe della ricerca caricavano la foto intera (259 foto, ~92 megapixel ≈ 370 MB decodificati). Ora usano le miniature (`thumb()` in `veicoli.js`: `mini-m` 480 px nelle schede, `mini` 160 px nelle righe, poi foto locale e copia online). `scripts/miniature.py` fa anche quelle dei veicoli (7 MB in tutto, già nel repo): rilanciarlo dopo ogni scaricamento di immagini nuove.
+- **Mappa**: su iPhone/iPad (`IOS` in `mapboard.js`) la mappa si muove con una trasformazione 2D (`panzoom(..., { flat: true })`, niente `translate3d`), zoom massimo 5 invece di 7, tessere fino al livello 5 e chieste solo quando il dito si ferma (220 ms; prima a ogni fotogramma del pizzico). Tolti tutti i `filter` dentro la mappa (ombra del filo rosso, colori delle Polaroid, grigio dei segnaposto «da trovare» e dei badge), che ingranditi diventano immagini enormi; a zoom alto le Polaroid hanno un'ombra netta invece che sfumata. Regola: **niente `filter` né ombre sfumate grandi dentro `.mapboard__content`**.
+- Su `sviluppo` (anteprima `1.2-c`). La versione online (1.1.0) ha ancora il bug finché Mike non dice «pubblica».
 
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
