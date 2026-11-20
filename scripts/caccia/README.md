@@ -2,7 +2,7 @@
 
 **Cos'è.** Una passata a tappeto per trovare quello che manca nella guida o che è superato: otto squadre in parallelo, una per ambito, che confrontano i dati con tutto ciò che le fonti hanno pubblicato fino a quel momento. Nata il 18/11/2026 notte, quando Mike ha trovato da solo «Feels» su Flash FM e la guida non ce l'aveva: quel giro ha portato 61 trucchi, 80 sfide, 28 missioni, 37 personaggi, 221 punti d'interesse e ha scovato uno spoiler già online.
 
-**Quando.** Ogni 12 ore finché la guida non è esaustiva (Mike, 18/11). C'è un promemoria programmato che lo ricorda; il giro parte solo quando Mike dice sì. Momenti in cui le fonti esplodono: l'uscita in America (sera del 18/11 ora italiana) e il primo weekend (21-23/11).
+**Quando.** Ogni 12 ore finché la guida non è esaustiva (Mike, 18/11). Dal 20/11 non c'è più il promemoria programmato: il giro parte solo quando Mike lo chiede. Momenti in cui le fonti esplodono: l'uscita in America (sera del 18/11 ora italiana) e il primo weekend (21-23/11).
 
 ## Procedura (coordinatore)
 1. **Prima di partire**: leggi CLAUDE.md, STATO.md (sezioni 4u e successive: cosa è stato fatto e cosa manca), lancia `node scripts/completezza.mjs` per avere i numeri attuali.
