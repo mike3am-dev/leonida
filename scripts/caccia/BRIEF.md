@@ -3,6 +3,10 @@
 Progetto: «Leonida», guida privata IN ITALIANO a GTA VI. Il gioco è uscito il 18-19/11/2026: guide, wiki e testate pubblicano di continuo. Repo /home/user/leonida, dati in docs/data/*.json.
 Leggi PRIMA: /home/user/leonida/CLAUDE.md («Regole fisse», «Fai un giro guide») e /home/user/leonida/scripts/fonti-guide.md.
 
+## REGOLA SUPREMA (Mike, 20/11): il gioco di Mike batte tutte le fonti
+Leggi SUBITO /home/user/leonida/scripts/caccia/gioco-mike.md: sono le schermate del gioco di Mike (in italiano). Quello che c'è lì è giusto per definizione: nomi, numeri, totali, termini. Se una fonte dice altro, ha torto (segnalalo nel rapporto). Usa SEMPRE i termini italiani del gioco elencati lì (es. «livello di sospetto» e «stelle di sospetto», non «ricercato»; «ricettatori»; «borse della refurtiva»; «Veicoli di spicco»; «Varianti uniche di armi»). Se nel tuo ambito trovi testi con i termini vecchi, correggili (update del campo intero).
+I veicoli ora hanno le classi del gioco: `class` è un id di `docs/data/vehicles.json → groups` (es. `coupe`, `muscle`, `pickup`, `emergenza`, `sp-lowrider`), oppure `fuori-elenco`.
+
 ## Perché questo giro
 Il proprietario ha trovato da solo una canzone della radio («Feels», Calvin Harris con Katy Perry, su Flash FM) che nella guida mancava. Vuole essere sicuro che non ci sfuggano altre cose così. Il tuo lavoro è una CACCIA: confronta quello che la guida ha nel tuo ambito con quello che le fonti hanno pubblicato FINO A ORA, trova ciò che manca o è superato, e aggiungilo. Parti sempre da un inventario: cosa abbiamo (leggi i dati), cosa dicono le fonti (elenco), differenza.
 

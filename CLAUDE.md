@@ -13,6 +13,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Prima del commit: `node scripts/validate.mjs`, controllo sintassi (`node --input-type=module --check < file`), screenshot con Playwright (`/opt/node-tools/node_modules/playwright/index.js`, server locale `python3 -m http.server 8080 --directory docs`).
 - Commit con `git -c user.name="Mike" -c user.email="frodob1987@gmail.com"`, push su `main`; GitHub Pages pubblica da `/docs`. Verifica live: `curl -s https://mike3am-dev.github.io/leonida/js/app.js | grep __LEONIDA_VERSION__`.
 - Mike dice «ho finito» dopo un giro di impressioni: fino ad allora si assorbe e non si agisce.
+- **Il gioco di Mike batte tutto (regola del 20/11).** Le sue schermate e le sue informazioni sono il livello più alto di correttezza: valgono più di qualsiasi guida, wiki o testata. Diventano `verificato` con source `gioco-mike` e i termini italiani del gioco si usano in tutta la guida. Le schermate stanno in `Screenshot/` (Mike le carica con git); trascrizione e termini in `scripts/caccia/gioco-mike.md`.
 
 ## «Fai un giro di aggiornamento news» — la routine
 Quando Mike lo chiede (mai da soli), setacciare le fonti in quest'ordine e inserire tutto in `news.json` (data, topic, outlet, source, relatedIds, sourceUrl) e, quando serve, nelle altre collezioni (missions, districts/pois, collectibles, characters, vehicles, weapons, radio, brands, tips, trophies, luoghi). Poi `meta.json`, validazione, commit, push, verifica live, e un riepilogo in chat con le 5 cose più importanti.

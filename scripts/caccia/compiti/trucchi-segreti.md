@@ -1,3 +1,4 @@
+STATO AL 20/11 pomeriggio (giro 5): i numeri qui sotto sono vecchi. Cosa manca oggi: /home/user/leonida/scripts/caccia/README.md, sezione «Cosa manca alla fine del giro del 19/11 sera». Cerca SOLO le novità rispetto ai dati attuali (leggili). Prima di tutto leggi scripts/caccia/gioco-mike.md (regola suprema).
 STATO AL 19/11 ore 12 (giro 3): trucchi, sfide, 100% e guide dei trofei ricontrollati stamattina. Cerca SOLO: il metodo dei 5 trofei segreti (In principio…, Corsia preferenziale, Sfortuna forse, La verità è là fuori, Strike!) da guide FIRMATE (PowerPyx, PC Gamer, GamesRadar, Push Square, Eurogamer, IGN, VGC, Polygon): niente piste da commenti o da Sportskeeda da sola; le sequenze dei trucchi che mancano (ne abbiamo 20 su 61); segreti ed easter egg nuovi confermati da testate firmate (GameSpot aggiorna la sua lista).
 ---
 AMBITO: trucchi, trofei segreti, sfide, segreti ed easter egg. Il proprietario punta al Platino.
