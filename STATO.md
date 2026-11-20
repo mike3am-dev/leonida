@@ -307,8 +307,15 @@ Segnalazione di Mike: Dada (iPhone 17 Pro Max, iOS 27.2) ha ancora il crash di S
 - **Mappa**: su iPhone/iPad (`IOS` in `mapboard.js`) la mappa si muove con una trasformazione 2D (`panzoom(..., { flat: true })`, niente `translate3d`), zoom massimo 5 invece di 7, tessere fino al livello 5 e chieste solo quando il dito si ferma (220 ms; prima a ogni fotogramma del pizzico). Tolti tutti i `filter` dentro la mappa (ombra del filo rosso, colori delle Polaroid, grigio dei segnaposto «da trovare» e dei badge), che ingranditi diventano immagini enormi; a zoom alto le Polaroid hanno un'ombra netta invece che sfumata. Regola: **niente `filter` né ombre sfumate grandi dentro `.mapboard__content`**.
 - Su `sviluppo` (anteprima `1.2-c`). Va online con la prossima versione, che porta la chat Pubblicazione.
 
-## 5g. Profilo criminale dichiarato (chat Grafica, 20/11 sera)
-Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a colpo d'occhio in classifica. Schermate mandate a Mike (regola degli schizzi, CLAUDE.md): approvato («sì mi piace»). Su `sviluppo`, anteprima `1.2-d`.
+## 5g. Veicoli più puliti (chat Bug, 20/11 sera, anteprima 1.2-d)
+Richieste di Mike sulla sezione Veicoli:
+- La fila delle schede (Auto, Motocicli…) non salta più quando tocchi: `render` legge dove era la fila prima di ridisegnare e la rimette lì in un microtask (prima che la pagina venga disegnata). Le schede hanno solo il nome, senza «x/y».
+- Filtro della classe: **Tutti / Scoperti** («Nel garage» confondeva, «Mi mancano» tolto). Resta la chiave sulle foto.
+- Celle delle classi: «x / y» in alto a destra, allineato al titolo; via la barra e «xx nella guida»; sotto una descrizione di massimo due righe (`groups[].classes[].note` in `vehicles.json`). Coupé e Veicoli muscle hanno il testo del gioco; le altre 41 le ho scritte io: **da sostituire con il testo del gioco** quando Mike manda le schermate.
+- Schede dei veicoli: via la marca sulla foto (c'è già nel nome). Regola di Mike: niente ripetizioni, se un'informazione è già chiara non si riscrive.
+
+## 5h. Profilo criminale dichiarato (chat Grafica, 20/11 sera)
+Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a colpo d'occhio in classifica. Schermate mandate a Mike (regola degli schizzi, CLAUDE.md): approvato («sì mi piace»). Su `sviluppo`, anteprima `1.2-e`.
 - Dati: `meccaniche.json → mec-profilo-criminale.profileTypes` (id, name, color del diavoletto del gioco, short). Progressi: `state.crime` = id (campo facoltativo, niente migrazione).
 - `docs/js/views/criminale.js`: riquadro in Home sotto «I tuoi progressi» (4 pulsanti col diavoletto, uno acceso; ritocco = spento), `tag()` per l'etichetta in classifica e nel confronto della banda.
 - Banda: gli altri si leggono da `progressi.crime`. **Serve che Mike rilanci in Supabase la funzione `banda` di `scripts/supabase/community.sql`** (aggiunge solo la chiave `crime` dentro `progressi`: l'app online continua a funzionare). Finché non lo fa ognuno vede solo il suo.
