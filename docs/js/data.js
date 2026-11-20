@@ -39,6 +39,7 @@ export async function loadAll() {
   db.brands = raw.brands.items || [];
   db.tips = raw.tips.items || [];
   db.vehicles = raw.vehicles.items || [];
+  db.vehicleGroups = raw.vehicles.groups || [];
   db.weapons = raw.weapons.items || [];
   db.trophies = raw.trophies.items || [];
   db.roadmap = raw.trophies.roadmap || [];

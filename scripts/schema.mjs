@@ -67,8 +67,9 @@ export const schema = {
     idPrefix: 'brd-',
   },
   vehicles: {
-    envelope: { schemaVersion: 'number', items: 'array' },
-    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'super', 'sportiva', 'berlina', 'suv', 'fuoristrada', 'muscle', 'classica', 'coupe', 'moto', 'barca', 'elicottero', 'aereo', 'servizio', 'industriale', 'militare', 'furgone', 'altro'], description: 'string?', howToGet: 'string?' },
+    // groups: le sei schede del gioco (Progresso / Veicoli) con le classi e i totali; «fuori-elenco» = visti nel mondo ma non nell'elenco del gioco
+    envelope: { schemaVersion: 'number', groups: 'array', items: 'array' },
+    items: { ...common, name: 'string', manufacturer: 'string?', class: ['enum', 'coupe', 'muscle', 'fuoristrada', 'pickup', 'berlina', 'sportiva', 'supercar', 'suv', 'furgone', 'moto', 'imbarcazioni', 'velivoli', 'camion', 'servizio', 'emergenza', 'militari', 'industriali', 'trasporto', 'sp-ultra-lusso', 'sp-gara-strada', 'sp-stock-car', 'sp-moto-gara', 'sp-demolition-derby', 'sp-mudder', 'sp-donk', 'sp-lowrider', 'sp-hot-rod', 'sp-pompati', 'sp-retro', 'sp-fuoristrada', 'sp-pistoni-ardenti', 'sp-chopper', 'sp-promozionali', 'sp-scintillanti', 'sp-girlypop', 'sp-patriottici', 'sp-palude', 'sp-leonidiani', 'sp-belle-arti', 'sp-forze-ordine', 'sp-visibilita', 'sp-pedali', 'sp-nostalgia', 'fuori-elenco'], description: 'string?', howToGet: 'string?', rating: 'string?' },
     idPrefix: 'veh-',
   },
   weapons: {

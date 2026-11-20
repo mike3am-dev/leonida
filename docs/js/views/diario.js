@@ -80,7 +80,17 @@ ${Object.entries(ids).map(([k, v]) => `- ${k}: ${v.length ? v.join(', ') : 'ness
 Appunti (${notes.length}):
 \`\`\`json
 ${JSON.stringify(payload, null, 2)}
-\`\`\``;
+\`\`\`${myVehiclesPacket()}`;
+}
+
+/** Veicoli che Mike ha messo nel garage a mano perché nella guida non c'erano */
+function myVehiclesPacket() {
+  const mine = Object.values(progress.get().myVehicles || {});
+  if (!mine.length) return '';
+  return `
+
+Veicoli aggiunti a mano al garage (${mine.length}): aggiungili a docs/data/vehicles.json con la classe indicata (id della classe in groups), status "da verificare", source "gioco-mike".
+${mine.map((m) => `- «${m.name}» → classe ${m.cls}`).join('\n')}`;
 }
 
 function packetPage(notes) {

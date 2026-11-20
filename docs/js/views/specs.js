@@ -7,9 +7,9 @@ import { esc } from '../ui/dom.js';
 
 export const WEAPON_AXES = [['damage', 'Danno'], ['accuracy', 'Precisione'], ['handling', 'Maneggevolezza'], ['range', 'Gittata']];
 // Le cinque barre che il gioco mostra per i veicoli (elenchi di DayOne, 19/11)
-const VEHICLE_AXES = [['speed', 'Velocità'], ['accel', 'Accelerazione'], ['handling', 'Tenuta su strada'], ['offroad', 'Fuoristrada'], ['strength', 'Robustezza']];
-function bars(axes, values, sample) {
-  return `<div class="spec__bars ${sample ? 'is-sample' : ''}">${axes.map(([k, label], i) => { const v = Math.max(0, Math.min(10, values[i] ?? 0)); return `<div class="spec__bar"><span>${esc(label)}</span><i>${Array.from({ length: 10 }, (_, j) => `<b class="${j < v ? 'on' : ''}"></b>`).join('')}</i></div>`; }).join('')}</div>`;
+const VEHICLE_AXES = [['speed', 'Velocità'], ['accel', 'Accelerazione'], ['handling', "Manovrabilità sull'asfalto"], ['offroad', 'Manovrabilità fuoristrada'], ['strength', 'Robustezza']];
+function bars(axes, values, sample, num = false) {
+  return `<div class="spec__bars ${sample ? 'is-sample' : ''} ${num ? 'spec__bars--num' : ''}">${axes.map(([k, label], i) => { const v = Math.max(0, Math.min(10, values[i] ?? 0)); return `<div class="spec__bar"><span>${esc(label)}</span><i>${Array.from({ length: 10 }, (_, j) => `<b class="${j < v ? 'on' : ''}"></b>`).join('')}</i>${num ? `<em>${v.toFixed(1)}</em>` : ''}</div>`; }).join('')}</div>`;
 }
 
 export function specSheet(it, kind) {
@@ -23,8 +23,9 @@ export function specSheet(it, kind) {
   const filled = rows.filter(([, v]) => v !== undefined && v !== null && v !== '');
   const missing = [...(showBars && !real ? ['Barre delle statistiche'] : []), ...rows.filter(([, v]) => v === undefined || v === null || v === '').map(([k]) => k)];
   return `<section class="spec">
-    <header class="spec__head"><span>Scheda tecnica</span></header>
-    ${showBars && real ? bars(axes, values, false) : ''}
+    <header class="spec__head"><span>${kind === 'vehicle' && real ? 'Statistiche del modello base' : 'Scheda tecnica'}</span></header>
+    ${showBars && real ? bars(axes, values, false, kind === 'vehicle') : ''}
+    ${kind === 'vehicle' && it.rating ? `<p class="spec__rating"><span>Valutazione</span><b>${esc(it.rating.split('/').join(' · '))}</b></p>` : ''}
     ${filled.length ? `<dl class="spec__facts">${filled.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(String(v))}</dd>`).join('')}</dl>` : ''}
     ${missing.length ? `<p class="spec__todo">In arrivo: ${esc(missing.join(' · ').toLowerCase())}</p>` : ''}
     ${it.upgrades?.length ? `<details class="spec__up"><summary>Potenziamenti (${it.upgrades.length})</summary><table>${it.upgrades.map((u) => `<tr><td>${esc(u.name)}</td><td>${esc(u.note || '')}</td><td>${esc(u.price || '')}</td></tr>`).join('')}</table></details>` : ''}

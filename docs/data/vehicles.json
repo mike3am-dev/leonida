@@ -1,11 +1,266 @@
 {
   "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "auto",
+      "name": "Auto",
+      "classes": [
+        {
+          "id": "coupe",
+          "name": "Coupé",
+          "total": 18,
+          "note": "Auto per passeggeri, agili e compatte."
+        },
+        {
+          "id": "muscle",
+          "name": "Veicoli muscle",
+          "total": 26,
+          "note": "Veicoli rumorosi, potenti e dallo stile aggressivo."
+        },
+        {
+          "id": "fuoristrada",
+          "name": "Veicoli fuoristrada",
+          "total": 8
+        },
+        {
+          "id": "pickup",
+          "name": "Pick-up",
+          "total": 17
+        },
+        {
+          "id": "berlina",
+          "name": "Berline",
+          "total": 29
+        },
+        {
+          "id": "sportiva",
+          "name": "Auto sportive",
+          "total": 13
+        },
+        {
+          "id": "supercar",
+          "name": "Supercar",
+          "total": 9
+        },
+        {
+          "id": "suv",
+          "name": "SUV",
+          "total": 23
+        },
+        {
+          "id": "furgone",
+          "name": "Furgoni",
+          "total": 14
+        }
+      ]
+    },
+    {
+      "id": "moto",
+      "name": "Motocicli, quad e bici",
+      "classes": [
+        {
+          "id": "moto",
+          "name": "Motocicli, quad e bici",
+          "total": 29
+        }
+      ]
+    },
+    {
+      "id": "imbarcazioni",
+      "name": "Imbarcazioni",
+      "classes": [
+        {
+          "id": "imbarcazioni",
+          "name": "Imbarcazioni",
+          "total": 28
+        }
+      ]
+    },
+    {
+      "id": "velivoli",
+      "name": "Velivoli",
+      "classes": [
+        {
+          "id": "velivoli",
+          "name": "Velivoli",
+          "total": 16
+        }
+      ]
+    },
+    {
+      "id": "servizio",
+      "name": "Servizio",
+      "classes": [
+        {
+          "id": "camion",
+          "name": "Camion",
+          "total": 11
+        },
+        {
+          "id": "servizio",
+          "name": "Veicoli di servizio",
+          "total": 9
+        },
+        {
+          "id": "emergenza",
+          "name": "Veicoli d'emergenza",
+          "total": 7
+        },
+        {
+          "id": "militari",
+          "name": "Veicoli militari",
+          "total": 8
+        },
+        {
+          "id": "industriali",
+          "name": "Veicoli industriali",
+          "total": 6
+        },
+        {
+          "id": "trasporto",
+          "name": "Veicoli da trasporto",
+          "total": 6
+        }
+      ]
+    },
+    {
+      "id": "speciali",
+      "name": "Speciali",
+      "classes": [
+        {
+          "id": "sp-ultra-lusso",
+          "name": "Ultra-lusso",
+          "total": 19
+        },
+        {
+          "id": "sp-gara-strada",
+          "name": "Da gara su strada",
+          "total": 16
+        },
+        {
+          "id": "sp-stock-car",
+          "name": "Stock car",
+          "total": 7
+        },
+        {
+          "id": "sp-moto-gara",
+          "name": "Moto da gara",
+          "total": 11
+        },
+        {
+          "id": "sp-demolition-derby",
+          "name": "Demolition derby",
+          "total": 6
+        },
+        {
+          "id": "sp-mudder",
+          "name": "Mudder",
+          "total": 6
+        },
+        {
+          "id": "sp-donk",
+          "name": "Donk",
+          "total": 5
+        },
+        {
+          "id": "sp-lowrider",
+          "name": "Lowrider",
+          "total": 5
+        },
+        {
+          "id": "sp-hot-rod",
+          "name": "Hot rod",
+          "total": 10
+        },
+        {
+          "id": "sp-pompati",
+          "name": "Pompati e muscolosi",
+          "total": 13
+        },
+        {
+          "id": "sp-retro",
+          "name": "Rétro",
+          "total": 20
+        },
+        {
+          "id": "sp-fuoristrada",
+          "name": "Fuoristrada",
+          "total": 17
+        },
+        {
+          "id": "sp-pistoni-ardenti",
+          "name": "Resi famosi da pistoni ardenti",
+          "total": 8
+        },
+        {
+          "id": "sp-chopper",
+          "name": "Chopper",
+          "total": 7
+        },
+        {
+          "id": "sp-promozionali",
+          "name": "Promozionali",
+          "total": 6
+        },
+        {
+          "id": "sp-scintillanti",
+          "name": "Scintillanti",
+          "total": 15
+        },
+        {
+          "id": "sp-girlypop",
+          "name": "Girlypop",
+          "total": 16
+        },
+        {
+          "id": "sp-patriottici",
+          "name": "Patriottici",
+          "total": 12
+        },
+        {
+          "id": "sp-palude",
+          "name": "Stile da palude",
+          "total": 10
+        },
+        {
+          "id": "sp-leonidiani",
+          "name": "Per veri leonidiani",
+          "total": 30
+        },
+        {
+          "id": "sp-belle-arti",
+          "name": "Belle arti",
+          "total": 17
+        },
+        {
+          "id": "sp-forze-ordine",
+          "name": "Forze dell'ordine",
+          "total": 5
+        },
+        {
+          "id": "sp-visibilita",
+          "name": "A caccia di visibilità",
+          "total": 8
+        },
+        {
+          "id": "sp-pedali",
+          "name": "Potenza nei pedali",
+          "total": 6
+        },
+        {
+          "id": "sp-nostalgia",
+          "name": "Nostalgia",
+          "total": 5
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "id": "veh-grotti-cheetah-95",
       "name": "'95 Grotti Cheetah",
       "manufacturer": "Grotti",
-      "class": "super",
+      "class": "supercar",
       "description": "La supercar del 1995 dell'Ultimate Edition: linee da anni Novanta e un nome storico della serie.",
       "howToGet": "Ultimate Edition.",
       "image": "assets/img/veh-grotti-cheetah.jpg",
@@ -30,7 +285,8 @@
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Vehicles",
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "rating": "350/633"
     },
     {
       "id": "veh-vapid-dominator-buggy-67",
@@ -61,13 +317,14 @@
       },
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "rating": "672/493"
     },
     {
       "id": "veh-vapid-stanier-55",
       "name": "'55 Vapid Stanier",
       "manufacturer": "Vapid",
-      "class": "berlina",
+      "class": "muscle",
       "description": "Berlina del 1955 con garage, il pezzo forte del Vintage Vice City Pack: un ritorno all'epoca in cui il neon bruciava più forte. Il garage è Shore Court, vicino a Ocean Beach.",
       "howToGet": "Vintage Vice City Pack: per chi acquista entro il 19 novembre 2026.",
       "image": "assets/img/veh-vapid-stanier.jpg",
@@ -87,13 +344,14 @@
       },
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "rating": "219/361"
     },
     {
       "id": "veh-shitzu-squalo",
       "name": "Shitzu Typhoon Squalo",
       "manufacturer": "Shitzu",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo dell'Ultimate Edition.",
       "howToGet": "Ultimate Edition.",
       "image": "assets/img/veicoli/veh-shitzu-squalo.png",
@@ -142,13 +400,14 @@
         "handling": 5.2,
         "offroad": 7.6,
         "strength": 4.0
-      }
+      },
+      "rating": "706/519"
     },
     {
       "id": "veh-crest-kayak",
       "name": "Crest Kayak",
       "manufacturer": "Crest",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Kayak dell'Ultimate Edition, nel rifugio di Jason.",
       "howToGet": "Ultimate Edition, nel rifugio di Jason.",
       "image": "assets/img/veicoli/veh-crest-kayak.jpg",
@@ -173,7 +432,7 @@
       "id": "veh-ganado-retro-build",
       "name": "Ganado Retro Build",
       "manufacturer": "Ganado",
-      "class": "altro",
+      "class": "fuori-elenco",
       "description": "Non è un veicolo a parte: è il kit di preparazione «Retro Build: Ultimate Edition» per il '70 Vapid Ganado di Jason. Oltre all'aspetto migliora un po' velocità e accelerazione.",
       "howToGet": "Ultimate Edition, solo nel capitolo 1: porta il Ganado da Coastal Auto Care a Key Lento (l'officina dove ti manda Joey a inizio capitolo), riparalo e riverniscilo, poi scegli Pro Builds › Full Kits › Retro Build: Ultimate Edition.",
       "image": "assets/img/veicoli/veh-ganado-retro-build.jpg",
@@ -194,7 +453,7 @@
       "id": "veh-classic-collection",
       "name": "Classic Car Collection",
       "manufacturer": null,
-      "class": "classica",
+      "class": "fuori-elenco",
       "description": "Le classiche che Wyman ricostruisce: '67 Transgressor, '70 Riata, '64 Mamba GT, Reynolds Kit Car e '72 Deviant.",
       "howToGet": "Ultimate Edition: le missioni di Wyman si aprono dopo aver recuperato la Dominator Buggy del '67 (Mappa › Esplorazione › icona viola «W»). Contano come compiti facoltativi per il 100%.",
       "image": "assets/img/veicoli/veh-classic-collection.jpg",
@@ -237,13 +496,14 @@
         "handling": 7.9,
         "offroad": 2.3,
         "strength": 4.0
-      }
+      },
+      "rating": "120/771"
     },
     {
       "id": "veh-annis-elegy-90",
       "name": "'90 Annis Elegy",
       "manufacturer": "Annis",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "La sportiva modificata di Yago, pilota di corse clandestine.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-annis-elegy-90.png",
@@ -266,13 +526,14 @@
         "offroad": 3.9,
         "strength": 3.0
       },
-      "price": "Registrazione 14.250 $ · venduta rende circa 4.235 $"
+      "price": "Registrazione 14.250 $ · venduta rende circa 4.235 $",
+      "rating": "285/568"
     },
     {
       "id": "veh-progen-emerus",
       "name": "Progen Emerus",
       "manufacturer": "Progen",
-      "class": "super",
+      "class": "supercar",
       "description": "Supercar.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide dei veicoli.",
       "image": "assets/img/veicoli/veh-progen-emerus.jpg",
@@ -295,7 +556,8 @@
         "handling": 8.4,
         "offroad": 3.4,
         "strength": 3.0
-      }
+      },
+      "rating": "210/837"
     },
     {
       "id": "veh-grotti-bestia-gts",
@@ -343,7 +605,8 @@
         "handling": 5.9,
         "offroad": 3.9,
         "strength": 3.0
-      }
+      },
+      "rating": "357/683"
     },
     {
       "id": "veh-vysser-neo",
@@ -366,7 +629,7 @@
       "id": "veh-maibatsu-penumbra-ff",
       "name": "'97 Maibatsu Penumbra FF",
       "manufacturer": "Maibatsu",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "Coupé sportiva anni Novanta.",
       "howToGet": "Si ruba in strada; la versione di Fast & Furious sta in un garage fisso e si prende già dal capitolo 1.",
       "image": "assets/img/veicoli/veh-maibatsu-penumbra-ff.jpg",
@@ -402,7 +665,8 @@
           "source": "stampa",
           "text": "Nel bagagliaio della stessa auto c'è un altro omaggio: aprendolo ti salta addosso un serpente, la battuta di Toy Story sul serpente nello stivale (in inglese «boot» è anche il bagagliaio)."
         }
-      ]
+      ],
+      "rating": "314/504"
     },
     {
       "id": "veh-declasse-stallion",
@@ -431,13 +695,14 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 10.650 $ · venduta rende circa 3.190 $"
+      "price": "Registrazione 10.650 $ · venduta rende circa 3.190 $",
+      "rating": "323/492"
     },
     {
       "id": "veh-vapid-hustler",
       "name": "'32 Vapid Hustler",
       "manufacturer": "Vapid",
-      "class": "muscle",
+      "class": "coupe",
       "description": "Hot rod anni Trenta.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-hustler.jpg",
@@ -462,13 +727,14 @@
         "offroad": 3.0,
         "strength": 3.0
       },
-      "price": "Registrazione 21.900 $ · venduta rende circa 6.545 $"
+      "price": "Registrazione 21.900 $ · venduta rende circa 6.545 $",
+      "rating": "158/308"
     },
     {
       "id": "veh-willard-faction-donk",
       "name": "Willard Faction Custom Donk",
       "manufacturer": "Willard",
-      "class": "muscle",
+      "class": "sp-donk",
       "description": "La «donk» con le ruote enormi, un'icona della Florida.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-willard-faction-donk.jpg",
@@ -485,7 +751,7 @@
       "id": "veh-mercury-comet",
       "name": "'88 Pfister Comet",
       "manufacturer": "Pfister",
-      "class": "coupe",
+      "class": "sportiva",
       "description": "La Comet anni Ottanta, sportiva dal profilo arrotondato: spesso ha un localizzatore avanzato.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-mercury-comet.jpg",
@@ -514,7 +780,8 @@
           "source": "stampa",
           "text": "Le barre di IGN e DayOne coincidono tranne la robustezza: 3,9 per IGN (quella mostrata), 3,7 per DayOne."
         }
-      ]
+      ],
+      "rating": "279/640"
     },
     {
       "id": "veh-buckingham-windsor-drop",
@@ -543,7 +810,8 @@
         "handling": 4.7,
         "offroad": 4.3,
         "strength": 3.0
-      }
+      },
+      "rating": "366/590"
     },
     {
       "id": "veh-ubermacht-rebla-gts",
@@ -570,7 +838,8 @@
       },
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "rating": "404/510"
     },
     {
       "id": "veh-canis-terminus",
@@ -593,7 +862,7 @@
       "id": "veh-mammoth-patriot-milspec",
       "name": "Mammoth Patriot Mil-Spec",
       "manufacturer": "Mammoth",
-      "class": "militare",
+      "class": "militari",
       "description": "Fuoristrada militare.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-mammoth-patriot-milspec.jpg",
@@ -637,7 +906,8 @@
         "offroad": 7.3,
         "strength": 3.0
       },
-      "price": "Registrazione 4.650 $ · venduta rende circa 1.430 $"
+      "price": "Registrazione 4.650 $ · venduta rende circa 1.430 $",
+      "rating": "676/505"
     },
     {
       "id": "veh-polaris-ranger",
@@ -666,7 +936,8 @@
         "handling": 2.5,
         "offroad": 6.5,
         "strength": 3.5
-      }
+      },
+      "rating": "516/283"
     },
     {
       "id": "veh-western-cliffhanger",
@@ -709,7 +980,7 @@
       "id": "veh-declasse-granger-police",
       "name": "Declasse Granger (Polizia)",
       "manufacturer": "Declasse",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Il SUV della polizia. Esiste anche in versione taxi.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-granger-police.jpg",
@@ -728,7 +999,7 @@
       "id": "veh-mtl-wastelander",
       "name": "HVY Wastelander",
       "manufacturer": "HVY",
-      "class": "servizio",
+      "class": "fuoristrada",
       "description": "Camion pesante.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-mtl-wastelander.jpg",
@@ -749,7 +1020,8 @@
         "handling": 2.6,
         "offroad": 7.0,
         "strength": 3.5
-      }
+      },
+      "rating": "535/328"
     },
     {
       "id": "veh-rexhall-rose-air",
@@ -772,7 +1044,7 @@
       "id": "veh-stanley-fieldmaster",
       "name": "'99 Jack Sheepe Fieldmaster",
       "manufacturer": "Jack Sheepe",
-      "class": "industriale",
+      "class": "industriali",
       "description": "Il trattore, per i tanti campi di Ambrosia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-stanley-fieldmaster.jpg",
@@ -789,7 +1061,7 @@
       "id": "veh-rhino-tank",
       "name": "Hauners Rhino Tank",
       "manufacturer": "Hauners",
-      "class": "militare",
+      "class": "militari",
       "description": "Il carro armato, custodito in una base militare.",
       "howToGet": "Si ruba alla base militare. Dopo la storia si evoca anche con un trucco, che si sblocca completando tutte le sfide di sopravvivenza.",
       "image": "assets/img/veicoli/veh-rhino-tank.jpg",
@@ -813,7 +1085,7 @@
       "id": "veh-buckingham-valkyrie",
       "name": "Buckingham Valkyrie",
       "manufacturer": "Buckingham",
-      "class": "elicottero",
+      "class": "militari",
       "description": "Elicottero militare. Gli elicotteri sono al centro dell'azione: in una scena uno esplode.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-buckingham-valkyrie.jpg",
@@ -830,7 +1102,7 @@
       "id": "veh-buckingham-luxor",
       "name": "Buckingham Luxor",
       "manufacturer": "Buckingham",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Jet privato.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-buckingham-luxor.jpg",
@@ -847,7 +1119,7 @@
       "id": "veh-airboat",
       "name": "Airgator Airboat 09",
       "manufacturer": "Airgator Airboats",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "La barca a elica delle paludi, immagine simbolo di Grassrivers: il modo migliore per muoversi tra le zone umide.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di sopravvivenza.",
       "image": "assets/img/veicoli/veh-airboat.png",
@@ -868,7 +1140,7 @@
       "id": "veh-water-taxi",
       "name": "Taxi acquatico",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Il taxi acquatico.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-water-taxi.jpg",
@@ -885,7 +1157,7 @@
       "id": "veh-nagasaki-caddy",
       "name": "Maibatsu Caddy",
       "manufacturer": "Maibatsu",
-      "class": "altro",
+      "class": "servizio",
       "description": "Il golf cart, da usare sui campi come il Leaf Links.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-nagasaki-caddy.jpg",
@@ -905,7 +1177,7 @@
       "id": "veh-scooter-elettrico",
       "name": "Monopattino elettrico",
       "manufacturer": "ZOOT",
-      "class": "altro",
+      "class": "fuori-elenco",
       "description": "Monopattino elettrico. L'app Scooter Bros, invece, serve a recuperare a pagamento un veicolo distrutto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-scooter-elettrico.jpg",
@@ -980,7 +1252,8 @@
         "handling": 5.8,
         "offroad": 3.8,
         "strength": 3.0
-      }
+      },
+      "rating": "279/611"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-blista-compact.jpg",
@@ -992,7 +1265,7 @@
       "id": "veh-dinka-blista-compact",
       "name": "'85 Dinka Blista",
       "manufacturer": "Dinka",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "La piccola alla Honda CR-X.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1012,7 +1285,8 @@
         "offroad": 4.2,
         "strength": 3.0
       },
-      "price": "Registrazione 2.750 $ · venduta rende circa 825 $"
+      "price": "Registrazione 2.750 $ · venduta rende circa 825 $",
+      "rating": "291/437"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo.png",
@@ -1024,7 +1298,7 @@
       "id": "veh-bravado-buffalo",
       "name": "'07 Bravado Buffalo",
       "manufacturer": "Bravado",
-      "class": "sportiva",
+      "class": "berlina",
       "description": "Ispirata alla Dodge Charger.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1045,7 +1319,8 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 8.000 $ · venduta rende circa 2.365 $"
+      "price": "Registrazione 8.000 $ · venduta rende circa 2.365 $",
+      "rating": "330/497"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-carbonizzare.png",
@@ -1076,7 +1351,8 @@
         "handling": 6.0,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "rating": "236/657"
     },
     {
       "image": "assets/img/veicoli/veh-pfister-comet-retro-custom.png",
@@ -1113,7 +1389,15 @@
       "imageCredit": "gta.wiki / Rockstar Games",
       "realModel": "Porsche 911 Carrera Cabriolet",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "rating": "240/780",
+      "stats": {
+        "speed": 7.7,
+        "accel": 8.0,
+        "handling": 7.6,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette.png",
@@ -1144,7 +1428,8 @@
         "handling": 5.5,
         "offroad": 3.9,
         "strength": 3.0
-      }
+      },
+      "rating": "272/621"
     },
     {
       "image": "assets/img/veicoli/veh-invetero-coquette-d10.png",
@@ -1177,7 +1462,8 @@
         "offroad": 3.6,
         "strength": 3.0
       },
-      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto, segnalato da una sola guida (Radio Times): accanto a un container rosso sui moli occidentali di Waxman Island."
+      "whereToFind": "Nella lista dei desideri di Randy (dal capitolo 3). Un posto, segnalato da una sola guida (Radio Times): accanto a un container rosso sui moli occidentali di Waxman Island.",
+      "rating": "238/707"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-cypher.png",
@@ -1189,7 +1475,7 @@
       "id": "veh-bermacht-cypher",
       "name": "Übermacht Cypher",
       "manufacturer": "Übermacht",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "Ispirata alla BMW M2.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1208,7 +1494,8 @@
         "handling": 4.9,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "369/622"
     },
     {
       "image": "assets/img/veicoli/veh-karin-futo.png",
@@ -1220,7 +1507,7 @@
       "id": "veh-karin-futo",
       "name": "'85 Karin Futo",
       "manufacturer": "Karin",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "La Toyota AE86 della serie.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1239,7 +1526,8 @@
         "offroad": 4.2,
         "strength": 3.0
       },
-      "price": "Registrazione 4.750 $ · venduta rende circa 1.430 $"
+      "price": "Registrazione 4.750 $ · venduta rende circa 1.430 $",
+      "rating": "287/412"
     },
     {
       "image": "assets/img/veicoli/veh-pfister-growler.png",
@@ -1275,7 +1563,7 @@
       "id": "veh-grotti-itali-gto",
       "name": "Grotti Itali GTO",
       "manufacturer": "Grotti",
-      "class": "sportiva",
+      "class": "supercar",
       "description": "Ispirata alla Ferrari 812 Superfast.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1292,7 +1580,7 @@
       "id": "veh-grotti-itali-rsx",
       "name": "Grotti Itali RSX",
       "manufacturer": "Grotti",
-      "class": "sportiva",
+      "class": "supercar",
       "description": "Ispirata alla Ferrari SF90; compare in una corsa su strada.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1312,7 +1600,8 @@
         "handling": 7.0,
         "offroad": 3.8,
         "strength": 3.0
-      }
+      },
+      "rating": "270/762"
     },
     {
       "image": "assets/img/veicoli/veh-ocelot-jugular.png",
@@ -1324,7 +1613,7 @@
       "id": "veh-ocelot-jugular",
       "name": "Ocelot Jugular",
       "manufacturer": "Ocelot",
-      "class": "sportiva",
+      "class": "berlina",
       "description": "Berlina sportiva di lusso Ocelot, ispirata alla Jaguar XE Project 8.",
       "howToGet": "Si ruba: è tra le auto che vuole Randy.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1347,7 +1636,8 @@
         "handling": 5.8,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "394/661"
     },
     {
       "image": "assets/img/veicoli/veh-obey-omnis-e-gt.jpg",
@@ -1376,7 +1666,7 @@
       "id": "veh-enus-paragon-r",
       "name": "Ascot Paragon",
       "manufacturer": "Ascot",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "Ispirata alla Bentley Continental GT.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1398,7 +1688,8 @@
         "handling": 5.8,
         "offroad": 3.9,
         "strength": 3.0
-      }
+      },
+      "rating": "316/650"
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-penumbra.png",
@@ -1410,7 +1701,7 @@
       "id": "veh-maibatsu-penumbra",
       "name": "Maibatsu Penumbra",
       "manufacturer": "Maibatsu",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "A metà tra la Eclipse e l'Audi TT.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1426,7 +1717,8 @@
         "handling": 4.2,
         "offroad": 4.3,
         "strength": 3.0
-      }
+      },
+      "rating": "331/512"
     },
     {
       "image": "assets/img/veicoli/veh-coil-raiden.jpg",
@@ -1438,7 +1730,7 @@
       "id": "veh-coil-raiden",
       "name": "Coil Raiden",
       "manufacturer": "Coil",
-      "class": "sportiva",
+      "class": "berlina",
       "description": "Elettrica, ispirata alla Tesla Model S.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1454,7 +1746,8 @@
         "handling": 4.7,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "445/636"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-sugoi.png",
@@ -1466,7 +1759,7 @@
       "id": "veh-dinka-sugoi",
       "name": "Dinka Sugoi",
       "manufacturer": "Dinka",
-      "class": "sportiva",
+      "class": "berlina",
       "description": "Ispirata alla Civic Type R.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1485,7 +1778,8 @@
         "handling": 4.3,
         "offroad": 4.3,
         "strength": 3.0
-      }
+      },
+      "rating": "317/511"
     },
     {
       "image": "assets/img/veicoli/veh-karin-sultan.png",
@@ -1509,7 +1803,8 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Sultan"
-      ]
+      ],
+      "rating": "352/528"
     },
     {
       "image": "assets/img/veicoli/veh-albany-v-str.png",
@@ -1521,7 +1816,7 @@
       "id": "veh-albany-v-str",
       "name": "Albany V-STR",
       "manufacturer": "Albany",
-      "class": "sportiva",
+      "class": "berlina",
       "description": "Ispirata alla Cadillac CTS-V.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1540,7 +1835,8 @@
         "handling": 4.5,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "373/616"
     },
     {
       "image": "assets/img/veicoli/veh-emperor-vectre.png",
@@ -1552,7 +1848,7 @@
       "id": "veh-emperor-vectre",
       "name": "Emperor Vectre",
       "manufacturer": "Emperor",
-      "class": "sportiva",
+      "class": "coupe",
       "description": "Ispirata alla Lexus RC F.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1571,7 +1867,8 @@
         "handling": 5.1,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "345/579"
     },
     {
       "image": "assets/img/veicoli/veh-albany-alpha.jpg",
@@ -1636,7 +1933,8 @@
         "handling": 4.2,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "321/510"
     },
     {
       "image": "assets/img/veicoli/veh-grotti-furia.png",
@@ -1648,7 +1946,7 @@
       "id": "veh-grotti-furia",
       "name": "Piccia Furia",
       "manufacturer": "Piccia",
-      "class": "super",
+      "class": "supercar",
       "description": "Un mix tra 488 Pista e SF90.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1670,7 +1968,8 @@
         "handling": 7.3,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "rating": "239/781"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-tempesta.png",
@@ -1682,7 +1981,7 @@
       "id": "veh-pegassi-tempesta",
       "name": "Pegassi Tempesta",
       "manufacturer": "Pegassi",
-      "class": "super",
+      "class": "supercar",
       "description": "A metà tra Huracán e Centenario. Esiste anche la versione della polizia di Vice Beach, con «Emergency call 911» sulla fiancata.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1703,7 +2002,8 @@
         "handling": 6.9,
         "offroad": 3.8,
         "strength": 3.0
-      }
+      },
+      "rating": "284/748"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-zorrusso.png",
@@ -1715,7 +2015,7 @@
       "id": "veh-pegassi-zorrusso",
       "name": "GranForma Zorrusso",
       "manufacturer": "GranForma",
-      "class": "super",
+      "class": "supercar",
       "description": "Ispirata alla Italdesign Zerouno.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1735,7 +2035,8 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://www.radiotimes.com/technology/gaming/gta-6-randys-wishlist-cars/"
-      ]
+      ],
+      "rating": "301/749"
     },
     {
       "image": "assets/img/veicoli/veh-truffade-thrax.jpg",
@@ -1747,7 +2048,7 @@
       "id": "veh-truffade-thrax",
       "name": "Truffade Thrax",
       "manufacturer": "Truffade",
-      "class": "super",
+      "class": "supercar",
       "description": "Ispirata alla Bugatti Divo. È la hypercar verde lime del trailer di lancio.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide di shopping.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1792,7 +2093,8 @@
         "offroad": 3.9,
         "strength": 3.0
       },
-      "price": "Registrazione 9.400 $ · venduta rende circa 2.805 $"
+      "price": "Registrazione 9.400 $ · venduta rende circa 2.805 $",
+      "rating": "242/384"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-buffalo-stx.png",
@@ -1841,7 +2143,8 @@
         "offroad": 4.0,
         "strength": 3.0
       },
-      "price": "Registrazione 17.750 $ · venduta rende circa 5.335 $"
+      "price": "Registrazione 17.750 $ · venduta rende circa 5.335 $",
+      "rating": "265/384"
     },
     {
       "image": "assets/img/veicoli/veh-schyster-deviant.jpg",
@@ -1890,7 +2193,8 @@
         "handling": 4.4,
         "offroad": 3.9,
         "strength": 3.0
-      }
+      },
+      "rating": "275/537"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-gauntlet-classic.png",
@@ -1919,7 +2223,7 @@
       "id": "veh-declasse-impaler-80",
       "name": "'80 Declasse Impaler",
       "manufacturer": "Declasse",
-      "class": "muscle",
+      "class": "berlina",
       "description": "La Impala anni Ottanta; esiste anche la SZ, ispirata a quella del 1994-96.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -1937,7 +2241,8 @@
         "offroad": 3.6,
         "strength": 3.0
       },
-      "price": "Registrazione 3.500 $ · venduta rende circa 1.045 $"
+      "price": "Registrazione 3.500 $ · venduta rende circa 1.045 $",
+      "rating": "334/388"
     },
     {
       "image": "assets/img/veicoli/veh-imponte-phoenix.png",
@@ -1970,7 +2275,8 @@
         "offroad": 4.3,
         "strength": 3.0
       },
-      "price": "Registrazione 11.900 $ · venduta rende circa 3.575 $"
+      "price": "Registrazione 11.900 $ · venduta rende circa 3.575 $",
+      "rating": "294/417"
     },
     {
       "image": "assets/img/veicoli/veh-imponte-ruiner.png",
@@ -1982,7 +2288,7 @@
       "id": "veh-imponte-ruiner",
       "name": "'82 Imponte Ruiner",
       "manufacturer": "Imponte",
-      "class": "muscle",
+      "class": "coupe",
       "description": "La Trans Am.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2002,7 +2308,8 @@
         "offroad": 4.1,
         "strength": 3.0
       },
-      "price": "Registrazione 6.400 $ · venduta rende circa 1.925 $"
+      "price": "Registrazione 6.400 $ · venduta rende circa 1.925 $",
+      "rating": "280/431"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-sabre-turbo.jpg",
@@ -2083,7 +2390,8 @@
         "offroad": 3.9,
         "strength": 3.0
       },
-      "price": "Registrazione 9.400 $ · venduta rende circa 2.805 $"
+      "price": "Registrazione 9.400 $ · venduta rende circa 2.805 $",
+      "rating": "250/439"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vamos.jpg",
@@ -2124,7 +2432,8 @@
         "handling": 3.3,
         "offroad": 3.7,
         "strength": 3.0
-      }
+      },
+      "rating": "233/385"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-vigero-zx-convertible.png",
@@ -2186,7 +2495,8 @@
           "source": "stampa",
           "text": "Il kit Retro Build dell'Ultimate Edition si monta solo nel capitolo 1, da Coastal Auto Care a Key Lento (Pro Builds › Full Kits)."
         }
-      ]
+      ],
+      "rating": "330/458"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-infernus-classic.png",
@@ -2198,7 +2508,7 @@
       "id": "veh-pegassi-infernus-classic",
       "name": "'96 Pegassi Infernus",
       "manufacturer": "Pegassi",
-      "class": "classica",
+      "class": "supercar",
       "description": "La Lamborghini Diablo; ne corre una gialla nelle gare notturne.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2227,7 +2537,8 @@
         "offroad": 4.3,
         "strength": 3.0
       },
-      "price": "Registrazione 34.750 $ · venduta rende circa 17.160 $"
+      "price": "Registrazione 34.750 $ · venduta rende circa 17.160 $",
+      "rating": "328/698"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-mamba-gt.jpg",
@@ -2239,7 +2550,7 @@
       "id": "veh-declasse-mamba-gt",
       "name": "'64 Declasse Mamba GT",
       "manufacturer": "Declasse",
-      "class": "classica",
+      "class": "sportiva",
       "description": "Ispirata alla Shelby Daytona Coupe.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2264,7 +2575,8 @@
           "source": "stampa",
           "text": "Più avanti Randy aggiunge alla sua lista dei desideri anche una Mamba GT: è dietro una villa di Leaf Links, a Vice Beach. Serve la chiave, in una ciotola sul tavolo dietro al divano dell'ingresso: per entrare in casa usa lo Snap Gun. Ha un localizzatore, quindi guida veloce (Push Square, Radio Times)."
         }
-      ]
+      ],
+      "rating": "199/683"
     },
     {
       "image": "assets/img/veicoli/veh-albany-manana.jpg",
@@ -2276,7 +2588,7 @@
       "id": "veh-albany-manana",
       "name": "'77 Albany Manana",
       "manufacturer": "Albany",
-      "class": "classica",
+      "class": "muscle",
       "description": "A metà tra la LeSabre e la Eldorado.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2297,7 +2609,8 @@
         "offroad": 3.2,
         "strength": 3.0
       },
-      "price": "Registrazione 4.900 $ · venduta rende circa 1.430 $"
+      "price": "Registrazione 4.900 $ · venduta rende circa 1.430 $",
+      "rating": "190/364"
     },
     {
       "image": "assets/img/veicoli/veh-bermacht-sentinel-classic.png",
@@ -2309,7 +2622,7 @@
       "id": "veh-bermacht-sentinel-classic",
       "name": "'85 Übermacht Sentinel",
       "manufacturer": "Übermacht",
-      "class": "classica",
+      "class": "sportiva",
       "description": "La cabrio rossa alla BMW E30 M3 guidata da Jason.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2328,7 +2641,8 @@
         "offroad": 3.7,
         "strength": 3.7
       },
-      "price": "Registrazione 6.000 $ · venduta rende circa 1.760 $"
+      "price": "Registrazione 6.000 $ · venduta rende circa 1.760 $",
+      "rating": "256/460"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-tornado.jpg",
@@ -2340,7 +2654,7 @@
       "id": "veh-declasse-tornado",
       "name": "Declasse Tornado",
       "manufacturer": "Declasse",
-      "class": "classica",
+      "class": "berlina",
       "description": "La Bel Air.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2426,7 +2740,8 @@
         "offroad": 4.2,
         "strength": 3.0
       },
-      "price": "Registrazione 1.650 $ · venduta rende circa 495 $"
+      "price": "Registrazione 1.650 $ · venduta rende circa 495 $",
+      "rating": "291/412"
     },
     {
       "image": "assets/img/veicoli/veh-albany-emperor.png",
@@ -2458,7 +2773,8 @@
         "offroad": 3.3,
         "strength": 3.0
       },
-      "price": "Registrazione 5.650 $ · venduta rende circa 1.705 $"
+      "price": "Registrazione 5.650 $ · venduta rende circa 1.705 $",
+      "rating": "191/305"
     },
     {
       "image": "assets/img/veicoli/veh-karin-feroci.jpg",
@@ -2491,7 +2807,8 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 3.150 $ · venduta rende circa 935 $"
+      "price": "Registrazione 3.150 $ · venduta rende circa 935 $",
+      "rating": "336/487"
     },
     {
       "image": "assets/img/veicoli/veh-karin-intruder.png",
@@ -2539,7 +2856,8 @@
         "handling": 4.5,
         "offroad": 4.4,
         "strength": 3.0
-      }
+      },
+      "rating": "318/508"
     },
     {
       "image": "assets/img/veicoli/veh-schyster-pmp-700.png",
@@ -2567,7 +2885,8 @@
         "handling": 4.3,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "353/551"
     },
     {
       "image": "assets/img/veicoli/veh-albany-primo.png",
@@ -2595,7 +2914,8 @@
         "handling": 3.0,
         "offroad": 4.1,
         "strength": 3.0
-      }
+      },
+      "rating": "266/372"
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-schafter-v12.png",
@@ -2607,7 +2927,7 @@
       "id": "veh-benefactor-schafter-v12",
       "name": "Benefactor Schafter V12",
       "manufacturer": "Benefactor",
-      "class": "berlina",
+      "class": "sportiva",
       "description": "L'auto dell'inseguimento di Lucia.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -2627,7 +2947,8 @@
         "handling": 4.5,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "376/571"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-stanier.jpg",
@@ -2657,7 +2978,8 @@
         "offroad": 4.2,
         "strength": 3.0
       },
-      "price": "Registrazione 3.400 $ · venduta rende circa 1.045 $"
+      "price": "Registrazione 3.400 $ · venduta rende circa 1.045 $",
+      "rating": "264/438"
     },
     {
       "image": "assets/img/veicoli/veh-zirconium-stratum.png",
@@ -2792,7 +3114,8 @@
         "offroad": 4.8,
         "strength": 3.0
       },
-      "price": "Registrazione 8.150 $ · venduta rende circa 2.420 $"
+      "price": "Registrazione 8.150 $ · venduta rende circa 2.420 $",
+      "rating": "367/467"
     },
     {
       "image": "assets/img/veicoli/veh-pfister-astron.png",
@@ -2825,7 +3148,8 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 15.500 $ · venduta rende circa 4.620 $"
+      "price": "Registrazione 15.500 $ · venduta rende circa 4.620 $",
+      "rating": "352/576"
     },
     {
       "image": "assets/img/veicoli/veh-gallivanter-baller-ii.png",
@@ -2856,7 +3180,8 @@
         "handling": 4.4,
         "offroad": 5.0,
         "strength": 3.0
-      }
+      },
+      "rating": "423/533"
     },
     {
       "image": "assets/img/veicoli/veh-albany-cavalcade-xl.jpg",
@@ -2884,7 +3209,8 @@
         "handling": 4.2,
         "offroad": 5.0,
         "strength": 3.0
-      }
+      },
+      "rating": "409/503"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-contender.png",
@@ -2896,7 +3222,7 @@
       "id": "veh-vapid-contender",
       "name": "Karin Contender",
       "manufacturer": "Karin",
-      "class": "suv",
+      "class": "pickup",
       "description": "Pick-up a quattro porte ispirato al Toyota Tundra Devolro Diablo, con richiami al Ford Raptor e all'F-150. Nel gioco lo produce Karin.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/contender",
@@ -2914,7 +3240,8 @@
       },
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/"
-      ]
+      ],
+      "rating": "631/456"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-dorado.png",
@@ -2945,7 +3272,8 @@
         "handling": 3.1,
         "offroad": 6.7,
         "strength": 3.0
-      }
+      },
+      "rating": "528/348"
     },
     {
       "image": "assets/img/veicoli/veh-benefactor-dubsta.png",
@@ -2977,7 +3305,8 @@
         "handling": 3.9,
         "offroad": 5.0,
         "strength": 3.0
-      }
+      },
+      "rating": "398/479"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-granger.png",
@@ -3005,7 +3334,8 @@
         "handling": 3.7,
         "offroad": 4.2,
         "strength": 3.0
-      }
+      },
+      "rating": "289/388"
     },
     {
       "image": "assets/img/veicoli/veh-buckingham-jubilee.png",
@@ -3037,7 +3367,8 @@
         "handling": 4.4,
         "offroad": 5.1,
         "strength": 3.0
-      }
+      },
+      "rating": "440/538"
     },
     {
       "image": "assets/img/veicoli/veh-dundreary-landstalker-xl.png",
@@ -3061,7 +3392,8 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Landstalker_XL"
-      ]
+      ],
+      "rating": "384/458"
     },
     {
       "image": "assets/img/veicoli/veh-canis-mesa.png",
@@ -3092,7 +3424,8 @@
         "handling": 3.2,
         "offroad": 6.7,
         "strength": 3.0
-      }
+      },
+      "rating": "623/441"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-montagne.jpg",
@@ -3120,7 +3453,8 @@
         "handling": 4.0,
         "offroad": 4.8,
         "strength": 3.0
-      }
+      },
+      "rating": "351/433"
     },
     {
       "image": "assets/img/veicoli/veh-lampadati-novak.jpg",
@@ -3149,13 +3483,21 @@
       "id": "veh-vapid-riata-classic",
       "name": "Vapid Riata Classic",
       "manufacturer": "Vapid",
-      "class": "suv",
+      "class": "pickup",
       "description": "Il Bronco di prima generazione; è una commissione di Wyman nell'Ultimate Edition.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
       "imageUrl": "https://www.gtabase.com/igallery/gta-6-screens/ultimateedition-wyman-car-collection-03-468.jpg",
       "imageCredit": "Rockstar Games (screenshot ufficiale Ultimate Edition) via gtabase.com",
-      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('70 Riata)."
+      "whereToFind": "Ultimate Edition: è una delle classiche che ricostruisci con Wyman ('70 Riata).",
+      "rating": "631/474",
+      "stats": {
+        "speed": 4.4,
+        "accel": 5.7,
+        "handling": 3.8,
+        "offroad": 6.6,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-canis-seminole-frontier.jpg",
@@ -3205,7 +3547,8 @@
         "handling": 4.6,
         "offroad": 5.1,
         "strength": 3.0
-      }
+      },
+      "rating": "472/594"
     },
     {
       "image": "assets/img/veicoli/veh-karin-vivanite.jpg",
@@ -3217,7 +3560,7 @@
       "id": "veh-karin-vivanite",
       "name": "Karin Vivanite",
       "manufacturer": "Karin",
-      "class": "suv",
+      "class": "furgone",
       "description": "Monovolume ispirato alla Sienna.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3250,7 +3593,8 @@
         "handling": 4.2,
         "offroad": 4.8,
         "strength": 3.0
-      }
+      },
+      "rating": "376/474"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-bison-900-95-monster-truck.png",
@@ -3262,7 +3606,7 @@
       "id": "veh-bravado-bison-900-95-monster-truck",
       "name": "Bravado Bison 900 '95 Monster Truck",
       "manufacturer": "Bravado",
-      "class": "fuoristrada",
+      "class": "sp-mudder",
       "description": "Il monster truck su base Ram.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3282,7 +3626,7 @@
       "id": "veh-nagasaki-blazer",
       "name": "Nagasaki Street Blazer",
       "manufacturer": "Nagasaki",
-      "class": "fuoristrada",
+      "class": "moto",
       "description": "Il quad leggero, agile e bravo a saltare; si vede nella clip Dirt-Bike Dirt-Bags.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3300,7 +3644,8 @@
       },
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/"
-      ]
+      ],
+      "rating": "663/414"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-caracara.png",
@@ -3312,7 +3657,7 @@
       "id": "veh-vapid-caracara",
       "name": "Vapid Caracara",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Pick-up 6x6 ispirato all'F-150; la versione 4x4 esiste anche con la livrea dei bagnini.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3329,7 +3674,7 @@
       "id": "veh-annis-hellion",
       "name": "'95 Annis Hellion",
       "manufacturer": "Annis",
-      "class": "fuoristrada",
+      "class": "suv",
       "description": "Ispirato alla Nissan Patrol.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3350,7 +3695,8 @@
         "offroad": 6.7,
         "strength": 3.0
       },
-      "price": "Registrazione 4.400 $ · venduta rende circa 1.320 $"
+      "price": "Registrazione 4.400 $ · venduta rende circa 1.320 $",
+      "rating": "506/326"
     },
     {
       "image": "assets/img/veicoli/veh-canis-kamacho.jpg",
@@ -3362,7 +3708,7 @@
       "id": "veh-canis-kamacho",
       "name": "Canis Kamacho",
       "manufacturer": "Canis",
-      "class": "fuoristrada",
+      "class": "suv",
       "description": "Ispirato alla Jeep Crew Chief.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3374,7 +3720,8 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Kamacho"
-      ]
+      ],
+      "rating": "580/409"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-liberator.jpg",
@@ -3386,7 +3733,7 @@
       "id": "veh-vapid-liberator",
       "name": "Vapid Liberator",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "sp-mudder",
       "description": "Il monster truck del Thrillbilly Mud Club.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3423,7 +3770,8 @@
         "handling": 5.2,
         "offroad": 7.7,
         "strength": 4.0
-      }
+      },
+      "rating": "712/521"
     },
     {
       "image": "assets/img/veicoli/veh-nagasaki-outlaw.png",
@@ -3455,7 +3803,8 @@
         "handling": 3.2,
         "offroad": 8.4,
         "strength": 3.5
-      }
+      },
+      "rating": "727/433"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-rancher.png",
@@ -3467,7 +3816,7 @@
       "id": "veh-declasse-rancher",
       "name": "'86 Declasse Rancher",
       "manufacturer": "Declasse",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Il fuoristrada a due porte ispirato alla Chevrolet K5 Blazer.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://gta.wiki/w/Rancher",
@@ -3506,7 +3855,7 @@
       "id": "veh-karin-rebel",
       "name": "'84 Karin Rebel",
       "manufacturer": "Karin",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Ispirato alla Hilux.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
@@ -3537,7 +3886,7 @@
       "id": "veh-vapid-reclaimer",
       "name": "Vapid Reclaimer",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Nuovo, ispirato alla Ford Ranger.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3553,7 +3902,8 @@
         "handling": 3.2,
         "offroad": 6.7,
         "strength": 3.0
-      }
+      },
+      "rating": "613/430"
     },
     {
       "image": "assets/img/veicoli/veh-maibatsu-sanchez.png",
@@ -3593,7 +3943,8 @@
         "handling": 5.2,
         "offroad": 7.7,
         "strength": 4.0
-      }
+      },
+      "rating": "715/524"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-sandking-xl.png",
@@ -3605,7 +3956,7 @@
       "id": "veh-vapid-sandking-xl",
       "name": "Vapid Sandking XL",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Ispirato alla Super Duty.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3614,7 +3965,8 @@
       "moreSources": [
         "https://playday.one/2026/11/18/every-car-in-gta-6/",
         "https://gta.wiki/w/Sandking_XL"
-      ]
+      ],
+      "rating": "312/386"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-verus.png",
@@ -3626,7 +3978,7 @@
       "id": "veh-dinka-verus",
       "name": "Dinka Verus",
       "manufacturer": "Dinka",
-      "class": "fuoristrada",
+      "class": "moto",
       "description": "ATV ispirato alla Polaris Sportsman.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3645,7 +3997,8 @@
         "handling": 3.3,
         "offroad": 7.1,
         "strength": 4.0
-      }
+      },
+      "rating": "620/379"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-walton-l35.png",
@@ -3657,7 +4010,7 @@
       "id": "veh-declasse-walton-l35",
       "name": "Declasse Walton L35",
       "manufacturer": "Declasse",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Ispirato alla S-10.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3665,7 +4018,15 @@
       "imageCredit": "gta.wiki / Rockstar Games",
       "realModel": "Chevrolet S-10 Tahoe",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "rating": "274/379",
+      "stats": {
+        "speed": 3.8,
+        "accel": 3.8,
+        "handling": 3.6,
+        "offroad": 4.2,
+        "strength": 3.0
+      }
     },
     {
       "image": "assets/img/veicoli/veh-declasse-yosemite-1500.png",
@@ -3677,7 +4038,7 @@
       "id": "veh-declasse-yosemite-1500",
       "name": "Declasse Yosemite 1500",
       "manufacturer": "Declasse",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "La Silverado prima serie.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3696,7 +4057,8 @@
         "handling": 3.7,
         "offroad": 4.7,
         "strength": 3.0
-      }
+      },
+      "rating": "323/423"
     },
     {
       "image": "assets/img/veicoli/veh-swamp-buggy.png",
@@ -3741,7 +4103,8 @@
         "handling": 4.8,
         "offroad": 2.7,
         "strength": 4.0
-      }
+      },
+      "rating": "146/457"
     },
     {
       "image": "assets/img/veicoli/veh-pegassi-bati-801.jpg",
@@ -3790,7 +4153,8 @@
         "handling": 7.6,
         "offroad": 2.3,
         "strength": 4.0
-      }
+      },
+      "rating": "120/750"
     },
     {
       "image": "assets/img/veicoli/veh-dinka-double-t.png",
@@ -3858,7 +4222,8 @@
         "handling": 5.8,
         "offroad": 3.0,
         "strength": 4.0
-      }
+      },
+      "rating": "176/560"
     },
     {
       "image": "assets/img/veicoli/veh-western-sovereign.png",
@@ -3878,7 +4243,8 @@
       "imageCredit": "GTA Wiki (gta.fandom.com) / Rockstar Games",
       "moreSources": [
         "https://playday.one/2026/11/18/every-bike-in-gta-6/"
-      ]
+      ],
+      "rating": "183/568"
     },
     {
       "image": "assets/img/veicoli/veh-western-zombie-chopper.png",
@@ -3907,7 +4273,7 @@
       "id": "veh-bmx",
       "name": "Tuff BMX",
       "manufacturer": "Tuff",
-      "class": "altro",
+      "class": "moto",
       "description": "Bicicletta BMX.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di fitness.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3928,7 +4294,7 @@
       "id": "veh-cruiser",
       "name": "Cruiser",
       "manufacturer": null,
-      "class": "altro",
+      "class": "moto",
       "description": "Bici da spiaggia.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3945,7 +4311,7 @@
       "id": "veh-endurex-race-bike",
       "name": "Endurex Race Bike",
       "manufacturer": "Endurex",
-      "class": "altro",
+      "class": "moto",
       "description": "Bici da corsa ispirata alla Pinarello.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3965,7 +4331,7 @@
       "id": "veh-scorcher",
       "name": "Del Perro Scorcher",
       "manufacturer": "Del Perro",
-      "class": "altro",
+      "class": "moto",
       "description": "Mountain bike.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -3985,7 +4351,7 @@
       "id": "veh-clarion",
       "name": "Clarion",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Offshore ispirato al Cigarette 38 Top Gun.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4006,7 +4372,7 @@
       "id": "veh-nagasaki-dinghy",
       "name": "Nagasaki Dinghy",
       "manufacturer": "Nagasaki",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Il gommone.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4023,7 +4389,7 @@
       "id": "veh-ferry",
       "name": "Ferry",
       "manufacturer": null,
-      "class": "barca",
+      "class": "fuori-elenco",
       "description": "Il traghetto, sul modello di quelli di Fisher Island.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4040,7 +4406,7 @@
       "id": "veh-lure-predator-l35p",
       "name": "Lure Predator L35P",
       "manufacturer": "Lure",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Ispirato al Contender 25T; esiste anche in versione polizia.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4064,7 +4430,7 @@
       "id": "veh-dinka-marquis",
       "name": "Dinka Marquis",
       "manufacturer": "Dinka",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Lo yacht a vela.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4081,7 +4447,7 @@
       "id": "veh-lure-predator-s23",
       "name": "Bombora S23 CCS",
       "manufacturer": "Bombora",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Ispirato al Contender 25 Bay.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4102,7 +4468,7 @@
       "id": "veh-speedophile-seashark",
       "name": "Speedophile Seashark",
       "manufacturer": "Speedophile",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "La moto d'acqua.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4122,7 +4488,7 @@
       "id": "veh-pegassi-speeder",
       "name": "Speeder 700 GT",
       "manufacturer": "Pegassi",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo di lusso: potenza e rifiniture curate.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di combattimento.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
@@ -4144,7 +4510,7 @@
       "id": "veh-shitzu-tropic",
       "name": "Shitzu Tropic",
       "manufacturer": "Shitzu",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4161,7 +4527,7 @@
       "id": "veh-nave-da-crociera",
       "name": "Nave da crociera",
       "manufacturer": null,
-      "class": "barca",
+      "class": "fuori-elenco",
       "description": "Ispirata alla Royal Caribbean Voyager. Non è ancora noto se si possa guidare.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4178,7 +4544,7 @@
       "id": "veh-dirigibile",
       "name": "Dirigibile",
       "manufacturer": null,
-      "class": "aereo",
+      "class": "fuori-elenco",
       "description": "Il dirigibile in stile Goodyear.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4195,7 +4561,7 @@
       "id": "veh-mammoth-dodo",
       "name": "Mammoth Dodo",
       "manufacturer": "Mammoth",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Idrovolante ispirato al DHC-2 Beaver.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4219,7 +4585,7 @@
       "id": "veh-western-company-duster",
       "name": "Botticher Duster",
       "manufacturer": "Botticher",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Il biplano agricolo degli anni Trenta: due ali e grande maneggevolezza, perfetto per le acrobazie.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4250,7 +4616,7 @@
       "id": "veh-jet-di-linea",
       "name": "Jet di linea",
       "manufacturer": null,
-      "class": "aereo",
+      "class": "fuori-elenco",
       "description": "Ispirato al Boeing 747.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4273,7 +4639,7 @@
       "id": "veh-western-company-mallard",
       "name": "Lapwing Mallard",
       "manufacturer": "Lapwing",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Aereo acrobatico ispirato all'Extra 300.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide dei veicoli.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4294,7 +4660,7 @@
       "id": "veh-jobuilt-mammatus",
       "name": "Lapwing Mammatus",
       "manufacturer": "Lapwing",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Aereo leggero ispirato al Cessna 172, usato dai piloti privati per merci e passeggeri.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4317,7 +4683,7 @@
       "id": "veh-buckingham-nimbus",
       "name": "Lapwing Nimbus",
       "manufacturer": "Lapwing",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Jet privato bimotore ispirato al Citation X, noleggiato dai ricchi di Leonida.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4340,7 +4706,7 @@
       "id": "veh-buckingham-shamal",
       "name": "Buckingham Shamal",
       "manufacturer": "Buckingham",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Jet privato ispirato al Learjet; compare nel lavoro di scorta.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4360,7 +4726,7 @@
       "id": "veh-mammoth-streamer216",
       "name": "Mammoth Streamer216",
       "manufacturer": "Mammoth",
-      "class": "aereo",
+      "class": "velivoli",
       "description": "Ispirato al Twin Otter.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4377,7 +4743,7 @@
       "id": "veh-nagasaki-buzzard",
       "name": "Botticher Buzzard",
       "manufacturer": "Botticher",
-      "class": "elicottero",
+      "class": "militari",
       "description": "Elicottero militare leggero e agile, in servizio da decenni; ha la sicurezza avanzata.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
@@ -4398,7 +4764,7 @@
       "id": "veh-buckingham-maverick",
       "name": "Buckingham Maverick",
       "manufacturer": "Buckingham",
-      "class": "elicottero",
+      "class": "velivoli",
       "description": "Ispirato al Bell 206; esiste anche la Police Maverick.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4419,7 +4785,7 @@
       "id": "veh-sea-sparrow",
       "name": "Nagasaki Sea Sparrow",
       "manufacturer": "Nagasaki",
-      "class": "elicottero",
+      "class": "velivoli",
       "description": "Ispirato al Sikorsky S-300; compare anche in copertina.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide di esplorazione.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4443,7 +4809,7 @@
       "id": "veh-buckingham-supervolito",
       "name": "Buckingham SuperVolito",
       "manufacturer": "Buckingham",
-      "class": "elicottero",
+      "class": "velivoli",
       "description": "Ispirato all'EC145.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4467,7 +4833,7 @@
       "id": "veh-buckingham-swift",
       "name": "Buckingham Swift",
       "manufacturer": "Buckingham",
-      "class": "elicottero",
+      "class": "velivoli",
       "description": "Ispirato all'AW109.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4487,7 +4853,7 @@
       "id": "veh-brute-ambulance",
       "name": "Interstate Ambulance",
       "manufacturer": "Interstate",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "L'ambulanza dei servizi di emergenza, con sicurezza avanzata.",
       "howToGet": "Si ruba in strada. Dopo la storia si evoca con un trucco, che si sblocca scoprendo l'ambulanza nel menu Progressi.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
@@ -4522,7 +4888,7 @@
       "id": "veh-bravado-bison-1800-police",
       "name": "Bravado Bison 1800 Police",
       "manufacturer": "Bravado",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Pickup della polizia su base Ram.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4539,7 +4905,7 @@
       "id": "veh-bravado-police-buffalo-stx-pursuit",
       "name": "Bravado Police Buffalo STX Pursuit",
       "manufacturer": "Bravado",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "La volante più comune, su base Charger.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4560,7 +4926,7 @@
       "id": "veh-bravado-police-gauntlet-interceptor",
       "name": "Bravado Police Gauntlet Interceptor",
       "manufacturer": "Bravado",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Interceptor su base Challenger Demon.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4577,7 +4943,7 @@
       "id": "veh-vapid-police-ghost",
       "name": "Vapid Police Ghost",
       "manufacturer": "Vapid",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "La Stanier senza insegne.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4594,7 +4960,7 @@
       "id": "veh-brute-police-riot",
       "name": "Brute Police Riot",
       "manufacturer": "Brute",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Il blindato ispirato al Lenco BEAR.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4624,7 +4990,7 @@
       "id": "veh-airport-bus",
       "name": "Whiffler Airport Bus",
       "manufacturer": "Whiffler",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "L'autobus dell'aeroporto.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
@@ -4651,7 +5017,7 @@
       "id": "veh-buster",
       "name": "Buster",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "trasporto",
       "description": "L'autobus urbano in stile New Flyer: i mezzi pubblici funzionano davvero.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4668,7 +5034,7 @@
       "id": "veh-dashound",
       "name": "Whiffler Dashound",
       "manufacturer": "Whiffler",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "Il pullman in stile Greyhound.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4696,7 +5062,7 @@
       "id": "veh-treno-merci",
       "name": "Treno merci",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "fuori-elenco",
       "description": "Locomotiva ispirata alla GE AC4400CW.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4713,7 +5079,7 @@
       "id": "veh-treno-passeggeri-amloco",
       "name": "Treno passeggeri Amloco",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "fuori-elenco",
       "description": "Locomotiva ispirata alla GE Genesis.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4730,7 +5096,7 @@
       "id": "veh-vice-city-metro",
       "name": "Vice City Metro",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "fuori-elenco",
       "description": "I treni blu e argento della metropolitana, in stile Hitachi.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4747,7 +5113,7 @@
       "id": "veh-vice-city-metro-mule",
       "name": "Vice City Metro Mule",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "fuori-elenco",
       "description": "Il people mover automatico in stile Metromover; copre lo stato di Leonida.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4764,7 +5130,7 @@
       "id": "veh-brute-rental-shuttle-bus",
       "name": "Brute Rental Bus",
       "manufacturer": "Brute",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "Navetta.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4825,7 +5191,7 @@
       "id": "veh-hvy-forklift",
       "name": "HVY Forklift",
       "manufacturer": "HVY",
-      "class": "industriale",
+      "class": "industriali",
       "description": "Il muletto.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4859,7 +5225,7 @@
       "id": "veh-jacksheepe-excavator",
       "name": "B3000 Excavator",
       "manufacturer": "Jack Sheepe",
-      "class": "industriale",
+      "class": "industriali",
       "description": "L'escavatore.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4880,7 +5246,7 @@
       "id": "veh-jobuilt-flatbed",
       "name": "JoBuilt Flatbed",
       "manufacturer": "JoBuilt",
-      "class": "industriale",
+      "class": "camion",
       "description": "Pianale.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4897,7 +5263,7 @@
       "id": "veh-hvy-mixer",
       "name": "HVY Mixer",
       "manufacturer": "HVY",
-      "class": "industriale",
+      "class": "industriali",
       "description": "Betoniera.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4914,7 +5280,7 @@
       "id": "veh-jobuilt-rubble",
       "name": "JoBuilt Rubble",
       "manufacturer": "JoBuilt",
-      "class": "industriale",
+      "class": "camion",
       "description": "Camion per macerie.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4931,7 +5297,7 @@
       "id": "veh-brute-tipper",
       "name": "Brute Tipper",
       "manufacturer": "Brute",
-      "class": "industriale",
+      "class": "camion",
       "description": "Ribaltabile a sei ruote.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4948,7 +5314,7 @@
       "id": "veh-vapid-benson",
       "name": "'97 Interstate Benson",
       "manufacturer": "Interstate",
-      "class": "furgone",
+      "class": "camion",
       "description": "Camion box.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -4976,7 +5342,7 @@
       "id": "veh-hvy-biff",
       "name": "Cartright Biff",
       "manufacturer": "Cartright",
-      "class": "industriale",
+      "class": "camion",
       "description": "Il camion della spazzatura.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5003,7 +5369,7 @@
       "id": "veh-jobuilt-hauler",
       "name": "Cartright Hauler",
       "manufacturer": "Cartright",
-      "class": "industriale",
+      "class": "camion",
       "description": "Motrice.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5030,7 +5396,7 @@
       "id": "veh-maibatsu-mule",
       "name": "Maibatsu Mule",
       "manufacturer": "Maibatsu",
-      "class": "furgone",
+      "class": "camion",
       "description": "Camion box.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5057,7 +5423,7 @@
       "id": "veh-mtl-packer",
       "name": "MTL Packer",
       "manufacturer": "MTL",
-      "class": "industriale",
+      "class": "camion",
       "description": "Bisarca.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5093,7 +5459,7 @@
       "id": "veh-jobuilt-phantom",
       "name": "JoBuilt Phantom",
       "manufacturer": "JoBuilt",
-      "class": "industriale",
+      "class": "camion",
       "description": "La motrice ispirata al Peterbilt; esiste anche la versione Custom.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5113,7 +5479,7 @@
       "id": "veh-brute-stockade",
       "name": "'99 Interstate Stockade",
       "manufacturer": "Interstate",
-      "class": "industriale",
+      "class": "servizio",
       "description": "Il furgone blindato della rapina ai contanti.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Vehicles",
@@ -5140,7 +5506,7 @@
       "id": "veh-bravado-bison",
       "name": "Bravado Bison",
       "manufacturer": "Bravado",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Il pickup alla Ram; esiste anche come 1800 e 900 '95.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5156,7 +5522,8 @@
         "handling": 3.8,
         "offroad": 5.0,
         "strength": 3.0
-      }
+      },
+      "rating": "355/427"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-bobcat-xl.png",
@@ -5168,7 +5535,7 @@
       "id": "veh-declasse-bobcat-xl",
       "name": "'84 Declasse Bobcat XL",
       "manufacturer": "Declasse",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pickup.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5190,7 +5557,8 @@
         "offroad": 4.9,
         "strength": 3.2
       },
-      "price": "Registrazione 7.250 $ · venduta rende circa 2.145 $"
+      "price": "Registrazione 7.250 $ · venduta rende circa 2.145 $",
+      "rating": "368/406"
     },
     {
       "image": "assets/img/veicoli/veh-brute-boxville.png",
@@ -5222,7 +5590,8 @@
         "handling": 2.7,
         "offroad": 3.4,
         "strength": 3.0
-      }
+      },
+      "rating": "189/276"
     },
     {
       "image": "assets/img/veicoli/veh-declasse-burrito.png",
@@ -5252,7 +5621,8 @@
         "offroad": 3.3,
         "strength": 3.0
       },
-      "price": "Registrazione 8.000 $ · venduta rende circa 2.365 $"
+      "price": "Registrazione 8.000 $ · venduta rende circa 2.365 $",
+      "rating": "203/361"
     },
     {
       "image": "assets/img/veicoli/veh-brute-camper.png",
@@ -5297,7 +5667,8 @@
         "handling": 2.5,
         "offroad": 2.3,
         "strength": 3.0
-      }
+      },
+      "rating": "114/227"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-minivan.png",
@@ -5341,7 +5712,8 @@
         "handling": 3.1,
         "offroad": 3.3,
         "strength": 3.0
-      }
+      },
+      "rating": "203/345"
     },
     {
       "image": "assets/img/veicoli/veh-vapid-speedo.png",
@@ -5370,7 +5742,8 @@
         "offroad": 3.6,
         "strength": 3.0
       },
-      "realModel": "Ford E-Series (2008-2014)"
+      "realModel": "Ford E-Series (2008-2014)",
+      "rating": "230/343"
     },
     {
       "image": "assets/img/veicoli/veh-bravado-youga-classic.png",
@@ -5399,7 +5772,7 @@
       "id": "veh-vapid-sadler",
       "name": "Vapid Sadler",
       "manufacturer": "Vapid",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pickup pesante.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/vehicles/",
@@ -5410,7 +5783,7 @@
       "id": "veh-yakuruna",
       "name": "Yakuruna (superyacht)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "fuori-elenco",
       "description": "Il superyacht con il nome «Yakuruna» scritto sulla fiancata, ricalcato sul Lürssen Coral Ocean di 73 metri.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yakuruna.png",
@@ -5428,7 +5801,7 @@
       "id": "veh-albany-buccaneer-custom",
       "name": "Albany Buccaneer Custom",
       "manufacturer": "Albany",
-      "class": "muscle",
+      "class": "sp-lowrider",
       "description": "Lowrider anni Sessanta ispirata a Ford Fairlane e Buick Riviera, versione modificata della Buccaneer.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-albany-buccaneer-custom.jpg",
@@ -5444,7 +5817,7 @@
       "id": "veh-barca-da-pesca",
       "name": "Barca da pesca",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Peschereccio generico dei canali e dei porti di Leonida. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-barca-da-pesca.jpg",
@@ -5460,7 +5833,7 @@
       "id": "veh-barca-da-pesca-stile-btn-delmar",
       "name": "Barca da pesca (stile BTN Delmar)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Barca da pesca in stile BTN Delmar. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-barca-da-pesca-stile-btn-delmar.png",
@@ -5476,7 +5849,7 @@
       "id": "veh-barca-da-pesca-stile-crusader-boats-gfy",
       "name": "Barca da pesca (stile Crusader Boats GFY)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Barca da pesca in stile Crusader Boats GFY. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-barca-da-pesca-stile-crusader-boats-gfy.jpg",
@@ -5492,7 +5865,7 @@
       "id": "veh-barca-da-pesca-sportiva-stile-contender-",
       "name": "Rugger Rhode",
       "manufacturer": "Rugger",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Barca a quattro motori per la pesca o le gite, ispirata alla Contender 39ST. La polizia ne usa una versione.",
       "howToGet": "Si ruba in strada.",
       "image": "assets/img/veicoli/veh-barca-da-pesca-sportiva-stile-contender-.jpg",
@@ -5535,7 +5908,8 @@
         "handling": 3.9,
         "offroad": 4.3,
         "strength": 3.0
-      }
+      },
+      "rating": "312/465"
     },
     {
       "id": "veh-berlina-stile-chevrolet-impala-2014",
@@ -5564,7 +5938,8 @@
         "offroad": 4.3,
         "strength": 3.0
       },
-      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $"
+      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $",
+      "rating": "334/388"
     },
     {
       "id": "veh-berlina-stile-chrysler-sebring-dodge-str",
@@ -5592,7 +5967,8 @@
         "handling": 3.3,
         "offroad": 4.0,
         "strength": 3.0
-      }
+      },
+      "rating": "253/385"
     },
     {
       "id": "veh-berlina-stile-honda-accord-2018",
@@ -5620,7 +5996,8 @@
         "handling": 3.9,
         "offroad": 4.2,
         "strength": 3.0
-      }
+      },
+      "rating": "315/497"
     },
     {
       "id": "veh-berlina-stile-mercedes-classe-c-w205",
@@ -5648,7 +6025,8 @@
         "handling": 4.4,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "330/507"
     },
     {
       "id": "veh-berlina-compatta-stile-volkswagen-jetta",
@@ -5676,13 +6054,14 @@
         "handling": 4.1,
         "offroad": 4.3,
         "strength": 3.0
-      }
+      },
+      "rating": "283/445"
     },
     {
       "id": "veh-bravado-bison-1800",
       "name": "Bravado Bison 1800",
       "manufacturer": "Bravado",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up moderno ispirato al Ram 1500 (DT); esiste anche la variante di polizia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-bison-1800.png",
@@ -5703,13 +6082,14 @@
         "handling": 3.2,
         "offroad": 4.7,
         "strength": 3.0
-      }
+      },
+      "rating": "352/406"
     },
     {
       "id": "veh-bravado-bison-900-95",
       "name": "'95 Bravado Bison 900",
       "manufacturer": "Bravado",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up anni Novanta ispirato al Dodge Ram di seconda generazione: la versione stradale del Bison 900 Monster Truck.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-bison-900-95.jpg",
@@ -5732,7 +6112,8 @@
         "offroad": 6.7,
         "strength": 3.0
       },
-      "price": "Registrazione 7.400 $ · venduta rende circa 2.200 $"
+      "price": "Registrazione 7.400 $ · venduta rende circa 2.200 $",
+      "rating": "580/386"
     },
     {
       "id": "veh-bravado-gauntlet-hellfire",
@@ -5764,13 +6145,14 @@
         "handling": 5.7,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "rating": "240/705"
     },
     {
       "id": "veh-bravado-police-cruiser-buffalo",
       "name": "Bravado Police Cruiser (Buffalo)",
       "manufacturer": "Bravado",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Volante su base Buffalo, distinta dalla Buffalo STX Pursuit.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-bravado-police-cruiser-buffalo.jpg",
@@ -5825,13 +6207,14 @@
         "offroad": 3.1,
         "strength": 3.0
       },
-      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $"
+      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $",
+      "rating": "173/296"
     },
     {
       "id": "veh-buckingham-police-maverick",
       "name": "Buckingham Police Maverick",
       "manufacturer": "Buckingham",
-      "class": "elicottero",
+      "class": "emergenza",
       "description": "Elicottero della polizia su base Maverick, con faro di ricerca.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-buckingham-police-maverick.png",
@@ -5850,7 +6233,7 @@
       "id": "veh-camion-medio-stile-chevrolet-kodiak",
       "name": "Declasse D7700",
       "manufacturer": "Declasse",
-      "class": "industriale",
+      "class": "camion",
       "description": "Camion medio ispirato al GMC TopKick / Chevrolet Kodiak: si vede con il cassone furgonato o come carro attrezzi.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-camion-medio-stile-chevrolet-kodiak.jpg",
@@ -5867,13 +6250,20 @@
       ],
       "facts": [
         "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
-      ]
+      ],
+      "stats": {
+        "speed": 2.9,
+        "accel": 2.6,
+        "handling": 2.7,
+        "offroad": 2.9,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-camion-pesante-stile-silverado-6500-hd",
       "name": "Camion pesante (stile Silverado 6500 HD)",
       "manufacturer": null,
-      "class": "furgone",
+      "class": "camion",
       "description": "Camion pesante in stile Silverado 6500 HD. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-camion-pesante-stile-silverado-6500-hd.jpg",
@@ -5889,7 +6279,7 @@
       "id": "veh-camioncino-stile-isuzu-elf-250",
       "name": "Maibatsu Iota",
       "manufacturer": "Maibatsu",
-      "class": "industriale",
+      "class": "camion",
       "description": "Camioncino a cabina avanzata ispirato all'Isuzu Elf, spesso con il pianale.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-camioncino-stile-isuzu-elf-250.jpg",
@@ -5906,7 +6296,14 @@
       ],
       "facts": [
         "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
-      ]
+      ],
+      "stats": {
+        "speed": 2.6,
+        "accel": 2.2,
+        "handling": 2.6,
+        "offroad": 3.0,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-carro-attrezzi-stile-ford-f-series",
@@ -5935,7 +6332,7 @@
       "id": "veh-catamarano-a-motore-stile-horizon-pc60",
       "name": "Calder CB69",
       "manufacturer": "Calder",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Catamarano a motore ispirato all'Horizon PC60: si vede al largo di Vice Beach e nelle Keys.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-catamarano-a-motore-stile-horizon-pc60.jpg",
@@ -6009,13 +6406,14 @@
         "handling": 5.9,
         "offroad": 3.6,
         "strength": 3.0
-      }
+      },
+      "rating": "243/662"
     },
     {
       "id": "veh-coup-classica-stile-cadillac-eldorado-19",
       "name": "'59 Albany DeVanity",
       "manufacturer": "Albany",
-      "class": "classica",
+      "class": "coupe",
       "description": "Coupé del 1959 con pinne e cromature, ispirata alla Cadillac Coupe de Ville e alla Eldorado di quell'anno.",
       "howToGet": "Si ruba in strada, con localizzatore.",
       "image": "assets/img/veicoli/veh-coup-classica-stile-cadillac-eldorado-19.jpg",
@@ -6065,13 +6463,14 @@
         "handling": 3.8,
         "offroad": 4.4,
         "strength": 3.0
-      }
+      },
+      "rating": "319/416"
     },
     {
       "id": "veh-declasse-granger-taxi",
       "name": "Declasse Granger Taxi",
       "manufacturer": "Declasse",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "Versione taxi del Granger.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-granger-taxi.jpg",
@@ -6087,7 +6486,7 @@
       "id": "veh-declasse-impaler-sz",
       "name": "'95 Declasse Impaler SZ",
       "manufacturer": "Declasse",
-      "class": "muscle",
+      "class": "berlina",
       "description": "Berlina muscle ispirata alla Chevrolet Impala SS 1994-1996, variante moderna dell'Impaler.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-impaler-sz.jpg",
@@ -6112,13 +6511,14 @@
         "offroad": 4.2,
         "strength": 3.0
       },
-      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $"
+      "price": "Registrazione 5.400 $ · venduta rende circa 1.595 $",
+      "rating": "285/441"
     },
     {
       "id": "veh-declasse-moonbeam",
       "name": "Declasse Moonbeam",
       "manufacturer": "Declasse",
-      "class": "muscle",
+      "class": "sp-lowrider",
       "description": "Furgone-lowrider ispirato al Chevrolet Astro, già visto in GTA V. Rientra tra le muscle.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-declasse-moonbeam.jpg",
@@ -6160,13 +6560,14 @@
         "offroad": 3.8,
         "strength": 3.0
       },
-      "price": "Registrazione 8.200 $ · venduta rende circa 2.420 $"
+      "price": "Registrazione 8.200 $ · venduta rende circa 2.420 $",
+      "rating": "246/358"
     },
     {
       "id": "veh-dundreary-police-landstalker-xl",
       "name": "Dundreary Police Landstalker XL",
       "manufacturer": "Dundreary",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "SUV di polizia su base Landstalker XL (Lincoln Navigator), per le unità speciali.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-dundreary-police-landstalker-xl.jpg",
@@ -6205,7 +6606,7 @@
       "id": "veh-furgone-stile-mercedes-sprinter",
       "name": "Benefactor Spritz",
       "manufacturer": "Benefactor",
-      "class": "furgone",
+      "class": "coupe",
       "description": "Furgone ispirato al Mercedes Sprinter; si vede anche con la livrea del Banner Hotel & Spa.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-furgone-stile-mercedes-sprinter.jpg",
@@ -6222,7 +6623,15 @@
       ],
       "facts": [
         "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
-      ]
+      ],
+      "rating": "243/662",
+      "stats": {
+        "speed": 6.7,
+        "accel": 7.1,
+        "handling": 5.9,
+        "offroad": 3.6,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-furgone-cargo-stile-ford-transit-cargo",
@@ -6250,7 +6659,8 @@
         "handling": 3.6,
         "offroad": 3.3,
         "strength": 3.0
-      }
+      },
+      "rating": "206/391"
     },
     {
       "id": "veh-gallivanter-baller-st-d",
@@ -6281,13 +6691,14 @@
         "handling": 4.2,
         "offroad": 5.0,
         "strength": 3.0
-      }
+      },
+      "rating": "441/540"
     },
     {
       "id": "veh-gommone-stile-highfield-sport-900",
       "name": "Gommone (stile Highfield Sport 900)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Gommone in stile Highfield Sport 900. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-gommone-stile-highfield-sport-900.jpg",
@@ -6303,7 +6714,7 @@
       "id": "veh-jobuilt-phantom-custom",
       "name": "'81 JoBuilt Phantom Custom",
       "manufacturer": "JoBuilt",
-      "class": "industriale",
+      "class": "camion",
       "description": "Motrice con cabina aerodinamica ispirata al GMC General 1984, variante personalizzata del Phantom.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-jobuilt-phantom-custom.jpg",
@@ -6330,7 +6741,7 @@
       "id": "veh-lombike",
       "name": "Lombike",
       "manufacturer": null,
-      "class": "altro",
+      "class": "moto",
       "description": "Bicicletta da città a telaio basso, nei quartieri di Vice City.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-lombike.jpg",
@@ -6346,7 +6757,7 @@
       "id": "veh-lure-predator-l35p-polizia",
       "name": "Lure Predator L35P (Polizia)",
       "manufacturer": "Lure",
-      "class": "barca",
+      "class": "emergenza",
       "description": "Motovedetta della polizia su base Predator L35P, per inseguimenti nei canali e lungo la costa.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-lure-predator-l35p-polizia.jpg",
@@ -6384,7 +6795,8 @@
         "handling": 3.9,
         "offroad": 4.1,
         "strength": 3.0
-      }
+      },
+      "rating": "279/444"
     },
     {
       "id": "veh-moocher",
@@ -6412,13 +6824,14 @@
         "handling": 2.8,
         "offroad": 2.6,
         "strength": 3.0
-      }
+      },
+      "rating": "124/224"
     },
     {
       "id": "veh-moto-d-acqua-stile-sea-doo-rxt-x-300",
       "name": "Seashark Sedna",
       "manufacturer": "Seashark",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Moto d'acqua gialla ispirata alla Sea-Doo RXT-X 300.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-moto-d-acqua-stile-sea-doo-rxt-x-300.png",
@@ -6457,7 +6870,7 @@
       "id": "veh-motoscafo-stile-bavaria-sr33",
       "name": "Motoscafo (stile Bavaria SR33)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo in stile Bavaria SR33. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-motoscafo-stile-bavaria-sr33.jpg",
@@ -6473,7 +6886,7 @@
       "id": "veh-motoscafo-stile-crownline-275-ss",
       "name": "Nagasaki Tao",
       "manufacturer": "Nagasaki",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo da diporto ispirato al Crownline 275 SS; spesso si vede su un carrello trainato da un pick-up.",
       "howToGet": "Si ruba in strada.",
       "image": "assets/img/veicoli/veh-motoscafo-stile-crownline-275-ss.png",
@@ -6494,7 +6907,7 @@
       "id": "veh-motoscafo-cabinato-stile-azimut-atlantis",
       "name": "Calder Torlan",
       "manufacturer": "Calder",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Piccolo yacht sportivo ed elegante, ben rifinito, ispirato all'Azimut Atlantis 45.",
       "howToGet": "Si ruba in strada.",
       "image": "assets/img/veicoli/veh-motoscafo-cabinato-stile-azimut-atlantis.png",
@@ -6515,7 +6928,7 @@
       "id": "veh-motoscafo-di-lusso-stile-frauscher-1017-",
       "name": "Motoscafo di lusso (stile Frauscher 1017 GT)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo di lusso in stile Frauscher 1017 GT. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-motoscafo-di-lusso-stile-frauscher-1017-.webp",
@@ -6531,7 +6944,7 @@
       "id": "veh-motovedetta-stile-rb-s-ii",
       "name": "Motovedetta (stile RB-S II)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "emergenza",
       "description": "Motovedetta in stile RB-S II. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-motovedetta-stile-rb-s-ii.jpg",
@@ -6547,7 +6960,7 @@
       "id": "veh-motovedetta-stile-rb-s",
       "name": "Garda",
       "manufacturer": null,
-      "class": "barca",
+      "class": "emergenza",
       "description": "Pattugliatore grigio ispirato alle barche classe Defender (RB-S) della Guardia Costiera.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-motovedetta-stile-rb-s.jpg",
@@ -6570,7 +6983,7 @@
       "id": "veh-motrice-stile-international-s-series",
       "name": "Motrice (stile International S-Series)",
       "manufacturer": null,
-      "class": "servizio",
+      "class": "camion",
       "description": "Motrice in stile International S-Series. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-motrice-stile-international-s-series.jpg",
@@ -6586,7 +6999,7 @@
       "id": "veh-nagasaki-police-buzzard",
       "name": "Nagasaki Police Buzzard",
       "manufacturer": "Nagasaki",
-      "class": "elicottero",
+      "class": "emergenza",
       "description": "Elicottero della polizia derivato dal Buzzard, nei cieli di Vice City.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-nagasaki-police-buzzard.jpg",
@@ -6626,13 +7039,14 @@
         "handling": 4.4,
         "offroad": 4.5,
         "strength": 3.0
-      }
+      },
+      "rating": "344/516"
     },
     {
       "id": "veh-offshore-stile-skater-388",
       "name": "Offshore (stile Skater 388)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Offshore in stile Skater 388. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-offshore-stile-skater-388.jpg",
@@ -6648,7 +7062,7 @@
       "id": "veh-pegassi-stile-lamborghini-aventador",
       "name": "Pegassi (stile Lamborghini Aventador)",
       "manufacturer": "Pegassi",
-      "class": "super",
+      "class": "supercar",
       "description": "Supercar ispirata alla Lamborghini Aventador, chiamata anche «Pegassi 'Aventador'». Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pegassi-stile-lamborghini-aventador.png",
@@ -6664,7 +7078,7 @@
       "id": "veh-pick-up-suv-stile-ford-explorer-sport-tr",
       "name": "Vapid Montagne Pickup",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Pick-up a doppia cabina ispirato alla Ford Explorer Sport Trac.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pick-up-suv-stile-ford-explorer-sport-tr.jpg",
@@ -6681,13 +7095,21 @@
       ],
       "facts": [
         "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
-      ]
+      ],
+      "rating": "318/399",
+      "stats": {
+        "speed": 3.5,
+        "accel": 4.3,
+        "handling": 3.8,
+        "offroad": 4.4,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-pick-up-cabrio-stile-dodge-dakota-conver",
       "name": "Pick-up cabrio (stile Dodge Dakota Convertible)",
       "manufacturer": null,
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up cabrio in stile Dodge Dakota Convertible. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pick-up-cabrio-stile-dodge-dakota-conver.png",
@@ -6703,7 +7125,7 @@
       "id": "veh-pick-up-classico-stile-ford-f-series-ann",
       "name": "'55 Declasse Bobcat 500",
       "manufacturer": "Declasse",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up del 1955 ispirato al Ford F-Series degli anni Cinquanta.",
       "howToGet": "Si ruba in strada, con localizzatore.",
       "image": "assets/img/veicoli/veh-pick-up-classico-stile-ford-f-series-ann.jpg",
@@ -6732,7 +7154,7 @@
       "id": "veh-pick-up-con-cassone-piatto-stile-ford-f-",
       "name": "'70 Vapid Reclaimer",
       "manufacturer": "Vapid",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up anni Settanta con il cassone piatto, ispirato al Ford F-250 del 1979: la vecchia generazione del Reclaimer.",
       "howToGet": "Si ruba in strada, senza localizzatore.",
       "image": "assets/img/veicoli/veh-pick-up-con-cassone-piatto-stile-ford-f-.jpg",
@@ -6755,7 +7177,8 @@
         "offroad": 3.6,
         "strength": 3.0
       },
-      "price": "Registrazione 7.500 $ · venduta rende circa 2.255 $"
+      "price": "Registrazione 7.500 $ · venduta rende circa 2.255 $",
+      "rating": "208/275"
     },
     {
       "id": "veh-pick-up-dei-bagnini-stile-explorer-sport",
@@ -6784,7 +7207,7 @@
       "id": "veh-pick-up-fuoristrada-stile-jeep-scrambler",
       "name": "Pick-up fuoristrada (stile Jeep Scrambler CJ-8)",
       "manufacturer": null,
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up fuoristrada in stile Jeep Scrambler CJ-8. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pick-up-fuoristrada-stile-jeep-scrambler.jpg",
@@ -6800,7 +7223,7 @@
       "id": "veh-pick-up-pesante-stile-ram-3500",
       "name": "Bravado Bison 3800",
       "manufacturer": "Bravado",
-      "class": "furgone",
+      "class": "pickup",
       "description": "Pick-up pesante a doppia cabina con le ruote posteriori gemellate, ispirato al Ram Heavy Duty.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-pick-up-pesante-stile-ram-3500.jpg",
@@ -6817,7 +7240,15 @@
       ],
       "facts": [
         "Il nome del gioco viene da gta.wiki; nessuna guida lo conferma ancora."
-      ]
+      ],
+      "rating": "315/372",
+      "stats": {
+        "speed": 3.5,
+        "accel": 4.1,
+        "handling": 3.3,
+        "offroad": 4.5,
+        "strength": 3.0
+      }
     },
     {
       "id": "veh-pomazoom-scooter-per-anziani",
@@ -6845,7 +7276,8 @@
         "handling": 0.2,
         "offroad": 0.7,
         "strength": 4.0
-      }
+      },
+      "rating": "31/17"
     },
     {
       "id": "veh-suv-stile-audi-q7",
@@ -6912,7 +7344,8 @@
         "handling": 3.5,
         "offroad": 4.2,
         "strength": 3.0
-      }
+      },
+      "rating": "282/370"
     },
     {
       "id": "veh-suv-compatto-stile-toyota-rav4",
@@ -6956,13 +7389,14 @@
         "handling": 3.6,
         "offroad": 1.7,
         "strength": 4.0
-      }
+      },
+      "rating": "81/338"
     },
     {
       "id": "veh-shasa",
       "name": "Calder Shasa",
       "manufacturer": "Calder",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Motoscafo cabinato ispirato al Sea Ray 350 Sundancer.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-shasa.png",
@@ -6998,7 +7432,7 @@
       "id": "veh-sportiva-classica-stile-kellison-j4",
       "name": "Sportiva classica (stile Kellison J4)",
       "manufacturer": null,
-      "class": "classica",
+      "class": "sportiva",
       "description": "Kit car americana anni Cinquanta in stile Kellison J4. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-sportiva-classica-stile-kellison-j4.jpg",
@@ -7043,7 +7477,7 @@
       "id": "veh-taxi-monovolume-stile-dodge-grand-carava",
       "name": "Bravado Sojourn (taxi)",
       "manufacturer": "Bravado",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "Il taxi giallo di Vice City su base Sojourn, la monovolume alla Chrysler Town & Country.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-taxi-monovolume-stile-dodge-grand-carava.jpg",
@@ -7066,7 +7500,7 @@
       "id": "veh-vapid-caracara-4x4",
       "name": "Vapid Caracara 4x4",
       "manufacturer": "Vapid",
-      "class": "fuoristrada",
+      "class": "pickup",
       "description": "Pick-up fuoristrada ispirato al Ford F-150 Raptor di seconda generazione, variante del Caracara.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-caracara-4x4.png",
@@ -7133,7 +7567,8 @@
         "handling": 5.7,
         "offroad": 3.9,
         "strength": 3.0
-      }
+      },
+      "rating": "283/631"
     },
     {
       "id": "veh-vapid-dominator-gtx",
@@ -7155,7 +7590,7 @@
       "id": "veh-vapid-police-cruiser-stanier-le",
       "name": "Vapid Police Cruiser (Stanier LE)",
       "manufacturer": "Vapid",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Volante classica su base Stanier LE (Ford Crown Victoria), la pattuglia più tradizionale del VCPD.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-police-cruiser-stanier-le.jpg",
@@ -7171,7 +7606,7 @@
       "id": "veh-vapid-police-lowline-interceptor",
       "name": "Vapid Police Lowline (Interceptor)",
       "manufacturer": "Vapid",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Volante su base Lowline (Ford Police Interceptor Sedan 2013-2019).",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-police-lowline-interceptor.jpg",
@@ -7187,7 +7622,7 @@
       "id": "veh-vapid-police-montagne",
       "name": "Vapid Police Montagne",
       "manufacturer": "Vapid",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Versione di polizia del Vapid Montagne (Ford Explorer di sesta generazione), il SUV più diffuso tra le pattuglie.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-vapid-police-montagne.jpg",
@@ -7203,7 +7638,7 @@
       "id": "veh-vapid-stanier-taxi",
       "name": "Vapid Stanier G2 Taxi",
       "manufacturer": "Vapid",
-      "class": "servizio",
+      "class": "trasporto",
       "description": "Taxi giallo su base Stanier (Ford Crown Victoria), il classico taxi di Vice City.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa 5 sfide sportive.",
       "image": "assets/img/veicoli/veh-vapid-stanier-taxi.jpg",
@@ -7239,7 +7674,7 @@
       "id": "veh-yacht-stile-azimut-85",
       "name": "Calder Dibnah",
       "manufacturer": "Calder",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Yacht a motore di lusso ispirato all'Azimut 85, tra le isole Rialto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yacht-stile-azimut-85.jpg",
@@ -7262,7 +7697,7 @@
       "id": "veh-yacht-stile-de-hoop-brion",
       "name": "Hulls Flatdeck",
       "manufacturer": "Hulls",
-      "class": "barca",
+      "class": "fuori-elenco",
       "description": "Non è uno yacht ma una chiatta: trasporta file di container ed è ispirata alla Brion di Shipyard De Hoop.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yacht-stile-de-hoop-brion.jpg",
@@ -7285,7 +7720,7 @@
       "id": "veh-yacht-stile-riva-86-domino",
       "name": "Yacht (stile Riva 86 Domino)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Yacht in stile Riva 86 Domino. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": "assets/img/veicoli/veh-yacht-stile-riva-86-domino.png",
@@ -7317,7 +7752,7 @@
       "id": "veh-del-perro-ebike",
       "name": "Del Perro Erode",
       "manufacturer": "Del Perro",
-      "class": "altro",
+      "class": "moto",
       "description": "Bicicletta elettrica da montagna, ispirata alla Santa Cruz Vala.",
       "realModel": "Santa Cruz Vala",
       "howToGet": "Da verificare.",
@@ -7363,13 +7798,14 @@
         "offroad": 4.5,
         "strength": 3.0
       },
-      "price": "Registrazione 6.900 $ · venduta rende circa 2.035 $"
+      "price": "Registrazione 6.900 $ · venduta rende circa 2.035 $",
+      "rating": "343/481"
     },
     {
       "id": "veh-airboat-stile-panther",
       "name": "Airboat (stile Panther Airboat)",
       "manufacturer": null,
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Un secondo airboat delle paludi, diverso dall'Airboat 09. Il nome in gioco non è ancora noto.",
       "howToGet": "Da verificare.",
       "image": null,
@@ -7387,7 +7823,7 @@
       "id": "veh-pegassi-vitello",
       "name": "Pegassi Vitello",
       "manufacturer": "Pegassi",
-      "class": "sportiva",
+      "class": "supercar",
       "description": "Sportiva di lusso Pegassi.",
       "howToGet": "Si ruba: è tra le auto che vuole Randy.",
       "image": null,
@@ -7410,13 +7846,14 @@
         "handling": 8.2,
         "offroad": 3.8,
         "strength": 3.0
-      }
+      },
+      "rating": "297/832"
     },
     {
       "id": "veh-hauners-lazer",
       "name": "Hauners P-996 Lazer",
       "manufacturer": "Hauners",
-      "class": "militare",
+      "class": "militari",
       "description": "Il caccia militare.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide.",
       "image": null,
@@ -7443,7 +7880,7 @@
       "id": "veh-mtl-pumper",
       "name": "MTL Pumper",
       "manufacturer": "MTL",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Il camion dei pompieri MTL.",
       "howToGet": "Dopo la storia si evoca con un trucco, che si sblocca scoprendo il mezzo nel menu Progressi.",
       "image": null,
@@ -7463,7 +7900,7 @@
       "id": "veh-hvy-bulldozer",
       "name": "HVY Bulldozer",
       "manufacturer": "HVY",
-      "class": "industriale",
+      "class": "industriali",
       "description": "Il bulldozer da cantiere.",
       "howToGet": "Dopo la storia si evoca con un trucco, che prima va scoperto nel menu Progressi.",
       "image": null,
@@ -7482,7 +7919,7 @@
       "id": "veh-brimstone-golfer",
       "name": "Brimstone Golfer",
       "manufacturer": "Brimstone",
-      "class": "altro",
+      "class": "servizio",
       "description": "Il mezzo dei campi da golf.",
       "howToGet": "Dopo la storia si evoca con un trucco: completa tutte le sfide sportive.",
       "image": null,
@@ -7522,13 +7959,14 @@
         "handling": 5.5,
         "offroad": 2.9,
         "strength": 4.0
-      }
+      },
+      "rating": "164/526"
     },
     {
       "id": "veh-canis-crawler-82",
       "name": "'82 Canis Crawler",
       "manufacturer": "Canis",
-      "class": "fuoristrada",
+      "class": "suv",
       "description": "Fuoristrada Canis del 1982.",
       "howToGet": "Si ruba per Moses in una missione principale del capitolo 2.",
       "image": null,
@@ -7551,13 +7989,14 @@
         "offroad": 6.6,
         "strength": 3.0
       },
-      "price": "Registrazione 7.900 $ · venduta rende circa 2.365 $"
+      "price": "Registrazione 7.900 $ · venduta rende circa 2.365 $",
+      "rating": "475/313"
     },
     {
       "id": "veh-transgressor-67",
       "name": "'67 Sirius Transgressor",
       "manufacturer": "Sirius",
-      "class": "classica",
+      "class": "muscle",
       "description": "Classica del 1967 da ricostruire con Wyman.",
       "howToGet": "Ultimate Edition: missioni di Wyman.",
       "image": null,
@@ -7583,7 +8022,7 @@
       "id": "veh-reynolds-kit-car",
       "name": "Reynolds Kit Car",
       "manufacturer": null,
-      "class": "classica",
+      "class": "sportiva",
       "description": "Kit car da ricostruire con Wyman.",
       "howToGet": "Ultimate Edition: missioni di Wyman.",
       "image": null,
@@ -7597,7 +8036,7 @@
     {
       "name": "Inflatable Flamingo",
       "manufacturer": null,
-      "class": "altro",
+      "class": "fuori-elenco",
       "description": "Il fenicottero gonfiabile: un mezzo per gioco, da evocare con un trucco.",
       "howToGet": "Si evoca con un trucco: distruggi 50 fenicotteri alla cocaina.",
       "image": null,
@@ -7638,7 +8077,7 @@
       "spoilerLevel": 0,
       "name": "Hauners Brigade",
       "manufacturer": "Hauners",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "Il blindato pesante delle forze dell'ordine (SWAT), con sicurezza avanzata: lentissimo, ma se la cava bene fuori strada.",
       "howToGet": "Da verificare.",
       "status": "verificato",
@@ -7656,7 +8095,7 @@
       "spoilerLevel": 0,
       "name": "Hauners Cargobob",
       "manufacturer": "Hauners",
-      "class": "elicottero",
+      "class": "militari",
       "description": "Elicottero militare da trasporto pesante, capace di sollevare carichi enormi; ha la sicurezza avanzata.",
       "howToGet": "Da verificare.",
       "status": "da verificare",
@@ -7671,7 +8110,7 @@
       "spoilerLevel": 0,
       "name": "Hauners APC",
       "manufacturer": "Hauners",
-      "class": "militare",
+      "class": "militari",
       "description": "Blindato militare per il trasporto truppe.",
       "howToGet": "Si ruba alla base militare.",
       "whereToFind": "Mile Zero Air Station, la base militare su Goose Key (Mariana County), nella zona dei carri armati.",
@@ -7687,7 +8126,7 @@
       "spoilerLevel": 0,
       "name": "Botticher 015A",
       "manufacturer": "Botticher",
-      "class": "aereo",
+      "class": "militari",
       "description": "Aereo militare parcheggiato alla base.",
       "howToGet": "Si ruba alla base militare.",
       "whereToFind": "Mile Zero Air Station, la base militare su Goose Key (Mariana County), sulla pista nella parte nord.",
@@ -7699,7 +8138,7 @@
       "id": "veh-declasse-ambulance",
       "name": "Declasse Ambulance",
       "manufacturer": "Declasse",
-      "class": "servizio",
+      "class": "emergenza",
       "description": "L'ambulanza anni Novanta dei servizi di emergenza, con sicurezza avanzata.",
       "howToGet": "Si ruba in strada, senza localizzatore.",
       "status": "verificato",
@@ -7747,7 +8186,8 @@
       "realModel": "Chevrolet Sonic",
       "image": "assets/img/veicoli/veh-compatta-stile-chevrolet-sonic.jpg",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/sonic.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "rating": "296/431"
     },
     {
       "id": "veh-ubermacht-apoc",
@@ -7772,7 +8212,8 @@
       },
       "price": "Registrazione 6.000 $ · venduta rende circa 1.760 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "292/488"
     },
     {
       "id": "veh-willard-lasso-90",
@@ -7802,7 +8243,8 @@
       "realModel": "Buick Reatta Convertible",
       "image": "assets/img/veicoli/veh-coup-cabrio-stile-buick-reatta.jpg",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/buick-reatta.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "rating": "291/444"
     },
     {
       "id": "veh-declasse-picador-72",
@@ -7827,7 +8269,8 @@
       },
       "price": "Registrazione 9.900 $ · venduta rende circa 2.970 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "313/440"
     },
     {
       "id": "veh-bf-bandito-77",
@@ -7852,7 +8295,8 @@
       },
       "price": "Registrazione 4.750 $ · venduta rende circa 1.430 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "714/459"
     },
     {
       "id": "veh-obey-animus",
@@ -7882,7 +8326,8 @@
       "realModel": "Audi A7 / S7 (seconda generazione)",
       "image": "assets/img/veicoli/veh-berlina-sportiva-stile-audi-rs7.jpg",
       "imageUrl": "https://www.gtabase.com/images/gta-6/vehicles/temp/unknown/audi-rs7.jpg",
-      "imageCredit": "gtabase.com"
+      "imageCredit": "gtabase.com",
+      "rating": "333/499"
     },
     {
       "id": "veh-willard-grouse-92",
@@ -7909,7 +8354,8 @@
       "price": "Registrazione 1.400 $ · venduta rende circa 440 $",
       "example": false,
       "updatedAt": "2026-11-19",
-      "realModel": "Buick Skylark (1992-1995)"
+      "realModel": "Buick Skylark (1992-1995)",
+      "rating": "214/365"
     },
     {
       "id": "veh-declasse-parkland-71",
@@ -7934,7 +8380,8 @@
       },
       "price": "Registrazione 10.500 $ · venduta rende circa 3.135 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "170/337"
     },
     {
       "id": "veh-karin-allander",
@@ -7959,7 +8406,8 @@
       },
       "price": "Registrazione 2.650 $ · venduta rende circa 770 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "322/411"
     },
     {
       "id": "veh-bravado-youga-xl-79",
@@ -7984,13 +8432,14 @@
       },
       "price": "Registrazione 10.650 $ · venduta rende circa 3.190 $",
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-19",
+      "rating": "194/321"
     },
     {
       "id": "veh-invetero-coquette-64",
       "name": "'64 Invetero Coquette",
       "manufacturer": "Invetero",
-      "class": "classica",
+      "class": "sportiva",
       "description": "La Coquette classica del 1964, sportiva ispirata alla Corvette C2 Sting Ray.",
       "realModel": "Chevrolet Corvette C2",
       "howToGet": "Si ruba in strada, con localizzatore.",
@@ -8013,13 +8462,14 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "imageUrl": "https://gta.wiki/images/thumb/CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png/600px-CoquetteClassic-GTAVI-OfficialScreenshot-JasonDuval18.png?eac0e",
-      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games",
+      "rating": "272/621"
     },
     {
       "id": "veh-sirius-sungrazer-61",
       "name": "'61 Sirius Sungrazer",
       "manufacturer": "Sirius",
-      "class": "classica",
+      "class": "berlina",
       "description": "Berlina compatta d'inizio anni Sessanta ispirata alla Mercury Comet; piace a chi fa lowrider.",
       "realModel": "Mercury Comet (1960-1961)",
       "howToGet": "Si ruba in strada, con localizzatore.",
@@ -8076,7 +8526,7 @@
       "id": "veh-rugger-fortune",
       "name": "Rugger Fortune",
       "manufacturer": "Rugger",
-      "class": "barca",
+      "class": "imbarcazioni",
       "description": "Vecchio peschereccio per gamberi degli anni Cinquanta, con gli alberi per le reti: ha retto al tempo ed è sorprendentemente versatile.",
       "realModel": "Peschereccio per gamberi",
       "howToGet": "Si ruba in strada.",
@@ -8119,7 +8569,8 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "imageUrl": "https://gta.wiki/images/thumb/UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png/600px-UnnamedZOOTElectricScooter-GTAVI-AnExtendedLook.png?b372f",
-      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games"
+      "imageCredit": "gta.wiki (CC BY-SA) / Rockstar Games",
+      "rating": "57/69"
     }
   ]
 }

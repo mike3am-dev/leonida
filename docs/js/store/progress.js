@@ -78,6 +78,9 @@ export function toggleOwned(id) {
 }
 
 /* ---------- Trofei ---------- */
+/** Veicoli che nella guida non ci sono: li aggiungi tu al garage con la classe del gioco */
+export function addMyVehicle(name, cls) { update((s) => { s.myVehicles = s.myVehicles || {}; s.myVehicles['mine-' + Date.now().toString(36)] = { name, cls, at: new Date().toISOString() }; }); }
+export function removeMyVehicle(id) { update((s) => { if (s.myVehicles) delete s.myVehicles[id]; }); }
 export function isDiscovered(id) { return !!state.discovered?.[id]; }
 export function toggleDiscovered(id) {
   update((s) => { s.discovered = s.discovered || {}; if (s.discovered[id]) delete s.discovered[id]; else s.discovered[id] = new Date().toISOString(); });

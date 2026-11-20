@@ -12,7 +12,7 @@ export const SECTIONS = [
   { id: 'mappa', num: 4, title: 'Mappa', path: '/mappa', icon: 'map', accent: 'orange', hue: 24, tagline: 'Lo stato di Leonida, regione per regione', tab: true, bg: 'molo.jpg' },
   { id: 'personaggi', num: 5, title: 'Personaggi', path: '/personaggi', icon: 'person', accent: 'magenta', hue: 275, tagline: 'Chi incontri a Leonida', tab: true, bg: 'oceanview-notte.jpg' },
   { id: 'armi', num: 6, title: 'Armi', path: '/armi', icon: 'crosshair', accent: 'magenta', hue: 0, tagline: 'La ruota delle armi', bg: 'oceanview-notte.jpg' },
-  { id: 'garage', num: 7, title: 'Garage', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'I veicoli di Leonida', bg: 'oceandrive.jpg' },
+  { id: 'garage', num: 7, title: 'Veicoli', path: '/veicoli', icon: 'car', accent: 'orange', hue: 205, tagline: 'Auto, moto, barche e velivoli, come nel gioco', bg: 'oceandrive.jpg' },
   { id: 'collezionabili', num: 8, title: 'Collezionabili', path: '/collezionabili', icon: 'star', accent: 'teal', hue: 95, tagline: 'Tutto quello che c’è da trovare', bg: 'palme.jpg' },
   { id: 'trofei', num: 9, title: 'Trofei', path: '/trofei', icon: 'trophy', accent: 'orange', hue: 44, tagline: 'La strada verso il Platino', bg: 'palme.jpg' },
   { id: 'banda', num: 10, title: 'La banda', path: '/banda', icon: 'person', accent: 'magenta', hue: 300, tagline: 'Tu e i tuoi amici: chi è più avanti', bg: 'palme.jpg' },

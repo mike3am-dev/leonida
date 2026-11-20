@@ -4,6 +4,7 @@
  * Dentro ogni sezione, in alto a sinistra, il pulsante «‹ Game» riporta qui (app.js, `gameBack`). Sul Duo aperto resta la fila a sinistra.
  * (Proposta di Lollo, 19/11; in anteprima dalla 1.1.)
  */
+import { vehicleCounts } from './veicoli.js';
 import { db } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc } from '../ui/dom.js';
@@ -21,7 +22,7 @@ function numbers() {
     mappa: `${vis(db.districts || []).filter((d) => d.id !== 'dis-da-collocare').length} regioni`,
     personaggi: `${chars.filter(isMet).length} / ${chars.length} incontrati`,
     armi: `${vis(db.weapons || []).filter((w) => st.owned?.[w.id]).length} / ${vis(db.weapons || []).length} nello zaino`,
-    garage: `${vis(db.vehicles || []).filter((v) => st.owned?.[v.id]).length} / ${vis(db.vehicles || []).length} nel garage`,
+    garage: (() => { const c = vehicleCounts(); return `${c.found} / ${c.total} scoperti`; })(),
     collezionabili: `${s.collectibles.done} / ${s.collectibles.total} trovati`,
     trofei: `${vis(db.trophies || []).filter((t) => st.trophies?.[t.id]).length} / ${vis(db.trophies || []).length}`,
     radio: `${vis(db.radio || []).length} stazioni`,
