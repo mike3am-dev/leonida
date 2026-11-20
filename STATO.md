@@ -282,6 +282,8 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 - Vista `veicoli.js`: schede, classi con «Scoperti X / Y» (il conto non supera mai il totale del gioco), ricerca, chiave del garage su ogni foto, «Aggiungi al garage» per i veicoli che nella guida non ci sono (`progress.myVehicles`, finiscono nel Pacchetto per Claude). Scheda: «Statistiche del modello base» con i nomi italiani e il valore.
 - Da fare: classi con più voci del totale del gioco (doppioni, varianti che sono Veicoli di spicco): affidato al giro di caccia 5. Pubblicare come 1.2.0 con l'OK di Mike.
 
+**Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
