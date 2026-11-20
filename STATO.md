@@ -1,6 +1,19 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 19 novembre 2026 sera, versione live **v1.1.0**. Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nelle sezioni 4, 4o-4z, 5-5d.
+Aggiornato il 20 novembre 2026 sera, versione live **v1.1.0**; il lavoro della 1.2 è sul ramo **`sviluppo`** (anteprima `1.2-b`). Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
+
+## 0. Da dove ripartire (passaggio di consegne del 20/11 sera)
+Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
+- **Online**: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
+- **Su `sviluppo`, non online (la 1.2 si pubblica solo quando Mike dice «pubblica»; non chiederglielo)**:
+  - sezione **Veicoli** come nel gioco (STATO 5e): 6 schede, classi con «Scoperti X / Y», ricerca, chiave del garage, «Aggiungi al garage» per i veicoli che mancano (`progress.myVehicles`, nel Pacchetto per Claude);
+  - Home: il riquadro si chiama **«I tuoi progressi»** (non più «Profilo criminale», che è il sistema del gioco);
+  - **giro di caccia 5** applicato (README della caccia, «Cosa manca alla fine del giro del 19/11 sera» + rapporti riassunti in chat): veicoli puliti e nelle classi giuste (classi Auto e quasi tutte quelle di Servizio al totale esatto del gioco), 26 veicoli di spicco, prezzi di 62 armi, capitolo 4 (9 missioni), avviso del capitolo 1 sul conto BuckMe corretto, 21 personaggi, 30 news, radio (29 brani, 14 loghi), palestre (8 abbonamenti), termini italiani del gioco in tutta la guida (stelle di sospetto, allerta, concentrazione, refurtiva, profilo Professionale/Senza scrupoli/Violento/Folle);
+  - Come si gioca: le statistiche del gioco scritte come spiegazioni nelle schede.
+- **Decisioni di Mike del 20/11**: il suo gioco batte ogni fonte; niente coordinate esterne e la mappa non si tocca; niente pagina «Statistiche» né contatori da compilare (tutto va in «Come si gioca»); non chiedere l'OK per pubblicare.
+- **Da fare nel prossimo giro di caccia** (oltre al README): capitolo 5 e le 15 missioni del capitolo 4 senza passi; seconda fonte per i capitoli 3-4; veicoli di spicco (26/280: Game8 ha un archivio, GTABase solo controlli puntuali); varianti uniche di armi (130: IGN `Unique_Weapon_Variants` ne ha 123, struttura da decidere con Mike); nome italiano del quinto livello del profilo («Irredeemable»).
+- **Da Mike sul Mac**: scaricare le immagini nuove (`git pull`, `node scripts/scarica-immagini.mjs`, `python3 scripts/ottimizza-immagini.py`, `python3 scripts/miniature.py`); finché mancano l'app usa le foto online.
+
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
@@ -247,11 +260,11 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 ## 5b. Anteprima: Mike approva prima che vada online (dal 19/11 sera)
 Da quando la guida è pubblica (colleghi che la usano), **niente va su `main` in `docs/` senza il via libera di Mike**, soprattutto la grafica. Le eccezioni le decide lui (per esempio i giri di soli dati).
-- **Dove si lavora**: sul ramo di lavoro della sessione (`claude/…`), con commit e push **solo su quel ramo**. `main` resta alla versione online.
+- **Dove si lavora** (dal 20/11): sul ramo condiviso `sviluppo` (attraverso il ramo di sessione `claude/…`, vedi CLAUDE.md «Le chat di Leonida»). `main` resta alla versione online.
 - **Come si fa vedere**: `node scripts/anteprima.mjs <nome> --radice <checkout di main>` copia `docs/` (css, js, data, index) in `docs/anteprima/<nome>/` di un checkout separato di `main` (`git worktree add <scratchpad>/main-wt origin/main`), con i percorsi di immagini/font/icone riscritti (`../../`), senza service worker e con la fascetta gialla «Anteprima». Lì si fa commit e `git push origin HEAD:main`: su `main` arriva solo la cartella `anteprima/` (più eventuali immagini nuove), non il codice della guida. Indirizzo: `https://mike3am-dev.github.io/leonida/anteprima/<nome>/`.
 - **Nome nuovo a ogni giro** (`1.0.1-a`, `1.0.1-b`…): il telefono tiene in memoria i file già visti. Lo script cancella le anteprime vecchie.
 - **Insieme al link** si mandano a Mike gli screenshot (iPhone 393×852 e Duo 703×1000, chiaro e scuro) con SendUserFile.
-- **Via libera**: sul ramo di lavoro `git merge origin/main`, si cancella `docs/anteprima/`, si alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, e solo allora `git push origin HEAD:main`.
+- **Via libera** (Mike dice «pubblica»): su `sviluppo` `git merge origin/main`, si cancella `docs/anteprima/`, si alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, e solo allora `git push origin HEAD:main`.
 - L'anteprima usa gli stessi progressi (se aperta nello stesso browser) e lo stesso Supabase della guida vera: in un'anteprima non si cambia il formato dei progressi e non si lanciano SQL nuovi che rompano l'app online (le funzioni nuove si aggiungono, le vecchie restano).
 - Le miniature (`python3 scripts/miniature.py`, serve Pillow: si lancia in sessione) vanno rifatte dopo che Mike ha scaricato immagini nuove.
 
