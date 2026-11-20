@@ -3,7 +3,7 @@
 Aggiornato il 20 novembre 2026 sera, versione live **v1.1.0**; il lavoro della 1.2 è sul ramo **`sviluppo`** (anteprima `1.2-b`). Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
 
 ## 0. Da dove ripartire (passaggio di consegne del 20/11 sera)
-Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
+Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug · Pubblicazione: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
 - **Online**: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
 - **Su `sviluppo`, non online (la 1.2 si pubblica solo quando Mike dice «pubblica»; non chiederglielo)**:
   - sezione **Veicoli** come nel gioco (STATO 5e): 6 schede, classi con «Scoperti X / Y», ricerca, chiave del garage, «Aggiungi al garage» per i veicoli che mancano (`progress.myVehicles`, nel Pacchetto per Claude);
@@ -72,7 +72,7 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 **Tecnico**
 - Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
-- Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
+- ~~Controllo automatico delle pagine nel repo~~ fatto il 20/11: `scripts/controlli/` (pagine, grafica, screenshot) con la procedura di rilascio nel README.
 
 ## 4b. Cosa è cambiato nella v0.16.0
 - Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
