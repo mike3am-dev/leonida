@@ -8,7 +8,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { sectionHead, backLink, hero, vis, sectionOf, extrasHtml, haveFilter, passHave, galleryHtml } from './shared.js';
+import { sectionHead, backLink, hero, vis, sectionOf, extrasHtml, haveFilter, passHave, galleryHtml, mini } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { specSheet } from './specs.js';
 
@@ -36,9 +36,17 @@ const href = (o = {}) => { const p = new URLSearchParams(); for (const [k, v] of
 const bar = (n, t) => `<span class="vbar"><i style="width:${t ? Math.round((Math.min(n, t) / t) * 100) : 0}%"></i></span>`;
 const ownBtn = (id, on) => `<button class="vown ${on ? 'is-on' : ''}" type="button" data-own="${esc(id)}" aria-pressed="${on}" aria-label="${on ? 'Nel garage: tocca per togliere' : 'Mettilo nel garage'}"><svg aria-hidden="true"><use href="#i-key"/></svg></button>`;
 
+/** Foto delle schede e delle righe: la miniatura (mini-m 480 px, mini 160 px), mai la foto intera.
+ *  Con le foto intere una classe lunga arrivava a centinaia di MB in memoria e Safari su iPhone si chiudeva (Dada, 20/11).
+ *  Se la miniatura manca si passa alla foto locale e poi alla copia online. */
+function thumb(x, folder) {
+  const m = mini(x.image, folder); const chain = [x.image, x.imageUrl].filter(Boolean);
+  const src = m || chain.shift();
+  return `<img src="${esc(src)}" ${chain.length ? `data-fallback="${esc(chain.join('|'))}"` : ''} alt="" loading="lazy" decoding="async">`;
+}
 function card(x, own, back) {
   return `<div class="dcard-wrap"><a class="dcard ${x.image ? '' : 'dcard--noimg'}" href="#/veicoli/${esc(x.id)}${back}">
-      <span class="dcard__img">${x.image ? `<img src="${esc(x.image)}" ${x.imageUrl ? `data-fallback="${esc(x.imageUrl)}"` : ''} alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
+      <span class="dcard__img">${x.image ? thumb(x, 'mini-m') : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
       <span class="dcard__brand">${esc(x.manufacturer || '')}</span>
       <span class="dcard__body"><span class="dcard__name">${esc(x.name)}</span>${x.status !== 'verificato' ? `<span class="dcard__src">${esc(SRC[x.source] || 'da verificare')}</span>` : ''}</span></a>
     ${ownBtn(x.id, !!own[x.id])}</div>`;
@@ -48,7 +56,7 @@ const mineCard = (id, m) => `<div class="dcard-wrap"><button class="dcard dcard-
     <span class="dcard__body"><span class="dcard__name">${esc(m.name)}</span><span class="dcard__src">aggiunto da te</span></span></button></div>`;
 // Riga dei risultati della ricerca: scheda a sinistra, chiave del garage a destra
 const resultRow = (x, own) => `<div class="row wrow"><a class="wrow__main" href="#/veicoli/${esc(x.id)}">
-    <span class="row__thumb">${x.image ? `<img src="${esc(x.image)}" ${x.imageUrl ? `data-fallback="${esc(x.imageUrl)}"` : ''} alt="" loading="lazy">` : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
+    <span class="row__thumb">${x.image ? thumb(x, 'mini') : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
     <span><span class="row__title">${esc(x.name)}</span><span class="row__meta">${esc(classLabel(x.class))}${x.manufacturer ? ' · ' + esc(x.manufacturer) : ''}</span></span></a>
     ${ownBtn(x.id, !!own[x.id])}</div>`;
 
