@@ -304,6 +304,33 @@
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-criminal-profiles/"
+      ],
+      "profileTypes": [
+        {
+          "id": "professionale",
+          "name": "Professionale",
+          "color": "#f2c230",
+          "halo": true,
+          "short": "Crimini puliti: nessun ferito, prove distrutte."
+        },
+        {
+          "id": "senza-scrupoli",
+          "name": "Senza scrupoli",
+          "color": "#ff8a3d",
+          "short": "Metti fuori combattimento senza uccidere."
+        },
+        {
+          "id": "violento",
+          "name": "Violento",
+          "color": "#a66bf2",
+          "short": "Uccidi nemici, agenti e passanti."
+        },
+        {
+          "id": "folle",
+          "name": "Folle",
+          "color": "#c4c2cc",
+          "short": "Violenza gratuita, anche sugli animali."
+        }
       ]
     },
     {
@@ -391,12 +418,12 @@
           "text": "Per ingrassare apposta: mangia più volte di fila un menu da fast food finché compare il messaggio di surplus calorico, poi dormi e ripeti, senza allenarti. Al massimo del peso Jason e Lucia non diventano poi così grossi, e le prestazioni cambiano poco (Push Square, GamesRadar)."
         },
         {
-          "source": "gioco di Mike (Statistiche)",
-          "text": "Nel menu Statistiche il gioco raccoglie tutto sotto «Benessere»: potenziamenti e superpotenziamenti di salute, resistenza e concentrazione, meditazioni (anche in solitaria), allenamenti completati, aumenti di livello di forza, cardio e concentrazione, aumenti e perdite di peso e lo stato di salute più frequente (per esempio «In salute»). A parte conta gli Zombix e le dosi di adrenalina prese."
-        },
-        {
           "source": "stampa",
           "text": "Dopo una dormita a casa accarezza il serpente, bevi un caffè o qualcosa dal frigo, mangia una mela e fatti una doccia: ognuna di queste cose dà un potenziamento a salute, resistenza o concentrazione che dura parecchio (Eurogamer)."
+        },
+        {
+          "source": "gioco di Mike (Statistiche)",
+          "text": "Sotto «Benessere» il gioco separa i potenziamenti normali dai superpotenziamenti per salute, resistenza e concentrazione. Allenamenti e meditazioni (anche in solitaria) fanno salire forza, cardio e concentrazione; il peso sale e scende, e il gioco registra lo stato di salute più frequente."
         }
       ],
       "relatedIds": [
@@ -509,6 +536,10 @@
         {
           "source": "stampa",
           "text": "Parrucchieri, barbieri e negozi non chiudono mai: sono aperti 24 ore su 24 (Rockstar a Kotaku)."
+        },
+        {
+          "source": "gioco di Mike (Statistiche)",
+          "text": "Per l'aspetto il gioco distingue abbigliamento; capelli, barba e baffi; trucco; manicure; piercing; grillz (le capsule per i denti); tatuaggi."
         }
       ],
       "relatedIds": [
@@ -848,7 +879,7 @@
         },
         {
           "source": "gioco di Mike (Statistiche)",
-          "text": "Nel menu Statistiche il gioco conta fughe riuscite e catture per numero di stelle di sospetto, stelle di sospetto perse, fughe dalla polizia, unità cinofile seminate, allerte rientrate, tempo passato in zone sotto allerta, quante volte sei tornato sospettato ignoto, riconoscimenti superati (aspetto, vestiti, veicoli), filmati della videosorveglianza distrutti, maschere equipaggiate e scosse elettriche ricevute dalla polizia."
+          "text": "Il gioco tiene conto di come semini la polizia: a piedi, con un veicolo di terra, in barca o in volo, e conta le unità cinofile seminate, le stelle perse e le volte che torni «sospettato ignoto». Superare i riconoscimenti (aspetto, vestiti, veicoli) e distruggere i filmati della videosorveglianza sono azioni a sé, come usare il partner come esca. La polizia può anche colpirti con scosse elettriche."
         }
       ],
       "relatedIds": [
@@ -993,6 +1024,10 @@
         {
           "source": "stampa",
           "text": "I negozi sono aperti 24 ore su 24: a qualsiasi ora trovi cassa piena e clienti (Rockstar a Kotaku)."
+        },
+        {
+          "source": "gioco di Mike (Statistiche)",
+          "text": "Il gioco distingue le rapine dalle «rapine senza intoppi», fatte senza farti scoprire, e conta le maschere equipaggiate e i filmati della videosorveglianza distrutti."
         }
       ],
       "relatedIds": [
@@ -1247,6 +1282,10 @@
         {
           "source": "stampa",
           "text": "Colori della concentrazione (Eurogamer): bianco per gli oggetti utili (porte, cibo), rosso per nemici, esplosivi, allarmi e armi da raccogliere, viola per la droga, verde per i contanti, blu per gli agenti; un cerchio bianco che pulsa segnala un rumore, per esempio un pacco che suona. Fuori dagli scontri dura circa 30 secondi, poi qualche secondo di pausa; in auto ad alta velocità finisce prima. Se scegli di seguire le tracce di un animale, restano visibili anche dopo."
+        },
+        {
+          "source": "gioco di Mike (Statistiche)",
+          "text": "Il gioco tiene il conto degli abbattimenti furtivi e della precisione al tiro, e distingue chi uccidi da chi rendi inoffensivo (civili e agenti)."
         }
       ],
       "relatedIds": [
@@ -1374,7 +1413,7 @@
         },
         {
           "source": "gioco di Mike (Statistiche)",
-          "text": "Nel menu Statistiche il gioco conta veicoli, stupefacenti, gioielli e banconote segnate venduti ai ricettatori, le borse della refurtiva sequestrate, perse e recuperate, e i soldi persi all'arresto e alla morte."
+          "text": "I soldi entrano dai ricettatori, a cui vendi veicoli, stupefacenti, gioielli e banconote segnate, ed escono in mille rivoli: veicoli (modifiche, riparazioni, recupero, benzina e ricariche), estetica, servizi (attività, mance, taxi, mezzi pubblici, pedaggi, biglietti delle attrazioni) e negozi. Arresto e morte ti costano contanti, e le borse della refurtiva sequestrate si possono perdere o recuperare."
         }
       ],
       "relatedIds": [
@@ -1692,7 +1731,7 @@
         },
         {
           "source": "gioco di Mike (Statistiche)",
-          "text": "Nel menu Statistiche il gioco conta i veicoli riverniciati ai Pay 'n' Spray, quelli distrutti e riparati, riforniti e ricaricati, i taxi presi, i veicoli noleggiati, quelli messi sotto sequestro e i tuoi veicoli distrutti; tra le spese, modifiche, riparazioni, recupero dei veicoli, benzina e ricariche e pedaggi."
+          "text": "Oltre a guidare, con i veicoli puoi riverniciarli al Pay 'n' Spray, ripararli quando sono distrutti, fare benzina o ricaricare gli elettrici, noleggiarli e prendere un taxi. Se finiscono sotto sequestro paghi per recuperarli; i tuoi veicoli distrutti vanno sostituiti."
         }
       ],
       "relatedIds": [
@@ -2070,6 +2109,10 @@
         {
           "source": "stampa",
           "text": "Niente tennis, triathlon né gioco d'azzardo: il casinò Merlin's Palace, a Vice City, c'è ma resta chiuso. Rockstar dice che la mappa è fatta anche per contenuti futuri (IGN Italia, Insider Gaming)."
+        },
+        {
+          "source": "gioco di Mike (Statistiche)",
+          "text": "Nei locali puoi lasciare la mancia a baristi e camerieri, e anche negli alberghi; le attrazioni hanno il loro biglietto."
         }
       ],
       "relatedIds": [

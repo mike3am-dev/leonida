@@ -11,6 +11,7 @@ import { showSheet } from '../ui/sheet.js';
 import { sectionHead, sectionOf, vis } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { galleryBlock } from './scatti.js';
+import * as criminale from './criminale.js';
 
 const section = sectionOf('banda');
 let cache = null, loading = false, error = '';
@@ -36,6 +37,8 @@ export function summary(st) {
 }
 
 const when = (iso) => { try { const d = new Date(iso); const today = new Date().toDateString() === d.toDateString(); return today ? `oggi ${d.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}` : d.toLocaleDateString('it-IT', { day: 'numeric', month: 'short' }); } catch { return ''; } };
+/** Il profilo criminale dichiarato: il mio dai progressi di questo telefono, quello degli altri dalla banda */
+const crimeOf = (r) => (r.sei_tu ? progress.get().crime : r.progressi?.crime) || '';
 const bar = (n, t) => `<span class="bbar"><i style="width:${t ? Math.min(100, (n / t) * 100) : 0}%"></i></span>`;
 
 async function load(rerender) {
@@ -58,7 +61,7 @@ export function render() {
   const rows = (cache?.rows || []).slice().sort((x, y) => y.s.pct - x.s.pct || y.s.tro - x.s.tro);
   const list = rows.map((r, i) => `<button type="button" class="brow ${r.sei_tu ? 'is-me' : ''}" data-banda="${i}">
       <span class="brow__pos">${i + 1}</span>
-      <span class="brow__who"><span class="brow__name"><b>${esc(r.nick)}</b>${r.sei_tu ? '<span class="chip chip--tu">tu</span>' : ''}</span><span class="small muted">${r.s.cap ? `Capitolo ${r.s.cap}` : 'Non ha ancora iniziato'} · 🏆 ${r.s.tro}/${r.s.troTot} · aggiornato ${esc(when(r.aggiornato))}</span>${bar(r.s.pct, 100)}</span>
+      <span class="brow__who"><span class="brow__name"><b>${esc(r.nick)}</b>${r.sei_tu ? '<span class="chip chip--tu">tu</span>' : ''}${criminale.tag(crimeOf(r))}</span><span class="small muted">${r.s.cap ? `Capitolo ${r.s.cap}` : 'Non ha ancora iniziato'} · 🏆 ${r.s.tro}/${r.s.troTot} · aggiornato ${esc(when(r.aggiornato))}</span>${bar(r.s.pct, 100)}</span>
       <span class="brow__pct">${r.s.pct.toLocaleString('it-IT')}%</span></button>`).join('');
   const left = `${head}
     <p class="lede">Chi è più avanti? Tocca un amico per confrontarti con lui e scoprire cosa ha trovato che a te manca.</p>
@@ -82,7 +85,8 @@ function compare(r) {
   const byAct = {};
   for (const m of vis(db.sideMissions || [])) if (o.missions?.[m.id]?.state === 'completata' && me.missions?.[m.id]?.state !== 'completata') { const n = (db.acts || []).find((a) => a.id === m.actId)?.number ?? 0; byAct[n] = (byAct[n] || 0) + 1; }
   const body = document.createElement('div');
-  body.innerHTML = `<div class="cmpb"><div class="cmpb__head"><span>Tu</span><span></span><span>${esc(r.nick)}</span></div>
+  const crimes = me.crime || o.crime ? `<div class="cmpb__crime"><span>${criminale.tag(me.crime) || '<span class="small muted">non scelto</span>'}</span><span class="small muted">Profilo criminale</span><span>${criminale.tag(o.crime) || '<span class="small muted">non scelto</span>'}</span></div>` : '';
+  body.innerHTML = `<div class="cmpb"><div class="cmpb__head"><span>Tu</span><span></span><span>${esc(r.nick)}</span></div>${crimes}
       ${rowsCmp.map(([l, a, b, t]) => `<div class="cmpb__row"><span class="cmpb__n ${a > b ? 'is-win' : ''}">${a}</span><span class="cmpb__mid"><span class="small">${esc(l)}</span><span class="cmpb__bars">${bar(a, t)}${bar(b, t)}</span></span><span class="cmpb__n ${b > a ? 'is-win' : ''}">${b}</span></div>`).join('')}
       <p class="small muted">${his.cap > mine.cap ? `È più avanti di te nella storia: capitolo ${his.cap} contro il tuo ${mine.cap || 'iniziale'}.` : his.cap < mine.cap ? `Sei più avanti tu nella storia: capitolo ${mine.cap} contro il suo ${his.cap || 'iniziale'}.` : 'Siete allo stesso capitolo.'}</p></div>
     ${colls.length ? `<h3 class="fsec__t">Ha trovato e a te manca · ${colls.length}</h3><ul class="banda-miss">${colls.slice(0, 40).map((c) => `<li><a href="#/collezionabili?cat=${esc(c.categoryId)}">${esc(c.name)}</a><span class="small muted">${esc(catName(c.categoryId))}${c.directions ? ' · ' + esc(c.directions) : ''}</span></li>`).join('')}</ul>${colls.length > 40 ? `<p class="small muted">E altri ${colls.length - 40}.</p>` : ''}` : ''}

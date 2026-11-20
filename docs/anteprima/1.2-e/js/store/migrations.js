@@ -13,6 +13,7 @@ export function emptyState() {
     activities: {},    // id -> 'completata'
     notes: [],         // { id, ts, text, districtId, missionId }
     owned: {},         // id -> ISO date (armi nello zaino, veicoli nel garage)
+    // crime: id del profilo criminale dichiarato in Home (facoltativo, vedi views/criminale.js)
     myVehicles: {},    // id -> { name, cls, at }: veicoli aggiunti a mano al garage (non ancora nella guida)
     trophies: {},      // id -> ISO date
     discovered: {},    // id -> ISO date (personaggi incontrati, regioni scoperte: segnati a mano)

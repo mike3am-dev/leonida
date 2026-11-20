@@ -24,6 +24,7 @@ import * as novita from './views/novita.js';
 import * as trofei from './views/trofei.js';
 import * as armi from './views/armi.js';
 import * as meccaniche from './views/meccaniche.js';
+import * as criminale from './views/criminale.js';
 import * as benvenuto from './views/benvenuto.js';
 import * as profilo from './views/profilo.js';
 import * as playlistView from './views/playlist.js';
@@ -32,7 +33,7 @@ import * as banda from './views/banda.js';
 import * as scatti from './views/scatti.js';
 import * as cloud from './store/cloud.js';
 
-window.__LEONIDA_VERSION__ = 'prova 1.2-b';
+window.__LEONIDA_VERSION__ = 'prova 1.2-e';
 
 const $ = (id) => document.getElementById(id);
 let currentRender = null;
@@ -254,6 +255,7 @@ function bindGlobal() {
   playlistView.bind(root, rerender);
   radioDeck.bind(root);
   banda.bind(root, rerender);
+  criminale.bind(root, rerender);
   scatti.bind(root);
   profilo.bind(root, rerender, { after: () => { if (router.parse()?.path === '/benvenuto') benvenuto.done(); } });
   let qt = null;
