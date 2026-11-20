@@ -318,8 +318,8 @@ Richieste di Mike sulla sezione Veicoli:
 Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a colpo d'occhio in classifica. Schermate mandate a Mike (regola degli schizzi, CLAUDE.md): approvato («sì mi piace»). Su `sviluppo`, anteprima `1.2-e`.
 - Dati: `meccaniche.json → mec-profilo-criminale.profileTypes` (id, name, color del diavoletto del gioco, short). Progressi: `state.crime` = id (campo facoltativo, niente migrazione).
 - `docs/js/views/criminale.js`: riquadro in Home sotto «I tuoi progressi» (4 pulsanti col diavoletto, uno acceso; ritocco = spento), `tag()` per l'etichetta in classifica e nel confronto della banda.
-- Banda: gli altri si leggono da `progressi.crime`. **Serve che Mike rilanci in Supabase la funzione `banda` di `scripts/supabase/community.sql`** (aggiunge solo la chiave `crime` dentro `progressi`: l'app online continua a funzionare). Finché non lo fa ognuno vede solo il suo.
-- Da chiedere a Mike: nel gioco Jason e Lucia hanno un profilo a testa? Oggi se ne dichiara uno solo per giocatore. Quinto livello («Irredeemable») non incluso: manca il nome italiano.
+- Banda: gli altri si leggono da `progressi.crime`. La funzione `banda` di `scripts/supabase/community.sql` passa anche `crime` dentro `progressi`: **Mike l'ha rilanciata in Supabase il 20/11 sera (fatto)**. Gli altri compaiono quando hanno la versione nuova e scelgono il loro.
+- Decisione di Mike (20/11 sera): per ora un profilo solo per giocatore; se Jason e Lucia ne hanno uno a testa «poi capiremo». Quinto livello («Irredeemable») non incluso: manca il nome italiano.
 - Nelle prove con Playwright le chiamate a Supabase vanno intercettate con `p.route(/supabase\.co/, …)` (il motivo a glob `**/supabase.co/**` NON le ferma).
 
 ## 6. Strumenti e verifiche prima di ogni push
