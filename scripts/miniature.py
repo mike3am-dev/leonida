@@ -20,6 +20,9 @@ for x in L('districts.json'):
     if x.get('image'): medium.add(x['image'])
 for x in L('characters.json'):
     if x.get('image'): small.add(x['image'])
+# Veicoli: schede (mini-m) e righe della ricerca (mini). Con le foto intere Safari su iPhone si chiudeva (20/11).
+for x in L('vehicles.json'):
+    if x.get('image'): small.add(x['image']); medium.add(x['image'])
 
 def make(src, folder, side, q):
     if not src.startswith(IMG): return 0

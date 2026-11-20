@@ -3,7 +3,9 @@
  * viewport: il riquadro fisso; content: l'elemento che si sposta e si ingrandisce.
  * Le coordinate "di contenuto" sono in pixel del contenuto a scala 1.
  */
-export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.12, onChange, enabled = () => true, cover = false } = {}) {
+/** flat: trasformazione 2D (niente translate3d). Su iPhone il livello 3D di una mappa grande, ingrandita fino a 7 volte,
+ *  finiva la memoria e Safari si chiudeva (Dada, 17 Pro Max, iOS 27.2): in 2D Safari disegna solo la parte che si vede. */
+export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margin = 0.12, onChange, enabled = () => true, cover = false, flat = false } = {}) {
   const minS0 = minScale;
   /** Con cover: non si rimpicciolisce oltre il punto in cui la mappa riempie il riquadro */
   const updateMin = () => { if (cover && cw && ch) minScale = Math.max(minS0, viewport.clientWidth / cw, viewport.clientHeight / ch); };
@@ -13,7 +15,7 @@ export function panzoom(viewport, content, { minScale = 0.2, maxScale = 6, margi
   let pinch = null, lastTap = 0, moved = false, raf = null;
 
   const apply = () => {
-    content.style.transform = `translate3d(${x}px, ${y}px, 0) scale(${s})`;
+    content.style.transform = flat ? `translate(${x}px, ${y}px) scale(${s})` : `translate3d(${x}px, ${y}px, 0) scale(${s})`;
     content.style.setProperty('--s', s);
     if (!raf) raf = requestAnimationFrame(() => { raf = null; onChange?.(state()); });
   };

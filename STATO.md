@@ -3,7 +3,7 @@
 Aggiornato il 20 novembre 2026 sera, versione live **v1.1.0**; il lavoro della 1.2 è sul ramo **`sviluppo`** (anteprima `1.2-b`). Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
 
 ## 0. Da dove ripartire (passaggio di consegne del 20/11 sera)
-Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
+Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug · Pubblicazione: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
 - **Online**: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
 - **Su `sviluppo`, non online (la 1.2 si pubblica solo quando Mike dice «pubblica»; non chiederglielo)**:
   - sezione **Veicoli** come nel gioco (STATO 5e): 6 schede, classi con «Scoperti X / Y», ricerca, chiave del garage, «Aggiungi al garage» per i veicoli che mancano (`progress.myVehicles`, nel Pacchetto per Claude);
@@ -47,7 +47,7 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sezione della versione. **Regola di Mike (19/11 sera): queste voci si segnano e basta; si lavora solo quando lui dice di partire.**
 
 ### Dopo la 1.0.1: risposte di Mike (19/11 sera)
-1. **Mappa su iPhone**: per Mike va bene così finché Dada non dice altro. Se torna a chiudersi: togliere il livello composito grande (`translate3d` su `.mapboard__content`) su iOS e usare tessere a risoluzione normale.
+1. **Mappa su iPhone**: Dada (17 Pro Max, iOS 27.2) il 20/11 sera ha ancora il crash di Safari sulla mappa sbloccata e in Veicoli: corretto dalla chat Bug (STATO 5f). Se torna ancora: nascondere le Polaroid a zoom alto e aggiornare `--s` dei segnaposto solo a fine gesto.
 2. **Titoli italiani del capitolo 1**: «Armi in spalla» resta, per ora (Mike). 6 titoli hanno una fonte sola (`titleNote`). Facoltative del capitolo 1 e capitoli 2-5 ancora quasi tutti in inglese: cercarli nei feed RSS dei canali italiani (IosonoOtakuman, PANZA MARANZA GAMING, Jugin Gamer, ATLAS, Gameataly, Playstream Chronicles).
 3. **Foto degli Scatti**: per Mike va bene così. La cancellazione del file dal bucket non è stata provata sul Supabase vero: se una foto cancellata resta raggiungibile dal suo indirizzo, guardare le due policy di `scatti-admin.sql`.
 4. **Consigli e spoiler**: i passi («Cosa devi fare») sono in chiaro per scelta.
@@ -74,7 +74,7 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 **Tecnico**
 - Riordino di `docs/css/components.css` (FABLE.md voce 4, senza cambiare un pixel).
-- Il controllo automatico delle pagine (`scratchpad/rc/crawl.cjs` della sessione del 19/11) va portato nel repo come `scripts/controllo-pagine.cjs`, da lanciare prima di ogni rilascio.
+- ~~Controllo automatico delle pagine nel repo~~ fatto il 20/11: `scripts/controlli/` (pagine, grafica, screenshot) con la procedura di rilascio nel README.
 
 ## 4b. Cosa è cambiato nella v0.16.0
 - Home senza «Lo sapevi?» e «In onda oggi»; nella plancia «Giorni di gioco» (dal 19). «Prossima missione» non rivela più il nome.
@@ -302,6 +302,27 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 **«Come si gioca» è il posto dove finisce quello che scopriamo (Mike, 20/11 sera):** niente pagina «Statistiche» a parte e niente contatori dettagliati da compilare (né nei personaggi né altrove). Le statistiche del gioco e tutto ciò che scopriamo man mano arricchiscono, correggono o confermano le descrizioni delle schede di «Come si gioca» (`meccaniche.json`).
 
 **Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
+
+## 5f. Bug: Safari si chiude su iPhone, mappa e Veicoli (chat Bug, 20/11 sera)
+Segnalazione di Mike: Dada (iPhone 17 Pro Max, iOS 27.2) ha ancora il crash di Safari quando sblocca la mappa per esplorare e quando è in Veicoli. Entrambi sono memoria piena (non si riproduce su Chromium: corretto per ragionamento, da far provare a Dada).
+- **Veicoli**: le schede e le righe della ricerca caricavano la foto intera (259 foto, ~92 megapixel ≈ 370 MB decodificati). Ora usano le miniature (`thumb()` in `veicoli.js`: `mini-m` 480 px nelle schede, `mini` 160 px nelle righe, poi foto locale e copia online). `scripts/miniature.py` fa anche quelle dei veicoli (7 MB in tutto, già nel repo): rilanciarlo dopo ogni scaricamento di immagini nuove.
+- **Mappa**: su iPhone/iPad (`IOS` in `mapboard.js`) la mappa si muove con una trasformazione 2D (`panzoom(..., { flat: true })`, niente `translate3d`), zoom massimo 5 invece di 7, tessere fino al livello 5 e chieste solo quando il dito si ferma (220 ms; prima a ogni fotogramma del pizzico). Tolti tutti i `filter` dentro la mappa (ombra del filo rosso, colori delle Polaroid, grigio dei segnaposto «da trovare» e dei badge), che ingranditi diventano immagini enormi; a zoom alto le Polaroid hanno un'ombra netta invece che sfumata. Regola: **niente `filter` né ombre sfumate grandi dentro `.mapboard__content`**.
+- Su `sviluppo` (anteprima `1.2-c`). Va online con la prossima versione, che porta la chat Pubblicazione.
+
+## 5g. Veicoli più puliti (chat Bug, 20/11 sera, anteprima 1.2-d)
+Richieste di Mike sulla sezione Veicoli:
+- La fila delle schede (Auto, Motocicli…) non salta più quando tocchi: `render` legge dove era la fila prima di ridisegnare e la rimette lì in un microtask (prima che la pagina venga disegnata). Le schede hanno solo il nome, senza «x/y».
+- Filtro della classe: **Tutti / Scoperti** («Nel garage» confondeva, «Mi mancano» tolto). Resta la chiave sulle foto.
+- Celle delle classi: «x / y» in alto a destra, allineato al titolo; via la barra e «xx nella guida»; sotto una descrizione di massimo due righe (`groups[].classes[].note` in `vehicles.json`). Coupé e Veicoli muscle hanno il testo del gioco; le altre 41 le ho scritte io: **da sostituire con il testo del gioco** quando Mike manda le schermate.
+- Schede dei veicoli: via la marca sulla foto (c'è già nel nome). Regola di Mike: niente ripetizioni, se un'informazione è già chiara non si riscrive.
+
+## 5h. Profilo criminale dichiarato (chat Grafica, 20/11 sera)
+Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a colpo d'occhio in classifica. Schermate mandate a Mike (regola degli schizzi, CLAUDE.md): approvato («sì mi piace»). Su `sviluppo`, anteprima `1.2-e`.
+- Dati: `meccaniche.json → mec-profilo-criminale.profileTypes` (id, name, color del diavoletto del gioco, short). Progressi: `state.crime` = id (campo facoltativo, niente migrazione).
+- `docs/js/views/criminale.js`: riquadro in Home sotto «I tuoi progressi» (4 pulsanti col diavoletto, uno acceso; ritocco = spento), `tag()` per l'etichetta in classifica e nel confronto della banda.
+- Banda: gli altri si leggono da `progressi.crime`. La funzione `banda` di `scripts/supabase/community.sql` passa anche `crime` dentro `progressi`: **Mike l'ha rilanciata in Supabase il 20/11 sera (fatto)**. Gli altri compaiono quando hanno la versione nuova e scelgono il loro.
+- Decisione di Mike (20/11 sera): per ora un profilo solo per giocatore; se Jason e Lucia ne hanno uno a testa «poi capiremo». Quinto livello («Irredeemable») non incluso: manca il nome italiano.
+- Nelle prove con Playwright le chiamate a Supabase vanno intercettate con `p.route(/supabase\.co/, …)` (il motivo a glob `**/supabase.co/**` NON le ferma).
 
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.

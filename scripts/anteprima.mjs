@@ -5,7 +5,7 @@
  *
  * Uso:  node scripts/anteprima.mjs <nome> [--radice <cartella di un checkout di main>]
  *   Prende i file di docs/ COSÌ COME SONO ORA nella cartella di lavoro (anche non ancora pubblicati) e scrive
- *   <radice>/docs/anteprima/<nome>/ (radice = questo repo, se non la dai). Cancella le anteprime più vecchie.
+ *   <radice>/docs/anteprima/<nome>/ (radice = questo repo, se non la dai). Cancella solo le anteprime vecchie con lo stesso prefisso (es. grafica-1 cancella grafica-*).
  *   L'anteprima usa immagini, font e icone della guida vera (percorsi ../../): i file nuovi di docs/assets vengono
  *   copiati anche nella radice, perché l'anteprima li trovi.
  * Indirizzo: https://mike3am-dev.github.io/leonida/anteprima/<nome>/
@@ -26,7 +26,10 @@ const root = args.includes('--radice') ? path.resolve(args[args.indexOf('--radic
 const src = path.join(repo, 'docs'), base = path.join(root, 'docs', 'anteprima'), out = path.join(base, name);
 const UP = '../../';
 
-await rm(base, { recursive: true, force: true });
+// Ogni chat ha il suo prefisso (grafica-…, bug-…, caccia-…, gioco-…): si cancellano solo le anteprime vecchie con lo stesso prefisso,
+// così le anteprime delle altre chat restano visibili (Mike lavora con più chat in parallelo dal 20/11).
+const prefix = name.includes('-') ? name.slice(0, name.lastIndexOf('-') + 1) : name;
+try { for (const e of await readdir(base, { withFileTypes: true })) if (e.isDirectory() && (e.name === name || e.name.startsWith(prefix))) await rm(path.join(base, e.name), { recursive: true, force: true }); } catch {}
 await mkdir(out, { recursive: true });
 
 async function walk(dir) { const o = []; for (const e of await readdir(dir, { withFileTypes: true })) { const p = path.join(dir, e.name); if (e.isDirectory()) o.push(...await walk(p)); else o.push(p); } return o; }
