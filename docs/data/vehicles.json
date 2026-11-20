@@ -9,55 +9,64 @@
           "id": "coupe",
           "name": "Coupé",
           "total": 18,
-          "note": "Auto per passeggeri, agili e compatte."
+          "note": "Auto per passeggeri, agili e compatte.",
+          "cover": "veh-vapid-hustler"
         },
         {
           "id": "muscle",
           "name": "Veicoli muscle",
           "total": 26,
-          "note": "Veicoli rumorosi, potenti e dallo stile aggressivo."
+          "note": "Veicoli rumorosi, potenti e dallo stile aggressivo.",
+          "cover": "veh-vapid-stanier-55"
         },
         {
           "id": "fuoristrada",
           "name": "Veicoli fuoristrada",
           "total": 8,
-          "note": "Ruote alte e 4x4: sterrati, paludi e spiagge."
+          "note": "Ruote alte e 4x4: sterrati, paludi e spiagge.",
+          "cover": "veh-vapid-dominator-buggy-67"
         },
         {
           "id": "pickup",
           "name": "Pick-up",
           "total": 17,
-          "note": "Cassone e muso robusto: da lavoro e da campagna."
+          "note": "Cassone e muso robusto: da lavoro e da campagna.",
+          "cover": "veh-declasse-rancher"
         },
         {
           "id": "berlina",
           "name": "Berline",
           "total": 29,
-          "note": "Quattro porte, comode e discrete."
+          "note": "Quattro porte, comode e discrete.",
+          "cover": "veh-berlina-stile-mercedes-classe-c-w205"
         },
         {
           "id": "sportiva",
           "name": "Auto sportive",
           "total": 13,
-          "note": "Veloci e precise in curva, a un prezzo giusto."
+          "note": "Veloci e precise in curva, a un prezzo giusto.",
+          "cover": "veh-pfister-comet-s2-cabrio"
         },
         {
           "id": "supercar",
           "name": "Supercar",
           "total": 9,
-          "note": "Le più veloci e le più care di Leonida."
+          "note": "Le più veloci e le più care di Leonida.",
+          "cover": "veh-grotti-cheetah-95"
         },
         {
           "id": "suv",
           "name": "SUV",
           "total": 23,
-          "note": "Grandi e solide, vanno bene anche fuori strada."
+          "note": "Grandi e solide, vanno bene anche fuori strada.",
+          "cover": "veh-declasse-granger-3600lx"
         },
         {
           "id": "furgone",
           "name": "Furgoni",
           "total": 14,
-          "note": "Vani di carico per consegne e lavoretti."
+          "note": "Vani di carico per consegne e lavoretti.",
+          "cover": "veh-furgone-stile-ford-transit"
         }
       ]
     },
@@ -69,7 +78,8 @@
           "id": "moto",
           "name": "Motocicli, quad e bici",
           "total": 29,
-          "note": "Moto, quad e bici: agili nel traffico e sui sentieri."
+          "note": "Moto, quad e bici: agili nel traffico e sui sentieri.",
+          "cover": "veh-dinka-enduro"
         }
       ]
     },
@@ -81,7 +91,8 @@
           "id": "imbarcazioni",
           "name": "Imbarcazioni",
           "total": 28,
-          "note": "Motoscafi e barche per coste, Keys e paludi."
+          "note": "Motoscafi e barche per coste, Keys e paludi.",
+          "cover": "veh-catamarano-a-motore-stile-horizon-pc60"
         }
       ]
     },
@@ -93,7 +104,8 @@
           "id": "velivoli",
           "name": "Velivoli",
           "total": 16,
-          "note": "Aerei ed elicotteri: Leonida dall'alto."
+          "note": "Aerei ed elicotteri: Leonida dall'alto.",
+          "cover": "veh-mammoth-dodo"
         }
       ]
     },
@@ -105,37 +117,43 @@
           "id": "camion",
           "name": "Camion",
           "total": 11,
-          "note": "Mezzi pesanti: lenti a partire, difficili da fermare."
+          "note": "Mezzi pesanti: lenti a partire, difficili da fermare.",
+          "cover": "veh-maibatsu-mule"
         },
         {
           "id": "servizio",
           "name": "Veicoli di servizio",
           "total": 9,
-          "note": "Taxi, autobus e mezzi di chi lavora in città."
+          "note": "Taxi, autobus e mezzi di chi lavora in città.",
+          "cover": "veh-carro-attrezzi-stile-ford-f-series"
         },
         {
           "id": "emergenza",
           "name": "Veicoli d'emergenza",
           "total": 7,
-          "note": "Polizia, ambulanze e pompieri, con sirene."
+          "note": "Polizia, ambulanze e pompieri, con sirene.",
+          "cover": "veh-brute-stockade"
         },
         {
           "id": "militari",
           "name": "Veicoli militari",
           "total": 8,
-          "note": "Mezzi blindati, rarissimi da trovare in giro."
+          "note": "Mezzi blindati, rarissimi da trovare in giro.",
+          "cover": "veh-rhino-tank"
         },
         {
           "id": "industriali",
           "name": "Veicoli industriali",
           "total": 6,
-          "note": "Mezzi da cantiere: pesanti e lenti."
+          "note": "Mezzi da cantiere: pesanti e lenti.",
+          "cover": "veh-stanley-fieldmaster"
         },
         {
           "id": "trasporto",
           "name": "Veicoli da trasporto",
           "total": 6,
-          "note": "Per portare persone o merci in quantità."
+          "note": "Per portare persone o merci in quantità.",
+          "cover": "veh-vapid-stanier-taxi"
         }
       ]
     },
@@ -183,13 +201,15 @@
           "id": "sp-donk",
           "name": "Donk",
           "total": 5,
-          "note": "Cerchi giganti e carrozzeria lucida."
+          "note": "Cerchi giganti e carrozzeria lucida.",
+          "cover": "veh-willard-faction-donk"
         },
         {
           "id": "sp-lowrider",
           "name": "Lowrider",
           "total": 5,
-          "note": "Rasoterra, idraulica e cromature: per sfilare."
+          "note": "Rasoterra, idraulica e cromature: per sfilare.",
+          "cover": "veh-albany-buccaneer-custom"
         },
         {
           "id": "sp-hot-rod",
