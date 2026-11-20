@@ -107,7 +107,7 @@
       ],
       "rewards": [
         "Trofeo «Esca preparata»: batti Cal in una sfida di pesca.",
-        "Pescare alza il Focus.",
+        "Pescare alza la concentrazione.",
         "Sfide di sopravvivenza: un pesce da 20 libbre, 3 pesci con ogni tipo di esca in un giorno, 4 specie in 6 minuti, tutte le specie."
       ],
       "steps": [
@@ -120,7 +120,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Pesca e caccia",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
@@ -173,15 +173,15 @@
       "rewards": [
         "Una gioielleria rende da 1.000 a 25.000 $ a colpo.",
         "Trofeo «Mani di fata»: gioielleria senza farti notare (entra dal retro con la Snap Gun, spegni l'allarme, il codice della cassaforte è su un biglietto).",
-        "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di ricercato.",
+        "Trofeo «Shopping compulsivo»: 3 negozi di fila col partner senza perdere il livello di sospetto.",
         "Un negozio di liquori rende da 100 a 3.000 $."
       ],
       "steps": [
         "Gioielli e contanti vanno venduti a un ricettatore.",
-        "Nel retro distruggi i nastri e spegni l'allarme: il profilo criminale resta «Professional».",
-        "Il codice della cassaforte cambia ogni volta: cercalo scritto nel retro (il Focus aiuta) o fattelo dire puntando l'arma su un dipendente.",
+        "Nel retro distruggi i nastri e spegni l'allarme: il profilo criminale resta «Professionale».",
+        "Il codice della cassaforte cambia ogni volta: cercalo scritto nel retro (la concentrazione aiuta) o fattelo dire puntando l'arma su un dipendente.",
         "Prima di entrare seleziona il negozio sulla mappa: vedi se ha una cassaforte, quanto è sorvegliato e quanto vale.",
-        "Col Focus le porte collegate all'allarme sono rosse."
+        "Con la concentrazione le porte collegate all'allarme sono rosse."
       ],
       "image": null,
       "status": "verificato",
@@ -189,7 +189,7 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Lavoretti e crimini",
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/",
@@ -285,11 +285,11 @@
       "sourceUrl": "https://www.redbull.com/int-en/gta-6-extended-look-everything-revealed",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "extras": [
         {
           "source": "community",
-          "text": "A basket i tiri si mirano e si temporizzano a mano, e fare canestro allena il Focus. C'è un canestro anche sotto la casa di Jason a Key Lento."
+          "text": "A basket i tiri si mirano e si temporizzano a mano, e fare canestro allena la concentrazione. C'è un canestro anche sotto la casa di Jason a Key Lento."
         },
         {
           "source": "community",
@@ -342,14 +342,14 @@
       ],
       "rewards": [
         "Trofeo «Cecchino».",
-        "Ogni sfida, finita o abbandonata, alza il Focus per sempre.",
+        "Ogni sfida, finita o abbandonata, alza la concentrazione per sempre.",
         "Dopo la storia: 25 bronzi sbloccano il trucco Munizioni al massimo, 25 argenti Munizioni infinite, 25 ori Niente ricarica."
       ],
       "steps": [
         "Al Griffin gioca con Lucia: corre e si muove meglio di Jason.",
         "Al Griffin spara in fretta: il centro toglie un secondo, ma fermarsi a mirare costa di più.",
         "Al Rodgers colpisci il corpo una o due volte prima della testa per far salire il moltiplicatore; un colpo a vuoto lo abbassa.",
-        "Per allenare il Focus fai il Market Range, livello principiante, al Rodgers: dura cinque secondi, poi esci e ricomincia."
+        "Per allenare la concentrazione fai il Market Range, livello principiante, al Rodgers: dura cinque secondi, poi esci e ricomincia."
       ],
       "image": null,
       "status": "verificato",
@@ -357,7 +357,7 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "group": "Sport e fitness"
     },
     {
@@ -370,7 +370,7 @@
         "Per il 100% gioca una partita in 2 minigolf su 3: i due campi grandi non contano."
       ],
       "rewards": [
-        "Il golf alza il Focus.",
+        "Il golf alza la concentrazione.",
         "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti, a 3 sotto il par; tutti e due i percorsi nello stesso giorno, al par; due buche in uno consecutive."
       ],
       "steps": [
@@ -383,7 +383,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Svago",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
@@ -504,7 +504,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "id": "act-riviste",
       "name": "Riviste e fumetti da collezionare",
       "type": "attività",
@@ -515,7 +515,7 @@
         "Alcune copie stanno in edifici della storia che poi chiudono, ma si trovano anche altrove."
       ],
       "rewards": [
-        "Leggere riviste e libri alza il Focus."
+        "Leggere riviste e libri alza la concentrazione."
       ],
       "steps": [
         "Le prime sono già in casa di Jason: in soggiorno, accanto al barbecue e nel capanno.",
@@ -535,7 +535,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "act-covi",
       "name": "Raid ai covi delle gang",
       "type": "attività",
@@ -552,9 +552,9 @@
       ],
       "steps": [
         "Porta bombe adesive: aprono le casseforti.",
-        "Avvicinati dal lato coperto: per i covi sull'acqua arriva in barca, da dove non ti vedono. Col Focus vedi in rosso guardie, esplosivi e animali pericolosi (in alcuni covi ci sono alligatori o una tigre).",
+        "Avvicinati dal lato coperto: per i covi sull'acqua arriva in barca, da dove non ti vedono. Con la concentrazione vedi in rosso guardie, esplosivi e animali pericolosi (in alcuni covi ci sono alligatori o una tigre).",
         "L'arma unica del covo raccoglila almeno una volta: da quel momento resta tua per sempre, nel veicolo personale (GTA BOOM). Prendila prima del resto.",
-        "Dopo i primi spari arrivano rinforzi della banda e poi la polizia: raccogli in fretta contanti e droga, carica le borse nel veicolo (comando per depositarle) e vendi la droga a un ricettatore."
+        "Dopo i primi spari arrivano rinforzi della banda e poi la polizia: raccogli in fretta contanti e droga, carica le borse della refurtiva nel veicolo (comando per depositarle) e vendi la droga a un ricettatore."
       ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Lavoretti e crimini",
@@ -1059,7 +1059,7 @@
         "Delights chiude per un periodo: se non batti l'avversario entro il capitolo 2, ci torni quando riapre."
       ],
       "rewards": [
-        "Il biliardo alza il Focus.",
+        "Il biliardo alza la concentrazione.",
         "Sfide sportive: vinci in 3 posti in un giorno, tre sponde prima della buca, 8 in buca al tiro d'apertura."
       ],
       "steps": [
@@ -1072,7 +1072,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Sport e fitness",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
@@ -1085,9 +1085,10 @@
       "type": "attività",
       "name": "Palestra",
       "districtId": "dis-vice-city",
-      "description": "Ci si iscrive alle palestre pagando l'abbonamento (sono molte, soprattutto a Vice City). I pesi alzano la forza, cioè la salute massima; tapis roulant e cyclette il cardio, cioè la resistenza. Nel capitolo 1 ci sono i pesi sulla terrazza di casa.",
+      "description": "Ci si iscrive alle palestre pagando una volta sola l'abbonamento al bancone, poi le usi quando vuoi. Sono tutte a Vice City. I pesi alzano la forza, cioè la salute massima; tapis roulant, cyclette e sacco il cardio, cioè la resistenza. Nel capitolo 1 ci sono i pesi sulla terrazza di casa.",
       "requirements": [
-        "Finisci l'allenamento per tenere i progressi: se lo interrompi li perdi."
+        "Finisci l'allenamento per tenere i progressi: se lo interrompi li perdi.",
+        "Le palestre (manubrio blu sulla mappa, filtro Attività › Fitness › Palestre) sono 9 per PowerPyx, ma nel gioco il contatore «Abbonamenti in palestra acquistati» arriva a 8: con ogni probabilità perché Muscle Sands è gratis e non ha abbonamento."
       ],
       "rewards": [
         "Sfide di fitness: iscriviti a una palestra, ogni attrezzo in un giorno, forza e cardio al livello 4 per entrambi per 5 giorni.",
@@ -1104,11 +1105,18 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Sport e fitness",
       "moreSources": [
         "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
-        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/"
+        "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
+        "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Prezzi dell'abbonamento (PowerPyx): Grand Majestic Gym 250 $, Vice Seven Condominiums Gym 450 $, Dynamix Fitness 600 $, Venus Fitness 600 $, Zenith 750 $, Aichi Condominiums Outdoor Gym 950 $, Y Hotel Fitness Club 1.200 $, Ajax Gym al Lawton Theater 1.800 $; Muscle Sands è gratis."
+        }
       ]
     },
     {
@@ -1374,7 +1382,7 @@
         "Stick Ups: rapina 3 negozi nello stesso giorno, senza morire né farti arrestare.",
         "Carjacking: ruba 3 veicoli col conducente a bordo e portali a un Pay 'n' Spray nello stesso giorno, senza morire né farti arrestare.",
         "Mugging Spree: prendi 500 $ ai passanti nello stesso giorno, senza morire né farti arrestare.",
-        "Cop Car Theft: resta ricercato per 5 minuti su un veicolo delle forze dell'ordine rubato.",
+        "Cop Car Theft: resta con un livello di sospetto per 5 minuti su un veicolo delle forze dell'ordine rubato.",
         "Cop Weapon Theft: prendi un'arma dal bagagliaio di 5 veicoli della polizia diversi, senza morire né farti arrestare.",
         "Stick Up Spree: rapina 2 negozi in ognuna delle 5 contee in meno di 20 minuti, senza morire né farti arrestare.",
         "Cop Tow: traina per un miglio un veicolo della polizia con gli agenti a bordo, senza fermarti.",
@@ -1392,7 +1400,7 @@
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "Svago"
     },
     {
@@ -1653,7 +1661,7 @@
         "Il bottino di un'altra banda vale spesso da 1.000 a 15.000 $, più di molti colpi fatti da te, soprattutto nei capitoli 2 e 3."
       ],
       "steps": [
-        "Quando senti trambusto premi L3 + R3 per il Focus: ti indica da dove arriva.",
+        "Quando senti trambusto premi L3 + R3 per la concentrazione: ti indica da dove arriva.",
         "Se vedi rapinatori in fuga con le borse, fermali (anche senza ucciderli) e prendi il bottino; in due ne portate di più.",
         "Poi sparisci in fretta, perché la polizia passa a cercare te, e vendi tutto a un ricettatore."
       ],
@@ -1666,7 +1674,7 @@
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-20"
     },
     {
       "id": "act-auto-wyman",

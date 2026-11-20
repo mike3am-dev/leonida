@@ -56,7 +56,7 @@ export function render() {
     ${storyHero(st)}
 
     <section class="profile">
-      <div class="profile__head"><span class="kicker kicker--accent">Profilo criminale</span><span class="small muted">${s.pct}% di GTA VI</span></div>
+      <div class="profile__head"><span class="kicker kicker--accent">I tuoi progressi</span><span class="small muted">${s.pct}% di GTA VI</span></div>
       <div class="profile__grid">
         <div class="ring">
           <svg viewBox="0 0 120 120" aria-hidden="true">

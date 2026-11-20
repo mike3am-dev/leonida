@@ -83,14 +83,17 @@
       "id": "cat-rifugi",
       "name": "Rifugi e garage",
       "icon": "pin",
-      "description": "Ci sono 12 garage: 8 si comprano con l'app Vice City Real Estate, che arriva nel capitolo 2 (160.000 $ in tutto), e 4 arrivano con la storia. Arrivi al massimo a 18 posti auto. I rifugi della storia e i garage dei bonus (Ultimate Edition e Vintage Vice City Pack) sono a parte e non contano tra i 12. Non servono per il 100%. Trofeo collegato: Posto riservato, comprando gli 8 in vendita.",
+      "description": "Ci sono 12 garage: 8 si comprano con l'app Vice City Real Estate, che arriva nel capitolo 2 (160.000 $ in tutto), e 4 arrivano con la storia. Insieme danno 16 posti auto; con i 2 veicoli personali lasciati parcheggiati arrivi a 18. A parte ci sono 3 garage dei bonus da un posto, con armadietto delle armi e deposito per la refurtiva da ricettare: Paradise Garage (Ultimate Edition), Shore Court (Vintage Vice City Pack del preordine) e Crosstown (GTA+, dal capitolo 3). E ci sono i 4 rifugi della storia: non si comprano e non danno posti in garage, ma l'auto lasciata nel posto davanti al rifugio resta lì. Qui sotto quindi le voci sono 19: 12 garage, 3 garage dei bonus e 4 rifugi. Non servono per il 100%. Trofeo collegato: Posto riservato, comprando gli 8 in vendita.",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
-      "total": 12
+      "total": 12,
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "cat-carte",
@@ -332,7 +335,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-iguane.jpg",
       "group": "domestici",
       "emoji": "🦎",
@@ -369,13 +372,18 @@
         {
           "name": "Iguana blu axantica (Blue Axanthic Iguana)",
           "note": "Variante rara azzurro elettrico, senza rosso né giallo: coste e città del sud"
+        },
+        {
+          "name": "Iguana rossa (Super Red Iguana)",
+          "note": "Variante rara a squame rosse, nelle zone calde: si adatta alla città e cerca l'acqua dolce. Si caccia col Wortham W-22"
         }
       ],
       "trivia": [
         "Il gioco consiglia il Wortham W-22: un'arma leggera non rovina la carcassa."
       ],
       "moreSources": [
-        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+        "https://www.dexerto.com/wikis/gta-6/animals/hunting-animals/super-red-iguana/"
       ]
     },
     {
@@ -457,7 +465,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/cougar.jpg",
       "group": "foresta",
       "emoji": "🐆",
@@ -474,7 +482,8 @@
         }
       ],
       "trivia": [
-        "È la pantera della Florida."
+        "È la pantera della Florida.",
+        "Nel gioco si chiama Leonida Panther, color sabbia: boschi e zone umide. Il gioco consiglia lo Shrewsbury SM-69 e di tenersi a distanza."
       ],
       "imageFocus": [
         40,
@@ -488,7 +497,10 @@
         "dis-mount-kalaga",
         "dis-grassrivers"
       ],
-      "protectedReal": "sì (in pericolo, caccia vietata)"
+      "protectedReal": "sì (in pericolo, caccia vietata)",
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/hunting-animals/leonida-panther/"
+      ]
     },
     {
       "id": "col-fauna-volpe",
@@ -605,7 +617,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "group": "foresta",
       "emoji": "🐗",
       "short": "Una delle prede della caccia, tra paludi e boschi.",
@@ -634,7 +646,14 @@
         "Cacciare"
       ],
       "moreSources": [
-        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/"
+        "https://playday.one/2026/11/18/gta-6-hunting-guide-animals-locations/",
+        "https://www.dexerto.com/wikis/gta-6/animals/hunting-animals/spotted-wild-boar/"
+      ],
+      "varieties": [
+        {
+          "name": "Cinghiale maculato (Spotted Wild Boar)",
+          "note": "Variante rara a macchie, nei boschi e nelle zone umide: meglio da lontano"
+        }
       ]
     },
     {
@@ -924,7 +943,7 @@
       "categoryId": "cat-fauna",
       "name": "Serpenti",
       "districtId": "dis-keys",
-      "directions": "Nella casa di Jason c'è il suo serpente, Dolores: puoi dargli da mangiare un topo e Jason recupera un po' di Focus. È l'unico animale che puoi tenere nella storia. In natura si cacciano il crotalo diamantino orientale (coste e boschi) e il mocassino acquatico (coste e zone umide); il pitone delle Everglades non è ancora stato avvistato.",
+      "directions": "Nella casa di Jason c'è il suo serpente, Dolores: puoi dargli da mangiare un topo e Jason recupera un po' di concentrazione. È l'unico animale che puoi tenere nella storia. In natura si cacciano il crotalo diamantino orientale (coste e boschi) e il mocassino acquatico (coste e zone umide); il pitone delle Everglades non è ancora stato avvistato.",
       "reward": null,
       "image": "../../assets/img/vice/fauna/col-fauna-serpente-del-grano.jpg",
       "status": "da verificare",
@@ -939,7 +958,7 @@
       "varieties": [
         {
           "name": "Serpente del grano (Dolores)",
-          "note": "Nell'acquario della casa di Jason: dagli un topo per un po' di Focus"
+          "note": "Nell'acquario della casa di Jason: dagli un topo per un po' di concentrazione"
         },
         {
           "name": "Crotalo diamantino orientale (Eastern Diamondback Rattlesnake)",
@@ -1137,7 +1156,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chihuahua.jpg",
       "group": "domestici",
       "emoji": "🐕",
@@ -1199,6 +1218,14 @@
         {
           "name": "Yorkshire Terrier",
           "note": "Belville: abbaia dentro la lavanderia abbandonata a nord-ovest, a sud del covo dei biker (si entra dal buco nel tetto)"
+        },
+        {
+          "name": "American Foxhound",
+          "note": "Segugio da caccia, atletico e socievole"
+        },
+        {
+          "name": "Gloriana Dog",
+          "note": "Cane da guardia simile al dingo: orecchie grandi, muso lungo"
         }
       ],
       "seen": [
@@ -1262,7 +1289,9 @@
       "moreSources": [
         "https://www.thebiglead.com/gta-6-collectibles-guide-cards-styles-meteorite-chunks-landmark-scans/",
         "https://mashable.com/entertainment/gta-6-animals-wildlife-guide",
-        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"
+        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120",
+        "https://www.dexerto.com/wikis/gta-6/animals/cats-dogs/american-foxhound/",
+        "https://www.dexerto.com/wikis/gta-6/animals/cats-dogs/gloriana-dog/"
       ]
     },
     {
@@ -1278,7 +1307,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-chat.jpg",
       "group": "domestici",
       "emoji": "🐈",
@@ -1313,7 +1342,7 @@
         "dis-grassrivers"
       ],
       "protectedReal": "no (i gatti selvatici sono una specie invasiva)",
-      "behavior": "Accarezzarlo dà a Jason un po' di Focus; puoi anche lodarlo o sgridarlo. Se rubi un'auto con un gatto a bordo, mentre guidi ti salta addosso: respingilo col tasto indicato, poi accosta e fallo scendere oppure tira dritto. Ogni razza conta a parte tra i 255 animali.",
+      "behavior": "Accarezzarlo dà a Jason un po' di concentrazione; puoi anche lodarlo o sgridarlo. Se rubi un'auto con un gatto a bordo, mentre guidi ti salta addosso: respingilo col tasto indicato, poi accosta e fallo scendere oppure tira dritto. Ogni razza conta a parte tra i 255 animali.",
       "actions": [
         "Accarezzare (tieni R1)",
         "Sgridare (tieni R1)",
@@ -1321,7 +1350,30 @@
       ],
       "moreSources": [
         "https://mashable.com/entertainment/gta-6-animals-wildlife-guide",
-        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120"
+        "https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120",
+        "https://www.dexerto.com/wikis/gta-6/animals/cats-dogs/"
+      ],
+      "varieties": [
+        {
+          "name": "Balinese",
+          "note": "Pelo lungo e occhi azzurri"
+        },
+        {
+          "name": "Calico",
+          "note": "Tricolore nero, bianco e arancio: in casa e per strada"
+        },
+        {
+          "name": "Ginger Longhair",
+          "note": "Rosso a pelo lungo, in città e fuori"
+        },
+        {
+          "name": "Ginger Tabby",
+          "note": "Soriano rosso, comunissimo"
+        },
+        {
+          "name": "Striped Tabby",
+          "note": "Soriano tigrato con la «M» scura sulla fronte, per strade e vicoli"
+        }
       ]
     },
     {
@@ -1365,7 +1417,7 @@
     {
       "id": "col-fauna-pellicano",
       "categoryId": "cat-fauna",
-      "name": "Pellicano",
+      "name": "Pellicani",
       "districtId": "dis-keys",
       "directions": "Il pellicano bruno, specie nativa: stormi di una quindicina sorvolano la spiaggia di Vice City, e lo trovi anche sopra le Leonida Keys.",
       "reward": null,
@@ -1375,9 +1427,9 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/pelicans.jpg",
-      "uncertain": true,
+      "uncertain": false,
       "group": "uccelli",
       "emoji": "🐦",
       "short": "Specie nativa, comune sulla costa.",
@@ -1397,30 +1449,44 @@
         50,
         1.6
       ],
-      "scientificName": "Pelecanus occidentalis",
+      "scientificName": "Pelecanus occidentalis (bruno) e Pelecanus erythrorhynchos (bianco americano)",
       "temperament": "innocuo",
       "habitat": "Spiaggia di Vice Beach e Leonida Keys",
       "districtIds": [
         "dis-vice-beach",
         "dis-keys"
       ],
-      "protectedReal": "sì (uccello migratore protetto)"
+      "protectedReal": "sì (uccello migratore protetto)",
+      "varieties": [
+        {
+          "name": "Pellicano bruno (Eastern Brown Pelican)",
+          "note": "Il più piccolo dei due: coste e città, si tuffa per pescare"
+        },
+        {
+          "name": "Pellicano bianco americano (American White Pelican)",
+          "note": "Il più grande: zone umide, fiumi e coste"
+        }
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/eastern-brown-pelican/",
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/american-white-pelican/"
+      ]
     },
     {
       "id": "col-fauna-airone",
       "categoryId": "cat-fauna",
       "name": "Airone",
       "districtId": "dis-grassrivers",
-      "directions": "Uccello delle paludi con un suo modo di muoversi. Ne passano nel cielo di Vice City all'alba, ma l'identificazione è incerta.",
+      "directions": "Uccello delle paludi con un suo modo di muoversi. Nel gioco è il Great Blue Heron: zone umide, coste e fiumi. Ne passano nel cielo di Vice City all'alba.",
       "reward": null,
       "status": "da verificare",
       "source": "community",
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-herons.jpg",
-      "uncertain": true,
+      "uncertain": false,
       "group": "uccelli",
       "emoji": "🪶",
       "short": "Uccello delle paludi con un suo modo di muoversi.",
@@ -1437,7 +1503,13 @@
         "dis-grassrivers",
         "dis-keys"
       ],
-      "protectedReal": "sì (uccello migratore protetto)"
+      "protectedReal": "sì (uccello migratore protetto)",
+      "trivia": [
+        "Nel gioco si chiama Great Blue Heron: grande trampoliere dal piumaggio appena azzurro, infilza le prede col becco appuntito."
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/great-blue-heron/"
+      ]
     },
     {
       "id": "col-fauna-spatola",
@@ -1476,7 +1548,7 @@
       "categoryId": "cat-fauna",
       "name": "Gru americana",
       "districtId": "dis-grassrivers",
-      "directions": "Vive nelle paludi di Grassrivers, accanto a una spatola e una cicogna. Non è certo che sia proprio la gru americana.",
+      "directions": "Vive nelle paludi di Grassrivers, accanto a una spatola e una cicogna. Nel gioco è proprio la gru americana (Whooping Crane): zone umide e coste del nord.",
       "reward": null,
       "image": null,
       "status": "da verificare",
@@ -1484,7 +1556,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "group": "uccelli",
       "emoji": "🐦",
       "short": "La gru delle paludi di Grassrivers.",
@@ -1495,7 +1567,7 @@
         }
       ],
       "trivia": [
-        "Non è certo che sia proprio la gru americana."
+        "Nel gioco si chiama Whooping Crane: alta e bianca, ali con le punte nere e una macchia rossa sulla fronte."
       ],
       "scientificName": "Grus americana",
       "temperament": "innocuo",
@@ -1503,7 +1575,10 @@
       "districtIds": [
         "dis-grassrivers"
       ],
-      "protectedReal": "sì (in pericolo)"
+      "protectedReal": "sì (in pericolo)",
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/whooping-crane/"
+      ]
     },
     {
       "id": "col-fauna-picchio",
@@ -1603,7 +1678,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seagull.jpg",
       "group": "uccelli",
       "emoji": "🐦",
@@ -1622,7 +1697,14 @@
         "dis-vice-beach",
         "dis-vice-city"
       ],
-      "protectedReal": "sì (uccello migratore protetto)"
+      "protectedReal": "sì (uccello migratore protetto)",
+      "trivia": [
+        "Nel gioco sono due voci: Herring Gull (fruga in città vicino all'acqua) e Laughing Gull (testa nera, coste e città)."
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/herring-gull/",
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/laughing-gull/"
+      ]
     },
     {
       "id": "col-fauna-piccione",
@@ -1761,7 +1843,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/tigershark.jpg",
       "group": "marini",
       "emoji": "🦈",
@@ -1776,6 +1858,10 @@
         {
           "name": "Squalo martello",
           "note": "Pericolosità sconosciuta"
+        },
+        {
+          "name": "Squalo pinna nera (Blacktip Shark)",
+          "note": "Uno dei più piccoli, con le punte delle pinne nere: nell'oceano a ovest della Leonida"
         }
       ],
       "seen": [
@@ -1803,7 +1889,11 @@
         "dis-vice-beach",
         "dis-keys"
       ],
-      "protectedReal": "in parte (tigre, martello maggiore e bianco: cattura vietata nelle acque della Florida; il toro no)"
+      "protectedReal": "in parte (tigre, martello maggiore e bianco: cattura vietata nelle acque della Florida; il toro no)",
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/aquatic-animals/blacktip-shark/",
+        "https://www.dexerto.com/wikis/gta-6/animals/aquatic-animals/tiger-shark/"
+      ]
     },
     {
       "id": "col-fauna-manta",
@@ -1855,7 +1945,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/seaturtle.jpg",
       "group": "marini",
       "emoji": "🐢",
@@ -1881,7 +1971,16 @@
       "districtIds": [
         "dis-keys"
       ],
-      "protectedReal": "sì (specie minacciata)"
+      "protectedReal": "sì (specie minacciata)",
+      "varieties": [
+        {
+          "name": "Tartaruga verde (Green Sea Turtle)",
+          "note": "La più grande delle tartarughe dal guscio duro: barriere coralline e acque costiere"
+        }
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/reptiles-amphibians/green-sea-turtle/"
+      ]
     },
     {
       "id": "col-fauna-medusa",
@@ -1896,14 +1995,23 @@
       "sourceUrl": "https://gtabase.com/gta-6/animals/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "group": "marini",
       "emoji": "🪼",
       "short": "Traslucida e bioluminescente.",
       "scientificName": "Aurelia aurita e altre specie",
       "temperament": "innocuo",
       "habitat": "Acque costiere",
-      "protectedReal": "no"
+      "protectedReal": "no",
+      "varieties": [
+        {
+          "name": "Medusa quercia (Moon Jellyfish)",
+          "note": "Traslucida e senza lunghi tentacoli: acque profonde, a volte lungo la costa"
+        }
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/aquatic-animals/moon-jellyfish/"
+      ]
     },
     {
       "id": "col-fauna-anguilla",
@@ -2238,7 +2346,7 @@
       "sourceUrl": "https://vice-central.com/tous-les-animaux-de-gta-vi-la-faune-de-leonida-recensee/#habitat-oiseaux",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07",
+      "updatedAt": "2026-11-20",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/gta-vi-faune-corbeaux.jpg",
       "group": "uccelli",
       "emoji": "🐦‍⬛",
@@ -2253,7 +2361,13 @@
       "scientificName": "Corvus brachyrhynchos o Corvus ossifragus (corvo pescatore)",
       "temperament": "innocuo",
       "habitat": "Sopra il penitenziario",
-      "protectedReal": "regolamentato (cacciabili a stagione)"
+      "protectedReal": "regolamentato (cacciabili a stagione)",
+      "trivia": [
+        "Nel gioco è l'American Crow (Corvus brachyrhynchos): si posa su alberi e palazzi in tutta la Leonida."
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/american-crow/"
+      ]
     },
     {
       "id": "col-fauna-oca",
@@ -2492,7 +2606,13 @@
       "sourceUrl": "https://gta.wiki/w/Spoonbills",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-07"
+      "updatedAt": "2026-11-20",
+      "trivia": [
+        "Nel gioco si chiama Wood Stork: zone umide e coste del nord, cerca le prede spazzando l'acqua bassa col becco."
+      ],
+      "moreSources": [
+        "https://www.dexerto.com/wikis/gta-6/animals/birds/wood-stork/"
+      ]
     },
     {
       "id": "col-fauna-falco-pescatore",
@@ -18016,15 +18136,16 @@
       "categoryId": "cat-relitti",
       "name": "Nuestra Señora del Ocio",
       "districtId": "dis-keys",
-      "directions": "Key Lento: il relitto della prima immersione con Kenton, nel capitolo 1, oltre la fossa sottomarina. Qui al posto dei tesori ci sono i dobloni (10 secondo Push Square).",
+      "directions": "Key Lento: il relitto della prima immersione con Kenton, nel capitolo 1, oltre la fossa sottomarina. Qui al posto dei tesori ci sono i dobloni (10 secondo Push Square): Kenton li paga 400 $ l'uno, i banchi dei pegni solo 200 $ (IGN).",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Kenton%27s_Treasures"
+        "https://www.ign.com/wikis/gta-6/Kenton%27s_Treasures",
+        "https://www.ign.com/wikis/gta-6/Diving_and_Treasure_Hunting_Guide"
       ]
     },
     {
@@ -21166,26 +21287,32 @@
       "categoryId": "cat-rifugi",
       "name": "Mitchell Auto Center",
       "districtId": "dis-port-gellhorn",
-      "directions": "Nell'entroterra della contea di Kelly, tra Port Gellhorn e Ambrosia. Costa 4.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "directions": "Contea di Kelly, sulla Historic Route 628, nell'entroterra tra Port Gellhorn e Ambrosia. Costa 4.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-7th-avenue",
       "categoryId": "cat-rifugi",
       "name": "7th Avenue Garage",
       "districtId": "dis-vice-city",
-      "directions": "Vice City, appena a est dell'aeroporto. Costa 12.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "directions": "Vice City, a Salton, appena a est dell'aeroporto. Costa 12.000 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-vela-rota",
@@ -21198,33 +21325,42 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-persistence-road",
       "categoryId": "cat-rifugi",
       "name": "Persistence Road Garage",
       "districtId": "dis-waning-sands",
-      "directions": "Contea di Leonard, a nord di Vice City. Costa 7.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "directions": "Belville, nella contea di Leonard, a nord di Vice City. Costa 7.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-wyatt-motors",
       "categoryId": "cat-rifugi",
       "name": "Wyatt Motors",
       "districtId": "dis-ambrosia",
-      "directions": "Ambrosia, vicino al Lake Leonida. Costa 21.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
+      "directions": "Ambrosia, dalle parti della raffineria Allied Crystal, vicino al Lake Leonida. Costa 21.600 $, 1 posto auto. Si compra dall'app Vice City Real Estate, che arriva nel capitolo 2; conta per il trofeo «Posto riservato».",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-bonita-court",
@@ -21237,7 +21373,10 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-atlantic-court",
@@ -21250,7 +21389,10 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-store-n-bolt",
@@ -21263,7 +21405,10 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-port-gellhorn-station",
@@ -21276,7 +21421,10 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-thompson-court",
@@ -21289,20 +21437,26 @@
       "source": "stampa",
       "spoilerLevel": 4,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-ne-15th-street",
       "categoryId": "cat-rifugi",
       "name": "NE 15th Street Garage",
       "districtId": "dis-vice-city",
-      "directions": "Vice City, a nord di Downtown. 2 posti auto. Arriva con la storia nel capitolo 5. Non si compra e non conta per il trofeo dei garage.",
+      "directions": "Vice City, a Stockyard, a nord di Downtown. 2 posti auto. Arriva con la storia nel capitolo 5. Non si compra e non conta per il trofeo dei garage.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-garage-locations/",
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
     },
     {
       "id": "col-garage-pegassi-residences",
@@ -21315,7 +21469,287 @@
       "source": "stampa",
       "spoilerLevel": 5,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "moreSources": [
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-aquila-calva",
+      "name": "Aquila calva",
+      "group": "uccelli",
+      "emoji": "🦅",
+      "short": "Nel gioco: Bald Eagle. Il rapace simbolo degli Stati Uniti, con la testa bianca: caccia piccoli animali in tutta la Leonida.",
+      "scientificName": "Haliaeetus leucocephalus",
+      "temperament": "predatore",
+      "habitat": "Tutta la Leonida, in cielo sopra coste e paludi",
+      "protectedReal": "sì (protetta dalla legge federale)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/birds/bald-eagle/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-animals/"
+      ]
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-airone-bianco",
+      "name": "Airone bianco maggiore",
+      "group": "uccelli",
+      "emoji": "🪶",
+      "short": "Nel gioco: Great Egret. Grande trampoliere tutto bianco dal becco lungo e appuntito, molto territoriale.",
+      "scientificName": "Ardea alba",
+      "temperament": "innocuo",
+      "habitat": "Zone umide, a volte sulla costa",
+      "protectedReal": "sì (uccello migratore protetto)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/birds/great-egret/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-airone-tricolore",
+      "name": "Airone tricolore",
+      "group": "uccelli",
+      "emoji": "🪶",
+      "short": "Nel gioco: Tricolored Heron. Airone azzurro, grigio e bianco, più piccolo degli altri aironi.",
+      "scientificName": "Egretta tricolor",
+      "temperament": "innocuo",
+      "habitat": "Zone umide",
+      "protectedReal": "sì (minacciato in Florida)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/birds/tricolored-heron/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-gallina",
+      "name": "Gallina livornese",
+      "group": "domestici",
+      "emoji": "🐔",
+      "short": "Nel gioco: Leghorn Chicken. Il pollo da cortile più comune: la trovi nelle fattorie della Leonida.",
+      "scientificName": "Gallus gallus domesticus",
+      "temperament": "innocuo",
+      "habitat": "Fattorie di campagna",
+      "protectedReal": "no (domestica)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/birds/leghorn-chicken/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-caimano",
+      "name": "Caimano dagli occhiali",
+      "group": "paludi",
+      "emoji": "🐊",
+      "short": "Nel gioco: Spectacled Caiman. Più piccolo dell'alligatore, con cui divide le paludi, ma altrettanto resistente: si caccia da lontano.",
+      "scientificName": "Caiman crocodilus",
+      "temperament": "predatore",
+      "habitat": "Zone umide",
+      "protectedReal": "no (invasivo in Florida)",
+      "actions": [
+        "Cacciare",
+        "Studiare"
+      ],
+      "trivia": [
+        "Il gioco consiglia lo Shrewsbury SM-69 e di tenersi a distanza."
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/hunting-animals/spectacled-caiman/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": "dis-grassrivers",
+      "status": "verificato",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-tigre",
+      "name": "Tigre del Bengala",
+      "group": "altri",
+      "emoji": "🐅",
+      "short": "Nel gioco: Bengal Tiger. Non è un animale di Leonida: vive nei parchi faunistici e negli zoo illegali. Al Manatee Motel, l'operazione dei Kingfishers a nord-est del Cottonmouth Lake, ce n'è una libera tra le stanze: avvicinati con cautela.",
+      "scientificName": "Panthera tigris tigris",
+      "temperament": "predatore",
+      "habitat": "In cattività: parchi faunistici, zoo illegali, Manatee Motel",
+      "districtIds": [
+        "dis-grassrivers"
+      ],
+      "protectedReal": "sì (in pericolo)",
+      "actions": [
+        "Studiare"
+      ],
+      "seen": [
+        {
+          "where": "Manatee Motel (Grassrivers)",
+          "what": "Fa la guardia alle stanze del motel dei Kingfishers"
+        }
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/mammals/bengal-tiger/",
+      "moreSources": [
+        "https://www.gtaboom.com/gta-6-early-money-motel-tiger-attack-614c"
+      ]
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-orso-polare",
+      "name": "Orso polare",
+      "group": "altri",
+      "emoji": "🐻‍❄️",
+      "short": "Nel gioco: Polar Bear, tra gli «altri animali». Vive nell'Artico, quindi a Leonida non lo trovi in natura: dove si trova non è ancora noto.",
+      "scientificName": "Ursus maritimus",
+      "temperament": "predatore",
+      "habitat": "Non ancora noto",
+      "protectedReal": "sì (minacciato)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/other-animals/polar-bear/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-rana-toro",
+      "name": "Rana toro americana",
+      "group": "paludi",
+      "emoji": "🐸",
+      "short": "Nel gioco: American Bullfrog, specie invasiva. Comune nelle zone umide e lungo i fiumi del nord: mangia tutto quello che le entra in bocca.",
+      "scientificName": "Lithobates catesbeianus",
+      "temperament": "innocuo",
+      "habitat": "Zone umide e fiumi del nord",
+      "protectedReal": "no",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/reptiles-amphibians/american-bullfrog/",
+      "moreSources": [
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-animals/"
+      ]
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-cernia-gigante",
+      "name": "Cernia gigante atlantica",
+      "group": "marini",
+      "emoji": "🐟",
+      "short": "Nel gioco: Atlantic Goliath Grouper, tra gli animali acquatici (non tra i pesci da pescare). Grosso pesce di mare dalle squame bruno-chiazzate.",
+      "scientificName": "Epinephelus itajara",
+      "temperament": "innocuo",
+      "habitat": "Acque costiere tropicali e barriere coralline",
+      "protectedReal": "sì (pesca quasi del tutto vietata in Florida)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/aquatic-animals/atlantic-goliath-grouper/"
+    },
+    {
+      "categoryId": "cat-fauna",
+      "districtId": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "id": "col-fauna-razza-aquila",
+      "name": "Razza aquila maculata",
+      "group": "marini",
+      "emoji": "🐟",
+      "short": "Nel gioco: Spotted Eagle Ray. La riconosci dalla coda lunga e dai puntini bianchi sul dorso; nuota lungo le coste della Leonida.",
+      "scientificName": "Aetobatus narinari",
+      "temperament": "innocuo",
+      "habitat": "Acque costiere",
+      "protectedReal": "sì (cattura vietata nelle acque della Florida)",
+      "actions": [
+        "Studiare"
+      ],
+      "sourceUrl": "https://www.dexerto.com/wikis/gta-6/animals/aquatic-animals/spotted-eagle-ray/"
+    },
+    {
+      "id": "col-garage-gta-plus",
+      "categoryId": "cat-rifugi",
+      "name": "Garage GTA+ (Crosstown)",
+      "districtId": "dis-vice-city",
+      "directions": "Crosstown, a Vice City: garage da un posto riservato a chi ha GTA+ attivo. Si sblocca dal capitolo 3 insieme alla '90 Annis Venturas BLVD Elegy widebody; ha l'armadietto delle armi e lì puoi ricettare direttamente la refurtiva. Servono l'abbonamento attivo e la connessione; i vantaggi di GTA+ si spengono dalle impostazioni.",
+      "image": null,
+      "reward": null,
+      "status": "verificato",
+      "source": "stampa",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "sourceUrl": "https://www.ign.com/articles/gta-6-how-microtransactions-and-gta-benefits-work",
+      "moreSources": [
+        "https://www.gtaboom.com/gta-members-get-an-exclusive-car-and-garage-in-gta-6-c5ae",
+        "https://www.gtabase.com/gta-6/properties/"
+      ]
+    },
+    {
+      "id": "col-rifugio-vice-beach",
+      "categoryId": "cat-rifugi",
+      "name": "Rifugio di Vice Beach",
+      "districtId": "dis-vice-beach",
+      "directions": "Il quarto rifugio della storia, a Vice Beach: Jason e Lucia ci si trasferiscono nel capitolo 4. Come gli altri rifugi non si compra e non dà posti in garage, ma l'auto lasciata nel posto davanti resta lì.",
+      "image": null,
+      "reward": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "spoilerLevel": 4,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "chapter": 4,
+      "sourceUrl": "https://www.gtabase.com/gta-6/properties/"
     }
   ],
   "cento": [
@@ -21382,7 +21816,7 @@
     {
       "name": "Caveau",
       "requirement": "8 su 8",
-      "notes": "Uno per ogni banca grande. Si sbloccano verso la fine della storia (capitolo 4), seguendo i furgoni portavalori. Ogni colpo ti porta a 4 stelle di ricercato.",
+      "notes": "Uno per ogni banca grande. Si sbloccano verso la fine della storia (capitolo 4), seguendo i furgoni portavalori. Ogni colpo ti porta a 4 stelle di sospetto.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
     },
     {
@@ -21528,6 +21962,13 @@
       "requirement": "100 su 255",
       "notes": "Con il binocolo; cani e gatti contano per razza.",
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "name": "Abbonamenti in palestra",
+      "requirement": "8 su 8",
+      "notes": "Nelle statistiche del gioco: «Abbonamenti in palestra acquistati». Le palestre sulla mappa sono 9, ma Muscle Sands, all'aperto, è gratis: gli abbonamenti da comprare sono 8.",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+      "source": "gioco-mike"
     }
   ]
 }

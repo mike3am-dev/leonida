@@ -511,7 +511,7 @@
       "name": "Cocoteo FM",
       "genre": "Latin moderno",
       "host": "El Martillo (Bad Bunny) e La Gata (RaiNao)",
-      "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga»: reggaeton, dembow e bachata, da Bad Bunny a Don Omar e Calle 13.",
+      "description": "La stazione latina di Leonida, con il motto «El party que nunca se apaga» e, nei jingle, «Música pa' calentarse»: reggaeton, dembow e bachata, da Bad Bunny a Don Omar e Calle 13. Il nome gioca con «coqueteo», che in spagnolo vuol dire flirt.",
       "highlights": [
         {
           "artist": "Bad Bunny",
@@ -700,13 +700,14 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
-        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/Cocoteo_FM"
       ],
       "color": "#f59cc8"
     },
@@ -1252,7 +1253,7 @@
       "name": "Dirty South Classics",
       "genre": "Rap e hip-hop del Sud",
       "host": "Trick (Trick Daddy) e Trina; nello spazio The Tap In interviene Gucci Mane",
-      "description": "I classici del rap e dell'hip-hop regionale, la colonna sonora naturale della scena che Dre'Quan e le Real Dimez vogliono conquistare.",
+      "description": "I classici del rap e dell'hip-hop regionale, con lo slogan «Classics that make you bounce!»: la colonna sonora naturale della scena che Dre'Quan e le Real Dimez vogliono conquistare.",
       "highlights": [
         {
           "artist": "David Banner ft. Lil' Flip",
@@ -1495,13 +1496,14 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
-        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+        "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "https://gta.wiki/w/Dirty_South_Classics"
       ],
       "color": "#d8c078"
     },
@@ -1939,7 +1941,7 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "image": "../../assets/img/radio/rad-vice-city-fm.png",
-      "imageUrl": "https://gta.wiki/images/Marketing-GTAVI-KioskMiami-ViceCityFM.png?e9ee9",
+      "imageUrl": "https://gta.wiki/images/ViceCityFM-GTAVI-Icon-RadioWheel.png?c7fe9",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
@@ -1949,7 +1951,8 @@
         "https://gta.wiki/w/Vice_City_FM"
       ],
       "color": "#8b5cff",
-      "host": "DJ Al («Weird Al» Yankovic) e Madame Brigitte (Brigitte Nielsen)"
+      "host": "DJ Al («Weird Al» Yankovic) e Madame Brigitte (Brigitte Nielsen)",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-v-rock",
@@ -2385,7 +2388,7 @@
       "example": false,
       "updatedAt": "2026-11-19",
       "image": "../../assets/img/radio/rad-v-rock.webp",
-      "imageUrl": "https://gta.wiki/images/VRock-GTAVI-VideoClip-JasonDuval.png?c49ea",
+      "imageUrl": "https://gta.wiki/images/VRock-GTAVI-Icon-RadioWheel.png?c7fe9",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
@@ -2394,13 +2397,14 @@
         "https://gta.wiki/w/V-Rock"
       ],
       "color": "#e2365b",
-      "host": "The Buck (Lindsey Buckingham) e Skipper McD (Michael McDonald)"
+      "host": "The Buck (Lindsey Buckingham) e Skipper McD (Michael McDonald)",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-honey-fm",
       "name": "Honey FM",
       "genre": "R&B e soul anni '90 e 2000",
-      "description": "R&B e soul degli anni Novanta e Duemila, da D'Angelo e Groove Theory a Usher, T-Pain e Tony! Toni! Toné!, con lo slogan «...drizzle it!». Il logo rosa e dorato è sul tetto e sulle fiancate dei taxi di Vice City. La conducono Chilli e T-Boz delle TLC; in palinsesto c'è anche Liquid City, lo show di Liquid Wilson, voce dell'attore Craig Robinson.",
+      "description": "R&B e soul degli anni Novanta e Duemila, da D'Angelo e Groove Theory a Usher, T-Pain e Tony! Toni! Toné!, con lo slogan «...drizzle it!». Il logo rosa e dorato è sul tetto e sulle fiancate dei taxi di Vice City. La conducono Chilli e T-Boz delle TLC; in palinsesto c'è anche Liquid City, lo show di Liquid Wilson (l'attore Craig Robinson), con una sigla e sette pezzi comici scritti apposta per il programma, prodotte da DJ Pooh: in scaletta sono quelle segnate «Liquid Wilson».",
       "highlights": [
         {
           "artist": "D'Angelo",
@@ -2713,6 +2717,54 @@
           "title": "I'm N Luv (Wit a Stripper)",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Come In Liquid City (Theme Song)",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Finger Bang My Heart",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Girl In Gloriana",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Liquids Words of Wisdom",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Oochie Coochie Man",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Sex Specs",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Sexification",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Liquid Wilson (Craig Robinson)",
+          "title": "Titties For Liquid",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "status": "verificato",
@@ -2720,18 +2772,20 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": "../../assets/img/radio/rad-honey-fm.png",
-      "imageUrl": "https://gta.wiki/images/Marketing-GTAVI-HoneyFMBanner.png?1e716",
+      "imageUrl": "https://gta.wiki/images/HoneyFM-GTAVI-Icon-RadioWheel.png?c7fe9",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
-        "https://www.rockstargames.com/VI/music"
+        "https://www.rockstargames.com/VI/music",
+        "https://gta.wiki/w/Honey_FM"
       ],
       "color": "#f2b632",
-      "host": "Chilli e T-Boz (le TLC); il programma Liquid City è di Liquid Wilson (Craig Robinson)"
+      "host": "Chilli e T-Boz (le TLC); il programma Liquid City è di Liquid Wilson (Craig Robinson)",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-emotion-98-3",
@@ -2955,7 +3009,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
@@ -2963,8 +3017,11 @@
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
       "frequency": "98.3",
-      "color": "#cf5cff",
-      "host": "Doug Van Dyke (Doug Stanhope)"
+      "color": "#ee2b2c",
+      "host": "Doug Van Dyke (Doug Stanhope)",
+      "image": "../../assets/img/radio/rad-emotion-98-3.png",
+      "imageUrl": "https://gta.wiki/images/Emotion983-GTAVI-Icon-RadioWheel.png?469df",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-stockyard-fm",
@@ -3200,7 +3257,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "host": "Victoria (PinkPantheress) e Harrison (The Dare)",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
@@ -3208,7 +3265,7 @@
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
-      "color": "#9bd84a",
+      "color": "#2ac4f7",
       "image": "../../assets/img/radio/rad-stockyard-fm.png",
       "imageUrl": "https://gta.wiki/images/StockyardFM-GTAVI-Logo.png",
       "imageCredit": "gta.wiki (CC BY-SA), logo ufficiale Rockstar"
@@ -3321,15 +3378,18 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
-      "color": "#a7b4c9",
-      "host": "Yuja (Yuja Wang)"
+      "color": "#c8174a",
+      "host": "Yuja (Yuja Wang)",
+      "image": "../../assets/img/radio/rad-symphony-fm.png",
+      "imageUrl": "https://gta.wiki/images/SymphonyFM-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-circoloco",
@@ -3505,7 +3565,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "image": "../../assets/img/radio/rad-circoloco.png",
       "imageUrl": "https://gta.wiki/images/CircoLocoRecordsRadio-GTAVI-Logo.png?700e8",
       "moreSources": [
@@ -3515,7 +3575,7 @@
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
         "https://gta.wiki/w/CircoLoco_Records_Radio"
       ],
-      "color": "#ffd400",
+      "color": "#ff1919",
       "host": "DJ Seth (Seth Troxler) e DJ Antonio (Antonio Carbonaro)"
     },
     {
@@ -3634,7 +3694,10 @@
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
       "color": "#1fae5e",
-      "host": "Adrian Sherwood"
+      "host": "Adrian Sherwood",
+      "image": "../../assets/img/radio/rad-radio-on-u.png",
+      "imageUrl": "https://gta.wiki/images/RadioOnU-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-worldwide-fm",
@@ -3894,15 +3957,18 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
-      "color": "#2aa7e0",
-      "host": "Gilles Peterson"
+      "color": "#fe5808",
+      "host": "Gilles Peterson",
+      "image": "../../assets/img/radio/rad-worldwide-fm.png",
+      "imageUrl": "https://gta.wiki/images/WorldWideFM-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-kaleidoscope-fm",
@@ -4024,7 +4090,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
@@ -4032,14 +4098,17 @@
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
         "https://www.gamespot.com/articles/gta-6s-best-song-is-a-nelly-furtado-cover-from-azerbaijan/"
       ],
-      "color": "#19c3c3",
-      "host": "DJ Dicky (Jeremy Irons)"
+      "color": "#930aff",
+      "host": "DJ Dicky (Jeremy Irons)",
+      "image": "../../assets/img/radio/rad-kaleidoscope-fm.png",
+      "imageUrl": "https://gta.wiki/images/KaleidoscopeFM-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-la-ola",
       "name": "Radio La Ola",
       "genre": "Salsa e latin classico",
-      "description": "Salsa, son e latin dell'età d'oro, da Celia Cruz a Gloria Estefan: il contraltare classico di Cocoteo FM. La conducono Gloria ed Emilio Estefan in persona. Nei titoli di coda il nome completo è «Radio La Ola».",
+      "description": "Salsa, son e latin dell'età d'oro, da Celia Cruz a Gloria Estefan: il contraltare classico di Cocoteo FM. La conducono Gloria ed Emilio Estefan in persona. Sulla ruota delle radio il logo dice solo «La Ola»; nei titoli di coda il nome completo è «Radio La Ola».",
       "highlights": [
         {
           "artist": "Orquesta Harlow",
@@ -4197,49 +4266,185 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
-        "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
+        "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
+        "https://gta.wiki/w/La_Ola"
       ],
-      "color": "#ff7a3d",
-      "host": "Gloria ed Emilio (Gloria ed Emilio Estefan)"
+      "color": "#a051ce",
+      "host": "Gloria ed Emilio (Gloria ed Emilio Estefan)",
+      "image": "../../assets/img/radio/rad-la-ola.png",
+      "imageUrl": "https://gta.wiki/images/LaOla-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-the-wipe",
       "name": "The Wipe",
       "genre": "Talk radio",
-      "description": "Una stazione parlata che racconta le stranezze di Leonida e dà curiosità sul mondo di gioco, comprese cose che forse non hai ancora visto. I programmi sono tre: Ask Dr. Nita, con la cantante Anitta nei panni della dottoressa Nita; El Otro Lado, con John Leguizamo che fa Enrique «El Enigma» Romero; She Got Assets, condotto da Tish, cioè la comica Janelle James.",
-      "highlights": [],
+      "description": "Una stazione parlata che racconta le stranezze di Leonida e dà curiosità sul mondo di gioco, comprese cose che forse non hai ancora visto. I programmi sono tre: Ask Dr. Nita, con la cantante Anitta nei panni della dottoressa Nita (la sigla è «Touch & Go», un brano di Anitta scritto per il gioco); El Otro Lado, con John Leguizamo che fa Enrique «El Enigma» Romero; She Got Assets, condotto da Tish, cioè la comica Janelle James.",
+      "highlights": [
+        {
+          "artist": "Anitta",
+          "title": "Touch & Go",
+          "status": "verificato",
+          "source": "trailer"
+        }
+      ],
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
-        "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+        "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
+        "https://gta.wiki/w/The_Wipe"
       ],
-      "color": "#9aa3ad",
-      "host": "Dr. Nita (Anitta), Enrique «El Enigma» Romero (John Leguizamo) e Tish (Janelle James)"
+      "color": "#1e9bd7",
+      "host": "Dr. Nita (Anitta), Enrique «El Enigma» Romero (John Leguizamo) e Tish (Janelle James)",
+      "image": "../../assets/img/radio/rad-the-wipe.png",
+      "imageUrl": "https://gta.wiki/images/TheWipe-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-altre",
       "name": "Altre stazioni e podcast",
       "genre": "Panoramica",
       "host": null,
-      "description": "Sulla ruota ci sono 22 stazioni, il numero più alto della serie: 20 musicali e 2 parlate (The Wipe e WKTT). A queste si aggiunge The Vault Radio, che si sblocca a Vice City: 23 in tutto, come aveva scritto Edge. I conduttori famosi annunciati da Rockstar sono sei coppie (Flash FM, Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Dirty South Classics); dopo l'uscita si sono aggiunti PinkPantheress e The Dare su Stockyard FM, «Weird Al» Yankovic su Vice City FM (confermato da Rockstar a Kotaku) e Jeremy Irons su Kaleidoscope FM (confermato da Rockstar a GameSpot). Il 19 novembre Rockstar ha pubblicato sul suo sito i titoli di coda completi: per ogni stazione danno conduttori e scaletta, e le scalette di questa sezione vengono da lì. Così si sa anche chi conduce tutte le altre stazioni: per esempio Gloria ed Emilio Estefan su Radio La Ola, Keith Richards e Buddy Guy su Gloriana Blues Radio, Lindsey Buckingham e Michael McDonald su V-Rock, Yuja Wang su Symphony FM e Gilles Peterson su WorldWide FM. Su Vice City Rap Radio la mattina va in onda Early AF, il programma di Charlamagne tha God con Ivy Rivera, e su Honey FM c'è Liquid City, lo show di Liquid Wilson (Craig Robinson). Nella sezione On Demand ci sono la playlist segreta The Sniper of La Perle e cinque serie di podcast: F*ck, Marry, Murder (il più spinto, con Chloe Fineman e Sarah Sherman), The Safe Trap (con il rapper Freddie Gibbs e il produttore The Alchemist), Vice City True Stories (con la voce narrante del regista Billy Corben), Drunk Kings (la parodia di «Drink Champs», con N.O.R.E. e DJ EFN) e Final Act, un podcast true crime condotto da Reagan Carter (Renée Felice Smith). All'inizio solo alcune puntate sono disponibili: le altre si aprono andando avanti nel gioco, e nella pagina di ogni podcast vedi quali hai già ascoltato. Qualcuno richiama personaggi e fatti dei GTA precedenti. Per aprire On Demand: tieni premuto sinistra sulla croce direzionale e spingi la levetta destra in basso; con Quadrato scorri le puntate, con X fai partire. Se metti in pausa un podcast, la volta dopo riparte da lì, in auto come a piedi. Per ascoltare la radio a piedi servono cuffie o auricolari: si comprano nei negozi di elettronica (Indice del telefono, scheda Stile, voce Elettronica) e si indossano dal menu dell'equipaggiamento (L1, poi R1 fino agli oggetti, secondo spazio). In una rissa possono caderti: raccoglile, o le perdi. Fuori dalla ruota c'è anche una radio locale del Thrillbilly Mud Club, vicino ad Ambrosia: la senti solo sintonizzandoti lì vicino o dentro il locale, e più ti allontani più si disturba fino a spegnersi. Secondo Cultured Vultures è l'unico posto dove passano «Freak on a Leash» dei Korn e «In the End» dei Linkin Park: infatti nei titoli di coda i due brani sono tra la musica aggiuntiva, fuori dalle stazioni.",
-      "highlights": [],
+      "description": "Sulla ruota ci sono 22 stazioni, il numero più alto della serie: 20 musicali e 2 parlate (The Wipe e WKTT). A queste si aggiunge The Vault Radio, che si sblocca a Vice City: 23 in tutto, come aveva scritto Edge. I conduttori famosi annunciati da Rockstar sono sei coppie (Flash FM, Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Dirty South Classics); dopo l'uscita si sono aggiunti PinkPantheress e The Dare su Stockyard FM, «Weird Al» Yankovic su Vice City FM (confermato da Rockstar a Kotaku) e Jeremy Irons su Kaleidoscope FM (confermato da Rockstar a GameSpot). Il 19 novembre Rockstar ha pubblicato sul suo sito i titoli di coda completi: per ogni stazione danno conduttori e scaletta, e le scalette di questa sezione vengono da lì. Così si sa anche chi conduce tutte le altre stazioni: per esempio Gloria ed Emilio Estefan su Radio La Ola, Keith Richards e Buddy Guy su Gloriana Blues Radio, Lindsey Buckingham e Michael McDonald su V-Rock, Yuja Wang su Symphony FM e Gilles Peterson su WorldWide FM. Su Vice City Rap Radio la mattina va in onda Early AF, il programma di Charlamagne tha God con Ivy Rivera, e su Honey FM c'è Liquid City, lo show di Liquid Wilson (Craig Robinson). Nella sezione On Demand ci sono la playlist segreta The Sniper of La Perle e cinque serie di podcast: F*ck, Marry, Murder (il più spinto, con Chloe Fineman e Sarah Sherman), The Safe Trap (con il rapper Freddie Gibbs e il produttore The Alchemist), Vice City True Stories (con la voce narrante del regista Billy Corben), Drunk Kings (la parodia di «Drink Champs», con N.O.R.E. e DJ EFN) e Final Act, un podcast true crime condotto da Reagan Carter (Renée Felice Smith). Final Act riapre un caso di GTA V: quello di Wade Hebert, in carcere dal 2014 per un duplice omicidio; nelle puntate tornano anche l'agente Dave Norton e il regista Solomon Richards, e a Wade viene mostrata una foto di Michael, Franklin e Trevor. All'inizio solo alcune puntate sono disponibili: le altre si aprono andando avanti nel gioco, e nella pagina di ogni podcast vedi quali hai già ascoltato. Per aprire On Demand: tieni premuto sinistra sulla croce direzionale e spingi la levetta destra in basso; con Quadrato scorri le puntate, con X fai partire. Se metti in pausa un podcast, la volta dopo riparte da lì, in auto come a piedi. Per ascoltare la radio a piedi servono cuffie o auricolari: si comprano nei negozi di elettronica (Indice del telefono, scheda Stile, voce Elettronica) e si indossano dal menu dell'equipaggiamento (L1, poi R1 fino agli oggetti, secondo spazio). In una rissa possono caderti: raccoglile, o le perdi. Fuori dalla ruota c'è anche una radio locale del Thrillbilly Mud Club, vicino ad Ambrosia: la senti solo sintonizzandoti lì vicino o dentro il locale, e più ti allontani più si disturba fino a spegnersi. Secondo Cultured Vultures è l'unico posto dove passano «Freak on a Leash» dei Korn e «In the End» dei Linkin Park. La scaletta qui sotto è la «musica aggiuntiva» dei titoli di coda: brani che non stanno su nessuna stazione e si sentono in missione, nei locali o in posti come il Thrillbilly. Ci sono i pezzi delle Real Dimez e di DWNPLY, i rapper della storia, e inediti di 100 Gecs, Diplo con MAG, Travis Scott e Carly Rae Jepsen. Rockstar non ha pubblicato playlist ufficiali delle stazioni di GTA VI su Spotify o Apple Music: quelle che si trovano col nome «Official GTA 6 Radio» sono fatte da utenti; di ufficiale in streaming ci sono GTA VI: The Album e, dall'11 dicembre, la colonna sonora dei Justice.",
+      "highlights": [
+        {
+          "artist": "Real Dimez",
+          "title": "Vibin' With The Dimez",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Real Dimez",
+          "title": "Money Don't Lie",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Real Dimez",
+          "title": "FTH",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "DWNPLY ft. Real Dimez",
+          "title": "Bulletproof Ski Mask",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "DWNPLY",
+          "title": "Pax",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "DWNPLY",
+          "title": "Politik",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "100 Gecs",
+          "title": "Sensimilla",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Tokischa",
+          "title": "DROGA DE DISEÑADOR (Honey Dijon Remix)",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Diplo & MAG",
+          "title": "Come Down To Vice City",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Travis Scott",
+          "title": "Burn This Shit Down",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Pëtr Il'ič Čajkovskij",
+          "title": "Concerto per pianoforte n. 1, I. Allegro non troppo e molto maestoso",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Samuel Barber",
+          "title": "Adagio per archi",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Carly Rae Jepsen",
+          "title": "Run Away With Me (Overmono Pegassi Mix)",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "The Dubliners",
+          "title": "The Auld Triangle",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Force M.D.'s",
+          "title": "Itchin' for a Scratch",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Jimmy Spicer",
+          "title": "The Bubble Bunch",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "War",
+          "title": "Low Rider",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Taylor Felt ft. ALXi",
+          "title": "Secret",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Korn",
+          "title": "Freak on a Leash",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Linkin Park",
+          "title": "In the End",
+          "status": "verificato",
+          "source": "trailer"
+        }
+      ],
       "image": null,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "moreSources": [
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
@@ -4252,7 +4457,9 @@
         "https://gta.wiki/w/Wade_Hebert",
         "https://culturedvultures.com/gta-6-how-to-listen-to-korn-and-linkin-park/",
         "https://www.videogameschronicle.com/guide/gta-6-all-radio-stations-genres-grand-theft-auto/",
-        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/"
+        "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+        "https://gta.wiki/w/Final_Act",
+        "https://gta.wiki/w/Franklin_Clinton"
       ],
       "color": "#9aa3ad"
     },
@@ -4821,7 +5028,7 @@
           "source": "trailer"
         }
       ],
-      "image": null,
+      "image": "../../assets/img/radio/rad-vcrr.png",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
@@ -4839,7 +5046,9 @@
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs"
       ],
       "color": "#ffb000",
-      "host": "DJ JT (JT) e DJ Stevie (DJ Stevie J); la mattina Early AF con Charlamagne (Charlamagne tha God) e Ivy (Ivy Rivera)"
+      "host": "DJ JT (JT) e DJ Stevie (DJ Stevie J); la mattina Early AF con Charlamagne (Charlamagne tha God) e Ivy (Ivy Rivera)",
+      "imageUrl": "https://gta.wiki/images/ViceCityRapRadio-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-gloriana-blues",
@@ -4986,7 +5195,7 @@
           "source": "trailer"
         }
       ],
-      "image": null,
+      "image": "../../assets/img/radio/rad-gloriana-blues.png",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
@@ -5000,7 +5209,9 @@
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/"
       ],
-      "host": "DJ Buddy (Buddy Guy) e DJ Keith (Keith Richards)"
+      "host": "DJ Buddy (Buddy Guy) e DJ Keith (Keith Richards)",
+      "imageUrl": "https://gta.wiki/images/GlorianaBluesRadio-GTAVI-Icon-RadioWheel.png?469df",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-leonida-jazz",
@@ -5225,21 +5436,23 @@
           "source": "trailer"
         }
       ],
-      "image": null,
+      "image": "../../assets/img/radio/rad-leonida-jazz.png",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "color": "#a36bd8",
+      "updatedAt": "2026-11-20",
+      "color": "#1f88d4",
       "moreSources": [
         "https://gamerant.com/gta-6-all-songs-artists-radio-stations/",
         "https://www.sportskeeda.com/gta/all-gta-6-radio-stations-songs",
         "https://gta.wiki/w/Radio_Stations_in_GTA_VI",
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/"
       ],
-      "host": "DJ Randy (Randy Brecker) e DJ Stanley (Stanley Clarke); nello spazio The Nook c'è Yussef Dayes"
+      "host": "DJ Randy (Randy Brecker) e DJ Stanley (Stanley Clarke); nello spazio The Nook c'è Yussef Dayes",
+      "imageUrl": "https://gta.wiki/images/LeonidaJazzRadio-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-wktt",
@@ -5259,7 +5472,10 @@
         "https://gta.wiki/w/WKTT_Talk_Radio",
         "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/"
       ],
-      "host": "Richard Bastion (Jason Sudeikis) e Dominic «The Brick» Brizzolato (Stavros Halkias)"
+      "host": "Richard Bastion (Jason Sudeikis) e Dominic «The Brick» Brizzolato (Stavros Halkias)",
+      "image": "../../assets/img/radio/rad-wktt.png",
+      "imageUrl": "https://gta.wiki/images/WKTTTalkRadio-GTAVI-Icon-RadioWheel.png?c7fe9",
+      "imageCredit": "gta.wiki (CC BY-SA): icona ufficiale della ruota delle radio di GTA VI"
     },
     {
       "id": "rad-the-vault",
