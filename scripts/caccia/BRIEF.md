@@ -7,6 +7,9 @@ Leggi PRIMA: /home/user/leonida/CLAUDE.md («Regole fisse», «Fai un giro guide
 Leggi SUBITO /home/user/leonida/scripts/caccia/gioco-mike.md: sono le schermate del gioco di Mike (in italiano). Quello che c'è lì è giusto per definizione: nomi, numeri, totali, termini. Se una fonte dice altro, ha torto (segnalalo nel rapporto). Usa SEMPRE i termini italiani del gioco elencati lì (es. «livello di sospetto» e «stelle di sospetto», non «ricercato»; «ricettatori»; «borse della refurtiva»; «Veicoli di spicco»; «Varianti uniche di armi»). Se nel tuo ambito trovi testi con i termini vecchi, correggili (update del campo intero).
 I veicoli ora hanno le classi del gioco: `class` è un id di `docs/data/vehicles.json → groups` (es. `coupe`, `muscle`, `pickup`, `emergenza`, `sp-lowrider`), oppure `fuori-elenco`.
 
+## Dove va quello che scopri (Mike, 20/11)
+Quello che scopri sui sistemi di gioco (polizia, soldi, fisico, veicoli, aspetto…) arricchisce, corregge o conferma le schede di «Come si gioca» (`docs/data/meccaniche.json`), scritto come spiegazione utile. Niente elenchi di contatori, niente strutture nuove da compilare.
+
 ## Perché questo giro
 Il proprietario ha trovato da solo una canzone della radio («Feels», Calvin Harris con Katy Perry, su Flash FM) che nella guida mancava. Vuole essere sicuro che non ci sfuggano altre cose così. Il tuo lavoro è una CACCIA: confronta quello che la guida ha nel tuo ambito con quello che le fonti hanno pubblicato FINO A ORA, trova ciò che manca o è superato, e aggiungilo. Parti sempre da un inventario: cosa abbiamo (leggi i dati), cosa dicono le fonti (elenco), differenza.
 

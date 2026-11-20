@@ -284,6 +284,8 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 
 **Rilascio 1.2 (Mike, 20/11 sera):** non chiedere più l'OK per pubblicare: la 1.2 ha ancora molte cose da fare prima. Si lavora in anteprima e si pubblica solo quando lo dice Mike.
 
+**«Come si gioca» è il posto dove finisce quello che scopriamo (Mike, 20/11 sera):** niente pagina «Statistiche» a parte e niente contatori dettagliati da compilare (né nei personaggi né altrove). Le statistiche del gioco e tutto ciò che scopriamo man mano arricchiscono, correggono o confermano le descrizioni delle schede di «Come si gioca» (`meccaniche.json`).
+
 **Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
 
 ## 6. Strumenti e verifiche prima di ogni push
