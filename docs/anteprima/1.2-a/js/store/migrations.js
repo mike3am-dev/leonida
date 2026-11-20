@@ -1,0 +1,62 @@
+/**
+ * Migrazioni dei progressi salvati.
+ * Ogni voce porta lo stato dalla versione N alla N+1.
+ * Quando cambi il formato: alza CURRENT_VERSION e aggiungi una funzione.
+ */
+export const CURRENT_VERSION = 6;
+
+export function emptyState() {
+  return {
+    version: CURRENT_VERSION,
+    missions: {},      // id -> { state: 'in-corso'|'completata', at, extras: { objId: true } }
+    collectibles: {},  // id -> ISO date
+    activities: {},    // id -> 'completata'
+    notes: [],         // { id, ts, text, districtId, missionId }
+    owned: {},         // id -> ISO date (armi nello zaino, veicoli nel garage)
+    myVehicles: {},    // id -> { name, cls, at }: veicoli aggiunti a mano al garage (non ancora nella guida)
+    trophies: {},      // id -> ISO date
+    discovered: {},    // id -> ISO date (personaggi incontrati, regioni scoperte: segnati a mano)
+    sessions: [],      // { start, end }
+    playlist: [],      // { id, title, artist, station, stationId, custom, at } — la mia playlist della Radio
+    current: { missionId: null, districtId: null },
+    settings: {
+      theme: 'auto',       // segue il sistema, come Safari
+      spoilerShield: true,
+      manualAct: null,     // null = segue la progressione
+      showExamples: false,
+      sfx: false,
+      virginMode: false,
+      creatorTools: false,
+      welcomeSeen: false,
+    },
+  };
+}
+
+const steps = {
+  // 1 → 2: il tema predefinito diventa «auto» (segue il sistema); chi aveva lasciato «scuro» passa ad auto.
+  1: (s) => { if (s.settings && (s.settings.theme === 'dark' || !s.settings.theme)) s.settings.theme = 'auto'; s.version = 2; return s; },
+  2: (s) => { s.discovered = s.discovered || {}; s.version = 3; return s; },
+  // 3 → 4: chi aveva già la guida installata (Mike) tiene gli strumenti del curatore; i nuovi amici no
+  3: (s) => { s.settings = s.settings || {}; if (s.settings.creatorTools === undefined) s.settings.creatorTools = true; if (s.settings.virginMode === undefined) s.settings.virginMode = false; s.version = 4; return s; },
+  // 4 → 5: chi usa già la guida non rivede il benvenuto (è per gli amici al primo avvio)
+  4: (s) => { s.settings = s.settings || {}; if (s.settings.welcomeSeen === undefined) s.settings.welcomeSeen = true; s.version = 5; return s; },
+  // 5 → 6: i vecchi «preferiti» di armi e veicoli diventano «ce l'ho» (zaino / garage)
+  5: (s) => { s.owned = s.owned || {}; for (const id of Object.keys(s.favorites || {})) s.owned[id] = s.owned[id] || new Date().toISOString(); delete s.favorites; s.version = 6; return s; },
+};
+
+export function migrate(state) {
+  if (!state || typeof state !== 'object') return emptyState();
+  let s = state;
+  if (!s.version) s.version = 1;
+  while (s.version < CURRENT_VERSION) {
+    const fn = steps[s.version];
+    if (!fn) throw new Error(`Manca la migrazione dalla versione ${s.version}`);
+    s = fn(s);
+  }
+  // Completa i campi mancanti senza toccare quelli esistenti
+  const base = emptyState();
+  for (const k of Object.keys(base)) if (s[k] === undefined) s[k] = base[k];
+  s.settings = { ...base.settings, ...(s.settings || {}) };
+  s.current = { ...base.current, ...(s.current || {}) };
+  return s;
+}
