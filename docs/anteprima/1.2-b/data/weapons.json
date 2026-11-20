@@ -59,7 +59,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Beretta 92FS",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
@@ -86,7 +86,8 @@
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
         "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
-        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/"
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/",
+        "https://game8.co/games/GTA-6/archives/638722"
       ],
       "caliber": "9 mm",
       "magazine": "15 colpi",
@@ -107,7 +108,8 @@
           "source": "stampa",
           "text": "La Duval Signature ES9 è nella sezione Varianti dell'armadietto delle armi dal capitolo 1 (Radio Times)."
         }
-      ]
+      ],
+      "price": "700 $"
     },
     {
       "id": "wpn-klose-k17",
@@ -122,7 +124,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Glock 17, SIG Sauer P320",
       "seenIn": "Screenshot ufficiali",
       "ultimate": true,
@@ -159,7 +161,8 @@
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
         "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
-        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/"
+        "https://www.radiotimes.com/technology/gaming/gta-6-ultimate-edition-bonuses-rewards/",
+        "https://game8.co/games/GTA-6/archives/638773"
       ],
       "caliber": "9 mm",
       "magazine": "17 colpi",
@@ -180,7 +183,8 @@
           "source": "stampa",
           "text": "La Caminos Signature K17 di Lucia è nella sezione Varianti dell'armadietto delle armi dal capitolo 2 (Radio Times)."
         }
-      ]
+      ],
+      "price": "975 $"
     },
     {
       "id": "wpn-mustang-357",
@@ -195,7 +199,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Colt Python (.357 Magnum)",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-mustang357.webp",
@@ -217,7 +221,8 @@
         "https://gta.wiki/w/Mustang_.357",
         "https://www.gtabase.com/weapons/gta-6/mustang-357-revolver",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638924"
       ],
       "caliber": ".357 Magnum",
       "magazine": "6 colpi",
@@ -234,7 +239,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Couch Potato Mustang .357» in giro per il mondo (il punto non è ancora indicato); «Honky Tonk Mustang .357» in vetrina, a caro prezzo, da Phil's Ammu-Nation."
         }
-      ]
+      ],
+      "price": "1.800 $"
     },
     {
       "id": "wpn-nipper-38",
@@ -249,7 +255,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Taurus PT 938, Bersa Firestorm 380",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-nipper-38.webp",
@@ -277,7 +283,8 @@
         "https://gta.wiki/w/Unnamed_GTA_VI_Bersa_Thunder_380-inspired_pistol",
         "https://www.gtabase.com/weapons/gta-6/nipper-38",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638727"
       ],
       "caliber": ".380",
       "magazine": "8 colpi",
@@ -294,7 +301,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Assassin Nipper .38» con l'enigma «Big War Puzzle» (Spy Boat); «Turnt Nipper .38» vicino a un parapendio precipitato; «Zodiac Nipper .38» nell'operazione illegale di un laboratorio di droga in città. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "550 $"
     },
     {
       "id": "wpn-duke-556",
@@ -309,7 +317,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Colt M4A1",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-service-carbine.webp",
@@ -330,7 +338,8 @@
         "https://www.gtabase.com/weapons/gta-6/service-carbine",
         "https://gta.wiki/w/Unnamed_GTA_VI_Duke_carbine",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638779"
       ],
       "extras": [
         {
@@ -351,7 +360,8 @@
         "handling": 5.8,
         "range": 6.2
       },
-      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia"
+      "whereToBuy": "Quasi ovunque: Ammu-Nation Standard, i 6 «Expanded» e i due negozi da caccia",
+      "price": "1.450 $"
     },
     {
       "id": "wpn-shrewsbury-akm",
@@ -366,7 +376,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "facts": [
         "Compare nel leak del settembre 2022",
         "Caricatore da 30 colpi (100 esteso)",
@@ -376,7 +386,8 @@
         "https://www.gtabase.com/gta-6/weapons/assault-rifle",
         "https://gta.wiki/w/Assault_Rifle",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639038"
       ],
       "realModel": "AKM / AK-47",
       "imageUrl": "https://www.gtabase.com/images/gta-6/weapons/temp/ak.jpg",
@@ -395,7 +406,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Drug Mule KZ-59» tra i pacchi di droga in mare; «La Polilla Negra KZ-59» nell'operazione illegale «Palmer Fishing Warehouse»; «Marabunta Grande KZ-59» nell'operazione illegale «Nova Auto Junkyard»; «San4San KZ-59» nell'operazione illegale «Janjak's Garage». Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.250 $"
     },
     {
       "id": "wpn-vom-feuer-carbine",
@@ -410,7 +422,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Remington R5 RGP, HK416",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-carbine-rifle.webp",
@@ -423,7 +435,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/carbine-rifle",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639035"
       ],
       "caliber": "5,56×45 mm",
       "magazine": "30 colpi",
@@ -440,7 +453,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «La Polilla Negra VF-G1» nell'operazione illegale «Watson Bay Safehouse»."
         }
-      ]
+      ],
+      "price": "3.700 $"
     },
     {
       "id": "wpn-micro-draco",
@@ -455,7 +469,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Micro Draco",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-compact-rifle.webp",
@@ -467,7 +481,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/compact-rifle",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639040"
       ],
       "caliber": "7,62×39 mm",
       "magazine": "30 colpi",
@@ -484,7 +499,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Little Cuba Hind» in vetrina, a caro prezzo, da Martez Empeños."
         }
-      ]
+      ],
+      "price": "1.700 $"
     },
     {
       "id": "wpn-compact-smg",
@@ -499,7 +515,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Caricatore da 20 colpi (30 esteso)",
@@ -509,7 +525,8 @@
         "https://www.gtabase.com/gta-6/weapons/compact-smg",
         "https://gta.wiki/w/Compact_Submachine_Gun",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638926"
       ],
       "realModel": "Scorpion (mini SMG)",
       "caliber": "9 mm",
@@ -527,7 +544,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Chronic Vatra» nell'operazione illegale «Industrial Weed Grow»; «Double Cross Vatra» in giro per il mondo (il punto non è ancora indicato); «Kolt & Associates Vatra» nell'operazione illegale «June Warehouse»; «Spangled Vatra» in vetrina, a caro prezzo, da Jackson Firearms."
         }
-      ]
+      ],
+      "price": "1.200 $"
     },
     {
       "id": "wpn-mp5",
@@ -542,7 +560,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Heckler & Koch MP5",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-smg.webp",
@@ -568,7 +586,8 @@
         "https://www.gtabase.com/weapons/gta-6/smg",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638929"
       ],
       "caliber": "9 mm",
       "magazine": "30 colpi",
@@ -585,7 +604,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Crabshack VF5» in giro per il mondo (il punto non è ancora indicato); «Guardia Brothers VF5» nell'operazione illegale «Saber Shipping Facility». Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "2.325 $"
     },
     {
       "id": "wpn-combat-mg",
@@ -600,7 +620,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "M249 SAW",
       "seenIn": "Trailer 2",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-combat-mg.webp",
@@ -613,7 +633,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/combat-mg",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
-        "https://www.ign.com/wikis/gta-6/Weapons"
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://game8.co/games/GTA-6/archives/639070"
       ],
       "caliber": "5,56×45 mm",
       "magazine": "100 colpi",
@@ -624,7 +645,8 @@
         "handling": 3.2,
         "range": 6.2
       },
-      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)"
+      "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
+      "price": "10.000 $"
     },
     {
       "id": "wpn-moreland-850",
@@ -691,7 +713,7 @@
       "sourceUrl": "https://gtabase.com/gta-6/weapons/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "realModel": "Stoeger/IGA Longfowler",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/armes/gta6-arme-gtabase-double-barrel-shotgun.webp",
@@ -710,7 +732,8 @@
         "https://www.gtabase.com/weapons/gta-6/double-barrel-shotgun",
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638777"
       ],
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
@@ -727,7 +750,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Dirty Drifter» in giro per il mondo (il punto non è ancora indicato); «Darknite Drifter» in vetrina, a caro prezzo, in un Ammu-Nation (IGN non dice quale)."
         }
-      ]
+      ],
+      "price": "1.150 $"
     },
     {
       "id": "wpn-bolt-sniper",
@@ -993,7 +1017,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "facts": [
         "Nel leak del settembre 2022 il nome compare sull'HUD di sviluppo quando Jason attiva un trucco dentro un container a PortViceCity",
         "Dopo la storia, lanciarne 100 sblocca il trucco «Tutte le armi esplosive», che le aggiunge all'arsenale con munizioni piene"
@@ -1004,7 +1028,8 @@
         "https://playday.one/2026/11/18/every-cheat-code-in-gta-6/",
         "https://www.ign.com/wikis/gta-6/Weapons"
       ],
-      "realModel": "Granata M61"
+      "realModel": "Granata M61",
+      "price": "140 $"
     },
     {
       "id": "wpn-sticky-bomb",
@@ -1019,7 +1044,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "facts": [
         "Già in Vice City, San Andreas, IV e V",
         "PowerPyx le consiglia per far saltare le casseforti dei covi delle gang, come quella del bowling di Port Gellhorn"
@@ -1032,7 +1057,8 @@
         "https://www.ign.com/wikis/gta-6/Weapons"
       ],
       "realModel": "Esplosivo C-4",
-      "whereToBuy": "Ammu-Nation"
+      "whereToBuy": "Ammu-Nation",
+      "price": "185 $"
     },
     {
       "id": "wpn-bat",
@@ -1163,7 +1189,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-heavy-pistol",
       "name": "Duke 1992",
       "manufacturer": "Duke",
@@ -1198,7 +1224,8 @@
         "https://vice-central.com/guide-toutes-les-armes-identifiees-dans-gta-vi-pistolets-fusils-melee/",
         "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638774"
       ],
       "caliber": ".45",
       "magazine": "8 colpi",
@@ -1219,7 +1246,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Deadringer 1992» in giro per il mondo (il punto non è ancora indicato); «Martha's 1992» in giro per il mondo (il punto non è ancora indicato); «Money Bag 1992» in giro per il mondo (il punto non è ancora indicato); «The Silver 1992» in vetrina, a caro prezzo, da Big Shots. Altre 4 si ottengono con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.050 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-scar.webp",
@@ -1227,7 +1255,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-scar",
       "name": "ADB FRA",
       "manufacturer": "Armurerie de Belgique (AdB)",
@@ -1246,7 +1274,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/scar-assault-rifle",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639042"
       ],
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
@@ -1263,7 +1292,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Guardia Brothers FRA» nell'operazione illegale «Casa Guardia»."
         }
-      ]
+      ],
+      "price": "2.900 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-dw9.webp",
@@ -1271,7 +1301,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-dw9",
       "name": "Schlamm DW-9",
       "manufacturer": "Schlamm",
@@ -1290,7 +1320,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/dw9",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638927"
       ],
       "caliber": "9 mm",
       "magazine": "30 colpi",
@@ -1307,7 +1338,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Dazzler DQ-9» in vetrina, a caro prezzo, da Iron & Oak. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.750 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-mac11.webp",
@@ -1315,7 +1347,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-mac11",
       "name": "Wortham W-10",
       "manufacturer": "Wortham",
@@ -1334,7 +1366,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/mac-11",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638907"
       ],
       "caliber": "9 mm",
       "magazine": "20 colpi",
@@ -1351,7 +1384,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Chromium W-10» nell'operazione illegale «La Perle Trap House»; «Little Friend W-10» in giro per il mondo (il punto non è ancora indicato); «Moneymaker W-10» in vetrina, a caro prezzo, da Tequesta Guns. Altre 3 si ottengono con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "825 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-ruger-1022.webp",
@@ -1359,7 +1393,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-ruger-1022",
       "name": "Wortham W-22",
       "manufacturer": "Wortham",
@@ -1378,7 +1412,8 @@
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/ruger-10-22-sniper",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639071"
       ],
       "caliber": ".22 LR",
       "magazine": "15 colpi",
@@ -1395,7 +1430,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingfishers W-22» nell'operazione illegale «Fishing Shacks»; «Redneck W-22» in giro per il mondo (il punto non è ancora indicato)."
         }
-      ]
+      ],
+      "price": "1.100 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-m1a.webp",
@@ -1403,7 +1439,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-m1a",
       "name": "Hillinger M306",
       "manufacturer": "Hillinger",
@@ -1421,7 +1457,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/springfield-armory-m1a-sniper",
-        "https://www.ign.com/wikis/gta-6/Weapons"
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://game8.co/games/GTA-6/archives/639065"
       ],
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
@@ -1432,7 +1469,8 @@
         "handling": 4.8,
         "range": 7.5
       },
-      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!"
+      "whereToBuy": "Nei 6 Ammu-Nation «Expanded» (Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)) e nei due negozi da caccia, Rusty Willis Jr. Hunting Supplies (Mount Kalaga National Park) e Guns Aplenty!",
+      "price": "2.375 $"
     },
     {
       "image": null,
@@ -1530,7 +1568,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "id": "wpn-knuckles",
       "name": "Tirapugni",
       "manufacturer": null,
@@ -1549,7 +1587,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/knuckle-dusters"
-      ]
+      ],
+      "price": "95 $"
     },
     {
       "image": "../../assets/img/vice/armi/wpn-pool-cue.webp",
@@ -1655,12 +1694,12 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-20",
       "id": "wpn-duffel",
-      "name": "Borsa del bottino",
+      "name": "Borsa della refurtiva",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Il bottino si raccoglie una mazzetta alla volta e sta nelle borse: servono per portare banconote segnate, gioielli e droga fino alla consegna. Ne puoi portare più d'una e passarne una al partner tenendo premuto il tasto; la capienza dipende dal veicolo.",
+      "description": "La refurtiva si raccoglie una mazzetta alla volta e va nelle borse della refurtiva: servono per portare banconote segnate, gioielli e stupefacenti fino alla consegna. Ne puoi portare più d'una e passarne una al partner tenendo premuto il tasto; la capienza dipende dal veicolo. Nelle Statistiche il gioco conta le borse sequestrate, perse e recuperate.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "moreSources": [
@@ -1775,7 +1814,7 @@
       "name": "Sigarette",
       "manufacturer": null,
       "class": "equipaggiamento",
-      "description": "Si fumano camminando e ricaricano il Focus.",
+      "description": "Si fumano camminando e ricaricano la concentrazione.",
       "howToGet": "Da verificare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/"
     },
@@ -1832,8 +1871,9 @@
       "status": "da verificare",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons"
+      "updatedAt": "2026-11-20",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Weapons",
+      "price": "290 $"
     },
     {
       "id": "wpn-cutoff-tool",
@@ -1884,7 +1924,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Raffica da 3",
@@ -1897,14 +1937,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638817"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «The Guardian ES18» nell'operazione illegale «Saber Shipping Yard»."
         }
-      ]
+      ],
+      "price": "1.550 $"
     },
     {
       "id": "wpn-klose-k17-mcd",
@@ -1919,7 +1961,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "24 colpi",
       "fireMode": "Automatica",
@@ -1932,14 +1974,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638823"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Stoner K17 MCD» in giro per il mondo (il punto non è ancora indicato). Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.700 $"
     },
     {
       "id": "wpn-fairview-kalinga",
@@ -1954,7 +1998,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": ".50 Magnum",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
@@ -1968,7 +2012,8 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638864"
       ],
       "extras": [
         {
@@ -1979,7 +2024,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Black Eagle Import Kalinga» in giro per il mondo (il punto non è ancora indicato). Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "3.100 $"
     },
     {
       "id": "wpn-hl-38",
@@ -1994,7 +2040,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": ".38 Special",
       "magazine": "6 colpi",
       "fireMode": "Semiautomatica",
@@ -2008,7 +2054,8 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638935"
       ],
       "extras": [
         {
@@ -2019,7 +2066,8 @@
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Cargo H&L .38» in giro per il mondo (il punto non è ancora indicato); «Lyle's H&L .38» in giro per il mondo (il punto non è ancora indicato); «Ride Free H&L .38» nell'operazione illegale «Biker Hideout»; «Jack Sheepe H&L .38» (Ultimate Edition) in vetrina, a caro prezzo, da Biff's Gun Supply."
         }
-      ]
+      ],
+      "price": "1.075 $"
     },
     {
       "id": "wpn-wortham-wcr1",
@@ -2034,7 +2082,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": ".38 Special",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
@@ -2047,14 +2095,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638748"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Iron & Oak WCR-1» in vetrina, a caro prezzo, da Iron & Oak."
         }
-      ]
+      ],
+      "price": "600 $"
     },
     {
       "id": "wpn-scorpio-akulus",
@@ -2069,7 +2119,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": ".44 Magnum",
       "magazine": "6 colpi",
       "fireMode": "Semiautomatica",
@@ -2082,14 +2132,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638933"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingfishers Akulus» nell'operazione illegale «Sunrise RV Park»; «Swamp Bait Akulus» in giro per il mondo (il punto non è ancora indicato)."
         }
-      ]
+      ],
+      "price": "3.000 $"
     },
     {
       "id": "wpn-vf5c",
@@ -2104,7 +2156,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Automatica",
@@ -2117,14 +2169,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638945"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Scrapper VF5C» nell'operazione illegale «La Cascara Motel»."
         }
-      ]
+      ],
+      "price": "2.600 $"
     },
     {
       "id": "wpn-zhang-wu-type9",
@@ -2139,7 +2193,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "10 colpi",
       "fireMode": "Automatica",
@@ -2152,14 +2206,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638920"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Marabunta Grande Type 9» nell'operazione illegale «Weed Grow»; «Neon Sunset Type 9» in vetrina, a caro prezzo, da Vice City Firearms; «Conspiracist Type 9» in giro per il mondo (il punto non è ancora indicato)."
         }
-      ]
+      ],
+      "price": "1.100 $"
     },
     {
       "id": "wpn-deever-dsg",
@@ -2174,7 +2230,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "30 colpi",
       "fireMode": "Raffica da 3",
@@ -2187,18 +2243,20 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638923"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Eris Fresh DSG» nell'operazione illegale «Illegal Goods Store»."
         }
-      ]
+      ],
+      "price": "1.350 $"
     },
     {
       "id": "wpn-adb-pd80",
-      "name": "ADB PD-80",
+      "name": "ADB PD-90",
       "manufacturer": "Armurerie de Belgique (AdB)",
       "class": "mitra",
       "description": "Mitra compatto e robusto per la difesa personale.",
@@ -2209,7 +2267,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "5,7×28 mm",
       "magazine": "30 colpi",
       "fireMode": "Automatica",
@@ -2221,11 +2279,13 @@
         "range": 4.2
       },
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Weapons"
+        "https://www.ign.com/wikis/gta-6/Weapons",
+        "https://game8.co/games/GTA-6/archives/638943"
       ],
       "facts": [
-        "Barre, calibro e caricatore coincidono tra DayOne e IGN, ma il nome no: DayOne scrive PD-80, IGN PD-90"
-      ]
+        "Il nome giusto è PD-90 (IGN e Game8); DayOne scrive PD-80"
+      ],
+      "price": "3.350 $"
     },
     {
       "id": "wpn-goodwin-lmg6",
@@ -2275,7 +2335,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
@@ -2288,14 +2348,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639044"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Woodhatch Longshot» in vetrina, a caro prezzo, da Woodhatch."
         }
-      ]
+      ],
+      "price": "1.425 $"
     },
     {
       "id": "wpn-girardi-verro",
@@ -2310,7 +2372,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
@@ -2323,14 +2385,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639047"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Throttler Vero» nell'operazione illegale «Farm Fix Meth Lab»."
         }
-      ]
+      ],
+      "price": "2.700 $"
     },
     {
       "id": "wpn-girardi-az1200",
@@ -2345,7 +2409,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "Semiautomatica",
@@ -2358,14 +2422,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639046"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Nitepower AZ1200» in vetrina, a caro prezzo, da Black Eagle."
         }
-      ]
+      ],
+      "price": "3.460 $"
     },
     {
       "id": "wpn-fs-gorse-425",
@@ -2380,7 +2446,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "5 colpi",
       "fireMode": "A pompa",
@@ -2393,14 +2459,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638776"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «San4San Gorse 425» nell'operazione illegale «Parlor Apartments»; «Smuggler Gorse 425» su una zattera abbandonata con sigari di contrabbando; «Basher Gorse 425» in vetrina, a caro prezzo, da Pawn & Gun (Gellhorn)."
         }
-      ]
+      ],
+      "price": "850 $"
     },
     {
       "id": "wpn-shrewsbury-hobo",
@@ -2415,7 +2483,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
@@ -2428,14 +2496,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638778"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Backdoor Hobo» in vetrina, a caro prezzo, da Zenon's Pawn Shop. Un'altra si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.325 $"
     },
     {
       "id": "wpn-mk-shortstraw",
@@ -2450,7 +2520,7 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-cheats/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "2 colpi",
       "fireMode": "A canne basculanti",
@@ -2474,8 +2544,10 @@
       "moreSources": [
         "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
-      ]
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639045"
+      ],
+      "price": "1.425 $"
     },
     {
       "id": "wpn-goodwin-comshot12",
@@ -2490,7 +2562,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
@@ -2503,14 +2575,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639048"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Hellspawn Comshot 12» in giro per il mondo (il punto non è ancora indicato); «Unpacked Comshot 12» in giro per il mondo (il punto non è ancora indicato)."
         }
-      ]
+      ],
+      "price": "3.825 $"
     },
     {
       "id": "wpn-girardi-super400",
@@ -2525,7 +2599,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "7 colpi",
       "fireMode": "Semiautomatica",
@@ -2538,14 +2612,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639049"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Hostile Super400» nell'operazione illegale «Mill Station Radar Base»; «Bruiser Super400» in vetrina, a caro prezzo, da Vice City Gun & Pawn."
         }
-      ]
+      ],
+      "price": "2.700 $"
     },
     {
       "id": "wpn-kozlov-kvga12",
@@ -2560,7 +2636,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "Calibro 12",
       "magazine": "8 colpi",
       "fireMode": "Automatica",
@@ -2573,14 +2649,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639052"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Final Chapter KVGA-12» nell'operazione illegale «Irons Building Supply»."
         }
-      ]
+      ],
+      "price": "3.650 $"
     },
     {
       "id": "wpn-hillinger-heathen",
@@ -2595,7 +2673,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "5,56×45 mm",
       "fireMode": "Raffica da 3",
       "whereToBuy": "Solo nei 6 Ammu-Nation «Expanded»: Big Shots (Hamlet), Woodhatch (Capri), Phil's Ammu-Nation, Iron & Oak, Black Eagle e Prestige Firearms (Vice City)",
@@ -2607,14 +2685,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639018"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Kingpin Heathen» nell'operazione illegale «Vespucci Mansion»; «Vice City Heathen» in vetrina, a caro prezzo, da Prestige Firearms."
         }
-      ]
+      ],
+      "price": "2.450 $"
     },
     {
       "id": "wpn-hl-mediator",
@@ -2629,7 +2709,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "9 mm",
       "magazine": "17 colpi",
       "fireMode": "Semiautomatica",
@@ -2643,14 +2723,16 @@
       "moreSources": [
         "https://beebom.com/gta-6-gear-up-mission/",
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638781"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Mossy Mediator» in vetrina, a caro prezzo, da Barrage Gun Supply."
         }
-      ]
+      ],
+      "price": "900 $"
     },
     {
       "id": "wpn-wortham-w14",
@@ -2665,7 +2747,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "5,56×45 mm",
       "magazine": "20 colpi",
       "fireMode": "Semiautomatica",
@@ -2678,14 +2760,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638782"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Ha anche una variante unica (IGN): si ottiene con la storia o in altro modo non ancora indicato."
         }
-      ]
+      ],
+      "price": "1.400 $"
     },
     {
       "id": "wpn-hillinger-m306-tmr",
@@ -2700,7 +2784,7 @@
       "sourceUrl": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "caliber": "7,62×51 mm",
       "magazine": "20 colpi",
       "fireMode": "Semiautomatica",
@@ -2713,14 +2797,16 @@
       },
       "moreSources": [
         "https://www.ign.com/wikis/gta-6/Weapons",
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/639073"
       ],
       "extras": [
         {
           "source": "stampa",
           "text": "Varianti uniche (IGN; non si modificano e, una volta prese, le hanno sia Jason sia Lucia): «Black Eagle Import M306 TMR» in giro per il mondo (il punto non è ancora indicato)."
         }
-      ]
+      ],
+      "price": "2.550 $"
     },
     {
       "id": "wpn-laird-350",
@@ -2973,7 +3059,7 @@
         "È la 53ª arma da fuoco dell'elenco di IGN; DayOne non la riporta ancora"
       ],
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "extras": [
         {
           "source": "stampa",
@@ -2981,8 +3067,10 @@
         }
       ],
       "moreSources": [
-        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants"
-      ]
+        "https://www.ign.com/wikis/gta-6/Unique_Weapon_Variants",
+        "https://game8.co/games/GTA-6/archives/638825"
+      ],
+      "price": "2.100 $"
     },
     {
       "id": "wpn-baton",
@@ -3000,7 +3088,9 @@
         "Nome inglese del gioco; il nome italiano non è ancora noto"
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "160 $",
+      "moreSources": []
     },
     {
       "id": "wpn-bushcraft-knife",
@@ -3018,7 +3108,9 @@
         "Nome inglese del gioco; il nome italiano non è ancora noto"
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "230 $",
+      "moreSources": []
     },
     {
       "id": "wpn-combat-knife",
@@ -3042,7 +3134,9 @@
         }
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "285 $",
+      "moreSources": []
     },
     {
       "id": "wpn-diving-knife",
@@ -3060,7 +3154,9 @@
         "Nome inglese del gioco; il nome italiano non è ancora noto"
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "300 $",
+      "moreSources": []
     },
     {
       "id": "wpn-edc-knife",
@@ -3078,7 +3174,9 @@
         "Nome inglese del gioco; il nome italiano non è ancora noto"
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "275 $",
+      "moreSources": []
     },
     {
       "id": "wpn-survival-knife",
@@ -3096,7 +3194,9 @@
         "Nome inglese del gioco; il nome italiano non è ancora noto"
       ],
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-20",
+      "price": "315 $",
+      "moreSources": []
     }
   ],
   "notes": {

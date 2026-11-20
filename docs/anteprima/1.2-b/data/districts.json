@@ -1180,8 +1180,8 @@
         {
           "id": "poi-harmon-and-fenix",
           "name": "Harmon & Fenix",
-          "kind": "Abbigliamento",
-          "description": "Negozio di abbigliamento del Cipher Mall di Rockridge.",
+          "kind": "Insegna",
+          "description": "Insegna di un negozio di abbigliamento nel Cipher Mall di Rockridge (dai leak). Non è un negozio dove si compra: non compare tra i 67 negozi di vestiti dell'elenco della mappa.",
           "xy": [
             2931,
             -64
@@ -1191,7 +1191,10 @@
           "sourceUrl": "https://gtadb.org/map/?v=6&l=L1100",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/"
+          ]
         },
         {
           "id": "poi-core-software",
@@ -1586,24 +1589,6 @@
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L197,ig.jpg"
         },
         {
-          "id": "poi-st-downtown-metro-station",
-          "name": "Downtown Station (NE 5th St)",
-          "kind": "Stazione · Vice City Metro",
-          "description": "Stazione della linea Vice City Metro, a Downtown.",
-          "xy": [
-            3355,
-            -369
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07",
-          "image": "../../assets/img/poi/poi-st-downtown-metro-station.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1698,ig.jpg"
-        },
-        {
           "id": "poi-st-downtown-interchange-station",
           "name": "NW 3rd Street Station",
           "kind": "Stazione · Vice City Metro + City Mule Line (interscambio)",
@@ -1689,56 +1674,26 @@
           "updatedAt": "2026-11-07"
         },
         {
-          "id": "poi-st-downtown-mover-station",
-          "name": "Stazione Metro Mule (Downtown, First St)",
-          "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Stazione della linea Metro Mule – City Mule Line, a Downtown.",
-          "xy": [
-            3416,
-            -574
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
-          "id": "poi-st-catalan-blvd-mover-station",
-          "name": "Stazione Metro Mule (Catalan Blvd)",
-          "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "gtadb: unconfirmed.",
-          "xy": [
-            3481,
-            -708
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07",
-          "image": "../../assets/img/poi/poi-st-catalan-blvd-mover-station.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L746,ig.jpg"
-        },
-        {
           "id": "poi-st-downtown-south-mover-station",
-          "name": "Stazione Metro Mule (Downtown sud)",
+          "name": "Downtown",
           "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Stazione della linea Metro Mule – City Mule Line, a Downtown.",
+          "description": "Downtown, nella parte sud verso Tequesta: fermata della City Mule Line, la monorotaia del centro. Nell'elenco della mappa si chiama semplicemente «Downtown». Nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni) le stazioni sono 25, 17 nella contea di Vice-Dale.",
           "xy": [
             3227,
             -806
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07",
+          "updatedAt": "2026-11-20",
           "image": "../../assets/img/poi/poi-st-downtown-south-mover-station.jpg",
-          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2911,ig.jpg"
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L2911,ig.jpg",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro",
+            "https://www.gtasixmap.com/guides/train-stations"
+          ]
         },
         {
           "id": "poi-st-tequesta-mover-station",
@@ -2319,16 +2274,19 @@
         },
         {
           "id": "poi-gang-retro-del-negozio",
-          "name": "Retro del negozio",
+          "name": "Illegal Sneaker Trade",
           "kind": "Operazione di gang",
-          "description": "Un negozio nel nord di Vice City con un retrobottega sospetto («Robbery Opportunity»). Banda: San4San.",
+          "description": "Un negozio nel nord di Vice City, vicino al fiume e alla superstrada: un uomo si infila nel retrobottega, dove (lo dice il nome) si trafficano scarpe da ginnastica. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: San4San.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-janjaks-garage",
@@ -2345,68 +2303,83 @@
         },
         {
           "id": "poi-gang-palazzo-dei-san4san",
-          "name": "Palazzo dei San4San",
+          "name": "Parlor Apartments",
           "kind": "Operazione di gang",
-          "description": "Condominio nel nord di Vice City dove «spuntano cadaveri» («Robbery Opportunity»). Banda: San4San.",
+          "description": "Condominio nel nord di Vice City, vicino al fiume: secondo la gente del posto lì intorno continuano a spuntare cadaveri, e dietro ci sarebbero i San4San. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: San4San.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-attivit-criminale-san4san",
-          "name": "Attività criminale San4San",
+          "name": "La Perle Trap House",
           "kind": "Operazione di gang",
-          "description": "Un altro covo nel nord di Vice City («Robbery Opportunity»). Banda: San4San.",
+          "description": "La Perle, nel nord di Vice City, vicino al fiume: una casa dove hai visto movimenti sospetti. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: San4San.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-centro-sociale-dei-ptt",
-          "name": "Centro sociale dei PTT",
+          "name": "Kamar Devon Community Center",
           "kind": "Operazione di gang",
-          "description": "Centro sociale di Southside dove nascondono la merce rubata («Robbery Opportunity»). Banda: PTT Youngin$.",
+          "description": "Southside: il centro sociale abbandonato dove i PTT nascondono la merce rubata. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: PTT Youngin$.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 3,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-magazzino-dei-ptt",
-          "name": "Magazzino dei PTT",
+          "name": "Southside Trap House",
           "kind": "Operazione di gang",
-          "description": "Magazzino di Southside con la merce rubata («Robbery Opportunity»). Banda: PTT Youngin$.",
+          "description": "Southside, poco più a sud del Kamar Devon Community Center: la casa dove, secondo un commesso a cui hanno svaligiato il negozio, si ritrovano i PTT. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: PTT Youngin$.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 3,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-cantiere-dei-guardia",
-          "name": "Cantiere dei Guardia",
+          "name": "Saber Shipping Yard",
           "kind": "Operazione di gang",
-          "description": "Un cantiere nautico sul fiume di Vice City dove tengono la droga («Robbery Opportunity»). Banda: Guardia Brothers.",
+          "description": "Cantiere nautico sul fiume di Vice City, vicino a Little Cuba, dove i Guardia tengono la droga. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Guardia Brothers.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-casa-guardia",
@@ -2423,16 +2396,19 @@
         },
         {
           "id": "poi-gang-deposito-spedizioni-dei-guardia",
-          "name": "Deposito spedizioni dei Guardia",
+          "name": "Saber Shipping Facility",
           "kind": "Operazione di gang",
-          "description": "Struttura di spedizioni a Vice City usata come deposito di droga («Robbery Opportunity»). Banda: Guardia Brothers.",
+          "description": "Deposito di spedizioni sul fiume di Vice City, sotto gli svincoli della superstrada: i Guardia ci tengono la droga. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Guardia Brothers.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-slator-towing-inc",
@@ -2529,53 +2505,53 @@
           "id": "poi-banca-fleeca-vcia",
           "name": "Fleeca – VCIA",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-fleeca-tequesta",
           "name": "Fleeca – Tequesta",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 65.000–110.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 65.000–110.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-lombank-downtown",
           "name": "Lombank – Downtown",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-fleeca-downtown",
           "name": "Fleeca – Downtown",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 100.000–150.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-prestiti-payday-loans-southside",
@@ -3876,40 +3852,66 @@
           "id": "poi-st-shoreline-park-station",
           "name": "Shoreline Park",
           "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
+          "description": "Downtown, verso Catalan Boulevard e la baia: fermata della City Mule Line, la monorotaia del centro. Nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni) le stazioni sono 25, 17 nella contea di Vice-Dale.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-          "image": null,
+          "image": "../../assets/img/poi/poi-st-catalan-blvd-mover-station.jpg",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro",
+            "https://www.gtasixmap.com/guides/train-stations"
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L746,ig.jpg",
+          "xy": [
+            3481,
+            -708
+          ]
         },
         {
           "id": "poi-st-downtown-north-station",
           "name": "Downtown North",
           "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
+          "description": "Downtown, su First Street: fermata della City Mule Line, la monorotaia del centro. Nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni) le stazioni sono 25, 17 nella contea di Vice-Dale.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro",
+            "https://www.gtasixmap.com/guides/train-stations"
+          ],
+          "xy": [
+            3416,
+            -574
+          ]
         },
         {
           "id": "poi-st-courthouse-station",
           "name": "Courthouse",
           "kind": "Stazione · Metro Mule – City Mule Line",
-          "description": "Fermata della City Mule Line, la monorotaia del centro, a Downtown. La contea di Vice-Dale ha 17 stazioni nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni). Posizione esatta da precisare: potrebbe coincidere con una delle fermate Metro Mule già in elenco con un nome provvisorio.",
+          "description": "Downtown, su NE 5th Street: stazione sopraelevata del centro (sui cartelli e su gta.wiki era «Downtown Station»). Nell'elenco della mappa (Mappa > Veicoli > Stazioni dei treni) le stazioni sono 25, 17 nella contea di Vice-Dale.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-          "image": null,
+          "image": "../../assets/img/poi/poi-st-downtown-metro-station.jpg",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://gta.wiki/w/Vice_City_Metro",
+            "https://www.gtasixmap.com/guides/train-stations"
+          ],
+          "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L1698,ig.jpg",
+          "xy": [
+            3355,
+            -369
+          ]
         },
         {
           "id": "poi-garage-gtaplus-crosstown",
@@ -3931,14 +3933,17 @@
           "id": "poi-dynamix-fitness",
           "name": "Dynamix Fitness",
           "kind": "Palestra",
-          "description": "Bayside. Palestra: nel corridoio sul retro, su una panca, c'è una carta collezionabile dei Vice City Narcos.",
+          "description": "Bayside. Palestra con abbonamento da 600 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi. Nel corridoio sul retro, su una panca, c'è una carta collezionabile dei Vice City Narcos.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-vice-city-narcos-collectible-card-set-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+          ]
         },
         {
           "id": "poi-vice-city-casino",
@@ -4042,14 +4047,66 @@
           "id": "poi-vice-seven-gym",
           "name": "Vice Seven Condominiums Gym",
           "kind": "Palestra",
-          "description": "Tequesta, dentro il condominio Vice Seven su SW 4th St. Palestra del palazzo: nello spogliatoio sud c'è una carta collezionabile dei Los Santos Pounders.",
+          "description": "Tequesta, dentro il condominio Vice Seven su SW 4th St. Palestra del palazzo, abbonamento 450 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi. Nello spogliatoio sud c'è una carta collezionabile dei Los Santos Pounders.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-los-santos-pounders-collectible-card-set-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+          ]
+        },
+        {
+          "id": "poi-grand-majestic-gym",
+          "name": "Grand Majestic Gym",
+          "kind": "Palestra",
+          "description": "Tequesta, dentro il Grand Majestic (la torre con l'insegna in cima), sullo stesso piano della cucina. Palestra dell'albergo con pesi e macchine per il cardio: abbonamento da 250 $, il più economico. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi. In cucina, sullo stesso piano, c'è una carta collezionabile dei Vice City Manatees.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-vice-city-manatees-collectible-card-set-locations/",
+            "https://www.gtasixmap.com/guides/gyms"
+          ]
+        },
+        {
+          "id": "poi-zenith-gym",
+          "name": "Zenith",
+          "kind": "Palestra",
+          "description": "Vice City, tra Downtown e Tequesta, vicino alla foce del fiume. Palestra alla moda con pesi e cardio di ultima generazione; si compra anche da mangiare e ci sono vestiti in vendita. Abbonamento 750 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gyms"
+          ]
+        },
+        {
+          "id": "poi-gang-vespucci-mansion",
+          "name": "Vespucci Mansion",
+          "kind": "Operazione di gang",
+          "description": "Vespucci Island, una delle isole artificiali della baia lungo la strada rialzata verso Vice Beach: una villa dove ti affrontano criminali armati. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         }
       ],
       "activityIds": [],
@@ -4059,7 +4116,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "gallery": [
         "../../assets/img/ss-vice-city-27.jpg"
       ],
@@ -4943,7 +5000,7 @@
           "id": "poi-naval-air-station",
           "name": "Mile Zero Air Station",
           "kind": "Base militare",
-          "description": "La base militare sull'isola all'estremo sud-ovest. Nella parte sud ci sono i carri armati (3 stelle e trofeo «Pelle coriacea»), nella metà nord i caccia (4 stelle). Si entra dal cancello o col salto accanto all'ingresso sud-est.",
+          "description": "La base militare sull'isola all'estremo sud-ovest. Nella parte sud ci sono i carri armati (3 stelle di sospetto e trofeo «Pelle coriacea»), nella metà nord i caccia (4 stelle di sospetto). Si entra dal cancello o col salto accanto all'ingresso sud-est.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-military-tank-location/",
@@ -4952,7 +5009,7 @@
             -297,
             -4294
           ],
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-gambit-bay",
@@ -5028,27 +5085,33 @@
           "id": "poi-ammu-chucks-tackle-and-shot",
           "name": "Chuck's Tackle & Shot",
           "kind": "Armeria (Ammu-Nation)",
-          "description": "Ammu-Nation nelle Keys centrali, assortimento limitato.",
-          "status": "da verificare",
-          "source": "stampa",
+          "description": "Ammu-Nation nelle Keys centrali, assortimento limitato. Visto nel gioco di Mike (Statistiche, «Luoghi più visitati»).",
+          "status": "verificato",
+          "source": "gioco-mike",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/"
+          ]
         },
         {
           "id": "poi-mod-coastal-auto-care",
           "name": "Coastal Auto Care",
           "kind": "Officina (mod shop)",
-          "description": "Officina nelle Keys meridionali, specializzata in retrò: potenziamenti e modifiche estetiche.",
-          "status": "da verificare",
-          "source": "stampa",
+          "description": "Officina nelle Keys meridionali, specializzata in retrò: potenziamenti e modifiche estetiche. Visto nel gioco di Mike (Statistiche, «Luoghi più visitati»).",
+          "status": "verificato",
+          "source": "gioco-mike",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-mod-shops-locations/"
+          ]
         },
         {
           "id": "poi-gang-exotic-animals-front",
@@ -5345,7 +5408,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "gallery": [
         "../../assets/img/ss-leonida-keys-07.jpg"
       ],
@@ -5379,7 +5442,7 @@
         },
         {
           "label": "Base militare",
-          "value": "In fondo all'arcipelago",
+          "value": "Mile Zero Air Station, l'isola all'estremo sud-ovest della mappa: carri armati (3 stelle di sospetto) e caccia (4 stelle)",
           "reliability": "Riportato"
         }
       ],
@@ -5897,6 +5960,54 @@
           "moreSources": [
             "https://www.rockstargames.com/VI/media"
           ]
+        },
+        {
+          "id": "poi-gang-watson-bay-safehouse",
+          "name": "Watson Bay Safehouse",
+          "kind": "Operazione di gang",
+          "description": "Watson Bay, su una punta isolata della costa con un pontile: una casa sorvegliata da molti uomini armati. È la seconda operazione della La Polilla Negra, con il Palmer Fishing Warehouse. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: La Polilla Negra.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
+        },
+        {
+          "id": "poi-gang-mill-station-radar-base",
+          "name": "Mill Station Radar Base",
+          "kind": "Operazione di gang",
+          "description": "Contea di Mariana, nell'entroterra tra Watson Bay e le paludi, a sud-ovest di Vice City: una vecchia base radar in mezzo ai campi, dove ti affrontano criminali armati. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
+        },
+        {
+          "id": "poi-hog-house-bar",
+          "name": "The Hog House Bar",
+          "kind": "Bar",
+          "description": "Contea di Kelly, zona di Buckskin Swamp, a ovest di Vice City. Bar dove compri e bevi alcolici (aiutano per poco le statistiche). È il bar più visitato nelle statistiche del gioco di Mike.",
+          "status": "verificato",
+          "source": "gioco-mike",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/food-and-drink"
+          ]
         }
       ],
       "activityIds": [
@@ -5908,7 +6019,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "gallery": [
         "../../assets/img/ss-grassrivers-07.jpg"
       ],
@@ -6871,6 +6982,22 @@
             "https://insider-gaming.com/gta-6-map-location-poi/",
             "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
           ]
+        },
+        {
+          "id": "poi-gang-walker-farm",
+          "name": "Walker Farm",
+          "kind": "Operazione di gang",
+          "description": "Contea di Kelly, nell'entroterra tra Port Gellhorn e Ambrosia, verso Frogswater: una fattoria isolata dove ti affrontano criminali armati. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         }
       ],
       "activityIds": [],
@@ -6880,7 +7007,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "gallery": [
         "../../assets/img/ss-port-gellhorn-07.jpg"
       ],
@@ -7146,16 +7273,19 @@
         },
         {
           "id": "poi-gang-bar-dei-final-chapter",
-          "name": "Bar dei Final Chapter",
+          "name": "Biker Hideout",
           "kind": "Operazione di gang",
-          "description": "Un bar della contea di Leonard da cui passa la loro droga («Robbery Opportunity» finché non lo visiti). Banda: Final Chapter MC.",
+          "description": "Contea di Leonard, sulla sponda ovest del Lake Leonida, accanto a un canale: il bar da cui i Final Chapter fanno passare la droga. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Final Chapter MC.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-irons-building-supply",
@@ -7284,14 +7414,14 @@
           "id": "poi-bar-ambrosia",
           "name": "Bar – Ambrosia",
           "kind": "Bar",
-          "description": "Nella contea di Kelly: The Hog House Bar, Home Bar, Anakala Sam's, Ambrosia Raceway Park Bar, Thrillbilly Mud Club (tenda e bar), Paradise Wines Vineyard Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
+          "description": "Nella contea di Kelly: The Hog House Bar (a Buckskin Swamp, ha una scheda a parte), Home Bar, Anakala Sam's, Ambrosia Raceway Park Bar, Thrillbilly Mud Club (tenda e bar), Paradise Wines Vineyard Bar. Si comprano e si bevono alcolici (aiuto temporaneo alle statistiche). Sulla mappa: bicchiere blu (122 in tutto, più alcuni fuori conteggio).",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bar-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-street-ambrosia",
@@ -7372,6 +7502,22 @@
             "https://insider-gaming.com/gta-6-map-location-poi/",
             "https://vice-central.com/gta-vi-carte-officielle-leonida-analyse/"
           ]
+        },
+        {
+          "id": "poi-gang-hog-stars-garage",
+          "name": "Hog Stars Garage",
+          "kind": "Operazione di gang",
+          "description": "Ambrosia, nella zona industriale vicino alla ferrovia, a due passi dall'Irons Building Supply: un'officina dove hai visto movimenti sospetti. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Final Chapter MC.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         }
       ],
       "activityIds": [],
@@ -7381,7 +7527,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "gallery": [
         "../../assets/img/ss-ambrosia-06.jpg"
       ],
@@ -7395,7 +7541,7 @@
         },
         {
           "label": "Potere locale",
-          "value": "Una gang di biker",
+          "value": "Il Final Chapter MC: quattro operazioni da rapinare, quasi tutte intorno ad Ambrosia",
           "reliability": "Confermato"
         },
         {
@@ -7635,16 +7781,19 @@
         },
         {
           "id": "poi-gang-covo-m7-nel-nord",
-          "name": "Covo M7 nel nord",
+          "name": "Weed Grow",
           "kind": "Operazione di gang",
-          "description": "Complesso con un giro di droga sulla costa est della contea di Lummox («Robbery Opportunity» finché non lo visiti). Banda: M7.",
+          "description": "Complesso di capannoni sulla costa est della contea di Lummox, all'estremo nord: è il giro di droga della M7 lontano da Hamlet. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: M7.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         },
         {
           "id": "poi-gang-carter-mining-boathouse",
@@ -8395,9 +8544,9 @@
         },
         {
           "id": "poi-ajax-gym",
-          "name": "Ajax Gym",
+          "name": "Ajax Gym / Lawton Theater",
           "kind": "Palestra",
-          "description": "Palestra su SW 4th Street, a Washington Beach (Vice Beach), con un pontile sull'acqua: ci si arriva anche in barca. Pesi per la Forza, tapis roulant e cyclette per la Resistenza. Si entra pagando l'abbonamento; ci sono le barrette proteiche.",
+          "description": "Palestra su SW 4th Street, a Washington Beach (Vice Beach), nell'edificio del Lawton Theater, con un pontile sull'acqua: ci si arriva anche in barca. Nell'elenco della mappa si chiama «Ajax Gym / Lawton Theater» ed è la più cara: abbonamento 1.800 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi. Pesi per la Forza, tapis roulant e cyclette per la Resistenza; ci sono le barrette proteiche.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
@@ -8408,9 +8557,10 @@
           ],
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19",
+          "updatedAt": "2026-11-20",
           "moreSources": [
             "https://gta.wiki/w/Ajax_Gym",
+            "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
             "https://www.powerpyx.com/gta-6-liberty-city-wrath-collectible-card-set-locations/"
           ]
         },
@@ -8470,53 +8620,53 @@
           "id": "poi-banca-lombank-ocean-beach-caveau-1",
           "name": "Lombank – Ocean Beach (caveau grande)",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 135.000–205.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-fleeca-ocean-beach-caveau",
           "name": "Fleeca – Ocean Beach (caveau)",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-lombank-ocean-beach-caveau-2",
           "name": "Lombank – Ocean Beach (caveau)",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 75.000–135.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-banca-shorefront-ocean-beach-caveau",
           "name": "Shorefront – Ocean Beach (caveau)",
           "kind": "Banca con caveau (rapina)",
-          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 95.000–140.000 $. Scatta subito il livello 4 di ricercato.",
+          "description": "Banca grande: segui il furgone portavalori e entra nel caveau quando la guardia lo apre; poi cassa e cassaforte. Caveau 95.000–140.000 $. Scatta subito un livello di sospetto a 4 stelle.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
           "image": null,
           "spoilerLevel": 4,
           "example": false,
-          "updatedAt": "2026-11-18"
+          "updatedAt": "2026-11-20"
         },
         {
           "id": "poi-pns-ocean-beach",
@@ -9160,14 +9310,81 @@
           "id": "poi-venus-fitness",
           "name": "Venus Fitness",
           "kind": "Palestra",
-          "description": "Vice Beach, parte sud, su Indigo St. Palestra: in fondo, su una panca, c'è una carta collezionabile del Vice City Club de Fútbol.",
+          "description": "Vice Beach, parte sud, su Indigo St. Palestra con abbonamento da 600 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi. In fondo, su una panca, c'è una carta collezionabile del Vice City Club de Fútbol.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.ign.com/wikis/gta-6/All_Vice_City_Club_de_Futbol_Soccer_Card_Locations",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+          ]
+        },
+        {
+          "id": "poi-muscle-sands",
+          "name": "Muscle Sands",
+          "kind": "Palestra",
+          "description": "Ocean Beach, sulla spiaggia. Palestra all'aperto famosa tra i culturisti: è l'unica delle 9 palestre della mappa senza abbonamento, si usa gratis (PowerPyx la segna a 0 $). Per questo il contatore del gioco degli abbonamenti si ferma a 8.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gyms"
+          ]
+        },
+        {
+          "id": "poi-y-hotel-fitness-club",
+          "name": "Y Hotel Fitness Club",
+          "kind": "Palestra",
+          "description": "Washington Beach, nel Y Hotel sul lungomare. Centro fitness di lusso su più piani, con spa, bar dei frullati, pesi e cardio di ultima generazione. Abbonamento 1.200 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gyms"
+          ]
+        },
+        {
+          "id": "poi-aichi-outdoor-gym",
+          "name": "Aichi Condominiums Outdoor Gym",
+          "kind": "Palestra",
+          "description": "Washington Island, la punta nord di Vice Beach verso Flamingo Island: grande palestra all'aperto del condominio Aichi, con attrezzi per la forza. Abbonamento 950 $. È una delle 8 palestre con abbonamento (il contatore del gioco «Abbonamenti in palestra acquistati» arriva a 8): l'abbonamento si paga una volta sola e poi entri quando vuoi.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gyms"
+          ]
+        },
+        {
+          "id": "poi-gang-ocean-beach-lab",
+          "name": "Ocean Beach Lab",
+          "kind": "Operazione di gang",
+          "description": "Ocean Beach, un isolato dietro la spiaggia: un garage buio da cui esce musica a tutto volume. Finché non lo visiti, sulla mappa è «Robbery Opportunity». Banda: Altri criminali.",
+          "status": "da verificare",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+          "image": null,
+          "spoilerLevel": 0,
+          "example": false,
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.gtasixmap.com/guides/gang-hideouts"
+          ]
         }
       ],
       "activityIds": [],
@@ -9177,7 +9394,7 @@
       "sourceUrl": "https://gta.wiki/w/Vice_Beach",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-20",
       "insight": "Vice Beach è la città balneare sull'isola di fronte a Vice City (i cartelli dicono «Vice Beaches»): strisce di sabbia, passeggiate e grattacieli sullo sfondo.\n\nOCEAN BEACH, LA STRISCIA SIMBOLO. La spiaggia più in vista è Ocean Beach, con gli hotel art déco dalle tinte pastello e la sabbia di un bianco abbagliante, omaggio a Ocean Drive e South Beach a Miami. Facciate colorate di giorno, luci al neon quando scende la notte.\n\nIL POSTO DELLE ATTIVITÀ SECONDARIE. Su questo litorale si concentrano tante attività secondarie: moto d'acqua tra amici al tramonto, una corsa che finisce in mare tra i delfini, immersioni, relax in riva al mare. Lungo il lungomare ci sono hotel e un molo.\n\nCOSA DICE LA CARTOLINA DI VICE CITY. Il testo ufficiale di Vice City cita per prima la spiaggia: «hotel art déco pastello e sabbia bianca di Ocean Beach». Spiagge affollate, ombrelloni a perdita d'occhio, culturisti e turisti, e un viale sul mare al neon che ricorda Ocean Drive, già al centro di GTA Vice City nel 2002. Ogni passante ha la sua silhouette: la varietà degli abitanti è curatissima.\n\nLA VERA MIAMI BEACH. Vice Beaches riprende Miami Beach, e Ocean Beach il suo quartiere storico di South Beach, uno degli scenari più fotografati della Florida. Il legame va oltre l'estetica: la città di Miami Beach ha votato a favore di una partnership intorno al gioco, nonostante le critiche. Anche l'Effluvia, il bar sul tetto dove Jason e Lucia ritrovano Brian e Lori, si trova nel quartiere.",
       "insightUrl": "https://vice-central.com/lieux/vice-beaches/",
       "keyFacts": [
@@ -9407,8 +9624,8 @@
         {
           "id": "poi-binco",
           "name": "Binco",
-          "kind": "Abbigliamento economico",
-          "description": "La catena di abbigliamento low cost di GTA V ha un punto vendita a Hamlet.",
+          "kind": "Insegna",
+          "description": "L'insegna della catena di abbigliamento low cost di GTA V, a Hamlet. Non è un negozio dove si compra: non compare tra i 67 negozi di vestiti dell'elenco della mappa (a Hamlet c'è Hamlet Thrift).",
           "xy": [
             2444,
             -2422
@@ -9418,7 +9635,10 @@
           "sourceUrl": "https://gta.wiki/w/Binco_(HD_Universe)",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/"
+          ]
         },
         {
           "id": "poi-hamlet-pd",
@@ -9740,14 +9960,17 @@
           "id": "poi-bantam-boxing-gym",
           "name": "Bantam Boxing Gym",
           "kind": "Palestra",
-          "description": "Hamlet sud, su Pusley Ln. Palestra di boxe: nel cortile sul retro c'è uno dei canestri da basket del 100%.",
+          "description": "Hamlet sud, su Pusley Ln. Palestra di boxe: nel cortile sul retro c'è uno dei canestri da basket del 100%. Non è tra le 9 palestre dell'elenco della mappa (sono tutte a Vice City e Vice Beach), quindi qui non si compra un abbonamento.",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.ign.com/wikis/gta-6/Basketball_Hoop_Locations",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-20",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/"
+          ]
         }
       ],
       "activityIds": [],
@@ -9766,7 +9989,7 @@
       "name": "Capri",
       "region": "Contea di Mariana, costa ovest",
       "tagline": "Grattacieli e un molo sul Golfo.",
-      "description": "Città della costa occidentale, ispirata a un mix di Naples, Sebring e Marco Island, con grattacieli, un molo sulla spiaggia, un lago e lo stadio dei Capri City Jackals. È indicata sui cartelli della I-404.",
+      "description": "Città della costa occidentale, ispirata a un mix di Naples, Sebring e Marco Island, con grattacieli, un molo sulla spiaggia, un lago e lo stadio dei Capri City Jackals. È indicata sui cartelli della I-404. Nel gioco è nella contea di Mariana: ci sono la Gibson Brothers Bank (rapinabile), i negozi eleganti Nola e Ferruccio Tucci, l'Ammu-Nation Woodhatch, l'officina Capri Classic per le muscle car, la stazione dei treni e un garage in vendita.",
       "map": {
         "x": 250,
         "y": 580,
@@ -10021,11 +10244,11 @@
       "activityIds": [],
       "image": "../../assets/img/luoghi/capri/trailer-1-52-5s.webp",
       "status": "da verificare",
-      "source": "leak",
-      "sourceUrl": "https://gta.wiki/w/Capri",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-05"
+      "updatedAt": "2026-11-20"
     }
   ]
 }
