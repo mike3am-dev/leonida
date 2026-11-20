@@ -282,6 +282,8 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 - Vista `veicoli.js`: schede, classi con «Scoperti X / Y» (il conto non supera mai il totale del gioco), ricerca, chiave del garage su ogni foto, «Aggiungi al garage» per i veicoli che nella guida non ci sono (`progress.myVehicles`, finiscono nel Pacchetto per Claude). Scheda: «Statistiche del modello base» con i nomi italiani e il valore.
 - Da fare: classi con più voci del totale del gioco (doppioni, varianti che sono Veicoli di spicco): affidato al giro di caccia 5. Pubblicare come 1.2.0 con l'OK di Mike.
 
+**Rilascio 1.2 (Mike, 20/11 sera):** non chiedere più l'OK per pubblicare: la 1.2 ha ancora molte cose da fare prima. Si lavora in anteprima e si pubblica solo quando lo dice Mike.
+
 **Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
 
 ## 6. Strumenti e verifiche prima di ogni push
