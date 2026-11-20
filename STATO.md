@@ -1,12 +1,25 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 19 novembre 2026 sera, versione live **v1.1.0**. Da leggere insieme a `CLAUDE.md` (regole e routine). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nelle sezioni 4, 4o-4z, 5-5d.
+Aggiornato il 20 novembre 2026 sera, versione live **v1.1.0**; il lavoro della 1.2 è sul ramo **`sviluppo`** (anteprima `1.2-b`). Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
+
+## 0. Da dove ripartire (passaggio di consegne del 20/11 sera)
+Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
+- **Online**: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
+- **Su `sviluppo`, non online (la 1.2 si pubblica solo quando Mike dice «pubblica»; non chiederglielo)**:
+  - sezione **Veicoli** come nel gioco (STATO 5e): 6 schede, classi con «Scoperti X / Y», ricerca, chiave del garage, «Aggiungi al garage» per i veicoli che mancano (`progress.myVehicles`, nel Pacchetto per Claude);
+  - Home: il riquadro si chiama **«I tuoi progressi»** (non più «Profilo criminale», che è il sistema del gioco);
+  - **giro di caccia 5** applicato (README della caccia, «Cosa manca alla fine del giro del 19/11 sera» + rapporti riassunti in chat): veicoli puliti e nelle classi giuste (classi Auto e quasi tutte quelle di Servizio al totale esatto del gioco), 26 veicoli di spicco, prezzi di 62 armi, capitolo 4 (9 missioni), avviso del capitolo 1 sul conto BuckMe corretto, 21 personaggi, 30 news, radio (29 brani, 14 loghi), palestre (8 abbonamenti), termini italiani del gioco in tutta la guida (stelle di sospetto, allerta, concentrazione, refurtiva, profilo Professionale/Senza scrupoli/Violento/Folle);
+  - Come si gioca: le statistiche del gioco scritte come spiegazioni nelle schede.
+- **Decisioni di Mike del 20/11**: il suo gioco batte ogni fonte; niente coordinate esterne e la mappa non si tocca; niente pagina «Statistiche» né contatori da compilare (tutto va in «Come si gioca»); non chiedere l'OK per pubblicare.
+- **Da fare nel prossimo giro di caccia** (oltre al README): capitolo 5 e le 15 missioni del capitolo 4 senza passi; seconda fonte per i capitoli 3-4; veicoli di spicco (26/280: Game8 ha un archivio, GTABase solo controlli puntuali); varianti uniche di armi (130: IGN `Unique_Weapon_Variants` ne ha 123, struttura da decidere con Mike); nome italiano del quinto livello del profilo («Irredeemable»).
+- **Da Mike sul Mac**: scaricare le immagini nuove (`git pull`, `node scripts/scarica-immagini.mjs`, `python3 scripts/ottimizza-immagini.py`, `python3 scripts/miniature.py`); finché mancano l'app usa le foto online.
+
 
 ## 1. Cos'è, in una riga
 Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Edition), web app installata sull'iPhone Duo di Mike (usata aperta, verticale), pubblicata da GitHub Pages: https://mike3am-dev.github.io/leonida/ . Vanilla HTML/CSS/JS, dati in `docs/data/*.json`, zero build.
 
 ## 2. Dove siamo arrivati (fatto e online)
-- **Home**: sfondo keyart, conto alla rovescia al secondo, «Dove sei nella storia» (bloccata col lucchetto fino al 19, poi fatta · in corso · prossima con pulsante di avanzamento), Profilo criminale (anello + 4 riquadri), cast e regioni in scala di grigi che si accendono con la storia o con «Incontrato / Scoperta», «Lo sapevi?», radio in onda, Appunti compatti con la «i». Tutto si apre in un foglio davanti: dalla Home non si cambia tab.
+- **Home**: sfondo keyart, conto alla rovescia al secondo, «Dove sei nella storia» (bloccata col lucchetto fino al 19, poi fatta · in corso · prossima con pulsante di avanzamento), I tuoi progressi (anello + 4 riquadri; fino al 20/11 si chiamava «Profilo criminale», rinominato per non confonderlo con il sistema del gioco), cast e regioni in scala di grigi che si accendono con la storia o con «Incontrato / Scoperta», «Lo sapevi?», radio in onda, Appunti compatti con la «i». Tutto si apre in un foglio davanti: dalla Home non si cambia tab.
 - **Missioni**: anti-spoiler totale. Si vede solo la missione in corso e quelle fatte; le future sono «Missione 03 · bloccata» senza nome, luogo o protagonista; i capitoli futuri sono «Capitolo N · in arrivo». Plancia del capitolo con anello. Dati: prologo (2) + capitolo 1 (5) ricostruiti dai video ufficiali, capitoli 2-6 segnaposto.
 - **Mappa**: mappa vera della community (YANIS v16 via gtasixmap, tessere di dettaglio live oltre un certo zoom), tasto **Esplora** (la pagina scorre finché non lo tocchi), livelli Regioni (badge numerati, in ordine di storia) / Punti d'interesse (pin con foto) / Foto (Polaroid appese sulla mappa che volano sulla regione con il filo rosso), **Tu sei qui** collegato alla missione in corso, schermo intero. Sotto: schede delle 10 regioni che si aprono sul posto («Da fare qui» con tre barre, guida della regione, luoghi, galleria, chi ci vive, punti d'interesse), catalogo dei 44 luoghi di gtasixmap per regione.
 - **Terminologia fissata**: Regioni (le 10 aree) · Luoghi (quartieri, isole, paesi: le 44 schede) · Punti d'interesse (edifici e posti singoli).
@@ -247,11 +260,11 @@ Elenco unico: quando una voce è fatta, si toglie da qui e si racconta nella sez
 
 ## 5b. Anteprima: Mike approva prima che vada online (dal 19/11 sera)
 Da quando la guida è pubblica (colleghi che la usano), **niente va su `main` in `docs/` senza il via libera di Mike**, soprattutto la grafica. Le eccezioni le decide lui (per esempio i giri di soli dati).
-- **Dove si lavora**: sul ramo di lavoro della sessione (`claude/…`), con commit e push **solo su quel ramo**. `main` resta alla versione online.
+- **Dove si lavora** (dal 20/11): sul ramo condiviso `sviluppo` (attraverso il ramo di sessione `claude/…`, vedi CLAUDE.md «Le chat di Leonida»). `main` resta alla versione online.
 - **Come si fa vedere**: `node scripts/anteprima.mjs <nome> --radice <checkout di main>` copia `docs/` (css, js, data, index) in `docs/anteprima/<nome>/` di un checkout separato di `main` (`git worktree add <scratchpad>/main-wt origin/main`), con i percorsi di immagini/font/icone riscritti (`../../`), senza service worker e con la fascetta gialla «Anteprima». Lì si fa commit e `git push origin HEAD:main`: su `main` arriva solo la cartella `anteprima/` (più eventuali immagini nuove), non il codice della guida. Indirizzo: `https://mike3am-dev.github.io/leonida/anteprima/<nome>/`.
 - **Nome nuovo a ogni giro** (`1.0.1-a`, `1.0.1-b`…): il telefono tiene in memoria i file già visti. Lo script cancella le anteprime vecchie.
 - **Insieme al link** si mandano a Mike gli screenshot (iPhone 393×852 e Duo 703×1000, chiaro e scuro) con SendUserFile.
-- **Via libera**: sul ramo di lavoro `git merge origin/main`, si cancella `docs/anteprima/`, si alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, e solo allora `git push origin HEAD:main`.
+- **Via libera** (Mike dice «pubblica»): su `sviluppo` `git merge origin/main`, si cancella `docs/anteprima/`, si alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, e solo allora `git push origin HEAD:main`.
 - L'anteprima usa gli stessi progressi (se aperta nello stesso browser) e lo stesso Supabase della guida vera: in un'anteprima non si cambia il formato dei progressi e non si lanciano SQL nuovi che rompano l'app online (le funzioni nuove si aggiungono, le vecchie restano).
 - Le miniature (`python3 scripts/miniature.py`, serve Pillow: si lancia in sessione) vanno rifatte dopo che Mike ha scaricato immagini nuove.
 
@@ -275,6 +288,18 @@ Provata nelle anteprime `1.1-a` … `1.1-h`, pubblicata come v1.1.0 insieme ai d
 - Anteprima 1.1-f (correzioni chieste da Mike, valgono anche sul Duo): tolta la striscia «Ora stai giocando» ovunque (la missione in corso sta in Home); meno spazio sopra il titolo delle pagine (`.page--top:empty + .page`, padding del telefono 16 px); il «bordino» delle testate con la foto era la foto che passava sotto il bordo semitrasparente (ora `background-clip: padding-box`) e la lineetta al neon a sinistra stava sotto il velo scuro (ora sopra); riquadro del capitolo in Missioni ridisegnato (`chapterCard`: foto del capitolo dietro, anello, titolo, «N di 21 · ne mancano», barra a segmenti, facoltative, pulsante con la missione in corso o la prossima).
 - Corretto insieme: i trattini del capitolo nella pagina Missioni uscivano dal riquadro sugli iPhone.
 - Controllo dei difetti grafici sugli iPhone (19/11 sera, script `scratchpad/rc/fuori.cjs`: 439 pagine a 393 e 440 px, cerca cose che escono dallo schermo o dal riquadro e testo che non va a capo). Corretti: titoli grandi delle sezioni tagliati dal contatore (il contatore va sotto), schede «a colpo d'occhio» dei luoghi con le etichette lunghe che schiacciavano il valore (etichetta sopra il valore), indirizzi web che uscivano dal bordo (`overflow-wrap: anywhere`), riga «Capitolo raggiunto» delle Impostazioni (la tendina va sotto; prima si chiamava «Atto raggiunto»). Restano segnalati solo falsi allarmi: le strisce che scorrono di lato (regioni in Home, luoghi vicini, legami dei personaggi). Il controllo va rifatto prima di ogni rilascio grafico.
+
+## 5e. Veicoli come nel gioco (anteprima 1.2-a, 20/11) e regola «il gioco di Mike batte tutto»
+- Mike ha mandato le schermate del gioco (cartella `Screenshot/`, 19 foto della schermata Statistiche e della pagina Progresso / Veicoli). Regola nuova: le sue schermate e informazioni battono qualsiasi fonte (CLAUDE.md). Trascrizione e termini ufficiali in `scripts/caccia/gioco-mike.md`.
+- Sezione **Veicoli** (prima «Garage»): `vehicles.json → groups` con le 6 schede del gioco e le classi con i totali esatti (557 = 277 + 280 «Veicoli di spicco» negli Speciali). Ogni veicolo ha `class` = id di classe (`coupe`, `muscle`, …, `sp-lowrider`) o `fuori-elenco` (treni, traghetto…: non contano). Riclassificazione del 20/11: 183 dall'elenco DayOne con le classi del gioco, 114 a mano, 42 dalla classe vecchia. `rating` = «Valutazione» del gioco (due numeri).
+- Vista `veicoli.js`: schede, classi con «Scoperti X / Y» (il conto non supera mai il totale del gioco), ricerca, chiave del garage su ogni foto, «Aggiungi al garage» per i veicoli che nella guida non ci sono (`progress.myVehicles`, finiscono nel Pacchetto per Claude). Scheda: «Statistiche del modello base» con i nomi italiani e il valore.
+- Da fare: classi con più voci del totale del gioco (doppioni, varianti che sono Veicoli di spicco): affidato al giro di caccia 5. Pubblicare come 1.2.0 con l'OK di Mike.
+
+**Rilascio 1.2 (Mike, 20/11 sera):** non chiedere più l'OK per pubblicare: la 1.2 ha ancora molte cose da fare prima. Si lavora in anteprima e si pubblica solo quando lo dice Mike.
+
+**«Come si gioca» è il posto dove finisce quello che scopriamo (Mike, 20/11 sera):** niente pagina «Statistiche» a parte e niente contatori dettagliati da compilare (né nei personaggi né altrove). Le statistiche del gioco e tutto ciò che scopriamo man mano arricchiscono, correggono o confermano le descrizioni delle schede di «Come si gioca» (`meccaniche.json`).
+
+**Mappa (decisione di Mike, 20/11 sera):** niente coordinate prese da gtasixmap/IGN («troppe cose, la mappa ce l'ho nel gioco»). La mappa NON si tocca più finché Mike non decide come implementarla. Il file `mappa-mondo-xy-gtasixmap.json` del giro 5 è scartato.
 
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.

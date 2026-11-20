@@ -11,8 +11,21 @@ Guida di gioco privata per GTA VI (uscita 19 novembre 2026, PS5, Ultimate Editio
 - Immagini: non si copiano nel repo durante la sessione. Si aggiungono a `scripts/immagini.json` (file, url, for) e Mike lancia `node scripts/scarica-immagini.mjs` sul Mac. Finché mancano, l'app usa `data-fallback` con l'URL originale.
 - A ogni release: alzare `VERSION` in `docs/sw.js` e `window.__LEONIDA_VERSION__` in `docs/js/app.js` (stesso numero), `dataVersion` + `changelog` in `docs/data/meta.json`. Il numero di versione è l'unico modo che Mike ha per capire cosa sta vedendo.
 - Prima del commit: `node scripts/validate.mjs`, controllo sintassi (`node --input-type=module --check < file`), screenshot con Playwright (`/opt/node-tools/node_modules/playwright/index.js`, server locale `python3 -m http.server 8080 --directory docs`).
-- Commit con `git -c user.name="Mike" -c user.email="frodob1987@gmail.com"`, push su `main`; GitHub Pages pubblica da `/docs`. Verifica live: `curl -s https://mike3am-dev.github.io/leonida/js/app.js | grep __LEONIDA_VERSION__`.
+- Commit con `git -c user.name="Mike" -c user.email="frodob1987@gmail.com"`. Il lavoro si salva sul ramo condiviso **`sviluppo`** (vedi «Le chat di Leonida»); `main` è la versione online e si aggiorna **solo quando Mike dice «pubblica»**. GitHub Pages pubblica da `/docs` di `main`. Verifica live: `curl -s https://mike3am-dev.github.io/leonida/js/app.js | grep __LEONIDA_VERSION__`.
 - Mike dice «ho finito» dopo un giro di impressioni: fino ad allora si assorbe e non si agisce.
+- **Il gioco di Mike batte tutto (regola del 20/11).** Le sue schermate e le sue informazioni sono il livello più alto di correttezza: valgono più di qualsiasi guida, wiki o testata. Diventano `verificato` con source `gioco-mike` e i termini italiani del gioco si usano in tutta la guida. Le schermate stanno in `Screenshot/` (Mike le carica con git); trascrizione e termini in `scripts/caccia/gioco-mike.md`.
+
+## Le chat di Leonida (dal 20/11 sera)
+Mike lavora con più chat, una per tipo di lavoro. Le chat non si parlano: si passano tutto attraverso i file del repo (CLAUDE.md, STATO.md, `scripts/caccia/`). **A fine lavoro ogni chat scrive in STATO.md cosa ha fatto e cosa resta**, poi commit e push.
+- **Caccia e news**: giri di caccia (`scripts/caccia/README.md`), giri news, giri guide. Il promemoria delle 12 ore (scheduled task «Promemoria giro di caccia», `trig_01Q3XBNUHuyUn74MzqGTGLgA`) nasceva nella prima chat: quando Mike lo chiede, la chat Caccia lo cancella e ne crea uno uguale legato a sé (stesso testo, ogni 12 ore).
+- **Dal gioco**: schermate di Mike (`Screenshot/`), Pacchetti per Claude, conferme. Fonte di verità (`scripts/caccia/gioco-mike.md`): aggiorna i dati, i termini e le schede di «Come si gioca».
+- **Grafica e nuove funzioni**: sezioni nuove e ritocchi, sempre in anteprima (STATO 5b); il taccuino delle cose da fare è STATO sezione 4.
+- **Bug**: correzioni piccole e rapide, in anteprima se toccano la grafica.
+
+**Ramo condiviso `sviluppo` (permesso permanente di Mike, 20/11):** ogni chat, all'inizio, fa `git fetch origin sviluppo` e porta il suo ramo di sessione su quel punto (`git merge --no-edit origin/sviluppo`; se il ramo di sessione è nuovo e vuoto basta `git checkout -B <ramo di sessione> origin/sviluppo`). A fine lavoro fa push sul suo ramo di sessione **e** su `sviluppo` (`git push origin HEAD:sviluppo`; se rifiutato: `git fetch origin sviluppo && git merge --no-edit origin/sviluppo` e ripush). Mai force-push su `sviluppo`.
+- **Anteprima**: si fa da `sviluppo` con `scripts/anteprima.mjs` nel checkout di `main` (STATO 5b); è l'unico push su `main` permesso senza «pubblica», perché tocca solo `docs/anteprima/`.
+- **Pubblicazione**: solo quando Mike dice «pubblica». Su `sviluppo`: `git merge origin/main`, cancella `docs/anteprima/`, alza la versione (sw.js, app.js, meta.json), validazione, controllo delle pagine, commit, push su `sviluppo` e `git push origin HEAD:main`, verifica live. Non chiedere a Mike «posso pubblicare?»: lo dice lui.
+- **Dati**: i file `docs/data/*.json` li tocca una chat alla volta (di solito Caccia o Dal gioco). Se due chat lavorano insieme, quella che arriva seconda fa merge di `sviluppo` prima di toccare i dati.
 
 ## «Fai un giro di aggiornamento news» — la routine
 Quando Mike lo chiede (mai da soli), setacciare le fonti in quest'ordine e inserire tutto in `news.json` (data, topic, outlet, source, relatedIds, sourceUrl) e, quando serve, nelle altre collezioni (missions, districts/pois, collectibles, characters, vehicles, weapons, radio, brands, tips, trophies, luoghi). Poi `meta.json`, validazione, commit, push, verifica live, e un riepilogo in chat con le 5 cose più importanti.
@@ -60,7 +73,7 @@ Regole del giro guide:
 Passata a tappeto con otto squadre in parallelo per trovare quello che manca o è superato (musica, trucchi/sfide/segreti, missioni, mappa e Mondo, personaggi, collezionabili, Come si gioca, armi e veicoli). Si fa quando Mike dice sì (c'è un promemoria ogni 12 ore). Procedura, compiti delle squadre, strumenti (`prova.py`, `applica.py`) e fonti che funzionano: `scripts/caccia/README.md`.
 
 ## Struttura
-- `docs/js/app.js` router hash + render a colonna unica; `docs/js/views/*.js` una vista per sezione (`sessione` = Home, `atlante` = Mappa e luoghi, `novita` = News e guide, `editoriale` = Personaggi/Radio/Mondo, `veicoli` = Garage, `diario` = Appunti).
+- `docs/js/app.js` router hash + render a colonna unica; `docs/js/views/*.js` una vista per sezione (`sessione` = Home, `atlante` = Mappa e luoghi, `novita` = News e guide, `editoriale` = Personaggi/Radio/Mondo, `veicoli` = Veicoli (prima «Garage»), `diario` = Appunti).
 - `docs/js/store/progress.js` progressi in localStorage (`leonida:progress:v1`, migrazioni in `migrations.js`), export/import. `docs/js/store/cloud.js` li copia online nel profilo Supabase legato all'email (STATO 4o).
 - `scripts/validate.mjs` valida i dati; `scripts/importa-trofei.mjs` sostituisce i trofei segnaposto con la lista ufficiale; `scripts/immagini.json` + `scripts/scarica-immagini.mjs` per le immagini.
 - Ingestione massiva: script Python nello scratchpad della sessione (classe `DB` in `lib.py`), non nel repo.
