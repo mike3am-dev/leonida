@@ -44,6 +44,8 @@ function thumb(x, folder) {
   const src = m || chain.shift();
   return `<img src="${esc(src)}" ${chain.length ? `data-fallback="${esc(chain.join('|'))}"` : ''} alt="" loading="lazy" decoding="async">`;
 }
+/** La foto di copertina di una classe: quella scelta nei dati (`cover` = id del veicolo), altrimenti il primo veicolo con una foto */
+const cover = (c, all) => all.find((v) => v.id === c.cover && v.image) || all.find((v) => v.class === c.id && v.image) || null;
 function card(x, own, back) {
   return `<div class="dcard-wrap"><a class="dcard ${x.image ? '' : 'dcard--noimg'}" href="#/veicoli/${esc(x.id)}${back}">
       <span class="dcard__img">${x.image ? thumb(x, 'mini-m') : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
@@ -90,14 +92,16 @@ export function render(params, query) {
   const tabs = `<div class="vtabs" role="tablist" aria-label="Schede">${groups().map((x) => `<a role="tab" aria-selected="${x.id === g.id}" href="${href({ gruppo: x.id })}">${esc(x.name)}</a>`).join('')}</div>`;
   const myList = Object.entries(mine);
   const garage = !c && (all.some((v) => own[v.id]) || myList.length)
-    ? `<div class="block"><span class="kicker">Il tuo garage · ${all.filter((v) => own[v.id]).length + myList.length}</span><div class="keys">${all.filter((v) => own[v.id]).map((x) => `<a class="key" href="#/veicoli/${esc(x.id)}"><span class="key__ring"></span>${esc(x.name)}</a>`).join('')}${myList.map(([id, m]) => `<button class="key" type="button" data-mine="${esc(id)}"><span class="key__ring"></span>${esc(m.name)}</button>`).join('')}</div></div>`
+    ? `<div class="block vgarage"><span class="kicker">Il tuo garage · ${all.filter((v) => own[v.id]).length + myList.length}</span><div class="keys">${all.filter((v) => own[v.id]).map((x) => `<a class="key" href="#/veicoli/${esc(x.id)}"><span class="key__ring"></span>${esc(x.name)}</a>`).join('')}${myList.map(([id, m]) => `<button class="key" type="button" data-mine="${esc(id)}"><span class="key__ring"></span>${esc(m.name)}</button>`).join('')}</div></div>`
     : '';
 
   let body;
   if (!c) {
-    body = `<div class="vclasses">${g.classes.map((x) => { const n = cap(x); return `<a class="vclass" href="${href({ gruppo: g.id, classe: x.id })}">
-        <span class="vclass__top"><span class="vclass__name">${esc(x.name)}</span><b class="vclass__n">${n} / ${x.total}</b></span>
-        ${x.note ? `<span class="vclass__note">${esc(x.note)}</span>` : ''}</a>`; }).join('')}</div>`;
+    body = `<div class="vclasses">${g.classes.map((x, i) => { const n = cap(x); const cv = cover(x, all); return `<a class="vclass ${cv ? '' : 'vclass--noimg'} ${n >= x.total ? 'is-full' : ''}" style="--h:${[320, 268, 205, 176, 22][i % 5]}" href="${href({ gruppo: g.id, classe: x.id })}">
+        ${cv ? thumb(cv, 'mini-m') : '<svg class="vclass__ico" aria-hidden="true"><use href="#i-car"/></svg>'}<span class="vclass__veil"></span>
+        <b class="vclass__n">${n}<span> / ${x.total}</span></b>
+        <span class="vclass__text"><span class="vclass__name">${esc(x.name)}</span>${x.note ? `<span class="vclass__note">${esc(x.note)}</span>` : ''}</span>
+        ${bar(n, x.total)}</a>`; }).join('')}</div>`;
   } else {
     const have = query.have === 'si' ? 'si' : '';
     const list = all.filter((v) => v.class === c.id && passHave(have, own[v.id]));
@@ -105,7 +109,7 @@ export function render(params, query) {
     const back = `?gruppo=${g.id}${one ? '' : '&classe=' + c.id}`;
     const n = cap(c);
     body = `${one ? '' : `<a class="vback" href="${href({ gruppo: g.id })}">‹ ${esc(g.name)}</a>`}
-      <div class="vhead"><h2>${esc(c.name)}</h2>${c.note ? `<p class="vclass__note">${esc(c.note)}</p>` : ''}
+      <div class="vhead ${cover(c, all) ? 'vhead--img' : ''}">${cover(c, all) ? `${thumb(cover(c, all), 'mini-m')}<span class="vclass__veil"></span>` : ''}<h2>${esc(c.name)}</h2>${c.note ? `<p class="vclass__note">${esc(c.note)}</p>` : ''}
         <span class="vclass__count"><span>Scoperti</span><b>${n} / ${c.total}</b></span>${bar(n, c.total)}</div>
       <div class="segmented havefilter" role="group" aria-label="Filtro">${[['', 'Tutti'], ['si', 'Scoperti']].map(([v, l]) => `<a role="button" aria-pressed="${have === v}" href="${href({ gruppo: g.id, classe: one ? '' : c.id, have: v })}">${l}</a>`).join('')}</div>
       ${list.length || myHere.length ? `<div class="dealer dealer--v">${list.map((x) => card(x, own, back)).join('')}${myHere.map(([id, m]) => mineCard(id, m)).join('')}</div>`

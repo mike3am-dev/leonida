@@ -2493,3 +2493,35 @@ html[data-posture="closed"] .dealer--v .vown { width: 34px; height: 34px; right:
 html[data-posture="closed"] .crim__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 html[data-posture="closed"] .crim__opt { grid-template-columns: auto minmax(0, 1fr); justify-items: start; align-items: center; gap: 10px; padding: 10px 12px; text-align: left; }
 html[data-posture="closed"] .crim__opt b { font-size: var(--fs-base, 1rem); }
+
+/* ---------- Veicoli: classi come tasselli con la foto (chat Grafica, 21/11) ---------- */
+.vtabs > [aria-selected="true"] { background: color-mix(in srgb, var(--accent) 22%, var(--paper)); color: var(--ink); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 0 16px color-mix(in srgb, var(--accent) 45%, transparent); }
+.vclasses { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
+.vclass { position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; aspect-ratio: 1 / 1; padding: 12px; border-radius: var(--radius); background: #14111b; border: var(--hair) solid color-mix(in srgb, var(--accent) 35%, var(--rule)); box-shadow: var(--shadow); color: #fff; }
+.vclass > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .35s; }
+.vclass:active > img { transform: scale(1.05); }
+.vclass__veil { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(10, 8, 16, .15) 0%, rgba(10, 8, 16, .2) 35%, rgba(10, 8, 16, .88) 100%); }
+.vclass--noimg { background: radial-gradient(120% 90% at 100% 0%, hsl(var(--h) 85% 45% / .55), transparent 60%), linear-gradient(160deg, hsl(var(--h) 60% 22%), #14111b 85%); border-color: hsl(var(--h) 80% 55% / .5); }
+.vclass__ico { position: absolute; right: -8%; top: 8%; width: 62%; height: 62%; z-index: -2; color: #fff; opacity: .13; transform: rotate(-8deg); }
+.vclass__text { display: grid; gap: 2px; min-width: 0; }
+.vclass__name { font-size: 1.2rem; color: #fff; text-shadow: 0 1px 8px rgba(0, 0, 0, .6); }
+.vclass .vclass__note { color: rgba(255, 255, 255, .78); font-size: .8rem; -webkit-line-clamp: 2; }
+.vclass__n { position: absolute; top: 10px; right: 10px; padding: 2px 10px; border-radius: 999px; background: rgba(10, 8, 16, .62); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); border: var(--hair) solid rgba(255, 255, 255, .22); font: italic 600 1.05rem var(--font-display); color: #fff; }
+.vclass__n span { font-size: .85em; opacity: .7; }
+.vclass .vbar { height: 4px; background: rgba(255, 255, 255, .2); }
+.vclass .vbar i { box-shadow: 0 0 8px var(--accent); }
+.vclass.is-full { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), 0 0 18px color-mix(in srgb, var(--gold) 40%, transparent); }
+.vclass.is-full .vclass__n { background: var(--gold); color: #1a1408; border-color: var(--gold); }
+.vclass.is-full .vbar i { background: var(--gold); box-shadow: 0 0 8px var(--gold); }
+.vhead--img { position: relative; isolation: isolate; overflow: hidden; color: #fff; padding-top: 110px; border-color: color-mix(in srgb, var(--accent) 35%, var(--rule)); }
+.vhead--img > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.vhead--img h2 { font-size: 1.9rem; text-shadow: 0 1px 8px rgba(0, 0, 0, .6); }
+.vhead--img .vclass__note { color: rgba(255, 255, 255, .8); }
+.vhead--img .vclass__count, .vhead--img .vclass__count b { color: #fff; }
+.vhead--img .vbar { background: rgba(255, 255, 255, .2); }
+html[data-posture="closed"] .vclass { aspect-ratio: 1 / 1; padding: 10px; }
+html[data-posture="closed"] .vclass__name { font-size: 1.1rem; }
+html[data-posture="closed"] .vclass .vclass__note { font-size: .74rem; }
+.vgarage .keys { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--s-1)); padding: 2px var(--s-1); }
+.vgarage .keys::-webkit-scrollbar { display: none; }
+.vgarage .key { flex: 0 0 auto; white-space: nowrap; }

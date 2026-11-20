@@ -324,6 +324,12 @@ Richiesta di Mike: l'utente dice quale dei 4 profili è, e la banda lo vede a co
 - Decisione di Mike (20/11 sera): per ora un profilo solo per giocatore; se Jason e Lucia ne hanno uno a testa «poi capiremo». Quinto livello («Irredeemable») non incluso: manca il nome italiano.
 - Nelle prove con Playwright le chiamate a Supabase vanno intercettate con `p.route(/supabase\.co/, …)` (il motivo a glob `**/supabase.co/**` NON le ferma).
 
+## 5i. Veicoli: classi come tasselli con la foto (chat Grafica, 21/11) — IN ATTESA DELL'OK DI MIKE, solo sul ramo di sessione `claude/great-turing-94rkcc`
+Mike: «questa sezione è molto triste graficamente». Schermate mandate (regola degli schizzi); **non è su `sviluppo`** finché non approva.
+- Ogni classe è un tassello quadrato con la foto di copertina (`vehicles.json → groups[].classes[].cover` = id del veicolo, scelto a mano dal foglio dei provini; se manca, il primo veicolo con foto), velo scuro, conteggio in alto a destra, nome e descrizione in basso, barretta al neon. Classe completa = bordo e conteggio oro. Senza foto (quasi tutti gli Speciali): sfumatura nei colori dell'app con l'auto in filigrana.
+- Testata della classe con la stessa foto (`.vhead--img`); scheda attiva al neon invece del bianco; «Il tuo garage» è una fila sola che scorre di lato (prima andava a capo e spingeva giù le classi).
+- Codice: `cover()` in `veicoli.js`, CSS in fondo a `components.css`.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.
