@@ -307,6 +307,13 @@ Segnalazione di Mike: Dada (iPhone 17 Pro Max, iOS 27.2) ha ancora il crash di S
 - **Mappa**: su iPhone/iPad (`IOS` in `mapboard.js`) la mappa si muove con una trasformazione 2D (`panzoom(..., { flat: true })`, niente `translate3d`), zoom massimo 5 invece di 7, tessere fino al livello 5 e chieste solo quando il dito si ferma (220 ms; prima a ogni fotogramma del pizzico). Tolti tutti i `filter` dentro la mappa (ombra del filo rosso, colori delle Polaroid, grigio dei segnaposto «da trovare» e dei badge), che ingranditi diventano immagini enormi; a zoom alto le Polaroid hanno un'ombra netta invece che sfumata. Regola: **niente `filter` né ombre sfumate grandi dentro `.mapboard__content`**.
 - Su `sviluppo` (anteprima `1.2-c`). Va online con la prossima versione, che porta la chat Pubblicazione.
 
+## 5g. Veicoli più puliti (chat Bug, 20/11 sera, anteprima 1.2-d)
+Richieste di Mike sulla sezione Veicoli:
+- La fila delle schede (Auto, Motocicli…) non salta più quando tocchi: `render` legge dove era la fila prima di ridisegnare e la rimette lì in un microtask (prima che la pagina venga disegnata). Le schede hanno solo il nome, senza «x/y».
+- Filtro della classe: **Tutti / Scoperti** («Nel garage» confondeva, «Mi mancano» tolto). Resta la chiave sulle foto.
+- Celle delle classi: «x / y» in alto a destra, allineato al titolo; via la barra e «xx nella guida»; sotto una descrizione di massimo due righe (`groups[].classes[].note` in `vehicles.json`). Coupé e Veicoli muscle hanno il testo del gioco; le altre 41 le ho scritte io: **da sostituire con il testo del gioco** quando Mike manda le schermate.
+- Schede dei veicoli: via la marca sulla foto (c'è già nel nome). Regola di Mike: niente ripetizioni, se un'informazione è già chiara non si riscrive.
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

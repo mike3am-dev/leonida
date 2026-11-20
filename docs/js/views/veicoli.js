@@ -8,7 +8,7 @@
 import { db, byId } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip } from '../ui/dom.js';
-import { sectionHead, backLink, hero, vis, sectionOf, extrasHtml, haveFilter, passHave, galleryHtml, mini } from './shared.js';
+import { sectionHead, backLink, hero, vis, sectionOf, extrasHtml, passHave, galleryHtml, mini } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { specSheet } from './specs.js';
 
@@ -47,7 +47,6 @@ function thumb(x, folder) {
 function card(x, own, back) {
   return `<div class="dcard-wrap"><a class="dcard ${x.image ? '' : 'dcard--noimg'}" href="#/veicoli/${esc(x.id)}${back}">
       <span class="dcard__img">${x.image ? thumb(x, 'mini-m') : '<svg aria-hidden="true"><use href="#i-car"/></svg>'}</span>
-      <span class="dcard__brand">${esc(x.manufacturer || '')}</span>
       <span class="dcard__body"><span class="dcard__name">${esc(x.name)}</span>${x.status !== 'verificato' ? `<span class="dcard__src">${esc(SRC[x.source] || 'da verificare')}</span>` : ''}</span></a>
     ${ownBtn(x.id, !!own[x.id])}</div>`;
 }
@@ -88,9 +87,7 @@ export function render(params, query) {
   const g = groups().find((x) => x.id === query.gruppo) || groups()[0];
   const one = g.classes.length === 1;
   const c = one ? g.classes[0] : g.classes.find((x) => x.id === query.classe) || null;
-  const gFound = (gr) => gr.classes.reduce((a, x) => a + cap(x), 0);
-  const gTotal = (gr) => gr.classes.reduce((a, x) => a + x.total, 0);
-  const tabs = `<div class="vtabs" role="tablist" aria-label="Schede">${groups().map((x) => `<a role="tab" aria-selected="${x.id === g.id}" href="${href({ gruppo: x.id })}">${esc(x.name)} <span>${gFound(x)}/${gTotal(x)}</span></a>`).join('')}</div>`;
+  const tabs = `<div class="vtabs" role="tablist" aria-label="Schede">${groups().map((x) => `<a role="tab" aria-selected="${x.id === g.id}" href="${href({ gruppo: x.id })}">${esc(x.name)}</a>`).join('')}</div>`;
   const myList = Object.entries(mine);
   const garage = !c && (all.some((v) => own[v.id]) || myList.length)
     ? `<div class="block"><span class="kicker">Il tuo garage · ${all.filter((v) => own[v.id]).length + myList.length}</span><div class="keys">${all.filter((v) => own[v.id]).map((x) => `<a class="key" href="#/veicoli/${esc(x.id)}"><span class="key__ring"></span>${esc(x.name)}</a>`).join('')}${myList.map(([id, m]) => `<button class="key" type="button" data-mine="${esc(id)}"><span class="key__ring"></span>${esc(m.name)}</button>`).join('')}</div></div>`
@@ -98,13 +95,11 @@ export function render(params, query) {
 
   let body;
   if (!c) {
-    body = `<div class="vclasses">${g.classes.map((x) => { const n = cap(x); const inGuide = all.filter((v) => v.class === x.id).length; return `<a class="vclass" href="${href({ gruppo: g.id, classe: x.id })}">
-        <span class="vclass__name">${esc(x.name)}</span>
-        ${x.note ? `<span class="vclass__note">${esc(x.note)}</span>` : ''}
-        <span class="vclass__count"><span>Scoperti</span><b>${n} / ${x.total}</b></span>${bar(n, x.total)}
-        <span class="vclass__guide">${inGuide ? `${inGuide} nella guida` : 'ancora nessuno nella guida'}</span></a>`; }).join('')}</div>`;
+    body = `<div class="vclasses">${g.classes.map((x) => { const n = cap(x); return `<a class="vclass" href="${href({ gruppo: g.id, classe: x.id })}">
+        <span class="vclass__top"><span class="vclass__name">${esc(x.name)}</span><b class="vclass__n">${n} / ${x.total}</b></span>
+        ${x.note ? `<span class="vclass__note">${esc(x.note)}</span>` : ''}</a>`; }).join('')}</div>`;
   } else {
-    const have = query.have || '';
+    const have = query.have === 'si' ? 'si' : '';
     const list = all.filter((v) => v.class === c.id && passHave(have, own[v.id]));
     const myHere = myList.filter(([, m]) => m.cls === c.id && have !== 'no');
     const back = `?gruppo=${g.id}${one ? '' : '&classe=' + c.id}`;
@@ -112,13 +107,18 @@ export function render(params, query) {
     body = `${one ? '' : `<a class="vback" href="${href({ gruppo: g.id })}">‹ ${esc(g.name)}</a>`}
       <div class="vhead"><h2>${esc(c.name)}</h2>${c.note ? `<p class="vclass__note">${esc(c.note)}</p>` : ''}
         <span class="vclass__count"><span>Scoperti</span><b>${n} / ${c.total}</b></span>${bar(n, c.total)}</div>
-      ${haveFilter(have, (v) => href({ gruppo: g.id, classe: one ? '' : c.id, have: v }), { yes: 'Nel garage', no: 'Mi mancano' })}
+      <div class="segmented havefilter" role="group" aria-label="Filtro">${[['', 'Tutti'], ['si', 'Scoperti']].map(([v, l]) => `<a role="button" aria-pressed="${have === v}" href="${href({ gruppo: g.id, classe: one ? '' : c.id, have: v })}">${l}</a>`).join('')}</div>
       ${list.length || myHere.length ? `<div class="dealer dealer--v">${list.map((x) => card(x, own, back)).join('')}${myHere.map(([id, m]) => mineCard(id, m)).join('')}</div>`
-        : `<div class="placeholder"><strong>${have === 'si' ? 'Ancora niente nel garage qui' : have === 'no' ? 'Li hai tutti' : 'Nessun veicolo di questa classe nella guida, per ora'}</strong>${have ? '' : 'Quando ne trovi uno, aggiungilo tu qui sotto.'}</div>`}
+        : `<div class="placeholder"><strong>${have === 'si' ? 'Non ne hai ancora scoperto nessuno qui' : 'Nessun veicolo di questa classe nella guida, per ora'}</strong>${have ? '' : 'Quando ne trovi uno, aggiungilo tu qui sotto.'}</div>`}
       <button class="btn btn--ghost vadd" type="button" data-vadd="" data-vadd-cls="${esc(c.id)}"><svg aria-hidden="true"><use href="#i-key"/></svg>Aggiungi un veicolo che non c'è</button>`;
   }
   // La scheda scelta resta visibile nella fila che scorre di lato
-  if (g !== groups()[0]) setTimeout(() => { const r = document.querySelector('.vtabs:not(.vtabs--sheet)'); const on = r?.querySelector('[aria-selected="true"]'); if (r && on) r.scrollLeft = on.offsetLeft - r.offsetLeft - 8; }, 0);
+  // La fila delle schede resta dov'era quando tocchi (prima saltava all'inizio e poi tornava: sfarfallio, Mike 20/11).
+  // Il microtask gira dopo l'inserimento dell'HTML e prima che la pagina venga disegnata.
+  const prevRow = document.querySelector('.vtabs:not(.vtabs--sheet)'), tabsX = prevRow ? prevRow.scrollLeft : null;
+  queueMicrotask(() => { const r = document.querySelector('.vtabs:not(.vtabs--sheet)'); if (!r) return;
+    if (tabsX != null) { r.scrollLeft = tabsX; return; }
+    const on = r.querySelector('[aria-selected="true"]'); if (on && g !== groups()[0]) r.scrollLeft = on.offsetLeft - r.offsetLeft - 8; });
   const left = `${head}${tools}${garage}${tabs}${body}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'Veicoli' };
 }
