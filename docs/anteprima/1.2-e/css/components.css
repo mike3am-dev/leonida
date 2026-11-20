@@ -2468,3 +2468,19 @@ html[data-posture="closed"] .dealer--v .dcard__name { font-size: .98rem !importa
 html[data-posture="closed"] .dealer--v .dcard__body { padding: 8px 10px 10px; }
 html[data-posture="closed"] .dealer--v .dcard__brand { font-size: .6rem; }
 html[data-posture="closed"] .dealer--v .vown { width: 34px; height: 34px; right: 6px; top: 6px; }
+
+/* ---------- Profilo criminale (Home, banda) ---------- */
+.crim { margin-top: var(--s-4); padding: var(--s-4); border-radius: var(--radius); background: var(--paper); border: var(--hair) solid var(--rule); box-shadow: var(--shadow); }
+.crim__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--s-2); }
+.crim__opt { display: grid; justify-items: center; align-content: start; gap: 6px; padding: var(--s-3) 4px; border-radius: 14px; border: var(--hair) solid var(--rule); background: var(--paper-2); color: var(--ink-3); text-align: center; line-height: 1.15; }
+.crim__opt b { font-size: var(--fs-sm); font-weight: 600; }
+.crim__opt .devil { filter: grayscale(1); opacity: .45; transition: filter .2s, opacity .2s, transform .2s; }
+.crim__opt.is-on { color: var(--ink); border-color: var(--c); background: color-mix(in srgb, var(--c) 14%, var(--paper)); box-shadow: 0 0 0 2px color-mix(in srgb, var(--c) 35%, transparent), 0 0 18px color-mix(in srgb, var(--c) 30%, transparent); }
+.crim__opt.is-on .devil { filter: none; opacity: 1; transform: scale(1.12); }
+.crim__say { margin: var(--s-3) 0 0; color: var(--ink-2, var(--ink-3)); }
+.crimtag { flex: none; display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px 1px 5px; border-radius: 999px; font-size: 12px; font-weight: 600; white-space: nowrap; color: var(--ink); background: color-mix(in srgb, var(--c) 18%, transparent); border: var(--hair) solid color-mix(in srgb, var(--c) 60%, transparent); }
+.cmpb__crime { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: var(--s-2); align-items: center; padding: 6px 0 10px; border-bottom: var(--hair) solid var(--rule); }
+.cmpb__crime > span:last-child { text-align: right; }
+html[data-posture="closed"] .crim__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+html[data-posture="closed"] .crim__opt { grid-template-columns: auto minmax(0, 1fr); justify-items: start; align-items: center; gap: 10px; padding: 10px 12px; text-align: left; }
+html[data-posture="closed"] .crim__opt b { font-size: var(--fs-base, 1rem); }
