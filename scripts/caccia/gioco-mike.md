@@ -26,3 +26,6 @@ Sei schede con classi e totali esatti (Auto 157 in 9 classi, Motocicli quad e bi
 
 ## Nomi visti nel gioco (preferiti e luoghi di Mike)
 Mazza da baseball · Vapid Ganado '70 · Lure Predator L35P (imbarcazione) · Mammoth Dodo (velivolo) · Squat (esercizio) · Barretta proteica Throb (cibo) · Flash FM (radio) · Chuck's Tackle & Shot (Ammu-Nation) · Coastal Auto Care (officina) · Bar The Hog House.
+
+## Profilo criminale (Mike, 20/11)
+Nel gioco il **profilo criminale** ha quattro tipi: **Professionale**, **Senza scrupoli**, **Violento**, **Folle**. (Da capire con Mike: dove compare, come si calcola, se ogni protagonista ha il suo.) Nella guida «Profilo criminale» è oggi il riquadro dei progressi in Home: attenzione a non confondere i due.
