@@ -29,3 +29,7 @@ Mazza da baseball · Vapid Ganado '70 · Lure Predator L35P (imbarcazione) · Ma
 
 ## Profilo criminale (Mike, 20/11)
 Nel gioco il **profilo criminale** ha quattro tipi: **Professionale**, **Senza scrupoli**, **Violento**, **Folle**. (Da capire con Mike: dove compare, come si calcola, se ogni protagonista ha il suo.) Nella guida «Profilo criminale» è oggi il riquadro dei progressi in Home: attenzione a non confondere i due.
+
+## Ordine delle missioni (Mike, 20/11)
+- Il capitolo **non è una fila indiana**: dopo «Chi dorme…» le missioni si aprono in parallelo. Mike ha fatto 1-4 del capitolo 1, ha saltato «Attenzioni indesiderate» (Cal, `mis-unwanted-attention`) e ha giocato e finito **«Chi ti si intuba»** (Mandy, `mis-pipework`): quindi «Chi ti si intuba» è disponibile senza la missione di Cal.
+- Nella guida (anteprima 1.2): nel capitolo in cui sei le missioni si fanno in qualsiasi ordine; «la prossima» è la prima non ancora toccata; le missioni di un capitolo dopo hanno «L'ho trovata nel gioco». Il Pacchetto per Claude elenca le missioni giocate fuori ordine: da riportare qui.

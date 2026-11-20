@@ -105,11 +105,8 @@ export function nextMission() {
   const st = progress.get();
   const list = vis(db.missions);
   const cur = currentMission();
-  if (cur) {
-    const i = list.indexOf(cur);
-    return list.slice(i + 1).find((m) => !st.missions[m.id]?.state) || null;
-  }
-  return list.find((m) => !st.missions[m.id]?.state) || null;
+  // La prima non toccata, in ordine: una missione saltata nel gioco resta la prossima (20/11)
+  return list.find((m) => m !== cur && !st.missions[m.id]?.state) || null;
 }
 
 export function missionActLabel(m) {

@@ -104,7 +104,7 @@ function storyHero(st) {
   const missions = vis(db.missions);
   const cur = missions.find((m) => st.missions[m.id]?.state === 'in-corso');
   const lastDone = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
-  const next = cur ? null : missions.slice(lastDone + 1).find((m) => !st.missions[m.id]?.state);
+  const next = cur ? null : missions.find((m) => !st.missions[m.id]?.state); // la prima non toccata: le missioni saltate restano lì (20/11)
   const m = cur || next;
   const day = countdown();
   const tag = day.after ? `<span class="home-hero__tag">Giorno ${day.days} a Leonida</span>` : '';

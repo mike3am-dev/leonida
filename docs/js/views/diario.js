@@ -80,7 +80,27 @@ ${Object.entries(ids).map(([k, v]) => `- ${k}: ${v.length ? v.join(', ') : 'ness
 Appunti (${notes.length}):
 \`\`\`json
 ${JSON.stringify(payload, null, 2)}
-\`\`\`${myVehiclesPacket()}`;
+\`\`\`${myVehiclesPacket()}${outOfOrderPacket()}`;
+}
+
+/** Missioni giocate saltandone altre prima (20/11): servono a Claude per capire cosa apre cosa nel gioco.
+ *  Le missioni saltate sono indicate solo con l'id, perché Mike potrebbe non averle ancora viste. */
+function outOfOrderPacket() {
+  const st = progress.get().missions;
+  const rows = [];
+  for (const a of db.acts) {
+    const list = db.missions.filter((m) => m.actId === a.id && !m.optional && !m.kind);
+    list.forEach((m, i) => {
+      if (!st[m.id]?.state) return;
+      const skipped = list.slice(0, i).filter((x) => !st[x.id]?.state);
+      if (skipped.length) rows.push(`- ${m.id} «${m.title}» (${st[m.id].state}) giocata senza aver fatto: ${skipped.map((x) => x.id).join(', ')}`);
+    });
+  }
+  if (!rows.length) return '';
+  return `
+
+Missioni giocate fuori ordine (${rows.length}): nel gioco sono disponibili prima di quelle saltate. Segnalo in scripts/caccia/gioco-mike.md e, se serve, in missions.json (prerequisites/unlocks), source "gioco-mike". Non nominarmi le missioni saltate che non ho ancora iniziato.
+${rows.join('\n')}`;
 }
 
 /** Veicoli che Mike ha messo nel garage a mano perché nella guida non c'erano */

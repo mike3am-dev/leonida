@@ -3,7 +3,7 @@
  * Regola: si vede solo ciò che stai facendo o hai già fatto. Il resto è «Missione 03 · bloccata».
  * La prossima missione si rivela quando tocchi «Inizio adesso».
  */
-import { db, byId } from '../data.js';
+import { db, byId, actNum } from '../data.js';
 import * as progress from '../store/progress.js';
 import { esc, statusChip, protagonistChip, pad2 } from '../ui/dom.js';
 import { sectionHead, backLink, row, acc, hero, vis, sectionOf, missionActLabel, extrasHtml, face } from './shared.js';
@@ -39,13 +39,16 @@ function ringHtml(pct, label, sub) {
   return `<div class="ring ring--story"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="ring__track" cx="60" cy="60" r="54" fill="none" stroke-width="8"/><circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="8" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - pct / 100)}"/></svg><div class="ring__label"><b>${pct}%</b><small>${esc(label)}</small></div></div>`;
 }
 
-/** La prossima missione da giocare: la prima senza stato dopo l'ultima completata */
+/** La prossima missione da giocare: la prima, in ordine, che non hai ancora toccato.
+ *  Dal 20/11 (gioco di Mike) il capitolo non è una fila indiana: se salti una missione, resta lei la prossima. */
 export function nextUp(missions = vis(db.missions)) {
   const st = progress.get();
   if (missions.some((m) => st.missions[m.id]?.state === 'in-corso')) return null;
-  const last = missions.reduce((acc, m, i) => (st.missions[m.id]?.state === 'completata' ? i : acc), -1);
-  return missions.slice(last + 1).find((m) => !st.missions[m.id]?.state) || null;
+  return missions.find((m) => !st.missions[m.id]?.state) || null;
 }
+/** Nel capitolo in cui sei (e in quelli prima) le missioni si fanno in qualsiasi ordine, come nel gioco.
+ *  Una missione di un capitolo dopo resta «Non ancora», ma si apre con «L'ho trovata nel gioco». */
+function chapterOpen(m) { return actNum(m.actId) <= spoiler.reachedAct(); }
 const actName = (a) => (a ? (a.number === 0 ? 'Prologo' : `Capitolo ${a.number}`) : '');
 const isSide = (m) => !!(m.optional || m.kind);
 function place(m) {
@@ -231,16 +234,17 @@ function detail(m) {
   const list = (arr) => `<ul>${arr.map((t) => `<li>${esc(typeof t === 'string' ? t : t.label || t.title || JSON.stringify(t))}</li>`).join('')}</ul>`;
   const pl = place(m);
   const all = vis(db.missions); const pi = all.indexOf(m); const prevM = pi > 0 ? all[pi - 1] : null;
-  const blocked = !isSide(m) && !state && prevM && st.missions[prevM.id]?.state !== 'completata';
-  const next = isSide(m) ? null : all.slice(pi + 1).find((x) => st.missions[x.id]?.state !== 'completata');
+  const blocked = !isSide(m) && !state && !chapterOpen(m) && prevM && st.missions[prevM.id]?.state !== 'completata';
+  const next = isSide(m) ? null : all.find((x) => x !== m && st.missions[x.id]?.state !== 'completata');
   if (!shown) {
     return `
     ${backLink('/missioni', 'Missioni')}
-    <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(pl.act)} · ${pl.side ? pl.side + ' ' + pl.i : pl.i + ' di ' + pl.n}</span><h1>${blocked ? 'Non ancora' : 'Pronta a partire'}</h1><p class="lede">${blocked ? 'Si sblocca quando finisci la missione prima.' : 'Il nome, il luogo e chi incontri si scoprono quando la inizi.'}</p></div></div>
+    <div class="hero hero--text hero--locked"><div class="hero__text"><span class="kicker">${esc(pl.act)} · ${pl.side ? pl.side + ' ' + pl.i : pl.i + ' di ' + pl.n}</span><h1>${blocked ? 'Non ancora' : 'Pronta a partire'}</h1><p class="lede">${blocked ? 'Di solito arriva dopo la missione prima. Se nel gioco ce l\'hai già, aprila tu.' : 'Il nome, il luogo e chi incontri si scoprono quando la inizi.'}</p></div></div>
     ${blocked ? '' : warnHtml(m, 'before')}
     ${stampHtml(m)}
     <div class="actions">${blocked
-      ? `<a class="btn btn--solid" href="#/missioni/${esc(prevM?.id || '')}">Vai alla missione prima</a>`
+      ? `<button class="btn btn--solid" type="button" data-start-mission="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>L'ho trovata nel gioco</button>
+         <a class="btn btn--ghost" href="#/missioni/${esc(prevM?.id || '')}">Vai alla missione prima</a>`
       : `<button class="btn btn--solid btn--big" type="button" data-start-mission="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-flag"/></svg>Inizia</button>
          <button class="btn btn--ghost" type="button" data-mission="${esc(m.id)}" data-set="completata">L'ho già fatta</button>`}</div>`;
   }
@@ -369,7 +373,7 @@ export function bind(root, rerender) {
       progress.setMissionState(b.dataset.mission, b.dataset.set || null); rerender();
       if (b.dataset.set === 'completata') {
         const list = vis(db.missions), i = list.findIndex((x) => x.id === b.dataset.mission);
-        const nx = i < 0 ? null : list.slice(i + 1).find((x) => !progress.get().missions[x.id]?.state);
+        const nx = i < 0 ? null : list.find((x) => !progress.get().missions[x.id]?.state);
         openMissionDone(byId(b.dataset.mission), { next: nx, onNext: nx ? () => start(nx.id) : null });
       }
       return;
