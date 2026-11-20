@@ -1,11 +1,11 @@
 # LEONIDA — stato dei lavori e passaggio di consegne
 
-Aggiornato il 20 novembre 2026 sera, versione live **v1.1.0**; il lavoro della 1.2 è sul ramo **`sviluppo`** (anteprima `1.2-b`). Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
+Aggiornato il 20 novembre 2026 sera, versione live **v1.2.0** (pubblicata il 20/11 sera dalla chat Pubblicazione); il lavoro nuovo si fa sul ramo **`sviluppo`**. Da leggere insieme a `CLAUDE.md` (regole, routine, «Le chat di Leonida»). Questo file dice **dove siamo, cosa manca, come lavora Mike**. Le sezioni 2 e 4b-4m sono storiche (prima dell'uscita): lo stato di oggi è nella sezione 0 e nelle sezioni 4, 4o-4z, 5-5e.
 
 ## 0. Da dove ripartire (passaggio di consegne del 20/11 sera)
 Da qui Mike lavora con più chat (Caccia e news · Dal gioco · Grafica e nuove funzioni · Bug · Pubblicazione: CLAUDE.md «Le chat di Leonida»). Tutte partono dal ramo `sviluppo`.
-- **Online**: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
-- **Su `sviluppo`, non online (la 1.2 si pubblica solo quando Mike dice «pubblica»; non chiederglielo)**:
+- **Online**: v1.2.0 (20/11 sera, «pubblica» di Mike): tutto quello che sta qui sotto, più profilo criminale (5h), missioni in qualsiasi ordine e trofei a fine missione, correzioni di Safari su iPhone (5f) e Veicoli più puliti (5g). Changelog in `meta.json`. Controlli del rilascio: dati e sintassi ok, 3.741 pagine senza errori, grafica sugli iPhone solo falsi allarmi noti, spoiler solo falsi allarmi («Sunset» è una via di Key Lento e un trucco: aggiunto all'elenco dei falsi positivi). Prima ancora: v1.1.0 (barra a 4 tasti su iPhone, pagina Game, mappa ufficiale, dati del giro 4).
+- **Uscito con la 1.2.0**:
   - sezione **Veicoli** come nel gioco (STATO 5e): 6 schede, classi con «Scoperti X / Y», ricerca, chiave del garage, «Aggiungi al garage» per i veicoli che mancano (`progress.myVehicles`, nel Pacchetto per Claude);
   - Home: il riquadro si chiama **«I tuoi progressi»** (non più «Profilo criminale», che è il sistema del gioco);
   - **giro di caccia 5** applicato (README della caccia, «Cosa manca alla fine del giro del 19/11 sera» + rapporti riassunti in chat): veicoli puliti e nelle classi giuste (classi Auto e quasi tutte quelle di Servizio al totale esatto del gioco), 26 veicoli di spicco, prezzi di 62 armi, capitolo 4 (9 missioni), avviso del capitolo 1 sul conto BuckMe corretto, 21 personaggi, 30 news, radio (29 brani, 14 loghi), palestre (8 abbonamenti), termini italiani del gioco in tutta la guida (stelle di sospetto, allerta, concentrazione, refurtiva, profilo Professionale/Senza scrupoli/Violento/Folle);

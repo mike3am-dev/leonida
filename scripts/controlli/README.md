@@ -12,7 +12,7 @@ La chat Pubblicazione è l'unica che porta il lavoro online. Le altre chat salva
 4. **Tutte le pagine**: `node scripts/controlli/pagine.cjs 430 932 5000 > pagine.json` → errori JS, testi rotti (undefined, NaN, null…), pagine vuote, link morti, immagini mancanti.
    Falsi allarmi noti: `#/impostazioni` «Capitolo 1 · Capitolo 1» (la riga del capitolo raggiunto); la notizia `new-20261105-upgrade-alla-ultimate-…` («non esiste» nel testo). Le immagini mancanti (`img404`) sono quelle che Mike non ha ancora scaricato sul Mac: l'app usa la copia online.
 5. **Grafica sugli iPhone**: `node scripts/controlli/grafica.cjs 393 852 500` e `… 440 956 500` → cose che escono dallo schermo o dal riquadro. Si confronta con il giro prima: contano solo i problemi nuovi. Falsi allarmi noti: le strisce che scorrono di lato (regioni in Home, luoghi vicini, legami dei personaggi), 1-4 px.
-6. **Spoiler**: nessun titolo di missione dei capitoli ≥ 2 nei testi con `spoilerLevel` più basso (vedi `scripts/caccia/README.md` punto 7; falsi positivi: Ocean Beach, Coffee Break, Tyrone, Welcome to Vice City, Sinfrontera National Bank).
+6. **Spoiler**: nessun titolo di missione dei capitoli ≥ 2 nei testi con `spoilerLevel` più basso (vedi `scripts/caccia/README.md` punto 7; falsi positivi: Ocean Beach, Coffee Break, Tyrone, Welcome to Vice City, Sinfrontera National Bank, Sunset).
 7. **Screenshot**: `node scripts/controlli/screenshot.cjs <cartella>` → Pro, Pro Max, Duo di Home, Game, Missioni, una missione, Veicoli, Mappa; si guardano e si mandano a Mike.
 
 ## 3. Anteprima di rilascio
