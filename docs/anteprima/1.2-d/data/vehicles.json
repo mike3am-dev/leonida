@@ -20,37 +20,44 @@
         {
           "id": "fuoristrada",
           "name": "Veicoli fuoristrada",
-          "total": 8
+          "total": 8,
+          "note": "Ruote alte e 4x4: sterrati, paludi e spiagge."
         },
         {
           "id": "pickup",
           "name": "Pick-up",
-          "total": 17
+          "total": 17,
+          "note": "Cassone e muso robusto: da lavoro e da campagna."
         },
         {
           "id": "berlina",
           "name": "Berline",
-          "total": 29
+          "total": 29,
+          "note": "Quattro porte, comode e discrete."
         },
         {
           "id": "sportiva",
           "name": "Auto sportive",
-          "total": 13
+          "total": 13,
+          "note": "Veloci e precise in curva, a un prezzo giusto."
         },
         {
           "id": "supercar",
           "name": "Supercar",
-          "total": 9
+          "total": 9,
+          "note": "Le più veloci e le più care di Leonida."
         },
         {
           "id": "suv",
           "name": "SUV",
-          "total": 23
+          "total": 23,
+          "note": "Grandi e solide, vanno bene anche fuori strada."
         },
         {
           "id": "furgone",
           "name": "Furgoni",
-          "total": 14
+          "total": 14,
+          "note": "Vani di carico per consegne e lavoretti."
         }
       ]
     },
@@ -61,7 +68,8 @@
         {
           "id": "moto",
           "name": "Motocicli, quad e bici",
-          "total": 29
+          "total": 29,
+          "note": "Moto, quad e bici: agili nel traffico e sui sentieri."
         }
       ]
     },
@@ -72,7 +80,8 @@
         {
           "id": "imbarcazioni",
           "name": "Imbarcazioni",
-          "total": 28
+          "total": 28,
+          "note": "Motoscafi e barche per coste, Keys e paludi."
         }
       ]
     },
@@ -83,7 +92,8 @@
         {
           "id": "velivoli",
           "name": "Velivoli",
-          "total": 16
+          "total": 16,
+          "note": "Aerei ed elicotteri: Leonida dall'alto."
         }
       ]
     },
@@ -94,32 +104,38 @@
         {
           "id": "camion",
           "name": "Camion",
-          "total": 11
+          "total": 11,
+          "note": "Mezzi pesanti: lenti a partire, difficili da fermare."
         },
         {
           "id": "servizio",
           "name": "Veicoli di servizio",
-          "total": 9
+          "total": 9,
+          "note": "Taxi, autobus e mezzi di chi lavora in città."
         },
         {
           "id": "emergenza",
           "name": "Veicoli d'emergenza",
-          "total": 7
+          "total": 7,
+          "note": "Polizia, ambulanze e pompieri, con sirene."
         },
         {
           "id": "militari",
           "name": "Veicoli militari",
-          "total": 8
+          "total": 8,
+          "note": "Mezzi blindati, rarissimi da trovare in giro."
         },
         {
           "id": "industriali",
           "name": "Veicoli industriali",
-          "total": 6
+          "total": 6,
+          "note": "Mezzi da cantiere: pesanti e lenti."
         },
         {
           "id": "trasporto",
           "name": "Veicoli da trasporto",
-          "total": 6
+          "total": 6,
+          "note": "Per portare persone o merci in quantità."
         }
       ]
     },
@@ -130,127 +146,152 @@
         {
           "id": "sp-ultra-lusso",
           "name": "Ultra-lusso",
-          "total": 19
+          "total": 19,
+          "note": "Il top del lusso, da sfoggiare."
         },
         {
           "id": "sp-gara-strada",
           "name": "Da gara su strada",
-          "total": 16
+          "total": 16,
+          "note": "Auto da corsa omologate per la strada."
         },
         {
           "id": "sp-stock-car",
           "name": "Stock car",
-          "total": 7
+          "total": 7,
+          "note": "Livree e sponsor delle gare in pista."
         },
         {
           "id": "sp-moto-gara",
           "name": "Moto da gara",
-          "total": 11
+          "total": 11,
+          "note": "Moto sportive da pista, accelerazione bruciante."
         },
         {
           "id": "sp-demolition-derby",
           "name": "Demolition derby",
-          "total": 6
+          "total": 6,
+          "note": "Rottami rinforzati, brutti e indistruttibili."
         },
         {
           "id": "sp-mudder",
           "name": "Mudder",
-          "total": 6
+          "total": 6,
+          "note": "Sollevati con gomme enormi, fatti per il fango."
         },
         {
           "id": "sp-donk",
           "name": "Donk",
-          "total": 5
+          "total": 5,
+          "note": "Cerchi giganti e carrozzeria lucida."
         },
         {
           "id": "sp-lowrider",
           "name": "Lowrider",
-          "total": 5
+          "total": 5,
+          "note": "Rasoterra, idraulica e cromature: per sfilare."
         },
         {
           "id": "sp-hot-rod",
           "name": "Hot rod",
-          "total": 10
+          "total": 10,
+          "note": "Carrozzerie d'epoca e motori esagerati."
         },
         {
           "id": "sp-pompati",
           "name": "Pompati e muscolosi",
-          "total": 13
+          "total": 13,
+          "note": "Elaborati al limite: tanta potenza, zero discrezione."
         },
         {
           "id": "sp-retro",
           "name": "Rétro",
-          "total": 20
+          "total": 20,
+          "note": "Modelli d'altri tempi, linee classiche."
         },
         {
           "id": "sp-fuoristrada",
           "name": "Fuoristrada",
-          "total": 17
+          "total": 17,
+          "note": "Fuoristrada elaborati per i percorsi più duri."
         },
         {
           "id": "sp-pistoni-ardenti",
           "name": "Resi famosi da pistoni ardenti",
-          "total": 8
+          "total": 8,
+          "note": "I veicoli resi famosi da Pistoni ardenti."
         },
         {
           "id": "sp-chopper",
           "name": "Chopper",
-          "total": 7
+          "total": 7,
+          "note": "Moto custom con forcelle lunghe e manubri alti."
         },
         {
           "id": "sp-promozionali",
           "name": "Promozionali",
-          "total": 6
+          "total": 6,
+          "note": "Con le livree di marchi e locali: pubblicità su ruote."
         },
         {
           "id": "sp-scintillanti",
           "name": "Scintillanti",
-          "total": 15
+          "total": 15,
+          "note": "Vernici a specchio, si vedono da lontano."
         },
         {
           "id": "sp-girlypop",
           "name": "Girlypop",
-          "total": 16
+          "total": 16,
+          "note": "Rosa, pastello e brillantini."
         },
         {
           "id": "sp-patriottici",
           "name": "Patriottici",
-          "total": 12
+          "total": 12,
+          "note": "Stelle, strisce e bandiere ovunque."
         },
         {
           "id": "sp-palude",
           "name": "Stile da palude",
-          "total": 10
+          "total": 10,
+          "note": "Rattoppati da palude: fango e ruggine."
         },
         {
           "id": "sp-leonidiani",
           "name": "Per veri leonidiani",
-          "total": 30
+          "total": 30,
+          "note": "I veicoli più tipici dello stato."
         },
         {
           "id": "sp-belle-arti",
           "name": "Belle arti",
-          "total": 17
+          "total": 17,
+          "note": "Carrozzerie dipinte come opere d'arte."
         },
         {
           "id": "sp-forze-ordine",
           "name": "Forze dell'ordine",
-          "total": 5
+          "total": 5,
+          "note": "Mezzi delle forze dell'ordine in versione speciale."
         },
         {
           "id": "sp-visibilita",
           "name": "A caccia di visibilità",
-          "total": 8
+          "total": 8,
+          "note": "Wrap e luci per farsi notare."
         },
         {
           "id": "sp-pedali",
           "name": "Potenza nei pedali",
-          "total": 6
+          "total": 6,
+          "note": "Mezzi a pedali speciali, lenti e divertenti."
         },
         {
           "id": "sp-nostalgia",
           "name": "Nostalgia",
-          "total": 5
+          "total": 5,
+          "note": "Modelli che sanno di passato."
         }
       ]
     }
