@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "1.2.1",
+  "updatedAt": "2026-11-20",
+  "releaseDate": "2026-11-19",
+  "mapImage": null,
+  "changelog": [
+    {
+      "version": "1.2.1",
+      "date": "2026-11-20",
+      "changes": [
+        "Veicoli: ogni classe è un tassello con la foto di un suo veicolo, il conteggio e una barretta al neon; quando la completi diventa oro.",
+        "Veicoli: dentro una classe la testata ha la stessa foto, grande. La scheda attiva è al neon e «Il tuo garage» è una fila sola che scorre di lato."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-11-20",
+      "changes": [
+        "Veicoli: la sezione (prima «Garage») è fatta come nel gioco, con 6 schede, le classi e «Scoperti X / Y». Ci sono la ricerca, Tutti / Scoperti e la chiave del garage sulle foto.",
+        "Veicoli: con «Aggiungi al garage» segni anche le auto che nella guida non ci sono ancora. Finiscono nel Pacchetto per Claude.",
+        "Home: il riquadro si chiama «I tuoi progressi». Sotto scegli il tuo profilo criminale (uno dei quattro del gioco) e la banda lo vede in classifica.",
+        "Missioni: nel capitolo in cui sei le fai nell'ordine che vuoi; «la prossima» è la prima che non hai ancora toccato. Per quelle dei capitoli dopo c'è «L'ho trovata nel gioco».",
+        "Missione compiuta: compaiono i trofei sbloccati (con «Preso?»), quelli che adesso puoi fare e quelli che scadono a fine capitolo.",
+        "Dati: prezzi di 62 armi, capitolo 4, 21 personaggi, 30 notizie, radio, palestre. Veicoli messi nelle classi del gioco. In tutta la guida ci sono i termini italiani del gioco.",
+        "Come si gioca: le statistiche del gioco diventano spiegazioni nelle schede.",
+        "iPhone: Safari non dovrebbe più chiudersi in Mappa e in Veicoli (foto più leggere, mappa più leggera)."
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-19",
+      "changes": [
+        "iPhone: in basso quattro tasti fissi, Home, Game, Social e News. Quello in cui sei è colorato di rosa. Sul Duo non cambia niente.",
+        "Game: una pagina a riquadri con tutte le sezioni del gioco (missioni, mappa, armi, garage, trofei, collezionabili…). Dentro ogni sezione, «‹ Game» in alto a sinistra ti riporta lì.",
+        "iPhone: lo scorrimento col dito non cambia più pagina; sparisce la barra «Riprendi da».",
+        "Missioni: il riquadro del capitolo è nuovo, con foto, percentuale, trattini delle missioni, facoltative e la prossima da fare. «Inizia la prossima» apre la missione dall'inizio.",
+        "Mappa: c'è anche la mappa ufficiale di Rockstar («Mappa ufficiale»). Ogni luogo dice in che riquadro della griglia si trova, per ritrovarlo sulla cartina.",
+        "Missioni: soluzioni del capitolo 4 e tre missioni facoltative nuove. Nel capitolo 1 un avviso: i bonus della Ultimate (Ganado Retro, Dinka Enduro, kayak) si usano solo lì.",
+        "Personaggi: cast completo dai titoli di coda ufficiali.",
+        "Radio: tutte le scalette conosciute (831 canzoni) e tutti i conduttori.",
+        "Collezionabili: carte complete (480 su 480), i pesci e i garage. Mappa: 21 luoghi nuovi dalla mappa ufficiale e nomi corretti.",
+        "Garage: 35 nomi veri e 5 auto nuove; tolti i doppioni.",
+        "Grafica: meno spazio sopra i titoli e qualche ritocco sugli iPhone."
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-11-19",
+      "changes": [
+        "Mappa: non dovrebbe più far chiudere l'app sull'iPhone. I segnaposto ora usano miniature leggere al posto delle foto intere.",
+        "Home: un banner solo con la missione che stai giocando, il capitolo, «5 di 21» e i pulsanti «Apri la missione» e «Compiuta».",
+        "Missioni: i titoli del capitolo in cui sei sono in chiaro, in italiano come nel gioco e con l'originale inglese tra parentesi. La missione in corso è l'unica in evidenza e lo stato è scritto a parole (Fatta, In corso, La prossima).",
+        "Missioni: in alto c'è «Dove eravamo rimasti», il riassunto dell'ultima missione fatta, al posto della presentazione della storia.",
+        "Scheda della missione: i consigli stanno prima dei passi. Quelli che anticipano qualcosa sono coperti e si scoprono con un tocco; a missione compiuta è tutto in chiaro.",
+        "Trofei: in cima ai consigli di ogni missione trovi i trofei che la riguardano (arriva da solo, da non perdere, buona occasione) e cosa fare.",
+        "Da non perdere: gli avvisi di una missione stanno in cima alla sua scheda; le scadenze del capitolo in un riquadro in fondo.",
+        "Scatti: puoi modificare e cancellare le tue foto (la cancellazione è definitiva).",
+        "Immagini più leggere: le pagine con tante foto si caricano prima."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Leonida 1.0: la prima versione per tutti.",
+        "Dentro: la storia capitolo per capitolo con lo scudo spoiler, i «Da non perdere» di ogni capitolo, i 55 trofei con le scadenze, oltre 2.000 collezionabili con il punto preciso, la mappa con le 10 regioni, armi e veicoli con le barre del gioco, 462 canzoni della radio, il Mondo di Leonida e le news.",
+        "Entra con la tua email (Impostazioni › Profilo) per salvare i progressi online, comparire nella classifica della banda e condividere i tuoi scatti.",
+        "La guida si aggiorna di continuo: il numero in alto a destra ti dice quale versione stai guardando."
+      ]
+    },
+    {
+      "version": "0.52.4",
+      "date": "2026-11-19",
+      "changes": [
+        "Terzo giro, con quello che le guide hanno pubblicato tra mattina e pomeriggio del 19.",
+        "Collezionabili: 105 salti acrobatici nuovi (129 su 130), tutti i 40 voli tra i palazzi e tutti i 25 lanci col paracadute, con il punto preciso.",
+        "Armi: i nomi veri delle 9 armi bianche e dei 4 esplosivi, in quale tipo di Ammu-Nation si compra ogni arma e dove si trovano le varianti uniche. Tolte 8 armi che nel gioco non esistono (venivano dai leak).",
+        "Garage: 11 veicoli nuovi, quanto costa registrare un'auto e quanto rende venderla (41 veicoli).",
+        "Missioni: altre 14 missioni dei capitoli 1 e 2 confermate da una seconda guida, una facoltativa nuova (Ring the Bell!) e cinque correzioni (per esempio: i 15.000 $ prima della fine del capitolo 2 non sono obbligatori).",
+        "Da non perdere, capitolo 1: i 5 lavori di casa di Jason vanno finiti prima che Lucia esca di prigione.",
+        "Trofei: il metodo del trofeo segreto «Corsia preferenziale». Per gli altri quattro segreti nessuna guida ha ancora il metodo.",
+        "Personaggi: gli interpreti di 25 personaggi, dai titoli di coda.",
+        "Come si gioca: salva a mano (il salvataggio automatico non è affidabile), tieni qualche centinaio di dollari in contanti, cosa sblocca il conto in banca.",
+        "News: 11 notizie di oggi. Mappa: 7 punti spostati nella regione giusta e il nome corretto della gang Kolt & Associates."
+      ]
+    },
+    {
+      "version": "0.52.3",
+      "date": "2026-11-19",
+      "changes": [
+        "Giro errori prima della 1.0.",
+        "«Da non perdere» del capitolo rifatto da capo: non è più un muro di testo ma una lista di cose da fare, divisa in «Prima che il capitolo finisca» e «Nelle missioni». Parte chiuso, si spunta da solo (trofeo preso, rivista letta, missione fatta) e le riviste dello stesso posto stanno in una riga sola.",
+        "Volti dei personaggi: quando la foto non è ancora sul telefono la guida prende quella online; dove una foto non esiste da nessuna parte compaiono le iniziali, non più un cerchio vuoto. In Home ci sono tutti i personaggi della storia.",
+        "Garage: le cinque barre vere del gioco (velocità, accelerazione, tenuta su strada, fuoristrada, robustezza). Tolte le barre «di esempio» da armi e veicoli che non hanno ancora i dati.",
+        "Collezionabili: ogni categoria mostra il totale vero del gioco e quante posizioni conosce la guida (per esempio 0 / 125, 22 posizioni note).",
+        "Tolti i testi rimasti da prima dell'uscita («arrivano dal 19 novembre») e la scritta doppia «Capitolo 1 · Capitolo 1» nella pagina Missioni. Gli Appunti si spiegano in modo diverso a chi non cura la guida."
+      ]
+    },
+    {
+      "version": "0.52.2",
+      "date": "2026-11-19",
+      "changes": [
+        "Giro grande con dieci squadre: news, missioni, personaggi, collezionabili, armi e veicoli, radio, trofei e segreti, Come si gioca, mappa e Mondo.",
+        "Missioni: corretto il Prologo (Lucia non può seminare la polizia e viene arrestata) e ricontrollate con due guide tutte le missioni del Prologo e dei capitoli 1 e 2. Corrette anche Clear Skies, Home Sweet Home e il colpo del capitolo 3. Nei capitoli 4 e 5 tolti i passi che non venivano dal gioco.",
+        "Collezionabili: tutte le 480 carte, i 100 canestri, i 202 passaggi sotto i ponti, i 108 luoghi WAiNK, 112 pezzi di street art, i 15 rottami di Wyman e i 7 scambi di libri, con il punto preciso.",
+        "Radio: da 273 a 462 canzoni. Vice City FM è condotta da «Weird Al» Yankovic, Kaleidoscope da Jeremy Irons.",
+        "Garage: le cinque barre del gioco per 111 veicoli e il posto preciso di 9 auto della lista di Randy.",
+        "Personaggi: 20 ritratti nuovi e 3 schede nuove (Cecilia, Frankie Delight, Manuel). Jason è interpretato da Dylan Rourke (riportato dalla stampa).",
+        "Come si gioca: corretti mappa (si apre dal touchpad), soldi (20.000 $ in tasca al massimo, conti separati), benzina e riparazioni; due schede nuove su cibo e sostanze e su radio e cuffie.",
+        "News: 15 notizie del lancio (vendite stimate, PSN in tilt, cosa dà la Ultimate capitolo per capitolo) e 7 notizie di ieri aggiornate.",
+        "Mappa e Mondo: 9 punti spostati nella regione giusta, le schede ufficiali delle 8 gang, 22 voci nuove."
+      ]
+    },
+    {
+      "version": "0.52.1",
+      "date": "2026-11-19",
+      "changes": [
+        "Gli Scatti ora stanno dentro «La banda», in fondo alla pagina, sotto la classifica.",
+        "Nella barra «La banda» viene subito dopo i Trofei; Radio, Mondo e News vengono dopo."
+      ]
+    },
+    {
+      "version": "0.52.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Nuova sezione «La banda»: la classifica tra amici con il profilo online. Tocca un amico per confrontarti e vedere cosa ha trovato che a te manca. Delle sue missioni vedi solo i numeri, niente spoiler. In Impostazioni › Profilo puoi decidere se comparire.",
+        "Nuova sezione «Scatti»: la galleria delle foto migliori della banda, con «mi piace» e commenti. Le foto si rimpiccioliscono sul telefono prima di partire, e quelle con spoiler restano sfocate per chi non è ancora arrivato a quel capitolo."
+      ]
+    },
+    {
+      "version": "0.51.0",
+      "date": "2026-11-19",
+      "changes": [
+        "Missioni: in cima a ogni capitolo c'è «Da non perdere in questo capitolo», con i bonus dell'Ultimate che valgono solo lì (Retro Build della Ganado nel capitolo 1, lo Squalo nel capitolo 4), i soldi da mettere in banca, i trofei che scadono, i collezionabili che si perdono e gli avvisi delle missioni. Quelli delle missioni non ancora cominciate stanno sotto l'inchiostro.",
+        "Trucchi: non sono più in «Come si gioca». Hanno una pagina a parte in Altro › Trucchi, dietro un avviso, perché bloccano salvataggi e trofei.",
+        "Radio: tolta la barra della sintonia. Restano le frecce, con il nome della stazione prima e dopo."
+      ]
+    },
+    {
+      "version": "0.50.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa: 221 punti d'interesse nuovi, 602 in tutto. Ci sono 30 Smash 'n' Grab (gioiellerie e banchi dei pegni), 19 Pay 'n' Spray, tatuatori, parrucchieri e barbieri, negozi di elettronica, vestiti e scarpe, fast food, liquori, autolavaggi e stazioni.",
+        "Nelle regioni i punti d'interesse sono raggruppati per tipo (da rapinare, armi, auto, vestiti, cibo, negozi, trasporti, svago, luoghi) in sezioni che si aprono con un tocco.",
+        "Mondo: le 5 gang che mancavano (Kingfishers, Kolt & Associates, M7, La Polilla Negra, Guardia Brothers), le app Vice City Real Estate e Fitness, lo scanner della polizia, Paradise Taxi e la serie TV Right Wing. The Thirsty Wolf ora è a Belville."
+      ]
+    },
+    {
+      "version": "0.49.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Come si gioca: nuove schede Salvataggi (15 slot, niente rigioco), Mappa e nebbia, Impostazioni e accessibilità, Bonus delle edizioni capitolo per capitolo. Ogni scheda dice da quale capitolo si sblocca.",
+        "Ultimate Edition: due bonus si possono perdere. Il Retro Build della Ganado vale solo nel capitolo 1 e lo Squalo si prende solo nel capitolo 4.",
+        "Nuovo consiglio «Le prime 10 cose da fare», più altri 14 consigli. Soldi: il Risparmio Familiare ha dei livelli, e il «tetto di 20.000 $ in tasca» delle anteprime non è confermato.",
+        "Armi: le varianti uniche delle missioni (la H&L .38 di Donnie e la 1922 di Monty si perdono se non le prendi) e da quale capitolo arriva ogni attrezzo. Tolte 11 voci di prima dell'uscita che nel gioco non esistono (bypass dell'immobilizer, disturbatore di localizzatori, grimaldello…).",
+        "Garage: 100 veicoli verificati, 55 nomi corretti, 5 nuovi (l'Elegy di GTA+, i mezzi della base militare). Tolti 3 doppioni."
+      ]
+    },
+    {
+      "version": "0.48.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trucchi: in «Come si gioca» c'è l'elenco dei 61 trucchi, con cosa fanno e come si sbloccano. Si usano solo a storia finita e bloccano salvataggi e trofei.",
+        "Sfide: le 80 sfide una per una, divise in 8 schede, con i veicoli che sbloccano. Trofei corretti: «Shopping compulsivo» va fatto insieme al partner. Primi segreti confermati dalle testate: il Bigfoot a Cottonmouth Lake e l'uovo di Pasqua in cima al ripetitore.",
+        "Missioni: 28 nuove, tra cui la serie di Andy, le missioni 3-5 di Billy, Kirk e lo Skunk Ape, Pilot Pete e le tappe brevi della storia. 18 missioni del capitolo 1 sono confermate da due guide.",
+        "Personaggi: 37 nuovi, con tutti i contatti delle missioni e i conduttori radio, divisi in gruppi. Tolti Kai (non c'è nel gioco) e N3on (è lo streamer vero).",
+        "Radio: 47 canzoni in più (V-Rock, Vice City FM, Flash FM…) e la stazione segreta The Sniper of La Perle. Ogni stazione ha il suo colore.",
+        "Animali: 6 specie nuove, le varianti rare e Dolores, il serpente di Jason.",
+        "Spoiler: tolto dalla scheda dell'album e da una notizia il titolo di un brano che è anche il nome di una missione del capitolo 4."
+      ]
+    },
+    {
+      "version": "0.47.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Radio rifatta. In cima c'è un giradischi con il disco della stazione che gira, il braccio sul vinile, il nome al neon, la scaletta e una sintonia per passare alla stazione prima o dopo. Sotto c'è la cassa dei dischi: ogni stazione ha la sua copertina con il vinile che esce, e un tocco la mette sul piatto. Ogni stazione ha il suo colore."
+      ]
+    },
+    {
+      "version": "0.46.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Garage: i veicoli confermati passano da 27 a circa 54, con il posto dove trovarli. Sei nomi corretti: Piccia Furia, Ascot Paragon, Maibatsu Boomazoom, Speeder 700 GT, Pegassi Infernus, '32 Vapid Hustler. Nuovo il fenicottero gonfiabile del trucco. I 14 veicoli dei trucchi sono verificati.",
+        "Armi: Moreland 850 a 700 $ (350 $ alla prima visita all'Ammu-Nation). Le barre e i prezzi delle altre armi le guide non li hanno ancora pubblicati."
+      ]
+    },
+    {
+      "version": "0.46.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Missioni del capitolo 3: 21 con i passi e i consigli, più 3 cose da non perdere. L'ordine ora segue quello in cui le missioni si sbloccano giocando.",
+        "Capitoli 4 e 5: le guide non hanno ancora pubblicato le soluzioni. Ci sono i collegamenti tra le missioni, i punti di non ritorno e qualche obiettivo confermato.",
+        "Radio: 23 stazioni con circa 220 canzoni. Nuove VCRR, The Vault (la stazione segreta), Gloriana Blues, Leonida Jazz e WKTT. C'è anche «Feels» di Calvin Harris con Katy Perry su Flash FM.",
+        "Attività: 16 schede che erano vuote ora hanno requisiti, premi e come si fa. I personaggi confermati sono collegati alla missione in cui li incontri.",
+        "Collezionabili: 16 carte e 3 altri oggetti confermati da due guide. Le altre posizioni (fenicotteri, stili, canestri) le guide non le hanno ancora pubblicate."
+      ]
+    },
+    {
+      "version": "0.45.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Radio: tre schede, Stazioni, Canzoni e La mia playlist. In «Canzoni» trovi tutti i brani noti con la ricerca. Il cuore mette una canzone nella tua playlist, che si salva anche online con il profilo. «Apple Music» apre la ricerca del brano. Puoi aggiungere a mano una canzone sentita in gioco, e «Copia l'elenco» o «Condividi» passano la playlist altrove."
+      ]
+    },
+    {
+      "version": "0.44.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa sul Mac: un clic su un punto, una regione o una foto apre la scheda, sia a mappa bloccata sia sbloccata. Prima il clic finiva alla mappa e non succedeva niente. Sull'iPhone non cambia niente."
+      ]
+    },
+    {
+      "version": "0.44.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Giro di news del lancio: 9 notizie nuove. Le missioni non si rigiocano. Niente internet nel gioco. I trucchi si usano solo a storia finita. Una battuta su GTA 7. Lo scanner della polizia di Cal. La mappa a piedi e quanto dura il pieno. Processo di Glasgow e voto sul sindacato. Motivi tropicali per le armi. La polemica di Fox News.",
+        "Corretto il dato «Italia prima al mondo per le ferie» (+91%): viene da un campione minuscolo, come spiega Il Post.",
+        "Mondo: aggiunti Race and Chase e Barnyard Blue."
+      ]
+    },
+    {
+      "version": "0.43.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Giro guide sulle contraddizioni: 234 correzioni. La stessa cosa ora è scritta uguale in tutte le sezioni; dove le guide non danno una risposta sicura c'è la versione più probabile, segnata «Da verificare».",
+        "Comandi: il cambio di protagonista si fa tenendo premuto destra + R1 (dal capitolo 2). All'inizio hai un solo posto auto. La mira assistita classica è spenta, ma c'è un leggero aiuto alla mira.",
+        "100% e trofei: i poligoni sono 2 con 12 sfide e 42 ori. Per il 100% servono 5 set di Kenton su 7, ma le 33 scoperte subacquee li chiedono tutti. Gli animali sono 255. Le meditazioni sono contate giuste.",
+        "Mondo: Ambrosia è nella contea di Kelly. Petra Navarro è la direttrice operativa di Megamundo. L'app si scrive WAiNK e l'altra RydeMe. Il Contender è un Karin.",
+        "Auto di Wyman: restano le 5 vere, tolte 4 voci di prima dell'uscita. Le frasi senza senso sono state rifatte partendo dall'originale inglese."
+      ]
+    },
+    {
+      "version": "0.42.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Testi riletti in tutta la guida: 681 frasi riscritte perché si capiscano al primo colpo. Sono state tolte le frasi da appunto, le ripetizioni, le parole inglesi inutili, le sigle non spiegate e i riferimenti alle fonti. Fatti, numeri e nomi sono rimasti gli stessi."
+      ]
+    },
+    {
+      "version": "0.41.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi: campo «Cerca un'arma» in cima alla pagina, con i risultati subito sotto.",
+        "Armi: «Confronta» è ovunque. In alto, accanto a ogni arma e dentro la scheda. Un tocco apre il confronto con le tue armi più potenti della stessa categoria; da lì togli un'arma con la × o ne aggiungi un'altra (prima quelle nello zaino, con la ricerca)."
+      ]
+    },
+    {
+      "version": "0.40.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi: i numeri della ruota seguono il filtro. Con «Nello zaino» contano solo le armi che hai, con «Mi mancano» solo quelle che ti mancano, e dove non c'è niente segna 0.",
+        "Armi: confronto. Apri una categoria, tocca «Confronta le armi», scegli 2 o 3 armi (quelle nello zaino sono già scelte) e vedi le barre una sotto l'altra, con la migliore accesa, più calibro, caricatore, prezzo e dove si compra."
+      ]
+    },
+    {
+      "version": "0.39.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: sotto ogni nome c'è quando si fa. «Con la storia», «Dal capitolo N · Nessuna scadenza» (verde) oppure «Scade a fine capitolo N» (arancio, oggi solo Mentalità positiva). Dove serve c'è anche una riga di avviso."
+      ]
+    },
+    {
+      "version": "0.38.6",
+      "date": "2026-11-18",
+      "changes": [
+        "Tolta la scritta «Leonida» in alto: resta «GTA VI · Guida di gioco» (sull'iPhone solo «GTA VI», per fare posto al nick)."
+      ]
+    },
+    {
+      "version": "0.38.5",
+      "date": "2026-11-18",
+      "changes": [
+        "Profilo: bottoni più chiari («Cambia nick», «Salva progressi», «Esci»). Se scrivi un nick e tocchi «Salva progressi», salva anche il nick."
+      ]
+    },
+    {
+      "version": "0.38.4",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: «Da non perdere per il Platino» è chiuso e si apre con un tocco, così non copre la pagina."
+      ]
+    },
+    {
+      "version": "0.38.3",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei: la ricerca è in cima alla pagina e mostra subito i trofei trovati, aperti, senza passare dalle categorie. Funziona anche senza accenti («attivita»)."
+      ]
+    },
+    {
+      "version": "0.38.2",
+      "date": "2026-11-18",
+      "changes": [
+        "In alto accanto a Leonida ora c'è scritto «GTA VI · Guida di gioco», come nella Home."
+      ]
+    },
+    {
+      "version": "0.38.1",
+      "date": "2026-11-18",
+      "changes": [
+        "In alto a destra c'è il tuo nick con il pallino: verde quando i progressi sono salvati online, arancio senza rete, vuoto se non sei entrato (toccalo per entrare). Il nick si sceglie entrando o in Impostazioni › Profilo, che ora è in cima."
+      ]
+    },
+    {
+      "version": "0.38.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Profilo personale: entri con la tua email (niente password) e i progressi si salvano online. Su un altro telefono rimetti la stessa email e ritrovi tutto. Lo trovi nel Benvenuto e in Impostazioni › Profilo."
+      ]
+    },
+    {
+      "version": "0.37.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Attività: la scheda ora mostra anche come si fa, cosa serve per il 100% e i trofei, e le ricompense."
+      ]
+    },
+    {
+      "version": "0.36.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Armi con i nomi veri del gioco (es. Kozlov KZ-59, Vom Feuer VF5, Hauners H-AT), 32 armi nuove, prezzi, caricatori e le barre vere: Danno, Precisione, Maneggevolezza, Gittata.",
+        "Garage: dove trovare le auto dell'Ultimate e della lista di Randy; Zorrusso è GranForma; trazione corretta su barche, aerei e moto.",
+        "Attività: 12 nuove (meditazione, droni, banche…), requisiti e premi veri; il poligono per il 100% chiede tutti i 42 ori. Tolte le corse in mare, che non esistono.",
+        "Come si gioca: tolte le voci smentite dal gioco, confermate le altre."
+      ]
+    },
+    {
+      "version": "0.35.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Mappa: 146 punti nuovi dal gioco vero. Ci sono i 12 garage (gli 8 in vendita per il trofeo «Posto riservato», 160.000 $ in tutto), i ricettatori, i 10 punti di meditazione, le 14 gare di droni Top Fun, 22 Ammu-Nation, officine, banche e banchi dei pegni rapinabili e 32 operazioni delle bande su 39.",
+        "Regioni con i nomi veri della mappa (contee di Mariana, Vice-Dale, Kelly, Leonard, Lummox), Mile Zero Air Station al posto della base generica, doppioni tolti.",
+        "Come si gioca: nuova scheda «Sconosciuti e folli» con le serie che contano per il trofeo."
+      ]
+    },
+    {
+      "version": "0.34.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Collezionabili veri: 19 categorie (carte, riviste, salti, sotto i ponti, voli tra i palazzi, paracadute, WAiNK, meditazioni, fenicotteri, stili, canestri, meteoriti…) con 364 posizioni scritte una per una e quanti ne servono per il 100%.",
+        "Quelli che si perdono con la storia sono segnati in arancione («si perde dopo il capitolo N»): riviste e carte nelle case che lasci, la prima meditazione.",
+        "Lista ufficiale del 100% (35 voci) in Collezionabili. Personaggi, Radio e Mondo: 39 voci confermate da materiale ufficiale, 10 correzioni."
+      ]
+    },
+    {
+      "version": "0.33.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Capitolo 4 inserito: tutte le missioni, passi dove le guide li hanno già.",
+        "Platino: avvisi su 13 missioni, con i punti di non ritorno in rosso (fine capitolo 1, fine capitolo 2, fine capitolo 4). Prima di iniziarle vedi solo cosa fare; quello che succede durante compare quando la stai giocando.",
+        "Trofei: in cima il riquadro «Da non perdere per il Platino» con 14 regole (salvataggi, soldi da tenere, riviste nelle case che lasci, missioni a tempo).",
+        "Titoli italiani ufficiali per 7 missioni (dai trofei PSN); le altre restano in inglese finché non li troviamo."
+      ]
+    },
+    {
+      "version": "0.32.4",
+      "date": "2026-11-18",
+      "changes": [
+        "Capitolo 3: tutte le missioni con contatto e riassunto; passi completi dove le guide li hanno già. Segnate due scelte senza ritorno, una facoltativa a tempo e l'avviso prima dell'ultima missione del capitolo."
+      ]
+    },
+    {
+      "version": "0.32.3",
+      "date": "2026-11-18",
+      "changes": [
+        "Capitolo 2: taccuino completo di tutte le missioni, facoltative e compiti compresi; avviso prima dell'ultima missione del capitolo. Capitolo 5: per ora solo l'ossatura, le guide passo passo non sono ancora uscite."
+      ]
+    },
+    {
+      "version": "0.32.2",
+      "date": "2026-11-18",
+      "changes": [
+        "Platino: pronti gli avvisi «Prima di proseguire» sulle missioni con un punto di non ritorno (dicono cosa fare, non perché) e il riquadro «Da non perdere per il Platino» nei Trofei. Si riempiono con i dati in arrivo."
+      ]
+    },
+    {
+      "version": "0.32.1",
+      "date": "2026-11-18",
+      "changes": [
+        "Recensioni: 99 su Metacritic (come Ocarina of Time) e 99 su OpenCritic, 10 da IGN, GameSpot, Edge e dalle testate italiane. Articolo senza spoiler.",
+        "Game Awards: 8 nomination, Gioco dell'anno compreso. Lancio: mezzanotte in Italia, firmware PS5 14.23 obbligatorio, niente patch del giorno uno oltre la 1.002.001.",
+        "Come si gioca: undici schede arricchite con quello che raccontano le recensioni."
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "date": "2026-11-18",
+      "changes": [
+        "La storia vera: Prologo e 5 capitoli, 91 missioni principali più 30 facoltative e 15 compiti, con i titoli originali. Tutto resta nascosto finché non lo inizi.",
+        "Prologo e capitolo 1 hanno il taccuino completo: chi te la dà, cosa fare passo per passo, cosa raccogliere per il 100%, consigli. Le medaglie d'oro in GTA VI non esistono e le missioni non si rigiocano.",
+        "Le facoltative stanno in fondo a ogni capitolo e non bloccano la storia; alcune si perdono a fine capitolo e sono segnate."
+      ]
+    },
+    {
+      "version": "0.31.0",
+      "date": "2026-11-18",
+      "changes": [
+        "Trofei ufficiali: i 55 veri con i nomi italiani di PlayStation (1 platino, 2 oro, 6 argento, 46 bronzo) e un consiglio per ciascuno. I 28 nascosti hanno nome e descrizione sotto l'inchiostro: i nomi della storia svelano le missioni.",
+        "Le spunte sui vecchi trofei di prova non ci sono più (erano segnaposto)."
+      ]
+    },
+    {
+      "version": "0.30.3",
+      "date": "2026-11-17",
+      "changes": [
+        "Tre giorni di news (14-17 novembre): nuova patch 1.002.001, recensioni attese domani, 15,9 milioni di preordini digitali, la scaletta completa di «The Album» (Leak), le immagini ufficiali sul meteo con The Weather Channel, NBA 2K27 con GTA+, l'Italia prima al mondo per le ferie il 19, l'autore della fuga del 2022 colpevole.",
+        "Mondo, Come si gioca: Coastal Auto Care, pedaggi Vice Pass, meteo, trasporti e animali aggiornati."
+      ]
+    },
+    {
+      "version": "0.30.2",
+      "date": "2026-11-14",
+      "changes": [
+        "Animali: la scheda spiega che le specie di uccelli sono 62 (Guardian) su oltre 170 animali; l'album contiene quelle già viste, il resto arriva giocando."
+      ]
+    },
+    {
+      "version": "0.30.1",
+      "date": "2026-11-14",
+      "changes": [
+        "News del mattino: «Macca & Friends», il cartone di Weazel con Macca the Gator dal 19; patch 1.002 obbligatoria già scaricabile; codici nelle scatole (attenzione a quelle senza codice); codici su Twitch ogni giorno dal 19 al 30; spot PlayStation Corea; nomination dei Game Awards il 17 alle 18.",
+        "Mondo: Pinche il granchio e, come Rumor, il cartone «The Johnsons»."
+      ]
+    },
+    {
+      "version": "0.30.0",
+      "date": "2026-11-14",
+      "changes": [
+        "Il reportage del Guardian da Rockstar North (dalle pagine del giornale di oggi): appuntamenti di coppia, rapine da studiare, 62 specie di uccelli, riviste da sfogliare, la nascita del progetto. Le novità sono entrate anche nelle schede di «Come si gioca»."
+      ]
+    },
+    {
+      "version": "0.29.9",
+      "date": "2026-11-13",
+      "changes": [
+        "News del 13 novembre: il Burger Shot sbarca davvero in Florida (Skinny Louie, fino al 31 dicembre), Rockstar apre un account su Douyin, la battuta sui «60 fps senza auto» di un'intervista ritirata; concorso Kick con 10.000 Ultimate Edition anche per l'Italia."
+      ]
+    },
+    {
+      "version": "0.29.8",
+      "date": "2026-11-12",
+      "changes": [
+        "Trapelata la mappa della Collector's Box: confermate le cinque contee e nuovi nomi (Moreau, Manzana, Grayson, Pelican Valley, Corsair Key, Breakwater Quarry, Interstate 404), in Leak nelle schede delle regioni.",
+        "Il 19: diretta YouTube di 24 ore dalle 5, festa di lancio al Clevelander (l'Ocean View Hotel vero); «The Album» si ascolta il 18 nei negozi di dischi. Aperto il voto sul sindacato Rockstar.",
+        "Giro con filtro anti-bufale: scartate mappe «HD» rifatte con l'IA, finti rapporti tecnici e conteggi di trofei riciclati."
+      ]
+    },
+    {
+      "version": "0.29.6",
+      "date": "2026-11-11",
+      "changes": [
+        "News dell'11 novembre: intervista di Rob Nelson al Guardian, il video di Ocean Drive rilanciato da Rockstar, le prime scatole arrivate in anticipo (codice dentro la copertina, niente mappa), preload da record sulle reti, 10,3 milioni di preordini digitali, «Blood In Your Eyes» di Tove Lo come singolo.",
+        "Nuovo consiglio: come aprire la scatola e riscattare subito il codice."
+      ]
+    },
+    {
+      "version": "0.29.5",
+      "date": "2026-11-10",
+      "changes": [
+        "Ufficiale: 30 fps su tutte le console; la PS5 Pro aggiunge immagine più nitida (PSSR) e ombre in ray tracing. Consigli tecnici corretti.",
+        "Nuovo trailer del preload con «Blood in Your Eyes» di Tove Lo; GTA VI è il gioco più preordinato della storia di PlayStation Store e Microsoft Store; streaming anche su Xbox One dal 19.",
+        "Take-Two in rialzo in Borsa, il sindacato dei lavoratori Rockstar, il murale di Wynwood."
+      ]
+    },
+    {
+      "version": "0.29.3",
+      "date": "2026-11-10",
+      "changes": [
+        "Conti Take-Two: data del 19 confermata, gioco finito («gold»), preordini «senza precedenti», previsioni confermate. Articolo completo a paragrafi.",
+        "Preload partito: 209,76 GB su PS5; se gli Extra non si scaricano, si installano da «Gestisci contenuto del gioco». Consigli sul preload aggiornati.",
+        "Take-Two contro i cloni fatti con l'IA; la scatola Xbox promette Dolby Vision e Atmos."
+      ]
+    },
+    {
+      "version": "0.29.2",
+      "date": "2026-11-09",
+      "changes": [
+        "News della sera: «The Festival» a Miami il 21 novembre (Travis Scott, Cardi B, Justice, Metro Boomin; lotteria per i biglietti fino a domani alle 22), preload partito in Nuova Zelanda con le dimensioni vere, dati del preload su PS5 Pro, Selfridges aperto fino al 28 novembre con la Cheetah vera in vendita.",
+        "Preload: consiglio aggiornato con le dimensioni reali del download."
+      ]
+    },
+    {
+      "version": "0.29.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Londra: aperto da Selfridges il mondo di GTA VI. Articolo completo con dove e quando, cosa c'è (Macca the Gator, la Cheetah vera), i 60 articoli in vendita con i prezzi, la coda da 100.000 persone e gli esauriti.",
+        "Sony avverte: un account con un paese falso per giocare prima rischia la sospensione."
+      ]
+    },
+    {
+      "version": "0.29.0",
+      "date": "2026-11-09",
+      "changes": [
+        "iPhone: la barra in basso scorre con il dito e mostra tutte le sezioni; «Altro» resta fisso a destra; la sezione aperta si porta da sola in vista. Home allineata alle altre voci.",
+        "Più spazio dal bordo destro accanto agli elementi di sistema (Duo chiuso).",
+        "Le notizie lunghe si leggono a paragrafi."
+      ]
+    },
+    {
+      "version": "0.28.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Zaino e garage: nella scheda di ogni arma «Mettila nello zaino», di ogni veicolo «Mettilo nel garage». Lo zaino è unico per Jason e Lucia. I vecchi preferiti sono diventati «ce l'ho».",
+        "Filtro «Tutti · Ce l'ho · Mi mancano» in Armi e Garage, «Trovati · Da trovare» nei Collezionabili, «Incontrati · Da incontrare» nei Personaggi. In testata il contatore, es. «3 / 73 nello zaino»."
+      ]
+    },
+    {
+      "version": "0.27.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Giro GTABase: 3 armi nuove (bottiglia incendiaria, coltello Hawk & Little, serramanico) e 8 oggetti di equipaggiamento (bypass dell'immobilizer, disturbatore di localizzatori, antidolorifici, fascette…); dettagli su 7 armi.",
+        "Garage: la Vapid Dominator '67 e un secondo airboat delle paludi; lo Yakuruna è il superyacht Lürssen Coral Ocean.",
+        "Mappa: 11 punti spostati nella regione giusta (Rideout, Hoodwinks, Zeke's, Diamond Dawgs, Naval Air Station…), 9 nuovi (banche di Vice Beach, caserme dei pompieri, distributori, il rifugio di Bayside), due doppioni tolti.",
+        "Rifugi più completi (posti auto, armadietti), due auto in più nella collezione di Wyman, attività con passi e requisiti (poligono, paracadute), personaggi e gang aggiornati."
+      ]
+    },
+    {
+      "version": "0.26.1",
+      "date": "2026-11-09",
+      "changes": [
+        "News del 9 novembre: quattro voci «Extra» nel preload PS5 (lasciale spuntate), Take-Two in rialzo prima dei conti, Sony che conta su GTA VI già quest'anno, trailer in TV durante il Gran Premio del Brasile, il Prairie Sandwich cucinato davvero, e due indiscrezioni (titoli di coda di 80 minuti, possibili tagli in Giappone)."
+      ]
+    },
+    {
+      "version": "0.26.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Icone nuove in stile GTA nella barra, nel menu laterale e nelle testate: palma, bandiera a scacchi, pad, segnaposto, pistola, auto sportiva, giornale. Il riquadro rosa della sezione attiva resta."
+      ]
+    },
+    {
+      "version": "0.25.1",
+      "date": "2026-11-08",
+      "changes": [
+        "News dell'8 novembre: Amazon Italia annulla parte dei preordini della scatola, trofei che sarebbero 55 (leak), prima scatola PS5 con 230 GB sul retro, poster A3 nella custodia, vigilia dei conti Take-Two.",
+        "Consiglio sul preload: tieni liberi 230 GB, non 212."
+      ]
+    },
+    {
+      "version": "0.25.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Missioni: «Inizia la prossima» dalla plancia e dalla Home, un tocco e sei dentro. Elenco senza numeri doppi: «La prossima», «Bloccata».",
+        "Taccuino della missione: dove, chi te la dà, cosa devi fare (da spuntare), chi incontri, obiettivi per il 100%. Ricompense, consigli e segreti già aperti.",
+        "«Missione compiuta» in stile GTA con «Inizia la prossima»; dopo, nella scheda, la prossima mossa al posto dei tre pulsanti.",
+        "Spoiler con l'inchiostro invisibile di iMessage: un pulviscolo copre la trama, un tocco lo fa esplodere. Via i banner arancioni.",
+        "Home: «Dove sei nella storia» diventa una riga sola; il conto alla rovescia non esce più dal bordo e non va a capo su iPhone.",
+        "La J di «Jason» non sembra più spezzata (font limitato alla forma da lettura).",
+        "Mappa: zoom più del doppio con dettagli nitidi, i punti vicini si separano.",
+        "Trofei: «trofei» al posto di «coppe», singolare e plurale giusti."
+      ]
+    },
+    {
+      "version": "0.24.1",
+      "date": "2026-11-08",
+      "changes": [
+        "Scudo spoiler più robusto: il nome di una missione si vede solo dopo che l'hai iniziata, anche nella ricerca, negli Appunti, nelle schede dei personaggi e dei collezionabili."
+      ]
+    },
+    {
+      "version": "0.24.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Benvenuto: al primo avvio una pagina spiega come installare la guida sulla schermata Home, lo scudo spoiler, le etichette e dove stanno i progressi. Si riapre da Impostazioni › Come funziona.",
+        "Missioni: in cima alla scheda «Chi te la dà» e «Cosa devi fare»; il timbro rosso «Scelta senza ritorno» avvisa di salvare prima, senza rivelare la scelta.",
+        "A fine missione tre domande veloci (chi, dove, c'era una scelta) che finiscono nel Pacchetto per Claude.",
+        "Tolte le voci di prova."
+      ]
+    },
+    {
+      "version": "0.23.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Giro dei 10 giocatori: barra in basso con «Altro» su una riga, conto alla rovescia che non si spezza, icona Impostazioni nuova, mappa a tutto schermo che funziona.",
+        "Modalità vergine (Impostazioni): nasconde i personaggi non ancora incontrati, le teorie e gli estratti della ricerca.",
+        "Spoiler: teorie sulla trama e leak sulla struttura della storia dietro l'avviso; a missione in corso si legge solo l'inizio del riassunto.",
+        "Missione completata: avviso con «Vai alla prossima».",
+        "Etichette: tocca «Ufficiale», «Leak»… per sapere cosa vogliono dire; negli elenchi una sola etichetta.",
+        "Mappa: icone diverse per polizia, armi, cibo, stazioni, hotel, negozi; la ricerca trova anche i punti, con «Mostra sulla mappa»; conferma quando segni un punto trovato.",
+        "Completamento: i punti di riferimento contano nelle regioni e nel totale.",
+        "Trofei apribili dalla vetrina, collezionabili e attività apribili dalla ricerca, «Apri la regione» sistemato, Zona attuale presa dalla missione in corso.",
+        "iPhone: titoli lunghi delle news non escono più dalla copertina.",
+        "Strumenti del curatore (Pacchetto per Claude) attivabili in Impostazioni: spenti per i nuovi amici, accesi per te."
+      ]
+    },
+    {
+      "version": "0.18.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Benchmark completato: 46 negozi e locali nel Mondo e sulla mappa, 25 luoghi e 7 stazioni di polizia, 26 stazioni e la scheda Rete dei trasporti, 12 stazioni radio, 4 animali nuovi, Bae-Luxe e Roxy, costruttori GranForma, Airgator, ZOOT, Del Perro, Hauners.",
+        "Animali con nome scientifico, comportamento, zone e protezione reale; «Animali della zona» nelle regioni; attività filtrabili in Come si gioca; scheda Gare.",
+        "Correzioni: brani radio dal leak, ShoreFront banca, orca, razza, cinghiale, Watson Bay Airport, Boone Speedway, doppioni sulla mappa tolti."
+      ]
+    },
+    {
+      "version": "0.17.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Nuova sezione «Come si gioca»: 19 schede sui sistemi di gioco (furto d'auto, polizia, rapine, armi, combattimento, soldi, cambio protagonista, relazione, profilo criminale, fisico, aspetto, rifugi, telefono, guida, spostarsi, animali, attività, gente, meteo).",
+        "Extended Look verificato scena per scena: attività viste, armi, prima missione."
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Verifica sulle fonti primarie: sinossi ufficiale in Missioni; Profilo criminale da Professional a Irredeemable; Jason senza «forze speciali»; Stephen Root e i doppiatori spostati in note Community; relazione a quattro livelli; polizia con le parti non confermate in nota Rumor; etichette Ufficiale per l'Extended Look e le interviste Edge/IGN."
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Revisione di tutti i testi (circa 850 voci): scritti come una guida, senza «secondo la community», «visto nel trailer», «la stampa dice». L'affidabilità la dice solo l'etichetta."
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Giro news: 24 notizie (conti Take-Two il 9 alle 22:30, supporto Rockstar sulle edizioni, codici a blocco regionale su PS5, mappa gratis e poster, Selfridges, Xbox 225 GB…), 7 marchi nuovi, 13 posti nuovi da gtasixmap sulla mappa."
+      ]
+    },
+    {
+      "version": "0.13.1",
+      "date": "2026-11-07",
+      "changes": [
+        "Armi: 40 schede arricchite con «Cosa sappiamo» e «Dove si è vista» (GTA Wiki, GTABase, vice-central, stampa) e 12 modelli reali in più."
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Coordinate esatte per 185 punti di riferimento (gtasixmap) e 99 punti d'interesse (gtasixmap e gtadb.org, CC BY): ora sono sulla mappa."
+      ]
+    },
+    {
+      "version": "0.12.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Animali riscritti a sezioni (comportamento, cosa puoi fare, pericolo, razze, dove visto, lo sapevi); Cani, Serpenti, Squali e Anatre accorpati; foto inquadrate sull'animale o emoji se la foto non c'entra.",
+        "Mondo senza «Edizione»; fonti raccolte in News › Fonti e ringraziamenti."
+      ]
+    },
+    {
+      "version": "0.11.1",
+      "date": "2026-11-07",
+      "changes": [
+        "Da gta6bible: modello reale, posti e trazione per 108 veicoli, «Pugni» nella ruota, 5 attività (moto d'acqua, poligono, basket, scuba, mud), dettagli su Wyman, Jack of Hearts, Final Chapter MC, San4San."
+      ]
+    },
+    {
+      "version": "0.11.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Missioni senza spoiler: si vede solo ciò che stai facendo o hai fatto; capitoli e missioni future restano «bloccati» finché non tocchi «Inizio adesso».",
+        "Home: «Dove sei nella storia» per dire alla guida a che punto sei; cast e regioni si accendono dalla storia o con «Incontrato / Scoperta» sulle schede.",
+        "Mappa: tasto Esplora (la pagina scorre finché non lo tocchi), Polaroid appese sulla mappa, «Tu sei qui» collegato alla storia, via poster e modalità notte, regioni e punti d’interesse senza doppioni, ordine di storia.",
+        "Collezionabili: album solo dopo aver scelto la categoria; Animali con habitat (domestici, uccelli, marini, paludi, foresta, pesci) e regioni.",
+        "Trofei: bacheca allineata, bagliore solo sulla coppa, ricerca per nome.",
+        "Armi: etichette dentro gli spicchi, la pagina non salta più.",
+        "Personaggi: ricerca, niente numeri; Mondo in ordine alfabetico con categorie chiuse; News a timeline con «la scottante» del giorno.",
+        "Scheda-fascicolo che arriva come un foglio sulla scrivania, dentro i margini dell’interfaccia."
+      ]
+    },
+    {
+      "version": "0.10.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Schede che si aprono come un fascicolo sopra la pagina (la pagina sotto resta dov'era, swipe a destra per chiudere).",
+        "Home come dashboard di avanzamento: conto alla rovescia al secondo, cast e territori in scala di grigi che si accendono quando li incontri, in ordine di storia; tutto si apre in un foglio davanti, senza cambiare tab.",
+        "Missioni: tutti i capitoli, spenti quelli ancora da scoprire.",
+        "Mappa: si blocca finché non la tocchi (così la pagina scorre), Polaroid intorno alla mappa col filo rosso, etichette sui tasti, «Da fare» con tre barre, luoghi catalogati per territorio senza doppioni, via la modalità notte.",
+        "Collezionabili: figurine senza spunta, numero acceso; «Rifugi e garage» senza veicoli (stanno nel Garage).",
+        "Trofei: coppe toccabili, bacheca con i nomi.",
+        "Armi: ruota grande con sfondo, centro per tornare a tutte.",
+        "Mondo: griglia per categoria.",
+        "News di vice-central con il testo completo."
+      ]
+    },
+    {
+      "version": "0.9.2",
+      "date": "2026-11-06",
+      "changes": [
+        "Giro di aggiornamento news del 6 novembre: 23 notizie (orari di sblocco, upgrade alla Ultimate, Take-Two prima dei risultati del 9, Zelnick al WSJ, maglie Vice City dei Miami Heat, Black Friday, Launch Gallery letta dalla community). Nel Garage il superyacht Yakuruna. Lista trofei: ancora non pubblicata."
+      ]
+    },
+    {
+      "version": "0.9.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Garage come concessionario (card con foto, marca e targa, «le tue chiavi»); News come prima pagina con timbro; Trofei con lo scaffale delle coppe e la «prossima coppa alla portata»; legami dei personaggi come fili tra i ritratti."
+      ]
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Da vice-central.com: 90 notizie in più (marketing nel mondo reale, business, online, caso Cyberleek, classificazioni, musica, retroscena di Schreier), 11 teorie della community in un tavolo a post-it (News → Teorie), approfondimenti con tabella «cosa ricordare» su 8 territori, Megamundo ed Effluvia."
+      ]
+    },
+    {
+      "version": "0.8.2",
+      "date": "2026-11-06",
+      "changes": [
+        "Il carattere di GTA (Pricedown) sui titoli e sui numeri; sfondi ufficiali dietro l'app e le testate; numeri giganti su territori, capitoli e cast; cast board dei protagonisti; album di figurine per la fauna."
+      ]
+    },
+    {
+      "version": "0.8.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Da vice-central.com: 28 armi con foto, modello reale e dove sono state viste (più la mazza da minigolf); 41 animali con foto e punto di avvistamento, 10 specie nuove; 11 personaggi finalmente con la foto, gallerie con didascalia, approfondimenti e tabelle «cosa ricordare»."
+      ]
+    },
+    {
+      "version": "0.8.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Mappa nuova: la mappa vera della community (YANIS v16) con pan e zoom, livelli territori/luoghi/foto, giorno e notte, Polaroid con il filo rosso, tessere di dettaglio da gtasixmap.",
+        "Armi: sezione a sé con la ruota delle armi, otto categorie come nel gioco.",
+        "Spunte al neon in tutte le liste; testate ridisegnate come insegne."
+      ]
+    },
+    {
+      "version": "0.7.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Copertine per Vice Beach, Hamlet, Capri e Waning Sands e foto per 33 punti d'interesse, dalle schede di gtasixmap.",
+        "Testate a banda colorata, una per sezione; «Guida di gioco» al posto di «Guida di campo».",
+        "Mappa: territori come post-it a pennarello; immagine alla qualità originale."
+      ]
+    },
+    {
+      "version": "0.7.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Mappa: immagine della community con i segnaposto dei territori, schermo intero e mappa interattiva di gtasixmap.com dentro l'app.",
+        "Luoghi: 44 schede tradotte da gtasixmap.com (in breve, com'è, cosa fare, come arrivare, il posto reale, punti di riferimento da trovare con foto e spunta, consigli, screenshot, domande frequenti, dintorni).",
+        "Guide: 8 articoli di gtasixmap.com (tutti i luoghi, regioni, luoghi reali, bonus delle edizioni, attività, casa di Jason e Lucia, veicoli) in News → Guide.",
+        "Garage: 134 veicoli con foto dal GTA Wiki (crop dai trailer e dagli screenshot ufficiali).",
+        "Trofei: bacheca in stile PSN; la lista ufficiale non è ancora uscita."
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "date": "2026-11-06",
+      "changes": [
+        "Collezionabili: 9 categorie (fauna, pesci, relitti, riviste, salti, murales, collezione di Wyman, negozi esclusivi, rifugi e garage) e schede della fauna complete.",
+        "Trofei: schema di 32 trofei ricostruito da GTA V e RDR2, in attesa della lista ufficiale.",
+        "Missioni: il prologo nelle Keys, l'uscita di Lucia e le quattro sequenze dell'Extended Look, più Hank's Waffles dal leak (spoiler).",
+        "News e guide su fauna, pesca, caccia, trofei."
+      ]
+    },
+    {
+      "version": "0.5.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Nuova sezione Novità: 80 notizie datate, dal Trailer 1 alla Launch Gallery di oggi, con etichetta ufficiale / stampa / rumor / leak / community.",
+        "Trasporti: autobus e treni funzionanti (Edge, 29 ottobre), Ryde Me, Scooter Bros, metro, Metro Mule; categoria «Spostarsi per Leonida» in Prima ora.",
+        "Sistemi di gioco da Edge, IGN, Famitsu, Game Informer, Bloomberg: polizia e calore, Profilo criminale, economia, furto d'auto, corpo, coppia, meteo, capitoli.",
+        "Garage: 220 veicoli e 60 armi/oggetti; Atlante: Vice Beach, Hamlet e Capri, 70 luoghi in più, quartieri e contee; 16 personaggi nuovi; radio con conduttori reali e brani ufficiali; 23 marchi e catene.",
+        "Uscita e tecnica: orari italiani, prezzi, preload, 30 fps, PC 2027 (rumor), embargo (rumor), sindacato, marketing a Miami."
+      ]
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Radio: scalette segnalate dalla community per le sei stazioni ufficiali; le canzoni dei trailer in Cultura.",
+        "Atlante: 27 punti di riferimento dalla mappa della community (torri, ponti, stadio, circuiti, acquario, insegna di Vice City…).",
+        "Gallerie di immagini nelle schede di personaggi, territori e garage."
+      ]
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Atlante: quartieri di Vice City (Ocean Beach, Little Cuba, Tisha-Wocka, VC Port e altri), Waning Sands, descrizioni ufficiali dei territori riportate dalla stampa, 30 luoghi con scheda.",
+        "Personaggi: 11 nuovi dai trailer e dall'Extended Look (Mendez, Andres De Leon, Petra Navarro, Valentina, Yago, Raymond, Ernesto, Stefanie Gates, Wyman, Camillo, Phil).",
+        "Garage: 39 veicoli e un arsenale di 33 armi ed equipaggiamenti; Dinka Enduro e Crest Kayak promossi a verificati (galleria ufficiale).",
+        "Collezionabili: categoria Fauna con 41 animali dalla lista della community.",
+        "Attività: 14 voci (airboat, caccia, pesca, corse, rapine, sport, base jumping, poligono, zoo, vita notturna…).",
+        "Prima ora e consigli: cambio protagonista, polizia a sei stelle, furto d'auto a livelli, fisico, NPC, rifugio.",
+        "Prima ora: scheda dell'Ultimate Edition di Mike con tutto ciò che include."
+      ]
+    },
+    {
+      "version": "0.2.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Nuova sezione Veicoli con i mezzi nominati nelle edizioni (Grotti Cheetah '95, Vapid Stanier '55, Vapid Dominator Buggy '67, Shitzu Squalo) e quelli segnalati dalla community.",
+        "Luoghi con scheda propria dentro l'Atlante: cantiere di Brian, casa di Jason, Penitenziario, officine e negozi dell'Ultimate Edition, più un distretto «Da collocare».",
+        "Schede dei personaggi riscritte con tutti i dettagli del sito ufficiale; aggiunti Lori e DWNPLY.",
+        "Radio con i motti ufficiali; Cultura con i due album, le armi e le edizioni; Prima ora con preload, prezzi, bollino e nomi da sapere.",
+        "Attività intraviste negli screenshot di lancio del 5 novembre, marcate «da verificare».",
+        "Preferiti (segnalibro) sulle schede."
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-11-05",
+      "changes": [
+        "Scheletro della guida con i soli fatti confermati dal sito ufficiale Rockstar (rockstargames.com/VI).",
+        "Sei territori di Leonida, personaggi presentati, sei stazioni radio, date di preload e uscita.",
+        "Dati ESEMPIO chiaramente marcati per vedere il design popolato."
+      ]
+    }
+  ]
+}
