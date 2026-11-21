@@ -921,22 +921,6 @@
           "updatedAt": "2026-11-07"
         },
         {
-          "id": "poi-gsm-rockrige-ammu-nation",
-          "name": "Rockridge Ammu Nation",
-          "kind": "Armeria",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
-          "xy": [
-            2997,
-            -206
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
-        },
-        {
           "id": "poi-conch-king",
           "name": "Conch King",
           "kind": "Fast food di pesce",
@@ -6294,22 +6278,6 @@
           "spoilerLevel": 0,
           "example": false,
           "updatedAt": "2026-11-18"
-        },
-        {
-          "id": "poi-gsm-port-gellhorn-car-wash",
-          "name": "Port Gellhorn Car Wash",
-          "kind": "Autolavaggio",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
-          "xy": [
-            152,
-            1951
-          ],
-          "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
-          "spoilerLevel": 0,
-          "example": false,
-          "updatedAt": "2026-11-07"
         },
         {
           "id": "poi-gsm-easy-hill",

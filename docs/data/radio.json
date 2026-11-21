@@ -1932,6 +1932,12 @@
           "title": "Steamy Windows",
           "status": "verificato",
           "source": "trailer"
+        },
+        {
+          "artist": "Kano",
+          "title": "Another Life",
+          "status": "verificato",
+          "source": "trailer"
         }
       ],
       "status": "verificato",
@@ -1939,7 +1945,7 @@
       "sourceUrl": "https://www.rockstargames.com/VI/credits",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "image": "assets/img/radio/rad-vice-city-fm.png",
       "imageUrl": "https://gta.wiki/images/ViceCityFM-GTAVI-Icon-RadioWheel.png?c7fe9",
       "moreSources": [
@@ -4464,6 +4470,18 @@
         {
           "artist": "Band di cover del Rusty Anchor",
           "title": "I Ran (So Far Away) (cover di A Flock of Seagulls)",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Real Dimez",
+          "title": "Cooties",
+          "status": "verificato",
+          "source": "trailer"
+        },
+        {
+          "artist": "Real Dimez, Sexyy Red",
+          "title": "Cooties (Remix)",
           "status": "verificato",
           "source": "trailer"
         }

@@ -2527,3 +2527,32 @@ html[data-posture="closed"] .vclass .vclass__note { font-size: .74rem; }
 .vgarage .keys { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--s-1)); padding: 2px var(--s-1); }
 .vgarage .keys::-webkit-scrollbar { display: none; }
 .vgarage .key { flex: 0 0 auto; white-space: nowrap; }
+
+/* Ricompense della missione nel Taccuino (21/11, chat Caccia) */
+.rewards { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.reward { display: flex; align-items: center; gap: 12px; padding: 6px 12px 6px 6px; border-radius: 14px; background: color-mix(in srgb, var(--tone) 7%, var(--bg-2)); }
+.reward[data-tone="magenta"] { --tone: var(--magenta); }
+.reward[data-tone="teal"] { --tone: var(--teal); }
+.reward[data-tone="orange"] { --tone: var(--orange); }
+.reward[data-tone="gold"] { --tone: #e2a93b; }
+.reward .dnp__badge { flex: none; }
+.reward__t { line-height: 1.35; font-size: .95rem; }
+.notebook__rewards { padding-top: var(--s-3); border-top: var(--hair) dashed var(--rule-strong); }
+
+/* Varianti uniche nella scheda dell'arma (21/11, chat Caccia) */
+.uvar-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.uvar { display: grid; gap: 3px; padding: 10px 12px; border-radius: 14px; background: var(--bg-2); border-left: 3px solid var(--accent); }
+.uvar__name { font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 1.05rem; }
+.uvar__how { color: var(--ink-2); font-size: var(--fs-sm); line-height: 1.4; }
+.uvar__stats { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 2px; font-size: var(--fs-xs); color: var(--ink-2); }
+.uvar__stat b { color: var(--ink); font-weight: 600; }
+.uvar__stat i { font-style: normal; margin-left: 2px; font-size: .7rem; }
+.uvar__stat.is-up i { color: var(--teal); }
+.uvar__stat.is-down i { color: #ff5a5a; }
+.uvars__sum { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; cursor: pointer; list-style: none; padding: 2px 0; }
+.uvars__sum::-webkit-details-marker { display: none; }
+.uvars__sum::after { content: "›"; color: var(--accent); font-size: 1.3rem; line-height: 1; transition: transform .2s; }
+.uvars[open] .uvars__sum::after { transform: rotate(90deg); }
+.uvars__sum .fsec__t { margin: 0; }
+.uvars__sum .small { margin-left: auto; }
+.uvars[open] .uvar-list { margin-top: var(--s-2); }

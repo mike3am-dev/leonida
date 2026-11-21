@@ -223,7 +223,23 @@ function notebook(m) {
     </div>
     ${people.length ? `<div class="notebook__part"><span class="kicker">Chi incontri</span><div class="notebook__people">${people.map((c) => `<a class="notebook__person" href="#/personaggi/${esc(c.id)}">${face(c, { small: true })}<span>${esc(c.name)}</span></a>`).join('')}</div></div>` : ''}
     ${extra.length ? `<div class="notebook__part"><span class="kicker">Per il 100%</span>${extra.map((o) => checkHtml(m.id, o.id, o.label, !!ex[o.id])).join('')}</div>` : ''}
+    ${rewardsHtml(m)}
   </section>`;
+}
+
+/** Ricompense della missione: una riga per premio, con l'icona del tipo (soldi, arma, veicolo, altro) come nei «Da non perdere» */
+const REWARD_KIND = [
+  [/\$|soldi|pagamento|conto/i, 'i-cash', 'teal'],
+  [/arma|fucile|pistola|granat|mitra|munizion|coltell/i, 'i-crosshair', 'orange'],
+  [/auto|veicol|garage|moto|barca|motoscafo|ganado|tulip/i, 'i-car', 'magenta'],
+  [/trofeo/i, 'i-trophy', 'gold'],
+];
+function rewardsHtml(m) {
+  const r = (m.rewards || []).map((t) => (typeof t === 'string' ? t : t?.label || t?.title || '')).filter(Boolean);
+  if (!r.length) return '';
+  const row = (t) => { const [, icon, tone] = REWARD_KIND.find(([re]) => re.test(t)) || [0, 'i-gift', 'magenta'];
+    return `<li class="reward" data-tone="${tone}"><span class="dnp__badge" aria-hidden="true"><svg><use href="#${icon}"/></svg></span><span class="reward__t">${esc(t)}</span></li>`; };
+  return `<div class="notebook__part notebook__rewards"><span class="kicker">Cosa ottieni</span><ul class="rewards">${r.map(row).join('')}</ul></div>`;
 }
 
 function detail(m) {
@@ -273,7 +289,6 @@ function detail(m) {
       <button class="btn btn--ghost" type="button" data-action="note" data-mission-ctx="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button>
     </div>
     <p class="small muted"><button type="button" class="linkbtn" data-mission="${esc(m.id)}" data-set="">Non la sto giocando</button></p>` : state === 'completata' ? `<div class="actions"><button class="btn btn--ghost" type="button" data-action="note" data-mission-ctx="${esc(m.id)}"><svg aria-hidden="true"><use href="#i-pen"/></svg>Appunto</button></div>` : ''}
-    ${m.rewards?.length ? `<div class="block"><span class="kicker">Ricompense</span><div class="prose">${list(m.rewards)}</div></div>` : ''}
     ${(() => { const a = db.acts.find((x) => x.id === m.actId); return a ? chapterMissables(a, st, progress.settings().spoilerShield, false, { title: a.number === 0 ? 'Da non perdere nel Prologo' : `Da non perdere nel capitolo ${a.number}`, skipMission: m.id }) : ''; })()}
     ${m.secrets?.length ? `<div class="block"><span class="kicker">Segreti</span><div class="prose">${state === 'completata' ? list(m.secrets) : spoiler.ink(list(m.secrets))}</div></div>` : ''}
     ${reqs.length || unlNames.length ? `<p class="small muted mission-links">${reqs.length ? `Dopo: ${reqs.map((p) => `<a href="#/missioni/${esc(p.id)}">${esc(spoiler.missionName(p, 'una missione precedente'))}</a>`).join(', ')}.` : ''} ${unlNames.length ? `Sblocca: ${unlNames.map(esc).join(', ')}.` : ''}</p>` : ''}

@@ -130,6 +130,22 @@ function compareSheet(start, { cat = '' } = {}) {
   showSheet({ title: 'Confronta le armi', body, cls: 'sheet--cmp' });
 }
 
+/** Varianti uniche dell'arma (IGN): nome, dove si trova, barre rispetto al modello base */
+function variantsHtml(it) {
+  const v = it.variants || [];
+  if (!v.length) return '';
+  const base = it.stats || {};
+  const stat = (x) => WEAPON_AXES.filter(([k]) => typeof x.stats?.[k] === 'number').map(([k, label]) => {
+    const d = typeof base[k] === 'number' ? x.stats[k] - base[k] : 0;
+    const cls = d > 0.05 ? 'is-up' : d < -0.05 ? 'is-down' : '';
+    return `<span class="uvar__stat ${cls}">${esc(label)} <b>${num(x.stats[k])}</b>${cls ? `<i>${d > 0 ? '▲' : '▼'}</i>` : ''}</span>`;
+  }).join('');
+  return `<details class="fsec uvars"><summary class="uvars__sum"><span class="fsec__t">Varianti uniche · ${v.length}</span><span class="small muted">${v.length === 1 ? esc(v[0].name) : 'Tocca per vederle'}</span></summary>
+    <ul class="uvar-list">${v.map((x) => `<li class="uvar"><b class="uvar__name">${esc(x.name)}</b>
+      <span class="uvar__how">${esc(x.howToGet || 'Dove si trova: le guide non lo dicono ancora.')}</span>
+      ${x.stats ? `<span class="uvar__stats">${stat(x)}</span>` : ''}</li>`).join('')}</ul>
+    <p class="source-line">Elenco di <a href="${esc(it.variantsSource || '')}" target="_blank" rel="noopener">IGN</a>; non si modificano e, una volta prese, le hanno sia Jason sia Lucia. ▲▼ rispetto all'arma base; nel gioco sono 130.</p></details>`;
+}
 function detail(it) {
   const own = progress.isOwned(it.id);
   return `
@@ -149,6 +165,7 @@ function detail(it) {
     ${it.seen?.length ? `<section class="fsec"><h3 class="fsec__t">Dove si è vista</h3><ul class="flist">${it.seen.map((v) => `<li><b>${esc(v.where)}</b><span>${esc(v.what)}</span></li>`).join('')}</ul></section>` : ''}
     ${galleryHtml(it)}
     ${it.howToGet && !/^Da verificare\.?$/.test(it.howToGet) ? `<div class="block"><span class="kicker">Come ottenerla</span><div class="prose">${spoiler.wrap(it, `<p>${esc(it.howToGet)}</p>`)}</div></div>` : ''}
+    ${variantsHtml(it)}
     <p class="source-line">Fonte: ${esc(it.source)}${it.sourceUrl ? ` · <a href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">fonte</a>` : ''}</p>`;
 }
 
