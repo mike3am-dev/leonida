@@ -1,10 +1,23 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "1.2.1",
-  "updatedAt": "2026-11-20",
+  "dataVersion": "1.2.2",
+  "updatedAt": "2026-11-21",
   "releaseDate": "2026-11-19",
   "mapImage": null,
   "changelog": [
+    {
+      "version": "1.2.2",
+      "date": "2026-11-21",
+      "changes": [
+        "Armi: nella scheda di ogni arma ci sono le sue varianti uniche (124 su 49 armi), con come si prendono e le barre ▲▼ rispetto all'arma base.",
+        "Missioni: nel Taccuino c'è «Cosa ottieni», con le ricompense della missione. «Cosa devi fare» e «Per il 100%» si spuntano toccando tutta la riga.",
+        "Missioni: soluzioni nuove del capitolo 4 e ricompense dei capitoli 1-2. Nuovi avvisi su cosa si può perdere per sempre (anche il salvataggio prima del finale).",
+        "Percentuale di GTA VI: ora è pesata (storia 50%, trofei 20%, attività 15%, collezionabili 15%) ed è uguale in Home e nella banda.",
+        "La banda: si tocca la foto negli Scatti per aprirla grande; chi ha finito la storia ha il bollino giallo «Storia finita».",
+        "Dati: radio corretta sui titoli di coda e 3 brani nuovi, riviste (26 su 27), 13 Veicoli di spicco con i nomi del gioco, polizia e impostazioni in Come si gioca, 34 trofei legati alle missioni, vendite ufficiali. Tolti due punti della mappa che non esistono.",
+        "News: i titoli lunghi vanno a capo invece di uscire dalla scheda."
+      ]
+    },
     {
       "version": "1.2.1",
       "date": "2026-11-20",

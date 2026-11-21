@@ -2559,3 +2559,6 @@ html[data-posture="closed"] .vclass .vclass__note { font-size: .74rem; }
 
 /* La banda: chi ha finito la storia (chat Bug, 21/11) */
 .chip--fine { flex: none; background: #f4c542; color: #1d1726; border-color: #f4c542; font-size: 11px; font-weight: 700; padding: 1px 8px; vertical-align: 2px; }
+
+/* Pubblicazione 21/11: parole lunghe nei titoli delle notizie («dell'intrattenimento») vanno a capo col trattino invece di uscire dalla card */
+.cardx__title, .hero__text h1 { overflow-wrap: break-word; -webkit-hyphens: auto; hyphens: auto; }
