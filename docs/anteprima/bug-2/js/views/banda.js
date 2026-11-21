@@ -37,6 +37,8 @@ export function summary(st) {
   };
 }
 
+/** Ha finito la storia: tutte le missioni principali fatte (si vede subito nella lista, Mike 21/11) */
+const fin = (x) => x.mainTot > 0 && x.mainDone >= x.mainTot;
 const when = (iso) => { try { const d = new Date(iso); const today = new Date().toDateString() === d.toDateString(); return today ? `oggi ${d.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}` : d.toLocaleDateString('it-IT', { day: 'numeric', month: 'short' }); } catch { return ''; } };
 /** Il profilo criminale dichiarato: il mio dai progressi di questo telefono, quello degli altri dalla banda */
 const crimeOf = (r) => (r.sei_tu ? progress.get().crime : r.progressi?.crime) || '';
@@ -62,7 +64,7 @@ export function render() {
   const rows = (cache?.rows || []).slice().sort((x, y) => y.s.pct - x.s.pct || y.s.tro - x.s.tro);
   const list = rows.map((r, i) => `<button type="button" class="brow ${r.sei_tu ? 'is-me' : ''}" data-banda="${i}">
       <span class="brow__pos">${i + 1}</span>
-      <span class="brow__who"><span class="brow__name"><b>${esc(r.nick)}</b>${r.sei_tu ? '<span class="chip chip--tu">tu</span>' : ''}${criminale.tag(crimeOf(r))}</span><span class="small muted">${r.s.cap ? `Capitolo ${r.s.cap}` : 'Non ha ancora iniziato'} · 🏆 ${r.s.tro}/${r.s.troTot} · aggiornato ${esc(when(r.aggiornato))}</span>${bar(r.s.pct, 100)}</span>
+      <span class="brow__who"><span class="brow__name"><b>${esc(r.nick)}</b>${r.sei_tu ? '<span class="chip chip--tu">tu</span>' : ''}${criminale.tag(crimeOf(r))}${fin(r.s) ? '<span class="chip chip--fine">🏁 Storia finita</span>' : ''}</span><span class="small muted">${fin(r.s) ? '' : r.s.cap ? `Capitolo ${r.s.cap} · ` : 'Non ha ancora iniziato · '}🏆 ${r.s.tro}/${r.s.troTot} · aggiornato ${esc(when(r.aggiornato))}</span>${bar(r.s.pct, 100)}</span>
       <span class="brow__pct">${pctLabel(r.s.pct)}%</span></button>`).join('');
   const left = `${head}
     <p class="lede">Chi è più avanti? Tocca un amico per confrontarti con lui e scoprire cosa ha trovato che a te manca.</p>
