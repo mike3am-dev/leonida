@@ -851,7 +851,7 @@
       "id": "tip-salva-capitoli",
       "category": "prima-ora",
       "title": "Niente replay: salva a ogni capitolo",
-      "body": "Non si rigiocano né le missioni né i capitoli, e non ci sono medaglie. Hai 15 salvataggi manuali più uno automatico: tienine uno all'inizio e uno alla fine di ogni capitolo (5 capitoli, 10 slot) e alterna gli altri dopo ogni missione. Attento: caricare un salvataggio vecchio sovrascrive anche quello automatico. Si salva da pausa › Gioco, fuori dalle missioni.",
+      "body": "Non si rigiocano né le missioni né i capitoli, e non ci sono medaglie. Hai 15 salvataggi manuali più uno automatico: tienine uno all'inizio e uno alla fine di ogni capitolo (5 capitoli, 10 slot) e alterna gli altri dopo ogni missione. Quando arrivi all'ultima missione della storia, salva prima in uno slot a parte: così puoi rivedere il finale. Attento: caricare un salvataggio vecchio sovrascrive anche quello automatico. Si salva da pausa › Gioco, fuori dalle missioni.",
       "priority": 2,
       "status": "verificato",
       "source": "stampa",
@@ -863,7 +863,24 @@
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-21"
+    },
+    {
+      "id": "tip-clessidra",
+      "category": "prima-ora",
+      "title": "Clessidra sulla mappa: falla subito",
+      "body": "Alcune missioni facoltative hanno l'icona della clessidra: scadono dopo un po' e poi spariscono. Falle appena compaiono. Non servono né per i trofei né per il 100%, ma se le perdi non tornano.",
+      "priority": 2,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-21"
     },
     {
       "id": "tip-soldi-capitoli",
