@@ -1071,18 +1071,23 @@
       "type": "attività",
       "name": "Biliardo",
       "districtId": null,
-      "description": "Diciassette tavoli, sette con un avversario fisso: Skeeter's (Hamlet), Zotico's (Balsero), The Thirsty Wolf (Belville), Jacob's Tavern (Millport), Delights (Port Gellhorn), Kowaachobee Cafe & Bar (Buckskin Swamp). Il settimo non è ancora stato trovato.",
+      "description": "Diciassette tavoli, segnati sulla mappa da una palla 8 viola (cliccando sull'icona di un locale vedi se ha un tavolo). Sette hanno un avversario fisso: Skeeter's (Hamlet), Zotico's (Balsero), The Thirsty Wolf (Belville), Jacob's Tavern (Millport), Delights (Port Gellhorn), Kowaachobee Cafe & Bar (Buckskin Swamp) e The Rusty Anchor di Key Lento, nell'angolo vicino all'ingresso. Gli altri dieci sono per giocare da solo, gratis: Isla Tropical (fuori dal club privato, sotto la tettoia vicino al pontile), Tiki Touchdown (in fondo al portico), Riquezas Keys (sotto una casa bianca di Southwind, all'angolo tra Cangrejo St e Queen Palm Ave), The White Clam (sul patio dietro il ristorante), Dalton Island (Carnegie Ivory Towers, balcone del primo piano), mercatino Tisha-Wocka (accanto al bancomat), Grand Majestic Aparthotel (nella hall, di fronte alla palestra), Sands of Time (casa di riposo, primo piano), Sumerian Hotel (sul tetto, in cima a una scala) e Pegassi Residences (nell'attico, piano più basso).",
       "requirements": [
         "Per il 100% batti 5 avversari su 7.",
-        "Delights chiude per un periodo: se non batti l'avversario entro il capitolo 2, ci torni quando riapre."
+        "Delights chiude per un periodo: se non batti l'avversario entro il capitolo 2, ci torni quando riapre.",
+        "Per IGN il 100% chiede di liberare tutti i tavoli, non solo di battere gli avversari: le due guide non concordano, controlla in Progressi › Attività › Sport › Biliardo."
       ],
       "rewards": [
         "Il biliardo alza la concentrazione.",
-        "Sfide sportive: vinci in 3 posti in un giorno, tre sponde prima della buca, 8 in buca al tiro d'apertura."
+        "Sfide sportive: vinci in 3 posti in un giorno, tre sponde prima della buca, 8 in buca al tiro d'apertura.",
+        "Ogni vittoria contro un avversario paga in contanti (la cifra cambia da posto a posto) e dà punti di concentrazione.",
+        "Battuti tutti e sette gli avversari, sblocchi un tatuaggio speciale da comprare in qualsiasi studio di tatuaggi."
       ],
       "steps": [
         "Contano solo i sette avversari fissi: gli altri dieci tavoli sono senza avversario.",
-        "I progressi sono in Progressi › Attività › Sport › Biliardo."
+        "I progressi sono in Progressi › Attività › Sport › Biliardo.",
+        "Contro un avversario paghi per giocare e, se vinci, incassi il doppio. Ti toccano piene o spezzate: perdi il turno se mandi in buca la bianca o una palla dell'altro, o se colpisci per prima una sua palla; se mandi in buca la nera prima del tempo perdi la partita.",
+        "Al tavolo da solo il tavolo è «liberato» quando mandi in buca la nera: arriva un avviso."
       ],
       "image": null,
       "status": "da verificare",
@@ -1090,12 +1095,13 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "group": "Sport e fitness",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
         "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
-        "https://www.powerpyx.com/gta-6-all-challenges-guide/"
+        "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+        "https://www.ign.com/wikis/gta-6/Pool_Locations_and_Opponents"
       ]
     },
     {

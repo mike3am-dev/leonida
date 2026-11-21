@@ -189,6 +189,10 @@
         {
           "source": "stampa",
           "text": "Niente storie con altri personaggi (lo confermano GamesRadar ed Eurogamer) e niente prostitute: negli strip club puoi lanciare soldi alle ballerine o pagare un ballo privato VIP, sia con Jason sia con Lucia."
+        },
+        {
+          "source": "stampa",
+          "text": "Mentre giochi con uno dei due puoi comprare vestiti all'altro o pagargli il parrucchiere: conta per la relazione, ma solo se il partner è lì con te (IGN)."
         }
       ],
       "relatedIds": [
@@ -205,7 +209,7 @@
       "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-switch-characters-command/",
         "https://www.videogameschronicle.com/guide/gta-6-jason-lucia-relationship-levels-explained-how-to-improve-jason-and-lucias-relationship/",
@@ -1019,7 +1023,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-rapine",
       "title": "Rapine",
       "emoji": "💰",
@@ -1125,6 +1129,14 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Il gioco distingue le rapine dalle «rapine senza intoppi», fatte senza farti scoprire, e conta le maschere equipaggiate e i filmati della videosorveglianza distrutti."
+        },
+        {
+          "source": "stampa",
+          "text": "Nei covi delle bande le casseforti sono di due tipi: quelle piccole non hanno codice, si aprono col cacciavite (Triangolo, poi cerca il punto giusto con la levetta destra); quelle grandi vogliono il codice o una bomba adesiva, che arriva nel capitolo 3. A volte il codice di un covo sta in un altro: a Brooks Boatworks una mappa appesa dà i codici di tre covi della Kolt & Associates (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Quando entri in un covo qualcuno può scappare con il carico, su una barca o un furgone: se lo fermi, il carico è tuo. Il veicolo di spicco di un covo conta come trovato solo quando ci sali. Nei covi ci sono quasi sempre cassette di pronto soccorso con Zombix e adrenalina (IGN)."
         }
       ],
       "relatedIds": [
@@ -1950,7 +1962,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "id": "mec-spostarsi",
       "title": "Spostarsi",
       "emoji": "🚌",
@@ -2035,6 +2047,10 @@
         {
           "source": "stampa",
           "text": "In taxi e su RydeMe, durante la corsa, L2 sull'autista e poi X per chiedere di andare più veloce: 5 $ a volta, al massimo due volte. Tenendo premuto Triangolo paghi 100 $ e salti il viaggio. Nel capitolo 1, se resti a piedi senza soldi, Joey di Coastal Auto Care ti porta gratis un tuo veicolo (Eurogamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per uscire dalle Keys e rientrarci passi un ponte a pedaggio: 5 $, ma li paghi solo se guidi un veicolo tuo (IGN)."
         }
       ],
       "relatedIds": [

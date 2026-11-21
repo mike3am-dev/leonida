@@ -198,7 +198,9 @@
           "ref": "mis-unwanted-attention"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Da 100 a 220 $, secondo come va la missione."
+      ],
       "extraObjectives": [
         {
           "id": "obj-gf-soldi",
@@ -218,7 +220,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-gone-fishing-walkthrough/",
       "contact": "chr-cal",
       "objectives": [
@@ -275,7 +277,9 @@
           "label": "Ammu-Nation di Key Lento"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "L'arma lunga che compri all'Ammu-Nation."
+      ],
       "extraObjectives": [],
       "tips": [
         "In questa missione il fucile a pompa Moreland 850 costa la metà: 350 $ invece di 700.",
@@ -288,7 +292,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-gear-up-pick-up-another-gun-walkthrough/",
       "subtitle": "Pick Up Another Gun",
       "contact": "Andrew (Ammu-Nation di Key Lento)",
@@ -329,7 +333,9 @@
           "label": "Coastal Auto Care (officina e Pay 'n' Spray)"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Ganado '70 riparato e riverniciato gratis."
+      ],
       "extraObjectives": [],
       "tips": [
         "Riparazione e verniciatura sono gratis: approfittane.",
@@ -344,7 +350,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
       "subtitle": "Fix Your Car",
       "contact": "chr-joey",
@@ -362,7 +368,8 @@
         "https://gta.wiki/wiki/Just_a_Scratch",
         "https://www.gtaboom.com/gta-6-just-a-scratch-mission-walkthrough-da82",
         "https://www.eurogamer.net/gta-6-fix-your-car-walkthrough",
-        "https://www.youtube.com/watch?v=-cqOagZ7N8Y"
+        "https://www.youtube.com/watch?v=-cqOagZ7N8Y",
+        "https://www.ign.com/wikis/gta-6/Just_a_Scratch_Walkthrough"
       ],
       "titleEn": "Just a Scratch",
       "titleNote": "Titolo italiano da un solo giocatore italiano (IosonoOtakuman, nei capitoli del video). GTABase.it non conta: traduce i titoli in automatico e il gioco l'ha già smentito almeno una volta. Da confermare a schermo."
@@ -383,7 +390,9 @@
           "label": "Magazzino di Brian (vendita merce rubata)"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "39 $ (la cassetta nel laboratorio), più il pagamento di Brian, che arriva dopo."
+      ],
       "extraObjectives": [],
       "tips": [
         "Il codice della porta del laboratorio è 0420 (scritto su un blocco note nella stanza); quello del magazzino di Brian è 7700.",
@@ -398,7 +407,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
       "subtitle": "Collect Brian's Rent",
       "contact": "chr-brian",
@@ -418,7 +427,8 @@
         "https://www.gtaboom.com/gta-6-lab-fees-mission-walkthrough-a2c7",
         "https://www.youtube.com/watch?v=-cqOagZ7N8Y",
         "https://www.youtube.com/watch?v=xiDIMRyNVCs",
-        "https://www.youtube.com/watch?v=GoxYZcYgCpI"
+        "https://www.youtube.com/watch?v=GoxYZcYgCpI",
+        "https://www.ign.com/wikis/gta-6/Lab_Fees_Walkthrough"
       ],
       "titleEn": "Lab Fees",
       "trophyTips": [
@@ -445,7 +455,10 @@
           "label": "Scanner della polizia sul telefono"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "App Cop Scanner sul telefono.",
+        "350 $ in tutto, 150 dei quali durante la missione."
+      ],
       "extraObjectives": [
         {
           "id": "obj-ua-outfit",
@@ -465,7 +478,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/",
       "subtitle": "Go See Cal",
       "contact": "chr-cal",
@@ -511,7 +524,10 @@
       "summary": "Jason va a riscuotere l'affitto da Mandy, un'inquilina di Brian che non paga finché qualcuno non le aggiusta il lavandino. La visita prende una piega imbarazzante.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Il pagamento di Brian, che arriva dopo.",
+        "Tre sigari Macizo, se raccogli la scatola (si possono perdere)."
+      ],
       "extraObjectives": [
         {
           "id": "obj-pw-sigaro",
@@ -520,7 +536,8 @@
       ],
       "tips": [
         "Uscendo raccogli la scatola di sigari che Mandy butta in strada.",
-        "[spoiler] Mandy non si può corteggiare: comunque rispondi, finisce lì."
+        "[spoiler] Mandy non si può corteggiare: comunque rispondi, finisce lì.",
+        "I sigari Macizo, fumati, alzano la concentrazione ma tolgono un po' di salute."
       ],
       "secrets": [],
       "image": null,
@@ -528,7 +545,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-pipework-collect-mandys-rent-walkthrough/",
       "subtitle": "Collect Mandy's Rent",
       "contact": "chr-mandy",
@@ -549,7 +566,8 @@
         "https://www.youtube.com/watch?v=-cqOagZ7N8Y",
         "https://www.youtube.com/watch?v=mhc3ch5jPZg",
         "https://www.youtube.com/watch?v=Kq7AtOD8EdU",
-        "https://www.youtube.com/watch?v=QEnpkcUa3A8"
+        "https://www.youtube.com/watch?v=QEnpkcUa3A8",
+        "https://www.ign.com/wikis/gta-6/Pipework_Walkthrough"
       ],
       "titleEn": "Pipework"
     },
@@ -569,7 +587,9 @@
           "ref": "mis-steal-the-scooter"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Punti per il profilo criminale (verso il professionista) e un bonus alla concentrazione."
+      ],
       "extraObjectives": [],
       "tips": [
         "Prendi prima il rum (Salty Squid). Poi, se vuoi, chiedi al commesso dei versi di uccelli nel retro: ti segna un'attività illegale, ma lì scatta una sparatoria e il negozio resta chiuso per un po'.",
@@ -582,7 +602,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-get-shirleys-rum-walkthrough/",
       "optional": true,
       "missable": true,
@@ -653,7 +673,9 @@
       "summary": "Dopo il guaio con i Kingfishers, il vecchio intermediario di Brian, Arnold, non risponde più. Jason e Cal lo vanno a cercare nelle Keys, e la cosa finisce in un inseguimento.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "1.200 $, compreso il pagamento dei lavori precedenti."
+      ],
       "extraObjectives": [],
       "tips": [
         "Durante l'inseguimento puoi sparare dall'auto: usa il rallentatore per mirare.",
@@ -666,7 +688,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
       "subtitle": "Meet Brian",
       "contact": "chr-brian",
@@ -715,7 +737,10 @@
       "summary": "Kenton, cacciatore di tesori con un negozio sulla spiaggia, cerca un relitto e usa come copertura un'immersione per un addio al celibato. Sott'acqua qualcosa va storto.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "400 $.",
+        "Si sbloccano le cacce al tesoro sott'acqua."
+      ],
       "extraObjectives": [
         {
           "id": "obj-id-dobbs",
@@ -735,7 +760,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
       "subtitle": "Work for Kenton",
       "contact": "chr-kenton-rees",
@@ -756,7 +781,8 @@
         "https://www.gtaboom.com/gta-6-island-dreams-walkthrough-2362",
         "https://www.eurogamer.net/gta-6-island-dreams-walkthrough",
         "https://www.youtube.com/watch?v=IeNdZoCPEhE",
-        "https://www.youtube.com/watch?v=NQRSDzFZ-_4"
+        "https://www.youtube.com/watch?v=NQRSDzFZ-_4",
+        "https://www.ign.com/wikis/gta-6/Island_Dreams_Walkthrough"
       ],
       "titleEn": "Island Dreams",
       "titleNote": "Nella versione italiana il titolo resta in inglese: «Island Dreams» nei video di due giocatori italiani (PANZA MARANZA GAMING, che il 19/11 ha corretto il suo titolo da «Sogni d'isola», e Jugin Gamer). «Sogni d'isola» era la traduzione automatica di GTABase.it.",
@@ -804,7 +830,9 @@
           "ref": "mis-coming-home"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Si sblocca la console JoySystem di casa."
+      ],
       "extraObjectives": [],
       "tips": [
         "Tenebrae Lux non va finito: se vuoi risolvi i primi rompicapi (le pedine con le punte e quelle triple eliminano quelle piatte), altrimenti esci dal menu del minigioco.",
@@ -817,7 +845,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-feng-shui-meet-cal-walkthrough/",
       "subtitle": "Meet Cal",
       "contact": "chr-cal",
@@ -1079,7 +1107,10 @@
           "ref": "mis-clean-up-after-donnie"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Il rapporto con Lucia può salire.",
+        "Se prima hai ordinato la collana dal gioielliere, la dai a Lucia ora (si può perdere)."
+      ],
       "extraObjectives": [
         {
           "id": "obj-ch-regali",
@@ -1103,7 +1134,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/",
       "subtitle": "Lucia's Release",
       "contact": "chr-lucia",
@@ -1167,7 +1198,9 @@
           "ref": "mis-save-for-the-future"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "App BuckMe."
+      ],
       "extraObjectives": [],
       "tips": [
         "In ufficio, quando il direttore chiede se avete soldi da versare, fai dire a Jason che ha dei contanti da parte: il rapporto con Lucia sale. Tacere lo fa scendere, il conto si apre lo stesso.",
@@ -1180,7 +1213,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
       "subtitle": "Set Up Bank Account",
       "contact": "chr-lucia",
@@ -1291,7 +1324,10 @@
       "summary": "Uno dei pacchi dello scambio andato male manda ancora segnale vicino a un punto di pesca di Hamlet. Jason va a recuperarlo prima che lo trovino altri.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "6 granate a frammentazione.",
+        "Donnie diventa un ricettatore: le consegne si fanno alla sua roulotte."
+      ],
       "extraObjectives": [],
       "tips": [
         "Il pescatore sul molo ti indica dov'è il pacco.",
@@ -1307,7 +1343,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-clean-up-after-donnie-donnies-drop-walkthrough/",
       "subtitle": "Donnie's Drop",
       "contact": "chr-donnie",
@@ -1358,7 +1394,10 @@
           "ref": "mis-day-release"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "500 $, più 800 $ se vendi a Donnie la cocaina rimasta.",
+        "Si sblocca la concentrazione in combattimento."
+      ],
       "extraObjectives": [],
       "tips": [
         "Spara a braccia e gambe se vuoi un profilo da professionista.",
@@ -1373,7 +1412,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/",
       "contact": "chr-brian",
       "objectives": [
@@ -1422,7 +1461,9 @@
       "summary": "Altri pacchi persi sono sparsi in quattro zone delle paludi. Si recuperano e si rivendono a un ricettatore.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "2.720 $ se vendi la cocaina a Brian, 3.400 $ se la vendi a Donnie."
+      ],
       "extraObjectives": [],
       "tips": [
         "I pacchi fanno un bip e hanno una luce gialla lampeggiante.",
@@ -1439,7 +1480,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-find-the-lost-drugs-walkthrough/",
       "optional": true,
       "contact": "chr-cal",
@@ -1480,7 +1521,9 @@
           "ref": "mis-building-a-life"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "1.400 $: 600 $ da Brian su BuckMe e 800 $ da Donnie nella cassetta della posta."
+      ],
       "extraObjectives": [],
       "tips": [
         "Sulla strada per Southwind (fine di Abismo Key e poi sul ponte) i Kingfishers ti tendono un agguato: vai con un'auto rubata, non col Ganado, se non vuoi pagarne la riparazione.",
@@ -1496,7 +1539,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-clear-skies-join-donnie-on-a-job-walkthrough/",
       "subtitle": "Join Donnie On A Job",
       "contact": "chr-brian",
@@ -1533,7 +1576,9 @@
       "summary": "Jason e Lucia sistemano casa insieme. Un momento tranquillo, mobile da montare compreso.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Un tavolino nuovo per la casa di Jason."
+      ],
       "extraObjectives": [],
       "tips": [
         "Parte subito dopo la missione precedente: niente da preparare.",
@@ -1546,7 +1591,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-building-a-life-walkthrough/",
       "kind": "compito",
       "contact": "chr-lucia",
@@ -1579,7 +1624,9 @@
           "ref": "mis-clock-out"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Occhiali da sole per Lucia, se parli con la coppia sul ponte di mezzo dello yacht (si possono perdere)."
+      ],
       "extraObjectives": [],
       "tips": [
         "Per le bottiglie usa il rallentatore di mira.",
@@ -1589,7 +1636,8 @@
         "Il vestito che scegli in camera resta per sempre a Lucia: è il primo abito elegante, gratis.",
         "Sul ponte inferiore puoi fotografare dei documenti per Cal e scattare una foto di coppia a prua (rapporto in su).",
         "Al club fai le figure di ballo con L2 quando compaiono.",
-        "Nelle corse in auto dietro a Mattia si fallisce solo se distruggi l'auto."
+        "Nelle corse in auto dietro a Mattia si fallisce solo se distruggi l'auto.",
+        "Da non perdere: mentre cerchi Mattia, sul ponte di mezzo dello yacht vai sul lato est e parla con la coppia vicino alla ringhiera che scende: regalano a Lucia un paio di occhiali da sole costosi. Dopo non si recuperano."
       ],
       "secrets": [],
       "image": null,
@@ -1597,7 +1645,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
       "subtitle": "Meet Mattia & Kat",
       "contact": "chr-mattia",
@@ -1688,7 +1736,9 @@
       "summary": "Brian vuole chiudere i conti con i Kingfishers e porta Jason al loro campo. È una trappola.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "1.000 $."
+      ],
       "extraObjectives": [
         {
           "id": "obj-sw-lucia",
@@ -1708,7 +1758,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-swamped-walkthrough/",
       "contact": "chr-brian",
       "objectives": [
@@ -1747,7 +1797,11 @@
       "summary": "Brian vuole che sembri che Donnie abbia fatto le valigie e lasciato le Keys. Jason ripulisce la sua roulotte.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "200 $.",
+        "Occhiali da aviatore di Donnie (si possono perdere).",
+        "Revolver H&L .38 di Donnie, variante unica, nel bagagliaio della sua auto (si può perdere)."
+      ],
       "extraObjectives": [
         {
           "id": "obj-dg-pistola",
@@ -1757,7 +1811,8 @@
       "tips": [
         "Nel bagagliaio c'è una pistola unica: prendila prima di distruggere l'auto.",
         "Puoi bruciare l'auto con la tanica o mandarla in mare.",
-        "Abbassare la bandiera davanti alla roulotte vale punti da professionista (IGN)."
+        "Abbassare la bandiera davanti alla roulotte vale punti da professionista (IGN).",
+        "Da non perdere: nel bagno della roulotte, sulla mensola, ci sono gli occhiali da aviatore di Donnie. Poi passa dal guardaroba di casa per tenerli, o rischi di perderli; se li hai addosso e nella rissa ti cadono, raccoglili."
       ],
       "secrets": [],
       "image": null,
@@ -1765,7 +1820,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/",
       "subtitle": "Head to Donnie's Trailer",
       "contact": "chr-brian",
@@ -1850,7 +1905,9 @@
       "summary": "Cal sta passando un brutto momento e Jason e Lucia lo vanno a tirare su. Birra, pesca e grigliata.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Tutorial della pesca."
+      ],
       "extraObjectives": [],
       "tips": [
         "Per pescare spingi la levetta nel verso opposto a quello del pesce.",
@@ -1862,7 +1919,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-recalibration-talk-to-lucia-walkthrough/",
       "subtitle": "Talk to Lucia",
       "contact": "chr-lucia",
@@ -1982,12 +2039,15 @@
       "summary": "Lucia torna a casa per prendere le cose di Jason prima di sparire. La casa non è vuota.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "[spoiler] Giacca di Andy per Lucia, solo se chiami Andy e arrivi alla sua auto senza farti vedere (si può perdere)."
+      ],
       "extraObjectives": [],
       "tips": [
         "[spoiler] Non c'è tempo per i soldi: esci subito dalla porta.",
         "[spoiler] Muoviti accovacciata al buio e resta lontana dalla polizia.",
-        "[spoiler] Per uscire dalla zona hai più strade: chiamare Andy e raggiungere di nascosto la sua auto, una barca, o l'idrovolante alla marina di Brian."
+        "[spoiler] Per uscire dalla zona hai più strade: chiamare Andy e raggiungere di nascosto la sua auto, una barca, o l'idrovolante alla marina di Brian.",
+        "[spoiler] Da non perdere: se chiami Andy e raggiungi la sua auto senza farti vedere, la missione finisce in un altro modo e Lucia riceve la giacca di Andy, che più avanti non si può avere."
       ],
       "secrets": [],
       "image": null,
@@ -1995,7 +2055,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-home-sweet-home-walkthrough/",
       "contact": "chr-lucia",
       "objectives": [
@@ -2199,7 +2259,8 @@
       "rewards": [],
       "extraObjectives": [],
       "tips": [
-        "[spoiler] Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza."
+        "[spoiler] Se nel capitolo 1 hai comprato la collana, Lucia la lascia in pegno da sola: la riavrai quando paghi la stanza.",
+        "Vai subito da Linda alla reception, prima della spesa: se aspetti, all'affitto aggiunge il 20% invece del 10%, e il conto passa da 900 a 1.080 $. Quanto devi lo vedi passando sulla missione in Mappa › Storia."
       ],
       "secrets": [],
       "image": null,
@@ -2207,7 +2268,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/",
       "kind": "compito",
       "contact": "chr-linda",
@@ -2247,7 +2308,9 @@
         "[spoiler] Durante l'inseguimento basta restarle vicino: si ferma da sola contro un albero.",
         "Prima di bruciarla sali dietro e prendi i medicinali rimasti.",
         "Se hai una pistola, puoi anche lanciare la tanica nel retro dell'ambulanza e spararle.",
-        "Prima di bruciarla puoi sparare alle gomme durante l'inseguimento: rallenta e la raggiungi prima."
+        "Prima di bruciarla puoi sparare alle gomme durante l'inseguimento: rallenta e la raggiungi prima.",
+        "Se i ladri dell'ambulanza scappano o non la distruggi, il rapporto tra Jason e Lucia scende e Linda può alzare l'affitto del motel.",
+        "Per farla saltare basta sparare, da qualche passo, a una delle bombole d'ossigeno nel retro; poi allontanati in fretta."
       ],
       "secrets": [],
       "image": null,
@@ -2255,7 +2318,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-ambulance-chaser-move-the-ambulance-walkthrough/",
       "contact": "chr-lucia",
       "objectives": [
@@ -2291,7 +2354,9 @@
       "summary": "Lucia fa la spesa per la stanza al motel: cibo, medicazioni e qualcosa per cambiare aspetto.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Il rapporto tra Jason e Lucia sale."
+      ],
       "extraObjectives": [],
       "tips": [
         "Gli articoli si pagano appena li prendi: non serve passare alla cassa.",
@@ -2303,7 +2368,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-just-moved-in-walkthrough/",
       "contact": "chr-lucia",
       "objectives": [
@@ -2458,13 +2523,20 @@
           "ref": "mis-daily-driver"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Registrazione e riverniciatura gratis della prima auto.",
+        "WAiNK potenziato: scansiona le auto e ti dice quanto valgono.",
+        "Slim Jim.",
+        "Moses diventa il ricettatore delle auto.",
+        "App Scooter Bros."
+      ],
       "extraObjectives": [],
       "tips": [
         "Porta subito un'auto senza localizzatore: la registri a fine missione e risparmi un viaggio.",
         "Le auto rubate sulla strada principale di Port Gellhorn vanno bene; troppo vicino all'officina no.",
         "Scegli bene: è l'auto personale di Lucia. Per averne un'altra devi venderla o comprare un garage.",
-        "Scooter Bros ti porta l'auto per 100 $ a consegna; con un pagamento unico di circa 12.000 $ hai tre consegne gratis al giorno."
+        "Scooter Bros ti porta l'auto per 100 $ a consegna; con un pagamento unico di circa 12.000 $ hai tre consegne gratis al giorno.",
+        "Qui la registrazione è gratis: porta un'auto che costa almeno 5.000 $ da registrare (per esempio una Maibatsu Penumbra FF, 6.750 $), così il regalo vale di più."
       ],
       "secrets": [],
       "image": null,
@@ -2472,7 +2544,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
       "contact": "chr-moses",
       "objectives": [
@@ -2701,12 +2773,15 @@
       "summary": "Il conto della stanza va saldato: Linda vuole 900 $ (1.080 se è dovuta venire lei a cercarti in stanza). Finché non paghi tiene quello che le hai lasciato in garanzia.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Riavrai quello che hai lasciato in pegno."
+      ],
       "extraObjectives": [],
       "tips": [
         "Falla dopo l'officina di Moses: vendere auto rubate è il modo più veloce per fare 900 $.",
         "Pagando riprendi anche quello che hai lasciato in pegno.",
-        "Pagala prima di andare con Dunk dal medico: dopo, Linda alza l'affitto, e di più se non hai fatto sparire l'ambulanza (IGN). Linda vuole contanti: c'è un bancomat nella reception."
+        "Pagala prima di andare con Dunk dal medico: dopo, Linda alza l'affitto, e di più se non hai fatto sparire l'ambulanza (IGN). Linda vuole contanti: c'è un bancomat nella reception.",
+        "L'affitto è di 900 $ se sei andato da Linda prima della spesa, di 1.080 $ se ci sei andato dopo; durante il capitolo può salire ancora."
       ],
       "secrets": [],
       "image": null,
@@ -2714,7 +2789,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/",
       "kind": "compito",
       "contact": "chr-linda",
@@ -2754,7 +2829,11 @@
           "ref": "mis-steal-vehicles-for-moses"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Soldi: fino a 1.375 $, meno se la Crawler arriva ammaccata.",
+        "Il garage della stazione di Port Gellhorn.",
+        "App Vice City Real Estate."
+      ],
       "extraObjectives": [
         {
           "id": "obj-dd-integra",
@@ -2771,7 +2850,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
       "contact": "chr-moses",
       "objectives": [
@@ -2815,7 +2894,10 @@
           "ref": "mis-leak-hanks"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "1.700 $ da Dunk.",
+        "Dunk diventa un ricettatore."
+      ],
       "extraObjectives": [
         {
           "id": "obj-sd-bill",
@@ -2832,7 +2914,7 @@
       "source": "stampa",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
       "contact": "chr-dunk",
       "objectives": [
@@ -2928,7 +3010,11 @@
           "ref": "mis-coffee-break"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Soldi, quanti dipende da come vanno le rapine.",
+        "Si sblocca il cambio di personaggio.",
+        "L'auto di Jason, una Declasse Tulip."
+      ],
       "extraObjectives": [],
       "tips": [
         "Per ogni colpo hai un minuto: è più che sufficiente.",
@@ -3005,7 +3091,9 @@
           "ref": "mis-prepare-for-vice-city"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Conto BuckMe Silver."
+      ],
       "extraObjectives": [],
       "tips": [
         "Da qui puoi passare quando vuoi da Jason a Lucia e dare ordini al partner.",
@@ -3078,7 +3166,9 @@
           "ref": "mis-twist-wrist-smash-grab"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        "Fino a 2.500 $, secondo il piazzamento."
+      ],
       "extraObjectives": [],
       "tips": [
         "Noleggia la Sanchez: costa di più ma è più veloce, e il premio del piazzamento ripaga la spesa.",
@@ -3454,7 +3544,10 @@
       "summary": "Vicki vuole derubare il suo capo, Frankie, e dividere i soldi. L'appuntamento è al Delights.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "Almeno 1.800 $ in contanti, aiutando o dall'ufficio di Frankie.",
+        "10.000 $ da Vicki."
+      ],
       "extraObjectives": [],
       "tips": [
         "È la serata per sole donne: entra Lucia, mentre Jason scavalca la recinzione sul retro quando i buttafuori si allontanano.",
@@ -4264,7 +4357,9 @@
       "summary": "Kyle manda un messaggio strano e Jason e Lucia tornano alla sua fattoria a controllare. La polizia ha già chiuso la zona.",
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "[spoiler] A fine serie, nel laboratorio della Final Chapter: la moto di spicco Western Searing Zombie Robber (nera con fiamme gialle), il fucile a pompa unico Throttler Verro e la cassaforte."
+      ],
       "extraObjectives": [
         {
           "id": "obj-bu-premio",
@@ -4283,7 +4378,7 @@
       "source": "stampa",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-buddy-check-on-kyle-walkthrough/",
       "optional": true,
       "contact": "Kyle",
@@ -8698,7 +8793,9 @@
       ],
       "prerequisites": [],
       "unlocks": [],
-      "rewards": [],
+      "rewards": [
+        "La maglietta bianca e il cappellino del Rusty Anchor, da comprare al locale."
+      ],
       "extraObjectives": [],
       "secrets": [],
       "image": null,
@@ -8706,7 +8803,7 @@
       "source": "stampa",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Ring_the_Bell!_Walkthrough",
       "moreSources": [
         "https://www.eurogamer.net/gta-6-ring-the-bell-walkthrough"

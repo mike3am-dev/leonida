@@ -1063,16 +1063,18 @@
       "id": "tip-vibrazione",
       "category": "esplorazione",
       "title": "Il controller vibra a piedi? Scansiona",
-      "body": "Se camminando senti una vibrazione forte e improvvisa, fermati e tira fuori WAiNK (tieni premuto su sulla croce): di solito lì vicino c'è un'opera o qualcos'altro da scansionare.",
+      "body": "Se camminando senti una vibrazione forte e improvvisa, fermati e tira fuori WAiNK (tieni premuto su sulla croce): di solito lì vicino c'è un'opera o qualcos'altro da scansionare. Il controller vibra anche solo da un lato: la scansione è da quella parte rispetto alla telecamera (IGN).",
       "priority": 15,
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
-      "moreSources": [],
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Collectibles_and_Collections"
+      ],
       "spoilerLevel": 0,
       "image": null,
       "example": false,
-      "updatedAt": "2026-11-18"
+      "updatedAt": "2026-11-21"
     },
     {
       "id": "tip-gta-plus",
@@ -1760,6 +1762,22 @@
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.ign.com/wikis/gta-6/Criminal_Profile_Guide_and_Consequences",
+      "moreSources": [],
+      "relatedIds": [],
+      "spoilerLevel": 0,
+      "image": null,
+      "example": false,
+      "updatedAt": "2026-11-21"
+    },
+    {
+      "id": "tip-rhino-mile-zero",
+      "category": "combattimento",
+      "title": "Un carro armato già nel capitolo 1",
+      "body": "Alla Mile Zero Air Station, nel sud-ovest delle Keys, sono parcheggiati dei carri armati Hauners Rhino Tank. Prenderne uno così presto si può, ma è quasi un suicidio: appena ti vedono hai le stelle di sospetto, dentro la base salgono a quattro, e a sei stelle muori di sicuro. Salva prima e porta adrenalina, giubbotto e Zombix. Il percorso di IGN: da Southwind (c'è anche un minimarket per gli Zombix) una barchetta lungo la costa sud dell'isola fino a una piccola insenatura; da lì, in auto verso ovest, la rampa di terra del salto acrobatico a sud della base, l'unico modo per scavalcare la recinzione vicino ai carri. Atterra pulito, rompi la recinzione più bassa e corri ai carri. R1 spara col cannone, che gira da solo rispetto alla marcia; esci da uno dei due caselli di guardia, gli unici punti senza recinzione, e non fermarti.",
+      "priority": 60,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/How_to_Get_a_Rhino_Tank",
       "moreSources": [],
       "relatedIds": [],
       "spoilerLevel": 0,
