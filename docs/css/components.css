@@ -2556,3 +2556,6 @@ html[data-posture="closed"] .vclass .vclass__note { font-size: .74rem; }
 .uvars__sum .fsec__t { margin: 0; }
 .uvars__sum .small { margin-left: auto; }
 .uvars[open] .uvar-list { margin-top: var(--s-2); }
+
+/* La banda: chi ha finito la storia (chat Bug, 21/11) */
+.chip--fine { flex: none; background: #f4c542; color: #1d1726; border-color: #f4c542; font-size: 11px; font-weight: 700; padding: 1px 8px; vertical-align: 2px; }
