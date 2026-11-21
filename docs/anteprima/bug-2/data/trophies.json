@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "tro-vice-got-a-price",
+      "name": "Il vizio ha un prezzo!",
+      "description": "Congratulazioni! Sei una leggenda della Leonida.",
+      "tier": "platino",
+      "category": "mondo",
+      "guide": "Si sblocca ottenendo tutti gli altri trofei; non servono l'online né i DLC. Ci vogliono circa 200 ore, con difficoltà 4 su 10.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Vice Got a Price!",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-just-like-paradise",
+      "name": "Come in paradiso",
+      "description": "Completa Chi dorme…",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Just Like Paradise",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-prologo-keys"
+      ]
+    },
+    {
+      "id": "tro-paradise-lost",
+      "name": "Paradiso perduto",
+      "description": "Completa il Capitolo 1.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Paradise Lost",
+      "timing": {
+        "story": true
+      },
+      "chapterDone": "act-1"
+    },
+    {
+      "id": "tro-t-s-ass-drug-money",
+      "name": "T***e, culi, bei soldoni",
+      "description": "Completa il Capitolo 2.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "T**s Ass Drug Money",
+      "timing": {
+        "story": true
+      },
+      "chapterDone": "act-2"
+    },
+    {
+      "id": "tro-vice-city-baby",
+      "name": "Vice City, baby!",
+      "description": "Completa il Capitolo 3.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Vice City, Baby!",
+      "timing": {
+        "story": true
+      },
+      "chapterDone": "act-3"
+    },
+    {
+      "id": "tro-top-of-the-world-ma",
+      "name": "Sulla vetta del mondo, ma'",
+      "description": "Completa il Capitolo 4.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Top Of The World, Ma",
+      "timing": {
+        "story": true
+      },
+      "chapterDone": "act-4"
+    },
+    {
+      "id": "tro-you-gotta-know-when-to-get-off",
+      "name": "Devi sapere quando scendere",
+      "description": "Completa l'ultima missione.",
+      "tier": "oro",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "You Gotta Know When to Get Off",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-the-end-of-the-road"
+      ]
+    },
+    {
+      "id": "tro-trust",
+      "name": "Mi fido",
+      "description": "Completa Colazione on the road.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Trust",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-leak-hanks"
+      ]
+    },
+    {
+      "id": "tro-break-the-bank",
+      "name": "Sbanca tutto",
+      "description": "Completa Il colpo del cartello.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Break the Bank",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-the-cartel-heist"
+      ]
+    },
+    {
+      "id": "tro-family-matters",
+      "name": "Questioni di famiglia",
+      "description": "Completa Un gioco da ragazzi.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Family Matters",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-childs-play"
+      ]
+    },
+    {
+      "id": "tro-dwnfall",
+      "name": "DWNFALL",
+      "description": "Completa Le star.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "DWNFALL",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-headliners"
+      ]
+    },
+    {
+      "id": "tro-hi-jacked",
+      "name": "Muscoli in volo",
+      "description": "Completa Ultima chiamata al VCIA.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Hi-Jacked",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-vcia-takedown"
+      ]
+    },
+    {
+      "id": "tro-snow-storm",
+      "name": "Coltre bianca",
+      "description": "Completa Operazione Savage Glory.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Si ottiene con la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Snow Storm",
+      "timing": {
+        "story": true
+      },
+      "missions": [
+        "mis-operation-savage-glory"
+      ]
+    },
+    {
+      "id": "tro-a-long-road",
+      "name": "Una lunga strada",
+      "description": "Completa il gioco al 100%.",
+      "tier": "oro",
+      "category": "completamento",
+      "guide": "La lista del 100% compare dopo la storia (Progressi > Statistiche > Completamento 100%), ma conta anche quello che hai fatto prima. Niente si può perdere e i requisiti sono generosi: in pratica basta circa il 60% di tutto. Servono per esempio 100 missioni opzionali qualsiasi, 200 veicoli scansionati su 277 e 100 animali studiati su 255.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "A Long Road",
+      "timing": {
+        "until": null,
+        "note": "La lista del 100% compare a storia finita, ma conta tutto quello che fai prima. Niente si perde."
+      }
+    },
+    {
+      "id": "tro-cunning-stunts",
+      "name": "Stunt da capogiro",
+      "description": "Completa 250 acrobazie.",
+      "tier": "argento",
+      "category": "completamento",
+      "guide": "Bastano 250 acrobazie qualsiasi su 397, mescolando le quattro famiglie: 130 salti con rampa, 202 passaggi in volo sotto i ponti, 40 voli tra i palazzi e 25 lanci col paracadute. I passaggi sotto i ponti sono i più rapidi. Basta fare l'acrobazia una volta: le sfide che compaiono sull'icona non servono. Il conto per zona è in Progressi > Attività > Acrobazie; per il 100% ne servono 300.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Cunning Stunts",
+      "timing": {
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "id": "tro-master-of-none",
+      "name": "Tuttofare",
+      "description": "Prova ogni tipo di attività almeno una volta.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Le attività sono 9 (Progressi > Attività): la storia te ne presenta quasi tutte, le altre compaiono sulla mappa scoprendo le zone (icona blu col manubrio).",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Master of None",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-the-shootist",
+      "name": "Cecchino",
+      "description": "Ottieni una medaglia d'oro in tutte le sfide dei poligoni di tiro.",
+      "tier": "argento",
+      "category": "collezionabili",
+      "guide": "Servono le medaglie d'oro in tutte e 12 le sfide dei 2 poligoni di tiro, uno per livello di difficoltà: 18 ori al Griffin di Vice City (6 sfide da 3 livelli) e 24 al Rodgers Ranch di Port Gellhorn (6 sfide da 4 livelli), 42 in tutto. Gli stessi ori servono anche per il 100%.",
+      "image": null,
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "The Shootist",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-top-fun",
+      "name": "Top Fun",
+      "description": "Vinci una gara di droni Top Fun in ogni località.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Vinci almeno una gara di droni Top Fun in ognuna delle 14 località. Queste gare servono anche per il 100%.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Top Fun",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-earn-cash-not-kudos",
+      "name": "Guadagna i soldi, non la gloria",
+      "description": "Vinci 20 gare diverse.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Vinci 20 gare diverse tra le 40 disponibili; scegli le più facili.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Earn Cash, Not Kudos",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-baited-my-tackle",
+      "name": "Esca preparata",
+      "description": "Batti Cal in una sfida di pesca.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Dal capitolo 1, dopo aver conosciuto Cal, arriva un suo messaggio con un punto di pesca viola sulla mappa: segui le sue missioni di pesca.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Baited My Tackle",
+      "timing": {
+        "from": 1,
+        "until": null
+      },
+      "openedBy": [
+        "mis-feng-shui"
+      ],
+      "missions": [
+        "mis-catch-a-bigger-fish"
+      ]
+    },
+    {
+      "id": "tro-stick-fiddler",
+      "name": "Smanettone",
+      "description": "Completa un gioco arcade.",
+      "tier": "bronzo",
+      "category": "completamento",
+      "guide": "I videogiochi sono 4: tre si giocano alla TV di casa già dal capitolo 1 (Tenebrae Lux, Street Trash III, Time Jackers Rewind), il quarto, Bang For Your Buck, è nei cabinati sparsi per la mappa. Basta finirne uno arrivando alla fine almeno una volta, senza fare tutte le sfide. Tenebrae Lux è un gioco di enigmi che richiede qualche ora: Kotaku ne ha pubblicato la soluzione completa.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Stick Fiddler",
+      "timing": {
+        "from": 1,
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940"
+      ]
+    },
+    {
+      "id": "tro-road-to-rehabilitation",
+      "name": "Percorso di riabilitazione",
+      "description": "Completa l'ultima missione per Andy.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Solo con Lucia: nel capitolo 3 Andy chiama e manda l'indirizzo a Belville. Completa le sue 5 missioni; restano disponibili dopo la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Road to Rehabilitation",
+      "timing": {
+        "from": 3,
+        "until": null
+      },
+      "missions": [
+        "mis-puff-puff-pass"
+      ],
+      "openedBy": [
+        "mis-climbing-the-cellerichain"
+      ]
+    },
+    {
+      "id": "tro-this-was-no-boat-accident",
+      "name": "Ci serve una barca più grossa",
+      "description": "Completa l'ultima missione per Kenton.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Kenton si fa vivo nel capitolo 1 (icona verde «KR» a Key Lento) e offre recuperi di tesori sott'acqua dai relitti. Se sparisce per un po' durante la storia, torna più avanti.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "This Was No Boat Accident",
+      "timing": {
+        "from": 1,
+        "until": null,
+        "note": "Kenton sparisce per un po' dopo il capitolo 1 e torna più avanti.",
+        "warn": true
+      },
+      "openedBy": [
+        "mis-island-dreams"
+      ]
+    },
+    {
+      "id": "tro-the-lone-rider",
+      "name": "Il centauro solitario",
+      "description": "Completa l'ultima missione per Billy.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Dal capitolo 2 Billy compare al Thrillbilly Mudclub nella Kelly County: completa le sue 5 missioni, disponibili anche dopo la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "The Lone Rider",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "missions": [
+        "mis-hometown-heroes"
+      ],
+      "openedBy": [
+        "mis-thrillbillies"
+      ]
+    },
+    {
+      "id": "tro-strangers-freaks",
+      "name": "Sconosciuti e folli",
+      "description": "Completa 8 serie di missioni per degli sconosciuti in tutto lo Stato della Leonida.",
+      "tier": "argento",
+      "category": "storia",
+      "guide": "Servono 8 serie, e valgono solo quelle di «Sconosciuti e folli» trovate in giro. Non contano Shirley, Cal, Moses, Tyrone, Yasmani, Andy, Billy ed Eddie. Sicure finora: lo Skunk Ape di Kirk (si comincia nel capitolo 1 nelle paludi della Pelican Valley, l'ultima missione è dal capitolo 2, solo con Lucia e di notte), Kyle e la fattoria McKittrick (capitolo 2), le corse di Yago (capitolo 3, quasi tutte solo con Jason) e il pilota Pete (capitolo 4, solo Jason); le altre 4 non sono ancora note. gta.wiki segna come valide anche le serie di Kenton, Bret, Randy e Dunk, ma PowerPyx non lo conferma e Kenton, Bret e Randy hanno già un trofeo tutto loro: non contarci finché non lo verifichi. PowerPyx segnala che la gara contro Yago è a tempo: non rimandarla. Per sapere se una serie conta, guarda il contatore del trofeo nella lista trofei prima e dopo la sua ultima missione. Restano tutte dopo la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Strangers & Freaks",
+      "timing": {
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://gta.wiki/w/Strangers_%26_Freaks"
+      ]
+    },
+    {
+      "id": "tro-supply-demand",
+      "name": "Domanda e offerta",
+      "description": "Completa l'ultima missione per Randy.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Dal capitolo 3, dopo che ottieni il Key Cloner, Randy ti dà una lista di 16 auto sportive da rubare per lui. Puoi finirla anche dopo la storia.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Supply & Demand",
+      "timing": {
+        "from": 3,
+        "until": null
+      },
+      "openedBy": [
+        "mis-clonin-keys-makin-gs"
+      ]
+    },
+    {
+      "id": "tro-spin-on-this",
+      "name": "Centrifugami questo!",
+      "description": "Completa l'ultima missione per Tyrone.",
+      "tier": "bronzo",
+      "category": "storia",
+      "guide": "Solo con Jason, dal capitolo 3: distruggi i laboratori di droga sintetica segnati in viola a Vice City, poi segui le altre missioni di Tyrone.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Spin On This!",
+      "timing": {
+        "from": 3,
+        "until": null
+      },
+      "missions": [
+        "mis-spin-on-this"
+      ],
+      "openedBy": [
+        "mis-tyrone",
+        "mis-here-kitty-kitty"
+      ]
+    },
+    {
+      "id": "tro-positive-mental-attitude",
+      "name": "Mentalità positiva",
+      "description": "Medita in ogni luogo di meditazione della Leonida.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Si può perdere: la prima meditazione si fa solo nel capitolo 1, a casa di Jason. Una mattina Lucia, in cucina, dice che va a meditare: seguila sul balcone dei pesi, guardala e scegli «Accetta». Falla prima di avviare le ultime tre missioni principali del capitolo 1: sono legate fra loro e, una volta partite, a Key Lento non torni per diverse ore. Non è ancora chiaro se conti per il trofeo (non è segnata come punto di meditazione), ma PowerPyx l'ha ottenuto avendola fatta. Le altre 17, negli altri 9 punti, restano disponibili anche dopo; l'ultima compare quando hai fatto tutte le altre.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Positive Mental Attitude",
+      "timing": {
+        "from": 1,
+        "until": 1,
+        "note": "La prima meditazione si fa solo nel capitolo 1, a casa di Jason con Lucia, prima delle ultime tre missioni principali del capitolo: dopo non si può più."
+      },
+      "moreSources": [
+        "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      ],
+      "openedBy": [
+        "mis-down-to-earth"
+      ]
+    },
+    {
+      "id": "tro-fair-game",
+      "name": "Bersagli leciti",
+      "description": "Dai la caccia a un animale unico per Bret.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Solo con Jason, dal capitolo 2: arriva un messaggio di Bret Vogel con la prima missione nella Lummox County. Segui le sue cacce fino all'animale unico.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Fair Game",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "openedBy": [
+        "mis-veteran-hunted"
+      ]
+    },
+    {
+      "id": "tro-don-t-touch-my-deck",
+      "name": "Non toccare il mio mazzo",
+      "description": "Completa 3 set di carte collezionabili.",
+      "tier": "argento",
+      "category": "collezionabili",
+      "guide": "Completa 3 dei 18 set di carte collezionabili.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Don’t Touch My Deck",
+      "timing": {
+        "until": null,
+        "note": "Bastano 3 set su 18, quindi non scade. Alcune carte però stanno in case che lasci con la storia (capitoli 1–3): prendile quando ci abiti.",
+        "warn": true
+      }
+    },
+    {
+      "id": "tro-you-wainker",
+      "name": "Scansionamelo tutto!",
+      "description": "Usa l'app WAiNK in 100 luoghi.",
+      "tier": "argento",
+      "category": "completamento",
+      "guide": "Usa l'app WAiNK su 100 punti qualsiasi: monumenti, curiosità, sculture e segni No Flusher. Ce ne sono più di 100.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "You WAiNKer!",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-one-last-thing",
+      "name": "Un'ultima cosa…",
+      "description": "Completa 50 sfide.",
+      "tier": "bronzo",
+      "category": "completamento",
+      "guide": "Ci sono 80 sfide (Progressi > Sfide) e ne bastano 50. Per il 100% ne servono 70, quindi il trofeo arriva da sé.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "One Last Thing",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-hot-together",
+      "name": "Coppia di fuggitivi",
+      "description": "Azzera un livello di sospetto a 4 stelle insieme al partner e perdi il livello di allerta.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Dal capitolo 2, quando potete girare insieme: chiama il partner, arriva a 4 stelle facendo caos e poi esci dalla zona rossa di allerta (non basta uscire dal cerchio di ricerca). Il modo più sicuro è una moto sportiva nel traffico, oppure la galleria ferroviaria a nord di Ambrosia, dove polizia ed elicottero ti perdono. Se non lo prendi prima, arriva da solo con le rapine ai caveau del capitolo 4, che danno sempre 4 stelle.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Hot Together",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "openedBy": [
+        "mis-coffee-break"
+      ]
+    },
+    {
+      "id": "tro-retail-therapy",
+      "name": "Shopping compulsivo",
+      "description": "Rapina 3 negozi di fila insieme al partner senza far azzerare il livello di sospetto.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Dal capitolo 2, insieme al partner (chiamalo prima): rapina 3 obiettivi (icone verdi) uno dopo l'altro senza mai far sparire le stelle di sospetto, cioè con la polizia sempre alle calcagna (conta il cerchio di ricerca lampeggiante, non la zona rossa di allerta). Porta giubbotto, bombe adesive e cure (Zombix, adrenalina). Dal capitolo 3 vanno bene le 3 gioiellerie nel nord di Vice City: in ognuna prendi qualche gioiello e apri la cassaforte nel retro. Se esci dal primo negozio prima che arrivi la polizia, quel colpo può non contare. Il trofeo arriva con mezzo minuto di ritardo; se non scatta, fai un quarto negozio.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Retail Therapy",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-coffee-break"
+      ]
+    },
+    {
+      "id": "tro-whip-it-good",
+      "name": "Quattro(cento) ruote",
+      "description": "Scopri 100 veicoli.",
+      "tier": "bronzo",
+      "category": "completamento",
+      "guide": "Usa l'app WAiNK sui veicoli che passano: mettiti su una strada trafficata. Scansiona anche barche e aerei; per il 100% ne servono 200.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Whip It Good",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-gunslinger",
+      "name": "Pistolero",
+      "description": "Uccidi 5 nemici durante un'unica attivazione della concentrazione in combattimento.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Mirando con un'arma attiva la concentrazione in combattimento e abbatti 5 nemici prima che finisca. Prima riempi la barra viola (mangiando, bevendo, lavandoti; anche accarezzare un gatto aiuta) e prendi l'adrenalina per farla durare di più. Fallo contro i criminali delle operazioni delle bande, con un fucile d'assalto e il giubbotto: soldati, poliziotti e passanti sembrano non contare. Più sali di livello di concentrazione (fino a 4), più è facile.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Gunslinger",
+      "timing": {
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gamespot.com/articles/jason-loves-cats-in-gta-6-but-not-all-of-them/"
+      ]
+    },
+    {
+      "id": "tro-catch-me-if-you-can",
+      "name": "Prova a prendermi",
+      "description": "Effettua una partenza non programmata dal VCIA.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Ruba un aereo di linea agganciato a un pontile d'imbarco del VCIA (non quelli in pista). Il più comodo è quello dei gate E3/E4: sfonda una recinzione, attraversa la pista e sali dalla scala con la porta accanto al pontile (oppure passa a piedi dal terminal). Dentro vai al piano di sopra, nella cabina di pilotaggio, fai retromarcia fino alla pista e decolla. Il trofeo arriva quando sei a circa 1 km dall'aeroporto. Poco dopo il decollo arrivano due caccia che ti ordinano di atterrare.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Catch Me If You Can",
+      "timing": {
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.ign.com/articles/99-incredible-little-details-in-grand-theft-auto-6"
+      ]
+    },
+    {
+      "id": "tro-challenging-tank",
+      "name": "Pelle coriacea",
+      "description": "Fa calduccio in questi Rhino.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Ruba un carro armato nella zona sud della Mile Zero Air Station, la base sull'isola a sud-ovest (Mariana County), e spara a qualche nemico.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Challenging Tank",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-sneakthief",
+      "name": "Mani di fata",
+      "description": "Rapina una gioielleria senza farti notare.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Dopo le missioni di Yasmani del capitolo 3 ottieni la pistola grimaldello, che resta sempre nell'inventario. Scegli una gioielleria (icona verde sulla mappa; PowerPyx consiglia la Richardson Jewelry & Diamonds di Vice City), apri la porta sul retro con la pistola grimaldello invece di sfondarla, che fa scattare l'allarme. Nel retro trova il foglietto con la combinazione e svuota la cassaforte. Prima di uscire distruggi le registrazioni delle telecamere e spegni l'allarme, sempre nel retro: senza questi due passi il trofeo non arriva. Scatta poco dopo che sei uscito dal negozio.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Sneakthief",
+      "timing": {
+        "from": 3,
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-yasmanis-jewelry-jobs"
+      ]
+    },
+    {
+      "id": "tro-maximum-withdrawal",
+      "name": "Prelievo massimo",
+      "description": "Svaligia i caveau di 5 banche e completa la fuga.",
+      "tier": "argento",
+      "category": "completamento",
+      "guide": "Si sblocca con una missione opzionale del capitolo 4 che introduce le rapine ai caveau: segui il furgone portavalori fino alla banca ed entra quando aprono il caveau. Ripeti per 5 banche su 8 (per il 100% servono tutte). Dopo quella missione Yasmani ti vende per 10.000 $ le soffiate sui furgoni, che compaiono in viola sulla mappa (prima devi aver fatto i suoi incarichi). Porta il partner: da solo non porti via tutti i sacchi. Ogni caveau rende fino a 205.000 $ e ti mette subito 4 stelle.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Maximum Withdrawal",
+      "timing": {
+        "from": 4,
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-thats-where-the-money-is"
+      ]
+    },
+    {
+      "id": "tro-a-classic-blitz-play",
+      "name": "Un classico blitz",
+      "description": "Rapina un furgone blindato e completa la fuga.",
+      "tier": "bronzo",
+      "category": "completamento",
+      "guide": "Si sblocca con la stessa missione opzionale del capitolo 4 sui caveau: svaligiare il caveau di una grande banca vale anche come rapina al furgone blindato. Si può fare anche prima: blocca un furgone blindato in giro per Vice City, piazza una bomba adesiva sul portellone posteriore e poi esci dalla zona rossa di allerta (oppure passa da un Pay 'n' Spray). Le bombe adesive le trovi anche nel retro del negozio di Yasmani, dopo i suoi incarichi del capitolo 3.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "A Classic Blitz Play",
+      "timing": {
+        "from": 4,
+        "until": null
+      },
+      "openedBy": [
+        "mis-thats-where-the-money-is"
+      ]
+    },
+    {
+      "id": "tro-the-goodtime-state",
+      "name": "Lo Stato del divertimento",
+      "description": "Esplora tutta la Leonida.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Scopri tutta la mappa togliendo la nebbia nera: il modo più rapido è sorvolarla in aereo.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "The Goodtime State",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-pest-control",
+      "name": "Disinfestazione",
+      "description": "Rapina un'operazione criminale di ciascuna banda.",
+      "tier": "bronzo",
+      "category": "attivita",
+      "guide": "Ci sono 9 bande e 39 operazioni illegali (icone gialle): ne basta una per banda, per il 100% servono tutte. Controlla in Progressi > Bande.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Pest Control",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-in-the-beginning",
+      "name": "In principio…",
+      "description": "Goditi un cocktail con vista su Ocean Beach.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Trofeo segreto. Vai all'Ocean View Rooftop Bar, la terrazza in cima all'Ocean View Hotel sul lungomare di Vice City, e compra un Apple Martini al bancone. Bevilo restando in piedi accanto al bar: il trofeo scatta mentre bevi. Il nome richiama la prima missione del primo Vice City, che dava a Tommy Vercetti proprio l'Ocean View Hotel come rifugio. Il metodo per ora lo dà solo PowerPyx.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "nameEn": "In The Beginning…",
+      "timing": {
+        "until": null,
+        "note": "Nessun limite di capitolo: basta poter arrivare all'hotel, e si può fare anche dopo la storia."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
+        "https://gta.wiki/w/Ocean_View_Hotel_(3D_Universe)"
+      ]
+    },
+    {
+      "id": "tro-capital-offense",
+      "name": "Corsia preferenziale",
+      "description": "Fuggi da un autosalone proprio come ai bei vecchi tempi.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Trofeo segreto. Non vale un'auto qualsiasi: serve la Banshee blu esposta nell'autosalone nel sud di Vice City. Si può portare via solo quando hai il Key Cloner, che arriva a metà del capitolo 3: clona la chiave, parti e vai dritto contro la vetrina. Il trofeo scatta con qualche secondo di ritardo, mentre ti allontani per strada. Con altre auto non funziona. Secondo PowerPyx è un omaggio alla Banshee di GTA III.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "nameEn": "Capital Offense",
+      "timing": {
+        "from": 3,
+        "until": null,
+        "note": "Dal capitolo 3, appena hai il Key Cloner; si può fare anche dopo la storia."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ],
+      "openedBy": [
+        "mis-clonin-keys-makin-gs"
+      ]
+    },
+    {
+      "id": "tro-let-s-go-bowling",
+      "name": "Giochiamo a bowling",
+      "description": "Vai fino in fondo alla sala da bowling dei Kolt e soci",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Nell'operazione della banda al Kingpin Bowling di Port Gellhorn (dal capitolo 2) prendi tutti e 3 gli oggetti di valore: l'orologio di lusso nell'ufficio a sud-est, il fucile a pompa unico «Gutterball» sul tavolo nell'angolo nord-est e il contenuto della cassaforte nell'ufficio del corridoio nord-est (codice 0300, oppure una bomba adesiva). Il trofeo scatta quando semini la polizia, non quando prendi l'ultimo oggetto; uccidere i nemici non serve.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Let’s Go Bowling",
+      "timing": {
+        "from": 2,
+        "until": null,
+        "note": "Puoi prendere gli oggetti anche in più visite: se ne lasci uno, torna quando l'icona ricompare (ci vuole molto)."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-hit-kingpin-bowling"
+      ]
+    },
+    {
+      "id": "tro-personal-best",
+      "name": "Record personale",
+      "description": "Una collaborazione che attrae le masse.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Porta al massimo la forza sia di Jason sia di Lucia (dal capitolo 2), allenandoti in palestra.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Personal Best",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "openedBy": [
+        "mis-coffee-break"
+      ]
+    },
+    {
+      "id": "tro-actions-speak-louder",
+      "name": "Contano i fatti",
+      "description": "Scelte fatte (nel bene e nel male).",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Compi 500 azioni che cambiano il profilo criminale; il contatore è nella lista trofei. Accendi le notifiche del profilo criminale nelle impostazioni dell'interfaccia (HUD): ogni azione che conta fa comparire una faccina da diavolo a destra. Conta quasi tutto: rapine pulite e prove distrutte («Professionale»), nemici messi fuori combattimento senza ucciderli («Senza scrupoli»), uccisioni («Violento»), stragi di agenti e passanti («Folle»). Di solito arriva da sé con le rapine e le operazioni delle bande. Se ti manca alla fine, investire passanti e agenti con l'auto fa salire il conto in fretta, ma attento: restare «Folle» a lungo porta allo stato permanente che le guide inglesi chiamano Irredeemable, e poi la polizia spara a vista più spesso.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Actions Speak Louder",
+      "timing": {
+        "until": null
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
+    },
+    {
+      "id": "tro-bad-luck-i-guess",
+      "name": "Sfortuna, forse",
+      "description": "La seconda volta è quella buona.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Trofeo segreto. Nel prologo Lucia rapina la finanziaria Payday Loans di Little Cuba, a Vice City, e scappa a piedi: il trofeo chiede di rifarlo. Da metà capitolo 3, quando la storia ti dà il disturbatore delle cartucce di inchiostro e apre le rapine alle finanziarie, torna in quella stessa Payday Loans con Lucia, da sola: Jason non deve esserci. Punta l'arma al cassiere, elimina le guardie che cominciano a sparare, sfonda la porta e svuota i 3 cassetti. Poi scappa correndo, senza salire su un veicolo: il trofeo arriva con un po' di ritardo, quando sei uscito dalla zona di ricerca della polizia e ti sei allontanato abbastanza. Se scappi in auto non scatta. Il metodo per ora lo dà solo PowerPyx.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Bad Luck, I Guess",
+      "timing": {
+        "from": 3,
+        "until": null,
+        "note": "Da metà capitolo 3, solo con Lucia e senza Jason, alla Payday Loans di Little Cuba; si può fare anche dopo la storia."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ],
+      "openedBy": [
+        "mis-credit-check"
+      ]
+    },
+    {
+      "id": "tro-the-truth-is-out-there",
+      "name": "La verità è là fuori",
+      "description": "Che cacchio è successo?",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Trofeo segreto: è l'incontro con l'UFO. Finito il capitolo 1, vai da solo (senza il partner) sulla strada sterrata a nord-ovest dello Starlet Motel, nella Kelly County a est di Port Gellhorn, di notte dopo le 2. Se a bordo strada c'è un'auto abbandonata con le luci che lampeggiano e il bagagliaio aperto, l'evento è pronto; se non c'è, allontanati e torna più tardi. Segui il sentiero nel bosco verso la luce azzurra: l'UFO lascia cadere una donna rapita. Parlale, offriti di aiutarla e torna con lei alla sua auto: l'UFO ritorna per te, svieni e ti risvegli tre giorni dopo. Il trofeo arriva lì. Vale con Jason o con Lucia e non serve per il 100%.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-19",
+      "nameEn": "The Truth Is Out There",
+      "timing": {
+        "from": 2,
+        "until": null,
+        "note": "Dopo il capitolo 1, solo di notte dopo le 2 e da solo; non sempre compare al primo tentativo. Si può fare anche dopo la storia."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.powerpyx.com/gta-6-ufo-aliens-easter-egg-location/",
+        "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
+    },
+    {
+      "id": "tro-ten-pin",
+      "name": "Strike!",
+      "description": "Stendili usando l'attacco corpo a corpo da un veicolo.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Trofeo segreto. Sali su una moto qualsiasi e, guidando, stendi a calci 10 passanti entro 60 secondi: l'attacco corpo a corpo dalla moto si fa con Quadrato. Scegli un posto affollato, come le strade del centro di Vice City o il lungomare di Vice Beach, e passa rasente ai marciapiedi pieni di gente senza fermarti. Arriverà la polizia: comincia senza stelle di sospetto e tieni d'occhio il tempo. Il metodo per ora lo dà solo PowerPyx.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 9,
+      "example": false,
+      "updatedAt": "2026-11-20",
+      "nameEn": "Ten Pin",
+      "timing": {
+        "until": null,
+        "note": "Nessun limite di capitolo: si fa appena hai una moto, anche dopo la storia."
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ]
+    },
+    {
+      "id": "tro-dime-on-the-dollar",
+      "name": "Un centesimo dopo l'altro",
+      "description": "Guadagna 250.000 $ riciclando banconote segnate tramite i tuoi contatti.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Dal capitolo 3 ottieni il disturbatore delle cartucce di inchiostro: rapina banche e finanziarie (Payday Loans) e porta le banconote segnate a un ricettatore (Yasmani paga di più). Conta il totale accumulato.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Dime on the Dollar",
+      "timing": {
+        "from": 3,
+        "until": null
+      },
+      "openedBy": [
+        "mis-credit-check"
+      ]
+    },
+    {
+      "id": "tro-treat-yo-self",
+      "name": "Trattati bene",
+      "description": "Spendi 100.000 $ in totale nei negozi.",
+      "tier": "bronzo",
+      "category": "completamento",
+      "guide": "Spendi 100.000 $ in tutto nei negozi: armi, modifiche alle auto e tatuaggi fanno prima.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-18",
+      "nameEn": "Treat Yo Self",
+      "timing": {
+        "until": null
+      }
+    },
+    {
+      "id": "tro-little-boxes",
+      "name": "Posto riservato",
+      "description": "Acquista tutti i garage.",
+      "tier": "bronzo",
+      "category": "collezionabili",
+      "guide": "Dal capitolo 2 arriva l'app Vice City Real Estate: compra dal telefono gli 8 garage in vendita, circa 160.000 $ in tutto.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "Little Boxes",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "openedBy": [
+        "mis-daily-driver"
+      ]
+    },
+    {
+      "id": "tro-on-the-spot",
+      "name": "Ci metto un secondo",
+      "description": "Registra 10 veicoli nell'app Scooter Bros.",
+      "tier": "bronzo",
+      "category": "mondo",
+      "guide": "Dal capitolo 2 arriva l'app Scooter Bros: registra 10 veicoli rubati; prima servono abbastanza posti nei garage.",
+      "image": null,
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "nameEn": "On the Spot",
+      "timing": {
+        "from": 2,
+        "until": null
+      },
+      "openedBy": [
+        "mis-moses"
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "text": "Un solo trofeo è a rischio: la meditazione del capitolo 1 in casa di Jason con Lucia. Falla: non si sa ancora se conti, ma dopo il capitolo 1 non si può più.",
+      "trophy": "Mentalità positiva"
+    },
+    {
+      "text": "Niente rigioco delle missioni e niente medaglie. Usa i 15 slot manuali: un salvataggio all'inizio e uno alla fine di ogni capitolo (10), gli altri 5 a rotazione."
+    },
+    {
+      "text": "Per il 100% non si perde niente: dopo la storia resta il gioco libero e ogni requisito si può recuperare. La lista del 100% compare solo a storia finita, ma conta già tutto quello che fai prima.",
+      "trophy": "Una lunga strada"
+    },
+    {
+      "text": "Tutti i personaggi legati ai trofei restano dopo la storia. Kenton sparisce per un po' dopo il capitolo 1 e torna tra il 2 e il 3: con Jason, nel capitolo 2, chiama Brian per farlo tornare prima.",
+      "trophy": "Ci serve una barca più grossa"
+    },
+    {
+      "text": "Le missioni con l'icona a clessidra sono a tempo: falle appena compaiono. Molte facoltative spariscono dopo un po', ma ne servono solo 100 e ce ne sono più di 200.",
+      "trophy": "Una lunga strada"
+    },
+    {
+      "text": "Dal capitolo 1 scansiona con WAiNK ogni veicolo nuovo (anche barche e aerei) e studia con il binocolo ogni animale nuovo, cani e gatti di razze diverse compresi: per il 100% servono 200 veicoli e 100 animali.",
+      "trophy": "Quattro(cento) ruote"
+    },
+    {
+      "text": "Accendi nelle impostazioni dell'interfaccia tutte le notifiche di progressi, collezionabili e profilo criminale: aiutano a contare scoperte e azioni.",
+      "trophy": "Contano i fatti"
+    },
+    {
+      "text": "Evita il livello più basso del profilo criminale: è permanente e la polizia diventa più aggressiva. Non blocca i trofei."
+    },
+    {
+      "text": "Il Risparmio Familiare di BuckMe non si può mai prelevare: versaci solo quello che non ti serve (almeno 5.000 $ prima della fine del capitolo 1)."
+    },
+    {
+      "text": "Per passare dal capitolo 2 al 3 servono almeno 15.000 $: mettili da parte."
+    },
+    {
+      "text": "Nelle operazioni delle bande prendi tutti gli oggetti di valore indicati sull'icona: se ne lasci uno il posto torna solo dopo molto tempo. Ne servono una per banda per il trofeo, tutte e 39 per il 100%.",
+      "trophy": "Disinfestazione"
+    },
+    {
+      "text": "Alcune serie di missioni sono solo di Jason (Bret, Tyrone, Pete) o solo di Lucia (Andy): se un incarico non arriva, passa all'altro personaggio.",
+      "trophy": "Sconosciuti e folli"
+    },
+    {
+      "text": "Lo stato della relazione tra Jason e Lucia non conta per i trofei."
+    },
+    {
+      "text": "Alcune riviste e carte stanno in case che lasci con la storia: la casa di Jason nel capitolo 1, lo Starlet Motel nel capitolo 2 e l'appartamento di Bayside nel capitolo 3. Prendile finché ci abiti.",
+      "trophy": "Non toccare il mio mazzo"
+    }
+  ]
+}
