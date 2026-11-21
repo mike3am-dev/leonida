@@ -2359,11 +2359,6 @@
       "for": "wpn-bat"
     },
     {
-      "file": "vice/armi/wpn-hammer.webp",
-      "url": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-hammer.webp",
-      "for": "wpn-hammer"
-    },
-    {
       "file": "vice/armi/wpn-knuckles.webp",
       "url": "https://vice-central.com/wp-content/uploads/2026/11/armes/gta6-arme-gtabase-knuckle-dusters.webp",
       "for": "wpn-knuckles"
@@ -5142,6 +5137,81 @@
       "file": "vice/personaggi/chr-rhonda.png",
       "url": "https://gta.wiki/images/UnnamedKeyLentoFemaleResident-GTAVI-Portrait-OfficialScreenshot-CalHampton02.png?6d169",
       "for": "chr-rhonda"
+    },
+    {
+      "file": "mondo/brd-fruitshots.png",
+      "url": "https://gta.wiki/images/Fruitshots-GTAVI-AnExtendedLook.png?58451",
+      "for": "brd-fruitshots"
+    },
+    {
+      "file": "mondo/brd-mio.png",
+      "url": "https://gta.wiki/images/thumb/BoxTrailer-GTAVI-AnExtendedLook-MIO.png/600px-BoxTrailer-GTAVI-AnExtendedLook-MIO.png?22eaf",
+      "for": "brd-mio"
+    },
+    {
+      "file": "mondo/brd-break-inn.png",
+      "url": "https://gta.wiki/images/thumb/BreakInn-GTAVI-AnExtendedLook.png/600px-BreakInn-GTAVI-AnExtendedLook.png?e541e",
+      "for": "brd-break-inn"
+    },
+    {
+      "file": "mondo/brd-dignity.png",
+      "url": "https://gta.wiki/images/DignityDrink-GTAVI-Trailer1.png?d0ae8",
+      "for": "brd-dignity"
+    },
+    {
+      "file": "mondo/brd-snake-venom.png",
+      "url": "https://gta.wiki/images/thumb/SnakeVenom-GTAVI-OfficialScreenshot-UltimateEdition-ElectricFang02-Bottles.png/600px-SnakeVenom-GTAVI-OfficialScreenshot-UltimateEdition-ElectricFang02-Bottles.png?f214e",
+      "for": "brd-snake-venom"
+    },
+    {
+      "file": "mondo/brd-stronghold-ammunition.png",
+      "url": "https://gta.wiki/images/thumb/StrongholdAmmunition-GTAVI-OfficialScreenshots-UltimateEdition.png/600px-StrongholdAmmunition-GTAVI-OfficialScreenshots-UltimateEdition.png?1ec1d",
+      "for": "brd-stronghold-ammunition"
+    },
+    {
+      "file": "mondo/brd-fizzazz.png",
+      "url": "https://gta.wiki/images/Fizzazz-GTAVI-OfficialScreenshot-CalHampton03.png?80e8e",
+      "for": "brd-fizzazz"
+    },
+    {
+      "file": "vice/personaggi/chr-kyle.png",
+      "url": "https://gta.wiki/images/thumb/KyleMcKittrick-GTAVI-Portrait.png/600px-KyleMcKittrick-GTAVI-Portrait.png",
+      "for": "chr-kyle"
+    },
+    {
+      "file": "vice/personaggi/chr-dunk.png",
+      "url": "https://gta.wiki/images/thumb/Dunk-GTAVI-Portrait.png/600px-Dunk-GTAVI-Portrait.png",
+      "for": "chr-dunk"
+    },
+    {
+      "file": "vice/personaggi/chr-dr-bill.png",
+      "url": "https://gta.wiki/images/thumb/DrBill-GTAVI-Portrait.png/600px-DrBill-GTAVI-Portrait.png",
+      "for": "chr-dr-bill"
+    },
+    {
+      "file": "vice/personaggi/chr-ej.png",
+      "url": "https://gta.wiki/images/EJ-GTAVI-Portrait.png",
+      "for": "chr-ej"
+    },
+    {
+      "file": "vice/personaggi/chr-ian.png",
+      "url": "https://gta.wiki/images/Ian-GTAVI-Portrait.png",
+      "for": "chr-ian"
+    },
+    {
+      "file": "vice/personaggi/chr-zach.png",
+      "url": "https://gta.wiki/images/thumb/Zach-GTAVI-Portrait.png/600px-Zach-GTAVI-Portrait.png",
+      "for": "chr-zach"
+    },
+    {
+      "file": "vice/personaggi/chr-sarah-fitzroy.png",
+      "url": "https://gta.wiki/images/thumb/Deputy_Sarah_Fitzroy_GTAVI_Portrait.png/600px-Deputy_Sarah_Fitzroy_GTAVI_Portrait.png",
+      "for": "chr-sarah-fitzroy"
+    },
+    {
+      "file": "vice/personaggi/chr-ray-de-angelo-harris.png",
+      "url": "https://gta.wiki/images/thumb/RayDeAngeloHarris-GTAVI-Portrait.png/600px-RayDeAngeloHarris-GTAVI-Portrait.png",
+      "for": "chr-ray-de-angelo-harris"
     }
   ],
   "zip": {

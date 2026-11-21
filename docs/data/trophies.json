@@ -302,18 +302,21 @@
       "description": "Completa 250 acrobazie.",
       "tier": "argento",
       "category": "completamento",
-      "guide": "Bastano 250 acrobazie qualsiasi su 397, mescolando salti con rampa, passaggi sotto i ponti, voli tra i palazzi e lanci col paracadute. Per il 100% ne servono 300.",
+      "guide": "Bastano 250 acrobazie qualsiasi su 397, mescolando le quattro famiglie: 130 salti con rampa, 202 passaggi in volo sotto i ponti, 40 voli tra i palazzi e 25 lanci col paracadute. I passaggi sotto i ponti sono i più rapidi. Basta fare l'acrobazia una volta: le sfide che compaiono sull'icona non servono. Il conto per zona è in Progressi > Attività > Acrobazie; per il 100% ne servono 300.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Cunning Stunts",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-master-of-none",
@@ -404,13 +407,16 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Baited My Tackle",
       "timing": {
         "from": 1,
         "until": null
       },
       "openedBy": [
+        "mis-feng-shui"
+      ],
+      "missions": [
         "mis-catch-a-bigger-fish"
       ]
     },
@@ -420,19 +426,23 @@
       "description": "Completa un gioco arcade.",
       "tier": "bronzo",
       "category": "completamento",
-      "guide": "Tre videogiochi si giocano alla TV di casa già dal capitolo 1 (Tenebrae Lux, Street Trash III, Time Jackers Rewind); il quarto è nelle sale giochi. Basta finirne uno.",
+      "guide": "I videogiochi sono 4: tre si giocano alla TV di casa già dal capitolo 1 (Tenebrae Lux, Street Trash III, Time Jackers Rewind), il quarto, Bang For Your Buck, è nei cabinati sparsi per la mappa. Basta finirne uno arrivando alla fine almeno una volta, senza fare tutte le sfide. Tenebrae Lux è un gioco di enigmi che richiede qualche ora: Kotaku ne ha pubblicato la soluzione completa.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Stick Fiddler",
       "timing": {
         "from": 1,
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940"
+      ]
     },
     {
       "id": "tro-road-to-rehabilitation",
@@ -517,20 +527,22 @@
       "description": "Completa 8 serie di missioni per degli sconosciuti in tutto lo Stato della Leonida.",
       "tier": "argento",
       "category": "storia",
-      "guide": "Servono 8 serie, e valgono solo quelle di «Sconosciuti e folli» trovate in giro (non contano Moses, Tyrone, Yasmani, Andy, Billy, Eddie). Sicure finora: lo Skunk Ape di Kirk (capitolo 1, paludi della Pelican Valley), Kyle e la fattoria McKittrick (capitolo 2), le corse di Yago (capitolo 3) e il pilota Pete (capitolo 4, solo Jason); le altre 4 non sono ancora note. Il contatore è nella lista trofei; restano tutte dopo la storia.",
+      "guide": "Servono 8 serie, e valgono solo quelle di «Sconosciuti e folli» trovate in giro. Non contano Shirley, Cal, Moses, Tyrone, Yasmani, Andy, Billy ed Eddie. Sicure finora: lo Skunk Ape di Kirk (si comincia nel capitolo 1 nelle paludi della Pelican Valley, l'ultima missione è dal capitolo 2, solo con Lucia e di notte), Kyle e la fattoria McKittrick (capitolo 2), le corse di Yago (capitolo 3, quasi tutte solo con Jason) e il pilota Pete (capitolo 4, solo Jason); le altre 4 non sono ancora note. gta.wiki segna come valide anche le serie di Kenton, Bret, Randy e Dunk, ma PowerPyx non lo conferma e Kenton, Bret e Randy hanno già un trofeo tutto loro: non contarci finché non lo verifichi. PowerPyx segnala che la gara contro Yago è a tempo: non rimandarla. Per sapere se una serie conta, guarda il contatore del trofeo nella lista trofei prima e dopo la sua ultima missione. Restano tutte dopo la storia.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "nameEn": "Strangers & Freaks",
       "timing": {
         "until": null
       },
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+        "https://gta.wiki/w/Strangers_%26_Freaks"
       ]
     },
     {
@@ -569,7 +581,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Spin On This!",
       "timing": {
         "from": 3,
@@ -579,7 +591,8 @@
         "mis-spin-on-this"
       ],
       "openedBy": [
-        "mis-tyrone"
+        "mis-tyrone",
+        "mis-here-kitty-kitty"
       ]
     },
     {
@@ -595,7 +608,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "nameEn": "Positive Mental Attitude",
       "timing": {
         "from": 1,
@@ -605,6 +618,9 @@
       "moreSources": [
         "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/",
         "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+      ],
+      "openedBy": [
+        "mis-down-to-earth"
       ]
     },
     {
@@ -620,12 +636,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Fair Game",
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-veteran-hunted"
+      ]
     },
     {
       "id": "tro-don-t-touch-my-deck",
@@ -699,12 +718,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Hot Together",
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-coffee-break"
+      ]
     },
     {
       "id": "tro-retail-therapy",
@@ -719,7 +741,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "nameEn": "Retail Therapy",
       "timing": {
         "from": 2,
@@ -727,6 +749,9 @@
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-coffee-break"
       ]
     },
     {
@@ -777,18 +802,22 @@
       "description": "Effettua una partenza non programmata dal VCIA.",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Ruba un aereo di linea agganciato a un pontile d'imbarco del VCIA (non quelli in pista), portalo in pista, decolla e allontanati dall'aeroporto.",
+      "guide": "Ruba un aereo di linea agganciato a un pontile d'imbarco del VCIA (non quelli in pista). Il più comodo è quello dei gate E3/E4: sfonda una recinzione, attraversa la pista e sali dalla scala con la porta accanto al pontile (oppure passa a piedi dal terminal). Dentro vai al piano di sopra, nella cabina di pilotaggio, fai retromarcia fino alla pista e decolla. Il trofeo arriva quando sei a circa 1 km dall'aeroporto. Poco dopo il decollo arrivano due caccia che ti ordinano di atterrare.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Catch Me If You Can",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "https://www.ign.com/articles/99-incredible-little-details-in-grand-theft-auto-6"
+      ]
     },
     {
       "id": "tro-challenging-tank",
@@ -822,7 +851,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "nameEn": "Sneakthief",
       "timing": {
         "from": 3,
@@ -830,6 +859,9 @@
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-yasmanis-jewelry-jobs"
       ]
     },
     {
@@ -845,7 +877,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Maximum Withdrawal",
       "timing": {
         "from": 4,
@@ -853,6 +885,9 @@
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-thats-where-the-money-is"
       ]
     },
     {
@@ -868,12 +903,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "nameEn": "A Classic Blitz Play",
       "timing": {
         "from": 4,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-thats-where-the-money-is"
+      ]
     },
     {
       "id": "tro-the-goodtime-state",
@@ -980,7 +1018,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "nameEn": "Let’s Go Bowling",
       "timing": {
         "from": 2,
@@ -989,6 +1027,9 @@
       },
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ],
+      "openedBy": [
+        "mis-hit-kingpin-bowling"
       ]
     },
     {
@@ -1004,12 +1045,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Personal Best",
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-coffee-break"
+      ]
     },
     {
       "id": "tro-actions-speak-louder",
@@ -1017,18 +1061,21 @@
       "description": "Scelte fatte (nel bene e nel male).",
       "tier": "bronzo",
       "category": "mondo",
-      "guide": "Compi 500 azioni che cambiano il profilo criminale; accendi le notifiche del profilo criminale nelle impostazioni dell'interfaccia. Il contatore è nella lista trofei.",
+      "guide": "Compi 500 azioni che cambiano il profilo criminale; il contatore è nella lista trofei. Accendi le notifiche del profilo criminale nelle impostazioni dell'interfaccia (HUD): ogni azione che conta fa comparire una faccina da diavolo a destra. Conta quasi tutto: rapine pulite e prove distrutte («Professionale»), nemici messi fuori combattimento senza ucciderli («Senza scrupoli»), uccisioni («Violento»), stragi di agenti e passanti («Folle»). Di solito arriva da sé con le rapine e le operazioni delle bande. Se ti manca alla fine, investire passanti e agenti con l'auto fa salire il conto in fretta, ma attento: restare «Folle» a lungo porta allo stato permanente che le guide inglesi chiamano Irredeemable, e poi la polizia spara a vista più spesso.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Actions Speak Louder",
       "timing": {
         "until": null
-      }
+      },
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      ]
     },
     {
       "id": "tro-bad-luck-i-guess",
@@ -1043,7 +1090,7 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 9,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "nameEn": "Bad Luck, I Guess",
       "timing": {
         "from": 3,
@@ -1053,6 +1100,9 @@
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series"
+      ],
+      "openedBy": [
+        "mis-credit-check"
       ]
     },
     {
@@ -1119,12 +1169,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Dime on the Dollar",
       "timing": {
         "from": 3,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-credit-check"
+      ]
     },
     {
       "id": "tro-treat-yo-self",
@@ -1158,12 +1211,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "Little Boxes",
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-daily-driver"
+      ]
     },
     {
       "id": "tro-on-the-spot",
@@ -1178,12 +1234,15 @@
       "sourceUrl": "https://www.coplanet.it/trofei/lista-trofei-di-grand-theft-auto-vi",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "nameEn": "On the Spot",
       "timing": {
         "from": 2,
         "until": null
-      }
+      },
+      "openedBy": [
+        "mis-moses"
+      ]
     }
   ],
   "roadmap": [

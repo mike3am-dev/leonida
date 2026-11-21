@@ -112,7 +112,10 @@
       ],
       "steps": [
         "I pesci contano anche tra gli animali studiati: puoi studiarli nuotando vicino, senza canna.",
-        "La prima canna è sul pontile dietro casa di Jason, a Key Lento."
+        "La prima canna è sul pontile dietro casa di Jason, a Key Lento.",
+        "La canna è sempre nell'inventario, nello stesso posto di binocolo e torcia: tieni premuto L1, evidenzia quello slot (sotto i pugni) e scorri con L2 o R2 fino alla canna (IGN).",
+        "Come si pesca: scegli l'esca con sinistra e destra sulla croce, usa la concentrazione per vedere dove brillano i pesci, tieni premuto L2 per mirare e R2 per caricare il lancio. Recupera piano ruotando la levetta destra; ignora il primo leggero strattone, ferra con R2 quando il controller vibra forte, poi spingi la levetta sinistra al contrario di dove tira il pesce e, quando la vibrazione cala, riavvolgi in fretta (IGN).",
+        "La prima sfida di Cal, nel capitolo 1, chiede un pesce pappagallo (Stoplight Parrotfish) da più di 2 libbre nel cerchio viola che ti segna. Preso il pesce, con X gli scatti la foto e gliela mandi (IGN)."
       ],
       "image": null,
       "status": "verificato",
@@ -120,12 +123,13 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "group": "Pesca e caccia",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
         "https://insider-gaming.com/top-10-things-safehouse-gta-6/",
-        "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/"
+        "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+        "https://www.ign.com/wikis/gta-6/How_to_Fish"
       ]
     },
     {
@@ -318,7 +322,8 @@
       ],
       "steps": [
         "Compra il paracadute all'Ammu-Nation (Equipaggiamento) ed equipaggialo dalla ruota degli oggetti: occupa lo slot del giubbotto.",
-        "Lanciati e premi il tasto indicato per aprirlo; ogni base jump ha anche una sfida facoltativa, che non serve per il 100%."
+        "Lanciati e premi il tasto indicato per aprirlo; ogni base jump ha anche una sfida facoltativa, che non serve per il 100%.",
+        "Paracadute: X per aprirlo, L2 e R2 per girare in fretta, levetta sinistra in avanti per scendere più veloce e indietro per rallentare. Nei base jump passa dentro tutti gli anelli: ogni anello mancato ti costa tempo (IGN)."
       ],
       "image": null,
       "status": "verificato",
@@ -326,8 +331,11 @@
       "sourceUrl": "https://www.keengamer.com/articles/news/gta-6-extended-look-recap-all-gameplay-details/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
-      "group": "Sport e fitness"
+      "updatedAt": "2026-11-21",
+      "group": "Sport e fitness",
+      "moreSources": [
+        "https://www.ign.com/wikis/gta-6/Stunts"
+      ]
     },
     {
       "id": "act-poligono",
@@ -371,11 +379,13 @@
       ],
       "rewards": [
         "Il golf alza la concentrazione.",
-        "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti, a 3 sotto il par; tutti e due i percorsi nello stesso giorno, al par; due buche in uno consecutive."
+        "Sfide sportive: 18 buche al King Gator o al Frontier in meno di 30 minuti, a 3 sotto il par; tutti e due i percorsi nello stesso giorno, al par; due buche in uno consecutive.",
+        "Finita una partita in uno dei due minigolf a pagamento ricevi gratis il cappellino verde e bianco del King Gator; ogni buca chiusa al par o sotto alza un po' la concentrazione (IGN)."
       ],
       "steps": [
         "Per il 100% basta giocare una partita: non serve vincere né stare sotto il par.",
-        "Andateci in due: il minigolf in coppia alza la relazione."
+        "Andateci in due: il minigolf in coppia alza la relazione.",
+        "Il Dino Golf Challenge di Frogswater è un minigolf abbandonato: si gioca gratis e ogni buca dà una medaglia se resti entro un certo numero di colpi. È anche uno dei luoghi da scansionare con WAiNK (IGN)."
       ],
       "image": null,
       "status": "da verificare",
@@ -383,12 +393,13 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "group": "Svago",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
         "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+        "https://www.ign.com/wikis/gta-6/Mini_Golf"
       ]
     },
     {
@@ -662,7 +673,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "act-monster-truck",
       "name": "Autodromi e Mud Club",
       "type": "attività",
@@ -680,7 +691,8 @@
       ],
       "steps": [
         "Al Gellhorn International Raceway fai prima la gara di presentazione: apre la serie amatoriale «Keep it PG», cinque gare.",
-        "L'Ambrosia Raceway, nel nord di Ambrosia, compare sulla mappa quando ti avvicini."
+        "L'Ambrosia Raceway, nel nord di Ambrosia, compare sulla mappa quando ti avvicini.",
+        "Con un'auto tua puoi correre solo se è della classe esatta richiesta dalla gara; altrimenti la noleggi. Alcune gare si aprono solo dopo aver fatto almeno il bronzo nelle precedenti, e intorno ai circuiti ci sono personaggi che ne propongono altre: parla con chi organizza (IGN)."
       ],
       "sourceUrl": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
       "group": "Corse",
@@ -688,7 +700,8 @@
         "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
         "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
         "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+        "https://www.ign.com/wikis/gta-6/Racing"
       ]
     },
     {
@@ -1034,7 +1047,10 @@
         "Per il 100% basta avviare il gioco e uscire subito col touchpad.",
         "Due dei giochi della console li provi già in una missione del capitolo 1.",
         "Per il trofeo finisci tutti i livelli di uno solo dei quattro giochi.",
-        "Il primo livello di Tenebrae Lux, che giochi in una missione del capitolo 1, si risolve in tre mosse: la torre in basso a sinistra verso l'alto, quella centrale verso il basso, quella in alto a destra verso il basso."
+        "Il primo livello di Tenebrae Lux, che giochi in una missione del capitolo 1, si risolve in tre mosse: la torre in basso a sinistra verso l'alto, quella centrale verso il basso, quella in alto a destra verso il basso.",
+        "Oltre a Bang For Your Buck, nei cabinati delle sale giochi c'è anche Street Trash 3 (IGN).",
+        "In Bang For Your Buck il tempo che passa ti toglie soldi e ogni animale colpito te ne dà: non smettere di sparare. Ha cinque sfide (IGN).",
+        "Le soluzioni di tutti gli enigmi principali di Tenebrae Lux le hanno pubblicate Kotaku e IGN."
       ],
       "image": null,
       "status": "da verificare",
@@ -1042,10 +1058,12 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "group": "Svago",
       "moreSources": [
-        "https://insider-gaming.com/tenebrae-lux-gta-6/"
+        "https://insider-gaming.com/tenebrae-lux-gta-6/",
+        "https://www.ign.com/wikis/gta-6/Games",
+        "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940"
       ]
     },
     {
@@ -1456,7 +1474,7 @@
       ],
       "rewards": [
         "5 sfide: trucco della Tuff BMX (dopo la storia).",
-        "Tutte e 10: trucco della '65 Vapid Dominator (dopo la storia).",
+        "Tutte e 10: trucco della Vapid Dominator '65 (dopo la storia).",
         "Tutte e 80 le sfide: trucco del jet Hauners P-996 Lazer."
       ],
       "steps": [
@@ -1682,7 +1700,7 @@
       "name": "Auto per Wyman (Ultimate Edition)",
       "districtId": "dis-grassrivers",
       "group": "Lavoretti e crimini",
-      "description": "Incarichi esclusivi dell'Ultimate Edition: Wyman, che conosci al motel, ti manda a cercare auto classiche da ricostruire. Si aprono dopo aver recuperato la '67 Vapid Dominator Buggy nel capitolo 2.",
+      "description": "Incarichi esclusivi dell'Ultimate Edition: Wyman, che conosci al motel, ti manda a cercare auto classiche da ricostruire. Si aprono dopo aver recuperato la Vapid Dominator Buggy '67 nel capitolo 2.",
       "requirements": [
         "Contano come incarichi facoltativi per il 100%: ti permettono di saltarne altri.",
         "Li trovi nella scheda Esplorazione della mappa (lente), con l'icona viola «W»."

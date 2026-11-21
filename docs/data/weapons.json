@@ -1068,12 +1068,12 @@
       "description": "La classica mazza da baseball, arma da mischia.",
       "howToGet": "Da verificare.",
       "image": "assets/img/vice/armi/wpn-bat.webp",
-      "status": "da verificare",
-      "source": "stampa",
+      "status": "verificato",
+      "source": "gioco-mike",
       "sourceUrl": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "seenIn": "Screenshot ufficiali",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-baseballbat-scaled.webp",
       "imageCredit": "vice-central.com / Rockstar Games",
@@ -1097,24 +1097,6 @@
           "text": "Variante unica «Brontasaurus Bat»: al parco Dino World, a Frogswater (IGN)."
         }
       ]
-    },
-    {
-      "id": "wpn-hammer",
-      "name": "Martello",
-      "manufacturer": null,
-      "class": "corpo-a-corpo",
-      "description": "Tra i personaggi c'è una donna armata di due martelli, diventata un piccolo mito tra i fan.",
-      "howToGet": "Da verificare.",
-      "image": "assets/img/vice/armi/wpn-hammer.webp",
-      "status": "da verificare",
-      "source": "community",
-      "sourceUrl": "https://gtabase.com/gta-6/weapons/",
-      "spoilerLevel": 0,
-      "example": false,
-      "updatedAt": "2026-11-06",
-      "seenIn": "Trailer 1",
-      "imageUrl": "https://vice-central.com/wp-content/uploads/2026/08/gta6-arme-hammer.webp",
-      "imageCredit": "vice-central.com / Rockstar Games"
     },
     {
       "id": "wpn-body-armor",
@@ -1154,14 +1136,15 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "facts": [
         "Rompere il finestrino resta possibile, ma fa rumore e fa partire l'allarme"
       ],
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-slim-jim/",
         "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
-        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/"
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -1525,14 +1508,17 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-crowbar",
       "name": "Piede di porco",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Forza le casse sigillate: in alcuni colpi ti fa portare via un bottino più grande. È tra i 12 oggetti di Equipaggiamento del menu Progressi.",
-      "howToGet": "Da verificare.",
-      "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+      "howToGet": "Arriva in automatico nella prima parte del capitolo 3, con la stessa missione principale dell'attrezzo da taglio: lo usi da solo quando forzi qualcosa per rubare.",
+      "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-equipment/"
+      ]
     },
     {
       "image": null,
@@ -1628,13 +1614,13 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-flashlight",
       "name": "Torcia",
       "manufacturer": "Vom Feuer",
       "class": "equipaggiamento",
       "description": "Fa luce nei posti bui, ma non sostituisce un'arma. È tra i 12 oggetti di Equipaggiamento del menu Progressi.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Ce l'hai dall'inizio del capitolo 1, già dalla prima missione: si sceglie dalla ruota degli oggetti.",
       "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
       "facts": [
         "Compare nel leak dell'agosto 2026",
@@ -1642,7 +1628,8 @@
       ],
       "moreSources": [
         "https://www.gtabase.com/weapons/gta-6/flashlight",
-        "https://gta.wiki/w/Flashlight"
+        "https://gta.wiki/w/Flashlight",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ],
       "realModel": "Ledlenser M7R"
     },
@@ -1652,7 +1639,7 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-key-cloner",
       "name": "Key Cloner",
       "manufacturer": null,
@@ -1664,7 +1651,8 @@
         "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-clone-keys/",
         "https://culturedvultures.com/gta-6-how-to-get-a-key-cloner/",
-        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -1673,19 +1661,20 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-mask",
       "name": "Maschera",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Si indossa durante il crimine e poi si toglie appena sei fuori vista: nasconde il volto anche alle telecamere. In auto le maschere hanno una ruota a parte. Nel capitolo 3 scegli un paio di maschere per i colpi in banca.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Te la mettono addosso alcune rapine della storia; poi la scegli dal menu degli oggetti. Altre maschere si comprano in alcuni Ammu-Nation.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "imageUrl": "https://vice-central.com/wp-content/uploads/2026/10/trailer-lancement-full/gta-6-trailer-lancement-plan-036.jpg",
       "moreSources": [
         "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
         "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
-        "https://playday.one/2026/11/18/all-stats-tracked-in-gta-6/"
+        "https://playday.one/2026/11/18/all-stats-tracked-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -1694,17 +1683,18 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "wpn-duffel",
       "name": "Borsa della refurtiva",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "La refurtiva si raccoglie una mazzetta alla volta e va nelle borse della refurtiva: servono per portare banconote segnate, gioielli e stupefacenti fino alla consegna. Ne puoi portare più d'una e passarne una al partner tenendo premuto il tasto; la capienza dipende dal veicolo. Nelle Statistiche il gioco conta le borse sequestrate, perse e recuperate.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Arriva nel capitolo 1, alla prima missione in cui raccogli refurtiva: si mette da sola appena prendi qualcosa da rubare.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "moreSources": [
         "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -1713,17 +1703,18 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-binoculars",
       "name": "Binocolo",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Si sceglie dalla ruota: avvicini l'immagine con la freccia su della croce direzionale e tieni premuto R1 per studiare un animale. Per il 100% bastano 100 animali su 255.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Ce l'hai dall'inizio del capitolo 1, già dalla prima missione: si sceglie dalla ruota degli oggetti.",
       "sourceUrl": "https://www.gtabase.com/gta-6/weapons/",
       "moreSources": [
         "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -1793,15 +1784,18 @@
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "id": "wpn-headphones",
       "name": "Auricolari",
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Per ascoltare a piedi radio, playlist e podcast.",
-      "howToGet": "Da verificare.",
+      "howToGet": "Si comprano in uno dei 15 negozi di elettronica.",
       "sourceUrl": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
-      "whereToBuy": "Negozi di elettronica"
+      "whereToBuy": "Negozi di elettronica",
+      "moreSources": [
+        "https://www.powerpyx.com/gta-6-all-equipment/"
+      ]
     },
     {
       "image": null,
@@ -1887,10 +1881,11 @@
       "status": "verificato",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-meet-the-heders-walkthrough/",
       "moreSources": [
-        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -2969,11 +2964,12 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/",
-        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -2989,10 +2985,11 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
-        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/"
+        "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -3001,17 +2998,18 @@
       "manufacturer": null,
       "class": "equipaggiamento",
       "description": "Trova gli oggetti di metallo a corto raggio e funziona anche sott'acqua: sui fondali cerca i tesori sepolti, e quando la luce passa da rossa a verde sei sopra il punto giusto.",
-      "howToGet": "Nella ruota delle armi, in basso a destra; serve per i tesori di Kenton.",
+      "howToGet": "Arriva nel capitolo 1, con il primo lavoro per Kenton. Si sceglie dalla ruota delle armi, in basso a destra, e serve per i tesori di Kenton.",
       "image": null,
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
-        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+        "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "https://www.powerpyx.com/gta-6-all-equipment/"
       ]
     },
     {
@@ -3197,6 +3195,34 @@
       "updatedAt": "2026-11-20",
       "price": "315 $",
       "moreSources": []
+    },
+    {
+      "id": "wpn-cursed-knife",
+      "name": "Cursed Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Coltello da mischia che IGN mette tra le armi bianche normali del gioco; dove si trova non è ancora indicato.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Melee_Weapons",
+      "spoilerLevel": 0,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "wpn-donnies-knife",
+      "name": "Donnie's Knife",
+      "manufacturer": null,
+      "class": "corpo-a-corpo",
+      "description": "Il coltello di Donnie: IGN lo mette tra le armi bianche normali del gioco; come si ottiene non è ancora indicato.",
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://www.ign.com/wikis/gta-6/Melee_Weapons",
+      "spoilerLevel": 1,
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "image": null
     }
   ],
   "notes": {

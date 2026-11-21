@@ -2,10 +2,315 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "new-20261121-ron-kaleidoscope-fm",
+      "date": "2026-11-21",
+      "title": "C'è anche Ron nella radio di GTA VI: «Hai capito o no?», un suo brano del 1983, passa su Kaleidoscope FM",
+      "body": "La notizia: tra le canzoni di Kaleidoscope FM, la radio dei successi internazionali condotta da Jeremy Irons, c'è «Hai capito o no?» del cantautore pavese Ron. È la versione italiana di «I Can't Go for That (No Can Do)» di Daryl Hall & John Oates e sta nel suo album dal vivo «Tutti cuori viaggianti».\n\nCosa dice Ron: il pezzo gli ricorda gli anni della ricerca di suoni nuovi e del lungo viaggio negli Stati Uniti all'inizio degli anni '80, quando conobbe anche Hall & Oates. Ne hanno scritto All Music Italia, Libero e Rockol.",
+      "topic": "musica",
+      "outlet": "All Music Italia / Libero / Rockol",
+      "source": "stampa",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.allmusicitalia.it/news/ron-gta-6-hai-capito-o-no.html",
+      "relatedIds": [
+        "new-20261120-the-album-uscito"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.libero.it/magazine/news/ron-gta-6-hai-capito-o-no-canzone-videogioco-232326",
+        "https://www.rockol.it/news-762708/ron-gta-6-hai-capito-o-no-colonna-sonora"
+      ]
+    },
+    {
+      "id": "new-20261121-vendite-ufficiali-3-79-miliardi",
+      "date": "2026-11-20",
+      "title": "Ufficiale: 3,79 miliardi di dollari nel primo giorno e 32,5 milioni di copie vendute prima dell'uscita, «il più grande lancio dell'intrattenimento di sempre»",
+      "body": "I numeri: venerdì 20 Take-Two ha comunicato, anche alla Borsa americana, che GTA VI ha fatto 3,79 miliardi di dollari di vendite al dettaglio nel primo giorno, contando fino alla fine di giovedì 19 in tutto il mondo. Prima dell'uscita erano già state vendute 32,5 milioni di copie, «un record su tutte le piattaforme». Per Rockstar è il lancio più grande nella storia dell'intrattenimento, film e musica compresi.\n\nPer confronto: GTA V nel 2013 aveva fatto circa 800 milioni di dollari nel primo giorno, Red Dead Redemption 2 725 milioni nel primo weekend; Avengers: Endgame ha incassato poco più di 2,9 miliardi in tutta la sua vita nei cinema. Sam Houser: «Siamo profondamente toccati dalla risposta dei giocatori di tutto il mondo».\n\nDa sapere: sono stime della società, e 3,79 miliardi sono vendite nei negozi (prezzo pagato dai giocatori), non quello che incassa Take-Two. Non c'è la divisione tra PS5 e Xbox. Le stime di Sensor Tower dei giorni scorsi (fino a 24,6 milioni di copie) erano quindi basse.",
+      "topic": "business",
+      "outlet": "Take-Two Interactive / Rockstar Games / PC Gamer / Push Square / GamesRadar+",
+      "source": "trailer",
+      "status": "verificato",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm",
+      "relatedIds": [
+        "new-20261120-sensor-tower-24-milioni",
+        "new-20261119-sensor-tower-19-milioni",
+        "new-20261119-vendite-17-milioni-stime",
+        "new-20261118-metacritic-99-record"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
+        "https://www.pushsquare.com/news/2026/11/gta-6-sells-a-record-breaking-32-5-million-copies",
+        "https://www.gamesradar.com/games/grand-theft-auto/lets-put-gta-6s-usd3-79-billion-launch-into-perspective-gta-5-made-usd800-million-at-launch-and-red-dead-redemption-2-made-usd725-million/",
+        "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
+      ]
+    },
+    {
+      "id": "new-20261121-circana-61-per-cento-8-ore",
+      "date": "2026-11-20",
+      "title": "Il primo giorno ci ha giocato il 61% di chi aveva acceso una PS5 negli Stati Uniti, in media per oltre otto ore",
+      "body": "I dati: secondo Mat Piscatella di Circana, giovedì 19 il 61% dei giocatori PS5 attivi negli Stati Uniti e il 56% dei giocatori Xbox attivi nel mondo hanno avviato GTA VI. In media chi ci ha giocato è rimasto davanti allo schermo 513 minuti su PS5 (quasi 8 ore e mezza) e 494 su Xbox. Piscatella definisce «assolutamente fuori di testa» sia il numero di giocatori al giorno sia il tempo passato in gioco.\n\nDa sapere: sono percentuali di chi ha usato la console quel giorno, non di tutte le console vendute. Circana non dà numeri assoluti.",
+      "topic": "business",
+      "outlet": "Push Square / Polygon / GamingBolt / Circana",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.pushsquare.com/news/2026/11/61percent-of-all-us-ps5-owners-played-gta-6-on-launch-day-averaging-8-hours",
+      "relatedIds": [
+        "new-20261121-vendite-ufficiali-3-79-miliardi",
+        "new-20261119-circana-ottobre-xbox"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.polygon.com/gta-6-playtime-stats-launch-day-ps5-xbox-series-x/",
+        "https://gamingbolt.com/gta-6-players-averaged-8-hours-of-playtime-at-launch-says-circana"
+      ]
+    },
+    {
+      "id": "new-20261121-rockstar-mille-veterani",
+      "date": "2026-11-20",
+      "title": "Uno su cinque in Rockstar ci lavora da più di dieci anni: circa mille persone, dice lo studio a Bloomberg",
+      "body": "Il dato: un portavoce di Rockstar ha detto a Jason Schreier di Bloomberg che il 21% dei dipendenti, circa mille persone, lavora nello studio da almeno dieci anni. Se ne ricava una squadra di quasi 5.000 persone: secondo GamingBolt, più del doppio di quella di Red Dead Redemption 2. Il co-direttore Aaron Garbut aveva già indicato l'esperienza accumulata come uno dei segreti del gioco.\n\nIl contesto: il dato arriva mentre è ancora aperta la causa dei 34 dipendenti licenziati quest'anno, i cui nomi compaiono comunque nei titoli di coda, e dopo che un programmatore di Rockstar North ha raccontato al Guardian la paura di nuovi tagli.",
+      "topic": "business",
+      "outlet": "Bloomberg / GamingBolt / PC Gamer / GamesRadar+",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://gamingbolt.com/gta-6-worked-on-by-1000-employees-who-have-been-at-rockstar-for-nearly-10-years",
+      "relatedIds": [
+        "new-20261118-rockstar-tribunale-sindacato",
+        "new-20261119-sviluppatore-paura-licenziamenti"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch/"
+      ]
+    },
+    {
+      "id": "new-20261121-review-bombing-metacritic",
+      "date": "2026-11-20",
+      "title": "99 per la critica, 5 per gli utenti: su Metacritic si aprono i voti dei giocatori e arriva una pioggia di zeri",
+      "body": "Cosa succede: venerdì 20 Metacritic ha aperto i voti degli utenti e in poche ore GTA VI è sceso intorno a 5 su 10 («giudizi contrastanti»). Nella notte Vice Central contava quasi 16.000 voti con media 5,3: 7.165 positivi, 7.462 negativi e pochissimi nel mezzo, il segno tipico dei voti a raffica. La critica resta a 99.\n\nI motivi: molti zeri ripetono le stesse frasi, «30 fps ingiocabili», «è diventato woke», niente prostitute da ingaggiare, le scene di coppia; Kotaku la chiama una campagna di disinformazione. Ci sono anche critiche vere: crash, salvataggi persi, un ritmo lento all'inizio.\n\nDa sapere: su Metacritic si vota anche senza avere il gioco. Sul PlayStation Store, dove serve averlo comprato, il voto è 4,84 su 5 con circa 170.000 valutazioni (Push Square); su Backloggd 3,9 su 5. Non conta per i Game Awards, votati dalle testate.",
+      "topic": "community",
+      "outlet": "Insider Gaming / Kotaku / Push Square / Vice Central",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://insider-gaming.com/gta-6-review-bombed/",
+      "relatedIds": [
+        "new-20261118-metacritic-99-record",
+        "new-20261118-recensioni-capolavoro",
+        "new-20261118-niente-prostitute",
+        "new-20261120-ps5-errore-ce-108255-1"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
+        "https://www.pushsquare.com/news/2026/11/overrated-game-gta-6-ps5-review-bombing-has-started-after-record-breaking-release",
+        "https://vice-central.com/gta-vi-review-bombing-metacritic-note-joueurs/",
+        "https://www.spaziogames.it/notizie/gta-6-e-gia-vittima-di-review-bombing"
+      ]
+    },
+    {
+      "id": "new-20261121-negozi-ultimate-porte-chiuse",
+      "date": "2026-11-20",
+      "title": "Senza l'Ultimate Edition i quattro negozi esclusivi restano chiusi a chiave: non si entra nemmeno a guardare",
+      "body": "Cosa succede: One-Eyed Willie's, Sara's Unisex Salon, Stock 305 ed Electric Fang Tattoo Parlor, i negozi dell'Ultimate Edition, ci sono anche nella versione normale, con l'insegna e gli interni arredati, ma la porta non si apre. Molti si aspettavano almeno di poter entrare senza comprare; IGN racconta le proteste di chi parla di scelta «avida».\n\nDa sapere: era scritto nell'elenco dei contenuti dell'Ultimate (20 dollari in più rispetto alla Standard). Con l'Ultimate i bonus si sbloccano capitolo dopo capitolo, quindi anche chi l'ha comprata può trovare qualche negozio ancora chiuso nei primi capitoli.",
+      "topic": "uscita",
+      "outlet": "IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors",
+      "relatedIds": [
+        "new-20261118-ultimate-a-capitoli",
+        "brd-one-eyed-willie-s-mod-shop",
+        "brd-sara-s-unisex-salon",
+        "brd-stock-305",
+        "brd-electric-fang-tattoo"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-comcast-giorno-record",
+      "date": "2026-11-20",
+      "title": "Stati Uniti: per Comcast il 18 novembre è stato il giorno di traffico più intenso dalla nascita della società, nel 1963",
+      "body": "I numeri: secondo Comcast (Xfinity), il giorno del preload ha avuto un picco del 31% sopra un giorno medio e del 9,6% sopra il record precedente; nelle ore di punta il 24% di tutto il traffico della rete era gente che scaricava o giocava GTA VI. Cinque dei dieci giorni più trafficati di sempre sono legati al gioco. Anche Twitch è salito di quasi il 50% il 18.\n\nPer capirci: il solo traffico di PlayStation e Xbox del 18 sarebbe bastato a un milione di case per guardare un film in 4K per due giorni di fila.",
+      "topic": "tecnica",
+      "outlet": "IGN / Comcast",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.ign.com/articles/gta-6-triggers-busiest-traffic-day-in-comcast-history",
+      "relatedIds": [
+        "new-20261118-xfinity-traffico-xbox",
+        "new-20261119-internet-record-regno-unito",
+        "new-20261119-de-cix-record-europa"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-inghilterra-scuole-assenze",
+      "date": "2026-11-20",
+      "title": "Inghilterra: il giorno dell'uscita a scuola mancavano 35.000 studenti in più, soprattutto ragazzi degli ultimi anni",
+      "body": "I dati: secondo il Telegraph, che cita Arbor (il registro di 1.415 scuole superiori inglesi, 1,3 milioni di studenti), giovedì 19 la presenza è scesa all'88,8% contro il 91,3% medio dei tre giorni prima: circa 35.000 assenti in più. I maschi mancavano più delle femmine in tutte le classi; tra i ragazzi dell'ultimo anno le assenze sono salite dal 10,6% al 16,8%.\n\nNon è servito molto: alcune scuole avevano promesso buoni premio a chi veniva tutta la settimana e una di Birmingham voleva mandare un pulmino a prendere gli assenti. Nel lavoro, BrightHR segnala il 56% di malattie in più rispetto al giovedì prima.",
+      "topic": "community",
+      "outlet": "The Telegraph / Rockstar Intel / Dexerto / Vice Central",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://rockstarintel.com/35000-more-students-missed-school-in-england-on-gta-vi-release-day/",
+      "relatedIds": [
+        "new-20261117-italia-prima-ferie",
+        "new-20261120-premier-britannico"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.dexerto.com/gta/school-sends-out-minibus-to-catch-absent-pupils-playing-gta-6-3430063/",
+        "https://vice-central.com/gta-vi-absences-ecoles-angleterre-35000-eleves/"
+      ]
+    },
+    {
+      "id": "new-20261121-guida-ufficiale-ign",
+      "date": "2026-11-20",
+      "title": "C'è una guida ufficiale gratuita: IGN l'ha fatta insieme a Rockstar, con mappa interattiva e liste da spuntare",
+      "body": "Cosa è uscito: IGN ha pubblicato la «Official Online Guide» di GTA VI, preparata in collaborazione diretta con Rockstar. È gratis sul sito di IGN, ha una mappa interattiva fatta con MapGenie, liste per segnare le cose fatte e pagine su missioni, meccaniche e mondo. IGN dice che si ispira alle vecchie guide strategiche di carta, che non fa spoiler e che verrà aggiornata dopo l'uscita.\n\nDa sapere: è in inglese. Essendo fatta con Rockstar, è una delle fonti più affidabili per nomi, posizioni e numeri; ma quello che vedi nel tuo gioco resta il riferimento.",
+      "topic": "gameplay",
+      "outlet": "GamesIndustry.biz / IGN",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
+      "relatedIds": [
+        "new-20261119-mappa-ufficiale-online",
+        "new-20261121-donkin-niente-checklist"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-donkin-niente-checklist",
+      "date": "2026-11-20",
+      "title": "Rockstar ai giocatori: «smettete di pensare a compiti, percentuali di completamento e guide online»",
+      "body": "Cosa ha detto: Stephen Donkin, vicepresidente del design di Rockstar, nelle note di sviluppo date alla stampa spera che a Leonida si arrivi a «smettere di pensare in compiti, percentuali di completamento, guide online» e a lasciare che il gioco si apra da solo. Se lo si gioca con calma, al ritmo che chiede, dice, sembra quasi infinito, ma ogni incontro ha l'aria di essere fatto a mano.\n\nIl consiglio: «seguite il vostro naso». Lo stesso giorno IGN ha pubblicato la guida ufficiale fatta con Rockstar: le due cose stanno insieme, una guida serve quando ci si blocca o si cerca qualcosa di preciso.",
+      "topic": "gameplay",
+      "outlet": "GamesRadar+ / Rockstar Games",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-exec-stop-thinking-in-tasks-completion-percentages-online-guides-and-approach-leonida-like-a-new-kind-of-open-world/",
+      "relatedIds": [
+        "new-20261121-guida-ufficiale-ign",
+        "new-20261118-missioni-niente-rigioco"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-tenebrae-lux-parodia",
+      "date": "2026-11-20",
+      "title": "Tenebrae Lux, il videogioco dentro GTA VI, prende in giro gli autori dei giochi indipendenti: e i suoi enigmi sono difficili davvero",
+      "body": "Cos'è: è il gioco in bianco e nero che Cal fa provare a Jason sulla JoySystem di casa. Un uomo che non smette mai di parlare naufraga su un'isola con un faro e deve risolvere enigmi; lo ha creato Johannes Zuch, un «genio» che lavora da solo perché gli altri lo rallenterebbero. Per Polygon e Kotaku è una parodia di Jonathan Blow, l'autore di Braid e The Witness; la citazione d'apertura è firmata da un filosofo dei «Twmffat», che in gallese vuol dire «idiota».\n\nPerché se ne parla: Kotaku ed Eurogamer l'hanno finito e dicono che, battute a parte, gli enigmi funzionano e richiedono carta e penna. Dopo la missione lo si può rigiocare sulla JoySystem di casa.",
+      "topic": "community",
+      "outlet": "Kotaku / Polygon / Eurogamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 1,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta-6s-tenebrae-lux-is-a-hilarious-parody-of-video-game-auteurs-and-a-surprisingly-good-puzzle-diversion-2000758837",
+      "relatedIds": [
+        "new-20261119-videogiochi-nel-gioco",
+        "act-videogiochi",
+        "brd-joysystem-8"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null,
+      "moreSources": [
+        "https://www.polygon.com/gta-6-tenebrae-lux-jonathan-blow/",
+        "https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing",
+        "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940"
+      ]
+    },
+    {
+      "id": "new-20261121-opzioni-accessibilita",
+      "date": "2026-11-20",
+      "title": "Le opzioni di accessibilità: minigiochi semplificati, guida automatica e combattimenti più facili, senza perdere trofei né salvataggi",
+      "body": "Dove sono: menu di pausa, Impostazioni, poi R1 fino alla sezione del gioco (Gameplay nella versione inglese); in fondo c'è la parte dedicata all'accessibilità. Si usano da subito, senza sbloccarle.\n\nLe più utili secondo Kotaku: minigiochi semplificati (allenamenti, avviare un'auto senza chiavi, tiri a canestro meno legati al tempismo e ai grilletti), guida automatica (ti porta alla missione; in modalità senza limiti anche durante inseguimenti e fughe, ma può comunque andare a sbattere), combattimento accessibile e meno danni ai veicoli.\n\nDa sapere: a differenza dei trucchi non bloccano trofei e salvataggi, ma cambiano parecchio l'equilibrio del gioco.",
+      "topic": "gameplay",
+      "outlet": "Kotaku",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
+      "relatedIds": [
+        "new-20261118-trucchi-dopo-la-storia",
+        "new-20261118-dalle-recensioni-come-si-gioca"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-aereo-quattro-minuti",
+      "date": "2026-11-20",
+      "title": "Quanto è grande Leonida in aereo: da un capo all'altro in poco più di quattro minuti",
+      "body": "La prova: PC Gamer ha attraversato la mappa con l'idrovolante Mammoth Dodo, dalla punta sud dell'arcipelago fino all'estremo nord: 4 minuti e 18 secondi, poco meno di un'ora del tempo del gioco. Gli aerei più vicini a casa di Jason si trovano seguendo la Sunbelt Highway verso sud.\n\nAttenzione: non sorvolate la base militare lì vicino. In auto la stessa traversata richiede circa undici minuti e a piedi più di tre ore.",
+      "topic": "mappa",
+      "outlet": "PC Gamer",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
+      "relatedIds": [
+        "new-20261118-mappa-a-piedi-e-benzina",
+        "new-20261119-mappa-ufficiale-online"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
+      "id": "new-20261121-feder-ultimo-kolossal",
+      "date": "2026-11-20",
+      "title": "Un ex capo di Take-Two: GTA VI sarà «l'ultimo kolossal prima dell'intelligenza artificiale»",
+      "body": "Cosa dice: Ben Feder, amministratore delegato di Take-Two prima di Strauss Zelnick, scrive su Fortune che GTA VI è il capolavoro finale di un modo di fare giochi: anni di lavoro di migliaia di persone, dove cambiare idea costa tantissimo. L'intelligenza artificiale, dice, «abbassa il costo di cambiare idea».\n\nIl paragone: come i pittori realisti dopo l'arrivo della fotografia, secondo Feder un giorno si guarderà a GTA VI come all'ultimo grande esempio di un modello, poco prima che nascano forme nuove. È un'opinione personale: Rockstar non c'entra.",
+      "topic": "business",
+      "outlet": "Fortune / GamesRadar+ / Everyeye",
+      "source": "stampa",
+      "status": "da verificare",
+      "spoilerLevel": 0,
+      "example": false,
+      "sourceUrl": "https://www.gamesradar.com/games/grand-theft-auto/former-take-two-ceo-says-gta-6-is-the-last-pre-ai-blockbuster-video-game-of-its-kind-rockstars-game-represents-the-culmination-of-a-model-of-creativity-that-ai-is-about-to-upend/",
+      "relatedIds": [
+        "new-20261120-zelnick-gta-7-orologio"
+      ],
+      "updatedAt": "2026-11-21",
+      "image": null
+    },
+    {
       "id": "new-20261120-sensor-tower-24-milioni",
       "date": "2026-11-20",
       "title": "Vendite, la stima di fine giornata: 24,6 milioni di copie e 2,36 miliardi di dollari, quasi tre volte il primo giorno di GTA V",
-      "body": "La stima: secondo Sensor Tower, ripresa da Reuters, VGC e GamesRadar+, la sera di giovedì 19 GTA VI era a 24,58 milioni di copie tra preordini e vendite del primo giorno, circa 2,36 miliardi di dollari. Sono 5,5 milioni in più della stima del mattino (19,1 milioni). Tre copie su quattro sono per PS5. GTA V nel 2013 aveva incassato circa 800 milioni nelle prime 24 ore.\n\nAltri numeri: Cloudflare dice alla BBC che nel Regno Unito gli scaricamenti dalle PS5 sono arrivati a 8,6 volte il normale all'ora dello sblocco, e che il traffico verso i servizi di Rockstar ha toccato 11,2 volte il normale in Australia.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar parlano solo di una domanda «senza precedenti» e non hanno ancora dato numeri.",
+      "body": "La stima: secondo Sensor Tower, ripresa da Reuters, VGC e GamesRadar+, la sera di giovedì 19 GTA VI era a 24,58 milioni di copie tra preordini e vendite del primo giorno, circa 2,36 miliardi di dollari. Sono 5,5 milioni in più della stima del mattino (19,1 milioni). Tre copie su quattro sono per PS5. GTA V nel 2013 aveva incassato circa 800 milioni nelle prime 24 ore.\n\nAltri numeri: Cloudflare dice alla BBC che nel Regno Unito gli scaricamenti dalle PS5 sono arrivati a 8,6 volte il normale all'ora dello sblocco, e che il traffico verso i servizi di Rockstar ha toccato 11,2 volte il normale in Australia.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar parlano solo di una domanda «senza precedenti» e non hanno ancora dato numeri.\n\nAggiornamento di venerdì 20: Take-Two ha dato i numeri ufficiali, 32,5 milioni di copie vendute prima dell'uscita e 3,79 miliardi di dollari di vendite al dettaglio nel primo giorno: le stime di Sensor Tower erano basse.",
       "topic": "business",
       "outlet": "Sensor Tower / Reuters / VGC / GamesRadar+ / BBC",
       "source": "stampa",
@@ -16,9 +321,10 @@
       "relatedIds": [
         "new-20261119-sensor-tower-19-milioni",
         "new-20261119-vendite-17-milioni-stime",
-        "new-20261118-take-two-borsa-wells-fargo"
+        "new-20261118-take-two-borsa-wells-fargo",
+        "new-20261121-vendite-ufficiali-3-79-miliardi"
       ],
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "image": null,
       "moreSources": [
         "https://vice-central.com/gta-vi-24-millions-exemplaires-soir-sortie-sensor-tower/",
@@ -349,7 +655,7 @@
       "id": "new-20261120-cyberleek-build-xbox",
       "date": "2026-11-19",
       "title": "Cyberleek torna e dice di aver messo online una versione Xbox completa del gioco: manca il file per avviarla, e può contenere virus",
-      "body": "Cosa dice: la sera di giovedì 19 il gruppo Cyberleek, quello dei video rubati dei mesi scorsi, ha pubblicato un link a una «Xbox build 1.0.2.1 (nov 2026)» da oltre 200 GB, cioè i file della versione Xbox Series del gioco. Tiene però per sé l'eseguibile, il file che fa partire il gioco: promette di liberarlo se la sua criptovaluta arriva a 15 milioni di dollari di valore, o comunque il 23 novembre. Dice che così il gioco potrà girare sul PC con un emulatore «entro una settimana».\n\nCosa si sa: secondo PC Gamer alcuni esperti di sicurezza ritengono i file autentici, ma nessuno ha potuto avviarli. È la stessa tattica già vista in ottobre con la criptovaluta, poi crollata. Take-Two ha chiesto a Discord e Microsoft di aiutarla a identificare il gruppo.\n\nDa sapere: scaricare questi file è illegale e pericoloso: Kaspersky avverte che i finti «portali» e torrent di GTA VI sono il modo più usato per diffondere programmi che rubano password e portafogli crypto. Per chi gioca su PS5 non cambia nulla.",
+      "body": "Cosa dice: la sera di giovedì 19 il gruppo Cyberleek, quello dei video rubati dei mesi scorsi, ha pubblicato un link a una «Xbox build 1.0.2.1 (nov 2026)» da oltre 200 GB, cioè i file della versione Xbox Series del gioco. Tiene però per sé l'eseguibile, il file che fa partire il gioco: promette di liberarlo se la sua criptovaluta arriva a 15 milioni di dollari di valore, o comunque il 23 novembre. Dice che così il gioco potrà girare sul PC con un emulatore «entro una settimana».\n\nCosa si sa: secondo PC Gamer alcuni esperti di sicurezza ritengono i file autentici, ma nessuno ha potuto avviarli. È la stessa tattica già vista in ottobre con la criptovaluta, poi crollata. Take-Two ha chiesto a Discord e Microsoft di aiutarla a identificare il gruppo.\n\nDa sapere: scaricare questi file è illegale e pericoloso: Kaspersky avverte che i finti «portali» e torrent di GTA VI sono il modo più usato per diffondere programmi che rubano password e portafogli crypto. Per chi gioca su PS5 non cambia nulla.\n\nAggiornamento di sabato 21: i file sono circa 209 GB e, anche con l'eseguibile, sul PC non partirebbero: un emulatore delle Xbox Series che funzioni non esiste. L'alternativa sarebbe una «decompilazione», cioè ricostruire il codice per farlo girare sul PC: un lavoro lungo. La soglia per l'eseguibile è scesa a 15 milioni di dollari (prima erano 30). Le promesse di un «port per PC» entro una settimana restano senza base.",
       "topic": "tecnica",
       "outlet": "VGC / PC Gamer / GameSpot / Eurogamer",
       "source": "leak",
@@ -362,7 +668,7 @@
         "new-20261010-sondaggi-a-pagamento-in-crypto",
         "new-20260820-cyberleek"
       ],
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "image": null,
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/",
@@ -374,7 +680,7 @@
       "id": "new-20261120-ps5-errore-ce-108255-1",
       "date": "2026-11-19",
       "title": "Su alcune PS5 il gioco si chiude sempre nello stesso punto con l'errore CE-108255-1: per ora non c'è una soluzione",
-      "body": "Il problema: decine di giocatori su Reddit raccontano blocchi ripetuti con l'errore CE-108255-1, sulle PS5 normali, Slim e anche Pro. A qualcuno capita già nel prologo, ad altri sempre nello stesso momento di una delle prime missioni con Mandy, così non si va avanti con la storia. Anche su Xbox Series X c'è chi segnala chiusure dopo pochi minuti.\n\nCosa non funziona: svuotare la cache, ricostruire il database, reinstallare o ripristinare le licenze non ha aiutato nessuno. La pagina di Rockstar sugli errori rimanda all'assistenza di Sony, che per quel codice consiglia solo di aggiornare il gioco; ma dopo la 1.002.001 del 16 novembre non è uscito nessun aggiornamento.\n\nDa sapere: sono segnalazioni sparse, non un guasto di massa. GamesRadar+ ha chiesto un commento a Sony e Rockstar. Chi ha il problema non mandi la console in riparazione a pagamento: si aspetta la prima patch.",
+      "body": "Il problema: decine di giocatori su Reddit raccontano blocchi ripetuti con l'errore CE-108255-1, sulle PS5 normali, Slim e anche Pro. A qualcuno capita già nel prologo, ad altri sempre nello stesso momento di una delle prime missioni con Mandy, così non si va avanti con la storia. Anche su Xbox Series X c'è chi segnala chiusure dopo pochi minuti.\n\nCosa non funziona: svuotare la cache, ricostruire il database, reinstallare o ripristinare le licenze non ha aiutato nessuno. La pagina di Rockstar sugli errori rimanda all'assistenza di Sony, che per quel codice consiglia solo di aggiornare il gioco; ma dopo la 1.002.001 del 16 novembre non è uscito nessun aggiornamento.\n\nDa sapere: sono segnalazioni sparse, non un guasto di massa. GamesRadar+ ha chiesto un commento a Sony e Rockstar. Chi ha il problema non mandi la console in riparazione a pagamento: si aspetta la prima patch.\n\nAggiornamento di sabato 21: ancora nessuna patch dopo la 1.002.001, e né Rockstar né Sony hanno riconosciuto il problema. La pagina di aiuto di PlayStation su GTA VI parla solo di licenze, condivisione della console e bonus. In Italia gira la teoria del metallo liquido delle PS5 che si surriscalda, ma non ci sono prove. Notebookcheck ricorda che i salvataggi automatici non compaiono nel menu Salva: per recuperarli dopo un crash si passa dal menu Carica. Nel frattempo, salvare a mano dopo ogni missione.",
       "topic": "tecnica",
       "outlet": "GamesRadar+ / Dexerto",
       "source": "stampa",
@@ -386,10 +692,12 @@
         "new-20261119-primi-bug-virali",
         "new-20261116-patch-1-002-001"
       ],
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "image": null,
       "moreSources": [
-        "https://www.dexerto.com/gta/gta-6-players-report-game-breaking-crashes-on-ps5-and-xbox-3430090/"
+        "https://www.dexerto.com/gta/gta-6-players-report-game-breaking-crashes-on-ps5-and-xbox-3430090/",
+        "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+        "https://www.notebookcheck.net/1453724.html"
       ]
     },
     {
@@ -669,7 +977,7 @@
       "id": "new-20261119-sensor-tower-19-milioni",
       "date": "2026-11-19",
       "title": "Vendite, nuova stima: 19,1 milioni di copie e 1,84 miliardi di dollari la mattina dell'uscita, ma il titolo Take-Two apre in calo",
-      "body": "La stima: secondo Sensor Tower, ripreso da Reuters, la mattina di giovedì 19 GTA VI era già a 19,1 milioni di copie, circa 1,84 miliardi di dollari. Sono due milioni in più del conteggio di mercoledì a mezzogiorno di New York (17,1 milioni e 1,65 miliardi), fatto prima che il gioco si sbloccasse in Europa e in America. Per confronto, GTA V nel primo giorno del 2013 aveva incassato 815,7 milioni di dollari.\n\nLa Borsa: dopo il +6,2% di mercoledì, il titolo Take-Two ha aperto giovedì in calo dell'1,84%.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar non hanno ancora dato numeri; gli analisti si aspettano un primo bilancio nei prossimi giorni.",
+      "body": "La stima: secondo Sensor Tower, ripreso da Reuters, la mattina di giovedì 19 GTA VI era già a 19,1 milioni di copie, circa 1,84 miliardi di dollari. Sono due milioni in più del conteggio di mercoledì a mezzogiorno di New York (17,1 milioni e 1,65 miliardi), fatto prima che il gioco si sbloccasse in Europa e in America. Per confronto, GTA V nel primo giorno del 2013 aveva incassato 815,7 milioni di dollari.\n\nLa Borsa: dopo il +6,2% di mercoledì, il titolo Take-Two ha aperto giovedì in calo dell'1,84%.\n\nDa sapere: è una stima di una società di analisi, non un dato ufficiale. Take-Two e Rockstar non hanno ancora dato numeri; gli analisti si aspettano un primo bilancio nei prossimi giorni.\n\nAggiornamento di venerdì 20: Take-Two ha dato i numeri ufficiali, 32,5 milioni di copie vendute prima dell'uscita e 3,79 miliardi di dollari di vendite al dettaglio nel primo giorno: le stime di Sensor Tower erano basse.",
       "topic": "business",
       "outlet": "Vice Central / Reuters / Sensor Tower",
       "source": "stampa",
@@ -679,9 +987,10 @@
       "sourceUrl": "https://vice-central.com/gta-vi-19-millions-exemplaires-sensor-tower-action-take-two/",
       "relatedIds": [
         "new-20261119-vendite-17-milioni-stime",
-        "new-20261118-take-two-borsa-wells-fargo"
+        "new-20261118-take-two-borsa-wells-fargo",
+        "new-20261121-vendite-ufficiali-3-79-miliardi"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "image": null
     },
     {
@@ -1067,7 +1376,7 @@
       "id": "new-20261119-vendite-17-milioni-stime",
       "date": "2026-11-19",
       "title": "Vendite: oltre 17 milioni di copie e circa 1,65 miliardi di dollari già al lancio, secondo le stime; tre su quattro su PlayStation",
-      "body": "Le stime: secondo i dati dei tracker indipendenti ripresi da Kotaku, tra preordini e prime vendite GTA VI ha superato i 17 milioni di copie digitali e circa 1,65 miliardi di dollari al momento del lancio. Circa tre copie su quattro sono per PS5; il resto per Xbox Series.\n\nDa sapere: sono stime di analisti, non dati ufficiali. Rockstar e Take-Two non hanno ancora comunicato cifre: IGN si aspetta un primo bilancio entro la fine della settimana o all'inizio della prossima. Per confronto, l'ultimo dato di Sensor Tower, del 17 novembre, era 15,88 milioni di preordini digitali.",
+      "body": "Le stime: secondo i dati dei tracker indipendenti ripresi da Kotaku, tra preordini e prime vendite GTA VI ha superato i 17 milioni di copie digitali e circa 1,65 miliardi di dollari al momento del lancio. Circa tre copie su quattro sono per PS5; il resto per Xbox Series.\n\nDa sapere: sono stime di analisti, non dati ufficiali. Rockstar e Take-Two non hanno ancora comunicato cifre: IGN si aspetta un primo bilancio entro la fine della settimana o all'inizio della prossima. Per confronto, l'ultimo dato di Sensor Tower, del 17 novembre, era 15,88 milioni di preordini digitali.\n\nAggiornamento di venerdì 20: Take-Two ha dato i numeri ufficiali, 32,5 milioni di copie vendute prima dell'uscita e 3,79 miliardi di dollari di vendite al dettaglio nel primo giorno: le stime di Sensor Tower erano basse.",
       "topic": "business",
       "outlet": "Kotaku / IGN / investingLive",
       "source": "stampa",
@@ -1078,9 +1387,10 @@
       "relatedIds": [
         "new-20261117-sensor-tower-15-milioni-ultimate",
         "new-20261118-take-two-borsa-wells-fargo",
-        "new-20261119-sensor-tower-19-milioni"
+        "new-20261119-sensor-tower-19-milioni",
+        "new-20261121-vendite-ufficiali-3-79-miliardi"
       ],
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "image": null,
       "moreSources": [
         "https://www.ign.com/articles/gta-6-launch-causes-massive-spike-in-traffic-for-internet-provider-xfinity"
@@ -1304,7 +1614,7 @@
       "id": "new-20261118-ultimate-a-capitoli",
       "date": "2026-11-18",
       "title": "Ultimate Edition: quasi tutto si sblocca andando avanti nella storia, e alcuni bonus si usano solo nel capitolo 1",
-      "body": "Come funziona: i contenuti della Ultimate arrivano un po' alla volta con la storia, come indicato nel negozio del gioco. I negozi esclusivi si aprono nel capitolo 1, molte altre cose entro la fine del capitolo 2 (per Eurogamer anche 25 ore di gioco); il motoscafo Shitzu Squalo e gli abiti e i tatuaggi «Vice City Style» nel capitolo 4, la '95 Grotti Cheetah nel 5, cioè verso le 60 ore.\n\nDa non perdere: alcuni bonus sono temporanei. La Dinka Enduro e il kayak Crest di Jason si usano solo durante il capitolo 1, come il Ganado in versione Retro Build da Coastal Auto Care a Key Lento: conviene provarli subito.",
+      "body": "Come funziona: i contenuti della Ultimate arrivano un po' alla volta con la storia, come indicato nel negozio del gioco. I negozi esclusivi si aprono nel capitolo 1, molte altre cose entro la fine del capitolo 2 (per Eurogamer anche 25 ore di gioco); il motoscafo Shitzu Squalo e gli abiti e i tatuaggi «Vice City Style» nel capitolo 4, la Grotti Cheetah '95 nel 5, cioè verso le 60 ore.\n\nDa non perdere: alcuni bonus sono temporanei. La Dinka Enduro e il kayak Crest di Jason si usano solo durante il capitolo 1, come il Ganado in versione Retro Build da Coastal Auto Care a Key Lento: conviene provarli subito.",
       "topic": "gameplay",
       "outlet": "Eurogamer / IGN",
       "source": "stampa",
@@ -2592,7 +2902,7 @@
       "id": "new-20261112-the-album-ascolti-negozi",
       "date": "2026-11-12",
       "title": "«The Album» si ascolta tutto il 18 novembre in oltre 230 negozi di dischi, il giorno prima dell'uscita",
-      "body": "Cosa sono: «listening party» nei negozi di dischi indipendenti mercoledì 18 novembre, la sera prima del gioco e dell'album. Si ascoltano tutti i 34 brani, mentre finora ne sono usciti dieci (tra cui «Don't Chart» di Cardi B, «RHYNO» di Travis Scott e «Blood In Your Eyes» di Tove Lo); la scaletta completa non è ancora pubblica.\n\nDove: oltre 230 negozi in Nord America, una quindicina in Florida e quattro a Miami (Endo Records, Lucky Records, Sweat Records, Technique Records); nel Regno Unito Jacaranda Records a Liverpool e Assai Records a Glasgow e Dundee, alle 17:00. In Italia per ora nessuno.\n\nCosa si riceve: con il preordine dell'album cartoline di Leonida e, a seconda del negozio, borse di tela, tappetini per giradischi ed estrazioni; i negozi indipendenti hanno anche un vinile in edizione limitata solo per loro. Quasi sempre l'ingresso è gratis, alcuni chiedono l'iscrizione. Dal 19 l'album è sulle piattaforme di streaming.",
+      "body": "Cosa sono: «listening party» nei negozi di dischi indipendenti mercoledì 18 novembre, la sera prima del gioco e dell'album. Si ascoltano tutti i 34 brani, mentre finora ne sono usciti dieci (tra cui «Don't Chart» di Cardi B, «RHYNO» di Travis Scott e «Blood In Your Eyes» di Tove Lo); la scaletta completa non è ancora pubblica.\n\nDove: oltre 230 negozi in Nord America, una quindicina in Florida e quattro a Miami (Endo Records, Lucky Records, Sweat Records, Technique Records); nel Regno Unito Jacaranda Records a Liverpool e Assai Records a Glasgow e Dundee, alle 17:00. In Italia per ora nessuno.\n\nCosa si riceve: con il preordine dell'album cartoline di Leonida e, a seconda del negozio, borse di tela, tappetini per giradischi ed estrazioni; i negozi indipendenti hanno anche un vinile in edizione limitata solo per loro. Quasi sempre l'ingresso è gratis, alcuni chiedono l'iscrizione. Dal 20 l'album è sulle piattaforme di streaming.",
       "topic": "musica",
       "outlet": "NME / Vice Central",
       "source": "stampa",
@@ -3873,7 +4183,7 @@
       "id": "new-20261107-fandom-polizie-capri-key-lento",
       "date": "2026-11-07",
       "title": "Le polizie di Capri e Key Lento, la Ganado e la Cheetah del '95",
-      "body": "Esistono il Capri Police Department e il Key Lento Police Department (KLPD); il Vice-Dale Police Department (VDPD) ricalca il Miami-Dade Sheriff's Office. La Vapid Ganado è il pick-up di Jason, con la variante Ganado Retro Build della Ultimate Edition (gialla con striscia rossa). La '95 Grotti Cheetah è bianca a strisce rosse, con fari a scomparsa. Delle missioni per ora si conoscono solo le due della Ultimate Edition.",
+      "body": "Esistono il Capri Police Department e il Key Lento Police Department (KLPD); il Vice-Dale Police Department (VDPD) ricalca il Miami-Dade Sheriff's Office. La Vapid Ganado è il pick-up di Jason, con la variante Ganado Retro Build della Ultimate Edition (gialla con striscia rossa). La Grotti Cheetah '95 è bianca a strisce rosse, con fari a scomparsa. Delle missioni per ora si conoscono solo le due della Ultimate Edition.",
       "topic": "community",
       "outlet": "GTA Wiki (Fandom)",
       "source": "community",
@@ -4802,7 +5112,7 @@
       "id": "new-20261029-score",
       "date": "2026-10-29",
       "title": "Lo score dei Justice esce l'11 dicembre: 30 tracce, circa tre ore, musica adattiva",
-      "body": "La colonna sonora originale «si adatta dinamicamente» a come giochi. Il secondo singolo è «Pusher», con Gesaffelstein, di oltre sette minuti. Esce in doppio CD e triplo vinile, anche in versione trasparente in edizione limitata. Xavier de Rosnay: «ci hanno dato la libertà di esplorare tutto quello che ci serviva». È un disco diverso da The Album (34 brani, 19 novembre).",
+      "body": "La colonna sonora originale «si adatta dinamicamente» a come giochi. Il secondo singolo è «Pusher», con Gesaffelstein, di oltre sette minuti. Esce in doppio CD e triplo vinile, anche in versione trasparente in edizione limitata. Xavier de Rosnay: «ci hanno dato la libertà di esplorare tutto quello che ci serviva». È un disco diverso da The Album (34 brani, 20 novembre).",
       "topic": "musica",
       "outlet": "Rockstar Newswire",
       "relatedIds": [
@@ -4975,7 +5285,7 @@
       "id": "new-20261103-billboards",
       "date": "2026-11-03",
       "title": "Cartelloni GTA VI in tutto il mondo spingono il Vintage Vice City Pack, scadenza 20 novembre",
-      "body": "Da Barcellona a Tokyo, da Melbourne a Città del Messico, i cartelloni ricordano che il pacchetto Vintage ('55 Vapid Stanier con garage vicino a Ocean Beach, abiti e acconciature, motivo per le armi) è l'ultimo bonus del preordine.",
+      "body": "Da Barcellona a Tokyo, da Melbourne a Città del Messico, i cartelloni ricordano che il pacchetto Vintage (Vapid Stanier '55 con garage vicino a Ocean Beach, abiti e acconciature, motivo per le armi) è l'ultimo bonus del preordine.",
       "topic": "business",
       "outlet": "VGTimes",
       "relatedIds": [],

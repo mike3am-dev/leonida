@@ -285,6 +285,30 @@
         {
           "source": "stampa",
           "text": "Per restare «Professionale» nelle rapine: minaccia il personale senza ferire nessuno, entra nel retro con la Snap Gun (dal capitolo 3), distruggi i nastri e spegni l'allarme, e vattene prima che arrivi la polizia. Per «Senza scrupoli» colpisci gambe e spalle: quando un nemico è a terra compare un segno giallo sul mirino (PowerPyx, Insider Gaming)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per i dettagli apri la mappa (touchpad), passa con L1 a «Jason & Lucia» e premi sinistra sulla croce per il profilo di Jason, destra per quello di Lucia (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Prima di diventare «Irredeemable» il gioco ti avvisa: il tempo rallenta e il diavoletto sul ritratto del personaggio si incrina, fino a tre volte. Alla fine si spezza e diventa grigio per sempre: si torna indietro solo caricando un salvataggio fatto prima, quindi salva prima di esagerare (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Verso «Irredeemable» si scivola più in fretta facendo saltare in aria auto e gruppi di passanti; uccidere agenti, quando sei già «Folle», pesa molto meno (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Cosa conta, secondo IGN: le scelte in missione (risparmiare chi non deve morire, la strada con meno morti), il modo di guidare (investire un passante spinge verso la violenza) e gli esplosivi, che è quasi impossibile usare senza peggiorare il profilo. Colpire i passanti pesa sempre, tranne in una scazzottata partita dal sistema di interazione, iniziata da te o da lui: lì il passante conta come un nemico (la polizia però può arrivare lo stesso)."
+        },
+        {
+          "source": "stampa",
+          "text": "«Senza scrupoli» è dove finisci se non cerchi guai ma rispondi quando ti sparano; uccidere agenti o ferire civili ti porta in fretta a «Violento». Da «Folle» in su gli agenti non ti lasciano più arrenderti (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Il profilo di tutti e due, insieme al livello della relazione, cambia le scelte e le scene che ti trovi davanti verso la fine della storia (IGN)."
         }
       ],
       "relatedIds": [
@@ -300,10 +324,11 @@
       "sourceUrl": "https://www.powerpyx.com/gta-6-criminal-profile-explained/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-criminal-profiles/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-criminal-profiles/",
+        "https://www.ign.com/wikis/gta-6/Criminal_Profile_Guide_and_Consequences"
       ],
       "profileTypes": [
         {
@@ -424,6 +449,22 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Sotto «Benessere» il gioco separa i potenziamenti normali dai superpotenziamenti per salute, resistenza e concentrazione. Allenamenti e meditazioni (anche in solitaria) fanno salire forza, cardio e concentrazione; il peso sale e scende, e il gioco registra lo stato di salute più frequente."
+        },
+        {
+          "source": "stampa",
+          "text": "Forza, cardio e concentrazione hanno quattro livelli ciascuno. Jason parte con la forza al livello 3: sulla barra della salute il trattino bianco separa la salute di base da quella in più che ti dà la forza. Gli allenamenti valgono solo per chi li fa, Jason e Lucia hanno ciascuno il suo (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Il cardio sale un po' anche solo correndo in giro. Nell'app Fitness il cerchio attorno a cuore, fulmine e occhio dice quanto manca al livello dopo, e il trattino bianco il limite di allenamento del giorno: raggiunto quello, per oggi hai finito (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Ai pesi tieni d'occhio la resistenza in alto a sinistra: se si svuota l'allenamento finisce. Alle ultime ripetizioni può comparire X da premere in fretta. Il sacco sotto casa (tieni premuto il comando per appenderlo) si colpisce col tasto del corpo a corpo e non ha barra: un avviso ti dice quando hai dato tutto per oggi (GamesRadar)."
+        },
+        {
+          "source": "stampa",
+          "text": "Lo Zombix cura solo fino al trattino bianco della barra: se ci sei già vicino ti ridà poco, e conviene mangiare o dormire. Per un potenziamento veloce di tutte e tre le barre basta un bicchiere d'acqua e una mela (IGN)."
         }
       ],
       "relatedIds": [
@@ -443,7 +484,7 @@
       "sourceUrl": "https://www.gtavice.net/news/gta-vi-edge-preview-reveals-huge-new-details-on-gameplay-police-relationships-and-more",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
         "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
@@ -452,7 +493,10 @@
         "https://www.gtaboom.com/gta-6-jasons-safehouse-activities-ceee",
         "https://www.pushsquare.com/guides/gta-6-workouts-explained-and-why-to-do-them",
         "https://www.eurogamer.net/how-to-boost-stats-gta-6",
-        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-players-confirm-true-fat-jason-and-max-weight-lucia-arent-very-fat-at-all-setting-the-stage-for-the-first-pc-mod-to-super-size-them/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-players-confirm-true-fat-jason-and-max-weight-lucia-arent-very-fat-at-all-setting-the-stage-for-the-first-pc-mod-to-super-size-them/",
+        "https://www.ign.com/wikis/gta-6/Fitness_and_Wellness_Explained",
+        "https://www.ign.com/wikis/gta-6/Where_to_Get_More_Zombix_and_Adrenaline",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-workout/"
       ]
     },
     {
@@ -540,6 +584,18 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Per l'aspetto il gioco distingue abbigliamento; capelli, barba e baffi; trucco; manicure; piercing; grillz (le capsule per i denti); tatuaggi."
+        },
+        {
+          "source": "stampa",
+          "text": "Cappelli e occhiali raccolti in giro, anche quelli che fai volare a un avversario con un pugno, restano tuoi solo se li salvi nel guardaroba (fino a 11 per tipo): altrimenti li perdi alla prossima morte o quando esci dal gioco. Se in rissa cadono i tuoi e non sono salvati, raccoglili prima di andare via (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "La prima maschera si compra da Chuck's Tackle & Shot, l'Ammu-Nation vicino a casa di Jason, nello scaffale a destra («Neckwear»). Di partenza la porti al collo: tieni premuto L1, passa agli oggetti con R1, scegli la maschera e premi su sulla croce per cambiare come la indossi e coprirti il viso (PC Gamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Rapinando un negozio di vestiti puoi prendere un outfit temporaneo: utile per la fuga, ma sparisce appena ti cambi (IGN). Fango e sporco si tolgono con la doccia o rinfrescandoti a un lavandino (IGN)."
         }
       ],
       "relatedIds": [
@@ -557,7 +613,7 @@
       "sourceUrl": "https://www.gtavice.net/news/igns-full-gta-6-interview-reveals-even-more-gameplay-details",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
         "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
@@ -566,7 +622,9 @@
         "https://gamerant.com/gta-6-how-get-tattoo-piercings-shop-bank-account/",
         "https://www.eurogamer.net/how-to-change-your-appearance-gta-6",
         "https://www.eurogamer.net/gta-6-add-outfits-to-your-car",
-        "https://kotaku.com/heres-why-you-can-get-a-haircut-at-3-am-in-gta-6-2000757815"
+        "https://kotaku.com/heres-why-you-can-get-a-haircut-at-3-am-in-gta-6-2000757815",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
+        "https://www.ign.com/wikis/gta-6/Chapter_2_Guide_and_Tips"
       ]
     },
     {
@@ -786,7 +844,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-polizia-ricercato",
       "title": "Polizia e livello di sospetto",
       "emoji": "🚨",
@@ -832,6 +890,14 @@
         {
           "title": "Quando si sblocca",
           "text": "È attivo da subito. L'app scanner che ti fa sentire le comunicazioni della polizia te la installa Cal, l'amico di Jason, nel capitolo 1."
+        },
+        {
+          "title": "Quali crimini, quante stelle",
+          "text": "Una stella: aggressione, spari in pubblico, pistola puntata su un agente, furto d'auto senza localizzatore, ingresso dove non si può. Due stelle di colpo: far saltare un distributore, aggredire un agente, uccidere un passante, rubare un'auto col localizzatore avanzato. Tre: uccidere un agente o più passanti con un esplosivo, ma ci arrivi anche picchiando una dozzina di agenti, con una serie di rapine o con un inseguimento che dura troppo. Quattro: più agenti uccisi o un aereo rubato all'aeroporto (arrivano i caccia: porta il paracadute). Cinque: una strage o tanti veicoli fatti saltare. Sei: solo una carneficina lunga, e da lì non si scappa più (IGN)."
+        },
+        {
+          "title": "Cosa fa la polizia a ogni livello",
+          "text": "A una stella arrivano da una a tre volanti e, se non hai un'arma in mano, gli agenti usano il taser: ti svuota la resistenza e, se poi ti afferrano, liberarti è molto più difficile. A due stelle sono di più e più aggressivi. A tre arrivano fucili, giubbotti, mezzi grossi che ti speronano, posti di blocco, l'elicottero e, se scappi a piedi, i cani. A quattro la SWAT con blindati e armi pesanti, e gli elicotteri sparano. A cinque più elicotteri e blindati, posti di blocco ovunque e ricerche dall'alto anche dopo che li hai seminati (IGN)."
         }
       ],
       "tips": [
@@ -880,6 +946,34 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Il gioco tiene conto di come semini la polizia: a piedi, con un veicolo di terra, in barca o in volo, e conta le unità cinofile seminate, le stelle perse e le volte che torni «sospettato ignoto». Superare i riconoscimenti (aspetto, vestiti, veicoli) e distruggere i filmati della videosorveglianza sono azioni a sé, come usare il partner come esca. La polizia può anche colpirti con scosse elettriche."
+        },
+        {
+          "source": "stampa",
+          "text": "Se devi sparare, mira alle gomme o ai punti gialli: le stelle salgono molto più piano che colpendo gli agenti al corpo o alla testa. Scappare in auto senza sparare raramente aggiunge stelle, ma è più difficile seminarli (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Ascolta lo scanner: quando l'elicottero torna alla base a fare rifornimento le stelle diventano grigie. Esci dalle strade principali e nasconditi: è il momento migliore per scappare. Sparandogli qualche colpo lo fai anche desistere (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Telecamere: l'icona della videocamera vuol dire che i filmati sono sul posto e puoi distruggerli; quella della nuvola che sono già online e non puoi farci niente, quindi vattene. Nelle banche capita spesso (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Se un passante tira fuori il telefono per chiamare la polizia, avvicinati e con Quadrato glielo fai cadere di mano; con tanti testimoni, però, qualcuno chiamerà comunque (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per allontanare i cani della polizia o delle gang senza ucciderli, spara a terra vicino a loro (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Rubare un jet alla base militare di Mile Zero vale subito almeno cinque stelle, con caccia che ti inseguono coi missili: vola basso (GamesRadar). Anche solo sorvolare la base in aereo ti porta a quattro stelle (PC Gamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Con la concentrazione, mentre ti cercano, vedi le onde sonore di volanti, cani, elicotteri e testimoni (IGN). Per far calmare le acque puoi anche infilarti in un locale: una redattrice di IGN ha fatto bere e ballare Jason e Lucia in un bar finché l'allerta è rientrata."
         }
       ],
       "relatedIds": [
@@ -915,7 +1009,10 @@
         "https://www.ign.com/articles/you-have-to-become-a-complete-psychopath-to-get-a-6-star-wanted-level-in-gta-6",
         "https://www.gamesradar.com/games/grand-theft-auto/how-to-get-a-six-star-wanted-level-gta-6/",
         "https://www.eurogamer.net/how-to-escape-cops-gta-6",
-        "https://insider-gaming.com/fastest-6-star-wanted-level-gta-6-escape/"
+        "https://insider-gaming.com/fastest-6-star-wanted-level-gta-6-escape/",
+        "https://www.ign.com/wikis/gta-6/Wanted_Guide_-_How_to_Escape_the_Cops_and_Clear_Heat",
+        "https://www.gtaboom.com/how-to-lose-the-cops-in-gta-6-every-way-to-shake-the-police-4ff9",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jet-how-to-get/"
       ]
     },
     {
@@ -1069,7 +1166,7 @@
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-armi",
       "title": "Armi",
       "emoji": "🔫",
@@ -1150,6 +1247,22 @@
         {
           "source": "stampa",
           "text": "Alcune armi speciali dell'Ammu-Nation si comprano solo se hai il conto in banca, che arriva a metà del capitolo 1 (Eurogamer, PC Gamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Accessori e colori si comprano solo parlando con il commesso di un Ammu-Nation (L2, «Armi e modifiche»), e solo per le armi che possiedi già. Gli accessori sono di dodici tipi (canne, impugnature anteriori, paramani, ottiche, caricatori, carrelli, calci, grilletti, silenziatori, mire metalliche…) e cambiano danno, precisione, maneggevolezza, gittata e caricatore; una volta comprati li cambi o li togli gratis in qualsiasi Ammu-Nation. Per l'aspetto ci sono 56 colori, 129 wrap e 6 palette, e ogni negozio ne ha una scelta diversa (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Le varianti uniche di armi sono 130 nel Progresso. Sono armi con modifiche già montate che non si possono cambiare: alcune sono in vetrina negli Ammu-Nation a caro prezzo, molte si prendono nelle operazioni illegali, altre stanno in posti nascosti (relitti, roulotte, grotte sott'acqua) o arrivano con la storia e i bonus dell'Ultimate. Nel mondo le riconosci dall'icona dorata e nei menu dal nome in giallo (IGN, PowerPyx)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per ogni arma porti al massimo qualche centinaio di colpi: nelle sparatorie lunghe cambia arma o fruga i nemici; passando sulle munizioni a terra le raccogli da solo (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Se hai addosso armi raccolte dai nemici non puoi usare l'armadietto dell'Ammu-Nation: buttale prima di sistemare l'equipaggiamento. Messe nel bagagliaio dell'auto personale, invece, non le perdi (IGN)."
         }
       ],
       "relatedIds": [
@@ -1184,14 +1297,15 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-free-guns-cop-cars/",
         "https://www.eurogamer.net/gta-6-get-a-bank-account-walkthrough",
-        "https://www.eurogamer.net/how-to-use-storage-gta-6"
+        "https://www.eurogamer.net/how-to-use-storage-gta-6",
+        "https://www.ign.com/wikis/gta-6/Beginner%27s_Guide_-_67_Tips_and_Tricks"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-combattimento",
       "title": "Combattimento",
       "emoji": "🎯",
@@ -1286,6 +1400,26 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Il gioco tiene il conto degli abbattimenti furtivi e della precisione al tiro, e distingue chi uccidi da chi rendi inoffensivo (civili e agenti)."
+        },
+        {
+          "source": "stampa",
+          "text": "Mentre miri: R3 passa alla vista nel mirino dell'arma, sinistra sulla croce cambia spalla, Triangolo cambia arma senza smettere di mirare (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Fuori dagli scontri Quadrato dà uno schiaffo o una spinta; se insisti, o se l'altro si scalda, passi a pugni e calci. Nel corpo a corpo R2 afferra e, premuto di nuovo, lancia (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Chi metti fuori combattimento non si rialza più, ma i compagni che lo trovano diventano guardinghi: sposta i corpi rimasti in vista. Per entrare di nascosto prova dal tetto: molti posti hanno più ingressi e botole sul soffitto (IGN)."
+        },
+        {
+          "source": "stampa",
+          "text": "Per distrarre una guardia, mentre miri premi Triangolo quando compare il comando per fischiare e aspetta che venga a controllare; mirando e premendo destra sulla croce la marchi e la segui sulla minimappa (GTA BOOM)."
+        },
+        {
+          "source": "stampa",
+          "text": "La concentrazione alla guida dura 30 secondi, ma meno quanto più vai veloce, fino a circa 10. Sui veicoli i punti da colpire sono gomme e motore, sugli elicotteri motore e rotore (IGN)."
         }
       ],
       "relatedIds": [
@@ -1313,20 +1447,22 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-classic-controls/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
         "https://insider-gaming.com/gta-6-control-settings/",
-        "https://www.eurogamer.net/gta-6-focus-mode-explained"
+        "https://www.eurogamer.net/gta-6-focus-mode-explained",
+        "https://www.ign.com/wikis/gta-6/How_Focus_Works",
+        "https://www.gtaboom.com/gta-6-focus-stealth-guide-02ba"
       ]
     },
     {
       "group": "Crimine",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-soldi",
       "title": "Soldi",
       "emoji": "💵",
       "short": "I soldi servono davvero: alcune missioni della storia si aprono solo quando Jason e Lucia ne hanno abbastanza. Li fai con rapine, furti d'auto su commissione e refurtiva venduta ai ricettatori.",
       "steps": [
-        "Tieni d'occhio il saldo nell'app BuckMe, che arriva verso metà del capitolo 1 con 100 $ di benvenuto. Per GamesRadar Jason e Lucia hanno ciascuno il proprio conto corrente, per GTA BOOM e Vice Central il conto è uno solo per tutti e due: non è ancora chiaro. Il risparmio Family Savings invece è sicuramente in comune (GamesRadar, PC Gamer).",
+        "Tieni d'occhio il saldo nell'app BuckMe, che arriva verso metà del capitolo 1 con 100 $ di benvenuto. Il conto lo usano tutti e due: per la guida ufficiale di IGN, per GTA BOOM e per Vice Central Jason e Lucia pescano dallo stesso conto; solo GamesRadar parla di due conti separati. Il risparmio Family Savings è comunque in comune.",
         "Prima di BuckMe nascondi i contanti sotto le assi del pavimento della camera di Jason: se muori o ti arrestano perdi quelli che hai in tasca.",
         "Versa i contanti a un bancomat: in BuckMe, in fondo, «ATM Finder» ti segna il più vicino (li trovi anche nell'indice della mappa, scheda Personale). Al bancomat premi Triangolo: versi o prelevi fino a 20.000 $ alla volta.",
         "Sotto i 1.000 $ paghi in contanti; da 1.000 $ in su, o se in tasca hai zero, paga BuckMe. Tieni comunque qualche centinaio di dollari in tasca: il taxi, alcuni venditori, qualche mancia per entrare dove non si potrebbe e diversi incontri per strada vogliono solo contanti.",
@@ -1347,7 +1483,7 @@
         },
         {
           "title": "Family Savings",
-          "text": "In BuckMe puoi spostare soldi nel risparmio «Family Savings»: non si ritirano mai più, ma non si perdono mai. A ogni traguardo il conto corrente può contenere di più e arrivano sconti: 5.000 $ (tetto 15.000 $), 10.000 $ (tetto 100.000 $, −20% su RydeMe), 100.000 $ (tetto 500.000 $, −20% sui garage), 500.000 $ (tetto 2 milioni, −10% sulle livree), poi 1 e 2 milioni. Il livello da 500.000 $ ti viene dato in automatico all'inizio del capitolo 4. Se il conto corrente è pieno, i pagamenti in arrivo restano in sospeso."
+          "text": "In BuckMe puoi spostare soldi nel risparmio «Family Savings»: non si ritirano mai più, ma non si perdono mai. A ogni traguardo il conto corrente può contenere di più e arrivano sconti: 5.000 $ (tetto 15.000 $), 10.000 $ (tetto 100.000 $, −20% su RydeMe), 100.000 $ (tetto 500.000 $, −20% sui garage), 500.000 $ (tetto 2 milioni, −10% sulle livree), poi 1 e 2 milioni. Il livello da 500.000 $ ti viene dato in automatico all'inizio del capitolo 4. Se il conto corrente è pieno, i pagamenti in arrivo restano in sospeso. I traguardi non arrivano tutti insieme: ognuno si apre andando avanti con la storia (PowerPyx). Per Insider Gaming il tetto di 100.000 $ (BuckMe lo chiama conto «Silver») arriva nel capitolo 2, a un certo punto della storia, insieme al nuovo obiettivo di risparmio da 100.000 $."
         },
         {
           "title": "Altre entrate",
@@ -1414,6 +1550,14 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "I soldi entrano dai ricettatori, a cui vendi veicoli, stupefacenti, gioielli e banconote segnate, ed escono in mille rivoli: veicoli (modifiche, riparazioni, recupero, benzina e ricariche), estetica, servizi (attività, mance, taxi, mezzi pubblici, pedaggi, biglietti delle attrazioni) e negozi. Arresto e morte ti costano contanti, e le borse della refurtiva sequestrate si possono perdere o recuperare."
+        },
+        {
+          "source": "stampa",
+          "text": "Se muori o ti arrestano perdi tutti i contanti che hai addosso e una piccola parte del conto corrente; arrendersi agli agenti non ti fa perdere meno (IGN). Per la guida ufficiale di IGN il denaro sul conto BuckMe è al sicuro e lo usano tutti e due i protagonisti."
+        },
+        {
+          "source": "stampa",
+          "text": "Alcuni pagamenti si fanno solo dal conto: Moses registra le auto solo con BuckMe, e anche RydeMe si paga solo così. In alto a destra, in negozio, si illumina il metodo di pagamento accettato; certi posti accettano tutti e due (IGN)."
         }
       ],
       "relatedIds": [
@@ -1456,7 +1600,11 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-stolen-goods-illegal/",
         "https://www.gtaboom.com/how-to-make-money-fast-and-early-in-gta-6-725c",
         "https://www.gtaboom.com/gta-6-apollo-aggregates-warehouse-stash-5820",
-        "https://vice-central.com/gta-vi-argent-comment-gagner-guide/"
+        "https://vice-central.com/gta-vi-argent-comment-gagner-guide/",
+        "https://insider-gaming.com/gta-6-buckme-limits-when-increase/",
+        "https://www.ign.com/wikis/gta-6/Beginner%27s_Guide_-_67_Tips_and_Tricks",
+        "https://www.ign.com/wikis/gta-6/Apps_and_Social_Media",
+        "https://www.thegamer.com/grand-theft-auto-6-bank-account-atm-guide/"
       ]
     },
     {
@@ -1587,7 +1735,7 @@
       "group": "Mondo e vita",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "mec-guida-veicoli",
       "title": "Guida e veicoli",
       "emoji": "🚙",
@@ -1732,6 +1880,22 @@
         {
           "source": "gioco di Mike (Statistiche)",
           "text": "Oltre a guidare, con i veicoli puoi riverniciarli al Pay 'n' Spray, ripararli quando sono distrutti, fare benzina o ricaricare gli elettrici, noleggiarli e prendere un taxi. Se finiscono sotto sequestro paghi per recuperarli; i tuoi veicoli distrutti vanno sostituiti."
+        },
+        {
+          "source": "stampa",
+          "text": "I Veicoli di spicco (280, nella scheda Speciali di Progresso › Veicoli) sono esemplari unici di modelli normali, con livrea, pezzi o statistiche diversi. Quasi tutti stanno fermi in un posto fisso (davanti a una casa, in un parcheggio, in un garage da aprire, al porto, in un hangar) e dopo un po' ricompaiono nello stesso punto; altri sono ricompense di missioni e attività. Le auto di lusso con la sicurezza moderna non partono finché non hai la chiave clonata, nel capitolo 3 (Game8)."
+        },
+        {
+          "source": "stampa",
+          "text": "La scheda di ogni veicolo mostra sei voci: Velocità, Accelerazione, Manovrabilità sull'asfalto, Manovrabilità fuoristrada, Robustezza e la Valutazione, con due numeri (fuoristrada e asfalto)."
+        },
+        {
+          "source": "stampa",
+          "text": "R2 ha due scatti: verso metà corsa il grilletto fa resistenza e l'auto va a velocità da crociera, comoda nel traffico; spingendo fino in fondo dai tutto gas (PC Gamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Scorciatoie che il gioco quasi non spiega: due tocchi a sinistra sulla croce accendono o spengono la radio; due tocchi di Cerchio cambiano i fari tra spenti, abbaglianti e anabbaglianti; due tocchi di Triangolo ti fanno scendere lasciando motore e radio accesi (anche in corsa, e l'auto va avanti da sola). In barca due tocchi di Triangolo ti fanno alzare dal timone e camminare sul ponte mentre la barca procede (Kotaku)."
         }
       ],
       "relatedIds": [
@@ -1777,7 +1941,9 @@
         "https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835",
         "https://www.eurogamer.net/how-to-auto-drive-gta-6",
         "https://playday.one/2026/11/19/how-to-auto-drive-gta-6/",
-        "https://www.eurogamer.net/gta-6-headlights"
+        "https://www.eurogamer.net/gta-6-headlights",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-the-best-use-of-the-ps5-controller-ive-ever-seen/",
+        "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100"
       ]
     },
     {
@@ -2384,6 +2550,10 @@
         {
           "source": "stampa",
           "text": "Ci sono i pedaggi: si pagano con il badge prepagato Vice Pass o con Toll-by-Plate, tramite la targa. Dalle Keys i cartelli indicano la US 1, la Route 82, la Interstate 97 verso Hamlet e il Toll 1A per Catalan Key e Goose Key."
+        },
+        {
+          "source": "stampa",
+          "text": "Ogni casello costa 5 $; con un'auto rubata o di un amico non paghi (IGN)."
         }
       ],
       "relatedIds": [
@@ -2394,11 +2564,12 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-18",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://gta.wiki/w/Vice_City_Metro",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-train-stations-locations/",
-        "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/"
+        "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/",
+        "https://www.ign.com/wikis/gta-6/Beginner%27s_Guide_-_67_Tips_and_Tricks"
       ]
     },
     {
@@ -2466,22 +2637,29 @@
         },
         {
           "title": "Note",
-          "text": "Lo Skunk Ape: due missioni si fanno solo di notte e l'ultima solo con Lucia, quindi la serie si chiude dal capitolo 2; si svolge nelle paludi della Pelican Valley (Grassrivers) e resta disponibile dopo la storia. La fattoria McKittrick: parte dalla McKittrick Farm, e tra una missione e l'altra Kyle si fa vivo al telefono dopo un po' di tempo. Le corse di Yago: la prima si fa con chiunque, due sono solo di Jason; una è a tempo e si può perdere, quindi falla appena compare. Pilot Pete: tutte solo con Jason; recuperi un aereo e fai consegne, anche alla Southpoint Airfield."
+          "text": "Lo Skunk Ape: due missioni si fanno solo di notte. Sull'ultima le guide non concordano: per PowerPyx è solo di Lucia, quindi la serie si chiude dal capitolo 2; GTA BOOM l'ha giocata con Jason e per GamesRadar si chiude già nel capitolo 1. Se non ti arriva con uno, prova con l'altro. La serie si svolge nelle paludi della Pelican Valley (Grassrivers) e resta disponibile dopo la storia. La fattoria McKittrick: parte dalla McKittrick Farm, e tra una missione e l'altra Kyle si fa vivo al telefono dopo un po' di tempo. Le corse di Yago: la prima si fa con chiunque, due sono solo di Jason; una è a tempo e si può perdere, quindi falla appena compare. Pilot Pete: tutte solo con Jason; recuperi un aereo e fai consegne, anche alla Southpoint Airfield."
+        },
+        {
+          "title": "Quando si sblocca",
+          "text": "Dal capitolo 1: la prima serie che conta per il trofeo è quella di Kirk e dello Skunk Ape (il volantino è dentro il Rusty Anchor di Key Lento). Le altre partono nei capitoli 2, 3 e 4, come indicato sopra. Una serie cominciata in un capitolo si può finire in uno dopo e, se non è segnata come perdibile, resta anche dopo la storia (PowerPyx)."
         }
       ],
       "tips": [
         "Le serie di Shirley, Billy, Moses, Andy, Yasmani, Tyrone ed Eddie non contano per questo trofeo (per Randy non è ancora chiaro), ma valgono per il 100% come incarichi facoltativi.",
-        "Per far arrivare la missione dopo, vai a fare altro: dormire più volte di fila di solito non serve, e per gli Sconosciuti e folli possono volerci alcune ore di gioco reali."
+        "Per far arrivare la missione dopo, vai a fare altro: dormire più volte di fila di solito non serve, e per gli Sconosciuti e folli possono volerci alcune ore di gioco reali.",
+        "Alla scelta finale dello Skunk Ape, prima di decidere, mira a Kirk con L2 e usa domande e minacce finché non ti offre una parte: per GTA BOOM così il premio sale da 5.000 a 10.000 $ (GamesRadar parla di 10.000 $). Se il pagamento resta «in sospeso», fai posto sul conto BuckMe."
       ],
       "status": "da verificare",
       "source": "stampa",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "sourceUrl": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
       "relatedIds": [],
       "moreSources": [
-        "https://www.powerpyx.com/gta-6-tips-tricks/"
+        "https://www.powerpyx.com/gta-6-tips-tricks/",
+        "https://www.gtaboom.com/gta-6-help-kirk-find-mr-mangrove-walkthrough-198d",
+        "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-skunk-ape-mr-mangrove/"
       ]
     },
     {
@@ -2509,7 +2687,7 @@
         },
         {
           "title": "Veicoli dalle sfide (16)",
-          "text": "Ogni categoria di sfide dà due veicoli: uno con 5 sfide, l'altro con tutte e 10. Speeder 700 GT — 5 sfide di combattimento · Bravado Banshee — tutte le sfide di combattimento · Maibatsu Sanchez — 5 sfide criminali · Western Zombie Bobber — tutte le sfide criminali · Nagasaki Sea Sparrow — 5 sfide di esplorazione · Nagasaki Carbon RS — tutte le sfide di esplorazione · Tuff BMX — 5 sfide di fitness · '65 Vapid Dominator — tutte le sfide di fitness · Maibatsu Boomazoom — 5 sfide di shopping (← ↑ → ↓ ← ← ↑ ←) · Truffade Thrax — tutte le sfide di shopping · Vapid Stanier G2 Taxi — 5 sfide sportive · Brimstone Golfer — tutte le sfide sportive · Airboat 09 — 5 sfide di sopravvivenza · Hauners Rhino Tank — tutte le sfide di sopravvivenza · Lapwing Mallard — 5 sfide dei veicoli · Progen Emerus — tutte le sfide dei veicoli"
+          "text": "Ogni categoria di sfide dà due veicoli: uno con 5 sfide, l'altro con tutte e 10. Speeder 700 GT — 5 sfide di combattimento · Bravado Banshee — tutte le sfide di combattimento · Maibatsu Sanchez — 5 sfide criminali · Western Zombie Bobber — tutte le sfide criminali · Nagasaki Sea Sparrow — 5 sfide di esplorazione · Nagasaki Carbon RS — tutte le sfide di esplorazione · Tuff BMX — 5 sfide di fitness · Vapid Dominator '65 — tutte le sfide di fitness · Maibatsu Boomazoom — 5 sfide di shopping (← ↑ → ↓ ← ← ↑ ←) · Truffade Thrax — tutte le sfide di shopping · Vapid Stanier G2 Taxi — 5 sfide sportive · Brimstone Golfer — tutte le sfide sportive · Airboat 09 — 5 sfide di sopravvivenza · Hauners Rhino Tank — tutte le sfide di sopravvivenza · Lapwing Mallard — 5 sfide dei veicoli · Progen Emerus — tutte le sfide dei veicoli"
         },
         {
           "title": "Altri veicoli (5)",
@@ -2529,7 +2707,7 @@
         },
         {
           "title": "Codici che mancano",
-          "text": "Al 20/11 pomeriggio le guide hanno ancora 20 sequenze su 61: nessuna ne ha aggiunte dal 19/11 (ricontrollate PowerPyx, gta.wiki, GamesRadar, PC Gamer, Polygon, Eurogamer, Push Square, DayOne, Insider Gaming, VICE, Pure Xbox, PC Guide e Dexerto). Le altre si leggono nel menu appena sblocchi il trucco. Le frecce qui sopra sono quelle che due o più guide riportano uguali, salvo dove è indicato."
+          "text": "Al 21/11 mattina le guide hanno ancora 20 sequenze su 61: nessuna ne ha aggiunte dal 19/11 (ricontrollate PowerPyx, gta.wiki, GamesRadar, PC Gamer, Polygon, Eurogamer, Push Square, DayOne, Insider Gaming, Dexerto, AltChar e i nuovi articoli di GamingBolt, Radio Times e Mobalytics). Le altre si leggono nel menu appena sblocchi il trucco. Le frecce qui sopra sono quelle che due o più guide riportano uguali, salvo dove è indicato."
         }
       ],
       "tips": [
@@ -2596,7 +2774,7 @@
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20"
+      "updatedAt": "2026-11-21"
     },
     {
       "id": "mec-salvataggi",
@@ -2665,11 +2843,12 @@
         "https://www.ign.com/articles/streamer-loses-11-hours-of-gta-6-progress-gets-swatted-immediately-afterwards",
         "https://kotaku.com/be-careful-with-auto-saving-in-gta-6-it-doesnt-happen-as-often-as-you-think-2000758487",
         "https://mashable.com/entertainment/gta-6-how-to-save-game",
-        "https://www.eurogamer.net/how-to-escape-cops-gta-6"
+        "https://www.eurogamer.net/how-to-escape-cops-gta-6",
+        "https://vice-central.com/gta-vi-sauvegarde-comment-sauvegarder/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "extras": [
         {
           "source": "stampa",
@@ -2678,6 +2857,14 @@
         {
           "source": "stampa",
           "text": "In missione non si salva per scelta: Rockstar ha preferito non dover garantire il caricamento da ogni checkpoint (Ben Rollinson a Radio Times). Per rifare una scelta carica un salvataggio di prima o riparti dall'ultimo checkpoint: salva sempre prima di cominciare una missione (Mashable)."
+        },
+        {
+          "source": "stampa",
+          "text": "Se fallisci più volte nello stesso punto di una missione, il gioco ti propone di saltare il tratto difficile (Vice Central)."
+        },
+        {
+          "source": "stampa",
+          "text": "Uno schema per i 15 slot (Vice Central): da 1 a 10 un salvataggio per ogni tappa importante della storia, da non sovrascrivere mai; da 11 a 13 a rotazione nel mondo aperto; il 14 prima di un rischio (un colpo, un acquisto grosso, il caos con la polizia); il 15 subito prima di usare un trucco, per ritrovare una partita pulita con trofei e salvataggi."
         }
       ]
     },
@@ -2722,11 +2909,16 @@
         {
           "source": "stampa",
           "text": "Circa il 35% della mappa è acqua. Molti edifici hanno interni, e in alcuni grattacieli sali di piano in ascensore."
+        },
+        {
+          "source": "stampa",
+          "text": "La mappa intera, senza nebbia, Rockstar l'ha messa sul suo sito: si scarica gratis e si stampa. Per farti un'idea della grandezza: da sud a nord in idrovolante (un Mammoth Dodo) PC Gamer ci ha messo 4 minuti e 18 secondi, poco meno di un'ora di gioco. Non sorvolare la base militare: sono subito quattro stelle."
         }
       ],
       "relatedIds": [
         "tip-nebbia-aereo",
-        "tip-entrare-edifici"
+        "tip-entrare-edifici",
+        "new-20261119-mappa-ufficiale-online"
       ],
       "status": "da verificare",
       "source": "stampa",
@@ -2739,11 +2931,13 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/",
         "https://www.pushsquare.com/guides/gta-6-tips-and-tricks-you-need-to-know",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/",
-        "https://www.powerpyx.com/gta-6-helicopter-plane-locations/"
+        "https://www.powerpyx.com/gta-6-helicopter-plane-locations/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19"
+      "updatedAt": "2026-11-21"
     },
     {
       "id": "mec-impostazioni",
@@ -2776,6 +2970,10 @@
         {
           "title": "Quando si sblocca",
           "text": "Tutto dalle impostazioni, quando vuoi. Al primo avvio il gioco ti propone di tornare ai comandi classici."
+        },
+        {
+          "title": "Velocità di movimento",
+          "text": "Jason e Lucia camminano piano? In Impostazioni › Gioco, sezione Movimento, la voce «Movement Speed» decide il passo con la levetta tutta spinta, senza toccare lo scatto: Walk (quella di partenza), Fast Walk, Jog e Run. Accanto c'è quella in combattimento, con tre scelte (Fast Walk, Jog, Run). Inclinando poco la levetta vai comunque piano (PC Gamer, Insider Gaming)."
         }
       ],
       "tips": [
@@ -2809,11 +3007,19 @@
         "https://www.thegamer.com/gta-6-international-censorship-details-confirmed/",
         "https://www.pushsquare.com/news/2026/11/gta-6-too-dark-heres-how-to-fix-it-on-ps5",
         "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
-        "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-glitch-grand-theft-auto/"
+        "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-glitch-grand-theft-auto/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
+        "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
+        "https://insider-gaming.com/gta-6-best-sound-settings/",
+        "https://insider-gaming.com/gta-6-best-graphics-settings/",
+        "https://insider-gaming.com/gta-6-best-aim-controller-settings/",
+        "https://www.thegamer.com/grand-theft-auto-6-gta-best-settings-to-change/",
+        "https://www.gamesource.it/trucchi/gta-6-controller-drift-come-risolvere/",
+        "https://www.pcgamer.com/hardware/as-a-pc-gamer-of-course-the-first-thing-i-did-in-gta-6-was-try-a-mouse-and-keyboard/"
       ],
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "extras": [
         {
           "source": "stampa",
@@ -2822,6 +3028,30 @@
         {
           "source": "stampa",
           "text": "La versione giapponese è censurata: niente regolazione del sangue, smembramenti più leggeri e qualche scena ritoccata (TheGamer, Kotaku). Quella italiana ha tutte le opzioni."
+        },
+        {
+          "source": "stampa",
+          "text": "Tra gli aiuti c'è anche la guida automatica, con le sue opzioni: in modalità senza limiti funziona perfino negli inseguimenti e nelle fughe, ma l'IA può sempre andare a sbattere. Gli aiuti non disattivano i trofei e non bloccano i salvataggi (Kotaku)."
+        },
+        {
+          "source": "stampa",
+          "text": "Audio: c'è l'audio mono e la riduzione dell'acufene, il fischio dopo le esplosioni. Le telefonate escono dall'altoparlante del controller e puoi mandarci anche lo scanner della polizia; i volumi di effetti, interfaccia, dialoghi, musica e media si regolano a parte. Su PS5 l'audio 3D si attiva dalle impostazioni della console (Insider Gaming)."
+        },
+        {
+          "source": "stampa",
+          "text": "Schermo e telecamera: la sfocatura di movimento si abbassa fino a 0, e nella scheda Telecamera puoi togliere scuotimento e ondeggiamento. Per molti giocatori cambia parecchio; altri tengono un po' di sfocatura perché nasconde i cali sotto i 30 fps. 120 Hz e VRR non servono a niente con un gioco bloccato a 30 fps (Insider Gaming, TheGamer)."
+        },
+        {
+          "source": "stampa",
+          "text": "Zona morta delle levette: in Impostazioni › Controller ci sono due voci separate, per la sinistra e per la destra, di partenza a 4. Se il personaggio o la telecamera si muovono da soli alzale di un punto alla volta, solo sulla levetta difettosa (GameSource)."
+        },
+        {
+          "source": "stampa",
+          "text": "Se le scie della concentrazione si confondono col paesaggio, in Impostazioni › Schermo c'è una modalità per daltonici che ne rinforza i colori (GTA BOOM)."
+        },
+        {
+          "source": "stampa",
+          "text": "Niente tastiera e mouse, nemmeno su Xbox, e niente volanti: si gioca solo col controller (PC Gamer)."
         }
       ]
     },
@@ -2836,11 +3066,11 @@
         "Capitolo 1: porta il Ganado di Jason da Coastal Auto Care a Key Lento e applica il Retro Build: ripara e rivernicia l'auto, poi Pro Builds › Full Kits › «Retro Build: Ultimate Edition». Oltre all'aspetto migliora un po' velocità e accelerazione (Eurogamer). Si può fare solo nel capitolo 1.",
         "Capitolo 1: all'Ammu-Nation, dall'armadietto delle armi, ritiri la Girardi ES9 personale di Jason. Dal capitolo 2 la Klose K17 di Lucia e i revolver Hawk & Little Morgan di tutti e due (si comprano parlando col commesso).",
         "Dal capitolo 1 è aperta One-Eyed Willie's, l'officina fuoristrada a nord di Lake Leonida. Rideout Customs, Stock 305, Sara's Unisex Salon ed Electric Fang Tattoo li trovi arrivando nelle loro zone.",
-        "Capitolo 2: la '67 Vapid Dominator Buggy compare con un'icona viola in un garage di Grassrivers; dopo averla presa si apre una serie di incarichi esclusivi con auto classiche da ricostruire.",
-        "Capitolo 3: la '55 Vapid Stanier del Vintage Vice City Pack, a Vice Beach davanti all'Ocean View Hotel (incarico nella scheda Esplorazione della mappa). Con lei arrivano un garage per tenerla, gli abiti d'epoca nell'armadio, le acconciature nella sezione speciale dei saloni e il motivo per le armi (armadietto › Cosmetici).",
+        "Capitolo 2: la Vapid Dominator Buggy '67 compare con un'icona viola in un garage di Grassrivers; dopo averla presa si apre una serie di incarichi esclusivi con auto classiche da ricostruire.",
+        "Capitolo 3: la Vapid Stanier '55 del Vintage Vice City Pack, a Vice Beach davanti all'Ocean View Hotel (incarico nella scheda Esplorazione della mappa). Con lei arrivano un garage per tenerla, gli abiti d'epoca nell'armadio, le acconciature nella sezione speciale dei saloni e il motivo per le armi (armadietto › Cosmetici).",
         "Capitolo 3: il covo dei PTT Youngin$ da rapinare, segnato in giallo sulla mappa.",
         "Capitolo 4: gli abiti Good Time Gear nell'armadio; solo durante il capitolo 4 il motoscafo Shitzu Squalo armato, ormeggiato a Washington Beach.",
-        "Capitolo 5: gli abiti Vice City Style e la '95 Grotti Cheetah, nel garage sotterraneo del Pegassi Residences a Tequesta Retreat (si entra con l'auto a sinistra dell'ingresso)."
+        "Capitolo 5: gli abiti Vice City Style e la Grotti Cheetah '95, nel garage sotterraneo del Pegassi Residences a Tequesta Retreat (si entra con l'auto a sinistra dell'ingresso)."
       ],
       "details": [
         {

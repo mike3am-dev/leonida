@@ -2634,7 +2634,7 @@
       "source": "trailer",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "id": "chr-leonida-joker",
       "name": "Il Joker di Leonida",
       "role": "Comparsa",
@@ -2650,7 +2650,14 @@
       "insight": "",
       "moreSources": [
         "https://www.rockstargames.com/VI/credits",
-        "https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face"
+        "https://www.gtaboom.com/the-florida-joker-really-made-it-into-gta-6-as-a-background-face",
+        "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/"
+      ],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il 20/11 Lawrence Sullivan ha detto in un video su Instagram di essere «voce speciale» del gioco; PC Gamer ha controllato: il suo nome c'è, ma solo tra le voci dei passanti («The Local Population»)."
+        }
       ]
     },
     {
@@ -2857,7 +2864,7 @@
       "relations": [
         "chr-billy"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-ej.png",
       "gallery": [],
       "status": "da verificare",
       "source": "leak",
@@ -2876,7 +2883,9 @@
       "moreSources": [
         "https://www.rockstargames.com/VI/credits",
         "https://insider-gaming.com/gta-6-voice-actors/"
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/EJ-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
     },
     {
       "id": "chr-ian",
@@ -2889,7 +2898,7 @@
       "relations": [
         "chr-billy"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-ian.png",
       "gallery": [],
       "status": "verificato",
       "source": "stampa",
@@ -2909,7 +2918,9 @@
           "source": "stampa",
           "text": "Lo interpreta Will Meyers: titoli di coda pubblicati da Rockstar il 19/11."
         }
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/Ian-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
     },
     {
       "id": "chr-sparky-malarky",
@@ -3603,12 +3614,12 @@
         "chr-jason"
       ],
       "image": "assets/img/vice/personaggi/chr-andy.webp",
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-get-lucias-clothes-walkthrough/",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/",
@@ -3616,7 +3627,8 @@
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-characters-cast/",
         "https://www.thebiglead.com/gta-6-cast-list/",
         "https://www.rockstargames.com/VI/credits",
-        "https://insider-gaming.com/gta-6-voice-actors/"
+        "https://insider-gaming.com/gta-6-voice-actors/",
+        "https://gta.wiki/w/Strangers_%26_Freaks"
       ],
       "imageUrl": "https://gta.wiki/images/thumb/Andy-GTAVI-Portrait.png/600px-Andy-GTAVI-Portrait.png?97099",
       "imageCredit": "gta.wiki",
@@ -3717,18 +3729,20 @@
         "chr-skunk-ape"
       ],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
         "https://www.rockstargames.com/VI/credits",
-        "https://insider-gaming.com/gta-6-voice-actors/"
+        "https://insider-gaming.com/gta-6-voice-actors/",
+        "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/",
+        "https://gta.wiki/w/Strangers_%26_Freaks"
       ],
       "extras": [
         {
@@ -3751,12 +3765,12 @@
         "chr-jason"
       ],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-clear-skies-join-donnie-on-a-job-walkthrough/",
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-the-last-mile-passing-the-torch-recover-petes-plane-walkthrough/",
@@ -3765,7 +3779,8 @@
         "https://www.thebiglead.com/gta-6-cast-list/",
         "https://www.rockstargames.com/VI/credits",
         "https://insider-gaming.com/gta-6-voice-actors/",
-        "https://www.powerpyx.com/gta-6-all-contacts/"
+        "https://www.powerpyx.com/gta-6-all-contacts/",
+        "https://www.videogameschronicle.com/guide/gta-6-clear-skies-mission-walkthrough/"
       ],
       "extras": [
         {
@@ -3905,7 +3920,7 @@
         "chr-lucia",
         "chr-dr-bill"
       ],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-dunk.png",
       "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
@@ -3932,7 +3947,9 @@
           "source": "stampa",
           "text": "Il nome completo, Dunk Porter, è quello della sua voce tra i Contatti del Progress Database del gioco (PowerPyx); nel telefono e nei titoli di coda è solo «Dunk»."
         }
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Dunk-GTAVI-Portrait.png/600px-Dunk-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
     },
     {
       "id": "chr-kyle",
@@ -3944,7 +3961,7 @@
       "districtId": null,
       "firstMissionId": "mis-check-out-mckittrick-farm",
       "relations": [],
-      "image": null,
+      "image": "assets/img/vice/personaggi/chr-kyle.png",
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/",
@@ -3963,7 +3980,9 @@
           "source": "stampa",
           "text": "Lo interpreta Jared Canfield: titoli di coda pubblicati da Rockstar il 19/11, dove il personaggio è Kyle McKittrick."
         }
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/KyleMcKittrick-GTAVI-Portrait.png/600px-KyleMcKittrick-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
     },
     {
       "id": "chr-bret-vogel",
@@ -3978,19 +3997,20 @@
         "chr-jason"
       ],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
         "https://www.gamesradar.com/games/grand-theft-auto/gta-6-characters-cast/",
         "https://www.thebiglead.com/gta-6-cast-list/",
         "https://www.rockstargames.com/VI/credits",
-        "https://insider-gaming.com/gta-6-voice-actors/"
+        "https://insider-gaming.com/gta-6-voice-actors/",
+        "https://gta.wiki/w/Strangers_%26_Freaks"
       ],
       "extras": [
         {
@@ -4012,17 +4032,18 @@
         "chr-lucia"
       ],
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-mami-knows-best-catch-up-with-mia-walkthrough/",
       "spoilerLevel": 3,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-south-leonida-real-estate-meet-mia-walkthrough/",
         "https://www.rockstargames.com/VI/credits",
-        "https://insider-gaming.com/gta-6-voice-actors/"
+        "https://insider-gaming.com/gta-6-voice-actors/",
+        "https://gta.wiki/w/Mia_Caminos"
       ],
       "extras": [
         {
@@ -4608,10 +4629,10 @@
     {
       "isProtagonist": false,
       "image": null,
-      "status": "da verificare",
+      "status": "verificato",
       "source": "stampa",
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "id": "chr-frankie-delight",
       "name": "Frankie Delight",
@@ -4621,14 +4642,17 @@
       "districtId": "dis-port-gellhorn",
       "firstMissionId": "mis-girls-trip",
       "relations": [
-        "chr-vicki"
+        "chr-vicki",
+        "chr-mario"
       ],
       "spoilerLevel": 2,
       "sourceUrl": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
       "moreSources": [
         "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
         "https://www.rockstargames.com/VI/credits",
-        "https://insider-gaming.com/gta-6-voice-actors/"
+        "https://insider-gaming.com/gta-6-voice-actors/",
+        "https://www.videogameschronicle.com/guide/gta-6-girls-trip-mission-walkthrough/",
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/"
       ],
       "extras": [
         {
@@ -5372,23 +5396,27 @@
         "chr-dunk",
         "chr-lucia"
       ],
-      "image": null,
-      "status": "da verificare",
+      "image": "assets/img/vice/personaggi/chr-dr-bill.png",
+      "status": "verificato",
       "source": "stampa",
       "sourceUrl": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
       "moreSources": [
-        "https://www.rockstargames.com/VI/credits"
+        "https://www.rockstargames.com/VI/credits",
+        "https://www.videogameschronicle.com/guide/gta-6-slam-dunk-mission-walkthrough/",
+        "https://gta.wiki/w/Dr._Bill"
       ],
       "spoilerLevel": 2,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
       "extras": [
         {
           "source": "stampa",
           "text": "Lo interpreta J. Anthony Crane: titoli di coda pubblicati da Rockstar il 19/11."
         }
-      ]
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/DrBill-GTAVI-Portrait.png/600px-DrBill-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
     },
     {
       "id": "chr-rodney",
@@ -5437,12 +5465,19 @@
       "status": "da verificare",
       "source": "stampa",
       "sourceUrl": "https://gta.wiki/w/Joe_(GTA_VI)",
-      "moreSources": [],
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ],
       "spoilerLevel": 1,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "insight": "",
-      "extras": [],
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Nei titoli di coda pubblicati da Rockstar il 19/11 c'è un «Joe Laurino» interpretato da Jimmy Palumbo: con ogni probabilità è lui, ma i titoli non lo dicono."
+        }
+      ],
       "imageUrl": "https://gta.wiki/images/thumb/Joe-GTAVI-Portrait.png/600px-Joe-GTAVI-Portrait.png?8b441",
       "imageCredit": "gta.wiki (CC BY-SA)"
     },
@@ -5610,6 +5645,127 @@
       "insight": "",
       "extras": [],
       "imageUrl": "https://gta.wiki/images/thumb/SkunkApe-GTAVI-Portrait.png/600px-SkunkApe-GTAVI-Portrait.png?1fa8a",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "isProtagonist": false,
+      "image": null,
+      "insight": "",
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "id": "chr-mario",
+      "name": "Mario",
+      "role": "Spogliarellista del Delights",
+      "tagline": "La star della serata delle signore.",
+      "bio": "Il primo ballerino del Delights, lo strip club di Frankie Delight a Port Gellhorn. Jason lo incontra nel camerino dei ballerini insieme al collega Lucky: manca un uomo per lo spettacolo e Mario gli chiede di salire sul palco con loro. Puoi accettare o rifiutare.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-afternoon-delight",
+      "relations": [
+        "chr-frankie-delight",
+        "chr-vicki",
+        "chr-jason"
+      ],
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
+      "moreSources": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/",
+        "https://www.rockstargames.com/VI/credits"
+      ],
+      "spoilerLevel": 2,
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Il collega Lucky, nei titoli di coda pubblicati da Rockstar il 19/11, lo interpreta Jacque Laon Horton II."
+        }
+      ]
+    },
+    {
+      "isProtagonist": false,
+      "image": "assets/img/vice/personaggi/chr-zach.png",
+      "insight": "",
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "id": "chr-zach",
+      "name": "Zach",
+      "role": "Ospite dello Starlet Motel",
+      "tagline": "Sa già come ti chiami.",
+      "bio": "Un ospite dello Starlet Motel che passa il tempo a spiare gli altri residenti: quando incontra Lucia la chiama già per nome. Se gli chiedi delle pillole ti manda da Vicki, nella stanza 10. Il suo nome era già nei menu di sviluppo trapelati nel 2022.",
+      "districtId": "dis-port-gellhorn",
+      "firstMissionId": "mis-girls-trip",
+      "relations": [
+        "chr-vicki",
+        "chr-lucia"
+      ],
+      "status": "da verificare",
+      "source": "stampa",
+      "sourceUrl": "https://gta.wiki/w/Zach_(GTA_VI)",
+      "moreSources": [],
+      "spoilerLevel": 2,
+      "extras": [],
+      "imageUrl": "https://gta.wiki/images/thumb/Zach-GTAVI-Portrait.png/600px-Zach-GTAVI-Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "isProtagonist": false,
+      "image": "assets/img/vice/personaggi/chr-sarah-fitzroy.png",
+      "insight": "",
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "id": "chr-sarah-fitzroy",
+      "name": "Sarah Fitzroy",
+      "role": "Agente della polizia di Hamlet",
+      "tagline": "In divisa, a Hamlet.",
+      "bio": "Vicesceriffa del dipartimento di polizia di Hamlet, coda di cavallo bionda e distintivo sul petto. La incontri nel capitolo 5.",
+      "districtId": "dis-hamlet",
+      "firstMissionId": "mis-protective-custody",
+      "relations": [
+        "chr-jason"
+      ],
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://gta.wiki/w/Sarah_Fitzroy",
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ],
+      "spoilerLevel": 5,
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "La interpreta Kelly Grago (voce e movimenti): titoli di coda pubblicati da Rockstar il 19/11, tra i ruoli principali come «Deputy Sarah Fitzroy»."
+        }
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/Deputy_Sarah_Fitzroy_GTAVI_Portrait.png/600px-Deputy_Sarah_Fitzroy_GTAVI_Portrait.png",
+      "imageCredit": "gta.wiki (CC BY-SA)"
+    },
+    {
+      "isProtagonist": false,
+      "image": "assets/img/vice/personaggi/chr-ray-de-angelo-harris.png",
+      "insight": "",
+      "example": false,
+      "updatedAt": "2026-11-21",
+      "id": "chr-ray-de-angelo-harris",
+      "name": "Ray De Angelo Harris",
+      "role": "Conduttore TV",
+      "tagline": "Il dottore vi riceve adesso.",
+      "bio": "Il guru del benessere di GTA V, che allora conduceva «Chakra Attack» alla radio WCTR, ora ha un programma tutto suo sulla TV di Leonida: «The Doctor Will See You Now». In studio con lui ci sono la vecchia spalla Cheryl, con cui dice di aver litigato in pubblico, e il tecnico Kenny. Se la prende con la WCTR, che secondo lui voleva controllarlo.",
+      "districtId": null,
+      "firstMissionId": null,
+      "relations": [],
+      "status": "verificato",
+      "source": "stampa",
+      "sourceUrl": "https://gta.wiki/w/Ray_De_Angelo_Harris",
+      "moreSources": [
+        "https://www.rockstargames.com/VI/credits"
+      ],
+      "spoilerLevel": 0,
+      "extras": [
+        {
+          "source": "stampa",
+          "text": "Lo interpreta di nuovo J.B. Smoove, come in GTA V: titoli di coda pubblicati da Rockstar il 19/11, sezione TV «The Doctor Will See You Now» (con Annie Ledermann nel ruolo dell'infermiera Cheryl e Miles Grose in quello di Kenny)."
+        }
+      ],
+      "imageUrl": "https://gta.wiki/images/thumb/RayDeAngeloHarris-GTAVI-Portrait.png/600px-RayDeAngeloHarris-GTAVI-Portrait.png",
       "imageCredit": "gta.wiki (CC BY-SA)"
     }
   ],

@@ -252,7 +252,7 @@
           "id": "poi-nine1nine",
           "name": "NINE1NINE",
           "kind": "Strip club",
-          "description": "Downtown Vice City, accanto al club The Vault, vicino al grande svincolo autostradale. Lo strip club più elegante e più caro: si beve, si balla e ci sono i balli privati (300 $, mancia 50 $). Aperto da subito.",
+          "description": "Downtown Vice City, nella parte nord, appena sotto il cavalcavia e accanto al club The Vault, vicino al grande svincolo autostradale (PowerPyx lo mette già a Crosstown: è al confine tra i due quartieri). Lo strip club più elegante e più caro: si beve, si balla e ci sono i balli privati (300 $, mancia 50 $). Aperto da subito. È uno dei tre strip club dell'elenco della mappa (Mappa > Attività > Club, cinque locali in tutto con The Vault e The Rusty Anchor).",
           "status": "verificato",
           "source": "stampa",
           "image": "assets/img/luoghi/bayside-bayfront/landmark-l190.webp",
@@ -263,9 +263,10 @@
           "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19",
+          "updatedAt": "2026-11-21",
           "moreSources": [
-            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/"
+            "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/",
+            "https://www.powerpyx.com/gta-6-all-strip-club-locations/"
           ]
         },
         {
@@ -889,19 +890,19 @@
         },
         {
           "id": "poi-gsm-rockrige-store",
-          "name": "Rockrige Store",
+          "name": "Xero Food Mart – Rockridge",
           "kind": "Minimarket",
-          "description": "Posizione nota, dettagli da scoprire in gioco.",
+          "description": "Rockridge, a Vice City: il minimarket Xero Food Mart del quartiere, l'unico di Rockridge nell'elenco della mappa (Mappa > Cibo e bevande > Minimarket). Vende Zombix, cibo per gli animali e la spesa per il frigo di casa; si può rapinare puntando l'arma al commesso. Sulla mappa: borsa blu.",
           "xy": [
             2939.369140625,
             -108.125
           ],
           "status": "da verificare",
-          "source": "community",
-          "sourceUrl": "https://www.gtasixmap.com/",
+          "source": "stampa",
+          "sourceUrl": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-07"
+          "updatedAt": "2026-11-21"
         },
         {
           "id": "poi-gsm-la-perle-automotive-shop",
@@ -4017,14 +4018,17 @@
           "id": "poi-the-vault-club",
           "name": "The Vault",
           "kind": "Nightclub",
-          "description": "Downtown Vice City: il club accanto al NINE1NINE.",
-          "status": "da verificare",
+          "description": "Downtown Vice City, verso Crosstown: il nightclub accanto al NINE1NINE, vicino al grande svincolo autostradale. È uno dei cinque «Club» dell'elenco della mappa (Mappa > Attività > Club), con i tre strip club e The Rusty Anchor; si segna da solo sulla mappa (icona blu) quando scopri la zona.",
+          "status": "verificato",
           "source": "stampa",
           "sourceUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-21",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-strip-club-locations/"
+          ]
         },
         {
           "id": "poi-merlins-palace-casino",
@@ -4217,7 +4221,7 @@
           "id": "poi-evergreen-mall",
           "name": "Evergreen Mall",
           "kind": "Centro commerciale",
-          "description": "Il grande centro commerciale di Waning Sands, a ovest della Interstate 97 (il nome completo è Evergreen Mall of Waning Sands). Negozi di lusso e accessori, come Sessanta Nove, Ferruccio Tucci e Kowalski, e un negozio Fruit; c'è anche una gara di droni Top Fun. Ricalca il Sawgrass Mills di Sunrise.",
+          "description": "Il grande centro commerciale di Waning Sands, a ovest della Interstate 97 (il nome completo è Evergreen Mall of Waning Sands). Negozi di lusso e accessori, come Sessanta Nove, Ferruccio Tucci e Kowalski, e un negozio Fruit; secondo GTA Wiki ci sono anche Sebastian Dix, gli orologi Kronos, l'abbigliamento da college Peckerwood, le scarpe Radge e un Fred's Store. C'è anche una gara di droni Top Fun. Ricalca il Sawgrass Mills di Sunrise.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta.wiki/w/Evergreen_Mall",
@@ -4227,7 +4231,14 @@
             1754
           ],
           "imageUrl": "https://raw.githubusercontent.com/rolux/gtadb.org/main/map/photos/6/L549,ig.jpg",
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-21",
+          "moreSources": [
+            "https://gta.wiki/w/Sebastian_Dix",
+            "https://gta.wiki/w/Kronos",
+            "https://gta.wiki/w/Peckerwood",
+            "https://gta.wiki/w/Radge",
+            "https://gta.wiki/w/Fred's_Store"
+          ]
         },
         {
           "id": "poi-sundown-airfield",
@@ -4889,7 +4900,7 @@
           "id": "poi-rusty-anchor",
           "name": "The Rusty Anchor",
           "kind": "Bar",
-          "description": "Il bar delle Keys con l'uomo addormentato sul tavolo da picnic.",
+          "description": "Key Lento, sulla spiaggia: il bar delle Keys con l'uomo addormentato sul tavolo da picnic. È uno dei cinque «Club» dell'elenco della mappa (Mappa > Attività > Club), con i tre strip club e The Vault: si segna da solo sulla mappa (icona blu) quando scopri la zona. PowerPyx lo chiama taverna.",
           "characterIds": [],
           "status": "verificato",
           "source": "trailer",
@@ -4898,7 +4909,12 @@
           "xy": [
             2416,
             -3575
-          ]
+          ],
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-strip-club-locations/",
+            "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/"
+          ],
+          "updatedAt": "2026-11-21"
         },
         {
           "id": "poi-key-lento-shops",
@@ -5461,7 +5477,7 @@
       "name": "Grassrivers",
       "region": "Contea di Mariana, entroterra umido",
       "tagline": "Benvenuti nelle paludi.",
-      "description": "Le zone umide di Leonida: mangrovie, canali lenti, alligatori e predatori ben più pericolosi. Gli airboat che sfrecciano tra le erbe sono una delle immagini simbolo di Leonida.",
+      "description": "Le zone umide di Leonida, nella contea di Mariana (a nord-ovest sconfinano nella contea di Kelly con Buckskin Swamp): mangrovie, canali lenti, alligatori e airboat che sfrecciano tra le erbe. È il territorio dei Kingfishers, che trafficano cocaina e animali esotici tra baracche da pesca, campeggi e motel, mentre il cartello La Polilla Negra tiene le sue basi verso Watson Bay. Ci sono due parchi degli animali (Marshland Animal Park e Swampy Sal's Safari Park), il minigolf King Gator, due Pay 'n' Spray (Watson Bay e Grassrivers), il Paradise Garage dell'Ultimate Edition e bar con il biliardo come il Kowaachobee Cafe & Bar.",
       "map": {
         "x": 470,
         "y": 600,
@@ -5558,7 +5574,7 @@
           "id": "poi-paradise-garage",
           "name": "Paradise Garage",
           "kind": "Garage",
-          "description": "Il garage dell'Ultimate Edition a Watson Bay. Dentro c'è la '67 Vapid Dominator Buggy, segnata sulla mappa nel capitolo 2: prenderla apre le missioni di Wyman per ricostruire cinque auto classiche. Non conta per il trofeo dei garage.",
+          "description": "Il garage dell'Ultimate Edition a Watson Bay. Dentro c'è la Vapid Dominator Buggy '67, segnata sulla mappa nel capitolo 2: prenderla apre le missioni di Wyman per ricostruire cinque auto classiche. Non conta per il trofeo dei garage.",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
@@ -5865,14 +5881,17 @@
           "id": "poi-gang-industrial-weed-grow",
           "name": "Industrial Weed Grow",
           "kind": "Operazione di gang",
-          "description": "Fabbrica isolata nel nord della contea di Mariana, a nord-ovest delle Grassrivers e a nord-est di Tola Bay. Compare sulla mappa («Robbery Opportunity») solo quando entri nella zona. Sicurezza alta: si entra da un varco nella recinzione sul lato sud. Tre oggetti chiave: un pick-up nel capannone, una cassaforte senza codice nell'ufficio sul lato ovest e un mitra unico nell'armeria a est. Banda non indicata.",
+          "description": "Fabbrica isolata nel nord della contea di Mariana, a nord-ovest delle Grassrivers e a nord-est di Tola Bay. Compare sulla mappa («Robbery Opportunity») solo quando entri nella zona. Sicurezza alta: si entra da un varco nella recinzione sul lato sud. Tre oggetti chiave: un pick-up nel capannone, una cassaforte senza codice nell'ufficio sul lato ovest e un mitra unico nell'armeria a est. Banda: Altri criminali (nell'elenco del menu è tra le loro 13 operazioni).",
           "status": "da verificare",
           "source": "stampa",
           "sourceUrl": "https://www.ign.com/wikis/gta-6/Industrial_Weed_Grow",
           "image": null,
           "spoilerLevel": 0,
           "example": false,
-          "updatedAt": "2026-11-19"
+          "updatedAt": "2026-11-21",
+          "moreSources": [
+            "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/"
+          ]
         },
         {
           "id": "poi-gang-manatee-motel",
@@ -6016,10 +6035,10 @@
       "image": "assets/img/grassrivers.jpg",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "gallery": [
         "assets/img/ss-grassrivers-07.jpg"
       ],
@@ -6067,7 +6086,7 @@
       "name": "Port Gellhorn",
       "region": "Contea di Kelly, costa del Golfo",
       "tagline": "Live Hard.",
-      "description": "La costa dimenticata di Leonida: motel economici, attrazioni chiuse, centri commerciali semivuoti e moto da cross sulla sabbia.",
+      "description": "La costa dimenticata di Leonida, nella contea di Kelly: motel economici, attrazioni chiuse, centri commerciali semivuoti e moto da cross sulla sabbia. In città comandano i Kolt & Associates, con cinque operazioni da rapinare tra pillole e farmaci. Qui ci sono il Delights Cabaret, due ricettatori, tre officine (Whisler Motorsport per le auto da corsa, Dirt Merchants per le moto da cross, Wasteland Off-Road per i fuoristrada), il Gellhorn International Raceway e due stazioni dei treni, Port Gellhorn e Draper Island.",
       "map": {
         "x": 300,
         "y": 400,
@@ -7004,10 +7023,10 @@
       "image": "assets/img/port-gellhorn.jpg",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-20",
+      "updatedAt": "2026-11-21",
       "gallery": [
         "assets/img/ss-port-gellhorn-07.jpg"
       ],
@@ -7575,7 +7594,7 @@
       "name": "Mount Kalaga National Park",
       "region": "Contea di Lummox, nord",
       "tagline": "Il tetto di Leonida.",
-      "description": "Il parco nazionale a nord: foreste aspre, canyon, sentieri da fuoristrada, caccia e pesca. Cervi, puma e volpi tra gli alberi.",
+      "description": "Il parco nazionale a nord, nella contea di Lummox: foreste aspre, canyon, laghi e una diga, sentieri da fuoristrada, caccia e pesca, con cervi, puma e volpi tra gli alberi. I paesi principali sono Grayson e Millport, ognuno con la sua stazione dei treni e il suo Pay 'n' Spray; a Moreau c'è la vecchia miniera d'oro MacAlister. Qui trovi l'armeria da caccia Rusty Willis Jr., l'officina di moto Ledford Motorcycle Workshop, quattro luoghi di meditazione e due operazioni da rapinare.",
       "map": {
         "x": 520,
         "y": 200,
@@ -8000,10 +8019,10 @@
       "image": "assets/img/mount-kalaga.jpg",
       "status": "verificato",
       "source": "trailer",
-      "sourceUrl": "https://www.rockstargames.com/VI/media/screenshots",
+      "sourceUrl": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
       "spoilerLevel": 0,
       "example": false,
-      "updatedAt": "2026-11-19",
+      "updatedAt": "2026-11-21",
       "gallery": [
         "assets/img/ss-mount-kalaga-01.jpg"
       ],
@@ -8415,7 +8434,7 @@
           "id": "poi-shore-court",
           "name": "Shore Court",
           "kind": "Garage",
-          "description": "Il garage personale su Shore Drive, a due passi da Ocean Beach, che ospita la '55 Vapid Stanier del Vintage Vice City Pack. Dentro ci sono l'armadietto delle armi e il deposito per la merce rubata. Non conta per il trofeo «Posto riservato».",
+          "description": "Il garage personale su Shore Drive, a due passi da Ocean Beach, che ospita la Vapid Stanier '55 del Vintage Vice City Pack. Dentro ci sono l'armadietto delle armi e il deposito per la merce rubata. Non conta per il trofeo «Posto riservato».",
           "status": "da verificare",
           "source": "community",
           "sourceUrl": "https://gta6locations.com/vice-city-neighborhoods/",
