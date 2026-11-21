@@ -8,7 +8,7 @@ import * as progress from '../store/progress.js';
 import * as cloud from '../store/cloud.js';
 import { esc, toast } from '../ui/dom.js';
 import { showSheet } from '../ui/sheet.js';
-import { sectionHead, sectionOf, vis } from './shared.js';
+import { sectionHead, sectionOf, vis, landmarkIds, pesata, pctLabel, PESI } from './shared.js';
 import * as spoiler from '../spoiler.js';
 import { galleryBlock } from './scatti.js';
 import * as criminale from './criminale.js';
@@ -28,11 +28,12 @@ export function summary(st) {
   const actsDone = vis(db.activities || []).filter((a) => st.activities?.[a.id] === 'completata');
   const mainDone = main.filter((m) => done(m.id)).length, sideDone = side.filter((m) => done(m.id)).length;
   const nColl = vis(db.collectibles || []).length, nTro = vis(db.trophies || []).length;
-  const tot = main.length + side.length + nTro + nColl;
+  const lmk = landmarkIds(), lDone = lmk.filter((id) => st.collectibles?.[id]).length, nAtt = vis(db.activities || []).length;
   return {
     cap, mainDone, mainTot: main.length, sideDone, sideTot: side.length,
     tro: trophies.length, troTot: nTro, coll: colls.length, collTot: nColl, att: actsDone.length, attTot: vis(db.activities || []).length,
-    pct: tot ? Math.round(((mainDone + sideDone + trophies.length + colls.length) / tot) * 1000) / 10 : 0,
+    pct: pesata({ storia: { done: mainDone, total: main.length }, trofei: { done: trophies.length, total: nTro },
+      attivita: { done: actsDone.length + sideDone, total: nAtt + side.length }, collezionabili: { done: colls.length + lDone, total: nColl + lmk.length } }),
   };
 }
 
@@ -62,7 +63,7 @@ export function render() {
   const list = rows.map((r, i) => `<button type="button" class="brow ${r.sei_tu ? 'is-me' : ''}" data-banda="${i}">
       <span class="brow__pos">${i + 1}</span>
       <span class="brow__who"><span class="brow__name"><b>${esc(r.nick)}</b>${r.sei_tu ? '<span class="chip chip--tu">tu</span>' : ''}${criminale.tag(crimeOf(r))}</span><span class="small muted">${r.s.cap ? `Capitolo ${r.s.cap}` : 'Non ha ancora iniziato'} · 🏆 ${r.s.tro}/${r.s.troTot} · aggiornato ${esc(when(r.aggiornato))}</span>${bar(r.s.pct, 100)}</span>
-      <span class="brow__pct">${r.s.pct.toLocaleString('it-IT')}%</span></button>`).join('');
+      <span class="brow__pct">${pctLabel(r.s.pct)}%</span></button>`).join('');
   const left = `${head}
     <p class="lede">Chi è più avanti? Tocca un amico per confrontarti con lui e scoprire cosa ha trovato che a te manca.</p>
     ${!nick ? `<p class="callout small">Scegli un nick in <a href="#/impostazioni">Impostazioni › Profilo</a>, così gli altri ti riconoscono.</p>` : ''}
@@ -70,7 +71,7 @@ export function render() {
     ${error ? `<p class="callout callout--warn small">${esc(error)}</p>` : ''}
     ${!cache && !error ? '<p class="muted">Carico la banda…</p>' : ''}
     ${rows.length ? `<div class="banda">${list}</div>` : (cache ? '<p class="muted">Per ora ci sei solo tu. Passa il link della guida agli amici.</p>' : '')}
-    <p class="small muted" style="margin-top:var(--s-4)">La percentuale conta missioni, trofei e collezionabili segnati nella guida. Delle missioni degli altri vedi solo i numeri, mai i nomi: niente spoiler.</p>
+    <p class="small muted" style="margin-top:var(--s-4)">La percentuale è la stessa della Home: ${PESI.map(([, p, l]) => `${l} ${p}%`).join(' · ')}. 100% vuol dire tutto fatto. Delle missioni degli altri vedi solo i numeri, mai i nomi: niente spoiler.</p>
     <div class="btn-row"><button class="btn btn--ghost" type="button" data-banda-reload>Aggiorna</button></div>
     ${galleryBlock()}`;
   return { left, right: '', show: 'left', accent: section.accent, title: 'La banda' };

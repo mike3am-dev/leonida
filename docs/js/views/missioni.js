@@ -378,7 +378,8 @@ export function bind(root, rerender) {
       }
       return;
     }
-    const x = e.target.closest('[data-extra]');
+    // si spunta toccando tutta la riga, non solo il pallino (Mike, 21/11)
+    const x = e.target.closest('[data-extra]') || (e.target.closest('a, button') ? null : e.target.closest('.check')?.querySelector(':scope > [data-extra]'));
     if (x) { progress.toggleExtra(x.dataset.mission, x.dataset.extra); rerender(); }
   });
   root.addEventListener('click', (e) => {

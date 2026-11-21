@@ -63,7 +63,7 @@ export function render() {
           <svg viewBox="0 0 120 120" aria-hidden="true">
             <defs><linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff3d8b"/></linearGradient></defs>
             <circle class="ring__track" cx="60" cy="60" r="54" fill="none" stroke-width="7"/>
-            <circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="7" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - s.pct / 100)}"/>
+            <circle class="ring__bar" cx="60" cy="60" r="54" fill="none" stroke-width="7" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - s.raw / 100)}"/>
           </svg>
           <div class="ring__label"><b>${s.pct}%</b><small>Totale</small></div>
         </div>

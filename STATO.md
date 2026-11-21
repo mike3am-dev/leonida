@@ -330,6 +330,11 @@ Mike: «questa sezione è molto triste graficamente». Schermate mandate (regola
 - Testata della classe con la stessa foto (`.vhead--img`); scheda attiva al neon invece del bianco; «Il tuo garage» è una fila sola che scorre di lato (prima andava a capo e spingeva giù le classi).
 - Codice: `cover()` in `veicoli.js`, CSS in fondo a `components.css`.
 
+## 5h. Percentuale pesata, righe da toccare, foto della banda (chat Bug, 21/11, anteprima bug-1)
+- **Percentuale di GTA VI** (Home e La banda ora usano lo stesso calcolo, `pesata()` e `PESI` in `shared.js`): Storia (missioni principali) 50% · Trofei 20% · Attività e missioni secondarie 15% · Collezionabili (con i punti di riferimento) 15%. Ogni parte conta per la sua quota, così i 1.400 collezionabili non schiacciano tutto a 0%; una parte senza voci nella guida passa il suo peso alle altre. Etichetta `pctLabel()`: un decimale sotto il 10% (4,2%), poi intero, 100 solo se è tutto fatto. Prima la Home divideva il totale delle voci senza trofei (0%), la banda contava anche i trofei con un decimale (0,5%). I pesi li ho scelti io su indicazione di Mike: si cambiano in `PESI`.
+- **Missione**: «Cosa devi fare» e «Per il 100%» si spuntano toccando tutta la riga, non solo il pallino.
+- **La banda, Scatti**: si tocca la foto per aprirla grande (come «Apri la foto»).
+
 ## 6. Strumenti e verifiche prima di ogni push
 - **Lezione del 18/11 (v0.44.0):** il rilascio (alzare VERSION/`__LEONIDA_VERSION__`, meta.json) NON va mai incatenato con `&&` dietro la prova nel browser: se il server locale si è spento la catena si ferma in silenzio e si pubblicano i dati senza il numero nuovo. Prima del commit controllare sempre `grep -o "__LEONIDA_VERSION__ = '[^']*'" docs/js/app.js`.
 **Fine di ogni aggiornamento (richiesta di Mike, 18/11):** `node scripts/completezza.mjs --salva "vX.Y.Z"` e poi `node scripts/grafico-completezza.mjs <scratchpad>/completezza.png`, e mandare il PNG a Mike (SendUserFile): barre per sezione, in rosa chiaro la crescita rispetto all'aggiornamento prima. I totali delle categorie dei collezionabili stanno in `collectibles.categories[].total`.

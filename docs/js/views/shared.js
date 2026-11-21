@@ -54,6 +54,17 @@ export function landmarkIds(districtId) {
   for (const l of db.luoghi || []) if (!districtId || l.districtId === districtId) (l.landmarks || []).forEach((k, i) => out.push(`lmk-${l.slug}-${i + 1}`));
   return out;
 }
+/** Percentuale di GTA VI, una sola per Home e La banda (Mike, 21/11): ogni parte pesa per conto suo,
+ *  così i 1.400 collezionabili non schiacciano tutto a 0%. 100% = hai fatto tutto quello che c'è nella guida.
+ *  Una parte senza voci nella guida non conta: il suo peso si divide tra le altre. */
+export const PESI = [['storia', 50, 'Storia'], ['trofei', 20, 'Trofei'], ['attivita', 15, 'Attività e missioni secondarie'], ['collezionabili', 15, 'Collezionabili']];
+export function pesata(parts) {
+  let w = 0, sum = 0;
+  for (const [k, peso] of PESI) { const p = parts[k]; if (!p?.total) continue; w += peso; sum += peso * Math.min(1, p.done / p.total); }
+  return w ? (sum / w) * 100 : 0;
+}
+/** 0,4% · 3,8% · 12% · 100%: un decimale finché è sotto il 10, poi intero (mai 100 se manca qualcosa) */
+export const pctLabel = (x) => (x >= 100 ? '100' : x >= 10 ? String(Math.min(99, Math.floor(x))) : (Math.floor(x * 10) / 10).toLocaleString('it-IT'));
 export function stats() {
   const st = progress.get();
   const missions = vis(db.missions);
@@ -63,10 +74,12 @@ export function stats() {
   const cDone = cols.filter((c) => st.collectibles[c.id]).length;
   const aDone = acts.filter((a) => st.activities[a.id] === 'completata').length;
   const lmk = landmarkIds(), lDone = lmk.filter((id) => st.collectibles[id]).length;
-  const total = missions.length + cols.length + acts.length + lmk.length;
-  const done = mDone + cDone + aDone + lDone;
+  const side = vis(db.sideMissions || []), sDone = side.filter((m) => st.missions[m.id]?.state === 'completata').length;
+  const tro = vis(db.trophies || []), tDone = tro.filter((t) => st.trophies?.[t.id]).length;
+  const raw = pesata({ storia: { done: mDone, total: missions.length }, trofei: { done: tDone, total: tro.length },
+    attivita: { done: aDone + sDone, total: acts.length + side.length }, collezionabili: { done: cDone + lDone, total: cols.length + lmk.length } });
   return {
-    pct: total ? Math.round((done / total) * 100) : 0,
+    raw, pct: pctLabel(raw),
     missions: { done: mDone, total: missions.length },
     collectibles: { done: cDone, total: cols.length },
     activities: { done: aDone, total: acts.length },

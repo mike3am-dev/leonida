@@ -109,7 +109,7 @@ function editSheet(s) {
 async function shotSheet(s) {
   const body = document.createElement('div'); body.className = 'shotview';
   const paint = (comments) => {
-    body.innerHTML = `<img src="${esc(cloud.photoUrl(s.percorso))}" alt="">
+    body.innerHTML = `<a class="shotview__open" href="${esc(cloud.photoUrl(s.percorso))}" target="_blank" rel="noopener" aria-label="Apri la foto grande"><img src="${esc(cloud.photoUrl(s.percorso))}" alt=""></a>
       <div class="shotview__meta"><b>${esc(s.nick)}</b><span class="small muted">${esc(when(s.creato))}${s.zona ? ' · ' + esc(s.zona) : ''}${s.spoiler ? ` · spoiler capitolo ${s.spoiler}` : ''}</span></div>
       ${s.didascalia ? `<p>${esc(s.didascalia)}</p>` : ''}
       <div class="btn-row"><button class="btn ${s.piace ? 'btn--accent' : ''} shot-like" type="button" data-like>${heart(s.piace)} ${s.likes}</button>

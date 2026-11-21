@@ -2223,6 +2223,8 @@ body.has-map-full .masthead, body.has-map-full .tabbar, body.has-map-full #follo
 .shot__foot svg { width: 14px; height: 14px; }
 .shot-prev { display: block; width: 100%; border-radius: 12px; margin-bottom: var(--s-3); }
 .shotview img { display: block; width: 100%; border-radius: 12px; }
+.shotview__open { display: block; cursor: zoom-in; }
+.check:has(> [data-extra]) .check__body { cursor: pointer; }
 .shotview__meta { display: grid; gap: 2px; margin: var(--s-3) 0; }
 .shot-like svg { width: 18px; height: 18px; color: var(--magenta); }
 .btn--accent.shot-like svg { color: inherit; }
